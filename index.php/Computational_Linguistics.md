@@ -1,5 +1,5 @@
 ---
-title: Computational Linguistics
+title: "Computational Linguistics"
 layout: default
 permalink: /index.php/Computational_Linguistics
 ---

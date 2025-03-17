@@ -1,5 +1,5 @@
 ---
-title: Hadoop Pseudo Distributed Mode
+title: "Hadoop Pseudo Distributed Mode"
 layout: default
 permalink: /index.php/Hadoop_Pseudo_Distributed_Mode
 ---

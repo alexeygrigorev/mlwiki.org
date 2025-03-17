@@ -1,5 +1,5 @@
 ---
-title: Vector Clock
+title: "Vector Clock"
 layout: default
 permalink: /index.php/Vector_Clock
 ---

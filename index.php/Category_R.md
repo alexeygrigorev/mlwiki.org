@@ -1,5 +1,5 @@
 ---
-title: Category:R
+title: "Category:R"
 layout: default
 permalink: /index.php/Category_R
 ---

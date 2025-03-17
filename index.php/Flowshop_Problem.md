@@ -1,5 +1,5 @@
 ---
-title: Flowshop Problem
+title: "Flowshop Problem"
 layout: default
 permalink: /index.php/Flowshop_Problem
 ---

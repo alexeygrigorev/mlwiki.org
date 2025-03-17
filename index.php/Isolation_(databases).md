@@ -1,5 +1,5 @@
 ---
-title: Isolation (databases)
+title: "Isolation (databases)"
 layout: default
 permalink: /index.php/Isolation_(databases)
 ---

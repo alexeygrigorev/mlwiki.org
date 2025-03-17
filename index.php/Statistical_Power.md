@@ -1,5 +1,5 @@
 ---
-title: Statistical Power
+title: "Statistical Power"
 layout: default
 permalink: /index.php/Statistical_Power
 ---

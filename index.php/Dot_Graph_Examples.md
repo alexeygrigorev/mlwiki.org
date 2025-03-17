@@ -1,5 +1,5 @@
 ---
-title: Dot Graph Examples
+title: "Dot Graph Examples"
 layout: default
 permalink: /index.php/Dot_Graph_Examples
 ---

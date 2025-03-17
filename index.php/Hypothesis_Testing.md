@@ -1,5 +1,5 @@
 ---
-title: Hypothesis Testing
+title: "Hypothesis Testing"
 layout: default
 permalink: /index.php/Hypothesis_Testing
 ---

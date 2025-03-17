@@ -1,5 +1,5 @@
 ---
-title: Computing for Data Analysis
+title: "Computing for Data Analysis"
 layout: default
 permalink: /index.php/Computing_for_Data_Analysis
 ---

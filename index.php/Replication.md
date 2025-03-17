@@ -1,5 +1,5 @@
 ---
-title: Replication
+title: "Replication"
 layout: default
 permalink: /index.php/Replication
 ---

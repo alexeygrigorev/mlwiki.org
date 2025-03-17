@@ -1,5 +1,5 @@
 ---
-title: Information Retrieval Models
+title: "Information Retrieval Models"
 layout: default
 permalink: /index.php/Information_Retrieval_Models
 ---

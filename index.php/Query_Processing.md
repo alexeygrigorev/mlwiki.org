@@ -1,5 +1,5 @@
 ---
-title: Query Processing
+title: "Query Processing"
 layout: default
 permalink: /index.php/Query_Processing
 ---

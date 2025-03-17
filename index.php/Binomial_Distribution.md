@@ -1,5 +1,5 @@
 ---
-title: Binomial Distribution
+title: "Binomial Distribution"
 layout: default
 permalink: /index.php/Binomial_Distribution
 ---

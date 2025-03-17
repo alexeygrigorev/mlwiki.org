@@ -1,5 +1,5 @@
 ---
-title: Symmetric Matrices
+title: "Symmetric Matrices"
 layout: default
 permalink: /index.php/Symmetric_Matrices
 ---

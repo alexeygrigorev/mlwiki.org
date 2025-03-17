@@ -1,5 +1,5 @@
 ---
-title: Query Plan
+title: "Query Plan"
 layout: default
 permalink: /index.php/Query_Plan
 ---

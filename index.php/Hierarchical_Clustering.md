@@ -1,5 +1,5 @@
 ---
-title: Hierarchical Clustering
+title: "Hierarchical Clustering"
 layout: default
 permalink: /index.php/Hierarchical_Clustering
 ---

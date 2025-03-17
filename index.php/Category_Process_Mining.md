@@ -1,5 +1,5 @@
 ---
-title: Category:Process Mining
+title: "Category:Process Mining"
 layout: default
 permalink: /index.php/Category_Process_Mining
 ---

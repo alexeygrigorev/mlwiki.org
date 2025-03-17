@@ -1,5 +1,5 @@
 ---
-title: Cost Matrix
+title: "Cost Matrix"
 layout: default
 permalink: /index.php/Cost_Matrix
 ---

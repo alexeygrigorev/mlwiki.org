@@ -1,5 +1,5 @@
 ---
-title: Pragmatic Investment Plan
+title: "Pragmatic Investment Plan"
 layout: default
 permalink: /index.php/Pragmatic_Investment_Plan
 ---

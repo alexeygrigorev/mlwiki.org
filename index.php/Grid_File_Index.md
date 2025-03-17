@@ -1,5 +1,5 @@
 ---
-title: Grid File Index
+title: "Grid File Index"
 layout: default
 permalink: /index.php/Grid_File_Index
 ---

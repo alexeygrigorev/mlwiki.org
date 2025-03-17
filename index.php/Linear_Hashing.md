@@ -1,5 +1,5 @@
 ---
-title: Linear Hashing
+title: "Linear Hashing"
 layout: default
 permalink: /index.php/Linear_Hashing
 ---

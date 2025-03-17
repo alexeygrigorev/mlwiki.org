@@ -1,5 +1,5 @@
 ---
-title: One-vs-All Classification
+title: "One-vs-All Classification"
 layout: default
 permalink: /index.php/One-vs-All_Classification
 ---

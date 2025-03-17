@@ -1,5 +1,5 @@
 ---
-title: Language Models
+title: "Language Models"
 layout: default
 permalink: /index.php/Language_Models
 ---

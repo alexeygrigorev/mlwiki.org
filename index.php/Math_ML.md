@@ -1,5 +1,5 @@
 ---
-title: Math ML
+title: "Math ML"
 layout: default
 permalink: /index.php/Math_ML
 ---

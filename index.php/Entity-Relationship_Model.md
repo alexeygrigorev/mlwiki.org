@@ -1,5 +1,5 @@
 ---
-title: Entity-Relationship Model
+title: "Entity-Relationship Model"
 layout: default
 permalink: /index.php/Entity-Relationship_Model
 ---

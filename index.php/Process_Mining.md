@@ -1,5 +1,5 @@
 ---
-title: Process Mining
+title: "Process Mining"
 layout: default
 permalink: /index.php/Process_Mining
 ---

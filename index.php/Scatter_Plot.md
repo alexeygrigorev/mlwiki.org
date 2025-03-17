@@ -1,5 +1,5 @@
 ---
-title: Scatter Plot
+title: "Scatter Plot"
 layout: default
 permalink: /index.php/Scatter_Plot
 ---

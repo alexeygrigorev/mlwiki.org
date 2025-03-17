@@ -1,5 +1,5 @@
 ---
-title: Statistics: Making Sense of Data (coursera)
+title: "Statistics: Making Sense of Data (coursera)"
 layout: default
 permalink: /index.php/Statistics__Making_Sense_of_Data_(coursera)
 ---

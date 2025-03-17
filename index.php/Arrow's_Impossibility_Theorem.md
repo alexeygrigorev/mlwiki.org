@@ -1,5 +1,5 @@
 ---
-title: Arrow's Impossibility Theorem
+title: "Arrow's Impossibility Theorem"
 layout: default
 permalink: /index.php/Arrow's_Impossibility_Theorem
 ---

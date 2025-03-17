@@ -1,5 +1,5 @@
 ---
-title: Complex Vector Space
+title: "Complex Vector Space"
 layout: default
 permalink: /index.php/Complex_Vector_Space
 ---

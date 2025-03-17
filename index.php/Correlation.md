@@ -1,5 +1,5 @@
 ---
-title: Correlation
+title: "Correlation"
 layout: default
 permalink: /index.php/Correlation
 ---

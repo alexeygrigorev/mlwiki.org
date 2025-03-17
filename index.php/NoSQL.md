@@ -1,5 +1,5 @@
 ---
-title: NoSQL
+title: "NoSQL"
 layout: default
 permalink: /index.php/NoSQL
 ---

@@ -1,5 +1,5 @@
 ---
-title: Observational Studies
+title: "Observational Studies"
 layout: default
 permalink: /index.php/Observational_Studies
 ---

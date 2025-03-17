@@ -1,5 +1,5 @@
 ---
-title: Category:Multi-Criteria Decision Aid
+title: "Category:Multi-Criteria Decision Aid"
 layout: default
 permalink: /index.php/Category_Multi-Criteria_Decision_Aid
 ---

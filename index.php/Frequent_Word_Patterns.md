@@ -1,5 +1,5 @@
 ---
-title: Frequent Word Patterns
+title: "Frequent Word Patterns"
 layout: default
 permalink: /index.php/Frequent_Word_Patterns
 ---

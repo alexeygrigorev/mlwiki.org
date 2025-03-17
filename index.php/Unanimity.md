@@ -1,5 +1,5 @@
 ---
-title: Unanimity
+title: "Unanimity"
 layout: default
 permalink: /index.php/Unanimity
 ---

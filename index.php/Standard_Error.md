@@ -1,5 +1,5 @@
 ---
-title: Standard Error
+title: "Standard Error"
 layout: default
 permalink: /index.php/Standard_Error
 ---

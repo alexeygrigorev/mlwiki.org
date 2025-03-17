@@ -1,5 +1,5 @@
 ---
-title: Category:Functional Programming
+title: "Category:Functional Programming"
 layout: default
 permalink: /index.php/Category_Functional_Programming
 ---

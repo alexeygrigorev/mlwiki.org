@@ -1,5 +1,5 @@
 ---
-title: ANOVA
+title: "ANOVA"
 layout: default
 permalink: /index.php/ANOVA
 ---

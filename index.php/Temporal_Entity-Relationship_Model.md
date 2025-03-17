@@ -1,5 +1,5 @@
 ---
-title: Temporal Entity-Relationship Model
+title: "Temporal Entity-Relationship Model"
 layout: default
 permalink: /index.php/Temporal_Entity-Relationship_Model
 ---

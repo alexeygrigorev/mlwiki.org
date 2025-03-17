@@ -1,5 +1,5 @@
 ---
-title: Projection onto Subspaces
+title: "Projection onto Subspaces"
 layout: default
 permalink: /index.php/Projection_onto_Subspaces
 ---

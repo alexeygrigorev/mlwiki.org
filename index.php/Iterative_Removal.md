@@ -1,5 +1,5 @@
 ---
-title: Iterative Removal
+title: "Iterative Removal"
 layout: default
 permalink: /index.php/Iterative_Removal
 ---

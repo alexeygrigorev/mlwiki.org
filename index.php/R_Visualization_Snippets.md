@@ -1,5 +1,5 @@
 ---
-title: R Visualization Snippets
+title: "R Visualization Snippets"
 layout: default
 permalink: /index.php/R_Visualization_Snippets
 ---

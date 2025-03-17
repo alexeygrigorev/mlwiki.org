@@ -1,5 +1,5 @@
 ---
-title: XML Schema
+title: "XML Schema"
 layout: default
 permalink: /index.php/XML_Schema
 ---

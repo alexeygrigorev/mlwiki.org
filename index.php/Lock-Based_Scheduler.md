@@ -1,5 +1,5 @@
 ---
-title: Lock-Based Scheduler
+title: "Lock-Based Scheduler"
 layout: default
 permalink: /index.php/Lock-Based_Scheduler
 ---

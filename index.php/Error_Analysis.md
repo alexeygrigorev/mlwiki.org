@@ -1,5 +1,5 @@
 ---
-title: Error Analysis
+title: "Error Analysis"
 layout: default
 permalink: /index.php/Error_Analysis
 ---

@@ -1,5 +1,5 @@
 ---
-title: Calculus Single Variable (coursera)
+title: "Calculus Single Variable (coursera)"
 layout: default
 permalink: /index.php/Calculus_Single_Variable_(coursera)
 ---

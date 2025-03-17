@@ -1,5 +1,5 @@
 ---
-title: I/O Model of Computation
+title: "I/O Model of Computation"
 layout: default
 permalink: /index.php/I_O_Model_of_Computation
 ---

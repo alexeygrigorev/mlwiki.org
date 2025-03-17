@@ -1,5 +1,5 @@
 ---
-title: Category:Multi-Objective Optimization
+title: "Category:Multi-Objective Optimization"
 layout: default
 permalink: /index.php/Category_Multi-Objective_Optimization
 ---

@@ -1,5 +1,5 @@
 ---
-title: Normal Equation
+title: "Normal Equation"
 layout: default
 permalink: /index.php/Normal_Equation
 ---

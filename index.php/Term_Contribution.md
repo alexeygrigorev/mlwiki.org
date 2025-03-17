@@ -1,5 +1,5 @@
 ---
-title: Term Contribution
+title: "Term Contribution"
 layout: default
 permalink: /index.php/Term_Contribution
 ---

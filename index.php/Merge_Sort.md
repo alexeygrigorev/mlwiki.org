@@ -1,5 +1,5 @@
 ---
-title: Merge Sort
+title: "Merge Sort"
 layout: default
 permalink: /index.php/Merge_Sort
 ---

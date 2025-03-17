@@ -1,5 +1,5 @@
 ---
-title: Expected Value
+title: "Expected Value"
 layout: default
 permalink: /index.php/Expected_Value
 ---

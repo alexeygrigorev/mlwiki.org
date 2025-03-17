@@ -1,5 +1,5 @@
 ---
-title: F Measure
+title: "F Measure"
 layout: default
 permalink: /index.php/F_Measure
 ---

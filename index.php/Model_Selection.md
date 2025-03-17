@@ -1,5 +1,5 @@
 ---
-title: Model Selection
+title: "Model Selection"
 layout: default
 permalink: /index.php/Model_Selection
 ---

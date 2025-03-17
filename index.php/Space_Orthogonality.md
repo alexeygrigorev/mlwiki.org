@@ -1,5 +1,5 @@
 ---
-title: Space Orthogonality
+title: "Space Orthogonality"
 layout: default
 permalink: /index.php/Space_Orthogonality
 ---

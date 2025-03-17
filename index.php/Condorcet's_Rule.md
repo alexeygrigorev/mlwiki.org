@@ -1,5 +1,5 @@
 ---
-title: Condorcet's Rule
+title: "Condorcet's Rule"
 layout: default
 permalink: /index.php/Condorcet's_Rule
 ---

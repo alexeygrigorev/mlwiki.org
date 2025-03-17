@@ -1,5 +1,5 @@
 ---
-title: Mathematical Definition Extraction
+title: "Mathematical Definition Extraction"
 layout: default
 permalink: /index.php/Mathematical_Definition_Extraction
 ---

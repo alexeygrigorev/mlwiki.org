@@ -1,5 +1,5 @@
 ---
-title: Distance Functions
+title: "Distance Functions"
 layout: default
 permalink: /index.php/Distance_Functions
 ---

@@ -1,5 +1,5 @@
 ---
-title: Hash Tables
+title: "Hash Tables"
 layout: default
 permalink: /index.php/Hash_Tables
 ---

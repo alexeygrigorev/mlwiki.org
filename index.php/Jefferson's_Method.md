@@ -1,5 +1,5 @@
 ---
-title: Jefferson's Method
+title: "Jefferson's Method"
 layout: default
 permalink: /index.php/Jefferson's_Method
 ---

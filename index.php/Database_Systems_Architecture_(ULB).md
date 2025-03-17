@@ -1,5 +1,5 @@
 ---
-title: Database Systems Architecture (ULB)
+title: "Database Systems Architecture (ULB)"
 layout: default
 permalink: /index.php/Database_Systems_Architecture_(ULB)
 ---

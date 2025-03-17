@@ -1,5 +1,5 @@
 ---
-title: Functional Programming Principles in Scala (coursera)
+title: "Functional Programming Principles in Scala (coursera)"
 layout: default
 permalink: /index.php/Functional_Programming_Principles_in_Scala_(coursera)
 ---

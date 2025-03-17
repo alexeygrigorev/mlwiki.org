@@ -1,5 +1,5 @@
 ---
-title: Entropy-Based Ranking
+title: "Entropy-Based Ranking"
 layout: default
 permalink: /index.php/Entropy-Based_Ranking
 ---

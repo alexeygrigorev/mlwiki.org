@@ -1,5 +1,5 @@
 ---
-title: Data Science Interview Questions
+title: "Data Science Interview Questions"
 layout: default
 permalink: /index.php/Data_Science_Interview_Questions
 ---

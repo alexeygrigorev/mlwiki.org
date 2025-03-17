@@ -1,5 +1,5 @@
 ---
-title: Books
+title: "Books"
 layout: default
 permalink: /index.php/Books
 ---

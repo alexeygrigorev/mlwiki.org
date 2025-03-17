@@ -1,5 +1,5 @@
 ---
-title: Atomicity (databases)
+title: "Atomicity (databases)"
 layout: default
 permalink: /index.php/Atomicity_(databases)
 ---

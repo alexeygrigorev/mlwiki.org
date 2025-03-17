@@ -1,5 +1,5 @@
 ---
-title: Distribution Function
+title: "Distribution Function"
 layout: default
 permalink: /index.php/Distribution_Function
 ---

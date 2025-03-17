@@ -1,5 +1,5 @@
 ---
-title: Monotonicity
+title: "Monotonicity"
 layout: default
 permalink: /index.php/Monotonicity
 ---

@@ -1,5 +1,5 @@
 ---
-title: Plurality Voting
+title: "Plurality Voting"
 layout: default
 permalink: /index.php/Plurality_Voting
 ---

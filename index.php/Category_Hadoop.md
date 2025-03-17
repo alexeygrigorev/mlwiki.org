@@ -1,5 +1,5 @@
 ---
-title: Category:Hadoop
+title: "Category:Hadoop"
 layout: default
 permalink: /index.php/Category_Hadoop
 ---

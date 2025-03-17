@@ -1,5 +1,5 @@
 ---
-title: Machine Learning
+title: "Machine Learning"
 layout: default
 permalink: /index.php/Machine_Learning
 ---

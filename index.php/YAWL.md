@@ -1,5 +1,5 @@
 ---
-title: YAWL
+title: "YAWL"
 layout: default
 permalink: /index.php/YAWL
 ---

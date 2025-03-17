@@ -1,5 +1,5 @@
 ---
-title: Dijkstra's Shortest Path
+title: "Dijkstra's Shortest Path"
 layout: default
 permalink: /index.php/Dijkstra's_Shortest_Path
 ---

@@ -1,5 +1,5 @@
 ---
-title: Exploratory Data Analysis
+title: "Exploratory Data Analysis"
 layout: default
 permalink: /index.php/Exploratory_Data_Analysis
 ---

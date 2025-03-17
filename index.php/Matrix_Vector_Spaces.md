@@ -1,5 +1,5 @@
 ---
-title: Matrix Vector Spaces
+title: "Matrix Vector Spaces"
 layout: default
 permalink: /index.php/Matrix_Vector_Spaces
 ---

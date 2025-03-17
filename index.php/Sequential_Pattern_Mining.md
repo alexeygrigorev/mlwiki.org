@@ -1,5 +1,5 @@
 ---
-title: Sequential Pattern Mining
+title: "Sequential Pattern Mining"
 layout: default
 permalink: /index.php/Sequential_Pattern_Mining
 ---

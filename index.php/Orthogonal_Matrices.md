@@ -1,5 +1,5 @@
 ---
-title: Orthogonal Matrices
+title: "Orthogonal Matrices"
 layout: default
 permalink: /index.php/Orthogonal_Matrices
 ---

@@ -1,5 +1,5 @@
 ---
-title: Concurrency Control
+title: "Concurrency Control"
 layout: default
 permalink: /index.php/Concurrency_Control
 ---

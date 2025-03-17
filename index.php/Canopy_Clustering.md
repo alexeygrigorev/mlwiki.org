@@ -1,5 +1,5 @@
 ---
-title: Canopy Clustering
+title: "Canopy Clustering"
 layout: default
 permalink: /index.php/Canopy_Clustering
 ---

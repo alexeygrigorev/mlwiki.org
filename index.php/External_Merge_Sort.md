@@ -1,5 +1,5 @@
 ---
-title: External Merge Sort
+title: "External Merge Sort"
 layout: default
 permalink: /index.php/External_Merge_Sort
 ---

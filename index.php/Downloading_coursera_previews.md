@@ -1,5 +1,5 @@
 ---
-title: Downloading coursera previews
+title: "Downloading coursera previews"
 layout: default
 permalink: /index.php/Downloading_coursera_previews
 ---

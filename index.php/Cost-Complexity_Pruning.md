@@ -1,5 +1,5 @@
 ---
-title: Cost-Complexity Pruning
+title: "Cost-Complexity Pruning"
 layout: default
 permalink: /index.php/Cost-Complexity_Pruning
 ---

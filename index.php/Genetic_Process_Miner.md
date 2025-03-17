@@ -1,5 +1,5 @@
 ---
-title: Genetic Process Miner
+title: "Genetic Process Miner"
 layout: default
 permalink: /index.php/Genetic_Process_Miner
 ---

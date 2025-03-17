@@ -1,5 +1,5 @@
 ---
-title: Game Theory (coursera)
+title: "Game Theory (coursera)"
 layout: default
 permalink: /index.php/Game_Theory_(coursera)
 ---

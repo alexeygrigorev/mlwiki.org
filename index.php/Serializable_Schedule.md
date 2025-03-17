@@ -1,5 +1,5 @@
 ---
-title: Serializable Schedule
+title: "Serializable Schedule"
 layout: default
 permalink: /index.php/Serializable_Schedule
 ---

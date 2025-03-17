@@ -1,5 +1,5 @@
 ---
-title: Probabilistic Retrieval Model
+title: "Probabilistic Retrieval Model"
 layout: default
 permalink: /index.php/Probabilistic_Retrieval_Model
 ---

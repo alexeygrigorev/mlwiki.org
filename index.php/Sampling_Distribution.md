@@ -1,5 +1,5 @@
 ---
-title: Sampling Distribution
+title: "Sampling Distribution"
 layout: default
 permalink: /index.php/Sampling_Distribution
 ---

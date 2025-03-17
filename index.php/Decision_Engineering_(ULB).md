@@ -1,5 +1,5 @@
 ---
-title: Decision Engineering (ULB)
+title: "Decision Engineering (ULB)"
 layout: default
 permalink: /index.php/Decision_Engineering_(ULB)
 ---

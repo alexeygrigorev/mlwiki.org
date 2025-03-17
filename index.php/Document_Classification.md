@@ -1,5 +1,5 @@
 ---
-title: Document Classification
+title: "Document Classification"
 layout: default
 permalink: /index.php/Document_Classification
 ---

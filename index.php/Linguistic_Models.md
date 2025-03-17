@@ -1,5 +1,5 @@
 ---
-title: Linguistic Models
+title: "Linguistic Models"
 layout: default
 permalink: /index.php/Linguistic_Models
 ---

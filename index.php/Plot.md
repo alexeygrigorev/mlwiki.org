@@ -1,5 +1,5 @@
 ---
-title: Plot
+title: "Plot"
 layout: default
 permalink: /index.php/Plot
 ---

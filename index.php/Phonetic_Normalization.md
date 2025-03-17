@@ -1,5 +1,5 @@
 ---
-title: Phonetic Normalization
+title: "Phonetic Normalization"
 layout: default
 permalink: /index.php/Phonetic_Normalization
 ---

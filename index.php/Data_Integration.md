@@ -1,5 +1,5 @@
 ---
-title: Data Integration
+title: "Data Integration"
 layout: default
 permalink: /index.php/Data_Integration
 ---

@@ -1,5 +1,5 @@
 ---
-title: Template:Code
+title: "Template:Code"
 layout: default
 permalink: /index.php/Template_Code
 ---

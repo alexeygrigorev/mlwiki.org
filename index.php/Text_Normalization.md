@@ -1,5 +1,5 @@
 ---
-title: Text Normalization
+title: "Text Normalization"
 layout: default
 permalink: /index.php/Text_Normalization
 ---

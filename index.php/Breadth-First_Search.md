@@ -1,5 +1,5 @@
 ---
-title: Breadth-First Search
+title: "Breadth-First Search"
 layout: default
 permalink: /index.php/Breadth-First_Search
 ---

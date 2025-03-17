@@ -1,5 +1,5 @@
 ---
-title: Permutation Matrices
+title: "Permutation Matrices"
 layout: default
 permalink: /index.php/Permutation_Matrices
 ---

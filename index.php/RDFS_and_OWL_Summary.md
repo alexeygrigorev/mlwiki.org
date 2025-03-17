@@ -1,5 +1,5 @@
 ---
-title: RDFS and OWL Summary
+title: "RDFS and OWL Summary"
 layout: default
 permalink: /index.php/RDFS_and_OWL_Summary
 ---

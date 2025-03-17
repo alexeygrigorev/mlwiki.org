@@ -1,5 +1,5 @@
 ---
-title: Chi-Squared Distribution
+title: "Chi-Squared Distribution"
 layout: default
 permalink: /index.php/Chi-Squared_Distribution
 ---

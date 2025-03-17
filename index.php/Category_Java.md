@@ -1,5 +1,5 @@
 ---
-title: Category:Java
+title: "Category:Java"
 layout: default
 permalink: /index.php/Category_Java
 ---

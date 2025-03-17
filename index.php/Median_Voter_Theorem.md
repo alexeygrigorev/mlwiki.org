@@ -1,5 +1,5 @@
 ---
-title: Median Voter Theorem
+title: "Median Voter Theorem"
 layout: default
 permalink: /index.php/Median_Voter_Theorem
 ---

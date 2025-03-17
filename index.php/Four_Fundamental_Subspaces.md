@@ -1,5 +1,5 @@
 ---
-title: Four Fundamental Subspaces
+title: "Four Fundamental Subspaces"
 layout: default
 permalink: /index.php/Four_Fundamental_Subspaces
 ---

@@ -1,5 +1,5 @@
 ---
-title: Undo Logging
+title: "Undo Logging"
 layout: default
 permalink: /index.php/Undo_Logging
 ---

@@ -1,5 +1,5 @@
 ---
-title: Types of Variables
+title: "Types of Variables"
 layout: default
 permalink: /index.php/Types_of_Variables
 ---

@@ -1,5 +1,5 @@
 ---
-title: Automata (coursera)
+title: "Automata (coursera)"
 layout: default
 permalink: /index.php/Automata_(coursera)
 ---

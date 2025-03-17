@@ -1,5 +1,5 @@
 ---
-title: Inversion Count
+title: "Inversion Count"
 layout: default
 permalink: /index.php/Inversion_Count
 ---

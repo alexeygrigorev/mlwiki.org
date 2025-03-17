@@ -1,5 +1,5 @@
 ---
-title: Greatest Common Divisor
+title: "Greatest Common Divisor"
 layout: default
 permalink: /index.php/Greatest_Common_Divisor
 ---

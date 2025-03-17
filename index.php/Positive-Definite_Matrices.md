@@ -1,5 +1,5 @@
 ---
-title: Positive-Definite Matrices
+title: "Positive-Definite Matrices"
 layout: default
 permalink: /index.php/Positive-Definite_Matrices
 ---

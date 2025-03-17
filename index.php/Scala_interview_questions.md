@@ -1,5 +1,5 @@
 ---
-title: Scala interview questions
+title: "Scala interview questions"
 layout: default
 permalink: /index.php/Scala_interview_questions
 ---

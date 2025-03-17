@@ -1,5 +1,5 @@
 ---
-title: Precision and Recall
+title: "Precision and Recall"
 layout: default
 permalink: /index.php/Precision_and_Recall
 ---

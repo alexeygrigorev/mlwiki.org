@@ -1,5 +1,5 @@
 ---
-title: Association Rule Mining
+title: "Association Rule Mining"
 layout: default
 permalink: /index.php/Association_Rule_Mining
 ---

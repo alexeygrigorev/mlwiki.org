@@ -1,5 +1,5 @@
 ---
-title: Category:Vector Spaces
+title: "Category:Vector Spaces"
 layout: default
 permalink: /index.php/Category_Vector_Spaces
 ---

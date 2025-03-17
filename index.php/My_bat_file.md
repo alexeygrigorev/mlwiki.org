@@ -1,5 +1,5 @@
 ---
-title: My bat file
+title: "My bat file"
 layout: default
 permalink: /index.php/My_bat_file
 ---

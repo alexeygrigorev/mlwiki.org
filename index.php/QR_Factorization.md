@@ -1,5 +1,5 @@
 ---
-title: QR Factorization
+title: "QR Factorization"
 layout: default
 permalink: /index.php/QR_Factorization
 ---

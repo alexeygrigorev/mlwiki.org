@@ -1,5 +1,5 @@
 ---
-title: Polynomial Functions
+title: "Polynomial Functions"
 layout: default
 permalink: /index.php/Polynomial_Functions
 ---

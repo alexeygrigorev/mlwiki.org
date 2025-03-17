@@ -1,5 +1,5 @@
 ---
-title: Algorithms Design and Analysis Part 1 (coursera)
+title: "Algorithms Design and Analysis Part 1 (coursera)"
 layout: default
 permalink: /index.php/Algorithms_Design_and_Analysis_Part_1_(coursera)
 ---

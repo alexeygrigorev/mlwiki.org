@@ -1,5 +1,5 @@
 ---
-title: Divide and Conquer
+title: "Divide and Conquer"
 layout: default
 permalink: /index.php/Divide_and_Conquer
 ---

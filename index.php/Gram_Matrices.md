@@ -1,5 +1,5 @@
 ---
-title: Gram Matrices
+title: "Gram Matrices"
 layout: default
 permalink: /index.php/Gram_Matrices
 ---

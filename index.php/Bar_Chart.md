@@ -1,5 +1,5 @@
 ---
-title: Bar Chart
+title: "Bar Chart"
 layout: default
 permalink: /index.php/Bar_Chart
 ---

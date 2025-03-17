@@ -1,5 +1,5 @@
 ---
-title: Category:Maven
+title: "Category:Maven"
 layout: default
 permalink: /index.php/Category_Maven
 ---

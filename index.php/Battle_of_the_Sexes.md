@@ -1,5 +1,5 @@
 ---
-title: Battle of the Sexes
+title: "Battle of the Sexes"
 layout: default
 permalink: /index.php/Battle_of_the_Sexes
 ---

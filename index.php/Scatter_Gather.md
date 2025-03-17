@@ -1,5 +1,5 @@
 ---
-title: Scatter/Gather
+title: "Scatter/Gather"
 layout: default
 permalink: /index.php/Scatter_Gather
 ---

@@ -1,5 +1,5 @@
 ---
-title: Memory Hierarchy
+title: "Memory Hierarchy"
 layout: default
 permalink: /index.php/Memory_Hierarchy
 ---

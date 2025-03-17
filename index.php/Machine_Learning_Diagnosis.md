@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Diagnosis
+title: "Machine Learning Diagnosis"
 layout: default
 permalink: /index.php/Machine_Learning_Diagnosis
 ---

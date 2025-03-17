@@ -1,5 +1,5 @@
 ---
-title: Category:Rule Mining
+title: "Category:Rule Mining"
 layout: default
 permalink: /index.php/Category_Rule_Mining
 ---

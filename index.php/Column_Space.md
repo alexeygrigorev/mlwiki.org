@@ -1,5 +1,5 @@
 ---
-title: Column Space
+title: "Column Space"
 layout: default
 permalink: /index.php/Column_Space
 ---

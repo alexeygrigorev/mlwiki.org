@@ -1,5 +1,5 @@
 ---
-title: Category:Voting Theory
+title: "Category:Voting Theory"
 layout: default
 permalink: /index.php/Category_Voting_Theory
 ---

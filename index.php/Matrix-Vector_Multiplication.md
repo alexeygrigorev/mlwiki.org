@@ -1,5 +1,5 @@
 ---
-title: Matrix-Vector Multiplication
+title: "Matrix-Vector Multiplication"
 layout: default
 permalink: /index.php/Matrix-Vector_Multiplication
 ---

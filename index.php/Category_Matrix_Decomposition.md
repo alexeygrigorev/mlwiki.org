@@ -1,5 +1,5 @@
 ---
-title: Category:Matrix Decomposition
+title: "Category:Matrix Decomposition"
 layout: default
 permalink: /index.php/Category_Matrix_Decomposition
 ---

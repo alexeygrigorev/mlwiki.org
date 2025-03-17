@@ -1,5 +1,5 @@
 ---
-title: Database Transaction Log Exercises
+title: "Database Transaction Log Exercises"
 layout: default
 permalink: /index.php/Database_Transaction_Log_Exercises
 ---

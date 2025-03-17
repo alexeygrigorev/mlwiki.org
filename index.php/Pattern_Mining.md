@@ -1,5 +1,5 @@
 ---
-title: Pattern Mining
+title: "Pattern Mining"
 layout: default
 permalink: /index.php/Pattern_Mining
 ---

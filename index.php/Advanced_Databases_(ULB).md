@@ -1,5 +1,5 @@
 ---
-title: Advanced Databases (ULB)
+title: "Advanced Databases (ULB)"
 layout: default
 permalink: /index.php/Advanced_Databases_(ULB)
 ---

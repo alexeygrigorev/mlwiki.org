@@ -1,5 +1,5 @@
 ---
-title: Groovy Java in Maven
+title: "Groovy Java in Maven"
 layout: default
 permalink: /index.php/Groovy_Java_in_Maven
 ---

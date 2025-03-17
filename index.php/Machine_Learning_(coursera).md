@@ -1,5 +1,5 @@
 ---
-title: Machine Learning (coursera)
+title: "Machine Learning (coursera)"
 layout: default
 permalink: /index.php/Machine_Learning_(coursera)
 ---

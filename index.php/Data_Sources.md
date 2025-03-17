@@ -1,5 +1,5 @@
 ---
-title: Data Sources
+title: "Data Sources"
 layout: default
 permalink: /index.php/Data_Sources
 ---

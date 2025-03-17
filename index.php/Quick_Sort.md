@@ -1,5 +1,5 @@
 ---
-title: Quick Sort
+title: "Quick Sort"
 layout: default
 permalink: /index.php/Quick_Sort
 ---

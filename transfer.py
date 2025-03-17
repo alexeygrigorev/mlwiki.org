@@ -170,7 +170,7 @@ def parse_wiki_dump(xml_file):
             
             # Jekyll front matter
             front_matter = f"""---
-title: {title}
+title: "{title}"
 layout: default
 permalink: /index.php/{sanitize_filename(title)}
 ---

@@ -1,5 +1,5 @@
 ---
-title: Java Fork/Join
+title: "Java Fork/Join"
 layout: default
 permalink: /index.php/Java_Fork_Join
 ---

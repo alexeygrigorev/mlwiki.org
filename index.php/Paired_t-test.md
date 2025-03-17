@@ -1,5 +1,5 @@
 ---
-title: Paired t-test
+title: "Paired t-test"
 layout: default
 permalink: /index.php/Paired_t-test
 ---

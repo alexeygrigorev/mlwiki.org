@@ -1,5 +1,5 @@
 ---
-title: Euclidean LSH
+title: "Euclidean LSH"
 layout: default
 permalink: /index.php/Euclidean_LSH
 ---

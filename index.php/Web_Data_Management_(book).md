@@ -1,5 +1,5 @@
 ---
-title: Web Data Management (book)
+title: "Web Data Management (book)"
 layout: default
 permalink: /index.php/Web_Data_Management_(book)
 ---

@@ -1,5 +1,5 @@
 ---
-title: View Materialization
+title: "View Materialization"
 layout: default
 permalink: /index.php/View_Materialization
 ---

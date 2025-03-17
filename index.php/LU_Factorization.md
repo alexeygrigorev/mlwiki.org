@@ -1,5 +1,5 @@
 ---
-title: LU Factorization
+title: "LU Factorization"
 layout: default
 permalink: /index.php/LU_Factorization
 ---

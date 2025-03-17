@@ -1,5 +1,5 @@
 ---
-title: Depth-First Search
+title: "Depth-First Search"
 layout: default
 permalink: /index.php/Depth-First_Search
 ---

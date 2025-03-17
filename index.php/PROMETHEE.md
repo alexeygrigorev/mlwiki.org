@@ -1,5 +1,5 @@
 ---
-title: PROMETHEE
+title: "PROMETHEE"
 layout: default
 permalink: /index.php/PROMETHEE
 ---

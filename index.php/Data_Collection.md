@@ -1,5 +1,5 @@
 ---
-title: Data Collection
+title: "Data Collection"
 layout: default
 permalink: /index.php/Data_Collection
 ---

@@ -1,5 +1,5 @@
 ---
-title: Semantic Web for the Working Ontologist (book)
+title: "Semantic Web for the Working Ontologist (book)"
 layout: default
 permalink: /index.php/Semantic_Web_for_the_Working_Ontologist_(book)
 ---

@@ -1,5 +1,5 @@
 ---
-title: Simulation For Proportions
+title: "Simulation For Proportions"
 layout: default
 permalink: /index.php/Simulation_For_Proportions
 ---

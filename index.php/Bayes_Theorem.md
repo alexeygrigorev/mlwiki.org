@@ -1,5 +1,5 @@
 ---
-title: Bayes Theorem
+title: "Bayes Theorem"
 layout: default
 permalink: /index.php/Bayes_Theorem
 ---

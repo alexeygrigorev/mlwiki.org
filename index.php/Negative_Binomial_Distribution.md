@@ -1,5 +1,5 @@
 ---
-title: Negative Binomial Distribution
+title: "Negative Binomial Distribution"
 layout: default
 permalink: /index.php/Negative_Binomial_Distribution
 ---

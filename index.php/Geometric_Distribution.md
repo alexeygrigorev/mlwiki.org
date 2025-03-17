@@ -1,5 +1,5 @@
 ---
-title: Geometric Distribution
+title: "Geometric Distribution"
 layout: default
 permalink: /index.php/Geometric_Distribution
 ---

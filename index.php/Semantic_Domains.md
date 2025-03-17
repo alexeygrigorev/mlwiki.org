@@ -1,5 +1,5 @@
 ---
-title: Semantic Domains
+title: "Semantic Domains"
 layout: default
 permalink: /index.php/Semantic_Domains
 ---

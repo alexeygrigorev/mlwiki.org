@@ -1,5 +1,5 @@
 ---
-title: Buckets of Pointers
+title: "Buckets of Pointers"
 layout: default
 permalink: /index.php/Buckets_of_Pointers
 ---

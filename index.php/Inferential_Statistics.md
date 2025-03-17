@@ -1,5 +1,5 @@
 ---
-title: Inferential Statistics
+title: "Inferential Statistics"
 layout: default
 permalink: /index.php/Inferential_Statistics
 ---

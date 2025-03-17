@@ -1,5 +1,5 @@
 ---
-title: Redo Logging
+title: "Redo Logging"
 layout: default
 permalink: /index.php/Redo_Logging
 ---

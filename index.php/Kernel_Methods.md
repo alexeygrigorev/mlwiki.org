@@ -1,5 +1,5 @@
 ---
-title: Kernel Methods
+title: "Kernel Methods"
 layout: default
 permalink: /index.php/Kernel_Methods
 ---

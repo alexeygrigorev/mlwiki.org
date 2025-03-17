@@ -1,5 +1,5 @@
 ---
-title: Function
+title: "Function"
 layout: default
 permalink: /index.php/Function
 ---

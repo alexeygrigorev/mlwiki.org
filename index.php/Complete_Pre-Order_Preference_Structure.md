@@ -1,5 +1,5 @@
 ---
-title: Complete Pre-Order Preference Structure
+title: "Complete Pre-Order Preference Structure"
 layout: default
 permalink: /index.php/Complete_Pre-Order_Preference_Structure
 ---

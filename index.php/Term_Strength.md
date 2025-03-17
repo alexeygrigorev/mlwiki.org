@@ -1,5 +1,5 @@
 ---
-title: Term Strength
+title: "Term Strength"
 layout: default
 permalink: /index.php/Term_Strength
 ---

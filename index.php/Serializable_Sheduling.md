@@ -1,5 +1,5 @@
 ---
-title: Serializable Sheduling
+title: "Serializable Sheduling"
 layout: default
 permalink: /index.php/Serializable_Sheduling
 ---

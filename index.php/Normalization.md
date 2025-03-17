@@ -1,5 +1,5 @@
 ---
-title: Normalization
+title: "Normalization"
 layout: default
 permalink: /index.php/Normalization
 ---

@@ -1,5 +1,5 @@
 ---
-title: Distributed Databases
+title: "Distributed Databases"
 layout: default
 permalink: /index.php/Distributed_Databases
 ---

@@ -1,5 +1,5 @@
 ---
-title: Concept Decomposition
+title: "Concept Decomposition"
 layout: default
 permalink: /index.php/Concept_Decomposition
 ---

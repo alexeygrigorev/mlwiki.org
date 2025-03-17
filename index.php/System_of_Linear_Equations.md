@@ -1,5 +1,5 @@
 ---
-title: System of Linear Equations
+title: "System of Linear Equations"
 layout: default
 permalink: /index.php/System_of_Linear_Equations
 ---

@@ -1,5 +1,5 @@
 ---
-title: Pure Competition Game
+title: "Pure Competition Game"
 layout: default
 permalink: /index.php/Pure_Competition_Game
 ---

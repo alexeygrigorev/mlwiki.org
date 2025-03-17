@@ -1,5 +1,5 @@
 ---
-title: Skolem Function
+title: "Skolem Function"
 layout: default
 permalink: /index.php/Skolem_Function
 ---

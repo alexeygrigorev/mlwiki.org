@@ -1,5 +1,5 @@
 ---
-title: Sparse Index
+title: "Sparse Index"
 layout: default
 permalink: /index.php/Sparse_Index
 ---

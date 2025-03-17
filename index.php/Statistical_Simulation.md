@@ -1,5 +1,5 @@
 ---
-title: Statistical Simulation
+title: "Statistical Simulation"
 layout: default
 permalink: /index.php/Statistical_Simulation
 ---

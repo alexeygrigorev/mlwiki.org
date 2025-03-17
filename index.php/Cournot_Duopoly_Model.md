@@ -1,5 +1,5 @@
 ---
-title: Cournot Duopoly Model
+title: "Cournot Duopoly Model"
 layout: default
 permalink: /index.php/Cournot_Duopoly_Model
 ---

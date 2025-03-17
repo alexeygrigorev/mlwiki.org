@@ -1,5 +1,5 @@
 ---
-title: SPARQL
+title: "SPARQL"
 layout: default
 permalink: /index.php/SPARQL
 ---

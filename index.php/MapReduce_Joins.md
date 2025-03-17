@@ -1,5 +1,5 @@
 ---
-title: MapReduce/Joins
+title: "MapReduce/Joins"
 layout: default
 permalink: /index.php/MapReduce_Joins
 ---

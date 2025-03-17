@@ -1,5 +1,5 @@
 ---
-title: Multi-Objective Knapsack Problem
+title: "Multi-Objective Knapsack Problem"
 layout: default
 permalink: /index.php/Multi-Objective_Knapsack_Problem
 ---

@@ -1,5 +1,5 @@
 ---
-title: DBSCAN
+title: "DBSCAN"
 layout: default
 permalink: /index.php/DBSCAN
 ---

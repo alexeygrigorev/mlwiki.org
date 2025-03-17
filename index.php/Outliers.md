@@ -1,5 +1,5 @@
 ---
-title: Outliers
+title: "Outliers"
 layout: default
 permalink: /index.php/Outliers
 ---

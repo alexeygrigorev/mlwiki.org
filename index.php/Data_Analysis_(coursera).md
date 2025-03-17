@@ -1,5 +1,5 @@
 ---
-title: Data Analysis (coursera)
+title: "Data Analysis (coursera)"
 layout: default
 permalink: /index.php/Data_Analysis_(coursera)
 ---

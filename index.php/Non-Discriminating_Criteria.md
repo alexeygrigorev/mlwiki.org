@@ -1,5 +1,5 @@
 ---
-title: Non-Discriminating Criteria
+title: "Non-Discriminating Criteria"
 layout: default
 permalink: /index.php/Non-Discriminating_Criteria
 ---

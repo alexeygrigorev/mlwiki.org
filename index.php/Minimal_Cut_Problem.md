@@ -1,5 +1,5 @@
 ---
-title: Minimal Cut Problem
+title: "Minimal Cut Problem"
 layout: default
 permalink: /index.php/Minimal_Cut_Problem
 ---

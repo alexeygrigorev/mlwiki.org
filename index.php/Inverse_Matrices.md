@@ -1,5 +1,5 @@
 ---
-title: Inverse Matrices
+title: "Inverse Matrices"
 layout: default
 permalink: /index.php/Inverse_Matrices
 ---

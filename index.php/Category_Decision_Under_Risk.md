@@ -1,5 +1,5 @@
 ---
-title: Category:Decision Under Risk
+title: "Category:Decision Under Risk"
 layout: default
 permalink: /index.php/Category_Decision_Under_Risk
 ---

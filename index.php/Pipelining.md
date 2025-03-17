@@ -1,5 +1,5 @@
 ---
-title: Pipelining
+title: "Pipelining"
 layout: default
 permalink: /index.php/Pipelining
 ---

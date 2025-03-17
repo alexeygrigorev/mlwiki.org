@@ -1,5 +1,5 @@
 ---
-title: SVD
+title: "SVD"
 layout: default
 permalink: /index.php/SVD
 ---

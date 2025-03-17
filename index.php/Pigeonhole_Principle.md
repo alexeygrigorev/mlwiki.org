@@ -1,5 +1,5 @@
 ---
-title: Pigeonhole Principle
+title: "Pigeonhole Principle"
 layout: default
 permalink: /index.php/Pigeonhole_Principle
 ---

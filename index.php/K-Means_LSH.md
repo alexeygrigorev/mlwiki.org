@@ -1,5 +1,5 @@
 ---
-title: K-Means LSH
+title: "K-Means LSH"
 layout: default
 permalink: /index.php/K-Means_LSH
 ---

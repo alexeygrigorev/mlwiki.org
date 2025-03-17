@@ -1,5 +1,5 @@
 ---
-title: Category:Petri Nets
+title: "Category:Petri Nets"
 layout: default
 permalink: /index.php/Category_Petri_Nets
 ---

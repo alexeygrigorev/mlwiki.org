@@ -1,5 +1,5 @@
 ---
-title: Modeling Preferences
+title: "Modeling Preferences"
 layout: default
 permalink: /index.php/Modeling_Preferences
 ---

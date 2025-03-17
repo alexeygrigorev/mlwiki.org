@@ -1,5 +1,5 @@
 ---
-title: Hash Function
+title: "Hash Function"
 layout: default
 permalink: /index.php/Hash_Function
 ---

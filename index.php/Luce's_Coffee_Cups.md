@@ -1,5 +1,5 @@
 ---
-title: Luce's Coffee Cups
+title: "Luce's Coffee Cups"
 layout: default
 permalink: /index.php/Luce's_Coffee_Cups
 ---

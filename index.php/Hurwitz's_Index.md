@@ -1,5 +1,5 @@
 ---
-title: Hurwitz's Index
+title: "Hurwitz's Index"
 layout: default
 permalink: /index.php/Hurwitz's_Index
 ---

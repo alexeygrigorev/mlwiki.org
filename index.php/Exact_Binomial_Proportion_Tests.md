@@ -1,5 +1,5 @@
 ---
-title: Exact Binomial Proportion Tests
+title: "Exact Binomial Proportion Tests"
 layout: default
 permalink: /index.php/Exact_Binomial_Proportion_Tests
 ---

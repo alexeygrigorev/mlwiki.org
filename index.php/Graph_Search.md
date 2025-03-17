@@ -1,5 +1,5 @@
 ---
-title: Graph Search
+title: "Graph Search"
 layout: default
 permalink: /index.php/Graph_Search
 ---

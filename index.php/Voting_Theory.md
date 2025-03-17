@@ -1,5 +1,5 @@
 ---
-title: Voting Theory
+title: "Voting Theory"
 layout: default
 permalink: /index.php/Voting_Theory
 ---

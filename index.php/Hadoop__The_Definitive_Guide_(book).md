@@ -1,5 +1,5 @@
 ---
-title: Hadoop: The Definitive Guide (book)
+title: "Hadoop: The Definitive Guide (book)"
 layout: default
 permalink: /index.php/Hadoop__The_Definitive_Guide_(book)
 ---

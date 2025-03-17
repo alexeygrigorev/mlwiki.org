@@ -1,5 +1,5 @@
 ---
-title: Computing for Data Analysis (coursera)
+title: "Computing for Data Analysis (coursera)"
 layout: default
 permalink: /index.php/Computing_for_Data_Analysis_(coursera)
 ---

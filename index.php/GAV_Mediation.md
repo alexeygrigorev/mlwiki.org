@@ -1,5 +1,5 @@
 ---
-title: GAV Mediation
+title: "GAV Mediation"
 layout: default
 permalink: /index.php/GAV_Mediation
 ---

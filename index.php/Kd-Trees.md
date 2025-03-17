@@ -1,5 +1,5 @@
 ---
-title: Kd-Trees
+title: "Kd-Trees"
 layout: default
 permalink: /index.php/Kd-Trees
 ---

@@ -1,5 +1,5 @@
 ---
-title: Data Normalization
+title: "Data Normalization"
 layout: default
 permalink: /index.php/Data_Normalization
 ---

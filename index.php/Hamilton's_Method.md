@@ -1,5 +1,5 @@
 ---
-title: Hamilton's Method
+title: "Hamilton's Method"
 layout: default
 permalink: /index.php/Hamilton's_Method
 ---

@@ -1,5 +1,5 @@
 ---
-title: Parliamentary Allocation
+title: "Parliamentary Allocation"
 layout: default
 permalink: /index.php/Parliamentary_Allocation
 ---

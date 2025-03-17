@@ -1,5 +1,5 @@
 ---
-title: K-Means
+title: "K-Means"
 layout: default
 permalink: /index.php/K-Means
 ---

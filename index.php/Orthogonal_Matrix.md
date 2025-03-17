@@ -1,5 +1,5 @@
 ---
-title: Orthogonal Matrix
+title: "Orthogonal Matrix"
 layout: default
 permalink: /index.php/Orthogonal_Matrix
 ---

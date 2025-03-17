@@ -1,5 +1,5 @@
 ---
-title: Taylor Series
+title: "Taylor Series"
 layout: default
 permalink: /index.php/Taylor_Series
 ---

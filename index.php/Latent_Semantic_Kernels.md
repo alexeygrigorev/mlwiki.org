@@ -1,5 +1,5 @@
 ---
-title: Latent Semantic Kernels
+title: "Latent Semantic Kernels"
 layout: default
 permalink: /index.php/Latent_Semantic_Kernels
 ---

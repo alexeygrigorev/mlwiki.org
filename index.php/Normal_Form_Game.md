@@ -1,5 +1,5 @@
 ---
-title: Normal Form Game
+title: "Normal Form Game"
 layout: default
 permalink: /index.php/Normal_Form_Game
 ---

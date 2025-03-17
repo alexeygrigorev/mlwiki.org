@@ -1,5 +1,5 @@
 ---
-title: Redis
+title: "Redis"
 layout: default
 permalink: /index.php/Redis
 ---

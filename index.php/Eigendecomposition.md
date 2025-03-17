@@ -1,5 +1,5 @@
 ---
-title: Eigendecomposition
+title: "Eigendecomposition"
 layout: default
 permalink: /index.php/Eigendecomposition
 ---

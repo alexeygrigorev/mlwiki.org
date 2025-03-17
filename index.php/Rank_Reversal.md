@@ -1,5 +1,5 @@
 ---
-title: Rank Reversal
+title: "Rank Reversal"
 layout: default
 permalink: /index.php/Rank_Reversal
 ---

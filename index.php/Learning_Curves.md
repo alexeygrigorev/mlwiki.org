@@ -1,5 +1,5 @@
 ---
-title: Learning Curves
+title: "Learning Curves"
 layout: default
 permalink: /index.php/Learning_Curves
 ---

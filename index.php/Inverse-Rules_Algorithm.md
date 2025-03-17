@@ -1,5 +1,5 @@
 ---
-title: Inverse-Rules Algorithm
+title: "Inverse-Rules Algorithm"
 layout: default
 permalink: /index.php/Inverse-Rules_Algorithm
 ---

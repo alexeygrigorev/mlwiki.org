@@ -1,5 +1,5 @@
 ---
-title: Comparing Learning Algorithms
+title: "Comparing Learning Algorithms"
 layout: default
 permalink: /index.php/Comparing_Learning_Algorithms
 ---

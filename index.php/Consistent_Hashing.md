@@ -1,5 +1,5 @@
 ---
-title: Consistent Hashing
+title: "Consistent Hashing"
 layout: default
 permalink: /index.php/Consistent_Hashing
 ---

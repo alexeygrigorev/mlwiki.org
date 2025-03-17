@@ -1,5 +1,5 @@
 ---
-title: Diagonalization
+title: "Diagonalization"
 layout: default
 permalink: /index.php/Diagonalization
 ---

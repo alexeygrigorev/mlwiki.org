@@ -1,5 +1,5 @@
 ---
-title: Sublime Tricks
+title: "Sublime Tricks"
 layout: default
 permalink: /index.php/Sublime_Tricks
 ---

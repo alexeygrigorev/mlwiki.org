@@ -1,5 +1,5 @@
 ---
-title: Probabilistic LSA
+title: "Probabilistic LSA"
 layout: default
 permalink: /index.php/Probabilistic_LSA
 ---

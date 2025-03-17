@@ -1,5 +1,5 @@
 ---
-title: Data Model
+title: "Data Model"
 layout: default
 permalink: /index.php/Data_Model
 ---

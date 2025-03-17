@@ -1,5 +1,5 @@
 ---
-title: Weak Law of Large Numbers
+title: "Weak Law of Large Numbers"
 layout: default
 permalink: /index.php/Weak_Law_of_Large_Numbers
 ---

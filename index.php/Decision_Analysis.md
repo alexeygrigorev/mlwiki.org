@@ -1,5 +1,5 @@
 ---
-title: Decision Analysis
+title: "Decision Analysis"
 layout: default
 permalink: /index.php/Decision_Analysis
 ---

@@ -1,5 +1,5 @@
 ---
-title: Mediator (Data Integration)
+title: "Mediator (Data Integration)"
 layout: default
 permalink: /index.php/Mediator_(Data_Integration)
 ---

@@ -1,5 +1,5 @@
 ---
-title: Main Page
+title: "Main Page"
 layout: default
 permalink: /index.php/Main_Page
 ---

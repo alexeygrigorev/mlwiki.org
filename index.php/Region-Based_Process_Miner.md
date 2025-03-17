@@ -1,5 +1,5 @@
 ---
-title: Region-Based Process Miner
+title: "Region-Based Process Miner"
 layout: default
 permalink: /index.php/Region-Based_Process_Miner
 ---

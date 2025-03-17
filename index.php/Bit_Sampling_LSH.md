@@ -1,5 +1,5 @@
 ---
-title: Bit Sampling LSH
+title: "Bit Sampling LSH"
 layout: default
 permalink: /index.php/Bit_Sampling_LSH
 ---

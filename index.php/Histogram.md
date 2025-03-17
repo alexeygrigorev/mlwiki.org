@@ -1,5 +1,5 @@
 ---
-title: Histogram
+title: "Histogram"
 layout: default
 permalink: /index.php/Histogram
 ---

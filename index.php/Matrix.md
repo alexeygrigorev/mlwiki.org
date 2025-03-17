@@ -1,5 +1,5 @@
 ---
-title: Matrix
+title: "Matrix"
 layout: default
 permalink: /index.php/Matrix
 ---

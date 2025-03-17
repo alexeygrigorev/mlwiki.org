@@ -1,5 +1,5 @@
 ---
-title: Eigenvalues and Eigenvectors
+title: "Eigenvalues and Eigenvectors"
 layout: default
 permalink: /index.php/Eigenvalues_and_Eigenvectors
 ---

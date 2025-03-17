@@ -1,5 +1,5 @@
 ---
-title: Frobenius Norm
+title: "Frobenius Norm"
 layout: default
 permalink: /index.php/Frobenius_Norm
 ---

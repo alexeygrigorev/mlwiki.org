@@ -1,5 +1,5 @@
 ---
-title: Budget Pacing
+title: "Budget Pacing"
 layout: default
 permalink: /index.php/Budget_Pacing
 ---

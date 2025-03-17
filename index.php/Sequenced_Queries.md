@@ -1,5 +1,5 @@
 ---
-title: Sequenced Queries
+title: "Sequenced Queries"
 layout: default
 permalink: /index.php/Sequenced_Queries
 ---

@@ -1,5 +1,5 @@
 ---
-title: Homogeneous Systems of Linear Equations
+title: "Homogeneous Systems of Linear Equations"
 layout: default
 permalink: /index.php/Homogeneous_Systems_of_Linear_Equations
 ---

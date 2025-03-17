@@ -1,5 +1,5 @@
 ---
-title: Category:Coursera
+title: "Category:Coursera"
 layout: default
 permalink: /index.php/Category_Coursera
 ---

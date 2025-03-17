@@ -1,5 +1,5 @@
 ---
-title: Web Intelligence and Big Data (coursera)
+title: "Web Intelligence and Big Data (coursera)"
 layout: default
 permalink: /index.php/Web_Intelligence_and_Big_Data_(coursera)
 ---

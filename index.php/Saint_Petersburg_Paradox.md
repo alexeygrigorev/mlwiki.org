@@ -1,5 +1,5 @@
 ---
-title: Saint Petersburg Paradox
+title: "Saint Petersburg Paradox"
 layout: default
 permalink: /index.php/Saint_Petersburg_Paradox
 ---

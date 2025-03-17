@@ -1,5 +1,5 @@
 ---
-title: Conjunctive Query/Translation
+title: "Conjunctive Query/Translation"
 layout: default
 permalink: /index.php/Conjunctive_Query_Translation
 ---

@@ -1,5 +1,5 @@
 ---
-title: Chain and Sum Rules in Probability
+title: "Chain and Sum Rules in Probability"
 layout: default
 permalink: /index.php/Chain_and_Sum_Rules_in_Probability
 ---

@@ -1,5 +1,5 @@
 ---
-title: Statistical Test
+title: "Statistical Test"
 layout: default
 permalink: /index.php/Statistical_Test
 ---

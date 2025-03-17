@@ -1,5 +1,5 @@
 ---
-title: Hadoop Distributed File System
+title: "Hadoop Distributed File System"
 layout: default
 permalink: /index.php/Hadoop_Distributed_File_System
 ---

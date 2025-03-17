@@ -1,5 +1,5 @@
 ---
-title: Playground
+title: "Playground"
 layout: default
 permalink: /index.php/Playground
 ---

@@ -1,5 +1,5 @@
 ---
-title: BASE
+title: "BASE"
 layout: default
 permalink: /index.php/BASE
 ---

@@ -1,5 +1,5 @@
 ---
-title: BPMN
+title: "BPMN"
 layout: default
 permalink: /index.php/BPMN
 ---

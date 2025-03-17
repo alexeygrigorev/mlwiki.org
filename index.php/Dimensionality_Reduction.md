@@ -1,5 +1,5 @@
 ---
-title: Dimensionality Reduction
+title: "Dimensionality Reduction"
 layout: default
 permalink: /index.php/Dimensionality_Reduction
 ---

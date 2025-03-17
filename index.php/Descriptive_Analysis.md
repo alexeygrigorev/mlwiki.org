@@ -1,5 +1,5 @@
 ---
-title: Descriptive Analysis
+title: "Descriptive Analysis"
 layout: default
 permalink: /index.php/Descriptive_Analysis
 ---

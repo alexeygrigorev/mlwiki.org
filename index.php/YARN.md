@@ -1,5 +1,5 @@
 ---
-title: YARN
+title: "YARN"
 layout: default
 permalink: /index.php/YARN
 ---

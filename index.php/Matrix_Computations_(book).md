@@ -1,5 +1,5 @@
 ---
-title: Matrix Computations (book)
+title: "Matrix Computations (book)"
 layout: default
 permalink: /index.php/Matrix_Computations_(book)
 ---

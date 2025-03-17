@@ -1,5 +1,5 @@
 ---
-title: Bayesian Game
+title: "Bayesian Game"
 layout: default
 permalink: /index.php/Bayesian_Game
 ---

@@ -1,5 +1,5 @@
 ---
-title: T Distribution
+title: "T Distribution"
 layout: default
 permalink: /index.php/T_Distribution
 ---

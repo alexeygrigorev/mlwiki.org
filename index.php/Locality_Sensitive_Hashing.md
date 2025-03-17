@@ -1,5 +1,5 @@
 ---
-title: Locality Sensitive Hashing
+title: "Locality Sensitive Hashing"
 layout: default
 permalink: /index.php/Locality_Sensitive_Hashing
 ---

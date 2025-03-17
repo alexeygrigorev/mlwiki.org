@@ -1,5 +1,5 @@
 ---
-title: Independence to Third Alternatives
+title: "Independence to Third Alternatives"
 layout: default
 permalink: /index.php/Independence_to_Third_Alternatives
 ---

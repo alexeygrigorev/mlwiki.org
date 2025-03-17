@@ -1,5 +1,5 @@
 ---
-title: Category:NoSQL
+title: "Category:NoSQL"
 layout: default
 permalink: /index.php/Category_NoSQL
 ---

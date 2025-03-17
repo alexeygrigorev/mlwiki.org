@@ -1,5 +1,5 @@
 ---
-title: First Order Logic
+title: "First Order Logic"
 layout: default
 permalink: /index.php/First_Order_Logic
 ---

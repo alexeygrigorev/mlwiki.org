@@ -1,5 +1,5 @@
 ---
-title: Category:Spring
+title: "Category:Spring"
 layout: default
 permalink: /index.php/Category_Spring
 ---

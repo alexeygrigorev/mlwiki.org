@@ -1,5 +1,5 @@
 ---
-title: Non-Negative Matrix Factorization
+title: "Non-Negative Matrix Factorization"
 layout: default
 permalink: /index.php/Non-Negative_Matrix_Factorization
 ---

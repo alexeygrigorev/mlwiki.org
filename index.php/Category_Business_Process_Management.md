@@ -1,5 +1,5 @@
 ---
-title: Category:Business Process Management
+title: "Category:Business Process Management"
 layout: default
 permalink: /index.php/Category_Business_Process_Management
 ---

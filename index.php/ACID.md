@@ -1,5 +1,5 @@
 ---
-title: ACID
+title: "ACID"
 layout: default
 permalink: /index.php/ACID
 ---

@@ -1,5 +1,5 @@
 ---
-title: Category:Machine Learning
+title: "Category:Machine Learning"
 layout: default
 permalink: /index.php/Category_Machine_Learning
 ---

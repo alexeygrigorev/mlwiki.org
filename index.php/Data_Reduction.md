@@ -1,5 +1,5 @@
 ---
-title: Data Reduction
+title: "Data Reduction"
 layout: default
 permalink: /index.php/Data_Reduction
 ---

@@ -1,5 +1,5 @@
 ---
-title: Category:Algorithms
+title: "Category:Algorithms"
 layout: default
 permalink: /index.php/Category_Algorithms
 ---

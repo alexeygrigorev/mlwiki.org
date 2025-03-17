@@ -1,5 +1,5 @@
 ---
-title: Graph Kernel
+title: "Graph Kernel"
 layout: default
 permalink: /index.php/Graph_Kernel
 ---

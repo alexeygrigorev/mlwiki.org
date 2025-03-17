@@ -1,5 +1,5 @@
 ---
-title: Metric Trees
+title: "Metric Trees"
 layout: default
 permalink: /index.php/Metric_Trees
 ---

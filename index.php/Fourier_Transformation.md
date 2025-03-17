@@ -1,5 +1,5 @@
 ---
-title: Fourier Transformation
+title: "Fourier Transformation"
 layout: default
 permalink: /index.php/Fourier_Transformation
 ---

@@ -1,5 +1,5 @@
 ---
-title: Similar Matrices
+title: "Similar Matrices"
 layout: default
 permalink: /index.php/Similar_Matrices
 ---

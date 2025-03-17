@@ -1,5 +1,5 @@
 ---
-title: Open Hashing Index
+title: "Open Hashing Index"
 layout: default
 permalink: /index.php/Open_Hashing_Index
 ---

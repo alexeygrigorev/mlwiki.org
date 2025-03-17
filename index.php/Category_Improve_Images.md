@@ -1,5 +1,5 @@
 ---
-title: Category:Improve Images
+title: "Category:Improve Images"
 layout: default
 permalink: /index.php/Category_Improve_Images
 ---

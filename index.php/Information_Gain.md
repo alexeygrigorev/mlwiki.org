@@ -1,5 +1,5 @@
 ---
-title: Information Gain
+title: "Information Gain"
 layout: default
 permalink: /index.php/Information_Gain
 ---

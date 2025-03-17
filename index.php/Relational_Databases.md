@@ -1,5 +1,5 @@
 ---
-title: Relational Databases
+title: "Relational Databases"
 layout: default
 permalink: /index.php/Relational_Databases
 ---

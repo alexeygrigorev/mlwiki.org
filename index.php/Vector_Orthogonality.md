@@ -1,5 +1,5 @@
 ---
-title: Vector Orthogonality
+title: "Vector Orthogonality"
 layout: default
 permalink: /index.php/Vector_Orthogonality
 ---

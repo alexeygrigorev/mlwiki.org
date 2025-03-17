@@ -1,5 +1,5 @@
 ---
-title: Template:MainPage Menu
+title: "Template:MainPage Menu"
 layout: default
 permalink: /index.php/Template_MainPage_Menu
 ---

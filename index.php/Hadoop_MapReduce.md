@@ -1,5 +1,5 @@
 ---
-title: Hadoop MapReduce
+title: "Hadoop MapReduce"
 layout: default
 permalink: /index.php/Hadoop_MapReduce
 ---

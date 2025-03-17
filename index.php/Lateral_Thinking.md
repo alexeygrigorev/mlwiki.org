@@ -1,5 +1,5 @@
 ---
-title: Lateral Thinking
+title: "Lateral Thinking"
 layout: default
 permalink: /index.php/Lateral_Thinking
 ---

@@ -1,5 +1,5 @@
 ---
-title: Two-Phase Document Clustering
+title: "Two-Phase Document Clustering"
 layout: default
 permalink: /index.php/Two-Phase_Document_Clustering
 ---

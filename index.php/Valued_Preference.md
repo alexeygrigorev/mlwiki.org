@@ -1,5 +1,5 @@
 ---
-title: Valued Preference
+title: "Valued Preference"
 layout: default
 permalink: /index.php/Valued_Preference
 ---

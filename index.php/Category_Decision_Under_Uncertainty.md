@@ -1,5 +1,5 @@
 ---
-title: Category:Decision Under Uncertainty
+title: "Category:Decision Under Uncertainty"
 layout: default
 permalink: /index.php/Category_Decision_Under_Uncertainty
 ---

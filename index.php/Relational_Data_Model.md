@@ -1,5 +1,5 @@
 ---
-title: Relational Data Model
+title: "Relational Data Model"
 layout: default
 permalink: /index.php/Relational_Data_Model
 ---

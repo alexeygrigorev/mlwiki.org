@@ -1,5 +1,5 @@
 ---
-title: Category:Document Clustering
+title: "Category:Document Clustering"
 layout: default
 permalink: /index.php/Category_Document_Clustering
 ---

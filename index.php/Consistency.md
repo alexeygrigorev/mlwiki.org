@@ -1,5 +1,5 @@
 ---
-title: Consistency
+title: "Consistency"
 layout: default
 permalink: /index.php/Consistency
 ---

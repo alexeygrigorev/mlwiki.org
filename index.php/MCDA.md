@@ -1,5 +1,5 @@
 ---
-title: MCDA
+title: "MCDA"
 layout: default
 permalink: /index.php/MCDA
 ---

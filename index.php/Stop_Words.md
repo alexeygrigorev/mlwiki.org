@@ -1,5 +1,5 @@
 ---
-title: Stop Words
+title: "Stop Words"
 layout: default
 permalink: /index.php/Stop_Words
 ---

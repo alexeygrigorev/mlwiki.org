@@ -1,5 +1,5 @@
 ---
-title: Handling Missing Values
+title: "Handling Missing Values"
 layout: default
 permalink: /index.php/Handling_Missing_Values
 ---

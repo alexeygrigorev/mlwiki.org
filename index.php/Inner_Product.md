@@ -1,5 +1,5 @@
 ---
-title: Inner Product
+title: "Inner Product"
 layout: default
 permalink: /index.php/Inner_Product
 ---

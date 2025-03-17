@@ -1,5 +1,5 @@
 ---
-title: Conjunctive Query/Containment Exercise
+title: "Conjunctive Query/Containment Exercise"
 layout: default
 permalink: /index.php/Conjunctive_Query_Containment_Exercise
 ---

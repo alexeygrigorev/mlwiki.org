@@ -1,5 +1,5 @@
 ---
-title: Statistics
+title: "Statistics"
 layout: default
 permalink: /index.php/Statistics
 ---

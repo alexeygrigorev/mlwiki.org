@@ -1,5 +1,5 @@
 ---
-title: Minimal Cut
+title: "Minimal Cut"
 layout: default
 permalink: /index.php/Minimal_Cut
 ---

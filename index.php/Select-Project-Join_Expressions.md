@@ -1,5 +1,5 @@
 ---
-title: Select-Project-Join Expressions
+title: "Select-Project-Join Expressions"
 layout: default
 permalink: /index.php/Select-Project-Join_Expressions
 ---

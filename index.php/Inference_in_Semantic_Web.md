@@ -1,5 +1,5 @@
 ---
-title: Inference in Semantic Web
+title: "Inference in Semantic Web"
 layout: default
 permalink: /index.php/Inference_in_Semantic_Web
 ---

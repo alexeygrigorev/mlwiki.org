@@ -1,5 +1,5 @@
 ---
-title: Linear Independence
+title: "Linear Independence"
 layout: default
 permalink: /index.php/Linear_Independence
 ---

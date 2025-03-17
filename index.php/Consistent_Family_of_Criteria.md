@@ -1,5 +1,5 @@
 ---
-title: Consistent Family of Criteria
+title: "Consistent Family of Criteria"
 layout: default
 permalink: /index.php/Consistent_Family_of_Criteria
 ---

@@ -1,5 +1,5 @@
 ---
-title: NLP Pipeline
+title: "NLP Pipeline"
 layout: default
 permalink: /index.php/NLP_Pipeline
 ---

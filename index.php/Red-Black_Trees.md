@@ -1,5 +1,5 @@
 ---
-title: Red-Black Trees
+title: "Red-Black Trees"
 layout: default
 permalink: /index.php/Red-Black_Trees
 ---

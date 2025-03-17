@@ -1,5 +1,5 @@
 ---
-title: Category:IT4BI
+title: "Category:IT4BI"
 layout: default
 permalink: /index.php/Category_IT4BI
 ---

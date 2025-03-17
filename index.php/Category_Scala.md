@@ -1,5 +1,5 @@
 ---
-title: Category:Scala
+title: "Category:Scala"
 layout: default
 permalink: /index.php/Category_Scala
 ---

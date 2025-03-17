@@ -1,5 +1,5 @@
 ---
-title: Orthogonality
+title: "Orthogonality"
 layout: default
 permalink: /index.php/Orthogonality
 ---

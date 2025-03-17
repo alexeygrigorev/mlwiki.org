@@ -1,5 +1,5 @@
 ---
-title: Enterprise System Architecture
+title: "Enterprise System Architecture"
 layout: default
 permalink: /index.php/Enterprise_System_Architecture
 ---

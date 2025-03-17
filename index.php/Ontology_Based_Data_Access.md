@@ -1,5 +1,5 @@
 ---
-title: Ontology Based Data Access
+title: "Ontology Based Data Access"
 layout: default
 permalink: /index.php/Ontology_Based_Data_Access
 ---

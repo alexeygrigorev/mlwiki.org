@@ -1,5 +1,5 @@
 ---
-title: Bivariate Analysis
+title: "Bivariate Analysis"
 layout: default
 permalink: /index.php/Bivariate_Analysis
 ---

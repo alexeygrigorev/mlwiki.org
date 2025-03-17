@@ -1,5 +1,5 @@
 ---
-title: SVM
+title: "SVM"
 layout: default
 permalink: /index.php/SVM
 ---

@@ -1,5 +1,5 @@
 ---
-title: Cumulative Gain Chart
+title: "Cumulative Gain Chart"
 layout: default
 permalink: /index.php/Cumulative_Gain_Chart
 ---

@@ -1,5 +1,5 @@
 ---
-title: Conditional Probability
+title: "Conditional Probability"
 layout: default
 permalink: /index.php/Conditional_Probability
 ---

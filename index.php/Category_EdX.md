@@ -1,5 +1,5 @@
 ---
-title: Category:EdX
+title: "Category:EdX"
 layout: default
 permalink: /index.php/Category_EdX
 ---

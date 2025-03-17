@@ -1,5 +1,5 @@
 ---
-title: Stochastic Matrices
+title: "Stochastic Matrices"
 layout: default
 permalink: /index.php/Stochastic_Matrices
 ---

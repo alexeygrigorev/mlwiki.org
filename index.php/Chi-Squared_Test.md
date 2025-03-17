@@ -1,5 +1,5 @@
 ---
-title: Chi-Squared Test
+title: "Chi-Squared Test"
 layout: default
 permalink: /index.php/Chi-Squared_Test
 ---

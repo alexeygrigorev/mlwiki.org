@@ -1,5 +1,5 @@
 ---
-title: Voting Theory Relations
+title: "Voting Theory Relations"
 layout: default
 permalink: /index.php/Voting_Theory_Relations
 ---

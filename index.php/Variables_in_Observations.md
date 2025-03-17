@@ -1,5 +1,5 @@
 ---
-title: Variables in Observations
+title: "Variables in Observations"
 layout: default
 permalink: /index.php/Variables_in_Observations
 ---

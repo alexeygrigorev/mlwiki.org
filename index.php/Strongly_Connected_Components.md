@@ -1,5 +1,5 @@
 ---
-title: Strongly Connected Components
+title: "Strongly Connected Components"
 layout: default
 permalink: /index.php/Strongly_Connected_Components
 ---

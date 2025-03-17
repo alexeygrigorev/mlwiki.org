@@ -1,5 +1,5 @@
 ---
-title: Two-Phase Commit
+title: "Two-Phase Commit"
 layout: default
 permalink: /index.php/Two-Phase_Commit
 ---

@@ -1,5 +1,5 @@
 ---
-title: Confidence Intervals for Means
+title: "Confidence Intervals for Means"
 layout: default
 permalink: /index.php/Confidence_Intervals_for_Means
 ---

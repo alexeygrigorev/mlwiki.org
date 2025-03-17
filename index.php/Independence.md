@@ -1,5 +1,5 @@
 ---
-title: Independence
+title: "Independence"
 layout: default
 permalink: /index.php/Independence
 ---

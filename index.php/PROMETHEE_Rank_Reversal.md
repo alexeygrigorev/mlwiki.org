@@ -1,5 +1,5 @@
 ---
-title: PROMETHEE/Rank Reversal
+title: "PROMETHEE/Rank Reversal"
 layout: default
 permalink: /index.php/PROMETHEE_Rank_Reversal
 ---

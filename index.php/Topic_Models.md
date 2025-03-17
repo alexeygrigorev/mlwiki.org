@@ -1,5 +1,5 @@
 ---
-title: Topic Models
+title: "Topic Models"
 layout: default
 permalink: /index.php/Topic_Models
 ---

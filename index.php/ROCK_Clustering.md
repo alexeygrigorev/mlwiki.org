@@ -1,5 +1,5 @@
 ---
-title: ROCK Clustering
+title: "ROCK Clustering"
 layout: default
 permalink: /index.php/ROCK_Clustering
 ---

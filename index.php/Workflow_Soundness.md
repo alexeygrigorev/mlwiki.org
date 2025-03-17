@@ -1,5 +1,5 @@
 ---
-title: Workflow Soundness
+title: "Workflow Soundness"
 layout: default
 permalink: /index.php/Workflow_Soundness
 ---

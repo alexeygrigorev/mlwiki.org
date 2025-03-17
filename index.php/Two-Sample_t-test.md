@@ -1,5 +1,5 @@
 ---
-title: Two-Sample t-test
+title: "Two-Sample t-test"
 layout: default
 permalink: /index.php/Two-Sample_t-test
 ---

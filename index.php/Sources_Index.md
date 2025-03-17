@@ -1,5 +1,5 @@
 ---
-title: Sources Index
+title: "Sources Index"
 layout: default
 permalink: /index.php/Sources_Index
 ---

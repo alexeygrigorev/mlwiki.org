@@ -1,5 +1,5 @@
 ---
-title: Algo interview questions
+title: "Algo interview questions"
 layout: default
 permalink: /index.php/Algo_interview_questions
 ---

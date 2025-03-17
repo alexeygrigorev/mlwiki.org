@@ -1,5 +1,5 @@
 ---
-title: Residual Analysis
+title: "Residual Analysis"
 layout: default
 permalink: /index.php/Residual_Analysis
 ---

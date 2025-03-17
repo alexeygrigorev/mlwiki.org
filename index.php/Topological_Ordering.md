@@ -1,5 +1,5 @@
 ---
-title: Topological Ordering
+title: "Topological Ordering"
 layout: default
 permalink: /index.php/Topological_Ordering
 ---

@@ -1,5 +1,5 @@
 ---
-title: Category:Database Indexes
+title: "Category:Database Indexes"
 layout: default
 permalink: /index.php/Category_Database_Indexes
 ---

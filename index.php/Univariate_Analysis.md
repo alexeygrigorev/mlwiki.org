@@ -1,5 +1,5 @@
 ---
-title: Univariate Analysis
+title: "Univariate Analysis"
 layout: default
 permalink: /index.php/Univariate_Analysis
 ---

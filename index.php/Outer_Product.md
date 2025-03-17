@@ -1,5 +1,5 @@
 ---
-title: Outer Product
+title: "Outer Product"
 layout: default
 permalink: /index.php/Outer_Product
 ---

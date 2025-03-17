@@ -1,5 +1,5 @@
 ---
-title: Functional Programming
+title: "Functional Programming"
 layout: default
 permalink: /index.php/Functional_Programming
 ---

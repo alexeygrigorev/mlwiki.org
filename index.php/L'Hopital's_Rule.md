@@ -1,5 +1,5 @@
 ---
-title: L'Hopital's Rule
+title: "L'Hopital's Rule"
 layout: default
 permalink: /index.php/L'Hopital's_Rule
 ---

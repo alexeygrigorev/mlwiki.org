@@ -1,5 +1,5 @@
 ---
-title: Prisoner's Dilemma
+title: "Prisoner's Dilemma"
 layout: default
 permalink: /index.php/Prisoner's_Dilemma
 ---

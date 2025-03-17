@@ -1,5 +1,5 @@
 ---
-title: Relational Algebra
+title: "Relational Algebra"
 layout: default
 permalink: /index.php/Relational_Algebra
 ---

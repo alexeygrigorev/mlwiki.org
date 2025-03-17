@@ -1,5 +1,5 @@
 ---
-title: Deferred Choice
+title: "Deferred Choice"
 layout: default
 permalink: /index.php/Deferred_Choice
 ---

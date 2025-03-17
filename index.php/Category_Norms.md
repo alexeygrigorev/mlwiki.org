@@ -1,5 +1,5 @@
 ---
-title: Category:Norms
+title: "Category:Norms"
 layout: default
 permalink: /index.php/Category_Norms
 ---

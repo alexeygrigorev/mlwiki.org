@@ -1,5 +1,5 @@
 ---
-title: Oozie
+title: "Oozie"
 layout: default
 permalink: /index.php/Oozie
 ---

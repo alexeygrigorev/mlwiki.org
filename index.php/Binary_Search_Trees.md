@@ -1,5 +1,5 @@
 ---
-title: Binary Search Trees
+title: "Binary Search Trees"
 layout: default
 permalink: /index.php/Binary_Search_Trees
 ---

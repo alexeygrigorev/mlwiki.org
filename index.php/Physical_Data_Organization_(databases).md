@@ -1,5 +1,5 @@
 ---
-title: Physical Data Organization (databases)
+title: "Physical Data Organization (databases)"
 layout: default
 permalink: /index.php/Physical_Data_Organization_(databases)
 ---

@@ -1,5 +1,5 @@
 ---
-title: Random Variable
+title: "Random Variable"
 layout: default
 permalink: /index.php/Random_Variable
 ---

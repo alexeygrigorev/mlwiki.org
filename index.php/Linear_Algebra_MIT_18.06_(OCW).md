@@ -1,5 +1,5 @@
 ---
-title: Linear Algebra MIT 18.06 (OCW)
+title: "Linear Algebra MIT 18.06 (OCW)"
 layout: default
 permalink: /index.php/Linear_Algebra_MIT_18.06_(OCW)
 ---

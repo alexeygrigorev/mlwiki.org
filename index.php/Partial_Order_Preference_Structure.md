@@ -1,5 +1,5 @@
 ---
-title: Partial Order Preference Structure
+title: "Partial Order Preference Structure"
 layout: default
 permalink: /index.php/Partial_Order_Preference_Structure
 ---

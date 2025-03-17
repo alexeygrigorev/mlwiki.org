@@ -1,5 +1,5 @@
 ---
-title: Python for Machine Learning (TUB)
+title: "Python for Machine Learning (TUB)"
 layout: default
 permalink: /index.php/Python_for_Machine_Learning_(TUB)
 ---

@@ -1,5 +1,5 @@
 ---
-title: OpenIntro Statistics (book)
+title: "OpenIntro Statistics (book)"
 layout: default
 permalink: /index.php/OpenIntro_Statistics_(book)
 ---

@@ -1,5 +1,5 @@
 ---
-title: Recurrence Equation
+title: "Recurrence Equation"
 layout: default
 permalink: /index.php/Recurrence_Equation
 ---

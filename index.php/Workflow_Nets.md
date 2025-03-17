@@ -1,5 +1,5 @@
 ---
-title: Workflow Nets
+title: "Workflow Nets"
 layout: default
 permalink: /index.php/Workflow_Nets
 ---

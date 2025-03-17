@@ -1,5 +1,5 @@
 ---
-title: Cosine Similarity
+title: "Cosine Similarity"
 layout: default
 permalink: /index.php/Cosine_Similarity
 ---

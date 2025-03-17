@@ -1,5 +1,5 @@
 ---
-title: Apriori
+title: "Apriori"
 layout: default
 permalink: /index.php/Apriori
 ---

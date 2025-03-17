@@ -1,5 +1,5 @@
 ---
-title: Semantic Web Application Architecture
+title: "Semantic Web Application Architecture"
 layout: default
 permalink: /index.php/Semantic_Web_Application_Architecture
 ---

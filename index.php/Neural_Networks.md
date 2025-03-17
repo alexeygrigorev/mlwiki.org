@@ -1,5 +1,5 @@
 ---
-title: Neural Networks
+title: "Neural Networks"
 layout: default
 permalink: /index.php/Neural_Networks
 ---

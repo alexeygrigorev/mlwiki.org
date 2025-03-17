@@ -1,5 +1,5 @@
 ---
-title: Pig
+title: "Pig"
 layout: default
 permalink: /index.php/Pig
 ---

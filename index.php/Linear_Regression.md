@@ -1,5 +1,5 @@
 ---
-title: Linear Regression
+title: "Linear Regression"
 layout: default
 permalink: /index.php/Linear_Regression
 ---

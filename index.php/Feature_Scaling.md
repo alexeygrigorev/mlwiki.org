@@ -1,5 +1,5 @@
 ---
-title: Feature Scaling
+title: "Feature Scaling"
 layout: default
 permalink: /index.php/Feature_Scaling
 ---

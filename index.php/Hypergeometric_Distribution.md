@@ -1,5 +1,5 @@
 ---
-title: Hypergeometric Distribution
+title: "Hypergeometric Distribution"
 layout: default
 permalink: /index.php/Hypergeometric_Distribution
 ---

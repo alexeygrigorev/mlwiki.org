@@ -1,5 +1,5 @@
 ---
-title: Hive
+title: "Hive"
 layout: default
 permalink: /index.php/Hive
 ---

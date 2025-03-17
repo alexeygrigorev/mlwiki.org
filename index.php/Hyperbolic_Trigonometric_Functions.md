@@ -1,5 +1,5 @@
 ---
-title: Hyperbolic Trigonometric Functions
+title: "Hyperbolic Trigonometric Functions"
 layout: default
 permalink: /index.php/Hyperbolic_Trigonometric_Functions
 ---

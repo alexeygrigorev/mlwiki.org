@@ -1,5 +1,5 @@
 ---
-title: Conjunctive Query/Homomorphism
+title: "Conjunctive Query/Homomorphism"
 layout: default
 permalink: /index.php/Conjunctive_Query_Homomorphism
 ---

@@ -1,5 +1,5 @@
 ---
-title: Dot Plot
+title: "Dot Plot"
 layout: default
 permalink: /index.php/Dot_Plot
 ---

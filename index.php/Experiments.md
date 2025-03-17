@@ -1,5 +1,5 @@
 ---
-title: Experiments
+title: "Experiments"
 layout: default
 permalink: /index.php/Experiments
 ---

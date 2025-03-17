@@ -1,5 +1,5 @@
 ---
-title: Template:TODO
+title: "Template:TODO"
 layout: default
 permalink: /index.php/Template_TODO
 ---

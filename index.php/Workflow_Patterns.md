@@ -1,5 +1,5 @@
 ---
-title: Workflow Patterns
+title: "Workflow Patterns"
 layout: default
 permalink: /index.php/Workflow_Patterns
 ---

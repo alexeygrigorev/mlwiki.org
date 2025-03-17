@@ -1,5 +1,5 @@
 ---
-title: Category:Algebra
+title: "Category:Algebra"
 layout: default
 permalink: /index.php/Category_Algebra
 ---

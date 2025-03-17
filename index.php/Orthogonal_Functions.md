@@ -1,5 +1,5 @@
 ---
-title: Orthogonal Functions
+title: "Orthogonal Functions"
 layout: default
 permalink: /index.php/Orthogonal_Functions
 ---

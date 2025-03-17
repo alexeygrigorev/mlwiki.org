@@ -1,5 +1,5 @@
 ---
-title: Petri Nets
+title: "Petri Nets"
 layout: default
 permalink: /index.php/Petri_Nets
 ---

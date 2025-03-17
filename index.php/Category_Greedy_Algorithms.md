@@ -1,5 +1,5 @@
 ---
-title: Category:Greedy Algorithms
+title: "Category:Greedy Algorithms"
 layout: default
 permalink: /index.php/Category_Greedy_Algorithms
 ---

@@ -1,5 +1,5 @@
 ---
-title: Semi-Structured Data Model
+title: "Semi-Structured Data Model"
 layout: default
 permalink: /index.php/Semi-Structured_Data_Model
 ---

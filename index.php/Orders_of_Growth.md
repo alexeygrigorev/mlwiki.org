@@ -1,5 +1,5 @@
 ---
-title: Orders of Growth
+title: "Orders of Growth"
 layout: default
 permalink: /index.php/Orders_of_Growth
 ---

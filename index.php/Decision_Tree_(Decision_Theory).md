@@ -1,5 +1,5 @@
 ---
-title: Decision Tree (Decision Theory)
+title: "Decision Tree (Decision Theory)"
 layout: default
 permalink: /index.php/Decision_Tree_(Decision_Theory)
 ---

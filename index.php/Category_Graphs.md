@@ -1,5 +1,5 @@
 ---
-title: Category:Graphs
+title: "Category:Graphs"
 layout: default
 permalink: /index.php/Category_Graphs
 ---

@@ -1,5 +1,5 @@
 ---
-title: RDFS-Plus
+title: "RDFS-Plus"
 layout: default
 permalink: /index.php/RDFS-Plus
 ---

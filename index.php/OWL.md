@@ -1,5 +1,5 @@
 ---
-title: OWL
+title: "OWL"
 layout: default
 permalink: /index.php/OWL
 ---

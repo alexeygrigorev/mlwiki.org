@@ -1,5 +1,5 @@
 ---
-title: Mixed-Strategy Game
+title: "Mixed-Strategy Game"
 layout: default
 permalink: /index.php/Mixed-Strategy_Game
 ---

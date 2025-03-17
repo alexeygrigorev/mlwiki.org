@@ -1,5 +1,5 @@
 ---
-title: Vector Spaces
+title: "Vector Spaces"
 layout: default
 permalink: /index.php/Vector_Spaces
 ---

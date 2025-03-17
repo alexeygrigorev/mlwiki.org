@@ -1,5 +1,5 @@
 ---
-title: Data Warehouse
+title: "Data Warehouse"
 layout: default
 permalink: /index.php/Data_Warehouse
 ---

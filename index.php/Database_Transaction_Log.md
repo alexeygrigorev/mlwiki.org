@@ -1,5 +1,5 @@
 ---
-title: Database Transaction Log
+title: "Database Transaction Log"
 layout: default
 permalink: /index.php/Database_Transaction_Log
 ---

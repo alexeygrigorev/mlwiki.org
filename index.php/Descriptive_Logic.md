@@ -1,5 +1,5 @@
 ---
-title: Descriptive Logic
+title: "Descriptive Logic"
 layout: default
 permalink: /index.php/Descriptive_Logic
 ---

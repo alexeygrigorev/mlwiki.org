@@ -1,5 +1,5 @@
 ---
-title: Dot for Petri Nets
+title: "Dot for Petri Nets"
 layout: default
 permalink: /index.php/Dot_for_Petri_Nets
 ---

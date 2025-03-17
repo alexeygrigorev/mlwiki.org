@@ -1,5 +1,5 @@
 ---
-title: Category:Draft
+title: "Category:Draft"
 layout: default
 permalink: /index.php/Category_Draft
 ---

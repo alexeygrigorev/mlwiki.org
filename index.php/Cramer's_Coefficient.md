@@ -1,5 +1,5 @@
 ---
-title: Cramer's Coefficient
+title: "Cramer's Coefficient"
 layout: default
 permalink: /index.php/Cramer's_Coefficient
 ---

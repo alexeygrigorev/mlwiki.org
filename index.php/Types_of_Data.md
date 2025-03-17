@@ -1,5 +1,5 @@
 ---
-title: Types of Data
+title: "Types of Data"
 layout: default
 permalink: /index.php/Types_of_Data
 ---

@@ -1,5 +1,5 @@
 ---
-title: DB interview questions
+title: "DB interview questions"
 layout: default
 permalink: /index.php/DB_interview_questions
 ---

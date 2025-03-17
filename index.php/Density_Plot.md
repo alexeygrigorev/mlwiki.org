@@ -1,5 +1,5 @@
 ---
-title: Density Plot
+title: "Density Plot"
 layout: default
 permalink: /index.php/Density_Plot
 ---

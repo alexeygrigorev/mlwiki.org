@@ -1,5 +1,5 @@
 ---
-title: Dominance
+title: "Dominance"
 layout: default
 permalink: /index.php/Dominance
 ---

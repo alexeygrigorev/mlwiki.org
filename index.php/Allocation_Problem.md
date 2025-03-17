@@ -1,5 +1,5 @@
 ---
-title: Allocation Problem
+title: "Allocation Problem"
 layout: default
 permalink: /index.php/Allocation_Problem
 ---

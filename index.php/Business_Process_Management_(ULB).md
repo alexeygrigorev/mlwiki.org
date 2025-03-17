@@ -1,5 +1,5 @@
 ---
-title: Business Process Management (ULB)
+title: "Business Process Management (ULB)"
 layout: default
 permalink: /index.php/Business_Process_Management_(ULB)
 ---

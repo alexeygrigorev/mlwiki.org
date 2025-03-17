@@ -1,5 +1,5 @@
 ---
-title: Latent Semantic Analysis
+title: "Latent Semantic Analysis"
 layout: default
 permalink: /index.php/Latent_Semantic_Analysis
 ---

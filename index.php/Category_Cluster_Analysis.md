@@ -1,5 +1,5 @@
 ---
-title: Category:Cluster Analysis
+title: "Category:Cluster Analysis"
 layout: default
 permalink: /index.php/Category_Cluster_Analysis
 ---

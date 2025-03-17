@@ -1,5 +1,5 @@
 ---
-title: Semantic Web
+title: "Semantic Web"
 layout: default
 permalink: /index.php/Semantic_Web
 ---

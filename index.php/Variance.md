@@ -1,5 +1,5 @@
 ---
-title: Variance
+title: "Variance"
 layout: default
 permalink: /index.php/Variance
 ---

@@ -1,5 +1,5 @@
 ---
-title: Multiple-Key Index
+title: "Multiple-Key Index"
 layout: default
 permalink: /index.php/Multiple-Key_Index
 ---

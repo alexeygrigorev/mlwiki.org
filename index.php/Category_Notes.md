@@ -1,5 +1,5 @@
 ---
-title: Category:Notes
+title: "Category:Notes"
 layout: default
 permalink: /index.php/Category_Notes
 ---

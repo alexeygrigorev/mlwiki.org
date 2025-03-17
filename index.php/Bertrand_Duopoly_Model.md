@@ -1,5 +1,5 @@
 ---
-title: Bertrand Duopoly Model
+title: "Bertrand Duopoly Model"
 layout: default
 permalink: /index.php/Bertrand_Duopoly_Model
 ---

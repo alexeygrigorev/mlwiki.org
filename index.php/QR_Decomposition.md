@@ -1,5 +1,5 @@
 ---
-title: QR Decomposition
+title: "QR Decomposition"
 layout: default
 permalink: /index.php/QR_Decomposition
 ---

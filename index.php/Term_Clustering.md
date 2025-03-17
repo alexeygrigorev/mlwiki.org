@@ -1,5 +1,5 @@
 ---
-title: Term Clustering
+title: "Term Clustering"
 layout: default
 permalink: /index.php/Term_Clustering
 ---

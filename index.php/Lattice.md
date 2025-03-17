@@ -1,5 +1,5 @@
 ---
-title: Lattice
+title: "Lattice"
 layout: default
 permalink: /index.php/Lattice
 ---

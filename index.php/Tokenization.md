@@ -1,5 +1,5 @@
 ---
-title: Tokenization
+title: "Tokenization"
 layout: default
 permalink: /index.php/Tokenization
 ---

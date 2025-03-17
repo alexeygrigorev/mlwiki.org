@@ -1,5 +1,5 @@
 ---
-title: Decision Tree
+title: "Decision Tree"
 layout: default
 permalink: /index.php/Decision_Tree
 ---

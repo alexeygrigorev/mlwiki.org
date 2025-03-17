@@ -1,5 +1,5 @@
 ---
-title: Two-Round Voting
+title: "Two-Round Voting"
 layout: default
 permalink: /index.php/Two-Round_Voting
 ---

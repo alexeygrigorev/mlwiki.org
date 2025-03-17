@@ -1,5 +1,5 @@
 ---
-title: Category:Linear Algebra
+title: "Category:Linear Algebra"
 layout: default
 permalink: /index.php/Category_Linear_Algebra
 ---

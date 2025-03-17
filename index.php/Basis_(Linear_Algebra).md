@@ -1,5 +1,5 @@
 ---
-title: Basis (Linear Algebra)
+title: "Basis (Linear Algebra)"
 layout: default
 permalink: /index.php/Basis_(Linear_Algebra)
 ---

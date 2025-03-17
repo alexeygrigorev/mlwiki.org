@@ -1,5 +1,5 @@
 ---
-title: Category:Cominatorics
+title: "Category:Cominatorics"
 layout: default
 permalink: /index.php/Category_Cominatorics
 ---

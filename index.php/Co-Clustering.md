@@ -1,5 +1,5 @@
 ---
-title: Co-Clustering
+title: "Co-Clustering"
 layout: default
 permalink: /index.php/Co-Clustering
 ---

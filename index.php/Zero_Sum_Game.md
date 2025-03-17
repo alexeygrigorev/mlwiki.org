@@ -1,5 +1,5 @@
 ---
-title: Zero Sum Game
+title: "Zero Sum Game"
 layout: default
 permalink: /index.php/Zero_Sum_Game
 ---

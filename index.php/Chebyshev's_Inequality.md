@@ -1,5 +1,5 @@
 ---
-title: Chebyshev's Inequality
+title: "Chebyshev's Inequality"
 layout: default
 permalink: /index.php/Chebyshev's_Inequality
 ---

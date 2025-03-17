@@ -1,5 +1,5 @@
 ---
-title: Rule-Based Classifier
+title: "Rule-Based Classifier"
 layout: default
 permalink: /index.php/Rule-Based_Classifier
 ---

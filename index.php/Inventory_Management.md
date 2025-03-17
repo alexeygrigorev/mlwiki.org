@@ -1,5 +1,5 @@
 ---
-title: Inventory Management
+title: "Inventory Management"
 layout: default
 permalink: /index.php/Inventory_Management
 ---

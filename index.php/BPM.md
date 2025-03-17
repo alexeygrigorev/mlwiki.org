@@ -1,5 +1,5 @@
 ---
-title: BPM
+title: "BPM"
 layout: default
 permalink: /index.php/BPM
 ---

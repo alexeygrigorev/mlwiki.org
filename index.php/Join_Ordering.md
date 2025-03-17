@@ -1,5 +1,5 @@
 ---
-title: Join Ordering
+title: "Join Ordering"
 layout: default
 permalink: /index.php/Join_Ordering
 ---

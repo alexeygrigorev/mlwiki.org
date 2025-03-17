@@ -1,5 +1,5 @@
 ---
-title: One-Way ANOVA F-Test
+title: "One-Way ANOVA F-Test"
 layout: default
 permalink: /index.php/One-Way_ANOVA_F-Test
 ---

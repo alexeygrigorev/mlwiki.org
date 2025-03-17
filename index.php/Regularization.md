@@ -1,5 +1,5 @@
 ---
-title: Regularization
+title: "Regularization"
 layout: default
 permalink: /index.php/Regularization
 ---

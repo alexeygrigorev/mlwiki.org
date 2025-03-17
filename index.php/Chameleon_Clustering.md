@@ -1,5 +1,5 @@
 ---
-title: Chameleon Clustering
+title: "Chameleon Clustering"
 layout: default
 permalink: /index.php/Chameleon_Clustering
 ---

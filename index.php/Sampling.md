@@ -1,5 +1,5 @@
 ---
-title: Sampling
+title: "Sampling"
 layout: default
 permalink: /index.php/Sampling
 ---

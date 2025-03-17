@@ -1,5 +1,5 @@
 ---
-title: Indexing (databases)
+title: "Indexing (databases)"
 layout: default
 permalink: /index.php/Indexing_(databases)
 ---

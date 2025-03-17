@@ -1,5 +1,5 @@
 ---
-title: Category:Optimization
+title: "Category:Optimization"
 layout: default
 permalink: /index.php/Category_Optimization
 ---

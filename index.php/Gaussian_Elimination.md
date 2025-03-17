@@ -1,5 +1,5 @@
 ---
-title: Gaussian Elimination
+title: "Gaussian Elimination"
 layout: default
 permalink: /index.php/Gaussian_Elimination
 ---

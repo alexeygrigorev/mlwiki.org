@@ -1,5 +1,5 @@
 ---
-title: Multinomial Distribution
+title: "Multinomial Distribution"
 layout: default
 permalink: /index.php/Multinomial_Distribution
 ---

@@ -1,5 +1,5 @@
 ---
-title: Binomial Theorem
+title: "Binomial Theorem"
 layout: default
 permalink: /index.php/Binomial_Theorem
 ---

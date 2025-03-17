@@ -1,5 +1,5 @@
 ---
-title: Decision Under Uncertainty
+title: "Decision Under Uncertainty"
 layout: default
 permalink: /index.php/Decision_Under_Uncertainty
 ---

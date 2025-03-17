@@ -1,5 +1,5 @@
 ---
-title: Weighted Sum Model
+title: "Weighted Sum Model"
 layout: default
 permalink: /index.php/Weighted_Sum_Model
 ---

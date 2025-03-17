@@ -1,5 +1,5 @@
 ---
-title: PCA
+title: "PCA"
 layout: default
 permalink: /index.php/PCA
 ---

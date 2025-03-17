@@ -1,5 +1,5 @@
 ---
-title: Physical Operators (databases)
+title: "Physical Operators (databases)"
 layout: default
 permalink: /index.php/Physical_Operators_(databases)
 ---

@@ -1,5 +1,5 @@
 ---
-title: Chi-Squared Ranking
+title: "Chi-Squared Ranking"
 layout: default
 permalink: /index.php/Chi-Squared_Ranking
 ---

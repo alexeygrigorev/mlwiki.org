@@ -1,5 +1,5 @@
 ---
-title: Biased Estimators
+title: "Biased Estimators"
 layout: default
 permalink: /index.php/Biased_Estimators
 ---

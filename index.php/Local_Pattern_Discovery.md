@@ -1,5 +1,5 @@
 ---
-title: Local Pattern Discovery
+title: "Local Pattern Discovery"
 layout: default
 permalink: /index.php/Local_Pattern_Discovery
 ---

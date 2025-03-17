@@ -1,5 +1,5 @@
 ---
-title: Information Retrieval
+title: "Information Retrieval"
 layout: default
 permalink: /index.php/Information_Retrieval
 ---

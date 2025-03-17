@@ -1,5 +1,5 @@
 ---
-title: Semi-Supervised Clustering
+title: "Semi-Supervised Clustering"
 layout: default
 permalink: /index.php/Semi-Supervised_Clustering
 ---

@@ -1,5 +1,5 @@
 ---
-title: Discriminator Pattern
+title: "Discriminator Pattern"
 layout: default
 permalink: /index.php/Discriminator_Pattern
 ---

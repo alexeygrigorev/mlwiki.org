@@ -1,5 +1,5 @@
 ---
-title: Quad Trees
+title: "Quad Trees"
 layout: default
 permalink: /index.php/Quad_Trees
 ---

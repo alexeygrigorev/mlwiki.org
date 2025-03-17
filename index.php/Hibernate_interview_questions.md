@@ -1,5 +1,5 @@
 ---
-title: Hibernate interview questions
+title: "Hibernate interview questions"
 layout: default
 permalink: /index.php/Hibernate_interview_questions
 ---

@@ -1,5 +1,5 @@
 ---
-title: Ordinary Least Squares
+title: "Ordinary Least Squares"
 layout: default
 permalink: /index.php/Ordinary_Least_Squares
 ---

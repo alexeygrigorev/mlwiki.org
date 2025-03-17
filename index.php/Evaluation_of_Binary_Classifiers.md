@@ -1,5 +1,5 @@
 ---
-title: Evaluation of Binary Classifiers
+title: "Evaluation of Binary Classifiers"
 layout: default
 permalink: /index.php/Evaluation_of_Binary_Classifiers
 ---

@@ -1,5 +1,5 @@
 ---
-title: Decision Tree Exercises
+title: "Decision Tree Exercises"
 layout: default
 permalink: /index.php/Decision_Tree_Exercises
 ---

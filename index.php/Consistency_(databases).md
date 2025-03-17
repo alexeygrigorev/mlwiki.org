@@ -1,5 +1,5 @@
 ---
-title: Consistency (databases)
+title: "Consistency (databases)"
 layout: default
 permalink: /index.php/Consistency_(databases)
 ---

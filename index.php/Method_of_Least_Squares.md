@@ -1,5 +1,5 @@
 ---
-title: Method of Least Squares
+title: "Method of Least Squares"
 layout: default
 permalink: /index.php/Method_of_Least_Squares
 ---

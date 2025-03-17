@@ -1,5 +1,5 @@
 ---
-title: Ontologies
+title: "Ontologies"
 layout: default
 permalink: /index.php/Ontologies
 ---

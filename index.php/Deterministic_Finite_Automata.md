@@ -1,5 +1,5 @@
 ---
-title: Deterministic Finite Automata
+title: "Deterministic Finite Automata"
 layout: default
 permalink: /index.php/Deterministic_Finite_Automata
 ---

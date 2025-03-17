@@ -1,5 +1,5 @@
 ---
-title: Cumulative Distribution Function
+title: "Cumulative Distribution Function"
 layout: default
 permalink: /index.php/Cumulative_Distribution_Function
 ---

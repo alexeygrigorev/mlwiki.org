@@ -1,5 +1,5 @@
 ---
-title: Stemming
+title: "Stemming"
 layout: default
 permalink: /index.php/Stemming
 ---

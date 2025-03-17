@@ -1,5 +1,5 @@
 ---
-title: RDF
+title: "RDF"
 layout: default
 permalink: /index.php/RDF
 ---

@@ -1,5 +1,5 @@
 ---
-title: Exponential Function
+title: "Exponential Function"
 layout: default
 permalink: /index.php/Exponential_Function
 ---

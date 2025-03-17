@@ -1,5 +1,5 @@
 ---
-title: Document Clustering
+title: "Document Clustering"
 layout: default
 permalink: /index.php/Document_Clustering
 ---

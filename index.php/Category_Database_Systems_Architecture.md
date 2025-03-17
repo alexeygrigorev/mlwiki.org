@@ -1,5 +1,5 @@
 ---
-title: Category:Database Systems Architecture
+title: "Category:Database Systems Architecture"
 layout: default
 permalink: /index.php/Category_Database_Systems_Architecture
 ---

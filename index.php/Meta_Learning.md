@@ -1,5 +1,5 @@
 ---
-title: Meta Learning
+title: "Meta Learning"
 layout: default
 permalink: /index.php/Meta_Learning
 ---

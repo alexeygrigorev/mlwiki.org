@@ -1,5 +1,5 @@
 ---
-title: Combinations
+title: "Combinations"
 layout: default
 permalink: /index.php/Combinations
 ---

@@ -1,5 +1,5 @@
 ---
-title: Introduction to Data Science (coursera)
+title: "Introduction to Data Science (coursera)"
 layout: default
 permalink: /index.php/Introduction_to_Data_Science_(coursera)
 ---

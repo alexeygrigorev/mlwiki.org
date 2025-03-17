@@ -1,5 +1,5 @@
 ---
-title: R-Tree
+title: "R-Tree"
 layout: default
 permalink: /index.php/R-Tree
 ---

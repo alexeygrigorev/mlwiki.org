@@ -1,5 +1,5 @@
 ---
-title: Document-Oriented Databases
+title: "Document-Oriented Databases"
 layout: default
 permalink: /index.php/Document-Oriented_Databases
 ---

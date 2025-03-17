@@ -1,5 +1,5 @@
 ---
-title: Template:Void
+title: "Template:Void"
 layout: default
 permalink: /index.php/Template_Void
 ---

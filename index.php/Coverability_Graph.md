@@ -1,5 +1,5 @@
 ---
-title: Coverability Graph
+title: "Coverability Graph"
 layout: default
 permalink: /index.php/Coverability_Graph
 ---

@@ -1,5 +1,5 @@
 ---
-title: Vector Space Models
+title: "Vector Space Models"
 layout: default
 permalink: /index.php/Vector_Space_Models
 ---

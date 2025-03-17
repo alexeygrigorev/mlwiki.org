@@ -1,5 +1,5 @@
 ---
-title: OLS Regression
+title: "OLS Regression"
 layout: default
 permalink: /index.php/OLS_Regression
 ---

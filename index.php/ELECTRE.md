@@ -1,5 +1,5 @@
 ---
-title: ELECTRE
+title: "ELECTRE"
 layout: default
 permalink: /index.php/ELECTRE
 ---

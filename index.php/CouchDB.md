@@ -1,5 +1,5 @@
 ---
-title: CouchDB
+title: "CouchDB"
 layout: default
 permalink: /index.php/CouchDB
 ---

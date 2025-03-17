@@ -1,5 +1,5 @@
 ---
-title: K-Fold Cross-Validation
+title: "K-Fold Cross-Validation"
 layout: default
 permalink: /index.php/K-Fold_Cross-Validation
 ---

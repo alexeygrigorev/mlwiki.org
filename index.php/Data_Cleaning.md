@@ -1,5 +1,5 @@
 ---
-title: Data Cleaning
+title: "Data Cleaning"
 layout: default
 permalink: /index.php/Data_Cleaning
 ---

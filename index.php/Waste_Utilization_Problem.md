@@ -1,5 +1,5 @@
 ---
-title: Waste Utilization Problem
+title: "Waste Utilization Problem"
 layout: default
 permalink: /index.php/Waste_Utilization_Problem
 ---

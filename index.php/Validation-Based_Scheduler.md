@@ -1,5 +1,5 @@
 ---
-title: Validation-Based Scheduler
+title: "Validation-Based Scheduler"
 layout: default
 permalink: /index.php/Validation-Based_Scheduler
 ---

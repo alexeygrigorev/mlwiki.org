@@ -1,5 +1,5 @@
 ---
-title: Genetic Algorithms
+title: "Genetic Algorithms"
 layout: default
 permalink: /index.php/Genetic_Algorithms
 ---

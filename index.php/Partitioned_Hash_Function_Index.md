@@ -1,5 +1,5 @@
 ---
-title: Partitioned Hash Function Index
+title: "Partitioned Hash Function Index"
 layout: default
 permalink: /index.php/Partitioned_Hash_Function_Index
 ---

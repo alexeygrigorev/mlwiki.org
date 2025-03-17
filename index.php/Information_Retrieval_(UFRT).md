@@ -1,5 +1,5 @@
 ---
-title: Information Retrieval (UFRT)
+title: "Information Retrieval (UFRT)"
 layout: default
 permalink: /index.php/Information_Retrieval_(UFRT)
 ---

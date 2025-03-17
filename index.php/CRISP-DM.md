@@ -1,5 +1,5 @@
 ---
-title: CRISP-DM
+title: "CRISP-DM"
 layout: default
 permalink: /index.php/CRISP-DM
 ---

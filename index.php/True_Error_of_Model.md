@@ -1,5 +1,5 @@
 ---
-title: True Error of Model
+title: "True Error of Model"
 layout: default
 permalink: /index.php/True_Error_of_Model
 ---

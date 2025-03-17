@@ -1,5 +1,5 @@
 ---
-title: Multi-Objective Optimization
+title: "Multi-Objective Optimization"
 layout: default
 permalink: /index.php/Multi-Objective_Optimization
 ---

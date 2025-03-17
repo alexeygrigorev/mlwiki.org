@@ -1,5 +1,5 @@
 ---
-title: Summary Statistics
+title: "Summary Statistics"
 layout: default
 permalink: /index.php/Summary_Statistics
 ---

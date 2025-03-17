@@ -1,5 +1,5 @@
 ---
-title: Multi-Dimensional Indexes
+title: "Multi-Dimensional Indexes"
 layout: default
 permalink: /index.php/Multi-Dimensional_Indexes
 ---

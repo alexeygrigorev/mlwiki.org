@@ -1,5 +1,5 @@
 ---
-title: Extensible Hashing
+title: "Extensible Hashing"
 layout: default
 permalink: /index.php/Extensible_Hashing
 ---

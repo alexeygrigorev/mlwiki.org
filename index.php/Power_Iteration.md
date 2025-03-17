@@ -1,5 +1,5 @@
 ---
-title: Power Iteration
+title: "Power Iteration"
 layout: default
 permalink: /index.php/Power_Iteration
 ---

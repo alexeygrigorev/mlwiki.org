@@ -1,5 +1,5 @@
 ---
-title: Hadoop in Data Warehousing
+title: "Hadoop in Data Warehousing"
 layout: default
 permalink: /index.php/Hadoop_in_Data_Warehousing
 ---

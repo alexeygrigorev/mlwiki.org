@@ -1,5 +1,5 @@
 ---
-title: Rank Correlation
+title: "Rank Correlation"
 layout: default
 permalink: /index.php/Rank_Correlation
 ---

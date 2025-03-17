@@ -1,5 +1,5 @@
 ---
-title: Category:Plots
+title: "Category:Plots"
 layout: default
 permalink: /index.php/Category_Plots
 ---

@@ -1,5 +1,5 @@
 ---
-title: Personal Knowledge Management
+title: "Personal Knowledge Management"
 layout: default
 permalink: /index.php/Personal_Knowledge_Management
 ---

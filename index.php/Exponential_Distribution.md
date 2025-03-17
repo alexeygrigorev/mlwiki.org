@@ -1,5 +1,5 @@
 ---
-title: Exponential Distribution
+title: "Exponential Distribution"
 layout: default
 permalink: /index.php/Exponential_Distribution
 ---

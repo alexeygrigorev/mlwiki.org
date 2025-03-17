@@ -1,5 +1,5 @@
 ---
-title: Database System Catalog
+title: "Database System Catalog"
 layout: default
 permalink: /index.php/Database_System_Catalog
 ---

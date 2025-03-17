@@ -1,5 +1,5 @@
 ---
-title: Partial Permutations
+title: "Partial Permutations"
 layout: default
 permalink: /index.php/Partial_Permutations
 ---

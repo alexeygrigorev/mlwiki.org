@@ -1,5 +1,5 @@
 ---
-title: Bloom Filters
+title: "Bloom Filters"
 layout: default
 permalink: /index.php/Bloom_Filters
 ---

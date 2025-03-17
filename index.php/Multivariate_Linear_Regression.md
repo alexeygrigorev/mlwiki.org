@@ -1,5 +1,5 @@
 ---
-title: Multivariate Linear Regression
+title: "Multivariate Linear Regression"
 layout: default
 permalink: /index.php/Multivariate_Linear_Regression
 ---

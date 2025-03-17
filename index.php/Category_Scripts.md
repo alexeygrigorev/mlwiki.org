@@ -1,5 +1,5 @@
 ---
-title: Category:Scripts
+title: "Category:Scripts"
 layout: default
 permalink: /index.php/Category_Scripts
 ---

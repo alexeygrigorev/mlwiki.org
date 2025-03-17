@@ -1,5 +1,5 @@
 ---
-title: Coalitional Game
+title: "Coalitional Game"
 layout: default
 permalink: /index.php/Coalitional_Game
 ---

@@ -1,5 +1,5 @@
 ---
-title: Chi-Squared Goodness of Fit Test
+title: "Chi-Squared Goodness of Fit Test"
 layout: default
 permalink: /index.php/Chi-Squared_Goodness_of_Fit_Test
 ---

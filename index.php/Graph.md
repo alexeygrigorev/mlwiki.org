@@ -1,5 +1,5 @@
 ---
-title: Graph
+title: "Graph"
 layout: default
 permalink: /index.php/Graph
 ---

@@ -1,5 +1,5 @@
 ---
-title: Game Theory
+title: "Game Theory"
 layout: default
 permalink: /index.php/Game_Theory
 ---

@@ -1,5 +1,5 @@
 ---
-title: Borda's Rule
+title: "Borda's Rule"
 layout: default
 permalink: /index.php/Borda's_Rule
 ---

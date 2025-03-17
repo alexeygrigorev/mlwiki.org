@@ -1,5 +1,5 @@
 ---
-title: Support Vector Machines
+title: "Support Vector Machines"
 layout: default
 permalink: /index.php/Support_Vector_Machines
 ---

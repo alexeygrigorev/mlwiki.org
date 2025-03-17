@@ -1,5 +1,5 @@
 ---
-title: B-Tree
+title: "B-Tree"
 layout: default
 permalink: /index.php/B-Tree
 ---

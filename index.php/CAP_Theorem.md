@@ -1,5 +1,5 @@
 ---
-title: CAP Theorem
+title: "CAP Theorem"
 layout: default
 permalink: /index.php/CAP_Theorem
 ---

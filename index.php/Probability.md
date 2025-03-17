@@ -1,5 +1,5 @@
 ---
-title: Probability
+title: "Probability"
 layout: default
 permalink: /index.php/Probability
 ---

@@ -1,5 +1,5 @@
 ---
-title: Laws of Large Numbers
+title: "Laws of Large Numbers"
 layout: default
 permalink: /index.php/Laws_of_Large_Numbers
 ---

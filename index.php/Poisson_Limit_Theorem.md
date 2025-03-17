@@ -1,5 +1,5 @@
 ---
-title: Poisson Limit Theorem
+title: "Poisson Limit Theorem"
 layout: default
 permalink: /index.php/Poisson_Limit_Theorem
 ---

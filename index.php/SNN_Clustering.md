@@ -1,5 +1,5 @@
 ---
-title: SNN Clustering
+title: "SNN Clustering"
 layout: default
 permalink: /index.php/SNN_Clustering
 ---

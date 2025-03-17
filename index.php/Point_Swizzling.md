@@ -1,5 +1,5 @@
 ---
-title: Point Swizzling
+title: "Point Swizzling"
 layout: default
 permalink: /index.php/Point_Swizzling
 ---

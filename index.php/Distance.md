@@ -1,5 +1,5 @@
 ---
-title: Distance
+title: "Distance"
 layout: default
 permalink: /index.php/Distance
 ---

@@ -1,5 +1,5 @@
 ---
-title: LAV Mediation
+title: "LAV Mediation"
 layout: default
 permalink: /index.php/LAV_Mediation
 ---

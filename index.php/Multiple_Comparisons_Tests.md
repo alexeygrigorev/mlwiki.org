@@ -1,5 +1,5 @@
 ---
-title: Multiple Comparisons Tests
+title: "Multiple Comparisons Tests"
 layout: default
 permalink: /index.php/Multiple_Comparisons_Tests
 ---

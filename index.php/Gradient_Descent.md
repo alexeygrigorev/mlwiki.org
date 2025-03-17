@@ -1,5 +1,5 @@
 ---
-title: Gradient Descent
+title: "Gradient Descent"
 layout: default
 permalink: /index.php/Gradient_Descent
 ---

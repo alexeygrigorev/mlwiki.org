@@ -1,5 +1,5 @@
 ---
-title: Gram-Schmidt Process
+title: "Gram-Schmidt Process"
 layout: default
 permalink: /index.php/Gram-Schmidt_Process
 ---

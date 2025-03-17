@@ -1,5 +1,5 @@
 ---
-title: Binomial Proportion Confidence Intervals
+title: "Binomial Proportion Confidence Intervals"
 layout: default
 permalink: /index.php/Binomial_Proportion_Confidence_Intervals
 ---

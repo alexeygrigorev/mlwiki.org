@@ -1,5 +1,5 @@
 ---
-title: Physical Query Plan Optimization
+title: "Physical Query Plan Optimization"
 layout: default
 permalink: /index.php/Physical_Query_Plan_Optimization
 ---

@@ -1,5 +1,5 @@
 ---
-title: Expected Values for Lotteries
+title: "Expected Values for Lotteries"
 layout: default
 permalink: /index.php/Expected_Values_for_Lotteries
 ---

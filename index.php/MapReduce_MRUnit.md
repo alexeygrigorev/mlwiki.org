@@ -1,5 +1,5 @@
 ---
-title: MapReduce/MRUnit
+title: "MapReduce/MRUnit"
 layout: default
 permalink: /index.php/MapReduce_MRUnit
 ---

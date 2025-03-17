@@ -1,5 +1,5 @@
 ---
-title: Dense Index
+title: "Dense Index"
 layout: default
 permalink: /index.php/Dense_Index
 ---

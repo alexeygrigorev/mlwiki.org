@@ -1,5 +1,5 @@
 ---
-title: Ideal Point Model
+title: "Ideal Point Model"
 layout: default
 permalink: /index.php/Ideal_Point_Model
 ---

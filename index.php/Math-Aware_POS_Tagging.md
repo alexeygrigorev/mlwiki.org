@@ -1,5 +1,5 @@
 ---
-title: Math-Aware POS Tagging
+title: "Math-Aware POS Tagging"
 layout: default
 permalink: /index.php/Math-Aware_POS_Tagging
 ---

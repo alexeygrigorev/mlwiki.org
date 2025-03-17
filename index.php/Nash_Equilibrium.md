@@ -1,5 +1,5 @@
 ---
-title: Nash Equilibrium
+title: "Nash Equilibrium"
 layout: default
 permalink: /index.php/Nash_Equilibrium
 ---

@@ -1,5 +1,5 @@
 ---
-title: Law of Total Probability
+title: "Law of Total Probability"
 layout: default
 permalink: /index.php/Law_of_Total_Probability
 ---

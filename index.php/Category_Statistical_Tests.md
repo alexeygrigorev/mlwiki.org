@@ -1,5 +1,5 @@
 ---
-title: Category:Statistical Tests
+title: "Category:Statistical Tests"
 layout: default
 permalink: /index.php/Category_Statistical_Tests
 ---

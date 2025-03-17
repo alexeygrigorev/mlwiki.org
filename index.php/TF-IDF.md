@@ -1,5 +1,5 @@
 ---
-title: TF-IDF
+title: "TF-IDF"
 layout: default
 permalink: /index.php/TF-IDF
 ---

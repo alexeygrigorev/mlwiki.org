@@ -1,5 +1,5 @@
 ---
-title: Multi-Vestion Concurrency Control
+title: "Multi-Vestion Concurrency Control"
 layout: default
 permalink: /index.php/Multi-Vestion_Concurrency_Control
 ---

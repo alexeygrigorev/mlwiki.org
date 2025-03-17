@@ -1,5 +1,5 @@
 ---
-title: Eclipse settings
+title: "Eclipse settings"
 layout: default
 permalink: /index.php/Eclipse_settings
 ---

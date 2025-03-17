@@ -1,5 +1,5 @@
 ---
-title: OBDA
+title: "OBDA"
 layout: default
 permalink: /index.php/OBDA
 ---

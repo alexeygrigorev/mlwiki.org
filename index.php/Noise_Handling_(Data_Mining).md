@@ -1,5 +1,5 @@
 ---
-title: Noise Handling (Data Mining)
+title: "Noise Handling (Data Mining)"
 layout: default
 permalink: /index.php/Noise_Handling_(Data_Mining)
 ---

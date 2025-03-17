@@ -1,5 +1,5 @@
 ---
-title: Permutations
+title: "Permutations"
 layout: default
 permalink: /index.php/Permutations
 ---

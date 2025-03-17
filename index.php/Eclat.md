@@ -1,5 +1,5 @@
 ---
-title: Eclat
+title: "Eclat"
 layout: default
 permalink: /index.php/Eclat
 ---

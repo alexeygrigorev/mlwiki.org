@@ -1,5 +1,5 @@
 ---
-title: Durability (databases)
+title: "Durability (databases)"
 layout: default
 permalink: /index.php/Durability_(databases)
 ---

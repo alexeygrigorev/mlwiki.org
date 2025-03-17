@@ -1,5 +1,5 @@
 ---
-title: Confidence Intervals and Statistical Tests
+title: "Confidence Intervals and Statistical Tests"
 layout: default
 permalink: /index.php/Confidence_Intervals_and_Statistical_Tests
 ---

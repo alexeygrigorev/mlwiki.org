@@ -1,5 +1,5 @@
 ---
-title: Query Plan Selection Exercises
+title: "Query Plan Selection Exercises"
 layout: default
 permalink: /index.php/Query_Plan_Selection_Exercises
 ---

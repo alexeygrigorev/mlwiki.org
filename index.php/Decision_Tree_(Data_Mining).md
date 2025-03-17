@@ -1,5 +1,5 @@
 ---
-title: Decision Tree (Data Mining)
+title: "Decision Tree (Data Mining)"
 layout: default
 permalink: /index.php/Decision_Tree_(Data_Mining)
 ---

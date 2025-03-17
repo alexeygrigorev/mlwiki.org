@@ -1,5 +1,5 @@
 ---
-title: May's Theorem
+title: "May's Theorem"
 layout: default
 permalink: /index.php/May's_Theorem
 ---

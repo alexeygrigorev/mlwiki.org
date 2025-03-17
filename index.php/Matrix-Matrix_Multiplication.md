@@ -1,5 +1,5 @@
 ---
-title: Matrix-Matrix Multiplication
+title: "Matrix-Matrix Multiplication"
 layout: default
 permalink: /index.php/Matrix-Matrix_Multiplication
 ---

@@ -1,5 +1,5 @@
 ---
-title: Crash Recovery
+title: "Crash Recovery"
 layout: default
 permalink: /index.php/Crash_Recovery
 ---

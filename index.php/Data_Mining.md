@@ -1,5 +1,5 @@
 ---
-title: Data Mining
+title: "Data Mining"
 layout: default
 permalink: /index.php/Data_Mining
 ---

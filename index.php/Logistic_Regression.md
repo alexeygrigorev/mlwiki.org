@@ -1,5 +1,5 @@
 ---
-title: Logistic Regression
+title: "Logistic Regression"
 layout: default
 permalink: /index.php/Logistic_Regression
 ---

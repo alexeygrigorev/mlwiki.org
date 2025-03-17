@@ -1,5 +1,5 @@
 ---
-title: Poisson Process
+title: "Poisson Process"
 layout: default
 permalink: /index.php/Poisson_Process
 ---

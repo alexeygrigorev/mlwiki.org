@@ -1,5 +1,5 @@
 ---
-title: Bernoulli Theorem
+title: "Bernoulli Theorem"
 layout: default
 permalink: /index.php/Bernoulli_Theorem
 ---

@@ -1,5 +1,5 @@
 ---
-title: Temporal Databases
+title: "Temporal Databases"
 layout: default
 permalink: /index.php/Temporal_Databases
 ---

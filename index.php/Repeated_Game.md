@@ -1,5 +1,5 @@
 ---
-title: Repeated Game
+title: "Repeated Game"
 layout: default
 permalink: /index.php/Repeated_Game
 ---

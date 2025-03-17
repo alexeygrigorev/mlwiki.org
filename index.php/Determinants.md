@@ -1,5 +1,5 @@
 ---
-title: Determinants
+title: "Determinants"
 layout: default
 permalink: /index.php/Determinants
 ---

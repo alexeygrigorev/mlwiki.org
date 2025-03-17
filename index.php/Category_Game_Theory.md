@@ -1,5 +1,5 @@
 ---
-title: Category:Game Theory
+title: "Category:Game Theory"
 layout: default
 permalink: /index.php/Category_Game_Theory
 ---

@@ -1,5 +1,5 @@
 ---
-title: Category:Classifiers
+title: "Category:Classifiers"
 layout: default
 permalink: /index.php/Category_Classifiers
 ---

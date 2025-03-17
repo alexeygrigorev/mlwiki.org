@@ -1,5 +1,5 @@
 ---
-title: Subspace Clustering
+title: "Subspace Clustering"
 layout: default
 permalink: /index.php/Subspace_Clustering
 ---

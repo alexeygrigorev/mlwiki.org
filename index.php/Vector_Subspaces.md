@@ -1,5 +1,5 @@
 ---
-title: Vector Subspaces
+title: "Vector Subspaces"
 layout: default
 permalink: /index.php/Vector_Subspaces
 ---

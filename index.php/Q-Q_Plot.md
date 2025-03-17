@@ -1,5 +1,5 @@
 ---
-title: Q-Q Plot
+title: "Q-Q Plot"
 layout: default
 permalink: /index.php/Q-Q_Plot
 ---

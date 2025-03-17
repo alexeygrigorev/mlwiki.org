@@ -1,5 +1,5 @@
 ---
-title: Category:Data Cleaning
+title: "Category:Data Cleaning"
 layout: default
 permalink: /index.php/Category_Data_Cleaning
 ---

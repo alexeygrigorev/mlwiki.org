@@ -1,5 +1,5 @@
 ---
-title: Max Min Strategy
+title: "Max Min Strategy"
 layout: default
 permalink: /index.php/Max_Min_Strategy
 ---

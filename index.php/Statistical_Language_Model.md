@@ -1,5 +1,5 @@
 ---
-title: Statistical Language Model
+title: "Statistical Language Model"
 layout: default
 permalink: /index.php/Statistical_Language_Model
 ---

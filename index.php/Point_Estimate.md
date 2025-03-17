@@ -1,5 +1,5 @@
 ---
-title: Point Estimate
+title: "Point Estimate"
 layout: default
 permalink: /index.php/Point_Estimate
 ---

@@ -1,5 +1,5 @@
 ---
-title: Category:Probability Distributions
+title: "Category:Probability Distributions"
 layout: default
 permalink: /index.php/Category_Probability_Distributions
 ---

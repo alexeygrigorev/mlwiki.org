@@ -1,5 +1,5 @@
 ---
-title: Tree
+title: "Tree"
 layout: default
 permalink: /index.php/Tree
 ---

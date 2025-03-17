@@ -1,5 +1,5 @@
 ---
-title: Minicon Algorithm
+title: "Minicon Algorithm"
 layout: default
 permalink: /index.php/Minicon_Algorithm
 ---

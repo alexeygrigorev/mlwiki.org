@@ -1,5 +1,5 @@
 ---
-title: Frequent Pattern Mining
+title: "Frequent Pattern Mining"
 layout: default
 permalink: /index.php/Frequent_Pattern_Mining
 ---

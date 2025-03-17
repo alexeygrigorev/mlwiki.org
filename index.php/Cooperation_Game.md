@@ -1,5 +1,5 @@
 ---
-title: Cooperation Game
+title: "Cooperation Game"
 layout: default
 permalink: /index.php/Cooperation_Game
 ---

@@ -1,5 +1,5 @@
 ---
-title: Confidence Intervals
+title: "Confidence Intervals"
 layout: default
 permalink: /index.php/Confidence_Intervals
 ---

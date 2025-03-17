@@ -1,5 +1,5 @@
 ---
-title: Expected Utility Theory
+title: "Expected Utility Theory"
 layout: default
 permalink: /index.php/Expected_Utility_Theory
 ---

@@ -1,5 +1,5 @@
 ---
-title: LU Decomposition
+title: "LU Decomposition"
 layout: default
 permalink: /index.php/LU_Decomposition
 ---

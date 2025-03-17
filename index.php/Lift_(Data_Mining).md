@@ -1,5 +1,5 @@
 ---
-title: Lift (Data Mining)
+title: "Lift (Data Mining)"
 layout: default
 permalink: /index.php/Lift_(Data_Mining)
 ---

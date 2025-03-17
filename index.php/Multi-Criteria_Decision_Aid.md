@@ -1,5 +1,5 @@
 ---
-title: Multi-Criteria Decision Aid
+title: "Multi-Criteria Decision Aid"
 layout: default
 permalink: /index.php/Multi-Criteria_Decision_Aid
 ---

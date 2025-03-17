@@ -1,5 +1,5 @@
 ---
-title: Semantic Domains in Computational Linguistics (book)
+title: "Semantic Domains in Computational Linguistics (book)"
 layout: default
 permalink: /index.php/Semantic_Domains_in_Computational_Linguistics_(book)
 ---

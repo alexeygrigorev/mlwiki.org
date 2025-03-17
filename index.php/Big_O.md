@@ -1,5 +1,5 @@
 ---
-title: Big O
+title: "Big O"
 layout: default
 permalink: /index.php/Big_O
 ---

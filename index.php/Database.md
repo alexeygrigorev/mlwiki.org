@@ -1,5 +1,5 @@
 ---
-title: Database
+title: "Database"
 layout: default
 permalink: /index.php/Database
 ---

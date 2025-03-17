@@ -1,5 +1,5 @@
 ---
-title: Multi-Version Concurrency Control
+title: "Multi-Version Concurrency Control"
 layout: default
 permalink: /index.php/Multi-Version_Concurrency_Control
 ---

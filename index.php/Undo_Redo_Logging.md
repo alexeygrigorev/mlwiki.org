@@ -1,5 +1,5 @@
 ---
-title: Undo/Redo Logging
+title: "Undo/Redo Logging"
 layout: default
 permalink: /index.php/Undo_Redo_Logging
 ---

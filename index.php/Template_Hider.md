@@ -1,5 +1,5 @@
 ---
-title: Template:Hider
+title: "Template:Hider"
 layout: default
 permalink: /index.php/Template_Hider
 ---

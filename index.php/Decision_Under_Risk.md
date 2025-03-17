@@ -1,5 +1,5 @@
 ---
-title: Decision Under Risk
+title: "Decision Under Risk"
 layout: default
 permalink: /index.php/Decision_Under_Risk
 ---

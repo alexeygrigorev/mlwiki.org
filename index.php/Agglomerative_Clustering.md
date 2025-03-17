@@ -1,5 +1,5 @@
 ---
-title: Agglomerative Clustering
+title: "Agglomerative Clustering"
 layout: default
 permalink: /index.php/Agglomerative_Clustering
 ---

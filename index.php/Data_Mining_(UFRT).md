@@ -1,5 +1,5 @@
 ---
-title: Data Mining (UFRT)
+title: "Data Mining (UFRT)"
 layout: default
 permalink: /index.php/Data_Mining_(UFRT)
 ---

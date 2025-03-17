@@ -1,5 +1,5 @@
 ---
-title: Min Max Regret Strategy
+title: "Min Max Regret Strategy"
 layout: default
 permalink: /index.php/Min_Max_Regret_Strategy
 ---

@@ -1,5 +1,5 @@
 ---
-title: Timestamp-Based Scheduler
+title: "Timestamp-Based Scheduler"
 layout: default
 permalink: /index.php/Timestamp-Based_Scheduler
 ---

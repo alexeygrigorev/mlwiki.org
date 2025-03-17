@@ -1,5 +1,5 @@
 ---
-title: Principal Component Analysis
+title: "Principal Component Analysis"
 layout: default
 permalink: /index.php/Principal_Component_Analysis
 ---

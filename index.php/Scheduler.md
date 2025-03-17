@@ -1,5 +1,5 @@
 ---
-title: Scheduler
+title: "Scheduler"
 layout: default
 permalink: /index.php/Scheduler
 ---

@@ -1,5 +1,5 @@
 ---
-title: Eventual Consistency
+title: "Eventual Consistency"
 layout: default
 permalink: /index.php/Eventual_Consistency
 ---

@@ -1,5 +1,5 @@
 ---
-title: Secondary Index
+title: "Secondary Index"
 layout: default
 permalink: /index.php/Secondary_Index
 ---

@@ -1,5 +1,5 @@
 ---
-title: Probability Density Function
+title: "Probability Density Function"
 layout: default
 permalink: /index.php/Probability_Density_Function
 ---

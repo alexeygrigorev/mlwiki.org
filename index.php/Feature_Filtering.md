@@ -1,5 +1,5 @@
 ---
-title: Feature Filtering
+title: "Feature Filtering"
 layout: default
 permalink: /index.php/Feature_Filtering
 ---

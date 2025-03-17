@@ -1,5 +1,5 @@
 ---
-title: Translating SQL to Relational Algebra
+title: "Translating SQL to Relational Algebra"
 layout: default
 permalink: /index.php/Translating_SQL_to_Relational_Algebra
 ---

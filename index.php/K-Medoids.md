@@ -1,5 +1,5 @@
 ---
-title: K-Medoids
+title: "K-Medoids"
 layout: default
 permalink: /index.php/K-Medoids
 ---

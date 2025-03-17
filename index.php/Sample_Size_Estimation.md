@@ -1,5 +1,5 @@
 ---
-title: Sample Size Estimation
+title: "Sample Size Estimation"
 layout: default
 permalink: /index.php/Sample_Size_Estimation
 ---

@@ -1,5 +1,5 @@
 ---
-title: Template:Stub
+title: "Template:Stub"
 layout: default
 permalink: /index.php/Template_Stub
 ---

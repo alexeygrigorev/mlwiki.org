@@ -1,5 +1,5 @@
 ---
-title: Query Result Size Estimation
+title: "Query Result Size Estimation"
 layout: default
 permalink: /index.php/Query_Result_Size_Estimation
 ---

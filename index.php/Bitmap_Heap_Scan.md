@@ -1,5 +1,5 @@
 ---
-title: Bitmap Heap Scan
+title: "Bitmap Heap Scan"
 layout: default
 permalink: /index.php/Bitmap_Heap_Scan
 ---

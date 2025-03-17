@@ -1,5 +1,5 @@
 ---
-title: Category:Groovy
+title: "Category:Groovy"
 layout: default
 permalink: /index.php/Category_Groovy
 ---

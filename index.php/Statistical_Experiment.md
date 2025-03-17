@@ -1,5 +1,5 @@
 ---
-title: Statistical Experiment
+title: "Statistical Experiment"
 layout: default
 permalink: /index.php/Statistical_Experiment
 ---

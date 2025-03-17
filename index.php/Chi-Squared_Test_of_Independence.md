@@ -1,5 +1,5 @@
 ---
-title: Chi-Squared Test of Independence
+title: "Chi-Squared Test of Independence"
 layout: default
 permalink: /index.php/Chi-Squared_Test_of_Independence
 ---

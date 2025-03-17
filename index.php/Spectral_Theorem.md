@@ -1,5 +1,5 @@
 ---
-title: Spectral Theorem
+title: "Spectral Theorem"
 layout: default
 permalink: /index.php/Spectral_Theorem
 ---

@@ -1,5 +1,5 @@
 ---
-title: Inverted Index
+title: "Inverted Index"
 layout: default
 permalink: /index.php/Inverted_Index
 ---

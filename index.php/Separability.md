@@ -1,5 +1,5 @@
 ---
-title: Separability
+title: "Separability"
 layout: default
 permalink: /index.php/Separability
 ---

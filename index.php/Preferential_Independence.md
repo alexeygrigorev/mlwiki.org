@@ -1,5 +1,5 @@
 ---
-title: Preferential Independence
+title: "Preferential Independence"
 layout: default
 permalink: /index.php/Preferential_Independence
 ---

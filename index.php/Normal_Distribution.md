@@ -1,5 +1,5 @@
 ---
-title: Normal Distribution
+title: "Normal Distribution"
 layout: default
 permalink: /index.php/Normal_Distribution
 ---

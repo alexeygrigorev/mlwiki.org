@@ -1,5 +1,5 @@
 ---
-title: Template:Main
+title: "Template:Main"
 layout: default
 permalink: /index.php/Template_Main
 ---

@@ -1,5 +1,5 @@
 ---
-title: Category:Stubs
+title: "Category:Stubs"
 layout: default
 permalink: /index.php/Category_Stubs
 ---

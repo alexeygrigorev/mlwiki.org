@@ -1,5 +1,5 @@
 ---
-title: Rule Mining
+title: "Rule Mining"
 layout: default
 permalink: /index.php/Rule_Mining
 ---

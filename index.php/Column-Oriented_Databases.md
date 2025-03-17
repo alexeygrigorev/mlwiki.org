@@ -1,5 +1,5 @@
 ---
-title: Column-Oriented Databases
+title: "Column-Oriented Databases"
 layout: default
 permalink: /index.php/Column-Oriented_Databases
 ---

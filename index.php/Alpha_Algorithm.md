@@ -1,5 +1,5 @@
 ---
-title: Alpha Algorithm
+title: "Alpha Algorithm"
 layout: default
 permalink: /index.php/Alpha_Algorithm
 ---

@@ -1,5 +1,5 @@
 ---
-title: Bucket Algorithm (Data Integration)
+title: "Bucket Algorithm (Data Integration)"
 layout: default
 permalink: /index.php/Bucket_Algorithm_(Data_Integration)
 ---

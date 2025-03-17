@@ -1,5 +1,5 @@
 ---
-title: Voting Theory Exercises
+title: "Voting Theory Exercises"
 layout: default
 permalink: /index.php/Voting_Theory_Exercises
 ---

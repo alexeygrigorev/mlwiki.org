@@ -1,5 +1,5 @@
 ---
-title: PROMETHEE/Properties
+title: "PROMETHEE/Properties"
 layout: default
 permalink: /index.php/PROMETHEE_Properties
 ---

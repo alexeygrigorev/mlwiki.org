@@ -1,5 +1,5 @@
 ---
-title: Summarizing Data
+title: "Summarizing Data"
 layout: default
 permalink: /index.php/Summarizing_Data
 ---

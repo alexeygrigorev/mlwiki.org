@@ -1,5 +1,5 @@
 ---
-title: CURE Clustering
+title: "CURE Clustering"
 layout: default
 permalink: /index.php/CURE_Clustering
 ---

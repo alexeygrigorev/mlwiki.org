@@ -1,5 +1,5 @@
 ---
-title: Trigonometric Functions
+title: "Trigonometric Functions"
 layout: default
 permalink: /index.php/Trigonometric_Functions
 ---

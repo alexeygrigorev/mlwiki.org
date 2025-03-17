@@ -1,5 +1,5 @@
 ---
-title: LSH
+title: "LSH"
 layout: default
 permalink: /index.php/LSH
 ---

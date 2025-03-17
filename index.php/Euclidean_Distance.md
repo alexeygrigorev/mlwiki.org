@@ -1,5 +1,5 @@
 ---
-title: Euclidean Distance
+title: "Euclidean Distance"
 layout: default
 permalink: /index.php/Euclidean_Distance
 ---

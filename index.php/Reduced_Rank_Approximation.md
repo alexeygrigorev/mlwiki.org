@@ -1,5 +1,5 @@
 ---
-title: Reduced Rank Approximation
+title: "Reduced Rank Approximation"
 layout: default
 permalink: /index.php/Reduced_Rank_Approximation
 ---

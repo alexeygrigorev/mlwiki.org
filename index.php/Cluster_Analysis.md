@@ -1,5 +1,5 @@
 ---
-title: Cluster Analysis
+title: "Cluster Analysis"
 layout: default
 permalink: /index.php/Cluster_Analysis
 ---

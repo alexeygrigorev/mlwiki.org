@@ -1,5 +1,5 @@
 ---
-title: Singular Value Decomposition
+title: "Singular Value Decomposition"
 layout: default
 permalink: /index.php/Singular_Value_Decomposition
 ---

@@ -1,5 +1,5 @@
 ---
-title: Eigenvectors
+title: "Eigenvectors"
 layout: default
 permalink: /index.php/Eigenvectors
 ---

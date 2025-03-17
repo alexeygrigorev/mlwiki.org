@@ -1,5 +1,5 @@
 ---
-title: Mosaic Plot
+title: "Mosaic Plot"
 layout: default
 permalink: /index.php/Mosaic_Plot
 ---

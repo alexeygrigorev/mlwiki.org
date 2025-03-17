@@ -1,5 +1,5 @@
 ---
-title: Continuous Functions
+title: "Continuous Functions"
 layout: default
 permalink: /index.php/Continuous_Functions
 ---

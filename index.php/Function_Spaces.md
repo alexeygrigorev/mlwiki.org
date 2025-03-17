@@ -1,5 +1,5 @@
 ---
-title: Function Spaces
+title: "Function Spaces"
 layout: default
 permalink: /index.php/Function_Spaces
 ---

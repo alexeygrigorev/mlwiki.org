@@ -1,5 +1,5 @@
 ---
-title: Distributions
+title: "Distributions"
 layout: default
 permalink: /index.php/Distributions
 ---

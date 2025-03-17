@@ -1,5 +1,5 @@
 ---
-title: Feature Normalization
+title: "Feature Normalization"
 layout: default
 permalink: /index.php/Feature_Normalization
 ---

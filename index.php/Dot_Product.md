@@ -1,5 +1,5 @@
 ---
-title: Dot Product
+title: "Dot Product"
 layout: default
 permalink: /index.php/Dot_Product
 ---

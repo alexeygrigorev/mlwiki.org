@@ -1,5 +1,5 @@
 ---
-title: Template:Draft
+title: "Template:Draft"
 layout: default
 permalink: /index.php/Template_Draft
 ---

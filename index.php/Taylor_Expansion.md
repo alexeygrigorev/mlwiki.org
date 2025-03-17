@@ -1,5 +1,5 @@
 ---
-title: Taylor Expansion
+title: "Taylor Expansion"
 layout: default
 permalink: /index.php/Taylor_Expansion
 ---

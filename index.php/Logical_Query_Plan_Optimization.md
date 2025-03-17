@@ -1,5 +1,5 @@
 ---
-title: Logical Query Plan Optimization
+title: "Logical Query Plan Optimization"
 layout: default
 permalink: /index.php/Logical_Query_Plan_Optimization
 ---

@@ -1,5 +1,5 @@
 ---
-title: KNN
+title: "KNN"
 layout: default
 permalink: /index.php/KNN
 ---

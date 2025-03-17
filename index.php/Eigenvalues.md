@@ -1,5 +1,5 @@
 ---
-title: Eigenvalues
+title: "Eigenvalues"
 layout: default
 permalink: /index.php/Eigenvalues
 ---

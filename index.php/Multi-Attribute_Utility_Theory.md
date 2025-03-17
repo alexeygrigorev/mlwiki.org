@@ -1,5 +1,5 @@
 ---
-title: Multi-Attribute Utility Theory
+title: "Multi-Attribute Utility Theory"
 layout: default
 permalink: /index.php/Multi-Attribute_Utility_Theory
 ---

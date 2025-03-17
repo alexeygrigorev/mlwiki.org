@@ -1,5 +1,5 @@
 ---
-title: Milestone Pattern
+title: "Milestone Pattern"
 layout: default
 permalink: /index.php/Milestone_Pattern
 ---

@@ -1,5 +1,5 @@
 ---
-title: Data Warehousing (ULB)
+title: "Data Warehousing (ULB)"
 layout: default
 permalink: /index.php/Data_Warehousing_(ULB)
 ---

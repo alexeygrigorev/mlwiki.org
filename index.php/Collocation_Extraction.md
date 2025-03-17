@@ -1,5 +1,5 @@
 ---
-title: Collocation Extraction
+title: "Collocation Extraction"
 layout: default
 permalink: /index.php/Collocation_Extraction
 ---

@@ -1,5 +1,5 @@
 ---
-title: Simulation Basics in R
+title: "Simulation Basics in R"
 layout: default
 permalink: /index.php/Simulation_Basics_in_R
 ---

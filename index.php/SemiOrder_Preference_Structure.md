@@ -1,5 +1,5 @@
 ---
-title: SemiOrder Preference Structure
+title: "SemiOrder Preference Structure"
 layout: default
 permalink: /index.php/SemiOrder_Preference_Structure
 ---

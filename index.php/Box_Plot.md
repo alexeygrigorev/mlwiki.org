@@ -1,5 +1,5 @@
 ---
-title: Box Plot
+title: "Box Plot"
 layout: default
 permalink: /index.php/Box_Plot
 ---

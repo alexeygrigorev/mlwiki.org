@@ -1,5 +1,5 @@
 ---
-title: Central Limit Theorem
+title: "Central Limit Theorem"
 layout: default
 permalink: /index.php/Central_Limit_Theorem
 ---

@@ -1,5 +1,5 @@
 ---
-title: Curse of Dimensionality
+title: "Curse of Dimensionality"
 layout: default
 permalink: /index.php/Curse_of_Dimensionality
 ---

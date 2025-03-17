@@ -1,5 +1,5 @@
 ---
-title: Hypothesis Testing Decision Errors
+title: "Hypothesis Testing Decision Errors"
 layout: default
 permalink: /index.php/Hypothesis_Testing_Decision_Errors
 ---

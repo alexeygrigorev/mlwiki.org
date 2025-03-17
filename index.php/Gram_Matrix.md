@@ -1,5 +1,5 @@
 ---
-title: Gram Matrix
+title: "Gram Matrix"
 layout: default
 permalink: /index.php/Gram_Matrix
 ---

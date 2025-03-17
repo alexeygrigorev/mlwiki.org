@@ -1,5 +1,5 @@
 ---
-title: Smoothing for Language Models
+title: "Smoothing for Language Models"
 layout: default
 permalink: /index.php/Smoothing_for_Language_Models
 ---

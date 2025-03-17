@@ -1,5 +1,5 @@
 ---
-title: Workflow Nets/Workflow Patterns
+title: "Workflow Nets/Workflow Patterns"
 layout: default
 permalink: /index.php/Workflow_Nets_Workflow_Patterns
 ---

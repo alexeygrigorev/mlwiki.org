@@ -1,5 +1,5 @@
 ---
-title: Constraint-Based Pattern Mining
+title: "Constraint-Based Pattern Mining"
 layout: default
 permalink: /index.php/Constraint-Based_Pattern_Mining
 ---

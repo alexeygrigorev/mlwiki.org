@@ -1,5 +1,5 @@
 ---
-title: Category:Sorting
+title: "Category:Sorting"
 layout: default
 permalink: /index.php/Category_Sorting
 ---

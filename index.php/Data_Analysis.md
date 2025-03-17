@@ -1,5 +1,5 @@
 ---
-title: Data Analysis
+title: "Data Analysis"
 layout: default
 permalink: /index.php/Data_Analysis
 ---

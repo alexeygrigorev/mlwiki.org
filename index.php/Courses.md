@@ -1,5 +1,5 @@
 ---
-title: Courses
+title: "Courses"
 layout: default
 permalink: /index.php/Courses
 ---

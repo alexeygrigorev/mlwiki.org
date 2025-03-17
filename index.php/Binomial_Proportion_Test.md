@@ -1,5 +1,5 @@
 ---
-title: Binomial Proportion Test
+title: "Binomial Proportion Test"
 layout: default
 permalink: /index.php/Binomial_Proportion_Test
 ---

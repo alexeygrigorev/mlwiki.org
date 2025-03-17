@@ -1,5 +1,5 @@
 ---
-title: MapReduce
+title: "MapReduce"
 layout: default
 permalink: /index.php/MapReduce
 ---

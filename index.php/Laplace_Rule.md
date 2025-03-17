@@ -1,5 +1,5 @@
 ---
-title: Laplace Rule
+title: "Laplace Rule"
 layout: default
 permalink: /index.php/Laplace_Rule
 ---

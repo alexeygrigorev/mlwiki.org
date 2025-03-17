@@ -1,5 +1,5 @@
 ---
-title: Extensive Form Game
+title: "Extensive Form Game"
 layout: default
 permalink: /index.php/Extensive_Form_Game
 ---

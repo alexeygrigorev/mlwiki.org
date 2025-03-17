@@ -1,5 +1,5 @@
 ---
-title: Matching Pennies
+title: "Matching Pennies"
 layout: default
 permalink: /index.php/Matching_Pennies
 ---

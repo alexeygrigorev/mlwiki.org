@@ -1,5 +1,5 @@
 ---
-title: Cramer's Rule
+title: "Cramer's Rule"
 layout: default
 permalink: /index.php/Cramer's_Rule
 ---

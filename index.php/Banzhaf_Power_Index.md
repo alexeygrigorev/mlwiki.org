@@ -1,5 +1,5 @@
 ---
-title: Banzhaf Power Index
+title: "Banzhaf Power Index"
 layout: default
 permalink: /index.php/Banzhaf_Power_Index
 ---

@@ -1,5 +1,5 @@
 ---
-title: Data Discretization
+title: "Data Discretization"
 layout: default
 permalink: /index.php/Data_Discretization
 ---
