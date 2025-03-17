@@ -6,4 +6,4 @@ permalink: /index.php/Normalization
 
 # Normalization
 
-#перенаправление [Data Normalization](Data_Normalization)
+1. перенаправление [Data Normalization](Data_Normalization)

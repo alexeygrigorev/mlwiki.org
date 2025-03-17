@@ -81,28 +81,28 @@ Then the result of a conjunctive query can be shown as:
 Let's consider the previous example: $Q(x, y) \leftarrow \underbrace{R(x, y)}_{(1)}, \underbrace{R(y, 5)}_{(2)}, \underbrace{S(y)}_{(3)}$ for the same database
 
 Example with matching
-# $(1)$ gets a tuple form $R$
-#* say it's (1, 2)
-#* so it assigns $x \mapsto 1, y \mapsto 2$
-#: so our substitution so far is $f: x \mapsto 1, y \mapsto 2$
-# $(2)$ looks for a tuple in $R$ with $y = 2$ 
-#* because we established the matching $f$ with $y \mapsto 2$
-#* second value of this tuple must be a constant 5
-#* we find such tuple: it's (2, 5)
-#* nothing gets assigned at this step 
-# $(3)$ looks for a value in $S$ with $y = 2$
-#* same reason: we have $y \mapsto 2$
-#* it finds a fact $S(2)$ in the database
-# so it returns a matching pair (1, 2)
-#* we say there is a matching (1, 2) in the database $D$
+1. $(1)$ gets a tuple form $R$
+  - say it's (1, 2)
+  - so it assigns $x \mapsto 1, y \mapsto 2$
+1. : so our substitution so far is $f: x \mapsto 1, y \mapsto 2$
+1. $(2)$ looks for a tuple in $R$ with $y = 2$ 
+  - because we established the matching $f$ with $y \mapsto 2$
+  - second value of this tuple must be a constant 5
+  - we find such tuple: it's (2, 5)
+  - nothing gets assigned at this step 
+1. $(3)$ looks for a value in $S$ with $y = 2$
+  - same reason: we have $y \mapsto 2$
+  - it finds a fact $S(2)$ in the database
+1. so it returns a matching pair (1, 2)
+  - we say there is a matching (1, 2) in the database $D$
 
 
 Example without matching
-# $(1)$ we try another tuple from $R$, say (7, 5)
-#* we assign $x \mapsto 7, y \mapsto 5$
-# $(2)$ now we try to find a tuple ($y$, 5) = (5, 5) in $R$
-#* no such tuple
-# therefor (7, 5) is not a matching and will not be returned by $Q$
+1. $(1)$ we try another tuple from $R$, say (7, 5)
+  - we assign $x \mapsto 7, y \mapsto 5$
+1. $(2)$ now we try to find a tuple ($y$, 5) = (5, 5) in $R$
+  - no such tuple
+1. therefor (7, 5) is not a matching and will not be returned by $Q$
 
 
 So this way we try all values of our database table and return only matching ones 

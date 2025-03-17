@@ -6,4 +6,4 @@ permalink: /index.php/Distance
 
 # Distance
 
-#перенаправление [Distance Functions](Distance_Functions)
+1. перенаправление [Distance Functions](Distance_Functions)

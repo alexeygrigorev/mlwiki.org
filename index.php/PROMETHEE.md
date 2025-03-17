@@ -19,12 +19,12 @@ Note that since we perform pair-wise comparisons, it may become computationally 
 
 
 There are four steps:
-# Compute Uni-Criterion Preferences 
-# Compute Preference Matrix
-# Compute Net-Flow Scores
-# Rankings
-#* Complete: PROMETHEE II
-#* Partial: PROMETHEE I
+1. Compute Uni-Criterion Preferences 
+1. Compute Preference Matrix
+1. Compute Net-Flow Scores
+1. Rankings
+  - Complete: PROMETHEE II
+  - Partial: PROMETHEE I
 
 
 Parameters for a problem (a decision maker needs to specify them)

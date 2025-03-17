@@ -6,4 +6,4 @@ permalink: /index.php/Inner_Product
 
 # Inner Product
 
-#перенаправление [Dot Product](Dot_Product)
+1. перенаправление [Dot Product](Dot_Product)

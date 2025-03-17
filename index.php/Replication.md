@@ -56,7 +56,7 @@ In [Active Databases](Active_Databases) this can be done with triggers
 - then these deltas are applied to the secondary copies 
 
 
-```googlesql
+```sql
 CREATE RULE Capture1 ON Primary
 WHEN INSERTED
 THEN INSERT INTO PosDelta (SELECT * FROM INSERTED)

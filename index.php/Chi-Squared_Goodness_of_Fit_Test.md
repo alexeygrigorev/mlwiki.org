@@ -105,7 +105,7 @@ Calculation:
 
 R code 
 Manual:
-```carbon
+```text only
 obs = c(205, 26, 25, 19)
 exp = c(198, 19.25, 33, 24.75)
 
@@ -161,7 +161,7 @@ Calculations:
 
 
 {{ Hider |  |   title=R code |  |   content=
-```tera term macro
+```text only
 sp500 = read.csv('http://goo.gl/lv268V')
 values = as.numeric( as.character(sp500$VALUE) )
 change = as.factor(values > 0)
@@ -175,7 +175,7 @@ y = c(0, y, 0)
 wz = which(y == 0)
 streak = diff(wz) - 1
 
-# chi^2 test
+1. chi^2 test
 act = table(streak)
 
 n = length(streak)
@@ -191,7 +191,7 @@ x2 = sum( (act - exp)^2 / exp )
 pchisq(x2, df=k - 1, lower.tail=F)
 c(x2=x2, theoretic=qchisq(0.95, df=k - 1))
 
-# let's merge the data for 7,8 and 9 days 
+1. let's merge the data for 7,8 and 9 days 
 streak[streak >= 7] = 7
 streaks = as.factor(streak)
 levels(streaks)[8] = '7+'

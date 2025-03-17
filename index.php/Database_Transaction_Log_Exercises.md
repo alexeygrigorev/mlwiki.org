@@ -96,14 +96,14 @@ Recall the rule:
 - undo things that have not committed
 
 Recovering (while scanning backwards):
-# see $\langle U, \text{start} \rangle$
-#* we've successfully undone it 
-#* so write $\langle U, \text{abort} \rangle$
-# see the modification $\langle T, A, 10 \rangle$
-#* write 10 to $A$ (rewriting the old value back) 
-# see $\langle T, \text{start} \rangle$
-#* we've successfully undone it 
-#* so write $\langle T, \text{abort} \rangle$
+1. see $\langle U, \text{start} \rangle$
+  - we've successfully undone it 
+  - so write $\langle U, \text{abort} \rangle$
+1. see the modification $\langle T, A, 10 \rangle$
+  - write 10 to $A$ (rewriting the old value back) 
+1. see $\langle T, \text{start} \rangle$
+  - we've successfully undone it 
+  - so write $\langle T, \text{abort} \rangle$
 
 
 ### Redo Logging
@@ -122,12 +122,12 @@ Recall the rule:
 - redo things that have committed but were not flushed to disk
 
 Recovering (while scanning forwards):
-# see $\langle T, \text{start} \rangle$
-#* write $\langle T, \text{abort} \rangle$
-# see the modification $\langle T, A, 11 \rangle$
-#* do nothing - it has not changed the value on disk 
-# see $\langle U, \text{start} \rangle$
-#* write $\langle U, \text{abort} \rangle$
+1. see $\langle T, \text{start} \rangle$
+  - write $\langle T, \text{abort} \rangle$
+1. see the modification $\langle T, A, 11 \rangle$
+  - do nothing - it has not changed the value on disk 
+1. see $\langle U, \text{start} \rangle$
+  - write $\langle U, \text{abort} \rangle$
 
 
 ### Undo/Redo Logging
@@ -141,14 +141,14 @@ $A$ might have changed its value
 - recover in the same way as for Undo Logging
 
 Recovering (while scanning backwards):
-# see $\langle U, \text{start} \rangle$
-#* we've successfully undone it 
-#* so write $\langle U, \text{abort} \rangle$
-# see the modification $\langle T, A, 10, 11 \rangle$
-#* write 10 to $A$ (rewriting the old value back) 
-# see $\langle T, \text{start} \rangle$
-#* we've successfully undone it 
-#* so write $\langle T, \text{abort} \rangle$
+1. see $\langle U, \text{start} \rangle$
+  - we've successfully undone it 
+  - so write $\langle U, \text{abort} \rangle$
+1. see the modification $\langle T, A, 10, 11 \rangle$
+  - write 10 to $A$ (rewriting the old value back) 
+1. see $\langle T, \text{start} \rangle$
+  - we've successfully undone it 
+  - so write $\langle T, \text{abort} \rangle$
 
 
 ## Exercise 2.2
@@ -187,19 +187,19 @@ Changed values:
 
 
 Recovering (while scanning backwards):
-# see $\langle U, \text{commit} \rangle$
-#* ignoring changes of $U$ altogether 
-# see $\langle U, D, 40 \rangle$
-#* skipping it
-# see $\langle T, C, 30 \rangle$
-#* write value 30 back to $C$
-# see $\langle U, B, 20 \rangle$ and $\langle U, \text{start} \rangle$
-#* skipping it
-# see $\langle T, A, 10 \rangle$
-#* write value 10 back to $C$
-# see $\langle T, \text{start} \rangle$
-#* we've successfully undone it 
-#* so write $\langle T, \text{abort} \rangle$
+1. see $\langle U, \text{commit} \rangle$
+  - ignoring changes of $U$ altogether 
+1. see $\langle U, D, 40 \rangle$
+  - skipping it
+1. see $\langle T, C, 30 \rangle$
+  - write value 30 back to $C$
+1. see $\langle U, B, 20 \rangle$ and $\langle U, \text{start} \rangle$
+  - skipping it
+1. see $\langle T, A, 10 \rangle$
+  - write value 10 back to $C$
+1. see $\langle T, \text{start} \rangle$
+  - we've successfully undone it 
+  - so write $\langle T, \text{abort} \rangle$
 
 
 ### Redo Logging
@@ -222,20 +222,20 @@ Changed values
 - $B$ and $D$ might have changed ($U$ has committed)
 
 Recovering (while scanning forwards):
-# $\langle T, \text{start} \rangle$
-#* we know that we ignore changes of $T$ - ignoring it
-# $\langle T, A, 11 \rangle$
-#* skipping
-# $\langle U, \text{start} \rangle$
-# $\langle U, B, 21 \rangle$
-#* writing 21 to $B$ 
-# $\langle T, C, 31 \rangle$
-#* skipping
-# $\langle U, D, 41 \rangle$
-#* writing 41 to $D$ 
-# $\langle U, \text{commit} \rangle$
-# write $\langle T, \text{abort} \rangle$ to log
-#* don't write $\langle U, \text{abort} \rangle$ to log
+1. $\langle T, \text{start} \rangle$
+  - we know that we ignore changes of $T$ - ignoring it
+1. $\langle T, A, 11 \rangle$
+  - skipping
+1. $\langle U, \text{start} \rangle$
+1. $\langle U, B, 21 \rangle$
+  - writing 21 to $B$ 
+1. $\langle T, C, 31 \rangle$
+  - skipping
+1. $\langle U, D, 41 \rangle$
+  - writing 41 to $D$ 
+1. $\langle U, \text{commit} \rangle$
+1. write $\langle T, \text{abort} \rangle$ to log
+  - don't write $\langle U, \text{abort} \rangle$ to log
 
 
 ### Undo/Redo Logging

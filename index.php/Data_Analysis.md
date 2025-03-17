@@ -64,49 +64,49 @@ Mechanistic Analysis
 
 ## Structure of Data Analysis
 Steps:
-# Define the question (business/scientific)
-#* Start with some general question
-#* "Can I automatically detect messages that are SPAM"?
-#* Make it concrete
-#* "Can I use quantitative characteristics of emails to classify them?"
-# Obtain the data
-#* What data you can access? 
-#* A lot of data can be got from [Data Sources](Data_Sources) 
-#* you also may buy or generate data
-# [Clean the data](Data_Cleaning) - so you can analyze it
-#* Is the data you found good enough? 
-#* Most often - not, so you'll have to change the data
-#* may have to use [ETL](ETL)s for that and load the data into a [Data Warehouse](Data_Warehouse)
-# [Exploratory Data Analysis](Exploratory_Data_Analysis)
-#* Playing with data in R
-#* try different things: [Plots](Plots), [Histograms](Histograms), etc
-#* learn the main characteristics: distribution, mean, medium, outliers, etc
-#* [Univariate Analysis](Univariate_Analysis), [Bivariate Analysis](Bivariate_Analysis)
-#* Summarizing the DAta
-# Statistical prediction/modeling
-#* To answer the question you asked 
-#* Should be informed by the result of the previous phase
-#* Methods may depend on the questions
-#* Typically [Data Mining](Data_Mining) and [Machine Learning](Machine_Learning) algorithms are used for this
-#* Report all measures of uncertainty: number of mistakes you did on the [test set](Cross-Validation), etc
-# Interpret results
-#* What does it mean - in plain natural language
-# Challenge results
-#* What are potential failings?
-#* Challenge all the steps
-#* Question
-#** was it right? could you have made it more specific/general?
-#* Data Sources
-#** was it right data? did you get the right samples? the right population?
-#* Processing
-#** correctly identified the variables?
-#* Analysis
-#** Did we pick the right model? Could the results be better with another model?
-# Synthesize/write up results
-#* In plain language - using the data to answer the question
-#* should read like a story
-# Create reproducible code
-#* so you can share your analysis with other people
+1. Define the question (business/scientific)
+  - Start with some general question
+  - "Can I automatically detect messages that are SPAM"?
+  - Make it concrete
+  - "Can I use quantitative characteristics of emails to classify them?"
+1. Obtain the data
+  - What data you can access? 
+  - A lot of data can be got from [Data Sources](Data_Sources) 
+  - you also may buy or generate data
+1. [Clean the data](Data_Cleaning) - so you can analyze it
+  - Is the data you found good enough? 
+  - Most often - not, so you'll have to change the data
+  - may have to use [ETL](ETL)s for that and load the data into a [Data Warehouse](Data_Warehouse)
+1. [Exploratory Data Analysis](Exploratory_Data_Analysis)
+  - Playing with data in R
+  - try different things: [Plots](Plots), [Histograms](Histograms), etc
+  - learn the main characteristics: distribution, mean, medium, outliers, etc
+  - [Univariate Analysis](Univariate_Analysis), [Bivariate Analysis](Bivariate_Analysis)
+  - Summarizing the DAta
+1. Statistical prediction/modeling
+  - To answer the question you asked 
+  - Should be informed by the result of the previous phase
+  - Methods may depend on the questions
+  - Typically [Data Mining](Data_Mining) and [Machine Learning](Machine_Learning) algorithms are used for this
+  - Report all measures of uncertainty: number of mistakes you did on the [test set](Cross-Validation), etc
+1. Interpret results
+  - What does it mean - in plain natural language
+1. Challenge results
+  - What are potential failings?
+  - Challenge all the steps
+  - Question
+    - was it right? could you have made it more specific/general?
+  - Data Sources
+    - was it right data? did you get the right samples? the right population?
+  - Processing
+    - correctly identified the variables?
+  - Analysis
+    - Did we pick the right model? Could the results be better with another model?
+1. Synthesize/write up results
+  - In plain language - using the data to answer the question
+  - should read like a story
+1. Create reproducible code
+  - so you can share your analysis with other people
 
 
 

@@ -17,7 +17,7 @@ MergeSort(array $a$):
 
 ## Implementation
 ### Java
-```transact-sql
+```tera term macro
 public int[] mergeSort(int[] input) {
     int n = input.length;
     if (n <= 1) {
@@ -69,7 +69,7 @@ public int[] merge(int[] left, int[] right) {
 ```
 
 ### Scala
-```transact-sql
+```python
 def msort(xs: List[Int]): List[Int] = {
   val n = xs.length / 2
   if (n == 0) {
@@ -155,7 +155,7 @@ Example
 - when 4 is copied, it finds (5, 4)
 - when in R element is less than in L - that's an inversion|   | |
 #### Implementation
-```transact-sql
+```tera term macro
 public Pair<int[], Long> countAndSort(int[] input) {
     int n = input.length;
     if (n == 1) {

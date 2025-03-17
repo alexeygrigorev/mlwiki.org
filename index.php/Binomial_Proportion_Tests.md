@@ -258,14 +258,14 @@ Not so unlikely, so we cannot reject $H_0$. Perhaps no drop.
 
 
 ### R
-```scdoc
+```text only
 n1 = 1050
 n2 = 1046
 
 phat1 = 0.57
 phat2 = 0.42 
 
-# number of successes
+1. number of successes
 x1 = round(n1 * phat1, 0)
 x1 = round(n2 * phat2, 0)
 

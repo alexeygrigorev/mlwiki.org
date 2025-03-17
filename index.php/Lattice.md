@@ -27,7 +27,7 @@ Generating it in python:
 from itertools import chain,combinations,product
 from collections import defaultdict
 
-# from https://docs.python.org/2/library/itertools.html#recipes
+1. from https://docs.python.org/2/library/itertools.html#recipes
 def powerset(iterable):
     s = list(iterable)
     return chain.from_iterable(combinations(s, r) for r in range(len(s)+1))
@@ -49,7 +49,7 @@ for d in sorted(dep, key=len):
 
 
 Drawing it with dot:
-```ecl
+```text only
 digraph A {
   node[shape=none, fontsize=10, width=0.3, fixedsize=true]
   edge[arrowsize=.4,color=grey]

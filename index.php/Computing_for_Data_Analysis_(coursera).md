@@ -186,12 +186,12 @@ tabAll <- read.table("db.txt", colClasses=classes)
 - write
   - dump
   - dput
-- # for one variable
+  - for one variable
 y <- data.frame(a=1, b="a")
 dput(y) => to the console
 dput(y, file="y.R")
 new.y <- dget("y.R")
-- # for several variables
+  - for several variables
 x <- smth, y <- smth
 dump(c("x", "y"), file="data.R")
 rm(x, y) # removes x y
@@ -213,7 +213,7 @@ source("data.R")
 - con <- file("foo.txt", "r")
 data <- read.csv(con)
 close(con)
-# the same as read.csv("foo.txt")
+1. the same as read.csv("foo.txt")
 - con <- gzfile("w.gz")
 x <- readLines(con, 10) #first 10 lines
 - con <- url("http://...", "r")
@@ -232,10 +232,10 @@ x <- readLines(con)
 x[1] => a
 x[1:4] => a b c d
 x[x > "a"] => b c c d
-# the same:
+1. the same:
 u <- x > "a" => F T T T T F
 x[u] => b c c d
-#only trues
+1. only trues
 #### matrix
 - m[row, col]
 - x <- matrix(1:6, 2, 3)

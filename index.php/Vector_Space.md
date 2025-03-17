@@ -6,4 +6,4 @@ permalink: /index.php/Vector_Space
 
 # Vector Space
 
-#REDIRECT [Vector Spaces](Vector_Spaces)
+1. REDIRECT [Vector Spaces](Vector_Spaces)

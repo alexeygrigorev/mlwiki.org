@@ -6,4 +6,4 @@ permalink: /index.php/Serializable_Sheduling
 
 # Serializable Sheduling
 
-#REDIRECT [Serializable Schedule](Serializable_Schedule)
+1. REDIRECT [Serializable Schedule](Serializable_Schedule)

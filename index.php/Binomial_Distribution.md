@@ -91,7 +91,7 @@ Link: http://socr.stat.ucla.edu/htmls/SOCR_Experiments.html
 <img src="http://habrastorage.org/files/d05/00d/a7a/d0500da7a9a54694940d278ee9b2878c.gif" alt="Image">
 
 {{ Hider |  |   title=R code to produce the figure |  |   content=
-```css+lasso
+```text only
 require(animation)
 
 p = 0.13
@@ -131,7 +131,7 @@ It's reasonable to use the Normal Distribution to approximate Binomial
 
 
 {{ Hider |  |   title=R code to produce the figure |  |   content=
-```css+lasso
+```tera term macro
 saveGIF({
   for (n in 2:130) {
     x = seq(1, min(n, max.n))

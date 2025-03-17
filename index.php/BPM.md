@@ -6,4 +6,4 @@ permalink: /index.php/BPM
 
 # BPM
 
-#Redirect [Business Process Management](Business_Process_Management)
+1. Redirect [Business Process Management](Business_Process_Management)

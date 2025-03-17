@@ -201,7 +201,7 @@ We can also verify that $\mathbf e \; \bot \; C(A)$
 
 
 {{ Hider |   |    title=Python code |  |    content=
-```numpy
+```python
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -220,7 +220,7 @@ b = np.array([1, 2, 2])
 x0, x1 = np.linalg.solve(A.T.dot(A), A.T.dot(b))
 lsq = Line(x1, x0)
 
-# figure
+1. figure
 plt.scatter(A[:, 1], b, marker='x', color='black')
 
 points = np.array([0.5, 3.5])

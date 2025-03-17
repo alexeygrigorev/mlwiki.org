@@ -34,16 +34,16 @@ How to maintain [consistency](Consistency_(databases)) across all these replicas
 ### Reading
 When a client needs to read data, it needs to know where this piece of data is:
 ; a "read" command is issued with an offset - how many bytes the client wants to read 
-# The '''name node''' knows where every chunk of data is kept, so the clients read the metadata from it. 
-# After getting the metadata, the client reads the data from the '''data node''' (so there's no centralized bottleneck - all reads are in parallel) 
+1. The '''name node''' knows where every chunk of data is kept, so the clients read the metadata from it. 
+1. After getting the metadata, the client reads the data from the '''data node''' (so there's no centralized bottleneck - all reads are in parallel) 
 
 In case the client fails to read a chunk of data, it asks the '''name node''' where the next replica is - and tries again
 
 
 ### Writing
 We need to make sure that all the replicas contain the same data (i.e. they are consistent) 
-# One replica is considered "main", and the master knows which one. 
-# Client sends the data to be written to all replicas 
+1. One replica is considered "main", and the master knows which one. 
+1. Client sends the data to be written to all replicas 
 : it's written to the main one and propagated to the rest 
 
 - So it supports parallel reads and writes from a large number of processors 

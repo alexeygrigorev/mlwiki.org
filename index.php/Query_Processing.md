@@ -10,18 +10,18 @@ permalink: /index.php/Query_Processing
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/query-processing-outline.png" alt="Image">
 
 Steps:
-# [Translating SQL to Relational Algebra](Translating_SQL_to_Relational_Algebra)
-# [Logical Query Plan Optimization](Logical_Query_Plan_Optimization)
-#* finding cheaper equivalent expression:
-#* translating to [Conjunctive Query](Conjunctive_Query) and simplifying it
-#* applying some heuristics (pushing selections and projections, etc)
-# [Physical Query Plan Optimization](Physical_Query_Plan_Optimization)
-#* doing the cost-based assignment of [physical operators](Physical_Operators_(databases))
-#* assigning each node of Logical [Query Plan](Query_Plan) a physical operator
-#* for that need to know statistics from [Database System Catalog](Database_System_Catalog) 
-# execution engine - for that important things are:
-#* [Physical Data Organization (databases)](Physical_Data_Organization_(databases))
-#* [Indexing (databases)](Indexing_(databases))
+1. [Translating SQL to Relational Algebra](Translating_SQL_to_Relational_Algebra)
+1. [Logical Query Plan Optimization](Logical_Query_Plan_Optimization)
+  - finding cheaper equivalent expression:
+  - translating to [Conjunctive Query](Conjunctive_Query) and simplifying it
+  - applying some heuristics (pushing selections and projections, etc)
+1. [Physical Query Plan Optimization](Physical_Query_Plan_Optimization)
+  - doing the cost-based assignment of [physical operators](Physical_Operators_(databases))
+  - assigning each node of Logical [Query Plan](Query_Plan) a physical operator
+  - for that need to know statistics from [Database System Catalog](Database_System_Catalog) 
+1. execution engine - for that important things are:
+  - [Physical Data Organization (databases)](Physical_Data_Organization_(databases))
+  - [Indexing (databases)](Indexing_(databases))
 
 
 ## Sources

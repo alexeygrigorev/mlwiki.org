@@ -509,9 +509,9 @@ For example:
 Assume that you are asked to lead a project on churn detection, and have dataset of known users who stopped using the service and ones who are still using. This data includes demographics and other features.
 
 Do the following:
-# Describe the methodology and model that you will chose to identify churn, and describe your thought process.
-# Think how would you communicate the results to the CEO? 
-# Suppose in the dataset only 0.025 of users churned. How would you make it more balanced? 
+1. Describe the methodology and model that you will chose to identify churn, and describe your thought process.
+1. Think how would you communicate the results to the CEO? 
+1. Suppose in the dataset only 0.025 of users churned. How would you make it more balanced? 
 
 Also:
 - How would you implement it if you had one day? One month? One year? 

@@ -96,17 +96,17 @@ Selectivity
 - output can be stored in one block
 
 ways to get the results:
-# use the clustered B-Tree on $\text{E.sal}$ 
-#* index scan: get records that satisfy $\text{E.sal} \geqslant 59k$
-#* while doing index scan, filter records with $\text{E.hobby = 'yodeling'}$
-#* cost:
-#** number of accessed tuples $\text{sel}_{\text{E.sal} \geqslant 59k}(E) \times T(E) = 1000$
-#** index is clustered - no need to follow each pointer (index scan)
-#** $\left\lceil \cfrac{1000}{58} \right\rceil = 18$ Blocks (and therefore 18 I/Os)
-# don't use the index
-#* table scan on $E$ 
-#* filter records that satisfy both criteria
-#* cost: $B(E) = 863$ 
+1. use the clustered B-Tree on $\text{E.sal}$ 
+  - index scan: get records that satisfy $\text{E.sal} \geqslant 59k$
+  - while doing index scan, filter records with $\text{E.hobby = 'yodeling'}$
+  - cost:
+    - number of accessed tuples $\text{sel}_{\text{E.sal} \geqslant 59k}(E) \times T(E) = 1000$
+    - index is clustered - no need to follow each pointer (index scan)
+    - $\left\lceil \cfrac{1000}{58} \right\rceil = 18$ Blocks (and therefore 18 I/Os)
+1. don't use the index
+  - table scan on $E$ 
+  - filter records that satisfy both criteria
+  - cost: $B(E) = 863$ 
 
 Note:
 - filtering on hobby does not require additional I/Os (it's [pipelined](Pipelining))
@@ -121,10 +121,10 @@ $s_D = \sigma_\text{D.dloor = 1}(D)$
 - output can be stored in 49 blocks
 
 ways to get the result
-# use unclustered B-Tree 
-#* 2500 I/Os since the index is not clustered, need to follow each pointer
-# full table scan
-#* 99 I/Os 
+1. use unclustered B-Tree 
+  - 2500 I/Os since the index is not clustered, need to follow each pointer
+1. full table scan
+  - 99 I/Os 
 
 
 ### [Join Ordering](Join_Ordering)

@@ -44,7 +44,7 @@ Exponential
 
 
 {{ Hider |  |   title=R code of the experiment |  |   content=
-```carbon
+```text only
 default.par = par()
 
 set.seed(18213)

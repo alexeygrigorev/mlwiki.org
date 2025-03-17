@@ -62,7 +62,7 @@ But we want to enforce the following constraint:
 This can only be enforced with [triggers](Active_Databases)
 
 
-|  |```gdscript
+|  |```sql
 CREATE TRIGGER Seq_Primary_Key ON Incumbents
 FOR INSERT, UPDATE
 AS 
@@ -120,7 +120,7 @@ sequenced queries
 
 The first query is easy:
 
-```text only
+```sql
 SELECT Salary
   FROM Employee 
  WHERE Name = 'John' AND
@@ -152,7 +152,7 @@ Idea:
 - if there exists such $T_2$ then update the finish time of $T_1$ to $T_2$
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/adb/td-coalecsing-imperative-idea2.png" alt="Image">
 
-```googlesql
+```sql
 CREATE TABLE Temp(Salary, FromDate, ToDate) AS
 SELECT Salary, FromDate, ToDate FROM Employee
 WHERE Name = 'John' 
@@ -190,7 +190,7 @@ Removal of non-maximal intervals
 - if there exists such $T_2$ then remove $T_1$
 
 
-```googlesql
+```sql
 DELETE FROM Temp T1
 WHERE EXISTS (
   SELECT * FROM Temp AS T2
@@ -241,7 +241,7 @@ But there's no $\forall$ operator in SQL:
 
 Here's a SQL version:
 
-```css+lasso
+```sql
 CREATE VIEW Temp(Salary, FromDate, ToDate) AS
 SELECT Salary, FromDate, ToDate
 FROM Employee
@@ -285,7 +285,7 @@ So we split and have this schema:
 
 Showing the history of changes in John's salary is easy now:
 
-```text only
+```sql
 SELECT Salary, FromDate, ToDate
 FROM EmployeeSal
 WHERE Name = 'John'
@@ -310,7 +310,7 @@ The idea:
 - there are 4 possible ways in which intervals can overlap
 - so we need to try all of them 
 
-|  |```scdoc
+|  |```sql
 -- (1)
 SELECT S.Name, Salary, Title, S.FromDate, S.ToDate
 FROM EmployeeSal S, EmployeeTitle T
@@ -358,7 +358,7 @@ This is done in 3 steps:
 
 
 Step 1:
-```gdscript
+```sql
 -- all moments of time when there was some change 
 CREATE VIEW SalChanges(Day) as
 SELECT DISTINCT FromDate
@@ -379,7 +379,7 @@ WHERE P1.Day < P2.Day
 ```
 
 Step 2:
-```text only
+```sql
 CREATE VIEW TempMax(MaxSalary, FromDate, ToDate) as
 SELECT MAX(E.Amount), I.FromDate, I.ToDate
 FROM Salary E, SalPeriods I
@@ -398,7 +398,7 @@ Step 3
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/adb/td-aggregations-count.png" alt="Image">
 
 Step 2 for count
-```googlesql
+```sql
 CREATE VIEW TempCount(NbEmp, FromDate, ToDate) as
 SELECT COUNT(*), P.FromDate, P.ToDate
 FROM Salary S, SalPeriods P

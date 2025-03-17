@@ -21,8 +21,8 @@ Independence to Third Alternatives, or Independence to Irrelevant alternatives i
 - $S_1, S_2, S'_1, S'_2$ are indifference relations defined by these orderings (respectively)
 - we assume that $R_1 \equiv R'_1$ and $R_2 \equiv R'_2$ for the set $A$
 - : that is, $\forall x,y \in A$: 
-- # $x \ S_1 \ y \iff x \ S'_1 \ y$ 
-- # $x \ S_2 \ y \iff x \ S'_2 \ y$ 
+  - $x \ S_1 \ y \iff x \ S'_1 \ y$ 
+  - $x \ S_2 \ y \iff x \ S'_2 \ y$ 
 
 Example:
 - $A^* = \{x, y, z\}$

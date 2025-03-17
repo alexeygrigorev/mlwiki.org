@@ -46,8 +46,8 @@ We want to schedule our actions in such a way that the result is serializable
 Serializability is very hard to achieve 
 
 two actions are ''in conflict'' if
-# they belong to the same transaction 
-# both deal with the same element and one of the actions is a write
+1. they belong to the same transaction 
+1. both deal with the same element and one of the actions is a write
 
 A schedule is ''conflict-serializable'' if
 - we can obtain a serial schedule by swapping actions that are not in conflict

@@ -188,7 +188,7 @@ ss:SolarPlanet rdf:type owl:Class;
 - to express constants on the # of individuals who can participate in some restriction class
 - for example, a baseball team can have only 9 players 
 
-```objective-c
+```json
 [a owl:Restriction;
    owl:onProperty :hasPlayer;
    owl:cardinality 9]

@@ -56,7 +56,7 @@ population = ames$Gr.Liv.Area
 
 oldpar = par(no.readonly=TRUE)
 
-# fig=c(x1, x2, y1, y2)
+1. fig=c(x1, x2, y1, y2)
 par(fig=c(0, 1, 0, 1))
 par(mar=c(6, 2, 2, 1))
 h = hist(population, col='grey', probability=T, axes=F, xlab='', main='Histogram')

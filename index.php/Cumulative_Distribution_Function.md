@@ -6,4 +6,4 @@ permalink: /index.php/Cumulative_Distribution_Function
 
 # Cumulative Distribution Function
 
-#REDIRECT [Distribution Function](Distribution_Function)
+1. REDIRECT [Distribution Function](Distribution_Function)

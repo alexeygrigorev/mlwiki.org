@@ -6,4 +6,4 @@ permalink: /index.php/Functions
 
 # Functions
 
-#REDIRECT [Function](Function)
+1. REDIRECT [Function](Function)

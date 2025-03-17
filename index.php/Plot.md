@@ -6,4 +6,4 @@ permalink: /index.php/Plot
 
 # Plot
 
-#REDIRECT [Plots](Plots)
+1. REDIRECT [Plots](Plots)

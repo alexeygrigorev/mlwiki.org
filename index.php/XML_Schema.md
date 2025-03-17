@@ -135,7 +135,7 @@ Same way we can extend one more time
 Also we can restrict some class
 - adding a restriction is a little bit different from extension 
 
-```xml
+```carbon
 <complexType name="restricted_category"> 
   <simpleContent> 
     <restriction base="n:category"> 
@@ -152,7 +152,7 @@ Usually we define an element and reference it
 - this is called ''global declaration''
 
 However it's possible to describe an element with an anonymous type
-```xml
+```carbon
 <element name="card"> 
   <complexType> 
     <sequence> 
@@ -209,7 +209,7 @@ Consider the following XML:
 
 Here's the XML schema for it
 
-```xml
+```scdoc
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" 
   targetNamespace="http://foo.fr/solar_system" xmlns:s="http://foo.fr/solar_system">
 

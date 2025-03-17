@@ -23,8 +23,8 @@ All transactions are executed in 3 phases
 - transactions are '''only allowed to read''' 
   - when an item $X$ is read by $T$, $X$ is added to $RS(T)$
 - the scheduler validated the schedule based on 
-- # actions read by $T$: $RT(T)$
-- # actions $T$ wants to write: $WS(T)$ (but has not written yet)
+  - actions read by $T$: $RT(T)$
+  - actions $T$ wants to write: $WS(T)$ (but has not written yet)
 - : if validation fails, $T$ is restarted
 - $T$ can write all items from $WS(T)$
 
@@ -32,13 +32,13 @@ All transactions are executed in 3 phases
 ### Problematic Situations
 #### Problematic Situation 1
 Actions:
-# $U_\text{start},$
-# $T_\text{start},$
-# ${\color{red}{T \text{ reads } X}},$
-# $U_\text{validate},$
-# ${\color{red}{U \text{ writes } X}},$
-# $T_\text{validate},$
-# ...
+1. $U_\text{start},$
+1. $T_\text{start},$
+1. ${\color{red}{T \text{ reads } X}},$
+1. $U_\text{validate},$
+1. ${\color{red}{U \text{ writes } X}},$
+1. $T_\text{validate},$
+1. ...
 
 The problem:
 - $U$ should have written $X$ before $T$ reads it
@@ -65,12 +65,12 @@ In this problematic example we have:
 
 #### Problematic Situation 2
 Actions:
-# $U_\text{validate},$
-# $T_\text{validate},$
-# ${\color{red}{T \text{ writes } X}},$
-# $U \text{ writes } X,$
-# $U_\text{finish},$
-# $...$
+1. $U_\text{validate},$
+1. $T_\text{validate},$
+1. ${\color{red}{T \text{ writes } X}},$
+1. $U \text{ writes } X,$
+1. $U_\text{finish},$
+1. $...$
 
 The problem:
 - $T$ writes $X$ first - before $U$

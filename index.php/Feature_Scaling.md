@@ -6,4 +6,4 @@ permalink: /index.php/Feature_Scaling
 
 # Feature Scaling
 
-#перенаправление [Normalization](Normalization)
+1. перенаправление [Normalization](Normalization)

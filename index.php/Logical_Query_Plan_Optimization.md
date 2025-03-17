@@ -17,7 +17,7 @@ Translating SQL to RA expression is the first step in [Query Processing](Query_P
 
 ### Example
 Suppose we have this query
-```text only
+```sql
 SELECT DISTINCT x.name, z.name
 FROM Product x, Purchase y, Customer z
 WHERE x.pid = y.pid AND y.cid = z.cid AND
@@ -63,7 +63,7 @@ Example
 
 And we can optimize this kind of queries|    | |
 ### Example
-```text only
+```sql
 SELECT movieTitle FROM StarsIn S1
 WHERE starName IN (
     SELECT name
@@ -73,7 +73,7 @@ WHERE starName IN (
 ```
 
 Note that this query is equivalent to 
-```text only
+```sql
 SELECT movieTitle FROM StarsIn
 WHERE starName IN (
     SELECT name

@@ -6,4 +6,4 @@ permalink: /index.php/SVM
 
 # SVM
 
-#REDIRECT [Support Vector Machines](Support_Vector_Machines)
+1. REDIRECT [Support Vector Machines](Support_Vector_Machines)

@@ -93,7 +93,7 @@ etc
 ## Implementation
 Simplest implementation in Java:
 
-```transact-sql
+```java
 public class HashTable {
     private final int buckets;
     private HashTableNode[] hashTable;

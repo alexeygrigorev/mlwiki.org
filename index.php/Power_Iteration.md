@@ -45,7 +45,7 @@ Performance:
 
 ## Implementation
 ### NumPy
-```scdoc
+```python
 def eigenvalue(S, w):
     return w.T.dot(S).dot(w)
 
@@ -72,7 +72,7 @@ def power_iteration(X, debug=True):
 
 
 ### Mahout Samsara
-```gdscript
+```javascript
 var x: Vector = 1 to dim map (_ => 1.0 / Math.sqrt(dim))
 var converged = false
 

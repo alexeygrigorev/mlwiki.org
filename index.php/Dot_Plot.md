@@ -82,7 +82,7 @@ polygon(x=c(m-3, m, m+3), y=c(0.87, 0.95, 0.87), col="red")
 Note that it given similar information to a [Histogram](Histogram)
 - but the latter is binned, and this is not (so it looks rather as a [Bar Chart](Bar_Chart))
 
-```transact-sql
+```scdoc
 t = table(round(email50$num_char))
 a = rep(NA, 65)
 names(a) = 0:64

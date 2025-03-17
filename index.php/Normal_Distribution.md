@@ -93,10 +93,10 @@ Many processes can be approximated well by normal distribution
 But need to check if it's reasonable to use the normal approximation 
 
 2 visual methods for checking the assumption of normality 
-# simple histogram + best fit of normal shape
-#* <img src="http://habrastorage.org/files/dd4/cda/bcd/dd4cdabcdf864de594a2d46d760ee067.png" alt="Image">
-# [Q-Q Plot](Q-Q_Plot) (or Normal Probability Plot)
-#* <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/b/openintrostat/normal-prob-plot-ex.png" alt="Image">
+1. simple histogram + best fit of normal shape
+  - <img src="http://habrastorage.org/files/dd4/cda/bcd/dd4cdabcdf864de594a2d46d760ee067.png" alt="Image">
+1. [Q-Q Plot](Q-Q_Plot) (or Normal Probability Plot)
+  - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/b/openintrostat/normal-prob-plot-ex.png" alt="Image">
 
 
 Code to produce the first figure:

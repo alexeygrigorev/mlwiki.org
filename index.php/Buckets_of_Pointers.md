@@ -12,11 +12,11 @@ We add one more level of indirection for [indexing](Indexing_(databases))
 - buckets are pointers to the actual tuples
 
 So now we have
-# [Dense Index](Dense_Index) where each value is stored once
-# ''Bucket list'' where we have multiple occurrences
-#* pointers to actual values 
-#* should be sequential: i.e. ordered by the key
-# Actual blocks
+1. [Dense Index](Dense_Index) where each value is stored once
+1. ''Bucket list'' where we have multiple occurrences
+  - pointers to actual values 
+  - should be sequential: i.e. ordered by the key
+1. Actual blocks
 
 Also saves space|   | |Example
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/secondary-level-of-ind.png" alt="Image">
@@ -32,7 +32,7 @@ Suppose we have
 - dept and floor are secondary keys ([Secondary Index](Secondary_Index)es on them)
 
 Suppose we want to ask the following:
-```scdoc
+```sql
 SELECT * FROM Emp where dept = 'Toy' AND floor = 2
 ```
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/secondary-buckets-range-q.png" alt="Image">

@@ -6,4 +6,4 @@ permalink: /index.php/Minimal_Cut
 
 # Minimal Cut
 
-#Redirect [Minimal Cut Problem](Minimal_Cut_Problem)
+1. Redirect [Minimal Cut Problem](Minimal_Cut_Problem)

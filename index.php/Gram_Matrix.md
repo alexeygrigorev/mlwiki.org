@@ -6,4 +6,4 @@ permalink: /index.php/Gram_Matrix
 
 # Gram Matrix
 
-#REDIRECT [Gram Matrices](Gram_Matrices)
+1. REDIRECT [Gram Matrices](Gram_Matrices)

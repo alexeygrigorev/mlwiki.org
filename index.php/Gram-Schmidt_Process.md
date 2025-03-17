@@ -108,7 +108,7 @@ This is often used for [Linear Least Squares](Linear_Least_Squares) - to make th
 ### Python
 Implementation of the pseudo-code from the Strang's book:
 
-```numpy
+```python
 import numpy as np
 
 def qr_factorization(A):

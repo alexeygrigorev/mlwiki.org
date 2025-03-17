@@ -6,4 +6,4 @@ permalink: /index.php/Diagonalization
 
 # Diagonalization
 
-#REDIRECT [Eigendecomposition](Eigendecomposition)
+1. REDIRECT [Eigendecomposition](Eigendecomposition)

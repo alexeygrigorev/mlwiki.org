@@ -91,7 +91,7 @@ Not so small - we can't reject the $H_0$, it might be true that $\mu_0 = \mu_1$
 male = skeletons[sex == '1', 6]
 female = skeletons[sex == '2', 6]
 
-# critical value
+1. critical value
 qt(0.025, df=200.9, lower.tail=F)
 ```
 

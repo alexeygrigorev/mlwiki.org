@@ -46,18 +46,18 @@ In R
 library(openintro)
 data(email)
 
-# stacked
+1. stacked
 t = table(email$spam, email$number)
 pal = c('yellow2', 'skyblue2')
 barplot(t, col=pal, beside=F)
 
-# proportional
+1. proportional
 t.prop = rbind(t[1,] / colSums(t),
                t[2,] / colSums(t))
 pal = c('yellow2', 'skyblue2')
 barplot(t.prop, col=pal, beside=F)
 
-# side-by-side
+1. side-by-side
 barplot(t, col=pal, beside=T)
 ```
 

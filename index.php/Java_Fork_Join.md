@@ -9,7 +9,7 @@ permalink: /index.php/Java_Fork_Join
 
 ## Использование Fork/Join для поиска файлов
 
-```gdscript
+```java
 public class ForkJoinTest {
 
     @Test

@@ -14,7 +14,7 @@ an ''SPJ expression'' is
 - it consists only of selections, projections and joins
 - there are only equality predicates for selection (i.e. of form $A_j = B_i$)
 
-```text only
+```sql
 SELECT ...
 FROM R1, ..., Rn
 WHERE A1 = B1 AND ... AND An = Bn

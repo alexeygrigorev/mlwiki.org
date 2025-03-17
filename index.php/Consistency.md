@@ -6,4 +6,4 @@ permalink: /index.php/Consistency
 
 # Consistency
 
-#перенаправление [Consistency (databases)](Consistency_(databases))
+1. перенаправление [Consistency (databases)](Consistency_(databases))

@@ -21,7 +21,7 @@ Translating SQL to RA expression is the second step in [Query Processing](Query_
 ## Union, Intersection, Difference
 Translation is straightforward
 
-```scdoc
+```sql
 (SELECT * FROM R1) INTERSECT (SELECT * FROM R2)
 ```
 
@@ -35,7 +35,7 @@ EXCEPT $\to R_1 - R_2$
 
 ## Select-From-Where No Subqueries
 Query
-```text only
+```sql
 SELECT movieTitle
 FROM StarsIn, MovieStarM
 WHERE starName = M.name AND M.birthdate = 1960
@@ -55,7 +55,7 @@ So we get:
 ## Normalization Step
 Suppose we have subqueries in the "Where" clause 
 
-```text only
+```sql
 SELECT movieTitle FROM StarsIn
 WHERE starName IN (
     SELECT name
@@ -71,7 +71,7 @@ Here we may have different constraints:
 
 
 '''Example 1''': IN
-```text only
+```sql
 SELECT movieTitle FROM StarsIn
 WHERE starName IN (
     SELECT name
@@ -81,7 +81,7 @@ WHERE starName IN (
 
 to 
 
-```text only
+```sql
 SELECT movieTitle FROM StarsIn
 WHERE EXISTS (
     SELECT name
@@ -91,7 +91,7 @@ WHERE EXISTS (
 
 
 '''Example 2''': $\geqslant$
-```text only
+```sql
 SELECT name FROM MovieExec
 WHERE netWorth >= (
     SELECT E.netWorth
@@ -100,7 +100,7 @@ WHERE netWorth >= (
 
 to 
 
-```text only
+```sql
 SELECT name FROM MovieExec
 WHERE NOT EXISTS (
     SELECT E.netWorth
@@ -110,7 +110,7 @@ WHERE NOT EXISTS (
 
 
 '''Example 3:''' aggregated attributes 
-```text only
+```sql
 SELECT C FROM S
 WHERE C IN (
     SELECT SUM(B) FROM R
@@ -119,7 +119,7 @@ WHERE C IN (
 
 to
 
-```text only
+```sql
 SELECT C FROM S
 WHERE EXISTS (
     SELECT SUM(B) FROM R
@@ -153,7 +153,7 @@ here
 - S.starName is a parameter to the correlated subquery
 
 ### EXISTS in the Where Clause (by example)
-```googlesql
+```sql
 SELECT S.movieTitle, M.studioName
 FROM StarsIn S, Movie M
 WHERE S.movieYear >= 2000
@@ -270,7 +270,7 @@ Algorithm
 
 
 ### NOT EXISTS in the Where Clause (by example)
-```googlesql
+```text only
 SELECTS.movieTitle, M.studioName
 FROM StarsIn S, Movie M
 WHERE S.movieYear >= 2000
@@ -370,7 +370,7 @@ $
 ### EXISTS Subqueries in WHERE Combined with Other
 So far we've considered only queries of the following form:
 
-```text only
+```sql
 SELECT ... FROM ...
 WHERE ... AND
       EXISTS (...) AND
@@ -383,7 +383,7 @@ I.e. EXISTS and NOT EXISTS are in the "WHERE" clause joined by "AND"
 
 What about the following query?
 
-```text only
+```sql
 SELECT ... FROM ...
 WHERE
     A = B AND NOT (EXISTS (...) AND C < 6)
@@ -391,7 +391,7 @@ WHERE
 
 
 - First, we translate the condition into [Disjunctive Normal Form](Disjunctive_Normal_Form)
-```text only
+```sql
 SELECT ... FROM ...
 WHERE
     (A = B AND NOT (EXISTS (...))) OR
@@ -399,7 +399,7 @@ WHERE
 ```
 
 - Then we distribute OR (to UNION)
-```text only
+```sql
 (SELECT ... FROM ...
   WHERE
     A = B AND NOT EXISTS (...))
@@ -415,7 +415,7 @@ As we've seen, UNION is translated as $\cup$
 ### Union In Subqueries
 We may have UNOIN in subqueries 
 
-```text only
+```sql
 SELECT S1.C, S2.C
 FROM S S1, S S2
 WHERE EXISTS (
@@ -471,7 +471,7 @@ $
 
 ## Translating Joins
 ### Joins
-```scdoc
+```sql
 (SELECT * FROM R R1) JOIN (SELECT * FROM R R1) ON R1.A = R2.B
 ```
 
@@ -481,7 +481,7 @@ We translate as follows:
 
 ### Group and Having
 Suppose we have the following query:
-```text only
+```sql
 SELECT name, SUM(length)
 FROM MovieExec, Movie
 WHERE cert = producer
@@ -528,7 +528,7 @@ The given relations:
 - Faculty(fid, fname, deptid)
 
 
-```googlesql
+```sql
 SELECT C.name
 FROM Class C
 WHERE C.room = 'R128' OR 
@@ -540,7 +540,7 @@ WHERE C.room = 'R128' OR
 ```
 
 First we distribute OR 
-```googlesql
+```sql
 SELECT C.name
 FROM Class C
 WHERE C.room = 'R128'
@@ -558,7 +558,7 @@ WHERE C.name IN (
 
 for the subquery we replace IN to EXISTS
 
-```googlesql
+```sql
 SELECT C.name
 FROM Class C
 WHERE EXISTS (
@@ -663,7 +663,7 @@ Now we do the union (easy)
 $
 
 ### Exercise with the Count Bug
-```text only
+```sql
 SELECT F.fname
 FROM Faculty F
 WHERE 5 > (
@@ -674,7 +674,7 @@ WHERE 5 > (
 ```
 
 First translate to an equivalent EXISTS query
-```text only
+```sql
 SELECT F.fname
 FROM Faculty F
 WHERE EXISTS (

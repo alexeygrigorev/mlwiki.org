@@ -6,4 +6,4 @@ permalink: /index.php/Topic_Modeling
 
 # Topic Modeling
 
-#REDIRECT [Topic Models](Topic_Models)
+1. REDIRECT [Topic Models](Topic_Models)

@@ -54,7 +54,7 @@ We have a tie
 
 ## Implementation
 ### Python & Numpy
-```cplint
+```python
 def hamilton_allocation(ratios, k):
     frac, results = np.modf(k * ratios)
     remainder = int(k - results.sum())

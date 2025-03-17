@@ -32,7 +32,7 @@ mosaicplot(tab1, col=c('yellow2', 'skyblue2', 'red'),
 <img src="http://habrastorage.org/files/5d6/3a9/1dd/5d63a91dd2be45e499aeacedb579328e.png" alt="Image">
 
 
-```text only
+```bash
 tab2 = table(email$number, email$spam)
 mosaicplot(tab2, col=c('yellow2', 'skyblue2'),
            main='Numbers in emails vs spam/not spam')

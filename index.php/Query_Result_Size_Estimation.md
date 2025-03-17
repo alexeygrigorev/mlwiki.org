@@ -144,13 +144,13 @@ The general formula is:
 ### Simple Cases
 $R \Join S, R(X, Y), S(Y, Z)$ (i.e. we join on $Y$)
 
-# $R$ and $S$ have no tuples in common 
-#* $T(R \Join S) = 0$ 
-# $Y$ is a key in $S$ and a foreign key of $R$
-#* each tuple of $R$ joins exactly with one tuple in $S$ 
-#* $T(R \Join S) = T(R)$
-# almost all tuples of $R$ and $S$ have the same $Y$ value 
-#* then $T(R \Join S) \approx T(R) \times T(S)$ (degenerates to a Cartesian product)
+1. $R$ and $S$ have no tuples in common 
+  - $T(R \Join S) = 0$ 
+1. $Y$ is a key in $S$ and a foreign key of $R$
+  - each tuple of $R$ joins exactly with one tuple in $S$ 
+  - $T(R \Join S) = T(R)$
+1. almost all tuples of $R$ and $S$ have the same $Y$ value 
+  - then $T(R \Join S) \approx T(R) \times T(S)$ (degenerates to a Cartesian product)
 
 
 ### One Join Attribute

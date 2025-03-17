@@ -52,7 +52,7 @@ Can simulate it to see that it's true
   - we see that the corrected std is closer to the real population std
   - note that the real population std should not be corrected|   | |
 {{ Hider |  |   title=R simulation |  |   content=
-```transact-sql
+```text only
 sd.population = function(x) {
   n = length(x)
   m = mean(x)

@@ -6,4 +6,4 @@ permalink: /index.php/Taylor_Expansion
 
 # Taylor Expansion
 
-#REDIRECT [Taylor Series](Taylor_Series)
+1. REDIRECT [Taylor Series](Taylor_Series)

@@ -6,4 +6,4 @@ permalink: /index.php/QR_Factorization
 
 # QR Factorization
 
-#перенаправление [QR Decomposition](QR_Decomposition)
+1. перенаправление [QR Decomposition](QR_Decomposition)

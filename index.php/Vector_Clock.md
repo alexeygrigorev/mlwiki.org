@@ -78,16 +78,16 @@ class '''ClockEntry'''
 <img src="https://raw.github.com/alexeygrigorev/ulb-adb-project-couchbd/master/report/images/vector-clock-ex.png" alt="Image">
 
 Suppose we have 3 servers: $S_x$, $S_y$, $S_z$
-# a client writes $D_1$ at $S_x$: $D_1([S_x, 1])$
-# another client reads $D_1$ and writes back to $D_2$ (also handled by $S_x$)
-#: $D_2([S_x, 2])$ (no conflict and $D_1$ may get garbage collected afterwards)
-# another client reads $D_2$, writes back $D_3$ handled by $S_y$: $D_3([S_x, 2], [S_y, 1])$
-# at the same time someone else also reads $D_2$ and writes back $D_4$ handled by $S_z$
-#: $D_4([S_x, 2], [S_z, 1])$
-# now we have two conflicting versions $D_3$ and $D_4$ (there is no causal relation between these versions, i.e. we cannot decide which one came first - the changes there are different)
-#: both versions must be kept and presented to the client 
-# with next read a client gets both $D_3$ and $D_4$, it merges them and writes back. 
-#: this is handled by $S_x$: now the version is $D_4([S_x, 3], [S_y, 1], [S_z, 1])$
+1. a client writes $D_1$ at $S_x$: $D_1([S_x, 1])$
+1. another client reads $D_1$ and writes back to $D_2$ (also handled by $S_x$)
+1. : $D_2([S_x, 2])$ (no conflict and $D_1$ may get garbage collected afterwards)
+1. another client reads $D_2$, writes back $D_3$ handled by $S_y$: $D_3([S_x, 2], [S_y, 1])$
+1. at the same time someone else also reads $D_2$ and writes back $D_4$ handled by $S_z$
+1. : $D_4([S_x, 2], [S_z, 1])$
+1. now we have two conflicting versions $D_3$ and $D_4$ (there is no causal relation between these versions, i.e. we cannot decide which one came first - the changes there are different)
+1. : both versions must be kept and presented to the client 
+1. with next read a client gets both $D_3$ and $D_4$, it merges them and writes back. 
+1. : this is handled by $S_x$: now the version is $D_4([S_x, 3], [S_y, 1], [S_z, 1])$
 
 
 ## Conflicts

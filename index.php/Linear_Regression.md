@@ -158,17 +158,17 @@ Another way of finding the slope and intercept parameters is [Gradient Descent A
 We can use the regression to fit a linear model for several variables.
 
 ## In R
-```verilog
-# lm - linear model 
+```cbm basic v2
+1. lm - linear model 
 lm1 = lm(diff ~ bmi)
 
 plot(diff ~ bmi)
 abline(lm1)
 
-# summary of regression
+1. summary of regression
 summary(lm1)
 
-# the residual difference for each observation
+1. the residual difference for each observation
 lm1$residuals
 ```
 

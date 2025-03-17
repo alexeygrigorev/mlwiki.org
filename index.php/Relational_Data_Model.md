@@ -6,4 +6,4 @@ permalink: /index.php/Relational_Data_Model
 
 # Relational Data Model
 
-#REDIRECT [Relational Databases#Relational Data Model](Relational_Databases#Relational_Data_Model)
+1. REDIRECT [Relational Databases#Relational Data Model](Relational_Databases#Relational_Data_Model)

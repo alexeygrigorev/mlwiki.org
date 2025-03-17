@@ -6,4 +6,4 @@ permalink: /index.php/Distribution
 
 # Distribution
 
-#REDIRECT [Distributions](Distributions)
+1. REDIRECT [Distributions](Distributions)

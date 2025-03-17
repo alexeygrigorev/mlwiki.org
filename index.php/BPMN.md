@@ -123,12 +123,12 @@ Example:
 
 
 ## Approach for Building a Model
-# Decide: when does process start/end
-# Enumerate main activities & possible end-states
-# Create top-level BPMN diagram
-# Expand top-level activities to sub-processes
-# Add pools for external parties & message flow (business context)
-# Repeat 4-5 for sub-processes
+1. Decide: when does process start/end
+1. Enumerate main activities & possible end-states
+1. Create top-level BPMN diagram
+1. Expand top-level activities to sub-processes
+1. Add pools for external parties & message flow (business context)
+1. Repeat 4-5 for sub-processes
 
 Walk-through example:
 - [Car Dealer Example](http://www.evernote.com/shard/s344/sh/7e4b0db5-002c-4d67-a813-6a8b8d54070b/11743304157d0e41b60ca0ed6c172ac5) (With pictures taken during the lecture)

@@ -118,13 +118,13 @@ Theorem:
 Example
 - query $Q(x) \leftarrow \underbrace{\text{RegisteredTo}(s, x)}_\text{(1)}, \underbrace{\text{EnrolledInProgram}(s, p)}_\text{(2)}, \underbrace{\text{MasterProgram}(p)}_\text{(3)}.$
 - the following buckets are obtained
-- # for $\text{RegisteredTo}(s, x) \ (1)$
-- #* $S_3.\text{CampusFr}(s, v_1, x)$
-- # for $\text{EnrolledInProgram}(s, p) \ (2)$
-- #* $S_3.\text{CampusFr}(s, p, v_2)$
-- # for $\text{MasterProgram}(p) \ (3)$
-- #* $S_1.\text{Catalogue}(v_3, v_4)$
-- #* $S_4.\text{Mundus}(p, v_5)$
+  - for $\text{RegisteredTo}(s, x) \ (1)$
+    - $S_3.\text{CampusFr}(s, v_1, x)$
+  - for $\text{EnrolledInProgram}(s, p) \ (2)$
+    - $S_3.\text{CampusFr}(s, p, v_2)$
+  - for $\text{MasterProgram}(p) \ (3)$
+    - $S_1.\text{Catalogue}(v_3, v_4)$
+    - $S_4.\text{Mundus}(p, v_5)$
 
 
 ## Constructing Candidate Rewritings

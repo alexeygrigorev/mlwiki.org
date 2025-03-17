@@ -6,4 +6,4 @@ permalink: /index.php/Probability_Density_Function
 
 # Probability Density Function
 
-#REDIRECT [Distribution Function#Probability Density Function](Distribution_Function#Probability_Density_Function)
+1. REDIRECT [Distribution Function#Probability Density Function](Distribution_Function#Probability_Density_Function)

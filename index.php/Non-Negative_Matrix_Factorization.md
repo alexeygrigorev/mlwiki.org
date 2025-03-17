@@ -119,7 +119,7 @@ Results reported by Osinski2006:
 NMF-ED = Euclidean distance minimization 
 - Algorithm from Lee1999
 
-```numpy
+```python
 import numpy as np
 
 def seung_objective(V, W, H):

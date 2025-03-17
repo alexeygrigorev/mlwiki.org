@@ -6,4 +6,4 @@ permalink: /index.php/Cofactors
 
 # Cofactors
 
-#REDIRECT [Determinants#Cofactors](Determinants#Cofactors)
+1. REDIRECT [Determinants#Cofactors](Determinants#Cofactors)

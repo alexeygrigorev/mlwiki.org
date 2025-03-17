@@ -36,7 +36,7 @@ Origin (and usage):
 - here, $\text{df}$ is the lowest, and it approaches the normal curse as $\text{df}$ grows
 
 {{ Hider |  |   title=R code to produce the figure |  |   content=
-```carbon
+```text only
 default.par = par()
 
 x = seq(-4,4,0.1)

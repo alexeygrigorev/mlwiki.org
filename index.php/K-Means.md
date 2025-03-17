@@ -241,7 +241,7 @@ Usual version:
 
 <code>D = distmat(X, C)</code> calculates the squared distance matrix $D$ between each $x_i \in X$ and each $\mathbf c_k \in C$
 
-```scdoc
+```python
 def distmat(X, C):    
     X2 = np.sum(X * X, axis=1, keepdims=True)
     C2 = np.sum(C * C, axis=1, keepdims=True)
@@ -255,7 +255,7 @@ def distmat(X, C):
 <code>A = closest(D)</code>: returns the closest centroid matrix $A$: with $(A)_{ik} = 1$ if $w_i \in c_k$ and $(A)_{ik} = 0$ if $w_i \not \in c_k$
 
 
-```carbon
+```python
 def closest(D):
     D_min = D.min(axis=1, keepdims=True)
     return (D == D_min).astype(int)
@@ -264,7 +264,7 @@ def closest(D):
 
 <code>C = new_centers(X, A, w)</code> calculates new centroids 
 
-```tera term macro
+```python
 def newcenters(X, A):
     summed = np.dot(X, A.T)
     counts = np.sum(A, 1)
@@ -274,7 +274,7 @@ def newcenters(X, A):
 
 For weighted k-means it would be 
 
-```scdoc
+```python
 def new_centers(X, A, w):
     W = A * w.reshape(-1, 1)
     weighted_sum = np.dot(W.T, X)
@@ -285,7 +285,7 @@ def new_centers(X, A, w):
 
 Finally, the cost function for weights:
 
-```scdoc
+```python
 def J(X, D, w):
     D_min = D.min(axis=1)
     return (w * D_min).sum() / w.sum()
@@ -294,7 +294,7 @@ def J(X, D, w):
 
 The algorithm:
 
-```carbon
+```python
 def kmeans(X, k):
     d, n = X.shape
     M_idx = np.random.choice(np.arange(n), k, replace=False)

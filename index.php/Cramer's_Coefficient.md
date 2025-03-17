@@ -65,7 +65,7 @@ with(helpdata, cv.test(female, homeless)
 
 or 
 
-```s
+```bash
 cv.test <- function(x) {
   CV <- sqrt(chisq.test(x, correct=FALSE)$statistic / (sum(x) * min(dim(x) - 1 )))
 

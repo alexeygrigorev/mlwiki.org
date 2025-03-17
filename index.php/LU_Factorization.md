@@ -6,4 +6,4 @@ permalink: /index.php/LU_Factorization
 
 # LU Factorization
 
-#REDIRECT [LU Decomposition](LU_Decomposition)
+1. REDIRECT [LU Decomposition](LU_Decomposition)

@@ -6,4 +6,4 @@ permalink: /index.php/Statistical_Language_Model
 
 # Statistical Language Model
 
-#REDIRECT [Statistical Language Models](Statistical_Language_Models)
+1. REDIRECT [Statistical Language Models](Statistical_Language_Models)

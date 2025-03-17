@@ -55,7 +55,7 @@ curl -X GET http://localhost:5984/
 ('''curl''' is an unix utility for sending HTTP requests [http://curl.haxx.se/])
 
 The database replies with the following: (if you see that, everything works)
-```text only
+```json
 {
   "couchdb": "Welcome",
   "uuid": "2af023889ce22a70de68547c956e273a",
@@ -80,7 +80,7 @@ curl -X PUT http://localhost:5984/new_database
 ```
 
 When an operation is successful, it replies with
-```text only
+```json
 {"ok":true}
 ```
 
@@ -88,10 +88,10 @@ When an operation is successful, it replies with
 Adding
 - To add new document, we issue a PUT request to url/{database_name}/{document_id}
 - since the schema is not rigid, we may put there everything we want, for example 
-```scdoc
+```json
 curl -X PUT http://localhost:5984/new_database/super_toaster -d '{"title":"toaster","price":"10$"}'
 ```
-```scdoc
+```json
 {"ok":true,"id":"super_toaster","rev":"1-8f71d392bd5139ba142eb87ea52096d7"}
 ```
 it returns id of the newly added plus revision id
@@ -100,7 +100,7 @@ To retrieve this document use the same url
 ```scdoc
 curl -X GET http://localhost:5984/new_database/super_toaster
 ```
-```scdoc
+```json
 {
   "_id": "super_toaster",
   "_rev": "1-8f71d392bd5139ba142eb87ea52096d7",
@@ -121,13 +121,13 @@ We have prepared 80k+ lines of JSON code (1500 documents) with user data to be i
 
 To create this database execute the following: 
 ```gdscript
-# create a database "users"
+1. create a database "users"
 curl -X PUT http://localhost:5984/users/
-# download database data into "database.json"
+1. download database data into "database.json"
 wget http://goo.gl/jkcCim --no-check-certificate -O test-database.json
-# use bulk post to add your data to CouchDB
+1. use bulk post to add your data to CouchDB
 curl -X POST http://localhost:5984/users/_bulk_docs -H "Content-Type:application/json" -d @test-database.json
-# at this point, CouchDB will answer with a list of newly added ids
+1. at this point, CouchDB will answer with a list of newly added ids
 ```
 
 
@@ -288,7 +288,7 @@ This gives us unsorted output (it is sorted by document id, which gives us an im
 
 Since the results are sorted by keys emitted by a map function, we to order the result on the last name of a user, we pass their name as the first argument of emit function
 
-```gdscript
+```javascript
 function(doc) {
   if (doc.isActive && doc.gender == 'female' && doc.friends.length >= 3) {
     var lastName = doc.name.split(" ")[1];
@@ -299,7 +299,7 @@ function(doc) {
 
 
 Consider another view:
-```gdscript
+```javascript
 function(doc) {
  if (doc.isActive && doc.gender == 'female' && doc.friends.length >= 3) {
    var lastName = doc.name.split(" ")[1];
@@ -313,7 +313,7 @@ It outputs names and emails of all active female users with at least 3 friends a
 
 Suppose we want to calculate what is the average balance for all active female users with at least 3 friends. Here is our view:
 
-```gdscript
+```javascript
 function(doc) {
  if (doc.isActive && doc.gender == 'female' && doc.friends.length >= 3) {
    var sum = doc.balance.replace(',', '').slice(1);
@@ -329,7 +329,7 @@ function(keys, values) {
 
 The result is only one value. It is also possible to calculate the average value per group. Say, we want to see the average salary per first letter of user’s last name
 
-```gdscript
+```javascript
 function(doc) {
  if (doc.isActive && doc.gender == 'female' && doc.friends.length >= 3) {
    var sum = doc.balance.replace(',', '').slice(1);
@@ -417,7 +417,7 @@ To synchronize two databases we issue a simple PUT request where we specify
 - the target 
 
 CouchDB will figure out what are the new documents and what are the new revisions that are no the source but not yet on the targer, and will transfer it to the target 
-```scdoc
+```json
 curl -X PUT http://localhost:5984/_replicate -d '{"source":"users","target":"users_replica"}'
 ```
 The database replies with some statistics and tells if it was successful or not 
@@ -484,24 +484,24 @@ if you want to update or delete a document, you must specify the revision you're
 
 suppose you want to update a document without providing the revision id: 
 
-```scdoc
+```json
 curl -X PUT http://localhost:5984/new_database/super_toaster -d '{"title":"toaster","price":"15$"}'
 ```
 
 CouchDB responses with an error:
 
-```text only
+```json
 {"error":"conflict","reason":"Document update conflict."}
 ```
 
 So we add the revision id to the document we're updating: 
 
-```scdoc
+```json
 curl -X PUT http://localhost:5984/new_database/super_toaster -d '{"title":"toaster","price":"15$","_rev":"1-8f71d392bd5139ba142eb87ea52096d7"}'
 ```
 
 This time the database replies with "ok" and a new revision update:
-```scdoc
+```json
 {"ok":true,"id":"super_toaster","rev":"2-9c85d3c3324c3777a4665f00330b73b5"}
 ```
 
@@ -526,16 +526,16 @@ Direction $A \to B$ (not $B \to A$)
 
 All other types of replication are reduced to these steps
 
-# $A$: create document $d_1$
-# trigger replication $A \to B$
-# now $B$ also has $d_1$
-# change $d_1$ on $B$ (CouchDB generates a new revision id)
-# change $d_1$ on $A$ (CouchDB also generates a new different revision id)
-# trigger replication $A \to B$
-# CouchDB detects a conflict (two conflicting revisions of the same document)
-# Application resolves the conflict:
-#* it tells CouchDB which revision to keep 
-#* another way: we merge two revisions, update the document and CouchDB will generate a hew revision and mark the conflict resolved
+1. $A$: create document $d_1$
+1. trigger replication $A \to B$
+1. now $B$ also has $d_1$
+1. change $d_1$ on $B$ (CouchDB generates a new revision id)
+1. change $d_1$ on $A$ (CouchDB also generates a new different revision id)
+1. trigger replication $A \to B$
+1. CouchDB detects a conflict (two conflicting revisions of the same document)
+1. Application resolves the conflict:
+  - it tells CouchDB which revision to keep 
+  - another way: we merge two revisions, update the document and CouchDB will generate a hew revision and mark the conflict resolved
 
 To see if we have any conflicts we may use this simple view: 
 
@@ -571,7 +571,7 @@ This returns a new revision (remember that a delete is also an update)
 
 Next, we put the values we want to keep back to the database, specifying the revision we like
 
-```scdoc
+```json
 curl -X PUT $HOST/database/document_id -d '{..., "_rev":"2-7e..."}'
 ```
 
@@ -594,7 +594,7 @@ It means that:
 - updates on the same document on different instances create their own independent revision IDs. 
 - for two different documents with same data the right part of the revision ID will be the same:
 
-```bash
+```json
 $ curl -X PUT $HOST/db/a -d '{"a":1}'
 {"ok":true,"id":"a","rev":"1-23202479633c2b380f79507a776743d5"}
 $ curl -X PUT $HOST/db/b -d '{"a":1}'

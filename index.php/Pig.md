@@ -19,7 +19,7 @@ Pig Latin
 ## Example
 SQL:
 
-```text only
+```sql
 SELECT SUM(s.Sale), c.City 
 FROM Sales s, Cities c
 WHERE s.AddrId = c.AddrId

@@ -6,4 +6,4 @@ permalink: /index.php/PCA
 
 # PCA
 
-#REDIRECT [Principal Component Analysis](Principal_Component_Analysis)
+1. REDIRECT [Principal Component Analysis](Principal_Component_Analysis)

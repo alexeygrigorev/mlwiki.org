@@ -6,4 +6,4 @@ permalink: /index.php/Graph
 
 # Graph
 
-#redirect [Graphs](Graphs)
+1. redirect [Graphs](Graphs)

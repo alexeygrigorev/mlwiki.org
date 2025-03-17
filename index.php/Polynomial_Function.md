@@ -6,4 +6,4 @@ permalink: /index.php/Polynomial_Function
 
 # Polynomial Function
 
-#REDIRECT [Polynomial Functions](Polynomial_Functions)
+1. REDIRECT [Polynomial Functions](Polynomial_Functions)

@@ -62,7 +62,7 @@ So, possible pivots
 - random
 
 ## Implementation
-```transact-sql
+```java
 public void qsort(int[] input, int left, int right) {
     int n = right - left;
     if (n <= 1) {

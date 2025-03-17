@@ -68,7 +68,7 @@ Modifications:
 
 
 ## Implementation
-```gdscript
+```java
 public class TopologicalOrdering {
     private final List<String> vertices;
     private final Graph graph;

@@ -134,7 +134,7 @@ Use [SVD](SVD) to compute the nullspace
 - vectors of $V$ that correspond to $\sigma_i = 0$ are from the nullspace 
 
 
-```scdoc
+```python
 def null(A, eps=1e-15):
     u, s, vh = np.linalg.svd(A)
     null_space = np.compress(s <= eps, vh, axis=0)

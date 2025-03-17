@@ -264,7 +264,7 @@ Consider the ROC curve above (auc=0.68).
 - draw random positive and negative examples 
 - then calculate the proportion of cases when positives have greater score than negatives
 - at the end, we obtain 0.67926 - quite close to 0.68|   | |
-```text only
+```bash
 cls = c('P', 'P', 'N', 'P', 'P', 'P', 'N', 'N', 'P', 'N', 'P',
         'N', 'P', 'N', 'N', 'N', 'P', 'N', 'P', 'N')
 score = c(0.9, 0.8, 0.7, 0.6, 0.55, 0.51, 0.49, 0.43, 0.42, 0.39, 0.33, 
@@ -291,7 +291,7 @@ Examples:
 ### ROC Curves
 In R there's a package called ROCR [http://cran.r-project.org/web/packages/ROCR/index.html] for drawing ROC Curves
 
-```carbon
+```bash
 install.packages('ROCR')
 require('ROCR')
 
@@ -336,7 +336,7 @@ For that we can plot accuracy vs cutoff plot:
 So the best cutoff is at around 0.5 for this graph
 
 
-```carbon
+```bash
 path = 'https://raw.githubusercontent.com/alexeygrigorev/datasets/master/wiki-r/roc/columns.txt'
 cols = read.table(path, sep='\t', header=T, dec='.', as.is=T)
 

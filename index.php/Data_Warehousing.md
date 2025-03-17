@@ -6,4 +6,4 @@ permalink: /index.php/Data_Warehousing
 
 # Data Warehousing
 
-#REDIRECT [Data Warehouse](Data_Warehouse)
+1. REDIRECT [Data Warehouse](Data_Warehouse)

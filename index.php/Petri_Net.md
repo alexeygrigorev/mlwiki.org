@@ -6,4 +6,4 @@ permalink: /index.php/Petri_Net
 
 # Petri Net
 
-#Redirect [Petri Nets](Petri_Nets)
+1. Redirect [Petri Nets](Petri_Nets)

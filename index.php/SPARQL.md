@@ -108,7 +108,7 @@ the query itself is also a graph
 
 In SQL it would be 
 
-```verilog
+```sql
 SELECT
   A.subject, A.object
 FROM
@@ -319,7 +319,7 @@ WHERE { ?member :hasParent+ :Joe .}
 
 
 ### Ordering (SPARQL 1.1)
-```googlesql
+```text only
 SELECT ?title ?date 
 WHERE {
   :JamesDean :playedIn ?movie. 
@@ -348,7 +348,7 @@ LIMIT 1
 
 
 ### Aggregating and Grouping (SPARQL 1.1)
-```googlesql
+```text only
 SELECT (COUNT(?movie) AS ?howmany) 
 WHERE {:JamesDean ?playedIn ?movie .}
 
@@ -386,7 +386,7 @@ WHERE {
 
 
 ### Subqueries (SPARQL 1.1)
-```googlesql
+```text only
 SELECT ?company 
 WHERE { 
   {

@@ -134,7 +134,7 @@ require('ROCR')
 
 It can be used for drawing gain charts as well:
 
-```text only
+```bash
 cls = c('P', 'P', 'N', 'P', 'P', 'P', 'N', 'N', 'P', 'N', 'P', 
         'N', 'P', 'N', 'N', 'N', 'P', 'N', 'P', 'N')
 score = c(0.9, 0.8, 0.7, 0.6, 0.55, 0.51, 0.49, 0.43, 

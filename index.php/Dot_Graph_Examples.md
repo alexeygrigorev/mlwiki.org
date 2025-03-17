@@ -11,7 +11,7 @@ permalink: /index.php/Dot_Graph_Examples
 ### Triangle
 A triangle with large margins
 
-```ecl
+```text only
 digraph A {
 
   rankdir=LR;
@@ -32,7 +32,7 @@ digraph A {
 
 
 ### Label + XLabel
-```ecl
+```text only
 digraph A {
 
   rankdir=LR;
@@ -56,7 +56,7 @@ digraph A {
 ### Edges with Opposite Direction
 Source: [http://stackoverflow.com/a/4671684/861423]
 
-```ecl
+```text only
 digraph A {
   rankdir=LR;
   center=true; margin=1; 
@@ -103,7 +103,7 @@ graph G {
 ### Double Edge
 Source: [http://stackoverflow.com/questions/6219933/how-does-one-define-double-lines-for-edge-and-node-shapes-in-graphviz-dot]
 
-```css+lasso
+```text only
 digraph G {
   rankdir=LR;
   nodesep=0.7; ranksep=1;

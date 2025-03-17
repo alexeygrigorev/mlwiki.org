@@ -6,4 +6,4 @@ permalink: /index.php/Orthogonal_Matrix
 
 # Orthogonal Matrix
 
-#REDIRECT [Orthogonal Matrices](Orthogonal_Matrices)
+1. REDIRECT [Orthogonal Matrices](Orthogonal_Matrices)

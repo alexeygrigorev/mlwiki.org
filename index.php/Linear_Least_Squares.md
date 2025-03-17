@@ -6,4 +6,4 @@ permalink: /index.php/Linear_Least_Squares
 
 # Linear Least Squares
 
-#перенаправление [OLS Regression](OLS_Regression)
+1. перенаправление [OLS Regression](OLS_Regression)

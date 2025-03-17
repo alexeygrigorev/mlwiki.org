@@ -256,7 +256,7 @@ The idea:
 
 
 ### Python code
-```numpy
+```python
 import numpy as np
 import numpy.linalg as la
  
@@ -312,7 +312,7 @@ Finally, let's calculate cosine between human and user:
 
 ```scdoc
 human.dot(user) / (la.norm(human) * la.norm(user))
-# 0.88784582874340123
+1. 0.88784582874340123
 ```
 
 

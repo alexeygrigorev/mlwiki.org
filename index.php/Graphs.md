@@ -41,7 +41,7 @@ These graphs can be [sorted topologically](Topological_Ordering)
 
 ## Implementation
 Adjacency list:
-```tera term macro
+```java
 public class Graph {
     private int n;
     private final List<List<Integer>> adj;

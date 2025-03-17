@@ -31,8 +31,8 @@ $S$ is the "at least as good as" relation
 
 
 ; We can express $P$ and $I$ only via $S$
-# $x \ P \ y \equiv [x \ S \ y] \land [y \ \overline{S} \ x]$
-# $x \ I \ y \equiv [x \ S \ y] \land [y \ S \ x]$
+1. $x \ P \ y \equiv [x \ S \ y] \land [y \ \overline{S} \ x]$
+1. $x \ I \ y \equiv [x \ S \ y] \land [y \ S \ x]$
 
 
 ## Axioms

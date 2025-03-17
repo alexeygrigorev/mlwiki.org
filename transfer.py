@@ -23,13 +23,36 @@ def sanitize_filename(title):
     """Sanitize filenames by replacing spaces with underscores and removing invalid characters."""
     return title.replace(" ", "_").replace("/", "_").replace(":", "_")
 
+
+LANGUAGE_PATTERNS = {
+    "python": [r"def\s+\w+\(", r"import\s+\w+", r"print\("],
+    "java": [r"public\s+class\s+\w+", r"System\.out\.println\(", r"import\s+java\.", r"public\s+void"],
+    "javascript": [r"function\s+\w+\(", r"console\.log\(", r"var\s+\w+"],
+    "c": [r"#include\s+<stdio.h>", r"int\s+main\("],
+    "cpp": [r"#include\s+<iostream>", r"std::cout\s*<<", r"using\s+namespace\s+std"],
+    "html": [r"<!DOCTYPE html>", r"<html>", r"<body>"],
+    "css": [r"color:", r"background:", r"font-size:"],
+    "sql": [r"SELECT\s+.*\s+FROM", r"INSERT\s+INTO", r"UPDATE\s+\w+"],
+    "bash": [r"#!/bin/bash", r"echo\s+", r"ls\s+"],
+    "json": [r"^\s*\{", r"^\s*\[", r"\":\s*\""]
+}
+
 def detect_language(code):
-    """Detect programming language using Pygments' guess_lexer."""
+    """Detect programming language using regex patterns, explicit hints, and fallback to guess_lexer."""
+    code_sample = "\n".join(code.strip().split("\n")[:5])  # First 5 lines only
+
+    # 1️⃣ Check regex patterns
+    for lang, patterns in LANGUAGE_PATTERNS.items():
+        if any(re.search(pattern, code_sample) for pattern in patterns):
+            return lang
+
+    # 2️⃣ Try Pygments' guess_lexer() as a last resort
     try:
-        lexer = guess_lexer(code)
+        lexer = guess_lexer(code_sample)
         return lexer.name.lower()
     except ClassNotFound:
-        return "text"  # Default to plain text if detection fails
+        return "text"  # Default if nothing matches
+
 
 def process_nested_lists(text):
     """Convert MediaWiki lists (*, #) into properly formatted Markdown lists."""
@@ -37,8 +60,8 @@ def process_nested_lists(text):
     output = []
     
     for line in lines:
-        # match = re.match(r"^([\*#]+)\s*(.*)", line)
-        match = re.match(r"^([\*]+)\s*(.*)", line)
+        match = re.match(r"^([\*#]+)\s*(.*)", line)
+        # match = re.match(r"^([\*]+)\s*(.*)", line)
         if match:
             markers, content = match.groups()
             level = len(markers)  # Depth of nesting

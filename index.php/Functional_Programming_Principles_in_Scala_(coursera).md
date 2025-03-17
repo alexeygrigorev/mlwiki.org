@@ -25,7 +25,7 @@ def pi = 3.14159
 
 Определения могут иметь как параметры, так и тип возвращаемого значения - в этом случае их следует называть ''функциями''.
 
-```scdoc
+```python
 def square(x: Double) = x * x
 square(2) => 4
 
@@ -65,7 +65,7 @@ def power(x: Double, y: Int): Double = ...
 
 Если <code>CBV</code> заканчивает выполнение (т.е. не зацикливается и завершается), то <code>CBE</code> так же заканчивает, но обратное не всегда верно. 
 
-```tera term macro
+```python
 def loop = loop
 def first(x: Int, y: Int) = x
 
@@ -75,7 +75,7 @@ first(1, loop)
 При <code>CBN</code> выполнится только один раз и завершиться, а при <code>CBV</code> зациклиться и будет выполняться бесконечно. 
 По умолчанию в Scala используется <code>CBV</code>, но, когда нужно, можно использовать <code>CBN</code>.
 
-```text only
+```python
 def countOne(x: Int, y: => Int) = 1
 ```
 
@@ -104,7 +104,7 @@ val x = loop // виснет
 ### Условия
 ''Условное выражение'' <code>if else</code> используется для выбора между двумя альтернативами
 
-```tera term macro
+```python
 def abs(x: Int) = if (x >= 0) x else -x
 ```
 
@@ -113,7 +113,7 @@ def abs(x: Int) = if (x >= 0) x else -x
 Считается хорошим стилем программирования разбивать сложные функции на много маленьких, однако многие функции имеют значение только для какой-то конкретной реализации какого-либо алгоритма, и не предназначены для использования извне.
 
 Например, дан алгоритм вычисления квадратного корня с помощью метода Ньютона [(см. также [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.7](http://ru.wikipedia.org/wiki/Метод_Ньютона]))
-```scdoc
+```python
 def sqrt(x: Double): Double = 
   sqrtIter(1.0, x)
 
@@ -129,7 +129,7 @@ def improve(guess: Double, x: Double) =
 ```
 
 Для того, чтобы избежать "namespace pollution", можно поместить все второстепенные функции внутрь sqrt:
-```scdoc
+```python
 def sqrt(x: Double): Double = {
   def sqrtIter(guess: Double, x: Double): Double = 
     if (isGoodEnough(guess, x)) guess
@@ -166,7 +166,7 @@ val res = {
 ## Функции высшего порядка
 Функции в Scala являются полноправными объектами. То есть функцию можно передать как параметр или вернуть, как значение. Функции, которые это делают, называются ''функциями высшего порядка''. 
 
-```scdoc
+```python
 def sum(f: Int => Int, a: Int, b: Int): Int = 
   if (a > b) 0
   else f(a) + sum(f, a + 1, b)
@@ -193,7 +193,7 @@ def fact(x: Int): Int = if (x == 0) 1 else fact(x - 1)
 
 Параметры функции можно опустить, если компилятор может их вычислить сам.
 
-```scdoc
+```python
 def sumInts(a: Int, b: Int) = sum(x => x, a, b)
 def sumCubes(a: Int, b: Int) = sum(x => x * x * x, a, b)
 ```
@@ -201,13 +201,13 @@ def sumCubes(a: Int, b: Int) = sum(x => x * x * x, a, b)
 ### Каррирование
 Рассмотрим пример 
 
-```text only
+```python
 def sumInts(a: Int, b: Int) = sum(x => x, a, b)
 ```
 
 Аргументы <code>a</code> и <code>b</code> просто передаются без изменений, поэтому возможно эту функцию возможно сделать еще короче
 
-```tera term macro
+```python
 def sum(f: Int => Int): (Int, Int) = {
   def sumF(a: Int, b: Int): Int =
     if (a > b) 0
@@ -219,7 +219,7 @@ def sum(f: Int => Int): (Int, Int) = {
 
 <code>sum</code> - это функция, которая возвращает другую функцию, которая "помнит" <code>f</code> и знает, как нужно вычислять значение. Далее можно написать
 
-```scdoc
+```bash
 def sumInts = sum(x => x)
 def sumCubes = sum(x => x * x * x)
 def sumFactorials = sum(fact)
@@ -233,7 +233,7 @@ sumCubes(1, 10) == (sum(cube))(1, 10)
 <code>sum(cube)</code> возвращает функцию, которая тут же применяется к аргументам 1 и 10.
 
 В Scala для таких функций существует специальный синтаксис:
-```tera term macro
+```python
 def sum(f: Int => Int)(a: Int, b: Int): Int = 
   if (a > b) 0 else f(a) + sum(f)(a + 1, b)
 ```
@@ -253,7 +253,7 @@ $x, f(x), f(f(x)), f(f(f(x))), ...$
 до тех пор, пока два соседних члена такой последовательности отличаются незначительно. 
 
 
-```tera term macro
+```python
 val tolerance = 0.0001
 
 def isCloseEnough(x: Double, y: Double) =
@@ -273,7 +273,7 @@ def fixedPoint(f: Double => Double)(firstGuess: Double) = {
 
 Следовательно,  $f = \sqrt{x}$ - это неподвижная точка функции $y = \frac{x}{y}$
 
-```text only
+```python
 def sqrt(x: Double) = fixedPoint(y => x / y)(1.0)
 ```
 
@@ -281,18 +281,18 @@ def sqrt(x: Double) = fixedPoint(y => x / y)(1.0)
 
 Этого можно избежать с помощью нахождения среднего между двумя последними значениями:
 
-```text only
+```python
 def sqrt(x: Double) = fixedPoint(y => (x + x / y) / 2)(1.0)
 ```
 
 Эта техника стабилизации колеблющейся функции называется ''average damp'', и она достаточно общая для того, чтобы вынести эту логику в отдельную функцию:
 
-```text only
+```python
 def averageDamp(f: Double => Double)(x: Double) = (x + f(x)) / 2
 ```
 
 В итоге получаем
-```text only
+```python
 def sqrt(x: Double) = fixedPoint(averageDamp(x => x / y))(1.0)
 ```
 
@@ -313,7 +313,7 @@ type Set = Int => Boolean
 ```
 
 Соответственно, функция <code>contains</code> принимает следующий вид:
-```text only
+```python
 def contains(s: Set, elem: Int): Boolean = s(elem)
 ```
 
@@ -357,7 +357,7 @@ x.denum
 
 Для каждой из этих операций мы можем создать функцию
 
-```scdoc
+```python
 def addRational(r: Rational, s: Rational): Rational = 
   new Rational(r.numer * s.denom + s.numer * r.denom, r.denom * s.denom)
 
@@ -370,7 +370,7 @@ def makeString(r: Rational) =
 Но эти функции можно поместить внутрь абстракции <code>Rational</code> - тогда такие фукнции будут называться ''методами''. 
 
 
-```perl6
+```python
 class Rational(x: Int, y: Int) {
   def numer = x
   def denom = y
@@ -396,7 +396,7 @@ x.add(y).mul(z)
 
 Можно заметить, что в некоторых случаях дробь можно упростить (сократить)
 
-```perl6
+```python
 class Rational(x: Int, y: Int) {
   private def gcd(a: Int, b: Int): Int = 
     if (b == 0) a else gcd(b, a % b)
@@ -422,7 +422,7 @@ class Rational(x: Int, y: Int) {
 
 Мы так же можем объявить вспомогательные конструкторы - они объявляются с помощью метода с называнием <code>this</code>:
 
-```perl6
+```python
 class Rational(x: Int, y: Int) {
   //...
 
@@ -501,7 +501,7 @@ a + b ^? c ^? d less a ==> b |  c |((a + b) ^? (c ^? d)) less ((a ==> b) |  c) |
 ''Абстрактным классом'' называется класс, который может содержать методы, которые ещё не реализованы. 
 
 Рассмотрим пример - множество целых чисел.
-```text only
+```python
 abstract class IntSet {
   def incl(x: Int): IntSet
   def contains(x: Int): Boolean
@@ -514,7 +514,7 @@ abstract class IntSet {
 
 Если класс расширяет абстрактный класс, то он должен реализовать его абстрактные методы.
 
-```gdscript
+```python
 class Empty extends IntSet {
   def contains(x: Int): Boolean = false
   def incl(x: Int): IntSet = new NonEmpty(x, new Empty, new Empty)
@@ -541,7 +541,7 @@ class NonEmpty(elem: Int, left: IntSet, right: IntSet) extends IntSet {
 
 Классы <code>Empty</code> и <code>NonEmpty</code> реализуют абстрактные определения incl и contains из <code>IntSet</code>. Так же возможно переопределить существующие неабстрактные определения родительского класса в подклассе с помощью ключевого слова override.
 
-```gdscript
+```text only
 abstract class Base {
   def foo = 1
   def bar: Int
@@ -575,7 +575,7 @@ class Cons(_head: Int, _tail: IntList) extends IntList {
 #### Синглтоны
 В этом примере нужен только один EmptySet, и нет необходимости каждый раз создавать новый объект, и мы можем определить один ''объект-синглтон''. Существует только один объект-синглтон и нельзя создать больше.
 
-```gdscript
+```python
 object Empty extends IntSet {
   def contains(x: Int): Boolean = false
   def incl(x: Int): IntSet = new NonEmpty(x, new Empty, new Empty)
@@ -588,7 +588,7 @@ object Empty extends IntSet {
 
 Объявление trait-а похоже на объявление абстрактного класса, однако подкласс может использовать несколько trait-ов с помощью ключевого слова with
 
-```gdscript
+```scdoc
 trait Planar {
   def height
   def width
@@ -610,7 +610,7 @@ Trait-ы похожи на интерфейсы в Java, но
 #### Точка входа в приложение
 Точкой входа в приложение называется место, с которого начинает выполняться программа. В Scala этим местом является метод main:
 
-```transact-sql
+```python
 object Hello {
   def main(args: Array[String]) = println("hw|  ") |} |
 ```
@@ -625,7 +625,7 @@ scala Hello
 #### Пакеты
 Пакеты используются для организации классов и объектов
 
-```transact-sql
+```python
 package progfun.exmaple
 
 object Hello {
@@ -720,7 +720,7 @@ signleton(true)
 Функции в Scala являются объектами
 Функциональный тип A => B на самом деле является сокращением от scala.Function[A, B], который определён как
 
-```carbon
+```python
 package scala 
 trait Function1[A, B] {
   def apply(x: A): B
@@ -746,7 +746,7 @@ trait Function1[A, B] {
 
 Или, используя синтаксис для объявления анонимных классов
 
-```scdoc
+```python
 new Function1[Int, Int] {
   def apply(x: Int) = x * x
 }
@@ -761,7 +761,7 @@ f(7)
 
 Превращается в
 
-```scdoc
+```python
 val f = new Function1[Int, Int] {
   def apply(x: Int) = x * x
 }
@@ -784,7 +784,7 @@ f.apply(7)
 
 Какой тип лучше всего подходит для параметра этого метода?
 
-```text only
+```python
 def assertAllPos(s: IntSet): IntSet
 ```
 
@@ -849,7 +849,7 @@ class C[A] {...}  // non-variant
 Т.е. функции контраварианты в типах их аргументах и ковариантны в типах их результатах. 
 
 Таким образом, имеем следующее определение для функций:
-```carbon
+```python
 package scala 
 
 trait Function1[-T, +U] {
@@ -858,7 +858,7 @@ trait Function1[-T, +U] {
 ```
 
 В примере с массивом проблемной операцией была операция обновления массива. Если представить массив в виде класса, то получим 
-```perl6
+```python
 class Array[+T] {
   def update(x: T)
 }
@@ -885,7 +885,7 @@ object EmptyList extends List[Nothing] {...}
 
 
 Рассмотрим метод <code>prepend</code> который добавляет новый элемент и возвращает новый список 
-```transact-sql
+```python
 trait List[+T] {
   def prepend(elem: T): List[T] = new Cons(elem, this)
 }
@@ -921,7 +921,7 @@ def prepend[U >: T](elem: U): List[U] = new Cons(elem, this)
 
 И, наконец, рассмотрим следующую функцию
 
-```transact-sql
+```python
 def f(xs: List[NonEmpty], x: Empty) = xs prepend x
 ```
 
@@ -973,7 +973,7 @@ object Sum {
 
 ''Сопоставление с образцом (pattern matching)'' - генерализация конструкции <code>switch</code> из java для иерархий классов. Классы, помеченные ключевым словом <code>case</code> могут использоваться в конструкциях сопоставления с образцом. 
 
-```text only
+```python
 def eval(e: Expr): Int = e match {
   case Number => n
   case Sum(e1, e2) => eval(e1) + eval(e2)
@@ -1001,14 +1001,14 @@ def eval(e: Expr): Int = e match {
 
 
 Примеры:
-```transact-sql
+```python
 def singleton(trees: List[CodeTree]): Boolean = trees match {
   case x :: Nil => true
   case _ => false
 }
 ```
 
-```scdoc
+```python
 def nextBranch(tree: Fork, bit: Bit): CodeTree = bit match {
   case 0 => tree.left
   case 1 => tree.right
@@ -1016,7 +1016,7 @@ def nextBranch(tree: Fork, bit: Bit): CodeTree = bit match {
 }
 ```
 
-```transact-sql
+```python
 def decode1(currentBranch: CodeTree, bits: List[Bit]): List[Char] = (currentBranch, bits) match {
   case (Leaf(char, _), Nil) => List(char)
   case (fork: Fork, head :: tail) => decode1(nextBranch(fork, head), tail)
@@ -1028,7 +1028,7 @@ def decode1(currentBranch: CodeTree, bits: List[Bit]): List[Char] = (currentBran
 
 
 Также можно использовать для каждого из образцов ''граничное условие'', только при соблюдении которого будет выполняться выражение. Например, 
-```transact-sql
+```python
 def positiveSingleton(xs: List[Int]): Boolean = xs match {
   case x :: Nil if x > 0 => true
   case _ => false
@@ -1083,7 +1083,7 @@ Cписки можно использовать в сопоставлениях 
 
 
 Пример: сортировка вставками
-```transact-sql
+```python
 def sort(xs: List[Int]): List[Int] = xs match {
   case List() => List(x)
   case y :: ys => if (x <= y) x :: xs else y :: insert(x, ys)
@@ -1134,7 +1134,7 @@ val squares = xs.map(x => x * x)
 #### Filter
 Фильтрует элементы, удовлетворяющие некоторому условию
 
-```transact-sql
+```python
 class List[T] {
   def filter(p: T => Boolean): List[T] = this match {
     case Nil => this
@@ -1176,7 +1176,7 @@ def pack[T](xs: List[T]): List[List[T]] = xs match {
 - произведение: $1 \cdot x_1 \cdot x_2 \cdot ... \cdot x_n$
 
 <code>reduceLeft</code>
-```transact-sql
+```python
 def sum(xs: List[Int]) = 
   (0 :: xs) reduceLeft((x, y) => x + y)
 
@@ -1187,7 +1187,7 @@ def product(xs: List[Int]) =
 Вместо того, чтобы писать <code>(x, y) => x + y</code>, можно написать <code>(_ * _)</code>
 Каждый из <code>_</code> представляет собой параметр, поэтому функции выше можно переписать следующим образом:
 
-```transact-sql
+```python
 def sum(xs: List[Int]) = 
   (0 :: xs) reduceLeft(_ + _)
 
@@ -1200,7 +1200,7 @@ def product(xs: List[Int]) =
 
 Таким образом, сумма и произведение могут быть записаны как
 
-```transact-sql
+```python
 def sum(xs: List[Int]) = 
   (xs foldLeft 0) reduceLeft(_ + _)
 
@@ -1211,7 +1211,7 @@ def product(xs: List[Int]) =
 
 Реализовать эти две функции можно следующим образом:
 
-```transact-sql
+```python
 class List[T] {
   def reduceLeft(op: (T, T) => T): T = this match {
     case Nil => throw ...
@@ -1228,7 +1228,7 @@ class List[T] {
 
 Помимо <code>foldLeft</code> и <code>reduceLeft</code> так же определены функции <code>foldRight</code> и <code>reduceRight</code>
 
-```transact-sql
+```python
 class List[T] {
   def reduceRight(op: (T, T) => T): T = this match {
     case Nil => throw ...
@@ -1308,7 +1308,7 @@ val s: Range = 1 to 5 // 1, 2, 3, 4, 5
 
 
 Скалярное произведение двух векторов:
-```transact-sql
+```python
 def scalarProduct(xs: Vector[Double], ys: Vector[Double]): Double = 
   (xs zip ys).map(xy => xy._1 * xy._2).sum
 ```
@@ -1321,7 +1321,7 @@ def scalarProduct(xs: Vector[Double], ys: Vector[Double]): Double =
 
 
 Проверка числа на простоту
-```carbon
+```python
 def isPrime(n: Int): Boolean =
   (2 until n) forall (d => u % d |  = 0) |
 ``` |
@@ -1393,7 +1393,7 @@ fruit filter (_.startsWith("app"))
 - каждое решение - это список длины $k-1$, содержащий номера вертикалей, на которых стоят ферзи (от 0 до $n-1$)
 - для того, чтобы поставить ферзя на $k$-ю вертикаль, мы генерируем все возможные позиции и отфильтровываем те, в которых условия нарушаются
 
-```transact-sql
+```python
 def queens(n: Int) = {
   def placeQueens(k: Int): Set[List[Int]] = {
     if (k == 0)
@@ -1414,14 +1414,14 @@ def isSafe(col: Int, queens: List[Int]): Boolean = ...
 ### Map (Структура данных)
 Map[Key, Value] - ассоциативный контейнер для пар ключ-значение. 
 
-```ecl
+```bash
 val roman = Map("I" -> 1, "V" -> 5, "X" -> 10)
 val capitals = Map("US" -> "Washington", "Switzerland" -> "Bern")
 ```
 
 Класс Map[Key, Value] расширяет класс Iterable[(Key, Value)], так что с объектами этого типа можно делать всё, что угодно:
 
-```text only
+```bash
 val countries = capitals map { case (x, y) => (y, x) }
 ```
 
@@ -1448,7 +1448,7 @@ object None extends Option[Nothing]
 - <code>None</code>, если мапа не содержит ключ
 - <code>Some(x)</code>, если содержит
 
-```text only
+```python
 def showCapital(country: String) = capital.get(country) match {
   case Some(capital) => capital
   case None => "missing data"
@@ -1471,7 +1471,7 @@ Map(
 ```
 
 Так же можно создать мапу со значением по умолчанию, которое будет использоваться в случаях, когда ключ не найден
-```text only
+```bash
 val cap1 = capitals withDefaultValue "unknown"
 cap1("Andorra") // "unknown"
 ```
@@ -1485,7 +1485,7 @@ Polynom(Map(1 -> 2.0, 3 -> 4.0, 5 -> 6.2))
 
 Можно ли избежать передачи <code>Map</code>? Мы можем использовать параметр с повторением ("repeated parameter")
 
-```scdoc
+```python
 def Polynom(bindings: (Int, Double)*) = 
   new Polynom(bindings.toMap withDefaultValue 0)
 ```
@@ -1574,7 +1574,7 @@ def cons[T](hd: T, tl: => Stream) = new Stream {
 ### Бесконечные последовательности
 С помощью стримов можно создавать последовательности неограниченного размера [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5.2]:
 
-```transact-sql
+```python
 def from(n: Int): Stream[Int] = n #:: from(n + 1)
 val natural = from(0)
 natural map (_ * 4)
@@ -1582,7 +1582,7 @@ natural map (_ * 4)
 
 При этом, если <code>for-expression</code> применить к бесконечному списку, результат так же будет ленивым
 
-```s
+```bash
 val legals = b.legalNeighbors.toStream
 for ((nextBlock, move) <- legals) yield (nextBlock, move :: history)
 ```
@@ -1593,7 +1593,7 @@ for ((nextBlock, move) <- legals) yield (nextBlock, move :: history)
 - Убираем из результата все делители $i$
 - Переходим к следующему элементу результата и повторяем
 
-```transact-sql
+```python
 def sieve(s: Stream[Int]): Stream[Int] =
   s.head #:: sieve(s.tail filter (_ % s.head |  = 0)) | |val primes = sieve(from(2))
 
@@ -1610,7 +1610,7 @@ def sieve(s: Stream[Int]): Stream[Int] =
 - Отсортировать полученные подсписки
 - Слить их в один отсортированный список
 
-```transact-sql
+```python
 def msort(xs: List[Int]): List[Int] = {
   val n = xs.length / 2
   if (n == 0) {
@@ -1653,7 +1653,7 @@ value == 12
 
 Так как пары можно использовать в сопоставлениях с образцом, то функцию <code>merge</code> можно переписать следующим образом:
 
-```transact-sql
+```python
 def merge(xs: List[Int], ys: List[Int]): List[Int] = (xs, ys) match {
   case (Nil, _) => ys
   case (_, Nil) => xs
@@ -1698,7 +1698,7 @@ msort(fruits)(Ordering.String)
 
 Однако в этой реализации есть проблема: необходимо постоянно передавать параметр ls. Однако можно этого избежать при помощи неявных параметров (implicit parameters)
 
-```transact-sql
+```python
 def msort[T](xs: List)(implicit ord: Ordering) = {
   ...
 

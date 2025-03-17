@@ -85,7 +85,7 @@ In this query we want to [partition](Database_Partitioning) our table by date
 #### Query 1
 Compute daily statistics on how often a status is updated based on gender and school
 
-```googlesql
+```sql
 FROM 
 (SELECT a.status, b.school, g.gender
  FROM status_updates a JOIN profiles b
@@ -110,7 +110,7 @@ note that we have 2 operations in one query
 #### Query 2
 suppose we want to display top 10 memes per school
 
-```googlesql
+```text only
 REDUCE subq2.school, subq2.meme, subq2.cnt
 -- using custom python script
 USING 'top10.py' AS (school, meme, cnt)

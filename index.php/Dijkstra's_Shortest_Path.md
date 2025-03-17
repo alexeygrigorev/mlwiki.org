@@ -78,7 +78,7 @@ running time with heaps: $O(m \log_2 n)$
 
 
 ## Implementation
-```transact-sql
+```text only
 public static final int INFINITY = 1000000;
 
 public static int[] dijkstra(UndirectedWeightedGraph graph, int s) {

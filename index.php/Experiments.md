@@ -6,4 +6,4 @@ permalink: /index.php/Experiments
 
 # Experiments
 
-#перенаправление [Statistical Experiment](Statistical_Experiment)
+1. перенаправление [Statistical Experiment](Statistical_Experiment)

@@ -21,7 +21,7 @@ plot(NULL, NULL, bty="n",
      xlim=c(1-0.3, 8+0.3), xaxt="n",
      xlab="x", ylab="y")
 
-# grids
+1. grids
 abline(h=1:10, v=1:10, col="gray", lty=3)
 
 axis(side=1, at=1:8) 
@@ -51,11 +51,11 @@ oldpar = par(no.readonly = TRUE)
 data(mtcars)
 attach(mtcars)
 
-# fig=c(x1, x2, y1, y2)
+1. fig=c(x1, x2, y1, y2)
 par(fig=c(0, 0.8, 0, 0.8))
 
-# mar=c(bottom, left, top, right)
-# default: c(5, 4, 4, 2) + 0.1.
+1. mar=c(bottom, left, top, right)
+1. default: c(5, 4, 4, 2) + 0.1.
 par(mar=c(4, 4.1, 0, 0))
 plot(mtcars$wt, mtcars$mpg, xlab="Miles Per Gallon",
      ylab="Car Weight", col="darkblue", pch=19)
@@ -193,7 +193,7 @@ xspline(x=c(-1, 0, 1, x), y=fn, lwd=2, shape=1, border="blue")
 
 <img src="http://habrastorage.org/files/ad7/d13/3a5/ad7d133a5b254d62a83fe4c8f0d349d8.gif" alt="Image">
 
-```css+lasso
+```tera term macro
 require(animation)
 
 saveGIF({

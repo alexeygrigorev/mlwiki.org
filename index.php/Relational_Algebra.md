@@ -49,7 +49,7 @@ $R_1 \cup R_2$
 - The result contains elements that are in $R_1$ or in $R_2$
 
 SQL:
-```scdoc
+```sql
 SELECT * FROM R1
 UNION
 SELECT * FROM R2
@@ -89,7 +89,7 @@ $R_1 - R_2$
 - The result contains elements that are in $R_1$ but not in $R_2$
 
 
-```scdoc
+```sql
 SELECT * FROM R1
 EXCEPT 
 SELECT * FROM R2
@@ -125,7 +125,7 @@ $R_1 \cap R_2$
 
 
 SQL 
-```scdoc
+```sql
 SELECT * FROM R1
 INTERSECT 
 SELECT * FROM R2
@@ -168,7 +168,7 @@ A binary operator
 - Attributes that take part in $\theta$ must be present in the relation $R$
 
 in SQL:
-```text only
+```sql
 SELECT ... FROM R WHERE {condition}
 ```
 
@@ -204,7 +204,7 @@ A binary operator
 - All $A_1, ..., A_n$ must be present in $R$
 
 SQL:
-```text only
+```sql
 SELECT A1, ..., An FROM R
 ```
 
@@ -241,7 +241,7 @@ $R_1 \times R_2$
 - $R_1$ and $R_2$ must have disjoint schema
 
 SQL 
-```scdoc
+```sql
 SELECT * FROM R1, R2
 ```
 
@@ -397,7 +397,7 @@ $\rho_{\text{prefix}}(R)$
 
 SQL
 
-```scdoc
+```sql
 SELECT * FROM Relation R
 ```
 
@@ -421,7 +421,7 @@ Example
 find all hospitals within 5 ms of a school
 
 
-```text only
+```sql
 SELECT DISTINCT h.name 
 FROM Hospital h, School s
 WHERE distance(h.location, s.location) < 5

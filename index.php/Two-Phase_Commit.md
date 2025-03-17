@@ -25,11 +25,11 @@ A way to ensure consistency in a [distributed system](Distributed_Databases)
 ## Example
 <img src="https://raw.github.com/alexeygrigorev/ulb-adb-project-couchbd/master/report/images/two-phase-commit.png" alt="Image">
 
-# Coordinator: update
-# Coordinator: prepare to commit
-# Subordinate: write to log
-# Subordinate: say "ready"
-# Coordinator: commit
+1. Coordinator: update
+1. Coordinator: prepare to commit
+1. Subordinate: write to log
+1. Subordinate: say "ready"
+1. Coordinator: commit
 
 
 ## See also

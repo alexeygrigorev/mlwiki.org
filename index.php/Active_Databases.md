@@ -100,13 +100,13 @@ It supports
 - both before triggers and after triggers
 
 Rule processing algorithm
-# execute the statement-level before triggers
-# for each row affected by the triggering statement
-## execute the row-level before triggers
-## execute the modification of the row, check constraints and assertions
-## execute the row-level after triggers
-# perform statement-level assertion checking
-# execute statement-level after trigger
+1. execute the statement-level before triggers
+1. for each row affected by the triggering statement
+  1. execute the row-level before triggers
+  1. execute the modification of the row, check constraints and assertions
+  1. execute the row-level after triggers
+1. perform statement-level assertion checking
+1. execute statement-level after trigger
 
 
 - the modification may trigger another rules 

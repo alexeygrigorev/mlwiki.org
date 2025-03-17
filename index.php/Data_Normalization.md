@@ -6,4 +6,4 @@ permalink: /index.php/Data_Normalization
 
 # Data Normalization
 
-#REDIRECT [Feature Normalization](Feature_Normalization)
+1. REDIRECT [Feature Normalization](Feature_Normalization)

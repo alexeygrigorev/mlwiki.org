@@ -37,7 +37,7 @@ Apriori(dataset $D$, frequency threshold $t$)
 
 
 ### Python
-```transact-sql
+```python
 def frequency(D, itemset):
     return sum([1 for T in D if itemset.issubset(T)])
 
@@ -72,7 +72,7 @@ Consider the result obtained by the algorithm:
 - so, if we generate all subsets of these two, we'll get all the frequent itemsets 
 
 ```tera term macro
->>> powerset('de') |  powerset('abc') |# sorted([''.join(i) for i in powerset('de') |  powerset('abc')],  |#        key=lambda x: (len(x), x))
+>>> powerset('de') |  powerset('abc') |1. sorted([''.join(i) for i in powerset('de') |  powerset('abc')],  |1. key=lambda x: (len(x), x))
 ['', 'a', 'b', 'c', 'd', 'e', 'ab', 'ac', 'bc', 'de', 'abc']
 ```
 

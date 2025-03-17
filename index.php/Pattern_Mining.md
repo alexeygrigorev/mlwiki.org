@@ -6,4 +6,4 @@ permalink: /index.php/Pattern_Mining
 
 # Pattern Mining
 
-#перенаправление [Rule Mining](Rule_Mining)
+1. перенаправление [Rule Mining](Rule_Mining)

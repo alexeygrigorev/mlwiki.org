@@ -6,4 +6,4 @@ permalink: /index.php/T-test
 
 # T-test
 
-#REDIRECT [T-tests](T-tests)
+1. REDIRECT [T-tests](T-tests)

@@ -6,4 +6,4 @@ permalink: /index.php/Limit
 
 # Limit
 
-#REDIRECT [Limits](Limits)
+1. REDIRECT [Limits](Limits)

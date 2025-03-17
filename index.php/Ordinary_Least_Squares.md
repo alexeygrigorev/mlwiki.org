@@ -6,4 +6,4 @@ permalink: /index.php/Ordinary_Least_Squares
 
 # Ordinary Least Squares
 
-#REDIRECT [OLS Regression](OLS_Regression)
+1. REDIRECT [OLS Regression](OLS_Regression)

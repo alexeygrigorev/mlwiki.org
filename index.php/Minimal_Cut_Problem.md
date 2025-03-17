@@ -59,7 +59,7 @@ How many trials we need?
 
 
 ### Implementation
-```scdoc
+```java
 public class MinCutProblem {
     private UndirectedGraph graph;
     private UndirectedGraph initialGraphCopy;
@@ -100,7 +100,7 @@ public class MinCutProblem {
 }
 ```
 
-```transact-sql
+```java
 public class UndirectedGraph {
     private int n;
     private final Map<Integer, List<Integer>> adj;

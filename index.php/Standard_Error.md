@@ -55,7 +55,7 @@ This sampling distribution is used for [Binomial Proportion Confidence Intervals
 
 
 ### Example 2
-```transact-sql
+```gdscript
 load(url('http://s3.amazonaws.com/assets.datacamp.com/course/dasi/ames.RData'))
 area = ames$Gr.Liv.Area
 sample_means50 = rep(NA, 5000)

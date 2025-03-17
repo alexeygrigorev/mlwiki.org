@@ -28,12 +28,12 @@ The normal probability plot is formed by:
 
 
 Constructing 
-# order the observations 
-# determine the percentile for each
-# identify the $z$-score for each percentile 
-# create a [Scatterplot](Scatterplot)
-#* observation (vertical) vs
-#* $z$-score (horizontal)
+1. order the observations 
+1. determine the percentile for each
+1. identify the $z$-score for each percentile 
+1. create a [Scatterplot](Scatterplot)
+  - observation (vertical) vs
+  - $z$-score (horizontal)
 
 
 if the data is normally distributed, $z$-scores on the horizontal axis should approximately correspond to their percentiles
@@ -69,7 +69,7 @@ qqline(sim.norm, lwd=2)
 
 Can try to plot several simulations 
 
-```s
+```tera term macro
 qqnormsim = function(dat, dim=c(2,2)) {
   par(mfrow=dim)
   qqnorm(dat, main="Normal QQ Plot (Data)")

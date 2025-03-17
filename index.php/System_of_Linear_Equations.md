@@ -123,7 +123,7 @@ I.e. we want to find a [Linear Combination](Linear_Combination) of these columns
 
 ### Python Code
 {{ Hider |   |   title=Python code to reproduce the figures |  |   content=
-```numpy
+```python
 import matplotlib.pylab as plt
 import numpy as np
 

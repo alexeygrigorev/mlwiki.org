@@ -10,7 +10,7 @@ permalink: /index.php/My_bat_file
 ## Командная строка с PATH
 
 command_line.bat:
-```text only
+```bash
 echo off
 cls
 
@@ -18,7 +18,7 @@ cmd /K C:\Dev\bin\bootstrap.bat
 ```
 
 bootstrap.bat:
-```transact-sql
+```bash
 @echo off
 
 set NODE_JS_PATH=C:\Program Files (x86)\nodejs

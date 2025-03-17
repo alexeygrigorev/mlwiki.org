@@ -46,11 +46,11 @@ Basic Rule:
 ### Problematic Situations
 #### Problematic Situation 1
 suppose we have the following sequence of actions:
-# $T_\text{start},$ 
-# $U_\text{start},$
-# ${\color{blue}{U \text{ writes } X}},$ - allow this because we're optimistic 
-# ${\color{red}{T \text{ reads } X}},$  - not consistent with the serial schedule $(T, U)$ $\Rightarrow$ abort $T$
-# $...$ 
+1. $T_\text{start},$ 
+1. $U_\text{start},$
+1. ${\color{blue}{U \text{ writes } X}},$ - allow this because we're optimistic 
+1. ${\color{red}{T \text{ reads } X}},$  - not consistent with the serial schedule $(T, U)$ $\Rightarrow$ abort $T$
+1. $...$ 
 
 So the problem is
 - $T$ starts before $U$, but $U$ writes before $T$ reads
@@ -64,12 +64,12 @@ To avoid it we want to check if
 
 #### Problematic Situation 2
 The sequence of actions:
-# $U_\text{start},$ 
-# $U \text{ writes } X,$ 
-# $T_\text{start},$
-# $T \text{ reads } X,$
-# ${\color{red}{U_\text{abort}}}, $
-# $...$
+1. $U_\text{start},$ 
+1. $U \text{ writes } X,$ 
+1. $T_\text{start},$
+1. $T \text{ reads } X,$
+1. ${\color{red}{U_\text{abort}}}, $
+1. $...$
 
 Problem:
 - Actions 1-4 are consistent with the serial schedule $(U, T)$
@@ -86,11 +86,11 @@ To avoid that:
 
 #### Problematic Situation 3
 Sequence of Actions:
-# $T_\text{start},$
-# $U_\text{start},$ 
-# ${\color{blue}{U \text{ reads } X}},$ - we're optimistic, so the read is successful
-# ${\color{red}{T \text{ writes } X}},$ - not consistent with the serial schedule $(T, U)$
-# $...$
+1. $T_\text{start},$
+1. $U_\text{start},$ 
+1. ${\color{blue}{U \text{ reads } X}},$ - we're optimistic, so the read is successful
+1. ${\color{red}{T \text{ writes } X}},$ - not consistent with the serial schedule $(T, U)$
+1. $...$
 
 The problem:
 - $T$ starts before $U$, but $U$ reads before $T$ writes
@@ -102,15 +102,15 @@ Solution:
 
 
 #### Problematic Situation 4
-# $S_\text{start},$
-# ${\color{blue}{S \text{ read } X}},$
-# $T_\text{start},$
-# $U_\text{start},$
-# ${\color{blue}{U \text{ writes } X}},$
-# ${\color{blue}{T \text{ writes } X}},$ - note that in this case we allow $w_T(X)$ (but ignore it) since it "will" be overwritten if executed $(T, U)$
-# $T_\text{commit},$
-# ${\color{red}{U_\text{abort}}}, $
-# $...$
+1. $S_\text{start},$
+1. ${\color{blue}{S \text{ read } X}},$
+1. $T_\text{start},$
+1. $U_\text{start},$
+1. ${\color{blue}{U \text{ writes } X}},$
+1. ${\color{blue}{T \text{ writes } X}},$ - note that in this case we allow $w_T(X)$ (but ignore it) since it "will" be overwritten if executed $(T, U)$
+1. $T_\text{commit},$
+1. ${\color{red}{U_\text{abort}}}, $
+1. $...$
 
 The problem
 - we allow, but ignore write of $T$ to $X$: 

@@ -6,4 +6,4 @@ permalink: /index.php/Determinant
 
 # Determinant
 
-#REDIRECT [Determinants](Determinants)
+1. REDIRECT [Determinants](Determinants)

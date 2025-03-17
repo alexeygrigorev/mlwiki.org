@@ -49,14 +49,14 @@ It communicates with the main memory via the ''data bus''
 ### Accessing
 Accessing (reading or writing) a block of data requires 3 steps:
 
-# DC positions the head assembly at the cylinder that contains the needed block
-#: the time to do it is the ''seek time''
-# DC waits until the first sector of the block appears under the head
-#: the ''rotation latency''
-#: typically 0-10 mls, 5 mls on average (1 rotations is 10 mls)
-# DC reads/writes sectors under the head while sectors pass under it
-#: the ''transfer time''
-#: quite small 
+1. DC positions the head assembly at the cylinder that contains the needed block
+1. : the time to do it is the ''seek time''
+1. DC waits until the first sector of the block appears under the head
+1. : the ''rotation latency''
+1. : typically 0-10 mls, 5 mls on average (1 rotations is 10 mls)
+1. DC reads/writes sectors under the head while sectors pass under it
+1. : the ''transfer time''
+1. : quite small 
 
 the ''latency of disk'' is a sum of the three:
 - seek time + rotation latency + transfer time

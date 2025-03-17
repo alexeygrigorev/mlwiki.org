@@ -63,7 +63,7 @@ Word-Counting: need to calculate how many occurrences of each word there are
 - now sum the occurrences for each word (the reduce phase)
 
 Pseudo-code
-```scdoc
+```python
 def map(String input_key, String doc):
   for each word w in doc:
     EmitIntermediate(w, 1)

@@ -27,10 +27,10 @@ Question:
 
 ## Structure of Statistical Test
 ### Summary
-# Determine the $H_0$ and $H_A$
-# Collect data and calculate a ''test statistic''
-# Calculate the $p$-value
-# Make a conclusion based on it and on the context
+1. Determine the $H_0$ and $H_A$
+1. Collect data and calculate a ''test statistic''
+1. Calculate the $p$-value
+1. Make a conclusion based on it and on the context
 
 
 ### Step 1: Null and Alternative Hypotheses

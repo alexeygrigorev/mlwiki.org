@@ -140,7 +140,7 @@ CI = phat + c(-ME, ME) // 0.545, 0.606
 - Calculate the 90% CI for $p$
 - With 60 successes out of 100 trials 
 
-```scdoc
+```text only
 phat = 0.6
 cl = 0.9
 al = (1 - cl) / 2

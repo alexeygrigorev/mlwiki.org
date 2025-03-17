@@ -9,7 +9,7 @@ permalink: /index.php/ANTLR4_Maven
 
 == pom.xml == 
 
-```genshi
+```xml
 <dependencies>
   <dependency>
     <groupId>org.antlr</groupId>

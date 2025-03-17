@@ -23,8 +23,8 @@ With two candidates ($A = \{a, b\}$) the only voting mechanism that satisfies al
 - by neutrality we can say without loss of generality that $N(a > b) > N(b > a)$
 
 For the case when $N(a > b) > N(b > a)$ there are two possible outcomes:
-# $a$ is elected - this case is the [Plurality Voting](Plurality_Voting) case
-# $b$ is elected - not [Plurality Voting](Plurality_Voting)
+1. $a$ is elected - this case is the [Plurality Voting](Plurality_Voting) case
+1. $b$ is elected - not [Plurality Voting](Plurality_Voting)
 
 Case 2
 : $N(a > b) > N(b > a)$ but $b$ wins over $a$ - let's show that this assumption leads to contradiction

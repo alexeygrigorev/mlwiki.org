@@ -214,7 +214,7 @@ Now we can compute the $X^2$ test statistics
 
 
 R:
-```scdoc
+```text only
 obs = matrix(c(3511, 1749, 1818, 1489, 751, 682), nrow=2, ncol=3, byrow=T)
 dimnames(obs) = list(outcome=c('click', 'new search'),
                      algorithm=c('current', 'test 1', 'test 2'))

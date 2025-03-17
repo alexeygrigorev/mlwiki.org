@@ -217,7 +217,7 @@ We run ANOVA tests and obtain the following summary table:
 The $p$-value is greater than $\alpha=0.05$, so we reject $H_0$
 
 
-```gdscript
+```carbon
 library(openintro)
 data(classData)
 
@@ -232,7 +232,7 @@ axis(side=1, at=1:3, labels=c('A', 'B', 'C'))
 
 
 oneway.test(classData$m1 ~ classData$lecture, var.equal=T)
-# or
+1. or
 aov1 = aov(classData$m1 ~ classData$lecture)
 summary(aov1)
 ```
@@ -275,7 +275,7 @@ We run ANOVA analysis and get the following:
 - $p\text{-value} = 0.006876$
 
 
-```gdscript
+```text only
 file = 'http://courses.statistics.com/software/data/donuts.txt'
 donuts = read.table(file, header=T)
 donuts = stack(donuts)
@@ -283,7 +283,7 @@ donuts
 
 boxplot(donuts$values ~ donuts$ind)
 oneway.test(donuts$values ~ donuts$ind, var.equal=TRUE)
-# p\text{-value} is small, we reject the hypothesis of equal absorption.
+1. p\text{-value} is small, we reject the hypothesis of equal absorption.
 ```
 
 
@@ -291,7 +291,7 @@ Same, done in steps:
 
 ```gdscript
 groups = 4
-# total variance
+1. total variance
 df.g = groups - 1
 tot.mean = mean(donuts$values)
 
@@ -300,7 +300,7 @@ n = tapply(donuts$values, donuts$ind, length)
 
 inter = sum(n * (group.mean - tot.mean) ^ 2) / df.g
 
-# variance inside each group
+1. variance inside each group
 df.e = length(donuts$values) - groups
 intra.1 = tapply(donuts$values, donuts$ind, FUN=function(data) {
   m = mean(data)

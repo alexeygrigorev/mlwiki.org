@@ -86,7 +86,7 @@ idea of the correctness:
 
 
 ### Implementation
-```transact-sql
+```java
 public class StronglyConnectedComponents {
     private Graph graph;
 

@@ -6,4 +6,4 @@ permalink: /index.php/Binomial_Proportion_Test
 
 # Binomial Proportion Test
 
-#REDIRECT [Binomial Proportion Tests](Binomial_Proportion_Tests)
+1. REDIRECT [Binomial Proportion Tests](Binomial_Proportion_Tests)

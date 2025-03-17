@@ -6,4 +6,4 @@ permalink: /index.php/OBDA
 
 # OBDA
 
-#REDIRECT [Ontology Based Data Access](Ontology_Based_Data_Access)
+1. REDIRECT [Ontology Based Data Access](Ontology_Based_Data_Access)
