@@ -42,9 +42,13 @@ jobs:
         run: |
           python generate_tag_pages.py
           
-      - uses: actions/setup-ruby@v1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
+
+      - name: Install dependencies
+        run: bundle install
           
       - name: Setup Pages
         id: pages
