@@ -49,6 +49,9 @@ jobs:
           bundler-cache: true
           cache-version: 0
           
+      - name: Add Linux platform to bundle
+        run: bundle lock --add-platform x86_64-linux
+          
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
