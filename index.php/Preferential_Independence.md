@@ -1,11 +1,10 @@
 ---
-title: "Preferential Independence"
 layout: default
 permalink: /index.php/Preferential_Independence
+tags:
+- multi-criteria-decision-aid
+title: Preferential Independence
 ---
-
-# Preferential Independence
-
 ## Preferential Independence
 The preference independence principle is an important principle from [MCDA](MCDA) for choosing criteria: they should be preferential independent.
 
@@ -123,5 +122,3 @@ However an employee would prefer:
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - http://wiki.ece.cmu.edu/ddl/index.php/Preferential_independence
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

@@ -1,11 +1,11 @@
 ---
-title: "Query Plan Selection Exercises"
 layout: default
 permalink: /index.php/Query_Plan_Selection_Exercises
+tags:
+- database-systems-architecture
+- relational-databases
+title: Query Plan Selection Exercises
 ---
-
-# Query Plan Selection Exercises
-
 Cost-Based Plan Selection exercises 
 - Wiki Articles:
   - [Physical Operators (databases)](Physical_Operators_(databases)) 
@@ -212,6 +212,3 @@ The last projection also can be done on the fly - without materializing anything
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Relational Databases](Category_Relational_Databases)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

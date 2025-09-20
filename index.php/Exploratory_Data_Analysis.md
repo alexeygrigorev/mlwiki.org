@@ -1,11 +1,10 @@
 ---
-title: "Exploratory Data Analysis"
 layout: default
 permalink: /index.php/Exploratory_Data_Analysis
+tags:
+- data-analysis
+title: Exploratory Data Analysis
 ---
-
-# Exploratory Data Analysis
-
 ## Exploratory Data Analysis
 This is a stage in [Data Analysis](Data_Analysis)/[Data Mining](Data_Mining)
 - to get initial understating of the data source
@@ -34,5 +33,3 @@ Main plots used at this stage
 ## Sources
 - [Data Analysis (coursera)](Data_Analysis_(coursera))
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Data Analysis](Category_Data_Analysis)

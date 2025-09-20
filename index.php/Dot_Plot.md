@@ -1,11 +1,11 @@
 ---
-title: "Dot Plot"
 layout: default
 permalink: /index.php/Dot_Plot
+tags:
+- plots
+- r
+title: Dot Plot
 ---
-
-# Dot Plot
-
 ## Dot Plots
 This is a [Plot](Plot) that is used to show only one variable
 - can say that this is one-dimensional [Scatter Plot](Scatter_Plot)
@@ -123,6 +123,3 @@ stripchart(A, method="stack", offset=.5, at=.15, pch = 19,
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://www.cyclismo.org/tutorial/R/plotting.html
 - http://stackoverflow.com/a/15245023/861423
-
-[Category:Plots](Category_Plots)
-[Category:R](Category_R)

@@ -1,11 +1,10 @@
 ---
-title: "Optimization"
 layout: default
 permalink: /index.php/Optimization
+tags:
+- optimization
+title: Optimization
 ---
-
-# Optimization
-
 ## Optimization
 
 Problems
@@ -13,5 +12,3 @@ Problems
 - [Graph Coloring](Graph_Coloring)
 - [Traveling Salesman Problem](Traveling_Salesman_Problem)
 - [Vehicle Routing Problem](Vehicle_Routing_Problem)
-
-[Category:Optimization](Category_Optimization)

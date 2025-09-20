@@ -1,11 +1,11 @@
 ---
-title: "Validation-Based Scheduler"
 layout: default
 permalink: /index.php/Validation-Based_Scheduler
+tags:
+- concurrency
+- database-systems-architecture
+title: Validation-Based Scheduler
 ---
-
-# Validation-Based Scheduler
-
 ## Validation-Based Scheduler
 This is a [Scheduler](Scheduler) that gives [Conflict-Serializable Schedule](Serializable_Sheduling)
 
@@ -102,6 +102,3 @@ Everything that doesn't pass the validation is aborted and restarted
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Concurrency](Category_Concurrency)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

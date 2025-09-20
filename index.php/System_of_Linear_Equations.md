@@ -1,11 +1,10 @@
 ---
-title: "System of Linear Equations"
 layout: default
 permalink: /index.php/System_of_Linear_Equations
+tags:
+- linear-algebra
+title: System of Linear Equations
 ---
-
-# System of Linear Equations
-
 ## System of Linear Equations
 The fundamental problem of [Linear Algebra](Linear_Algebra) is solving a system of Linear Equations.
 - A system of linear equations is a system of first order equations with multiple unknowns. 
@@ -263,5 +262,3 @@ Zero or $\infty$ solutions
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - Курош А.Г. Курс Высшей Алгебры
 - http://en.wikipedia.org/wiki/System_of_linear_equations
-
-[Category:Linear Algebra](Category_Linear_Algebra)

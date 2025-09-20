@@ -1,11 +1,11 @@
 ---
-title: "Vector Spaces"
 layout: default
 permalink: /index.php/Vector_Spaces
+tags:
+- linear-algebra
+- vector-spaces
+title: Vector Spaces
 ---
-
-# Vector Spaces
-
 ## Vector Spaces
 Suppose we have a set $V$ and elements $\mathbf v_1, ..., \mathbf v_i ... \in V$
 - we define ''addition'' on $V$ where we map any pair $\mathbf v_i, \mathbf v_j \in V$ to a value $\mathbf v_i + \mathbf v_j$
@@ -100,6 +100,3 @@ In a function space, the "vectors" are functions:
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - Курош А.Г. Курс Высшей Алгебры
-
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Vector Spaces](Category_Vector_Spaces)

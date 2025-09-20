@@ -1,11 +1,11 @@
 ---
-title: "Noise Handling (Data Mining)"
 layout: default
 permalink: /index.php/Noise_Handling_(Data_Mining)
+tags:
+- data-analysis
+- data-mining
+title: Noise Handling (Data Mining)
 ---
-
-# Noise Handling (Data Mining)
-
 ## Noise Handling (Data Mining)
 Noise - a modification of the original value
 - Typically very hard to detect
@@ -30,6 +30,3 @@ There are several techniques
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Data Analysis](Category_Data_Analysis)
-[Category:Data Mining](Category_Data_Mining)

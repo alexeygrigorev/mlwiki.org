@@ -1,11 +1,11 @@
 ---
-title: "Sparse Index"
 layout: default
 permalink: /index.php/Sparse_Index
+tags:
+- database-indexes
+- database-systems-architecture
+title: Sparse Index
 ---
-
-# Sparse Index
-
 ## Sparse Index
 A sparse [index](Indexing_(databases)) has one (key, pointer) per each block
 - so it uses less space than [Dense Index](Dense_Index)
@@ -110,6 +110,3 @@ We may point to previous values, so we know the range
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Database Indexes](Category_Database_Indexes)

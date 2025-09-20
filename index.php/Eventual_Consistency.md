@@ -1,11 +1,12 @@
 ---
-title: "Eventual Consistency"
 layout: default
 permalink: /index.php/Eventual_Consistency
+tags:
+- databases
+- distributed-systems
+- nosql
+title: Eventual Consistency
 ---
-
-# Eventual Consistency
-
 ## Eventual Consistency
 - In highly available systems it is very hard to keep replicas consistent, because they have to contact each other every time a write occurs (e.g. with [Two-Phase Commit](Two-Phase_Commit)) to preserve [consistency](Consistency_(databases)).
 - During the time the replicas synchronize everybody should be prevented from writing 
@@ -87,8 +88,3 @@ Suppose we have
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - [Consistency and availability in Amazon's Dynamo](http://the-paper-trail.org/blog/consistency-and-availability-in-amazons-dynamo/)
 - Amazon's Dynamo paper [http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf]
-
-
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:NoSQL](Category_NoSQL)
-[Category:Databases](Category_Databases)

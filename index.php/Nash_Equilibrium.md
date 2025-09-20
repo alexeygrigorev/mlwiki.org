@@ -1,11 +1,10 @@
 ---
-title: "Nash Equilibrium"
 layout: default
 permalink: /index.php/Nash_Equilibrium
+tags:
+- game-theory
+title: Nash Equilibrium
 ---
-
-# Nash Equilibrium
-
 ## Nash Equilibrium
 This is an important concept of the [Game Theory](Game_Theory)
 - It assumes that the agents act rationally
@@ -102,5 +101,3 @@ tells players whether to go or wait
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - [Game Theory (coursera)](Game_Theory_(coursera))
-
-[Category:Game Theory](Category_Game_Theory)

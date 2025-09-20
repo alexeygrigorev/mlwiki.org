@@ -1,11 +1,11 @@
 ---
-title: "Hadoop Distributed File System"
 layout: default
 permalink: /index.php/Hadoop_Distributed_File_System
+tags:
+- distributed-systems
+- hadoop
+title: Hadoop Distributed File System
 ---
-
-# Hadoop Distributed File System
-
 ## Distributed File Systems
 Typically [MapReduce](MapReduce) I/O operations are performed on distribute file systems.  
 
@@ -56,7 +56,3 @@ We need to make sure that all the replicas contain the same data (i.e. they are 
 
 ## Sources
 - [Web Intelligence and Big Data (coursera)](Web_Intelligence_and_Big_Data_(coursera))
-
-
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:Hadoop](Category_Hadoop)

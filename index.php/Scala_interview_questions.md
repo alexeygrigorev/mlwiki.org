@@ -1,11 +1,11 @@
 ---
-title: "Scala interview questions"
 layout: default
 permalink: /index.php/Scala_interview_questions
+tags:
+- interviews
+- scala
+title: Scala interview questions
 ---
-
-# Scala interview questions
-
 ## Part 1 Theoretical
 - Scala collections
 - Pattern matching
@@ -30,7 +30,3 @@ permalink: /index.php/Scala_interview_questions
 
 ## Links
 - http://programmers.stackexchange.com/questions/58145/how-scala-developers-are-being-interviewed
-
-
-[Category:Interviews](Category_Interviews)
-[Category:Scala](Category_Scala)

@@ -1,9 +1,6 @@
 ---
-title: "Plot"
 layout: default
 permalink: /index.php/Plot
+title: Plot
 ---
-
-# Plot
-
 1. REDIRECT [Plots](Plots)

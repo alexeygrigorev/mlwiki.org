@@ -1,11 +1,13 @@
 ---
-title: "Hadoop MapReduce"
 layout: default
 permalink: /index.php/Hadoop_MapReduce
+tags:
+- distributed-systems
+- hadoop
+- improve-images
+- mapreduce
+title: Hadoop MapReduce
 ---
-
-# Hadoop MapReduce
-
 ## Hadoop MapReduce
 This is a [Hadoop](Hadoop) data processing tool on top of [HDFS](HDFS)
 - it's a batch query processing tool that goes over '''all''' available data
@@ -399,8 +401,3 @@ Solutions for I/O optimization
 - Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/]
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - [Hadoop: The Definitive Guide (book)](Hadoop__The_Definitive_Guide_(book))
-
-[Category:Hadoop](Category_Hadoop)
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:MapReduce](Category_MapReduce)
-[Category:Improve Images](Category_Improve_Images)

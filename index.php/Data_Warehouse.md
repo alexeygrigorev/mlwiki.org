@@ -1,11 +1,10 @@
 ---
-title: "Data Warehouse"
 layout: default
 permalink: /index.php/Data_Warehouse
+tags:
+- data-warehousing
+title: Data Warehouse
 ---
-
-# Data Warehouse
-
 ## Data Warehouse
 ### Definition
 A data warehouse is a storage with the following four characteristics: it's subject-oriented, integrated, time-variant and non-volatile.
@@ -101,6 +100,3 @@ Amounts of Data
 - [Data Warehouse definition](http://www.1keydata.com/datawarehousing/data-warehouse-definition.html)
 - Ordonez et al, Relational versus non-relational database systems for data warehousing [http://www2.cs.uh.edu/~ordonez/co_research_proceedings.html]
 - Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/]
-
-
-[Category:Data Warehousing](Category_Data_Warehousing)

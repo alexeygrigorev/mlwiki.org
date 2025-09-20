@@ -1,11 +1,12 @@
 ---
-title: "Petri Nets"
 layout: default
 permalink: /index.php/Petri_Nets
+tags:
+- business-process-management
+- concurrency
+- petri-nets
+title: Petri Nets
 ---
-
-# Petri Nets
-
 ## Petri Nets
 Petri nets is a technique for description and analysis of concurrent systems
 - very expressive graphical notation
@@ -197,7 +198,3 @@ Alternatively, there could be some other condition
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Petri Nets](Category_Petri_Nets)
-[Category:Business Process Management](Category_Business_Process_Management)
-[Category:Concurrency](Category_Concurrency)

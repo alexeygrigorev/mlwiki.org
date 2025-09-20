@@ -1,11 +1,10 @@
 ---
-title: "Decision Tree (Decision Theory)"
 layout: default
 permalink: /index.php/Decision_Tree_(Decision_Theory)
+tags:
+- decision-under-risk
+title: Decision Tree (Decision Theory)
 ---
-
-# Decision Tree (Decision Theory)
-
 ## Decision Tree
 This is a tool for modeling decision taking process for [Decision Under Risk](Decision_Under_Risk)
 
@@ -69,5 +68,3 @@ To be able to decide on the decision nodes, a decision maker needs to be able to
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Under Risk](Category_Decision_Under_Risk)

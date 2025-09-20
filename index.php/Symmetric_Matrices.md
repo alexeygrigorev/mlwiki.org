@@ -1,11 +1,10 @@
 ---
-title: "Symmetric Matrices"
 layout: default
 permalink: /index.php/Symmetric_Matrices
+tags:
+- linear-algebra
+title: Symmetric Matrices
 ---
-
-# Symmetric Matrices
-
 ## Symmetric Matrices
 A matrix $A$ is symmetric if $A^T = A$ holds. 
 - thus, $A$ must be a square matrix
@@ -128,5 +127,3 @@ Identity and square diagonal matrices are symmetric
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - http://www.math.ucsd.edu/~njw/Teaching/Math271C/Lecture_03.pdf
-
-[Category:Linear Algebra](Category_Linear_Algebra)

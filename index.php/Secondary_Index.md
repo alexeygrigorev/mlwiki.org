@@ -1,11 +1,11 @@
 ---
-title: "Secondary Index"
 layout: default
 permalink: /index.php/Secondary_Index
+tags:
+- database-indexes
+- database-systems-architecture
+title: Secondary Index
 ---
-
-# Secondary Index
-
 ## Secondary Index
 What if we want to support efficient search by some other attribute (not one that is already indexed)
 - then the file is not sequentially sorted by this other attribute (it's sorted on the pk)
@@ -66,6 +66,3 @@ This idea is used in [Buckets of Pointers](Buckets_of_Pointers)
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Database Indexes](Category_Database_Indexes)

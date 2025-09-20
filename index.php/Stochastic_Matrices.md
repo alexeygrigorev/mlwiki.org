@@ -1,11 +1,11 @@
 ---
-title: "Stochastic Matrices"
 layout: default
 permalink: /index.php/Stochastic_Matrices
+tags:
+- linear-algebra
+- probability
+title: Stochastic Matrices
 ---
-
-# Stochastic Matrices
-
 ## Stochastic Matrices
 Stochastic matrices (or Markov matrices) - matrices used to describe transitions in [Markov Chains](Markov_Chains)
 
@@ -80,7 +80,3 @@ Steady state:
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - Strang, G. Introduction to linear algebra.
 - http://en.wikipedia.org/wiki/Stochastic_matrix
-
-
-[Category:Probability](Category_Probability)
-[Category:Linear Algebra](Category_Linear_Algebra)

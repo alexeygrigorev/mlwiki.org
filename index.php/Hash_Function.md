@@ -1,11 +1,10 @@
 ---
-title: "Hash Function"
 layout: default
 permalink: /index.php/Hash_Function
+tags:
+- algorithms
+title: Hash Function
 ---
-
-# Hash Function
-
 ## Hash Function
 Performance of [Hash Tables](Hash_Tables) depends on how good a hash functions is
 
@@ -45,6 +44,3 @@ Well-known issue: [Birthday paradox](Birthday_paradox)
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-
-[Category:Algorithms](Category_Algorithms)

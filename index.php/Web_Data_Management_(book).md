@@ -1,11 +1,13 @@
 ---
-title: "Web Data Management (book)"
 layout: default
 permalink: /index.php/Web_Data_Management_(book)
+tags:
+- books
+- data-integration
+- notes
+- semantic-web
+title: Web Data Management (book)
 ---
-
-# Web Data Management (book)
-
 <img src="https://habrastorage.org/files/dcc/17a/111/dcc17a11149a435292b4984fdd2b69fa.jpg" alt="Image">
 
 ## Web Data Management (book)
@@ -29,9 +31,3 @@ Notes taken from the book:
   - [Bucket Algorithm (Data Integration)](Bucket_Algorithm_(Data_Integration))
   - [Minicon Algorithm](Minicon_Algorithm)
   - [Inverse-Rules Algorithm](Inverse-Rules_Algorithm) 
-
-
-[Category:Notes](Category_Notes)
-[Category:Books](Category_Books)
-[Category:Semantic Web](Category_Semantic_Web)
-[Category:Data Integration](Category_Data_Integration)

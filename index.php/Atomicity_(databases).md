@@ -1,11 +1,10 @@
 ---
-title: "Atomicity (databases)"
 layout: default
 permalink: /index.php/Atomicity_(databases)
+tags:
+- databases
+title: Atomicity (databases)
 ---
-
-# Atomicity (databases)
-
 ## Atomicity
 ''Atomicity'' is a desired property of a transaction according to [ACID](ACID)
 - a transaction should be either executed completely - or not executed at all
@@ -18,5 +17,3 @@ Ways to ensure Atomicity:
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Databases](Category_Databases)

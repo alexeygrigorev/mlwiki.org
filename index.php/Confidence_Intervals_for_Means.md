@@ -1,11 +1,11 @@
 ---
-title: "Confidence Intervals for Means"
 layout: default
 permalink: /index.php/Confidence_Intervals_for_Means
+tags:
+- r
+- statistics
+title: Confidence Intervals for Means
 ---
-
-# Confidence Intervals for Means
-
 ## Confidence Intervals for Means
 We want to build a [Confidence Interval](Confidence_Intervals) for a [Point Estimate](Point_Estimate) of the population mean
 
@@ -225,6 +225,3 @@ t-based CI for mean
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-[Category:Statistics](Category_Statistics)
-[Category:R](Category_R)

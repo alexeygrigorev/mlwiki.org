@@ -1,11 +1,10 @@
 ---
-title: "Repeated Game"
 layout: default
 permalink: /index.php/Repeated_Game
+tags:
+- game-theory
+title: Repeated Game
 ---
-
-# Repeated Game
-
 {{draft}}
 
 ## Repeated Games
@@ -152,5 +151,3 @@ permalink: /index.php/Repeated_Game
 
 ## Sources
 - [Game Theory (coursera)](Game_Theory_(coursera))
-
-[Category:Game Theory](Category_Game_Theory)

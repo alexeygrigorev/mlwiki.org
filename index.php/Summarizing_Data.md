@@ -1,11 +1,11 @@
 ---
-title: "Summarizing Data"
 layout: default
 permalink: /index.php/Summarizing_Data
+tags:
+- data-analysis
+- r
+title: Summarizing Data
 ---
-
-# Summarizing Data
-
 ## Summarizing Data
 Before we do any [Data Analysis](Data_Analysis), need to see if data is good 
 
@@ -58,6 +58,3 @@ summarizing by columns or rows
 
 ## Source
 - [Data Analysis (coursera)](Data_Analysis_(coursera))
-
-[Category:R](Category_R)
-[Category:Data Analysis](Category_Data_Analysis)

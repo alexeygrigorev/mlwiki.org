@@ -1,11 +1,12 @@
 ---
-title: "K-Means LSH"
 layout: default
 permalink: /index.php/K-Means_LSH
+tags:
+- cluster-analysis
+- database-indexes
+- lsh
+title: K-Means LSH
 ---
-
-# K-Means LSH
-
 ## K-Means LSH
 Many of [LSH families](Locality_Sensitive_Hashing) are structured quantizers: they don't take into account underlying statistics
 - for example, [E2LSH](Euclidean_LSH) is structured:
@@ -95,8 +96,3 @@ Can use [Approximate K-Means](Approximate_K-Means) or [Mini-Batch K-Means](Mini-
 
 ## Sources
 - Paulevé, Loïc, et al. "Locality sensitive hashing: A comparison of hash function types and querying mechanisms." 2010. [https://hal.inria.fr/inria-00567191/document]
-
-
-[Category:Cluster Analysis](Category_Cluster_Analysis)
-[Category:LSH](Category_LSH)
-[Category:Database Indexes](Category_Database_Indexes)

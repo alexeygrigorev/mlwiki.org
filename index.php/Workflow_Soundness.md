@@ -1,11 +1,10 @@
 ---
-title: "Workflow Soundness"
 layout: default
 permalink: /index.php/Workflow_Soundness
+tags:
+- business-process-management
+title: Workflow Soundness
 ---
-
-# Workflow Soundness
-
 ## Workflow Soundness
 Soundness is a notion of correctness of workflow nets
 - for [Petri Nets](Petri_Nets) and [Workflow Nets](Workflow_Nets)
@@ -241,5 +240,3 @@ Relation:
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)

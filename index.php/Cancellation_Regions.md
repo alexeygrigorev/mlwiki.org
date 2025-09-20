@@ -1,11 +1,10 @@
 ---
-title: "Cancellation Regions"
 layout: default
 permalink: /index.php/Cancellation_Regions
+tags:
+- business-process-management
+title: Cancellation Regions
 ---
-
-# Cancellation Regions
-
 ## Cancellation Regions
 Consider the following scenario:
 - at each point of time the user may decide to cancel the order 
@@ -102,5 +101,3 @@ Assume it wasn't the part of the CR
   - but now it can fire the second time|   | |
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)

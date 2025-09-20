@@ -1,9 +1,6 @@
 ---
-title: "Topic Modeling"
 layout: default
 permalink: /index.php/Topic_Modeling
+title: Topic Modeling
 ---
-
-# Topic Modeling
-
 1. REDIRECT [Topic Models](Topic_Models)

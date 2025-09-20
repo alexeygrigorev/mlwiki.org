@@ -1,11 +1,11 @@
 ---
-title: "Partitioned Hash Function Index"
 layout: default
 permalink: /index.php/Partitioned_Hash_Function_Index
+tags:
+- database-indexes
+- database-systems-architecture
+title: Partitioned Hash Function Index
 ---
-
-# Partitioned Hash Function Index
-
 ## Partitioned Hash Function Index
 This is [Hash-Based](Hash_Function) [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_(databases)) 
 
@@ -57,7 +57,3 @@ And
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Database Indexes](Category_Database_Indexes)

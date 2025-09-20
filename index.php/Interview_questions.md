@@ -1,11 +1,11 @@
 ---
-title: "Interview questions"
 layout: default
 permalink: /index.php/Interview_questions
+tags:
+- interview-questions
+- interviews
+title: Interview questions
 ---
-
-# Interview questions
-
 ## Java and related
 - [Java interview questions](Java_interview_questions)
 - [Spring interview questions](Spring_interview_questions)
@@ -28,7 +28,3 @@ permalink: /index.php/Interview_questions
 
 ## Links
 - [Interview Template](http://docs.google.com/spreadsheets/d/12uMQd_fRyhPMVmRHR5-DnPIwOR_Zw9CMxSdDiZK76QY/pubhtml)
-
-
-[Category:Interview Questions](Category_Interview_Questions)
-[Category:Interviews](Category_Interviews)

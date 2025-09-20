@@ -1,11 +1,10 @@
 ---
-title: "Association Rule Mining"
 layout: default
 permalink: /index.php/Association_Rule_Mining
+tags:
+- rule-mining
+title: Association Rule Mining
 ---
-
-# Association Rule Mining
-
 ## Mining Association Rules
 ### Association Rules
 Association rule mining:
@@ -98,5 +97,3 @@ Redundant rules
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Rule Mining](Category_Rule_Mining)

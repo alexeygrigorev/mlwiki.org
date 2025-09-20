@@ -32,6 +32,15 @@
             <h1 class="page-title">{{ page.title }}</h1>
             {% endif %}
             
+            {% if page.tags and page.tags.size > 0 %}
+            <div class="tags-section">
+                <strong>Tags:</strong>
+                {% for tag in page.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+            
             <div class="content">
                 {{ content }}
             </div>

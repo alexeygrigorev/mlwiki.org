@@ -1,11 +1,10 @@
 ---
-title: "Orthogonality"
 layout: default
 permalink: /index.php/Orthogonality
+tags:
+- mathematics
+title: Orthogonality
 ---
-
-# Orthogonality
-
 ## Orthogonality
 
 There are several definitions of ''orthogonality'':
@@ -18,5 +17,3 @@ There are several definitions of ''orthogonality'':
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - http://en.wikipedia.org/wiki/Orthogonality
-
-[Category:Mathematics](Category_Mathematics)

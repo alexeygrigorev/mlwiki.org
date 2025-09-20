@@ -1,11 +1,13 @@
 ---
-title: "Simulation For Proportions"
 layout: default
 permalink: /index.php/Simulation_For_Proportions
+tags:
+- r
+- simulations
+- statistical-tests
+- statistics
+title: Simulation For Proportions
 ---
-
-# Simulation For Proportions
-
 ## Simulation For Proportions
 Sometimes [Statistical Inference](Statistical_Inference) can be done without applying theoretical models, but instead with using brute force: generating the data ourselves.
 
@@ -122,9 +124,3 @@ barplot(tbl, col=cl, las=2)
 
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-
-[Category:Simulations](Category_Simulations)
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:R](Category_R)

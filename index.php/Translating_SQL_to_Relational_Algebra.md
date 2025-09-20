@@ -1,11 +1,10 @@
 ---
-title: "Translating SQL to Relational Algebra"
 layout: default
 permalink: /index.php/Translating_SQL_to_Relational_Algebra
+tags:
+- relational-databases
+title: Translating SQL to Relational Algebra
 ---
-
-# Translating SQL to Relational Algebra
-
 \(\require{color}\)
 \(\newcommand{\AntiJoin}{ \ \bar{\Join} \ } \)
 
@@ -803,6 +802,3 @@ $\pi_{\text{F.name}}
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-
-[Category:Relational Databases](Category_Relational_Databases)

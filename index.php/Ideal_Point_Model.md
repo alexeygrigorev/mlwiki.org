@@ -1,11 +1,10 @@
 ---
-title: "Ideal Point Model"
 layout: default
 permalink: /index.php/Ideal_Point_Model
+tags:
+- multi-objective-optimization
+title: Ideal Point Model
 ---
-
-# Ideal Point Model
-
 ## Ideal Point
 In a [Multi-Objective Optimization](Multi-Objective_Optimization) Problems there are a set of the "best" (Pareto-optimal) solutions. How to decide which one to take?
 
@@ -63,5 +62,3 @@ Now we calculate which solutions are closest to $D$:
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Objective Optimization](Category_Multi-Objective_Optimization)

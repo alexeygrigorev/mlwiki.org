@@ -1,11 +1,11 @@
 ---
-title: "Multi-Dimensional Indexes"
 layout: default
 permalink: /index.php/Multi-Dimensional_Indexes
+tags:
+- database-indexes
+- database-systems-architecture
+title: Multi-Dimensional Indexes
 ---
-
-# Multi-Dimensional Indexes
-
 ## Multi-Dimensional Indexes
 ### Typical Applications
 - Searching [Data Cube](OLAP) for [Data Warehousing](Data_Warehousing)
@@ -66,7 +66,3 @@ Problem
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Database Indexes](Category_Database_Indexes)

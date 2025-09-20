@@ -1,11 +1,11 @@
 ---
-title: "Exact Binomial Proportion Tests"
 layout: default
 permalink: /index.php/Exact_Binomial_Proportion_Tests
+tags:
+- statistical-tests
+- statistics
+title: Exact Binomial Proportion Tests
 ---
-
-# Exact Binomial Proportion Tests
-
 ## Exact Binomial Test
 This is a [Statistical Test](Statistical_Test) for proportions that uses the [Binomial Distribution](Binomial_Distribution) as the null (sampling) distribution. 
 
@@ -57,5 +57,3 @@ Apply the Binomial Model:
 - we don't reject the $H_0$ at $\alpha = 0.05$
 
 check|   sim got 0.04 | |
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)

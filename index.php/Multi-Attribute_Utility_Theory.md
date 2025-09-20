@@ -1,11 +1,10 @@
 ---
-title: "Multi-Attribute Utility Theory"
 layout: default
 permalink: /index.php/Multi-Attribute_Utility_Theory
+tags:
+- multi-criteria-decision-aid
+title: Multi-Attribute Utility Theory
 ---
-
-# Multi-Attribute Utility Theory
-
 ## Multi-Attribute Utility Theory
 Multi-Attribute Utility Theory or MAUT is a method of [Multi-Criteria Decision Aid](Multi-Criteria_Decision_Aid)
 
@@ -106,5 +105,3 @@ Now we want to check how the decision maker obtained this ranking
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

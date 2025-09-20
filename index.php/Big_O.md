@@ -1,11 +1,10 @@
 ---
-title: "Big O"
 layout: default
 permalink: /index.php/Big_O
+tags:
+- algorithms
+title: Big O
 ---
-
-# Big O
-
 ## Big O
 - $T(n) = O(f(n))$
 - if there exists a constant c, such that
@@ -29,5 +28,3 @@ permalink: /index.php/Big_O
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-[Category:Algorithms](Category_Algorithms)

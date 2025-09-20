@@ -1,11 +1,11 @@
 ---
-title: "Sample Size Estimation"
 layout: default
 permalink: /index.php/Sample_Size_Estimation
+tags:
+- statistical-tests
+- statistics
+title: Sample Size Estimation
 ---
-
-# Sample Size Estimation
-
 ## Sample Size
 When we need to estimate the size of a sample?
 - For [Confidence Intervals](Confidence_Intervals) we want to know how much we need to sample to get some Margin of Error
@@ -103,6 +103,3 @@ I've seen this claim before in Karl Friston's 2012 paper in NeuroImage, where he
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://en.wikipedia.org/wiki/Sample_size
-
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)

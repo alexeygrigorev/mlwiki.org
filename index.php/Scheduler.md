@@ -1,11 +1,11 @@
 ---
-title: "Scheduler"
 layout: default
 permalink: /index.php/Scheduler
+tags:
+- concurrency
+- database-systems-architecture
+title: Scheduler
 ---
-
-# Scheduler
-
 ## Scheduler
 The ''Transaction Manager'' is a component of a [Database](Database#Classical_DBMS_Architecture) that issues read and write requests to the ''scheduler''.
 
@@ -35,6 +35,3 @@ Serializable Level of Isolation
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Concurrency](Category_Concurrency)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

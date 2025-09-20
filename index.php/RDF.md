@@ -1,11 +1,11 @@
 ---
-title: "RDF"
 layout: default
 permalink: /index.php/RDF
+tags:
+- data-models
+- semantic-web
+title: RDF
 ---
-
-# RDF
-
 ## Motivation
 Data integration
 - suppose we have a distributed database across many servers
@@ -155,6 +155,3 @@ There are several:
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:Semantic Web](Category_Semantic_Web)
-[Category:Data Models](Category_Data_Models)

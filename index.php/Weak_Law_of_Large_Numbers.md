@@ -1,11 +1,12 @@
 ---
-title: "Weak Law of Large Numbers"
 layout: default
 permalink: /index.php/Weak_Law_of_Large_Numbers
+tags:
+- probability
+- russian
+- подготовка-к-шад
+title: Weak Law of Large Numbers
 ---
-
-# Weak Law of Large Numbers
-
 ## Weak Law of Large Numbers
 
 (Chebyshev's Theorem)
@@ -52,7 +53,3 @@ $\lim_{n \rightarrow \infty} P\left(\left|  \frac{X_1 + ... + X_n}{n} - a \right
 
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

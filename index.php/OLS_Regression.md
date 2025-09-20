@@ -1,11 +1,13 @@
 ---
-title: "OLS Regression"
 layout: default
 permalink: /index.php/OLS_Regression
+tags:
+- linear-algebra
+- machine-learning
+- regression
+- statistics
+title: OLS Regression
 ---
-
-# OLS Regression
-
 ## Ordinary Least Squares Regression
 - This is a technique for computing coefficients for [Multivariate Linear Regression](Multivariate_Linear_Regression).
 - the solution is obtained via minimizing the squared error, therefore it's called ''Linear Least Squares''
@@ -137,9 +139,3 @@ w_0 \\ w_1
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
 - [Seminar Hot Topics in Information Management IMSEM (TUB)](Seminar_Hot_Topics_in_Information_Management_IMSEM_(TUB))
 - http://en.wikipedia.org/wiki/Linear_least_squares_%28mathematics%29
-
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Regression](Category_Regression)
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Statistics](Category_Statistics)

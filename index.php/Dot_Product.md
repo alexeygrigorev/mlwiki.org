@@ -1,11 +1,11 @@
 ---
-title: "Dot Product"
 layout: default
 permalink: /index.php/Dot_Product
+tags:
+- geometry
+- linear-algebra
+title: Dot Product
 ---
-
-# Dot Product
-
 ## Dot Product
 
 ## Geometric Definition
@@ -80,6 +80,3 @@ $\square$
 - http://en.wikipedia.org/wiki/Dot_product
 - http://math.oregonstate.edu/bridge/papers/dot+cross.pdf
 - http://en.wikipedia.org/wiki/Law_of_cosines
-
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Geometry](Category_Geometry)

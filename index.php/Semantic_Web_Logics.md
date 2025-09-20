@@ -1,11 +1,11 @@
 ---
-title: "Semantic Web Logics"
 layout: default
 permalink: /index.php/Semantic_Web_Logics
+tags:
+- logic
+- semantic-web
+title: Semantic Web Logics
 ---
-
-# Semantic Web Logics
-
 ## Semantic Web Logics
 In [Semantic Web](Semantic_Web), there are formal models behind [reasoning](Inference_in_Semantic_Web)
 - [FOL](First_Order_Logic) give formal definitions of RDFS and OWL statements 
@@ -40,6 +40,3 @@ Sets
 
 ## Sources
 - Web Data Management, Manolescu, Ioana, et al. [http://webdam.inria.fr/Jorge/]
-
-[Category:Logic](Category_Logic)
-[Category:Semantic Web](Category_Semantic_Web)

@@ -1,11 +1,8 @@
 ---
-title: "Decision Tree"
 layout: default
 permalink: /index.php/Decision_Tree
+title: Decision Tree
 ---
-
-# Decision Tree
-
 There are two types of Decision Trees:
 - [Decision Tree (Decision Theory)](Decision_Tree_(Decision_Theory))
 - [Decision Tree (Data Mining)](Decision_Tree_(Data_Mining))

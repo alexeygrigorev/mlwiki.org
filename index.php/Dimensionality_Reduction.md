@@ -1,11 +1,12 @@
 ---
-title: "Dimensionality Reduction"
 layout: default
 permalink: /index.php/Dimensionality_Reduction
+tags:
+- dimensionality-reduction
+- feature-selection
+- machine-learning
+title: Dimensionality Reduction
 ---
-
-# Dimensionality Reduction
-
 ## Dimensionality Reduction
 This is a technique to reduce the dimensionality of our data sets 
 - we have a data set of $\{ \mathbf x_i \}$ of $\mathbf x_i \in \mathbb R^D$ with very large $D$
@@ -74,8 +75,3 @@ Non-Linear
 - [Machine Learning 1 (TUB)](Machine_Learning_1_(TUB))
 - [Machine Learning 2 (TUB)](Machine_Learning_2_(TUB))
 - Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [http://arxiv.org/pdf/cs/0110053.pdf]
-
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Dimensionality Reduction](Category_Dimensionality_Reduction)
-[Category:Feature Selection](Category_Feature_Selection)

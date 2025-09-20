@@ -1,11 +1,10 @@
 ---
-title: "Information Gain"
 layout: default
 permalink: /index.php/Information_Gain
+tags:
+- machine-learning
+title: Information Gain
 ---
-
-# Information Gain
-
 ## Information Gain
 The expected information gain is 
 - the change in entropy when going
@@ -109,5 +108,3 @@ Suppose we have a data set of customers
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-
-[Category:Machine Learning](Category_Machine_Learning)

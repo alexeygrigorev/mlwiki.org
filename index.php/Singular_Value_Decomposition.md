@@ -1,11 +1,11 @@
 ---
-title: "Singular Value Decomposition"
 layout: default
 permalink: /index.php/Singular_Value_Decomposition
+tags:
+- linear-algebra
+- matrix-decomposition
+title: Singular Value Decomposition
 ---
-
-# Singular Value Decomposition
-
 ## Singular Value Decomposition
 SVD is a decomposition of rectangular $m \times n$ matrix $A$ as
 - $A = U \Sigma V^T$ where
@@ -365,7 +365,3 @@ There are many other applications
 - Jauregui, Jeff. "Principal component analysis with linear algebra." (2012). [http://www.math.union.edu/~jaureguj/PCA.pdf]
 - Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [http://www.math.washington.edu/~morrow/498_13/svd.pdf]
 - Strang, Gilbert. "The fundamental theorem of linear algebra." (1993). [http://www.engineering.iastate.edu/~julied/classes/CE570/Notes/strangpaper.pdf]
-
-
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Matrix Decomposition](Category_Matrix_Decomposition)

@@ -1,11 +1,10 @@
 ---
-title: "Subspace Clustering"
 layout: default
 permalink: /index.php/Subspace_Clustering
+tags:
+- cluster-analysis
+title: Subspace Clustering
 ---
-
-# Subspace Clustering
-
 {{stub}}
 
 ## Subspace Clustering
@@ -89,5 +88,3 @@ Adaptive subspace iteration:
 ## Sources
 - Jing, Liping. "Survey of text clustering." (2008). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf]
 - http://en.wikipedia.org/wiki/Clustering_high-dimensional_data
-
-[Category:Cluster Analysis](Category_Cluster_Analysis)

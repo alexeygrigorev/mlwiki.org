@@ -1,11 +1,10 @@
 ---
-title: "Curse of Dimensionality"
 layout: default
 permalink: /index.php/Curse_of_Dimensionality
+tags:
+- distances
+title: Curse of Dimensionality
 ---
-
-# Curse of Dimensionality
-
 ## Curse of Dimensionality
 In high dimensional space distances (esp. [Euclidean Distance](Euclidean_Distance)) become less meaningful
 - distance between each pair of point is almost the same 
@@ -37,5 +36,3 @@ How to deal?
 - http://en.wikipedia.org/wiki/Curse_of_dimensionality
 - http://en.wikipedia.org/wiki/Clustering_high-dimensional_data
 - Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
-
-[Category:Distances](Category_Distances)

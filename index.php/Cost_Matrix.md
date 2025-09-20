@@ -1,11 +1,12 @@
 ---
-title: "Cost Matrix"
 layout: default
 permalink: /index.php/Cost_Matrix
+tags:
+- classifiers
+- machine-learning
+- model-performance-evaluation
+title: Cost Matrix
 ---
-
-# Cost Matrix
-
 ## Cost Matrix
 Used for comparing two different models
 - A ''cost matrix'' is a matrix of the following form:
@@ -45,7 +46,3 @@ Selecting $C_1$
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Classifiers](Category_Classifiers)
-[Category:Model Performance Evaluation](Category_Model_Performance_Evaluation)

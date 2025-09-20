@@ -1,11 +1,11 @@
 ---
-title: "Binomial Proportion Confidence Intervals"
 layout: default
 permalink: /index.php/Binomial_Proportion_Confidence_Intervals
+tags:
+- r
+- statistics
+title: Binomial Proportion Confidence Intervals
 ---
-
-# Binomial Proportion Confidence Intervals
-
 ## Binomial Proportion Confidence Intervals
 These are [Confidence Intervals](Confidence_Intervals) for estimating a proportion in the population 
 - When we sample, we calculate a [Point Estimate](Point_Estimate) of the proportion
@@ -168,6 +168,3 @@ see [Sample Size Estimation](Sample_Size_Estimation)
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval
-
-[Category:Statistics](Category_Statistics)
-[Category:R](Category_R)

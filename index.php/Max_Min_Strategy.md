@@ -1,11 +1,11 @@
 ---
-title: "Max Min Strategy"
 layout: default
 permalink: /index.php/Max_Min_Strategy
+tags:
+- decision-under-uncertainty
+- game-theory
+title: Max Min Strategy
 ---
-
-# Max Min Strategy
-
 ## Max Min Strategy
 How to choose an alternative? 
 - in [Game Theory](Game_Theory)
@@ -80,6 +80,3 @@ Advantages:
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - [Game Theory (coursera)](Game_Theory_(coursera))
-
-[Category:Decision Under Uncertainty](Category_Decision_Under_Uncertainty)
-[Category:Game Theory](Category_Game_Theory)

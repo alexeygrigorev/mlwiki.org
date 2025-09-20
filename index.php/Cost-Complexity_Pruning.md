@@ -1,11 +1,10 @@
 ---
-title: "Cost-Complexity Pruning"
 layout: default
 permalink: /index.php/Cost-Complexity_Pruning
+tags:
+- machine-learning
+title: Cost-Complexity Pruning
 ---
-
-# Cost-Complexity Pruning
-
 ## Cost-Complexity Pruning
 Post-pruning algorithm for [Decision Trees](Decision_Tree_(Data_Mining))
 - by Breiman, Olshen, Stone (1984) 
@@ -137,5 +136,3 @@ From IT4BI 2013 year exam:
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Machine Learning](Category_Machine_Learning)

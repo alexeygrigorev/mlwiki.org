@@ -1,11 +1,13 @@
 ---
-title: "Data Mining (UFRT)"
 layout: default
 permalink: /index.php/Data_Mining_(UFRT)
+tags:
+- data-mining
+- it4bi
+- machine-learning
+- notes
+title: Data Mining (UFRT)
 ---
-
-# Data Mining (UFRT)
-
 Taught by
 - Giacometti Arnaud
 - Soulet Arnaud
@@ -64,9 +66,3 @@ Sequence Mining:
 
 ### Past Exams
 - [IT4BI 2013 KDDM Exam](http://docs.google.com/document/d/1oCsc1BPzG_ubal_tSoKEF-dWq79wCxvUDE8Ht2WnrJQ/pub) 
-
-
-[Category:Data Mining](Category_Data_Mining)
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:IT4BI](Category_IT4BI)
-[Category:Notes](Category_Notes)

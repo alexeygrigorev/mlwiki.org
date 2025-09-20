@@ -1,11 +1,10 @@
 ---
-title: "Jefferson's Method"
 layout: default
 permalink: /index.php/Jefferson's_Method
+tags:
+- voting-theory
+title: Jefferson's Method
 ---
-
-# Jefferson's Method
-
 ## Jefferson's Method
 This is a [Parliamentary Allocation](Parliamentary_Allocation) method.
 
@@ -90,5 +89,3 @@ Also respected
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Voting Theory](Category_Voting_Theory)

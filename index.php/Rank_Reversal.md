@@ -1,11 +1,10 @@
 ---
-title: "Rank Reversal"
 layout: default
 permalink: /index.php/Rank_Reversal
+tags:
+- multi-criteria-decision-aid
+title: Rank Reversal
 ---
-
-# Rank Reversal
-
 ## Rank Reversal
 Many pair-wise comparison [MCDA](MCDA) methods (such as [ELECTRE](ELECTRE) and [PROMETHEE](PROMETHEE)) suffer from rank reversal:
 - the relative position of two alternatives may be influenced by the presence of a third one  
@@ -33,6 +32,3 @@ This issue occurs in:
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - An Introduction to Multicriteria Decision Aid: The PROMETHEE and GAIA Methods, Yves De Smet, Karim Lidouh, 2013
-
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

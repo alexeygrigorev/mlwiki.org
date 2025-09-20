@@ -1,11 +1,10 @@
 ---
-title: "Voting Theory Examples"
 layout: default
 permalink: /index.php/Voting_Theory_Examples
+tags:
+- voting-theory
+title: Voting Theory Examples
 ---
-
-# Voting Theory Examples
-
 ## [Voting Theory](Voting_Theory) Examples
 Different examples from [Voting Theory](Voting_Theory) that illustrate some interesting properties.
 
@@ -76,5 +75,3 @@ We see that $z$ is the winner
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Voting Theory](Category_Voting_Theory)

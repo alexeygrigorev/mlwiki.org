@@ -1,11 +1,12 @@
 ---
-title: "Permutations"
 layout: default
 permalink: /index.php/Permutations
+tags:
+- combinatorics
+- russian
+- подготовка-к-шад
+title: Permutations
 ---
-
-# Permutations
-
 ## Permutations
 Если брать [размещения](Partial_Permutations), в которые входят все $n$ предметов, то они могут различаться только порядком.
 
@@ -41,7 +42,3 @@ $\underbrace{aa \ .. \ a}_{n_1} \ \underbrace{bb \ .. \ b}_{n_2} \ ... \ \underb
 
 $P(4, 3, 1, 1) = \frac{9|  }{4! \cdot 3! \cdot 1! \cdot 1!} = 2520$ | |## Sources
 - Виленкин Н.Я. Комбинаторика. М., Наука, 1969.
-
-[Category:Russian](Category_Russian)
-[Category:Combinatorics](Category_Combinatorics)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

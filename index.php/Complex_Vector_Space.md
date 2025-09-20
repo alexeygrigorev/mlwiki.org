@@ -1,11 +1,11 @@
 ---
-title: "Complex Vector Space"
 layout: default
 permalink: /index.php/Complex_Vector_Space
+tags:
+- linear-algebra
+- vector-spaces
+title: Complex Vector Space
 ---
-
-# Complex Vector Space
-
 ## Complex Vector Space
 A $\mathbf z$ is a complex vector (denoted by $\mathbf z \in \mathbb C^n$)
 - when it's components $z_i$ are [Complex Numbers](Complex_Numbers)
@@ -55,7 +55,3 @@ Can a complex matrix be [orthogonal](Orthogonal_Matrices)?
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-
-[Category:Vector Spaces](Category_Vector_Spaces)
-[Category:Linear Algebra](Category_Linear_Algebra)

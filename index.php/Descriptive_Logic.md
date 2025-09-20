@@ -1,11 +1,11 @@
 ---
-title: "Descriptive Logic"
 layout: default
 permalink: /index.php/Descriptive_Logic
+tags:
+- knowledge-representation
+- logic
+title: Descriptive Logic
 ---
-
-# Descriptive Logic
-
 ## Descriptive Logic
 Descriptive Logic (DL)
 - Formal basis for [OWL](OWL)
@@ -157,6 +157,3 @@ Also, there are two families of DL-Lite:
 
 ## Sources
 - Web Data Management, Manolescu, Ioana, et al. [http://webdam.inria.fr/Jorge/]
-
-[Category:Logic](Category_Logic)
-[Category:Knowledge Representation](Category_Knowledge_Representation)

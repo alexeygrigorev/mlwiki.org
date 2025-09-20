@@ -1,11 +1,11 @@
 ---
-title: "Negative Binomial Distribution"
 layout: default
 permalink: /index.php/Negative_Binomial_Distribution
+tags:
+- distributions
+- probability
+title: Negative Binomial Distribution
 ---
-
-# Negative Binomial Distribution
-
 ## Negative Binomial Distribution
 The negative binomial distribution is a Discrete [Distribution](Distribution) of [Random Variable](Random_Variable)s
 - [Geometric Distribution](Geometric_Distribution): probability of observing first success on $n$th trial 
@@ -58,7 +58,3 @@ There are 10 sequences that lead to this outcome
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - https://en.wikipedia.org/wiki/Negative_binomial_distribution
-
-
-[Category:Probability](Category_Probability)
-[Category:Distributions](Category_Distributions)

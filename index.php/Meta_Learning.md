@@ -1,11 +1,10 @@
 ---
-title: "Meta Learning"
 layout: default
 permalink: /index.php/Meta_Learning
+tags:
+- machine-learning
+title: Meta Learning
 ---
-
-# Meta Learning
-
 ## Meta Learning
 In Machine Learning there are so-called ''meta''-tasks: 
 - [Model Selection](Model_Selection)
@@ -36,5 +35,3 @@ See the paper by S. Schelter:
 
 ## Sources
 - Schelter, Sebastian, et al. "Efficient Sample Generation for Scalable Meta Learning." ([pdf](http://ssc.io/wp-content/uploads/2014/11/ICDE15_research_150.pdf) [poster](http://www.icde2015.kr/media/posters/150.pdf))
-
-[Category:Machine Learning](Category_Machine_Learning)

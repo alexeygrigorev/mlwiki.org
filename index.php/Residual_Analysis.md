@@ -1,11 +1,10 @@
 ---
-title: "Residual Analysis"
 layout: default
 permalink: /index.php/Residual_Analysis
+tags:
+- statistics
+title: Residual Analysis
 ---
-
-# Residual Analysis
-
 ## Residuals
 ''Residuals'' is the difference between actual values and predicted values
 
@@ -90,5 +89,3 @@ Here we interpret a slope of 14.93 as
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-[Category:Statistics](Category_Statistics)

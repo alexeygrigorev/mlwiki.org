@@ -1,11 +1,12 @@
 ---
-title: "Vector Clock"
 layout: default
 permalink: /index.php/Vector_Clock
+tags:
+- algorithms
+- database-systems-architecture
+- distributed-systems
+title: Vector Clock
 ---
-
-# Vector Clock
-
 ## Vector Clock
 Vector Clock is a popular data structure for ensuring ordering of events in distributes systems. It is often used for achieving [Eventual Consistency](Eventual_Consistency)
 
@@ -103,7 +104,3 @@ How to see if there is a conflict?
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - [Design Patterns for Distributed Nonrelational Databases](http://www.slideshare.net/guestdfd1ec/design-patterns-for-distributed-nonrelational-databases)
 - Voldemort vector clock implementation [http://code.google.com/p/project-voldemort/source/browse/trunk/src/java/voldemort/versioning/VectorClock.java]
-
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Algorithms](Category_Algorithms)

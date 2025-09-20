@@ -1,11 +1,10 @@
 ---
-title: "Expected Values for Lotteries"
 layout: default
 permalink: /index.php/Expected_Values_for_Lotteries
+tags:
+- decision-under-risk
+title: Expected Values for Lotteries
 ---
-
-# Expected Values for Lotteries
-
 ## [Expected Value](Expected_Value)s for Lotteries
 [Expected Value](Expected_Value) is one way to compare lotteries in [Decision Trees](Decision_Tree_(Decision_Theory))
 
@@ -75,5 +74,3 @@ We need to use a different approach
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Under Risk](Category_Decision_Under_Risk)

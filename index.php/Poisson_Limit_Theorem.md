@@ -1,11 +1,11 @@
 ---
-title: "Poisson Limit Theorem"
 layout: default
 permalink: /index.php/Poisson_Limit_Theorem
+tags:
+- probability
+- russian
+title: Poisson Limit Theorem
 ---
-
-# Poisson Limit Theorem
-
 ## Poisson Limit Theorem
 
 Пусть производятся $n$ независимых испытаний, в каждом из которых вероятность появления события $A$ равна $p$. 
@@ -41,6 +41,3 @@ permalink: /index.php/Poisson_Limit_Theorem
 
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)

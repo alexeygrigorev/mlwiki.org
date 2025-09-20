@@ -1,11 +1,11 @@
 ---
-title: "Data Warehousing (ULB)"
 layout: default
 permalink: /index.php/Data_Warehousing_(ULB)
+tags:
+- data-warehousing
+- it4bi
+title: Data Warehousing (ULB)
 ---
-
-# Data Warehousing (ULB)
-
 ## Info
 - Course page: http://cs.ulb.ac.be/public/teaching/infoh419
 
@@ -56,6 +56,3 @@ Important database notions:
 ### ETL
 - Data warehouse architectures
 - ETL
-
-[Category:IT4BI](Category_IT4BI)
-[Category:Data Warehousing](Category_Data_Warehousing)

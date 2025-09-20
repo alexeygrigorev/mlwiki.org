@@ -1,11 +1,13 @@
 ---
-title: "Locality Sensitive Hashing"
 layout: default
 permalink: /index.php/Locality_Sensitive_Hashing
+tags:
+- database-indexes
+- hashing
+- information-retrieval
+- lsh
+title: Locality Sensitive Hashing
 ---
-
-# Locality Sensitive Hashing
-
 ## Locality Sensitive Hashing
 In large databases it's not possible to use brute force search: there's too much data
 - one way of speeding search up is using [Indexing](Indexing_(databases)): in particular, most interesting indexes are [Multi-Dimensional Indexes](Multi-Dimensional_Indexes)
@@ -272,10 +274,3 @@ Jégou, Hervé, et al. "Query adaptative locality sensitive hashing." 2008. [htt
 - Gionis, Aristides, Piotr Indyk, and Rajeev Motwani. "Similarity search in high dimensions via hashing." 1999. [http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf]
 - Datar, Mayur, et al. "Locality-sensitive hashing scheme based on p-stable distributions." 2004. [http://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf]
 - Paulevé, Loïc, et al. "Locality sensitive hashing: A comparison of hash function types and querying mechanisms." 2010. [https://hal.inria.fr/inria-00567191/document]
-
-
-
-[Category:Hashing](Category_Hashing)
-[Category:LSH](Category_LSH)
-[Category:Database Indexes](Category_Database_Indexes)
-[Category:Information Retrieval](Category_Information_Retrieval)

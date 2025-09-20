@@ -1,11 +1,10 @@
 ---
-title: "Four Fundamental Subspaces"
 layout: default
 permalink: /index.php/Four_Fundamental_Subspaces
+tags:
+- linear-algebra
+title: Four Fundamental Subspaces
 ---
-
-# Four Fundamental Subspaces
-
 ## Four Fundamental Subspaces
 A matrix $A$ has four subspaces: 
 - [Column Space](Column_Space) $C(A)$
@@ -71,5 +70,3 @@ SVD finds these bases:
 - The fundamental theorem of linear algebra, G. Strang [http://www.engineering.iastate.edu/~julied/classes/CE570/Notes/strangpaper.pdf]
 - The Four Fundamental Subspaces: 4 Lines, G. Strang, [http://web.mit.edu/18.06/www/Essays/newpaper_ver3.pdf]
 - [Seminar Hot Topics in Information Management IMSEM (TUB)](Seminar_Hot_Topics_in_Information_Management_IMSEM_(TUB))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

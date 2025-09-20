@@ -1,11 +1,12 @@
 ---
-title: "Multivariate Linear Regression"
 layout: default
 permalink: /index.php/Multivariate_Linear_Regression
+tags:
+- machine-learning
+- regression
+- statistics
+title: Multivariate Linear Regression
 ---
-
-# Multivariate Linear Regression
-
 ## [Linear Regression](Linear_Regression)
 [Linear Regression](Linear_Regression) - main article about univariative linear regression
 
@@ -100,7 +101,3 @@ Next, suppose we have the following relationship between data
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Regression](Category_Regression)
-[Category:Statistics](Category_Statistics)
-[Category:Machine Learning](Category_Machine_Learning)

@@ -1,11 +1,13 @@
 ---
-title: "Dominance"
 layout: default
 permalink: /index.php/Dominance
+tags:
+- decision-under-uncertainty
+- game-theory
+- multi-criteria-decision-aid
+- multi-objective-optimization
+title: Dominance
 ---
-
-# Dominance
-
 ## [Unanimity](Unanimity)
 Unanimity is principle from [Voting Theory](Voting_Theory) that is the same as Dominance: 
 
@@ -114,8 +116,3 @@ But we see that $c$ and $d$ aren't that good, but both are in $A^*$
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - [Game Theory (coursera)](Game_Theory_(coursera))
-
-[Category:Game Theory](Category_Game_Theory)
-[Category:Multi-Objective Optimization](Category_Multi-Objective_Optimization)
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)
-[Category:Decision Under Uncertainty](Category_Decision_Under_Uncertainty)

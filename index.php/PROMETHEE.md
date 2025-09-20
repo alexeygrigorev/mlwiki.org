@@ -1,11 +1,10 @@
 ---
-title: "PROMETHEE"
 layout: default
 permalink: /index.php/PROMETHEE
+tags:
+- multi-criteria-decision-aid
+title: PROMETHEE
 ---
-
-# PROMETHEE
-
 ## PROMETHEE
 This is a method from the family of outranking (i.e. based on pair-wise comparison) [MCDA](MCDA) methods.
 
@@ -300,5 +299,3 @@ Cannot say anything about $a$ and $c$
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - An Introduction to Multicriteria Decision Aid: The PROMETHEE and GAIA Methods, Yves De Smet, Karim Lidouh, 2013
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

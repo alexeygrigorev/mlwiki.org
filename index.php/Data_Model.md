@@ -1,11 +1,11 @@
 ---
-title: "Data Model"
 layout: default
 permalink: /index.php/Data_Model
+tags:
+- data-models
+- databases
+title: Data Model
 ---
-
-# Data Model
-
 ## Data Model
 A ''data model'' is a notation for describing data. 
 - It makes sure that all applications see clean and organized data
@@ -61,7 +61,3 @@ For example
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-
-[Category:Databases](Category_Databases)
-[Category:Data Models](Category_Data_Models)

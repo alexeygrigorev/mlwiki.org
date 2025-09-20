@@ -1,11 +1,11 @@
 ---
-title: "Genetic Process Miner"
 layout: default
 permalink: /index.php/Genetic_Process_Miner
+tags:
+- business-process-management
+- process-mining
+title: Genetic Process Miner
 ---
-
-# Genetic Process Miner
-
 ## Genetic Process Miner
 This is an algorithm from the family of [Genetic Algorithms](Genetic_Algorithms) for [mining business processes](Process_Mining)
 - it's much more resilient to noise 
@@ -150,6 +150,3 @@ Log-level fitness is
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)
-[Category:Process Mining](Category_Process_Mining)

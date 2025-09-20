@@ -2,9 +2,6 @@
 layout: default
 title: All Articles
 ---
-
-# All Articles
-
 This is a complete list of all articles in the ML Wiki.
 
 {% assign sorted_pages = site.pages | where_exp: "page", "page.path contains 'index.php/'" | where_exp: "page", "page.path contains '.md'" | sort: "title" %}

@@ -1,11 +1,13 @@
 ---
-title: "Hypergeometric Distribution"
 layout: default
 permalink: /index.php/Hypergeometric_Distribution
+tags:
+- probability
+- probability-distributions
+- russian
+- подготовка-к-шад
+title: Hypergeometric Distribution
 ---
-
-# Hypergeometric Distribution
-
 ## Hypergeometric Distribution
 
 Пусть в партии из $N$ изделий $M$ стандартных ($M < N$). Из партии отбирают n изделий, причём изделия обратно не возвращаются. 
@@ -40,8 +42,3 @@ $P(X = m) = \frac{C_M^m \cdot C_{N - M}^{m - n}}{C_N^n}$
 
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)
-[Category:Probability Distributions](Category_Probability_Distributions)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

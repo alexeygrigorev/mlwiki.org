@@ -1,11 +1,11 @@
 ---
-title: "Hadoop in Data Warehousing"
 layout: default
 permalink: /index.php/Hadoop_in_Data_Warehousing
+tags:
+- data-warehousing
+- hadoop
+title: Hadoop in Data Warehousing
 ---
-
-# Hadoop in Data Warehousing
-
 [Hadoop](Hadoop) for [Data Warehousing](Data_Warehouse)
 - This is a part of a project for [Data Warehousing (ULB)](Data_Warehousing_(ULB)) course
 - link to the final report: [report](http://alexeygrigorev.github.io/ulb-dw-project-hadoop/report/report.pdf)
@@ -231,7 +231,3 @@ Q: How much data a company should have?
 - Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/]
 - Chen. Cheetah: A High Performance, Custom Data Warehouse on Top of MapReduce. [http://www.vldb.org/pvldb/vldb2010/papers/I08.pdf]
 - Russom, Integrating Hadoop into Business Intelligence and Data Warehousing. [http://www.slideshare.net/emcacademics/tdwi-best-practices-report-hadoop-foro-bi-and-dw-april-2013]
-
-
-[Category:Hadoop](Category_Hadoop)
-[Category:Data Warehousing](Category_Data_Warehousing)

@@ -1,12 +1,12 @@
 ---
-title: "Algorithms Design and Analysis Part 1 (coursera)"
 layout: default
 permalink: /index.php/Algorithms_Design_and_Analysis_Part_1_(coursera)
+tags:
+- algorithms
+- coursera
+- notes
+title: Algorithms Design and Analysis Part 1 (coursera)
 ---
-
-# Algorithms Design and Analysis Part 1 (coursera)
-
-
 ## Analysis
 - [Big O](Big_O)
 
@@ -39,8 +39,3 @@ permalink: /index.php/Algorithms_Design_and_Analysis_Part_1_(coursera)
 
 ## Links
 - [ Lecture Notes](http://www.dropbox.com/s/ai43yfm1jwcoog2/Algorithms%201%20coursera.pdf)
-
-
-[Category:Coursera](Category_Coursera)
-[Category:Algorithms](Category_Algorithms)
-[Category:Notes](Category_Notes)

@@ -1,11 +1,11 @@
 ---
-title: "Automata (coursera)"
 layout: default
 permalink: /index.php/Automata_(coursera)
+tags:
+- coursera
+- notes
+title: Automata (coursera)
 ---
-
-# Automata (coursera)
-
 ## Automata (coursera)
 ### Course Content
 [Automata Theory](Automata_Theory)
@@ -22,6 +22,3 @@ permalink: /index.php/Automata_(coursera)
 ## Stuff
 - Course page: https://www.coursera.org/course/automata
 - Notes: (add link)
-
-[Category:Notes](Category_Notes)
-[Category:Coursera](Category_Coursera)

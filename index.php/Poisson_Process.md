@@ -1,11 +1,11 @@
 ---
-title: "Poisson Process"
 layout: default
 permalink: /index.php/Poisson_Process
+tags:
+- probability
+- russian
+title: Poisson Process
 ---
-
-# Poisson Process
-
 ## Poisson Process
 Рассмотрим события, наступающие в случайные моменты времени.
 
@@ -62,6 +62,3 @@ $P_t(k) = (\lambda t)^k \frac{e^{-\lambda t}}{k|  }$ | |Эта формула у
 
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)

@@ -1,11 +1,10 @@
 ---
-title: "Matrix-Matrix Multiplication"
 layout: default
 permalink: /index.php/Matrix-Matrix_Multiplication
+tags:
+- linear-algebra
+title: Matrix-Matrix Multiplication
 ---
-
-# Matrix-Matrix Multiplication
-
 ## Matrix-Matrix Multiplication
 Suppose we want to multiply $m \times n$ matrix $A$ on $n \times p$ matrix $B$, we get an $m \times p$ matrix $C$
 
@@ -152,5 +151,3 @@ Full code of Matrix Multiplication in Flink: [https://github.com/alexeygrigorev/
 - Курош А.Г. Курс Высшей Алгебры
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - [Scalable Data Analytics and Data Mining AIM3 (TUB)](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

@@ -1,11 +1,13 @@
 ---
-title: "Hadoop: The Definitive Guide (book)"
 layout: default
 permalink: /index.php/Hadoop__The_Definitive_Guide_(book)
+tags:
+- books
+- distributed-systems
+- hadoop
+- notes
+title: 'Hadoop: The Definitive Guide (book)'
 ---
-
-# Hadoop: The Definitive Guide (book)
-
 This is a book by T. White published by O'Reilly Media, Inc.
 - notes are based on the 4th edition (2015) from Safari books [https://www.safaribooksonline.com/library/view/hadoop-the-definitive/9781491901687/]
 
@@ -52,10 +54,3 @@ This is a book by T. White published by O'Reilly Media, Inc.
 - Composable Data at Cerner
 - Biological Data Science: Saving Lives with Software
 - [Cascading](Cascading)
-
-
-
-[Category:Books](Category_Books)
-[Category:Notes](Category_Notes)
-[Category:Hadoop](Category_Hadoop)
-[Category:Distributed Systems](Category_Distributed_Systems)

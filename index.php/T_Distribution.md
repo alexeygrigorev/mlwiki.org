@@ -1,11 +1,12 @@
 ---
-title: "T Distribution"
 layout: default
 permalink: /index.php/T_Distribution
+tags:
+- distributions
+- probability
+- r
+title: T Distribution
 ---
-
-# T Distribution
-
 ## $t$ Distribution
 This is a family of Continuous [Distribution](Distribution)s
 - unimodal and bell-shaped, like [Normal Distribution](Normal_Distribution)
@@ -75,7 +76,3 @@ par(default.par)
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://projectile.sv.cmu.edu/research/public/talks/t-test.htm
-
-[Category:Probability](Category_Probability)
-[Category:Distributions](Category_Distributions)
-[Category:R](Category_R)

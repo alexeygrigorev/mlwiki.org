@@ -1,11 +1,10 @@
 ---
-title: "I/O Model of Computation"
 layout: default
 permalink: /index.php/I_O_Model_of_Computation
+tags:
+- database-systems-architecture
+title: I/O Model of Computation
 ---
-
-# I/O Model of Computation
-
 ## I/O Model of Computation
 '''The Rule:''' Dominance of I/O cost
 - The time taken to perform a [disk access](Secondary_Storage) is much larger than the time needed for manipulating data in the [main memory](Memory_Hierarchy)
@@ -20,5 +19,3 @@ permalink: /index.php/I_O_Model_of_Computation
 ## Sources
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

@@ -1,11 +1,10 @@
 ---
-title: "Business Process Management"
 layout: default
 permalink: /index.php/Business_Process_Management
+tags:
+- business-process-management
+title: Business Process Management
 ---
-
-# Business Process Management
-
 ## Business Process Management
 a ''business process'' consists of a set of activities that are performed in coordination in an organization and technical environment
 - these process jointly implement some ''business goal''
@@ -67,5 +66,3 @@ There are several process mining algorithms. For example,
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)

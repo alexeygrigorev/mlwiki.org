@@ -1,11 +1,10 @@
 ---
-title: "Observation Studies"
 layout: default
 permalink: /index.php/Observation_Studies
+tags:
+- statistics
+title: Observation Studies
 ---
-
-# Observation Studies
-
 ## Observation Studies
 There are two types of [Data Collection](Data_Collection)
 - Observation Studies and [Statistical Experiment](Statistical_Experiment)s
@@ -63,5 +62,3 @@ Example
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-[Category:Statistics](Category_Statistics)

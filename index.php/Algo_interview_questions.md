@@ -1,11 +1,11 @@
 ---
-title: "Algo interview questions"
 layout: default
 permalink: /index.php/Algo_interview_questions
+tags:
+- algorithms
+- interviews
+title: Algo interview questions
 ---
-
-# Algo interview questions
-
 ## Algorithms & Data structures
 - Data structures
 - Boolean operations, short circuits in Boolean operations
@@ -22,7 +22,3 @@ permalink: /index.php/Algo_interview_questions
 - NP-complete algorithms
 - Map/reduce and divide and conquer approach in solving tasks
 - Dynamic programming
-
-
-[Category:Interviews](Category_Interviews)
-[Category:Algorithms](Category_Algorithms)

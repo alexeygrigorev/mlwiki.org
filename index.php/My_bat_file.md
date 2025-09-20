@@ -1,12 +1,11 @@
 ---
-title: "My bat file"
 layout: default
 permalink: /index.php/My_bat_file
+tags:
+- scripts
+- snippets
+title: My bat file
 ---
-
-# My bat file
-
-
 ## Командная строка с PATH
 
 command_line.bat:
@@ -40,7 +39,3 @@ python C:\UBS\dev\portablepython\App\Scripts\uncompyle2 %*
 ```
 
 %* передаёт все переданные параметры 
-
-
-[Category:Scripts](Category_Scripts)
-[Category:Snippets](Category_Snippets)

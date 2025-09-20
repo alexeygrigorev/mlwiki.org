@@ -1,11 +1,13 @@
 ---
-title: "Stop Words"
 layout: default
 permalink: /index.php/Stop_Words
+tags:
+- feature-selection
+- information-retrieval
+- nlp
+- python
+title: Stop Words
 ---
-
-# Stop Words
-
 ## Stop Words
 Stop words are ''function words'':
 - stop words are useful syntactically and grammatically, but don't tell anything about the document content 
@@ -62,8 +64,3 @@ Examples:
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. 2012.
 - Wilbur, W. John, "The automatic identification of stop words." 1992. [http://www.researchgate.net/publication/247786801_The_automatic_identification_of_stop_words]
-
-[Category:Feature Selection](Category_Feature_Selection)
-[Category:NLP](Category_NLP)
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:Python](Category_Python)

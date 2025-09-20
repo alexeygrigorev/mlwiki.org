@@ -1,11 +1,11 @@
 ---
-title: "Hadoop"
 layout: default
 permalink: /index.php/Hadoop
+tags:
+- distributed-systems
+- hadoop
+title: Hadoop
 ---
-
-# Hadoop
-
 ## Hadoop
 usually the term ''Hadoop'' refers to an entire family of products. 
 
@@ -200,7 +200,3 @@ And finally, it's very young
 - Ordonez et al, Relational versus non-relational database systems for data warehousing [http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf]
 - Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/]
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-
-
-[Category:Hadoop](Category_Hadoop)
-[Category:Distributed Systems](Category_Distributed_Systems)

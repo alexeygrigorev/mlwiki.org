@@ -1,11 +1,11 @@
 ---
-title: "Region-Based Process Miner"
 layout: default
 permalink: /index.php/Region-Based_Process_Miner
+tags:
+- business-process-management
+- process-mining
+title: Region-Based Process Miner
 ---
-
-# Region-Based Process Miner
-
 ## Region-Based Process Miner
 This is a state-based approach to [Process Mining](Process_Mining)
 - as opposed to the [Alpha Algorithm](Alpha_Algorithm), which is footprint-based
@@ -294,6 +294,3 @@ Suppose by mistake instead of $b$ you have $bb$
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)
-[Category:Process Mining](Category_Process_Mining)

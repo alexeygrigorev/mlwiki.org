@@ -1,11 +1,12 @@
 ---
-title: "Power Iteration"
 layout: default
 permalink: /index.php/Power_Iteration
+tags:
+- linear-algebra
+- machine-learning
+- python
+title: Power Iteration
 ---
-
-# Power Iteration
-
 ## Power Iteration
 This is a linear algebra method for computing [Eigenvalues and Eigenvectors](Eigenvalues_and_Eigenvectors)
 
@@ -94,7 +95,3 @@ while (|  converged) { |  val Ax = A %*% x |  var x_new = Ax.collect(::, 0)
 ## Sources
 - Hopcroft, John, and Ravindran Kannan. "Foundations of Data Science1." (2014) [http://research.microsoft.com/en-US/people/kannan/book-mar-30-2014.pdf]
 - [Machine Learning 1 (TUB)](Machine_Learning_1_(TUB))
-
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Python](Category_Python)
-[Category:Machine Learning](Category_Machine_Learning)

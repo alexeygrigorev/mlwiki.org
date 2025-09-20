@@ -1,11 +1,12 @@
 ---
-title: "The Rules of Sums and Products (Combinatorics)"
 layout: default
 permalink: /index.php/The_Rules_of_Sums_and_Products_(Combinatorics)
+tags:
+- combinatorics
+- russian
+- подготовка-к-шад
+title: The Rules of Sums and Products (Combinatorics)
 ---
-
-# The Rules of Sums and Products (Combinatorics)
-
 ## Правило суммы
 Если элемент $a$ можно выбрать $m$ способами, и элемент $b$ - $n$ способами, то выбор "или $a$ или $b$" можно произвести $m + n$ способами.
 
@@ -47,7 +48,3 @@ permalink: /index.php/The_Rules_of_Sums_and_Products_(Combinatorics)
 - Виленкин Н.Я. Комбинаторика. М., Наука, 1969.
 - Генкин С.А., Итенберг И.В., Фомин Д.В. Ленинградские математические кружки, 1994.
 - Виленкин Н.Я., Комбинаторика. Статья в журнале "Квант", 1 номер 1971 год.  http://kvant.mccme.ru/1971/01/kombinatorika.htm 
-
-[Category:Russian](Category_Russian)
-[Category:Combinatorics](Category_Combinatorics)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

@@ -1,11 +1,10 @@
 ---
-title: "Inference in Semantic Web"
 layout: default
 permalink: /index.php/Inference_in_Semantic_Web
+tags:
+- semantic-web
+title: Inference in Semantic Web
 ---
-
-# Inference in Semantic Web
-
 ## Inferencing in [Semantic Web](Semantic_Web)
 In [Semantic Web](Semantic_Web), using [RDFS](RDFS) and [OWL](OWL) many things can be inferred based on facts that are stored in the [RDF](RDF) triple store
 - This is used for [Knowledge Discovery](Knowledge_Discovery) in Semantic Web
@@ -80,5 +79,3 @@ When the inference happens?
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:Semantic Web](Category_Semantic_Web)

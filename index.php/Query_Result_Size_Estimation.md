@@ -1,11 +1,11 @@
 ---
-title: "Query Result Size Estimation"
 layout: default
 permalink: /index.php/Query_Result_Size_Estimation
+tags:
+- database-systems-architecture
+- relational-databases
+title: Query Result Size Estimation
 ---
-
-# Query Result Size Estimation
-
 ## Query Result Size Estimation
 Choosing a [physical operator](Physical_Operators_(databases)) for a [Relational Algebra](Relational_Algebra) operator depends on
 - a particular case and statistics kept in [Database System Catalog](Database_System_Catalog)
@@ -229,6 +229,3 @@ This formula generalizes to more than 2 joining attributes
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Relational Databases](Category_Relational_Databases)

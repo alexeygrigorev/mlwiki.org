@@ -1,11 +1,12 @@
 ---
-title: "Limits"
 layout: default
 permalink: /index.php/Limits
+tags:
+- calculus
+- functions
+- limits
+title: Limits
 ---
-
-# Limits
-
 ## Limits
 $\lim\limits_{x \to a} f(x) = L$ 
 
@@ -103,7 +104,3 @@ Can also show this using the [L'Hopital's Rule](L'Hopital's_Rule)
 
 ## Sources
 - [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
-
-[Category:Calculus](Category_Calculus)
-[Category:Functions](Category_Functions)
-[Category:Limits](Category_Limits)

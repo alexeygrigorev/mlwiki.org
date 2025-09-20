@@ -1,11 +1,12 @@
 ---
-title: "R-Tree"
 layout: default
 permalink: /index.php/R-Tree
+tags:
+- data-structures
+- database-indexes
+- database-systems-architecture
+title: R-Tree
 ---
-
-# R-Tree
-
 ## R-Tree
 This is [Tree-Based](Binary_Search_Trees) [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_(databases)) 
 - Generalization of a [B-Tree](B-Tree) to multidimensional space
@@ -86,7 +87,3 @@ Also
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Data Structures](Category_Data_Structures)
-[Category:Database Indexes](Category_Database_Indexes)

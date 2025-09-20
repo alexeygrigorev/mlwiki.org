@@ -1,11 +1,10 @@
 ---
-title: "Sampling"
 layout: default
 permalink: /index.php/Sampling
+tags:
+- statistics
+title: Sampling
 ---
-
-# Sampling
-
 ## Sampling
 ''Statistical Inference'' - making conclusions and decisions incomplete information in based on data. This is the main goal of [Statistics](Statistics)
 - ''Population'' - the group we're interested in making conclusions about.
@@ -125,5 +124,3 @@ So we know that
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-[Category:Statistics](Category_Statistics)

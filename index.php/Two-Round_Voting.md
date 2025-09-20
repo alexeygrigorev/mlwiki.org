@@ -1,11 +1,10 @@
 ---
-title: "Two-Round Voting"
 layout: default
 permalink: /index.php/Two-Round_Voting
+tags:
+- voting-theory
+title: Two-Round Voting
 ---
-
-# Two-Round Voting
-
 ## Two-Round Voting
 This a voting mechanism from [Voting Theory](Voting_Theory). It is essentially the same as [Plurality Voting](Plurality_Voting), but run in two rounds
 
@@ -101,5 +100,3 @@ Is not satisfied
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Voting Theory](Category_Voting_Theory)

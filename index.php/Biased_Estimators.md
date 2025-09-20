@@ -1,11 +1,11 @@
 ---
-title: "Biased Estimators"
 layout: default
 permalink: /index.php/Biased_Estimators
+tags:
+- r
+- statistics
+title: Biased Estimators
 ---
-
-# Biased Estimators
-
 ## Biased Estimators
 A [Point Estimate](Point_Estimate) is [''biased''](Bias) if
 - the [Sampling Distribution](Sampling_Distribution) of some parameter being estimated is not centered around the true parameter value
@@ -112,6 +112,3 @@ abline(v=true.pop)
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - https://en.wikipedia.org/wiki/Bias_of_an_estimator
-
-[Category:Statistics](Category_Statistics)
-[Category:R](Category_R)

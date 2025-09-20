@@ -1,11 +1,10 @@
 ---
-title: "Permutation Matrices"
 layout: default
 permalink: /index.php/Permutation_Matrices
+tags:
+- linear-algebra
+title: Permutation Matrices
 ---
-
-# Permutation Matrices
-
 ## Permutation Matrix
 A [Matrix](Matrix) that exchanges 2 or more rows is called a ''permutation matrix'' 
 - a permutation matrix $P$ is a matrix that is obtained by permuting rows/columns of identity matrix $I$
@@ -101,5 +100,3 @@ d & c
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

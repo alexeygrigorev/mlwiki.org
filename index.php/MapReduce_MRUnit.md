@@ -1,11 +1,12 @@
 ---
-title: "MapReduce/MRUnit"
 layout: default
 permalink: /index.php/MapReduce_MRUnit
+tags:
+- hadoop
+- java
+- snippets
+title: MapReduce/MRUnit
 ---
-
-# MapReduce/MRUnit
-
 ## MapReduce MRUnit
 MR Unit is a library for unit-testing [Hadoop MapReduce](Hadoop_MapReduce) jobs
 - https://mrunit.apache.org/
@@ -92,9 +93,3 @@ Faking a file from "Distribute Cache":
  } finally {
      link.toFile().delete();
  }
-
-
-
-[Category:Hadoop](Category_Hadoop)
-[Category:Java](Category_Java)
-[Category:Snippets](Category_Snippets)

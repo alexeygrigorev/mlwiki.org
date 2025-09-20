@@ -1,11 +1,11 @@
 ---
-title: "Decision Tree Exercises"
 layout: default
 permalink: /index.php/Decision_Tree_Exercises
+tags:
+- decision-under-risk
+- decision-under-uncertainty
+title: Decision Tree Exercises
 ---
-
-# Decision Tree Exercises
-
 ## [Decision Tree](Decision_Tree_(Decision_Theory)) Exercises
 These are exercises given at [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 
@@ -227,6 +227,3 @@ Now we can calculate the expected value when hiring a consultant
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Under Uncertainty](Category_Decision_Under_Uncertainty)
-[Category:Decision Under Risk](Category_Decision_Under_Risk)

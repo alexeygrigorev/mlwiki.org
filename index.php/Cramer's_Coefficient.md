@@ -1,11 +1,13 @@
 ---
-title: "Cramer's Coefficient"
 layout: default
 permalink: /index.php/Cramer's_Coefficient
+tags:
+- correlation
+- data-analysis
+- statistical-tests
+- statistics
+title: Cramer's Coefficient
 ---
-
-# Cramer's Coefficient
-
 {{draft}}
 
 ## Cramer's Coefficient
@@ -88,8 +90,3 @@ cv.test <- function(x) {
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - http://en.wikipedia.org/wiki/Analysis_of_variance
-
-[Category:Correlation](Category_Correlation)
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:Data Analysis](Category_Data_Analysis)

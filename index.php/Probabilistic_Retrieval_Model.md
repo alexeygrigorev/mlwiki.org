@@ -1,11 +1,11 @@
 ---
-title: "Probabilistic Retrieval Model"
 layout: default
 permalink: /index.php/Probabilistic_Retrieval_Model
+tags:
+- information-retrieval
+- probabilistic-models
+title: Probabilistic Retrieval Model
 ---
-
-# Probabilistic Retrieval Model
-
 ## Probabilistic Retrieval Model
 ### Probabilistic Ranking Principle
 Due to Robertson 1977
@@ -164,6 +164,3 @@ See
 ## Sources
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
-
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:Probabilistic Models](Category_Probabilistic_Models)

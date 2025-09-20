@@ -1,11 +1,10 @@
 ---
-title: "Banzhaf Power Index"
 layout: default
 permalink: /index.php/Banzhaf_Power_Index
+tags:
+- voting-theory
+title: Banzhaf Power Index
 ---
-
-# Banzhaf Power Index
-
 ## Banzhaf Power Index
 ''Coalition'' is a group of people/parties that need to achieve some quota when voting for a law. Otherwise this law will not pass. 
 
@@ -73,5 +72,3 @@ In this example all the power in equally distributed withing the 3 first distric
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Voting Theory](Category_Voting_Theory)

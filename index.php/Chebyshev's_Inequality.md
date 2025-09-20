@@ -1,11 +1,12 @@
 ---
-title: "Chebyshev's Inequality"
 layout: default
 permalink: /index.php/Chebyshev's_Inequality
+tags:
+- probability
+- russian
+- подготовка-к-шад
+title: Chebyshev's Inequality
 ---
-
-# Chebyshev's Inequality
-
 ## Chebyshev's Inequality
 Probability того, что отклонение [случайной величины](Случайная_величина) X от её [математического ожидания](Математическое_ожидание) по абсолютной величине меньше положительного числа $\epsilon$, не меньше, чем $1 - \frac{D(X)}{\epsilon^2}$:
 
@@ -27,7 +28,3 @@ $P(| X - M(X)| < \epsilon) \geqslant 1 - \frac{D(X)}{\epsilon^2}$ |
 
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

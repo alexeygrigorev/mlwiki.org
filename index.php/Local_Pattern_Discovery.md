@@ -1,11 +1,11 @@
 ---
-title: "Local Pattern Discovery"
 layout: default
 permalink: /index.php/Local_Pattern_Discovery
+tags:
+- data-mining
+- rule-mining
+title: Local Pattern Discovery
 ---
-
-# Local Pattern Discovery
-
 ## Local Patterns Discovery
 ### Local Patterns
 Suppose that we have the following table:
@@ -169,6 +169,3 @@ Method 2
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - http://en.wikipedia.org/wiki/Association_rule_learning
-
-[Category:Data Mining](Category_Data_Mining)
-[Category:Rule Mining](Category_Rule_Mining)

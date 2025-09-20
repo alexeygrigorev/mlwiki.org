@@ -1,11 +1,11 @@
 ---
-title: "One-vs-All Classification"
 layout: default
 permalink: /index.php/One-vs-All_Classification
+tags:
+- classification
+- machine-learning
+title: One-vs-All Classification
 ---
-
-# One-vs-All Classification
-
 ## One vs All Classifier
 Suppose we have a classifier for sorting out input data into 3 categories: 
 - class 1 ($\triangle$)
@@ -42,6 +42,3 @@ The implementation is straightforward
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Classification](Category_Classification)
-[Category:Machine Learning](Category_Machine_Learning)

@@ -1,11 +1,10 @@
 ---
-title: "Borda's Rule"
 layout: default
 permalink: /index.php/Borda's_Rule
+tags:
+- voting-theory
+title: Borda's Rule
 ---
-
-# Borda's Rule
-
 ## Borda's Rule
 Borda was a director for the French Academy of science. He proposed a Voting Mechanism for [Voting Theory](Voting_Theory) based on points:
 - assign weights to all the candidates in the ranking
@@ -156,5 +155,3 @@ Slightly different approach
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - Voting Fairness Criteria [http://www.math.unl.edu/~bharbourne1/M203JSpr09/VotingFairnessHandout.pdf]
-
-[Category:Voting Theory](Category_Voting_Theory)

@@ -1,11 +1,11 @@
 ---
-title: "Hadoop Pseudo Distributed Mode"
 layout: default
 permalink: /index.php/Hadoop_Pseudo_Distributed_Mode
+tags:
+- hadoop
+- mapreduce
+title: Hadoop Pseudo Distributed Mode
 ---
-
-# Hadoop Pseudo Distributed Mode
-
 ## Hadoop Pseudo Distributed Mode
 [Hadoop](Hadoop) cluster can be emulated with "pseudo-distributed mode"
 - all Hadoop demons run, and applications feel like tHey are being executed on a real cluster 
@@ -141,6 +141,3 @@ Troubleshooting:
 
 ## Sources
 - [Hadoop: The Definitive Guide (book)](Hadoop__The_Definitive_Guide_(book))
-
-[Category:Hadoop](Category_Hadoop)
-[Category:MapReduce](Category_MapReduce)

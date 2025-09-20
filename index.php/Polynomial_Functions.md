@@ -1,11 +1,8 @@
 ---
-title: "Polynomial Functions"
 layout: default
 permalink: /index.php/Polynomial_Functions
+title: Polynomial Functions
 ---
-
-# Polynomial Functions
-
 {{stub}}
 
 ## Polynomial Functions

@@ -1,11 +1,12 @@
 ---
-title: "Advanced Databases (ULB)"
 layout: default
 permalink: /index.php/Advanced_Databases_(ULB)
+tags:
+- databases
+- it4bi
+- notes
+title: Advanced Databases (ULB)
 ---
-
-# Advanced Databases (ULB)
-
 - The course was taken in autumn 2013 at the ULB
 - Taught by professor Esteban Zimányi
 
@@ -46,8 +47,3 @@ permalink: /index.php/Advanced_Databases_(ULB)
 
 ## Info
 - Public webpage: http://cs.ulb.ac.be/public/teaching/infoh415
-
-
-[Category:Databases](Category_Databases)
-[Category:IT4BI](Category_IT4BI)
-[Category:Notes](Category_Notes)

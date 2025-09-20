@@ -1,11 +1,13 @@
 ---
-title: "Join Ordering"
 layout: default
 permalink: /index.php/Join_Ordering
+tags:
+- database-systems-architecture
+- greedy-algorithms
+- optimization
+- relational-databases
+title: Join Ordering
 ---
-
-# Join Ordering
-
 ## Join Ordering
 This is a part of [Physical Query Plan Optimization](Physical_Query_Plan_Optimization) procedure
 
@@ -128,9 +130,3 @@ Suppose:
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-
-[Category:Relational Databases](Category_Relational_Databases)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Optimization](Category_Optimization)
-[Category:Greedy Algorithms](Category_Greedy_Algorithms)

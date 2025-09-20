@@ -1,11 +1,11 @@
 ---
-title: "Books"
 layout: default
 permalink: /index.php/Books
+tags:
+- books
+- notes
+title: Books
 ---
-
-# Books
-
 ## Books
 
 ### Read
@@ -14,7 +14,3 @@ permalink: /index.php/Books
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_(book))
-
-
-[Category:Books](Category_Books)
-[Category:Notes](Category_Notes)

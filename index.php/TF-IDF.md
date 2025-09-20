@@ -1,11 +1,11 @@
 ---
-title: "TF-IDF"
 layout: default
 permalink: /index.php/TF-IDF
+tags:
+- information-retrieval
+- nlp
+title: TF-IDF
 ---
-
-# TF-IDF
-
 ## TF-IDF
 It's a family of weighting schemes for the [Vector Space Model](Vector_Space_Model) in [Information Retrieval](Information_Retrieval) and [Text Mining](Text_Mining)
 
@@ -141,7 +141,3 @@ Smoothing and TF-IDF are connected
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
 - Salton, Gerard, and Christopher Buckley. "Term-weighting approaches in automatic text retrieval." 1988. [http://www.cs.odu.edu/~jbollen/spring03_IR/readings/article1-29-03.pdf]
-
-
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:NLP](Category_NLP)

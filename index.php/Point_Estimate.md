@@ -1,11 +1,10 @@
 ---
-title: "Point Estimate"
 layout: default
 permalink: /index.php/Point_Estimate
+tags:
+- statistics
+title: Point Estimate
 ---
-
-# Point Estimate
-
 ### Points Estimates
 An estimate is a point estimate when we use only one certain value to describe what we think about the whole population [https://en.wikipedia.org/wiki/Point_estimation]
 
@@ -37,5 +36,3 @@ A point estimate - is a single plausible value for a parameter
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://onlinestatbook.com/2/glossary/point_estimate.html
 - http://en.wikibooks.org/wiki/Statistics/Point_Estimates
-
-[Category:Statistics](Category_Statistics)

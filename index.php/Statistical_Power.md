@@ -1,11 +1,11 @@
 ---
-title: "Statistical Power"
 layout: default
 permalink: /index.php/Statistical_Power
+tags:
+- statistical-tests
+- statistics
+title: Statistical Power
 ---
-
-# Statistical Power
-
 ## Statistical Power
 How to detect a false $H_0$? 
 - ''The power of a test'' is the probability of making a correct decision (by rejecting the $H_0$) when the $H_0$ is false. 
@@ -126,6 +126,3 @@ polygon(x=x[c(x2.left, x2.left:x2.right, x2.right)],
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)

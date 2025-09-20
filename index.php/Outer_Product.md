@@ -1,11 +1,10 @@
 ---
-title: "Outer Product"
 layout: default
 permalink: /index.php/Outer_Product
+tags:
+- linear-algebra
+title: Outer Product
 ---
-
-# Outer Product
-
 ## Rank One Matrices
 Suppose we have two vectors $\mathbf u \in \mathbb R^m$ and $\mathbf v \in \mathbb R^n$. Then multiplication $\mathbf u \times \mathbf v^T$ gives us a matrix $A = \mathbf u \cdot \mathbf v^T$, $A \in \mathbb R^{m \times n}$
 - This multiplication produces [rank](Rank_(Matrix))-1 matrices
@@ -38,5 +37,3 @@ Suppose we want to project to a line $\mathbf u$
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

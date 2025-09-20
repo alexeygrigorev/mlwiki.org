@@ -1,11 +1,10 @@
 ---
-title: "Spectral Theorem"
 layout: default
 permalink: /index.php/Spectral_Theorem
+tags:
+- linear-algebra
+title: Spectral Theorem
 ---
-
-# Spectral Theorem
-
 ## Spectral Theorem
 Spectral Theorem is also sometimes called Principal Axis Theorem
 - In [Linear Algebra](Linear_Algebra) a Spectrum is a set of [Eigenvectors](Eigenvalues_and_Eigenvectors) of a matrix 
@@ -50,5 +49,3 @@ We can look differently at the results of [Eigendecomposition](Eigendecompositio
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

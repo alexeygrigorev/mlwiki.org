@@ -1,11 +1,11 @@
 ---
-title: "Strongly Connected Components"
 layout: default
 permalink: /index.php/Strongly_Connected_Components
+tags:
+- algorithms
+- graphs
+title: Strongly Connected Components
 ---
-
-# Strongly Connected Components
-
 ## Computing Strong Components
 ''strongly connected'':
 - you can get to any point to any point within component
@@ -158,6 +158,3 @@ public class StronglyConnectedComponents {
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Graphs](Category_Graphs)

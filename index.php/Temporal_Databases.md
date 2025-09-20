@@ -1,11 +1,10 @@
 ---
-title: "Temporal Databases"
 layout: default
 permalink: /index.php/Temporal_Databases
+tags:
+- databases
+title: Temporal Databases
 ---
-
-# Temporal Databases
-
 ## Temporal Databases
 There are many applications that need temporal aspects in many domains. 
 
@@ -39,5 +38,3 @@ How to query a temporal database?
 
 ## Sources
 - [Advanced Databases (ULB)](Advanced_Databases_(ULB))
-
-[Category:Databases](Category_Databases)

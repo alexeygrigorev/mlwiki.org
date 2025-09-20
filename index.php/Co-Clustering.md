@@ -1,11 +1,10 @@
 ---
-title: "Co-Clustering"
 layout: default
 permalink: /index.php/Co-Clustering
+tags:
+- document-clustering
+title: Co-Clustering
 ---
-
-# Co-Clustering
-
 {{stub}}
 
 ## Co-Clustering
@@ -48,6 +47,3 @@ One way of doing Co-Clustering is via NMF:
 ## Sources
 - http://en.wikipedia.org/wiki/Biclustering
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
-
-
-[Category:Document Clustering](Category_Document_Clustering)

@@ -1,11 +1,11 @@
 ---
-title: "Query Plan"
 layout: default
 permalink: /index.php/Query_Plan
+tags:
+- database-systems-architecture
+- relational-databases
+title: Query Plan
 ---
-
-# Query Plan
-
 ## Logical Query Plan
 In [Relational Databases](Relational_Databases), Logical Query Plan - intermediate code in the [Query Processing](Query_Processing) pipeline (typically a [Relational Algebra](Relational_Algebra) expression)
 - Essentially it's an execution tree
@@ -39,6 +39,3 @@ We just assign some operation to each node:
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Relational Databases](Category_Relational_Databases)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

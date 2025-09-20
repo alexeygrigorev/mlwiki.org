@@ -1,11 +1,11 @@
 ---
-title: "Graph Search"
 layout: default
 permalink: /index.php/Graph_Search
+tags:
+- algorithms
+- graphs
+title: Graph Search
 ---
-
-# Graph Search
-
 ## Graph Search
 Motivation: Given a [graph](Graphs)
 - check if network is connected (get from $A$ to $B$)
@@ -35,6 +35,3 @@ GenericAlgorithm(graph $G$, starting vertex $s$):
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Graphs](Category_Graphs)

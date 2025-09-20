@@ -1,11 +1,11 @@
 ---
-title: "Vector Space Models"
 layout: default
 permalink: /index.php/Vector_Space_Models
+tags:
+- information-retrieval
+- nlp
+title: Vector Space Models
 ---
-
-# Vector Space Models
-
 ## Vector Space Model
 Vector space model is a statistical model for representing text information for [Information Retrieval](Information_Retrieval), [NLP](NLP), [Text Mining](Text_Mining)
 - Representing documents in VSM is called "vectorizing text"
@@ -270,7 +270,3 @@ Reference:
 - [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_(book))
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
-
-
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:NLP](Category_NLP)

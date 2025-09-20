@@ -1,11 +1,11 @@
 ---
-title: "Multiple-Key Index"
 layout: default
 permalink: /index.php/Multiple-Key_Index
+tags:
+- database-indexes
+- database-systems-architecture
+title: Multiple-Key Index
 ---
-
-# Multiple-Key Index
-
 ## Multiple-Key Index
 This is a very simple conventional [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_(databases))
 
@@ -36,7 +36,3 @@ The main idea is a nested index:
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Database Indexes](Category_Database_Indexes)

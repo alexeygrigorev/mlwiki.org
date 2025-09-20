@@ -1,11 +1,10 @@
 ---
-title: "Deferred Choice"
 layout: default
 permalink: /index.php/Deferred_Choice
+tags:
+- business-process-management
+title: Deferred Choice
 ---
-
-# Deferred Choice
-
 ## Deferred Choice
 Deferred Choice is a [workflow pattern](Workflow_Patterns). It it used to express a situation when the action you're going to take is not known till the point of executing it.
 
@@ -44,5 +43,3 @@ In BMPN the deferred choice is represented by a special-purpose gateway
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)

@@ -1,11 +1,10 @@
 ---
-title: "Multi-Objective Knapsack Problem"
 layout: default
 permalink: /index.php/Multi-Objective_Knapsack_Problem
+tags:
+- multi-objective-optimization
+title: Multi-Objective Knapsack Problem
 ---
-
-# Multi-Objective Knapsack Problem
-
 {{stub}}
 
 ## Multi-Objective Knapsack Problem
@@ -34,5 +33,3 @@ We see that there are only two interesting solutions
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Objective Optimization](Category_Multi-Objective_Optimization)

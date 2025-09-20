@@ -1,11 +1,10 @@
 ---
-title: "Decision Under Risk"
 layout: default
 permalink: /index.php/Decision_Under_Risk
+tags:
+- decision-under-risk
+title: Decision Under Risk
 ---
-
-# Decision Under Risk
-
 ## Decision Under Risk
 In contrast to [Decision Under Uncertainty](Decision_Under_Uncertainty) models, here we assume that we can assign probabilities to consequences 
 
@@ -20,5 +19,3 @@ These lotteries are compared by the decision maker and he chooses the best optio
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Under Risk](Category_Decision_Under_Risk)

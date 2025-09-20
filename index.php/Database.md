@@ -1,11 +1,10 @@
 ---
-title: "Database"
 layout: default
 permalink: /index.php/Database
+tags:
+- databases
+title: Database
 ---
-
-# Database
-
 ## Databases
 A database
 - is a collection of information that is organized to afford efficient retrieval 
@@ -120,5 +119,3 @@ sometimes also ''Storage Manager''
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-
-[Category:Databases](Category_Databases)

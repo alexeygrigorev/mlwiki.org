@@ -1,11 +1,10 @@
 ---
-title: "DBSCAN"
 layout: default
 permalink: /index.php/DBSCAN
+tags:
+- cluster-analysis
+title: DBSCAN
 ---
-
-# DBSCAN
-
 <!-- stub -->
 
 ## DBSCAN
@@ -35,5 +34,3 @@ Disadvantages
 
 ## Sources
 - Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
-
-[Category:Cluster Analysis](Category_Cluster_Analysis)

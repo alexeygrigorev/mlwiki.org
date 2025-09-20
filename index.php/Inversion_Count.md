@@ -1,11 +1,11 @@
 ---
-title: "Inversion Count"
 layout: default
 permalink: /index.php/Inversion_Count
+tags:
+- combinatorics
+- graphs
+title: Inversion Count
 ---
-
-# Inversion Count
-
 ## Inversion Count
 Sequence inversion
 - In a sequence $\pi = \langle a_0, ..., a_t \rangle$ or elements $A = \{ a_i \}$
@@ -49,6 +49,3 @@ A modification of [Merge Sort](Merge_Sort) can compute the # of inversions in $O
 - Simple and efficient bilayer cross counting [http://www.emis.de/journals/JGAA/accepted/2004/BarthMutzelJuenger2004.8.2.pdf]
 - http://en.wikipedia.org/wiki/Inversion_(discrete_mathematics)
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-[Category:Combinatorics](Category_Combinatorics)
-[Category:Graphs](Category_Graphs)

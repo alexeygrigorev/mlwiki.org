@@ -1,11 +1,10 @@
 ---
-title: "Conjunctive Query"
 layout: default
 permalink: /index.php/Conjunctive_Query
+tags:
+- relational-databases
+title: Conjunctive Query
 ---
-
-# Conjunctive Query
-
 ## Conjunctive Query
 A ''Conjunctive Query'' (CQ) is
 - a [First Order Logic](First_Order_Logic) expression without negations and disjunctions
@@ -236,6 +235,3 @@ QueryContainment($Q_1$, $Q_2$)
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems Architecture lecture notes #2 by S. Vansummeren [https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf]
 - Web Data Management book [http://webdam.inria.fr/Jorge]
-
-
-[Category:Relational Databases](Category_Relational_Databases)

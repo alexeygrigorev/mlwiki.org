@@ -1,11 +1,11 @@
 ---
-title: "Depth-First Search"
 layout: default
 permalink: /index.php/Depth-First_Search
+tags:
+- algorithms
+- graphs
+title: Depth-First Search
 ---
-
-# Depth-First Search
-
 ## Depth-First Search
 A [Graph Search](Graph_Search) algorithm:
 - explore aggressively, backtrack only if needed
@@ -33,6 +33,3 @@ running time $O(n + m)$
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Graphs](Category_Graphs)

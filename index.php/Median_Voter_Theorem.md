@@ -1,11 +1,10 @@
 ---
-title: "Median Voter Theorem"
 layout: default
 permalink: /index.php/Median_Voter_Theorem
+tags:
+- game-theory
+title: Median Voter Theorem
 ---
-
-# Median Voter Theorem
-
 ## Allocation Problem
 This is a problem of choosing the best position 
 - to open a new shop
@@ -113,5 +112,3 @@ This is the allocation problem:
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Game Theory](Category_Game_Theory)

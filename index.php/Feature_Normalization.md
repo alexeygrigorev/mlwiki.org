@@ -1,11 +1,11 @@
 ---
-title: "Feature Normalization"
 layout: default
 permalink: /index.php/Feature_Normalization
+tags:
+- data-transformation
+- statistics
+title: Feature Normalization
 ---
-
-# Feature Normalization
-
 ## Data Normalization
 Typically, ''normalization'' refers to
 - transforming all values of some continuous variable to the same scale
@@ -46,6 +46,3 @@ Example
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Data Transformation](Category_Data_Transformation)
-[Category:Statistics](Category_Statistics)

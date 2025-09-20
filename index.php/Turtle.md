@@ -1,11 +1,10 @@
 ---
-title: "Turtle"
 layout: default
 permalink: /index.php/Turtle
+tags:
+- semantic-web
+title: Turtle
 ---
-
-# Turtle
-
 ## Turtle
 - a way of representing [RDF](RDF) 
 - more compact than [RDF/XML](RDF_XML)
@@ -47,5 +46,3 @@ Blank nodes:
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:Semantic Web](Category_Semantic_Web)

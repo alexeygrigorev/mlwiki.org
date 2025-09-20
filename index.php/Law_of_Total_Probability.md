@@ -1,11 +1,12 @@
 ---
-title: "Law of Total Probability"
 layout: default
 permalink: /index.php/Law_of_Total_Probability
+tags:
+- probability
+- russian
+- подготовка-к-шад
+title: Law of Total Probability
 ---
-
-# Law of Total Probability
-
 ## Law of Total Probability
 
 Пусть $A$ может наступить при условии появления одного из событий $B_1, B_2, ..., B_n$, образующих полную группу событий. Пусть известны вероятности этих событий $P(B_1), P(B_2), ..., P(B_n)$ а так же условные вероятности $P(A| B_1), P(A|B_2), ..., P(A|B_n)$ наступления события $A$ после каждого из $B_1, ..., B_n$.  |
@@ -43,7 +44,3 @@ $P(A) = P(B_1) P(A| B_1) + P(B_2) P(A|B_2) + ... + P(B_n) P(A|B_n)$ |
 ## Источники и ссылки
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
 - [Конспект по теории вероятности и математической статистике](http://www.dropbox.com/s/j9yxtvkd0ns5eot/Probability_and_Statistics_exams_c.pdf#13)
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

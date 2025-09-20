@@ -1,11 +1,10 @@
 ---
-title: "Probabilistic LSA"
 layout: default
 permalink: /index.php/Probabilistic_LSA
+tags:
+- topic-models
+title: Probabilistic LSA
 ---
-
-# Probabilistic LSA
-
 {{stub}}
 
 ## Probabilistic LSA
@@ -57,6 +56,3 @@ is an extension of Probabilistic LSA
 
 ## Sources
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
-
-
-[Category:Topic Models](Category_Topic_Models)

@@ -1,11 +1,13 @@
 ---
-title: "Physical Query Plan Optimization"
 layout: default
 permalink: /index.php/Physical_Query_Plan_Optimization
+tags:
+- database-systems-architecture
+- greedy-algorithms
+- optimization
+- relational-databases
+title: Physical Query Plan Optimization
 ---
-
-# Physical Query Plan Optimization
-
 ## [Physical Query Plan](Query_Plan#Physical_Query_Plan) Optimization
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/query-processing-3rd.png" alt="Image">
 
@@ -58,9 +60,3 @@ Consider this example:
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-
-[Category:Relational Databases](Category_Relational_Databases)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Optimization](Category_Optimization)
-[Category:Greedy Algorithms](Category_Greedy_Algorithms)

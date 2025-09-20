@@ -1,11 +1,11 @@
 ---
-title: "JMS interview questions"
 layout: default
 permalink: /index.php/JMS_interview_questions
+tags:
+- interviews
+- java
+title: JMS interview questions
 ---
-
-# JMS interview questions
-
 ## JMS
 - What is the purpose of JMS
 - What are the different messaging paradigms JMS supports?
@@ -21,7 +21,3 @@ permalink: /index.php/JMS_interview_questions
 - Experience with ESB
 - Could you please tell us about Apache Camel. What patterns does it use?
 - Ways to integrate enterprise apps
-
-
-[Category:Interviews](Category_Interviews)
-[Category:Java](Category_Java)

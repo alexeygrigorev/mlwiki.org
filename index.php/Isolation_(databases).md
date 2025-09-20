@@ -1,11 +1,10 @@
 ---
-title: "Isolation (databases)"
 layout: default
 permalink: /index.php/Isolation_(databases)
+tags:
+- databases
+title: Isolation (databases)
 ---
-
-# Isolation (databases)
-
 ## Isolation
 A transaction is a sequence of updates to the database 
 - a transaction must be [consistent](Consistency_(databases))
@@ -42,5 +41,3 @@ Problem here:
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Databases](Category_Databases)

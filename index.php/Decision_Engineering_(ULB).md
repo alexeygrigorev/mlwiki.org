@@ -1,11 +1,12 @@
 ---
-title: "Decision Engineering (ULB)"
 layout: default
 permalink: /index.php/Decision_Engineering_(ULB)
+tags:
+- decision-engineering
+- it4bi
+- notes
+title: Decision Engineering (ULB)
 ---
-
-# Decision Engineering (ULB)
-
 - The course was taken in autumn 2013 at the ULB
 - Taught by professor Yves De Smet 
 
@@ -96,7 +97,3 @@ Methods:
 - no public webpage
 - http://uv.ulb.ac.be/ course: MATH-H-405, user: <code>visiteur</code>, password: <code>visiteur</code>
 - folder with all the materials: [https://www.dropbox.com/sh/gu9dn03vl3y3gk9/u2pLE109sn](https___www.dropbox.com_sh_gu9dn03vl3y3gk9_u2pLE109sn)
-
-[Category:Decision Engineering](Category_Decision_Engineering)
-[Category:IT4BI](Category_IT4BI)
-[Category:Notes](Category_Notes)

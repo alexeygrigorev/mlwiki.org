@@ -1,11 +1,11 @@
 ---
-title: "Statistics: Making Sense of Data (coursera)"
 layout: default
 permalink: /index.php/Statistics__Making_Sense_of_Data_(coursera)
+tags:
+- coursera
+- statistics
+title: 'Statistics: Making Sense of Data (coursera)'
 ---
-
-# Statistics: Making Sense of Data (coursera)
-
 These are notes of an introductory course to [Statistics](Statistics)
 - https://www.coursera.org/account/records
 - taken in spring 2013
@@ -57,7 +57,3 @@ These are notes of an introductory course to [Statistics](Statistics)
 
 ### Statistical Inquiry (Week 8)
 - Capstone case study
-
-
-[Category:Statistics](Category_Statistics)
-[Category:Coursera](Category_Coursera)

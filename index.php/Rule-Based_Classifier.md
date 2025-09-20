@@ -1,11 +1,11 @@
 ---
-title: "Rule-Based Classifier"
 layout: default
 permalink: /index.php/Rule-Based_Classifier
+tags:
+- classifiers
+- machine-learning
+title: Rule-Based Classifier
 ---
-
-# Rule-Based Classifier
-
 ## Rule-Based Classifier
 Rule-based classifiers
 - use a set of IF-THEN rules for classification 
@@ -152,7 +152,3 @@ Other measures of "promisingness"
 - http://www.slideshare.net/pierluca.lanzi/machine-learning-and-data-mining-12-classification-rules
 - http://www.tutorialspoint.com/data_mining/dm_rbc.htm 
 - http://www.cs.bc.edu/~alvarez/DataMining/Notes/covering.html
-
-
-[Category:Classifiers](Category_Classifiers)
-[Category:Machine Learning](Category_Machine_Learning)

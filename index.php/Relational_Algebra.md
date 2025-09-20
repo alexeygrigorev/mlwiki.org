@@ -1,11 +1,10 @@
 ---
-title: "Relational Algebra"
 layout: default
 permalink: /index.php/Relational_Algebra
+tags:
+- relational-databases
+title: Relational Algebra
 ---
-
-# Relational Algebra
-
 \(\newcommand{\AntiJoin}{ \ \bar{\Join} \ } \)
 
 ## Relational Algebra
@@ -547,6 +546,3 @@ $ (set semantics)
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-
-[Category:Relational Databases](Category_Relational_Databases)

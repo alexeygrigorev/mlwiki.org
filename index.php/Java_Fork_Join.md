@@ -1,12 +1,13 @@
 ---
-title: "Java Fork/Join"
 layout: default
 permalink: /index.php/Java_Fork_Join
+tags:
+- concurrency
+- java
+- java-8
+- snippets
+title: Java Fork/Join
 ---
-
-# Java Fork/Join
-
-
 ## Использование Fork/Join для поиска файлов
 
 ```java
@@ -94,10 +95,3 @@ public class ForkJoinTest {
 ```
 
 В этом коде два теста: один использует Fork/Join, второй обычный рекурсивный обход.
-
-
-[Category:Java](Category_Java)
-[Category:Java 8](Category_Java_8)
-[Category:Snippets](Category_Snippets)
-
-[Category:Concurrency](Category_Concurrency)

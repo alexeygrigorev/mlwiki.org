@@ -1,11 +1,12 @@
 ---
-title: "Euclidean LSH"
 layout: default
 permalink: /index.php/Euclidean_LSH
+tags:
+- database-indexes
+- hashing
+- lsh
+title: Euclidean LSH
 ---
-
-# Euclidean LSH
-
 ## Euclidean LSH
 Euclidean LSH - [LSH](LSH) for the [Euclidean Space](Euclidean_Distance)
 - Also called E2LSH or $p$-stable LSH
@@ -134,7 +135,3 @@ Probability of getting to the same bucket:
 ## Sources
 - Slaney, Malcolm, and Michael Casey. "Locality-sensitive hashing for finding nearest neighbors [lecture notes]." 2008. [http://web.iitd.ac.in/~sumeet/Slaney2008-LSHTutorial.pdf]
 - Datar, Mayur, et al. "Locality-sensitive hashing scheme based on p-stable distributions." 2004. [http://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf]
-
-[Category:Hashing](Category_Hashing)
-[Category:LSH](Category_LSH)
-[Category:Database Indexes](Category_Database_Indexes)

@@ -1,11 +1,10 @@
 ---
-title: "Non-Discriminating Criteria"
 layout: default
 permalink: /index.php/Non-Discriminating_Criteria
+tags:
+- multi-criteria-decision-aid
+title: Non-Discriminating Criteria
 ---
-
-# Non-Discriminating Criteria
-
 ## Non-Discriminating Criteria
 In [MCDA](MCDA) a criterion is non-discriminating if for all alternatives we have the same evaluation
 
@@ -22,5 +21,3 @@ $f_k$ is non-discriminating criterion because for all alternatives it evaluates 
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

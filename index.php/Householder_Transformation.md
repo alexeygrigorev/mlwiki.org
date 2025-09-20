@@ -1,11 +1,12 @@
 ---
-title: "Householder Transformation"
 layout: default
 permalink: /index.php/Householder_Transformation
+tags:
+- linear-algebra
+- matrix-decomposition
+- python
+title: Householder Transformation
 ---
-
-# Householder Transformation
-
 ## Householder Transformation
 Householder Transformation (also "Householder Reflection") is an orthogonal reflection transformation:
 - it reflex the vectors in the columns of the matrix such that
@@ -99,7 +100,3 @@ Instead of using it for reducting the matrix to Triangular, we can use Household
 - http://www.cs.cornell.edu/~bindel/class/cs6210-f12/notes/lec16.pdf
 - [Matrix Computations (book)](Matrix_Computations_(book))
 - https://math.dartmouth.edu/~m116w17/Householder.pdf
-
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Matrix Decomposition](Category_Matrix_Decomposition)
-[Category:Python](Category_Python)

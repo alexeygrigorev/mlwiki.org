@@ -1,11 +1,10 @@
 ---
-title: "Hamilton's Method"
 layout: default
 permalink: /index.php/Hamilton's_Method
+tags:
+- voting-theory
+title: Hamilton's Method
 ---
-
-# Hamilton's Method
-
 ## Hamilton's Method
 This is a [Parliamentary Allocation](Parliamentary_Allocation) method, also known as the ''Largest Remainder method'' with the ''Hare Quota''.
 
@@ -118,5 +117,3 @@ $P_1$ loses one seat, even though its position remained unchanged
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Voting Theory](Category_Voting_Theory)

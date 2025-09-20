@@ -1,11 +1,12 @@
 ---
-title: "Coverability Graph"
 layout: default
 permalink: /index.php/Coverability_Graph
+tags:
+- business-process-management
+- graphs
+- petri-nets
+title: Coverability Graph
 ---
-
-# Coverability Graph
-
 ## Coverability Graph
 This is a way of representing states of workflows, similar to [Reachability Graph](Reachability_Graph)
 
@@ -51,7 +52,3 @@ Let's construct the coverability graph for this example
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Petri Nets](Category_Petri_Nets)
-[Category:Graphs](Category_Graphs)
-[Category:Business Process Management](Category_Business_Process_Management)

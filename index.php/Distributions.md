@@ -1,11 +1,12 @@
 ---
-title: "Distributions"
 layout: default
 permalink: /index.php/Distributions
+tags:
+- distributions
+- r
+- statistics
+title: Distributions
 ---
-
-# Distributions
-
 ## The Shape of Data
 ''Distribution'' - the pattern of values in the data, showing their frequency of occurrence relative to each other. 
 
@@ -60,8 +61,3 @@ There are many distributions:
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-
-[Category:Statistics](Category_Statistics)
-[Category:R](Category_R)
-[Category:Distributions](Category_Distributions)

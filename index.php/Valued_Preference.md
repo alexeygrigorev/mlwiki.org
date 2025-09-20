@@ -1,11 +1,11 @@
 ---
-title: "Valued Preference"
 layout: default
 permalink: /index.php/Valued_Preference
+tags:
+- multi-criteria-decision-aid
+- voting-theory
+title: Valued Preference
 ---
-
-# Valued Preference
-
 ## Valued Preference
 This is a preference structure for [Modeling Preferences](Modeling_Preferences) in [MCDA](MCDA).
 
@@ -29,6 +29,3 @@ This is quite similar to [Condorcet's Rule](Condorcet's_Rule):
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)
-[Category:Voting Theory](Category_Voting_Theory)

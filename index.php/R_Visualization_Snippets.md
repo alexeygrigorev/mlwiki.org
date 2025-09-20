@@ -1,11 +1,12 @@
 ---
-title: "R Visualization Snippets"
 layout: default
 permalink: /index.php/R_Visualization_Snippets
+tags:
+- r
+- snippets
+- visualization
+title: R Visualization Snippets
 ---
-
-# R Visualization Snippets
-
 ## R Visualization Snippets
 
 
@@ -223,8 +224,3 @@ saveGIF({
 Note:
 - <code>par(xpd=NA)</code> - to allow to draw outside of the main region
 - <code>par(xpd=FALSE)</code> - to disallow to draw outside of the main region
-
-
-[Category:R](Category_R)
-[Category:Snippets](Category_Snippets)
-[Category:Visualization](Category_Visualization)

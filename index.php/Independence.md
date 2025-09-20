@@ -1,11 +1,12 @@
 ---
-title: "Independence"
 layout: default
 permalink: /index.php/Independence
+tags:
+- probability
+- russian
+- подготовка-к-шад
+title: Independence
 ---
-
-# Independence
-
 ## Независимые события
 Событие B называют ''независимым'' от события $A$, если появление события $A$ не изменяет вероятность события $B$, т.е. 
 
@@ -52,7 +53,3 @@ Probability того, что генератор случайных чисел с
 
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

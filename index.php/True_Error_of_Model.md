@@ -1,11 +1,12 @@
 ---
-title: "True Error of Model"
 layout: default
 permalink: /index.php/True_Error_of_Model
+tags:
+- machine-learning
+- model-performance-evaluation
+- statistics
+title: True Error of Model
 ---
-
-# True Error of Model
-
 ## True Error of Model
 What do we do when we want to know how accurately the model ''will'' perform in practice
 - need to estimate its ''true error''
@@ -49,8 +50,3 @@ Estimate of $\text{error}(C, D)$
 More accurate estimates:
 - [K-Fold Cross-Validation](K-Fold_Cross-Validation)
 - average over $K$ testing errors to reduce variability 
-
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Statistics](Category_Statistics)
-[Category:Model Performance Evaluation](Category_Model_Performance_Evaluation)

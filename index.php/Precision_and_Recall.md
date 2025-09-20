@@ -1,11 +1,13 @@
 ---
-title: "Precision and Recall"
 layout: default
 permalink: /index.php/Precision_and_Recall
+tags:
+- classifiers
+- information-retrieval
+- machine-learning
+- model-performance-evaluation
+title: Precision and Recall
 ---
-
-# Precision and Recall
-
 ## Precision and Recall
 Precision and Recall are quality metrics used across many domains:
 - originally it's from [Information Retrieval](Information_Retrieval)
@@ -280,9 +282,3 @@ This way is often used in [Document Classification](Document_Classification)
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
 - Manning, Christopher D., Prabhakar Raghavan, and Hinrich Schütze. "Introduction to information retrieval." 2008. [http://informationretrieval.org/]
-
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Classifiers](Category_Classifiers)
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:Model Performance Evaluation](Category_Model_Performance_Evaluation)

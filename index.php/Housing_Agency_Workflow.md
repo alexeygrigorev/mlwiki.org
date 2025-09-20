@@ -1,11 +1,10 @@
 ---
-title: "Housing Agency Workflow"
 layout: default
 permalink: /index.php/Housing_Agency_Workflow
+tags:
+- business-process-management
+title: Housing Agency Workflow
 ---
-
-# Housing Agency Workflow
-
 ## Housing Agency Workflow
 This is an exercise to build a [Workflow Net](Workflow_Nets)
 
@@ -100,5 +99,3 @@ Steps
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)

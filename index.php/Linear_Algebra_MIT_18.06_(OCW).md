@@ -1,11 +1,13 @@
 ---
-title: "Linear Algebra MIT 18.06 (OCW)"
 layout: default
 permalink: /index.php/Linear_Algebra_MIT_18.06_(OCW)
+tags:
+- linear-algebra
+- mathematics
+- notes
+- ocw
+title: Linear Algebra MIT 18.06 (OCW)
 ---
-
-# Linear Algebra MIT 18.06 (OCW)
-
 ## Linear Algebra MIT 18.06 (OCW)
 Lectures by G. Strang, 2005
 
@@ -55,9 +57,3 @@ Lectures by G. Strang, 2005
 - My note with progress: [https://www.evernote.com/shard/s344/nl/54547539/8b259a87-306c-483e-9029-b4ae466adee3]
 - 18.06 MIT Page: http://web.mit.edu/18.06/www/videos.shtml
 - OCW page: http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm
-
-
-[Category:Notes](Category_Notes)
-[Category:Mathematics‏‎](Category_Mathematics‏‎)
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:OCW](Category_OCW)

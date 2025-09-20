@@ -1,11 +1,11 @@
 ---
-title: "Consistency (databases)"
 layout: default
 permalink: /index.php/Consistency_(databases)
+tags:
+- databases
+- distributed-systems
+title: Consistency (databases)
 ---
-
-# Consistency (databases)
-
 ## Consistency
 For databases, ''consistency'' means satisfying integrity constraints, which are about the correctness of the data in a database. So a database is ''consistent'' if all its constraint are satisfied. 
 
@@ -84,6 +84,3 @@ in this case later updates may be overwritten by earlier ones because they arriv
 ## See also
 - [BASE](BASE) - weaker alternative to [ACID](ACID)
 - the [CAP Theorem](CAP_Theorem)
-
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:Databases](Category_Databases)

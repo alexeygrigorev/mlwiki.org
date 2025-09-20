@@ -1,11 +1,12 @@
 ---
-title: "Linear Regression"
 layout: default
 permalink: /index.php/Linear_Regression
+tags:
+- machine-learning
+- r
+- statistics
+title: Linear Regression
 ---
-
-# Linear Regression
-
 ## Regression
 How to understand the linear relationship between data? 
 - dependent (response) variable - $Y$
@@ -180,7 +181,3 @@ lm1 = lm(diff ~ log10(bmi))
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-[Category:Statistics](Category_Statistics)
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:R](Category_R)

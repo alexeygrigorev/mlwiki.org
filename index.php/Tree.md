@@ -1,11 +1,10 @@
 ---
-title: "Tree"
 layout: default
 permalink: /index.php/Tree
+tags:
+- graphs
+title: Tree
 ---
-
-# Tree
-
 ## Trees
 A Tree $T$ is a [Graph](Graph) that:
 
@@ -34,5 +33,3 @@ For example,
 
 ## Sources
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:Graphs](Category_Graphs)

@@ -1,11 +1,10 @@
 ---
-title: "Bucket Algorithm (Data Integration)"
 layout: default
 permalink: /index.php/Bucket_Algorithm_(Data_Integration)
+tags:
+- data-integration
+title: Bucket Algorithm (Data Integration)
 ---
-
-# Bucket Algorithm (Data Integration)
-
 ## Bucket Algorithm
 This is an approach for query rewriting used in [LAV Mediation](LAV_Mediation)
 
@@ -196,5 +195,3 @@ The final result is
 
 ## Sources
 - Web Data Management book [http://webdam.inria.fr/Jorge]
-
-[Category:Data Integration](Category_Data_Integration)

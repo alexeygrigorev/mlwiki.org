@@ -1,11 +1,10 @@
 ---
-title: "Column Space"
 layout: default
 permalink: /index.php/Column_Space
+tags:
+- linear-algebra
+title: Column Space
 ---
-
-# Column Space
-
 ## Column Space
 A column space $C(A)$ of a matrix $A$ is a subspace formed by columns of $A$
 - it's one of is one of the [Four Fundamental Subspaces](Four_Fundamental_Subspaces) of $A$
@@ -92,5 +91,3 @@ What's the dimension of $C(A)$?
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

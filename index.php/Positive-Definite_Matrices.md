@@ -1,11 +1,10 @@
 ---
-title: "Positive-Definite Matrices"
 layout: default
 permalink: /index.php/Positive-Definite_Matrices
+tags:
+- linear-algebra
+title: Positive-Definite Matrices
 ---
-
-# Positive-Definite Matrices
-
 ## Positive-Definite Matrices
 ### Energy-Based Definition
 In [Linear Algebra](Linear_Algebra), a matrix an $n \times n$ matrix is Positive-definite matrix (PDM) if 
@@ -158,5 +157,3 @@ They are always semi-positive definite
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - Jauregui, Jeff. "Principal component analysis with linear algebra." (2012). [http://www.math.union.edu/~jaureguj/PCA.pdf]
-
-[Category:Linear Algebra](Category_Linear_Algebra)

@@ -1,11 +1,10 @@
 ---
-title: "Normal Form Game"
 layout: default
 permalink: /index.php/Normal_Form_Game
+tags:
+- game-theory
+title: Normal Form Game
 ---
-
-# Normal Form Game
-
 ## Normal Form Game
 A ''Normal Form Game'' (also ''Matrix Form Game'' or ''Strategic Game'') if a type of games from the [Game Theory](Game_Theory)
 - main idea: the players move simultaneously
@@ -63,5 +62,3 @@ There are several types of normal form games:
 ## Sources
 - [Game Theory (coursera)](Game_Theory_(coursera))
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Game Theory](Category_Game_Theory)

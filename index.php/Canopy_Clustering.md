@@ -1,11 +1,10 @@
 ---
-title: "Canopy Clustering"
 layout: default
 permalink: /index.php/Canopy_Clustering
+tags:
+- cluster-analysis
+title: Canopy Clustering
 ---
-
-# Canopy Clustering
-
 <!-- stub -->
 <!-- TODO: see [Scalable Data Analytics and Data Mining AIM3 (TUB)](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB)) lectures -->
 
@@ -31,6 +30,3 @@ canopies reduce the computation time:
 ## Links
 - http://en.wikipedia.org/wiki/Canopy_clustering_algorithm
 - http://www.kamalnigam.com/papers/canopy-kdd00.pdf
-
-
-[Category:Cluster Analysis](Category_Cluster_Analysis)

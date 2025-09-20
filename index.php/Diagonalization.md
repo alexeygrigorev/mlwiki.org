@@ -1,9 +1,6 @@
 ---
-title: "Diagonalization"
 layout: default
 permalink: /index.php/Diagonalization
+title: Diagonalization
 ---
-
-# Diagonalization
-
 1. REDIRECT [Eigendecomposition](Eigendecomposition)

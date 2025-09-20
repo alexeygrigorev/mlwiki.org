@@ -1,11 +1,11 @@
 ---
-title: "Scatter/Gather"
 layout: default
 permalink: /index.php/Scatter_Gather
+tags:
+- cluster-analysis
+- document-clustering
+title: Scatter/Gather
 ---
-
-# Scatter/Gather
-
 ## Scatter/Gather
 This is 
 - use [Hierarchical Clustering](Hierarchical_Clustering) for seed selection, 
@@ -104,7 +104,3 @@ How?
 ## Sources
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
 - Cutting, Douglass R., et al. "Scatter/gather: A cluster-based approach to browsing large document collections." 1992. [http://courses.washington.edu/info320/au11/readings/Week4.Cutting.et.al.1992.Scatter-Gather.pdf]
-
-
-[Category:Document Clustering](Category_Document_Clustering)
-[Category:Cluster Analysis](Category_Cluster_Analysis)

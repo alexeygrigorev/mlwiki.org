@@ -1,11 +1,11 @@
 ---
-title: "Heap"
 layout: default
 permalink: /index.php/Heap
+tags:
+- algorithms
+- data-structures
+title: Heap
 ---
-
-# Heap
-
 ## Heap
 a container that have keys
 
@@ -89,6 +89,3 @@ Implementation: [http://code.google.com/p/codeforces-solutions-java/source/brows
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
 - http://algorithms.soc.srcf.net/notes/dijkstra_with_heaps.pdf
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Data Structures](Category_Data_Structures)

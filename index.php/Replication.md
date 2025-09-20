@@ -1,11 +1,11 @@
 ---
-title: "Replication"
 layout: default
 permalink: /index.php/Replication
+tags:
+- databases
+- distributed-systems
+title: Replication
 ---
-
-# Replication
-
 ## Replication
 Replication is a process of updating the same information stored in [Distributed Databases](Distributed_Databases)
 - so all servers have the up-to-date information
@@ -81,6 +81,3 @@ THEN INSERT INTO PosDelta (SELECT * FROM INSERTED);
 
 ## Sources
 - [Advanced Databases (ULB)](Advanced_Databases_(ULB))
-
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:Databases](Category_Databases)

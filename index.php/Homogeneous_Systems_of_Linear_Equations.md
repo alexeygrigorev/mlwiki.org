@@ -1,11 +1,10 @@
 ---
-title: "Homogeneous Systems of Linear Equations"
 layout: default
 permalink: /index.php/Homogeneous_Systems_of_Linear_Equations
+tags:
+- linear-algebra
+title: Homogeneous Systems of Linear Equations
 ---
-
-# Homogeneous Systems of Linear Equations
-
 ## Homogeneous Linear Systems $A\mathbf x = \mathbf 0$
 Suppose we have a [system](System_of_Linear_Equations) $A\mathbf x = \mathbf 0$. Such a system is called ''homogeneous'' - because we have $\mathbf 0$ on the right side of the system. 
 
@@ -169,5 +168,3 @@ I & F \\
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

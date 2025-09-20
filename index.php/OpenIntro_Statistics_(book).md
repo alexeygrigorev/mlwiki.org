@@ -1,11 +1,12 @@
 ---
-title: "OpenIntro Statistics (book)"
 layout: default
 permalink: /index.php/OpenIntro_Statistics_(book)
+tags:
+- books
+- notes
+- statistics
+title: OpenIntro Statistics (book)
 ---
-
-# OpenIntro Statistics (book)
-
 ## OpenIntro Statistics
 This is an introductory book to [Statistics](Statistics)
 
@@ -82,9 +83,3 @@ Labs:
 - [Lab 6](http://rpubs.com/agrigorev/23247): Introduction to linear regression
 - [Lab 7](http://rpubs.com/agrigorev/23249): Multiple linear regression
 - [Extra lab](http://rpubs.com/agrigorev/21480): Distributions (lab 3 from [http://www.openintro.org/stat/labs.php])
-
-
-
-[Category:Statistics](Category_Statistics)
-[Category:Books](Category_Books)
-[Category:Notes](Category_Notes)

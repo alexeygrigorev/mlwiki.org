@@ -1,11 +1,11 @@
 ---
-title: "Data Mining"
 layout: default
 permalink: /index.php/Data_Mining
+tags:
+- data-mining
+- machine-learning
+title: Data Mining
 ---
-
-# Data Mining
-
 ## Data Mining
 Data mining - methods and algorithms to explore and analyze large volumes of data
 
@@ -129,6 +129,3 @@ Evaluation
 
 ## Source
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Data Mining](Category_Data_Mining)
-[Category:Machine Learning](Category_Machine_Learning)

@@ -1,11 +1,11 @@
 ---
-title: "Breadth-First Search"
 layout: default
 permalink: /index.php/Breadth-First_Search
+tags:
+- algorithms
+- graphs
+title: Breadth-First Search
 ---
-
-# Breadth-First Search
-
 ## Breadth-First Search
 A [Graph Search](Graph_Search) algorithm:
 - explores [Graphs](Graphs) in "layers"
@@ -62,6 +62,3 @@ Running time also $O(n + m)$
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Graphs](Category_Graphs)

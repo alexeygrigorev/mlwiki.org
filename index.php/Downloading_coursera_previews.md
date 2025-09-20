@@ -1,11 +1,12 @@
 ---
-title: "Downloading coursera previews"
 layout: default
 permalink: /index.php/Downloading_coursera_previews
+tags:
+- coursera
+- python
+- scripts
+title: Downloading coursera previews
 ---
-
-# Downloading coursera previews
-
 Скрипт выдёргивает все ссылки на видео из превью для курсеры и складывает их в файл
 
 ```python
@@ -48,7 +49,3 @@ outputhtml.close()
 ```
 
 Оригинал: [http://crossplatform.net/download-coursera-videos-with-your-favorite-download-manager/]
-
-[Category:Coursera](Category_Coursera)
-[Category:Scripts](Category_Scripts)
-[Category:Python](Category_Python)

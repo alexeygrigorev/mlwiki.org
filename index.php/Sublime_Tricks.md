@@ -1,13 +1,8 @@
 ---
-title: "Sublime Tricks"
 layout: default
 permalink: /index.php/Sublime_Tricks
+title: Sublime Tricks
 ---
-
-# Sublime Tricks
-
-
-
 ## Новые горячии клавиши
 
 Например, 

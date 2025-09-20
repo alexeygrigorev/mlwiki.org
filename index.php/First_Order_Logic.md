@@ -1,11 +1,11 @@
 ---
-title: "First Order Logic"
 layout: default
 permalink: /index.php/First_Order_Logic
+tags:
+- knowledge-representation
+- logic
+title: First Order Logic
 ---
-
-# First Order Logic
-
 {{stub}}
 
 ## First Order Logic
@@ -32,6 +32,3 @@ In FOL, inference is generally [undecidable](Decidability)
 
 ## Sources
 - Web Data Management, Manolescu, Ioana, et al. [http://webdam.inria.fr/Jorge/]
-
-[Category:Logic](Category_Logic)
-[Category:Knowledge Representation](Category_Knowledge_Representation)

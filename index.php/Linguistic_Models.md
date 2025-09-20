@@ -1,11 +1,10 @@
 ---
-title: "Linguistic Models"
 layout: default
 permalink: /index.php/Linguistic_Models
+tags:
+- computational-linguistics
+title: Linguistic Models
 ---
-
-# Linguistic Models
-
 ## Linguistic Models
 A natural language consists of two parts:
 - lexicon: vocabulary of the language
@@ -29,6 +28,3 @@ Shallow Parsing:
 
 ## Sources
 - http://en.wikipedia.org/wiki/Deep_linguistic_processing
-
-
-[Category:Computational Linguistics](Category_Computational_Linguistics)

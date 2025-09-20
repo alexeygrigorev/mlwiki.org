@@ -1,11 +1,11 @@
 ---
-title: "Inferential Statistics"
 layout: default
 permalink: /index.php/Inferential_Statistics
+tags:
+- statistical-tests
+- statistics
+title: Inferential Statistics
 ---
-
-# Inferential Statistics
-
 ## Inferential Statistics
 It's a part of [Statistics](Statistics) that, based on a small [sample](Sampling) infers predictions about the population
 - [Descriptive Statistics](Descriptive_Statistics) is another part that just describes samples and doesn't infer anything about the general population
@@ -31,6 +31,3 @@ Main tools
 ## Sources
 - http://en.wikipedia.org/wiki/Statistical_inference
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)

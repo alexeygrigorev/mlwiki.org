@@ -1,11 +1,12 @@
 ---
-title: "Non-Negative Matrix Factorization"
 layout: default
 permalink: /index.php/Non-Negative_Matrix_Factorization
+tags:
+- linear-algebra
+- matrix-decomposition
+- python
+title: Non-Negative Matrix Factorization
 ---
-
-# Non-Negative Matrix Factorization
-
 ## Non-Negative Matrix Factorization
 Non-Negative Matrix Factorization (NMF) is a [Matrix Decomposition](Matrix_Decomposition) technique that is especially good for [Cluster Analysis](Cluster_Analysis)
 
@@ -223,7 +224,3 @@ def seung_nmf(V, k, threshold=1e-5, maxiter=500):
 - Xu, Wei, Xin Liu, and Yihong Gong. "Document clustering based on non-negative matrix factorization." 2003. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.2293&rep=rep1&type=pdf]
 - Osinski, Stanislaw. "Improving quality of search results clustering with approximate matrix factorisations." 2006. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.74&rep=rep1&type=pdf]
 - [Python for Machine Learning (TUB)](Python_for_Machine_Learning_(TUB))
-
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Matrix Decomposition](Category_Matrix_Decomposition) 
-[Category:Python](Category_Python)

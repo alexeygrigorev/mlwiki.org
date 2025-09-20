@@ -1,11 +1,8 @@
 ---
-title: "Main Page"
 layout: default
 permalink: /index.php/Main_Page
+title: Main Page
 ---
-
-# Main Page
-
 <strong>MediaWiki has been successfully installed.</strong>
 
 Consult the [//meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.

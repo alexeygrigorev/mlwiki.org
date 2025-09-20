@@ -1,11 +1,11 @@
 ---
-title: "Dense Index"
 layout: default
 permalink: /index.php/Dense_Index
+tags:
+- database-indexes
+- database-systems-architecture
+title: Dense Index
 ---
-
-# Dense Index
-
 ## Dense Index
 A dense [index](Indexing_(databases)) is a sequence of blocks that can hold only keys and pointers.
 - here all records have a record in the index that point to them
@@ -73,6 +73,3 @@ Suppose we have duplicate keys in our database. How to build index?
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Database Indexes](Category_Database_Indexes)

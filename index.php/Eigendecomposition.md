@@ -1,11 +1,11 @@
 ---
-title: "Eigendecomposition"
 layout: default
 permalink: /index.php/Eigendecomposition
+tags:
+- linear-algebra
+- matrix-decomposition
+title: Eigendecomposition
 ---
-
-# Eigendecomposition
-
 ## Eigen Decomposition
 Eigen Decomposition or, sometimes, Eigenvalue Decomposition (shortcut EVD)
 - is a way of diagonalizing a square $n \times n$ matrix $A$ 
@@ -152,7 +152,3 @@ F_{k+1} = F_{k+1} \\
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - http://en.wikipedia.org/wiki/Diagonalizable_matrix
 - Strang, G. Introduction to linear algebra.
-
-
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Matrix Decomposition](Category_Matrix_Decomposition)

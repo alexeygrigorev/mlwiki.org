@@ -1,11 +1,11 @@
 ---
-title: "Max Max Strategy"
 layout: default
 permalink: /index.php/Max_Max_Strategy
+tags:
+- decision-under-uncertainty
+- game-theory
+title: Max Max Strategy
 ---
-
-# Max Max Strategy
-
 ## Max Max
 How to choose an alternative? 
 - in [Game Theory](Game_Theory)
@@ -35,6 +35,3 @@ Advantages:
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Under Uncertainty](Category_Decision_Under_Uncertainty)
-[Category:Game Theory](Category_Game_Theory)

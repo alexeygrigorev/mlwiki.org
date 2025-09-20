@@ -1,11 +1,12 @@
 ---
-title: "Evaluation of Binary Classifiers"
 layout: default
 permalink: /index.php/Evaluation_of_Binary_Classifiers
+tags:
+- classifiers
+- machine-learning
+- model-performance-evaluation
+title: Evaluation of Binary Classifiers
 ---
-
-# Evaluation of Binary Classifiers
-
 ## Evaluation of Binary Classifiers
 Evaluation is important:
 - models have to predict classes of new unlabeled data
@@ -142,7 +143,3 @@ When we have multi-class classifiers we can use:
 - http://en.wikipedia.org/wiki/Template:DiagnosticTesting_Diagram
 - http://en.wikipedia.org/wiki/Template:DiagnosticTesting_Example
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Classifiers](Category_Classifiers)
-[Category:Model Performance Evaluation](Category_Model_Performance_Evaluation)

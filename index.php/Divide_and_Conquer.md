@@ -1,11 +1,10 @@
 ---
-title: "Divide and Conquer"
 layout: default
 permalink: /index.php/Divide_and_Conquer
+tags:
+- algorithms
+title: Divide and Conquer
 ---
-
-# Divide and Conquer
-
 ## Divide and Conquer
 A computational paradigm, the main idea of which is to split a problem into subproblems until they are small enough to solve them easily
 
@@ -102,5 +101,3 @@ Then if
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-[Category:Algorithms](Category_Algorithms)

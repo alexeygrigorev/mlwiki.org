@@ -1,11 +1,10 @@
 ---
-title: "Process Conformance"
 layout: default
 permalink: /index.php/Process_Conformance
+tags:
+- business-process-management
+title: Process Conformance
 ---
-
-# Process Conformance
-
 ## Workflow Conformance Checking
 This procedure gives the answer on the following questions
 - does our model conform to what actually happens? 
@@ -63,5 +62,3 @@ After the execution we can see:
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)

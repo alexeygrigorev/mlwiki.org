@@ -1,11 +1,11 @@
 ---
-title: "Weighted Sum Model"
 layout: default
 permalink: /index.php/Weighted_Sum_Model
+tags:
+- multi-criteria-decision-aid
+- multi-objective-optimization
+title: Weighted Sum Model
 ---
-
-# Weighted Sum Model
-
 ## Weighted Sum Model
 In a [MOO](Multi-Objective_Optimization) and [MCDA](MCDA) Problems  there are a set of the "best" (Pareto-optimal) solutions. How to decide which one to take?
 
@@ -68,6 +68,3 @@ With weighted sum not all the solutions can be found
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Objective Optimization](Category_Multi-Objective_Optimization)
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

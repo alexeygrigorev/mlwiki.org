@@ -1,11 +1,10 @@
 ---
-title: "Row Space"
 layout: default
 permalink: /index.php/Row_Space
+tags:
+- linear-algebra
+title: Row Space
 ---
-
-# Row Space
-
 ## Row Space
 This is one of the [Four Fundamental Subspaces](Four_Fundamental_Subspaces)
 
@@ -34,5 +33,3 @@ Why the row space remains the same?
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

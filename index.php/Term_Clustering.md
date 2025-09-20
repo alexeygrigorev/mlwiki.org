@@ -1,11 +1,11 @@
 ---
-title: "Term Clustering"
 layout: default
 permalink: /index.php/Term_Clustering
+tags:
+- cluster-analysis
+- document-clustering
+title: Term Clustering
 ---
-
-# Term Clustering
-
 ## Term Clustering
 Term clustering is a dual problem of [Document Clustering](Document_Clustering)
 - it's also unsupervised [Text Mining](Text_Mining) technique, but applied to terms instead of documents
@@ -57,6 +57,3 @@ Simultaneous clustering of rows and columns is called [Co-Clustering](Co-Cluster
 ## Sources
 - Li, Yong H., and Anil K. Jain. "Classification of text documents." (1998) [http://julio.staff.ipb.ac.id/files/2014/09/LiJ98.pdf]
 - Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [http://arxiv.org/pdf/cs/0110053.pdf]
-
-[Category:Cluster Analysis](Category_Cluster_Analysis)
-[Category:Document Clustering](Category_Document_Clustering)

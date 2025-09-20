@@ -1,11 +1,11 @@
 ---
-title: "Dot Graph Examples"
 layout: default
 permalink: /index.php/Dot_Graph_Examples
+tags:
+- dot
+- snippets
+title: Dot Graph Examples
 ---
-
-# Dot Graph Examples
-
 ## Dot Graph Examples
 
 ### Triangle
@@ -119,7 +119,3 @@ digraph G {
 ```
 
 <img src="http://habrastorage.org/files/f84/5d8/269/f845d826920c4289ae0376767482c798.png" alt="Image">
-
-
-[Category:Dot](Category_Dot)
-[Category:Snippets](Category_Snippets)

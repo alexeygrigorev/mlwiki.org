@@ -1,11 +1,10 @@
 ---
-title: "Complete Pre-Order Preference Structure"
 layout: default
 permalink: /index.php/Complete_Pre-Order_Preference_Structure
+tags:
+- multi-criteria-decision-aid
+title: Complete Pre-Order Preference Structure
 ---
-
-# Complete Pre-Order Preference Structure
-
 ## Complete Pre-Order
 This is a preference structure for [Modeling Preferences](Modeling_Preferences) in [MCDA](MCDA)
 
@@ -46,5 +45,3 @@ Expected gains of different actions:
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - http://web.itu.edu.tr/~topcuil/ya/MDM03ConstructingModel.pptx
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

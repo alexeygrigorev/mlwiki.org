@@ -1,11 +1,10 @@
 ---
-title: "Data Sources"
 layout: default
 permalink: /index.php/Data_Sources
+tags:
+- ссылки
+title: Data Sources
 ---
-
-# Data Sources
-
 ## Data Sources
 Good sources for [Data Analysis](Data_Analysis) and [Data Mining](Data_Mining)
 
@@ -37,5 +36,3 @@ Also: Data Repositories
 
 ## Source
 - [Data Analysis (coursera)](Data_Analysis_(coursera))
-
-[Category:Ссылки](Category_Ссылки)

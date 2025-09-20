@@ -1,11 +1,11 @@
 ---
-title: "Descriptive Analysis"
 layout: default
 permalink: /index.php/Descriptive_Analysis
+tags:
+- data-analysis
+- data-mining
+title: Descriptive Analysis
 ---
-
-# Descriptive Analysis
-
 ## Descriptive Analysis
 Descriptive statistics - how to summarize data with numbers or plots 
 
@@ -41,6 +41,3 @@ In this case, descriptive statistics include:
 - http://en.wikipedia.org/wiki/Descriptive_statistics
 - [Descriptive Statistics lecture](http://www.pitt.edu/~super1/lecture/lec0421/index.htm)
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Data Mining](Category_Data_Mining)
-[Category:Data Analysis](Category_Data_Analysis)

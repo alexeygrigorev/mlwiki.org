@@ -1,11 +1,11 @@
 ---
-title: "Hash Tables"
 layout: default
 permalink: /index.php/Hash_Tables
+tags:
+- algorithms
+- data-structures
+title: Hash Tables
 ---
-
-# Hash Tables
-
 ## Hash tables
 Purpose
 - maintain a set of things with all operations in $O(1)$ time 
@@ -173,7 +173,3 @@ public class HashTableNode {
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Data Structures](Category_Data_Structures)

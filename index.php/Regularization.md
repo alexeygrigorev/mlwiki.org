@@ -1,11 +1,10 @@
 ---
-title: "Regularization"
 layout: default
 permalink: /index.php/Regularization
+tags:
+- machine-learning
+title: Regularization
 ---
-
-# Regularization
-
 ## Regularization
 - ''Regularization'' is a technique used to address [overfitting](Overfitting)
 - Main idea of regularization is to keep all the features, but reduce magnitude of parameters $\theta$
@@ -115,5 +114,3 @@ Similarly, for [Gradient Descent](Gradient_Descent) we have
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Machine Learning](Category_Machine_Learning)

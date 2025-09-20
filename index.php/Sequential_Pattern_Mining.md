@@ -1,11 +1,10 @@
 ---
-title: "Sequential Pattern Mining"
 layout: default
 permalink: /index.php/Sequential_Pattern_Mining
+tags:
+- rule-mining
+title: Sequential Pattern Mining
 ---
-
-# Sequential Pattern Mining
-
 $\require{color}$
 
 ## Sequence Mining
@@ -189,5 +188,3 @@ Idea:
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Rule Mining](Category_Rule_Mining)

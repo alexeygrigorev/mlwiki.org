@@ -1,11 +1,11 @@
 ---
-title: "Java interview questions"
 layout: default
 permalink: /index.php/Java_interview_questions
+tags:
+- interviews
+- java
+title: Java interview questions
 ---
-
-# Java interview questions
-
 ## Java basics
 - Meaning of keywords: static, final, transient
 - Contract between equals() and hashCode()
@@ -128,6 +128,3 @@ How to interrupt a thread
 ## Some Links
 - http://www.itshared.org/2015/10/java-interview-questions.html
 - [115 Java Interview Questions and Answers – The ULTIMATE List](http://www.evernote.com/shard/s344/sh/0a9befd7-507d-4a9b-be08-fb5e39876219/2718ba3054cec6ef43edba0b19606277)
-
-[Category:Interviews](Category_Interviews)
-[Category:Java](Category_Java)

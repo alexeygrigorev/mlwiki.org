@@ -1,11 +1,11 @@
 ---
-title: "L'Hopital's Rule"
 layout: default
 permalink: /index.php/L'Hopital's_Rule
+tags:
+- calculus
+- limits
+title: L'Hopital's Rule
 ---
-
-# L'Hopital's Rule
-
 ## L'Hôpital's Rule
 The rule has this form:
 $$\lim_{x \to a} \cfrac{f(x)}{g(x)} = \lim_{x \to a} \cfrac{f'(x)}{g'(x)}$$
@@ -55,6 +55,3 @@ See http://calculus.seas.upenn.edu/?n=Main.LHopitalsRule
 
 ## Sources
 - [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
-
-[Category:Calculus](Category_Calculus)
-[Category:Limits](Category_Limits)

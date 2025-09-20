@@ -1,11 +1,11 @@
 ---
-title: "Computational Linguistics"
 layout: default
 permalink: /index.php/Computational_Linguistics
+tags:
+- computational-linguistics
+- nlp
+title: Computational Linguistics
 ---
-
-# Computational Linguistics
-
 ## Computational Linguistics
 Computational linguistics (CL) is a discipline between linguistics and computer science which is concerned with the computational aspects of the human language faculty. 
 - It belongs to the cognitive sciences and overlaps with the field of [Artificial intelligence](Artificial_intelligence)
@@ -31,7 +31,3 @@ NLP
 - http://www.coli.uni-saarland.de/~hansu/what_is_cl.html
 - http://en.wikipedia.org/wiki/Computational_linguistics
 - [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_(book))
-
-
-[Category:NLP](Category_NLP)
-[Category:Computational Linguistics](Category_Computational_Linguistics)

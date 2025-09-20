@@ -1,11 +1,11 @@
 ---
-title: "Conjunctive Query/Containment Exercise"
 layout: default
 permalink: /index.php/Conjunctive_Query_Containment_Exercise
+tags:
+- exercises
+- relational-databases
+title: Conjunctive Query/Containment Exercise
 ---
-
-# Conjunctive Query/Containment Exercise
-
 ## Exercises
 These are exercises for containment of [Conjunctive Queries](Conjunctive_Query)
 
@@ -228,7 +228,3 @@ D_{Q_4} =
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems Architecture lecture notes #2 by S. Vansummeren [https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf]
-
-
-[Category:Exercises](Category_Exercises)
-[Category:Relational Databases](Category_Relational_Databases)

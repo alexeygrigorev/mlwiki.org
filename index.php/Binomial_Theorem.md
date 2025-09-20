@@ -1,11 +1,11 @@
 ---
-title: "Binomial Theorem"
 layout: default
 permalink: /index.php/Binomial_Theorem
+tags:
+- combinatorics
+- подготовка-к-шад
+title: Binomial Theorem
 ---
-
-# Binomial Theorem
-
 ## Binomial Theorem
 Рассмотрим степень $(a + x)^n$ 
 - $(a + x)^2 = a^2 + 2xa + x^2 = aa + ax + xa + xx$
@@ -47,7 +47,3 @@ $(1 + x)^n = C_n^0 + C_n^1 x + ... + C_n^k x^k + ... + C_n^n x^n$.
 
 ## Sources
 - Виленкин Н.Я. Комбинаторика. М., Наука, 1969.
-
-
-[Category:Combinatorics](Category_Combinatorics)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

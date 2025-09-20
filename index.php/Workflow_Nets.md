@@ -1,11 +1,11 @@
 ---
-title: "Workflow Nets"
 layout: default
 permalink: /index.php/Workflow_Nets
+tags:
+- business-process-management
+- petri-nets
+title: Workflow Nets
 ---
-
-# Workflow Nets
-
 ## Workflow Nets
 By workflow nets here we refer to [petri-net-based](Petri_Nets) workflows. 
 
@@ -62,6 +62,3 @@ For that we define the following properties
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Petri Nets](Category_Petri_Nets)
-[Category:Business Process Management](Category_Business_Process_Management)

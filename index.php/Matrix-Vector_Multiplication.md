@@ -1,11 +1,10 @@
 ---
-title: "Matrix-Vector Multiplication"
 layout: default
 permalink: /index.php/Matrix-Vector_Multiplication
+tags:
+- linear-algebra
+title: Matrix-Vector Multiplication
 ---
-
-# Matrix-Vector Multiplication
-
 ## Matrix-Vector Multiplication
 Suppose we have an $m \times n$ matrix $A$ and $n$-vector $\mathbf b$
 - How to calculate $\mathbf x = A \mathbf b$?
@@ -105,5 +104,3 @@ A vector may be on the left of the matrix as well
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

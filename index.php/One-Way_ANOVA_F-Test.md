@@ -1,11 +1,12 @@
 ---
-title: "One-Way ANOVA F-Test"
 layout: default
 permalink: /index.php/One-Way_ANOVA_F-Test
+tags:
+- r
+- statistical-tests
+- statistics
+title: One-Way ANOVA F-Test
 ---
-
-# One-Way ANOVA F-Test
-
 ## One-Way [ANOVA](ANOVA) [F-Test](F-Test)
 Simplest [ANOVA](ANOVA)
 - are the means of several groups equal?
@@ -335,7 +336,3 @@ abline(v=F.stat)
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - http://en.wikipedia.org/wiki/Analysis_of_variance
-
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:Statistics](Category_Statistics)
-[Category:R](Category_R)

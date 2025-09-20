@@ -1,11 +1,11 @@
 ---
-title: "Enterprise System Architecture"
 layout: default
 permalink: /index.php/Enterprise_System_Architecture
+tags:
+- business-process-management
+- software-design
+title: Enterprise System Architecture
 ---
-
-# Enterprise System Architecture
-
 ## Enterprise System Architecture
 This is a motivation why workflow management systems are needed
 
@@ -76,6 +76,3 @@ There are three kind of workflow management systems:
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)
-[Category:Software Design](Category_Software_Design)

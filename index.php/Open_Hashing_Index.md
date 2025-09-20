@@ -1,11 +1,12 @@
 ---
-title: "Open Hashing Index"
 layout: default
 permalink: /index.php/Open_Hashing_Index
+tags:
+- data-structures
+- database-indexes
+- database-systems-architecture
+title: Open Hashing Index
 ---
-
-# Open Hashing Index
-
 ## Open Hashing Index
 Idea: 
 - apply [Open Hashing](Hash_Tables) to [Secondary Storage](Secondary_Storage) to build an [index](Indexing_(databases))
@@ -100,7 +101,3 @@ To be able to better cope with growth, there are other approaches:
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Data Structures](Category_Data_Structures)
-[Category:Database Indexes](Category_Database_Indexes)

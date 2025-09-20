@@ -1,11 +1,11 @@
 ---
-title: "Serializable Schedule"
 layout: default
 permalink: /index.php/Serializable_Schedule
+tags:
+- concurrency
+- database-systems-architecture
+title: Serializable Schedule
 ---
-
-# Serializable Schedule
-
 ## Serializable Schedule
 ### Definitions
 An ''action'' is 
@@ -136,6 +136,3 @@ The following schedulers produce Conflict-Serializable Schedules:
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Concurrency](Category_Concurrency)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

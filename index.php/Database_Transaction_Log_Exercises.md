@@ -1,11 +1,10 @@
 ---
-title: "Database Transaction Log Exercises"
 layout: default
 permalink: /index.php/Database_Transaction_Log_Exercises
+tags:
+- database-systems-architecture
+title: Database Transaction Log Exercises
 ---
-
-# Database Transaction Log Exercises
-
 ## Database Transaction Log Exercises
 Exercises [and solutions [https://www.dropbox.com/s/tcbmgtqtiffdjrg/lect8-ex-crash-recovery-sol.pdf](http://www.dropbox.com/s/remf9pcuw94qvow/lect8-ex-crash-recovery.pdf])
 
@@ -379,5 +378,3 @@ Recovery
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

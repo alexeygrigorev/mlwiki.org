@@ -1,11 +1,11 @@
 ---
-title: "Chi-Squared Tests"
 layout: default
 permalink: /index.php/Chi-Squared_Tests
+tags:
+- statistical-tests
+- statistics
+title: Chi-Squared Tests
 ---
-
-# Chi-Squared Tests
-
 ## Chi-Squared Tests
 This is a family of [Statistical Tests](Hypothesis_Testing) that use [Chi-Squared Distribution](Chi-Squared_Distribution) to calculate values of the statistics 
 
@@ -28,6 +28,3 @@ Two-Way Table Tests
 
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)

@@ -1,11 +1,11 @@
 ---
-title: "Scatter Plot"
 layout: default
 permalink: /index.php/Scatter_Plot
+tags:
+- plots
+- r
+title: Scatter Plot
 ---
-
-# Scatter Plot
-
 ## Scatter Plot
 This is a [Plot](Plot) that can be useful for [initial](Exploratory_Data_Analysis) [analysis of the data](Data_Analysis)
 - it uses Cartesian coordinates to visualize relationships between variables
@@ -64,6 +64,3 @@ plot(x[sampledValues], y[sampledValues], pch=19)
 ## Sources
 - [Data Analysis (coursera)](Data_Analysis_(coursera))
 - http://en.wikipedia.org/wiki/Scatter_plot
-
-[Category:Plots](Category_Plots)
-[Category:R](Category_R)

@@ -1,11 +1,10 @@
 ---
-title: "Decision Analysis"
 layout: default
 permalink: /index.php/Decision_Analysis
+tags:
+- decision-engineering
+title: Decision Analysis
 ---
-
-# Decision Analysis
-
 ## Decision Analysis
 ### Decision Under Certainty
 Let
@@ -58,5 +57,3 @@ Methods
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Engineering](Category_Decision_Engineering)

@@ -1,11 +1,11 @@
 ---
-title: "Metric Trees"
 layout: default
 permalink: /index.php/Metric_Trees
+tags:
+- database-indexing
+- information-retrieval
+title: Metric Trees
 ---
-
-# Metric Trees
-
 ## Metric Trees
 Metric tree in an [indexing](Indexing_(databases)) structure that allows for efficient [KNN](KNN) search
 
@@ -136,7 +136,3 @@ So,
 
 ## Sources
 - Liu, Ting, et al. "An investigation of practical approximate nearest neighbor algorithms." 2004. [http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2005_187.pdf]
-
-
-[Category:Database Indexing](Category_Database_Indexing)
-[Category:Information Retrieval](Category_Information_Retrieval)

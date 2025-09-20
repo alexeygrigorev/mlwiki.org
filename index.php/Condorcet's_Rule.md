@@ -1,11 +1,10 @@
 ---
-title: "Condorcet's Rule"
 layout: default
 permalink: /index.php/Condorcet's_Rule
+tags:
+- voting-theory
+title: Condorcet's Rule
 ---
-
-# Condorcet's Rule
-
 ## Condorcet's Rule
 This a voting mechanism from [Voting Theory](Voting_Theory).
 
@@ -140,5 +139,3 @@ Thus, [Separability](Separability) is respected.
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - Mathematics of Voting, slides [http://www.ms.uky.edu/~lee/ma111fa09/slides01.pdf](http___www.ms.uky.edu_~lee_ma111fa09_slides01.pdf)
 - Voting Fairness Criteria [http://www.math.unl.edu/~bharbourne1/M203JSpr09/VotingFairnessHandout.pdf]
-
-[Category:Voting Theory](Category_Voting_Theory)

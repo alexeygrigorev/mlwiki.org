@@ -1,11 +1,12 @@
 ---
-title: "Sets"
 layout: default
 permalink: /index.php/Sets
+tags:
+- combinatorics
+- russian
+- подготовка-к-шад
+title: Sets
 ---
-
-# Sets
-
 ## Sets
 
 ''Множество'' - совокупность различных предметов объединённых в одно целое по некоторому признаку.
@@ -153,7 +154,3 @@ $N(\overline{\alpha_1 \alpha_2 ... \alpha_n}) = N(\overline{\alpha_1 \alpha_2 ..
 ## Sources
 - Киреенко С.Г., Гриншпон И.Э. Элементы теории множеств (учебное пособие). Томск, 2003. http://portal.tpu.ru/lyceum/innovacion/workroom/sets.pdf
 - Виленкин Н.Я. Комбинаторика. М., Наука, 1969.
-
-[Category:Russian](Category_Russian)
-[Category:Combinatorics](Category_Combinatorics)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

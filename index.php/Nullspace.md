@@ -1,11 +1,10 @@
 ---
-title: "Nullspace"
 layout: default
 permalink: /index.php/Nullspace
+tags:
+- linear-algebra
+title: Nullspace
 ---
-
-# Nullspace
-
 ## Nullspace
 Nullspace $N(A)$ of a matrix $A$ is one of the [Four Fundamental Subspaces](Four_Fundamental_Subspaces) of the matrix $A$
 
@@ -148,5 +147,3 @@ From [http://stackoverflow.com/questions/1835246/how-to-solve-homogeneous-linear
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - http://en.wikipedia.org/wiki/Kernel_%28linear_algebra%29#Numerical_computation
-
-[Category:Linear Algebra](Category_Linear_Algebra)

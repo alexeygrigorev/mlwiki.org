@@ -1,11 +1,11 @@
 ---
-title: "Extensible Hashing"
 layout: default
 permalink: /index.php/Extensible_Hashing
+tags:
+- database-indexes
+- database-systems-architecture
+title: Extensible Hashing
 ---
-
-# Extensible Hashing
-
 ## Extensible Hashing
 Hash-based [secondary memory](Secondary_Storage) [index](Indexing_(databases)) structure for [databases](Databases)
 
@@ -97,6 +97,3 @@ Cons
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Database Indexes](Category_Database_Indexes)

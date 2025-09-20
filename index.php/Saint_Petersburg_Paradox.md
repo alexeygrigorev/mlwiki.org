@@ -1,11 +1,11 @@
 ---
-title: "Saint Petersburg Paradox"
 layout: default
 permalink: /index.php/Saint_Petersburg_Paradox
+tags:
+- decision-under-risk
+- probability
+title: Saint Petersburg Paradox
 ---
-
-# Saint Petersburg Paradox
-
 ## Saint Petersburg Paradox
 Consider the following game:
 - a "banker" $B$ plays with a "player" $P$
@@ -25,6 +25,3 @@ Let's calculate the expected value
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Under Risk](Category_Decision_Under_Risk)
-[Category:Probability](Category_Probability)

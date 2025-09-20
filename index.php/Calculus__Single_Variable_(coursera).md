@@ -1,11 +1,12 @@
 ---
-title: "Calculus: Single Variable (coursera)"
 layout: default
 permalink: /index.php/Calculus__Single_Variable_(coursera)
+tags:
+- calculus
+- coursera
+- notes
+title: 'Calculus: Single Variable (coursera)'
 ---
-
-# Calculus: Single Variable (coursera)
-
 Summer 2015
 
 ## Calculus: Single Variable (coursera)
@@ -77,8 +78,3 @@ Summer 2015
 ## Links
 - https://www.coursera.org/course/calcsing
 - Course wiki: http://calculus.seas.upenn.edu/
-
-
-[Category:Coursera](Category_Coursera)
-[Category:Notes](Category_Notes)
-[Category:Calculus](Category_Calculus)

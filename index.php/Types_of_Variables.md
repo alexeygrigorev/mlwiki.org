@@ -1,11 +1,11 @@
 ---
-title: "Types of Variables"
 layout: default
 permalink: /index.php/Types_of_Variables
+tags:
+- data-analysis
+- statistics
+title: Types of Variables
 ---
-
-# Types of Variables
-
 ## Types of Variables
 When we have a table with data, rows correspond to ''observation units'' (subjects, etc.) and columns are ''variables''. 
 - NB: Don't confuse with [Random Variable](Random_Variable)s from Probability Theory
@@ -53,6 +53,3 @@ To analyze relationships between variables there are following methods:
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-[Category:Statistics](Category_Statistics)
-[Category:Data Analysis](Category_Data_Analysis)

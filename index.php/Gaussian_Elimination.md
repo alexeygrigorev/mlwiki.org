@@ -1,11 +1,10 @@
 ---
-title: "Gaussian Elimination"
 layout: default
 permalink: /index.php/Gaussian_Elimination
+tags:
+- linear-algebra
+title: Gaussian Elimination
 ---
-
-# Gaussian Elimination
-
 ## Gaussian Elimination
 Gaussian Elimination or Row Reduction is a method for solving a [System of Linear Equations](System_of_Linear_Equations)
 - it corresponds to elimination of variables in the system 
@@ -232,5 +231,3 @@ What if we need to exchange rows?
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - Курош А.Г. Курс Высшей Алгебры
-
-[Category:Linear Algebra](Category_Linear_Algebra)

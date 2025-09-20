@@ -1,11 +1,10 @@
 ---
-title: "Physical Data Organization (databases)"
 layout: default
 permalink: /index.php/Physical_Data_Organization_(databases)
+tags:
+- database-systems-architecture
+title: Physical Data Organization (databases)
 ---
-
-# Physical Data Organization (databases)
-
 ## [Memory Hierarchy](Memory_Hierarchy)
 - CPU and its cache
 - Main Memory
@@ -295,6 +294,3 @@ If the new version is shorter, we may want to reclaim the freed space for later 
 ## Sources
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

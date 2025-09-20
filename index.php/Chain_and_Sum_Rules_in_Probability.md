@@ -1,11 +1,12 @@
 ---
-title: "Chain and Sum Rules in Probability"
 layout: default
 permalink: /index.php/Chain_and_Sum_Rules_in_Probability
+tags:
+- probability
+- russian
+- подготовка-к-шад
+title: Chain and Sum Rules in Probability
 ---
-
-# Chain and Sum Rules in Probability
-
 == Теорема сложения вероятностей == 
 
 ''Суммой'' $A + B$ двух событий $A$ и $B$ является событие, состоящее в появлении события $A$ или события $B$ 
@@ -66,7 +67,3 @@ $P(A \cdot B) = P(A) \cdot P(B)$
 
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

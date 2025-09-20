@@ -1,11 +1,14 @@
 ---
-title: "Document Classification"
 layout: default
 permalink: /index.php/Document_Classification
+tags:
+- classification
+- machine-learning
+- nlp
+- supervised-learning
+- text-mining
+title: Document Classification
 ---
-
-# Document Classification
-
 ## Document Classification
 Document/Text Classification/Categorization is an [NLP](NLP)/[Text Mining](Text_Mining) task of labeling unseen documents with categories from some predefined set
 - not to be confused with [Document Clustering](Document_Clustering) - an [Unsupervised Learning](Unsupervised_Learning) technique
@@ -130,11 +133,3 @@ Good classifiers for text:
 
 ## Sources
 - Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [http://arxiv.org/pdf/cs/0110053.pdf]
-
-
-
-[Category:NLP](Category_NLP)
-[Category:Text Mining](Category_Text_Mining)
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Supervised Learning](Category_Supervised_Learning)
-[Category:Classification](Category_Classification)

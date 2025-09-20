@@ -1,9 +1,6 @@
 ---
-title: "Normalization"
 layout: default
 permalink: /index.php/Normalization
+title: Normalization
 ---
-
-# Normalization
-
 1. перенаправление [Data Normalization](Data_Normalization)

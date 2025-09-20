@@ -1,11 +1,10 @@
 ---
-title: "Waste Utilization Problem"
 layout: default
 permalink: /index.php/Waste_Utilization_Problem
+tags:
+- multi-objective-optimization
+title: Waste Utilization Problem
 ---
-
-# Waste Utilization Problem
-
 ## Waste Utilization Problem
 This is a [Multi-Objective Optimization](Multi-Objective_Optimization) Problem
 - 2 cities $X$ and $Y$ produce garbage
@@ -66,5 +65,3 @@ How to select the best one?
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Objective Optimization](Category_Multi-Objective_Optimization)

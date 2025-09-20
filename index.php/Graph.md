@@ -1,9 +1,6 @@
 ---
-title: "Graph"
 layout: default
 permalink: /index.php/Graph
+title: Graph
 ---
-
-# Graph
-
 1. redirect [Graphs](Graphs)

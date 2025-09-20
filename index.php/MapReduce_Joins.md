@@ -1,11 +1,11 @@
 ---
-title: "MapReduce/Joins"
 layout: default
 permalink: /index.php/MapReduce_Joins
+tags:
+- hadoop
+- mapreduce
+title: MapReduce/Joins
 ---
-
-# MapReduce/Joins
-
 ## MapReduce/Joins
 How to implement a Join from [Relational Algebra](Relational_Algebra) using [MapReduce](MapReduce)?
 
@@ -89,6 +89,3 @@ From [AIM3](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB)):
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - [Scalable Data Analytics and Data Mining AIM3 (TUB)](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB))
-
-[Category:MapReduce](Category_MapReduce)
-[Category:Hadoop](Category_Hadoop)

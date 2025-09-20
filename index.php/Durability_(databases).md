@@ -1,11 +1,10 @@
 ---
-title: "Durability (databases)"
 layout: default
 permalink: /index.php/Durability_(databases)
+tags:
+- databases
+title: Durability (databases)
 ---
-
-# Durability (databases)
-
 ## Durability
 One of the [ACID](ACID) properties of transactions. It says if a transaction has committed, then it should be permanently persisted on disk, even if a crash occurs
 
@@ -23,5 +22,3 @@ In [Distributed Databases](Distributed_Databases) for distributed transactions t
 
 ## See also
 - [ACID](ACID)
-
-[Category:Databases](Category_Databases)

@@ -1,11 +1,10 @@
 ---
-title: "Logical Query Plan Optimization"
 layout: default
 permalink: /index.php/Logical_Query_Plan_Optimization
+tags:
+- relational-databases
+title: Logical Query Plan Optimization
 ---
-
-# Logical Query Plan Optimization
-
 ## [Logical Query Plan](Query_Plan#Logical_Query_Plan) Optimization
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/query-processing-1st.png" alt="Image">
 
@@ -149,6 +148,3 @@ See [LQP Optimization Exercises (DBSA)](LQP_Optimization_Exercises_(DBSA))
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-
-
-[Category:Relational Databases](Category_Relational_Databases)

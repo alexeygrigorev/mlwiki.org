@@ -1,11 +1,12 @@
 ---
-title: "Indexing (databases)"
 layout: default
 permalink: /index.php/Indexing_(databases)
+tags:
+- database-indexes
+- database-systems-architecture
+- databases
+title: Indexing (databases)
 ---
-
-# Indexing (databases)
-
 ## Motivation: Searching
 Suppose we have a relation $R(A, B, C, D)$, each tuple - 32 bytes
 - $128 \times 10^6$ tuples is $R$
@@ -87,7 +88,3 @@ Indexing can also be applied to unstructured data such as text
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Database Indexes](Category_Database_Indexes)
-[Category:Databases](Category_Databases)

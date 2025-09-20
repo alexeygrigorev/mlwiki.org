@@ -1,11 +1,12 @@
 ---
-title: "Text Normalization"
 layout: default
 permalink: /index.php/Text_Normalization
+tags:
+- dimensionality-reduction
+- information-retrieval
+- nlp
+title: Text Normalization
 ---
-
-# Text Normalization
-
 ## Text Normalization
 It's a part of [NLP Pipeline](NLP_Pipeline) for preprocessing text data 
 - normalization = applying some linguistic models to [tokens](Tokenization) of text
@@ -94,7 +95,3 @@ Often text normalization can be seen as a set [Dimensionality Reduction](Dimensi
 
 ## Sources
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
-
-[Category:Dimensionality Reduction](Category_Dimensionality_Reduction)
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:NLP](Category_NLP)

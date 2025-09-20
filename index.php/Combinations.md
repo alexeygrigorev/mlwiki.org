@@ -1,11 +1,12 @@
 ---
-title: "Combinations"
 layout: default
 permalink: /index.php/Combinations
+tags:
+- combinatorics
+- russian
+- подготовка-к-шад
+title: Combinations
 ---
-
-# Combinations
-
 ## Combinations
 Не всегда нас интересует порядок, в котором располагаются элементы - а интересует лишь состав.
 
@@ -147,7 +148,3 @@ $C_n^0 - C_n^1 + ... + (-1)^n C_n^k = 0$
 ## Sources
 - Виленкин Н.Я. Комбинаторика. М., Наука, 1969.
 - Генкин С.А., Итенберг И.В., Фомин Д.В. Ленинградские математические кружки, 1994.
-
-[Category:Russian](Category_Russian)
-[Category:Combinatorics](Category_Combinatorics)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

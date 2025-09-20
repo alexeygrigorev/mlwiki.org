@@ -1,11 +1,11 @@
 ---
-title: "Distribution Function"
 layout: default
 permalink: /index.php/Distribution_Function
+tags:
+- distributions
+- probability
+title: Distribution Function
 ---
-
-# Distribution Function
-
 {{stub}}
 
 ## (Cumulative) [Distribution](Distribution) Function
@@ -47,7 +47,3 @@ The cumulate distribution function $F_X(x)$ can be found by taking an integral o
 - http://en.wikipedia.org/wiki/Probability_distribution
 - http://en.wikipedia.org/wiki/Cumulative_distribution_function
 - http://en.wikipedia.org/wiki/Probability_density_function
-
-
-[Category:Probability](Category_Probability)
-[Category:Distributions](Category_Distributions)

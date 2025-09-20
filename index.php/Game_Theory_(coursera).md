@@ -1,11 +1,12 @@
 ---
-title: "Game Theory (coursera)"
 layout: default
 permalink: /index.php/Game_Theory_(coursera)
+tags:
+- coursera
+- game-theory
+- notes
+title: Game Theory (coursera)
 ---
-
-# Game Theory (coursera)
-
 {{draft}}
 
 Курс [Game Theory](http://www.coursera.org/course/gametheory) об основах теории игр
@@ -29,8 +30,3 @@ permalink: /index.php/Game_Theory_(coursera)
 - Ссылка на svn директорию [http://stolzen.googlecode.com/svn/trunk/courses/coursera/Game%20Theory/]
 - Отсканированный конспект [https://www.dropbox.com/s/vo6nbmhdvzs2947/Game%20Theory%20coursera.pdf]
 - mindmap [http://stolzen.googlecode.com/svn/trunk/courses/coursera/Game%20Theory/Game%20Theory.xmind]
-
-
-[Category:Game Theory](Category_Game_Theory)
-[Category:Coursera](Category_Coursera)
-[Category:Notes](Category_Notes)

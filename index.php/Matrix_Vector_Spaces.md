@@ -1,11 +1,11 @@
 ---
-title: "Matrix Vector Spaces"
 layout: default
 permalink: /index.php/Matrix_Vector_Spaces
+tags:
+- linear-algebra
+- vector-spaces
+title: Matrix Vector Spaces
 ---
-
-# Matrix Vector Spaces
-
 ## Matrix Spaces
 A Matrix space is a [Vector Space](Vector_Space) where elements are matrices
 
@@ -87,6 +87,3 @@ How do we define the inner product?
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [http://www.math.washington.edu/~morrow/498_13/svd.pdf]
-
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Vector Spaces](Category_Vector_Spaces)

@@ -1,11 +1,12 @@
 ---
-title: "Groovy Java in Maven"
 layout: default
 permalink: /index.php/Groovy_Java_in_Maven
+tags:
+- groovy
+- java
+- maven
+title: Groovy Java in Maven
 ---
-
-# Groovy Java in Maven
-
 Смешанный проект с groovy и java используя maven и Groovy-Eclipse compiler
 
 ## Groovy-eclipse Compiler
@@ -200,8 +201,3 @@ permalink: /index.php/Groovy_Java_in_Maven
 
 ## Sources
 - https://github.com/nickmcdowall/JavaAndGroovy
-
-
-[Category:Groovy](Category_Groovy) 
-[Category:Java](Category_Java) 
-[Category:Maven](Category_Maven)

@@ -1,11 +1,11 @@
 ---
-title: "Apriori"
 layout: default
 permalink: /index.php/Apriori
+tags:
+- python
+- rule-mining
+title: Apriori
 ---
-
-# Apriori
-
 ## Apriori
 This is an algorithm for [Frequent Pattern Mining](Frequent_Pattern_Mining) based on [Breadth-First Search](Breadth-First_Search) traversal of the itemset [Lattice](Lattice)
 
@@ -161,6 +161,3 @@ Remark:
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Rule Mining](Category_Rule_Mining)
-[Category:Python](Category_Python)

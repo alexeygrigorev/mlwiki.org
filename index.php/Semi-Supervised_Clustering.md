@@ -1,11 +1,11 @@
 ---
-title: "Semi-Supervised Clustering"
 layout: default
 permalink: /index.php/Semi-Supervised_Clustering
+tags:
+- cluster-analysis
+- machine-learning
+title: Semi-Supervised Clustering
 ---
-
-# Semi-Supervised Clustering
-
 {{stub}}
 
 ## Semi-Supervised Clustering
@@ -57,7 +57,3 @@ Papers:
 ## Sources
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
 - Jing, Liping. "Survey of text clustering." (2008). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf]
-
-
-[Category:Cluster Analysis](Category_Cluster_Analysis)
-[Category:Machine Learning](Category_Machine_Learning)

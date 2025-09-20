@@ -1,11 +1,10 @@
 ---
-title: "ELECTRE"
 layout: default
 permalink: /index.php/ELECTRE
+tags:
+- multi-criteria-decision-aid
+title: ELECTRE
 ---
-
-# ELECTRE
-
 ## ELECTRE
 This is a method from the family of outranking (i.e. based on pair-wise comparison) [MCDA](MCDA) methods. The result is a partial ordering of alternatives (see [Partial Order Preference Structure](Partial_Order_Preference_Structure))
 
@@ -217,5 +216,3 @@ Based on the Concordance and Discordance we define the outranking relation $S$
 - http://web.itu.edu.tr/~topcuil/ya/MDM08Outranking.pptx
 - http://electre.no.sapo.pt/MElecI2.htm
 - Multiple Criteria Decision Analysis: State of the Art Surveys, 2005 
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

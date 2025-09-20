@@ -1,11 +1,11 @@
 ---
-title: "Sampling Distribution"
 layout: default
 permalink: /index.php/Sampling_Distribution
+tags:
+- probability
+- statistics
+title: Sampling Distribution
 ---
-
-# Sampling Distribution
-
 ## Estimation
 Our goal is to be able to estimate theoretical parameters with a data sample. 
 
@@ -83,7 +83,3 @@ For data, unbiased variance is
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-
-[Category:Statistics](Category_Statistics)
-[Category:Probability](Category_Probability)

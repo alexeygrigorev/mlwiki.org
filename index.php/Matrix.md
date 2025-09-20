@@ -1,11 +1,10 @@
 ---
-title: "Matrix"
 layout: default
 permalink: /index.php/Matrix
+tags:
+- linear-algebra
+title: Matrix
 ---
-
-# Matrix
-
 {{stub}}
 
 ## Matrix
@@ -61,5 +60,3 @@ We can see matrices as vectors, and they also can form [Vector Spaces](Vector_Sp
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - Курош А.Г. Курс Высшей Алгебры
-
-[Category:Linear Algebra](Category_Linear_Algebra)

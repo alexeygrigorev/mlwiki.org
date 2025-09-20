@@ -1,11 +1,11 @@
 ---
-title: "Hypothesis Testing Decision Errors"
 layout: default
 permalink: /index.php/Hypothesis_Testing_Decision_Errors
+tags:
+- statistical-tests
+- statistics
+title: Hypothesis Testing Decision Errors
 ---
-
-# Hypothesis Testing Decision Errors
-
 ## Hypothesis Testing Decision Errors
 [Hypothesis Testing](Hypothesis_Testing) sometimes mistake - and we need to have tools quantify these mistakes 
 
@@ -67,6 +67,3 @@ Power of a test also allows to control the
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - http://en.wikipedia.org/wiki/Type_I_and_type_II_errors
-
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)

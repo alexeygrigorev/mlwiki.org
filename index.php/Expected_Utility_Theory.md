@@ -1,11 +1,10 @@
 ---
-title: "Expected Utility Theory"
 layout: default
 permalink: /index.php/Expected_Utility_Theory
+tags:
+- decision-under-risk
+title: Expected Utility Theory
 ---
-
-# Expected Utility Theory
-
 ## Expected Utility Theory
 [We see](Expected_Values_for_Lotteries) that using [Expected Value](Expected_Value) is not enough to compare simple lotteries in [Decision Trees](Decision_Tree_(Decision_Theory))
 
@@ -138,5 +137,3 @@ This principle is also used in Multi-Criteria Decision Aiding:
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Under Risk](Category_Decision_Under_Risk)

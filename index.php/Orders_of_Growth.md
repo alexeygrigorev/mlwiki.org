@@ -1,11 +1,11 @@
 ---
-title: "Orders of Growth"
 layout: default
 permalink: /index.php/Orders_of_Growth
+tags:
+- calculus
+- limits
+title: Orders of Growth
 ---
-
-# Orders of Growth
-
 ## Orders of Growth
 Asymptotic notation: "Big-O"
 - Big-O notation gives a way to talk about the rate at which functions grow/decrease
@@ -152,6 +152,3 @@ Example 1:
 
 ## Sources
 - [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
-
-[Category:Calculus](Category_Calculus)
-[Category:Limits](Category_Limits)

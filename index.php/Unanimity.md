@@ -1,11 +1,10 @@
 ---
-title: "Unanimity"
 layout: default
 permalink: /index.php/Unanimity
+tags:
+- voting-theory
+title: Unanimity
 ---
-
-# Unanimity
-
 ## Unanimity
 The unanimity principle is a [Voting Theory](Voting_Theory) principle. ''Unanimity'' means "agreement reached by all people".
 
@@ -29,5 +28,3 @@ The same concept in different disciplines is also often called [Dominance](Domin
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Voting Theory](Category_Voting_Theory)

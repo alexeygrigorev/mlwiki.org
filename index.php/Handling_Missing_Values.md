@@ -1,11 +1,11 @@
 ---
-title: "Handling Missing Values"
 layout: default
 permalink: /index.php/Handling_Missing_Values
+tags:
+- data-analysis
+- data-cleaning
+title: Handling Missing Values
 ---
-
-# Handling Missing Values
-
 ## Handling Missing Values
 Missing Values 
 
@@ -28,6 +28,3 @@ Handling
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - http://www.developerzen.com/2009/08/14/data-mining-handling-missing-values-the-database/
-
-[Category:Data Cleaning](Category_Data_Cleaning)
-[Category:Data Analysis](Category_Data_Analysis)

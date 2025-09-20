@@ -1,11 +1,11 @@
 ---
-title: "Budget Pacing"
 layout: default
 permalink: /index.php/Budget_Pacing
+tags:
+- adtech
+- machine-learning
+title: Budget Pacing
 ---
-
-# Budget Pacing
-
 ## Budget Pacing
 Budget pacing control:
 - take the daily budget as input
@@ -175,7 +175,3 @@ solution:
 
 ## Sources
 - Real Time Bid Optimization with Smooth Budget Delivery in Online Advertising: https://arxiv.org/abs/1305.3011
-
-
-[Category:Adtech](Category_Adtech)
-[Category:Machine Learning](Category_Machine_Learning)

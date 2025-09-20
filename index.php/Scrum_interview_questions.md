@@ -1,11 +1,10 @@
 ---
-title: "Scrum interview questions"
 layout: default
 permalink: /index.php/Scrum_interview_questions
+tags:
+- interviews
+title: Scrum interview questions
 ---
-
-# Scrum interview questions
-
 ## Scrum
 - How meeting in scrum looks like (three questions)
 - What is team velocity and burn down chart
@@ -16,6 +15,3 @@ permalink: /index.php/Scrum_interview_questions
 - What types of meetings scrum have (daily scrum, planning, review, retrospective, scrum of scrums)
 - What artifacts scrum have (product backlog, sprint backlog)
 - Disadvantages of scrum
-
-
-[Category:Interviews](Category_Interviews)

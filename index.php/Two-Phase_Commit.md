@@ -1,11 +1,11 @@
 ---
-title: "Two-Phase Commit"
 layout: default
 permalink: /index.php/Two-Phase_Commit
+tags:
+- database-systems-architecture
+- distributed-systems
+title: Two-Phase Commit
 ---
-
-# Two-Phase Commit
-
 ## Two-Phase Commit
 A way to ensure consistency in a [distributed system](Distributed_Databases)
 
@@ -37,6 +37,3 @@ A way to ensure consistency in a [distributed system](Distributed_Databases)
 
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

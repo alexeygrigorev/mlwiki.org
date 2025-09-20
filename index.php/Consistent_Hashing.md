@@ -1,11 +1,12 @@
 ---
-title: "Consistent Hashing"
 layout: default
 permalink: /index.php/Consistent_Hashing
+tags:
+- algorithms
+- database-systems-architecture
+- distributed-systems
+title: Consistent Hashing
 ---
-
-# Consistent Hashing
-
 ## Consistent [Hashing](Hash_Function)
 To scale incrementally, [Distributed Databases](Distributed_Databases) need a mechanism to dynamically partition over a set of nodes. Consistent Hashing is one of them: it allows to distribute load across several nodes. 
 
@@ -69,8 +70,3 @@ Advantages
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - Amazon's Dynamo paper [http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf]
-
-
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Algorithms](Category_Algorithms)

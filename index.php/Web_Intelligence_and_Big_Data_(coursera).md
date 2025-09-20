@@ -1,11 +1,10 @@
 ---
-title: "Web Intelligence and Big Data (coursera)"
 layout: default
 permalink: /index.php/Web_Intelligence_and_Big_Data_(coursera)
+tags:
+- coursera
+title: Web Intelligence and Big Data (coursera)
 ---
-
-# Web Intelligence and Big Data (coursera)
-
 ## Web Intelligence and Big Data
 (Spring 2013)
 
@@ -35,5 +34,3 @@ Connect
 Predict
 - Hierarchical Reasoning
 - Predictive Analytics in Business
-
-[Category:Coursera](Category_Coursera)

@@ -1,11 +1,10 @@
 ---
-title: "Decision Under Uncertainty"
 layout: default
 permalink: /index.php/Decision_Under_Uncertainty
+tags:
+- decision-under-uncertainty
+title: Decision Under Uncertainty
 ---
-
-# Decision Under Uncertainty
-
 ## Decision Under Uncertainty
 This is a tool to model [Decision Analysis](Decision_Analysis) problems. Unlike [Decision Under Risk](Decision_Under_Risk), here we cannot obtain the probability distribution of possible consequences, can only list the scenarios. 
 
@@ -104,5 +103,3 @@ Note that in this case all the methods will give different results
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Under Uncertainty](Category_Decision_Under_Uncertainty)

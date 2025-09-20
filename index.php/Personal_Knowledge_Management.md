@@ -1,11 +1,10 @@
 ---
-title: "Personal Knowledge Management"
 layout: default
 permalink: /index.php/Personal_Knowledge_Management
+tags:
+- productivity
+title: Personal Knowledge Management
 ---
-
-# Personal Knowledge Management
-
 Personal Knowledge
 
 Mind map: [http://yadi.sk/d/f1pfNItl2KXsR]
@@ -224,6 +223,3 @@ KM - making the best use of knowledge
 - knowledge capture
 - knowledge management and retrieval
 - integration heterogenous sources
-
-
-[Category:Productivity](Category_Productivity)

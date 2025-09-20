@@ -1,11 +1,10 @@
 ---
-title: "Variables in Observations"
 layout: default
 permalink: /index.php/Variables_in_Observations
+tags:
+- statistics
+title: Variables in Observations
 ---
-
-# Variables in Observations
-
 ## Variables in Observations
 A paradigm for Observation Studies
 - 2 or more group
@@ -62,6 +61,3 @@ Example:
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-
-[Category:Statistics](Category_Statistics)

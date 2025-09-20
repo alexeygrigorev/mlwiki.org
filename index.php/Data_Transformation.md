@@ -1,11 +1,10 @@
 ---
-title: "Data Transformation"
 layout: default
 permalink: /index.php/Data_Transformation
+tags:
+- data-transformation
+title: Data Transformation
 ---
-
-# Data Transformation
-
 ## Data Transformation
 Main Tasks 
 - [Data Normalization](Data_Normalization) to normalize all data values to the same scale
@@ -33,5 +32,3 @@ By replacing low-level values by higher level abstractions
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Data Transformation](Category_Data_Transformation)

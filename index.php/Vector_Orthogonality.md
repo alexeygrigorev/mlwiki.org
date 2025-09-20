@@ -1,11 +1,10 @@
 ---
-title: "Vector Orthogonality"
 layout: default
 permalink: /index.php/Vector_Orthogonality
+tags:
+- linear-algebra
+title: Vector Orthogonality
 ---
-
-# Vector Orthogonality
-
 ## Vector [Orthogonality](Orthogonality)
 In geometry, we call two vectors $\mathbf x$ and $\mathbf y$ ''orthogonal'' of the angle between then is 90 - i.e. they are perpendicular. 
 
@@ -36,5 +35,3 @@ Zero vectors $\mathbf 0$ are orthogonal to any vector in its space
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - http://en.wikipedia.org/wiki/Orthogonality
-
-[Category:Linear Algebra](Category_Linear_Algebra)

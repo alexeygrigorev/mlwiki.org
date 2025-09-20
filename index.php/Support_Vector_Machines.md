@@ -1,11 +1,11 @@
 ---
-title: "Support Vector Machines"
 layout: default
 permalink: /index.php/Support_Vector_Machines
+tags:
+- kernel-methods
+- machine-learning
+title: Support Vector Machines
 ---
-
-# Support Vector Machines
-
 ## Support Vector Machines
 
 ## SVM vs Logistic Regression
@@ -307,6 +307,3 @@ if $n$ is small, m is large
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Kernel Methods](Category_Kernel_Methods)
-[Category:Machine Learning](Category_Machine_Learning)

@@ -1,11 +1,10 @@
 ---
-title: "Introduction to Data Science (coursera)"
 layout: default
 permalink: /index.php/Introduction_to_Data_Science_(coursera)
+tags:
+- coursera
+title: Introduction to Data Science (coursera)
 ---
-
-# Introduction to Data Science (coursera)
-
 (Spring 2013)
 
 
@@ -35,5 +34,3 @@ permalink: /index.php/Introduction_to_Data_Science_(coursera)
 
 ## Links
 - [Lecture Notes](http://www.dropbox.com/s/t80ks03gqvbq3rs/Introduction%20to%20Data%20Science%20coursera.pdf)
-
-[Category:Coursera](Category_Coursera)

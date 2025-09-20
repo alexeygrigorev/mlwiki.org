@@ -1,11 +1,13 @@
 ---
-title: "Functional Programming Principles in Scala (coursera)"
 layout: default
 permalink: /index.php/Functional_Programming_Principles_in_Scala_(coursera)
+tags:
+- coursera
+- functional-programming
+- russian
+- scala
+title: Functional Programming Principles in Scala (coursera)
 ---
-
-# Functional Programming Principles in Scala (coursera)
-
 Конспект курса "Functional Programming Principles in Scala"
 
 Ссылки:
@@ -1726,8 +1728,3 @@ msort(fruits)
 - и быть видимыми
 
 Во всех остальных случаях будет выброшено исключение
-
-[Category:Russian](Category_Russian)
-[Category:Functional Programming](Category_Functional_Programming)
-[Category:Coursera](Category_Coursera)
-[Category:Scala](Category_Scala)

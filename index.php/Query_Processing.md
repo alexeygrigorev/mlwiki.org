@@ -1,11 +1,11 @@
 ---
-title: "Query Processing"
 layout: default
 permalink: /index.php/Query_Processing
+tags:
+- database-systems-architecture
+- relational-databases
+title: Query Processing
 ---
-
-# Query Processing
-
 ## Query Processing Pipeline
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/query-processing-outline.png" alt="Image">
 
@@ -26,6 +26,3 @@ Steps:
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Relational Databases](Category_Relational_Databases)

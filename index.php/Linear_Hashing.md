@@ -1,11 +1,11 @@
 ---
-title: "Linear Hashing"
 layout: default
 permalink: /index.php/Linear_Hashing
+tags:
+- database-indexes
+- database-systems-architecture
+title: Linear Hashing
 ---
-
-# Linear Hashing
-
 ## Linear Hashing
 - another dynamic hashing schema
 - but without a directory that doubles in size as in [Extensible Hashing](Extensible_Hashing)
@@ -116,6 +116,3 @@ Very Bad Case
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Database Indexes](Category_Database_Indexes)

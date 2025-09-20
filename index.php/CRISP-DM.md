@@ -1,11 +1,10 @@
 ---
-title: "CRISP-DM"
 layout: default
 permalink: /index.php/CRISP-DM
+tags:
+- data-mining
+title: CRISP-DM
 ---
-
-# CRISP-DM
-
 ## Data Mining Process
 CRISP-DM [http://en.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining]
 - CRISP-DM (CRoss Industry Standard Process for Data Mining)
@@ -80,5 +79,3 @@ Subjective Measures:
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Data Mining](Category_Data_Mining)

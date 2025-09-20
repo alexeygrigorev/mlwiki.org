@@ -1,11 +1,11 @@
 ---
-title: "Lock-Based Scheduler"
 layout: default
 permalink: /index.php/Lock-Based_Scheduler
+tags:
+- concurrency
+- database-systems-architecture
+title: Lock-Based Scheduler
 ---
-
-# Lock-Based Scheduler
-
 ## Lock-Based Scheduler
 This is a [Scheduler](Scheduler) that gives [Conflict-Serializable Schedule](Serializable_Sheduling)
 
@@ -97,6 +97,3 @@ Also there are hierarchical locks
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Concurrency](Category_Concurrency)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

@@ -1,11 +1,10 @@
 ---
-title: "Flowshop Problem"
 layout: default
 permalink: /index.php/Flowshop_Problem
+tags:
+- multi-objective-optimization
+title: Flowshop Problem
 ---
-
-# Flowshop Problem
-
 {{stub}}
 
 ## Flowshop Problem
@@ -29,5 +28,3 @@ There are two objectives:
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Objective Optimization](Category_Multi-Objective_Optimization)

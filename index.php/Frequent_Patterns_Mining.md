@@ -1,11 +1,11 @@
 ---
-title: "Frequent Patterns Mining"
 layout: default
 permalink: /index.php/Frequent_Patterns_Mining
+tags:
+- python
+- rule-mining
+title: Frequent Patterns Mining
 ---
-
-# Frequent Patterns Mining
-
 ## Frequent [Pattern Mining](Pattern_Mining)
 This is a part of [Local Pattern Discovery](Local_Pattern_Discovery)
 - that deals with Descriptive Patterns 
@@ -125,6 +125,3 @@ After we found Frequent patterns it's easy to find association rules
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Rule Mining](Category_Rule_Mining)
-[Category:Python](Category_Python)

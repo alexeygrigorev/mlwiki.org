@@ -1,11 +1,12 @@
 ---
-title: "Probability"
 layout: default
 permalink: /index.php/Probability
+tags:
+- probability
+- russian
+- подготовка-к-шад
+title: Probability
 ---
-
-# Probability
-
 ## События и испытания
 
 ''Событие'' называется ''случайным'', если при осуществлении определённой совокупности условий $S$ оно может либо произойти, либо не произойти.
@@ -92,7 +93,3 @@ $P(A) = \frac{m}{n}$, где $m$ - число благоприятствующи
 
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

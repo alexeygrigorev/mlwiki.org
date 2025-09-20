@@ -1,11 +1,10 @@
 ---
-title: "Model Selection"
 layout: default
 permalink: /index.php/Model_Selection
+tags:
+- machine-learning
+title: Model Selection
 ---
-
-# Model Selection
-
 ## Model Selection
 Model Selection is a way to fit parameters such as 
 - learning rate $\alpha$ for [Gradient Descent](Gradient_Descent)
@@ -19,5 +18,3 @@ Model Selection is a way to fit parameters such as
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Machine Learning](Category_Machine_Learning)

@@ -1,11 +1,10 @@
 ---
-title: "May's Theorem"
 layout: default
 permalink: /index.php/May's_Theorem
+tags:
+- voting-theory
+title: May's Theorem
 ---
-
-# May's Theorem
-
 ## May's Theorem
 May's Theorem is a [Voting Theory](Voting_Theory) theorem
 
@@ -50,5 +49,3 @@ $\square$
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Voting Theory](Category_Voting_Theory)

@@ -1,11 +1,13 @@
 ---
-title: "Trigonometric Functions"
 layout: default
 permalink: /index.php/Trigonometric_Functions
+tags:
+- calculus
+- cheat-sheets
+- derivatives
+- integrals
+title: Trigonometric Functions
 ---
-
-# Trigonometric Functions
-
 ## Trigonometric Functions
 The Trigonometric [Functions](Functions) are functions of angles
 - they relate angles of a triangle to the length of its sides 
@@ -144,8 +146,3 @@ Harder Integrals:
 - [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
 - http://calculus-geometry.hubpages.com/hub/Trig-Identities-Derivatives-Antiderivatives-sin-cos-tan-Formulas
 - https://en.wikipedia.org/wiki/Trigonometric_functions
-
-[Category:Calculus](Category_Calculus)
-[Category:Derivatives](Category_Derivatives)
-[Category:Integrals](Category_Integrals)
-[Category:Cheat Sheets](Category_Cheat_Sheets)

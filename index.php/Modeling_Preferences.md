@@ -1,11 +1,10 @@
 ---
-title: "Modeling Preferences"
 layout: default
 permalink: /index.php/Modeling_Preferences
+tags:
+- multi-criteria-decision-aid
+title: Modeling Preferences
 ---
-
-# Modeling Preferences
-
 ## Modeling Preferences
 To be able to find the best solution for [MCDA](Multi-Criteria_Decision_Aid) problems we need to know ''subjective preferences'':
 - these are binary relations provided by a decision maker 
@@ -53,5 +52,3 @@ This is an important condition between preferences and criteria: the criteria sh
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

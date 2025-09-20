@@ -1,11 +1,10 @@
 ---
-title: "Parliamentary Allocation"
 layout: default
 permalink: /index.php/Parliamentary_Allocation
+tags:
+- voting-theory
+title: Parliamentary Allocation
 ---
-
-# Parliamentary Allocation
-
 ## Parliamentary Allocation
 Suppose we run an election. We want to allocate seats in the parliament proportionally to the number of votes each party received. 
 
@@ -37,5 +36,3 @@ For example,
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Voting Theory](Category_Voting_Theory)

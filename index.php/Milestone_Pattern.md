@@ -1,11 +1,10 @@
 ---
-title: "Milestone Pattern"
 layout: default
 permalink: /index.php/Milestone_Pattern
+tags:
+- business-process-management
+title: Milestone Pattern
 ---
-
-# Milestone Pattern
-
 {{stub}}
 
 ## Milestone Pattern
@@ -21,5 +20,3 @@ Consider the following example:
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)

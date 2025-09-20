@@ -1,11 +1,10 @@
 ---
-title: "Gradient Descent"
 layout: default
 permalink: /index.php/Gradient_Descent
+tags:
+- machine-learning
+title: Gradient Descent
 ---
-
-# Gradient Descent
-
 ## Gradient Descent
 Suppose we have a cost function $J$ and want to minimize it 
 - say it takes 2 parameters $\theta_0$ and $\theta_1$
@@ -151,5 +150,3 @@ Apart from [Linear Regression](Linear_Regression), Gradient Descent may also be 
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Machine Learning](Category_Machine_Learning)

@@ -1,11 +1,12 @@
 ---
-title: "Geometric Distribution"
 layout: default
 permalink: /index.php/Geometric_Distribution
+tags:
+- distributions
+- probability
+- russian
+title: Geometric Distribution
 ---
-
-# Geometric Distribution
-
 ## Geometric Distribution
 A geometric distribution is a Discrete [Distribution](Distribution) of [Random Variable](Random_Variable)s
 
@@ -47,7 +48,3 @@ $p, qp, q^2 p, ..., q^{k - 1} p, ...$
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)
-[Category:Distributions](Category_Distributions)

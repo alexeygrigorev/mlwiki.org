@@ -1,11 +1,10 @@
 ---
-title: "Multinomial Distribution"
 layout: default
 permalink: /index.php/Multinomial_Distribution
+tags:
+- distributions
+title: Multinomial Distribution
 ---
-
-# Multinomial Distribution
-
 {{stub}}
 
 ## Multinomial Distribution
@@ -21,6 +20,3 @@ It's an extension of [Binomial Distribution](Binomial_Distribution)
 
 ## Sources
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
-
-
-[Category:Distributions](Category_Distributions)

@@ -1,11 +1,12 @@
 ---
-title: "Kd-Trees"
 layout: default
 permalink: /index.php/Kd-Trees
+tags:
+- data-structures
+- database-indexes
+- database-systems-architecture
+title: Kd-Trees
 ---
-
-# Kd-Trees
-
 ## $kd$-Trees
 - it's a generalization of [binary search trees](Binary_Search_Trees) to multidimensional data
 - Main Memory structure (not [Secondary Storage](Secondary_Storage)|  ) | |
@@ -66,7 +67,3 @@ The described algorithm is for Main Memory, not for disk
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-[Category:Data Structures](Category_Data_Structures)
-[Category:Database Indexes](Category_Database_Indexes)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

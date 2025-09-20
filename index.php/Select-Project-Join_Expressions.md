@@ -1,11 +1,10 @@
 ---
-title: "Select-Project-Join Expressions"
 layout: default
 permalink: /index.php/Select-Project-Join_Expressions
+tags:
+- relational-databases
+title: Select-Project-Join Expressions
 ---
-
-# Select-Project-Join Expressions
-
 ## Select-Project-Join Expression
 In practice, most [Relational Algebra](Relational_Algebra) expressions (i.e. queries) are of the ''Select-Project-Join'' form (SPJ)
 
@@ -37,6 +36,3 @@ This type of query is very interesting for [Logical Query Plan Optimization](Log
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-
-[Category:Relational Databases](Category_Relational_Databases)

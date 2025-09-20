@@ -1,11 +1,14 @@
 ---
-title: "Data Analysis (coursera)"
 layout: default
 permalink: /index.php/Data_Analysis_(coursera)
+tags:
+- coursera
+- data-analysis
+- data-mining
+- machine-learning
+- notes
+title: Data Analysis (coursera)
 ---
-
-# Data Analysis (coursera)
-
 ## Data Analysis (coursera)
 
 Covered Topics:
@@ -29,10 +32,3 @@ Data Analysis notes by [Felix Y.H. Fan](http://rpubs.com/Felix)
 - [Part 8](http://rpubs.com/Felix/7645): [Smoothing](Smoothing), (Lowess (loess) ), regression with splines 
 - [Part 9](http://rpubs.com/Felix/7624): [Bootstrap](Bootstrap), [Bagging](Bagging) (Bootstrap Aggregating), [Ensemble Models](Ensemble_Learning) (combining predictors), [SVM](SVM)
 - [Part 10](http://rpubs.com/Felix/7646): Multiple testing, family-wise error rate (FWER), false discovery rate (FDR),  Simulation for model checking
-
-
-[Category:Data Analysis](Category_Data_Analysis)
-[Category:Data Mining](Category_Data_Mining)
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Coursera](Category_Coursera)
-[Category:Notes](Category_Notes)

@@ -1,11 +1,10 @@
 ---
-title: "Cramer's Rule"
 layout: default
 permalink: /index.php/Cramer's_Rule
+tags:
+- linear-algebra
+title: Cramer's Rule
 ---
-
-# Cramer's Rule
-
 ## Cramer's Rule
 This is a method for finding a [Matrix Inverse](Inverse_Matrices) and for solving a [System of Linear Equations](System_of_Linear_Equations).
 
@@ -128,6 +127,3 @@ This is known as not very practical method for computing the inverse or for solv
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - Strang, G. Introduction to linear algebra.
 - http://en.wikipedia.org/wiki/Cramer%27s_rule
-
-
-[Category:Linear Algebra](Category_Linear_Algebra)

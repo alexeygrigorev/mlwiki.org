@@ -1,11 +1,10 @@
 ---
-title: "Cooperation Game"
 layout: default
 permalink: /index.php/Cooperation_Game
+tags:
+- game-theory
+title: Cooperation Game
 ---
-
-# Cooperation Game
-
 ## Cooperation Games
 Unlike [Pure Competition Game](Pure_Competition_Game)s where players have opposite interests, here players have the same interests 
 - $\forall a \in A, \forall i, j: u_i(a) = u_j(a)$
@@ -39,5 +38,3 @@ There are two [Nash Equilibria](Nash_Equilibrium):
 
 ## Sources
 - [Game Theory (coursera)](Game_Theory_(coursera))
-
-[Category:Game Theory](Category_Game_Theory)

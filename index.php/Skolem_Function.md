@@ -1,11 +1,10 @@
 ---
-title: "Skolem Function"
 layout: default
 permalink: /index.php/Skolem_Function
+tags:
+- logic
+title: Skolem Function
 ---
-
-# Skolem Function
-
 ## Skolem Function
 ### Intuition
 Suppose, we have the following [Conjunctive Query](Conjunctive_Query):
@@ -37,5 +36,3 @@ But we can infer other things as well
 
 ## Sources
 - Web Data Management book [http://webdam.inria.fr/Jorge]
-
-[Category:Logic](Category_Logic)

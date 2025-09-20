@@ -1,11 +1,10 @@
 ---
-title: "Error Analysis"
 layout: default
 permalink: /index.php/Error_Analysis
+tags:
+- machine-learning
+title: Error Analysis
 ---
-
-# Error Analysis
-
 ## Prioritizing
 - Suppose we want to build a spam classifier 
 - How we should spend time to do that? 
@@ -50,5 +49,3 @@ so we manually examine the 100 errors and categorize them based on
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Machine Learning](Category_Machine_Learning)

@@ -1,11 +1,10 @@
 ---
-title: "Plurality Voting"
 layout: default
 permalink: /index.php/Plurality_Voting
+tags:
+- voting-theory
+title: Plurality Voting
 ---
-
-# Plurality Voting
-
 ## Plurality Voting
 This a voting mechanism from [Voting Theory](Voting_Theory)
 
@@ -116,5 +115,3 @@ This property is not satisfied
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - Social Choice Theory and Multicriteria Decision Aiding [http://www-desir.lip6.fr/publications/pub_1389_1_BouyssouMarchantPerny_soc_choice.pdf]
-
-[Category:Voting Theory](Category_Voting_Theory)

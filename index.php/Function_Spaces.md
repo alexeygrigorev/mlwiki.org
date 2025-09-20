@@ -1,11 +1,11 @@
 ---
-title: "Function Spaces"
 layout: default
 permalink: /index.php/Function_Spaces
+tags:
+- calculus
+- linear-algebra
+title: Function Spaces
 ---
-
-# Function Spaces
-
 {{stub}}
 
 ## Function Spaces
@@ -22,6 +22,3 @@ Properties:
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Calculus](Category_Calculus)
-[Category:Linear Algebra](Category_Linear_Algebra)

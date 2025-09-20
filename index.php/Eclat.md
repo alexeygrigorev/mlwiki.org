@@ -1,11 +1,11 @@
 ---
-title: "Eclat"
 layout: default
 permalink: /index.php/Eclat
+tags:
+- python
+- rule-mining
+title: Eclat
 ---
-
-# Eclat
-
 ## Eclat
 This is an algorithm for [Frequent Pattern Mining](Frequent_Pattern_Mining) based on [Depth-First Search](Depth-First_Search) traversal of the itemset [Lattice](Lattice)
 - but it's rather a DFS traversal of the prefix tree than lattice
@@ -152,6 +152,3 @@ To be able to calculate support quicker,
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Rule Mining](Category_Rule_Mining)
-[Category:Python](Category_Python)

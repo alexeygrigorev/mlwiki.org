@@ -1,11 +1,11 @@
 ---
-title: "SPARQL"
 layout: default
 permalink: /index.php/SPARQL
+tags:
+- query-languages
+- semantic-web
+title: SPARQL
 ---
-
-# SPARQL
-
 ## SPARQL
 In [Semantic Web](Semantic_Web), SPARQL is a query language for getting information from [RDF](RDF) graphs
 - SPARQL = SPARQL Protocol and RDF Query Language
@@ -516,6 +516,3 @@ SPARQL endpoints
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
 - http://en.wikipedia.org/wiki/SPARQL
-
-[Category:Semantic Web](Category_Semantic_Web)
-[Category:Query Languages](Category_Query_Languages)

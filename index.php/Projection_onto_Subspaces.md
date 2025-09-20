@@ -1,11 +1,10 @@
 ---
-title: "Projection onto Subspaces"
 layout: default
 permalink: /index.php/Projection_onto_Subspaces
+tags:
+- linear-algebra
+title: Projection onto Subspaces
 ---
-
-# Projection onto Subspaces
-
 $\require{cancel}$
 
 ## Projections
@@ -246,6 +245,3 @@ What if $m = n$?
 - Strang, G. Introduction to linear algebra.
 - http://physics-help.info/physicsguide/appendices/vectors.shtml
 - http://en.wikipedia.org/wiki/Linear_least_squares_%28mathematics%29
-
-
-[Category:Linear Algebra](Category_Linear_Algebra)

@@ -1,11 +1,11 @@
 ---
-title: "Workflow Nets/Workflow Patterns"
 layout: default
 permalink: /index.php/Workflow_Nets_Workflow_Patterns
+tags:
+- business-process-management
+- petri-nets
+title: Workflow Nets/Workflow Patterns
 ---
-
-# Workflow Nets/Workflow Patterns
-
 {{stub}}
 
 ## [Workflow Patterns](Workflow_Patterns) in Workflow Nets
@@ -63,6 +63,3 @@ Deferred Choice vs Exclusive Choice
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)
-[Category:Petri Nets](Category_Petri_Nets)

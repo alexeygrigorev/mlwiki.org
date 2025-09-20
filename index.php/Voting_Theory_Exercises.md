@@ -1,11 +1,10 @@
 ---
-title: "Voting Theory Exercises"
 layout: default
 permalink: /index.php/Voting_Theory_Exercises
+tags:
+- voting-theory
+title: Voting Theory Exercises
 ---
-
-# Voting Theory Exercises
-
 ## [Voting Theory](Voting_Theory) Exercises
 - Exercises: [https://www.dropbox.com/s/lfu7jt16n99pmyj/session-01-voting%20theory.pdf]
 - Solutions: [https://www.dropbox.com/s/69u5we1cuux1z67/session-01-voting%20theory%20solutions.pdf]
@@ -81,5 +80,3 @@ And there can be no cycles: too few voters for this
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Voting Theory](Category_Voting_Theory)

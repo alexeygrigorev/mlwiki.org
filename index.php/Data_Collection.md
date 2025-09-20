@@ -1,11 +1,10 @@
 ---
-title: "Data Collection"
 layout: default
 permalink: /index.php/Data_Collection
+tags:
+- statistics
+title: Data Collection
 ---
-
-# Data Collection
-
 ## Data Collection
 In [Statistics](Statistics), there is 
 - a research question about the target population
@@ -28,5 +27,3 @@ There are several types of data collection:
 
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-[Category:Statistics](Category_Statistics)

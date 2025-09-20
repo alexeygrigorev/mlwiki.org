@@ -1,11 +1,10 @@
 ---
-title: "XML"
 layout: default
 permalink: /index.php/XML
+tags:
+- xml
+title: XML
 ---
-
-# XML
-
 ## XML
 XML is a [Semi-Structured Data Model](Semi-Structured_Data_Model) for many applications
 
@@ -299,5 +298,3 @@ Several namespaces
 
 ## Sources
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:XML](Category_XML)

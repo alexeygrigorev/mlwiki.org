@@ -1,11 +1,10 @@
 ---
-title: "RDFS-Plus"
 layout: default
 permalink: /index.php/RDFS-Plus
+tags:
+- semantic-web
+title: RDFS-Plus
 ---
-
-# RDFS-Plus
-
 ## RDFS-Plus
 In [Semantic Web](Semantic_Web) [RDFS-Plus](RDFS-Plus) is an extension of [RDFS](RDFS), and a subset of [OWL](OWL)
 - even though the namespace is [OWL](OWL), it's considered as a subset 
@@ -242,5 +241,3 @@ Examples:
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:Semantic Web](Category_Semantic_Web)

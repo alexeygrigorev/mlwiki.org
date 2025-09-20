@@ -1,11 +1,11 @@
 ---
-title: "Quad Trees"
 layout: default
 permalink: /index.php/Quad_Trees
+tags:
+- database-indexes
+- database-systems-architecture
+title: Quad Trees
 ---
-
-# Quad Trees
-
 ## Quad Trees
 This is [Tree-Based](Binary_Search_Trees) [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_(databases)) 
 
@@ -40,7 +40,3 @@ Lookups, Insertions and Deletions are very similar to [kd-Trees](kd-Trees)
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-
-[Category:Database Indexes](Category_Database_Indexes)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

@@ -1,12 +1,12 @@
 ---
-title: "ANTLR4 Maven"
 layout: default
 permalink: /index.php/ANTLR4_Maven
+tags:
+- java
+- maven
+- programming
+title: ANTLR4 Maven
 ---
-
-# ANTLR4 Maven
-
-
 == pom.xml == 
 
 ```xml
@@ -99,6 +99,3 @@ permalink: /index.php/ANTLR4_Maven
 
 - http://stackoverflow.com/questions/6487593/what-does-fragment-means-in-antlr
 - http://stackoverflow.com/questions/17720608/curbing-antlr4-greediness-building-antlr4-grammar-for-existing-dsl
-
-
-[Category:Java](Category_Java) [Category:Maven](Category_Maven) [Category:Programming](Category_Programming)

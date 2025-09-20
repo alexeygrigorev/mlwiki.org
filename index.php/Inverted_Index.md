@@ -1,11 +1,11 @@
 ---
-title: "Inverted Index"
 layout: default
 permalink: /index.php/Inverted_Index
+tags:
+- database-indexes
+- information-retrieval
+title: Inverted Index
 ---
-
-# Inverted Index
-
 ## Inverted Index
 ### Indexing for [Information Retrieval](Information_Retrieval)
 In [Databases](Databases), [indexing](Indexing_(databases)) is needed to speed up queries
@@ -54,7 +54,3 @@ Build a dictionary: a "posting" list
 == Sources == 
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
 - Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
-
-
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:Database Indexes](Category_Database_Indexes)

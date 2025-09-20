@@ -1,11 +1,11 @@
 ---
-title: "Concurrency Control"
 layout: default
 permalink: /index.php/Concurrency_Control
+tags:
+- concurrency
+- database-systems-architecture
+title: Concurrency Control
 ---
-
-# Concurrency Control
-
 ## Concurrency Control
 A database typically serves multiple users at the same time 
 - the goal in this case is to make an impression that everything works in [isolation](Isolation_(databases))
@@ -80,6 +80,3 @@ Consistent state:
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - [Design Patterns for Distributed Non-relational Databases](http://www.slideshare.net/guestdfd1ec/design-patterns-for-distributed-nonrelational-databases)
 - http://en.wikipedia.org/wiki/Concurrency_control
-
-[Category:Concurrency](Category_Concurrency)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

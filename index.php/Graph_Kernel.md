@@ -1,11 +1,10 @@
 ---
-title: "Graph Kernel"
 layout: default
 permalink: /index.php/Graph_Kernel
+tags:
+- graphs
+title: Graph Kernel
 ---
-
-# Graph Kernel
-
 ## [Graph](Graph) Kernel
 A ''kernel'' of a graph $K \subset V$ is ($V$ - all nodes of a graph)
 - $\forall a \in K, \not \exists b: a \to b$
@@ -35,6 +34,3 @@ Remarks:
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - http://web.itu.edu.tr/~topcuil/ya/MDM08Outranking.pptx
 - http://electre.no.sapo.pt/MElecI2.htm
-
-
-[Category:Graphs](Category_Graphs)

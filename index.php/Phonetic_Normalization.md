@@ -1,11 +1,10 @@
 ---
-title: "Phonetic Normalization"
 layout: default
 permalink: /index.php/Phonetic_Normalization
+tags:
+- information-retrieval
+title: Phonetic Normalization
 ---
-
-# Phonetic Normalization
-
 ## Phonetic Normalization
 Phonetic normalization is a form of [Text Normalization](Text_Normalization) done for [Information Retrieval](Information_Retrieval) applications
 
@@ -51,5 +50,3 @@ Useful for
 
 ## Sources
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
-
-[Category:Information Retrieval](Category_Information_Retrieval)

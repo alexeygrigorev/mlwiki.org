@@ -1,11 +1,10 @@
 ---
-title: "Data Cleaning"
 layout: default
 permalink: /index.php/Data_Cleaning
+tags:
+- data-cleaning
+title: Data Cleaning
 ---
-
-# Data Cleaning
-
 ## Data Cleaning
 There can be several problems with data 
 - Missing values - NAs, NULLs, empty or blank values
@@ -43,5 +42,3 @@ Duplicate Data: major issue when you merge data from different sources
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Data Cleaning](Category_Data_Cleaning)

@@ -1,11 +1,10 @@
 ---
-title: "Basis (Linear Algebra)"
 layout: default
 permalink: /index.php/Basis_(Linear_Algebra)
+tags:
+- linear-algebra
+title: Basis (Linear Algebra)
 ---
-
-# Basis (Linear Algebra)
-
 ## Basis (Linear Algebra)
 In Linear Algebra, ''basis'' is a set of [linearly independent](Linear_Independence) vectors $\mathbf v_1, ...,  \mathbf v_n$ 
 
@@ -78,5 +77,3 @@ Every space has some basis, and each basis of this space has the same number of 
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

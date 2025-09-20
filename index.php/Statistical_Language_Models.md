@@ -1,11 +1,11 @@
 ---
-title: "Statistical Language Models"
 layout: default
 permalink: /index.php/Statistical_Language_Models
+tags:
+- information-retrieval
+- nlp
+title: Statistical Language Models
 ---
-
-# Statistical Language Models
-
 ## Statistical Language Models
 A statistical language model (Language Model for short) is a probability distribution over sequences of words (i.e. over sentences)
 
@@ -127,6 +127,3 @@ There are also models that take into account the structure of natural languages
 ## Sources
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
-
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:NLP](Category_NLP)

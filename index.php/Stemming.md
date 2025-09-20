@@ -1,11 +1,11 @@
 ---
-title: "Stemming"
 layout: default
 permalink: /index.php/Stemming
+tags:
+- information-retrieval
+- nlp
+title: Stemming
 ---
-
-# Stemming
-
 ## Stemming
 Stemming is a part of [NLP Pipeline](NLP_Pipeline) useful in [Text Mining](Text_Mining) and [Information Retrieval](Information_Retrieval)
 - ''stemming'' is an algorithm that extract the morphological root of a word 
@@ -60,6 +60,3 @@ stem = snowball_stemmer.stem(unigram)
 
 ## Sources
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
-
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:NLP](Category_NLP)

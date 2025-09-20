@@ -1,11 +1,11 @@
 ---
-title: "Principal Component Analysis"
 layout: default
 permalink: /index.php/Principal_Component_Analysis
+tags:
+- algebra
+- machine-learning
+title: Principal Component Analysis
 ---
-
-# Principal Component Analysis
-
 ## Principal Component Analysis
 Principal Component Analysis is the most popular and commonly used technique for [Dimensionality Reduction](Dimensionality_Reduction)
 
@@ -34,6 +34,3 @@ To reduce from $N$-dim to $K$-dim
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Algebra](Category_Algebra)

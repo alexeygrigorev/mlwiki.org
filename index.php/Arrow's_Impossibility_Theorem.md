@@ -1,11 +1,10 @@
 ---
-title: "Arrow's Impossibility Theorem"
 layout: default
 permalink: /index.php/Arrow's_Impossibility_Theorem
+tags:
+- voting-theory
+title: Arrow's Impossibility Theorem
 ---
-
-# Arrow's Impossibility Theorem
-
 ## Arrow's Impossibility Theorem
 Arrow's Impossibility Theorem is a [Voting Theory](Voting_Theory) theorem (sometimes called ''Arrow's Paradox'')
 
@@ -276,5 +275,3 @@ How to overcome this limitation?
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - EC228 Voting Theory Lecture Notes [http://www2.warwick.ac.uk/fac/soc/economics/current/modules/ec228/details/lecturenotes/lecturenotesbook.pdf]
-
-[Category:Voting Theory](Category_Voting_Theory)

@@ -1,11 +1,11 @@
 ---
-title: "Distance Functions"
 layout: default
 permalink: /index.php/Distance_Functions
+tags:
+- distances
+- norms
+title: Distance Functions
 ---
-
-# Distance Functions
-
 {{stub}}
 
 ## Distance
@@ -34,7 +34,3 @@ Non-metric
 
 ## Source
 - http://en.wikipedia.org/wiki/Metric_%28mathematics%29
-
-
-[Category:Distances](Category_Distances)
-[Category:Norms](Category_Norms)

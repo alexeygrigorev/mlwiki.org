@@ -1,11 +1,11 @@
 ---
-title: "Density Plot"
 layout: default
 permalink: /index.php/Density_Plot
+tags:
+- plots
+- r
+title: Density Plot
 ---
-
-# Density Plot
-
 ## Density Plot
 It's like a [Histogram](Histogram), but smoothed out
 - The smooting is done with [Kernel](Kernel)s 
@@ -49,6 +49,3 @@ lines(densF, lwd=3, col="orange")
 
 ## Sources
 - [Data Analysis (coursera)](Data_Analysis_(coursera))
-
-[Category:Plots](Category_Plots)
-[Category:R](Category_R)

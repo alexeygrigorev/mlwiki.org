@@ -1,11 +1,10 @@
 ---
-title: "Data Discretization"
 layout: default
 permalink: /index.php/Data_Discretization
+tags:
+- data-transformation
+title: Data Discretization
 ---
-
-# Data Discretization
-
 ## Data Discretization
 What if we want to [transform](Data_Transformation) a continuous attribute to a categorical?
 
@@ -40,5 +39,3 @@ Uses entropy to find the best way to split your data
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Data Transformation](Category_Data_Transformation)

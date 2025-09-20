@@ -1,11 +1,11 @@
 ---
-title: "Mathematical Definition Extraction"
 layout: default
 permalink: /index.php/Mathematical_Definition_Extraction
+tags:
+- nlp
+- thesis
+title: Mathematical Definition Extraction
 ---
-
-# Mathematical Definition Extraction
-
 ## Mathematical Definition Extraction
 Mathematical expressions are hard to understand without the natural language description, so
 we want to find identifiers in the mathematical expressions and extract their definition from the surrounding text
@@ -217,6 +217,3 @@ So same problems as in NLP: a lot of ambiguity and variability
 - Kristianto, Giovanni Yoko, et al. "Extracting definitions of mathematical expressions in scientific papers." Proc. of the 26th Annual Conference of JSAI. 2012. ([pdf](http://kaigi.org/jsai/webprogram/2012/pdf/719.pdf))
 - Kristianto, Giovanni Yoko, and Akiko Aizawa. "Extracting Textual Descriptions of Mathematical Expressions in Scientific Papers." D-Lib Magazine 20.11 (2014) ([html](http://www.dlib.org/dlib/november14/kristianto/11kristianto.html))
 - Pagael, Rober, and Moritz Schubotz. "Mathematical Language Processing Project." arXiv preprint arXiv:1407.0167 (2014). ([abstract](http://arxiv.org/abs/1407.0167))
-
-[Category:NLP](Category_NLP)
-[Category:Thesis](Category_Thesis)

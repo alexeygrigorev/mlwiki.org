@@ -1,11 +1,10 @@
 ---
-title: "Non-Deterministic Finite Automata"
 layout: default
 permalink: /index.php/Non-Deterministic_Finite_Automata
+tags:
+- automata
+title: Non-Deterministic Finite Automata
 ---
-
-# Non-Deterministic Finite Automata
-
 ## Non-Deterministic Finite Automata
 [Automata](Automata) that are ''non-deterministic'' (NFA) can be in several states at once 
 - from a state $q$ on input $a$ it can go to several different states 
@@ -336,5 +335,3 @@ Transformation
 ## Sources
 - [Automata (coursera)](Automata_(coursera))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:Automata](Category_Automata)

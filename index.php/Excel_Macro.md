@@ -1,12 +1,12 @@
 ---
-title: "Excel Macro"
 layout: default
 permalink: /index.php/Excel_Macro
+tags:
+- scripts
+- snippets
+- vba
+title: Excel Macro
 ---
-
-# Excel Macro
-
-
 ## Удаляет все пустые строки на всех листах
 
 ```tera term macro
@@ -45,7 +45,3 @@ Sub RemoveRowsWithSymbol()
     Application.ScreenUpdating = True
 End Sub
 ```
-
-[Category:Scripts](Category_Scripts)
-[Category:VBA](Category_VBA)
-[Category:Snippets](Category_Snippets)

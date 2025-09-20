@@ -1,11 +1,12 @@
 ---
-title: "Smoothing for Language Models"
 layout: default
 permalink: /index.php/Smoothing_for_Language_Models
+tags:
+- information-retrieval
+- nlp
+- regularization
+title: Smoothing for Language Models
 ---
-
-# Smoothing for Language Models
-
 ## Smoothing for Language Models
 It's a form of [Regularization](Regularization) for [Statistical Language Models](Statistical_Language_Models)
 
@@ -210,8 +211,3 @@ Can try:
 
 ## Sources
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
-
-
-[Category:NLP](Category_NLP)
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:Regularization](Category_Regularization)

@@ -1,11 +1,10 @@
 ---
-title: "Deterministic Finite Automata"
 layout: default
 permalink: /index.php/Deterministic_Finite_Automata
+tags:
+- automata
+title: Deterministic Finite Automata
 ---
-
-# Deterministic Finite Automata
-
 ## Deterministic Finite Automata
 Deterministic Finite Automata (DFA) are [Automata](Automata) that defile [Regular Languages](Regular_Languages)
 
@@ -169,5 +168,3 @@ In Non-Deterministic Finite Automata (NFAs) one input can lead to multiple state
 ## Sources
 - [Automata (coursera)](Automata_(coursera))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:Automata](Category_Automata)

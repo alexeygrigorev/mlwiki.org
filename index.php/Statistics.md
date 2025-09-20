@@ -1,11 +1,10 @@
 ---
-title: "Statistics"
 layout: default
 permalink: /index.php/Statistics
+tags:
+- statistics
+title: Statistics
 ---
-
-# Statistics
-
 ## Statistics
 ''Statistics'' - the science of 
 - collecting, organizing, summarizing, analyzing data
@@ -46,5 +45,3 @@ Free online books and online resources on statistics
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-[Category:Statistics](Category_Statistics)

@@ -1,11 +1,11 @@
 ---
-title: "Multi-Objective Optimization"
 layout: default
 permalink: /index.php/Multi-Objective_Optimization
+tags:
+- multi-objective-optimization
+- optimization
+title: Multi-Objective Optimization
 ---
-
-# Multi-Objective Optimization
-
 ## Multi-Objective Optimization
 In contrast to Uni-Objective [Optimization](Optimization) problems, in Multi-Objective Optimization problems there are multiple 
 
@@ -83,6 +83,3 @@ Also [MCDA](Multi-Criteria_Decision_Aid) is used for that:
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Optimization](Category_Optimization)
-[Category:Multi-Objective Optimization](Category_Multi-Objective_Optimization)

@@ -1,11 +1,10 @@
 ---
-title: "Semantic Web"
 layout: default
 permalink: /index.php/Semantic_Web
+tags:
+- semantic-web
+title: Semantic Web
 ---
-
-# Semantic Web
-
 ## Semantic Web
 Semantic Web is a web that is used to represent knowledge
 - Semantic Webs - part of Knowledge Representation, AI
@@ -147,5 +146,3 @@ How to use the SW in your applications?
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:Semantic Web](Category_Semantic_Web)

@@ -1,11 +1,11 @@
 ---
-title: "Secondary Storage"
 layout: default
 permalink: /index.php/Secondary_Storage
+tags:
+- computer-architecture
+- database-systems-architecture
+title: Secondary Storage
 ---
-
-# Secondary Storage
-
 ## Secondary Storage
 This is a part of the [Memory Hierarchy](Memory_Hierarchy)
 
@@ -129,7 +129,3 @@ We also can prefetch blocks to the main memory in anticipation they'll be needed
 
 ## Sources
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-
-[Category:Computer Architecture](Category_Computer_Architecture)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

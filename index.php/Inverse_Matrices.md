@@ -1,11 +1,10 @@
 ---
-title: "Inverse Matrices"
 layout: default
 permalink: /index.php/Inverse_Matrices
+tags:
+- linear-algebra
+title: Inverse Matrices
 ---
-
-# Inverse Matrices
-
 ## Inverse Matrices
 A square $n \times n$ matrix $A$ has inverse (or $A$ is ''invertible'') if there exists $B$ s.t. $A \times B = B \times A = I_n$ 
 - If $B$ exists, then it's denoted $A^{-1}$  
@@ -100,5 +99,3 @@ Why does it work?
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - http://en.wikipedia.org/wiki/Invertible_matrix
 - Курош А.Г. Курс Высшей Алгебры
-
-[Category:Linear Algebra](Category_Linear_Algebra)

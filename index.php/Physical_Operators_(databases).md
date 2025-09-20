@@ -1,11 +1,10 @@
 ---
-title: "Physical Operators (databases)"
 layout: default
 permalink: /index.php/Physical_Operators_(databases)
+tags:
+- database-systems-architecture
+title: Physical Operators (databases)
 ---
-
-# Physical Operators (databases)
-
 ## Intro
 Each node in a Logical [Query Plan](Query_Plan) may be executed in several ways 
 - there is no single implementation that is always better than the others 
@@ -439,5 +438,3 @@ Cost
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

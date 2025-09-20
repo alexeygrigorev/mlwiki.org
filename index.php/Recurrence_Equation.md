@@ -1,11 +1,8 @@
 ---
-title: "Recurrence Equation"
 layout: default
 permalink: /index.php/Recurrence_Equation
+title: Recurrence Equation
 ---
-
-# Recurrence Equation
-
 {{stub}}
 
 ## Recurrence Equations

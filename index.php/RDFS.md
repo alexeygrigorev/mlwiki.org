@@ -1,11 +1,10 @@
 ---
-title: "RDFS"
 layout: default
 permalink: /index.php/RDFS
+tags:
+- semantic-web
+title: RDFS
 ---
-
-# RDFS
-
 ## RDFS
 Is a schema language for [RDF](RDF)
 - roughly, [RDF](RDF) is for defining graphs, RDFS - for defining sets 
@@ -185,5 +184,3 @@ There are properties that aren't used for inference, but just for description
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:Semantic Web](Category_Semantic_Web)

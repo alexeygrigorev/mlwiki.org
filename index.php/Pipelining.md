@@ -1,11 +1,10 @@
 ---
-title: "Pipelining"
 layout: default
 permalink: /index.php/Pipelining
+tags:
+- database-systems-architecture
+title: Pipelining
 ---
-
-# Pipelining
-
 ## Pipelining
 Sometimes the output of one [physical operator](Physical_Operators_(databases)) can be used directly as input for other operator. This technique is called ''pipelining''.
 - output of an operator is stored in a buffer that serves as input for the next operator
@@ -40,5 +39,3 @@ When we cannot pipeline, we have to ''materialize'' everything. It means we have
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

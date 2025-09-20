@@ -1,11 +1,10 @@
 ---
-title: "Monotonicity"
 layout: default
 permalink: /index.php/Monotonicity
+tags:
+- voting-theory
+title: Monotonicity
 ---
-
-# Monotonicity
-
 ## Monotonicity
 The monotonicity is a [Voting Theory](Voting_Theory) criterion/principle that characterizes voting methods for choosing the winner. 
 
@@ -38,5 +37,3 @@ Methods that don't respect Monotonicity
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Voting Theory](Category_Voting_Theory)

@@ -1,11 +1,10 @@
 ---
-title: "Hierarchical Clustering"
 layout: default
 permalink: /index.php/Hierarchical_Clustering
+tags:
+- cluster-analysis
+title: Hierarchical Clustering
 ---
-
-# Hierarchical Clustering
-
 ## Hierarchical Clustering
 This is a part of [Cluster Analysis](Cluster_Analysis): we want to build a hierarchy of clusters 
 
@@ -19,6 +18,3 @@ Two major approaches:
 
 ## Sources
 - http://en.wikipedia.org/wiki/Hierarchical_clustering
-
-
-[Category:Cluster Analysis](Category_Cluster_Analysis)

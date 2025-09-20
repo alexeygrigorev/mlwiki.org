@@ -1,11 +1,10 @@
 ---
-title: "Inventory Management"
 layout: default
 permalink: /index.php/Inventory_Management
+tags:
+- decision-engineering
+title: Inventory Management
 ---
-
-# Inventory Management
-
 ## Inventory Management
 The idea behind all these Inventory Management models is to 
 - help to decide when to order new goods to replenish the stocks 
@@ -158,5 +157,3 @@ Optimization
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Engineering](Category_Decision_Engineering)

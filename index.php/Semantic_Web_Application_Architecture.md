@@ -1,11 +1,10 @@
 ---
-title: "Semantic Web Application Architecture"
 layout: default
 permalink: /index.php/Semantic_Web_Application_Architecture
+tags:
+- semantic-web
+title: Semantic Web Application Architecture
 ---
-
-# Semantic Web Application Architecture
-
 ## [Semantic Web](Semantic_Web) Application Architecture
 How to use [Semantic Web](Semantic_Web) in your application?
 
@@ -55,5 +54,3 @@ Closely related to [#RDF Store](#RDF_Store)
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - Web Data Management, Manolescu, Ioana, et al. [http://webdam.inria.fr/Jorge/]
-
-[Category:Semantic Web](Category_Semantic_Web)

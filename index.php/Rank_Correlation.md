@@ -1,11 +1,10 @@
 ---
-title: "Rank Correlation"
 layout: default
 permalink: /index.php/Rank_Correlation
+tags:
+- statistics
+title: Rank Correlation
 ---
-
-# Rank Correlation
-
 ## Rank Correlation
 a ''rank correlation'' is a measure of relationship 
 - between different rankings of the same variable
@@ -129,5 +128,3 @@ Can also use Multi-Criteria Decision Aid for that
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - http://en.wikipedia.org/wiki/Rank_correlation
 - http://en.wikipedia.org/wiki/Kendall_tau_distance
-
-[Category:Statistics](Category_Statistics)

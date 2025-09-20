@@ -1,11 +1,10 @@
 ---
-title: "Statistical Experiment"
 layout: default
 permalink: /index.php/Statistical_Experiment
+tags:
+- statistics
+title: Statistical Experiment
 ---
-
-# Statistical Experiment
-
 ## Statistical Experiments
 There are two types of [Data Collection](Data_Collection)
 - [Observation Studies](Observation_Studies) and Statistical Experiments
@@ -96,5 +95,3 @@ To reduce the bias in the human experiments, split the patients into two groups:
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-[Category:Statistics](Category_Statistics)

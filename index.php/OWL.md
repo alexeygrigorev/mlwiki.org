@@ -1,11 +1,11 @@
 ---
-title: "OWL"
 layout: default
 permalink: /index.php/OWL
+tags:
+- knowledge-representation
+- semantic-web
+title: OWL
 ---
-
-# OWL
-
 ## OWL
 OWL - Web Ontology Language
 
@@ -243,6 +243,3 @@ Protégé
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:Semantic Web](Category_Semantic_Web)
-[Category:Knowledge Representation](Category_Knowledge_Representation)

@@ -1,11 +1,10 @@
 ---
-title: "Database Transaction Log"
 layout: default
 permalink: /index.php/Database_Transaction_Log
+tags:
+- database-systems-architecture
+title: Database Transaction Log
 ---
-
-# Database Transaction Log
-
 ## Database Transaction Log
 A way to ensure [atomicity](Atomicity_(databases)), [consistency](Consistency_(databases)) and [durability](Durability_(databases)) in [Database](Database)s
 - Important for [Crash Recovery](Crash_Recovery)
@@ -21,5 +20,3 @@ A way to ensure [atomicity](Atomicity_(databases)), [consistency](Consistency_(d
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

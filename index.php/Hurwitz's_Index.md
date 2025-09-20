@@ -1,11 +1,10 @@
 ---
-title: "Hurwitz's Index"
 layout: default
 permalink: /index.php/Hurwitz's_Index
+tags:
+- decision-under-uncertainty
+title: Hurwitz's Index
 ---
-
-# Hurwitz's Index
-
 ## Hurwitz's Index
 How to choose an alternative? 
 - in [Game Theory](Game_Theory)
@@ -36,5 +35,3 @@ $\alpha = 0.5$
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Under Uncertainty](Category_Decision_Under_Uncertainty)

@@ -1,11 +1,12 @@
 ---
-title: "Normal Distribution"
 layout: default
 permalink: /index.php/Normal_Distribution
+tags:
+- distributions
+- probability
+- r
+title: Normal Distribution
 ---
-
-# Normal Distribution
-
 ## Normal Distribution
 This is a continuous Symmetric, unimodal bell-shaped [Distribution](Distribution) 
 - it has two parameters: mean $\mu$ and std $\sigma$, denoted as $N(\mu, \sigma)$
@@ -122,7 +123,3 @@ qqline(fdims$hgt, lwd=2)
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-[Category:Probability](Category_Probability)
-[Category:Distributions](Category_Distributions)
-[Category:R](Category_R)

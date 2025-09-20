@@ -1,11 +1,10 @@
 ---
-title: "Neural Networks"
 layout: default
 permalink: /index.php/Neural_Networks
+tags:
+- machine-learning
+title: Neural Networks
 ---
-
-# Neural Networks
-
 ## Motivation
 - Suppose we have a large number of features and a complex structure of data 
 - For [Logistic Regression](Logistic_Regression) we would probably need to fit a very high-order polynomial 
@@ -346,5 +345,3 @@ We can break the symmetry with random initialization
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Machine Learning](Category_Machine_Learning)

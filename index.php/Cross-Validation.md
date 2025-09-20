@@ -1,11 +1,12 @@
 ---
-title: "Cross-Validation"
 layout: default
 permalink: /index.php/Cross-Validation
+tags:
+- classifiers
+- machine-learning
+- model-performance-evaluation
+title: Cross-Validation
 ---
-
-# Cross-Validation
-
 ## Test Errors
 How you can tell that a hypothesis [overfits](Overfitting)? 
 - plotting - not always good
@@ -167,7 +168,3 @@ What if we want to preserve the class distribution over $K$ runs?
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - http://en.wikipedia.org/wiki/Cross-validation_(statistics)
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Model Performance Evaluation](Category_Model_Performance_Evaluation)
-[Category:Classifiers](Category_Classifiers)

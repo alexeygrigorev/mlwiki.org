@@ -1,11 +1,10 @@
 ---
-title: "Mediator (Data Integration)"
 layout: default
 permalink: /index.php/Mediator_(Data_Integration)
+tags:
+- data-integration
+title: Mediator (Data Integration)
 ---
-
-# Mediator (Data Integration)
-
 ## Mediator
 This is an approach to [Data Integration](Data_Integration) (opposite to [Data Warehousing](Data_Warehousing))
 - data remains in the data sources (so it's sometimes called "virtual data integration")
@@ -94,5 +93,3 @@ Ontology Based Data Access
 
 ## Sources
 - Web Data Management book [http://webdam.inria.fr/Jorge]
-
-[Category:Data Integration](Category_Data_Integration)

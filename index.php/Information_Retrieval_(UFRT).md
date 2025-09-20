@@ -1,11 +1,13 @@
 ---
-title: "Information Retrieval (UFRT)"
 layout: default
 permalink: /index.php/Information_Retrieval_(UFRT)
+tags:
+- information-retrieval
+- it4bi
+- nlp
+- notes
+title: Information Retrieval (UFRT)
 ---
-
-# Information Retrieval (UFRT)
-
 ## Information Retrieval (UFRT)
 Course taken in the winter semester of the 2013-2014 year at UFRT. 
 
@@ -48,9 +50,3 @@ Taught by
 ### Semantic Analysis
 - (Mentioned in the course description, but wasn't taught)
 - Semantic processing for information retrieval: [Latent Semantic Analysis](Latent_Semantic_Analysis)
-
-
-[Category:IT4BI](Category_IT4BI)
-[Category:Notes](Category_Notes)
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:NLP](Category_NLP)

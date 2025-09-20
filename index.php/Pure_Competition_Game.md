@@ -1,11 +1,10 @@
 ---
-title: "Pure Competition Game"
 layout: default
 permalink: /index.php/Pure_Competition_Game
+tags:
+- game-theory
+title: Pure Competition Game
 ---
-
-# Pure Competition Game
-
 ## Pure Competition Game
 This is a type of game is the [Game Theory](Game_Theory) where players have exactly opposite interests 
 - In such games there should be precisely two players (otherwise they couldn't have the opposite interests)
@@ -49,5 +48,3 @@ Is a generalization of Matching Pennies to 3 alternatives
 ## Sources
 - [Game Theory (coursera)](Game_Theory_(coursera))
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Game Theory](Category_Game_Theory)

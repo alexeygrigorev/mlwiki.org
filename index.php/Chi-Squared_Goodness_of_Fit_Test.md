@@ -1,11 +1,12 @@
 ---
-title: "Chi-Squared Goodness of Fit Test"
 layout: default
 permalink: /index.php/Chi-Squared_Goodness_of_Fit_Test
+tags:
+- r
+- statistical-tests
+- statistics
+title: Chi-Squared Goodness of Fit Test
 ---
-
-# Chi-Squared Goodness of Fit Test
-
 ## Chi-Squared Goodness of Fit Test
 This is one of [$\chi^2$ tests](Chi-Squared_Tests)
 - one-way table tests - for testing [Frequency Tables](Frequency_Tables), this one
@@ -221,8 +222,3 @@ c(x2=x2, theoretic=qchisq(0.95, df=k - 1))
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - https://onlinecourses.science.psu.edu/stat504/node/61
-
-
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:R](Category_R)

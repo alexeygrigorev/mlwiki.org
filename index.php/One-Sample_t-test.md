@@ -1,11 +1,13 @@
 ---
-title: "One-Sample t-test"
 layout: default
 permalink: /index.php/One-Sample_t-test
+tags:
+- r
+- statistical-tests
+- statistics
+- t-test
+title: One-Sample t-test
 ---
-
-# One-Sample t-test
-
 ## [One-Sample $t$-test](One-Sample_t-test)
 This is a [t-test](t-test) for one variable
 - it can be used to calculate a [Confidence Interval](Confidence_Intervals) for the true mean $\mu$ 
@@ -69,8 +71,3 @@ pt(t, df=n-1, lower.tail=F) // 5.84E-24
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://projectile.sv.cmu.edu/research/public/talks/t-test.htm
-
-[Category:T-Test](Category_T-Test)
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:R](Category_R)

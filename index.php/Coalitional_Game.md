@@ -1,11 +1,10 @@
 ---
-title: "Coalitional Game"
 layout: default
 permalink: /index.php/Coalitional_Game
+tags:
+- game-theory
+title: Coalitional Game
 ---
-
-# Coalitional Game
-
 {{draft}}
 
 ## Coalitional Games
@@ -132,5 +131,3 @@ permalink: /index.php/Coalitional_Game
 
 ## Sources
 - [Game Theory (coursera)](Game_Theory_(coursera))
-
-[Category:Game Theory](Category_Game_Theory)

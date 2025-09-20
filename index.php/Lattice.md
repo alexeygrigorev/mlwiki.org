@@ -1,11 +1,11 @@
 ---
-title: "Lattice"
 layout: default
 permalink: /index.php/Lattice
+tags:
+- dot
+- python
+title: Lattice
 ---
-
-# Lattice
-
 ## Lattice
 a Lattice is a partially ordered set in which every two elements have 
 - a supremum (also called a least upper bound or join) and 
@@ -127,6 +127,3 @@ digraph A {
 ## Sources
 - http://en.wikipedia.org/wiki/Lattice_(order)
 - http://en.wikipedia.org/wiki/Hasse_diagram
-
-[Category:Dot](Category_Dot)
-[Category:Python](Category_Python)

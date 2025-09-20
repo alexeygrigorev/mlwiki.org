@@ -1,11 +1,12 @@
 ---
-title: "Relational Databases"
 layout: default
 permalink: /index.php/Relational_Databases
+tags:
+- data-models
+- databases
+- relational-databases
+title: Relational Databases
 ---
-
-# Relational Databases
-
 ## Relational [Data Model](Data_Model)
 A relational database is a collection of ''relations''
 - everything is a table 
@@ -68,7 +69,3 @@ We indicate that the attributes form a key by <u>underlining</u> them:
 ## Sources
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-
-[Category:Relational Databases](Category_Relational_Databases)
-[Category:Databases](Category_Databases)
-[Category:Data Models](Category_Data_Models)

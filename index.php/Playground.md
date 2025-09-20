@@ -1,11 +1,8 @@
 ---
-title: "Playground"
 layout: default
 permalink: /index.php/Playground
+title: Playground
 ---
-
-# Playground
-
 Conjunctie query
 
 $ 

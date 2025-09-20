@@ -1,11 +1,12 @@
 ---
-title: "Cluster Analysis"
 layout: default
 permalink: /index.php/Cluster_Analysis
+tags:
+- cluster-analysis
+- machine-learning
+- unsupervised-learning
+title: Cluster Analysis
 ---
-
-# Cluster Analysis
-
 ## Cluster Analysis
 Clustering is about finding groups of similar objects in the data
 
@@ -163,7 +164,3 @@ Subspace clustering:
 - Jing, Liping. "Survey of text clustering." (2008). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf]
 - Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." Data mining and knowledge discovery handbook. 2010. [https://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5]
 - Xu, Wei, Xin Liu, and Yihong Gong. "Document clustering based on non-negative matrix factorization." 2003. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.2293&rep=rep1&type=pdf]
-
-[Category:Unsupervised Learning](Category_Unsupervised_Learning)
-[Category:Cluster Analysis](Category_Cluster_Analysis)
-[Category:Machine Learning](Category_Machine_Learning)

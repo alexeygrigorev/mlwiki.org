@@ -1,11 +1,10 @@
 ---
-title: "Continuous Functions"
 layout: default
 permalink: /index.php/Continuous_Functions
+tags:
+- functions
+title: Continuous Functions
 ---
-
-# Continuous Functions
-
 {{stub}}
 
 ## Continuous Functions
@@ -34,5 +33,3 @@ Discontinuous:
 
 ## Sources
 - [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
-
-[Category:Functions](Category_Functions)

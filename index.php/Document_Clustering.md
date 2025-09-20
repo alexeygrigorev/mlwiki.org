@@ -1,11 +1,13 @@
 ---
-title: "Document Clustering"
 layout: default
 permalink: /index.php/Document_Clustering
+tags:
+- cluster-analysis
+- document-clustering
+- thesis
+- unsupervised-learning
+title: Document Clustering
 ---
-
-# Document Clustering
-
 ## Document Clustering
 The goal of text clustering is
 - to assign documents to different topics or topic hierarchies
@@ -189,8 +191,3 @@ It can reduce the number of documents to consider but without losing much inform
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
 - Jing, Liping. "Survey of text clustering." (2008). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf]
 - Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
-
-[Category:Document Clustering](Category_Document_Clustering)
-[Category:Unsupervised Learning](Category_Unsupervised_Learning)
-[Category:Cluster Analysis](Category_Cluster_Analysis)
-[Category:Thesis](Category_Thesis)

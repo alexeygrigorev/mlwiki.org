@@ -1,11 +1,10 @@
 ---
-title: "Memory Hierarchy"
 layout: default
 permalink: /index.php/Memory_Hierarchy
+tags:
+- computer-architecture
+title: Memory Hierarchy
 ---
-
-# Memory Hierarchy
-
 ## The Memory Hierarchy
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/memory-hierarchy.png" alt="Image">
 
@@ -49,6 +48,3 @@ a storage with very large capacity (petabytes, etc)
 
 ## Sources
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-
-[Category:Computer Architecture](Category_Computer_Architecture)

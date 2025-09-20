@@ -1,11 +1,10 @@
 ---
-title: "Voting Theory Relations"
 layout: default
 permalink: /index.php/Voting_Theory_Relations
+tags:
+- voting-theory
+title: Voting Theory Relations
 ---
-
-# Voting Theory Relations
-
 ## Voting Theory Relations
 The relations that are defined for [Voting Theory](Voting_Theory) principles and methods. Also used in theorems such as [May's Theorem](May's_Theorem) or [Arrow's Impossibility Theorem](Arrow's_Impossibility_Theorem)
 
@@ -87,5 +86,3 @@ We can use express Preference and Indifference via this relation:
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Voting Theory](Category_Voting_Theory)

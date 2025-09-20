@@ -1,11 +1,10 @@
 ---
-title: "Similar Matrices"
 layout: default
 permalink: /index.php/Similar_Matrices
+tags:
+- linear-algebra
+title: Similar Matrices
 ---
-
-# Similar Matrices
-
 ## Similar Matrices
 We say that two $n \times n$ matrices $A$ and $B$ are ''similar''
 - if for some invertible $M$ we can write $B = M^{-1} A \, M$
@@ -73,5 +72,3 @@ Suppose $A$ has a family of similar matrices
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

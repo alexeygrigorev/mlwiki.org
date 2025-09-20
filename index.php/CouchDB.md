@@ -1,11 +1,12 @@
 ---
-title: "CouchDB"
 layout: default
 permalink: /index.php/CouchDB
+tags:
+- databases
+- distributed-systems
+- nosql
+title: CouchDB
 ---
-
-# CouchDB
-
 This is a part of the report made for [Advanced Databases (ULB)](Advanced_Databases_(ULB)) course
 - The report is available [here](http://docs.google.com/document/d/1pCfUo8TmxZkl5eFtyZGa42T5HlJJRqOBnc0TFiQAIFM/pub)
 
@@ -649,7 +650,3 @@ curl -X POST HOST/{database}/_compact
 ## Sources
 - [CouchDB The Definitive Guide by Anderson, Lehnardt and Slater](http://guide.couchdb.org/draft)
 - [CouchDB documentation: Replication and Conflict Model](http://docs.couchdb.org/en/latest/replication/conflicts.html)
-
-[Category:NoSQL](Category_NoSQL)
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:Databases](Category_Databases)

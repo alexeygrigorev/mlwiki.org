@@ -1,13 +1,8 @@
 ---
-title: "Refactor your Wetware"
 layout: default
 permalink: /index.php/Refactor_your_Wetware
+title: Refactor your Wetware
 ---
-
-# Refactor your Wetware
-
-
-
 Pragmatic Thinking and Learning: Refactor Your Wetware, Andy Hunt
 [http://www.amazon.com/Pragmatic-Thinking-Learning-Refactor-Programmers/dp/1934356050]
 

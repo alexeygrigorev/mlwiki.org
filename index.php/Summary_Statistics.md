@@ -1,11 +1,11 @@
 ---
-title: "Summary Statistics"
 layout: default
 permalink: /index.php/Summary_Statistics
+tags:
+- r
+- statistics
+title: Summary Statistics
 ---
-
-# Summary Statistics
-
 ## Five Number Summary
 Consists of 
 - ''Minimum'': the lowest point
@@ -55,6 +55,3 @@ st.dev = sd(data)
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-[Category:Statistics](Category_Statistics)
-[Category:R](Category_R)

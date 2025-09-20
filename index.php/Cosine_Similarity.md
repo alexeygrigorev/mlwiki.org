@@ -1,11 +1,11 @@
 ---
-title: "Cosine Similarity"
 layout: default
 permalink: /index.php/Cosine_Similarity
+tags:
+- distances
+- similarity-functions
+title: Cosine Similarity
 ---
-
-# Cosine Similarity
-
 ## Cosine Similarity
 Cosine similarity is a [Similarity Function](Similarity_Function) that is often used in [Information Retrieval](Information_Retrieval)
 - it measures the angle between two vectors,  and in case of IR - the angle between two documents
@@ -68,6 +68,3 @@ For [PCA](PCA) we usually do mean-correction
 
 ## Sources
 - Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On principal component analysis, cosine and Euclidean measures in information retrieval." 2007. [http://www.sciencedirect.com/science/article/pii/S0020025507002630] 
-
-[Category:Similarity Functions](Category_Similarity_Functions)
-[Category:Distances](Category_Distances)

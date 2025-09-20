@@ -1,11 +1,10 @@
 ---
-title: "Univariate Analysis"
 layout: default
 permalink: /index.php/Univariate_Analysis
+tags:
+- data-analysis
+title: Univariate Analysis
 ---
-
-# Univariate Analysis
-
 ## Univariate Analysis
 Analysis (mostly [exploratory](Exploratory_Data_Analysis)) of one variable
 - order of magnitude of this variable
@@ -35,5 +34,3 @@ Results can be used for
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - http://en.wikipedia.org/wiki/Univariate_analysis
-
-[Category:Data Analysis](Category_Data_Analysis)

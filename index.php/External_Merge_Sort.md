@@ -1,11 +1,12 @@
 ---
-title: "External Merge Sort"
 layout: default
 permalink: /index.php/External_Merge_Sort
+tags:
+- algorithms
+- database-systems-architecture
+- sorting
+title: External Merge Sort
 ---
-
-# External Merge Sort
-
 ## External Merge Sort
 Full name: ''External Memory Multi-Way Merge Sort''
 - same idea as in in-memory [Merge Sort](Merge_Sort), but extended to [Secondary Storage](Secondary_Storage)
@@ -74,7 +75,3 @@ Algorithm:
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Algorithms](Category_Algorithms)
-[Category:Sorting](Category_Sorting)

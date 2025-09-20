@@ -1,11 +1,13 @@
 ---
-title: "ROC Analysis"
 layout: default
 permalink: /index.php/ROC_Analysis
+tags:
+- classifiers
+- machine-learning
+- model-performance-evaluation
+- r
+title: ROC Analysis
 ---
-
-# ROC Analysis
-
 ## ROC Analysis
 ROC stands for '''R'''eceiver '''O'''perating '''C'''haracteristic (from Signal Detection Theory)
 - initially - for distinguishing noise from not noise
@@ -416,8 +418,3 @@ public static double auc(List<TrainingInstance> list) {
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - http://www.cs.bris.ac.uk/~flach/ICML04tutorial/ROCtutorialPartI.pdf
 - http://www.medcalc.org/manual/roc-curves.php
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Classifiers](Category_Classifiers)
-[Category:Model Performance Evaluation](Category_Model_Performance_Evaluation)
-[Category:R](Category_R)

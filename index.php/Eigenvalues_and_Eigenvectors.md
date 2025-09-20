@@ -1,11 +1,10 @@
 ---
-title: "Eigenvalues and Eigenvectors"
 layout: default
 permalink: /index.php/Eigenvalues_and_Eigenvectors
+tags:
+- linear-algebra
+title: Eigenvalues and Eigenvectors
 ---
-
-# Eigenvalues and Eigenvectors
-
 ## Eigenvalues and Eigenvectors
 Eigenvalues and eigenvectors are important in dynamic problems
 
@@ -192,5 +191,3 @@ This matrix is used for [Matrix Diagonalization](Eigendecompostion)
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - Strang, G. Introduction to linear algebra.
-
-[Category:Linear Algebra](Category_Linear_Algebra)

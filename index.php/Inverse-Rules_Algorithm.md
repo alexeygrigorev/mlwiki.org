@@ -1,11 +1,10 @@
 ---
-title: "Inverse-Rules Algorithm"
 layout: default
 permalink: /index.php/Inverse-Rules_Algorithm
+tags:
+- data-integration
+title: Inverse-Rules Algorithm
 ---
-
-# Inverse-Rules Algorithm
-
 ## Inverse-Rules Algorithm
 This is an approach for query rewriting used in [LAV Mediation](LAV_Mediation)
 - radically different from [Bucket](Bucket_Algorithm_(Data_Integration)) and [Minicon](Minicon_Algorithm)
@@ -230,5 +229,3 @@ Main advantage
 
 ## Sources
 - Web Data Management book [http://webdam.inria.fr/Jorge]
-
-[Category:Data Integration](Category_Data_Integration)

@@ -1,11 +1,12 @@
 ---
-title: "Correlation"
 layout: default
 permalink: /index.php/Correlation
+tags:
+- probability
+- russian
+- подготовка-к-шад
+title: Correlation
 ---
-
-# Correlation
-
 ## Независимые случайные величины
 Если $X$ и $Y$ независисые, то распределение одной не влияет на значение второй. Иначе случайные величины называют зависимыми.
 
@@ -81,7 +82,3 @@ $r(X, Y) = r = \cfrac{\text{cov}(X, Y)}{\sigma(X) \sigma(Y)}$
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
 - http://ru.wikipedia.org/wiki/Ковариация
 - http://ru.wikipedia.org/wiki/Корреляция
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

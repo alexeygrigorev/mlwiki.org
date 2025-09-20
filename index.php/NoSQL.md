@@ -1,11 +1,11 @@
 ---
-title: "NoSQL"
 layout: default
 permalink: /index.php/NoSQL
+tags:
+- databases
+- nosql
+title: NoSQL
 ---
-
-# NoSQL
-
 ## [RDBMSs](Relational_Databases) / Row-Oriented databases
 - Typically have strict schema
 - Declarative query language SQL (excellent for ad-hoc queries, easy joins)
@@ -84,8 +84,3 @@ Showed that persistend record storage could be scaled to thousands of nodes
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - [Web Intelligence and Big Data (coursera)](Web_Intelligence_and_Big_Data_(coursera))
 - Amazon's Dynamo paper [http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf]
-
-
-
-[Category:NoSQL](Category_NoSQL)
-[Category:Databases](Category_Databases)

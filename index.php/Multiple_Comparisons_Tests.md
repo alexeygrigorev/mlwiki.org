@@ -1,11 +1,11 @@
 ---
-title: "Multiple Comparisons Tests"
 layout: default
 permalink: /index.php/Multiple_Comparisons_Tests
+tags:
+- statistical-tests
+- statistics
+title: Multiple Comparisons Tests
 ---
-
-# Multiple Comparisons Tests
-
 ## Multiple Comparisons Tests
 
 {{stub}}
@@ -31,7 +31,3 @@ use $\alpha^* = \alpha \cdot \cfrac{1}{K}$
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://en.wikipedia.org/wiki/Familywise_error_rate
-
-
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)

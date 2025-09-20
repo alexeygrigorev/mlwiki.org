@@ -1,11 +1,10 @@
 ---
-title: "Prisoner's Dilemma"
 layout: default
 permalink: /index.php/Prisoner's_Dilemma
+tags:
+- game-theory
+title: Prisoner's Dilemma
 ---
-
-# Prisoner's Dilemma
-
 ## Prisoner's Dilemma
 This is a game of [Game Theory](Game_Theory)
 
@@ -71,5 +70,3 @@ The profile (500, 500) is the Nash Equilibria
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - [Game Theory (coursera)](Game_Theory_(coursera))
-
-[Category:Game Theory](Category_Game_Theory)

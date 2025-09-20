@@ -1,11 +1,11 @@
 ---
-title: "Design interview questions"
 layout: default
 permalink: /index.php/Design_interview_questions
+tags:
+- interviews
+- software-design
+title: Design interview questions
 ---
-
-# Design interview questions
-
 ## Design patterns
 - [Шпаргалка по шаблонам проектирования](http://habrahabr.ru/post/210288/)
 - What major patterns do the Java APIs utilize? 
@@ -49,7 +49,3 @@ permalink: /index.php/Design_interview_questions
 - What is the problem with getters?
 - why the switch statement is post-soviet construction?
 - what is problem with comments in the code?
-
-
-[Category:Interviews](Category_Interviews)
-[Category:Software Design](Category_Software_Design)

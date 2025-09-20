@@ -1,11 +1,10 @@
 ---
-title: "Gram Matrices"
 layout: default
 permalink: /index.php/Gram_Matrices
+tags:
+- linear-algebra
+title: Gram Matrices
 ---
-
-# Gram Matrices
-
 ## Gram Matrices
 A Gram matrix of vectors $\mathbf a_1 , \ ... \ , \mathbf a_n$ is a matrix $G$ 
 - s.t. $G = \langle \mathbf a_i, \mathbf a_j \rangle$ for all $i,j$
@@ -109,5 +108,3 @@ Also can see that both $R^T R$ and $R R^T$ have non-negative eigenvalues:
 - http://en.wikipedia.org/wiki/Gramian_matrix
 - http://en.wikipedia.org/wiki/Rank%E2%80%93nullity_theorem
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

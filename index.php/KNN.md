@@ -1,11 +1,8 @@
 ---
-title: "KNN"
 layout: default
 permalink: /index.php/KNN
+title: KNN
 ---
-
-# KNN
-
 {{stub}} {{draft}}
 
 ## $K$ Nearest Neighbors

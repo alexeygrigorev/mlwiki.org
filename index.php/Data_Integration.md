@@ -1,11 +1,10 @@
 ---
-title: "Data Integration"
 layout: default
 permalink: /index.php/Data_Integration
+tags:
+- data-integration
+title: Data Integration
 ---
-
-# Data Integration
-
 ## Data Integration
 Goal of Data Integration - provide uniform access to heterogeneous data sources in some domain. 
 
@@ -38,5 +37,3 @@ Goal of Data Integration - provide uniform access to heterogeneous data sources 
 
 ## Source
 - Web Data Management book [http://webdam.inria.fr/Jorge]
-
-[Category:Data Integration](Category_Data_Integration)

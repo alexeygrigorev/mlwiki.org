@@ -1,11 +1,11 @@
 ---
-title: "Information Retrieval"
 layout: default
 permalink: /index.php/Information_Retrieval
+tags:
+- information-retrieval
+- nlp
+title: Information Retrieval
 ---
-
-# Information Retrieval
-
 ## Information Retrieval
 Information Retrieval is about quickly finding materials in a large collection of [unstructured data](Types_of_Data)
 - IR is theories, principles and algorithms to find relevant information for a collection of unstructured data - usually text data
@@ -135,7 +135,3 @@ Pre-retrieval
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
 - http://datascience.stackexchange.com/questions/1106/how-to-build-a-textual-search-engine
-
-
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:NLP](Category_NLP)

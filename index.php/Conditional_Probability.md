@@ -1,11 +1,11 @@
 ---
-title: "Conditional Probability"
 layout: default
 permalink: /index.php/Conditional_Probability
+tags:
+- probability
+- russian
+title: Conditional Probability
 ---
-
-# Conditional Probability
-
 ## Conditional Probability
 ''Conditional Probability'' $P(B \mid A)$ (or $P_A (B)$) is the probability that $B$ happens provided that $A$ has already happen.
 
@@ -48,6 +48,3 @@ Suppose that there are two events $A$ and $B$
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
 - [Конспект по теории вероятности и математической статистике](http://www.dropbox.com/s/j9yxtvkd0ns5eot/Probability_and_Statistics_exams_c.pdf#9)
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)

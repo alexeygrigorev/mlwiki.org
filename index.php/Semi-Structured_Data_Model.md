@@ -1,11 +1,11 @@
 ---
-title: "Semi-Structured Data Model"
 layout: default
 permalink: /index.php/Semi-Structured_Data_Model
+tags:
+- data-models
+- xml
+title: Semi-Structured Data Model
 ---
-
-# Semi-Structured Data Model
-
 ## Semi-Structured [Data Model](Data_Model)
 This is a [Data Model](Data_Model) that is based on [Graphs](Graphs) 
 - for representing both regular and irregular data
@@ -66,6 +66,3 @@ Graphical representation
 
 ## Sources
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:XML](Category_XML)
-[Category:Data Models](Category_Data_Models)

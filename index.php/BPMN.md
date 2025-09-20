@@ -1,11 +1,10 @@
 ---
-title: "BPMN"
 layout: default
 permalink: /index.php/BPMN
+tags:
+- business-process-management
+title: BPMN
 ---
-
-# BPMN
-
 ## BPMN
 BPMN - Business Process Modeling Notation 
 - This is a graphical language for describing business processes for [BPM](BPM)
@@ -162,5 +161,3 @@ Example 3:
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)

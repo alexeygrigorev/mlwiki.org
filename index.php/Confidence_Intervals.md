@@ -1,11 +1,11 @@
 ---
-title: "Confidence Intervals"
 layout: default
 permalink: /index.php/Confidence_Intervals
+tags:
+- r
+- statistics
+title: Confidence Intervals
 ---
-
-# Confidence Intervals
-
 ## Confidence Intervals
 In [Inferential Statistics](Inferential_Statistics) we estimate a parameter of the population based on sample
 - [Point Estimate](Point_Estimate) is just one single plausible value
@@ -164,8 +164,3 @@ A method  for constructing CIs is ''robust'' if
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - https://en.wikipedia.org/wiki/Confidence_interval
-
-
-
-[Category:Statistics](Category_Statistics)
-[Category:R](Category_R)

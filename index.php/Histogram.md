@@ -1,11 +1,11 @@
 ---
-title: "Histogram"
 layout: default
 permalink: /index.php/Histogram
+tags:
+- plots
+- r
+title: Histogram
 ---
-
-# Histogram
-
 ## Histogram
 ''Histogram'' is a graphical representation of the [Distribution](Distribution) of data
 - Bins: the intervals used in a histogram. The data must be separated into mutually exclusive and exhaustive bins
@@ -55,6 +55,3 @@ Usual histogram estimates the [Probability Density Function](Probability_Density
 - [Data Analysis (coursera)](Data_Analysis_(coursera))
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-[Category:Plots](Category_Plots)
-[Category:R](Category_R)

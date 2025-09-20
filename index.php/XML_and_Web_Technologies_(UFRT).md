@@ -1,11 +1,12 @@
 ---
-title: "XML and Web Technologies (UFRT)"
 layout: default
 permalink: /index.php/XML_and_Web_Technologies_(UFRT)
+tags:
+- it4bi
+- semantic-web
+- xml
+title: XML and Web Technologies (UFRT)
 ---
-
-# XML and Web Technologies (UFRT)
-
 ## Content
 ### [XML](XML)
 - XML as a [Semi-Structured Data Model](Semi-Structured_Data_Model)
@@ -31,8 +32,3 @@ permalink: /index.php/XML_and_Web_Technologies_(UFRT)
   - [Minicon Algorithm](Minicon_Algorithm)
   - [Inverse-Rules Algorithm](Inverse-Rules_Algorithm)
 - [Ontology Based Data Access](Ontology_Based_Data_Access)
-
-
-[Category:IT4BI](Category_IT4BI)
-[Category:XML](Category_XML)
-[Category:Semantic Web](Category_Semantic_Web)

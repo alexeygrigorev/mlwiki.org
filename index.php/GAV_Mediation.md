@@ -1,11 +1,10 @@
 ---
-title: "GAV Mediation"
 layout: default
 permalink: /index.php/GAV_Mediation
+tags:
+- data-integration
+title: GAV Mediation
 ---
-
-# GAV Mediation
-
 ## GAV Mediation
 There are two main approached for [Mediating](Mediator_(Data_Integration)) in [Data Integration](Data_Integration) 
 - [GAV Mediation](GAV_Mediation) - defining global relations in terms of local
@@ -121,5 +120,3 @@ Simplification
 
 ## Source
 - Web Data Management book [http://webdam.inria.fr/Jorge]
-
-[Category:Data Integration](Category_Data_Integration)

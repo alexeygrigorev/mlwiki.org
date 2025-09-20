@@ -1,11 +1,10 @@
 ---
-title: "Agglomerative Clustering"
 layout: default
 permalink: /index.php/Agglomerative_Clustering
+tags:
+- cluster-analysis
+title: Agglomerative Clustering
 ---
-
-# Agglomerative Clustering
-
 <!-- stub -->
 
 ## Agglomerative Clustering
@@ -113,5 +112,3 @@ Computational complexity:
 ## Sources
 - Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
 - Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." Data mining and knowledge discovery handbook. 2010. [https://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5]
-
-[Category:Cluster Analysis](Category_Cluster_Analysis)

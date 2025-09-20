@@ -1,11 +1,10 @@
 ---
-title: "Chameleon Clustering"
 layout: default
 permalink: /index.php/Chameleon_Clustering
+tags:
+- cluster-analysis
+title: Chameleon Clustering
 ---
-
-# Chameleon Clustering
-
 <!-- stub -->
 
 ## Chameleon Clustering
@@ -52,6 +51,3 @@ Solutions:
 
 ## Sources
 - Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
-
-
-[Category:Cluster Analysis](Category_Cluster_Analysis)

@@ -1,11 +1,11 @@
 ---
-title: "Buckets of Pointers"
 layout: default
 permalink: /index.php/Buckets_of_Pointers
+tags:
+- database-indexes
+- database-systems-architecture
+title: Buckets of Pointers
 ---
-
-# Buckets of Pointers
-
 ## Buckets of Pointers
 We add one more level of indirection for [indexing](Indexing_(databases))
 - we have index on buckets
@@ -46,6 +46,3 @@ SELECT * FROM Emp where dept = 'Toy' AND floor = 2
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Database Indexes](Category_Database_Indexes)

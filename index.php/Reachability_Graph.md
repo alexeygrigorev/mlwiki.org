@@ -1,11 +1,12 @@
 ---
-title: "Reachability Graph"
 layout: default
 permalink: /index.php/Reachability_Graph
+tags:
+- business-process-management
+- graphs
+- petri-nets
+title: Reachability Graph
 ---
-
-# Reachability Graph
-
 ## Reachability Graph
 This is a way of representing the states of [Petri Nets](Petri_Nets)
 
@@ -52,8 +53,3 @@ This is a similar notion for expressing states of Workflow Nets
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Petri Nets](Category_Petri_Nets)
-[Category:Graphs](Category_Graphs)
-[Category:Business Process Management](Category_Business_Process_Management)
-[Category:Graphs](Category_Graphs)

@@ -1,11 +1,12 @@
 ---
-title: "Q-Q Plot"
 layout: default
 permalink: /index.php/Q-Q_Plot
+tags:
+- data-analysis
+- plots
+- r
+title: Q-Q Plot
 ---
-
-# Q-Q Plot
-
 ## Q-Q Plot
 ### Probability Plot
 A Probability plot is a technique for comparing two data sets
@@ -122,7 +123,3 @@ Most likely not normal
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - https://en.wikipedia.org/wiki/Q-Q_plot
 - https://en.wikipedia.org/wiki/Normal_probability_plot
-
-[Category:Plots](Category_Plots)
-[Category:Data Analysis](Category_Data_Analysis)
-[Category:R](Category_R)

@@ -1,11 +1,12 @@
 ---
-title: "Oozie"
 layout: default
 permalink: /index.php/Oozie
+tags:
+- etl
+- hadoop
+- workflow-management
+title: Oozie
 ---
-
-# Oozie
-
 ## Apache Oozie
 [Apache Oozie](Oozie) is a workflow manager, designed especially for running [Hadoop MapReduce](Hadoop_MapReduce) jobs
 
@@ -39,8 +40,3 @@ The Oozie workflow is written in [XML](XML) using Hadoop Process Definition lang
 ## Editors
 Hue has Oozie Workflow editor - so it is possible to design workflows manually
 - see http://gethue.com/new-apache-oozie-workflow-coordinator-bundle-editors/
-
-
-[Category:Hadoop](Category_Hadoop)
-[Category:Workflow Management](Category_Workflow_Management)
-[Category:ETL](Category_ETL)

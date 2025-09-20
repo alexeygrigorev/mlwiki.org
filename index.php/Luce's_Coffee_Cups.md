@@ -1,11 +1,10 @@
 ---
-title: "Luce's Coffee Cups"
 layout: default
 permalink: /index.php/Luce's_Coffee_Cups
+tags:
+- multi-criteria-decision-aid
+title: Luce's Coffee Cups
 ---
-
-# Luce's Coffee Cups
-
 == Luce's Coffee Cups == 
 This is a thought experiment that shows that the Indifference relation is not transitive
 
@@ -35,5 +34,3 @@ The reason for it is that there's a sensitivity threshold that is not taken into
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

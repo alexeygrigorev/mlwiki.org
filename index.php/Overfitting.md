@@ -1,11 +1,11 @@
 ---
-title: "Overfitting"
 layout: default
 permalink: /index.php/Overfitting
+tags:
+- machine-learning
+- model-performance-evaluation
+title: Overfitting
 ---
-
-# Overfitting
-
 ## Overfitting
 ''Overfitting'' (or  ''high variance'') - if we have too many features, the learning hypothesis may 
 - fit the training set very well (with cost function $J(\theta) \approx 0$), 
@@ -101,6 +101,3 @@ To identify overfitting we can use [Machine Learning Diagnosis](Machine_Learning
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - Domingos, Pedro. "A few useful things to know about machine learning." [http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf]
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Model Performance Evaluation](Category_Model_Performance_Evaluation)

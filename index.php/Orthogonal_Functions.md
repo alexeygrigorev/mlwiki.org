@@ -1,11 +1,11 @@
 ---
-title: "Orthogonal Functions"
 layout: default
 permalink: /index.php/Orthogonal_Functions
+tags:
+- calculus
+- linear-algebra
+title: Orthogonal Functions
 ---
-
-# Orthogonal Functions
-
 {{stub}}
 
 ## Orthogonal Functions
@@ -22,6 +22,3 @@ Two functions $f$ and $g$ are orthogonal if their inner product is 0
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Calculus](Category_Calculus)
-[Category:Linear Algebra](Category_Linear_Algebra)

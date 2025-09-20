@@ -1,11 +1,11 @@
 ---
-title: "Hypothesis Testing"
 layout: default
 permalink: /index.php/Hypothesis_Testing
+tags:
+- statistical-tests
+- statistics
+title: Hypothesis Testing
 ---
-
-# Hypothesis Testing
-
 ## Hypothesis Testing
 ''Hypothesis Testing'' is a framework of testing some assumptions in [Inferential Statistics](Inferential_Statistics)
 - a result is ''statistically significant'' if it's very unlikely to have happened due to chance alone 
@@ -266,7 +266,3 @@ Some hypothesis can be checked with [Confidence Intervals](Confidence_Intervals)
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://en.wikipedia.org/wiki/Statistical_hypothesis_testing
-
-
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)

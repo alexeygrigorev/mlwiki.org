@@ -1,11 +1,10 @@
 ---
-title: "Constraint-Based Pattern Mining"
 layout: default
 permalink: /index.php/Constraint-Based_Pattern_Mining
+tags:
+- rule-mining
+title: Constraint-Based Pattern Mining
 ---
-
-# Constraint-Based Pattern Mining
-
 ## Constraint-Based Pattern Mining
 Goal: 
 - to enumerate all patterns that satisfy some constraint $q$
@@ -132,5 +131,3 @@ Now we're sure that the average always increases
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Rule Mining](Category_Rule_Mining)

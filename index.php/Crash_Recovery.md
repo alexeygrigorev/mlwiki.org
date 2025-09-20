@@ -1,11 +1,10 @@
 ---
-title: "Crash Recovery"
 layout: default
 permalink: /index.php/Crash_Recovery
+tags:
+- database-systems-architecture
+title: Crash Recovery
 ---
-
-# Crash Recovery
-
 ## Crash Recovery
 ### Failure Model
 Events can be: desired (things that are supposed to happen) and undesired
@@ -66,5 +65,3 @@ Usually deal with it with [Database Transaction Log](Database_Transaction_Log) (
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

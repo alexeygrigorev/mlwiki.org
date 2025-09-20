@@ -1,11 +1,10 @@
 ---
-title: "Standard Error"
 layout: default
 permalink: /index.php/Standard_Error
+tags:
+- statistics
+title: Standard Error
 ---
-
-# Standard Error
-
 ## Sampling Distribution
 ### Parameter Estimation
 Goal of [Inferential Statistics](Inferential_Statistics) - to make conclusion about the whole population based on a sample
@@ -109,5 +108,3 @@ So it illustrates that the more sample size is, the better we can estimate the p
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - DataCamp, Lab 3A - Sampling distributions [http://rpubs.com/agrigorev/21595]
 - https://en.wikipedia.org/wiki/Sampling_distribution
-
-[Category:Statistics](Category_Statistics)

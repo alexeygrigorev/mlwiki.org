@@ -1,11 +1,10 @@
 ---
-title: "Portfolio Management"
 layout: default
 permalink: /index.php/Portfolio_Management
+tags:
+- multi-objective-optimization
+title: Portfolio Management
 ---
-
-# Portfolio Management
-
 {{stub}}
 
 ## Portfolio Management
@@ -24,5 +23,3 @@ We see that the solutions showed with a red line are the best alternatives:
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Objective Optimization](Category_Multi-Objective_Optimization)

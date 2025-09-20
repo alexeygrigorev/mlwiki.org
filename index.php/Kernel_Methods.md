@@ -1,11 +1,10 @@
 ---
-title: "Kernel Methods"
 layout: default
 permalink: /index.php/Kernel_Methods
+tags:
+- kernels
+title: Kernel Methods
 ---
-
-# Kernel Methods
-
 {{draft}} {{stub}}
 
 ## Kernel Methods
@@ -90,5 +89,3 @@ We can combine Kernels:
 
 ## Sources
 - Cristianini, Nello, John Shawe-Taylor, and Huma Lodhi. "Latent semantic kernels." 2002. [http://eprints.soton.ac.uk/259781/1/LatentSemanticKernals_JIIS_18.pdf]
-
-[Category:Kernels](Category_Kernels)

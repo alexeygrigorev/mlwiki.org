@@ -1,11 +1,11 @@
 ---
-title: "Statistical Simulation"
 layout: default
 permalink: /index.php/Statistical_Simulation
+tags:
+- simulations
+- statistics
+title: Statistical Simulation
 ---
-
-# Statistical Simulation
-
 {{stub}}
 
 ## Statistical Simulation
@@ -28,6 +28,3 @@ Links:
 
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-[Category:Simulations](Category_Simulations)
-[Category:Statistics](Category_Statistics)

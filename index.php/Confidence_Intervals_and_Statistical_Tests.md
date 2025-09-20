@@ -1,11 +1,10 @@
 ---
-title: "Confidence Intervals and Statistical Tests"
 layout: default
 permalink: /index.php/Confidence_Intervals_and_Statistical_Tests
+tags:
+- statistics
+title: Confidence Intervals and Statistical Tests
 ---
-
-# Confidence Intervals and Statistical Tests
-
 ## Relationship between Confidence Intervals and Tests
 How to connect [Hypothesis Testing](Statistical_Tests_of_Significance) and [Confidence Intervals](Confidence_Intervals)? 
 
@@ -54,6 +53,3 @@ So these are equivalent:
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-
-[Category:Statistics](Category_Statistics)

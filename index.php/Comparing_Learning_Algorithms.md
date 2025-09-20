@@ -1,11 +1,12 @@
 ---
-title: "Comparing Learning Algorithms"
 layout: default
 permalink: /index.php/Comparing_Learning_Algorithms
+tags:
+- machine-learning
+- model-performance-evaluation
+- statistical-tests
+title: Comparing Learning Algorithms
 ---
-
-# Comparing Learning Algorithms
-
 ## Comparing Learning Algorithms
 ### Comparing Classifiers
 A lot of things
@@ -91,7 +92,3 @@ $t = \cfrac{\delta^*}{\sigma^2} \approx 2.34$
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:Model Performance Evaluation](Category_Model_Performance_Evaluation)

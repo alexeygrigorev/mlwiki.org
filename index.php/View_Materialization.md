@@ -1,11 +1,10 @@
 ---
-title: "View Materialization"
 layout: default
 permalink: /index.php/View_Materialization
+tags:
+- databases
+title: View Materialization
 ---
-
-# View Materialization
-
 {{stub}}
 
 ## View Materialization
@@ -24,5 +23,3 @@ Two basic strategies:
 
 ## Sources
 - [Advanced Databases (ULB)](Advanced_Databases_(ULB))
-
-[Category:Databases](Category_Databases)

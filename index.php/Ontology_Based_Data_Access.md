@@ -1,11 +1,10 @@
 ---
-title: "Ontology Based Data Access"
 layout: default
 permalink: /index.php/Ontology_Based_Data_Access
+tags:
+- semantic-web
+title: Ontology Based Data Access
 ---
-
-# Ontology Based Data Access
-
 ## Ontology Based Data Access
 For querying ontologies 
 - typically using [SPARQL](SPARQL) 
@@ -215,5 +214,3 @@ ONTOP:
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - Ontology-Based Data Access: From Theory to Practice (presentation) [https://www.inf.unibz.it/~calvanese/presentations/BDA-2012-obda-calvanese.pdf]
 - ONTOP Demo Video [https://www.youtube.com/watch?v=KHtlARfex4c]
-
-[Category:Semantic Web](Category_Semantic_Web)

@@ -1,11 +1,10 @@
 ---
-title: "Determinants"
 layout: default
 permalink: /index.php/Determinants
+tags:
+- linear-algebra
+title: Determinants
 ---
-
-# Determinants
-
 ## Determinants
 A ''determinant'' is a value associated with a square matrix $A$
 - it provides important information about [invertability](Inverse_Matrices) of the matrix
@@ -502,6 +501,3 @@ x_1 & y_1 & 1 \\
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - Strang, G. Introduction to linear algebra.
 - Курош А.Г. Курс Высшей Алгебры
-
-
-[Category:Linear Algebra](Category_Linear_Algebra)

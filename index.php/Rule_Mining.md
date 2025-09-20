@@ -1,11 +1,10 @@
 ---
-title: "Rule Mining"
 layout: default
 permalink: /index.php/Rule_Mining
+tags:
+- rule-mining
+title: Rule Mining
 ---
-
-# Rule Mining
-
 {{stub}}
 
 ## Rule Mining
@@ -24,6 +23,3 @@ http://www.analysis-of-patterns.net/files/bgoethals.pdf
 ## Source
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - [Web Intelligence and Big Data (coursera)](Web_Intelligence_and_Big_Data_(coursera))
-
-
-[Category:Rule Mining](Category_Rule_Mining)

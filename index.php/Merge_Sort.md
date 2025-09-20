@@ -1,11 +1,11 @@
 ---
-title: "Merge Sort"
 layout: default
 permalink: /index.php/Merge_Sort
+tags:
+- algorithms
+- sorting
+title: Merge Sort
 ---
-
-# Merge Sort
-
 ## Merge Sort
 Sorting algorithm based on [Divide and Conquer](Divide_and_Conquer) computational paradigm
 
@@ -230,7 +230,3 @@ The merge sort algorith is very easy to extend to sort large amounts of data tha
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Sorting](Category_Sorting)

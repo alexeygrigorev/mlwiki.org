@@ -1,11 +1,11 @@
 ---
-title: "Box Plot"
 layout: default
 permalink: /index.php/Box_Plot
+tags:
+- plots
+- r
+title: Box Plot
 ---
-
-# Box Plot
-
 ## Box Plot
 Box Plot
 - This is a [Plot](Plot) that can be useful for [Exploratory Data Analysis](Exploratory_Data_Analysis)
@@ -86,6 +86,3 @@ Box plots are nice to combine with other plots
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [Data Analysis (coursera)](Data_Analysis_(coursera))
 - http://en.wikipedia.org/wiki/Box_plot
-
-[Category:Plots](Category_Plots)
-[Category:R](Category_R)

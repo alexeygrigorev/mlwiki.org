@@ -1,11 +1,10 @@
 ---
-title: "Redis"
 layout: default
 permalink: /index.php/Redis
+tags:
+- databases
+title: Redis
 ---
-
-# Redis
-
 ## Redis
 [Redis](http://redis.io/) is an in-memory database, good to be used as 
 - a cache
@@ -132,5 +131,3 @@ A P/S model implemented in Scala: https://gist.github.com/debasishg/7056696
 
 ## Sources
 - Little Redis Book: https://github.com/karlseguin/the-little-redis-book
-
-[Category:Databases](Category_Databases)

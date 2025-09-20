@@ -1,11 +1,10 @@
 ---
-title: "Independence to Third Alternatives"
 layout: default
 permalink: /index.php/Independence_to_Third_Alternatives
+tags:
+- voting-theory
+title: Independence to Third Alternatives
 ---
-
-# Independence to Third Alternatives
-
 ## Independence to Third Alternatives
 Independence to Third Alternatives, or Independence to Irrelevant alternatives is a principle of [Voting Theory](Voting_Theory).
 - it says that if another alternative is added or removed, the position of a candidate should remain at least as good as it was
@@ -99,5 +98,3 @@ Methods that suffer from the manipulation:
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - EC228 Voting Theory Lecture Notes [http://www2.warwick.ac.uk/fac/soc/economics/current/modules/ec228/details/lecturenotes/lecturenotesbook.pdf]
-
-[Category:Voting Theory](Category_Voting_Theory)

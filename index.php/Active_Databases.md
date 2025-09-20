@@ -1,11 +1,10 @@
 ---
-title: "Active Databases"
 layout: default
 permalink: /index.php/Active_Databases
+tags:
+- databases
+title: Active Databases
 ---
-
-# Active Databases
-
 ## Active Databases
 In contrast to passive databases, in active databases, execution of actions can be triggered in response to some monitored events 
 - database updates and inserts 
@@ -282,5 +281,3 @@ end
 
 ## Sources
 - [Advanced Databases (ULB)](Advanced_Databases_(ULB))
-
-[Category:Databases](Category_Databases)

@@ -1,11 +1,11 @@
 ---
-title: "Sources Index"
 layout: default
 permalink: /index.php/Sources_Index
+tags:
+- notes
+- papers
+title: Sources Index
 ---
-
-# Sources Index
-
 ## Sources Index
 Only papers I read and used as sources (or small books that don't deserve a separate wiki page)
 - ordered by first author
@@ -96,6 +96,3 @@ Only papers I read and used as sources (or small books that don't deserve a sepa
 ### Z
 - Zhai, ChengXiang. "Statistical language models for information retrieval." (Book) 2008. [Information Retrieval](Information_Retrieval), [Statistical Language Models](Statistical_Language_Models), [Multinomial Distribution](Multinomial_Distribution), [Smoothing for Language Models](Smoothing_for_Language_Models), [TF-IDF](TF-IDF), [Probabilistic Retrieval Model](Probabilistic_Retrieval_Model)
 - Zhukov, Leonid, and David Gleich. "Topic identification in soft clustering using PCA and ICA". 2004. [[Latent Semantic Analysis](http://leonidzhukov.ru/papers/soft-clustering-pca-ica.pdf])(Latent_Semantic_Analysis)
-
-[Category:Papers](Category_Papers)
-[Category:Notes](Category_Notes)

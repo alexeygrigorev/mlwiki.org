@@ -1,11 +1,13 @@
 ---
-title: "Dot for Petri Nets"
 layout: default
 permalink: /index.php/Dot_for_Petri_Nets
+tags:
+- business-process-management
+- dot
+- petri-nets
+- snippets
+title: Dot for Petri Nets
 ---
-
-# Dot for Petri Nets
-
 Dot for [Petri Nets](Petri_Nets)
 
 ## Simplest Petri Net
@@ -240,9 +242,3 @@ digraph G {
 ```
 
 <img src="http://habrastorage.org/files/904/16d/d88/90416dd883c54d8c8412b31da4fe7274.png" alt="Image">
-
-
-[Category:Business Process Management](Category_Business_Process_Management)
-[Category:Petri Nets](Category_Petri_Nets)
-[Category:Dot](Category_Dot)
-[Category:Snippets](Category_Snippets)

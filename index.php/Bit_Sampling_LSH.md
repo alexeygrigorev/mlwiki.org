@@ -1,11 +1,12 @@
 ---
-title: "Bit Sampling LSH"
 layout: default
 permalink: /index.php/Bit_Sampling_LSH
+tags:
+- database-indexes
+- hashing
+- lsh
+title: Bit Sampling LSH
 ---
-
-# Bit Sampling LSH
-
 ## Bit Sampling LSH
 - LSH for the [Hamming Distance](Hamming_Distance)
 - can convert [$L_1$](Manhattan_Distance) to Hamming distance
@@ -125,7 +126,3 @@ Total projection time
 
 ## Sources
 - Gionis, Aristides, Piotr Indyk, and Rajeev Motwani. "Similarity search in high dimensions via hashing." 1999. [http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf]
-
-[Category:Hashing](Category_Hashing)
-[Category:LSH](Category_LSH)
-[Category:Database Indexes](Category_Database_Indexes)

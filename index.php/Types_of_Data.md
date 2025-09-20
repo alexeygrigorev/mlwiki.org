@@ -1,11 +1,10 @@
 ---
-title: "Types of Data"
 layout: default
 permalink: /index.php/Types_of_Data
+tags:
+- data-models
+title: Types of Data
 ---
-
-# Types of Data
-
 ## Types of Data
 There are two types of data:
 - with data model: structured, know what to expect
@@ -34,6 +33,3 @@ There are two types of data:
 ### Machine-generated data
 - Sensors, 
 - [Internet of Things](Internet_of_Things)
-
-
-[Category:Data Models](Category_Data_Models)

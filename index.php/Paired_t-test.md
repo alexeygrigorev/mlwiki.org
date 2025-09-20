@@ -1,11 +1,13 @@
 ---
-title: "Paired t-test"
 layout: default
 permalink: /index.php/Paired_t-test
+tags:
+- r
+- statistical-tests
+- statistics
+- t-test
+title: Paired t-test
 ---
-
-# Paired t-test
-
 ## Paired t-test
 This variation of [t-test](t-test) is used for Paired Data
 
@@ -99,8 +101,3 @@ And we conclude that the difference between the two methods is not 0
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://projectile.sv.cmu.edu/research/public/talks/t-test.htm
-
-[Category:T-Test](Category_T-Test)
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:R](Category_R)

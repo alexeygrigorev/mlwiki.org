@@ -1,11 +1,12 @@
 ---
-title: "Z-tests"
 layout: default
 permalink: /index.php/Z-tests
+tags:
+- r
+- statistical-tests
+- statistics
+title: Z-tests
 ---
-
-# Z-tests
-
 ## $Z$ Tests
 This is a family of [statistical tests](Hypothesis_Testing) that use [Normal Model](Normal_Distribution) to compute test statistics 
 - most of the time $Z$ tests are restricted versions of [$t$-tests](t-tests), so it's more advisable to use $t$ tests, especially because for larger degrees of freedom [$t$-distribution](t_Distribution) is very close to Normal
@@ -105,7 +106,3 @@ p
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://projectile.sv.cmu.edu/research/public/talks/t-test.htm
-
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:R](Category_R)

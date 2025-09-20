@@ -1,11 +1,11 @@
 ---
-title: "Ontologies"
 layout: default
 permalink: /index.php/Ontologies
+tags:
+- knowledge-representation
+- semantic-web
+title: Ontologies
 ---
-
-# Ontologies
-
 ## Ontologies
 Ontologies are semantic models in [Semantic Web](Semantic_Web)
 - an ontology is some knowledge about concepts of some domain and the relations between them
@@ -60,7 +60,3 @@ SKOS  (uses [RDFS-Plus](RDFS-Plus))
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
 - Web Data Management, Manolescu, Ioana, et al. [http://webdam.inria.fr/Jorge/]
-
-
-[Category:Semantic Web](Category_Semantic_Web)
-[Category:Knowledge Representation](Category_Knowledge_Representation)

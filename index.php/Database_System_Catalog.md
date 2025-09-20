@@ -1,11 +1,10 @@
 ---
-title: "Database System Catalog"
 layout: default
 permalink: /index.php/Database_System_Catalog
+tags:
+- database-systems-architecture
+title: Database System Catalog
 ---
-
-# Database System Catalog
-
 ## Database System Catalog
 To estimate a cost of [Physical operators](Physical_Operators_(databases)) in a DBMS we use the following statistics:
 - $B(R)$ - # of blocks that relation $R$ holds
@@ -36,5 +35,3 @@ Example
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

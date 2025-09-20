@@ -1,11 +1,11 @@
 ---
-title: "Variance"
 layout: default
 permalink: /index.php/Variance
+tags:
+- probability
+- russian
+title: Variance
 ---
-
-# Variance
-
 ## Motivation
 [Expected Value](Expected_Value) (Математическое ожидание) can't describe a possible range of values for a [Random Variable](Random_Variable)
 
@@ -75,6 +75,3 @@ st.dev = sd(data)
 
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)

@@ -1,11 +1,11 @@
 ---
-title: "Graphs"
 layout: default
 permalink: /index.php/Graphs
+tags:
+- algorithms
+- graphs
+title: Graphs
 ---
-
-# Graphs
-
 ## Graphs
 
 Consist of:
@@ -86,6 +86,3 @@ public class Graph {
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Graphs](Category_Graphs)

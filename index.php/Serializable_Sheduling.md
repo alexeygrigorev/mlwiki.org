@@ -1,9 +1,6 @@
 ---
-title: "Serializable Sheduling"
 layout: default
 permalink: /index.php/Serializable_Sheduling
+title: Serializable Sheduling
 ---
-
-# Serializable Sheduling
-
 1. REDIRECT [Serializable Schedule](Serializable_Schedule)

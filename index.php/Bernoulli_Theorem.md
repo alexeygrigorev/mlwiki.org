@@ -1,11 +1,12 @@
 ---
-title: "Bernoulli Theorem"
 layout: default
 permalink: /index.php/Bernoulli_Theorem
+tags:
+- probability
+- russian
+- подготовка-к-шад
+title: Bernoulli Theorem
 ---
-
-# Bernoulli Theorem
-
 ## Bernoulli Theorem
 '''Теорема.''' Если в каждом из n независимых испытаний вероятность $p$ появления события $A$ постоянна, то как угодно близка к единицы вероятность того, что отклонение относительной частоты от вероятности $p$ будет сколь угодно малым, если число испытаний достаточно велико.
 
@@ -34,7 +35,3 @@ $\lim_{n \rightarrow \infty} P\left(\left| \frac{m}{n} - p\right| < \epsilon\rig
 
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

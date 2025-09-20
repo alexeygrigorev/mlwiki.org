@@ -1,11 +1,12 @@
 ---
-title: "Taylor Series"
 layout: default
 permalink: /index.php/Taylor_Series
+tags:
+- calculus
+- functions
+- series
+title: Taylor Series
 ---
-
-# Taylor Series
-
 ## Taylor Series
 The idea behind Taylor Series is that any well-behaving [Function](Function) (e.g. [Continuous Functions](Continuous_Functions)) can be represented as a sum of [Polynomials](Polynomial_Functions)
 
@@ -159,7 +160,3 @@ For example, compute expansion for $e^{\cos x}$ about $x = 0$
 - but for $e$, we don't expand about 0 - we expand about $\cos 0 = 1$|   |- $\cos x = 1 - \cfrac{1}{2| }\, x^2 + \cfrac{1}{4!}\, x^4 - \ ...$ |- $e^u = e + e\, (u - 1) + \cfrac{1}{2| }\, e\, (u - 1)^2 + \ ...$ | |
 ## Sources
 - [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
-
-[Category:Calculus](Category_Calculus)
-[Category:Functions](Category_Functions)
-[Category:Series](Category_Series)

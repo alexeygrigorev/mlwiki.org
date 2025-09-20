@@ -1,11 +1,12 @@
 ---
-title: "Learn More Study Less (book notes)"
 layout: default
 permalink: /index.php/Learn_More_Study_Less_(book_notes)
+tags:
+- books
+- notes
+- productivity
+title: Learn More Study Less (book notes)
 ---
-
-# Learn More Study Less (book notes)
-
 Learn More, Study Less [http://www.scotthyoung.com/learnmorestudyless/]
 
 - Ссылка на mindmap: [http://yadi.sk/d/ql-NYWYr2DuDw]
@@ -352,6 +353,3 @@ Learn More, Study Less [http://www.scotthyoung.com/learnmorestudyless/]
 - The Power of Full Engagement - Energy management.
 - Zen To Done - A spin off of Getting Things Done, this one focuses on slowly building productive habits.
 - How to Be a Straight-A Student & How to Win at College – Both classic books that can help you become more productive and handle the challenges of learning. Definitely worth reading|   | |
-[Category:Books](Category_Books)
-[Category:Notes](Category_Notes)
-[Category:Productivity](Category_Productivity)

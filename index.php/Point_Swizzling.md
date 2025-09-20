@@ -1,11 +1,10 @@
 ---
-title: "Point Swizzling"
 layout: default
 permalink: /index.php/Point_Swizzling
+tags:
+- database-systems-architecture
+title: Point Swizzling
 ---
-
-# Point Swizzling
-
 How to manage pointers to blocks and records if they are moved between main and secondary memory? 
 
 ## Translation Table
@@ -96,6 +95,3 @@ Possible approaches
 
 ## Sources
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

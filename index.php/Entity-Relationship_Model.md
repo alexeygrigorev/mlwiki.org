@@ -1,11 +1,11 @@
 ---
-title: "Entity-Relationship Model"
 layout: default
 permalink: /index.php/Entity-Relationship_Model
+tags:
+- databases
+- relational-databases
+title: Entity-Relationship Model
 ---
-
-# Entity-Relationship Model
-
 ## Entity-Relationship Model
 An entity–relationship model (ER model) is a [Data Model](Data_Model) for describing a [Database](Database) in an abstract way at a conceptual level. 
 
@@ -157,6 +157,3 @@ Car insurance company
 ## Sources
 - Database Systems Concept, slides for chapter 7 [http://codex.cs.yale.edu/avi/db-book/db6/slide-dir/index.html]: Most of the figures are taken from there
 - [Data Warehousing (ULB)](Data_Warehousing_(ULB))
-
-[Category:Relational Databases](Category_Relational_Databases)
-[Category:Databases](Category_Databases)

@@ -1,11 +1,10 @@
 ---
-title: "Mixed-Strategy Game"
 layout: default
 permalink: /index.php/Mixed-Strategy_Game
+tags:
+- game-theory
+title: Mixed-Strategy Game
 ---
-
-# Mixed-Strategy Game
-
 {{draft}}
 
 ## Mixed-Strategy
@@ -134,5 +133,3 @@ predator:
     - result: Kicker kicks more to the Right|   |    - because G has adjusted |
 ## Sources
 - [Game Theory (coursera)](Game_Theory_(coursera))
-
-[Category:Game Theory](Category_Game_Theory)

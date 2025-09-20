@@ -1,11 +1,10 @@
 ---
-title: "YAWL"
 layout: default
 permalink: /index.php/YAWL
+tags:
+- business-process-management
+title: YAWL
 ---
-
-# YAWL
-
 ## YAWL
 YAWL is a graphical notation for expressing workflows, similar to [Workflow Nets](Workflow_Nets) based on [Petri Nets](Petri_Nets), but with more expressive syntax.
 - YAWL is based on [Workflow Patterns](Workflow_Patterns)
@@ -250,5 +249,3 @@ The same net as in [Petri Nets](Petri_Nets):
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)

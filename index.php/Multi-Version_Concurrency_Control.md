@@ -1,11 +1,11 @@
 ---
-title: "Multi-Version Concurrency Control"
 layout: default
 permalink: /index.php/Multi-Version_Concurrency_Control
+tags:
+- concurrency
+- database-systems-architecture
+title: Multi-Version Concurrency Control
 ---
-
-# Multi-Version Concurrency Control
-
 ## Concurrency Control
 In a typical relational database when we modify a table, we put a lock - and all other clients that want to access the table are queued
 - This sequential execution of tasks wastes a lot of processor's power and time: 
@@ -54,6 +54,3 @@ Idea:
 
 ## Sources
 - [CouchDB The Definitive Guide by Anderson, Lehnardt and Slater](http://guide.couchdb.org/draft)
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Concurrency](Category_Concurrency)

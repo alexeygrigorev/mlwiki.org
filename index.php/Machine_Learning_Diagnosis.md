@@ -1,11 +1,10 @@
 ---
-title: "Machine Learning Diagnosis"
 layout: default
 permalink: /index.php/Machine_Learning_Diagnosis
+tags:
+- machine-learning
+title: Machine Learning Diagnosis
 ---
-
-# Machine Learning Diagnosis
-
 ## Machine Learning Diagnosis
 Suppose you created a model, but when you tested it, you found that it makes large errors 
 
@@ -91,5 +90,3 @@ To fix high bias:
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Machine Learning](Category_Machine_Learning)

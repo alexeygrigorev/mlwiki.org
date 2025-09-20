@@ -1,11 +1,10 @@
 ---
-title: "Minicon Algorithm"
 layout: default
 permalink: /index.php/Minicon_Algorithm
+tags:
+- data-integration
+title: Minicon Algorithm
 ---
-
-# Minicon Algorithm
-
 ## Minicon Algorithm
 This is an approach for query rewriting used in [LAV Mediation](LAV_Mediation)
 
@@ -110,5 +109,3 @@ So, a rewriting for $Q(x)$ is
 
 ## Sources
 - Web Data Management book [http://webdam.inria.fr/Jorge]
-
-[Category:Data Integration](Category_Data_Integration)

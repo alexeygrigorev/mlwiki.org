@@ -1,11 +1,10 @@
 ---
-title: "Expected Value"
 layout: default
 permalink: /index.php/Expected_Value
+tags:
+- probability
+title: Expected Value
 ---
-
-# Expected Value
-
 ## Expected Value
 ''Expected Value'' (''Математическое ожидание'') of a [Random Variable](Random_Variable) X
 - is a sum of all possible values from $x_i \in \text{Dom}(X)$ multiplied by their probabilities $p_i$
@@ -36,5 +35,3 @@ $\bar{X} = x_1 \cfrac{m_1}{n} + x_2 \cfrac{m_2}{n} + ... + x_k \cfrac{m_k}{n}$ w
 
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-
-[Category:Probability](Category_Probability)

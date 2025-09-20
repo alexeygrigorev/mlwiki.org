@@ -1,11 +1,12 @@
 ---
-title: "Latent Semantic Analysis"
 layout: default
 permalink: /index.php/Latent_Semantic_Analysis
+tags:
+- document-clustering
+- information-retrieval
+- nlp
+title: Latent Semantic Analysis
 ---
-
-# Latent Semantic Analysis
-
 ## Latent Semantic Analysis
 Latent Semantic Analysis (LSA) is an [NLP](NLP) method: 
 - mathematical/statistical method for modeling the meaning of words/passages by analysis of text via extracting and inferring relations of expected contextual usage of words in texts 
@@ -368,8 +369,3 @@ LSA and [Principal Component Analysis](Principal_Component_Analysis) are related
 - Berry, Michael W., Susan T. Dumais, and Gavin W. O'Brien. "Using linear algebra for intelligent information retrieval." (1995). [http://machinelearningtext.pbworks.com/w/file/fetch/47378285/lsiPaper_ut-cs-94-270.pdf]
 - Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On principal component analysis, cosine and Euclidean measures in information retrieval." 2007. [http://www.sciencedirect.com/science/article/pii/S0020025507002630] 
 - Zhukov, Leonid, and David Gleich. "Topic identification in soft clustering using PCA and ICA". 2004. [http://leonidzhukov.ru/papers/soft-clustering-pca-ica.pdf]
-
-
-[Category:Document Clustering](Category_Document_Clustering)
-[Category:NLP](Category_NLP)
-[Category:Information Retrieval](Category_Information_Retrieval)

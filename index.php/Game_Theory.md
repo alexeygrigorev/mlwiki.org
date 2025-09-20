@@ -1,11 +1,10 @@
 ---
-title: "Game Theory"
 layout: default
 permalink: /index.php/Game_Theory
+tags:
+- game-theory
+title: Game Theory
 ---
-
-# Game Theory
-
 ## Game Theory
 In Game Theory the decision of a decision maker and its consequences are based on somebody else's decisions
 
@@ -82,5 +81,3 @@ Other
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - [Game Theory (coursera)](Game_Theory_(coursera))
-
-[Category:Game Theory](Category_Game_Theory)

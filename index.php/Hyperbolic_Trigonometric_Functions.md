@@ -1,11 +1,11 @@
 ---
-title: "Hyperbolic Trigonometric Functions"
 layout: default
 permalink: /index.php/Hyperbolic_Trigonometric_Functions
+tags:
+- calculus
+- functions
+title: Hyperbolic Trigonometric Functions
 ---
-
-# Hyperbolic Trigonometric Functions
-
 {{stub}}
 
 == Hyperbolic Trigonometric Functions == 
@@ -34,6 +34,3 @@ Can show that with Taylor expansions:
 
 ## Sources
 - [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
-
-[Category:Calculus](Category_Calculus)
-[Category:Functions](Category_Functions)

@@ -1,9 +1,6 @@
 ---
-title: "PCA"
 layout: default
 permalink: /index.php/PCA
+title: PCA
 ---
-
-# PCA
-
 1. REDIRECT [Principal Component Analysis](Principal_Component_Analysis)

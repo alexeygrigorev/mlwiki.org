@@ -1,11 +1,11 @@
 ---
-title: "Binary Search Trees"
 layout: default
 permalink: /index.php/Binary_Search_Trees
+tags:
+- algorithms
+- data-structures
+title: Binary Search Trees
 ---
-
-# Binary Search Trees
-
 ## Binary search trees
 Binary search trees are [Tree](Tree)s with rank = 2.
 
@@ -132,7 +132,3 @@ Rank:
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Data Structures](Category_Data_Structures)

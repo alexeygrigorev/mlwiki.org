@@ -1,11 +1,12 @@
 ---
-title: "Fourier Transformation"
 layout: default
 permalink: /index.php/Fourier_Transformation
+tags:
+- calculus
+- linear-algebra
+- signal-processing
+title: Fourier Transformation
 ---
-
-# Fourier Transformation
-
 ## Fourier Transformation
 Goal: to expand a function $f(x)$
 - i.e. write it as a linear combination 
@@ -166,7 +167,3 @@ This way we reduce computation from $O(n^2)$ to $\cfrac{n}{2} \, \log_2 n$
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - http://en.wikipedia.org/wiki/DFT_matrix
-
-[Category:Calculus](Category_Calculus)
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Signal Processing](Category_Signal_Processing)

@@ -1,11 +1,11 @@
 ---
-title: "Hibernate interview questions"
 layout: default
 permalink: /index.php/Hibernate_interview_questions
+tags:
+- interviews
+- java
+title: Hibernate interview questions
 ---
-
-# Hibernate interview questions
-
 ## Hibernate
 - Benefits and risks of using Hibernate
 - What is a SessionFactory? Is it a thread-safe object?  
@@ -19,7 +19,3 @@ permalink: /index.php/Hibernate_interview_questions
 - Hierarchy-to-tables mapping strategies
 - ORM incompatibility
 - What are the Collection types in Hibernate ?
-
-
-[Category:Interviews](Category_Interviews)
-[Category:Java](Category_Java)

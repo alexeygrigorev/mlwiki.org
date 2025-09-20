@@ -1,11 +1,11 @@
 ---
-title: "Minimal Cut Problem"
 layout: default
 permalink: /index.php/Minimal_Cut_Problem
+tags:
+- algorithms
+- graphs
+title: Minimal Cut Problem
 ---
-
-# Minimal Cut Problem
-
 ## Minimal Cut Problem
 A ''cut'' in a [graph](Graphs) is a partition of vertices $V$ into two non-empty subsets $A$ and $B$
 
@@ -205,6 +205,3 @@ public class UndirectedGraph {
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Graphs](Category_Graphs)

@@ -1,11 +1,13 @@
 ---
-title: "Two-Sample t-test"
 layout: default
 permalink: /index.php/Two-Sample_t-test
+tags:
+- r
+- statistical-tests
+- statistics
+- t-test
+title: Two-Sample t-test
 ---
-
-# Two-Sample t-test
-
 ## Two-Sample t-test
 This type of [$t$-test](t-test) is used when we want to compare the means of two different samples
 - suppose that we have two samples $a$ and $b$ of sizes $n_a$ and $n_b$ resp.
@@ -106,8 +108,3 @@ t.test(male, female, mu=0, conf.level=0.95, alternative='two.sided')
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://projectile.sv.cmu.edu/research/public/talks/t-test.htm
-
-[Category:T-Test](Category_T-Test)
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:R](Category_R)

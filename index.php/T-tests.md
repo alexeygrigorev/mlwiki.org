@@ -1,11 +1,12 @@
 ---
-title: "T-tests"
 layout: default
 permalink: /index.php/T-tests
+tags:
+- r
+- statistical-tests
+- statistics
+title: T-tests
 ---
-
-# T-tests
-
 ## $t$ Tests
 $t$-tests is a family of [Statistical tests](Hypothesis_Testing) that use $t$-statistics (those values come from the [$t$-distribution](t_Distribution)) to calculate $p$-values
 
@@ -300,7 +301,3 @@ E.g. use [Bonferroni Correction](Bonferroni_Correction)
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://projectile.sv.cmu.edu/research/public/talks/t-test.htm
-
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:R](Category_R)

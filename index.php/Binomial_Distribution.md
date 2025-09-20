@@ -1,11 +1,13 @@
 ---
-title: "Binomial Distribution"
 layout: default
 permalink: /index.php/Binomial_Distribution
+tags:
+- distributions
+- probability
+- r
+- russian
+title: Binomial Distribution
 ---
-
-# Binomial Distribution
-
 ## Binomial Distribution
 A binomial distribution is a Discrete [Distribution](Distribution) of [Random Variable](Random_Variable)s
 
@@ -208,8 +210,3 @@ A [Sampling Distribution](Sampling_Distribution) for a population mean follows t
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://stat.duke.edu/courses/Spring13/sta101.001/slides/unit2lec4H.pdf
 - https://en.wikipedia.org/wiki/Binomial_distribution#Normal_approximation
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)
-[Category:Distributions](Category_Distributions)
-[Category:R](Category_R)

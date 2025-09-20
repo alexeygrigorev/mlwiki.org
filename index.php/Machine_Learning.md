@@ -1,11 +1,10 @@
 ---
-title: "Machine Learning"
 layout: default
 permalink: /index.php/Machine_Learning
+tags:
+- machine-learning
+title: Machine Learning
 ---
-
-# Machine Learning
-
 ## Machine Learning
 ''Machine Learning'' - field of study that gives computers the ability to learn without being explicitly programmed
 
@@ -86,5 +85,3 @@ The goal is to automatically group the data into coherent subsets (or ''clusters
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Machine Learning](Category_Machine_Learning)

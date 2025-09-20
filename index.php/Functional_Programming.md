@@ -1,11 +1,12 @@
 ---
-title: "Functional Programming"
 layout: default
 permalink: /index.php/Functional_Programming
+tags:
+- functional-programming
+- programming
+- russian
+title: Functional Programming
 ---
-
-# Functional Programming
-
 ## Functional Programming
 
 Основные идеи
@@ -57,7 +58,3 @@ permalink: /index.php/Functional_Programming
 
 ## Sources
 - [Functional Programming Principles in Scala (coursera)](Functional_Programming_Principles_in_Scala_(coursera))
-
-[Category:Russian](Category_Russian)
-[Category:Programming](Category_Programming)
-[Category:Functional Programming](Category_Functional_Programming)

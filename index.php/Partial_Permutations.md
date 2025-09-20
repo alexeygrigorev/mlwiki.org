@@ -1,11 +1,12 @@
 ---
-title: "Partial Permutations"
 layout: default
 permalink: /index.php/Partial_Permutations
+tags:
+- combinatorics
+- russian
+- подготовка-к-шад
+title: Partial Permutations
 ---
-
-# Partial Permutations
-
 ## Partial Permutations
 Имеется $n$ различных предметов. Сколько из них можно составить расстановок длины $k$? При этом две расстановки считаются различными, если они различаются либо хотя бы одним элементом, либо состоят из одних и тех же элементов, но расположенных в разном порядке.
 
@@ -33,7 +34,3 @@ $A_{25}^4 = 25 \cdot 24 \cdot 23 \cdot 22 = 303 \ 600$
 
 ## Sources
 - Виленкин Н.Я. Комбинаторика. М., Наука, 1969.
-
-[Category:Russian](Category_Russian)
-[Category:Combinatorics](Category_Combinatorics)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

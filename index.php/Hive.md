@@ -1,11 +1,10 @@
 ---
-title: "Hive"
 layout: default
 permalink: /index.php/Hive
+tags:
+- hadoop
+title: Hive
 ---
-
-# Hive
-
 ## Hive
 Hive is a [Data Warehouse](Data_Warehousing) solution built on top of [Hadoop](Hadoop)
 - Main feature - Hive QL: Declarative Query language for ad-hoc analytics
@@ -135,6 +134,3 @@ FROM (
 
 ## Sources
 - Thusoo et all, Hive: A Warehousing Solution Over a Map-Reduce Framework (2009). [http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.151.2637]
-
-
-[Category:Hadoop](Category_Hadoop)

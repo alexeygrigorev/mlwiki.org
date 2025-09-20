@@ -1,11 +1,10 @@
 ---
-title: "Laplace Rule"
 layout: default
 permalink: /index.php/Laplace_Rule
+tags:
+- decision-under-uncertainty
+title: Laplace Rule
 ---
-
-# Laplace Rule
-
 ## Laplace Rule
 How to choose an alternative in [Decision Under Uncertainty](Decision_Under_Uncertainty)? The Laplace Rule, also called the Principle of Insufficient Reasoning, helps to do that.
 
@@ -53,5 +52,3 @@ Suppose we have two scenarios:
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Under Uncertainty](Category_Decision_Under_Uncertainty)

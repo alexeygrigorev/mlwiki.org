@@ -1,11 +1,11 @@
 ---
-title: "Semantic Domains"
 layout: default
 permalink: /index.php/Semantic_Domains
+tags:
+- natural-language-processing
+- thesis
+title: Semantic Domains
 ---
-
-# Semantic Domains
-
 ## Semantic Domains
 - A ''semantic field'' corresponds to words grouped by their meaning
 - it consists of words from some domain
@@ -374,6 +374,3 @@ Domain Kernels can be used for any instance-based algorithm in many NLP applicat
 ## Sources
 - http://www.semdom.org/description
 - [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_(book))
-
-[Category:Natural Language Processing](Category_Natural_Language_Processing)
-[Category:Thesis](Category_Thesis)

@@ -1,11 +1,12 @@
 ---
-title: "Business Process Management (ULB)"
 layout: default
 permalink: /index.php/Business_Process_Management_(ULB)
+tags:
+- business-process-management
+- it4bi
+- notes
+title: Business Process Management (ULB)
 ---
-
-# Business Process Management (ULB)
-
 - The course was taken in autumn 2013 at the ULB
 - Taught by professor Toon Calders
 
@@ -42,8 +43,3 @@ permalink: /index.php/Business_Process_Management_(ULB)
 ## Info
 - Public website: http://cs.ulb.ac.be/public/teaching/infoh420
 - Dropbox folder: https://www.dropbox.com/sh/hjd9y0v3351csv6/8j9iMILIeH
-
-
-[Category:IT4BI](Category_IT4BI)
-[Category:Business Process Management](Category_Business_Process_Management)
-[Category:Notes](Category_Notes)

@@ -1,11 +1,11 @@
 ---
-title: "Logistic Regression"
 layout: default
 permalink: /index.php/Logistic_Regression
+tags:
+- classification
+- machine-learning
+title: Logistic Regression
 ---
-
-# Logistic Regression
-
 ## Motivation
 Suppose we have a ''binary classification problem'':
 - $y \in \{0, 1\}$ - 
@@ -167,6 +167,3 @@ Matlab/Octave implementation:
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Classification](Category_Classification)
-[Category:Machine Learning](Category_Machine_Learning)

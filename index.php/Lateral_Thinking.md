@@ -1,12 +1,10 @@
 ---
-title: "Lateral Thinking"
 layout: default
 permalink: /index.php/Lateral_Thinking
+tags:
+- productivity
+title: Lateral Thinking
 ---
-
-# Lateral Thinking
-
-
 Topic: Lateral Thinking
 
 solving problems through an indirect and creative approach
@@ -57,6 +55,3 @@ solving problems through an indirect and creative approach
 ## Ссылки
 
 - http://en.wikipedia.org/wiki/Lateral_thinking
-
-
-[Category:Productivity](Category_Productivity)

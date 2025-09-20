@@ -1,11 +1,13 @@
 ---
-title: "Data Science Interview Questions"
 layout: default
 permalink: /index.php/Data_Science_Interview_Questions
+tags:
+- interview-questions
+- interviews
+- machine-learning
+- statistics
+title: Data Science Interview Questions
 ---
-
-# Data Science Interview Questions
-
 The result: http://www.itshared.org/2015/10/data-science-interview-questions.html
 
 
@@ -590,9 +592,3 @@ It's also possible that you'll be asked to read some ML paper and share your tho
 - https://medium.com/@D33B/interview-questions-for-data-scientist-positions-5ad3c5d5b8bd
 - https://medium.com/@D33B/interview-questions-for-data-scientist-positions-part-ii-ac294c2c7241
 - http://www.jasq.org/just-another-scala-quant/new-agey-interviews-at-the-grocery-startup
-
-
-[Category:Interview Questions](Category_Interview_Questions)
-[Category:Interviews](Category_Interviews)
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Statistics](Category_Statistics)

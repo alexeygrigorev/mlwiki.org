@@ -1,11 +1,11 @@
 ---
-title: "NLP Pipeline"
 layout: default
 permalink: /index.php/NLP_Pipeline
+tags:
+- information-retrieval
+- nlp
+title: NLP Pipeline
 ---
-
-# NLP Pipeline
-
 ## NLP Pipeline
 
 
@@ -37,6 +37,3 @@ permalink: /index.php/NLP_Pipeline
 
 ## Sources
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
-
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:NLP](Category_NLP)

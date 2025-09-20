@@ -1,11 +1,11 @@
 ---
-title: "Dijkstra's Shortest Path"
 layout: default
 permalink: /index.php/Dijkstra's_Shortest_Path
+tags:
+- algorithms
+- graphs
+title: Dijkstra's Shortest Path
 ---
-
-# Dijkstra's Shortest Path
-
 ## Dijkstra's Shortest Path
 Goal: to find the shortest path in a graph from a single-source s
 
@@ -137,6 +137,3 @@ Heap implementation can be found here: [Heap#Implementation](Heap#Implementation
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
 - http://algorithms.soc.srcf.net/notes/dijkstra_with_heaps.pdf
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Graphs](Category_Graphs)

@@ -1,11 +1,12 @@
 ---
-title: "Plots"
 layout: default
 permalink: /index.php/Plots
+tags:
+- data-analysis
+- plots
+- visualization
+title: Plots
 ---
-
-# Plots
-
 ## Plots
 Graphical means of communicating results in [Statistics](Statistics) and [Data Analysis](Data_Analysis)
 - especially useful for [Exploratory Data Analysis](Exploratory_Data_Analysis)
@@ -35,7 +36,3 @@ Types
 ## Sources
 - [Data Analysis (coursera)](Data_Analysis_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-[Category:Plots](Category_Plots)
-[Category:Visualization](Category_Visualization)
-[Category:Data Analysis](Category_Data_Analysis)

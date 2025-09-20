@@ -1,11 +1,10 @@
 ---
-title: "Voting Theory"
 layout: default
 permalink: /index.php/Voting_Theory
+tags:
+- voting-theory
+title: Voting Theory
 ---
-
-# Voting Theory
-
 ## Voting Theory
 Voting Theory studies how to take individual rankings of voters and aggregate them to form the global ranking.
 
@@ -80,5 +79,3 @@ Other principles:
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - The mathematics of voting and elections: Paradox, deception, and chaos [http://xaravve.trentu.ca/pivato/Teaching/votingslides.pdf]
-
-[Category:Voting Theory](Category_Voting_Theory)

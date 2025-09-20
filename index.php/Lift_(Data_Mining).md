@@ -1,11 +1,10 @@
 ---
-title: "Lift (Data Mining)"
 layout: default
 permalink: /index.php/Lift_(Data_Mining)
+tags:
+- rule-mining
+title: Lift (Data Mining)
 ---
-
-# Lift (Data Mining)
-
 ## Lift ([Data Mining](Data_Mining))
 Lift is an interestness measure used in [Rule Mining](Rule_Mining)
 - for mining more relevant [association rules](Association_Rule_Mining)
@@ -38,5 +37,3 @@ Lift:
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - http://en.wikipedia.org/wiki/Lift_(data_mining)
-
-[Category:Rule Mining](Category_Rule_Mining)

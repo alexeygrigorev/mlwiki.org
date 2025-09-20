@@ -1,11 +1,11 @@
 ---
-title: "Feature Filtering"
 layout: default
 permalink: /index.php/Feature_Filtering
+tags:
+- dimensionality-reduction
+- feature-filtering
+title: Feature Filtering
 ---
-
-# Feature Filtering
-
 <!-- stub -->
 
 ## Feature Filtering
@@ -39,7 +39,3 @@ E.g. $\chi^2$ measures how the results of an observation differs from the result
 
 ## Sources
 - Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [http://arxiv.org/pdf/cs/0110053.pdf]
-
-
-[Category:Dimensionality Reduction](Category_Dimensionality_Reduction)
-[Category:Feature Filtering](Category_Feature_Filtering)

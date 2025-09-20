@@ -1,11 +1,12 @@
 ---
-title: "MapReduce"
 layout: default
 permalink: /index.php/MapReduce
+tags:
+- algorithms
+- distributed-systems
+- hadoop
+title: MapReduce
 ---
-
-# MapReduce
-
 ## Map Reduce
 Map-Reduce is a paradigm of parallel computation that initially comes from [Functional Programming](Functional_Programming)
 
@@ -166,8 +167,3 @@ MapReduce
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - Lee et al, Parallel Data Processing with MapReduce: A Survey [http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf]
-
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Hadoop](Category_Hadoop)
-[Category:Distributed Systems](Category_Distributed_Systems)

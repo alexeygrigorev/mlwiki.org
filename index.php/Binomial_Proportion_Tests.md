@@ -1,11 +1,12 @@
 ---
-title: "Binomial Proportion Tests"
 layout: default
 permalink: /index.php/Binomial_Proportion_Tests
+tags:
+- r
+- statistical-tests
+- statistics
+title: Binomial Proportion Tests
 ---
-
-# Binomial Proportion Tests
-
 ## Binomial Proportion Tests
 This is a family of [statistical tests](Hypothesis_Testing)  
 - they are typically used for assessing the true proportions of the populations
@@ -282,8 +283,3 @@ prop.test(c(x1, x2), c(n1, n2), alternative="two.sided", correct=F)
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://www.cliffsnotes.com/math/statistics/univariate-inferential-tests/test-for-comparing-two-proportions
-
-
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:R](Category_R)

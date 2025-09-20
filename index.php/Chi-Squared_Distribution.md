@@ -1,11 +1,11 @@
 ---
-title: "Chi-Squared Distribution"
 layout: default
 permalink: /index.php/Chi-Squared_Distribution
+tags:
+- distributions
+- statistics
+title: Chi-Squared Distribution
 ---
-
-# Chi-Squared Distribution
-
 {{stub}}
 
 ## Chi-Squared Distribution
@@ -28,6 +28,3 @@ Visualization
 
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-[Category:Statistics](Category_Statistics)
-[Category:Distributions](Category_Distributions)

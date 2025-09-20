@@ -1,11 +1,12 @@
 ---
-title: "Greatest Common Divisor"
 layout: default
 permalink: /index.php/Greatest_Common_Divisor
+tags:
+- algorithms
+- discrete-mathematics
+- russian
+title: Greatest Common Divisor
 ---
-
-# Greatest Common Divisor
-
 ## Greatest Common Divisor
 
 ''Общий делитель'' чисел $a_1, a_2, ..., a_n$ - число, делящее все числа $a_1, a_2, ..., a_n$ без остатка.
@@ -114,8 +115,3 @@ $n = c \cdot d_n$,
 
 ## Sources
 - Д. Кнут "Искусство Программирования", т. 1
-
-
-[Category:Russian](Category_Russian)
-[Category:Algorithms](Category_Algorithms)
-[Category:Discrete Mathematics](Category_Discrete_Mathematics)

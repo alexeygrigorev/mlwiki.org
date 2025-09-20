@@ -1,11 +1,10 @@
 ---
-title: "Discriminator Pattern"
 layout: default
 permalink: /index.php/Discriminator_Pattern
+tags:
+- business-process-management
+title: Discriminator Pattern
 ---
-
-# Discriminator Pattern
-
 ## Discriminator Pattern
 This is a Control flow pattern in [Workflow Patterns](Workflow_Patterns). 
 
@@ -78,5 +77,3 @@ if $A$ has finish, but $B$ hasn't
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)

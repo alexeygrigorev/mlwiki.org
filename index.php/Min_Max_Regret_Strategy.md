@@ -1,11 +1,11 @@
 ---
-title: "Min Max Regret Strategy"
 layout: default
 permalink: /index.php/Min_Max_Regret_Strategy
+tags:
+- decision-under-uncertainty
+- game-theory
+title: Min Max Regret Strategy
 ---
-
-# Min Max Regret Strategy
-
 ## Min Max Regret Strategy
 How to choose an alternative? 
 - in [Game Theory](Game_Theory)
@@ -81,6 +81,3 @@ Similar idea:
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Decision Under Uncertainty](Category_Decision_Under_Uncertainty)
-[Category:Game Theory](Category_Game_Theory)

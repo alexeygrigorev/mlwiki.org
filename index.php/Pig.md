@@ -1,11 +1,10 @@
 ---
-title: "Pig"
 layout: default
 permalink: /index.php/Pig
+tags:
+- hadoop
+title: Pig
 ---
-
-# Pig
-
 ## Pig
 Pig Latin is a SQL-like declarative query language that runs on top of [Hadoop](Hadoop)
 
@@ -56,5 +55,3 @@ in Pig FOREACH $\approx$ [Map](MapReduce#Map_Function)
 
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-
-[Category:Hadoop](Category_Hadoop)

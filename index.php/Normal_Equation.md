@@ -1,11 +1,13 @@
 ---
-title: "Normal Equation"
 layout: default
 permalink: /index.php/Normal_Equation
+tags:
+- linear-algebra
+- machine-learning
+- regression
+- statistics
+title: Normal Equation
 ---
-
-# Normal Equation
-
 $\require{cancel}$
 
 ## Normal Equation
@@ -337,8 +339,3 @@ pinv(X' * X) * X' * y
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
 - http://en.wikipedia.org/wiki/Linear_least_squares_%28mathematics%29
 - http://www.seas.ucla.edu/~vandenbe/103/lectures/qr.pdf
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Regression](Category_Regression)
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Statistics](Category_Statistics)

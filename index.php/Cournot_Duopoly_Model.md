@@ -1,11 +1,10 @@
 ---
-title: "Cournot Duopoly Model"
 layout: default
 permalink: /index.php/Cournot_Duopoly_Model
+tags:
+- game-theory
+title: Cournot Duopoly Model
 ---
-
-# Cournot Duopoly Model
-
 ## The Cournot Duopoly Model
 This is a game from the [Game Theory](Game_Theory) that models interaction between two firms that produce the same product. 
 
@@ -82,5 +81,3 @@ This action profile is a [Nash Equilibrium](Nash_Equilibrium) - no one will have
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Game Theory](Category_Game_Theory)

@@ -1,11 +1,10 @@
 ---
-title: "Partial Order Preference Structure"
 layout: default
 permalink: /index.php/Partial_Order_Preference_Structure
+tags:
+- multi-criteria-decision-aid
+title: Partial Order Preference Structure
 ---
-
-# Partial Order Preference Structure
-
 ## Partial Order
 This is a preference structure for [Modeling Preferences](Modeling_Preferences) in [MCDA](MCDA) that includes $J$ - the Incomparability relation. 
 
@@ -33,5 +32,3 @@ so we have partial order:
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

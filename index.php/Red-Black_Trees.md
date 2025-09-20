@@ -1,11 +1,11 @@
 ---
-title: "Red-Black Trees"
 layout: default
 permalink: /index.php/Red-Black_Trees
+tags:
+- algorithms
+- data-structures
+title: Red-Black Trees
 ---
-
-# Red-Black Trees
-
 {{stub}}
 
 ## Red-Black trees
@@ -31,7 +31,3 @@ All the operations expect insert and delete are performed as usual in [Binary Se
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Data Structures](Category_Data_Structures)

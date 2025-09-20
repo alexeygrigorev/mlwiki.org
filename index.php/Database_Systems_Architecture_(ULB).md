@@ -1,11 +1,12 @@
 ---
-title: "Database Systems Architecture (ULB)"
 layout: default
 permalink: /index.php/Database_Systems_Architecture_(ULB)
+tags:
+- database-systems-architecture
+- databases
+- it4bi
+title: Database Systems Architecture (ULB)
 ---
-
-# Database Systems Architecture (ULB)
-
 - The course was taken in autumn 2013 at the ULB
 - Taught by Stijn Vansummeren
 
@@ -74,7 +75,3 @@ Hash-Based Indexes
 ## Info
 - Course Webpage http://cs.ulb.ac.be/public/teaching/infoh417
 - Dropbox folder with all the materials https://www.dropbox.com/sh/r0zvy3zaycbevx8/yLvz9YdT-f
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Databases](Category_Databases)
-[Category:IT4BI](Category_IT4BI)

@@ -1,11 +1,10 @@
 ---
-title: "RDFS and OWL Summary"
 layout: default
 permalink: /index.php/RDFS_and_OWL_Summary
+tags:
+- semantic-web
+title: RDFS and OWL Summary
 ---
-
-# RDFS and OWL Summary
-
 Summary from [RDFS](RDFS), [RDFS-Plus](RDFS-Plus) and [OWL](OWL)
 
 
@@ -68,5 +67,3 @@ Summary from [RDFS](RDFS), [RDFS-Plus](RDFS-Plus) and [OWL](OWL)
 
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
-
-[Category:Semantic Web](Category_Semantic_Web)

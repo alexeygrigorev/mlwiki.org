@@ -1,11 +1,12 @@
 ---
-title: "Topological Ordering"
 layout: default
 permalink: /index.php/Topological_Ordering
+tags:
+- algorithms
+- graphs
+- sorting
+title: Topological Ordering
 ---
-
-# Topological Ordering
-
 ## Topological Ordering
 A ''topological ordering'' for a directed graph $G$ is a labelling $f$ of $G$'s nodes such that
 - the $f(v)$'s are the set $\{1, 2, ..., n\}$
@@ -115,7 +116,3 @@ public class TopologicalOrdering {
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
 - http://en.wikipedia.org/wiki/Topological_sorting
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Graphs](Category_Graphs)
-[Category:Sorting](Category_Sorting)

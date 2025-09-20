@@ -1,11 +1,11 @@
 ---
-title: "Sequenced Queries"
 layout: default
 permalink: /index.php/Sequenced_Queries
+tags:
+- databases
+- relational-databases
+title: Sequenced Queries
 ---
-
-# Sequenced Queries
-
 ## Sequenced Queries
 [Temporal Databases](Temporal_Databases) provide mechanisms to store and manipulate time-varying information. But how to query it?
 
@@ -423,6 +423,3 @@ WHERE NOT EXISTS
 
 ## Sources
 - [Advanced Databases (ULB)](Advanced_Databases_(ULB))
-
-[Category:Relational Databases](Category_Relational_Databases)
-[Category:Databases](Category_Databases)

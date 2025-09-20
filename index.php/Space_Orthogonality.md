@@ -1,11 +1,10 @@
 ---
-title: "Space Orthogonality"
 layout: default
 permalink: /index.php/Space_Orthogonality
+tags:
+- linear-algebra
+title: Space Orthogonality
 ---
-
-# Space Orthogonality
-
 ## Space Orthogonality
 Two vectors [(sub)spaces](Vector_Spaces) can also be [orthogonal](Orthogonality) 
 
@@ -74,5 +73,3 @@ $N(A) \; \bot \; C(A^T)$ and $\text{dim} N(A) + \text{dim} C(A^T) = n$
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - http://en.wikipedia.org/wiki/Orthogonality
-
-[Category:Linear Algebra](Category_Linear_Algebra)

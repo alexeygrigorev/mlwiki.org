@@ -1,11 +1,11 @@
 ---
-title: "Temporal Entity-Relationship Model"
 layout: default
 permalink: /index.php/Temporal_Entity-Relationship_Model
+tags:
+- databases
+- relational-databases
+title: Temporal Entity-Relationship Model
 ---
-
-# Temporal Entity-Relationship Model
-
 ## Temporal Entity-Relationship Model
 This is an extension of [ER-Diagrams](Entity-Relationship_Model) to [Temporal Databases](Temporal_Databases). 
 
@@ -90,6 +90,3 @@ Temporality is inherited
 
 ## Sources
 - [Advanced Databases (ULB)](Advanced_Databases_(ULB))
-
-[Category:Relational Databases](Category_Relational_Databases)
-[Category:Databases](Category_Databases)

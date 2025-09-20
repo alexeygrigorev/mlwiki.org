@@ -1,11 +1,10 @@
 ---
-title: "Linear Independence"
 layout: default
 permalink: /index.php/Linear_Independence
+tags:
+- linear-algebra
+title: Linear Independence
 ---
-
-# Linear Independence
-
 ## Linear Independence
 Vectors $\mathbf x_1, \mathbf x_2, ... , \mathbf x_n$ are ''linearly independent'' if no linear combinations gives a zero vector $\mathbf 0$ 
 - $c_1 \mathbf x_1 + c_2 \mathbf x_2 + ... + c_n \mathbf x_n \ne \mathbf 0$ 
@@ -44,5 +43,3 @@ Columns of a matrix $A$ are independent if the [Nullspace](Nullspace) $N(A)$ con
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

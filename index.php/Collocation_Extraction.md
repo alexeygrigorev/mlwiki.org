@@ -1,11 +1,11 @@
 ---
-title: "Collocation Extraction"
 layout: default
 permalink: /index.php/Collocation_Extraction
+tags:
+- nlp
+- text-mining
+title: Collocation Extraction
 ---
-
-# Collocation Extraction
-
 ## Collocation Extraction
 There's no commonly accepted definition of "collocation", but it's usually a multiple-word token (i.e. an $n$-gram) where
 - the words of the ngram co-occur together more often than by chance alone
@@ -193,6 +193,3 @@ For $n$-grams:
 - De Kok D., Brouwer H. "Natural language processing for the working programmer". 2011. Chapter 3 [[https://web.archive.org/web/20151026194211/http://nlpwp.org/book/chap-ngrams.xhtml archived version version](http://nlpwp.org/book/chap-ngrams.xhtml]), [google scholar](http://scholar.google.com/scholar?cluster=12545221866517295405&as_sdt=0,5)
 - Manning C. D., Schütze H. "Foundations of statistical natural language processing", 1999. Chapter 5 [http://nlp.stanford.edu/fsnlp/promo/colloc.pdf]
 - Petrović S. et al. "Comparison of collocation extraction measures for document indexing", 2006. [http://bib.irb.hr/datoteka/251298.110-4-157-203.pdf]
-
-[Category:Text Mining](Category_Text_Mining)
-[Category:NLP](Category_NLP)

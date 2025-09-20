@@ -1,11 +1,10 @@
 ---
-title: "PROMETHEE/Rank Reversal"
 layout: default
 permalink: /index.php/PROMETHEE_Rank_Reversal
+tags:
+- multi-criteria-decision-aid
+title: PROMETHEE/Rank Reversal
 ---
-
-# PROMETHEE/Rank Reversal
-
 ## [Rank Reversal](Rank_Reversal) in [PROMETHEE](PROMETHEE)
 Can be caused by 
 - removing [Non-Discriminating Criteria](Non-Discriminating_Criteria)
@@ -94,5 +93,3 @@ In other words
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - An Introduction to Multicriteria Decision Aid: The PROMETHEE and GAIA Methods, Yves De Smet, Karim Lidouh, 2013
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

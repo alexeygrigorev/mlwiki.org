@@ -1,11 +1,11 @@
 ---
-title: "Grid File Index"
 layout: default
 permalink: /index.php/Grid_File_Index
+tags:
+- database-indexes
+- database-systems-architecture
+title: Grid File Index
 ---
-
-# Grid File Index
-
 ## Grid File Index
 This is [Hash-Based](Hash_Function) [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_(databases)) 
 
@@ -69,7 +69,3 @@ Recall [the typical of queries](Multi-Dimensional_Indexes#Typical_Queries) we wa
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-
-
-[Category:Database Indexes](Category_Database_Indexes)
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

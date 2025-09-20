@@ -1,11 +1,11 @@
 ---
-title: "ANOVA"
 layout: default
 permalink: /index.php/ANOVA
+tags:
+- statistical-tests
+- statistics
+title: ANOVA
 ---
-
-# ANOVA
-
 {{draft}}{{stub}}
 
 ## ANOVA
@@ -44,6 +44,3 @@ If not Normal, use these non-parametric tests
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://en.wikipedia.org/wiki/Analysis_of_variance
-
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:Statistics](Category_Statistics)

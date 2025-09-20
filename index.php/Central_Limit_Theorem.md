@@ -1,11 +1,13 @@
 ---
-title: "Central Limit Theorem"
 layout: default
 permalink: /index.php/Central_Limit_Theorem
+tags:
+- probability
+- r
+- russian
+- statistics
+title: Central Limit Theorem
 ---
-
-# Central Limit Theorem
-
 ## Central Limit Theorem
 C.L.T. explains why [Normal Distribution](Normal_Distribution) is so widespread 
 - when values of a [Random Variable](Random_Variable) are the results of a big number of independent Random Variables with limited [Variance](Variance)s
@@ -177,8 +179,3 @@ $
 ## Sources
 - [Закон больших чисел на exponenta.ru](http://www.exponenta.ru/educat/class/courses/tv/theme0/10.asp)
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-[Category:Russian](Category_Russian)
-[Category:Probability](Category_Probability)
-[Category:Statistics](Category_Statistics)
-[Category:R](Category_R)

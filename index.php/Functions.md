@@ -1,9 +1,6 @@
 ---
-title: "Functions"
 layout: default
 permalink: /index.php/Functions
+title: Functions
 ---
-
-# Functions
-
 1. REDIRECT [Function](Function)

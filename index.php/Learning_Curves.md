@@ -1,11 +1,10 @@
 ---
-title: "Learning Curves"
 layout: default
 permalink: /index.php/Learning_Curves
+tags:
+- machine-learning
+title: Learning Curves
 ---
-
-# Learning Curves
-
 ## [Learning Curves](Learning_Curves)
 This is a good technique (a part of [Machine Learning Diagnosis](Machine_Learning_Diagnosis))
 - to sanity-check a model 
@@ -76,5 +75,3 @@ $\Rightarrow$ if a learning algorithm is suffering from high variance (i.e. it o
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-
-[Category:Machine Learning](Category_Machine_Learning)

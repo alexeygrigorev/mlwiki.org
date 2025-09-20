@@ -1,11 +1,10 @@
 ---
-title: "Genetic Algorithms"
 layout: default
 permalink: /index.php/Genetic_Algorithms
+tags:
+- optimization
+title: Genetic Algorithms
 ---
-
-# Genetic Algorithms
-
 {{stub}}
 
 ## Genetic Algorithms
@@ -28,5 +27,3 @@ This model is successfully applied in many domains:
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Optimization](Category_Optimization)

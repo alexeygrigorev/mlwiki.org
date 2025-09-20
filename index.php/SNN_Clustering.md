@@ -1,11 +1,11 @@
 ---
-title: "SNN Clustering"
 layout: default
 permalink: /index.php/SNN_Clustering
+tags:
+- cluster-analysis
+- distances
+title: SNN Clustering
 ---
-
-# SNN Clustering
-
 ## SNN Clustering
 The goal:
 - find clusters of different shapes, sizes and densities in high-dimensional data
@@ -120,6 +120,3 @@ Parameter tuning:
 
 ## Sources
 - Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
-
-[Category:Cluster Analysis](Category_Cluster_Analysis)
-[Category:Distances](Category_Distances)

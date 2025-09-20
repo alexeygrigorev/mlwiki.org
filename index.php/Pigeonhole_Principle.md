@@ -1,11 +1,12 @@
 ---
-title: "Pigeonhole Principle"
 layout: default
 permalink: /index.php/Pigeonhole_Principle
+tags:
+- combinatorics
+- russian
+- подготовка-к-шад
+title: Pigeonhole Principle
 ---
-
-# Pigeonhole Principle
-
 ## Принцип кроликов и клеток
 
 Если в $N$ клетках сидят не менее $N + 1$ кроликов, то в какой-то из клеток сидит не менее 2-х кроликов. 
@@ -56,7 +57,3 @@ permalink: /index.php/Pigeonhole_Principle
 ## Sources
 - Генкин С.А., Итенберг И.В., Фомин Д.В. Ленинградские математические кружки, 1994.
 - Pigeonhole Principle, http://bars-minsk.narod.ru/teachers/dirichle.html
-
-[Category:Russian](Category_Russian)
-[Category:Combinatorics](Category_Combinatorics)
-[Category:Подготовка к ШАД](Category_Подготовка_к_ШАД)

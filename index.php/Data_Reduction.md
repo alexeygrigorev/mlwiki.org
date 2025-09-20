@@ -1,11 +1,10 @@
 ---
-title: "Data Reduction"
 layout: default
 permalink: /index.php/Data_Reduction
+tags:
+- data-mining
+title: Data Reduction
 ---
-
-# Data Reduction
-
 ## Data Reduction
 In [Machine Learning](Machine_Learning) and [Data Mining](Data_Mining)
 - How to speed up computation for our model?
@@ -37,5 +36,3 @@ Other techniques:
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Data Mining](Category_Data_Mining)

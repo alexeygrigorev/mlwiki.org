@@ -1,11 +1,10 @@
 ---
-title: "Data Analysis"
 layout: default
 permalink: /index.php/Data_Analysis
+tags:
+- data-analysis
+title: Data Analysis
 ---
-
-# Data Analysis
-
 ## Data Analysis
 ### Data
 Data - values of qualitative or quantitative variables belonging to a set of items 
@@ -116,5 +115,3 @@ Steps:
 
 ## Source
 - [Data Analysis (coursera)](Data_Analysis_(coursera))
-
-[Category:Data Analysis](Category_Data_Analysis)

@@ -1,11 +1,11 @@
 ---
-title: "Process Mining"
 layout: default
 permalink: /index.php/Process_Mining
+tags:
+- business-process-management
+- process-mining
+title: Process Mining
 ---
-
-# Process Mining
-
 ## Process Mining
 Suppose we have a log of our process, but do not have the model of this process
 - the ''process mining'' is a way to find a process from the logs
@@ -119,6 +119,3 @@ These algorithms let you find a [Petri Net](Petri_Nets) from logs
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-[Category:Business Process Management](Category_Business_Process_Management)
-[Category:Process Mining](Category_Process_Mining)

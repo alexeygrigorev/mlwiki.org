@@ -1,11 +1,10 @@
 ---
-title: "Matrix Multiplication"
 layout: default
 permalink: /index.php/Matrix_Multiplication
+tags:
+- linear-algebra
+title: Matrix Multiplication
 ---
-
-# Matrix Multiplication
-
 ## Matrix Multiplication
 A [Matrix](Matrix) can be multiplied
 - by a scalar
@@ -34,5 +33,3 @@ c \cdot a_{m1} & c \cdot a_{m2} & \cdots & c \cdot  a_{mn}
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)

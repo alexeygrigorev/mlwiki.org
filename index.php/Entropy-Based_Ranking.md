@@ -1,11 +1,11 @@
 ---
-title: "Entropy-Based Ranking"
 layout: default
 permalink: /index.php/Entropy-Based_Ranking
+tags:
+- dimensionality-reduction
+- document-clustering
+title: Entropy-Based Ranking
 ---
-
-# Entropy-Based Ranking
-
 ## Entropy-Based Ranking
 
 
@@ -43,7 +43,3 @@ But it's very slow: $O(n^2)$ for each $t$
 ## Sources
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
 - http://cs.gmu.edu/~carlotta/teaching/INFS-795-s05/readings/INFS795_MCayci.ppt
-
-
-[Category:Dimensionality Reduction](Category_Dimensionality_Reduction)
-[Category:Document Clustering](Category_Document_Clustering)

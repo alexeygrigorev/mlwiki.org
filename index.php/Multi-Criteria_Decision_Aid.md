@@ -1,11 +1,10 @@
 ---
-title: "Multi-Criteria Decision Aid"
 layout: default
 permalink: /index.php/Multi-Criteria_Decision_Aid
+tags:
+- multi-criteria-decision-aid
+title: Multi-Criteria Decision Aid
 ---
-
-# Multi-Criteria Decision Aid
-
 ## Multi-Criteria Decision Aid
 This is a tool that helps a decision maker to choose a solution when he is facing conflicting criteria and cannot decide.
 
@@ -135,5 +134,3 @@ Once we found the [Pareto-optimal](Dominance) set of solutions in a  problem, we
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - Multiple Criteria Decision Analysis: State of the Art Surveys, 2005 
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

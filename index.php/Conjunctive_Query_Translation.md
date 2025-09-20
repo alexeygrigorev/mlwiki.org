@@ -1,11 +1,10 @@
 ---
-title: "Conjunctive Query/Translation"
 layout: default
 permalink: /index.php/Conjunctive_Query_Translation
+tags:
+- relational-databases
+title: Conjunctive Query/Translation
 ---
-
-# Conjunctive Query/Translation
-
 ## [Conjunctive Query](Conjunctive_Query) Translation
 This describes translation algorithms from [Relational Algebra](Relational_Algebra) to [Conjunctive Queries](Conjunctive_Query) and vise-versa
 
@@ -108,6 +107,3 @@ We translate it as
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems Architecture lecture notes #2 by S. Vansummeren [https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf]
-
-
-[Category:Relational Databases](Category_Relational_Databases)

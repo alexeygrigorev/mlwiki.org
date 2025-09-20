@@ -1,11 +1,13 @@
 ---
-title: "Cumulative Gain Chart"
 layout: default
 permalink: /index.php/Cumulative_Gain_Chart
+tags:
+- classifiers
+- machine-learning
+- model-performance-evaluation
+- r
+title: Cumulative Gain Chart
 ---
-
-# Cumulative Gain Chart
-
 ## Cumulative Gain Chart
 Gain Charts are used for [Evaluation of Binary Classifiers](Evaluation_of_Binary_Classifiers)
 - also it can be used for comparing two or more binary classifiers 
@@ -182,9 +184,3 @@ Lift charts show basically the same information as Gain charts
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - [Measuring Model Performance With Gains And Lift](http://www.youtube.com/watch?v=IwCUZQllVVI)
 - [6k:175 Business Intelligence - Creating Lift and Cumulative Gains charts in Excel](http://www.youtube.com/watch?v=aiC4AIf6ons)
-
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Classifiers](Category_Classifiers)
-[Category:Model Performance Evaluation](Category_Model_Performance_Evaluation)
-[Category:R](Category_R)

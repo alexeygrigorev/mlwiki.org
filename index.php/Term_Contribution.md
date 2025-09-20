@@ -1,11 +1,10 @@
 ---
-title: "Term Contribution"
 layout: default
 permalink: /index.php/Term_Contribution
+tags:
+- feature-selection
+title: Term Contribution
 ---
-
-# Term Contribution
-
 ## Term Contribution
 Idea: result of clustering highly depends on how similar are documents
 
@@ -31,5 +30,3 @@ It's slow - $O(n^2)$
 - Liu, Tao, et al. "An evaluation on feature selection for text clustering." ICML. Vol. 3. 2003. [http://www.aaai.org/Papers/ICML/2003/ICML03-065.pdf]
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
 - http://cs.gmu.edu/~carlotta/teaching/INFS-795-s05/readings/INFS795_MCayci.ppt
-
-[Category:Feature Selection](Category_Feature_Selection)

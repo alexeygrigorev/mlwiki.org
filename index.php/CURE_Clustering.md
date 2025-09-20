@@ -1,11 +1,10 @@
 ---
-title: "CURE Clustering"
 layout: default
 permalink: /index.php/CURE_Clustering
+tags:
+- cluster-analysis
+title: CURE Clustering
 ---
-
-# CURE Clustering
-
 <!-- stub -->
 
 ## CURE Algorithm for Clustering
@@ -32,5 +31,3 @@ CURE eliminates outliers by discarding small slowly growing clusters
 ## Sources
 - Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
 - http://en.wikipedia.org/wiki/CURE_data_clustering_algorithm
-
-[Category:Cluster Analysis](Category_Cluster_Analysis)

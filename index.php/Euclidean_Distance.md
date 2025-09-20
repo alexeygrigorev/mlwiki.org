@@ -1,11 +1,11 @@
 ---
-title: "Euclidean Distance"
 layout: default
 permalink: /index.php/Euclidean_Distance
+tags:
+- distances
+- norms
+title: Euclidean Distance
 ---
-
-# Euclidean Distance
-
 ## Euclidean Distance
 Euclidean distance is a geometric [Distance](Distance) between two datapoints
 - distance between $\mathbf x_1$ and $\mathbf x_2$ is 
@@ -47,7 +47,3 @@ When the data is sparse it's better to use different measure of distance/similar
 - http://en.wikipedia.org/wiki/Euclidean_distance
 - Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
 - Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On principal component analysis, cosine and Euclidean measures in information retrieval." 2007. [http://www.sciencedirect.com/science/article/pii/S0020025507002630] 
-
-
-[Category:Distances](Category_Distances)
-[Category:Norms](Category_Norms)

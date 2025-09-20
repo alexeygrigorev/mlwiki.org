@@ -1,11 +1,10 @@
 ---
-title: "Latent Semantic Kernels"
 layout: default
 permalink: /index.php/Latent_Semantic_Kernels
+tags:
+- kernels
+title: Latent Semantic Kernels
 ---
-
-# Latent Semantic Kernels
-
 $\require{cancel}$
 
 ## Latent Semantic Kernels
@@ -92,5 +91,3 @@ Bottleneck:
 
 ## Sources
 - Cristianini, Nello, John Shawe-Taylor, and Huma Lodhi. "Latent semantic kernels." 2002. [http://eprints.soton.ac.uk/259781/1/LatentSemanticKernals_JIIS_18.pdf]
-
-[Category:Kernels](Category_Kernels)

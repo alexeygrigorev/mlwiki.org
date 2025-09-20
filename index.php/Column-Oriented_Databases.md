@@ -1,11 +1,11 @@
 ---
-title: "Column-Oriented Databases"
 layout: default
 permalink: /index.php/Column-Oriented_Databases
+tags:
+- databases
+- nosql
+title: Column-Oriented Databases
 ---
-
-# Column-Oriented Databases
-
 (article needs improving)
 
 ## Column-Oriented databases
@@ -64,7 +64,3 @@ But it can be overcome by adding a special table with indexes (it's used by Goog
 
 ## Sources
 - [Web Intelligence and Big Data (coursera)](Web_Intelligence_and_Big_Data_(coursera))
-
-
-[Category:NoSQL](Category_NoSQL)
-[Category:Databases](Category_Databases)

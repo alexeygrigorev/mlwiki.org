@@ -1,11 +1,10 @@
 ---
-title: "PROMETHEE/Properties"
 layout: default
 permalink: /index.php/PROMETHEE_Properties
+tags:
+- multi-criteria-decision-aid
+title: PROMETHEE/Properties
 ---
-
-# PROMETHEE/Properties
-
 ## [PROMETHEE](PROMETHEE)/Properties
 ### The PROMETHEE Property
 Note that this pair-wise gives us [Valued Preference](Valued_Preference) Graph
@@ -160,5 +159,3 @@ So we see that [Monotonicity](Monotonicity) is satisfied
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - An Introduction to Multicriteria Decision Aid: The PROMETHEE and GAIA Methods, Yves De Smet, Karim Lidouh, 2013
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

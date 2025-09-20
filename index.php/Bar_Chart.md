@@ -1,11 +1,11 @@
 ---
-title: "Bar Chart"
 layout: default
 permalink: /index.php/Bar_Chart
+tags:
+- plots
+- r
+title: Bar Chart
 ---
-
-# Bar Chart
-
 ## Bar Chart
 Bar Chart, or Bar Plot or Bar Graph 
 - This is a [Plot](Plot) that can be useful for [Exploratory Data Analysis](Exploratory_Data_Analysis)
@@ -77,6 +77,3 @@ They can represent the information about the distribution better than proportion
 - [Data Analysis (coursera)](Data_Analysis_(coursera))
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - http://en.wikipedia.org/wiki/Bar_chart
-
-[Category:Plots](Category_Plots)
-[Category:R](Category_R)

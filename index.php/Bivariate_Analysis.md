@@ -1,11 +1,10 @@
 ---
-title: "Bivariate Analysis"
 layout: default
 permalink: /index.php/Bivariate_Analysis
+tags:
+- data-analysis
+title: Bivariate Analysis
 ---
-
-# Bivariate Analysis
-
 ## Bivariate Analysis
 Analyzes relationships between two variables 
 
@@ -62,5 +61,3 @@ To compare two categorical variables
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-[Category:Data Analysis](Category_Data_Analysis)

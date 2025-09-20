@@ -1,11 +1,10 @@
 ---
-title: "SemiOrder Preference Structure"
 layout: default
 permalink: /index.php/SemiOrder_Preference_Structure
+tags:
+- multi-criteria-decision-aid
+title: SemiOrder Preference Structure
 ---
-
-# SemiOrder Preference Structure
-
 ## Semi Order
 This is a preference structure for [Modeling Preferences](Modeling_Preferences) in [MCDA](MCDA) that takes indifference threshold into account (and therefore can model situations such as in [Luce's Coffee Cups](Luce's_Coffee_Cups))
 
@@ -44,5 +43,3 @@ $a \ P \ b, b \ I \ c, c \ P \ d \Rightarrow a \ P \ d$
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

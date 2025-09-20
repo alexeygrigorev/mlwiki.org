@@ -1,11 +1,11 @@
 ---
-title: "Bloom Filters"
 layout: default
 permalink: /index.php/Bloom_Filters
+tags:
+- algorithms
+- data-structures
+title: Bloom Filters
 ---
-
-# Bloom Filters
-
 ## Bloom filters
 Goal: fast inserts and lookups
 
@@ -56,7 +56,3 @@ if $x$ wasn't inserted, false positives if
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Data Structures](Category_Data_Structures)

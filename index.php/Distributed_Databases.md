@@ -1,11 +1,12 @@
 ---
-title: "Distributed Databases"
 layout: default
 permalink: /index.php/Distributed_Databases
+tags:
+- databases
+- distributed-systems
+- nosql
+title: Distributed Databases
 ---
-
-# Distributed Databases
-
 ## Architectures
 Evolution of Distributes DBs 
 
@@ -74,8 +75,3 @@ Heterogeneity
 
 ## See also
 - [Distributed File Systems](Distributed_File_Systems)
-
-
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:NoSQL](Category_NoSQL)
-[Category:Databases](Category_Databases)

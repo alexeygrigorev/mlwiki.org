@@ -1,11 +1,12 @@
 ---
-title: "Function"
 layout: default
 permalink: /index.php/Function
+tags:
+- calculus
+- linear-algebra
+- mathematics
+title: Function
 ---
-
-# Function
-
 ## Function
 In mathematics, a function $f(\cdot)$ is a set of pairs $x, f(x)$, where
 - $x$ is input, $f(x)$ is output 
@@ -63,7 +64,3 @@ Functions, like [Vectors](Vectors), can form [Vector Spaces](Vector_Spaces)
 
 ## Sources
 - [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
-
-[Category:Calculus](Category_Calculus)
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Mathematics](Category_Mathematics)

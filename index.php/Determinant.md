@@ -1,9 +1,6 @@
 ---
-title: "Determinant"
 layout: default
 permalink: /index.php/Determinant
+title: Determinant
 ---
-
-# Determinant
-
 1. REDIRECT [Determinants](Determinants)

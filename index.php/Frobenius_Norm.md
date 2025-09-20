@@ -1,11 +1,12 @@
 ---
-title: "Frobenius Norm"
 layout: default
 permalink: /index.php/Frobenius_Norm
+tags:
+- linear-algebra
+- norms
+- vector-spaces
+title: Frobenius Norm
 ---
-
-# Frobenius Norm
-
 ## Frobenius Norm
 Is a norm for [Matrix Vector Spaces](Matrix_Vector_Spaces): a vector space of matrices
 - Define [Inner Product](Inner_Product) element-wise: $\langle A, B \rangle = \sum_{ij} a_{ij} b_{ij}$
@@ -95,8 +96,3 @@ This is used for [Reduced Rank Approximation](Reduced_Rank_Approximation) to sho
 
 ## Sources
 - Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [http://www.math.washington.edu/~morrow/498_13/svd.pdf]
-
-
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Vector Spaces](Category_Vector_Spaces)
-[Category:Norms](Category_Norms)

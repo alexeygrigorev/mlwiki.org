@@ -1,11 +1,10 @@
 ---
-title: "Conjunctive Query/Homomorphism"
 layout: default
 permalink: /index.php/Conjunctive_Query_Homomorphism
+tags:
+- relational-databases
+title: Conjunctive Query/Homomorphism
 ---
-
-# Conjunctive Query/Homomorphism
-
 ## Conjunctive Query Homomorphism
 '''def''': a ''homomorphism'' of a [Conjunctive Query](Conjunctive_Query) $Q_2$ to a Conjunctive Query $Q_1$ is 
 - a function $h$ that maps each variable in $Q_2$ to either
@@ -86,6 +85,3 @@ But there's no homomorphism from $C_2$ to $C_1$
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
 - Database Systems Architecture lecture notes #2 by S. Vansummeren [https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf]
-
-
-[Category:Relational Databases](Category_Relational_Databases)

@@ -1,11 +1,13 @@
 ---
-title: "YARN"
 layout: default
 permalink: /index.php/YARN
+tags:
+- distributed-systems
+- hadoop
+- improve-images
+- resource-management
+title: YARN
 ---
-
-# YARN
-
 ## YARN
 YARN stands for "Yet another resource negotiator"
 - it's a [Hadoop](Hadoop) cluster resource manager system 
@@ -109,8 +111,3 @@ These values are configurable on per-job basis:
 
 ## Source
 - [Hadoop: The Definitive Guide (book)](Hadoop__The_Definitive_Guide_(book))
-
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:Hadoop](Category_Hadoop)
-[Category:Resource Management](Category_Resource_Management)
-[Category:Improve Images](Category_Improve_Images)

@@ -1,11 +1,11 @@
 ---
-title: "Mosaic Plot"
 layout: default
 permalink: /index.php/Mosaic_Plot
+tags:
+- plots
+- r
+title: Mosaic Plot
 ---
-
-# Mosaic Plot
-
 ## Mosaic Plot
 This is a [Plot](Plot)
 - it's a visualization of information from [Contingency Table](Contingency_Table)s
@@ -43,6 +43,3 @@ mosaicplot(tab2, col=c('yellow2', 'skyblue2'),
 
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-
-[Category:Plots](Category_Plots)
-[Category:R](Category_R)

@@ -1,11 +1,10 @@
 ---
-title: "Iterative Removal"
 layout: default
 permalink: /index.php/Iterative_Removal
+tags:
+- game-theory
+title: Iterative Removal
 ---
-
-# Iterative Removal
-
 ## Iterative Removal
 This is an application of the [Dominance](Dominance) principle in the [Game Theory](Game_Theory).
 
@@ -125,5 +124,3 @@ Now apply the [Nash Equilibrium](Nash_Equilibrium) rule
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
 - [Game Theory (coursera)](Game_Theory_(coursera))
-
-[Category:Game Theory](Category_Game_Theory)

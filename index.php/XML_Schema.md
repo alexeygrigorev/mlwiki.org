@@ -1,11 +1,10 @@
 ---
-title: "XML Schema"
 layout: default
 permalink: /index.php/XML_Schema
+tags:
+- xml
+title: XML Schema
 ---
-
-# XML Schema
-
 ## XML Schema
 This is a better alternative to [DTD](DTD) for validating [XML](XML) documents 
 - it is XML itself
@@ -275,5 +274,3 @@ Note the usage of <code>xs:NCName</code>
 
 ## Sources
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:XML](Category_XML)

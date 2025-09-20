@@ -1,11 +1,10 @@
 ---
-title: "Reduced Rank Approximation"
 layout: default
 permalink: /index.php/Reduced_Rank_Approximation
+tags:
+- linear-algebra
+title: Reduced Rank Approximation
 ---
-
-# Reduced Rank Approximation
-
 ## Reduced Rank Approximation
 Given an $m \times n$ matrix $A$, the goal is to describe $A$ using fewer than $m \times n$ entries
 - also called '''Total Least Squares''' because we want to approximate matrix $A$ with matrix $B$ by minimizing $\|  A - B \|^2_F$ |- in the [Matrix Vector Spaces](Matrix_Vector_Spaces) with [Frobenius Norm](Frobenius_Norm)
@@ -111,6 +110,3 @@ RRA with SVD
 
 ## Sources
 - Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [http://www.math.washington.edu/~morrow/498_13/svd.pdf]
-
-
-[Category:Linear Algebra](Category_Linear_Algebra)

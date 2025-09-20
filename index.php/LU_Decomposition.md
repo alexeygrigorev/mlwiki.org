@@ -1,11 +1,11 @@
 ---
-title: "LU Decomposition"
 layout: default
 permalink: /index.php/LU_Decomposition
+tags:
+- linear-algebra
+- matrix-decomposition
+title: LU Decomposition
 ---
-
-# LU Decomposition
-
 ## $LU$ Factorization
 This is the simplest factorization that can be seen as a by-product of [Gaussian Elimination](Gaussian_Elimination)
 
@@ -38,6 +38,3 @@ We can go further and obtain factorization $A = LU = LDU^*$, where $D$ is diagon
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-
-[Category:Linear Algebra](Category_Linear_Algebra)
-[Category:Matrix Decomposition](Category_Matrix_Decomposition)

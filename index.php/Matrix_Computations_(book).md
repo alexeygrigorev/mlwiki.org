@@ -1,11 +1,8 @@
 ---
-title: "Matrix Computations (book)"
 layout: default
 permalink: /index.php/Matrix_Computations_(book)
+title: Matrix Computations (book)
 ---
-
-# Matrix Computations (book)
-
 ## Matrix Computations
 
 <img src="http://cv02.twirpx.net/1459/1459090.jpg" alt="Image">

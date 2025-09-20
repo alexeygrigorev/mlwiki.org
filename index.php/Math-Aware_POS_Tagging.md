@@ -1,11 +1,11 @@
 ---
-title: "Math-Aware POS Tagging"
 layout: default
 permalink: /index.php/Math-Aware_POS_Tagging
+tags:
+- nlp
+- thesis
+title: Math-Aware POS Tagging
 ---
-
-# Math-Aware POS Tagging
-
 ## Math-Aware POS Tagging
 [POS Tagging](POS_Tagging) is one of the [NLP](NLP)  task, but what about scientific documents with math expressions? 
 - can adjust traditional POS Tagging methods to handle formulas 
@@ -38,7 +38,3 @@ Mathematical expressions are usually contained within special tags, e.g. inside 
 - Kristianto, Giovanni Yoko, et al. "Extracting definitions of mathematical expressions in scientific papers." 2012. [https://kaigi.org/jsai/webprogram/2012/pdf/719.pdf]
 - Pagael, Robert, and Moritz Schubotz. "Mathematical Language Processing Project." 2014. [http://arxiv.org/pdf/1407.0167]
 - Schöneberg, Ulf, and Wolfram Sperber. "POS Tagging and its Applications for Mathematics." 2014. [http://arxiv.org/pdf/1406.2880]
-
-
-[Category:NLP](Category_NLP)
-[Category:Thesis](Category_Thesis)

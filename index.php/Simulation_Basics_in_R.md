@@ -1,11 +1,13 @@
 ---
-title: "Simulation Basics in R"
 layout: default
 permalink: /index.php/Simulation_Basics_in_R
+tags:
+- distributions
+- r
+- simulations
+- statistics
+title: Simulation Basics in R
 ---
-
-# Simulation Basics in R
-
 ## Simulation in R
 
 ### [Distributions](Distributions)
@@ -106,8 +108,3 @@ When we experiment, we typically want to reproduce it later
 
 ## Source
 - [Data Analysis (coursera)](Data_Analysis_(coursera))
-
-[Category:Statistics](Category_Statistics)
-[Category:R](Category_R)
-[Category:Distributions](Category_Distributions)
-[Category:Simulations](Category_Simulations)

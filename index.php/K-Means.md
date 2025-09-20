@@ -1,11 +1,13 @@
 ---
-title: "K-Means"
 layout: default
 permalink: /index.php/K-Means
+tags:
+- cluster-analysis
+- machine-learning
+- python
+- unsupervised-learning
+title: K-Means
 ---
-
-# K-Means
-
 ## $K$-Means
 This is the most popular [clustering](Cluster_Analysis) algorithm 
 
@@ -339,9 +341,3 @@ See ipython notebook for complete code:
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
 - Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." 2010. [https://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5]
 - Sculley, David. "Web-scale k-means clustering." 2010. [http://www.ra.ethz.ch/CDstore/www2010/www/p1177.pdf]
-
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Unsupervised Learning](Category_Unsupervised_Learning)
-[Category:Cluster Analysis](Category_Cluster_Analysis)
-[Category:Python](Category_Python)

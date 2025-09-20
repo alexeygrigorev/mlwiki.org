@@ -1,11 +1,11 @@
 ---
-title: "DB interview questions"
 layout: default
 permalink: /index.php/DB_interview_questions
+tags:
+- databases
+- interviews
+title: DB interview questions
 ---
-
-# DB interview questions
-
 ## DB
 - Czy kazdy system SQL implementuje standard SQL w jednakowy sposób? 
 - Podaj róznice pomiedzy tabela a perspektywa 
@@ -35,6 +35,3 @@ permalink: /index.php/DB_interview_questions
 - What is a hierarchical query? How to create it?
 - What is a bitmap index
 - Partitioning and methods of partitioning
-
-[Category:Databases](Category_Databases)
-[Category:Interviews](Category_Interviews)

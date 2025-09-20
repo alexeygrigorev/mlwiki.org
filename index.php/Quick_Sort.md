@@ -1,11 +1,11 @@
 ---
-title: "Quick Sort"
 layout: default
 permalink: /index.php/Quick_Sort
+tags:
+- algorithms
+- sorting
+title: Quick Sort
 ---
-
-# Quick Sort
-
 ## Quick Sort
 Sorting algorithm based on [Divide and Conquer](Divide_and_Conquer) computational paradigm
 
@@ -141,6 +141,3 @@ Best pivot - the median
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
-
-[Category:Algorithms](Category_Algorithms)
-[Category:Sorting](Category_Sorting)

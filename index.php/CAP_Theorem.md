@@ -1,11 +1,12 @@
 ---
-title: "CAP Theorem"
 layout: default
 permalink: /index.php/CAP_Theorem
+tags:
+- databases
+- distributed-systems
+- nosql
+title: CAP Theorem
 ---
-
-# CAP Theorem
-
 ## CAP Theorem
 '''CAP''' stands for ['''C'''onsistency](Consistency_(databases)), '''A'''vailability and '''P'''artition tolerance
 
@@ -56,8 +57,3 @@ If a system is partition-tolerant, then it can continue to operate even in prese
 
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-
-
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:NoSQL](Category_NoSQL)
-[Category:Databases](Category_Databases)

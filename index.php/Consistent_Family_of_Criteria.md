@@ -1,11 +1,11 @@
 ---
-title: "Consistent Family of Criteria"
 layout: default
 permalink: /index.php/Consistent_Family_of_Criteria
+tags:
+- multi-criteria-decision-aid
+- multi-objective-optimization
+title: Consistent Family of Criteria
 ---
-
-# Consistent Family of Criteria
-
 ## Consistent Family of Criteria
 A family of criteria in an [MCDA](MCDA) problem should satisfy the following three properties: 
 - Exhaustivity
@@ -45,6 +45,3 @@ $G$ is not redundant if removal of any $g_i \in G$ leads to violation of exhaust
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-
-[Category:Multi-Objective Optimization](Category_Multi-Objective_Optimization)
-[Category:Multi-Criteria Decision Aid](Category_Multi-Criteria_Decision_Aid)

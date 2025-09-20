@@ -1,11 +1,10 @@
 ---
-title: "Gram-Schmidt Process"
 layout: default
 permalink: /index.php/Gram-Schmidt_Process
+tags:
+- linear-algebra
+title: Gram-Schmidt Process
 ---
-
-# Gram-Schmidt Process
-
 $\require{cancel}$
 
 ## Gram-Schmidt Process
@@ -142,6 +141,3 @@ np.abs((A - Q.dot(R)).sum()) < 1e-6
 - Strang, G. Introduction to linear algebra.
 - http://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process
 - http://inst.eecs.berkeley.edu/~ee127a/book/login/l_mats_qr.html
-
-
-[Category:Linear Algebra](Category_Linear_Algebra)

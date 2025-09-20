@@ -1,11 +1,11 @@
 ---
-title: "Alpha Algorithm"
 layout: default
 permalink: /index.php/Alpha_Algorithm
+tags:
+- business-process-management
+- process-mining
+title: Alpha Algorithm
 ---
-
-# Alpha Algorithm
-
 ## Alpha Algorithm
 $\alpha$ algorithm one of the first [Process Mining](Process_Mining) algorithm that discovers [Workflow Nets](Workflow_Nets) (in form of [Petri Nets](Petri_Nets)) from logs 
 
@@ -342,7 +342,3 @@ usually it's not the case in real life and different mining algorithms should be
 - Medeiros, van Dongen, van der Aalst and Weijters. Process Mining: Extending the alpha-algorithm to Mine Short Loops, 2004 [http://www.processmining.org/blogs/pub2004/process_mining_extending_the_alpha-algorithm_to_mine_short_loops]
 - van der Aalst. Process Mining: Discovery, Conformance and Enhancement of Business Processes, 2011 [http://www.processmining.org/book/start]
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-
-[Category:Business Process Management](Category_Business_Process_Management)
-[Category:Process Mining](Category_Process_Mining)

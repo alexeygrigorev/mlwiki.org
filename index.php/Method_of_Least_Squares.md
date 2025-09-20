@@ -1,11 +1,11 @@
 ---
-title: "Method of Least Squares"
 layout: default
 permalink: /index.php/Method_of_Least_Squares
+tags:
+- regression
+- statistics
+title: Method of Least Squares
 ---
-
-# Method of Least Squares
-
 ## Method of Least Squares
 ### [Linear Regression](Linear_Regression)
 - Suppose we want to fit a [regression line](Linear_Regression) to our data
@@ -33,6 +33,3 @@ These values minimize the sum of square differences
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-
-[Category:Regression](Category_Regression)
-[Category:Statistics](Category_Statistics)

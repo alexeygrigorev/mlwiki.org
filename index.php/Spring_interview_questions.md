@@ -1,11 +1,12 @@
 ---
-title: "Spring interview questions"
 layout: default
 permalink: /index.php/Spring_interview_questions
+tags:
+- interviews
+- java
+- spring
+title: Spring interview questions
 ---
-
-# Spring interview questions
-
 ## Spring
 - Basic idea of IoC pattern. Benefits.
 - What is Spring configuration file? How does it look like?
@@ -18,7 +19,3 @@ permalink: /index.php/Spring_interview_questions
 - Describe Test support in Spring (AbstractTransactionalSpringTests)
 - Describe AOP integration in Spring
 - How to integrate Spring and Hibernate using HibernateDaoSupport? 
-
-[Category:Interviews](Category_Interviews)
-[Category:Java](Category_Java)
-[Category:Spring](Category_Spring)

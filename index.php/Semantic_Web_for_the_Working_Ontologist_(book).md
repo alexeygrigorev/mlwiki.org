@@ -1,11 +1,12 @@
 ---
-title: "Semantic Web for the Working Ontologist (book)"
 layout: default
 permalink: /index.php/Semantic_Web_for_the_Working_Ontologist_(book)
+tags:
+- books
+- notes
+- semantic-web
+title: Semantic Web for the Working Ontologist (book)
 ---
-
-# Semantic Web for the Working Ontologist (book)
-
 ## Semantic Web for the Working Ontologist
 - by Allemang D., Hendler J.
 - Second Edition
@@ -23,8 +24,3 @@ permalink: /index.php/Semantic_Web_for_the_Working_Ontologist_(book)
 
 ### Summary
 - [RDFS and OWL Summary](RDFS_and_OWL_Summary)
-
-
-[Category:Semantic Web](Category_Semantic_Web)
-[Category:Books](Category_Books)
-[Category:Notes](Category_Notes)

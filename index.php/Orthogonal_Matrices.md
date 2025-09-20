@@ -1,11 +1,10 @@
 ---
-title: "Orthogonal Matrices"
 layout: default
 permalink: /index.php/Orthogonal_Matrices
+tags:
+- linear-algebra
+title: Orthogonal Matrices
 ---
-
-# Orthogonal Matrices
-
 ## Orthogonal Matrices
 ### Orthonormal Vectors
 Vectors $\mathbf q_1, \ ... \ , \mathbf q_n$ are ''orthonormal'' if they are [orthogonal](Vector_Orthogonality) and unit vectors 
@@ -163,5 +162,3 @@ $Q$ preserves the angle between $\mathbf x$ and $\mathbf y$
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - http://inst.eecs.berkeley.edu/~ee127a/book/login/l_mats_qr.html
-
-[Category:Linear Algebra](Category_Linear_Algebra)

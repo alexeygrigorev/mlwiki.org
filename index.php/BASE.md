@@ -1,11 +1,12 @@
 ---
-title: "BASE"
 layout: default
 permalink: /index.php/BASE
+tags:
+- databases
+- distributed-systems
+- nosql
+title: BASE
 ---
-
-# BASE
-
 ## BASE
 - Basically Available
 - Soft state 
@@ -17,7 +18,3 @@ permalink: /index.php/BASE
 
 ## See also
 - [ACID](ACID)
-
-[Category:NoSQL](Category_NoSQL)
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:Databases](Category_Databases)

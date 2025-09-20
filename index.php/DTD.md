@@ -1,11 +1,10 @@
 ---
-title: "DTD"
 layout: default
 permalink: /index.php/DTD
+tags:
+- xml
+title: DTD
 ---
-
-# DTD
-
 ## DTD
 DTD, or Document Type Definition, is a language for defining schemas for [XML](XML)
 - to validate the content of XML documents
@@ -134,5 +133,3 @@ For example, the following is not possible to validate with DTD
 
 ## Sources
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-
-[Category:XML](Category_XML)

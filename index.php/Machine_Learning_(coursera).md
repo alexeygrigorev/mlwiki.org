@@ -1,11 +1,12 @@
 ---
-title: "Machine Learning (coursera)"
 layout: default
 permalink: /index.php/Machine_Learning_(coursera)
+tags:
+- coursera
+- machine-learning
+- notes
+title: Machine Learning (coursera)
 ---
-
-# Machine Learning (coursera)
-
 ## Overview
 - Introduction to [Machine Learning](Machine_Learning)
 - [Octave tutorial @ Coursera crowd wiki](http://share.coursera.org/wiki/index.php/ML:Octave_Tutorial)
@@ -62,8 +63,3 @@ permalink: /index.php/Machine_Learning_(coursera)
 ### Practical Advice
 - [Large-Scale Machine Learning](Large-Scale_Machine_Learning)
 - [Photo OCR Application Example (Machine Learning)](Photo_OCR_Application_Example_(Machine_Learning))
-
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Coursera](Category_Coursera)
-[Category:Notes](Category_Notes)

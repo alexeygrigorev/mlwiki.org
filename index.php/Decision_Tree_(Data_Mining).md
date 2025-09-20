@@ -1,11 +1,11 @@
 ---
-title: "Decision Tree (Data Mining)"
 layout: default
 permalink: /index.php/Decision_Tree_(Data_Mining)
+tags:
+- classifiers
+- machine-learning
+title: Decision Tree (Data Mining)
 ---
-
-# Decision Tree (Data Mining)
-
 ## Decision Tree
 This is a classification method used in [Machine Learning](Machine_Learning) and [Data Mining](Data_Mining) that is based on [Tree](Tree)s
 - not to confuse with Decision trees in [Decision Analysis](Decision_Analysis): [Decision Tree (Decision Theory)](Decision_Tree_(Decision_Theory))
@@ -358,6 +358,3 @@ We decide to use $X < 1.5$ to split the data
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-
-[Category:Machine Learning](Category_Machine_Learning)
-[Category:Classifiers](Category_Classifiers)

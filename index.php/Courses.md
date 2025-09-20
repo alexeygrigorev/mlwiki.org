@@ -1,11 +1,12 @@
 ---
-title: "Courses"
 layout: default
 permalink: /index.php/Courses
+tags:
+- coursera
+- it4bi
+- notes
+title: Courses
 ---
-
-# Courses
-
 ## [:Category:IT4BI](_Category_IT4BI)
 ### ULB
 - [Advanced Databases (ULB)](Advanced_Databases_(ULB))
@@ -58,10 +59,3 @@ permalink: /index.php/Courses
 ### Misc
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - [Statistical Learning (Stanford Lagunita)](Statistical_Learning_(Stanford_Lagunita))
-
-
-
-[Category:Coursera](Category_Coursera)
-[Category:IT4BI](Category_IT4BI)
-[Category:Notes](Category_Notes)
-[Category:Notes](Category_Notes)

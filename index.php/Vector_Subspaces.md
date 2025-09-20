@@ -1,11 +1,10 @@
 ---
-title: "Vector Subspaces"
 layout: default
 permalink: /index.php/Vector_Subspaces
+tags:
+- linear-algebra
+title: Vector Subspaces
 ---
-
-# Vector Subspaces
-
 ## Subspaces
 A subspace of a [Vector Space](Vector_Space) is a vector space on its own 
 
@@ -96,5 +95,3 @@ $S \cap T$ is a subspace:
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - Курош А.Г. Курс Высшей Алгебры
-
-[Category:Linear Algebra](Category_Linear_Algebra)

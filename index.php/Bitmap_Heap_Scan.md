@@ -1,11 +1,11 @@
 ---
-title: "Bitmap Heap Scan"
 layout: default
 permalink: /index.php/Bitmap_Heap_Scan
+tags:
+- database-indexes
+- database-systems-architecture
+title: Bitmap Heap Scan
 ---
-
-# Bitmap Heap Scan
-
 {{stub}}
 
 ## Bitmap Heap Scan
@@ -31,6 +31,3 @@ Reasons:
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Database Indexes](Category_Database_Indexes)

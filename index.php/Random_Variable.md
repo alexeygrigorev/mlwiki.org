@@ -1,11 +1,10 @@
 ---
-title: "Random Variable"
 layout: default
 permalink: /index.php/Random_Variable
+tags:
+- probability
+title: Random Variable
 ---
-
-# Random Variable
-
 ## Random Variable
 Random Variables (RV)
 - A variable is ''random'' if it can take some value with certain probability
@@ -50,6 +49,3 @@ Most important parameters for an RV $X$ are:
 ## Sources
 - Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
 - http://en.wikipedia.org/wiki/Probability_distribution
-
-
-[Category:Probability](Category_Probability)

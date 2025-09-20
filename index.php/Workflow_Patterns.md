@@ -1,11 +1,10 @@
 ---
-title: "Workflow Patterns"
 layout: default
 permalink: /index.php/Workflow_Patterns
+tags:
+- business-process-management
+title: Workflow Patterns
 ---
-
-# Workflow Patterns
-
 ## Workflow Patterns
 Workflow patterns help to express the constructions common to workflows
 - http://www.workflowpatterns.com/
@@ -65,6 +64,3 @@ perform $d$ after $b$ or $c$ finishes [http://www.workflowpatterns.com/patterns/
 
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))
-
-
-[Category:Business Process Management](Category_Business_Process_Management)

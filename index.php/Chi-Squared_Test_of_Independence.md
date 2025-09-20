@@ -1,11 +1,12 @@
 ---
-title: "Chi-Squared Test of Independence"
 layout: default
 permalink: /index.php/Chi-Squared_Test_of_Independence
+tags:
+- r
+- statistical-tests
+- statistics
+title: Chi-Squared Test of Independence
 ---
-
-# Chi-Squared Test of Independence
-
 ## Chi-Squared Test of Independence
 This is one of [$\chi^2$ tests](Chi-Squared_Tests)
 - one-way table tests - for testing [Frequency Tables](Frequency_Tables), [Chi-Squared Goodness of Fit Test](Chi-Squared_Goodness_of_Fit_Test)
@@ -247,7 +248,3 @@ c('p-value'=test$p.value, test$statistic)
 ## Sources
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
-
-[Category:Statistics](Category_Statistics)
-[Category:Statistical Tests](Category_Statistical_Tests)
-[Category:R](Category_R)

@@ -1,11 +1,12 @@
 ---
-title: "Computing for Data Analysis (coursera)"
 layout: default
 permalink: /index.php/Computing_for_Data_Analysis_(coursera)
+tags:
+- coursera
+- notes
+- programming
+title: Computing for Data Analysis (coursera)
 ---
-
-# Computing for Data Analysis (coursera)
-
 {{draft}}
 
 Курс [Computing for Data Analysis](http://www.coursera.org/course/compdata) об основах языка программирования R
@@ -621,9 +622,3 @@ xlab=expression(sum(x[i]*y[i], i==1,n))
 
 ### Sets operations
   setdiff(i, j) - elements present in i, not present in j
-
-
-
-[Category:Coursera](Category_Coursera)
-[Category:Programming](Category_Programming)
-[Category:Notes](Category_Notes)

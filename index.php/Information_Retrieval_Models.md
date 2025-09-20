@@ -1,11 +1,11 @@
 ---
-title: "Information Retrieval Models"
 layout: default
 permalink: /index.php/Information_Retrieval_Models
+tags:
+- information-retrieval
+- nlp
+title: Information Retrieval Models
 ---
-
-# Information Retrieval Models
-
 ## Information Retrieval Models
 General goal of an [Information Retrieval](Information_Retrieval) systems: rank relevant items much higher than non-relevant
 - to do it, the items must be scored 
@@ -79,7 +79,3 @@ Query Likelihood scoring method
 ## Sources
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
-
-
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:NLP](Category_NLP)

@@ -1,11 +1,11 @@
 ---
-title: "Tokenization"
 layout: default
 permalink: /index.php/Tokenization
+tags:
+- information-retrieval
+- nlp
+title: Tokenization
 ---
-
-# Tokenization
-
 ## Tokenization
 Tokenization is a part of [NLP Pipeline](NLP_Pipeline) and it's common in almost any [NLP](NLP) or [Information Retrieval](Information_Retrieval) task
 
@@ -52,6 +52,3 @@ Main challenge: distinguish between full stop dot and dot in abbreviations
 
 ## Sources
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
-
-[Category:Information Retrieval](Category_Information_Retrieval)
-[Category:NLP](Category_NLP)

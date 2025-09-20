@@ -1,11 +1,10 @@
 ---
-title: "Undo/Redo Logging"
 layout: default
 permalink: /index.php/Undo_Redo_Logging
+tags:
+- database-systems-architecture
+title: Undo/Redo Logging
 ---
-
-# Undo/Redo Logging
-
 ## Undo/Redo Logging
 This is a [Database Transaction Log](Database_Transaction_Log) for dealing with [Crash Recovery](Crash_Recovery). 
 
@@ -74,5 +73,3 @@ Notation:
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)

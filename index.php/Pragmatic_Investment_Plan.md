@@ -1,13 +1,10 @@
 ---
-title: "Pragmatic Investment Plan"
 layout: default
 permalink: /index.php/Pragmatic_Investment_Plan
+tags:
+- productivity
+title: Pragmatic Investment Plan
 ---
-
-# Pragmatic Investment Plan
-
-
-
 - knowledge portfolio - your skills and talents
 - manage it as you would manage your financial portfolio
 - relating learning to "free" time is a recipe for failure
@@ -63,6 +60,3 @@ permalink: /index.php/Pragmatic_Investment_Plan
 
 ## Ссылки
 [Refactor your Wetware#Pragmatic Investment Plan](Refactor_your_Wetware#Pragmatic_Investment_Plan)
-
-
-[Category:Productivity](Category_Productivity)

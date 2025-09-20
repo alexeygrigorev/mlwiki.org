@@ -1,11 +1,12 @@
 ---
-title: "Document-Oriented Databases"
 layout: default
 permalink: /index.php/Document-Oriented_Databases
+tags:
+- databases
+- distributed-systems
+- nosql
+title: Document-Oriented Databases
 ---
-
-# Document-Oriented Databases
-
 ## Document-Oriented Databases
 A document-oriented database is a database designed for storing document-oriented information. Instead of records, as in traditional [Relational Databases](Relational_Databases), these databases use structured and semi-structured documents. It may be XML, JSON or any other structured format. 
 
@@ -50,8 +51,3 @@ Most XML databases are Document-Oriented
 
 ## See also
 - [NoSQL](NoSQL)
-
-
-[Category:Distributed Systems](Category_Distributed_Systems)
-[Category:NoSQL](Category_NoSQL)
-[Category:Databases](Category_Databases)

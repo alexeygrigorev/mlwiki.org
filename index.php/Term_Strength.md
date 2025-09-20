@@ -1,11 +1,11 @@
 ---
-title: "Term Strength"
 layout: default
 permalink: /index.php/Term_Strength
+tags:
+- feature-selection
+- information-retrieval
+title: Term Strength
 ---
-
-# Term Strength
-
 ## Term Strength
 Term Strength is a technique for [Feature Selection](Feature_Selection) in [Text Mining](Text_Mining)
 - it doesn't need a pre-defined list of [Stop Words](Stop_Words) - it discovers them automatically
@@ -53,7 +53,3 @@ Let expected strength be $z = \mathbb E_t [s(t)]$
 ## Sources
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
 - Wilbur, W. John, and Karl Sirotkin. "The automatic identification of stop words." 1992. [https://www.researchgate.net/publication/247786801_The_automatic_identification_of_stop_words]
-
-
-[Category:Feature Selection](Category_Feature_Selection)
-[Category:Information Retrieval](Category_Information_Retrieval)

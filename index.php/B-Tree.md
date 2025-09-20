@@ -1,11 +1,12 @@
 ---
-title: "B-Tree"
 layout: default
 permalink: /index.php/B-Tree
+tags:
+- data-structures
+- database-indexes
+- database-systems-architecture
+title: B-Tree
 ---
-
-# B-Tree
-
 ## B+ Tree
 A [search tree](Binary_Search_Trees) is a way to organize data to allow efficient 
 - ''B-Tree'' - same idea, but for secondary memory, for blocks
@@ -253,7 +254,3 @@ need other types of indexes - [Multi-Dimensional Indexes](Multi-Dimensional_Inde
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-
-[Category:Database Systems Architecture](Category_Database_Systems_Architecture)
-[Category:Data Structures](Category_Data_Structures)
-[Category:Database Indexes](Category_Database_Indexes)
