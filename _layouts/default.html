@@ -34,9 +34,8 @@
             
             {% if page.tags and page.tags.size > 0 %}
             <div class="tags-section">
-                <strong>Tags:</strong>
                 {% for tag in page.tags %}
-                <span class="tag">{{ tag }}</span>
+                <a href="#" class="tag" onclick="searchTag('{{ tag }}')">{{ tag }}</a>
                 {% endfor %}
             </div>
             {% endif %}

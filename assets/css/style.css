@@ -229,30 +229,24 @@ footer {
 /* Tags section */
 .tags-section {
     margin: 1rem 0 2rem 0;
-    padding: 1rem;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    border-left: 4px solid #667eea;
 }
 
 .tag {
     display: inline-block;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: white;
-    padding: 0.25rem 0.75rem;
-    margin: 0.25rem 0.5rem 0.25rem 0;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 500;
+    color: #666;
+    font-size: 0.9rem;
     text-decoration: none;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0.25rem 0.5rem 0.25rem 0;
+    transition: color 0.2s ease;
+}
+
+.tag:before {
+    content: "#";
 }
 
 .tag:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(135deg, #5a67d8, #6b46c1);
+    color: #0366d6;
+    text-decoration: underline;
 }
 
 /* Math support */
