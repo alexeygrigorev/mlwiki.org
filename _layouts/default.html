@@ -44,7 +44,7 @@
                 {{ content }}
             </div>
             
-            {% if page.path and page.path != "index.md" %}
+            {% if page.path and page.path != "index.md" and page.layout != "tag" %}
             <div class="edit-link">
                 <a href="{{ site.github_repository }}/blob/main/{{ page.path }}" target="_blank">✏️ Edit on GitHub</a>
             </div>
