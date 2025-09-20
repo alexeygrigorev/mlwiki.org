@@ -44,12 +44,12 @@ def create_tag_page(tag):
     tag_dir = Path("tag")
     tag_dir.mkdir(exist_ok=True)
     
-    tag_file = tag_dir / f"{tag}.html"
+    tag_file = tag_dir / f"{tag}.md"
     
     content = f"""---
 layout: tag
 tag: {tag}
-permalink: /tag/{tag}/
+permalink: /tag/{tag}.html
 ---
 """
     
