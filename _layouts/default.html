@@ -35,7 +35,7 @@
             {% if page.tags and page.tags.size > 0 %}
             <div class="tags-section">
                 {% for tag in page.tags %}
-                <a href="#" class="tag" onclick="searchTag('{{ tag }}')">{{ tag }}</a>
+                <a href="{{ '/tag/' | append: tag | append: '.html' | relative_url }}" class="tag">{{ tag }}</a>
                 {% endfor %}
             </div>
             {% endif %}
