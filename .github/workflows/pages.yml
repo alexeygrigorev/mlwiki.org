@@ -42,15 +42,9 @@ jobs:
         run: |
           python generate_tag_pages.py
           
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
-          ruby-version: '3.1'
-          bundler-cache: true
-          cache-version: 0
-          
-      - name: Add Linux platform to bundle
-        run: bundle lock --add-platform x86_64-linux
+          ruby-version: '3.2'
           
       - name: Setup Pages
         id: pages
