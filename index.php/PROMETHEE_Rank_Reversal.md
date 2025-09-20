@@ -62,7 +62,7 @@ RR is possible when $\Phi(a) - \Phi(b) > \cfrac{2}{n - 1}$
 - $\Phi_y(a) = \cfrac{1}{n-2} \sum_{x \in A_y} [ \pi(a, x) - \pi(x, a) ]$
 - $\Phi(a) = \cfrac{1}{n-1} \sum_{x \in A} [ \pi(a, x) - \pi(x, a) ] = ...$
   - move the item with $y$ out of the sum
-  - $... \cfrac{n - 2}{{\color{red}{n - 2}}} \cfrac{{\color{red}{1}}}{n - 1} \sum_{x \in A, x \ne y} [ \pi(a, x) - \pi(x, a) ] + \cfrac{1}{n - 1} [ \pi(a, y) - \pi(y, a) ] = ...$
+  - $... \cfrac{n - 2}{\{\color{red}\{n - 2\}\}} \cfrac{\{\color{red}\{1\}\}}{n - 1} \sum_{x \in A, x \ne y} [ \pi(a, x) - \pi(x, a) ] + \cfrac{1}{n - 1} [ \pi(a, y) - \pi(y, a) ] = ...$
   - $... = \cfrac{n - 2}{n - 1} \Phi_y(a) +  \cfrac{1}{n - 1} [ \pi(a, y) - \pi(y, a) ]$
 - Thus we can express $\Phi_y(a)$ via $\Phi(a)$:
   - $\Phi_y(a) = \cfrac{n - 2}{n - 1} - \cfrac{1}{n - 2} \cdot [ \pi(a, y) - \pi(y, a) ]$

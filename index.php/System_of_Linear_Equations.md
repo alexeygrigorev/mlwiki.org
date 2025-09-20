@@ -122,7 +122,8 @@ I.e. we want to find a [Linear Combination](Linear_Combination) of these columns
 - so we take 1 of vector $\mathbf u$ and 2 of vector $\mathbf v$ and end up at exactly $\mathbf b$|   | |
 
 ### Python Code
-{{ Hider |   |   title=Python code to reproduce the figures |  |   content=
+<details><summary>Python code to reproduce the figures</summary>
+
 ```python
 import matplotlib.pylab as plt
 import numpy as np
@@ -166,7 +167,8 @@ plt.ylim([-2, 5])
 plt.xlim([-4, 4])
 plt.show()
 ```
-}}
+
+</details>
 
 
 ## Solving the System

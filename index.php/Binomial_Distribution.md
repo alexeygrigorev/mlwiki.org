@@ -90,8 +90,10 @@ Link: http://socr.stat.ucla.edu/htmls/SOCR_Experiments.html
 
 <img src="http://habrastorage.org/files/d05/00d/a7a/d0500da7a9a54694940d278ee9b2878c.gif" alt="Image">
 
-{{ Hider |  |   title=R code to produce the figure |  |   content=
-```text only
+<details>
+<summary>R code to produce the figure</summary>
+
+```r
 require(animation)
 
 p = 0.13
@@ -114,7 +116,7 @@ saveGIF({
   }
 }, interval=0.1)
 ```
-}}
+</details>
 
 We see that around $n = $ 50-60 it becomes quite symmetric 
 - <img src="http://habrastorage.org/files/09d/d1b/c35/09dd1bc35cbe4f8280804f6e1eb1939e.png" alt="Image">
@@ -130,8 +132,10 @@ It's reasonable to use the Normal Distribution to approximate Binomial
 
 
 
-{{ Hider |  |   title=R code to produce the figure |  |   content=
-```tera term macro
+<details>
+<summary>R code to produce the figure</summary>
+
+```r
 saveGIF({
   for (n in 2:130) {
     x = seq(1, min(n, max.n))
@@ -155,7 +159,7 @@ saveGIF({
   }
 }, interval=0.1)
 ```
-}}
+</details>
 
 
 ### Example

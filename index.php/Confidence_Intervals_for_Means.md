@@ -49,7 +49,9 @@ Suppose we take 10k samples
 - <img src="http://habrastorage.org/files/8a1/8f9/d42/8a18f9d42fb74957acb26f859b51c289.png" alt="Image">
 
 
-{{ Hider |  |   title=R code to reproduce the experiment |  |   content=
+<details>
+<summary>R code to reproduce the experiment</summary>
+
 ```gdscript
 load(url('http://s3.amazonaws.com/assets.datacamp.com/course/dasi/ames.RData'))
 population = ames$Gr.Liv.Area
@@ -102,7 +104,8 @@ lines(1200:1800, dens, col="blue", lwd=2)
 qqnorm(samp.mean, col=adjustcolor('orange', 0.1))
 qqline(samp.mean)
 ```
-}}
+
+</details>
 
 In this case all the assumptions hold - can use the Normal Approximation to calculate the confidence intervals
 

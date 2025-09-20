@@ -40,7 +40,9 @@ Example
 
 <img src="http://habrastorage.org/files/a76/ac7/b68/a76ac7b689e64323af65a6d4d0df5f9c.png" alt="Image">
 
-{{ Hider |  |   title=R code |  |   content=
+<details>
+<summary>R code</summary>
+
 ```carbon
 x = seq(-10, 25, 0.3)
 m = 10
@@ -73,7 +75,8 @@ text(m.observed, 0.02-0.005, 'confidence interval', cex=0.7)
 
 par(xpd=FALSE)
 ```
-}} 
+
+</details>
 
 
 A confidence interval consists of two parts
@@ -91,7 +94,9 @@ but we're 95% confident that a CI calculated from one sample will include it
 
 
 
-{{ Hider |  |   title=R code to produce the figure |  |   content=
+<details>
+<summary>R code to produce the figure</summary>
+
 ```gdscript
 load(url('http://s3.amazonaws.com/assets.datacamp.com/course/dasi/ames.RData'))
 population = ames$Gr.Liv.Area
@@ -106,7 +111,8 @@ me = 1.96 * sampl.sd / sqrt(n)
 
 plot_ci(sampl.m - me, sampl.m + me, mean(population))
 ```
-}}
+
+</details>
 
 
 ### Margin Of Error
@@ -142,7 +148,7 @@ A method  for constructing CIs is ''robust'' if
 
 
 ### Relationship with [Hypothesis Testing](Statistical_Tests_of_Significance)
-{{Main |  Confidence Intervals and Statistical Tests}} |
+<!-- Main: Confidence Intervals and Statistical Tests -->
 
 ### Additional Resources
 - [applet](http://www.rossmanchance.com/applets/NewConfsim/Confsim.html) for simulating CIs 

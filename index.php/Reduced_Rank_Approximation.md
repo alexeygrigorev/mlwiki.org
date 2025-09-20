@@ -36,7 +36,7 @@ How do we define "best"?
 
 Let's apply [SVD](SVD):
 - $A = U \Sigma V^T = \sum_i \sigma_i \mathbf u_i \mathbf v_i^T$
-- $\|  A \|^2_F = \sum_i \| \sigma_i \mathbf u_i \mathbf v_i^T \|^2_F$  |  - {{ TODO |  why??? prove it }} |  - the terms are orthogonal w.r.t. matrix inner product
+- $\|  A \|^2_F = \sum_i \| \sigma_i \mathbf u_i \mathbf v_i^T \|^2_F$  |  - <!-- TODO: why??? prove it --> |  - the terms are orthogonal w.r.t. matrix inner product
 - SVD is orthogonal decomposition into rank-1 matrices
 - also because norm of rank-1 matrix is $\|  \mathbf u_i \mathbf v_i^T \|^2_F = \| \mathbf u_i  \|^2 \|\mathbf v_i  \|^2$ and $\mathbf v_i$ and $\mathbf u_i$ are orthonormal, we have  |- $\|  A \|^2_F = \sum_i \sigma_i^2$  |
 

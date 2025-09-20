@@ -114,7 +114,7 @@ polygon(x=x[c(x2.left, x2.left:x2.right, x2.right)],
 
 
 ## Power Analysis
-{{ TODO |  what's that? }} |- e.g. see here [http://stats.stackexchange.com/questions/108186]
+<!-- TODO: what's that? --> |- e.g. see here [http://stats.stackexchange.com/questions/108186]
 - http://www.statmethods.net/stats/power.html - in R
 - http://www.marketingdistillery.com/2014/08/10/multiple-abn-tests-in-marketing-with-anova-and-r/ - sample size 
 

@@ -41,7 +41,7 @@ Workflow net:
 
 
 ## Soundness
-{{Main |  Workflow Soundness}} |
+<!-- Main: Workflow Soundness -->
 There are situations that we want to avoid:
 - unboundness 
 - livelocks and deadlocks
@@ -54,7 +54,7 @@ For that we define the following properties
 
 
 ## [Workflow Patterns](Workflow_Patterns)
-{{ Main |  Workflow Nets/Workflow Patterns }} |
+<!-- Main: Workflow Nets/Workflow Patterns -->
 
 ## Housing Agency Assignment
 - [Housing Agency Workflow](Housing_Agency_Workflow)

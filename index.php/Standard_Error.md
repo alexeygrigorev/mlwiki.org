@@ -80,7 +80,8 @@ There's another example that shows that the more data we have, the more accurate
 <img src="http://habrastorage.org/files/454/073/b0a/454073b0ac4149c789916b3dba2c61c6.png" alt="Image">
 
 
-{{ Hider |  |   title=R code to produce the figure |  |   content=
+<details><summary>R code to produce the figure</summary>
+
 ```carbon
 library(openintro)
 data(run10Samp)
@@ -90,7 +91,8 @@ plot(x=1:100, y=avg, type='l', col='blue',
      ylab='running mean', xlab='sample size', bty='n')
 abline(h=mean(time), lty=2, col='grey')
 ```
-}}
+
+</details>
 
 
 So it illustrates that the more sample size is, the better we can estimate the parameter

@@ -20,4 +20,4 @@ Q(\text{$E_1$.eid}) \leftarrow & \text{Emp}(\text{$E$.eid}, \text{$E$.did}, \tex
 $
 
 
-$R^k_{ij} = \color{grey}{\underbrace{{\color{black}{ \ R^{k-1}_{ij} \ }}}_{\small\text{(1)}} {\color{black}{+}} \underbrace{{\color{black}{ \ R^{k-1}_{ik}  \  }}}_{\small\text{(2)}} \underbrace{{\color{black}{  \  \big( R^{k-1}_{kk} \big)^*  \  }}}_{\small\text{(3)}} \underbrace{{\color{black}{  \  R^{k-1}_{kj}  \  } }}_{\small\text{(4)}}}$
+$R^k_{ij} = \color{grey}{\underbrace{\{\color{black}\{ \ R^{k-1}_{ij} \ \}\}}_{\small\text{(1)}} \{\color{black}\{+\}\} \underbrace{\{\color{black}\{ \ R^{k-1}_{ik}  \  \}\}}_{\small\text{(2)}} \underbrace{\{\color{black}\{  \  \big( R^{k-1}_{kk} \big)^*  \  \}\}}_{\small\text{(3)}} \underbrace{\{\color{black}\{  \  R^{k-1}_{kj}  \  \} \}}_{\small\text{(4)}}}$

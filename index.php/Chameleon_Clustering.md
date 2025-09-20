@@ -6,7 +6,7 @@ permalink: /index.php/Chameleon_Clustering
 
 # Chameleon Clustering
 
-{{ stub }}
+<!-- stub -->
 
 ## Chameleon Clustering
 Combines initial partition of data with hierarchical clustering techniques 

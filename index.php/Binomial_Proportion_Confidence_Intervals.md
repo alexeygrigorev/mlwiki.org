@@ -54,7 +54,9 @@ E.g. 95% CI
 - So only in 5 experiments out of 100 you end up outside of this interval
 
 
-{{ Hider |  |   title=R code to produce the figure |  |   content=
+<details>
+<summary>R code to produce the figure</summary>
+
 ```carbon
 x = seq(-3, 3, 0.1)
 y = dnorm(x)
@@ -68,7 +70,8 @@ polygon(x[c(x1, x1:x2, x2)],
 text(x=0, y=0.2, labels='0.95', cex=1.5)
 text(x=c(-2.07, 2.07), y=0.025, labels='0.025', cex=0.6)
 ```
-}}
+
+</details>
 
 
 

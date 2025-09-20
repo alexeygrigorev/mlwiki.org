@@ -6,7 +6,7 @@ permalink: /index.php/DBSCAN
 
 # DBSCAN
 
-{{ stub  }}
+<!-- stub -->
 
 ## DBSCAN
 It's a density-based clustering algorithm

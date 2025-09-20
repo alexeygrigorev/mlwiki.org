@@ -185,7 +185,7 @@ And finally, it's very young
 
 
 ## Hadoop for Data Warehousing
-{{ Main |  Hadoop in Data Warehousing }} |
+<!-- Main: Hadoop in Data Warehousing -->
 
 ## Links
 - http://www.stanford.edu/class/ee380/Abstracts/111116.html - a lecture about Hadoop from Cloudera CTO 

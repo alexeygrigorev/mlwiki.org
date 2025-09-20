@@ -128,7 +128,7 @@ Formal foundation for RDFS and OWL:
 
 
 ### Logical Inference
-{{ main |  Inference in Semantic Web }} |
+<!-- Main: Inference in Semantic Web -->
 [RDFS](RDFS) and [OWL](OWL) allow new tuples to be created from facts asserted in the database
 
 

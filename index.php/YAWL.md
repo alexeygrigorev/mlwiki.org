@@ -107,7 +107,7 @@ Transitions in YAWL are no longer atomic
 
 ## Advanced Syntax
 ### Cancellation Regions
-{{ Main |  Cancellation Regions}} |
+<!-- Main: Cancellation Regions -->
 
 ### OR-Split and OR-Join
 #### OR-Split

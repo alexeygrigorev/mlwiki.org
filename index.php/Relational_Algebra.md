@@ -540,7 +540,7 @@ $ (set semantics)
 - $C$ is renamed to $D$
 
 ## Translating SQL to RA
-{{ Main |  Translating SQL to Relational Algebra}} |
+<!-- Main: Translating SQL to Relational Algebra -->
 
 
 ## Sources

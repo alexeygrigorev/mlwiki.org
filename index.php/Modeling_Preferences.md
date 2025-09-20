@@ -47,7 +47,7 @@ There are several preference structures that can do that:
 
 
 ## Preferential Independence
-{{ Main |  Preferential Independence }} |
+<!-- Main: Preferential Independence -->
 This is an important condition between preferences and criteria: the criteria should be preferentially independent.
 
 

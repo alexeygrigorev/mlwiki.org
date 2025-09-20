@@ -62,7 +62,7 @@ We indicate that the attributes form a key by <u>underlining</u> them:
 
 
 ## Query Processing
-{{Main |  Query Processing}} |How to translate a SQL query into physical query plan
+<!-- Main: Query Processing --> How to translate a SQL query into physical query plan
 
 
 ## Sources

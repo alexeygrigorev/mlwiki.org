@@ -200,7 +200,9 @@ We can also verify that $\mathbf e \; \bot \; C(A)$
 
 
 
-{{ Hider |   |    title=Python code |  |    content=
+<details>
+<summary>Python code</summary>
+
 ```python
 import matplotlib.pylab as plt
 import numpy as np
@@ -236,7 +238,8 @@ p = A.dot(x).reshape(-1)
 e = p - b
 print p.dot(e)
 ```
-}}
+
+</details>
 
 
 

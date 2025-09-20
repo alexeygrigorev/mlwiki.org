@@ -6,7 +6,7 @@ permalink: /index.php/Concept_Decomposition
 
 # Concept Decomposition
 
-{{ stub }}
+<!-- stub -->
 
 ## Concept Decomposition
 We can use clustering for [Dimensionality Reduction](Dimensionality_Reduction) of text data

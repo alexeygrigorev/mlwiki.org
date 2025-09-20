@@ -27,7 +27,7 @@ Suppose we have $n$ observations
 
 
 ### Method of Least Squares
-{{Main |  Method of Least Squares}} |
+<!-- Main: Method of Least Squares -->
 To find the slope and the intercept parameters we may use the method of least squares
 
 
@@ -86,7 +86,7 @@ $i$th residual is:
 - $e_i = y_i - (b_0 + b_1 x_i) = y_i - b_0 - b_1 x_1 $
 
 ### Residual Analysis
-{{Main |  Residual Analysis}} |
+<!-- Main: Residual Analysis -->
 [Residual Analysis](Residual_Analysis) - is a powerful mechanism for estimating how good a regression is
 - It gives us $R^2$, called [Coefficient of Determination](Residual_Analysis#Coefficient_of_Determination), which is a measure of how much variance in the data was explained by our regression model
 
@@ -154,7 +154,7 @@ Another way of finding the slope and intercept parameters is [Gradient Descent A
 
 
 ## [Multivariate Linear Regression](Multivariate_Linear_Regression)
-{{Main |  Multivariate Linear Regression}} |
+<!-- Main: Multivariate Linear Regression -->
 We can use the regression to fit a linear model for several variables.
 
 ## In R

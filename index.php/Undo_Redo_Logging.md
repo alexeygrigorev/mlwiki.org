@@ -66,7 +66,7 @@ Notation:
 
 
 ## Exercises
-{{ Main |  Database Transaction Log Exercises }} |
+<!-- Main: Database Transaction Log Exercises -->
 
 ## See also
 - [Crash Recovery](Crash_Recovery)

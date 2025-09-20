@@ -46,7 +46,7 @@ $V = \sqrt{ 3 / 150 } = \sqrt{ 30 / 1500 } \approx 0.14 $
 
 
 ## [R](R)
-{{ TODO |  Expand it}} |
+<!-- TODO: Expand it -->
 ```scdoc
 cv.test = function(x,y) {
   CV = sqrt(chisq.test(x, y, correct=FALSE)$statistic /

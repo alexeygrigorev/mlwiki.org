@@ -197,7 +197,7 @@ Storage of BLOBs
 ### Column Stores
 See [Column-Oriented Databases](Column-Oriented_Databases)
 
-{{ TODO |  add more info }} |
+<!-- TODO: add more info -->
 
 ## Record Modification
 - Insertions, deletions and updates of records often cause problems 

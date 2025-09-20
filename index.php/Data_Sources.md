@@ -22,7 +22,7 @@ Other sources:
 
 
 Football:
-- {{TODO| share from yadisk/dropbox}} |
+- <!-- TODO: share from yadisk/dropbox -->
 
 ### Links with Links
 Also: Data Repositories

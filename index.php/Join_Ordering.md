@@ -119,7 +119,7 @@ Suppose:
   - $(3)$ is not better than $(1)$, but $(4)$ (given $(3)$) is better than $(2)$ (given $(1)$)
   - 900 I/Os saved|   | |
 ## Exercises
-{{ Main |  Query Plan Selection Exercises }} |
+<!-- Main: Query Plan Selection Exercises -->
 
 ## See also
 - [Physical Operators (databases)](Physical_Operators_(databases))

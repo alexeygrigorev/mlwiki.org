@@ -47,7 +47,7 @@ Consider this example:
 
 
 ## Exercises
-{{ Main |  Query Plan Selection Exercises }} |
+<!-- Main: Query Plan Selection Exercises -->
 
 ## See also
 - [Query Plan](Query_Plan)

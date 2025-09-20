@@ -6,7 +6,7 @@ permalink: /index.php/Agglomerative_Clustering
 
 # Agglomerative Clustering
 
-{{ stub }}
+<!-- stub -->
 
 ## Agglomerative Clustering
 General concept: merge items into clusters based on distance/similarity 
@@ -30,7 +30,7 @@ How to join two clusters?
 
 Suppose we have clusters $A, B, C, ...$ that we want to merge 
 
-{{ TODO |  need more mathematical definitions }} |
+<!-- TODO: need more mathematical definitions -->
 
 ### Single Linkage
 Merge two groups $A$ and $B$ based on their closest pair 
@@ -44,7 +44,8 @@ Implementation:
 
 advantage: 
 - efficient to implement 
-- equivalent to a Spanning Tree algo on the complete graph of pair-wise distances {{ TODO |  Link to Algo 2 from Coursera|  }} |- can use Prim's Spanning Tree algo |
+- equivalent to a Spanning Tree algo on the complete graph of pair-wise distances <!-- TODO: Link to Algo 2 from Coursera -->
+- can use Prim's Spanning Tree algo |
 
 Drawbacks 
 - encourages chaining

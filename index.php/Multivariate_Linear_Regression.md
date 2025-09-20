@@ -84,9 +84,9 @@ Next, suppose we have the following relationship between data
 
 ## Computing Coefficients
 ### [Gradient Descent](Gradient_Descent) for Multivariate Linear Regression
-{{Main |  Gradient Descent#Multivariate Linear Regression}} |
+<!-- Main: Gradient Descent#Multivariate Linear Regression -->
 ### [Normal Equation](Normal_Equation)
-{{Main |  Normal Equation}} |This is another way of computing coefficients for multivariate regression 
+<!-- Main: Normal Equation --> This is another way of computing coefficients for multivariate regression 
 
 
 ## Linear Regression Assumptions

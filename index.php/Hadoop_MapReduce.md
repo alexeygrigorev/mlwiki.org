@@ -89,7 +89,7 @@ General flow:
 - each record is assigned to only one reduces
 
 
-<img src="https://habrastorage.org/files/29b/802/f87/29b802f87a734694b9e5fcf16fd016e9.png" alt="Image"> {{void| map-to-reduce.png}}  |
+<img src="https://habrastorage.org/files/29b/802/f87/29b802f87a734694b9e5fcf16fd016e9.png" alt="Image"> <!-- Image: map-to-reduce.png -->
 '''reduce phase'''
 - Reducers ask the Application Master where the mappers are located
 - and then they start pulling files from mappers as soon as mappers complete
@@ -110,7 +110,7 @@ Hadoop in one picture:
 - ''Shuffle'' is the process of sorting and transferring map output to the reducers
 - The output of mappers is not just written to disk, Hadoop does some pre-sorting 
 
-<img src="https://habrastorage.org/files/9f3/a16/024/9f3a16024acb42d98c8aeb320b370d1e.png" alt="Image"> {{void| shuffling.png}} |
+<img src="https://habrastorage.org/files/9f3/a16/024/9f3a16024acb42d98c8aeb320b370d1e.png" alt="Image"> <!-- Image: shuffling.png -->
 
 For tuning MapReduce jobs, it may be useful to know how the shuffling is performed
 - Each mapper has ~100 mb buffer (buffer size is configured in <code>mapreduce.task.io.sort.mb</code>)

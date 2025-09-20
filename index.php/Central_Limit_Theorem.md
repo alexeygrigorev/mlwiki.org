@@ -43,7 +43,9 @@ Exponential
 - <img src="http://habrastorage.org/files/42f/406/6fb/42f4066fba924f5396986fb4d23d4356.png" alt="Image">
 
 
-{{ Hider |  |   title=R code of the experiment |  |   content=
+<details>
+<summary>R code of the experiment</summary>
+
 ```text only
 default.par = par()
 
@@ -134,7 +136,8 @@ generate(m, gen.exp(n),
 
 par(default.par)
 ```
-}}
+
+</details>
 
 
 [See also here](http://yadi.sk/i/-4wm3y_0XzkKN)

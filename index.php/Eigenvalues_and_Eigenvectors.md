@@ -114,7 +114,7 @@ $\text{det } A = \prod\limits_i \lambda_i$
 - $\text{det } A$ is a [Determinant](Determinant) of $A$
 
 
-{{ TODO |  prove it }} |
+<!-- TODO: prove it -->
 
 
 ### Eigenvectors and Eigenvalues of $A^k$

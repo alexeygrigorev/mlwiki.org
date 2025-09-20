@@ -160,7 +160,9 @@ Calculations:
 <img src="http://habrastorage.org/files/bb9/c3c/ba9/bb9c3cba91844b3facdf9e0d37e35bc2.png" alt="Image">
 
 
-{{ Hider |  |   title=R code |  |   content=
+<details>
+<summary>R code</summary>
+
 ```text only
 sp500 = read.csv('http://goo.gl/lv268V')
 values = as.numeric( as.character(sp500$VALUE) )
@@ -208,7 +210,8 @@ x2 = sum( (act - exp.n)^2 / exp.n )
 pchisq(x2, df=k - 1, lower.tail=F)
 c(x2=x2, theoretic=qchisq(0.95, df=k - 1))
 ```
-}}
+
+</details>
 
 
 

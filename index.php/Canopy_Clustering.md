@@ -6,8 +6,8 @@ permalink: /index.php/Canopy_Clustering
 
 # Canopy Clustering
 
-{{ stub }}
-{{ TODO |  see [Scalable Data Analytics and Data Mining AIM3 (TUB)](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB)) lectures }} |
+<!-- stub -->
+<!-- TODO: see [Scalable Data Analytics and Data Mining AIM3 (TUB)](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB)) lectures -->
 
 ## Canopy Clustering
 

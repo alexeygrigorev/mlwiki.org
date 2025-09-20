@@ -50,9 +50,12 @@ Can simulate it to see that it's true
 - then plot the sampling distributions
   - <img src="http://habrastorage.org/files/a33/440/4ea/a334404ea02a4ffd877dc57c7f0636b9.png" alt="Image">
   - we see that the corrected std is closer to the real population std
-  - note that the real population std should not be corrected|   | |
-{{ Hider |  |   title=R simulation |  |   content=
-```text only
+  - note that the real population std should not be corrected
+
+<details>
+<summary>R simulation</summary>
+
+```r
 sd.population = function(x) {
   n = length(x)
   m = mean(x)
@@ -101,7 +104,7 @@ xspline(x=x, y=dnorm(x, mean=biased.center, sd=sd(sample.2)),
 
 abline(v=true.pop)
 ```
-}}
+</details>
 
 
 

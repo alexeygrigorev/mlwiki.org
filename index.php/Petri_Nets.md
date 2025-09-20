@@ -152,14 +152,14 @@ It can be seen here:
 
 
 ## [Workflow Nets](Workflow_Nets)
-{{Main |  Workflow Nets}} |
+<!-- Main: Workflow Nets -->
 Typically a ''workflow net'' is a special type of a petri net with
 - clear start point 
 - clear end point
 - good for expressing workflows
 
 ## Soundness
-{{Main |  Workflow Soundness}} |
+<!-- Main: Workflow Soundness -->
 
 ## Typical Structures
 ### Parallel Execution: And

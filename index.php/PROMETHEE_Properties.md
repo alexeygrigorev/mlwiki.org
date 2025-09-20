@@ -74,9 +74,9 @@ Induction step: Show that it also holds for $N = k + 1$
 - $... \sum_{i = 0}^{k + 1} \left[ \cfrac{1}{k} \sum_{j = 1}^{k + 1} [ \pi(a_i, a_j) - \pi(a_j, a_i) ] \right] = \ ... $ 
   - take one element of the outer sum outside
   - note that we don't care about the case when $i=j$ since the difference $\pi(a_i, a_i) - \pi(a_1, a_i)$ is always 0 
-- $... \ = \cfrac{1}{k} \sum_{i = 1}^{{\color{blue}{k}}} \sum_{j = 1}^{k + 1} [ \pi(a_i, a_j) - \pi(a_j, a_i) ] + \cfrac{1}{k} \sum_{j=1}^{k+1} [ \pi(a_{k+1}, a_j) - \pi(a_j, a_{k+1}) ] = \ ...$ 
+- $... \ = \cfrac{1}{k} \sum_{i = 1}^{\{\color{blue}\{k\}\}} \sum_{j = 1}^{k + 1} [ \pi(a_i, a_j) - \pi(a_j, a_i) ] + \cfrac{1}{k} \sum_{j=1}^{k+1} [ \pi(a_{k+1}, a_j) - \pi(a_j, a_{k+1}) ] = \ ...$ 
   - now take all $k+1$th elements outside of that sum as well
-- $...\  = \cfrac{1}{k} \sum_{i = 1}^{k} \sum_{j = 1}^{{\color{blue}{k}}} [ \pi(a_i, a_j) - \pi(a_j, a_i) ] + \ ... $
+- $...\  = \cfrac{1}{k} \sum_{i = 1}^{k} \sum_{j = 1}^{\{\color{blue}\{k\}\}} [ \pi(a_i, a_j) - \pi(a_j, a_i) ] + \ ... $
   - $ ... \ + \cfrac{1}{k} \sum_{j=1}^{k+1} [ \pi(a_{k+1}, a_j) - \pi(a_j, a_{k+1}) ] + \cfrac{1}{k} \sum_{i=1}^{k+1} [ \pi(a_i, a_{k+1}) - \pi(a_{k+1}, a_i) ] = \ ...$
 - $... \ = \cfrac{k-1}{k} \underbrace{ \left[ \cfrac{1}{k-1} \sum_{i = 1}^{k} \sum_{j = 1}^{k} [ \pi(a_i, a_j) - \pi(a_j, a_i) ] \right]  }_\text{= 0 by ind. hypothesis} + \ ... $
   - $... \ + \underbrace{\left[ \cfrac{1}{k} \sum_{j=1}^{k+1} [ \pi(a_{k+1}, a_j) - \pi(a_j, a_{k+1}) ] + \cfrac{1}{k} \sum_{i=1}^{k+1} [ \pi(a_i, a_{k+1}) - \pi(a_{k+1}, a_i) ] \right] }_\text{= 0} = \ ...$
@@ -115,9 +115,9 @@ Now we show that $J$ is preferentially independent, i.e. $a \ P \ c \iff b \ P \
   - we cross out the red parts and have the following:
   - $\sum_{j \in J} w_j \Phi_j(b) > \sum_{j \in J} w_j \Phi_j(d)$
   - now add $\sum_{j \not \in J} w_j \Phi(b)$ to both parts:
-  - $\sum_{j \in J} w_j \Phi_j(b) + {\color{blue}{\sum_{j \not \in J} w_j \Phi(b)}} > \sum_{j \in J} w_j \Phi_j(d) + {\color{blue}{\sum_{j \not \in J} w_j \Phi(b)}}$
+  - $\sum_{j \in J} w_j \Phi_j(b) + \{\color{blue}\{\sum_{j \not \in J} w_j \Phi(b)\}\} > \sum_{j \in J} w_j \Phi_j(d) + \{\color{blue}\{\sum_{j \not \in J} w_j \Phi(b)\}\}$
   - since $g_j(b) = g_j(d) \forall j \not \in J$, we have replace $b$ to $d$ on the right side
-  - $\sum_{j \in J} w_j \Phi_j(b) + \sum_{j \not \in J} w_j \Phi(b) > \sum_{j \in J} w_j \Phi_j(d) + \sum_{j \not \in J} w_j {\color{blue}{\Phi(d)}}$
+  - $\sum_{j \in J} w_j \Phi_j(b) + \sum_{j \not \in J} w_j \Phi(b) > \sum_{j \in J} w_j \Phi_j(d) + \sum_{j \not \in J} w_j \{\color{blue}\{\Phi(d)\}\}$
 - thus $b \ P \ d$
 
 
@@ -138,7 +138,7 @@ Let's show that
 - calculate $\Phi'(a'_i)$: 
   - $\Phi'(a'_i) = \cfrac{1}{n - 1} \sum_{b \in A'} [ \pi(a'_i, b) - \pi(b, a'_i) ] = \ ...$
   - $... \ = \cfrac{1}{n - 1} \sum_{b \in A'} \left[ \sum_{j=1}^q w_j [ \pi_j(a'_i, b) - \pi_j(b, a'_i) ]  \right] = \ ...$ (now let's take the item with $\pi_k$ out of the sum)
-  - $... \ = \cfrac{1}{n - 1} \sum_{b \in A'} \left[ \sum_{j=1, j \ne k}^q w_j [ \pi_j(a'_i, b) - \pi_j(b, a'_i) ] + w_k {\color{blue}{[  \pi_k(a'_i, b) - \pi_k(b, a'_i) ]}} \right] = \ ...$
+  - $... \ = \cfrac{1}{n - 1} \sum_{b \in A'} \left[ \sum_{j=1, j \ne k}^q w_j [ \pi_j(a'_i, b) - \pi_j(b, a'_i) ] + w_k \{\color{blue}\{[  \pi_k(a'_i, b) - \pi_k(b, a'_i) ]\}\} \right] = \ ...$
   - consider $\pi_k(a'_i, b) - \pi_k(b, a'_i)$ alone:
     - $\pi_k (a'_i, b) \geqslant \pi_k(a_i, b)$ and $\pi_k (b, a'_i) \leqslant \pi_k(b, a_i)$
     - $\Rightarrow  \pi_k(a'_i, b) - \pi_k(b, a'_i) \geqslant \pi_k(a_i, b) - \pi_k(b, a_i)$
@@ -146,7 +146,7 @@ Let's show that
 - similarly, $\forall a \in A, a \ne a_i: \Phi'(a) \leqslant \Phi(a)$
   - $\Phi'(a) = \cfrac{1}{n - 1} \sum_{b \in A'} [ \pi(a'_i, b) - \pi(b, a'_i) ] = \ ...$
   - there's $a'_i$ somewhere in $b \in A'$ - let's take it away from the sum
-  - $... = \cfrac{1}{n - 1} \sum_{b \in A', b \ne a'_i} [ \pi(a'_i, b) - \pi(b, a'_i) ] + \cfrac{1}{n-1} [ {\color{blue}{\pi(a, a_i) - \pi(a_i, a)}} ] $
+  - $... = \cfrac{1}{n - 1} \sum_{b \in A', b \ne a'_i} [ \pi(a'_i, b) - \pi(b, a'_i) ] + \cfrac{1}{n-1} [ \{\color{blue}\{\pi(a, a_i) - \pi(a_i, a)\}\} ] $
   - the blue part is expanded to $\sum_{j = 1}^q w_j [ \pi_j(a, a'_i) - \pi_j(a'_i, a) ]$
   - we know that for one of these $j$ there's $k$, move it from the sum
   - consider $\pi_k(a, a'_i) - \pi_k(a'_i, a)$ alone:

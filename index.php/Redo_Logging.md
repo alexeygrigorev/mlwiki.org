@@ -115,7 +115,7 @@ Note:
 
 
 ## Exercises
-{{ Main |  Database Transaction Log Exercises }} |
+<!-- Main: Database Transaction Log Exercises -->
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))

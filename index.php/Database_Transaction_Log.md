@@ -17,7 +17,7 @@ A way to ensure [atomicity](Atomicity_(databases)), [consistency](Consistency_(d
 
 
 ## Exercises
-{{ Main |  Database Transaction Log Exercises }} |
+<!-- Main: Database Transaction Log Exercises -->
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))

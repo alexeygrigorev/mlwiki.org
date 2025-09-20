@@ -249,7 +249,7 @@ So
 
 
 ## Relationship with [Confidence Intervals](Confidence_Intervals)
-{{Main |  Confidence Intervals and Statistical Tests}} |
+<!-- Main: Confidence Intervals and Statistical Tests -->
 Some hypothesis can be checked with [Confidence Intervals](Confidence_Intervals)
 - e.g. if the null value (the value under $H_0$) is included in the CI, then $p$-value is greater than $\alpha$ and we fail to reject $H_0$
 

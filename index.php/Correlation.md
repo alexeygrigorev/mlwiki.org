@@ -25,13 +25,15 @@ $| \text{cov}(X, Y)| \leqslant \sigma(X) \sigma(Y)$ |
 '''Доказательство.''' Рассмотрим две случайные величины $Z_1 = \sigma(Y) X - \sigma(X) Y$ и $Z_2 = \sigma(Y) X + \sigma(X) Y$
 
 
-{{Hider|  |  title = Вывод $D(Z_1) = 2\sigma^2(X)\sigma^2(Y) - 2\sigma(X)\sigma(Y) \text{cov}(X, Y)$ |  |  content =
+<details>
+<summary>Вывод $D(Z_1) = 2\sigma^2(X)\sigma^2(Y) - 2\sigma(X)\sigma(Y) \text{cov}(X, Y)$</summary>
+
 - $D(Z_1) = M(Z_1)^2 - M^2(Z_1) = M[\sigma(Y) X - \sigma(X) Y]^2 - M^2[\sigma(Y) X - \sigma(X) Y] = $
 - $M[\sigma^2(Y) X^2 - 2\sigma(X)\sigma(Y)XY + \sigma^2(X) Y^2] + [\sigma(Y) M(X) - \sigma(X) M(Y)]^2 = $
 - $\sigma^2(Y) M(X^2) - 2\sigma(X)\sigma(Y) M(XY) + \sigma^2(X) M(Y^2)$ $ - \sigma^2(Y) M^2(X) - \sigma(X)\sigma(Y) M(X)M(Y) + \sigma^2(X) M^2(Y) = $ 
 - $\sigma^2(Y)(M[X^2] - M^2[X]) - $ $ 2\sigma(X)\sigma(Y) (M[XY] - M[X]M[Y]) + \sigma^2(X)(M[Y^2] - M^2[Y]) =$ 
 - $2\sigma^2(X)\sigma^2(Y) - 2\sigma(X)\sigma(Y) \text{cov}(X, Y)$
-}}
+</details>
 
 
 Аналогично, $D(Z_2) = 2\sigma^2(X)\sigma^2(Y) + 2\sigma(X)\sigma(Y) \text{cov}(X, Y)$

@@ -46,7 +46,7 @@ A visual summary of all the 5 numbers is called a ''box plot''
 Mean and median don't show how spread the data is. There is another measure that address it: [Variance](Variance).
 - $\text{var}(x) = \cfrac{1}{n - 1} \sum (x_i - \bar{x})^2$
 - $s(x) = \text{std}(x) = \sqrt{\text{var}(x)}$
-- ($n - 1$ gives "unbiased" estimate of the variance {{ TODO |  add link}}) |
+- ($n - 1$ gives "unbiased" estimate of the variance <!-- TODO: add link -->) |
 in R: 
 ```text only
 st.dev = sd(data)

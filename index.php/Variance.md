@@ -66,7 +66,7 @@ $\sigma(X) = \sqrt{ \text{Var} [X] }$
 - $\text{Var}(x) = \cfrac{1}{n - 1} \sum (x_i - \bar{x})^2$
 - $s(x) = \text{std}(x) = \sqrt{\text{Var}(x)}$
 
-($n - 1$ gives "unbiased" estimate of the variance {{{ TODO |  add link }}}) |
+($n - 1$ gives "unbiased" estimate of the variance <!-- TODO: add link -->) |
 in R: 
 ```text only
 st.dev = sd(data)

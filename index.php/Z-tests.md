@@ -25,7 +25,7 @@ The following are $z$ tests
 
 If these assumptions are hold, then we can use the $z$ statistics 
 - if sample size is smaller, then it's better to use [$t$-tests](t-tests)
-- if the distribution has skews and outliers, use simulations {{ TODO |  add link | !!!!!!!}} |- but in any case the observations have to be independent |
+- if the distribution has skews and outliers, use simulations <!-- TODO: add link --> |- but in any case the observations have to be independent |
 
 ## One-Sample $z$ Test
 ### Example 1: One-Sided

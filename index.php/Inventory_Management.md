@@ -41,8 +41,8 @@ Costs:
   - this is the total # of items we store divided by $T$
   - total # of items is the square of our triangle 
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/im/em-basic-eoq-dailycos.png" alt="Image">
-  - $\text{dsc}(n) = \underbrace{{\color{red}{S_{\triangle}}} \cdot \cfrac{1}{T}}_\text{avg items per day} \cdot c_s$
-  - $\text{dsc}(n) = {\color{red}{\cfrac{n \cdot T}{2}}} \cdot \cfrac{1}{T} \cdot c_s = \cfrac{n}{2} \cdot c_s$
+  - $\text{dsc}(n) = \underbrace{\{\color{red}\{S_{\triangle}\}\} \cdot \cfrac{1}{T}}_\text{avg items per day} \cdot c_s$
+  - $\text{dsc}(n) = \{\color{red}\{\cfrac{n \cdot T}{2}\}\} \cdot \cfrac{1}{T} \cdot c_s = \cfrac{n}{2} \cdot c_s$
 - total cost:
   - $\Gamma(n) = \text{doc}(n) + \text{dsc}(n) = c_f \cdot \cfrac{\lambda}{n} + \cfrac{n}{2} \cdot c_s$
 

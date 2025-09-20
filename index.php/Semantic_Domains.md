@@ -309,7 +309,7 @@ so a '''Domain Space''' is a cluster-based representation for estimating term an
 Domain space is 
 - it's an instance of Generalized Vector Space Model
 - for text $t_i$ in the [Text VSM](Vector_Space_Models)
-- $t_i' = t_i (I^{\text{idf}} D)$ ({{ TODO |  why left multiplication? }}) |- where $I^{\text{idf}}$ is a diagonal matrix s.t. $I^{\text{idf}}_{ii} = \text{idf}(w_i)$ - it's inverse document frequency of word $w_i$ (see [TF-IDF](TF-IDF))
+- $t_i' = t_i (I^{\text{idf}} D)$ (<!-- TODO: why left multiplication? -->) |- where $I^{\text{idf}}$ is a diagonal matrix s.t. $I^{\text{idf}}_{ii} = \text{idf}(w_i)$ - it's inverse document frequency of word $w_i$ (see [TF-IDF](TF-IDF))
 - so we define a mapping function and thus have a generalized VSM
 
 In the domain space the vector representation of terms and documents is "augmented" by domain relations represented by the domain model 

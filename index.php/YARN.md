@@ -20,7 +20,7 @@ YARN
 
 
 ### Components
-<img src="https://habrastorage.org/files/0b8/698/e0c/0b8698e0c74b46c58f8ec81ac1e8ed5d.png" alt="Image"> {{void| yarn.png}} |
+<img src="https://habrastorage.org/files/0b8/698/e0c/0b8698e0c74b46c58f8ec81ac1e8ed5d.png" alt="Image"> <!-- Image: yarn.png -->
 It has: 
 - Resource Manager: one per cluster
 - Node Managers: per each node 
@@ -40,7 +40,7 @@ a resource request in YARN is a set of constraints that include:
 ## Job Execution
 How a Job is Executed
 - Let us consider how YARN executes a Hadoop MapReduce job
-- <img src="https://habrastorage.org/files/de8/b3c/41e/de8b3c41e9834c6681569c30ddc72ad4.png" alt="Image"> {{void| yarn-jobexecution.png}} |
+- <img src="https://habrastorage.org/files/de8/b3c/41e/de8b3c41e9834c6681569c30ddc72ad4.png" alt="Image"> <!-- Image: yarn-jobexecution.png -->
 There are 5 entities 
 - client - submits the job
 - YARN Resource Manager - coordinates allocation of resources
@@ -91,7 +91,7 @@ These values are configurable on per-job basis:
 - <code>mapreduce.reduce.memry.mb</code>
 - <code>mapreduce.map.cpu.vcores</code>
 - <code>mapreduce.reduce.cpu.vcores</code>
-- they are subject to min/max constraints specified in the YARN config ({{TODO| describe them as well}}) |
+- they are subject to min/max constraints specified in the YARN config (<!-- TODO: describe them as well -->) |
 
 ### Task Execution
 - a task is assigned to a container on a particular node by the Resource Manager's Scheduler

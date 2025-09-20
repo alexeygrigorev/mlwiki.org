@@ -6,7 +6,7 @@ permalink: /index.php/Chi-Squared_Ranking
 
 # Chi-Squared Ranking
 
-{{ stub }}
+<!-- stub -->
 
 ## Chi-Squared Ranking
 [Chi-Squared Test of Independence](Chi-Squared_Test_of_Independence)

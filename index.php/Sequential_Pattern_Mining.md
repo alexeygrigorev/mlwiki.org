@@ -182,7 +182,7 @@ Idea:
 - grow frequent subsequences from them - without generating candidates
 - examine only prefix subsequences 
 
-{{ TODO |  Add description}} |
+<!-- TODO: Add description -->
 
 ## See Also
 - [Local Pattern Discovery](Local_Pattern_Discovery)

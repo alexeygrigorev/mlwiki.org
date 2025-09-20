@@ -65,7 +65,7 @@ Heterogeneity
 - don't need to upgrade old servers when adding a newer one
 
 ## Concurrency Control
-{{ Main |  Concurrency Control }} |
+<!-- Main: Concurrency Control -->
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - [Design Patterns for Distributed Non-relational Databases](http://www.slideshare.net/guestdfd1ec/design-patterns-for-distributed-nonrelational-databases)

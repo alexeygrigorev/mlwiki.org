@@ -2,9 +2,9 @@
 MLWiki.org migrated from mediawiki to github pages 
 
 ```bash
-pipenv install
+uv sync
 ```
 
 ```bash
-pipenv run python transfer.py data/wiki-pages.xml
+uv run python transfer.py data/wiki-pages.xml
 ```

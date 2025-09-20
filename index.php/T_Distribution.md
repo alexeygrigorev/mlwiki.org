@@ -35,7 +35,8 @@ Origin (and usage):
 <img src="http://habrastorage.org/files/502/05d/b61/50205db619254cd9a7eded5d7579cabe.png" alt="Image">
 - here, $\text{df}$ is the lowest, and it approaches the normal curse as $\text{df}$ grows
 
-{{ Hider |  |   title=R code to produce the figure |  |   content=
+<details><summary>R code to produce the figure</summary>
+
 ```text only
 default.par = par()
 
@@ -66,7 +67,8 @@ for (i in 1:7) {
 
 par(default.par)
 ```
-}}
+
+</details>
 
 
 

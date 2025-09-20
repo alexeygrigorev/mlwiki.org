@@ -6,7 +6,7 @@ permalink: /index.php/Feature_Filtering
 
 # Feature Filtering
 
-{{ stub }}
+<!-- stub -->
 
 ## Feature Filtering
 Given $D$ features $f_1, \ ... \ , f_D$ and outcome $Y$
