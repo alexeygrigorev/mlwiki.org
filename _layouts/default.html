@@ -43,10 +43,17 @@
             <div class="content">
                 {{ content }}
             </div>
+            
+            {% if page.path and page.path != "index.md" %}
+            <div class="edit-link">
+                <a href="{{ site.github_repository }}/blob/main/{{ page.path }}" target="_blank">✏️ Edit on GitHub</a>
+            </div>
+            {% endif %}
         </main>
 
         <footer>
             <p>&copy; 2025 {{ site.title }}. Built with Jekyll.</p>
+            <p><a href="{{ site.github_repository }}" target="_blank">📂 View on GitHub</a></p>
         </footer>
     </div>
 </body>

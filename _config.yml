@@ -3,6 +3,8 @@ email: alexey@datatalks.club
 description: >- # this means to ignore newlines until "baseurl:"
   Machine Learning Wiki - A collection of ML concepts, algorithms, and resources.
 
+github_repository: https://github.com/alexeygrigorev/mlwiki.org
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/

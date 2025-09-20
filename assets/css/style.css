@@ -52,6 +52,7 @@ header {
 /* Main content */
 main {
     padding: 3rem;
+    padding-bottom: 0;
     min-height: 60vh;
 }
 
@@ -226,6 +227,25 @@ footer {
     margin-top: 3rem;
 }
 
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}
+
+footer a {
+    color: #0366d6;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
 /* Tags section */
 .tags-section {
     margin: 1rem 0 2rem 0;
@@ -247,6 +267,33 @@ footer {
 .tag:hover {
     color: #0366d6;
     text-decoration: underline;
+}
+
+/* Edit link */
+.edit-link {
+    margin: 2rem 0 1rem 0;
+    text-align: center;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e1e4e8;
+}
+
+.edit-link a {
+    display: inline-block;
+    color: #666;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    background-color: #f6f8fa;
+    transition: all 0.2s ease;
+}
+
+.edit-link a:hover {
+    color: #0366d6;
+    border-color: #0366d6;
+    background-color: #fff;
+    text-decoration: none;
 }
 
 /* Math support */
@@ -354,6 +401,7 @@ footer {
     
     main {
         padding: 2rem 1.5rem;
+        padding-bottom: 0;
     }
     
     .page-title {
