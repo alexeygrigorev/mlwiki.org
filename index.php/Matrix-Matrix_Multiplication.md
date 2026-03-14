@@ -65,18 +65,18 @@ For $i$ from 1 to $n$,
 
 
 ### Block Multiplication
-$AB = \left[ \begin{array}{c| c} |A_1 & A_2 \\
+$$AB = \left[ \begin{array}{c| c} A_1 & A_2 \\
 \hline
 A_3 & A_4
-\end{array} \right] \times 
-\left[ \begin{array}{c| c} |B_1 & B_2 \\
+\end{array} \right] \times
+\left[ \begin{array}{c| c} B_1 & B_2 \\
 \hline
 B_3 & B_4
-\end{array} \right] = 
-\left[ \begin{array}{c| c} |A_1B_1 + A_2B_3 & A_3B_1 + A_4B_3 \\
+\end{array} \right] =
+\left[ \begin{array}{c| c} A_1B_1 + A_2B_3 & A_1B_2 + A_2B_4 \\
 \hline
-A_1B2 + A_2B_1 & A_3B_1 + A_4B_3
-\end{array} \right] = C$
+A_3B_1 + A_4B_3 & A_3B_2 + A_4B_4
+\end{array} \right] = C$$
 
 
 
