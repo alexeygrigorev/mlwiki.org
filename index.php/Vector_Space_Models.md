@@ -159,7 +159,10 @@ finally these spaces are disjoint: they don't hare any common dimensions
 ### Common Similarity Measures
 Suppose we have two document vectors $d_1, d_2$. Then we can define the following measures of similarity:
 - [Inner Product](Inner_Product): $d_1^T d_2$
-- [Cosine Similarity](Cosine_Similarity): $\cfrac{d_1^T d_2}{\|  d_1 \| \cdot \| d_2 \- [Dice Coefficient](Dice_Coefficient): $\cfrac{d_1^T d_2}{\|d_1\|^2 + \| d_2\|^2}$ |- [Jaccard Coefficient](Jaccard_Coefficient): $\cfrac{d_1^T d_2}{\| d_1\|^2 + \| d_2\|^2 - d_1^T d_2}$ |- most efficient: normalize $d_1$ and $d_2$ and compute the dot product to get cosine 
+- [Cosine Similarity](Cosine_Similarity): $\cfrac{d_1^T d_2}{\| d_1 \| \cdot \| d_2 \|}$
+- [Dice Coefficient](Dice_Coefficient): $\cfrac{d_1^T d_2}{\|d_1\|^2 + \| d_2\|^2}$
+- [Jaccard Coefficient](Jaccard_Coefficient): $\cfrac{d_1^T d_2}{\| d_1\|^2 + \| d_2\|^2 - d_1^T d_2}$
+- most efficient: normalize $d_1$ and $d_2$ and compute the dot product to get cosine
 
 
 ### Document-Document Similarity

@@ -32,16 +32,28 @@ We consider only one aggregated value, and don't see all the data
 
 Example: 
 
-|    |  $f_1$  |  $f_2$  |  $f_3$  |  $f_4$  |   $a$  |  5  |  5  |  5  |  2 ||   $b$  |  4  |  4  |  4  |  4 ||   $w$  |  0.25  |  0.25  |  0.25  |  0.25  | |- $V(a) = 4.25, V(b) = 4$
+|    |  $f_1$  |  $f_2$  |  $f_3$  |  $f_4$  |
+|   $a$  |  5  |  5  |  5  |  2 |
+|   $b$  |  4  |  4  |  4  |  4 |
+|   $w$  |  0.25  |  0.25  |  0.25  |  0.25  |
+
+- $V(a) = 4.25, V(b) = 4$
 - $b$ is never the best one
 - $a$ is the best almost at all criteria, except for $f_4$ (say he's in IT and this is a communication skill)
 - cannot identify that by only looking at the $V(a)$ and $V(b)$ scores
 
 
 ### Conflicts
-|    |  $f_1$  |  $f_2$  |   $a$  |  5  |  5 ||   $b$   |  10  |  0 ||   $c$   |  0  |  10 ||   $d$  |  5  |  5 ||    |  0.5  |  0.5 | |$V(a) = V(b) = V(c) = V(d) = 0.5$
+|    |  $f_1$  |  $f_2$  |
+|   $a$  |  5  |  5 |
+|   $b$   |  10  |  0 |
+|   $c$   |  0  |  10 |
+|   $d$  |  5  |  5 |
+|    |  0.5  |  0.5 |
+
+$V(a) = V(b) = V(c) = V(d) = 0.5$
 - but inside they are very different
- |
+
 ### Scale is Important
 - suppose that we say that production $p$ is more important then quality $q$
 - i.e. $w_p = 2/3, w_q = 1/3$

@@ -130,7 +130,8 @@ Stop when
 
 ## [Information Gain](Information_Gain)
 Given a set $S$ with $K$ classes $C_1, ..., C_K$
-- let $p_k = \cfrac- $I(S)$ - is a function of impurity that we want to minimize
+- let $p_k = \cfrac{|C_k|}{|S|}$ be the fraction of records belonging to class $C_k$
+- $I(S)$ - is a function of impurity that we want to minimize
 
 
 ### Measures of Impurity
@@ -148,7 +149,8 @@ Given a set $S$ with $K$ classes $C_1, ..., C_K$
 ### Information Gain
 - how much information you get when partition the data? 
 - def: $\Delta I = I(S) - p_L \cdot I(S_L) - p_R \cdot I(S_R)$
-- $p_L = \cfrac- $I$ - a measure of impurity 
+- $p_L = \cfrac{|S_L|}{|S|}$, $p_R = \cfrac{|S_R|}{|S|}$
+- $I$ - a measure of impurity
 
 
 It's easy to generalize IG to Multi-way
@@ -156,7 +158,8 @@ It's easy to generalize IG to Multi-way
 - $\Delta I = I(S) - \sum_k p_k \cdot I(S_k)$
 - $\sum_k p_k \cdot I(S_k)$ is the [Expected Value](Expected_Value) of Entropy in the partitioned dataset
   - $E \big[ I \big( \{ S_1, ..., S_K \} \big) \big] = \sum_k p_k I(S_k) = - \sum_k p_k \log_2 p_k$
-  - with $p_k = \cfrac- but if we minimize this $\Delta I$, we end up with $K = N$
+  - with $p_k = \cfrac{|S_k|}{|S|}$
+- but if we minimize this $\Delta I$, we end up with $K = N$
   - i.e. we obtain as many subsets as there are records - and a set with just one element is 100% pure
 - use Gain Ratio impurity
   - $- \Delta I_K = \cfrac{\Delta I}{- \sum_k p_k \cdot \log_2 p_k}$
@@ -254,9 +257,11 @@ Modification:
 - let $S_0 \subseteq S$ for which we can't evaluate $T$ (i.e. because needed values are missing)
 - if $S_0 \not \equiv \varnothing$
   - calculate the information gain as
-  - $\cfrac- suppose such $T$ is chosen, what to do with values from $S_0$?
+  - $\cfrac{|S - S_0|}{|S|} \cdot \Delta I(S - S_0, T)$
+- suppose such $T$ is chosen, what to do with values from $S_0$?
   - add them to all the subsets with weight proportional to the size of these subsets
-  - $w_k = \cfrac  - and information gain is computed using sums of weights instead of counts 
+  - $w_k = \cfrac{|S_k|}{|S - S_0|}$
+  - and information gain is computed using sums of weights instead of counts
 
 
 #### Example
@@ -273,7 +278,8 @@ Modification:
 - $I(S - S_0 |  X = a) = 2/5$
 - $I(S - S_0 |  X = b) = 0$
 - $I(S - S_0 |  X = c) = 2/5$
-- calculate IG $\cfrac- $\Delta I = \cfrac{13}{14} \cdot (\cfrac{5}{13} - \cfrac{5}{13} \cdot \cfrac{2}{5} - \cfrac{3}{13} \cdot 0 - \cfrac{5}{13} \cdot \cfrac{2}{5}) = \cfrac{1}{14}$
+- calculate IG: $\cfrac{|S - S_0|}{|S|} \cdot \Delta I(S - S_0, X)$
+- $\Delta I = \cfrac{13}{14} \cdot (\cfrac{5}{13} - \cfrac{5}{13} \cdot \cfrac{2}{5} - \cfrac{3}{13} \cdot 0 - \cfrac{5}{13} \cdot \cfrac{2}{5}) = \cfrac{1}{14}$
 
 </td>
 </tr>

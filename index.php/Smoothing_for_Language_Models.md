@@ -49,12 +49,14 @@ Discount some probability mass of seen words
 
 ### Additive Smoothing
 [Laplace Smoothing](Laplace_Smoothing) (or Additive Smoothing):
-- $\hat p_\lambda (w \mid \theta) = \cfrac{c(w, D) + \lambda}{\sum_{w \in V} c(w, D)} = \cfrac{c(w, D)}- so it gives the same probability mass $\cfrac{\lambda}
+- $\hat p_\lambda (w \mid \theta) = \cfrac{c(w, D) + \lambda}{\sum_{w \in V} c(w, D) + \lambda |V|} = \cfrac{c(w, D) + \lambda}{|D| + \lambda |V|}$
+- so it gives the same probability mass $\cfrac{\lambda}{|D| + \lambda |V|}$ to each unseen word
 If $\lambda = 1$ then we have "+1 Smoothing"
 
 
 ### Collection Smoothing
-- Additive smoothing gives the same probability mass $\cfrac{\lambda}- it may not be what we want: maybe we want to give more or less weight to certain words
+- Additive smoothing gives the same probability mass $\cfrac{\lambda}{|D| + \lambda |V|}$ to each unseen word
+- it may not be what we want: maybe we want to give more or less weight to certain words
 - so the idea is to have some reference language model 
 - if we have a corpus, then we can use this corpus to learn the LM on the entire corpus
 - such corpus LM is called "Collection LM" or "Background LM"
@@ -66,11 +68,15 @@ There are two ways of building the Collection LM:
 
 
 1) Each word contributes equally
-- $P(w \mid C) = \cfrac{\sum_{D \in C} c(w, D)}{ \sum_{D \in C} | D- it's the same as if we concatenated all documents in $C$ into one |- "Macro-averaging"
+- $P(w \mid C) = \cfrac{\sum_{D \in C} c(w, D)}{ \sum_{D \in C} |D|}$
+- it's the same as if we concatenated all documents in $C$ into one
+- "Macro-averaging"
 
 
 2) Each document contribute equally
-- $P(w \mid C) = \cfrac{1}{N} \sum_{D \in C} \cfrac{c(w, D)}{ | D- average contribution of each doc |- "Micro-averaging"
+- $P(w \mid C) = \cfrac{1}{N} \sum_{D \in C} \cfrac{c(w, D)}{ |D|}$
+- average contribution of each doc
+- "Micro-averaging"
 
 Approach (1) is more popular than (2)
 
@@ -97,12 +103,13 @@ Or "Fixed Coefficient Interpolation"
 
 Interpolate MLE with the collection LM
 - use some coefficient of interpolation $\beta$ 
-- $P_\beta(w \mid \hat \theta) = (1 - \beta) \, \cfrac{c(w, D)}
+- $P_\beta(w \mid \hat \theta) = (1 - \beta) \, \cfrac{c(w, D)}{|D|} + \beta \, P(w \mid C)$
 
 ### Dirichlet Prior Smoothing
 It's a Bayesian Smoothing with special prior: [Dirichlet Distribution](Dirichlet_Distribution)
 - $\text{Dir}(\theta \mid \boldsymbol \alpha) = \cfrac{\Gamma \left( \sum_{i} \alpha_i \right)}{\prod_i  \Gamma(\alpha_1)} \cdot \prod_i \theta_{i}^{\alpha_i - 1}$
-- params: $\boldsymbol \alpha = (\alpha_1, \ ... \ , \alpha_- let $\alpha_i = \mu \cdot P(w_i \mid C)$, $\mu$ - param, $P(w_i \mid C)$
+- params: $\boldsymbol \alpha = (\alpha_1, \ ... \ , \alpha_M)$
+- let $\alpha_i = \mu \cdot P(w_i \mid C)$, $\mu$ - param, $P(w_i \mid C)$
 
 
 Dirichlet is a [Conjugate Prior](Conjugate_Prior) for [Multinomial Distribution](Multinomial_Distribution)
@@ -115,7 +122,8 @@ Posterior:
 
 
 Dirichlet Smoothing:
-- $P_\mu(w \mid \hat \theta) = \cfrac{c(w, D) + \mu \, P(w \mid C)}- Compare with Jelinek-Mercer: same if $\beta = \cfrac{\mu}{\mu + | D
+- $P_\mu(w \mid \hat \theta) = \cfrac{c(w, D) + \mu \, P(w \mid C)}{|D| + \mu}$
+- Compare with Jelinek-Mercer: same if $\beta = \cfrac{\mu}{\mu + |D|}$
 "Eventually, data overrides the prior":
 - for a fixed $\mu$ longer documents will get less smoothing
 - as $| D| \to \infty$, smoothing $\to 0$
@@ -128,7 +136,7 @@ Notes:
 ### Absolute Discounting Smoothing
 - $P_\delta (w \mid \hat \theta) = \cfrac{\max \big( c(w, D) - \delta, 0 \big) }{\sum_{w' \in V} c(w', D)} + \sigma \, P(w \mid C)$
 - $\delta \in [0, 1]$ discounting factor
-- $\sigma = \delta \cfrac
+- $\sigma = \delta \cfrac{|V_D|}{|D|}$ where $|V_D|$ is the number of unique words in $D$
 
 
 ## Backoff
@@ -149,7 +157,7 @@ Alternative Strategy: *Back Off*
 Idea:
 - # of unseen events = # of "singletons": words that occur only once 
 - let $\hat{c}(w, D)$ be the adjusted count of $w$ 
-- then $P(w \mid \hat \theta) = \cfrac{\hat{c}(w, D)}
+- then $P(w \mid \hat \theta) = \cfrac{\hat{c}(w, D)}{|D|}$
 
 What is  $\hat{c}(w, D)$?
 - let $n_r$ denote # of words that occur $r$ times in $D$ 

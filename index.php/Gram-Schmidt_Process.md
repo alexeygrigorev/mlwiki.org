@@ -27,7 +27,7 @@ How do we produce a vector $\mathbf v_2$ from $\mathbf b$ such that $\mathbf v_2
 - <img src="http://habrastorage.org/files/dcc/304/33e/dcc30433e98143b2b236fa419bc06d4d.png" alt="Image">
 - let's [project](Projection_onto_Subspaces) $\mathbf b$ on $\mathbf v_1$, and we get $P \cdot \mathbf v_1 = \cfrac{\mathbf v_1^T \mathbf b}{\mathbf v_1^T \mathbf v_1} \cdot \mathbf v_1$
 - $\mathbf e$ is our projection error, so $\mathbf e = \mathbf b - P \mathbf v_1 = \mathbf b - P \mathbf v_1 = \mathbf b - \cfrac{\mathbf v_1^T \mathbf b}{\mathbf v_1^T \mathbf v_1} \cdot \mathbf v_1$
-- note that $\mathbf v_2 = \mathbf e$|   it has the same length and the same direction
+- note that $\mathbf v_2 = \mathbf e$: it has the same length and the same direction
 - so $\mathbf v_2 = \mathbf b - \cfrac{\mathbf v_1^T \mathbf b}{\mathbf v_1^T \mathbf v_1} \cdot \mathbf v_1$
 - interpretation: we take the original vector $\mathbf b$ and remove the projection of this vector onto $\mathbf v_1$, and it leaves only the orthogonal part
 - now $\mathbf v_1 \; \bot \mathbf v_2$
@@ -109,7 +109,9 @@ Note that for the diagonal elements of $R$, $\mathbf q_i^T \mathbf a_i = \|  \ma
 - why? 
 - <img src="http://habrastorage.org/files/4d5/edf/1db/4d5edf1db6d04f2a9b1310228db15afa.png" alt="Image">
 - $\mathbf q_i^T \mathbf a_i = \|  \mathbf q_i \| \| \mathbf a_i \| \cos \theta$ by the [Dot Product](Dot_Product) definition
-- $\|  \mathbf q_i \| = 1$ and $\cos \theta = \cfrac{\| \mathbf v_i \- $\mathbf q_i^T \mathbf a_i = \| \mathbf q_i \| \| \mathbf a_i \| \cos \theta = 1 \cdot \cancel{\| \mathbf a_i \- this can be uses to speed up the computation a bit
+- $\| \mathbf q_i \| = 1$ and $\cos \theta = \cfrac{\| \mathbf v_i \|}{\| \mathbf a_i \|}$
+- $\mathbf q_i^T \mathbf a_i = \| \mathbf q_i \| \| \mathbf a_i \| \cos \theta = 1 \cdot \cancel{\| \mathbf a_i \|} \cdot \cfrac{\| \mathbf v_i \|}{\cancel{\| \mathbf a_i \|}} = \| \mathbf v_i \|$
+- this can be used to speed up the computation a bit
 
 ## Usage
 This is often used for [Linear Least Squares](Linear_Least_Squares) - to make the [Normal Equation](Normal_Equation) faster

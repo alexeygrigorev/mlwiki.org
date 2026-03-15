@@ -40,7 +40,7 @@ TidLists:
 - $\text{Tid}(f) = \{ T_2 \}$
 
 Support:
-- $\text{supp}(ab) = \cfrac{\big|  \text{Tid}(a) \cap \text{Tid}(b) \big
+- $\text{supp}(ab) = \cfrac{\big| \text{Tid}(a) \cap \text{Tid}(b) \big|}{N}$
 
 ## Eclat Algorithm
 ### Algorithm
@@ -60,7 +60,8 @@ th = 2
 
 def eclat(prefix, items, D):
     if not items: return
-    candidates = [(prefix |  {i}, frequency(D, prefix | {i}), i) |                  for i in items if i not in prefix]
+    candidates = [(prefix | {i}, frequency(D, prefix | {i}), i)
+                  for i in items if i not in prefix]
     frequent = filter(lambda x: x[1] >= th, candidates)
 
     for new_prefix, freq, i in frequent:

@@ -57,7 +57,8 @@ I = 'abcdef'
 T = ['abc', 'acdef', 'abc', 'de']
 for X in powerset(I):
     cnt = sum([1 for i in T if set(X).issubset(set(i))])
-    if (cnt |  = 0): |        print "(%s, %d)" % (''.join(X), cnt) |
+    if (cnt != 0):
+        print "(%s, %d)" % (''.join(X), cnt)
 ```
 
 
@@ -66,7 +67,7 @@ frequencies:
 |   cnt  |  itemsets   |  1  |  $f,ad,ae,af,cd,ce,cf,df,ef,acd,ace,acf,ade,adf,aef,cde,cdf,cef,def,acde,acdf,acef,adef,cdef,acdef$ ||  2  |  $b,d,e,ab,bc,de,abc$ ||  3  |  $a,c,ac$ ||  4  |  $\{\}$ |
 
 Problems:
-- search space: $2^  - e.g. only 6 items - 64 combinations
+- search space: $2^{|I|}$ - e.g. only 6 items - 64 combinations
 - but once we found the answer for the 1st problem, we can easily find the answer for the 2nd problem
 
 

@@ -61,7 +61,7 @@ Note that $x$ by improving his position should remain the winner
 
 Elections:
 - Round 1: $x$ and $z$ ($x=6+2, z=5, y=4$)
-- Round 2: $z$ wins|   (not $x$!) (6+2: $x > y$, 9: $z > x$) 
+- Round 2: $z$ wins (not $x$!) (6+2: $x > y$, 9: $z > x$)
 This counter-example shows that the [Monotonicity](Monotonicity) principle is not respected by Two-Round Voting method.
 
 
@@ -71,15 +71,10 @@ Suppose we run an election in Belgium
 - we have 3 candidates: $A = \{a, b, c\}$
 - $N = 13$ for each region
 
-|    |  Region I  |  Region II   |  preferences ||   |- 4: $a > b > c$
-- 3: $b > a > c$
-- 3: $c > a > b$
-- 3: $c > b > a$
-|  |- 4: $a > b > c$
-- 3: $c > a > b$
-- 3: $b > a > c$
-- 3: $b > a > c$
-|  Round 1 ||  ${\color{blue}{a: 4}}, b: 3, {\color{blue}{c: 6}}$ ||  ${\color{blue}{a: 4}}, {\color{blue}{b: 6}}, c: 3$ ||  Round 2 ||  ${\color{blue}{a: 7}}, c: 6$ ||  ${\color{blue}{a: 7}}, b: 6$ |
+|    |  Region I  |  Region II   |
+|  preferences  |  - 4: $a > b > c$ - 3: $b > a > c$ - 3: $c > a > b$ - 3: $c > b > a$  |  - 4: $a > b > c$ - 3: $c > a > b$ - 3: $b > a > c$ - 3: $b > a > c$  |
+|  Round 1  |  ${\color{blue}{a: 4}}, b: 3, {\color{blue}{c: 6}}$  |  ${\color{blue}{a: 4}}, {\color{blue}{b: 6}}, c: 3$  |
+|  Round 2  |  ${\color{blue}{a: 7}}, c: 6$  |  ${\color{blue}{a: 7}}, b: 6$  |
 In both regions $a$ wins.
 
 But if we consider the global region, we'll have different results:
