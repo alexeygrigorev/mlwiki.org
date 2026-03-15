@@ -12,8 +12,8 @@ Cost-Based Plan Selection exercises
   - [Physical Query Plan Optimization](Physical_Query_Plan_Optimization) 
   - [Join Ordering](Join_Ordering)
   - [Query Result Size Estimation](Query_Result_Size_Estimation)
-- exercises handout: [https://www.dropbox.com/s/9euhatg7nn1cuf2/lect7-ex-cost-based-plan-selection.pdf]
-- solutions: [https://www.dropbox.com/s/ce99x2vu4u7z9kf/lect7-ex-cost-based-plan-selection-sol.pdf]
+- exercises handout: [link](https://www.dropbox.com/s/9euhatg7nn1cuf2/lect7-ex-cost-based-plan-selection.pdf)
+- solutions: [link](https://www.dropbox.com/s/ce99x2vu4u7z9kf/lect7-ex-cost-based-plan-selection-sol.pdf)
 
 ## Exercise 2
 Suppose we have 3 relations

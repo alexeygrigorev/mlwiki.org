@@ -76,7 +76,7 @@ Java implementation:
 - so on $20$th step, in $H_\text{low}$ would be $10$th order statistics, and in $H_\text{high}$ - $11$th
 - keep the heaps balanced|   (so they have the same number of elements) 
 
-Implementation: [http://code.google.com/p/codeforces-solutions-java/source/browse/trunk/codeforces-java/src/main/java/coursera/algo1/week6/NextMedian.java]
+Implementation: [link](http://code.google.com/p/codeforces-solutions-java/source/browse/trunk/codeforces-java/src/main/java/coursera/algo1/week6/NextMedian.java)
 
 
 ### Speeding up the [Dijkstra's algorithm](Dijkstra's_Shortest_Path)

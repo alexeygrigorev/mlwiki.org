@@ -141,7 +141,7 @@ The final step:
 
 
 ### [Decision Errors](Hypothesis_Testing_Decision_Errors)
-| + Summary [http://en.wikipedia.org/wiki/Type_I_and_type_II_errors] ||    |  $H_0$ is true   |  $H_0$ is false  |   Reject $H_0$  |  align="center"| Type&nbsp;I error<br />False positive ||  align="center"| Correct outcome<br />True positive ||   Fail to reject $H_0$  |  align="center"| Correct outcome<br />True negative ||  align="center"| Type&nbsp;II error<br />False negative |
+| + Summary [link](http://en.wikipedia.org/wiki/Type_I_and_type_II_errors) ||    |  $H_0$ is true   |  $H_0$ is false  |   Reject $H_0$  |  align="center"| Type&nbsp;I error<br />False positive ||  align="center"| Correct outcome<br />True positive ||   Fail to reject $H_0$  |  align="center"| Correct outcome<br />True negative ||  align="center"| Type&nbsp;II error<br />False negative |
 
 ### Significance Level
 - The ''significance level'' of a test gives a cut-off for how small is small for a $p$-value

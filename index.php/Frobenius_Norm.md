@@ -104,4 +104,4 @@ This is used for [Reduced Rank Approximation](Reduced_Rank_Approximation) to sho
 
 
 ## Sources
-- Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [http://www.math.washington.edu/~morrow/498_13/svd.pdf]
+- Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [link](http://www.math.washington.edu/~morrow/498_13/svd.pdf)

@@ -194,4 +194,4 @@ The final result is
 - [Inverse-Rules Algorithm](Inverse-Rules_Algorithm)
 
 ## Sources
-- Web Data Management book [http://webdam.inria.fr/Jorge]
+- Web Data Management book [link](http://webdam.inria.fr/Jorge)

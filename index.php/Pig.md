@@ -51,7 +51,7 @@ in Pig FOREACH $\approx$ [Map](MapReduce#Map_Function)
 ## Links
 - http://www.slideshare.net/jayshao/introduction-to-apache-pig
 - Official website: http://pig.apache.org/ 
-- Process your data with Apache Pig [and [http://www.ibm.com/developerworks/ru/library/l-apachepigdataquery/](http://www.ibm.com/developerworks/linux/library/l-apachepigdataquery/]) (на русском)
+- Process your data with Apache Pig [and [link](http://www.ibm.com/developerworks/ru/library/l-apachepigdataquery/)(http://www.ibm.com/developerworks/linux/library/l-apachepigdataquery/]) (на русском)
 
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))

@@ -66,7 +66,7 @@ It's a framework that defines:
 ### Query Likelihood Retrieval Model
 Query Likelihood scoring method
 - use [Statistical Language Models](Statistical_Language_Models) for [NLP](NLP)
-- Ponte, Jay M., and W. Bruce Croft. "A language modeling approach to information retrieval." 1998. [http://www.cs.unibo.it/~montesi/CBD/Articoli/LanguageModelApproachIR.pdf]
+- Ponte, Jay M., and W. Bruce Croft. "A language modeling approach to information retrieval." 1998. [link](http://www.cs.unibo.it/~montesi/CBD/Articoli/LanguageModelApproachIR.pdf)
 
 
 

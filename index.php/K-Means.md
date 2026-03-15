@@ -198,7 +198,7 @@ Algorithm:
 
 
 ### Approximate K-Means
-- Philbin, James, et al. "Object retrieval with large vocabularies and fast spatial matching." 2007. [http://research.microsoft.com/pubs/64602/philbin07.pdf]
+- Philbin, James, et al. "Object retrieval with large vocabularies and fast spatial matching." 2007. [link](http://research.microsoft.com/pubs/64602/philbin07.pdf)
 
 
 ### Mini-Batch K-Means
@@ -237,7 +237,7 @@ Modify the membership function s.t. it outputs the degree of association between
 
 
 Reference:
-- Bezdek, James C., Robert Ehrlich, and William Full. "FCM: The fuzzy c-means clustering algorithm." 1984. [http://web-ext.u-aizu.ac.jp/course/bmclass/documents/FCM%20-%20The%20Fuzzy%20c-Means%20Clustering%20Algorithm.pdf]
+- Bezdek, James C., Robert Ehrlich, and William Full. "FCM: The fuzzy c-means clustering algorithm." 1984. [link](http://web-ext.u-aizu.ac.jp/course/bmclass/documents/FCM%20-%20The%20Fuzzy%20c-Means%20Clustering%20Algorithm.pdf)
 
 
 
@@ -341,6 +341,6 @@ See ipython notebook for complete code:
 - [Python for Machine Learning (TUB)](Python_for_Machine_Learning_(TUB))
 - [Machine Learning 1 (TUB)](Machine_Learning_1_(TUB))
 - Steinbach, Michael, George Karypis, and Vipin Kumar. "A comparison of document clustering techniques." 2000.
-- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
-- Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." 2010. [https://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5]
-- Sculley, David. "Web-scale k-means clustering." 2010. [http://www.ra.ethz.ch/CDstore/www2010/www/p1177.pdf]
+- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [link](http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90)
+- Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." 2010. [link](https://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5)
+- Sculley, David. "Web-scale k-means clustering." 2010. [link](http://www.ra.ethz.ch/CDstore/www2010/www/p1177.pdf)

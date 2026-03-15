@@ -97,4 +97,4 @@ Can use [Approximate K-Means](Approximate_K-Means) or [Mini-Batch K-Means](Mini-
 
 
 ## Sources
-- Paulevé, Loïc, et al. "Locality sensitive hashing: A comparison of hash function types and querying mechanisms." 2010. [https://hal.inria.fr/inria-00567191/document]
+- Paulevé, Loïc, et al. "Locality sensitive hashing: A comparison of hash function types and querying mechanisms." 2010. [link](https://hal.inria.fr/inria-00567191/document)

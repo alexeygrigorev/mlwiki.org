@@ -140,7 +140,7 @@ def null(A, eps=1e-15):
     return null_space.T
 ```
 
-From [http://stackoverflow.com/questions/1835246/how-to-solve-homogeneous-linear-equations-with-numpy]
+From [link](http://stackoverflow.com/questions/1835246/how-to-solve-homogeneous-linear-equations-with-numpy)
 
 
 

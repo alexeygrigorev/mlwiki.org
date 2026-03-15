@@ -207,7 +207,7 @@ $\delta$
 
 
 ### Example
-Consider a "Buying a new car" example (from D-Sight [http://www.d-sight.com/learning-center/articles/buying-new-car])
+Consider a "Buying a new car" example (from D-Sight [link](http://www.d-sight.com/learning-center/articles/buying-new-car))
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/mcda/gaia-new-car.png" alt="Image"> 
 - points are alternatives
@@ -272,7 +272,7 @@ Then we calculate if on average $G$ is better than the rest:
 
 
 ### PROMETHEE II ranking
-: ranking the alternatives based on their netflow scores
+  ranking the alternatives based on their netflow scores
 
 |   rank  |  alternative  |  $\Phi(G)$  |  $\Phi^+(G)$  |  $\Phi^-(G)$  |  1  |  Austria  |  0.302  |  0.458  |  0.156 ||  2  |  Sweden  |  0.049  |  0.363  |  0.314 ||  3  |  Belgium  |  -0.041  |  0.347  |  0.397 ||  4  |  Germany  |  -0.096  |  0.238  |  0.334 ||  5  |  France  |  -0.099  |  0.274  |  0.373 ||  6  |  Italy  |  -0.115  |  2.11  |  0.326 |
 

@@ -75,7 +75,7 @@ Apart from checking the $p$-value, we typically also check the $1-\alpha$ percen
 ### Size Matters
 In examples we can see if the size increases, $H_0$ rejected
 - so it's sensitive to the size 
-- see also here on the sample size [http://stats.stackexchange.com/questions/108911/why-does-frequentist-hypothesis-testing-become-biased-towards-rejecting-the-null/]
+- see also here on the sample size [link](http://stats.stackexchange.com/questions/108911/why-does-frequentist-hypothesis-testing-become-biased-towards-rejecting-the-null/)
 
 
 ## Cramer's $V$

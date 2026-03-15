@@ -40,10 +40,10 @@ One way of doing Co-Clustering is via NMF:
 
 
 ## References
-- Dhillon, Inderjit S. "Co-clustering documents and words using bipartite spectral graph partitioning." 2001. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.20.9634&rep=rep1&type=pdf]
-- Dhillon, Inderjit S., Subramanyam Mallela, and Dharmendra S. Modha. "Information-theoretic co-clustering." 2003. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.6173&rep=rep1&type=pdf]
-- Li, Tao, Sheng Ma, and Mitsunori Ogihara. "Document clustering via adaptive subspace iteration."  2004. [http://users.cs.fiu.edu/~taoli/pub/sigir04-p218-li.pdf]
+- Dhillon, Inderjit S. "Co-clustering documents and words using bipartite spectral graph partitioning." 2001. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.20.9634&rep=rep1&type=pdf)
+- Dhillon, Inderjit S., Subramanyam Mallela, and Dharmendra S. Modha. "Information-theoretic co-clustering." 2003. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.6173&rep=rep1&type=pdf)
+- Li, Tao, Sheng Ma, and Mitsunori Ogihara. "Document clustering via adaptive subspace iteration."  2004. [link](http://users.cs.fiu.edu/~taoli/pub/sigir04-p218-li.pdf)
 
 ## Sources
 - http://en.wikipedia.org/wiki/Biclustering
-- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
+- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [link](http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90)

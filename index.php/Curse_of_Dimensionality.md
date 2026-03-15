@@ -29,10 +29,10 @@ How to deal?
 
 
 ## Paper
-- Beyer, Kevin, et al. "When is “nearest neighbor” meaningful?." 1999. [http://www.loria.fr/~berger/Enseignement/Master2/Exposes/beyer.pdf]
+- Beyer, Kevin, et al. "When is “nearest neighbor” meaningful?." 1999. [link](http://www.loria.fr/~berger/Enseignement/Master2/Exposes/beyer.pdf)
 - Kriegel, Hans-Peter, Peer Kröger, and Arthur Zimek. "Clustering high-dimensional data: A survey on subspace clustering, pattern-based clustering, and correlation clustering." (2009) 
 
 ## Sources
 - http://en.wikipedia.org/wiki/Curse_of_dimensionality
 - http://en.wikipedia.org/wiki/Clustering_high-dimensional_data
-- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
+- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [link](http://static.msi.umn.edu/rreports/2003/73.pdf)

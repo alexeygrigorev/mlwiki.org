@@ -6,7 +6,7 @@ tags:
 title: Point Estimate
 ---
 ### Points Estimates
-An estimate is a point estimate when we use only one certain value to describe what we think about the whole population [https://en.wikipedia.org/wiki/Point_estimation]
+An estimate is a point estimate when we use only one certain value to describe what we think about the whole population [link](https://en.wikipedia.org/wiki/Point_estimation)
 
 
 ### Examples

@@ -52,7 +52,7 @@ bp = barplot(r)
 xspline(x=bp, y=r, lwd=2, shape=1, border="blue")
 text(x=bp, y=r+0.03, labels=as.character(r), xpd=TRUE, cex=0.7)
 ```
-Code [[https://stat.ethz.ch/pipermail/r-help/2003-November/041967.html](http://stackoverflow.com/a/14264451/861423])
+Code [[link](https://stat.ethz.ch/pipermail/r-help/2003-November/041967.html)(http://stackoverflow.com/a/14264451/861423])
 
 So we can see that it generates the values of the density function
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/da/normal-density.png" alt="Image"> 

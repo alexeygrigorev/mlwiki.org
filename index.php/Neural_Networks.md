@@ -38,7 +38,7 @@ This technique is based on how our brain works - it tries to mimic its behavior.
 
 
 it's called ''sigmoid (logistic) activation function'': 
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/nn-sigmoid.png" alt="Image">
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/nn-sigmoid.png" alt="Image">
 
 
 Bias unit
@@ -57,7 +57,7 @@ Result
 
 ### Neural Network Model
 Let's have a look at an actual neural network
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/nn-representation.png" alt="Image">
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/nn-representation.png" alt="Image">
 
 - A NN model is a network of many sigmoid activation units, organized in ''layers'' 
   - where the next layer's input is the current layer's output 
@@ -128,7 +128,7 @@ This process is called ''forward propagation''
 
 ### What's going on?
 Let's have a look at the 2nd and 3rd layers of our NN 
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/nn-representation.png" alt="Image">
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/nn-representation.png" alt="Image">
 
 - $h_{\theta} = g((\theta^{(2)})^T \cdot a^{(2)})$, and $a^{(2)}$ is given by the 2nd level units 
 - so it's doing a [logistic regression](Logistic_Regression), but it uses $a^{(2)} = [a_0^{(2)} ... a_3^{(2)}]$ for features (instead of $x$s)
@@ -198,7 +198,7 @@ here we also don't regularize bias inputs
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/nn-propagation-ex.png" alt="Image">
 
 suppose we have a training example $(x, y)$
-: To compute cost $J(\theta)$ we use [Forward Propagation](#Forward_Propagation) (vectorized)
+  To compute cost $J(\theta)$ we use [Forward Propagation](#Forward_Propagation) (vectorized)
 - $a^{(1)} = x$
 - $z^{(2)} = \theta^{(1)} \cdot a^{(1)}$
 - $a^{(2)} = g(z^{(2)})$ (plus adding $a_0^{(2)} = 1$)
@@ -251,7 +251,7 @@ For each $\{(x^{(i)}, y^{(i)}\}$:
   - $D_{ij}^{(l)} \leftarrow \cfrac{1}{m} \delta_{ij}^{(l)} + \lambda \theta_{ij}^{(l)}$ if $j \ne 0$
   - $D_{ij}^{(l)} \leftarrow \cfrac{1}{m} \delta_{ij}^{(l)}$ if $j = 0$
 - That value can we used for GD:
-: $\cfrac{\partial}{\partial \theta_{ij}^{(l)}} = D_{ij}^{(l)}$
+  $\cfrac{\partial}{\partial \theta_{ij}^{(l)}} = D_{ij}^{(l)}$
 
 
 
@@ -315,7 +315,7 @@ To implement Back Propagation use the following approach:
 
 Suppose we set all $\theta_{ij}^{(l)}$ to 0
 - Then we'll have same values for $a_1^{(2)} = a_2^{(2)} = ... = a_{s_2}^{(2)}$ and same for $\delta^{(2)}$
-: (after each update, parameters corresponding to inputs are identical, and all hidden units will compute the same value)
+  (after each update, parameters corresponding to inputs are identical, and all hidden units will compute the same value)
 - And therefore, all partial derivatives will also we equal 
 - This is called ''the problem of symmetric weights'' 
 

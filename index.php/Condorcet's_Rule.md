@@ -60,7 +60,7 @@ Pair-wise comparisons:
 - $b \text{ vs } c$: $n_{bc} = 19, n_{cb} = 2 \Rightarrow b > c$
 
 The Preference Graph for this example is
-: <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/vt/condorcet-ex1.png" alt="Image">
+  <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/vt/condorcet-ex1.png" alt="Image">
 
 
 ## Condorcet Paradox
@@ -78,7 +78,7 @@ Individual rankings:
 - 8:  $z > y > x$
 
 The preference graph has a cycle:
-: <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/vt/condorcet-paradox.png" alt="Image">
+  <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/vt/condorcet-paradox.png" alt="Image">
 
 
 ## Criteria
@@ -137,5 +137,5 @@ Thus, [Separability](Separability) is respected.
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-- Mathematics of Voting, slides [http://www.ms.uky.edu/~lee/ma111fa09/slides01.pdf](http___www.ms.uky.edu_~lee_ma111fa09_slides01.pdf)
-- Voting Fairness Criteria [http://www.math.unl.edu/~bharbourne1/M203JSpr09/VotingFairnessHandout.pdf]
+- Mathematics of Voting, slides [link](http://www.ms.uky.edu/~lee/ma111fa09/slides01.pdf)(http___www.ms.uky.edu_~lee_ma111fa09_slides01.pdf)
+- Voting Fairness Criteria [link](http://www.math.unl.edu/~bharbourne1/M203JSpr09/VotingFairnessHandout.pdf)

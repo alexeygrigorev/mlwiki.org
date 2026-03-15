@@ -30,7 +30,7 @@ Disadvantages
 
 
 ## References
-- Ester, Martin, et al. "A density-based algorithm for discovering clusters in large spatial databases with noise." 1996. [http://www.aaai.org/Papers/KDD/1996/KDD96-037]
+- Ester, Martin, et al. "A density-based algorithm for discovering clusters in large spatial databases with noise." 1996. [link](http://www.aaai.org/Papers/KDD/1996/KDD96-037)
 
 ## Sources
-- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
+- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [link](http://static.msi.umn.edu/rreports/2003/73.pdf)

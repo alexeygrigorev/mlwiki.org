@@ -69,13 +69,13 @@ Other principles:
 
 
 ## Links
-- Mathematics of Voting - slides [http://www.ms.uky.edu/~lee/ma111fa09/slides01.pdf] 
-- Criteria [http://www.ctl.ua.edu/math103/voting/whatdowe.htm]
-- EC228 Voting Theory Lecture Notes [http://www2.warwick.ac.uk/fac/soc/economics/current/modules/ec228/details/lecturenotes/lecturenotesbook.pdf]
-- Social Choice Theory and Multicriteria Decision Aiding [http://www-desir.lip6.fr/publications/pub_1389_1_BouyssouMarchantPerny_soc_choice.pdf]
-- Book: Voting, Arbitration, and Fair Division [http://xaravve.trentu.ca/pivato/Teaching/voting.pdf]
-- Methods vs Voting Criteria [http://en.wikipedia.org/wiki/Voting_system_criterion]
+- Mathematics of Voting - slides [link](http://www.ms.uky.edu/~lee/ma111fa09/slides01.pdf) 
+- Criteria [link](http://www.ctl.ua.edu/math103/voting/whatdowe.htm)
+- EC228 Voting Theory Lecture Notes [link](http://www2.warwick.ac.uk/fac/soc/economics/current/modules/ec228/details/lecturenotes/lecturenotesbook.pdf)
+- Social Choice Theory and Multicriteria Decision Aiding [link](http://www-desir.lip6.fr/publications/pub_1389_1_BouyssouMarchantPerny_soc_choice.pdf)
+- Book: Voting, Arbitration, and Fair Division [link](http://xaravve.trentu.ca/pivato/Teaching/voting.pdf)
+- Methods vs Voting Criteria [link](http://en.wikipedia.org/wiki/Voting_system_criterion)
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-- The mathematics of voting and elections: Paradox, deception, and chaos [http://xaravve.trentu.ca/pivato/Teaching/votingslides.pdf]
+- The mathematics of voting and elections: Paradox, deception, and chaos [link](http://xaravve.trentu.ca/pivato/Teaching/votingslides.pdf)

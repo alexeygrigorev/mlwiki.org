@@ -133,9 +133,9 @@ For additional code refer to this [implementation in Python](http://code.google.
 
 Map: 
 - for each element $(i, j) \in A$
-: emit $((i, k), A[i, j])$ for $k \in 1..N$
+  emit $((i, k), A[i, j])$ for $k \in 1..N$
 - for each element $(j, k) \in B$
-: emit $((i, k), B[j, k])$ for $i \in 1..L$
+  emit $((i, k), B[j, k])$ for $i \in 1..L$
 
 Reduce: 
 - key = $(i, k)$
@@ -166,4 +166,4 @@ MapReduce
 
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-- Lee et al, Parallel Data Processing with MapReduce: A Survey [http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf]
+- Lee et al, Parallel Data Processing with MapReduce: A Survey [link](http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf)

@@ -18,8 +18,8 @@ Experiment:
 - Our parameter of interest is $p = p(\text{heads})$
 - Data: result of 10 coin flips
 - $\hat{p}$ - estimate of $p$
-: $\hat{p} = \cfrac{\text{# of heads}}{\text{total # of flips}}$
-: i.e. $\hat{p}$ is calculated from data
+  $\hat{p} = \cfrac{\text{# of heads}}{\text{total # of flips}}$
+  i.e. $\hat{p}$ is calculated from data
 
 
 ## Sampling Distribution
@@ -34,7 +34,7 @@ The probability distribution of all the possible values of an estimator is it's 
 ### Unbiased estimation
 In our coin flipping example
 - a flip follows the [Bernoulli Distribution](Bernoulli_Distribution) with $p = 1/2$
-: $X \sim \text{Bernoulli}(0.5)$
+  $X \sim \text{Bernoulli}(0.5)$
 - and $E(X) = 0.5$
 
 
@@ -50,10 +50,10 @@ A statistic used to estimate a parameter is ''unbiased'' if the expected value o
 
 ### Variance estimation
 - For one observation $X \sim \text{Bernoulli}(p)$, variance $\text{Var}(X)$ is:
-: $\text{Var}(X) = \sum_{x} (x - E(X))^2 p(X) = (1 - p)^2 p + (0 - p)^2 (1 - p) = p - p^2 = p(1 - p)$
+  $\text{Var}(X) = \sum_{x} (x - E(X))^2 p(X) = (1 - p)^2 p + (0 - p)^2 (1 - p) = p - p^2 = p(1 - p)$
 - For $n$ observations $X_1, ..., X_{n}$ with $\hat{p} = E(X)$
-: since $\text{Var}(\bar{X}) = \cfrac{\sum X_i}{n}$,
-: $\text{Var}(\hat{p}) = \cfrac{p(1 - p)}{n}$ and $\text{sd}(\hat{p}) = \sqrt{\cfrac{p(1-p)}{n}}$,
+  since $\text{Var}(\bar{X}) = \cfrac{\sum X_i}{n}$,
+  $\text{Var}(\hat{p}) = \cfrac{p(1 - p)}{n}$ and $\text{sd}(\hat{p}) = \sqrt{\cfrac{p(1-p)}{n}}$,
 So we get more and more precise answers over time 
 
 

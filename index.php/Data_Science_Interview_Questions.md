@@ -253,7 +253,7 @@ Decision trees:
 - Describe some of the different splitting rules used by different decision tree algorithms.
 - Is a big brushy tree always good? Why would you want to prune it? 
 - Is it a good idea to combine multiple trees? 
-- What is Random Forest? Why is it good? [https://medium.com/@D33B/the-unreasonable-effectiveness-of-random-forests-f33c3ce28883]
+- What is Random Forest? Why is it good? [link](https://medium.com/@D33B/the-unreasonable-effectiveness-of-random-forests-f33c3ce28883)
 
 
 

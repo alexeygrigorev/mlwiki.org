@@ -18,8 +18,8 @@ title: Relational Algebra
 Operations of traditional RA:
 - usual set operations (union, intersection, difference)
 - operations that remove some parts of the relation
-: selections eliminate tuples (rows)
-: projections eliminate attributes (columns)
+  selections eliminate tuples (rows)
+  projections eliminate attributes (columns)
 - operations to combine tuples of two relations: Cartesian product, joins, etc
 - renaming
 

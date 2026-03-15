@@ -41,7 +41,7 @@ More formally,
 
 Let $k$ be the number of retrieved documents 
 - then by varying $k$ from $0$ to $N = | C|$ we can draw $P$ vs $R$ and obtain the Precision/recall curve:
-- <img src="https://habrastorage.org/files/26b/c1e/a38/26bc1ea381424262b9d966c63f418661.png" alt="Image"> source: [http://www.searchtechnologies.com/precision-recall]
+- <img src="https://habrastorage.org/files/26b/c1e/a38/26bc1ea381424262b9d966c63f418661.png" alt="Image"> source: [link](http://www.searchtechnologies.com/precision-recall)
 - the closer the curve to the $(1, 1)$ point - the better the IR system performance
 - <img src="https://habrastorage.org/files/010/ded/77e/010ded77e8d0454b99f0cafd3d962613.png" alt="Image"> source: [Information Retrieval (UFRT)](Information_Retrieval_(UFRT)) lecture 2
 
@@ -69,7 +69,7 @@ and get Mean Average Precision: MAP
 The precision and recall metrics can also be applied to [Machine Learning](Machine_Learning): to binary classifiers
 
 
-| + Diagnostic Testing Measures  [http://en.wikipedia.org/wiki/Template:DiagnosticTesting_Diagram] ||  colspan="2" rowspan="2" style="border:none;"| ||   colspan="2" | Actual Class $y$  |  Positive ||  Negative ||   rowspan="2" | $h_{\theta}(x)$ <br/> Test<br />outcome  |  Test<br />outcome<br />positive || style="background:#ccffcc;"| '''True positive'''<br/> ($\text{TP}$) || style="background:#eedddd;"| '''False positive'''<br />($\text{FP}$, Type I error) ||  Precision =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FP}}$ ||  Test<br />outcome<br />negative || style="background:#eedddd;"| '''False negative'''<br />($\text{FN}$, Type II error) || style="background:#ccffcc;"| '''True negative'''<br /> ($\text{TN}$) ||  Negative predictive value =<br /> $\cfrac{\# \text{TN}}{\# \text{FN} + \# \text{TN}}$ || colspan="2" style="border:none;" | ||  Sensitivity =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FN}}$ ||  Specificity =<br /> $\cfrac{\# \text{TN}}{\# \text{FP} + \# \text{TN}}$ ||  Accuracy =<br /> $\cfrac{\# \text{TP} + \# \text{TN}}{\# \text{TOTAL}}$ |
+| + Diagnostic Testing Measures  [link](http://en.wikipedia.org/wiki/Template:DiagnosticTesting_Diagram) ||  colspan="2" rowspan="2" style="border:none;"| ||   colspan="2" | Actual Class $y$  |  Positive ||  Negative ||   rowspan="2" | $h_{\theta}(x)$ <br/> Test<br />outcome  |  Test<br />outcome<br />positive || style="background:#ccffcc;"| '''True positive'''<br/> ($\text{TP}$) || style="background:#eedddd;"| '''False positive'''<br />($\text{FP}$, Type I error) ||  Precision =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FP}}$ ||  Test<br />outcome<br />negative || style="background:#eedddd;"| '''False negative'''<br />($\text{FN}$, Type II error) || style="background:#ccffcc;"| '''True negative'''<br /> ($\text{TN}$) ||  Negative predictive value =<br /> $\cfrac{\# \text{TN}}{\# \text{FN} + \# \text{TN}}$ || colspan="2" style="border:none;" | ||  Sensitivity =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FN}}$ ||  Specificity =<br /> $\cfrac{\# \text{TN}}{\# \text{FP} + \# \text{TN}}$ ||  Accuracy =<br /> $\cfrac{\# \text{TP} + \# \text{TN}}{\# \text{TOTAL}}$ |
 
 Main values of this matrix:
 - '''True Positive''' - we predicted "+" and the true class is "+"
@@ -197,7 +197,7 @@ So the confusion matrix is:
 |  ||   same  !! different   |   same  |  TP  |  FN ||   different  |  FP  |  TN  |
 
 ### Example
-Consider the following example (from the IR book [http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-clustering-1.html])
+Consider the following example (from the IR book [link](http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-clustering-1.html))
 - <img src="http://nlp.stanford.edu/IR-book/html/htmledition/img1393.png" alt="Image">
 - there are $\cfrac{n \, (n - 1)}{2} = 136$ pairs of documents
 - $\text{TP} + \text{FP} = {6 \choose 2}  + {6 \choose 2}  + {5 \choose 2}  = 40$
@@ -283,7 +283,7 @@ This way is often used in [Document Classification](Document_Classification)
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
-- Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [http://arxiv.org/pdf/cs/0110053.pdf]
+- Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [link](http://arxiv.org/pdf/cs/0110053.pdf)
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
-- Manning, Christopher D., Prabhakar Raghavan, and Hinrich Schütze. "Introduction to information retrieval." 2008. [http://informationretrieval.org/]
+- Manning, Christopher D., Prabhakar Raghavan, and Hinrich Schütze. "Introduction to information retrieval." 2008. [link](http://informationretrieval.org/)

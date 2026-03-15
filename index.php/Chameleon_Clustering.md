@@ -47,7 +47,7 @@ Solutions:
 
 
 == References == 
-- Karypis, George, Eui-Hong Han, and Vipin Kumar. "Chameleon: Hierarchical clustering using dynamic modeling." (1999). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.44.5847&rep=rep1&type=pdf]
+- Karypis, George, Eui-Hong Han, and Vipin Kumar. "Chameleon: Hierarchical clustering using dynamic modeling." (1999). [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.44.5847&rep=rep1&type=pdf)
 
 ## Sources
-- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
+- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [link](http://static.msi.umn.edu/rreports/2003/73.pdf)

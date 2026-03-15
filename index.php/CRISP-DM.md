@@ -6,7 +6,7 @@ tags:
 title: CRISP-DM
 ---
 ## Data Mining Process
-CRISP-DM [http://en.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining]
+CRISP-DM [link](http://en.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining)
 - CRISP-DM (CRoss Industry Standard Process for Data Mining)
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/kddm/datamining-process.png" alt="Image">
 - there are 6 steps 

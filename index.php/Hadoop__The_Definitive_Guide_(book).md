@@ -9,7 +9,7 @@ tags:
 title: 'Hadoop: The Definitive Guide (book)'
 ---
 This is a book by T. White published by O'Reilly Media, Inc.
-- notes are based on the 4th edition (2015) from Safari books [https://www.safaribooksonline.com/library/view/hadoop-the-definitive/9781491901687/]
+- notes are based on the 4th edition (2015) from Safari books [link](https://www.safaribooksonline.com/library/view/hadoop-the-definitive/9781491901687/)
 
 <img src="http://akamaicovers.oreilly.com/images/0636920033448/cat.gif" alt="Image">
 

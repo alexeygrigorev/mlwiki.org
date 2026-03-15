@@ -114,4 +114,4 @@ This property is not satisfied
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-- Social Choice Theory and Multicriteria Decision Aiding [http://www-desir.lip6.fr/publications/pub_1389_1_BouyssouMarchantPerny_soc_choice.pdf]
+- Social Choice Theory and Multicriteria Decision Aiding [link](http://www-desir.lip6.fr/publications/pub_1389_1_BouyssouMarchantPerny_soc_choice.pdf)

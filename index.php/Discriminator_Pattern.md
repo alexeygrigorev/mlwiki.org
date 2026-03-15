@@ -23,7 +23,7 @@ Example 1:
 
 
 ## Types
-There are 6 kinds of Discriminator pattern [http://www.workflowpatterns.com/patterns/control/index.php]:
+There are 6 kinds of Discriminator pattern [link](http://www.workflowpatterns.com/patterns/control/index.php):
 - the Structured Discriminator (WCP9), 
 - the Blocking Discriminator (WCP28), 
 - the Cancelling Discriminator (WCP29), 
@@ -33,7 +33,7 @@ There are 6 kinds of Discriminator pattern [http://www.workflowpatterns.com/patt
 
 
 ### Canceling Discriminator
-This is a discriminator that cancels the other process [http://www.workflowpatterns.com/patterns/control/new/wcp29.php]
+This is a discriminator that cancels the other process [link](http://www.workflowpatterns.com/patterns/control/new/wcp29.php)
 
 In [YAWL](YAWL) this is achieved:
 - with one Parallel Split (AND-Split)

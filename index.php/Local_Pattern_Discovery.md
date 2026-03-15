@@ -153,14 +153,14 @@ So there are other mining tasks
 Mining patterns that compares two or more datasets
 
 Method 1
-: (with [Frequent Pattern Mining](Frequent_Pattern_Mining))
+  (with [Frequent Pattern Mining](Frequent_Pattern_Mining))
 - Mine all the non frequent patterns in class 1
 - Mine all the frequent patterns in class 2
 - Intersect results
 
 
 Method 2 
-: (without frequent pattern mining)
+  (without frequent pattern mining)
 - Mine all the patterns with frequency in class 2 greater than that in class 1
 
 

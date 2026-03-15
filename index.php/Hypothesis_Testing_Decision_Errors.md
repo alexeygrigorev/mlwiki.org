@@ -12,7 +12,7 @@ title: Hypothesis Testing Decision Errors
 
 
 ## Type I and Type II Errors
-| + Summary [http://en.wikipedia.org/wiki/Type_I_and_type_II_errors] ||    |  $H_0$ is true   |  $H_0$ is false  |   Reject $H_0$  |  align="center"| Type&nbsp;I error<br />False positive ||  align="center"| Correct outcome<br />True positive ||   Fail to reject $H_0$  |  align="center"| Correct outcome<br />True negative ||  align="center"| Type&nbsp;II error<br />False negative |
+| + Summary [link](http://en.wikipedia.org/wiki/Type_I_and_type_II_errors) ||    |  $H_0$ is true   |  $H_0$ is false  |   Reject $H_0$  |  align="center"| Type&nbsp;I error<br />False positive ||  align="center"| Correct outcome<br />True positive ||   Fail to reject $H_0$  |  align="center"| Correct outcome<br />True negative ||  align="center"| Type&nbsp;II error<br />False negative |
 
 - A decrease in one type of error leads to increase the probability of other 
 - So we need to have more evidence 

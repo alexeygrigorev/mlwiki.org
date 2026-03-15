@@ -20,7 +20,7 @@ The relationships between the explanatory variable and the outcome
 - ''coincidence'': just pure chance
 - ''common cause'': some other variable causes both the explanatory variables and the outcome to change
 - a ''confounding variable'' is associated with the explanatory variable and causes the outcome to change
-: it's impossible to know whether to attribute changes in the outcome to changes in the explanatory variable or in the confounding variable
+  it's impossible to know whether to attribute changes in the outcome to changes in the explanatory variable or in the confounding variable
 
 
 Confounding variables:

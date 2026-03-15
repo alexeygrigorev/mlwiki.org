@@ -68,11 +68,11 @@ the query $Q(x, y) \leftarrow R(x, y), R(y, 5), S(y)$ wants to retrieve all pair
 
 ### Substitution
 '''def''': a ''substitution'' $f$ of $Q$ into database $D$ is 
-: a function that maps all variables from $Q$ to constants from $D$
+  a function that maps all variables from $Q$ to constants from $D$
 
 '''def''': a substitution $f$ of $Q$ into a database $D$ is a ''matching'' if
-: $f(\text{body}) \subseteq D$, i.e. if we evaluate $f$ on the body of the query $Q$, we will get a subset of $D$
-: so when we apply $f(\text{head})$ we get a tuple that is a part of the result of evaluating $Q$ on $D$
+  $f(\text{body}) \subseteq D$, i.e. if we evaluate $f$ on the body of the query $Q$, we will get a subset of $D$
+  so when we apply $f(\text{head})$ we get a tuple that is a part of the result of evaluating $Q$ on $D$
 
 Then the result of a conjunctive query can be shown as:
 - $Q(D) \leftarrow \{ f(\text{head}) |  f \text{ is a matching of $Q$ to $D$ } \}$
@@ -236,5 +236,5 @@ QueryContainment($Q_1$, $Q_2$)
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-- Database Systems Architecture lecture notes #2 by S. Vansummeren [https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf]
-- Web Data Management book [http://webdam.inria.fr/Jorge]
+- Database Systems Architecture lecture notes #2 by S. Vansummeren [link](https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf)
+- Web Data Management book [link](http://webdam.inria.fr/Jorge)

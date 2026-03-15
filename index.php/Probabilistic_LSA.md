@@ -52,7 +52,7 @@ is an extension of Probabilistic LSA
 
 
 ## References
-- Hofmann, Thomas. "Probabilistic latent semantic analysis." 1999. [http://arxiv.org/ftp/arxiv/papers/1301/1301.6705.pdf]
+- Hofmann, Thomas. "Probabilistic latent semantic analysis." 1999. [link](http://arxiv.org/ftp/arxiv/papers/1301/1301.6705.pdf)
 
 ## Sources
-- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
+- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [link](http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90)

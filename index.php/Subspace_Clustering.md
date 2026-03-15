@@ -24,8 +24,8 @@ Subspace clustering:
 
 
 Survey paper:
-- Parsons, Lance, Ehtesham Haque, and Huan Liu. "Subspace clustering for high dimensional data: a review." (2004). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.85.8962&rep=rep1&type=pdf]
-- Domeniconi, Carlotta, et al. "Subspace Clustering of High Dimensional Data." SDM. Vol. 73. 2004. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.8676&rep=rep1&type=pdf]
+- Parsons, Lance, Ehtesham Haque, and Huan Liu. "Subspace clustering for high dimensional data: a review." (2004). [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.85.8962&rep=rep1&type=pdf)
+- Domeniconi, Carlotta, et al. "Subspace Clustering of High Dimensional Data." SDM. Vol. 73. 2004. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.8676&rep=rep1&type=pdf)
 
 
 There are two types of subspace clustering
@@ -39,39 +39,39 @@ Use downward closure property for density to reduce the search space ([Apriori](
 
 
 CLIQUE:
-- Agrawal, Rakesh, et al. Automatic subspace clustering of high dimensional data for data mining applications.1998. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.407.4066&rep=rep1&type=pdf]
+- Agrawal, Rakesh, et al. Automatic subspace clustering of high dimensional data for data mining applications.1998. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.407.4066&rep=rep1&type=pdf)
 
 ENCLUS
-- Cheng, Chun-Hung, Ada Waichee Fu, and Yi Zhang. "Entropy-based subspace clustering for mining numerical data." 1999. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.33.1465&rep=rep1&type=pdf]
+- Cheng, Chun-Hung, Ada Waichee Fu, and Yi Zhang. "Entropy-based subspace clustering for mining numerical data." 1999. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.33.1465&rep=rep1&type=pdf)
 
 MAFIA 
-- Goil, Sanjay, Harsha Nagesh, and Alok Choudhary. "MAFIA: Efficient and scalable subspace clustering for very large data sets." 1999. [http://www.cs.upc.edu/~bejar/amlt/material_art/DM%20clustering%20goil99mafia.pdf]
+- Goil, Sanjay, Harsha Nagesh, and Alok Choudhary. "MAFIA: Efficient and scalable subspace clustering for very large data sets." 1999. [link](http://www.cs.upc.edu/~bejar/amlt/material_art/DM%20clustering%20goil99mafia.pdf)
 
 CBF
-- Chang, Jae-Woo, and Du-Seok Jin. "A new cell-based clustering method for large, high-dimensional data in data mining applications.", 2002. [http://www.researchgate.net/profile/Jae-Woo_Chang2/publication/221001126_A_new_cell-based_clustering_method_for_large_high-dimensional_data_in_data_mining_applications/links/02e7e519c25a68e567000000.pdf]
+- Chang, Jae-Woo, and Du-Seok Jin. "A new cell-based clustering method for large, high-dimensional data in data mining applications.", 2002. [link](http://www.researchgate.net/profile/Jae-Woo_Chang2/publication/221001126_A_new_cell-based_clustering_method_for_large_high-dimensional_data_in_data_mining_applications/links/02e7e519c25a68e567000000.pdf)
 
 CLTree
 - clustering via decision trees 
 
 DOC
-- Procopiuc, Cecilia M., et al. "A Monte Carlo algorithm for fast projective clustering." 2002. [http://www.cs.duke.edu/~pankaj/publications/papers/proj-cluster-sample.pdf]
+- Procopiuc, Cecilia M., et al. "A Monte Carlo algorithm for fast projective clustering." 2002. [link](http://www.cs.duke.edu/~pankaj/publications/papers/proj-cluster-sample.pdf)
 
 
 ### Iterative Top-Down Subspace Search
 PROCLUS 
-- Aggarwal, Charu C., et al. "Fast algorithms for projected clustering." 1999. [http://dbs.informatik.uni-halle.de/Lehre/Aktiv_2000/Paper/aggarwal_sigmod99.pdf]
+- Aggarwal, Charu C., et al. "Fast algorithms for projected clustering." 1999. [link](http://dbs.informatik.uni-halle.de/Lehre/Aktiv_2000/Paper/aggarwal_sigmod99.pdf)
 
 ORCLUS
-- Aggarwal, Charu C., and Philip S. Yu. Finding generalized projected clusters in high dimensional spaces. 2000. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.5160&rep=rep1&type=pdf]
+- Aggarwal, Charu C., and Philip S. Yu. Finding generalized projected clusters in high dimensional spaces. 2000. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.5160&rep=rep1&type=pdf)
 
 FINDIT 
-- Woo, Kyoung-Gu, et al. "FINDIT: a fast and intelligent subspace clustering algorithm using dimension voting." (2004). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.5164&rep=rep1&type=pdf]
+- Woo, Kyoung-Gu, et al. "FINDIT: a fast and intelligent subspace clustering algorithm using dimension voting." (2004). [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.5164&rep=rep1&type=pdf)
 
 $\beta$-Clusters 
-- Yang, Jiong, et al. "δ-clusters: Capturing subspace correlation in a large data set." 2002. [http://ftp.it.murdoch.edu.au/units/ICT219/Papers%20for%20transfer/papers%20on%20Clustering/delta%20clusers.pdf]
+- Yang, Jiong, et al. "δ-clusters: Capturing subspace correlation in a large data set." 2002. [link](http://ftp.it.murdoch.edu.au/units/ICT219/Papers%20for%20transfer/papers%20on%20Clustering/delta%20clusers.pdf)
 
 COSA
-- Friedman, Jerome H., and Jacqueline J. Meulman. "Clustering objects on subsets of attributes (with discussion)." (2004). [http://www.datatheory.nl/pages/Friedman%26Meulman.pdf]
+- Friedman, Jerome H., and Jacqueline J. Meulman. "Clustering objects on subsets of attributes (with discussion)." (2004). [link](http://www.datatheory.nl/pages/Friedman%26Meulman.pdf)
 
 
 
@@ -86,5 +86,5 @@ Adaptive subspace iteration:
 
 
 ## Sources
-- Jing, Liping. "Survey of text clustering." (2008). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf]
+- Jing, Liping. "Survey of text clustering." (2008). [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf)
 - http://en.wikipedia.org/wiki/Clustering_high-dimensional_data

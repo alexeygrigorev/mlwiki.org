@@ -6,8 +6,8 @@ tags:
 title: Voting Theory Exercises
 ---
 ## [Voting Theory](Voting_Theory) Exercises
-- Exercises: [https://www.dropbox.com/s/lfu7jt16n99pmyj/session-01-voting%20theory.pdf]
-- Solutions: [https://www.dropbox.com/s/69u5we1cuux1z67/session-01-voting%20theory%20solutions.pdf]
+- Exercises: [link](https://www.dropbox.com/s/lfu7jt16n99pmyj/session-01-voting%20theory.pdf)
+- Solutions: [link](https://www.dropbox.com/s/69u5we1cuux1z67/session-01-voting%20theory%20solutions.pdf)
 - Used Notation: [Voting Theory Relations](Voting_Theory_Relations)
 
 

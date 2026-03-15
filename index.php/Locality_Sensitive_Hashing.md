@@ -179,7 +179,7 @@ A hash function family is ''locality-sensitive'' if
 - "learns" the hash functions via [K-Means](K-Means)
 
 ### Bayesian LSH
-- Satuluri, V., Parthasarathy, S. "Bayesian locality sensitive hashing for fast similarity search." 2012. [http://arxiv.org/abs/1110.1328]
+- Satuluri, V., Parthasarathy, S. "Bayesian locality sensitive hashing for fast similarity search." 2012. [link](http://arxiv.org/abs/1110.1328)
 
 
 ## Fewer Hash Tables
@@ -218,7 +218,7 @@ But:
 - number of query offsets required by Entropy LSH is larger than the number of hashtables in the original scheme: it's even less network efficient than usual LSHs
 
 
-Panigrahy, Rina. "Entropy based nearest neighbor search in high dimensions." 2006. [http://arxiv.org/abs/cs/0510019]
+Panigrahy, Rina. "Entropy based nearest neighbor search in high dimensions." 2006. [link](http://arxiv.org/abs/cs/0510019)
 
 
 ### Multi-Probe LSH
@@ -246,7 +246,7 @@ Achieved by rehashing
 
 
 Reference:
-- Bahmani, Bahman, Ashish Goel, and Rajendra Shinde. "Efficient distributed locality sensitive hashing." 2012. [http://arxiv.org/abs/1210.7057]
+- Bahmani, Bahman, Ashish Goel, and Rajendra Shinde. "Efficient distributed locality sensitive hashing." 2012. [link](http://arxiv.org/abs/1210.7057)
 - there's a MapReduce implementation and Storm implementation in the paper
 
 
@@ -262,17 +262,17 @@ Usual Query-Adaptive LSH:
 - relevance could be: distance between the query and the center of the cell 
 
 
-Jégou, Hervé, et al. "Query adaptative locality sensitive hashing." 2008. [https://hal.inria.fr/inria-00318614/document](https___hal.inria.fr_inria-00318614_document)
+Jégou, Hervé, et al. "Query adaptative locality sensitive hashing." 2008. [link](https://hal.inria.fr/inria-00318614/document)(https___hal.inria.fr_inria-00318614_document)
 
 
 ## Comparisons
 - http://arxiv.org/abs/1206.2082
-- minhash vs simhash: Henzinger, Monika (2006), "Finding near-duplicate web pages: a large-scale evaluation of algorithms" [http://infoscience.epfl.ch/record/99373/files/Henzinger06.pdf]
+- minhash vs simhash: Henzinger, Monika (2006), "Finding near-duplicate web pages: a large-scale evaluation of algorithms" [link](http://infoscience.epfl.ch/record/99373/files/Henzinger06.pdf)
 
 
 
 ## Sources
-- Slaney, Malcolm, and Michael Casey. "Locality-sensitive hashing for finding nearest neighbors [lecture notes]." 2008. [http://web.iitd.ac.in/~sumeet/Slaney2008-LSHTutorial.pdf]
-- Gionis, Aristides, Piotr Indyk, and Rajeev Motwani. "Similarity search in high dimensions via hashing." 1999. [http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf]
-- Datar, Mayur, et al. "Locality-sensitive hashing scheme based on p-stable distributions." 2004. [http://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf]
-- Paulevé, Loïc, et al. "Locality sensitive hashing: A comparison of hash function types and querying mechanisms." 2010. [https://hal.inria.fr/inria-00567191/document]
+- Slaney, Malcolm, and Michael Casey. "Locality-sensitive hashing for finding nearest neighbors [lecture notes]." 2008. [link](http://web.iitd.ac.in/~sumeet/Slaney2008-LSHTutorial.pdf)
+- Gionis, Aristides, Piotr Indyk, and Rajeev Motwani. "Similarity search in high dimensions via hashing." 1999. [link](http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf)
+- Datar, Mayur, et al. "Locality-sensitive hashing scheme based on p-stable distributions." 2004. [link](http://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf)
+- Paulevé, Loïc, et al. "Locality sensitive hashing: A comparison of hash function types and querying mechanisms." 2010. [link](https://hal.inria.fr/inria-00567191/document)

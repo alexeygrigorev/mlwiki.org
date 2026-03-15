@@ -28,8 +28,8 @@ Votes:
 
 ### Example 1: [Plurality Voting](Plurality_Voting)
 The global ranking is 
-: $t > x > z > y $
-: $(10 > 9 > 8 > 0)$
+  $t > x > z > y $
+  $(10 > 9 > 8 > 0)$
 
 Therefore $t$ gets elected 
 - But 17 voters (the majority|  ) prefer $x$ to $t$
@@ -69,7 +69,7 @@ Pairwise comparison:
 - $t,z: n_{tz} = 10, n_{zt} = 17 \Rightarrow z > t$
 
 We build the preference graph for this:
-: <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/vt/condorcet-ex2.png" alt="Image">
+  <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/vt/condorcet-ex2.png" alt="Image">
 
 We see that $z$ is the winner 
 

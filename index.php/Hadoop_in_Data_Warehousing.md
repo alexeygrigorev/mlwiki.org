@@ -230,8 +230,8 @@ Q: How much data a company should have?
 - [Hadoop Distributed File System](Hadoop_Distributed_File_System)
 
 ## Sources
-- Lee et al, Parallel Data Processing with MapReduce: A Survey [http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf]
-- Ordonez et al, Relational versus non-relational database systems for data warehousing [http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf]
-- Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/]
-- Chen. Cheetah: A High Performance, Custom Data Warehouse on Top of MapReduce. [http://www.vldb.org/pvldb/vldb2010/papers/I08.pdf]
-- Russom, Integrating Hadoop into Business Intelligence and Data Warehousing. [http://www.slideshare.net/emcacademics/tdwi-best-practices-report-hadoop-foro-bi-and-dw-april-2013]
+- Lee et al, Parallel Data Processing with MapReduce: A Survey [link](http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf)
+- Ordonez et al, Relational versus non-relational database systems for data warehousing [link](http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf)
+- Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [link](http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/)
+- Chen. Cheetah: A High Performance, Custom Data Warehouse on Top of MapReduce. [link](http://www.vldb.org/pvldb/vldb2010/papers/I08.pdf)
+- Russom, Integrating Hadoop into Business Intelligence and Data Warehousing. [link](http://www.slideshare.net/emcacademics/tdwi-best-practices-report-hadoop-foro-bi-and-dw-april-2013)

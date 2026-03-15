@@ -7,10 +7,10 @@ tags:
 - productivity
 title: Learn More Study Less (book notes)
 ---
-Learn More, Study Less [http://www.scotthyoung.com/learnmorestudyless/]
+Learn More, Study Less [link](http://www.scotthyoung.com/learnmorestudyless/)
 
-- Ссылка на mindmap: [http://yadi.sk/d/ql-NYWYr2DuDw]
-- Ссылка на конспект: [http://yadi.sk/d/bjnCnPtW2DuGk]
+- Ссылка на mindmap: [link](http://yadi.sk/d/ql-NYWYr2DuDw)
+- Ссылка на конспект: [link](http://yadi.sk/d/bjnCnPtW2DuGk)
 
 ## Main concepts
 

@@ -70,7 +70,7 @@ Examining Numerical Data
 
 
 ## DataCamp Labs
-The labs [https://www.datacamp.com/courses/data-analysis-and-statistical-inference_mine-cetinkaya-rundel-by-datacamp] are the interactive version of the exercises from the book
+The labs [link](https://www.datacamp.com/courses/data-analysis-and-statistical-inference_mine-cetinkaya-rundel-by-datacamp) are the interactive version of the exercises from the book
 
 
 Labs:
@@ -82,4 +82,4 @@ Labs:
 - [Lab 5](http://rpubs.com/agrigorev/23240): Inference for categorical data
 - [Lab 6](http://rpubs.com/agrigorev/23247): Introduction to linear regression
 - [Lab 7](http://rpubs.com/agrigorev/23249): Multiple linear regression
-- [Extra lab](http://rpubs.com/agrigorev/21480): Distributions (lab 3 from [http://www.openintro.org/stat/labs.php])
+- [Extra lab](http://rpubs.com/agrigorev/21480): Distributions (lab 3 from [link](http://www.openintro.org/stat/labs.php))

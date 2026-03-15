@@ -235,7 +235,7 @@ Now draw the curves:
 
 
 ### Other ROC Curve Examples
-Taken from [http://www.cs.bris.ac.uk/~flach/ICML04tutorial/ROCtutorialPartI.pdf]
+Taken from [link](http://www.cs.bris.ac.uk/~flach/ICML04tutorial/ROCtutorialPartI.pdf)
 
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/kddm/roc-curves.png" alt="Image">
 
@@ -292,7 +292,7 @@ Examples:
 
 ## ROC Analysis in [R](R)
 ### ROC Curves
-In R there's a package called ROCR [http://cran.r-project.org/web/packages/ROCR/index.html] for drawing ROC Curves
+In R there's a package called ROCR [link](http://cran.r-project.org/web/packages/ROCR/index.html) for drawing ROC Curves
 
 ```bash
 install.packages('ROCR')
@@ -377,7 +377,7 @@ abline(v=th, col='grey', lty=2)
 
 ## ROC in Java
 ### AUC Calculation
-(This code uses LambdaJ [https://code.google.com/p/lambdaj/]  for grouping and soring)
+(This code uses LambdaJ [link](https://code.google.com/p/lambdaj/)  for grouping and soring)
 
 ```component pascal
 private static final int NEGATIVE = 0;

@@ -239,7 +239,7 @@ We can create ''an overflow block''
 - by "additional" we mean records that theoretically belong to $B$, but don't fit in 
 - these blocks are called ''overflow'' blocks 
 - in such a way we can link blocks together to have a list of overflow blocks
-: <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/overflow-blocks.png" alt="Image">
+  <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/overflow-blocks.png" alt="Image">
 
 
 ### Deletion
@@ -247,7 +247,7 @@ When we delete a record, we may want to reclaim the freed space
 
 If we use an [offset table](#Offset_Table), and can move records around the block, 
 - then we can compact the space 
-: <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/offset-table.png" alt="Image">
+  <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/offset-table.png" alt="Image">
 - note the unused space: we can just shift all the remaining records a bit 
 
 If we cannot move records, 
@@ -274,7 +274,7 @@ If we need to replace records by tombstones,
 - only this bit (or byte) must remain untouched
 - the rest can be reused safely 
 - example
-: <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/tombstones.png" alt="Image">
+  <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/tombstones.png" alt="Image">
 
 
 ### Update

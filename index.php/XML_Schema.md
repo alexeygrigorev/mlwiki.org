@@ -167,7 +167,7 @@ Note that it can cause some problems
 - they are ''unqualified'' by default (no namespace is associated)
 - such elements belong to the element they're associated with
 - so we have to set <code>elementFormDefault="qualified"</code>
-- some links: [and [http://www.w3.org/TR/xmlschema-0/#NS](http://stackoverflow.com/questions/1463138/what-does-elementformdefault-do-for-xml-when-is-it-used])
+- some links: [and [link](http://www.w3.org/TR/xmlschema-0/#NS)(http://stackoverflow.com/questions/1463138/what-does-elementformdefault-do-for-xml-when-is-it-used])
 
 
 ## Examples
@@ -263,7 +263,7 @@ Here's the XML schema for it
 
 Note the usage of <code>xs:NCName</code>
 - it is like string but doesn't allow certain characters 
-- see more here: [http://stackoverflow.com/questions/1631396/what-is-an-xsncname-type-and-when-should-it-be-used]
+- see more here: [link](http://stackoverflow.com/questions/1631396/what-is-an-xsncname-type-and-when-should-it-be-used)
 
 
 ## See Also

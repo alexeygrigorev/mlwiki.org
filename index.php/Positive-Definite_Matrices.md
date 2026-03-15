@@ -70,7 +70,7 @@ We say that $A_1$ is ''indefinite'', and $A_2$ is ''positive-definite''
 
 <img src="<img src="http://brickisland.net/cs177/wp-content/uploads/2011/11/ddg_definiteness.svg" alt="Image">" />
 
-Source: [http://brickisland.net/cs177fa12/?p=302]
+Source: [link](http://brickisland.net/cs177fa12/?p=302)
 
 
 ### Finding Minima
@@ -162,4 +162,4 @@ They are always semi-positive definite
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-- Jauregui, Jeff. "Principal component analysis with linear algebra." (2012). [http://www.math.union.edu/~jaureguj/PCA.pdf]
+- Jauregui, Jeff. "Principal component analysis with linear algebra." (2012). [link](http://www.math.union.edu/~jaureguj/PCA.pdf)

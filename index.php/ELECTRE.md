@@ -16,7 +16,7 @@ ELECTRE I chooses alternatives that are preferred by the majority of the criteri
 
 ## Preferences
 ; Main idea: 
-: When we say $a \ P \ b$?
+  When we say $a \ P \ b$?
 - (1) if we have a lot of criteria for which $u_i(a) > u_i(b)$ (where $u_i$ - some utility function)
 - (2) and we have no strong arguments that say the opposite of (1)
 

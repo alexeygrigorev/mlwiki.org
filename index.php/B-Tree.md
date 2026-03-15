@@ -250,7 +250,7 @@ need other types of indexes - [Multi-Dimensional Indexes](Multi-Dimensional_Inde
 - [Indexing (databases)](Indexing_(databases))
 - [Multi-Dimensional Indexes](Multi-Dimensional_Indexes)
 - [R-Tree](R-Tree)
-- Wikipedia articles [and [http://en.wikipedia.org/wiki/B%2B_tree](http://en.wikipedia.org/wiki/B-tree]) 
+- Wikipedia articles [and [link](http://en.wikipedia.org/wiki/B%2B_tree)(http://en.wikipedia.org/wiki/B-tree]) 
 - http://www.scholarpedia.org/article/B-tree_and_UB-tree 
 
 

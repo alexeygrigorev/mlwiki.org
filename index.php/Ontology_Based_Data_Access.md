@@ -205,12 +205,12 @@ ONTOP:
 - Translates [SPARQL](SPARQL) to [SQL](SQL)
 - Can work as a SPARQL endpoint
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/sw/ontop.png" alt="Image">
-- Quest [http://ontop.inf.unibz.it/?page_id=7] is a component that does the translation
+- Quest [link](http://ontop.inf.unibz.it/?page_id=7) is a component that does the translation
 
 
 ## Source
-- Web Data Management book [http://webdam.inria.fr/Jorge]
+- Web Data Management book [link](http://webdam.inria.fr/Jorge)
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
-- Ontology-Based Data Access: From Theory to Practice (presentation) [https://www.inf.unibz.it/~calvanese/presentations/BDA-2012-obda-calvanese.pdf]
-- ONTOP Demo Video [https://www.youtube.com/watch?v=KHtlARfex4c]
+- Ontology-Based Data Access: From Theory to Practice (presentation) [link](https://www.inf.unibz.it/~calvanese/presentations/BDA-2012-obda-calvanese.pdf)
+- ONTOP Demo Video [link](https://www.youtube.com/watch?v=KHtlARfex4c)

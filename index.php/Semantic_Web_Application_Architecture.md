@@ -47,10 +47,10 @@ Closely related to [#RDF Store](#RDF_Store)
 
 
 ## Libraries
-- Sesame [http://openrdf.org] - RDF Store and QE
-- SimpleNLG [https://code.google.com/p/simplenlg/] - translates RDF statements into English
+- Sesame [link](http://openrdf.org) - RDF Store and QE
+- SimpleNLG [link](https://code.google.com/p/simplenlg/) - translates RDF statements into English
   - NLG - Natural Language Generation
 
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
-- Web Data Management, Manolescu, Ioana, et al. [http://webdam.inria.fr/Jorge/]
+- Web Data Management, Manolescu, Ioana, et al. [link](http://webdam.inria.fr/Jorge/)

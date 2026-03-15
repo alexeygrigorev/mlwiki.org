@@ -25,7 +25,7 @@ It's a special case of Q-Q plots:
 
 The normal probability plot is formed by:
 - Vertical axis: Ordered response values
-- Horizontal axis: Normal order statistic medians or means (see rankit [https://en.wikipedia.org/wiki/Rankit])
+- Horizontal axis: Normal order statistic medians or means (see rankit [link](https://en.wikipedia.org/wiki/Rankit))
 
 
 Constructing 
@@ -42,7 +42,7 @@ if the data is normally distributed, $z$-scores on the horizontal axis should ap
 
 ## [R](R)
 ### Example 1
-Evaluating the [Normal Distribution](Normal_Distribution) (see [http://rpubs.com/agrigorev/21480])
+Evaluating the [Normal Distribution](Normal_Distribution) (see [link](http://rpubs.com/agrigorev/21480))
 
 ```gdscript
 load(url("http://www.openintro.org/stat/data/bdims.RData"))

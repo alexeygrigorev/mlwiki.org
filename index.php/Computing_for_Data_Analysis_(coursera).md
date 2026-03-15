@@ -11,13 +11,13 @@ title: Computing for Data Analysis (coursera)
 
 Курс [Computing for Data Analysis](http://www.coursera.org/course/compdata) об основах языка программирования R
 
-- svn директория [http://code.google.com/p/stolzen/source/browse/trunk/courses/coursera/Computing+for+Data+Analysis/]
-- mindmap [http://stolzen.googlecode.com/svn/trunk/courses/coursera/Computing%20for%20Data%20Analysis/summary.xmind]
+- svn директория [link](http://code.google.com/p/stolzen/source/browse/trunk/courses/coursera/Computing+for+Data+Analysis/)
+- mindmap [link](http://stolzen.googlecode.com/svn/trunk/courses/coursera/Computing%20for%20Data%20Analysis/summary.xmind)
 - конспекты
-  - неделя 1 [http://stolzen.googlecode.com/svn/trunk/courses/coursera/Computing%20for%20Data%20Analysis/week1/week1%20summary.pdf]
-  - неделя 2 [http://stolzen.googlecode.com/svn/trunk/courses/coursera/Computing%20for%20Data%20Analysis/week2/week2_summary.pdf]
-  - неделя 3 [http://stolzen.googlecode.com/svn/trunk/courses/coursera/Computing%20for%20Data%20Analysis/week3/week3_notes.pdf]
-  - неделя 4 [http://stolzen.googlecode.com/svn/trunk/courses/coursera/Computing%20for%20Data%20Analysis/week4/week4_notes.pdf]
+  - неделя 1 [link](http://stolzen.googlecode.com/svn/trunk/courses/coursera/Computing%20for%20Data%20Analysis/week1/week1%20summary.pdf)
+  - неделя 2 [link](http://stolzen.googlecode.com/svn/trunk/courses/coursera/Computing%20for%20Data%20Analysis/week2/week2_summary.pdf)
+  - неделя 3 [link](http://stolzen.googlecode.com/svn/trunk/courses/coursera/Computing%20for%20Data%20Analysis/week3/week3_notes.pdf)
+  - неделя 4 [link](http://stolzen.googlecode.com/svn/trunk/courses/coursera/Computing%20for%20Data%20Analysis/week4/week4_notes.pdf)
 
 
 ## Week1

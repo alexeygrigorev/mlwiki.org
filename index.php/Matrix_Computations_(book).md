@@ -11,7 +11,7 @@ Book by Golub and Van Loan, 4th Edition
 - official page: https://www.cs.cornell.edu/cv/GVL4/golubandvanloan.htm
 
 ## Table of Contents
-TOC in PDF [https://www.cs.cornell.edu/cv/GVL4/TableOfContents.pdf]
+TOC in PDF [link](https://www.cs.cornell.edu/cv/GVL4/TableOfContents.pdf)
 
 
 Basics

@@ -56,8 +56,8 @@ Comments:
 
 
 Literature:
-- Joachims, Thorsten, et al. "Learning to rank for information retrieval." 2007. [http://www.sigir.org/files/forum/2007D/2007d_sigirforum_joachims.pdf]
-- Liu, Tie-Yan. "Learning to rank for information retrieval." 2009. [http://didawikinf.di.unipi.it/lib/exe/fetch.php/magistraleinformatica/ir/ir13/1_-_learning_to_rank.pdf]
+- Joachims, Thorsten, et al. "Learning to rank for information retrieval." 2007. [link](http://www.sigir.org/files/forum/2007D/2007d_sigirforum_joachims.pdf)
+- Liu, Tie-Yan. "Learning to rank for information retrieval." 2009. [link](http://didawikinf.di.unipi.it/lib/exe/fetch.php/magistraleinformatica/ir/ir13/1_-_learning_to_rank.pdf)
 
 
 
@@ -153,7 +153,7 @@ BM25:
 
 
 See 
-- Robertson, Stephen E., and Steve Walker. "Some simple effective approximations to the 2-poisson model for probabilistic weighted retrieval." 1994. [http://nclt.computing.dcu.ie/~gjones/Teaching/CA437/p232.pdf]
+- Robertson, Stephen E., and Steve Walker. "Some simple effective approximations to the 2-poisson model for probabilistic weighted retrieval." 1994. [link](http://nclt.computing.dcu.ie/~gjones/Teaching/CA437/p232.pdf)
 
 
 

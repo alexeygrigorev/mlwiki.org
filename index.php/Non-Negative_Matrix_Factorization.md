@@ -217,12 +217,12 @@ def seung_nmf(V, k, threshold=1e-5, maxiter=500):
 
 
 ## References
-- Lee, Daniel D., and H. Sebastian Seung. "Learning the parts of objects by non-negative matrix factorization." 1999. [http://john.cs.olemiss.edu/~ychen/courses/CSCI582S07/seung-nonneg-matrix.pdf]
-- Lee, Daniel D., and H. Sebastian Seung. "Algorithms for non-negative matrix factorization." 2001. [http://papers.nips.cc/paper/1861-alg]
-- Li, Stan Z., et al. "Learning spatially localized, parts-based representation." 2001. [http://cvl.ice.cycu.edu.tw/meeting/2008.12.02.pdf]
+- Lee, Daniel D., and H. Sebastian Seung. "Learning the parts of objects by non-negative matrix factorization." 1999. [link](http://john.cs.olemiss.edu/~ychen/courses/CSCI582S07/seung-nonneg-matrix.pdf)
+- Lee, Daniel D., and H. Sebastian Seung. "Algorithms for non-negative matrix factorization." 2001. [link](http://papers.nips.cc/paper/1861-alg)
+- Li, Stan Z., et al. "Learning spatially localized, parts-based representation." 2001. [link](http://cvl.ice.cycu.edu.tw/meeting/2008.12.02.pdf)
 
 ## Sources
-- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
-- Xu, Wei, Xin Liu, and Yihong Gong. "Document clustering based on non-negative matrix factorization." 2003. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.2293&rep=rep1&type=pdf]
-- Osinski, Stanislaw. "Improving quality of search results clustering with approximate matrix factorisations." 2006. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.74&rep=rep1&type=pdf]
+- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [link](http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90)
+- Xu, Wei, Xin Liu, and Yihong Gong. "Document clustering based on non-negative matrix factorization." 2003. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.2293&rep=rep1&type=pdf)
+- Osinski, Stanislaw. "Improving quality of search results clustering with approximate matrix factorisations." 2006. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.74&rep=rep1&type=pdf)
 - [Python for Machine Learning (TUB)](Python_for_Machine_Learning_(TUB))

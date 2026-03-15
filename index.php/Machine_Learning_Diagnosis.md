@@ -58,7 +58,7 @@ in case of variance (overfit)
 
 ### Fitting Regularization Parameter
 When we [try to find the best](Cross-Validation#Cross-Validation_for_Regularization) [Regularization parameter](Regularization) for a hypothesis we get similar curves:
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/diagnosis-regularization-curve.png" alt="Image">
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/diagnosis-regularization-curve.png" alt="Image">
 - with small $\lambda$ we have high variance
 - with large $\lambda$ we have high bias
 

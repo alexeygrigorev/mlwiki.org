@@ -4,10 +4,10 @@ permalink: /index.php/Refactor_your_Wetware
 title: Refactor your Wetware
 ---
 Pragmatic Thinking and Learning: Refactor Your Wetware, Andy Hunt
-[http://www.amazon.com/Pragmatic-Thinking-Learning-Refactor-Programmers/dp/1934356050]
+[link](http://www.amazon.com/Pragmatic-Thinking-Learning-Refactor-Programmers/dp/1934356050)
 
-- Ссылка на mind map: [http://yadi.sk/d/aJp8iwsM2Dt3O]
-- Ссылка на конспект: [http://yadi.sk/d/SR1KDu7N2Dt5k]
+- Ссылка на mind map: [link](http://yadi.sk/d/aJp8iwsM2Dt3O)
+- Ссылка на конспект: [link](http://yadi.sk/d/SR1KDu7N2Dt5k)
 
 
 ## Dreufus model

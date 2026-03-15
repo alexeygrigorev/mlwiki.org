@@ -104,7 +104,7 @@ hist(email50$num_char, breaks=30, col="red")
 
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/b/openintrostat/dotplot-r3-as-hist-2.png" alt="Image">
 
-And finally, an example from [http://stackoverflow.com/a/15245023/861423]
+And finally, an example from [link](http://stackoverflow.com/a/15245023/861423)
 
 ```scdoc
 set.seed(1)

@@ -38,8 +38,8 @@ A visual summary of all the 5 numbers is called a ''box plot''
 ## Measures of the Center
 - Median is a measure of the center. 
 - But there is another measure - [Mean](Mean) or average value
-: $\text{mean} = \cfrac{1}{n} \sum x_i$
-: Where $n$ - number of data values, and $x_i$ - each data value.
+  $\text{mean} = \cfrac{1}{n} \sum x_i$
+  Where $n$ - number of data values, and $x_i$ - each data value.
 
 
 ## The Spread

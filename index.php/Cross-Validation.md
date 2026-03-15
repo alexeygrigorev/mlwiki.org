@@ -29,7 +29,7 @@ Generally cross-validation is used to find the best value of some parameter
 
 ### Motivation: [Model Selection](Model_Selection) Problem
 We have a following problem of [Model Selection](Model_Selection)
-: Suppose we are about to create a model and not sure what degree of polynomial to choose
+  Suppose we are about to create a model and not sure what degree of polynomial to choose
 
 So the problem
 - So we want to try 10 models
@@ -64,11 +64,11 @@ To address that problem
 
 Now we can define 
 - ''Training error''
-: $J(\theta) = J_{\text{train}}(\theta) = \cfrac{1}{2m} \sum \text{cost}(x^{(i)}, y^{(i)})$
+  $J(\theta) = J_{\text{train}}(\theta) = \cfrac{1}{2m} \sum \text{cost}(x^{(i)}, y^{(i)})$
 - ''Cross-Validation error''
-: $J_{\text{cv}}(\theta) = \cfrac{1}{2m_{\text{cv}}} \sum \text{cost}(x_{\text{cv}}^{(i)}, y_{\text{cv}}^{(i)})$
+  $J_{\text{cv}}(\theta) = \cfrac{1}{2m_{\text{cv}}} \sum \text{cost}(x_{\text{cv}}^{(i)}, y_{\text{cv}}^{(i)})$
 - ''Test Error ''
-: $J_{\text{test}}(\theta) = \cfrac{1}{2m_{\text{test}}} \sum \text{cost}(x_{\text{test}}^{(i)}, y_{\text{test}}^{(i)})$
+  $J_{\text{test}}(\theta) = \cfrac{1}{2m_{\text{test}}} \sum \text{cost}(x_{\text{test}}^{(i)}, y_{\text{test}}^{(i)})$
 
 
 So for [Model Selection](Model_Selection) to fit $d$, we 

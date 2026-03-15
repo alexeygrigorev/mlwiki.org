@@ -49,11 +49,11 @@ Papers
 It's also useful for document classification
 
 Papers:
-- Nigam, Kamal, et al. "Learning to classify text from labeled and unlabeled documents." (1998). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.49.6837&rep=rep1&type=pdf]
-- Nigam, Kamal, et al. "Text classification from labeled and unlabeled documents using EM." (2000). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.3651&rep=rep1&type=pdf]
+- Nigam, Kamal, et al. "Learning to classify text from labeled and unlabeled documents." (1998). [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.49.6837&rep=rep1&type=pdf)
+- Nigam, Kamal, et al. "Text classification from labeled and unlabeled documents using EM." (2000). [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.3651&rep=rep1&type=pdf)
 
 
 
 ## Sources
-- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
-- Jing, Liping. "Survey of text clustering." (2008). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf]
+- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [link](http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90)
+- Jing, Liping. "Survey of text clustering." (2008). [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf)

@@ -38,8 +38,8 @@ But it's very slow: $O(n^2)$ for each $t$
 
 
 ## References
-- Dash, Manoranjan, and Huan Liu. "Feature selection for clustering." 2000. [http://blog.finsternis.me/attachment/fk12.pdf]
+- Dash, Manoranjan, and Huan Liu. "Feature selection for clustering." 2000. [link](http://blog.finsternis.me/attachment/fk12.pdf)
 
 ## Sources
-- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
+- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [link](http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90)
 - http://cs.gmu.edu/~carlotta/teaching/INFS-795-s05/readings/INFS795_MCayci.ppt

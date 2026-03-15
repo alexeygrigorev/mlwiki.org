@@ -54,7 +54,7 @@ Let's express $A$ as $A = S_k + E_k$
 
 ### Rank-1 Approximation
 '''Theorem'''
-: The best rank-1 approximation of $A$ is $\sigma_1 \mathbf u_1 \mathbf v_1^T$
+  The best rank-1 approximation of $A$ is $\sigma_1 \mathbf u_1 \mathbf v_1^T$
 
 Proof
 - $S_1 = \sigma_1 \mathbf u_1 \mathbf v_1^T$ and $E_1 = \sigma_2^2 + \ ... \ + \sigma_r^2$
@@ -127,4 +127,4 @@ RRA with SVD
 
 
 ## Sources
-- Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [http://www.math.washington.edu/~morrow/498_13/svd.pdf]
+- Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [link](http://www.math.washington.edu/~morrow/498_13/svd.pdf)

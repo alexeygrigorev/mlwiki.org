@@ -93,5 +93,5 @@ while (|  converged) { |  val Ax = A %*% x |  var x_new = Ax.collect(::, 0)
 
 
 ## Sources
-- Hopcroft, John, and Ravindran Kannan. "Foundations of Data Science1." (2014) [http://research.microsoft.com/en-US/people/kannan/book-mar-30-2014.pdf]
+- Hopcroft, John, and Ravindran Kannan. "Foundations of Data Science1." (2014) [link](http://research.microsoft.com/en-US/people/kannan/book-mar-30-2014.pdf)
 - [Machine Learning 1 (TUB)](Machine_Learning_1_(TUB))

@@ -73,4 +73,4 @@ For [PCA](PCA) we usually do mean-correction
 
 
 ## Sources
-- Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On principal component analysis, cosine and Euclidean measures in information retrieval." 2007. [http://www.sciencedirect.com/science/article/pii/S0020025507002630] 
+- Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On principal component analysis, cosine and Euclidean measures in information retrieval." 2007. [link](http://www.sciencedirect.com/science/article/pii/S0020025507002630) 

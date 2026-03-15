@@ -260,7 +260,7 @@ TukeyHSD(aov1)
 
 
 ### Example 3: Donuts
-Example from [http://courses.statistics.com/software/R/R1way.htm]
+Example from [link](http://courses.statistics.com/software/R/R1way.htm)
 - study of donuts: the relationship between the amount of absorbed fat vs the type of fat
 - is there any relationship?
 

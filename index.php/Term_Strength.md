@@ -51,5 +51,5 @@ Let expected strength be $z = \mathbb E_t [s(t)]$
 
 
 ## Sources
-- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
-- Wilbur, W. John, and Karl Sirotkin. "The automatic identification of stop words." 1992. [https://www.researchgate.net/publication/247786801_The_automatic_identification_of_stop_words]
+- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [link](http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90)
+- Wilbur, W. John, and Karl Sirotkin. "The automatic identification of stop words." 1992. [link](https://www.researchgate.net/publication/247786801_The_automatic_identification_of_stop_words)

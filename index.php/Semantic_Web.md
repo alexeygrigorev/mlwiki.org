@@ -19,13 +19,13 @@ What we currently have in WWW:
 
 
 ### DIKW
-DIKW [http://en.wikipedia.org/wiki/DIKW_Pyramid]: data $\to$ information $\to$ knowledge $\to$ wisdom $\Rightarrow$ decision 
+DIKW [link](http://en.wikipedia.org/wiki/DIKW_Pyramid): data $\to$ information $\to$ knowledge $\to$ wisdom $\Rightarrow$ decision 
 - D - just collecting data, smb enters data into a web app - just values
 - I - databases (RDBs, XML, etc) - now you have some structure
   - but also know when it was collected, by whom, etc - i.e. with some metadata
 - K - reports, analysis - to facilitate decision making
 - W - to increase effectiveness 
-- see also [http://semanticabyss.blogspot.fr/2009/03/dikw-hierarchy-data-information.html]
+- see also [link](http://semanticabyss.blogspot.fr/2009/03/dikw-hierarchy-data-information.html)
 
 <img src="http://upload.wikimedia.org/wikipedia/en/9/93/DIKW.png" alt="Image">
 

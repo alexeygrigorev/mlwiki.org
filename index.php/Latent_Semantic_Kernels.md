@@ -86,9 +86,9 @@ Can we avoid working on the feature space? We still have $\Sigma_k$ and $U_k$
 
 Bottleneck: 
 - decomposing $K$ 
-- approximate: Smola, Alex J., and Bernhard Schölkopf. "Sparse greedy matrix approximation for machine learning." 2000. [http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.43.3153]
+- approximate: Smola, Alex J., and Bernhard Schölkopf. "Sparse greedy matrix approximation for machine learning." 2000. [link](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.43.3153)
 
 
 
 ## Sources
-- Cristianini, Nello, John Shawe-Taylor, and Huma Lodhi. "Latent semantic kernels." 2002. [http://eprints.soton.ac.uk/259781/1/LatentSemanticKernals_JIIS_18.pdf]
+- Cristianini, Nello, John Shawe-Taylor, and Huma Lodhi. "Latent semantic kernels." 2002. [link](http://eprints.soton.ac.uk/259781/1/LatentSemanticKernals_JIIS_18.pdf)

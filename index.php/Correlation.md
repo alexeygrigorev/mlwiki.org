@@ -54,11 +54,11 @@ That is, $| \text{cov}(X, Y)| \leqslant \sigma(X)\sigma(Y)$.
 
 ### Properties of Covariance
 - Covariance is symmetric
-: $\text{cov}(X, Y) = \text{cov}(Y, X)$
+  $\text{cov}(X, Y) = \text{cov}(Y, X)$
 - Covariance is bounded (see the theorem)
-: $| \text{cov}(X, Y)| \leqslant \sigma(X)\sigma(Y)$
+  $| \text{cov}(X, Y)| \leqslant \sigma(X)\sigma(Y)$
 - The covariance of a variable with itself is its variance
-: $\text{cov}(X, X) = \mathbb{E}[X^2] - \mathbb{E}^2[X] = \text{Var}(X)$
+  $\text{cov}(X, X) = \mathbb{E}[X^2] - \mathbb{E}^2[X] = \text{Var}(X)$
 - $\text{cov}(100 \cdot X, Y) = 100 \cdot \text{cov}(X, Y)$
 - If $X$ and $Y$ are independent, then $\text{cov}(X, Y) = 0$
 

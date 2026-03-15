@@ -35,14 +35,14 @@ To find the slope and the intercept parameters we may use the method of least sq
 ### Interpretation
 - Suppose we have $b_0 = -23.3, b_1 = 0.41$
 - It means that
-: When $X$ increases by 1, $Y$ increases by 0.41
+  When $X$ increases by 1, $Y$ increases by 0.41
 - $b_0$ value the regression would give if $X = 0$
-: or how much we have to shift the line 
+  or how much we have to shift the line 
 
 
 ### Symmetry
 Regression is not symmetric:
-: regressing $X$ over $Y$ is not the same as regressing $Y$ over $X$
+  regressing $X$ over $Y$ is not the same as regressing $Y$ over $X$
 
 
 ### Example
@@ -73,7 +73,7 @@ Let's manipulate it a bit the formula for the slope coefficient to get better un
 
 
 So we get
-: $b_1 = R \cfrac{s_y}{s_x}$
+  $b_1 = R \cfrac{s_y}{s_x}$
 
 where
 - $s_x = \sqrt{\cfrac{1}{n - 1} \sum (x_i - \bar{x}) }$ and
@@ -115,7 +115,7 @@ And we calculate the standard error as
 
 ### Confidence Intervals
 So a $(1 - \alpha)$ CI for $\beta_1$ is
-: $b_1 \pm T_{\alpha/2, n-2} \cdot \text{SE}(b_1)$
+  $b_1 \pm T_{\alpha/2, n-2} \cdot \text{SE}(b_1)$
 
 Example 
 - $Y$ = age difference

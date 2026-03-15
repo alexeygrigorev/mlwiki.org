@@ -52,9 +52,9 @@ Simultaneous clustering of rows and columns is called [Co-Clustering](Co-Cluster
 
 
 ## References
-- Slonim, Noam, and Naftali Tishby. "Document clustering using word clusters via the information bottleneck method." 2000. [http://lsa3.colorado.edu/LexicalSemantics/slonim00document.pdf]
+- Slonim, Noam, and Naftali Tishby. "Document clustering using word clusters via the information bottleneck method." 2000. [link](http://lsa3.colorado.edu/LexicalSemantics/slonim00document.pdf)
 
 
 ## Sources
-- Li, Yong H., and Anil K. Jain. "Classification of text documents." (1998) [http://julio.staff.ipb.ac.id/files/2014/09/LiJ98.pdf]
-- Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [http://arxiv.org/pdf/cs/0110053.pdf]
+- Li, Yong H., and Anil K. Jain. "Classification of text documents." (1998) [link](http://julio.staff.ipb.ac.id/files/2014/09/LiJ98.pdf)
+- Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [link](http://arxiv.org/pdf/cs/0110053.pdf)

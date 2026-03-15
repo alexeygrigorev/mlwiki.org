@@ -17,8 +17,8 @@ A natural language consists of two parts:
 
 
 Shallow Parsing:
-- JMLR Special Issue on Shallow Parsing [http://www.jmlr.org/papers/special/shallow_parsing02.html]
-- Machine Learning Approaches to Shallow Parsing [http://www.jmlr.org/papers/v2/hammerton02a.html]
+- JMLR Special Issue on Shallow Parsing [link](http://www.jmlr.org/papers/special/shallow_parsing02.html)
+- Machine Learning Approaches to Shallow Parsing [link](http://www.jmlr.org/papers/v2/hammerton02a.html)
 
 
 ### Deep Model

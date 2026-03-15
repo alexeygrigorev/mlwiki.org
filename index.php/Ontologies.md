@@ -59,4 +59,4 @@ SKOS  (uses [RDFS-Plus](RDFS-Plus))
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-- Web Data Management, Manolescu, Ioana, et al. [http://webdam.inria.fr/Jorge/]
+- Web Data Management, Manolescu, Ioana, et al. [link](http://webdam.inria.fr/Jorge/)

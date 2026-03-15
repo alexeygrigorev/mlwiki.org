@@ -41,13 +41,13 @@ Taylor Series are used for approximations
 
 Exponential
 - as we add more terms, we are closer and closer to the function
-- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/taylor-exp.png" alt="Image"> (source: [http://www.wolframalpha.com/input/?i=e%5Ex+series])
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/taylor-exp.png" alt="Image"> (source: [link](http://www.wolframalpha.com/input/?i=e%5Ex+series))
 - order $n$ approximation is shown with $n$ dots
 
 
 Trigonometric Functions:
-- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/taylor-cos.png" alt="Image"> (source: [http://www.wolframalpha.com/input/?i=cos+x+series])
-- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/taylor-sin.png" alt="Image"> (source: [http://www.wolframalpha.com/input/?i=sin+x+series])
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/taylor-cos.png" alt="Image"> (source: [link](http://www.wolframalpha.com/input/?i=cos+x+series))
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/taylor-sin.png" alt="Image"> (source: [link](http://www.wolframalpha.com/input/?i=sin+x+series))
 - by taking only polynomials of odd (even) powers, we get cosines or sines 
 
 Approximation near the expansion point 0:

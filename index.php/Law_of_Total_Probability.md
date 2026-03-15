@@ -20,10 +20,10 @@ This formula is called the *law of total probability* (it follows from the [defi
 Since $B_1, B_2, ..., B_n$ are mutually exclusive, the occurrence of $A$ means the occurrence of one of $B_1 A, B_2 A, ..., B_n A$.
 
 By the addition theorem we get
-: $P(A) = P(B_1 A) + P(B_2 A) + ... + P(B_n A)$
+  $P(A) = P(B_1 A) + P(B_2 A) + ... + P(B_n A)$
 
 And, applying the multiplication theorem to each term of the sum, we get
-: $P(A) = P(B_1) P(A| B_1) + P(B_2) P(A|B_2) + ... + P(B_n) P(A|B_n)$.
+  $P(A) = P(B_1) P(A| B_1) + P(B_2) P(A|B_2) + ... + P(B_n) P(A|B_n)$.
 
 ### Example
 A store receives products from three factories in proportions of 20%, 30%, and 50%. The first factory produces 10% premium-grade products, the second -- 5%, and the third -- 20%. What is the probability that a randomly purchased product is premium grade?
@@ -33,7 +33,7 @@ A store receives products from three factories in proportions of 20%, 30%, and 5
 - $A$ is the purchase of a premium-grade product.
 - Then $P(A| B_1) = 0.1$, $P(A|B_2) = 0.05$, and $P(A|B_3) = 0.2$.
 - By the law of total probability we get
-: $P(A) = \sum_{i = 1}^{3} P(B_i) P(A| B_i) = 0.135$
+  $P(A) = \sum_{i = 1}^{3} P(B_i) P(A| B_i) = 0.135$
 
 ## See also
 - [Conditional Probability](Conditional_Probability)

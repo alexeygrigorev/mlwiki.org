@@ -31,8 +31,8 @@ Dominance
 - in [MOO](Multi-Objective_Optimization) this is also called the set of efficient solutions
 
 ; dominance
-: $a$ dominates $b$ $\iff \forall i: f_i(a) \geqslant f_i(b)$ and $\exists i: f_j(a) > f_j(b)$
-: i.e. for all criteria $a$ is at least as good as $b$, but there's at least one criteria at which $a$ is strictly better than $b$
+  $a$ dominates $b$ $\iff \forall i: f_i(a) \geqslant f_i(b)$ and $\exists i: f_j(a) > f_j(b)$
+  i.e. for all criteria $a$ is at least as good as $b$, but there's at least one criteria at which $a$ is strictly better than $b$
 
 
 This is not always good. Consider this example
@@ -66,11 +66,11 @@ Notation:
 - denote $A_{-i}$ as the set of all strategies for other players 
 
 ; Strict dominance
-: $a$ '' '''strictly''' dominates'' $b$ if $\forall c \in A_{-1}: u_i(a, c) > u_i(b, c)$
-: in other words: $a$ strictly dominates $b$ is for every action that other players can take, the action $a$ gives $i$ better payoff than $b$ 
+  $a$ '' '''strictly''' dominates'' $b$ if $\forall c \in A_{-1}: u_i(a, c) > u_i(b, c)$
+  in other words: $a$ strictly dominates $b$ is for every action that other players can take, the action $a$ gives $i$ better payoff than $b$ 
 
 ; Weak dominance
-: $a$ ''(weakly) dominates'' $b$ if $\forall c \in A_{-1}: u_i(a, c) \geqslant u_i(b, c)$
+  $a$ ''(weakly) dominates'' $b$ if $\forall c \in A_{-1}: u_i(a, c) \geqslant u_i(b, c)$
 
 
 If $a$ dominates all other strategies $b$ of the player $i$ then it's ''dominant''

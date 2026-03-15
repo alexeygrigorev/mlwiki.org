@@ -157,9 +157,9 @@ Let $X_i$ be a sequence of independent random variables, each having an expected
 $\mathbb{E}[X_i] = a_i, \text{Var}(X_i) = b_i^2$
 
 - Introduce the notation
-: $S_n = X_1 + ... + X_n$
-: $A_n = \sum_{i = 1}^{n} a_i$
-: $B^2 = \sum_{i = 1}^{n} b_i^2$
+  $S_n = X_1 + ... + X_n$
+  $A_n = \sum_{i = 1}^{n} a_i$
+  $B^2 = \sum_{i = 1}^{n} b_i^2$
 - Then $F_n(X) = P\left(\frac{S_n - A_n}{B_n} < x\right)$ is the distribution function of the normalized sum
 
 

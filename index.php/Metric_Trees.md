@@ -132,11 +132,11 @@ So,
 
 
 ## References
-- Uhlmann, Jeffrey K. "Metric trees." 1991. [http://trac.astrometry.net/export/20934/trunk/documents/papers/dstn-review/papers/uhlmann1991b.pdf]
-- Omohundro, Stephen M. "Bumptrees for efficient function, constraint, and classification learning." 1991. [http://www1.icsi.berkeley.edu/ftp/pub/techreports/1991/tr-91-009.pdf]
-- Achlioptas, Dimitris. "Database-friendly random projections: Johnson-Lindenstrauss with binary coins." 2003. [http://www.sciencedirect.com/science/article/pii/S0022000003000254]
+- Uhlmann, Jeffrey K. "Metric trees." 1991. [link](http://trac.astrometry.net/export/20934/trunk/documents/papers/dstn-review/papers/uhlmann1991b.pdf)
+- Omohundro, Stephen M. "Bumptrees for efficient function, constraint, and classification learning." 1991. [link](http://www1.icsi.berkeley.edu/ftp/pub/techreports/1991/tr-91-009.pdf)
+- Achlioptas, Dimitris. "Database-friendly random projections: Johnson-Lindenstrauss with binary coins." 2003. [link](http://www.sciencedirect.com/science/article/pii/S0022000003000254)
 
 
 
 ## Sources
-- Liu, Ting, et al. "An investigation of practical approximate nearest neighbor algorithms." 2004. [http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2005_187.pdf]
+- Liu, Ting, et al. "An investigation of practical approximate nearest neighbor algorithms." 2004. [link](http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2005_187.pdf)

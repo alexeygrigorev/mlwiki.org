@@ -56,7 +56,7 @@ Suppose we have a set of data
 - linear: $\theta_0 + \theta_1 x$, likely to underfit (high bias)
 - quadratic: $\theta_0 + \theta_1 x + \theta_2 x^2 $
 - extreme: $\theta_0 + \theta_1 x + \theta_2 x^2 +  \theta_3 x^3 +  \theta_4 x^4 $
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/overfit-dataset-lin-ex.png" alt="Image">
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/overfit-dataset-lin-ex.png" alt="Image">
 
 
 ### [Logistic Regression](Logistic_Regression)
@@ -102,4 +102,4 @@ To identify overfitting we can use [Machine Learning Diagnosis](Machine_Learning
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-- Domingos, Pedro. "A few useful things to know about machine learning." [http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf]
+- Domingos, Pedro. "A few useful things to know about machine learning." [link](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)

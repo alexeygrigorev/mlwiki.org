@@ -32,7 +32,7 @@ Data type system
 ## Achitecture
 <img src="https://raw.github.com/alexeygrigorev/ulb-dw-project-hadoop/master/report/images/hive-architecture.png" alt="Image">
 
-(figure source: [http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.151.2637])
+(figure source: [link](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.151.2637))
 
 Main Components
 - External Interfaces
@@ -134,4 +134,4 @@ FROM (
 - [Pig](Pig)
 
 ## Sources
-- Thusoo et all, Hive: A Warehousing Solution Over a Map-Reduce Framework (2009). [http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.151.2637]
+- Thusoo et all, Hive: A Warehousing Solution Over a Map-Reduce Framework (2009). [link](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.151.2637)

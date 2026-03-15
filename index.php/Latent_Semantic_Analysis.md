@@ -361,11 +361,11 @@ LSA and [Principal Component Analysis](Principal_Component_Analysis) are related
 
 ## Sources
 - Koll, Matthew B. "WEIRD: An approach to concept-based information retrieval." 1979.
-- Landauer, Thomas K., Peter W. Foltz, and Darrell Laham. "An introduction to latent semantic analysis." 1998. [http://tottdp.googlecode.com/files/LandauerFoltz-Laham1998.pdf]
+- Landauer, Thomas K., Peter W. Foltz, and Darrell Laham. "An introduction to latent semantic analysis." 1998. [link](http://tottdp.googlecode.com/files/LandauerFoltz-Laham1998.pdf)
 - http://www.scholarpedia.org/article/Latent_semantic_analysis
 - http://edutechwiki.unige.ch/en/Latent_semantic_analysis_and_indexing
-- Evangelopoulos, Nicholas, Xiaoni Zhang, and Victor R. Prybutok. "Latent semantic analysis: five methodological recommendations." (2012). [[http://scholar.google.com/scholar?cluster=13322286620975267196&hl=ru&as_sdt=0,5](http://digital.library.unt.edu/ark:/67531/metadc288006/m2/1/high_res_d/Evangelopoulos2012_EJIS-Pre-print.pdf])
-- Deerwester, Scott C., et al. "Indexing by latent semantic analysis." 1990. [http://www.cob.unt.edu/itds/faculty/evangelopoulos/dsci5910/LSA_Deerwester1990.pdf]
-- Berry, Michael W., Susan T. Dumais, and Gavin W. O'Brien. "Using linear algebra for intelligent information retrieval." (1995). [http://machinelearningtext.pbworks.com/w/file/fetch/47378285/lsiPaper_ut-cs-94-270.pdf]
-- Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On principal component analysis, cosine and Euclidean measures in information retrieval." 2007. [http://www.sciencedirect.com/science/article/pii/S0020025507002630] 
-- Zhukov, Leonid, and David Gleich. "Topic identification in soft clustering using PCA and ICA". 2004. [http://leonidzhukov.ru/papers/soft-clustering-pca-ica.pdf]
+- Evangelopoulos, Nicholas, Xiaoni Zhang, and Victor R. Prybutok. "Latent semantic analysis: five methodological recommendations." (2012). [[link](http://scholar.google.com/scholar?cluster=13322286620975267196&hl=ru&as_sdt=0,5)(http://digital.library.unt.edu/ark:/67531/metadc288006/m2/1/high_res_d/Evangelopoulos2012_EJIS-Pre-print.pdf])
+- Deerwester, Scott C., et al. "Indexing by latent semantic analysis." 1990. [link](http://www.cob.unt.edu/itds/faculty/evangelopoulos/dsci5910/LSA_Deerwester1990.pdf)
+- Berry, Michael W., Susan T. Dumais, and Gavin W. O'Brien. "Using linear algebra for intelligent information retrieval." (1995). [link](http://machinelearningtext.pbworks.com/w/file/fetch/47378285/lsiPaper_ut-cs-94-270.pdf)
+- Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On principal component analysis, cosine and Euclidean measures in information retrieval." 2007. [link](http://www.sciencedirect.com/science/article/pii/S0020025507002630) 
+- Zhukov, Leonid, and David Gleich. "Topic identification in soft clustering using PCA and ICA". 2004. [link](http://leonidzhukov.ru/papers/soft-clustering-pca-ica.pdf)

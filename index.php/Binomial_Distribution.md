@@ -193,7 +193,7 @@ Reason why:
 - normal curve + ares between 69 and 71 is shaded
 - outlined area - exact binomial probability
 - Normal approx is too fine-grained (area for ND is too slim)
-- solution in this case is to add extra areas on both sides (-+0.5 and ) - this is called "Continuity Correction" [http://en.wikipedia.org/wiki/Continuity_correction]
+- solution in this case is to add extra areas on both sides (-+0.5 and ) - this is called "Continuity Correction" [link](http://en.wikipedia.org/wiki/Continuity_correction)
 
 
 ## Usage

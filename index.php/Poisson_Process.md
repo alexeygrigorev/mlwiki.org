@@ -52,11 +52,11 @@ During one minute, on average 2 calls arrive at a telephone exchange. Find the p
 - Since the event stream is simple, $\lambda = 2, t = 5, k = 2$
 - $P_t(k) = (\lambda t)^k \frac{e^{-\lambda t}}{k!}$ |:
 - 1. exactly 2 calls arrive in 5 minutes
-: $P_5(2) = 10^2 \frac{e^{-10}}{2!} \approx 0.00225$
+  $P_5(2) = 10^2 \frac{e^{-10}}{2!} \approx 0.00225$
 - 2. fewer than 2 calls arrive |: by the addition theorem,
-: $P_5(k < 2) = P_5(0) + P_5(1) = e^{-10} + \frac{10 e^{-10}}{1!} \approx 0.000495$
+  $P_5(k < 2) = P_5(0) + P_5(1) = e^{-10} + \frac{10 e^{-10}}{1!} \approx 0.000495$
 - 3. at least 2 events occur |: the complementary event is "fewer than 2 events occurred"
-: $P_5(k \geqslant 2) = 1 - P_5(k < 2) \approx 0.999505$
+  $P_5(k \geqslant 2) = 1 - P_5(k < 2) \approx 0.999505$
 
 
 ## See also

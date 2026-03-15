@@ -35,6 +35,6 @@ Mathematical expressions are usually contained within special tags, e.g. inside 
 
 
 ## Sources
-- Kristianto, Giovanni Yoko, et al. "Extracting definitions of mathematical expressions in scientific papers." 2012. [https://kaigi.org/jsai/webprogram/2012/pdf/719.pdf]
-- Pagael, Robert, and Moritz Schubotz. "Mathematical Language Processing Project." 2014. [http://arxiv.org/pdf/1407.0167]
-- Schöneberg, Ulf, and Wolfram Sperber. "POS Tagging and its Applications for Mathematics." 2014. [http://arxiv.org/pdf/1406.2880]
+- Kristianto, Giovanni Yoko, et al. "Extracting definitions of mathematical expressions in scientific papers." 2012. [link](https://kaigi.org/jsai/webprogram/2012/pdf/719.pdf)
+- Pagael, Robert, and Moritz Schubotz. "Mathematical Language Processing Project." 2014. [link](http://arxiv.org/pdf/1407.0167)
+- Schöneberg, Ulf, and Wolfram Sperber. "POS Tagging and its Applications for Mathematics." 2014. [link](http://arxiv.org/pdf/1406.2880)

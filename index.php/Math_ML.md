@@ -169,4 +169,4 @@ The complete list of MathML entities is described in [Entities](http://www.w3.or
 
 ## Sources
 - http://www.w3.org/TR/MathML3/
-- Miner, Robert, and Jeff Schaefer. "A gentle introduction to MathML." (1998). [http://www.dessci.com/en/reference/mathml/]
+- Miner, Robert, and Jeff Schaefer. "A gentle introduction to MathML." (1998). [link](http://www.dessci.com/en/reference/mathml/)

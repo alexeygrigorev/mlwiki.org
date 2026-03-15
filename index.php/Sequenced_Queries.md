@@ -418,7 +418,7 @@ WHERE NOT EXISTS
 
 
 ## Links
-- Exercises from the [ADB](Advanced_Databases_(ULB)) course: [https://www.dropbox.com/s/es8a430fhgg55ow/202-temporal_exercices.pdf]
+- Exercises from the [ADB](Advanced_Databases_(ULB)) course: [link](https://www.dropbox.com/s/es8a430fhgg55ow/202-temporal_exercices.pdf)
 
 
 ## Sources

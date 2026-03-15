@@ -347,6 +347,6 @@ usually it's not the case in real life and different mining algorithms should be
 - [BPM project: the $\alpha^+$ algorithm](http://docs.google.com/document/d/1JtuECbGZ3DusNpmBZhXeq8R_UPCRU5V7NG8GL17h1aA/pub)
 
 ## Sources
-- Medeiros, van Dongen, van der Aalst and Weijters. Process Mining: Extending the alpha-algorithm to Mine Short Loops, 2004 [http://www.processmining.org/blogs/pub2004/process_mining_extending_the_alpha-algorithm_to_mine_short_loops]
-- van der Aalst. Process Mining: Discovery, Conformance and Enhancement of Business Processes, 2011 [http://www.processmining.org/book/start]
+- Medeiros, van Dongen, van der Aalst and Weijters. Process Mining: Extending the alpha-algorithm to Mine Short Loops, 2004 [link](http://www.processmining.org/blogs/pub2004/process_mining_extending_the_alpha-algorithm_to_mine_short_loops)
+- van der Aalst. Process Mining: Discovery, Conformance and Enhancement of Business Processes, 2011 [link](http://www.processmining.org/book/start)
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))

@@ -132,7 +132,7 @@ group by a.row_num, b.col_num;
 
 ### [MapReduce](MapReduce)
 - It's easy to implement the SQL expression above in terms of MapReduce
-- Link [https://code.google.com/p/stolzen/source/browse/trunk/courses/coursera/Introduction%20to%20Data%20Science/assignment3/p6_matrixmult.py]
+- Link [link](https://code.google.com/p/stolzen/source/browse/trunk/courses/coursera/Introduction%20to%20Data%20Science/assignment3/p6_matrixmult.py)
 
 
 E.g. Apache Flink:
@@ -143,7 +143,7 @@ matrixA.join(matrixB).where(1).equalTo(0)
 ```
 
 
-Full code of Matrix Multiplication in Flink: [https://github.com/alexeygrigorev/aim3/blob/master/src/main/java/de/tuberlin/dima/aim3/assignment3/MatrixMultiplication.java]
+Full code of Matrix Multiplication in Flink: [link](https://github.com/alexeygrigorev/aim3/blob/master/src/main/java/de/tuberlin/dima/aim3/assignment3/MatrixMultiplication.java)
 
 
 

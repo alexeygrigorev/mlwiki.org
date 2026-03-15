@@ -14,7 +14,7 @@ Hyperbolic trigs are analogs of usual [Trigonometric Functions](Trigonometric_Fu
 - $\sinh x = \cfrac{e^x - e^{-x}}{2}$
 - $\tanh x = \cfrac{\sinh x}{\cosh x} = \cfrac{e^x - e^{-x}}{e^x + e^{-x}}$
 
-<img src="http://calculus.seas.upenn.edu/uploads/Main/Hyperbolic.png" alt="Image"> (source: [http://calculus.seas.upenn.edu/?n=Main.ComputingTaylorSeries])
+<img src="http://calculus.seas.upenn.edu/uploads/Main/Hyperbolic.png" alt="Image"> (source: [link](http://calculus.seas.upenn.edu/?n=Main.ComputingTaylorSeries))
 
 - $\cosh^2 x - \sinh^2 x = 1$
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/hyptrigs-vs-trigs.png" alt="Image">

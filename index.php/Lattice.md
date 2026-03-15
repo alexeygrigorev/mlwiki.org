@@ -13,12 +13,12 @@ a Lattice is a partially ordered set in which every two elements have
 
 
 ## Hasse Diagram
-Hasse Diagram [http://en.wikipedia.org/wiki/Hasse_diagram]
+Hasse Diagram [link](http://en.wikipedia.org/wiki/Hasse_diagram)
 - a way of representing finite partially ordered sets 
 
 
 Layer approach
-- page 33 - onwards [http://phoenix.inf.upol.cz/~outrata/download/texts/LatDrawing-slides.pdf] - software for drawing 
+- page 33 - onwards [link](http://phoenix.inf.upol.cz/~outrata/download/texts/LatDrawing-slides.pdf) - software for drawing 
 
 
 ### Drawing Powerset with [Dot](Dot)

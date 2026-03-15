@@ -62,7 +62,7 @@ Consistent state:
 
 ## Approaches
 - [Lock-Based Scheduler](Lock-Based_Scheduler)
-- [Timestamp-Based Scheduler](Timestamp-Based_Scheduler) [http://en.wikipedia.org/wiki/Timestamp-based_concurrency_control]
+- [Timestamp-Based Scheduler](Timestamp-Based_Scheduler) [link](http://en.wikipedia.org/wiki/Timestamp-based_concurrency_control)
 - [Validation-Based Scheduler](Validation-Based_Scheduler)
 - [Multi-Version Concurrency Control](Multi-Version_Concurrency_Control) (MVCC) [([CouchDB](http://en.wikipedia.org/wiki/Multiversion_concurrency_control])(CouchDB)) (also "optimistic concurrency model")
 - [Vector Clock](Vector_Clock) (like in Amazon Dynamo etc)

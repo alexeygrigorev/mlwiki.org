@@ -157,4 +157,4 @@ Slightly different approach
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-- Voting Fairness Criteria [http://www.math.unl.edu/~bharbourne1/M203JSpr09/VotingFairnessHandout.pdf]
+- Voting Fairness Criteria [link](http://www.math.unl.edu/~bharbourne1/M203JSpr09/VotingFairnessHandout.pdf)

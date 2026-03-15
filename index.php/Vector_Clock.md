@@ -52,7 +52,7 @@ Since the number of nodes may be big, may prefer to have sparse representation, 
 
 
 ### Voldemort implementation
-Here's the [Voldemort](http://www.project-voldemort.com/voldemort/) implementation [http://code.google.com/p/project-voldemort/source/browse/trunk/src/java/voldemort/versioning/VectorClock.java]
+Here's the [Voldemort](http://www.project-voldemort.com/voldemort/) implementation [link](http://code.google.com/p/project-voldemort/source/browse/trunk/src/java/voldemort/versioning/VectorClock.java)
 
 
 class '''ClockEntry'''
@@ -65,9 +65,9 @@ class '''ClockEntry'''
   - versions: list of ClockEntry classes
   - timestamp: time of the last update
 - method incrementVersion(nodeId, time)
-: finds the clock entry for the given node and increments the version; also updates the timestamp
+  finds the clock entry for the given node and increments the version; also updates the timestamp
 - method incremented(nodeId, time)
-: same as incrementVerstion, but returns a new VectorClock object
+  same as incrementVerstion, but returns a new VectorClock object
 - getMaxVersion() traverses versions and returns the max one
 - merge with another VectorClock. Creates a new VectorClock in which
   - nodes are merged in sorted order (as in [Merge Sort](Merge_Sort))
@@ -103,4 +103,4 @@ How to see if there is a conflict?
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - [Design Patterns for Distributed Nonrelational Databases](http://www.slideshare.net/guestdfd1ec/design-patterns-for-distributed-nonrelational-databases)
-- Voldemort vector clock implementation [http://code.google.com/p/project-voldemort/source/browse/trunk/src/java/voldemort/versioning/VectorClock.java]
+- Voldemort vector clock implementation [link](http://code.google.com/p/project-voldemort/source/browse/trunk/src/java/voldemort/versioning/VectorClock.java)

@@ -162,14 +162,14 @@ Intuition
 
 
 Improvements:
-- Gale, William, and Geoffrey Sampson. "Good-Turing smoothing without tears." 1995. [https://faculty.cs.byu.edu/~ringger/CS479/papers/Gale-SimpleGoodTuring.pdf]
+- Gale, William, and Geoffrey Sampson. "Good-Turing smoothing without tears." 1995. [link](https://faculty.cs.byu.edu/~ringger/CS479/papers/Gale-SimpleGoodTuring.pdf)
 
 
 
 ## Smoothing vs [TF-IDF](TF-IDF)
 Smoothing and TF-IDF are connected
 - also see probabilistic justification for TF-IDF in 
-  - Hiemstra, Djoerd. "A probabilistic justification for using tf× idf term weighting in information retrieval." 2000. [http://doc.utwente.nl/66959/1/ijodl.pdf]
+  - Hiemstra, Djoerd. "A probabilistic justification for using tf× idf term weighting in information retrieval." 2000. [link](http://doc.utwente.nl/66959/1/ijodl.pdf)
 
 
 
@@ -207,7 +207,7 @@ Can try:
 
 
 ## References
-- Chen, Stanley F., and Joshua Goodman. "An empirical study of smoothing techniques for language modeling." 1996 [and 1999 [http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf](http://arxiv.org/pdf/cmp-lg/9606011.pdf]).
+- Chen, Stanley F., and Joshua Goodman. "An empirical study of smoothing techniques for language modeling." 1996 [and 1999 [link](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf)(http://arxiv.org/pdf/cmp-lg/9606011.pdf]).
 
 
 ## Sources

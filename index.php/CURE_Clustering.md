@@ -26,8 +26,8 @@ CURE eliminates outliers by discarding small slowly growing clusters
 
 
 == References == 
-- Guha, Sudipto, Rajeev Rastogi, and Kyuseok Shim. "Cure: an efficient clustering algorithm for large databases." (2001) [http://www.cs.sfu.ca/CourseCentral/459/han/papers/guha98.pdf]
+- Guha, Sudipto, Rajeev Rastogi, and Kyuseok Shim. "Cure: an efficient clustering algorithm for large databases." (2001) [link](http://www.cs.sfu.ca/CourseCentral/459/han/papers/guha98.pdf)
 
 ## Sources
-- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
+- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [link](http://static.msi.umn.edu/rreports/2003/73.pdf)
 - http://en.wikipedia.org/wiki/CURE_data_clustering_algorithm

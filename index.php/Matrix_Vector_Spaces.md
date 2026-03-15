@@ -86,4 +86,4 @@ How do we define the inner product?
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-- Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [http://www.math.washington.edu/~morrow/498_13/svd.pdf]
+- Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [link](http://www.math.washington.edu/~morrow/498_13/svd.pdf)

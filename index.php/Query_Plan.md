@@ -17,7 +17,7 @@ In [Relational Databases](Relational_Databases), Logical Query Plan - intermedia
 Suppose we have a Relational Algebra expression:
 - $\pi_{A, B} \big(\sigma_{A = 5}(R) \cup (S \Join T) \big)$
 - this defines the following execution tree 
-: <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/logical-query-plan-ex.png" alt="Image">
+  <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/logical-query-plan-ex.png" alt="Image">
 
 
 ## Physical Query Plan
@@ -34,7 +34,7 @@ Questions to consider
 
 ### Example
 We just assign some operation to each node: 
-: <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/plan-selection-bad.png" alt="Image">
+  <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/plan-selection-bad.png" alt="Image">
 
 
 ## Sources

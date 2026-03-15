@@ -28,7 +28,7 @@ So suppose we have the following model:
 
 ## Diagnose High Bias (Underfitting)
 Suppose we want to fit a straight line to out data: 
-: $h_{\theta}(x) = \theta_0 + \theta_1 x$
+  $h_{\theta}(x) = \theta_0 + \theta_1 x$
 
 As $m$ increases we have pretty same line: 
 
@@ -47,7 +47,7 @@ If learning algorithm is suffering from high bias, getting more examples will no
 
 ## Diagnose High Variance ([Overfitting](Overfitting))
 Now suppose we have a model with polynomial of very high order: 
-: $h_{\theta}(x) = \theta_0 + \theta_1 x + \theta_2 x^2 + ... + \theta_{100} x^{100}$
+  $h_{\theta}(x) = \theta_0 + \theta_1 x + \theta_2 x^2 + ... + \theta_{100} x^{100}$
 
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/learning-curves-overfit1.png" alt="Image">
 - at the beginning we very much overfit

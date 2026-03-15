@@ -22,9 +22,9 @@ $P(H_i)$ is called the ''prior probability'', $P(H_i| A)$ is the ''posterior pro
 
 - For $P(H_1| A) $ by the multiplication theorem we have  |: $P(A H_1) = P(A) P(H_1 A) = P(H_1) P(A |  H_1)$ |: That is, $P(H_1 |  A) = \frac{P(H_1) P(A | H_1)}{P(A)}$
 - If we replace all $P(A)$ with the total probability formula, we get
-: $P(H_1 |  A) = \frac{P(H_1) P(A | H_1)}{P(H_1) P(A|H_1) + P(H_2) P(A|H_2) + ... + P(H_n) P(A|H_n)}$
+  $P(H_1 |  A) = \frac{P(H_1) P(A | H_1)}{P(H_1) P(A|H_1) + P(H_2) P(A|H_2) + ... + P(H_n) P(A|H_n)}$
 - Similarly for the other hypotheses. That is,
-: $P(H_i |  A) = \frac{P(H_i) P(A | H_i)}{P(H_1) P(A|H_1) + P(H_2) P(A|H_2) + ... + P(H_n) P(A|H_n)}$
+  $P(H_i |  A) = \frac{P(H_i) P(A | H_i)}{P(H_1) P(A|H_1) + P(H_2) P(A|H_2) + ... + P(H_n) P(A|H_n)}$
 
 ### Example 1
 Each of three shooters can fire two shots. The hit probabilities are: $P(A_1) = 0.3$, $P(A_2) = 0.5$ and $P(A_3) = 0.8$. One of the shooters fired twice and missed both times. What is the probability that it was the first shooter?

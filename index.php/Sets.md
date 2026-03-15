@@ -22,10 +22,10 @@ Sets are divided into *finite* sets (for example, the number of residents of a c
 ### Ways of Defining Sets
 
 - Enumeration:
-: $A = \{a_1, a_2, ..., a_n\}$
+  $A = \{a_1, a_2, ..., a_n\}$
 
 - Characteristic properties:
-: $A = \{ x |  P(x) \}$, where $P(x)$ is a property possessed by elements $x \in A$ and not possessed by $x \notin A$.  |: For example, $X = \{x |  x^2 - 3x + 2 = 0\}$
+  $A = \{ x |  P(x) \}$, where $P(x)$ is a property possessed by elements $x \in A$ and not possessed by $x \notin A$.  |: For example, $X = \{x |  x^2 - 3x + 2 = 0\}$
 ### Subsets
 If every element of set $A$ is also an element of set $B$, then $A$ is a *subset* of $B$. This is denoted $A \subset B$.
 
@@ -77,22 +77,22 @@ Differences between a tuple and a set:
 ## Algebra of Sets
 
 - Union and intersection are commutative
-: $A \cup B = B \cup A$
-: $A \cap B = B \cap A$
+  $A \cup B = B \cup A$
+  $A \cap B = B \cap A$
 - Union and intersection are associative
-: $(A \cup B) \cup C = A \cup (B \cup C)$
-: $(A \cap B) \cap C = A \cap (B \cap C)$
+  $(A \cup B) \cup C = A \cup (B \cup C)$
+  $(A \cap B) \cap C = A \cap (B \cap C)$
 - Distributivity of union over intersection and distributivity of intersection over union
-: $(A \cap B) \cup C = (A \cup C) \cap (D \cup C)$
-: $(A \cup B) \cap C = (A \cap C) \cup (B \cap C)$
+  $(A \cap B) \cup C = (A \cup C) \cap (D \cup C)$
+  $(A \cup B) \cap C = (A \cap C) \cup (B \cap C)$
 - $A \cup A = A$
 - $A \cup U = U$ and $A \cap U = A$
 - $A \cup \varnothing = A$ and $A \cap \varnothing = \varnothing$
 - $\Bar{\Bar{A}} = A$
 - $\bar{U} = \varnothing$ and $\bar{\varnothing} = U$
 - De Morgan's Laws
-: $\overline{A \cup B} = \overline{A} \cap \overline{B}$ and
-: $\overline{A \cap B} = \overline{A} \cup \overline{B}$
+  $\overline{A \cup B} = \overline{A} \cap \overline{B}$ and
+  $\overline{A \cap B} = \overline{A} \cup \overline{B}$
 
 
 

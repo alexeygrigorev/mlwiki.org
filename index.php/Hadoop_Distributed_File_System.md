@@ -46,7 +46,7 @@ In case the client fails to read a chunk of data, it asks the '''name node''' wh
 We need to make sure that all the replicas contain the same data (i.e. they are consistent) 
 1. One replica is considered "main", and the master knows which one. 
 1. Client sends the data to be written to all replicas 
-: it's written to the main one and propagated to the rest 
+  it's written to the main one and propagated to the rest 
 
 - So it supports parallel reads and writes from a large number of processors 
 - The reads are arbitrary and random access, but the writes are best when they are added to the end (i.e. appended) 

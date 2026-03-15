@@ -36,10 +36,10 @@ $S$ is the "at least as good as" relation
 
 ## Axioms
 ; Axiom 1: ''Completeness''
-: $\forall x, y \in A:$ either  $x \ S \ y$ or $y \ S \ x$
+  $\forall x, y \in A:$ either  $x \ S \ y$ or $y \ S \ x$
 
 ; Axiom 2: ''Consistency'' (or ''Transitivity'')
-: $\forall x, y, z \in A: x \ S \ y \land y \ S \ z \Rightarrow x \ S \ z$
+  $\forall x, y, z \in A: x \ S \ y \land y \ S \ z \Rightarrow x \ S \ z$
 
 
 ## Lemmas
@@ -69,9 +69,9 @@ Assuming (2): $x \ I \ z$
 
 $z \ S \ x \land x \ S \ y \Rightarrow z \ S \ y$ (by transitivity of $S$)
 - since $S$ is less strict than $P$ we have:
-: $x \ P \ y \Rightarrow x \ S \ y$ and $y \ P \ z \Rightarrow y \ S \ z$
+  $x \ P \ y \Rightarrow x \ S \ y$ and $y \ P \ z \Rightarrow y \ S \ z$
 - $z \ S \ y$ contradicts with $y \ P \ z$
-: $z \ S \ y$ means one of the following: $z \ P \ y$ or $z \ I \ y$, and neither of them are true
+  $z \ S \ y$ means one of the following: $z \ P \ y$ or $z \ I \ y$, and neither of them are true
 
 Contradiction. $\square$
 
@@ -109,7 +109,7 @@ $\square$
 
 ## Conditions
 The ''social welfare function'' $H$ it takes two individual rankings and produces the global (social) choice:
-: $H(R_1, R_2) \to R$
+  $H(R_1, R_2) \to R$
 
 $H$ must satisfy the following conditions:
 - Universality
@@ -172,7 +172,7 @@ In other words:
 
 ## Theorem
 ; Arrow's Impossibility Theorem
-: All five conditions cannot be satisfied simultaneously. 
+  All five conditions cannot be satisfied simultaneously. 
 
 
 ## Consequences
@@ -274,4 +274,4 @@ How to overcome this limitation?
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-- EC228 Voting Theory Lecture Notes [http://www2.warwick.ac.uk/fac/soc/economics/current/modules/ec228/details/lecturenotes/lecturenotesbook.pdf]
+- EC228 Voting Theory Lecture Notes [link](http://www2.warwick.ac.uk/fac/soc/economics/current/modules/ec228/details/lecturenotes/lecturenotesbook.pdf)

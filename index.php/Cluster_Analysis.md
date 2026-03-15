@@ -129,7 +129,7 @@ Membership function
 
 Others:
 - clustering via [Non-Negative Matrix Factorization](Non-Negative_Matrix_Factorization) can be fuzzy
-- also, Looney, Carl G. "A fuzzy clustering and fuzzy merging algorithm." 1999. [https://www.researchgate.net/publication/2467319_A_Fuzzy_Clustering_and_Fuzzy_Merging_Algorithm]
+- also, Looney, Carl G. "A fuzzy clustering and fuzzy merging algorithm." 1999. [link](https://www.researchgate.net/publication/2467319_A_Fuzzy_Clustering_and_Fuzzy_Merging_Algorithm)
 
 
 
@@ -161,6 +161,6 @@ Subspace clustering:
 
 ## Sources
 - http://en.wikipedia.org/wiki/Cluster_analysis
-- Jing, Liping. "Survey of text clustering." (2008). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf]
-- Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." Data mining and knowledge discovery handbook. 2010. [https://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5]
-- Xu, Wei, Xin Liu, and Yihong Gong. "Document clustering based on non-negative matrix factorization." 2003. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.2293&rep=rep1&type=pdf]
+- Jing, Liping. "Survey of text clustering." (2008). [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf)
+- Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." Data mining and knowledge discovery handbook. 2010. [link](https://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5)
+- Xu, Wei, Xin Liu, and Yihong Gong. "Document clustering based on non-negative matrix factorization." 2003. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.2293&rep=rep1&type=pdf)

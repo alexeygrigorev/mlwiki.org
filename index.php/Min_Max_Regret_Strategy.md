@@ -30,7 +30,7 @@ Regret
 
 
 So define regret as 
-: $R(a, c) = max_{b \in A} \big[ c(b, e) - c(a, e) \big]$
+  $R(a, c) = max_{b \in A} \big[ c(b, e) - c(a, e) \big]$
 
 
 We choose such $a \in A$ that:

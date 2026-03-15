@@ -25,7 +25,7 @@ Schema-free design (like in CouchDB) allows to aggregate data after some fact ha
 ### Documents
 A document is the central data structure in CouchDB, and it uses JSON to store documents
 
-Each document has an id, which must be unique per database. Usually the best ids are UUIDs (Universal Unique ID - random string with extremely low collision probability [http://en.wikipedia.org/wiki/Universally_unique_identifier]), but generally it can be anything 
+Each document has an id, which must be unique per database. Usually the best ids are UUIDs (Universal Unique ID - random string with extremely low collision probability [link](http://en.wikipedia.org/wiki/Universally_unique_identifier)), but generally it can be anything 
 
 - A good example of a document is a file for a word processor or a user profile.
 - This sort of data you want to denormalize as mush as possible 
@@ -45,7 +45,7 @@ It consists of two components:
 
 
 ## HTTP REST API Overview
-- CouchDB provides [REST](REST)ful HTTP Api to interact with it (To see what's REST consult [http://en.wikipedia.org/wiki/Representational_state_transfer])
+- CouchDB provides [REST](REST)ful HTTP Api to interact with it (To see what's REST consult [link](http://en.wikipedia.org/wiki/Representational_state_transfer))
 - When it's installed with default settings, it can be accessed via http://localhost:5984/
 
 
@@ -53,7 +53,7 @@ To check if it's running, send a GET request to this address :
 ```text only
 curl -X GET http://localhost:5984/
 ```
-('''curl''' is an unix utility for sending HTTP requests [http://curl.haxx.se/])
+('''curl''' is an unix utility for sending HTTP requests [link](http://curl.haxx.se/))
 
 The database replies with the following: (if you see that, everything works)
 ```json
@@ -116,7 +116,7 @@ Mechanisms behind versioning and revisions will be discussed below.
 
 ### Generating a database
 - You can easily generate a lot of json data with http://json-generator.appspot.com/
-- It's easy to bulk post your data to CoachDB [https://couchdb.readthedocs.org/en/latest/api/database.html#post-db-bulk-docs]
+- It's easy to bulk post your data to CoachDB [link](https://couchdb.readthedocs.org/en/latest/api/database.html#post-db-bulk-docs)
 
 We have prepared 80k+ lines of JSON code (1500 documents) with user data to be inserted to the database (available at http://goo.gl/jkcCim)
 
@@ -383,8 +383,8 @@ Incremental Replication
 
 
 This is how it works 
-: <img src="https://github.com/alexeygrigorev/ulb-adb-project-couchbd/raw/master/report/images/couchdb-changes-propagation.png" alt="Image">
-: (figure source [http://guide.couchdb.org/draft/consistency.html#figure/4])
+  <img src="https://github.com/alexeygrigorev/ulb-adb-project-couchbd/raw/master/report/images/couchdb-changes-propagation.png" alt="Image">
+  (figure source [link](http://guide.couchdb.org/draft/consistency.html#figure/4))
 
 To scale the system we just add another server
 
@@ -399,7 +399,7 @@ When the replication process is run
   - new documents
   - changed documents
   - deleted documents
-: documents that exist both on source and on target are not transfered (only differences will be moved)
+  documents that exist both on source and on target are not transfered (only differences will be moved)
 
 
 Databases in CouchDB have a ''sequence number''
@@ -435,13 +435,13 @@ MVCC, [Multi-Version Concurrency Control](Multi-Version_Concurrency_Control), is
 
 <img src="https://github.com/alexeygrigorev/ulb-adb-project-couchbd/raw/master/report/images/couchdb-concurrency.png" alt="Image">
 
-(figure source: [http://guide.couchdb.org/draft/consistency.html#figure/3])
+(figure source: [link](http://guide.couchdb.org/draft/consistency.html#figure/3))
 
 This concurrency model allows CouchDB to run effectively even under high load, without worrying about queuing requests. 
 
 
 ### [B-Tree](B-Tree) storage engine
-B-Tree (CouchDB uses a variation of a B-Tree [[http://www.scholarpedia.org/article/B-tree_and_UB-tree](http://en.wikipedia.org/wiki/B-tree]) called B+Tree [http://en.wikipedia.org/wiki/B%2B_tree])
+B-Tree (CouchDB uses a variation of a B-Tree [[link](http://www.scholarpedia.org/article/B-tree_and_UB-tree)(http://en.wikipedia.org/wiki/B-tree]) called B+Tree [link](http://en.wikipedia.org/wiki/B%2B_tree))
 - ''B-Tree'' is a sorted data structure that allows for searching, insertions and deletion in logarithmic time 
 - Lookup is $O(\log N)$ time, and range is $O(\log N + K)$
 
@@ -518,7 +518,7 @@ CouchDB can detect a conflicting change in a document and signals it with "_conf
 When there are two revisions of the same file, CouchDB has to choose one ''winning'' revision - revision that will be stored and the latest revision. However the ''loosing'' revisions aren't deleted - they are stored as well, but as previous revisions. 
 
 
-CouchDB doesn't attempt to reconcile the conflicting changes: it ensures that all conflicts are detected, but it's up to the application to deal with them. Essentially this is the same mechanism used by SVN [http://en.wikipedia.org/wiki/Apache_Subversion] and other popular version control systems. 
+CouchDB doesn't attempt to reconcile the conflicting changes: it ensures that all conflicts are detected, but it's up to the application to deal with them. Essentially this is the same mechanism used by SVN [link](http://en.wikipedia.org/wiki/Apache_Subversion) and other popular version control systems. 
 
 
 ### Conflict Resolution
@@ -560,7 +560,7 @@ Algorithm
 - Each revision has a revision history: a list with all previous revision IDs. 
 - A version with longest revision history wins
 - If the length is the same, "_rev" values are compared in ASCII sort order
-: for example, "2-de..." wins over "2-7e..."
+  for example, "2-de..." wins over "2-7e..."
 
 If we don't agree with CouchDB automatic choice, we delete one revision and keep another 
 

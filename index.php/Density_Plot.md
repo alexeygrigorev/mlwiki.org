@@ -18,7 +18,7 @@ hist(pData$AGEP, breaks=12, col="red", prob=T)
 dens = density(pData$AGEP, adjust=2) 
 lines(dens, col="blue", lwd=2)
 ```
-- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/da/density-hist.png" alt="Image"> [http://stackoverflow.com/q/1497539/861423]
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/da/density-hist.png" alt="Image"> [link](http://stackoverflow.com/q/1497539/861423)
 
 
 ### Without Histogram

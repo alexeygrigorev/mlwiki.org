@@ -62,7 +62,7 @@ And finally after the reduce stage we get
 
 
 ### Python Implementation
-Source: [http://code.google.com/p/stolzen/source/browse/trunk/courses/coursera/Introduction%20to%20Data%20Science/assignment3/p2_join.py]
+Source: [link](http://code.google.com/p/stolzen/source/browse/trunk/courses/coursera/Introduction%20to%20Data%20Science/assignment3/p2_join.py)
 
  def mapper(record):
    id = record[1]

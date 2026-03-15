@@ -21,9 +21,9 @@ $P(A + B) = \frac{m_a + m_b}{n} = \frac{m_a}{n} + \frac{m_b}{n} = P(A) + P(B)$
 
 ### Corollaries
 - The sum of probabilities of all events $A_i \in \Omega$ forming a [complete group of events](Probability#Events_and_Trials) equals one.
-: $P(A_1) + ... + P(A_n) = 1$
+  $P(A_1) + ... + P(A_n) = 1$
 - The sum of the probability of event $A$ and its complementary event $\bar{A}$ equals one, since $A$ and $\bar{A}$ form a complete group of events.
-: $P(A) + P(\bar{A}) = 1$
+  $P(A) + P(\bar{A}) = 1$
 
 
 ## Addition Theorem for Compatible Events
@@ -36,15 +36,15 @@ $P(A + B) = P(A) + P(B) - P(AB)$
 
 Proof:
 - $A + B$ occurs if $A\bar{B}$, $\bar{A}B$, or $AB$ occurs. Since these events are mutually exclusive, by the addition theorem we have
-: $P(A + B) = P(A\bar{B}) + P(\bar{A}B) + P(AB)$ (**\***)
+  $P(A + B) = P(A\bar{B}) + P(\bar{A}B) + P(AB)$ (**\***)
 - $A$ occurs if either $AB$ or $A\bar{B}$ occurs. By the addition theorem,
-: $P(A) = P(A\bar{B}) + P(AB)$ or
-: $P(A\bar{B}) = P(A) - P(AB)$ (**\*\***)
+  $P(A) = P(A\bar{B}) + P(AB)$ or
+  $P(A\bar{B}) = P(A) - P(AB)$ (**\*\***)
 - Similarly, $B$ occurs if either $AB$ or $\bar{A}B$ occurs. That is,
-: $P(B) = P(\bar{A}B) + P(AB)$ or
-: $P(\bar{A}B) = P(B) - P(AB)$ (**\*\*\***)
+  $P(B) = P(\bar{A}B) + P(AB)$ or
+  $P(\bar{A}B) = P(B) - P(AB)$ (**\*\*\***)
 - Substituting (**\*\***) and (**\*\*\***) into (**\***), we get
-: $P(A + B) = P(A) + P(B) - P(AB)$
+  $P(A + B) = P(A) + P(B) - P(AB)$
 
 ## Multiplication Theorem of Probabilities
 The *product* of events $A$ and $B$ is the event $A \cdot B$ consisting of the joint occurrence of these events.

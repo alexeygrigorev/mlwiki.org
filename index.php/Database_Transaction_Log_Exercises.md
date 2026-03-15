@@ -6,7 +6,7 @@ tags:
 title: Database Transaction Log Exercises
 ---
 ## Database Transaction Log Exercises
-Exercises [and solutions [https://www.dropbox.com/s/tcbmgtqtiffdjrg/lect8-ex-crash-recovery-sol.pdf](http://www.dropbox.com/s/remf9pcuw94qvow/lect8-ex-crash-recovery.pdf])
+Exercises [and solutions [link](https://www.dropbox.com/s/tcbmgtqtiffdjrg/lect8-ex-crash-recovery-sol.pdf)(http://www.dropbox.com/s/remf9pcuw94qvow/lect8-ex-crash-recovery.pdf])
 
 Materials:
 - [Undo Logging](Undo_Logging)
@@ -83,10 +83,10 @@ Questions:
 
 ### Undo Logging
 Log 
-: $\langle T, \text{start} \rangle$
-: $\langle T, A, 10 \rangle$
-: $\langle U, \text{start} \rangle$
-: FAILURE
+  $\langle T, \text{start} \rangle$
+  $\langle T, A, 10 \rangle$
+  $\langle U, \text{start} \rangle$
+  FAILURE
 
 $A$ might have changed its value
 
@@ -107,10 +107,10 @@ Recovering (while scanning backwards):
 
 ### Redo Logging
 Log 
-: $\langle T, \text{start} \rangle$
-: $\langle T, A, 11 \rangle$
-: $\langle U, \text{start} \rangle$
-: FAILURE
+  $\langle T, \text{start} \rangle$
+  $\langle T, A, 11 \rangle$
+  $\langle U, \text{start} \rangle$
+  FAILURE
 
 $A$ cannot have changed its value - the crash occurred
 - no commit record $\langle T, \text{commit} \rangle$ was written to disk
@@ -131,10 +131,10 @@ Recovering (while scanning forwards):
 
 ### Undo/Redo Logging
 Log
-: $\langle T, \text{start} \rangle$
-: $\langle T, A, 10, 11 \rangle$
-: $\langle U, \text{start} \rangle$
-: FAILURE
+  $\langle T, \text{start} \rangle$
+  $\langle T, A, 10, 11 \rangle$
+  $\langle U, \text{start} \rangle$
+  FAILURE
 
 $A$ might have changed its value 
 - recover in the same way as for Undo Logging
@@ -168,14 +168,14 @@ Questions:
 
 ### Undo Logging
 Log
-: $\langle T, \text{start} \rangle$
-: $\langle T, A, 10 \rangle$
-: $\langle U, \text{start} \rangle$
-: $\langle U, B, 20 \rangle$
-: $\langle T, C, 30 \rangle$
-: $\langle U, D, 40 \rangle$
-: $\langle U, \text{commit} \rangle$
-: FAILURE
+  $\langle T, \text{start} \rangle$
+  $\langle T, A, 10 \rangle$
+  $\langle U, \text{start} \rangle$
+  $\langle U, B, 20 \rangle$
+  $\langle T, C, 30 \rangle$
+  $\langle U, D, 40 \rangle$
+  $\langle U, \text{commit} \rangle$
+  FAILURE
 
 Only transaction $T$ has to be undone
 - $U$ committed
@@ -203,14 +203,14 @@ Recovering (while scanning backwards):
 
 ### Redo Logging
 Log
-: $\langle T, \text{start} \rangle$
-: $\langle T, A, 11 \rangle$
-: $\langle U, \text{start} \rangle$
-: $\langle U, B, 21 \rangle$
-: $\langle T, C, 31 \rangle$
-: $\langle U, D, 41 \rangle$
-: $\langle U, \text{commit} \rangle$
-: FAILURE
+  $\langle T, \text{start} \rangle$
+  $\langle T, A, 11 \rangle$
+  $\langle U, \text{start} \rangle$
+  $\langle U, B, 21 \rangle$
+  $\langle T, C, 31 \rangle$
+  $\langle U, D, 41 \rangle$
+  $\langle U, \text{commit} \rangle$
+  FAILURE
 
 Need to redo only transaction $U$
 - only $U$ has a commit record $\langle U, \text{commit} \rangle$ 
@@ -239,14 +239,14 @@ Recovering (while scanning forwards):
 
 ### Undo/Redo Logging
 Log
-: $\langle T, \text{start} \rangle$
-: $\langle T, A, 10, 11 \rangle$
-: $\langle U, \text{start} \rangle$
-: $\langle U, B, 20, 21 \rangle$
-: $\langle T, C, 30, 31 \rangle$
-: $\langle U, D, 40, 41 \rangle$
-: $\langle U, \text{commit} \rangle$
-: FAILURE
+  $\langle T, \text{start} \rangle$
+  $\langle T, A, 10, 11 \rangle$
+  $\langle U, \text{start} \rangle$
+  $\langle U, B, 20, 21 \rangle$
+  $\langle T, C, 30, 31 \rangle$
+  $\langle U, D, 40, 41 \rangle$
+  $\langle U, \text{commit} \rangle$
+  FAILURE
 
 
 Changed values:
@@ -283,27 +283,27 @@ Question
 
 ### Undo Logging
 Consider this log
-: $\langle S, \text{start}  \rangle$
-: $\langle S, A, 60 \rangle$
-: $\langle S, \text{commit} \rangle$
-: $\langle T, \text{start}  \rangle$
-: $\langle T, A, 10 \rangle$
-: $\langle \text{start ckpt} \rangle$ 
+  $\langle S, \text{start}  \rangle$
+  $\langle S, A, 60 \rangle$
+  $\langle S, \text{commit} \rangle$
+  $\langle T, \text{start}  \rangle$
+  $\langle T, A, 10 \rangle$
+  $\langle \text{start ckpt} \rangle$ 
 :* here it should identify the active transactions 
 :* hence it's $\langle \text{start ckpt} (T) \rangle$ ($S$ already committed)
 :* we can add $\langle \text{end ckpt} \rangle$ only once $T$ commits 
-: $\langle U, \text{start} \rangle$
-: $\langle U, B, 20 \rangle$
-: $\langle T, C, 30 \rangle$
-: $\langle V, \text{start}  \rangle$
-: $\langle U, D, 40 \rangle$
-: $\langle V, F, 70 \rangle$
-: $\langle U, \text{commit} \rangle$
-: $\langle T, E, 50 \rangle$
-: $\langle T, \text{commit} \rangle$
+  $\langle U, \text{start} \rangle$
+  $\langle U, B, 20 \rangle$
+  $\langle T, C, 30 \rangle$
+  $\langle V, \text{start}  \rangle$
+  $\langle U, D, 40 \rangle$
+  $\langle V, F, 70 \rangle$
+  $\langle U, \text{commit} \rangle$
+  $\langle T, E, 50 \rangle$
+  $\langle T, \text{commit} \rangle$
 :* since $T$ has committed, here can add $\langle \text{end ckpt} \rangle$
-: $\langle V, B, 80 \rangle$
-: $\langle V, \text{commit}  \rangle$
+  $\langle V, B, 80 \rangle$
+  $\langle V, \text{commit}  \rangle$
 
 
 Recovery:
@@ -314,27 +314,27 @@ Recovery:
 
 ### Redo Logging
 Consider this log
-: $\langle S, \text{start}  \rangle$
-: $\langle S, A, 61 \rangle$
-: $\langle S, \text{commit} \rangle$
-: $\langle T, \text{start}  \rangle$
-: $\langle T, A, 11 \rangle$
-: $\langle \text{start ckpt} \rangle$ 
+  $\langle S, \text{start}  \rangle$
+  $\langle S, A, 61 \rangle$
+  $\langle S, \text{commit} \rangle$
+  $\langle T, \text{start}  \rangle$
+  $\langle T, A, 11 \rangle$
+  $\langle \text{start ckpt} \rangle$ 
 :* we keep that on the transactions that have committed at this point, but have not yet flushed the modifications to disk:  we wait until they do that 
 :* only after that we end the checkpoint (put $\langle \text{end ckpt} \rangle$)
 :* The only transaction that has committed is $S$, so the $\langle \text{end ckpt} \rangle$ can occur anywhere after this record: we cannot predict when exactly the dirty blocks will be written to disk 
 :* the log record actually is $\langle \text{start ckpt} (T) \rangle$  since $T$ is the only active transaction at this point
-: $\langle U, \text{start} \rangle$
-: $\langle U, B, 21 \rangle$
-: $\langle T, C, 31 \rangle$
-: $\langle V, \text{start}  \rangle$
-: $\langle U, D, 41 \rangle$
-: $\langle V, F, 71 \rangle$
-: $\langle U, \text{commit} \rangle$
-: $\langle T, E, 51 \rangle$
-: $\langle T, \text{commit} \rangle$
-: $\langle V, B, 81 \rangle$
-: $\langle V, \text{commit}  \rangle$
+  $\langle U, \text{start} \rangle$
+  $\langle U, B, 21 \rangle$
+  $\langle T, C, 31 \rangle$
+  $\langle V, \text{start}  \rangle$
+  $\langle U, D, 41 \rangle$
+  $\langle V, F, 71 \rangle$
+  $\langle U, \text{commit} \rangle$
+  $\langle T, E, 51 \rangle$
+  $\langle T, \text{commit} \rangle$
+  $\langle V, B, 81 \rangle$
+  $\langle V, \text{commit}  \rangle$
 
 Recovery
 - also depends when the crash occurs 
@@ -347,25 +347,25 @@ Recovery
 ### Undo/Redo Logging
 For this we do the same reasoning as for Redo Logging
 
-: $\langle S, \text{start}  \rangle$
-: $\langle S, A, 60, 61 \rangle$
-: $\langle S, \text{commit} \rangle$
-: $\langle T, \text{start}  \rangle$
-: $\langle T, A, 10, 11 \rangle$
-: $\langle \text{start ckpt} \rangle$ 
+  $\langle S, \text{start}  \rangle$
+  $\langle S, A, 60, 61 \rangle$
+  $\langle S, \text{commit} \rangle$
+  $\langle T, \text{start}  \rangle$
+  $\langle T, A, 10, 11 \rangle$
+  $\langle \text{start ckpt} \rangle$ 
 :* again cannot predict where exactly to put $\langle \text{end ckpt} \rangle$
 :* it will be written once $S$ flushes its modifications to disk
-: $\langle U, \text{start} \rangle$
-: $\langle U, B, 20, 21 \rangle$
-: $\langle T, C, 30, 31 \rangle$
-: $\langle V, \text{start}  \rangle$
-: $\langle U, D, 40, 41 \rangle$
-: $\langle V, F, 70, 71 \rangle$
-: $\langle U, \text{commit} \rangle$
-: $\langle T, E, 50, 51 \rangle$
-: $\langle T, \text{commit} \rangle$
-: $\langle V, B, 80, 81 \rangle$
-: $\langle V, \text{commit}  \rangle$
+  $\langle U, \text{start} \rangle$
+  $\langle U, B, 20, 21 \rangle$
+  $\langle T, C, 30, 31 \rangle$
+  $\langle V, \text{start}  \rangle$
+  $\langle U, D, 40, 41 \rangle$
+  $\langle V, F, 70, 71 \rangle$
+  $\langle U, \text{commit} \rangle$
+  $\langle T, E, 50, 51 \rangle$
+  $\langle T, \text{commit} \rangle$
+  $\langle V, B, 80, 81 \rangle$
+  $\langle V, \text{commit}  \rangle$
 
 Recovery
 - if last is $\langle \text{end ckpt} \rangle$

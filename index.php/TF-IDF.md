@@ -137,7 +137,7 @@ for example,
 ## [Smoothing](Smoothing_for_Language_Models) vs TF-IDF
 Smoothing and TF-IDF are connected
 - also see probabilistic justification for TF-IDF in 
-- Hiemstra, Djoerd. "A probabilistic justification for using tf×idf term weighting in information retrieval." 2000. [http://doc.utwente.nl/66959/1/ijodl.pdf]
+- Hiemstra, Djoerd. "A probabilistic justification for using tf×idf term weighting in information retrieval." 2000. [link](http://doc.utwente.nl/66959/1/ijodl.pdf)
 - see [Smoothing for Language Models#Smoothing vs TF-IDF](Smoothing_for_Language_Models#Smoothing_vs_TF-IDF)
 
 
@@ -145,4 +145,4 @@ Smoothing and TF-IDF are connected
 ## Sources
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
-- Salton, Gerard, and Christopher Buckley. "Term-weighting approaches in automatic text retrieval." 1988. [http://www.cs.odu.edu/~jbollen/spring03_IR/readings/article1-29-03.pdf]
+- Salton, Gerard, and Christopher Buckley. "Term-weighting approaches in automatic text retrieval." 1988. [link](http://www.cs.odu.edu/~jbollen/spring03_IR/readings/article1-29-03.pdf)

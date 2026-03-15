@@ -7,7 +7,7 @@ title: Personal Knowledge Management
 ---
 Personal Knowledge
 
-Mind map: [http://yadi.sk/d/f1pfNItl2KXsR]
+Mind map: [link](http://yadi.sk/d/f1pfNItl2KXsR)
 
 ## Knowledge
 

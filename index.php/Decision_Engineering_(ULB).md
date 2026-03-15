@@ -96,4 +96,4 @@ Methods:
 ## Info
 - no public webpage
 - http://uv.ulb.ac.be/ course: MATH-H-405, user: <code>visiteur</code>, password: <code>visiteur</code>
-- folder with all the materials: [https://www.dropbox.com/sh/gu9dn03vl3y3gk9/u2pLE109sn](https___www.dropbox.com_sh_gu9dn03vl3y3gk9_u2pLE109sn)
+- folder with all the materials: [link](https://www.dropbox.com/sh/gu9dn03vl3y3gk9/u2pLE109sn)(https___www.dropbox.com_sh_gu9dn03vl3y3gk9_u2pLE109sn)

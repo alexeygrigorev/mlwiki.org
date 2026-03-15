@@ -47,7 +47,7 @@ WHERE starName = M.name AND M.birthdate = 1960
 - then translate the '''where''' clause too
 
 So we get:
-: $\pi_\text{movieTitle} \sigma_{\text{starName = M.name } \land \text{M.birthdate = 1960}}(\text{StartsIn} \times \rho_M (\text{MovieStar}))$
+  $\pi_\text{movieTitle} \sigma_{\text{starName = M.name } \land \text{M.birthdate = 1960}}(\text{StartsIn} \times \rho_M (\text{MovieStar}))$
 
 (Maybe not the most efficient way, but it will be [optimized further](Logical_Query_Plan_Optimization))
 
@@ -515,8 +515,8 @@ We translate it as
 
 ## Exercises
 Exercises from [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-- the exercises: [https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/8ZdHjWVPN8/lect1-exercise.pdf]
-- the proposed solutions [https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/WbFRIKUVMc/lect1-exercise-solution.pdf]
+- the exercises: [link](https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/8ZdHjWVPN8/lect1-exercise.pdf)
+- the proposed solutions [link](https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/WbFRIKUVMc/lect1-exercise-solution.pdf)
 
 
 ### Exercise 1
@@ -799,7 +799,7 @@ $\pi_{\text{F.name}}
 
 ## See also
 - [Relational Algebra](Relational_Algebra)
-- Lecture Notes by S. Vansummeren [https://dl.dropboxusercontent.com/s/5e6w6pia970bnki/lect1-notes-relalg.pdf]  
+- Lecture Notes by S. Vansummeren [link](https://dl.dropboxusercontent.com/s/5e6w6pia970bnki/lect1-notes-relalg.pdf)  
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))

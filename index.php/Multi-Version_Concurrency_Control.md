@@ -17,7 +17,7 @@ MVCC, Multi-Version Concurrency Control, is one of the [Concurrency Control](Con
 
 <img src="https://github.com/alexeygrigorev/ulb-adb-project-couchbd/raw/master/report/images/couchdb-concurrency.png" alt="Image">
 
-(figure source: [http://guide.couchdb.org/draft/consistency.html#figure/3])
+(figure source: [link](http://guide.couchdb.org/draft/consistency.html#figure/3))
 
 
 

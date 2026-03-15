@@ -84,7 +84,7 @@ So for all possible values of $\alpha$
 
 ### Example 1
 Can give the answer of "how much unpredictable is your data?"
-- suppose that for the titanic dataset ([http://www.kaggle.com/c/titanic-gettingStarted/data]) we have 342 survived people out of 891
+- suppose that for the titanic dataset ([link](http://www.kaggle.com/c/titanic-gettingStarted/data)) we have 342 survived people out of 891
 - $p(\text{Survive}) = \cfrac{342}{891}$
 - \text{Entropy} = - \cfrac{342}{891} \log_2 \cfrac{342}{891}  - \cfrac{549}{891} \log_2 \cfrac{549}{891} \approx 0.96
 

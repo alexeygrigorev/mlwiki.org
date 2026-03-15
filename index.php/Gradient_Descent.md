@@ -49,22 +49,22 @@ let's have a look at the partial derivative:
 if the derivative is positive
 - <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/gradient-descent-right-deriv.png" alt="Image">" />
 - we're moving left: 
-: $\theta_1 = \theta_1 - \beta$
+  $\theta_1 = \theta_1 - \beta$
 
 if the derivative is negative
 - <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/gradient-descent-left-deriv.png" alt="Image">" />
 - we're moving right:
-: $\theta_1 = \theta_1 + \beta$
+  $\theta_1 = \theta_1 + \beta$
 
 
 For two variables the cost function would look like that:
-: <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/gradient-descent-2vars.png" alt="Image">" />
+  <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/gradient-descent-2vars.png" alt="Image">" />
 
 
 ### Learning Rate
 - when $\alpha$ is too small - we're taking very small steps - too slow
 - when $\alpha$ is too large - we're taking too big steps and may miss the minimum 
-: in this case not only may it fail to converge, but even diverge
+  in this case not only may it fail to converge, but even diverge
  |Approaching the minimum
 - As we're approaching the local minimum, it takes smaller and smaller steps 
 - If $\theta_1$ is at the local minimum, then $\beta = 0$ and $\theta_1$ won't change 
@@ -84,14 +84,14 @@ We need to minimize the cost function:
 - This is the ''squared error cost function''
 
 Let's simplify our expression:
-: $\cfrac{\partial}{\partial \theta_j} J(\theta_0, \theta_1) =  \cfrac{\partial}{\partial \theta_j} \cfrac{1}{2m} \sum (h_{\theta}(x^{i}) - y^{(i)} )^2 = \cfrac{\partial}{\partial \theta_j} \cfrac{1}{2m} \sum (\theta_0 + \theta_1 x^{i} - y^{(i)} )^2 $
+  $\cfrac{\partial}{\partial \theta_j} J(\theta_0, \theta_1) =  \cfrac{\partial}{\partial \theta_j} \cfrac{1}{2m} \sum (h_{\theta}(x^{i}) - y^{(i)} )^2 = \cfrac{\partial}{\partial \theta_j} \cfrac{1}{2m} \sum (\theta_0 + \theta_1 x^{i} - y^{(i)} )^2 $
 
 
 Now we calculate the derivatives and have: 
 - for $\theta_0$:
-: $\cfrac{\partial}{\partial \theta_0} J(\theta_0, \theta_1) = \cfrac{1}{m} \sum (h_{\theta} (x^{(i)}) - y^{(i)})$
+  $\cfrac{\partial}{\partial \theta_0} J(\theta_0, \theta_1) = \cfrac{1}{m} \sum (h_{\theta} (x^{(i)}) - y^{(i)})$
 - for $\theta_1$:
-: $\cfrac{\partial}{\partial \theta_1} J(\theta_0, \theta_1) = \cfrac{1}{m} \sum (h_{\theta} (x^{(i)}) - y^{(i)}) \cdot x^{(i)}$
+  $\cfrac{\partial}{\partial \theta_1} J(\theta_0, \theta_1) = \cfrac{1}{m} \sum (h_{\theta} (x^{(i)}) - y^{(i)}) \cdot x^{(i)}$
 
 
 So for the [regression](Linear_Regression) the algorithm is 
@@ -111,7 +111,7 @@ For Multivariate Linear Regression we have $x^{(i)} \in \mathbb{R}^{n + 1} $and 
 - and $x_0^{(i)} = 1$ for all $i$ (the slope)
 
 So out cost function takes the following form:
-: $J(\theta) = J(\theta_0, ... , \theta_n) = \cfrac{1}{2m} \sum_{i = 1}^{m} (h_{\theta} (x^{(i)}) - y^{(i)} )^2$
+  $J(\theta) = J(\theta_0, ... , \theta_n) = \cfrac{1}{2m} \sum_{i = 1}^{m} (h_{\theta} (x^{(i)}) - y^{(i)} )^2$
 
 
 The algorithm:
@@ -138,7 +138,7 @@ Use [Feature Scaling](Feature_Scaling) to help GD converge faster
 Choosing $\alpha$:
 - But don't choose $\alpha$ too small - it'll take too long to converge 
 - To choose $\alpha$ try
-: $..., 0.001, 0.01, 0.1$, ... or increase it 3-fold 
+  $..., 0.001, 0.01, 0.1$, ... or increase it 3-fold 
 - And see what is acceptable 
 
 

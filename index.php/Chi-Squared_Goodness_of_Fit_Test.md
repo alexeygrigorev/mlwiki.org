@@ -130,7 +130,7 @@ pchisq(x2, df=length(obs) - 1, lower.tail=F)
 === Example: Trading === 
 - Suppose that we have some data from some stock exchange 
 - we want to test if stock activity on one day is independent from previous day
-- the data is taken [http://research.stlouisfed.org/fred2/series/SP500/downloaddata] for 2004-08-04	 to 2014-07-01
+- the data is taken [link](http://research.stlouisfed.org/fred2/series/SP500/downloaddata) for 2004-08-04	 to 2014-07-01
 - example motivated by an example from [OpenIntro](OpenIntro_Statistics_(book)) 
 
 

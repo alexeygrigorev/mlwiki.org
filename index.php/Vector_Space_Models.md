@@ -262,13 +262,13 @@ For example, consider LSA:
 Don't assume that words are independent
 
 Reference:
-- Wong, SK Michael, Wojciech Ziarko, and Patrick CN Wong. "Generalized vector spaces model in information retrieval." 1985. [http://dl.acm.org/citation.cfm?id=253506])
+- Wong, SK Michael, Wojciech Ziarko, and Patrick CN Wong. "Generalized vector spaces model in information retrieval." 1985. [link](http://dl.acm.org/citation.cfm?id=253506))
 
 
 
 ## Sources
-- Salton, Gerard, Anita Wong, and Chung-Shu Yang. "A vector space model for automatic indexing." (1975). [http://cgis.cs.umd.edu/class/fall2009/cmsc828r/PAPERS/VSM_salton-2.pdf]
-- Jing, Liping. "Survey of text clustering." 2008. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf]
+- Salton, Gerard, Anita Wong, and Chung-Shu Yang. "A vector space model for automatic indexing." (1975). [link](http://cgis.cs.umd.edu/class/fall2009/cmsc828r/PAPERS/VSM_salton-2.pdf)
+- Jing, Liping. "Survey of text clustering." 2008. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf)
 - [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_(book))
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.

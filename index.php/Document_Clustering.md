@@ -177,17 +177,17 @@ It can reduce the number of documents to consider but without losing much inform
 
 ## References
 - Anick, Peter G., and Shivakumar Vaithyanathan. "Exploiting clustering and phrases for context-based information retrieval."  1997. 
-- Cutting, Douglass R., et al. "Scatter/gather: A cluster-based approach to browsing large document collections." 1992. [http://courses.washington.edu/info320/au11/readings/Week4.Cutting.et.al.1992.Scatter-Gather.pdf]
+- Cutting, Douglass R., et al. "Scatter/gather: A cluster-based approach to browsing large document collections." 1992. [link](http://courses.washington.edu/info320/au11/readings/Week4.Cutting.et.al.1992.Scatter-Gather.pdf)
 - Cutting, Douglass R., David R. Karger, and Jan O. Pedersen. "Constant interaction-time scatter/gather browsing of very large document collections." 1993.
-- Baker, L. Douglas, and Andrew Kachites McCallum. "Distributional clustering of words for text classification." 1998. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.42.7488&rep=rep1&type=pdf]
-- Bekkerman, Ron, et al. "On feature distributional clustering for text categorization." 2001. [http://scholar.google.com/scholar?cluster=1445350076343942781&hl=ru&as_sdt=0,5] 
-- Sahami, Mehran, and Timothy D. Heilman. "A web-based kernel function for measuring the similarity of short text snippets." 2006. [http://research.google.com/intl/en/pubs/archive/32.pdf]
-- Strehl, Alexander, Joydeep Ghosh, and Raymond Mooney. "Impact of similarity measures on web-page clustering." 2000. [http://strehl.com/download/strehl-aaai00.pdf]
-- Guha, Sudipto, Rajeev Rastogi, and Kyuseok Shim. "ROCK: A robust clustering algorithm for categorical attributes." 1999. [http://www.cacs.louisiana.edu/~jyoon/grad/adb/References/clustering/ROCK-clus99icde.pdf]
+- Baker, L. Douglas, and Andrew Kachites McCallum. "Distributional clustering of words for text classification." 1998. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.42.7488&rep=rep1&type=pdf)
+- Bekkerman, Ron, et al. "On feature distributional clustering for text categorization." 2001. [link](http://scholar.google.com/scholar?cluster=1445350076343942781&hl=ru&as_sdt=0,5) 
+- Sahami, Mehran, and Timothy D. Heilman. "A web-based kernel function for measuring the similarity of short text snippets." 2006. [link](http://research.google.com/intl/en/pubs/archive/32.pdf)
+- Strehl, Alexander, Joydeep Ghosh, and Raymond Mooney. "Impact of similarity measures on web-page clustering." 2000. [link](http://strehl.com/download/strehl-aaai00.pdf)
+- Guha, Sudipto, Rajeev Rastogi, and Kyuseok Shim. "ROCK: A robust clustering algorithm for categorical attributes." 1999. [link](http://www.cacs.louisiana.edu/~jyoon/grad/adb/References/clustering/ROCK-clus99icde.pdf)
 
 ## Sources
-- Steinbach, Michael, George Karypis, and Vipin Kumar. "A comparison of document clustering techniques." 2000. ([https://wwws.cs.umn.edu/tech_reports_upload/tr2000/00-034.ps])
-- Larsen, Bjornar, and Chinatsu Aone. "Fast and effective text mining using linear-time document clustering." 1999. ([http://comminfo.rutgers.edu/~muresan/IR/Docs/Articles/sigkddLarsen1999.pdf])
-- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90]
-- Jing, Liping. "Survey of text clustering." (2008). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf]
-- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
+- Steinbach, Michael, George Karypis, and Vipin Kumar. "A comparison of document clustering techniques." 2000. ([link](https://wwws.cs.umn.edu/tech_reports_upload/tr2000/00-034.ps))
+- Larsen, Bjornar, and Chinatsu Aone. "Fast and effective text mining using linear-time document clustering." 1999. ([link](http://comminfo.rutgers.edu/~muresan/IR/Docs/Articles/sigkddLarsen1999.pdf))
+- Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [link](http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90)
+- Jing, Liping. "Survey of text clustering." (2008). [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf)
+- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [link](http://static.msi.umn.edu/rreports/2003/73.pdf)

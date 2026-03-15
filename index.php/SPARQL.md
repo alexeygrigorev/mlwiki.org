@@ -87,7 +87,7 @@ result $\to$
        |   name |        | Bob |        |  Alice |     
 
 ### Example 2
-Consider this RDF graph [http://cs-www.cs.yale.edu/homes/dna/papers/sw-graph-scale.pdf]
+Consider this RDF graph [link](http://cs-www.cs.yale.edu/homes/dna/papers/sw-graph-scale.pdf)
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/sw/rdf-graph-ex3-sparql.png" alt="Image">
 
 ```verilog
@@ -511,8 +511,8 @@ SPARQL endpoints
 
 
 ## Implementations
-- Jena [http://jena.apache.org/] 
-- Sesame [http://www.openrdf.org/]
+- Jena [link](http://jena.apache.org/) 
+- Sesame [link](http://www.openrdf.org/)
 - Many others: http://en.wikipedia.org/wiki/SPARQL#SPARQL_implementations
 
 

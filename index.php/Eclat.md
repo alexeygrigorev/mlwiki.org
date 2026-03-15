@@ -126,7 +126,7 @@ Let's run the algorithm on this input:
   - frequent patterns $\varnothing$
 
 Result
-: $[a, ac, acb, ab, c, cb, b, e, ed, d]$
+  $[a, ac, acb, ab, c, cb, b, e, ed, d]$
 
 
 

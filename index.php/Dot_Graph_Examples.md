@@ -54,7 +54,7 @@ digraph A {
 
 
 ### Edges with Opposite Direction
-Source: [http://stackoverflow.com/a/4671684/861423]
+Source: [link](http://stackoverflow.com/a/4671684/861423)
 
 ```text only
 digraph A {
@@ -101,7 +101,7 @@ graph G {
 
 
 ### Double Edge
-Source: [http://stackoverflow.com/questions/6219933/how-does-one-define-double-lines-for-edge-and-node-shapes-in-graphviz-dot]
+Source: [link](http://stackoverflow.com/questions/6219933/how-does-one-define-double-lines-for-edge-and-node-shapes-in-graphviz-dot)
 
 ```text only
 digraph G {

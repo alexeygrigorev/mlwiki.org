@@ -49,7 +49,7 @@ Main unit of data is a document - a self-contained (typically) record with all i
 - Simpler API - usually no query language
 - restricted joins (for better efficiency)
 - Ability to horizontally scale "simple operations" throughput over many servers 
-: simple = key lookups, read/write of one record
+  simple = key lookups, read/write of one record
 - Ability to replicate and partition data over many servers 
 - Efficient use of distributed indexes and RAM for data storage 
 - The ability to dynamically add new attributes to data records 
@@ -60,7 +60,7 @@ Main unit of data is a document - a self-contained (typically) record with all i
 Showed that in-memory indexes can be highly scalable and it's possible to distribute and replicate objects over multiple nodes
 
 - main-memory caching service 
-: no persistence, replication or fault-tolerance 
+  no persistence, replication or fault-tolerance 
 - mature system, in wide use
 - important concept: [Consistent Hashing](Consistent_Hashing)
 
@@ -85,4 +85,4 @@ Showed that persistend record storage could be scaled to thousands of nodes
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - [Web Intelligence and Big Data (coursera)](Web_Intelligence_and_Big_Data_(coursera))
-- Amazon's Dynamo paper [http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf]
+- Amazon's Dynamo paper [link](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)

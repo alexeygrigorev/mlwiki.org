@@ -42,9 +42,9 @@ $
 
 We proceed as follows
 - step 1: 
-: for each relation we create an atom in body with distinct variables 
+  for each relation we create an atom in body with distinct variables 
 - step 2:
-: for all the conditions of the selection part we replace the variables that participate in equations by the same symbol
+  for all the conditions of the selection part we replace the variables that participate in equations by the same symbol
 
 in this case
 - step 1:
@@ -106,4 +106,4 @@ We translate it as
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-- Database Systems Architecture lecture notes #2 by S. Vansummeren [https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf]
+- Database Systems Architecture lecture notes #2 by S. Vansummeren [link](https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf)

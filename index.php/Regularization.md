@@ -15,7 +15,7 @@ title: Regularization
 - Suppose we want to fit $\theta_0 + \theta_1 x_1 + \theta_2 x_2  + \theta_3 x_3 + \theta_4 x_4$
 - We want to penalize $\theta_3$ and $\theta_4$ - and make them small 
 - we modify out cost function $J$:
-: $J(\theta) = \cfrac{1}{m} \left[ \sum_{i=1}^{m}  \text{cost}(h_{\theta}(x^{(i)}), y^{(i)}) + 1000 \cdot \theta_3^2 + 1000 \cdot \theta_4^2 \right]$
+  $J(\theta) = \cfrac{1}{m} \left[ \sum_{i=1}^{m}  \text{cost}(h_{\theta}(x^{(i)}), y^{(i)}) + 1000 \cdot \theta_3^2 + 1000 \cdot \theta_4^2 \right]$
 - where $1000 \cdot \theta_3^2$ and $1000 \cdot \theta_4^2$ - ''penalty'' for using $\theta_3$ and $\theta_4$ respectively
 - As a result, we'll have $\theta_3 \approx 0$ and $\theta_4 \approx 0$
 
@@ -95,9 +95,9 @@ We find $\theta$ by calculating $\theta = (X^T X + \lambda E^*)^{-1} \cdot X^T \
 
 ### Regularized [Logistic Regression](Logistic_Regression)
 - Old cost function for [Logistic Regression](Logistic_Regression) (without regularization) is: 
-: $J_{\text{old}}(\theta) = - \cfrac{1}{m} \sum \left[ y \cdot \log(h_{\theta}(x)) + (1 - y) \cdot \log(1 - h_{\theta}(x)) \right]$
+  $J_{\text{old}}(\theta) = - \cfrac{1}{m} \sum \left[ y \cdot \log(h_{\theta}(x)) + (1 - y) \cdot \log(1 - h_{\theta}(x)) \right]$
 - We need to modify it to penalize $\theta_1, ..., \theta_n$:
-: $J(\theta) = J_{\text{old}}(\theta) + \cfrac{\lambda}{2m} \sum_{j = 1}^{n} \theta_j^2$
+  $J(\theta) = J_{\text{old}}(\theta) + \cfrac{\lambda}{2m} \sum_{j = 1}^{n} \theta_j^2$
 
 
 Similarly, for [Gradient Descent](Gradient_Descent) we have

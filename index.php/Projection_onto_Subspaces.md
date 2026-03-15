@@ -250,8 +250,8 @@ What if $m = n$?
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-- The Four Fundamental Subspaces: 4 Lines, G. Strang, [http://web.mit.edu/18.06/www/Essays/newpaper_ver3.pdf] 
-- The fundamental theorem of linear algebra, G. Strang [http://www.engineering.iastate.edu/~julied/classes/CE570/Notes/strangpaper.pdf]
+- The Four Fundamental Subspaces: 4 Lines, G. Strang, [link](http://web.mit.edu/18.06/www/Essays/newpaper_ver3.pdf) 
+- The fundamental theorem of linear algebra, G. Strang [link](http://www.engineering.iastate.edu/~julied/classes/CE570/Notes/strangpaper.pdf)
 - Strang, G. Introduction to linear algebra.
 - http://physics-help.info/physicsguide/appendices/vectors.shtml
 - http://en.wikipedia.org/wiki/Linear_least_squares_%28mathematics%29

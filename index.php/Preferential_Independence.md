@@ -71,7 +71,7 @@ Satisfied
 
 
 ### Example 3
-Taken from [http://wiki.ece.cmu.edu/ddl/index.php/Preferential_independence]
+Taken from [link](http://wiki.ece.cmu.edu/ddl/index.php/Preferential_independence)
 
 Suppose we are choosing a car and there are two criteria
 - style: sport, SUV

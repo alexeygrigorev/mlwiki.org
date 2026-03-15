@@ -103,7 +103,7 @@ Hadoop in one picture:
 
 <img src="https://raw.github.com/alexeygrigorev/ulb-adb-project-couchbd/master/report/images/hadoop.png" alt="Image">
 
-(Figure source: Huy Vo, NYU Poly and [http://escience.washington.edu/get-help-now/what-hadoop])
+(Figure source: Huy Vo, NYU Poly and [link](http://escience.washington.edu/get-help-now/what-hadoop))
 
 
 ### Shuffling Details
@@ -390,17 +390,17 @@ Solutions for I/O optimization
 - [HBase](HBase)
   - [Column-Oriented Database](Column-Oriented_Databases) that has index structures
   - data compression (easier for Column-Oriented Databases)
-- Hadoop++ [https://infosys.uni-saarland.de/projects/hadoop.php]
+- Hadoop++ [link](https://infosys.uni-saarland.de/projects/hadoop.php)
   - HAIL (Hadoop Aggressive Indexing Library) as an enhancement for HDFS 
   - structured file format
   - 20x improvement in Hadoop performance
 - [Spark](Spark) and [Flink](Flink) can do pipelining
-- Incremental MapReduce (like in [CouchDB](CouchDB) [[http://eagain.net/articles/incremental-mapreduce/](http://stackoverflow.com/questions/11236676/why-is-mapreduce-in-couchdb-called-incremental]))
+- Incremental MapReduce (like in [CouchDB](CouchDB) [[link](http://eagain.net/articles/incremental-mapreduce/)(http://stackoverflow.com/questions/11236676/why-is-mapreduce-in-couchdb-called-incremental]))
 
 
 ## Sources
-- Lee et al, Parallel Data Processing with MapReduce: A Survey [http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf]
-- Ordonez et al, Relational versus non-relational database systems for data warehousing [http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf]
-- Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/]
+- Lee et al, Parallel Data Processing with MapReduce: A Survey [link](http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf)
+- Ordonez et al, Relational versus non-relational database systems for data warehousing [link](http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf)
+- Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [link](http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/)
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
 - [Hadoop: The Definitive Guide (book)](Hadoop__The_Definitive_Guide_(book))

@@ -156,4 +156,4 @@ Also, there are two families of DL-Lite:
 - [RDFS](RDFS) and [OWL](OWL)
 
 ## Sources
-- Web Data Management, Manolescu, Ioana, et al. [http://webdam.inria.fr/Jorge/]
+- Web Data Management, Manolescu, Ioana, et al. [link](http://webdam.inria.fr/Jorge/)

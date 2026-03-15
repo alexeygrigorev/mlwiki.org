@@ -35,8 +35,8 @@ In CS $p$-stable distributions are useful for [Sketching](Sketching)
 - can be used to estimate $\|  \mathbf v \|_p$
 
 Papers:
-- Nolan, J. "Stable distributions." 2009. [[http://academic2.american.edu/~jpnolan/stable/chap1.pdf](http://academic2.american.edu/~jpnolan/stable/stable.html])
-- Indyk, Piotr. "Stable distributions, pseudorandom generators, embeddings, and data stream computation." 2006. [http://old-madalgo.au.dk/img/SumSchoo2007_Lecture%20slides/Bibliography/p3-Indyk_JACM_06.pdf]
+- Nolan, J. "Stable distributions." 2009. [[link](http://academic2.american.edu/~jpnolan/stable/chap1.pdf)(http://academic2.american.edu/~jpnolan/stable/stable.html])
+- Indyk, Piotr. "Stable distributions, pseudorandom generators, embeddings, and data stream computation." 2006. [link](http://old-madalgo.au.dk/img/SumSchoo2007_Lecture%20slides/Bibliography/p3-Indyk_JACM_06.pdf)
 
 
 ## E2 LSH
@@ -140,5 +140,5 @@ Probability of getting to the same bucket:
 
 
 ## Sources
-- Slaney, Malcolm, and Michael Casey. "Locality-sensitive hashing for finding nearest neighbors [lecture notes]." 2008. [http://web.iitd.ac.in/~sumeet/Slaney2008-LSHTutorial.pdf]
-- Datar, Mayur, et al. "Locality-sensitive hashing scheme based on p-stable distributions." 2004. [http://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf]
+- Slaney, Malcolm, and Michael Casey. "Locality-sensitive hashing for finding nearest neighbors [lecture notes]." 2008. [link](http://web.iitd.ac.in/~sumeet/Slaney2008-LSHTutorial.pdf)
+- Datar, Mayur, et al. "Locality-sensitive hashing scheme based on p-stable distributions." 2004. [link](http://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf)

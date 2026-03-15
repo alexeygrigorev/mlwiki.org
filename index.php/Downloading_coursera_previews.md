@@ -48,4 +48,4 @@ for vid_each in allvideos:
 outputhtml.close()
 ```
 
-Оригинал: [http://crossplatform.net/download-coursera-videos-with-your-favorite-download-manager/]
+Оригинал: [link](http://crossplatform.net/download-coursera-videos-with-your-favorite-download-manager/)

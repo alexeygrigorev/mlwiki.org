@@ -43,7 +43,7 @@ Just dot product is enough for many algorithms:
 
 ### [Regression](Regression)
 Support Vector Regression
-- Smola, Alex J., and Bernhard Schölkopf. "A tutorial on support vector regression." 2004. [http://lasa.epfl.ch/teaching/lectures/ML_Phd/Notes/nu-SVM-SVR.pdf]
+- Smola, Alex J., and Bernhard Schölkopf. "A tutorial on support vector regression." 2004. [link](http://lasa.epfl.ch/teaching/lectures/ML_Phd/Notes/nu-SVM-SVR.pdf)
 
 
 ### [Anomaly Detection](Anomaly_Detection)
@@ -84,8 +84,8 @@ We can combine Kernels:
 
 
 ## References
-- Hofmann, Thomas, Bernhard Schölkopf, and Alexander J. Smola. "Kernel methods in machine learning." 2008. [http://www.kernel-machines.org/publications/pdfs/0701907.pdf]
+- Hofmann, Thomas, Bernhard Schölkopf, and Alexander J. Smola. "Kernel methods in machine learning." 2008. [link](http://www.kernel-machines.org/publications/pdfs/0701907.pdf)
 
 
 ## Sources
-- Cristianini, Nello, John Shawe-Taylor, and Huma Lodhi. "Latent semantic kernels." 2002. [http://eprints.soton.ac.uk/259781/1/LatentSemanticKernals_JIIS_18.pdf]
+- Cristianini, Nello, John Shawe-Taylor, and Huma Lodhi. "Latent semantic kernels." 2002. [link](http://eprints.soton.ac.uk/259781/1/LatentSemanticKernals_JIIS_18.pdf)

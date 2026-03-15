@@ -30,13 +30,13 @@ let's use the following notation
 - $x_j^{(i)}$ - $j$th element of $i$th training example 
 
 e.g. 
-: $x^{(2)} = (x_1^{(2)}, x_2^{(2)}, x_3^{(2)}, x_4^{(2)})$ - vector of all features from the second row 
+  $x^{(2)} = (x_1^{(2)}, x_2^{(2)}, x_3^{(2)}, x_4^{(2)})$ - vector of all features from the second row 
 
 
 - Recall that for [one variable](Linear_Regression) we have
-: $h_{\theta}(x) = \theta_0 + \theta_1 x$
+  $h_{\theta}(x) = \theta_0 + \theta_1 x$
 - now we have 
-: $h_{\theta}(x) = \theta_0 + \theta_1 x_1 + ... + \theta_n x_n$
+  $h_{\theta}(x) = \theta_0 + \theta_1 x_1 + ... + \theta_n x_n$
 
 
 let $x_0 = 1$ (i.e. all $x_0^{(i)} = 1$) - so-called zeroth feature - always 1 (our slope)
@@ -76,7 +76,7 @@ This is called ''multivariate linear regression''
   - ($x = \text{height} \cdot \text{width}$)
 
 Next, suppose we have the following relationship between data 
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-poly.png" alt="Image">
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-poly.png" alt="Image">
 - we may try to use 
 - $\theta_0 + \theta_1 x + \theta_2 x^2 $
 - or even 

@@ -14,7 +14,7 @@ title: Semantic Domains in Computational Linguistics (book)
 
 - 2009
 - by Alfio Gliozzo, Carlo Strapparava 
-- Downloadable from Springer Link [http://link.springer.com/book/10.1007%2F978-3-540-68158-8]
+- Downloadable from Springer Link [link](http://link.springer.com/book/10.1007%2F978-3-540-68158-8)
 
 
 

@@ -75,7 +75,7 @@ boxplot(d$a ~ as.factor(d$f), col=c("blue","orange"), names=c("yes","no"), varwi
 ## Box Plot with Other [Plot](Plot)s
 Box plots are nice to combine with other plots
 - for example, with a [Scatter Plot](Scatter_Plot) 
-- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/b/openintrostat/scatter-plot-with-boxplot.png" alt="Image"> [http://www.statmethods.net/advgraphs/layout.html]
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/b/openintrostat/scatter-plot-with-boxplot.png" alt="Image"> [link](http://www.statmethods.net/advgraphs/layout.html)
 - [This](R_Visualization_Snippets#Scatter_Plot_and_Box_Plots) is the R snipped to produce this figure
 
 

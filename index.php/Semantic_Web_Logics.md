@@ -39,4 +39,4 @@ Sets
 - [RDFS](RDFS), [RDFS-Plus](RDFS-Plus), [OWL](OWL)
 
 ## Sources
-- Web Data Management, Manolescu, Ioana, et al. [http://webdam.inria.fr/Jorge/]
+- Web Data Management, Manolescu, Ioana, et al. [link](http://webdam.inria.fr/Jorge/)

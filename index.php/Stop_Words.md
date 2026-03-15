@@ -35,7 +35,7 @@ Stop words removal is a part of the [NLP Pipeline](NLP_Pipeline)
 - English: http://www.ranks.nl/stopwords
 - http://www.textfixer.com/resources/common-english-words.txt
 
-Stop words removal in NLTK [http://stackoverflow.com/questions/19130512/stopword-removal-with-nltk]:
+Stop words removal in NLTK [link](http://stackoverflow.com/questions/19130512/stopword-removal-with-nltk):
 
 ```python
 >>> from nltk.corpus import stopwords
@@ -51,7 +51,7 @@ There are cases when stop words are not removed, and even used
 
 Examples:
 - author identification ("the little words give authors away")
-- language detection: languages have very distinctive set of stop words, so they can be used to detect the language of a text (see e.g. here [http://blog.alejandronolla.com/2013/05/15/detecting-text-language-with-python-and-nltk/])
+- language detection: languages have very distinctive set of stop words, so they can be used to detect the language of a text (see e.g. here [link](http://blog.alejandronolla.com/2013/05/15/detecting-text-language-with-python-and-nltk/))
 
 
 ## Stop Words Learning
@@ -65,4 +65,4 @@ Examples:
 ## Sources
 - [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. 2012.
-- Wilbur, W. John, "The automatic identification of stop words." 1992. [http://www.researchgate.net/publication/247786801_The_automatic_identification_of_stop_words]
+- Wilbur, W. John, "The automatic identification of stop words." 1992. [link](http://www.researchgate.net/publication/247786801_The_automatic_identification_of_stop_words)

@@ -337,7 +337,7 @@ It's like Discrete [Fourier Transformation](Fourier_Transformation):
 Image Compression
 - images can be represented as Matrices, so we can apply SVD and PCA to them
 - <img src="http://habrastorage.org/files/855/a65/c62/855a65c624dc4174b526fb5e03b98555.png" alt="Image">
-- source: SVD at work [from [http://web.mit.edu/18.06/www/extras.shtml](http://web.mit.edu/18.06/www/Fall03/svd.pdf])
+- source: SVD at work [from [link](http://web.mit.edu/18.06/www/extras.shtml)(http://web.mit.edu/18.06/www/Fall03/svd.pdf])
 
 
 
@@ -364,6 +364,6 @@ There are many other applications
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
 - Strang, G. Introduction to linear algebra.
-- Jauregui, Jeff. "Principal component analysis with linear algebra." (2012). [http://www.math.union.edu/~jaureguj/PCA.pdf]
-- Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [http://www.math.washington.edu/~morrow/498_13/svd.pdf]
-- Strang, Gilbert. "The fundamental theorem of linear algebra." (1993). [http://www.engineering.iastate.edu/~julied/classes/CE570/Notes/strangpaper.pdf]
+- Jauregui, Jeff. "Principal component analysis with linear algebra." (2012). [link](http://www.math.union.edu/~jaureguj/PCA.pdf)
+- Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [link](http://www.math.washington.edu/~morrow/498_13/svd.pdf)
+- Strang, Gilbert. "The fundamental theorem of linear algebra." (1993). [link](http://www.engineering.iastate.edu/~julied/classes/CE570/Notes/strangpaper.pdf)

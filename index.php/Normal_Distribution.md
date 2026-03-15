@@ -23,7 +23,7 @@ bp = barplot(r)
 xspline(x=bp, y=r, lwd=2, shape=1, border="blue")
 text(x=bp, y=r+0.03, labels=as.character(r), xpd=TRUE, cex=0.7)
 ```
-Code [[https://stat.ethz.ch/pipermail/r-help/2003-November/041967.html](http://stackoverflow.com/a/14264451/861423])
+Code [[link](https://stat.ethz.ch/pipermail/r-help/2003-November/041967.html)(http://stackoverflow.com/a/14264451/861423])
 
 <img src="http://habrastorage.org/files/226/4f4/847/2264f48471de4f249b0db00035fd3261.png" alt="Image">
 

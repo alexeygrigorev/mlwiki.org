@@ -72,11 +72,11 @@ Pre-aggregating data:
 
 
 ## References
-- Weber, Roger, Hans-Jörg Schek, and Stephen Blott. "A quantitative analysis and performance study for similarity-search methods in high-dimensional spaces." 1998. [http://www.vldb.org/conf/1998/p194.pdf]
-- Nearest-Neighbor Methods in Learning and Vision: Theory and Practice [http://people.csail.mit.edu/gregory/annbook/book.html]
+- Weber, Roger, Hans-Jörg Schek, and Stephen Blott. "A quantitative analysis and performance study for similarity-search methods in high-dimensional spaces." 1998. [link](http://www.vldb.org/conf/1998/p194.pdf)
+- Nearest-Neighbor Methods in Learning and Vision: Theory and Practice [link](http://people.csail.mit.edu/gregory/annbook/book.html)
 
 ## Sources
-- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
+- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [link](http://static.msi.umn.edu/rreports/2003/73.pdf)
 
 
 [Categories:Machine Learning](Categories_Machine_Learning)

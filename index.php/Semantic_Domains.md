@@ -369,7 +369,7 @@ Domain Kernels can be used for any instance-based algorithm in many NLP applicat
 
 
 ## References
-- Leacock, Claudia, et al. "Towards building contextual representations of word senses using statistical models." (1996). [http://anthology.aclweb.org/W/W93/W93-0102.pdf]
+- Leacock, Claudia, et al. "Towards building contextual representations of word senses using statistical models." (1996). [link](http://anthology.aclweb.org/W/W93/W93-0102.pdf)
 
 
 ## Sources

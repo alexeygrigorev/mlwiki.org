@@ -54,7 +54,7 @@ Drawbacks
 
 
 References:
-- Sibson, Robin. "SLINK: an optimally efficient algorithm for the single-link cluster method." 1973. [http://www.cs.ucsb.edu/~veronika/MAE/SLINK_sibson.pdf]
+- Sibson, Robin. "SLINK: an optimally efficient algorithm for the single-link cluster method." 1973. [link](http://www.cs.ucsb.edu/~veronika/MAE/SLINK_sibson.pdf)
 
 
 
@@ -65,7 +65,7 @@ Worst-case similarity:
 
 
 References:
-- Defays, Daniel. "An efficient algorithm for a complete link method." 1977. [http://comjnl.oxfordjournals.org/content/20/4/364.short]
+- Defays, Daniel. "An efficient algorithm for a complete link method." 1977. [link](http://comjnl.oxfordjournals.org/content/20/4/364.short)
 
 
 ### Group-Average Linkage
@@ -90,7 +90,7 @@ Result:
 - less sensitive to outliers
 
 References:
-- El-Hamdouchi, Abdelmoula, and Peter Willett. "Hierarchic document classification using Ward's clustering method." 1986. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.7722&rep=rep1&type=pdf]
+- El-Hamdouchi, Abdelmoula, and Peter Willett. "Hierarchic document classification using Ward's clustering method." 1986. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.7722&rep=rep1&type=pdf)
 
 
 
@@ -105,10 +105,10 @@ Computational complexity:
 
 
 ## References
-- Rasmussen, Edie M. "Clustering Algorithms." Information retrieval: data structures & algorithms 1992. [http://orion.lcg.ufrj.br/Dr.Dobbs/books/book5/chap16.htm]
-- Voorhees, Ellen M. "Implementing agglomerative hierarchic clustering algorithms for use in document retrieval." 1986. [https://ecommons.library.cornell.edu/handle/1813/6605]
+- Rasmussen, Edie M. "Clustering Algorithms." Information retrieval: data structures & algorithms 1992. [link](http://orion.lcg.ufrj.br/Dr.Dobbs/books/book5/chap16.htm)
+- Voorhees, Ellen M. "Implementing agglomerative hierarchic clustering algorithms for use in document retrieval." 1986. [link](https://ecommons.library.cornell.edu/handle/1813/6605)
 
 
 ## Sources
-- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
-- Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." Data mining and knowledge discovery handbook. 2010. [https://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5]
+- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [link](http://static.msi.umn.edu/rreports/2003/73.pdf)
+- Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." Data mining and knowledge discovery handbook. 2010. [link](https://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5)

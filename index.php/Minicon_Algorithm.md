@@ -108,4 +108,4 @@ So, a rewriting for $Q(x)$ is
 
 
 ## Sources
-- Web Data Management book [http://webdam.inria.fr/Jorge]
+- Web Data Management book [link](http://webdam.inria.fr/Jorge)

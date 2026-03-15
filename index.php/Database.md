@@ -14,13 +14,13 @@ Data in a database should be self-describing and have a schema
 
 What problems databases solve? 
 - Sharing 
-: should support concurrent access between multiple readers and writers 
+  should support concurrent access between multiple readers and writers 
 - [Data Model](Data_Model) Enforcement
-: should make sure all applications see clean and organized data
+  should make sure all applications see clean and organized data
 - Scale (see [Secondary Storage](Secondary_Storage))
-: should work with datasets too large to fit into main memory
+  should work with datasets too large to fit into main memory
 - Flexibility
-: should allow using the data in new unexpected ways 
+  should allow using the data in new unexpected ways 
 
 
 ## DBMS
@@ -28,7 +28,7 @@ What problems databases solve?
 
 A Database Management System (DBMS) is expected to (by [Data Model](Data_Model) Enforcement)
 - allow users to create DBs and specify the schema - logical structure of the data 
-: (using DDL - data definition language)
+  (using DDL - data definition language)
 - allows to query and modify the data with some query language or data manipulation language
 - support storing very large amounts of data 
 - etc

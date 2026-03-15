@@ -74,4 +74,4 @@ Non-Linear
 - [Machine Learning (coursera)](Machine_Learning_(coursera))
 - [Machine Learning 1 (TUB)](Machine_Learning_1_(TUB))
 - [Machine Learning 2 (TUB)](Machine_Learning_2_(TUB))
-- Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [http://arxiv.org/pdf/cs/0110053.pdf]
+- Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [link](http://arxiv.org/pdf/cs/0110053.pdf)

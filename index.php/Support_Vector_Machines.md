@@ -51,12 +51,12 @@ Finally we have:
 The final difference is that 
 - [Logistic Regression](Logistic_Regression) outputs probabilities 
 - but for SVM out hypothesis is 
-: $h_{\theta}(x) = \left\{ \begin{array}{l l} 1 & \text{ if  } \theta^T x \geqslant 0 \\ 0 & \text{ otherwise }   \end{array} \right.$
+  $h_{\theta}(x) = \left\{ \begin{array}{l l} 1 & \text{ if  } \theta^T x \geqslant 0 \\ 0 & \text{ otherwise }   \end{array} \right.$
 
 
 ## Large Margin
 Here's the SVM cost functions:
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/svm-cost.png" alt="Image">
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/svm-cost.png" alt="Image">
 
 Large margin means that 
 - when $y = 1$ we want $\theta^T x \geqslant 1$, not just $\geqslant 0$
@@ -84,7 +84,7 @@ For SVM, suppose our cost function is
 - For simplification we skip the fist term of our sum and we assume that $\theta_0 = 0$ and number of features $n = 2$
 - $\theta^2 = \theta^T \theta$ is an [Inner Product](Inner_Product)
 - so we get:
-: $J(\theta) = \cfrac{1}{2} \sum_{j = 1}^{n} \theta_j^2 = \cfrac{1}{2} (\theta_1^2 + \theta_2^2) = \cfrac{1}{2} \left( \sqrt{\theta_1^2 + \theta_2^2} \right)^2 = \cfrac{1}{2} \|  \theta \|^2$
+  $J(\theta) = \cfrac{1}{2} \sum_{j = 1}^{n} \theta_j^2 = \cfrac{1}{2} (\theta_1^2 + \theta_2^2) = \cfrac{1}{2} \left( \sqrt{\theta_1^2 + \theta_2^2} \right)^2 = \cfrac{1}{2} \|  \theta \|^2$
 - our optimization objective is to minimize the norm of $\theta$
  |
 Next, let's have a look at  $\theta^T \cdot x^{(i)}$
@@ -129,12 +129,12 @@ Suppose we have the following data
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/svm-kernels-nonlinear.png" alt="Image">
 - The decision boundary is non linear 
 - so we predict $y = 1$ if 
-: $\theta_0 + \theta_1 x_1 + \theta_2 x_2 + \theta_3 x_1 x_2 + \theta_4 x_1^2 + + \theta_5 x_2^2 + ... \geqslant 0$
+  $\theta_0 + \theta_1 x_1 + \theta_2 x_2 + \theta_3 x_1 x_2 + \theta_4 x_1^2 + + \theta_5 x_2^2 + ... \geqslant 0$
 
 Let's denote each feature as $f$:
 - $f_1 = x_1$, $f_2 = x_2 $, $f_3 = x_1 x_2$, $f_4 = x_1^2$, $f_5 = x_2^2$
 - So we have 
-: $\theta_0 + \theta_1 f_1 + \theta_2 f_2 + \theta_3 f_1 f_2 + \theta_4 f_1^2 + \theta_5 f_2^2 + ... \geqslant 0$
+  $\theta_0 + \theta_1 f_1 + \theta_2 f_2 + \theta_3 f_1 f_2 + \theta_4 f_1^2 + \theta_5 f_2^2 + ... \geqslant 0$
 
 
 Is there a different / better choice of features $f_1, f_2, f_3, ...$? 
@@ -178,9 +178,9 @@ Now given $x$ we can compute all these features
 Suppose we have the following model:
 - $\theta_0 + \theta_1 f_1 + \theta_2 f_2 + \theta_3 f_3 \geqslant 0$
 - let's say we have the following $\theta$:
-: $\theta_0 = -0.5, \theta_1 = 1, \theta_2 = 1, \theta_3 = 0$
+  $\theta_0 = -0.5, \theta_1 = 1, \theta_2 = 1, \theta_3 = 0$
 - which gives us the following contour:
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/svm-kernels-landmarks-with.png" alt="Image">
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/svm-kernels-landmarks-with.png" alt="Image">
 
 
 Say we have a $x$ near $l^{(1)}$ (green one on the left)
@@ -239,7 +239,7 @@ and so on
 ### Getting $\theta$
 - To get $\theta$ we need to train our classifier
 - recall that our objective function is 
-: $\min_{\theta}  C \cdot \sum_{i = 1}^{m} \left [ y^{(i)} \cdot \text{cost}_{1}(\theta^T x^{(i)}) + (1 - y^{(i)}) \cdot \text{cost}_{0}(\theta^T x^{(i)})    \right]  + \cfrac{1}{2} \sum_{j = 1}^{n} \theta_j^2$
+  $\min_{\theta}  C \cdot \sum_{i = 1}^{m} \left [ y^{(i)} \cdot \text{cost}_{1}(\theta^T x^{(i)}) + (1 - y^{(i)}) \cdot \text{cost}_{0}(\theta^T x^{(i)})    \right]  + \cfrac{1}{2} \sum_{j = 1}^{n} \theta_j^2$
 - with Kernels, we now have $n = m + 1$ features 
 
 Let's take a closer look at the second term

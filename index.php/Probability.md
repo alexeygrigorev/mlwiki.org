@@ -58,12 +58,12 @@ $P(A) = \frac{m}{n}$, where $m$ is the number of favorable outcomes, $n$ is the 
 :* $\omega_3$ - black ball
 
 - Events
-: $A$ - a white ball is drawn
-: $B$ - a black ball is drawn
+  $A$ - a white ball is drawn
+  $B$ - a black ball is drawn
 
 - Probabilities
-: $P(A) = \frac{2}{3}$
-: $P(B) = \frac{1}{3}$
+  $P(A) = \frac{2}{3}$
+  $P(B) = \frac{1}{3}$
 
 ### Properties of Probability
 

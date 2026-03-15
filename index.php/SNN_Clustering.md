@@ -115,9 +115,9 @@ Parameter tuning:
 
 
 ## References
-- Jarvis, Raymond A., and Edward A. Patrick. "Clustering using a similarity measure based on shared near neighbors." (1973). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.474.2388&rep=rep1&type=pdf]
-- See also: Houle, Michael E., et al. "Can shared-neighbor distances defeat the curse of dimensionality?." 2010. [http://www.dbs.ifi.lmu.de/~zimek/publications/SSDBM2010/SNN-SSDBM2010-preprint.pdf]
+- Jarvis, Raymond A., and Edward A. Patrick. "Clustering using a similarity measure based on shared near neighbors." (1973). [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.474.2388&rep=rep1&type=pdf)
+- See also: Houle, Michael E., et al. "Can shared-neighbor distances defeat the curse of dimensionality?." 2010. [link](http://www.dbs.ifi.lmu.de/~zimek/publications/SSDBM2010/SNN-SSDBM2010-preprint.pdf)
 
 
 ## Sources
-- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [http://static.msi.umn.edu/rreports/2003/73.pdf]
+- Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [link](http://static.msi.umn.edu/rreports/2003/73.pdf)

@@ -38,4 +38,4 @@ E.g. $\chi^2$ measures how the results of an observation differs from the result
 
 
 ## Sources
-- Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [http://arxiv.org/pdf/cs/0110053.pdf]
+- Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [link](http://arxiv.org/pdf/cs/0110053.pdf)

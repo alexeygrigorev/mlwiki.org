@@ -17,7 +17,7 @@ Rule-based classifiers
 ## 1-Rule
 ### Example
 Suppose we have the following dataset 
-| + Titanic dataset [http://www.kaggle.com/c/titanic-gettingStarted/data] ||   pclass  |  sex  |  age  |  sibsp  |  parch  |  fare  |  embarked  |  survived  |  3  |  male  |  22  |  1  |  0  |  7.25  |  S  |  0 ||  1  |  female  |  38  |  1  |  0  |  71.28  |  C  |  1 ||  3  |  female  |  26  |  0  |  0  |  7.93  |  S  |  1 ||  1  |  female  |  35  |  1  |  0  |  53.10  |  S  |  1 ||  3  |  male  |  35  |  0  |  0  |  8.05  |  S  |  0 ||  3  |  male  |    |  0  |  0  |  8.46  |  Q  |  0 ||  1  |  male  |  54  |  0  |  0  |  51.86  |  S  |  0 ||  3  |  male  |  2  |  3  |  1  |  21.08  |  S  |  0 ||  3  |  female  |  27  |  0  |  2  |  11.13  |  S  |  1 ||  2  |  female  |  14  |  1  |  0  |  30.07  |  C  |  1 ||  3  |  female  |  4  |  1  |  1  |  16.70  |  S  |  1 ||  1  |  female  |  58  |  0  |  0  |  26.55  |  S  |  1 |
+| + Titanic dataset [link](http://www.kaggle.com/c/titanic-gettingStarted/data) ||   pclass  |  sex  |  age  |  sibsp  |  parch  |  fare  |  embarked  |  survived  |  3  |  male  |  22  |  1  |  0  |  7.25  |  S  |  0 ||  1  |  female  |  38  |  1  |  0  |  71.28  |  C  |  1 ||  3  |  female  |  26  |  0  |  0  |  7.93  |  S  |  1 ||  1  |  female  |  35  |  1  |  0  |  53.10  |  S  |  1 ||  3  |  male  |  35  |  0  |  0  |  8.05  |  S  |  0 ||  3  |  male  |    |  0  |  0  |  8.46  |  Q  |  0 ||  1  |  male  |  54  |  0  |  0  |  51.86  |  S  |  0 ||  3  |  male  |  2  |  3  |  1  |  21.08  |  S  |  0 ||  3  |  female  |  27  |  0  |  2  |  11.13  |  S  |  1 ||  2  |  female  |  14  |  1  |  0  |  30.07  |  C  |  1 ||  3  |  female  |  4  |  1  |  1  |  16.70  |  S  |  1 ||  1  |  female  |  58  |  0  |  0  |  26.55  |  S  |  1 |
 If we visualize the data by sex
 - color-coding survived with blue and not survived with red
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/ds/rules-tit-sex.png" alt="Image">
@@ -73,7 +73,7 @@ Can go further
 Where to extract these rules from?
 - from [Decision Trees](Decision_Tree_(Data_Mining))
   - each path from top to the bottom is a rule, and the leaf is a class
-- sequential covering - for learning rules directly (PRISM algorithm [http://www.cs.bc.edu/~alvarez/DataMining/Notes/covering.html])  
+- sequential covering - for learning rules directly (PRISM algorithm [link](http://www.cs.bc.edu/~alvarez/DataMining/Notes/covering.html))  
   - repeatedly removes a portion of the dataset
   - the portion - instances covered by the most promising rule at each stage
 
@@ -88,7 +88,7 @@ Where to extract these rules from?
   - remove from $D$ all instances correctly classified by $r$
 
 
-Finding the next rule [http://www.evernote.com/shard/s344/sh/d82d9776-7319-4ce2-8cb3-f96c59dd70ba/86a3d6d63dc9ffef6e0420cd0944e845]
+Finding the next rule [link](http://www.evernote.com/shard/s344/sh/d82d9776-7319-4ce2-8cb3-f96c59dd70ba/86a3d6d63dc9ffef6e0420cd0944e845)
 - FindNextRule($C, D$) subroutine
 - uses [Depth-First Search](Depth-First_Search) to construct the next rule for class $C$ 
 - we know the consequent for this rule: it's $C$
@@ -121,7 +121,7 @@ Finding the next rule [http://www.evernote.com/shard/s344/sh/d82d9776-7319-4ce2-
 
 
 ### Example
-A good example of PRISM can be found at [http://www.cs.bc.edu/~alvarez/DataMining/Notes/covering.html]
+A good example of PRISM can be found at [link](http://www.cs.bc.edu/~alvarez/DataMining/Notes/covering.html)
 
 
 ### Strategies for Learning Rules
@@ -145,7 +145,7 @@ Each rule can be evaluated using these measures
 
 Other measures of "promisingness"
 - [Information Gain](Information_Gain)
-- see page 38 at [http://www.slideshare.net/pierluca.lanzi/machine-learning-and-data-mining-12-classification-rules]
+- see page 38 at [link](http://www.slideshare.net/pierluca.lanzi/machine-learning-and-data-mining-12-classification-rules)
 
 
 ## Sources and Links

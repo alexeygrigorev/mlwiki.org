@@ -122,9 +122,9 @@ Evaluation
 
 ## Links
 - http://en.wikipedia.org/wiki/Data_mining
-- nice DM&ML slides [http://www.evernote.com/shard/s344/sh/284d7df3-ef98-41d3-9de5-9cbc4ad4b800/77713ac8ce6e2d4b52e2b5c63e7fe2f5]
-- Data Mining syllabus in Boston College [http://www.evernote.com/shard/s344/sh/da3d2ca3-390f-4a0b-b443-b1773c7c24d4/9ad3c26bd0ef9e637d8bdce2011db309]
-- Data Mining map by Saed Sayad [http://www.saedsayad.com/data_mining_map.htm]
+- nice DM&ML slides [link](http://www.evernote.com/shard/s344/sh/284d7df3-ef98-41d3-9de5-9cbc4ad4b800/77713ac8ce6e2d4b52e2b5c63e7fe2f5)
+- Data Mining syllabus in Boston College [link](http://www.evernote.com/shard/s344/sh/da3d2ca3-390f-4a0b-b443-b1773c7c24d4/9ad3c26bd0ef9e637d8bdce2011db309)
+- Data Mining map by Saed Sayad [link](http://www.saedsayad.com/data_mining_map.htm)
 
 
 ## Source

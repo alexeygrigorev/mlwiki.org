@@ -152,8 +152,8 @@ Example 3:
 
 
 ## Links
-- Lecture notes from Evernote: [https://www.evernote.com/shard/s344/sh/9de02c1b-f96f-41ff-9095-13ae608be099/e1e4dd29c665b5f2a6f21c45ea90a467] 
-- BPMN 2.0 reference card [http://www.chellar.com/AnalysisFu/images/ccp/BPMN_Poster.pdf]
+- Lecture notes from Evernote: [link](https://www.evernote.com/shard/s344/sh/9de02c1b-f96f-41ff-9095-13ae608be099/e1e4dd29c665b5f2a6f21c45ea90a467) 
+- BPMN 2.0 reference card [link](http://www.chellar.com/AnalysisFu/images/ccp/BPMN_Poster.pdf)
 - [Exercises 1](http://dl.dropboxusercontent.com/u/5119252/BPM/2013/Exercises%20BPMN.pdf) [Solutions 1](http://dl.dropboxusercontent.com/u/5119252/BPM/2013/Solution%20BPMN.pdf)
 - [Exercises 2](http://dl.dropboxusercontent.com/u/5119252/BPM/2013/BPMN%20Modeling.pdf) [Solutions 2](http://dl.dropboxusercontent.com/u/5119252/BPM/2013/Solutions%20BPMN%20Modeling.pdf) ([in-class notes](http://www.evernote.com/shard/s344/sh/5c34000b-89aa-4277-93e9-54ac3ba77e98/79ca7457df8ba7aac3766ac2656d9235))
 

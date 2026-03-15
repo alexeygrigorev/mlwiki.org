@@ -33,10 +33,10 @@ If not Normal, use these non-parametric tests
 
 ## Links
 - http://www.marketingdistillery.com/2014/08/10/multiple-abn-tests-in-marketing-with-anova-and-r/
-- Book with chapters about ANOVA [http://vassarstats.net/textbook/toc.html]
-  - Conceptual Introduction to the Analysis of Variance [http://vassarstats.net/textbook/ch13pt1.html]
-  - ONE-way analysis for independent samples [[http://vassarstats.net/textbook/ch14pt2.html](http://vassarstats.net/textbook/ch14pt1.html])
-  - The Kruskal-Wallis Test for 3 or More Independent Samples [http://vassarstats.net/textbook/ch14a.html]
+- Book with chapters about ANOVA [link](http://vassarstats.net/textbook/toc.html)
+  - Conceptual Introduction to the Analysis of Variance [link](http://vassarstats.net/textbook/ch13pt1.html)
+  - ONE-way analysis for independent samples [[link](http://vassarstats.net/textbook/ch14pt2.html)(http://vassarstats.net/textbook/ch14pt1.html])
+  - The Kruskal-Wallis Test for 3 or More Independent Samples [link](http://vassarstats.net/textbook/ch14a.html)
 - http://www.personality-project.org/r/r.anova.html
 
 

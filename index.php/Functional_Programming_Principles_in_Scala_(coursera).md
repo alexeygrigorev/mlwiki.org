@@ -113,7 +113,7 @@ def abs(x: Int) = if (x >= 0) x else -x
 ### Blocks and Lexical Scope
 It is considered good programming style to break complex functions into many small ones; however, many functions are only meaningful for a specific implementation of some algorithm and are not intended for external use.
 
-For example, given an algorithm for computing the square root using Newton's method [(see also [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.7](http://ru.wikipedia.org/wiki/Newton's_method]))
+For example, given an algorithm for computing the square root using Newton's method [(see also [link](http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.7)(http://ru.wikipedia.org/wiki/Newton's_method]))
 ```python
 def sqrt(x: Double): Double =
   sqrtIter(1.0, x)
@@ -243,7 +243,7 @@ This is called [*currying*](Functional_Programming#Currying).
 
 
 ### Example: Finding a Fixed Point
-Finding a Fixed Point [[http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-12.html#%_sec_Temp_106](http://ru.wikipedia.org/wiki/Fixed_point])
+Finding a Fixed Point [[link](http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-12.html#%_sec_Temp_106)(http://ru.wikipedia.org/wiki/Fixed_point])
 
 $x$ is called a *fixed point* of function $f$ if $f(x) = x$
 
@@ -1393,7 +1393,7 @@ fruit filter (_.startsWith("app"))
 ```
 
 ### Example: 8 Queens
-The problem [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-15.html#%_thm_2.42]: how to place $N$ queens so that none can capture another. That is, the queens must be placed so that none of them is on the same row, column, or diagonal.
+The problem [link](http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-15.html#%_thm_2.42): how to place $N$ queens so that none can capture another. That is, the queens must be placed so that none of them is on the same row, column, or diagonal.
 
 Algorithm:
 - assume we already have a solution for the first $k-1$ queens on a board of size $n$
@@ -1506,7 +1506,7 @@ Polynom(1 -> 2.0, 3 -> 4.0, 5 -> 6.2)
 
 ## Lazy Evaluation
 ### Stream
-[http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5]. Given the task: compute the second prime number in the sequence between 1000 and 10000.
+[link](http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5). Given the task: compute the second prime number in the sequence between 1000 and 10000.
 
 ```scdoc
 ((1000 to 10000) filter isPrime)(1)
@@ -1579,7 +1579,7 @@ def cons[T](hd: T, tl: => Stream) = new Stream {
 ```
 
 ### Infinite Sequences
-Using streams, sequences of unlimited size can be created [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5.2]:
+Using streams, sequences of unlimited size can be created [link](http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5.2):
 
 ```python
 def from(n: Int): Stream[Int] = n #:: from(n + 1)

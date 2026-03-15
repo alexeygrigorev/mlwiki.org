@@ -13,27 +13,27 @@ Workflow patterns help to express the constructions common to workflows
 
 ## Basic Control Flow Patterns
 ### Sequence
-First task $A$, then task $B$ [http://www.workflowpatterns.com/patterns/control/basic/wcp1.php]:
+First task $A$, then task $B$ [link](http://www.workflowpatterns.com/patterns/control/basic/wcp1.php):
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-sequence.png" alt="Image">
 
 ### Parallel Split
-Tasks $b$ and $c$ are processed in parallel [http://www.workflowpatterns.com/patterns/control/basic/wcp2.php]
+Tasks $b$ and $c$ are processed in parallel [link](http://www.workflowpatterns.com/patterns/control/basic/wcp2.php)
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-par-split.png" alt="Image">
 
 
 ### Synchronization
-Do $d$ only after both $b$ and $c$ are completed [http://www.workflowpatterns.com/patterns/control/basic/wcp3.php]
+Do $d$ only after both $b$ and $c$ are completed [link](http://www.workflowpatterns.com/patterns/control/basic/wcp3.php)
 - this is a synchronization between two parallel processes 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-synch.png" alt="Image">
 
 
 ### Exclusive Choice
-after $a$, do $b$ or $c$ [http://www.workflowpatterns.com/patterns/control/basic/wcp4.php]
+after $a$, do $b$ or $c$ [link](http://www.workflowpatterns.com/patterns/control/basic/wcp4.php)
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-xor.png" alt="Image">
 
 
 ### Simple Merge
-perform $d$ after $b$ or $c$ finishes [http://www.workflowpatterns.com/patterns/control/basic/wcp5.php]
+perform $d$ after $b$ or $c$ finishes [link](http://www.workflowpatterns.com/patterns/control/basic/wcp5.php)
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-xor-merge.png" alt="Image">
 
 

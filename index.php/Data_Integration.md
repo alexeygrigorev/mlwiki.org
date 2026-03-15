@@ -36,4 +36,4 @@ Goal of Data Integration - provide uniform access to heterogeneous data sources 
 - http://en.wikipedia.org/wiki/Data_integration
 
 ## Source
-- Web Data Management book [http://webdam.inria.fr/Jorge]
+- Web Data Management book [link](http://webdam.inria.fr/Jorge)

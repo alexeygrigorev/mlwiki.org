@@ -37,7 +37,7 @@ Functions that take other functions as arguments or return them as results are c
 
 
 ## Expression Evaluation
-Since functional languages have no side effects (because there are no state changes), the Substitution Model [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.5] can be used to evaluate expressions.
+Since functional languages have no side effects (because there are no state changes), the Substitution Model [link](http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.5) can be used to evaluate expressions.
 - The basic idea: gradually reduce the expression to some value
 - This is called *$\lambda$-calculus* - the foundation of functional programming
 
@@ -53,7 +53,7 @@ A *side effect* is a change in previously established definitions. Functions wit
 - [Haskell](Haskell)
 
 ## Literature
-- Structure and Interpretation of Computer Programs [[http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://mitpress.mit.edu/sicp/full-text/book/book.html])
+- Structure and Interpretation of Computer Programs [[link](http://newstar.rinet.ru/~goga/sicp/sicp.pdf)(http://mitpress.mit.edu/sicp/full-text/book/book.html])
 - A. Field, P. Harrison, Functional Programming.
 
 ## Sources

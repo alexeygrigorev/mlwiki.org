@@ -31,4 +31,4 @@ In FOL, inference is generally [undecidable](Decidability)
 - [Descriptive Logic](Descriptive_Logic)
 
 ## Sources
-- Web Data Management, Manolescu, Ioana, et al. [http://webdam.inria.fr/Jorge/]
+- Web Data Management, Manolescu, Ioana, et al. [link](http://webdam.inria.fr/Jorge/)

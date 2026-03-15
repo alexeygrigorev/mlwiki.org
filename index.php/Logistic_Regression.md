@@ -16,8 +16,8 @@ Suppose we have a ''binary classification problem'':
 ### [Linear Regression](Linear_Regression)
 We may try to use [Linear Regression](Linear_Regression) for that
 - We fit a regression line 
-: $h_{\theta}(x) = \theta^T x$
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-linear-motivation.png" alt="Image">
+  $h_{\theta}(x) = \theta^T x$
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-linear-motivation.png" alt="Image">
 - And we set a "threshold" at 0.5
   - if $h_{\theta}(x) \geqslant 0.5$ - we predict 1 
   - if $h_{\theta}(x) < 0.5$ - we predict 0
@@ -39,8 +39,8 @@ Logistic Regression - is a classification algorithm
 - we want - $0 \leqslant h_{\theta}(x) \leqslant 1$
 - let $h_{\theta}(x) = g(\theta^T x)$
 - where $g(z) = \cfrac{1}{1 + e^{-z}}$ - ''sigmoid (logistic) function''
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-sigmoid.png" alt="Image">
-: it's always between 0 and 1
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-sigmoid.png" alt="Image">
+  it's always between 0 and 1
 
 
 It inputs probability
@@ -58,7 +58,7 @@ Suppose we predict
 - "$y = 0$" if $h_{\theta}(x) < 0.5$
 
 - $g(z) \geqslant 0.5$ when $z \geqslant 0$
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-sigmoid.png" alt="Image">
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-sigmoid.png" alt="Image">
 - so $h_{\theta}(x) = g(\theta^T x) \geqslant 0.5$ when $\theta^T x \geqslant 0$
 
 
@@ -67,27 +67,27 @@ Suppose we predict
 - for $\theta = [-3, 1, 1]^T$
 - $y = 1$ if $\theta^T x = -3 + x_1 + x_2 \geqslant 0$ (or $x_1 + x_2 \geqslant 3$)
 - So we have the following decision boundary line
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-decision-boundary.png" alt="Image">
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-decision-boundary.png" alt="Image">
 - this line separates two regions: one with "$y = 1$" and another with "$y = 0$"
 
 
 We may fit as complex expressions as we like
 - Suppose we want non-linear decision boundary
 - we fit polynomial expression:
-: $h_{\theta} = g(\theta_0 + \theta_1 x_1 + \theta_2 x_2 + \theta_3 x_1^2 + \theta_4 x_2^2)$
+  $h_{\theta} = g(\theta_0 + \theta_1 x_1 + \theta_2 x_2 + \theta_3 x_1^2 + \theta_4 x_2^2)$
 - Assume $\theta = [-1, 0, 0, 1, 1]^T$
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-decision-boundary-poly.png" alt="Image">
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-decision-boundary-poly.png" alt="Image">
 - here we predict "$y = 1$" if $x_1^2 + x_2^2 \geqslant 1$
 
 
 ### Examples
 Suppose we fit $h_{\theta}(x) = g(\theta_0 + \theta_1 x_1 + \theta_2 x_2)$
 - with parameters $\theta_0 = -6$, $\theta_1 = 0$  and $\theta_2 = 1$
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-decision-boundary-ex1.png" alt="Image">
-: the transition from negative to positive occur when x_2 goes from below 6 to above 6
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-decision-boundary-ex1.png" alt="Image">
+  the transition from negative to positive occur when x_2 goes from below 6 to above 6
 - if parameters are $\theta_0 = 6$, $\theta_1 = -1$  and $\theta_2 = 0$,
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-decision-boundary-ex2.png" alt="Image">
-: the transition occurs when $x_1$ goes from above 6 to below 6 (note that $\theta_1 = -1$)
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-decision-boundary-ex2.png" alt="Image">
+  the transition occurs when $x_1$ goes from above 6 to below 6 (note that $\theta_1 = -1$)
 
 
 ## Cost Function
@@ -107,7 +107,7 @@ For [Linear Regression](Linear_Regression) the cost function was
 
 
 For logistic regression the problem with this approach is that with the sigmoid function g(z) it gives a non-convex function 
-: <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-convex-non-convex.png" alt="Image">
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-convex-non-convex.png" alt="Image">
 - that is, 
 - if $J(\theta)$ is non-convex, it has many local optima, and [Gradient Descent](Gradient_Descent) is not guaranteed to converge to a global optimum
 - if $J(\theta)$ is convex, [Gradient Descent](Gradient_Descent) always converges to a global optimum

@@ -15,7 +15,7 @@ Independence to Third Alternatives, or Independence to Irrelevant alternatives i
 ### Definition
 - Suppose we have a set of alternatives (candidates) $A^*$
 - Let us consider 4 different individual rankings over the sets $A^*$ and $A$ s.t. $A \subset A^*$ 
-: (note that $A$ is a strict subset of $A^*$)
+  (note that $A$ is a strict subset of $A^*$)
 - The rankings are $R_1, R_2$ and $R'_1, R'_2$
 - $S_1, S_2, S'_1, S'_2$ are indifference relations defined by these orderings (respectively)
 - we assume that $R_1 \equiv R'_1$ and $R_2 \equiv R'_2$ for the set $A$
@@ -97,4 +97,4 @@ Methods that suffer from the manipulation:
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-- EC228 Voting Theory Lecture Notes [http://www2.warwick.ac.uk/fac/soc/economics/current/modules/ec228/details/lecturenotes/lecturenotesbook.pdf]
+- EC228 Voting Theory Lecture Notes [link](http://www2.warwick.ac.uk/fac/soc/economics/current/modules/ec228/details/lecturenotes/lecturenotesbook.pdf)

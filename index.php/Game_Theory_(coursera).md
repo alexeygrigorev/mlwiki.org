@@ -27,6 +27,6 @@ title: Game Theory (coursera)
 
 
 ## Info
-- Ссылка на svn директорию [http://stolzen.googlecode.com/svn/trunk/courses/coursera/Game%20Theory/]
-- Отсканированный конспект [https://www.dropbox.com/s/vo6nbmhdvzs2947/Game%20Theory%20coursera.pdf]
-- mindmap [http://stolzen.googlecode.com/svn/trunk/courses/coursera/Game%20Theory/Game%20Theory.xmind]
+- Ссылка на svn директорию [link](http://stolzen.googlecode.com/svn/trunk/courses/coursera/Game%20Theory/)
+- Отсканированный конспект [link](https://www.dropbox.com/s/vo6nbmhdvzs2947/Game%20Theory%20coursera.pdf)
+- mindmap [link](http://stolzen.googlecode.com/svn/trunk/courses/coursera/Game%20Theory/Game%20Theory.xmind)
