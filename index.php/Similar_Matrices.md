@@ -26,7 +26,8 @@ A family of similar matrices for $A$ is a set of matrices similar for $A$ for di
 
 ## Why Similar?
 What is similar about such $A$ and $B$? 
-- they have the same eigenvalues|   | |Let's check it:
+- they have the same eigenvalues
+ |Let's check it:
 - let $A \mathbf x = \lambda \mathbf x$
 - and $B = M^{-1} A \, M$
 - then $A \mathbf x = A I \mathbf x = A M M^{-1} \mathbf x = \lambda \mathbf x$

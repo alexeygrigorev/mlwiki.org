@@ -91,7 +91,8 @@ title: Bayesian Game
       - $\Pi(A_i)$ - probability distribution over actions of your type
     - a choice of x mixed action for player i as a function of his type
     - distribution over actions
-      - $s_i(a_i |  \Theta_i)$ |      - [what's the probability that action a_i will be chosen if they happen to be of type $\Theta_i$]
+      - $s_i(a_i |  \Theta_i)$
+- [what's the probability that action a_i will be chosen if they happen to be of type $\Theta_i$]
       - the probability under mixed strategy $s_i$ that agent $i$ plays action $a_i$, given that type is $\Theta_i$
 - types
   - ex-ante
@@ -100,13 +101,19 @@ title: Bayesian Game
     - agents know their own types, but don't know the types of each other
     - for player i with respect to type \theta_i and mixed strategy profile s
     - expected utility
-      - $EU_i(s |  \Theta_i) = \sum_{\theta_{-i} \in \Theta_{-i}} p (\theta_{-i} | \theta{i}) * \sum_{a \in A}(\prod_{j \in N} s_i(a_i | \theta_i) * u_i(a, \Theta_i, \Theta_{-i}))$ |      - $u_i(a, \Theta_i, \Theta_{-i})$ - utilities evaluated with respect to their types
-      - $\prod_{j \in N} s_i(a_i |  \theta_i)$  - what other players will be doing |      - $\sum_{\theta_{-i) \in \Theta_{-i}} p (\theta_{-i} |  \theta{i})$ - sum across all probabilities of types for others |      - $EU_i(s |  \Theta_i)$ - what can i expect of he of type \Theta_i and follows s |  - ex-post
+      - $EU_i(s |  \Theta_i) = \sum_{\theta_{-i} \in \Theta_{-i}} p (\theta_{-i} | \theta{i}) * \sum_{a \in A}(\prod_{j \in N} s_i(a_i | \theta_i) * u_i(a, \Theta_i, \Theta_{-i}))$
+- $u_i(a, \Theta_i, \Theta_{-i})$ - utilities evaluated with respect to their types
+      - $\prod_{j \in N} s_i(a_i |  \theta_i)$  - what other players will be doing
+- $\sum_{\theta_{-i) \in \Theta_{-i}} p (\theta_{-i} |  \theta{i})$ - sum across all probabilities of types for others
+- $EU_i(s |  \Theta_i)$ - what can i expect of he of type \Theta_i and follows s
+- ex-post
     - averybody knows everything
     - expected utility
-      - $EU_i (s) = \sum_{\theta_i \in \Theta_i} p(\theta_i) EU_i(s |  \theta_i)$ |- Bayesian Equilibrium
+      - $EU_i (s) = \sum_{\theta_i \in \Theta_i} p(\theta_i) EU_i(s |  \theta_i)$
+- Bayesian Equilibrium
   - a mixed strategy profile s that satisfies
-  - $s_i \in \arg \max_{s'_i} EU_i(s'_i, s_{-i} |  \Theta_i)$ |  - each individual should choose the best response, maximizing the expected utility
+  - $s_i \in \arg \max_{s'_i} EU_i(s'_i, s_{-i} |  \Theta_i)$
+- each individual should choose the best response, maximizing the expected utility
   - for each $i$ and $\theta_i \in \Theta_i$
   - summary
     - it explicitly models behavior in uncertain environment

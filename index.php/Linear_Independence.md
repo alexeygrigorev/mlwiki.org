@@ -38,7 +38,7 @@ Columns of a matrix $A$ are independent if the [Nullspace](Nullspace) $N(A)$ con
   - so there's a combination of columns with coefficients $\mathbf x$ that is equal to $\mathbf 0$ 
 - It's related to [rank](Rank_(Matrix)) as well: 
   - if $r = n$,  then there are no free variables and $N(A) = \{ \, \mathbf 0 \, \}$
-  - if $r < n$, there are free variables and $|  N(A) | > 1$ |
+  - if $r < n$, there are free variables and $|  N(A) | > 1$
 
 
 ## Sources

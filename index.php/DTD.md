@@ -14,28 +14,36 @@ DTD, or Document Type Definition, is a language for defining schemas for [XML](X
 
 ### Regular Expression
 The following defines the valid content of <code>table</code> element in XTML
-- <code>caption? ( col* |  colgroup* ) thead? tfoot? ( tbody+ | tr+ )</code> |- with this expression, the following is a minimal possible word that matches it
+- <code>caption? ( col* |  colgroup* ) thead? tfoot? ( tbody+ | tr+ )</code>
+- with this expression, the following is a minimal possible word that matches it
 - <code>tbody tr</code>
 
 
 ## Schema Definition
 ### Declaration
 To declare schema
-- add <code><|  DOCTYPE {name} SYSTEM "http://{uri}.dtd"></code> to the beginning of an XML document | |<?xml version="1.1"?> 
+- add <code><|  DOCTYPE {name} SYSTEM "http://{uri}.dtd"></code> to the beginning of an XML document 
+<?xml version="1.1"?> 
 <|  DOCTYPE collection SYSTEM "http://foo.fr/example.dtd"> |<collection>  |... 
 </collection> 
 
 
-### |  ELEMENT |The declaration for elements (tags or titles in our XML documents) is the following  |- <|  ELEMENT {name} {content_mode}> where |- name - a name of some tag from the document |- content_mode <code>EMPTY</code>, <code>ANY</code> or 
+### |  ELEMENT |The declaration for elements (tags or titles in our XML documents) is the following
+- <|  ELEMENT {name} {content_mode}> where
+- name - a name of some tag from the document
+- content_mode <code>EMPTY</code>, <code>ANY</code> or 
 - <code>#PCDATA</code> "parsed character data", only one text element is allowed in the content
 - some regular expression over the tag names
 
 
 Example:
-- <code><|  ELEMENT table (caption?,(col*|colgroup*),thead?,tfoot?,(tbody+|tr+)) ></code> |- colon (<code>,</code>) is used to express concatenation, pipe (<code>|</code>) - to express union |
+- <code><|  ELEMENT table (caption?,(col*|colgroup*),thead?,tfoot?,(tbody+|tr+)) ></code>
+- colon (<code>,</code>) is used to express concatenation, pipe (<code>|</code>) - to express union
 
 
-### <code>|  ATTLIST</code> |Also we need to declare attributes for elements |- syntax: <code><|  ATTLIST {tag} {attribute} {type} {#REQUIRED|#IMPLIED}></code>  | |
+### <code>|  ATTLIST</code> |Also we need to declare attributes for elements
+- syntax: <code><|  ATTLIST {tag} {attribute} {type} {#REQUIRED|#IMPLIED}></code>  
+
 ```f#
 <|  ATTLIST input maxlength CDATA #REQUIRED  |                tabindex CDATA #IMPLIED> |
 ```

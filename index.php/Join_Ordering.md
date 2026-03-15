@@ -21,14 +21,16 @@ Example
 
 
 ## Importance of Orderings
-But [physical join operators](Physical_Operators_(databases)#Join) are binary|   |- Order becomes important |
+But [physical join operators](Physical_Operators_(databases)#Join) are binary
+- Order becomes important
 how can we order these joins?
 - $R \Join S \Join T \Join U \equiv$
 - $((R \Join S) \Join T) \Join U \equiv$
 - $(R \Join S) \Join (T \Join U) \equiv$
 - $((R \Join T) \Join U) \Join S \equiv$
 - $...$
-- A lot|   (note that natural join is possible even if there are no matching tuples) | |Recall that Join is the most expensive operation
+- A lot|   (note that natural join is possible even if there are no matching tuples) 
+Recall that Join is the most expensive operation
 - need to carefully choose the order 
 
 ### Example
@@ -66,7 +68,10 @@ We see that we need to enumerate all possible join orderings
 - in how many ways we can put ()s?
 - how many permutations are there?
 
-$\Rightarrow$ the number of possible orderings is $n|   \times T(n)$ |- $n| $ - number of ways to permute $n$ relations |- $T(n)$ ways to create a binary tree over $n$ leaf nodes  |  - $T(1) = 1, T(n) = \sum_{i = 1}^{n - 1} T(i) \times T(n - 1)$
+$\Rightarrow$ the number of possible orderings is $n|   \times T(n)$
+- $n!$ - number of ways to permute $n$ relations
+- $T(n)$ ways to create a binary tree over $n$ leaf nodes
+- $T(1) = 1, T(n) = \sum_{i = 1}^{n - 1} T(i) \times T(n - 1)$
 
 The resulting space is super-exponential:
 
@@ -86,7 +91,8 @@ Instead of listing all possible orderings we will consider only one of the follo
 a typical query optimizer usually looks only at left-deep join orderings
 - (a) $\approx$ (c), but there are subtle implementation-wise differences
 - (like being able to [pipeline](Pipelining) some results, etc)
-- still, there are $n|  $ possible orderings (and it's still exponential) | |
+- still, there are $n!$ possible orderings (and it's still exponential) 
+
 This is an [Optimization Problem](Optimization_Problem). Solutions:
 - some heuristics
 - [Branch and Bound](Branch_and_Bound)
@@ -119,7 +125,8 @@ Suppose:
 - alternative ordering:
   - $((R \Join U) \Join T) \Join S$
   - $(3)$ is not better than $(1)$, but $(4)$ (given $(3)$) is better than $(2)$ (given $(1)$)
-  - 900 I/Os saved|   | |
+  - 900 I/Os saved
+ |
 ## Exercises
 <!-- Main: Query Plan Selection Exercises -->
 

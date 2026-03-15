@@ -10,7 +10,8 @@ title: Query Result Size Estimation
 Choosing a [physical operator](Physical_Operators_(databases)) for a [Relational Algebra](Relational_Algebra) operator depends on
 - a particular case and statistics kept in [Database System Catalog](Database_System_Catalog)
 - note that this data is kept only for base relations, not for sub-results
-  - but we need to be able to estimate them for sub-results as well|    | |
+  - but we need to be able to estimate them for sub-results as well
+ |
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/plan-selection-int-res.png" alt="Image">
 - note that these measures depend only on
   - statistics 

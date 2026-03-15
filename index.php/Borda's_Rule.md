@@ -99,7 +99,9 @@ Preferences:
 - The outcome is $a > b > c > d$
 
 $d$ decides to withdraw - anyway he has no chance of winning
-- but it has a strong effect on the result|   |- Now the global ranking is $c > b > a$ - the complete opposite|  | |
+- but it has a strong effect on the result
+- Now the global ranking is $c > b > a$ - the complete opposite
+ |
 Another example:
 - $N = 5, A = \{a, b, c\}$
 
@@ -119,7 +121,8 @@ Now $d$ also decides to participate:
 
 Scores are:
 - $B(a) = 15 > B(b) = 14 > B(c) = 10 > B(d) = 9$
-- note that even though $d$ is the last one in the global rating, adding him changed the winner|   | |
+- note that even though $d$ is the last one in the global rating, adding him changed the winner
+ |
 So we see that by carefully choosing new candidates it's possible to manipulate the results. 
 
 

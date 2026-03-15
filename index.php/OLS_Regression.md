@@ -59,7 +59,7 @@ There's no solution to the system, so we try to fit the data as good as possible
 - Let $\mathbf w$ be the best fit solution to $X \mathbf w \approx \mathbf y$
 - we'll try to minimize the error $\mathbf e = \mathbf y - X \mathbf w$ (also called [residuals](Residual_Analysis))
 - we take the square of this error, so the objective is 
-- $J(\mathbf w) = \|  \mathbf e \|^2 = \| \mathbf y - X \mathbf w \|^2$ |
+- $J(\mathbf w) = \|  \mathbf e \|^2 = \| \mathbf y - X \mathbf w \|^2$
 
 The solution:
 - $\mathbf w = (X^T X)^{-1} X^T \mathbf y = X^+ \mathbf y$ 
@@ -69,11 +69,13 @@ The solution:
 From the [Linear Algebra](Linear_Algebra) point of view:
 - we need to solve $X \mathbf w = \mathbf y$
 - if $\mathbf y \not \in C(X)$ ([Column Space](Column_Space)) then there's no solution
-- How to solve it approximately? [Project](Projection_onto_Subspaces) on $C(A)$|   |- again, it gives us the [Normal Equation](Normal_Equation): $X^T X \mathbf w = X^T \mathbf y$ |
+- How to solve it approximately? [Project](Projection_onto_Subspaces) on $C(A)$
+- again, it gives us the [Normal Equation](Normal_Equation): $X^T X \mathbf w = X^T \mathbf y$
 
 ### [Gradient Descent](Gradient_Descent)
 Alternatively, we can use Gradient Descent:
-- objective is $J(\mathbf w) = \|  \mathbf y - X \mathbf w \|^2$ |- the derivative w.r.t. $\mathbf w$ is $\cfrac{\partial J(\mathbf w)}{\partial \mathbf w} = 2 X^T X \mathbf w - 2 X^T \mathbf y$
+- objective is $J(\mathbf w) = \|  \mathbf y - X \mathbf w \|^2$
+- the derivative w.r.t. $\mathbf w$ is $\cfrac{\partial J(\mathbf w)}{\partial \mathbf w} = 2 X^T X \mathbf w - 2 X^T \mathbf y$
 - so the update rule is $\mathbf w \leftarrow \mathbf w - \alpha 2 (X^T X \mathbf w - X^T \mathbf y)$
 - where $\alpha$ is the learning rate
 

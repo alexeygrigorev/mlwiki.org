@@ -4,28 +4,27 @@ permalink: /index.php/Functional_Programming_Principles_in_Scala_(coursera)
 tags:
 - coursera
 - functional-programming
-- russian
 - scala
 title: Functional Programming Principles in Scala (coursera)
 ---
-Конспект курса "Functional Programming Principles in Scala"
+Lecture notes for the course "Functional Programming Principles in Scala"
 
-Ссылки:
-- [Описание курса](http://www.coursera.org/course/progfun)
-- [Все лекции для скачивания](http://rutracker.org/forum/viewtopic.php?t=4434746)
-- [Конспект лекций](http://www.dropbox.com/s/kc0rc2s91f6erd8/Functional%20Programming%20Principles%20in%20Scala%20coursera.pdf)
+Links:
+- [Course description](http://www.coursera.org/course/progfun)
+- [All lectures for download](http://rutracker.org/forum/viewtopic.php?t=4434746)
+- [Lecture notes](http://www.dropbox.com/s/kc0rc2s91f6erd8/Functional%20Programming%20Principles%20in%20Scala%20coursera.pdf)
 
 
-## Функции и их вычисление
-### Определения
-Как только значения были определены, их больше нельзя изменить. Выражение присваивания некоторому идентификатору значения называется ''определением''.
+## Functions and Their Evaluation
+### Definitions
+Once values have been defined, they can no longer be changed. The expression of assigning a value to some identifier is called a *definition*.
 ```text only
 def radius = 10
 def pi = 3.14159
 ```
 
 
-Определения могут иметь как параметры, так и тип возвращаемого значения - в этом случае их следует называть ''функциями''.
+Definitions can have both parameters and a return type - in this case they should be called *functions*.
 
 ```python
 def square(x: Double) = x * x
@@ -35,11 +34,11 @@ def sumOfSquares(x: Double, y: Double) = square(x) * square(y)
 def power(x: Double, y: Int): Double = ...
 ```
 
-### Стратегии вычисления функций
-Для вычисления значений функции используется [the Substitution Model](Functional_Programming#Вычисление_выражений))
+### Function Evaluation Strategies
+The [Substitution Model](Functional_Programming#Expression_Evaluation) is used to evaluate function values.
 
 #### call-by-value (<code>CBV</code>)
-Сначала вычисляются значения аргументов, а затем вычисленные значения передаются функции
+Argument values are evaluated first, then the computed values are passed to the function
 
 ```scdoc
 - square(2 + 2)
@@ -48,11 +47,11 @@ def power(x: Double, y: Int): Double = ...
 - 16
 ```
 
-Плюсы:
-- выражение вычисляется только раз - с самого начала
+Pros:
+- the expression is evaluated only once - from the very beginning
 
 #### call-by-name (<code>CBN</code>)
-Выражения передаются в качестве аргументов, которые вычисляются только при вызове внутри тела функции
+Expressions are passed as arguments and are evaluated only when called inside the function body
 
 ```scdoc
 - square(2 + 2)
@@ -61,11 +60,11 @@ def power(x: Double, y: Int): Double = ...
 - 16
 ```
 
-Плюсы:
-- не вычисляется, если параметры потом не используются 
+Pros:
+- not evaluated if the parameters are not subsequently used
 
 
-Если <code>CBV</code> заканчивает выполнение (т.е. не зацикливается и завершается), то <code>CBE</code> так же заканчивает, но обратное не всегда верно. 
+If <code>CBV</code> terminates (i.e., does not loop and completes), then <code>CBN</code> also terminates, but the converse is not always true.
 
 ```python
 def loop = loop
@@ -74,20 +73,20 @@ def first(x: Int, y: Int) = x
 first(1, loop)
 ```
 
-При <code>CBN</code> выполнится только один раз и завершиться, а при <code>CBV</code> зациклиться и будет выполняться бесконечно. 
-По умолчанию в Scala используется <code>CBV</code>, но, когда нужно, можно использовать <code>CBN</code>.
+With <code>CBN</code> it will execute only once and terminate, while with <code>CBV</code> it will loop and run indefinitely.
+By default, Scala uses <code>CBV</code>, but when needed, <code>CBN</code> can be used.
 
 ```python
 def countOne(x: Int, y: => Int) = 1
 ```
 
-<code>x</code> вычисляется как <code>CBV</code>, <code>y</code> как <code>CBN</code>
+<code>x</code> is evaluated as <code>CBV</code>, <code>y</code> as <code>CBN</code>
 
 
-#### Определения
-Определения так же могут быть <code>CBN</code> и <code>CBV</code>
+#### Definitions
+Definitions can also be <code>CBN</code> and <code>CBV</code>
 
-Ключевое слово <code>def</code> задаёт <code>CBN</code> определение, <code>val</code> - <code>CBV</code>
+The keyword <code>def</code> creates a <code>CBN</code> definition, <code>val</code> creates a <code>CBV</code> definition
 
 ```text only
 val x = 2
@@ -95,64 +94,64 @@ val y = square(2)
 val z = square(x)
 ```
 
-Для <code>val</code> правая часть вычисляется сразу же и используется впоследствии (т.е. <code>y</code> ссылается на <code>4</code>, а не на <code>square(2)</code>)
+For <code>val</code> the right-hand side is evaluated immediately and used subsequently (i.e., <code>y</code> refers to <code>4</code>, not to <code>square(2)</code>)
 
 ```tera term macro
 def x = loop // OK
-val x = loop // виснет
+val x = loop // hangs
 ```
 
 
-### Условия
-''Условное выражение'' <code>if else</code> используется для выбора между двумя альтернативами
+### Conditionals
+The *conditional expression* <code>if else</code> is used to choose between two alternatives
 
 ```python
 def abs(x: Int) = if (x >= 0) x else -x
 ```
 
 
-### Блоки и лексикографический контекст
-Считается хорошим стилем программирования разбивать сложные функции на много маленьких, однако многие функции имеют значение только для какой-то конкретной реализации какого-либо алгоритма, и не предназначены для использования извне.
+### Blocks and Lexical Scope
+It is considered good programming style to break complex functions into many small ones; however, many functions are only meaningful for a specific implementation of some algorithm and are not intended for external use.
 
-Например, дан алгоритм вычисления квадратного корня с помощью метода Ньютона [(см. также [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.7](http://ru.wikipedia.org/wiki/Метод_Ньютона]))
+For example, given an algorithm for computing the square root using Newton's method [(see also [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.7](http://ru.wikipedia.org/wiki/Newton's_method]))
 ```python
-def sqrt(x: Double): Double = 
+def sqrt(x: Double): Double =
   sqrtIter(1.0, x)
 
-def sqrtIter(guess: Double, x: Double): Double = 
+def sqrtIter(guess: Double, x: Double): Double =
   if (isGoodEnough(guess, x)) guess
   else sqrtIter(improve(guess, x), x)
 
-def isGoodEnough(guess: Double, x: Double) = 
+def isGoodEnough(guess: Double, x: Double) =
   abs(guess * guess - x) / x < 0.001
 
-def improve(guess: Double, x: Double) = 
+def improve(guess: Double, x: Double) =
   (guess + x / guess) / 2
 ```
 
-Для того, чтобы избежать "namespace pollution", можно поместить все второстепенные функции внутрь sqrt:
+To avoid "namespace pollution", all auxiliary functions can be placed inside sqrt:
 ```python
 def sqrt(x: Double): Double = {
-  def sqrtIter(guess: Double, x: Double): Double = 
+  def sqrtIter(guess: Double, x: Double): Double =
     if (isGoodEnough(guess, x)) guess
     else sqrtIter(improve(guess, x), x)
 
-  def isGoodEnough(guess: Double, x: Double) = 
+  def isGoodEnough(guess: Double, x: Double) =
     abs(guess * guess - x) / x < 0.001
 
-  def improve(guess: Double, x: Double) = 
+  def improve(guess: Double, x: Double) =
     (guess + x / guess) / 2
 
   sqrtIter(1.0, x)
 }
 ```
 
-В данном случае фигурные скобки определяют ''блок кода'', который так же является выражением (и, следовательно, возвращает какое-либо значение). Это называется ''лексикографическим контекстом блока''.
+In this case, the curly braces define a *code block*, which is also an expression (and therefore returns some value). This is called the *lexical scope of the block*.
 
-Область видимости:
-- Все определения внутри блока кода не видимы за его пределами (локальный контекст)
-- Определения снаружи блока видимы внутри блока (родительский контекст)
-- Определения внутри блока (в локальном контексте) перекрывают определения за пределами этого блока (т.е. родительского контекста)
+Scoping rules:
+- All definitions inside a code block are not visible outside it (local scope)
+- Definitions outside the block are visible inside the block (parent scope)
+- Definitions inside the block (in the local scope) shadow definitions outside the block (i.e., in the parent scope)
 
 ```scdoc
 val x = 0
@@ -162,14 +161,14 @@ val res = {
 } + x
 ```
 
-В этом примере в блоке переменная <code>x</code> перекрывается значением, которое возвращает функция <code>f</code>, затем блок возвращает значение, которое затем прибавляется к изначальному <code>x</code>. 
+In this example, inside the block the variable <code>x</code> is shadowed by the value returned by function <code>f</code>, then the block returns a value, which is then added to the original <code>x</code>.
 
 
-## Функции высшего порядка
-Функции в Scala являются полноправными объектами. То есть функцию можно передать как параметр или вернуть, как значение. Функции, которые это делают, называются ''функциями высшего порядка''. 
+## Higher-Order Functions
+Functions in Scala are first-class objects. That is, a function can be passed as a parameter or returned as a value. Functions that do this are called *higher-order functions*.
 
 ```python
-def sum(f: Int => Int, a: Int, b: Int): Int = 
+def sum(f: Int => Int, a: Int, b: Int): Int =
   if (a > b) 0
   else f(a) + sum(f, a + 1, b)
 
@@ -182,32 +181,32 @@ def cube(x: Int): Int = x * x * x
 def fact(x: Int): Int = if (x == 0) 1 else fact(x - 1)
 ```
 
-Тип <code>A => B</code> описывает функцию, принимающую в аргумент типа <code>A</code> и возвращающую результат типа <code>B</code>. <code>Int => Int</code> -  принимает <code>Int</code>, возвращает <code>Int</code>. 
+The type <code>A => B</code> describes a function that takes an argument of type <code>A</code> and returns a result of type <code>B</code>. <code>Int => Int</code> takes an <code>Int</code> and returns an <code>Int</code>.
 
-Функцию без имени называют ''анонимной функцией''
+A function without a name is called an *anonymous function*
 
 ```scdoc
-(x: Int) => x * x * x
+(x: Int) => x * x
 (x: Int, y: Int) => x + y
 ```
 
-В левой части функции перечисляются параметры, а правая часть называется ''телом'' анонимной функции. 
+The left part of the function lists the parameters, and the right part is called the *body* of the anonymous function.
 
-Параметры функции можно опустить, если компилятор может их вычислить сам.
+Function parameters can be omitted if the compiler can infer them.
 
 ```python
 def sumInts(a: Int, b: Int) = sum(x => x, a, b)
 def sumCubes(a: Int, b: Int) = sum(x => x * x * x, a, b)
 ```
 
-### Каррирование
-Рассмотрим пример 
+### Currying
+Consider the example
 
 ```python
 def sumInts(a: Int, b: Int) = sum(x => x, a, b)
 ```
 
-Аргументы <code>a</code> и <code>b</code> просто передаются без изменений, поэтому возможно эту функцию возможно сделать еще короче
+The arguments <code>a</code> and <code>b</code> are simply passed through without changes, so it is possible to make this function even shorter
 
 ```python
 def sum(f: Int => Int): (Int, Int) = {
@@ -219,7 +218,7 @@ def sum(f: Int => Int): (Int, Int) = {
 }
 ```
 
-<code>sum</code> - это функция, которая возвращает другую функцию, которая "помнит" <code>f</code> и знает, как нужно вычислять значение. Далее можно написать
+<code>sum</code> is a function that returns another function which "remembers" <code>f</code> and knows how to compute the value. Then we can write
 
 ```bash
 def sumInts = sum(x => x)
@@ -227,32 +226,32 @@ def sumCubes = sum(x => x * x * x)
 def sumFactorials = sum(fact)
 ```
 
-Т.е. 
+That is,
 ```text only
 sumCubes(1, 10) == (sum(cube))(1, 10)
 ```
 
-<code>sum(cube)</code> возвращает функцию, которая тут же применяется к аргументам 1 и 10.
+<code>sum(cube)</code> returns a function that is immediately applied to arguments 1 and 10.
 
-В Scala для таких функций существует специальный синтаксис:
+In Scala, there is special syntax for such functions:
 ```python
-def sum(f: Int => Int)(a: Int, b: Int): Int = 
+def sum(f: Int => Int)(a: Int, b: Int): Int =
   if (a > b) 0 else f(a) + sum(f)(a + 1, b)
 ```
 
-Это называется [''каррингом''](Functional_Programming#Карринг).
+This is called [*currying*](Functional_Programming#Currying).
 
 
-### Пример: Нахождение неподвижной точки
-Нахождение неподвижной точки (Fixed Point) [[http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-12.html#%_sec_Temp_106](http://ru.wikipedia.org/wiki/Неподвижная_точка])
+### Example: Finding a Fixed Point
+Finding a Fixed Point [[http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-12.html#%_sec_Temp_106](http://ru.wikipedia.org/wiki/Fixed_point])
 
-$x$ называется ''неподвижной точкой'' функции $f$ если $f(x) = x$
+$x$ is called a *fixed point* of function $f$ if $f(x) = x$
 
-Для некоторых функций мы можем найти неподвижную точку, применив функцию к некоторому начальному значению, затем применив эту же функцию к полученному результату, затем опять и т.п.
+For some functions, we can find a fixed point by applying the function to some initial value, then applying the same function to the result, then again, and so on.
 
 $x, f(x), f(f(x)), f(f(f(x))), ...$
 
-до тех пор, пока два соседних члена такой последовательности отличаются незначительно. 
+until two consecutive members of such a sequence differ insignificantly.
 
 
 ```python
@@ -271,62 +270,62 @@ def fixedPoint(f: Double => Double)(firstGuess: Double) = {
 }
 ```
 
-Функция $f = \sqrt{x}$ возвращает число y такое, что $y \cdot y = x$, или, если разделить на $y$, $y = \frac{x}{y}$
+The function $f = \sqrt{x}$ returns a number y such that $y \cdot y = x$, or, dividing by $y$, $y = \frac{x}{y}$
 
-Следовательно,  $f = \sqrt{x}$ - это неподвижная точка функции $y = \frac{x}{y}$
+Therefore, $f = \sqrt{x}$ is a fixed point of the function $y = \frac{x}{y}$
 
 ```python
 def sqrt(x: Double) = fixedPoint(y => x / y)(1.0)
 ```
 
-Однако, такая функция не сойдётся, а будет колебаться: 1.0, 2.0, 1.0, 2.0, ...
+However, this function will not converge but will oscillate: 1.0, 2.0, 1.0, 2.0, ...
 
-Этого можно избежать с помощью нахождения среднего между двумя последними значениями:
+This can be avoided by averaging the two most recent values:
 
 ```python
 def sqrt(x: Double) = fixedPoint(y => (x + x / y) / 2)(1.0)
 ```
 
-Эта техника стабилизации колеблющейся функции называется ''average damp'', и она достаточно общая для того, чтобы вынести эту логику в отдельную функцию:
+This technique for stabilizing an oscillating function is called *average damp*, and it is general enough to extract this logic into a separate function:
 
 ```python
 def averageDamp(f: Double => Double)(x: Double) = (x + f(x)) / 2
 ```
 
-В итоге получаем
+The final result is
 ```python
 def sqrt(x: Double) = fixedPoint(averageDamp(x => x / y))(1.0)
 ```
 
 
-### Пример: Sets
-''Синонимом'' (type alias) называют новый идентификатор для уже существующего типа.
+### Example: Sets
+A *type alias* is a new identifier for an already existing type.
 
-Для множеств мы можем определить следующий синоним:
+For sets, we can define the following alias:
 ```carbon
 type Set = Int => Boolean
 ```
 
-Т.е. множество можно представить как функцию, которая принимает число и возвращает <code>true</code>, если это число входит в множество, и <code>false</code> в противном случае.
+That is, a set can be represented as a function that takes a number and returns <code>true</code> if the number is in the set, and <code>false</code> otherwise.
 
-Например, чтобы представить множество всех отрицательных чисел, можно написать следующие
+For example, to represent the set of all negative numbers, one can write:
 ```text only
 (x: Int) => x < 0
 ```
 
-Соответственно, функция <code>contains</code> принимает следующий вид:
+Accordingly, the <code>contains</code> function takes the following form:
 ```python
 def contains(s: Set, elem: Int): Boolean = s(elem)
 ```
 
 
-## Функции и структуры данных
-Как с помощью функций создавать и инкапсулировать структуры данных.
+## Functions and Data Structures
+How to use functions to create and encapsulate data structures.
 
-### Пример: Вещественные числа
-Мы хотим спроектировать пакет, позволяющий выполнять арифметические операции над вещественными числами.
+### Example: Rational Numbers
+We want to design a package that allows performing arithmetic operations on rational numbers.
 
-Вещественное число можно представить в виде двух чисел $x$ и $y$: числитель $x$ и знаменатель $y$
+A rational number can be represented as two numbers $x$ and $y$: numerator $x$ and denominator $y$
 
 ```perl6
 class Rational(x: Int, y: Int) {
@@ -335,41 +334,41 @@ class Rational(x: Int, y: Int) {
 }
 ```
 
-В этом определении <code>Rational</code> в код добавляется
-- новый тип - <code>Rational</code>
-- конструктор, с помощью которого можно создавать элементы типа <code>Rational</code>
+In this definition, <code>Rational</code> adds to the code:
+- a new type - <code>Rational</code>
+- a constructor that can be used to create elements of type <code>Rational</code>
 
 ```text only
-new Rantional(1, 2) // конструктор
+new Rantional(1, 2) // constructor
 ```
 
-Определения <code>numer</code> и <code>denum</code> называются членами класса. Доступ к членам класса производится с помощью инфиксного оператора <code>.</code> (точка):
+The definitions <code>numer</code> and <code>denum</code> are called class members. Class members are accessed using the infix operator <code>.</code> (dot):
 
 ```gdscript
-x.numer 
+x.numer
 x.denum
 ```
 
-Над вещественными числами можно совершать следующие операции:
+The following operations can be performed on rational numbers:
 - $\cfrac{n_1}{d_1} + \cfrac{n_2}{d_2} = \cfrac{n_1 d_2 + n_2 d_1}{d_1 d_2}$
 - $\cfrac{n_1}{d_1} - \cfrac{n_2}{d_2} = \cfrac{n_1 d_2 - n_2 d_1}{d_1 d_2}$
 - $\cfrac{n_1}{d_1} \cdot \cfrac{n_2}{d_2} = \cfrac{n_1 n_2}{d_1 d_2}$
 - $\cfrac{n_1}{d_1} / \cfrac{n_2}{d_2} = \cfrac{n_1 d_2}{d_1 n_2}$
 - $\cfrac{n_1}{d_1} = \cfrac{n_2}{d_2} \iff n_1 d_2 = d_1 n_2$
 
-Для каждой из этих операций мы можем создать функцию
+For each of these operations, we can create a function
 
 ```python
-def addRational(r: Rational, s: Rational): Rational = 
+def addRational(r: Rational, s: Rational): Rational =
   new Rational(r.numer * s.denom + s.numer * r.denom, r.denom * s.denom)
 
 //...
 
-def makeString(r: Rational) = 
+def makeString(r: Rational) =
   r.numer + "/" + r.denom
 ```
 
-Но эти функции можно поместить внутрь абстракции <code>Rational</code> - тогда такие фукнции будут называться ''методами''. 
+But these functions can be placed inside the <code>Rational</code> abstraction - such functions are then called *methods*.
 
 
 ```python
@@ -377,7 +376,7 @@ class Rational(x: Int, y: Int) {
   def numer = x
   def denom = y
 
-  def add(r: Rational) = 
+  def add(r: Rational) =
     new Rational(numer * r.denom + r.numer * denom, denom * r.denom)
 
   //...
@@ -386,7 +385,7 @@ class Rational(x: Int, y: Int) {
 }
 ```
 
-(Ключевое слово <code>override</code> говорит о том, что метод <code>toString</code> уже существует)
+(The keyword <code>override</code> indicates that the method <code>toString</code> already exists)
 
 ```text only
 val x = new Rational(1, 3)
@@ -396,11 +395,11 @@ val z = new Rational(9, 11)
 x.add(y).mul(z)
 ```
 
-Можно заметить, что в некоторых случаях дробь можно упростить (сократить)
+One can notice that in some cases a fraction can be simplified (reduced)
 
 ```python
 class Rational(x: Int, y: Int) {
-  private def gcd(a: Int, b: Int): Int = 
+  private def gcd(a: Int, b: Int): Int =
     if (b == 0) a else gcd(b, a % b)
 
   private val g = gcd(x, y)
@@ -412,17 +411,17 @@ class Rational(x: Int, y: Int) {
 }
 ```
 
-Ключевое слово <code>private</code> используется в случаях, когда члены класса должны быть видимы только внутри определения класса и не должны быть видимы снаружи (т.е. к ним можно получить доступ только внутри класса <code>Rational</code>).
+The keyword <code>private</code> is used when class members should be visible only within the class definition and not visible from outside (i.e., they can only be accessed within the <code>Rational</code> class).
 
 
-### Конструкторы
-Определения класса неявно объявляет и его конструктор. Такой конструктор называется главным конструктором. 
+### Constructors
+A class definition implicitly declares its constructor. Such a constructor is called the primary constructor.
 
-Главный конструктор 
-- принимает параметры класса 
-- выполняет все выражения в теле класса
+The primary constructor:
+- takes the class parameters
+- executes all expressions in the class body
 
-Мы так же можем объявить вспомогательные конструкторы - они объявляются с помощью метода с называнием <code>this</code>:
+We can also declare auxiliary constructors - they are declared using a method named <code>this</code>:
 
 ```python
 class Rational(x: Int, y: Int) {
@@ -435,32 +434,32 @@ new Rational(2) // -> 2/1
 ```
 
 
-### Идентификаторы и Операторы
-В Scala возможно написать 
+### Identifiers and Operators
+In Scala, it is possible to write
 
 ```text only
 r add s
 r mul s
 ```
 
-вместо
+instead of
 
 ```text only
 r.add(s)
 r.mul(s)
 ```
 
-И оператор может быть использован, как идентификатор.
+And an operator can be used as an identifier.
 
-Правила наименования идентификаторов
-- идентификатор может начинаться с буквы и состоять из букв и цифр
-- идентификатор может начинаться с операторного символа и состоять из других операторных символов 
-- <code>_</code> (нижнее подчеркивание) считается буквой
-- буквенно-цифровые идентификаторы могут оканчиваться подчёркиванием, за которым следуют операторные символы
+Identifier naming rules:
+- an identifier can start with a letter and consist of letters and digits
+- an identifier can start with an operator symbol and consist of other operator symbols
+- <code>_</code> (underscore) is considered a letter
+- alphanumeric identifiers can end with an underscore followed by operator symbols
 
-Например, <code>x1</code>, <code>*</code>, <code>+?%&</code>, <code>vector_++</code>, <code>counter_=</code>.
+For example, <code>x1</code>, <code>*</code>, <code>+?%&</code>, <code>vector_++</code>, <code>counter_=</code>.
 
-Таким образом, мы можем определить следующие методы:
+Thus, we can define the following methods:
 
 ```perl6
 class Rational(x: Int, y: Int) {
@@ -478,31 +477,33 @@ val x = new Rational ...
 val y = new Rational ...
 
 x * x + y * y
-// тоже самое, что 
+// same as
 (x * x) + (y * y)
 ```
 
 
-Приоритеты у операторов определяются первым символом их имени. Приоритет:
-- буквы
-- <code>| </code> |- <code>^</code>
+Operator precedence is determined by the first character of their name. Precedence:
+- letters
+- <code>| </code>
+- <code>^</code>
 - <code>&</code>
 - <code>< ></code>
-- <code>= |  </code> |- <code>:</code> |- <code>+ -</code>
+- <code>= |  </code>
+- <code>:</code>
+- <code>+ -</code>
 - <code>* / %</code>
-- все остальные специальные символы
+- all other special characters
 
-Пример:
-
+Example:
 ```text only
 a + b ^? c ^? d less a ==> b |  c |((a + b) ^? (c ^? d)) less ((a ==> b) |  c) |
 ```
 
 
-### Создание иерархий классов
-''Абстрактным классом'' называется класс, который может содержать методы, которые ещё не реализованы. 
+### Creating Class Hierarchies
+An *abstract class* is a class that can contain methods that are not yet implemented.
 
-Рассмотрим пример - множество целых чисел.
+Consider an example - a set of integers.
 ```python
 abstract class IntSet {
   def incl(x: Int): IntSet
@@ -510,11 +511,11 @@ abstract class IntSet {
 }
 ```
 
-Оператор <code>new</code> неприменим к абстрактным классам - т.е. нельзя создать объект такого класса. 
+The <code>new</code> operator cannot be applied to abstract classes - i.e., an object of such a class cannot be created.
 
-''Расширением'' называется отношение между классами, в котором один из классов является ''базовым'' или ''суперклассом'' (superclass) для второго класса - ''подкласса'' (subclass). Базовый класс предоставляет свои методы для использования подклассу, который, в свою очередь, может добавлять новые методы (т.е. ''расширять'' базовый класс).
+*Extension* is a relationship between classes in which one class is the *base* or *superclass* for the second class - the *subclass*. The base class provides its methods for the subclass to use, which in turn can add new methods (i.e., *extend* the base class).
 
-Если класс расширяет абстрактный класс, то он должен реализовать его абстрактные методы.
+If a class extends an abstract class, it must implement its abstract methods.
 
 ```python
 class Empty extends IntSet {
@@ -523,12 +524,12 @@ class Empty extends IntSet {
 }
 
 class NonEmpty(elem: Int, left: IntSet, right: IntSet) extends IntSet {
-  def contains(x: Int): Boolean = 
+  def contains(x: Int): Boolean =
     if (x < elem) left contains x
     else if (x > else) right contains x
     else true
 
-  def incl(x: Int): IntSet = 
+  def incl(x: Int): IntSet =
     if (x < elem)
       new NonEmpty(elem, left incl x, right)
     else if (x > elem)
@@ -537,11 +538,11 @@ class NonEmpty(elem: Int, left: IntSet, right: IntSet) extends IntSet {
 }
 ```
 
-Оба класса <code>Empty</code> и <code>NonEmpty</code> расширяют <code>IntSet</code> и оба соответствуют одному и тому же типу <code>IntSet</code> - объект типа <code>Empty</code> или <code>NonEmpty</code> может быть использован везде, где требуется объект типа <code>IntSet</code>.
+Both classes <code>Empty</code> and <code>NonEmpty</code> extend <code>IntSet</code> and both correspond to the same type <code>IntSet</code> - an object of type <code>Empty</code> or <code>NonEmpty</code> can be used wherever an object of type <code>IntSet</code> is required.
 
-<code>IntSet</code> является базовым классом для <code>Empty</code> и <code>NonEmpty</code>, а <code>Empty</code> и <code>NonEmpty</code> являются подклассами класса <code>IntSet</code>.
+<code>IntSet</code> is the base class for <code>Empty</code> and <code>NonEmpty</code>, while <code>Empty</code> and <code>NonEmpty</code> are subclasses of <code>IntSet</code>.
 
-Классы <code>Empty</code> и <code>NonEmpty</code> реализуют абстрактные определения incl и contains из <code>IntSet</code>. Так же возможно переопределить существующие неабстрактные определения родительского класса в подклассе с помощью ключевого слова override.
+Classes <code>Empty</code> and <code>NonEmpty</code> implement the abstract definitions incl and contains from <code>IntSet</code>. It is also possible to override existing non-abstract definitions of the parent class in a subclass using the keyword override.
 
 ```text only
 abstract class Base {
@@ -556,7 +557,7 @@ class Sub extends Base {
 ```
 
 #### Value parameters
-Для определения полей класса можно в конструкторе использовать ключевое слово val
+To define class fields, the keyword val can be used in the constructor
 
 ```scalate server page
 class Cons(val head: Int, val tail: IntList) extends IntList {
@@ -564,7 +565,7 @@ class Cons(val head: Int, val tail: IntList) extends IntList {
 }
 ```
 
-Эта запись эквивалентна следующему:
+This notation is equivalent to the following:
 
 ```gdscript
 class Cons(_head: Int, _tail: IntList) extends IntList {
@@ -574,8 +575,8 @@ class Cons(_head: Int, _tail: IntList) extends IntList {
 }
 ```
 
-#### Синглтоны
-В этом примере нужен только один EmptySet, и нет необходимости каждый раз создавать новый объект, и мы можем определить один ''объект-синглтон''. Существует только один объект-синглтон и нельзя создать больше.
+#### Singletons
+In this example, only one EmptySet is needed, and there is no need to create a new object each time, so we can define a *singleton object*. Only one singleton object exists and no more can be created.
 
 ```python
 object Empty extends IntSet {
@@ -586,9 +587,9 @@ object Empty extends IntSet {
 
 
 #### Traits
-Как в Java, так и в Scala, класс может иметь только один суперкласс. Для того, чтобы иметь возможность переиспользования кода из нескольких суперклассов, используются ''trait-ы'' (или ''типажи'' [http://ru.wikipedia.org/wiki/Типаж_(абстрактный_тип)])
+As in Java, a class in Scala can have only one superclass. To enable code reuse from multiple superclasses, *traits* are used.
 
-Объявление trait-а похоже на объявление абстрактного класса, однако подкласс может использовать несколько trait-ов с помощью ключевого слова with
+Declaring a trait is similar to declaring an abstract class, but a subclass can use multiple traits with the keyword with
 
 ```scdoc
 trait Planar {
@@ -603,14 +604,14 @@ class Square extends Shape with Planar with Movable {
 ```
 
 
-Trait-ы похожи на интерфейсы в Java, но 
-- они могут содержать поля и
-- конкретные методы
+Traits are similar to interfaces in Java, but
+- they can contain fields and
+- concrete methods
 
 
-### Организация кода
-#### Точка входа в приложение
-Точкой входа в приложение называется место, с которого начинает выполняться программа. В Scala этим местом является метод main:
+### Code Organization
+#### Application Entry Point
+The entry point of an application is the place where program execution begins. In Scala, this is the main method:
 
 ```python
 object Hello {
@@ -618,14 +619,14 @@ object Hello {
 ```
 
 
-Для того, чтобы запустить приложение, нужно написать
+To run the application, write
 
 ```text only
 scala Hello
 ```
 
-#### Пакеты
-Пакеты используются для организации классов и объектов
+#### Packages
+Packages are used to organize classes and objects
 
 ```python
 package progfun.exmaple
@@ -634,62 +635,64 @@ object Hello {
   def main(args: Array[String]) = println("hw|  ") |} |
 ```
 
-''Полное имя класса'' ('fully-qualified name') состоит из названия пакета и имени класса, например, <code>progfun.example.Hello</code>
+The *fully-qualified name* of a class consists of the package name and the class name, for example, <code>progfun.example.Hello</code>
 
-Для старта приложения нужно указывать полное имя класса:
+To start the application, specify the fully-qualified class name:
 ```text only
 scala progfun.example.Hello
 ```
 
-#### Импорты
-Мы можем ссылаться на класс/объект с помощью его полного имени
+#### Imports
+We can refer to a class/object by its fully-qualified name
 
 ```text only
 val r = new week3.Rational(1, 2)
 ```
 
-Но это неудобно, и поэтому можно сделать импорт из другого пакета и затем использовать только короткое имя класса
+But this is inconvenient, so we can import from another package and then use only the short class name
 
 ```python
 import week3.Rational
 val r = new Rational(1, 2)
 ```
 
-Так же можно перечислить, какие именно классы нужно импортировать из пакета, или импортировать все
+We can also specify which classes to import from a package, or import everything
 ```python
 import week3.{Rational, Hello}
 import week3._ // wildcard import
 ```
 
-Импортировать можно не только из пакетов, но и из объектов
+Imports can be made not only from packages but also from objects
 
-Некоторые классы и объекты импортируются автоматически. К их числу относится содержимое следующих пакетов
+Some classes and objects are imported automatically. These include the contents of the following packages:
 - java.lang
 - scala
 - scala.predef
 
 
-## Типы
-### Иерархии типов в Scala
-- Базовым типом для всех типов в Scala является тип <code>Any</code>, который содержит базовые методы типа <code>==</code>, <code>|  =</code> и т.п. |- Для всех классов базовым классом является <code>AnyRef</code> (который является синонимом для <code>java.lang.Object</code>) |- Для примитивов базовым типом является тип <code>AnyVal</code>
+## Types
+### Type Hierarchies in Scala
+- The base type for all types in Scala is the type <code>Any</code>, which contains basic methods like <code>==</code>, <code>|  =</code>, etc.
+- For all classes, the base class is <code>AnyRef</code> (which is a synonym for <code>java.lang.Object</code>)
+- For primitives, the base type is <code>AnyVal</code>
 
 <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/class-hierarchy.png" alt="Image">" />
 
 
-- Тип <code>Nothing</code> находится в самом низу иерархии и является подтипом для всех типов. 
-- Так же в Scala существует тип <code>Null</code>, который является типом для значения <code>null</code>. <code>Null</code> является подклассом для всех подклассов <code>AnyRef</code>
+- The type <code>Nothing</code> is at the bottom of the hierarchy and is a subtype of all types.
+- Scala also has the type <code>Null</code>, which is the type of the value <code>null</code>. <code>Null</code> is a subclass of all subclasses of <code>AnyRef</code>
 
 ```scalate server page
 val x = null // x: Null
 val y: String = null // y: String
-val z: Int = null // error: type mismatch (не подкласс AnyRef)
+val z: Int = null // error: type mismatch (not a subclass of AnyRef)
 ```
 
 
-### Параметризованные типы
-Рассмотрим ''Cons-список'' - неизменяемый связный список, который строится из следующих элементов
-- <code>Cons</code> - ячейка, содержащая элемент и ссылку на следующую часть списка
-- <code>Nil</code> - пустой список 
+### Parameterized Types
+Consider a *Cons-list* - an immutable linked list built from the following elements:
+- <code>Cons</code> - a cell containing an element and a reference to the next part of the list
+- <code>Nil</code> - an empty list
 
 ```scalate server page
 trait IntList ...
@@ -697,7 +700,7 @@ class Cons(val head: Int, val tail: IntList) extends IntList ...
 class Nil extends IntList ...
 ```
 
-Однако это определение слишком узко: такой список можно использовать лишь с типом Int. Но мы можем обобщить определение нашего списка с помощью ''параметров типа''
+However, this definition is too narrow: such a list can only be used with the Int type. But we can generalize the definition of our list using *type parameters*
 
 ```scalate server page
 trait List[T] ...
@@ -705,39 +708,39 @@ class Cons(val head: T, val tail: List[T]) extends List[T] ...
 class Nil extends List[T] ...
 ```
 
-Функции, как и классы, так же могут иметь такие параметры
+Functions, like classes, can also have such parameters
 ```transact-sql
 def signleton[T](elem: T) = new Cons[T](elem, new Nil[T])
 signleton[Int](1)
 signleton[Boolean](true)
 ```
 
-Однако Scala может выводить нужный тип, и поэтому параметр можно опустить
+However, Scala can infer the needed type, so the parameter can be omitted
 ```scdoc
 signleton(1)
 signleton(true)
 ```
 
-### Функции как объекты
-Функции в Scala являются объектами
-Функциональный тип A => B на самом деле является сокращением от scala.Function[A, B], который определён как
+### Functions as Objects
+Functions in Scala are objects.
+The function type A => B is actually a shorthand for scala.Function[A, B], which is defined as
 
 ```python
-package scala 
+package scala
 trait Function1[A, B] {
   def apply(x: A): B
 }
 ```
 
-То есть, функции - это объекты, у которых есть метод <code>apply</code>
+That is, functions are objects that have an <code>apply</code> method
 
-Объявление анонимной функции можно записать с помощью класса следующим образом:
+An anonymous function declaration can be written using a class as follows:
 
 ```gdscript
-// anonimous
+// anonymous
 (x: Int) => x * x
 
-{ 
+{
   class AnonFunc extends Function1[Int, Int] {
     def apply(x: Int) = x * x
   }
@@ -746,7 +749,7 @@ trait Function1[A, B] {
 }
 ```
 
-Или, используя синтаксис для объявления анонимных классов
+Or, using the syntax for anonymous class declarations
 
 ```python
 new Function1[Int, Int] {
@@ -754,14 +757,14 @@ new Function1[Int, Int] {
 }
 ```
 
-Например,
+For example,
 
 ```scdoc
 val f = (x: Int) => x * x
 f(7)
 ```
 
-Превращается в
+Becomes
 
 ```python
 val f = new Function1[Int, Int] {
@@ -770,51 +773,51 @@ val f = new Function1[Int, Int] {
 f.apply(7)
 ```
 
-Методы не являются функциями, но их так же можно использовать, как функции - и они конвертируются в функции автоматически следующим образом
+Methods are not functions, but they can also be used as functions - and they are automatically converted to functions as follows
 
 ```text only
 (x: Int) => f(x)
 ```
 
 
-### Подтипы и генерики
-#### Граничные типы (Type Bounds)
-Рассмотрим метод <code>assertAllPos</code>, который
-- Принимает <code>IntSet</code>
-- Возвращает полученный <code>IntSet</code>, если все его элементы положительные
-- Выбрасывает исключение в противном случае
+### Subtypes and Generics
+#### Type Bounds
+Consider the method <code>assertAllPos</code>, which
+- Takes an <code>IntSet</code>
+- Returns the received <code>IntSet</code> if all its elements are positive
+- Throws an exception otherwise
 
-Какой тип лучше всего подходит для параметра этого метода?
+What type is best suited for the parameter of this method?
 
 ```python
 def assertAllPos(s: IntSet): IntSet
 ```
 
-Но
-- <code>assertAllPos(Empty)</code> должен вернуть <code>Empty</code>
-- <code>assertAllPos(NonEmpty)</code> должен вернуть <code>NonEmpty</code>
+But
+- <code>assertAllPos(Empty)</code> should return <code>Empty</code>
+- <code>assertAllPos(NonEmpty)</code> should return <code>NonEmpty</code>
 
-Это можно сделать с помощью ''верхней границы'' (''upper bound'') параметризованного типа
+This can be done using an *upper bound* of the parameterized type
 
 ```text only
 def assertAllPos[S <: IntSet](r: S): S = ...
 ```
 
-Это определение означает, что параметр <code>S</code> может принимать значения только типов, соответствующих <code>IntSet</code> (т.е. являющихся либо объектами этого класса, либо любого из его подклассов).
+This definition means that the parameter <code>S</code> can only take types that correspond to <code>IntSet</code> (i.e., are either objects of this class or any of its subclasses).
 
-В общем случае используются следующие обозначения:
-- <code>S <: T</code> - верхняя граница (ограничение сверху), <code>S</code> является подтипом <code>T</code>
-- <code>S >: T</code> - нижняя граница (ограничение снизу), <code>S</code> является базовым типом (супертипом) для <code>T</code>, или <code>T</code> является подтипом для <code>S</code>
+In general, the following notation is used:
+- <code>S <: T</code> - upper bound, <code>S</code> is a subtype of <code>T</code>
+- <code>S >: T</code> - lower bound, <code>S</code> is a supertype of <code>T</code>, or <code>T</code> is a subtype of <code>S</code>
 
-Так же возможно одновременно ограничивать тип как сверху, так и снизу. 
-Например, <code>[S >: NonEmpty <: IntSet]</code> ограничивает <code>S</code> между <code>IntSet</code> и <code>NonEmpty</code>.
+It is also possible to bound a type both from above and below simultaneously.
+For example, <code>[S >: NonEmpty <: IntSet]</code> bounds <code>S</code> between <code>IntSet</code> and <code>NonEmpty</code>.
 
-### Ковариация (Covariance)
-Если <code>NonEmpty <: IntSet</code>, выполняется ли <code>List[NonEmpty] <: List[IntSet]</code>?
+### Covariance
+If <code>NonEmpty <: IntSet</code>, does <code>List[NonEmpty] <: List[IntSet]</code> hold?
 
-Такое отношение называется ''ковариацией'', а типы, которые поддерживают это, называются ''ковариантными''. 
+Such a relationship is called *covariance*, and types that support this are called *covariant*.
 
-Однако ковариация не во всех случаях имеет смысл. Например, массивы в Java ковариантны, но это вызывает ряд проблем. Рассмотрим следующий код:
+However, covariance does not always make sense. For example, arrays in Java are covariant, but this causes a number of problems. Consider the following code:
 
 ```text only
 NonEmpty[] a = new NonEmpty[] { new NonEmpty(...) }
@@ -824,117 +827,117 @@ b[0] = Empty
 NonEmpty s = a[0] // ArrayStoreException
 ```
 
-#### Принцип подстановки Лисков
-Если <code>A <: B</code>, то тогда всё, что можно сделать со значением типа <code>B</code>, должно выполняться и для значений типа <code>A</code>. 
+#### Liskov Substitution Principle
+If <code>A <: B</code>, then everything that can be done with a value of type <code>B</code> must also work for values of type <code>A</code>.
 
 
-Как видно из примера, ковариация не всегда приносит пользу. Некоторые типы должны быть ковариантными, а некоторые не должны. 
-Однако, если соблюсти некоторые условия, то неизменяемые типы могут быть ковариантными. Например, <code>List</code> может быть ковариантным.
+As seen from the example, covariance does not always bring benefits. Some types should be covariant and some should not.
+However, if certain conditions are met, immutable types can be covariant. For example, <code>List</code> can be covariant.
 
-Допустим, <code>C[T]</code> - параметризованный тип, а <code>A</code> и <code>B</code> типы, такие, что <code>A <: B</code>. Существуют три возможных отношения между C[A] и C[B]:
+Let <code>C[T]</code> be a parameterized type, and <code>A</code> and <code>B</code> be types such that <code>A <: B</code>. There are three possible relationships between C[A] and C[B]:
 
-- C[A] <: C[B], т.е. тип C[A] является подтипом C[B]. Данное отношение называют ''ковариантным'' (covariant)
-- C[A] >: C[B], т.е. тип C[B] является подтипом C[A]. Данное отношение называют ''контравариантным'' (contravariant)
-- ни C[A], ни C[B] не являются подтипом друг друга. Такое отношение называют ''невариантным'' (non-variant)
+- C[A] <: C[B], i.e., type C[A] is a subtype of C[B]. This relationship is called *covariant*
+- C[A] >: C[B], i.e., type C[B] is a subtype of C[A]. This relationship is called *contravariant*
+- neither C[A] nor C[B] is a subtype of the other. This relationship is called *non-variant*
 
-В Scala используют следующие обозначения:
+In Scala, the following notation is used:
 ```transact-sql
 class C[+A] {...} // covariant
 class C[-A] {...} // contravariant
 class C[A] {...}  // non-variant
 ```
 
-#### Типы для функций
-- Если <code>A2 <: A1</code> и <code>B1 <: B2</code>,
-- <code>то A1 => B1 <: A2 => B2</code>
+#### Types for Functions
+- If <code>A2 <: A1</code> and <code>B1 <: B2</code>,
+- then <code>A1 => B1 <: A2 => B2</code>
 
-Т.е. функции контраварианты в типах их аргументах и ковариантны в типах их результатах. 
+That is, functions are contravariant in their argument types and covariant in their result types.
 
-Таким образом, имеем следующее определение для функций:
+Thus, we have the following definition for functions:
 ```python
-package scala 
+package scala
 
 trait Function1[-T, +U] {
   def apply(x: T): U
 }
 ```
 
-В примере с массивом проблемной операцией была операция обновления массива. Если представить массив в виде класса, то получим 
+In the array example, the problematic operation was the array update operation. If we represent the array as a class, we get
 ```python
 class Array[+T] {
   def update(x: T)
 }
 ```
 
-В этом классе проблема вызвана
-- Ковариантным параметром типа <code>T</code>
-- Который используется для параметра в методе <code>update</code>
+In this class, the problem is caused by
+- The covariant type parameter <code>T</code>
+- Which is used for a parameter in the <code>update</code> method
 
-Компилятор Scala проверяет, что в коде нет таких проблемных комбинаций. 
+The Scala compiler checks that there are no such problematic combinations in the code.
 
-Итого,
-- Ковариантные типы могут быть использованы только в результатах методов
-- Контравариантные типы только в параметрах методов
-- Инвариантные методы могут использоваться везде
+In summary,
+- Covariant types can only be used in method results
+- Contravariant types only in method parameters
+- Invariant types can be used anywhere
 
-Мы можем сделать <code>List</code> ковариантным
+We can make <code>List</code> covariant
 ```transact-sql
 trait List[+T] {...}
 object EmptyList extends List[Nothing] {...}
 ```
 
-Мы хотели бы иметь объект-синглтон для пустого списка, ведь для пустого списка разницы нет, что внутри, он всегда пуст. 
+We would like to have a singleton object for the empty list, since for an empty list it does not matter what is inside - it is always empty.
 
 
-Рассмотрим метод <code>prepend</code> который добавляет новый элемент и возвращает новый список 
+Consider the method <code>prepend</code> which adds a new element and returns a new list
 ```python
 trait List[+T] {
   def prepend(elem: T): List[T] = new Cons(elem, this)
 }
 ```
 
-Такое определение не пройдет проверку на вариантность, так как ковариантный тип, использующийся в параметре метода. 
+This definition will not pass the variance check, as a covariant type is used in a method parameter.
 
-Более того, это нарушает принцип подстановки Лисков. Пусть у нас есть список <code>xs</code> типа <code>List[IntSet]</code>
+Moreover, this violates the Liskov Substitution Principle. Suppose we have a list <code>xs</code> of type <code>List[IntSet]</code>
 
 ```text only
 xs.prepend(Empty)
 ```
 
-К такому списку пустое множество. Но если рассмотреть список <code>ys</code> типа <code>List[NonEmpty]</code>, то мы получим ошибку при попытке присоединить пустой список:
+We add an empty set to such a list. But if we consider a list <code>ys</code> of type <code>List[NonEmpty]</code>, we get an error when trying to prepend the empty set:
 
 ```carbon
 ys.prepend(Empty) // type mismatch, required: NonEmpty, found: Empty
 ```
 
-Т.е. <code>List[NonEmpty]</code> не может быть подтипом <code>List[IntSet]</code>
+That is, <code>List[NonEmpty]</code> cannot be a subtype of <code>List[IntSet]</code>
 
-Каким образом можно исправить это?
+How can this be fixed?
 
-Мы можем ограничить снизу параметр типа для метода <code>prepend</code>
+We can add a lower bound for the type parameter of the <code>prepend</code> method
 
 ```transact-sql
 def prepend[U >: T](elem: U): List[U] = new Cons(elem, this)
 ```
 
-Это проходит проверку на вариантность потому что
-- ковариантные параметры типов могут использоваться в качестве нижней границы для типов в методах
-- аналогично, контравариантные параметры типов могут использоваться в качестве верхней границы
+This passes the variance check because
+- covariant type parameters can be used as lower bounds for method types
+- similarly, contravariant type parameters can be used as upper bounds
 
-И, наконец, рассмотрим следующую функцию
+And finally, consider the following function
 
 ```python
 def f(xs: List[NonEmpty], x: Empty) = xs prepend x
 ```
 
-Типом возвращаемого значения этой функции будет <code>List[IntSet]</code>
+The return type of this function will be <code>List[IntSet]</code>
 
 
 
-## Сопоставление с образцом (Pattern Matching)
-В качестве примера рассмотрим небольшой интерпретатор для арифметических операций. Все выражения могут быть представлены в виде иерархии классов, с базовым trait-ом <code>Expr</code> и подклассами <code>Number</code> и <code>Sum</code> (ограничимся только числами и операцией сложения).
+## Pattern Matching
+As an example, consider a small interpreter for arithmetic operations. All expressions can be represented as a class hierarchy, with a base trait <code>Expr</code> and subclasses <code>Number</code> and <code>Sum</code> (we limit ourselves to numbers and the addition operation).
 
-Мы можем использовать ООП-подход 
+We can use the OOP approach
 ```gdscript
 trait Expr {
   def eval: Int
@@ -949,14 +952,14 @@ class Sum(e1: Expr, e2: Expr) extends Expr {
 }
 ```
 
-Ограничение такого подхода:
-- Что если мы захотим упростить выражения, используя некоторый набор правил? 
-- Например $a \cdot b + a \cdot c = a \cdot (b + c)$. 
-- Проблема состоит в том, что это упрощение не локальное, т.е. его нельзя инкапсулировать в метод только одного объекта 
-- Необходимо вносить изменения во все классы при добавлении нового метода
+Limitation of this approach:
+- What if we want to simplify expressions using a set of rules?
+- For example $a \cdot b + a \cdot c = a \cdot (b + c)$.
+- The problem is that this simplification is not local, i.e., it cannot be encapsulated in a method of only one object
+- Changes must be made to all classes when adding a new method
 
 ### Case Classes
-Рассмотрим следующее определение:
+Consider the following definition:
 ```gdscript
 trait Expr
 case class Number(n: Int) extends Expr
@@ -971,9 +974,9 @@ object Sum {
 }
 ```
 
-Объекты <code>Number</code> и <code>Sum</code> нужны для того, чтобы можно было писать <code>Number(1)</code> вместо <code>new Number(1)</code> (такие объекты называются ''companion objects'').
+The objects <code>Number</code> and <code>Sum</code> are needed so that one can write <code>Number(1)</code> instead of <code>new Number(1)</code> (such objects are called *companion objects*).
 
-''Сопоставление с образцом (pattern matching)'' - генерализация конструкции <code>switch</code> из java для иерархий классов. Классы, помеченные ключевым словом <code>case</code> могут использоваться в конструкциях сопоставления с образцом. 
+*Pattern matching* is a generalization of the <code>switch</code> construct from Java for class hierarchies. Classes marked with the keyword <code>case</code> can be used in pattern matching constructs.
 
 ```python
 def eval(e: Expr): Int = e match {
@@ -982,27 +985,27 @@ def eval(e: Expr): Int = e match {
 }
 ```
 
-Правила объявления:
-- используется ключевое слово <code>match</code> и
-- последовательность вида <code>pattern => expression</code> для каждого из ''случаев (case)''
-- для каждого случая производится сопоставление выражения expression с образцом <code>pattern</code>
-- если ни один из образцом нельзя сопоставить с данным значением, выкидывается ошибка <code>MatchError</code>
+Declaration rules:
+- the keyword <code>match</code> is used, and
+- a sequence of the form <code>pattern => expression</code> for each *case*
+- for each case, the expression is matched against the pattern
+- if none of the patterns can be matched with the given value, a <code>MatchError</code> is thrown
 
-### Формы образцов
-Образцы можно составить из
-- конструкторов (например, <code>Number</code>, <code>Sum</code>)
-- переменных (<code>n</code>, <code>e1</code>, <code>e2</code>)
-- wildcard образцов (<code>_</code>), которые сопоставляются с любым значением
-- константы, например, <code>1</code>, <code>true</code> и т.п.
+### Pattern Forms
+Patterns can be composed of
+- constructors (e.g., <code>Number</code>, <code>Sum</code>)
+- variables (<code>n</code>, <code>e1</code>, <code>e2</code>)
+- wildcard patterns (<code>_</code>), which match any value
+- constants, e.g., <code>1</code>, <code>true</code>, etc.
 
-Например, конструктор <code>Sum(x, y)</code> сопоставляется с объектом типа <code>Sum</code>, а в переменные <code>x</code> и <code>y</code> записываются значения для левого и правого операнда.
+For example, the constructor <code>Sum(x, y)</code> matches an object of type <code>Sum</code>, and the variables <code>x</code> and <code>y</code> receive the values of the left and right operands.
 
-Также, в качестве образцов можно использовать кортежи (пары и т.п.) и списки (подробнее см. ниже)
-- <code>case (c, count)</code> сопоставляется с парой, в <code>c</code> записывается первое значение, в <code>count</code> второе
-- <code>x :: xs</code> сопоставляется со списком, в <code>x</code> записывается голова списка, в <code>xs</code> - хвост
+Also, tuples (pairs, etc.) and lists can be used as patterns (see below for details)
+- <code>case (c, count)</code> matches a pair; <code>c</code> receives the first value, <code>count</code> the second
+- <code>x :: xs</code> matches a list; <code>x</code> receives the head of the list, <code>xs</code> the tail
 
 
-Примеры:
+Examples:
 ```python
 def singleton(trees: List[CodeTree]): Boolean = trees match {
   case x :: Nil => true
@@ -1029,7 +1032,7 @@ def decode1(currentBranch: CodeTree, bits: List[Bit]): List[Char] = (currentBran
 ```
 
 
-Также можно использовать для каждого из образцов ''граничное условие'', только при соблюдении которого будет выполняться выражение. Например, 
+A *guard condition* can also be used for each pattern, under which the expression will be executed only if the condition is satisfied. For example,
 ```python
 def positiveSingleton(xs: List[Int]): Boolean = xs match {
   case x :: Nil if x > 0 => true
@@ -1038,27 +1041,27 @@ def positiveSingleton(xs: List[Int]): Boolean = xs match {
 ```
 
 
-## Списки
-Список, состоящий из элементов $x_1, ..., x_n$ в Scala записывается следующим образом:
+## Lists
+A list consisting of elements $x_1, ..., x_n$ is written in Scala as follows:
 
 ```text only
 List(x1, ..., xn)
 ```
 
-Основные характеристики списков:
-- Списки неизменяемые
-- Списки заданы рекурсивно (список состоит из элемента, называемого ''головой списка'', и списка, называемого ''хвостом списка'').
-- Списки ''гомогенны'' - т.е. могут состоять только из элементов одного и того же типа
+Key characteristics of lists:
+- Lists are immutable
+- Lists are defined recursively (a list consists of an element called the *head* and a list called the *tail*).
+- Lists are *homogeneous* - i.e., they can consist only of elements of the same type
 
-В Scala списки составляются при помощи 
-- Пустого списка <code>Nil</code>
-- Оператора <code>::</code> (он же <code>Cons</code>) для присоединения нового элемента списка 
+In Scala, lists are constructed using
+- The empty list <code>Nil</code>
+- The <code>::</code> operator (also known as <code>Cons</code>) for prepending a new element to the list
 
-### Операции со списками
+### Operations on Lists
 ```text only
 x :: xs
 ```
-Присоединяет элемент $x$ к списку $xs$
+Prepends element $x$ to list $xs$
 
 ```text only
 fruit = "apples" :: ("pears" :: Nil)
@@ -1066,25 +1069,25 @@ nums = 1 :: (2 :: (3 :: Nil))
 empty = Nil
 ```
 
-Операция <code>::</code> право-ассоциативная, поэтому скобки можно опустить
+The <code>::</code> operation is right-associative, so parentheses can be omitted
 ```text only
 fruit = "apples" :: "pears" :: Nil
 nums = 1 :: 2 :: 3 :: Nil
 ```
 
-Операция <code>::</code> является методом, поэтому следующие две записи эквивалентны
+The <code>::</code> operation is a method, so the following two notations are equivalent
 ```text only
 nums = 1 :: 2 :: 3 :: Nil
 nums = Nil.::(3).::(2).::(1)
 ```
 
-Cписки можно использовать в сопоставлениях с образцом
-- <code>Nil</code> или <code>List()</code> сопоставляются с пустым списком 
-- <code>x :: xs</code> сопоставляется с головой списка <code>x</code> и хвостом <code>xs</code>
-- <code>List(x1, x2, x3)</code> сопоставляется со списком, состоящим из трех элементов 
+Lists can be used in pattern matching
+- <code>Nil</code> or <code>List()</code> matches the empty list
+- <code>x :: xs</code> matches the head <code>x</code> and tail <code>xs</code> of a list
+- <code>List(x1, x2, x3)</code> matches a list consisting of three elements
 
 
-Пример: сортировка вставками
+Example: insertion sort
 ```python
 def sort(xs: List[Int]): List[Int] = xs match {
   case List() => List(x)
@@ -1092,32 +1095,32 @@ def sort(xs: List[Int]): List[Int] = xs match {
 }
 ```
 
-Помимо этого, у списков определены следующие методы
-- <code>xs.head</code> - возвращает первый элемент списка
-- <code>xs.tail</code> - возвращает все элементы, кроме первого
-- <code>xs.isEmpty</code> возвращает <code>true</code>, если список пуст, <code>false</code> в противном случае
+In addition, lists have the following methods defined:
+- <code>xs.head</code> - returns the first element of the list
+- <code>xs.tail</code> - returns all elements except the first
+- <code>xs.isEmpty</code> returns <code>true</code> if the list is empty, <code>false</code> otherwise
 
-Также:
-- <code>xs.length</code> - длина списка
-- <code>xs.last</code> - последний элемент
-- <code>xs.init</code> - все элементы, кроме последнего
-- <code>xs take n</code> - возвращает первые <code>n</code> элементов списка (или сам <code>xs</code>, если он содержит меньше, чем <code>n</code> элементов)
-- <code>xs drop n</code> - возвращает список, полученный из данного путём отбрасывания первых <code>n</code> элементов 
-- <code>xs(i)</code> или <code>xs.apply(i)</code> - возвращает <code>i</code>-тый элемент списка
-- <code>xs ++ ys</code> - соединяет два списка
-- <code>xs.reverse</code> - разворачивает список
-- <code>xs.updated(n, x)</code> - возвращает список, полученный из данного, в котором на позиции <code>n</code> расположен элемент <code>x</code>
-- <code>xs.indexOf(x)</code> - индекс элемента <code>x</code> в списке
-- <code>xs.contains(x)</code> - <code>true</code> если элемент содержится в списке
+Also:
+- <code>xs.length</code> - length of the list
+- <code>xs.last</code> - last element
+- <code>xs.init</code> - all elements except the last
+- <code>xs take n</code> - returns the first <code>n</code> elements of the list (or <code>xs</code> itself if it contains fewer than <code>n</code> elements)
+- <code>xs drop n</code> - returns the list obtained by dropping the first <code>n</code> elements
+- <code>xs(i)</code> or <code>xs.apply(i)</code> - returns the <code>i</code>-th element of the list
+- <code>xs ++ ys</code> - concatenates two lists
+- <code>xs.reverse</code> - reverses the list
+- <code>xs.updated(n, x)</code> - returns the list obtained from the original where the element at position <code>n</code> is <code>x</code>
+- <code>xs.indexOf(x)</code> - index of element <code>x</code> in the list
+- <code>xs.contains(x)</code> - <code>true</code> if the element is contained in the list
 
-=== Функции высшего порядка для списков === 
-При обработке списков следующие задачи встречаются наиболее часто
-- Трансформация каждого элемента списка
-- Фильтрация элементов 
-- Компоновка всех значений списка в одно
+### Higher-Order Functions for Lists
+When processing lists, the following tasks are most common:
+- Transforming each element of the list
+- Filtering elements
+- Combining all values of the list into one
 
 #### Map
-Применяет функцию к каждому элементу 
+Applies a function to each element
 
 ```transact-sql
 class List[T] {
@@ -1134,7 +1137,7 @@ val squares = xs.map(x => x * x)
 ```
 
 #### Filter
-Фильтрует элементы, удовлетворяющие некоторому условию
+Filters elements satisfying some condition
 
 ```python
 class List[T] {
@@ -1148,13 +1151,15 @@ class List[T] {
 }
 ```
 
-Вариации функции <code>filter</code>
-- <code>xs filterNot</code> - то же самое, что <code>xs filter (x => |  p(x))</code> |- <code>xs partition p</code> - то же самое, что <code>(xs filter p, xs filterNot p)</code>, но выполненное за один проход |- <code>xs takeWhile p</code> - возвращает префикс списка, удовлетворяющие предикату
-- <code>xs dropWhile p</code> - остаток списка после удаления элементов, удовлетворяющие предикату
-- <code>xs span p</code> - то же самое, что <code>(xs takeWhile p, xs dropWhile p)</code>, но выполненное за один проход
+Variations of the <code>filter</code> function:
+- <code>xs filterNot</code> - same as <code>xs filter (x => |  p(x))</code>
+- <code>xs partition p</code> - same as <code>(xs filter p, xs filterNot p)</code>, but done in one pass
+- <code>xs takeWhile p</code> - returns the prefix of the list satisfying the predicate
+- <code>xs dropWhile p</code> - the remainder of the list after removing elements satisfying the predicate
+- <code>xs span p</code> - same as <code>(xs takeWhile p, xs dropWhile p)</code>, but done in one pass
 
-Пример:
-Функция <code>pack</code>, выполняющая следующее преобразование:
+Example:
+The <code>pack</code> function that performs the following transformation:
 
 ```text only
 "a","a","a","b","c","c","c","a" => List("a","a","a"), List("b"), List("c","c","c"), List("a")
@@ -1171,47 +1176,47 @@ def pack[T](xs: List[T]): List[List[T]] = xs match {
 ```
 
 #### Reduce
-Редуцирует список.
+Reduces the list.
 
-Часто используемая операция, например
-- сумма: $0 + x_1 + x_2 + ... + x_n$
-- произведение: $1 \cdot x_1 \cdot x_2 \cdot ... \cdot x_n$
+A commonly used operation, for example:
+- sum: $0 + x_1 + x_2 + ... + x_n$
+- product: $1 \cdot x_1 \cdot x_2 \cdot ... \cdot x_n$
 
 <code>reduceLeft</code>
 ```python
-def sum(xs: List[Int]) = 
+def sum(xs: List[Int]) =
   (0 :: xs) reduceLeft((x, y) => x + y)
 
-def product(xs: List[Int]) = 
+def product(xs: List[Int]) =
   (1 :: xs) reduceLeft((x, y) => x * y)
 ```
 
-Вместо того, чтобы писать <code>(x, y) => x + y</code>, можно написать <code>(_ * _)</code>
-Каждый из <code>_</code> представляет собой параметр, поэтому функции выше можно переписать следующим образом:
+Instead of writing <code>(x, y) => x + y</code>, one can write <code>(_ * _)</code>
+Each <code>_</code> represents a parameter, so the functions above can be rewritten as follows:
 
 ```python
-def sum(xs: List[Int]) = 
+def sum(xs: List[Int]) =
   (0 :: xs) reduceLeft(_ + _)
 
-def product(xs: List[Int]) = 
+def product(xs: List[Int]) =
   (1 :: xs) reduceLeft(_ * _)
 ```
 
 
-<code>reduceLeft</code> определена с помощью более общей функции <code>foldLeft</code>. <code>foldLeft</code> работает примерно так же, как и <code>reduceLeft</code>, но в качестве аргумента так же принимает аккумулятор - значение, которое будет возвращено, при применении функции к пустому списку.
+<code>reduceLeft</code> is defined using the more general function <code>foldLeft</code>. <code>foldLeft</code> works similarly to <code>reduceLeft</code>, but also takes an accumulator as an argument - a value that will be returned when the function is applied to an empty list.
 
-Таким образом, сумма и произведение могут быть записаны как
+Thus, sum and product can be written as
 
 ```python
-def sum(xs: List[Int]) = 
+def sum(xs: List[Int]) =
   (xs foldLeft 0) reduceLeft(_ + _)
 
-def product(xs: List[Int]) = 
+def product(xs: List[Int]) =
   (xs foldRight 1) reduceLeft(_ * _)
 ```
 
 
-Реализовать эти две функции можно следующим образом:
+These two functions can be implemented as follows:
 
 ```python
 class List[T] {
@@ -1228,7 +1233,7 @@ class List[T] {
 ```
 
 
-Помимо <code>foldLeft</code> и <code>reduceLeft</code> так же определены функции <code>foldRight</code> и <code>reduceRight</code>
+In addition to <code>foldLeft</code> and <code>reduceLeft</code>, the functions <code>foldRight</code> and <code>reduceRight</code> are also defined
 
 ```python
 class List[T] {
@@ -1245,32 +1250,32 @@ class List[T] {
 }
 ```
 
-Для операций, которые ассоциативные и коммутативные, функции <code>foldLeft</code> и <code>foldRight</code> эквивалентны, однако одна из них может быть более эффективной. 
+For operations that are associative and commutative, <code>foldLeft</code> and <code>foldRight</code> are equivalent; however, one of them may be more efficient.
 
 
-## Коллекции
+## Collections
 ### Vector
-Списки линейны, т.е. доступ к первому элементу списка очень быстрый, однако для того, чтобы получить элемент в середине или в конце, нужно пройти все предыдущие элементы. 
+Lists are linear, i.e., access to the first element of a list is very fast, but to access an element in the middle or at the end, all preceding elements must be traversed.
 
-Однако в Scala существуют альтернативные реализации последовательностей (интерфейс <code>Seq</code>), например, <code>Vector</code>, который предоставляет более эффективные операции доступа к элементам.
+However, Scala has alternative implementations of sequences (the <code>Seq</code> interface), for example, <code>Vector</code>, which provides more efficient element access operations.
 
 ```text only
 val nums = Vector(1, 2, 3)
 val people = Vector("Bob", "James", "Peter")
 ```
 
-Векторы поддерживают те же самые операции, что и списки, за исключением операции <code>::</code>. Вместо неё определены следующие операции:
+Vectors support the same operations as lists, except for the <code>::</code> operation. Instead, the following operations are defined:
 
-- <code>x +: xs</code> - создаёт новый вектор с элементом x в начале 
-- <code>xs :+ s</code> - создаёт новый вектор с элементом x в конце
+- <code>x +: xs</code> - creates a new vector with element x at the beginning
+- <code>xs :+ s</code> - creates a new vector with element x at the end
 
 ### Range
-Объекты типа <code>Range</code> служат представлением равномерно распределённых целых чисел
+Objects of type <code>Range</code> represent evenly spaced integers
 
-Создаются с помощью трех операций:
-- <code>to</code> (включительно)
-- <code>until</code> (исключительно)
-- <code>by</code> (шаг)
+They are created using three operations:
+- <code>to</code> (inclusive)
+- <code>until</code> (exclusive)
+- <code>by</code> (step)
 
 ```scalate server page
 val r: Range = 1 until 5 // 1, 2, 3, 4
@@ -1281,83 +1286,83 @@ val s: Range = 1 to 5 // 1, 2, 3, 4, 5
 ```
 
 ### Seq
-<code>Seq</code> - общий базовый класс для классов <code>Vector</code>, <code>List</code> и <code>Range</code>:
+<code>Seq</code> is the common base class for <code>Vector</code>, <code>List</code>, and <code>Range</code>:
 
 <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/collections-hier.png" alt="Image">" />
 
-Строки (тип <code>String</code>) и массивы (тип <code>Array</code>) поддерживают те же самые операции, что и Seq, и неявно конвертируюся в тип <code>Seq</code> когда нужно (но они не могут быть подклассами последовательности, т.к. они из Java)
+Strings (type <code>String</code>) and arrays (type <code>Array</code>) support the same operations as Seq, and are implicitly converted to the <code>Seq</code> type when needed (but they cannot be subclasses of Seq since they come from Java)
 
-Для объектов класса Seq так же определяются следующие операции:
-- <code>xs exists p</code> - <code>true</code> если хотя бы один элемент удовлетворяет <code>p</code>
-- <code>xs forall p</code> - <code>true</code> если все элементы удовлетворяют <code>p</code>
-- <code>xs zip ys</code> - возвращает последовательность пар, составленных из соотвествующих элементов из xs и ys
-- <code>xs unzip ys</code> - операция, обратная <code>zip</code>
-- <code>xs flatMap f</code> - для тех случаев, когда f возвращает коллекцию, flatMap "склеивает" общий результат в одну коллекцию
+For Seq objects, the following operations are also defined:
+- <code>xs exists p</code> - <code>true</code> if at least one element satisfies <code>p</code>
+- <code>xs forall p</code> - <code>true</code> if all elements satisfy <code>p</code>
+- <code>xs zip ys</code> - returns a sequence of pairs composed of corresponding elements from xs and ys
+- <code>xs unzip ys</code> - the inverse operation of <code>zip</code>
+- <code>xs flatMap f</code> - for cases when f returns a collection, flatMap "glues" the overall result into a single collection
 
-И так же
+And also:
 - <code>xs.sum</code>
 - <code>xs.product</code>
 - <code>xs.max</code>
 - <code>xs.min</code>
 
-<code>Примеры</code>
+<code>Examples</code>
 
-Все комбинации для $x \in [1..M]$ и $y \in [1..N]$
+All combinations for $x \in [1..M]$ and $y \in [1..N]$
 
 ```text only
 (1 to M) flatMap (x => (1 to N) map (y => (x, y)))
 ```
 
 
-Скалярное произведение двух векторов:
+Dot product of two vectors:
 ```python
-def scalarProduct(xs: Vector[Double], ys: Vector[Double]): Double = 
+def scalarProduct(xs: Vector[Double], ys: Vector[Double]): Double =
   (xs zip ys).map(xy => xy._1 * xy._2).sum
 ```
 
-Что, используя сопоставление с образцом (pattern matching function value), можно записать следующим образом:
+Which, using a pattern matching function value, can be written as:
 
 ```scdoc
 (xs zip ys).map { case (x, y) = x * y }.sum
 ```
 
 
-Проверка числа на простоту
+Primality test
 ```python
 def isPrime(n: Int): Boolean =
   (2 until n) forall (d => u % d |  = 0) |
 ``` |
 ### For-Expressions
-Из списка людей мы хотим вывести имена тех, кто старше 20:
+From a list of people, we want to output the names of those older than 20:
 
 ```text only
 persons filter (p => p.age > 20) map (p => p.name)
 ```
 
-Анологичное мы можем сделать с помощью конструкции <code>for</code>:
+We can do the same using the <code>for</code> construct:
 
 ```s
 for (p <- persons if p.age < 20) yield p.name
 ```
 
-Синтакс:
+Syntax:
 ```tera term macro
 for (s) yield e
 ```
 
-Где 
-- <code>s</code> - последовательность генераторов и фильтров
-- <code>e</code> - выражение, которое будет возвращено для каждого объекта
+Where
+- <code>s</code> is a sequence of generators and filters
+- <code>e</code> is an expression that will be returned for each object
 
-- генератор имеет вид <code>p <- e</code>
-  - <code>p</code> - образец
-  - <code>e</code> - выражение
-- фильтр имеет вид <code>if f</code>
-  - <code>f</code> - выражение, возвращающее <code>Boolean</code>
+- a generator has the form <code>p <- e</code>
+  - <code>p</code> is a pattern
+  - <code>e</code> is an expression
+- a filter has the form <code>if f</code>
+  - <code>f</code> is an expression returning <code>Boolean</code>
 
-Последовательность должна начинаться с генератора. Если генераторов несколько, последний генератор изменяется быстрее, чем первый.
+The sequence must start with a generator. If there are multiple generators, the last generator changes faster than the first.
 
-Вместо круглых скобок можно использовать <code>{}</code>, и тогда генераторы можно записывать в несколько строк
+Instead of parentheses, <code>{}</code> can be used, and then generators can be written on multiple lines
 
 ```s
 for {
@@ -1367,33 +1372,33 @@ for {
 } yield (i, j)
 ```
 
-Таким образом, скалярное произведение можно записать так:
+Thus, the dot product can be written as:
 ```s
 (for ((x, y) <- xs zip ys) yield y * x).sum
 ```
 
 ### Set
-Тип данных, представляющий множество - коллекцию, в которой элементы не повторяются.
+A data type representing a set - a collection in which elements do not repeat.
 
 ```text only
 val fruit = Set("apple", "banana", "pear")
 val s = (1 to 6).toSet
 ```
 
-Большинство операций для последовательностей так же доступны и для множеств:
+Most operations for sequences are also available for sets:
 
 ```scdoc
 s map (_ + 2)
 fruit filter (_.startsWith("app"))
 ```
 
-### Пример: 8 Queens
-Проблема [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-15.html#%_thm_2.42]: как расставить $N$ ферзей так, чтобы ни один не мог сбить другого. Т.е. требуется расставить ферзей так, чтобы ни один из них не был на одной горизонтали, вертикали или диагонали. 
+### Example: 8 Queens
+The problem [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-15.html#%_thm_2.42]: how to place $N$ queens so that none can capture another. That is, the queens must be placed so that none of them is on the same row, column, or diagonal.
 
-Алгоритм:
-- допустим, мы уже имеем решение для первых $k-1$ ферзей на доске размера $n$
-- каждое решение - это список длины $k-1$, содержащий номера вертикалей, на которых стоят ферзи (от 0 до $n-1$)
-- для того, чтобы поставить ферзя на $k$-ю вертикаль, мы генерируем все возможные позиции и отфильтровываем те, в которых условия нарушаются
+Algorithm:
+- assume we already have a solution for the first $k-1$ queens on a board of size $n$
+- each solution is a list of length $k-1$ containing the column numbers where the queens stand (from 0 to $n-1$)
+- to place a queen on the $k$-th column, we generate all possible positions and filter out those where conditions are violated
 
 ```python
 def queens(n: Int) = {
@@ -1413,32 +1418,32 @@ def queens(n: Int) = {
 def isSafe(col: Int, queens: List[Int]): Boolean = ...
 ```
 
-### Map (Структура данных)
-Map[Key, Value] - ассоциативный контейнер для пар ключ-значение. 
+### Map (Data Structure)
+Map[Key, Value] is an associative container for key-value pairs.
 
 ```bash
 val roman = Map("I" -> 1, "V" -> 5, "X" -> 10)
 val capitals = Map("US" -> "Washington", "Switzerland" -> "Bern")
 ```
 
-Класс Map[Key, Value] расширяет класс Iterable[(Key, Value)], так что с объектами этого типа можно делать всё, что угодно:
+The class Map[Key, Value] extends Iterable[(Key, Value)], so anything can be done with objects of this type:
 
 ```bash
 val countries = capitals map { case (x, y) => (y, x) }
 ```
 
-Для извлечения нужно просто применить мапу к ключу:
+For extraction, simply apply the map to a key:
 
 ```text only
 capital("Andorra")
 ```
 
-Однако если ключа не существует, будет выброшено <code>java.utils.NoSuchElement</code>
+However, if the key does not exist, <code>java.utils.NoSuchElement</code> will be thrown.
 
-Однако можно использовать метод get, который всегда возвращает значения типа Option
+Alternatively, the get method can be used, which always returns values of type Option
 
 #### Option
-Объекты типа <code>Option</code> бывают двух типов: в одном содержится какое-то значение, а другое всегда пустое. 
+Objects of type <code>Option</code> come in two varieties: one contains some value, and the other is always empty.
 
 ```transact-sql
 trait Option[+A]
@@ -1446,9 +1451,9 @@ case class Some[+A](value: A) extends Option[A]
 object None extends Option[Nothing]
 ```
 
-Метод <code>get</code> возвращает
-- <code>None</code>, если мапа не содержит ключ
-- <code>Some(x)</code>, если содержит
+The <code>get</code> method returns
+- <code>None</code> if the map does not contain the key
+- <code>Some(x)</code> if it does
 
 ```python
 def showCapital(country: String) = capital.get(country) match {
@@ -1458,12 +1463,12 @@ def showCapital(country: String) = capital.get(country) match {
 ```
 
 #### Group By
-Коллекцию превратить в <code>Map</code> коллекций можно с помощью операции <code>groupBy</code>:
+A collection can be turned into a <code>Map</code> of collections using the <code>groupBy</code> operation:
 ```scdoc
 fruit groupBy(_.head)
 ```
 
-Вернет
+Returns
 ```ecl
 Map(
   p -> List(pear, pineapple),
@@ -1472,75 +1477,75 @@ Map(
 )
 ```
 
-Так же можно создать мапу со значением по умолчанию, которое будет использоваться в случаях, когда ключ не найден
+A map with a default value can also be created, which will be used when a key is not found
 ```bash
 val cap1 = capitals withDefaultValue "unknown"
 cap1("Andorra") // "unknown"
 ```
 
-#### Параметры переменной длины
-Допустим, у нас есть класс <code>Polynom</code>:
+#### Variable-Length Parameters
+Suppose we have a class <code>Polynom</code>:
 
 ```ecl
 Polynom(Map(1 -> 2.0, 3 -> 4.0, 5 -> 6.2))
 ```
 
-Можно ли избежать передачи <code>Map</code>? Мы можем использовать параметр с повторением ("repeated parameter")
+Can we avoid passing <code>Map</code>? We can use a repeated parameter
 
 ```python
-def Polynom(bindings: (Int, Double)*) = 
+def Polynom(bindings: (Int, Double)*) =
   new Polynom(bindings.toMap withDefaultValue 0)
 ```
 
-Теперь можно это использовать без <code>Map</code>:
+Now this can be used without <code>Map</code>:
 
 ```ecl
 Polynom(1 -> 2.0, 3 -> 4.0, 5 -> 6.2)
 ```
 
 
-## Ленивые вычисления
+## Lazy Evaluation
 ### Stream
-[http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5]. Дана задача: вычислить второе простое число в последовательности между 1000 и 10000.
+[http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5]. Given the task: compute the second prime number in the sequence between 1000 and 10000.
 
 ```scdoc
 ((1000 to 10000) filter isPrime)(1)
 ```
 
-Но этот код находит _все_ простые числа в заданном промежутке, но использует только 2.
+But this code finds _all_ prime numbers in the given range while using only 2.
 
-Мы могли бы снизить верхнюю границу промежутка, но при этом рискуя тем, что второго простого числа в интервале просто может не оказаться. 
+We could lower the upper bound of the range, but risk that a second prime number might not exist in the interval.
 
-Однако мы можем избежать вычисления хвоста последовательности до тех пор, пока он явно не понадобится. 
+However, we can avoid computing the tail of the sequence until it is explicitly needed.
 
-Структура данных Stream построена на этом принципе, и внутри очень похожа на список. Единственное отличие: хвост стрима вычисляется только тогда, когда нужно. 
+The Stream data structure is built on this principle and is internally very similar to a list. The only difference: the tail of a stream is computed only when needed.
 
 ```text only
 Stream.cons(1, Stream.cons(2, Stream.empty))
 Stream(1, 2, 3)
 ```
 
-Коллекции имеют специальный метод для получения Stream:
+Collections have a special method for obtaining a Stream:
 
 ```transact-sql
 (1 to 1000).toStream // > Stream[Int] = Stream(1, ?)
 ```
 
-Все операции для списков можно применять и для этой структуры данных. 
+All operations for lists can also be applied to this data structure.
 
-Например,
+For example,
 
 ```scdoc
 ((1000 to 10000).toStream filter isPrime)(1)
 ```
 
-Однако <code>::</code> всегда создает список, а не Stream, поэтому для них используется <code>#::</code>:
+However, <code>::</code> always creates a list, not a Stream, so <code>#::</code> is used for streams:
 
 ```text only
 x #:: xs == Stream.cons(x, xs)
 ```
 
-Реализация стрима очень похожа на реализацию списка. Однако есть одно существенное отличие:
+The stream implementation is very similar to the list implementation. However, there is one significant difference:
 
 ```transact-sql
 def cons[T](hd: T, tl: => Stream) = new Stream {
@@ -1550,20 +1555,20 @@ def cons[T](hd: T, tl: => Stream) = new Stream {
 }
 ```
 
-Для параметра <code>tl</code> используется передача по имени, а не по значению. Именно поэтому хвост вычисляется только тогда, когда необходимо. 
+The parameter <code>tl</code> uses call-by-name rather than call-by-value. This is exactly why the tail is computed only when necessary.
 
 ### Lazy Evaluation
-Однако предложенная выше реализация имеет недостаток, из-за которого существенно страдает производительность: eсли элемент списка затребован несколько раз, каждый раз будет вычисляться весь список. 
+However, the implementation proposed above has a drawback that significantly affects performance: if a list element is requested multiple times, the entire list will be recomputed each time.
 
-Этого можно избежать, если при первом вызове сохранять вычисленное значение и при втором запросе возвращать уже заранее посчитанные данные.
+This can be avoided by saving the computed value on the first call and returning the pre-computed data on subsequent requests.
 
-Этот приём называется ''ленивая инициализация'', и в Scala осуществляется с помощью ключевого слова <code>lazy</code>:
+This technique is called *lazy initialization*, and in Scala it is done using the keyword <code>lazy</code>:
 
 ```text only
 lazy val x = expression
 ```
 
-Таким образом, Stream можно переписать так:
+Thus, Stream can be rewritten as:
 
 ```transact-sql
 def cons[T](hd: T, tl: => Stream) = new Stream {
@@ -1573,8 +1578,8 @@ def cons[T](hd: T, tl: => Stream) = new Stream {
 }
 ```
 
-### Бесконечные последовательности
-С помощью стримов можно создавать последовательности неограниченного размера [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5.2]:
+### Infinite Sequences
+Using streams, sequences of unlimited size can be created [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5.2]:
 
 ```python
 def from(n: Int): Stream[Int] = n #:: from(n + 1)
@@ -1582,18 +1587,18 @@ val natural = from(0)
 natural map (_ * 4)
 ```
 
-При этом, если <code>for-expression</code> применить к бесконечному списку, результат так же будет ленивым
+Moreover, if a <code>for-expression</code> is applied to an infinite list, the result will also be lazy
 
 ```bash
 val legals = b.legalNeighbors.toStream
 for ((nextBlock, move) <- legals) yield (nextBlock, move :: history)
 ```
 
-### Пример: Решето Эратосфена
-Для вычисления простых чисел:
-- Начинаем с $i = 2$
-- Убираем из результата все делители $i$
-- Переходим к следующему элементу результата и повторяем
+### Example: Sieve of Eratosthenes
+To compute prime numbers:
+- Start with $i = 2$
+- Remove from the result all multiples of $i$
+- Move to the next element of the result and repeat
 
 ```python
 def sieve(s: Stream[Int]): Stream[Int] =
@@ -1603,14 +1608,14 @@ def sieve(s: Stream[Int]): Stream[Int] =
 ```
 
 
-## Остальное
-### Кортежи и пары
-Рассмотрим сортировку слиянием
+## Miscellaneous
+### Tuples and Pairs
+Consider merge sort
 
-Алгоритм:
-- Разделить список пополам
-- Отсортировать полученные подсписки
-- Слить их в один отсортированный список
+Algorithm:
+- Split the list in half
+- Sort the resulting sublists
+- Merge them into one sorted list
 
 ```python
 def msort(xs: List[Int]): List[Int] = {
@@ -1624,7 +1629,7 @@ def msort(xs: List[Int]): List[Int] = {
 }
 
 def merge(xs: List[Int], ys: List[Int]) = xs match {
-  case Nil => ys 
+  case Nil => ys
   case x :: xs1 =>
     ys match {
       case Nil => xs
@@ -1635,42 +1640,42 @@ def merge(xs: List[Int], ys: List[Int]) = xs match {
 }
 ```
 
-В этом примере функция <code>splitAt</code> возвращает два подсписка, в виде ''пары''.
+In this example, the <code>splitAt</code> function returns two sublists as a *pair*.
 
-В Scala пара записывается в виде <code>(x1, x2)</code>
+In Scala, a pair is written as <code>(x1, x2)</code>
 
 ```text only
-val pair = ("answer", 12) // тип: (String, Int)
+val pair = ("answer", 12) // type: (String, Int)
 ```
 
-Пары могут быть использованы в сопоставлениях с образцом:
+Pairs can be used in pattern matching:
 
 ```text only
-val (label, value) = pair 
+val (label, value) = pair
 laber == "answer"
 value == 12
 ```
 
-Пара является кортежем из двух элементов, и для кортежей болей размерности все вышеперечисленное работает. 
+A pair is a tuple of two elements, and everything above works for tuples of higher dimensions as well.
 
-Так как пары можно использовать в сопоставлениях с образцом, то функцию <code>merge</code> можно переписать следующим образом:
+Since pairs can be used in pattern matching, the <code>merge</code> function can be rewritten as follows:
 
 ```python
 def merge(xs: List[Int], ys: List[Int]): List[Int] = (xs, ys) match {
   case (Nil, _) => ys
   case (_, Nil) => xs
   case (x :: xs1, y :: ys1) =>
-    if (x < y) 
+    if (x < y)
       x :: merge(xs1, ys)
-    else 
+    else
       y :: merge(xs, ys1)
 }
 ```
 
-### Неявные параметры
-Функция <code>msort</code> сортирует только числа. Как сделать её более общей? 
+### Implicit Parameters
+The <code>msort</code> function only sorts numbers. How can it be made more general?
 
-Например, можно передавать функцию для сравнения двух объектов 
+For example, a comparison function can be passed for comparing two objects
 
 ```transact-sql
 def msort[T](xs: List[T], ys: List[T])(lt: (T, T) => Boolean): List[T] = {
@@ -1679,7 +1684,7 @@ def msort[T](xs: List[T], ys: List[T])(lt: (T, T) => Boolean): List[T] = {
   def merge[T](xs: List[T], ys: List[T]): List[T] = (xs, ys) match {
     ...
     case (x :: xs1, y :: ys1) =>
-      if (ls(x, y)) 
+      if (ls(x, y))
         ...
   }
 
@@ -1690,7 +1695,7 @@ msort(xs)((x, y) => x < y)
 msort(xs)((x, y) => x.compareTo(y) < 0)
 ```
 
-В Scala уже есть функции для сравнения, которые можно использовать:
+Scala already has comparison functions that can be used:
 
 ```python
 import math.Ordering
@@ -1698,7 +1703,7 @@ msort(nums)(Ordering.Int)
 msort(fruits)(Ordering.String)
 ```
 
-Однако в этой реализации есть проблема: необходимо постоянно передавать параметр ls. Однако можно этого избежать при помощи неявных параметров (implicit parameters)
+However, this implementation has a problem: the ls parameter must be passed constantly. This can be avoided using implicit parameters
 
 ```python
 def msort[T](xs: List)(implicit ord: Ordering) = {
@@ -1706,7 +1711,7 @@ def msort[T](xs: List)(implicit ord: Ordering) = {
 
   def merge(xs: List[T], ys: List[T]) = {
     ...
-    if (ls(x, y)) 
+    if (ls(x, y))
     ...
   }
 
@@ -1714,7 +1719,7 @@ def msort[T](xs: List)(implicit ord: Ordering) = {
 }
 ```
 
-Теперь можно целиком избежать передачи последнего параметра, компилятор найдёт правильное значение нужного типа для неявно заданного параметра 
+Now the last parameter can be omitted entirely; the compiler will find the correct value of the needed type for the implicitly specified parameter
 
 ```python
 import math.Ordering
@@ -1722,9 +1727,9 @@ msort(nums)
 msort(fruits)
 ```
 
-Для того, чтобы значения могли использоваться компилятором неявно, они должны удовлетворять следующим правилам
-- должны быть помечены с помощью ключевого слова <code>implicit</code>
-- иметь соответствующий тип
-- и быть видимыми
+For values to be used implicitly by the compiler, they must satisfy the following rules:
+- must be marked with the keyword <code>implicit</code>
+- have the corresponding type
+- and be visible
 
-Во всех остальных случаях будет выброшено исключение
+In all other cases, an exception will be thrown

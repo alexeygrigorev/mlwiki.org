@@ -265,7 +265,8 @@ Consider the ROC curve above (auc=0.68).
 - Let's make an experiment
 - draw random positive and negative examples 
 - then calculate the proportion of cases when positives have greater score than negatives
-- at the end, we obtain 0.67926 - quite close to 0.68|   | |
+- at the end, we obtain 0.67926 - quite close to 0.68
+ |
 ```bash
 cls = c('P', 'P', 'N', 'P', 'P', 'P', 'N', 'N', 'P', 'N', 'P',
         'N', 'P', 'N', 'N', 'N', 'P', 'N', 'P', 'N')

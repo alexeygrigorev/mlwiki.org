@@ -40,10 +40,13 @@ Every place can contain one or more ''tokens''
 
 Notation:
 - $\bullet p$ is a set of all transactions that put tokens to $p$
-  - $\bullet p = \{ t \in T \ |  \ (t, p) \in F \}$ |- $p \bullet$ is a set of all transactions that take tokens from $p$
-  - $p \bullet = \{ t \in T \ |  \ (p, t) \in F \}$ |- $\bullet t$ is a set of all input places of $t$ 
-  - $\bullet t = \{ p \in P \ |  \ (t, p) \in F \}$ |- $t \bullet$ is a set of all output places of $t$
-  - $t \bullet = \{ p \in P \ |  \ (p, t) \in F \}$ |
+  - $\bullet p = \{ t \in T \ |  \ (t, p) \in F \}$
+- $p \bullet$ is a set of all transactions that take tokens from $p$
+  - $p \bullet = \{ t \in T \ |  \ (p, t) \in F \}$
+- $\bullet t$ is a set of all input places of $t$ 
+  - $\bullet t = \{ p \in P \ |  \ (t, p) \in F \}$
+- $t \bullet$ is a set of all output places of $t$
+  - $t \bullet = \{ p \in P \ |  \ (p, t) \in F \}$
 
 Example:
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-formal-def-ex.png" alt="Image">

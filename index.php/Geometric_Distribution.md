@@ -4,7 +4,6 @@ permalink: /index.php/Geometric_Distribution
 tags:
 - distributions
 - probability
-- russian
 title: Geometric Distribution
 ---
 ## Geometric Distribution
@@ -15,7 +14,7 @@ Assume we run a series of [Bernoulli Trial](Bernoulli_Trial)s where the probabil
 
 The trials stop once $A$ occures, i.e. if $A$ occures at $k$-th trial, it didn't occur in previous $k -1$ trials
 
-[Random Variable](Random_Variable) $X$ is the number of trials we should run until we see $A$ 
+[Random Variable](Random_Variable) $X$ is the number of trials we should run until we see $A$
 - the distribution of $X$ is called ''Geomentric''
 
 Formally, Geometric Distribution describes the waiting time until a success for indepented and identically distributed Bernoulli Random Variables
@@ -23,16 +22,16 @@ Formally, Geometric Distribution describes the waiting time until a success for 
 
 
 Typical questions:
-- How long should we flip a coin until we get head? 
+- How long should we flip a coin until we get head?
 - How many times we roll a dice until we get 1?
 
 
 ## [Cumulative Distribution Function](Cumulative_Distribution_Function)
-Пусть в $k-1$-ом испытании событие не появилось, а в $k$-ом появилось. Тогда по [теореме умножения вероятностей независимых событий](Chain_and_Sum_Rules_in_Probability#Теорема_произведения_вероятностей) имеем следующую функцию распределения:
+Suppose the event did not occur in the $(k-1)$-th trial, but occurred in the $k$-th trial. Then by the [multiplication theorem for independent events](Chain_and_Sum_Rules_in_Probability#Теорема_произведения_вероятностей) we have the following distribution function:
 
 $P(X = k) = q^{k - 1} p$
 
-Таким образом, для каждого $k = 0, 1, 2, ...$ получим геометрическую прогрессию, в которой p - первый член прогрессии, q - знаменатель:
+Thus, for each $k = 0, 1, 2, ...$ we obtain a geometric progression, where $p$ is the first term and $q$ is the common ratio:
 
 $p, qp, q^2 p, ..., q^{k - 1} p, ...$
 
@@ -46,5 +45,5 @@ $p, qp, q^2 p, ..., q^{k - 1} p, ...$
 - [Negative Binomial Distribution](Negative_Binomial_Distribution) - general case of Geometric distribution
 
 ## Sources
-- Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
+- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vyssh. shk., 2003.
 - [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))

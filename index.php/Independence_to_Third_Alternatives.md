@@ -34,7 +34,7 @@ Example:
 
 A voting method $H$ is ''independent to third alternatives'' if 
 - the global ordering produced by $H$ under the set $A$ is the same for both rankings such rankings:
-- $H(R_1, R_2) | _A \equiv  H(R'_1, R'_2) |_A$ |
+- $H(R_1, R_2) | _A \equiv  H(R'_1, R'_2) |_A$
 In other words, ordering of the set $A^* - A$ is irrelevant to the choice over $A$
 
 

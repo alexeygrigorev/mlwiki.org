@@ -75,7 +75,7 @@ the query $Q(x, y) \leftarrow R(x, y), R(y, 5), S(y)$ wants to retrieve all pair
 : so when we apply $f(\text{head})$ we get a tuple that is a part of the result of evaluating $Q$ on $D$
 
 Then the result of a conjunctive query can be shown as:
-- $Q(D) \leftarrow \{ f(\text{head}) |  f \text{ is a matching of $Q$ to $D$ } \}$ |
+- $Q(D) \leftarrow \{ f(\text{head}) |  f \text{ is a matching of $Q$ to $D$ } \}$
 
 Let's consider the previous example: $Q(x, y) \leftarrow \underbrace{R(x, y)}_{(1)}, \underbrace{R(y, 5)}_{(2)}, \underbrace{S(y)}_{(3)}$ for the same database
 
@@ -113,7 +113,8 @@ So this way we try all values of our database table and return only matching one
 [First Order Logic](First_Order_Logic)
 - CQs can be translated to [First Order Logic](First_Order_Logic) expressions
 - for query $q(x_1, ..., x_n) = A_1(...), \ ..., \ A_n(...)$
-- FOL expressions is $\{ x_1, ..., x_n \ |  \ \exists \ y_1, ..., y_m : A_1(...) \ \land \ ... \ \land \ A_n(...) \}$ |  - $x_1, ..., x_n$ - distinguished variables, and $y_1, ..., y_m$ are existential
+- FOL expressions is $\{ x_1, ..., x_n \ |  \ \exists \ y_1, ..., y_m : A_1(...) \ \land \ ... \ \land \ A_n(...) \}$
+- $x_1, ..., x_n$ - distinguished variables, and $y_1, ..., y_m$ are existential
 
 
 [Relational Algebra](Relational_Algebra)
@@ -185,7 +186,9 @@ Proof of $\Leftarrow$ (if)
   - with a matching $f$ of $Q_1$ into $D$ 
   - (by semantics of CQs)
 - let's consider a composition $f \circ h$ (composition of $f$ with the homomorphism $h$)
-  - this is a substitution of $Q_2$ into $D$|   (we fist applied the homomorphism and then the matching - and got the substitution) |  - since $h$ is a homomorphism, $h(\text{body}_2) \subseteq \text{body}_2$ (by def of homomorphism) |  - $\to$ $f(h(\text{body}_2)) \subseteq f(\text{body}_1) \subseteq D$
+  - this is a substitution of $Q_2$ into $D$|   (we fist applied the homomorphism and then the matching - and got the substitution)
+- since $h$ is a homomorphism, $h(\text{body}_2) \subseteq \text{body}_2$ (by def of homomorphism)
+- $\to$ $f(h(\text{body}_2)) \subseteq f(\text{body}_1) \subseteq D$
   - in other words, $f \circ h$ is a matching of $Q_2$ into $D$
 - hence 
   - $f(h(\text{body}_2)) \in Q_2(D)$

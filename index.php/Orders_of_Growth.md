@@ -23,7 +23,9 @@ Big-O can answer:
 Consider a [Limit](Limit) $\lim\limits_{x \to \infty} \cfrac{x^n}{e^x}$
 - who "wins"? 
 - can apply [L'Hopital's Rule](L'Hopital's_Rule) several times:
-- $\lim\limits_{x \to \infty} \cfrac{x^n}{e^x} = \lim\limits_{x \to \infty} \cfrac{n\, x^{n-1}}{e^x} = \ ... \ = \lim\limits_{x \to \infty} \cfrac{n|  }{e^x}$ |- $n| $ is a constant (even though it might be big - but it's still a constant) |- so $e^x$ grows faster than any Monomial Function (and any [Polynomial Function](Polynomial_Function) as well)  |
+- $\lim\limits_{x \to \infty} \cfrac{x^n}{e^x} = \lim\limits_{x \to \infty} \cfrac{n\, x^{n-1}}{e^x} = \ ... \ = \lim\limits_{x \to \infty} \cfrac{n!}{e^x}$
+- $n!$ is a constant (even though it might be big - but it's still a constant)
+- so $e^x$ grows faster than any Monomial Function (and any [Polynomial Function](Polynomial_Function) as well)
 
 We have the following hierarchy of growth:
 - [Factorial](Factorial)
@@ -43,13 +45,15 @@ Example:
 
 Factorial Growth beats Exponential Growth
 - let's show why:
-- $\cfrac{x|  }{e^x} = \cfrac{x\, (x - 1)\ ... \ 3\, 2\, 1}{e\, e \ ... \ e\, e\, e}$ |- almost all terms at the numerator are greater than $e$, only 2 and 1 are smaller  |
+- $\cfrac{x!}{e^x} = \cfrac{x\, (x - 1)\ ... \ 3\, 2\, 1}{e\, e \ ... \ e\, e\, e}$
+- almost all terms at the numerator are greater than $e$, only 2 and 1 are smaller
 
 ### $x \to 0$
 It's the opposite for $x \to 0$
 - let's consider $x < 1$:
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/orders-of-growth-0.png" alt="Image">
-- linear function is biggest here|   |- so as $x \to 0$, $x^{n+1} < x^n$ - opposite of $x \to \infty$ |
+- linear function is biggest here
+- so as $x \to 0$, $x^{n+1} < x^n$ - opposite of $x \to \infty$
 
 The hierarchy reverses 
 - Constant 
@@ -75,7 +79,8 @@ This gives a language for describing the growth
 - another for $x \to 0$
 
 Definition: 
-- A [Function](Function) $f$ is in $O(x^n)$ if $| f(x)| < C\, |x^n|$ for some constant $C$  |- more generally: $f \in O \big( g(x) \big)$ if $| f(x)| < C\, |g(x)|$ for some $C$ |
+- A [Function](Function) $f$ is in $O(x^n)$ if $| f(x)| < C\, |x^n|$ for some constant $C$
+- more generally: $f \in O \big( g(x) \big)$ if $| f(x)| < C\, |g(x)|$ for some $C$
 
 Interpretation:
 - we care only about the upper border: "how bad can it be?" 

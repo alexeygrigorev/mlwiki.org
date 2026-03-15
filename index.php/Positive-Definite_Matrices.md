@@ -87,11 +87,14 @@ Consider $A_2$ again:
 What about $A_1$?
 - $f(\mathbf x) = \mathbf x^T A_1 \, \mathbf x = 2 x_1^2 + 12 x_1 x_2 + 7 x_2^2$
 - let's try to complete the square: $2 \, (x_1 + 3 \, x_2)^2 - 11 \, x_2^2$
-- we have a minus|   | |
+- we have a minus
+ |
 ### Matrix vs Function
 Let's have a look again at $A_2$:
 - $f(\mathbf x) = \mathbf x^T A_1 \, \mathbf x = 2 x_1^2 + 12 x_1 x_2 + 20 x_2^2 = 2 \, (x_1 + 3 \, x_2)^2 + 2 \, x_2^2$
-- the numbers in the completed square form come from [Gaussian Elimination](Gaussian_Elimination)|   |- Let's do $A = LU$ transformation: |  - $L = \begin{bmatrix} 
+- the numbers in the completed square form come from [Gaussian Elimination](Gaussian_Elimination)
+- Let's do $A = LU$ transformation:
+- $L = \begin{bmatrix} 
 1 & 0 \\
 3 & 1 \\
 \end{bmatrix}, U = \begin{bmatrix} 
@@ -128,7 +131,9 @@ Checking using positiveness of eigenvalues:
 - if for all $\mathbf v$, $\mathbf v^T A \, \mathbf v > 0$, 
 - $A \mathbf v = \lambda \mathbf v$, multiply by $\mathbf v^T$ on the left
 - $\mathbf v^T A \, \mathbf v = \lambda \mathbf v^T \mathbf v$
-- $\mathbf v^T A \, \mathbf v = \lambda \|  \mathbf v \|^2$ |- $\|  \mathbf v \|^2$ is always positive, so it means that if $\lambda > 0$, then so is $\mathbf v^T A \, \mathbf v$ |- therefore we can check if all eigenvalues are positive 
+- $\mathbf v^T A \, \mathbf v = \lambda \|  \mathbf v \|^2$
+- $\|  \mathbf v \|^2$ is always positive, so it means that if $\lambda > 0$, then so is $\mathbf v^T A \, \mathbf v$
+- therefore we can check if all eigenvalues are positive 
 
 
 
@@ -144,7 +149,8 @@ If $A$ and $B$ are both PDM
 - if $A$ is PDM, the inverse is also PDM
 - eigenvalues of the inverse are $\lambda^*_i = \frac{1}{\lambda_i}$
 - so eigenvalues are also positive
-- but careful with semi-positive definite matrices: they do not have an inverse|   | |
+- but careful with semi-positive definite matrices: they do not have an inverse
+ |
 
 ### $R^T R$ and $R R^T$ Matrices
 They are always semi-positive definite

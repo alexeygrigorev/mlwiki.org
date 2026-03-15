@@ -31,7 +31,8 @@ We may turn this problem into 3 binary classification problems (i.e. where we pr
 
 
 So we have fit 3 classifiers:
-- $h_{\theta}^{(i)}(x) = P(y = i |  x; \theta), i = 1, 2, 3$ |- Now, having calculated the vector $h_{\theta}(x) = [h_{\theta}^{(1)}(x), h_{\theta}^{(2)}(x), h_{\theta}^{(3)}(x)]$ we just pick up the maximal value 
+- $h_{\theta}^{(i)}(x) = P(y = i |  x; \theta), i = 1, 2, 3$
+- Now, having calculated the vector $h_{\theta}(x) = [h_{\theta}^{(1)}(x), h_{\theta}^{(2)}(x), h_{\theta}^{(3)}(x)]$ we just pick up the maximal value 
 - i.e. we choose $\max_{i} h_{\theta}^{(i)}(x)$
 
 

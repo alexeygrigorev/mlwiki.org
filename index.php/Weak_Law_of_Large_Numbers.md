@@ -3,48 +3,48 @@ layout: default
 permalink: /index.php/Weak_Law_of_Large_Numbers
 tags:
 - probability
-- russian
-- подготовка-к-шад
 title: Weak Law of Large Numbers
 ---
 ## Weak Law of Large Numbers
 
 (Chebyshev's Theorem)
 
-'''Теорема.''' Если $X_1, ..., X_n$ - попарно независимые случайные величины, причём их дисперсии равномерно ограничены (т.е. не превышают некоторого постоянного числа $C$), то, как бы мало не было число $\epsilon$, вероятность того, что
+**Theorem.** If $X_1, ..., X_n$ are pairwise independent random variables whose variances are uniformly bounded (i.e., do not exceed some constant $C$), then, no matter how small $\epsilon$ is, the probability that
 
-$\left|  \frac{X_1 + ... + X_n}{n} - \frac{M(X_1) + ... + M(X_n)}{n} \right| < \epsilon$ |
-будет как угодно близко к единице, если число случайных событий достаточно велико.
+$\left|  \frac{X_1 + ... + X_n}{n} - \frac{\mathbb{E}[X_1] + ... + \mathbb{E}[X_n]}{n} \right| < \epsilon$
+will be arbitrarily close to one, provided the number of random variables is sufficiently large.
 
-Или, 
+Or,
 
-$\lim_{n \rightarrow \infty} P\left(\left|  \frac{X_1 + ... + X_n}{n} - \frac{M(X_1) + ... + M(X_n)}{n} \right| < \epsilon\right) = 1$ |
+$\lim_{n \rightarrow \infty} P\left(\left|  \frac{X_1 + ... + X_n}{n} - \frac{\mathbb{E}[X_1] + ... + \mathbb{E}[X_n]}{n} \right| < \epsilon\right) = 1$
 
-### Доказательство
+### Proof
 
-- Рассмотрим случайную величину $\bar{X} = \frac{X_1 + ... + X_n}{n}$
-- Найдем $M(\bar{X}) = M\left(\frac{X_1 + ... + X_n}{n}\right) = \frac{M(X_1) + ... + M(X_n)}{n}$
-- Применяя к $\bar{X}$ [неравенство Чебышева](Chebyshev's_Inequality), получим
-: $P\left(\left|  \frac{X_1 + ... + X_n}{n} - \frac{M(X_1) + ... + M(X_n)}{n} \right| < \epsilon\right) \geqslant 1 - \frac{D(\frac{X_1 + ... + X_n}{n})}{\epsilon^2}$ |- Т.к. $X_1 + ... + X_n$ независимые, то 
-: $D\left(\frac{X_1 + ... + X_n}{n}\right) = \frac{D(X_1) + ... + D(X_n)}{n^2}$
-- Все дисперсии $D(X_i)$ ограничены постоянным числом $C$: $D(X_i) \leqslant C$, поэтому 
-: $\frac{D(X_1) + ... + D(X_n)}{n^2} \leqslant \frac{C + ... + C}{n^2} = \frac{nC}{n^2} = \frac{C}{n}$
-: т.е. $D\left(\frac{X_1 + ... + X_n}{n}\right) \leqslant \frac{C}{n}$
-- Подставляя в неравенство, имеем
-: $P\left(\left|  \frac{X_1 + ... + X_n}{n} - \frac{M(X_1) + ... + M(X_n)}{n} \right| < \epsilon\right) \geqslant 1 - \frac{C}{n \epsilon^2}$ |- переходя к пределу при $n \rightarrow \infty$ получим
-: $\lim_{n \rightarrow \infty} P\left(\left|  \frac{X_1 + ... + X_n}{n} - \frac{M(X_1) + ... + M(X_n)}{n} \right| < \epsilon\right) \geqslant 1$ |: т.к. вероятность не может быть больше единицы, получаем равенство 
-: $\lim_{n \rightarrow \infty} P\left(\left|  \frac{X_1 + ... + X_n}{n} - \frac{M(X_1) + ... + M(X_n)}{n} \right| < \epsilon\right) = 1$ |
-'''Q.E.D.'''
+- Consider the random variable $\bar{X} = \frac{X_1 + ... + X_n}{n}$
+- Find $\mathbb{E}[\bar{X}] = \mathbb{E}\left[\frac{X_1 + ... + X_n}{n}\right] = \frac{\mathbb{E}[X_1] + ... + \mathbb{E}[X_n]}{n}$
+- Applying [Chebyshev's Inequality](Chebyshev's_Inequality) to $\bar{X}$, we get
+: $P\left(\left|  \frac{X_1 + ... + X_n}{n} - \frac{\mathbb{E}[X_1] + ... + \mathbb{E}[X_n]}{n} \right| < \epsilon\right) \geqslant 1 - \frac{\text{Var}\left(\frac{X_1 + ... + X_n}{n}\right)}{\epsilon^2}$
+- Since $X_1, ..., X_n$ are independent,
+: $\text{Var}\left(\frac{X_1 + ... + X_n}{n}\right) = \frac{\text{Var}(X_1) + ... + \text{Var}(X_n)}{n^2}$
+- All variances $\text{Var}(X_i)$ are bounded by the constant $C$: $\text{Var}(X_i) \leqslant C$, therefore
+: $\frac{\text{Var}(X_1) + ... + \text{Var}(X_n)}{n^2} \leqslant \frac{C + ... + C}{n^2} = \frac{nC}{n^2} = \frac{C}{n}$
+: i.e. $\text{Var}\left(\frac{X_1 + ... + X_n}{n}\right) \leqslant \frac{C}{n}$
+- Substituting into the inequality, we have
+: $P\left(\left|  \frac{X_1 + ... + X_n}{n} - \frac{\mathbb{E}[X_1] + ... + \mathbb{E}[X_n]}{n} \right| < \epsilon\right) \geqslant 1 - \frac{C}{n \epsilon^2}$
+- Taking the limit as $n \rightarrow \infty$, we get
+: $\lim_{n \rightarrow \infty} P\left(\left|  \frac{X_1 + ... + X_n}{n} - \frac{\mathbb{E}[X_1] + ... + \mathbb{E}[X_n]}{n} \right| < \epsilon\right) \geqslant 1$ |: since probability cannot exceed one, we obtain equality
+: $\lim_{n \rightarrow \infty} P\left(\left|  \frac{X_1 + ... + X_n}{n} - \frac{\mathbb{E}[X_1] + ... + \mathbb{E}[X_n]}{n} \right| < \epsilon\right) = 1$
+**Q.E.D.**
 
 
 
-Если все случайные величины $X_i$ имеют одно и то же математическое ожидание $a$, то формула принимает вид 
-$\lim_{n \rightarrow \infty} P\left(\left|  \frac{X_1 + ... + X_n}{n} - a \right| < \epsilon\right) = 1$ |
+If all random variables $X_i$ have the same expected value $a$, the formula becomes
+$\lim_{n \rightarrow \infty} P\left(\left|  \frac{X_1 + ... + X_n}{n} - a \right| < \epsilon\right) = 1$
 
-## Значение
-Отдельные случайные величины могут иметь значительнй разброс, но их среднее арифметическое рассеяно мало, и можно предвидеть, какое значение оно (ср. ар.) примет. 
+## Significance
+Individual random variables may have significant spread, but their arithmetic mean has little dispersion, and one can predict what value it will take.
 
-Или, среднее арифметическое достаточно большого количества независимых случайных величин утрачивает характер случайной величины. Объясняется это тем, что что отклонения каждой из случайных величин от своих мат. ожиданий могут быть как положительными, так и отрицательными, а в среднем арифметическом они взаимно погашаются. 
+In other words, the arithmetic mean of a sufficiently large number of independent random variables loses its random character. This is because the deviations of each random variable from its expected value can be both positive and negative, and in the arithmetic mean they cancel each other out.
 
 
 ## See also
@@ -52,4 +52,4 @@ $\lim_{n \rightarrow \infty} P\left(\left|  \frac{X_1 + ... + X_n}{n} - a \right
 - [Laws of Large Numbers](Laws_of_Large_Numbers)
 
 ## Sources
-- Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
+- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vysshaya Shkola, 2003.

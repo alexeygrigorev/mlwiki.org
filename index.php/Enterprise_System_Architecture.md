@@ -40,7 +40,8 @@ There are several ways to integrate different application
 #### Point-To-Point
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/esa-central-p2p.png" alt="Image">
 - every system communicated with all other systems 
-- $N^2$ connections for $N$ systems - a lot|   | |
+- $N^2$ connections for $N$ systems - a lot
+ |
 #### Message-Oriented Middleware
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/esa-mom.png" alt="Image">
 - each client connects to the Integration Application 

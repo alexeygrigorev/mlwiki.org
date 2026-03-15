@@ -48,7 +48,10 @@ Example:
 Example 2:
 - <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/15f4s9iuk97l9qvnt171bqc904.png" alt="Image">" \>
 
-It can find something other than a minimal cut|   |- the probability of success is just $\cfrac{1}{n^2}$|  |- solution: repeated trials |- try $N$ times and remember the smallest cut found
+It can find something other than a minimal cut
+- the probability of success is just $\cfrac{1}{n^2}$
+- solution: repeated trials
+- try $N$ times and remember the smallest cut found
 
 
 How many trials we need?

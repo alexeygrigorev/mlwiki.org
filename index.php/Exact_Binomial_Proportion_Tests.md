@@ -56,4 +56,5 @@ Apply the Binomial Model:
 - $p\text{-val} = \sum_{j = 0}^3  { n \choose j } p^j (1 - p)^{n - j} = 0.0015 + 0.01 + 0.034 + 0.0355 = 0.121$
 - we don't reject the $H_0$ at $\alpha = 0.05$
 
-check|   sim got 0.04 | |
+check|   sim got 0.04 
+

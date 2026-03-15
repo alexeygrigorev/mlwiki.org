@@ -137,7 +137,9 @@ Translation to [Normal Form Game](Normal_Form_Game)
 - poker
   - moves are sequential
   - but there is some uncertainty about moves
-  - hidden information|   |- you sometimes don't see what others are doing, but it affects your payoff |- so we create equivalent classes for some choices
+  - hidden information
+- you sometimes don't see what others are doing, but it affects your payoff
+- so we create equivalent classes for some choices
   - 2 choices are in $I_1$, two in $I_2$, last three in $I_3$ <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/0jdsq2c5tfruo36bask4hagorr.png" alt="Image">" />
   - for items in those classes set of possible actions is the same
   - however payoffs may be different

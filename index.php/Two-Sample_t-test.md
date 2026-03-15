@@ -64,7 +64,9 @@ We have the following test
 
 
 $p$-value:
-- $P(|  \bar{X}_1 - \bar{X}_2 |  \geqslant  4.2 ) = $ |- $P \left( \left|  \cfrac{(\bar{X}_1 - \bar{X}_2) - (\mu_1 - \mu_2)}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right|  \geqslant  \cfrac{4.2}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right) \approx $ |- $P\left( | t_\text{df} |  \geqslant \cfrac{4.2}{\sqrt{181.5 / 281 + 231 / 119}} \right) = 0.0097$ |
+- $P(|  \bar{X}_1 - \bar{X}_2 |  \geqslant  4.2 ) = $
+- $P \left( \left|  \cfrac{(\bar{X}_1 - \bar{X}_2) - (\mu_1 - \mu_2)}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right|  \geqslant  \cfrac{4.2}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right) \approx $
+- $P\left( | t_\text{df} |  \geqslant \cfrac{4.2}{\sqrt{181.5 / 281 + 231 / 119}} \right) = 0.0097$
 pretty small, so we reject the $H_0$.
 
 
@@ -84,7 +86,9 @@ Our test:
 - $H_0: \mu_0 = \mu_1, H_A: \mu_0 \neq \mu_1$
 
 $p$-value:
-- $P(|  \bar{X}_1 - \bar{X}_2 |  \geqslant  6.1 ) = $ |- $P \left( \left|  \cfrac{(\bar{X}_1 - \bar{X}_2) - (\mu_1 - \mu_2)}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right|  \geqslant  \cfrac{6.1}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right) \approx $ |- $P ( | t_\text{df} |  \geqslant 1.90 ) \approx 0.09$ |
+- $P(|  \bar{X}_1 - \bar{X}_2 |  \geqslant  6.1 ) = $
+- $P \left( \left|  \cfrac{(\bar{X}_1 - \bar{X}_2) - (\mu_1 - \mu_2)}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right|  \geqslant  \cfrac{6.1}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right) \approx $
+- $P ( | t_\text{df} |  \geqslant 1.90 ) \approx 0.09$
 Not so small - we can't reject the $H_0$, it might be true that $\mu_0 = \mu_1$
 
 ## R code

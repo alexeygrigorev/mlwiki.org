@@ -24,7 +24,8 @@ Example:
   - $(bc \to 7), (bd \to 6), (be \to 8), (bf \to 6), (df \to 8), (abc \to 8),$
   - $(abd \to 7), (abf \to 7)$
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/kddm/lattice-price.png" alt="Image">
-- note that here when we add an item the price always increases|   | |
+- note that here when we add an item the price always increases
+ |
 ## Properties
 Properties of constraints in [Lattice](Lattice)
 

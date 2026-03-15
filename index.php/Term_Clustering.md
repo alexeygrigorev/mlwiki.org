@@ -16,7 +16,8 @@ Term clustering is a dual problem of [Document Clustering](Document_Clustering)
 Duality:
 - when we use [Vector Space Models](Vector_Space_Models), e.g. Bag of Words, then we have a term-document matrix $D$
 - rows of $D$ are documents, columns of $D$ are terms
-- can cluster columns instead of rows|   |- clustering rows and clustering columns are very related problems  |
+- can cluster columns instead of rows
+- clustering rows and clustering columns are very related problems
 
 Term Clustering groups words with a high degree of semantic relatedness 
 - so we can use clusters (centroids of terms) to represent terms 

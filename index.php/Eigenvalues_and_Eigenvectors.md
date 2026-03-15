@@ -175,7 +175,7 @@ $\square$
 Suppose we have $n$ linearly independent eigenvectors $\mathbf x_i$ of $A$
 - let's put them in columns of a matrix $S$ - eigenvector matrix 
 
-$S = \Bigg[ \mathop{\mathbb x_1}\limits_| ^| \ \mathop{\mathbb x_2}\limits_|^| \ \cdots \  \mathop{\mathbb x_n}\limits_|^|  \Bigg]$ |
+$S = \Bigg[ \mathop{\mathbb x_1}\limits_| ^| \ \mathop{\mathbb x_2}\limits_|^| \ \cdots \  \mathop{\mathbb x_n}\limits_|^|  \Bigg]$
 This matrix is used for [Matrix Diagonalization](Eigendecompostion)
 
 

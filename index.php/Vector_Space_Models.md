@@ -92,9 +92,11 @@ Notes:
 ### Properties of VSM Matrices
 Properties of textual data:
 - dimensionality is very large, but vectors are very sparse
-  - e.g. vocabulary size $|  V | = 10^5$, but documents may contain only 500 distinct words |  - or even less - when we consider sentences or tweets
+  - e.g. vocabulary size $|  V | = 10^5$, but documents may contain only 500 distinct words
+- or even less - when we consider sentences or tweets
 - lexicon of document may be large, but words are typically correlated with each other 
-  - so number of concepts ("principal components" (see [PCA](PCA))) is $\ll |  V |$ |  - may want to account for that 
+  - so number of concepts ("principal components" (see [PCA](PCA))) is $\ll |  V |$
+- may want to account for that 
 - number of words across different documents may wary a lot
   - so need to normalize
 

@@ -12,7 +12,8 @@ A column space $C(A)$ of a matrix $A$ is a subspace formed by columns of $A$
 
 ### $C(A)$
 Let $A$ be $m \times n$ matrix:
-- $A = \left[ \mathop{a_1}\limits_| ^| \, \mathop{a_2}\limits_|^| \ \cdots \  \mathop{a_n}\limits_|^| \right]$ |- the columns of $A$ form a subspace - a hyperplane through the origin 
+- $A = \left[ \mathop{a_1}\limits_| ^| \, \mathop{a_2}\limits_|^| \ \cdots \  \mathop{a_n}\limits_|^| \right]$
+- the columns of $A$ form a subspace - a hyperplane through the origin 
 - <img src="http://habrastorage.org/files/577/050/70e/57705070eeef45ee91d525a65ba2ea75.png" alt="Image">
 - $C(A)$ is in $\mathbb R^r$ space where $r \leqslant n$ is the $A$'s [Rank](Rank_(Matrix)) 
 - so the dimensionality is at most the number of columns, and at least the rank of the matrix 

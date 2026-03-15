@@ -48,7 +48,9 @@ If a system is partition-tolerant, then it can continue to operate even in prese
 - HBase chooses consistency and partitioning (no availability)
 
 ## Availability and Partition tolerance
-- but no consistency|   Instead, they usually have [Eventual Consistency](Eventual_Consistency) |- historical example: DNS |- databases: Memcache, [CouchDB](CouchDB)
+- but no consistency|   Instead, they usually have [Eventual Consistency](Eventual_Consistency)
+- historical example: DNS
+- databases: Memcache, [CouchDB](CouchDB)
 
 ## See also
 - [Consistency (databases)](Consistency_(databases))

@@ -59,14 +59,18 @@ There's no solution to the system, so we try to fit the data as good as possible
 - Let $\mathbf w$ be the best fit solution to $X \mathbf w \approx \mathbf y$
 - we'll try to minimize the error $\mathbf e = \mathbf y - X \mathbf w$ (also called [residuals](Residual_Analysis))
 - we take the square of this error, so the objective is 
-- $J(\mathbf w) = \|  \mathbf e \|^2 = \| \mathbf y - X \mathbf w \|^2$ |
+- $J(\mathbf w) = \|  \mathbf e \|^2 = \| \mathbf y - X \mathbf w \|^2$
 
 ### Minimization
 So our problem is 
-- $\hat{\mathbf w} = \operatorname{arg \, max}\limits_{\mathbf w} J(\mathbf w) =  \operatorname{arg \, max}\limits_{\mathbf w} \|  \mathbf y - X \mathbf w \|^2$ |- let's expand $J(\mathbf w)$:
-  - $J(\mathbf w) = \|  \mathbf y - X \mathbf w \|^2 = ( \mathbf y - X \mathbf w )^T ( \mathbf y - X \mathbf w ) = \mathbf y^T \mathbf y - (X \mathbf w)^T \mathbf y - \mathbf y^T (X \mathbf w) + (X \mathbf w)^T (X \mathbf w) = \ ...$ |  - $... \ = \mathbf y^T \mathbf y - 2 \mathbf w^T X^T \mathbf y + \mathbf w^T X^T X \mathbf w$
+- $\hat{\mathbf w} = \operatorname{arg \, max}\limits_{\mathbf w} J(\mathbf w) =  \operatorname{arg \, max}\limits_{\mathbf w} \|  \mathbf y - X \mathbf w \|^2$
+- let's expand $J(\mathbf w)$:
+  - $J(\mathbf w) = \|  \mathbf y - X \mathbf w \|^2 = ( \mathbf y - X \mathbf w )^T ( \mathbf y - X \mathbf w ) = \mathbf y^T \mathbf y - (X \mathbf w)^T \mathbf y - \mathbf y^T (X \mathbf w) + (X \mathbf w)^T (X \mathbf w) = \ ...$
+- $... \ = \mathbf y^T \mathbf y - 2 \mathbf w^T X^T \mathbf y + \mathbf w^T X^T X \mathbf w$
 - now minimize $J(\mathbf w)$ w.r.t. $\mathbf w$:
-  - $\frac{\partial J(\mathbf w)}{\partial \mathbf w} = - 2 X^T \mathbf y + 2 X^T X \mathbf w \mathop{=}\limits^|   \mathbf 0$ |  - $X^T X \mathbf w = X^T \mathbf y$ or |- the solution:
+  - $\frac{\partial J(\mathbf w)}{\partial \mathbf w} = - 2 X^T \mathbf y + 2 X^T X \mathbf w \mathop{=}\limits^|   \mathbf 0$
+- $X^T X \mathbf w = X^T \mathbf y$ or
+- the solution:
 - $\mathbf w = (X^T X)^{-1} X^T \mathbf y = X^+ \mathbf y$ 
 - where $X^+ = (X^T X)^{-1} X^T$ is the [Pseudoinverse](General_Inverse) of $X$
 
@@ -79,7 +83,8 @@ In Linear algebra we typically use different notation
 - <img src="http://habrastorage.org/files/618/d1c/dc2/618d1cdc2f5c4d2fb19a34eb118d5f5f.png" alt="Image">
 - we need to solve the system $A \mathbf x = \mathbf b$
 - if $\mathbf b \not \in C(A)$ ([Column Space](Column_Space)) then there's no solution
-- how to find an approximate solution? Project onto $C(A)$|   |- it also gives the Normal Equation |
+- how to find an approximate solution? Project onto $C(A)$
+- it also gives the Normal Equation
 
 ### Projection onto $C(A)$
 Suppose we have a matrix $A$ with out observations
@@ -94,7 +99,7 @@ Normal Equation:
 - let's multiply both sides by $A^T$ - to find the best $\mathbf{\hat x}$ that approximates the solution $\mathbf x$ that doesn't exist
 - $A^T A \mathbf{\hat x} = A^T \mathbf b$ - this one usually has the solution, and it's called the '''Normal Equation'''
 - it projects $\mathbf b$ onto $C(A)$ and gives the solution $\mathbf{\hat x}$
-- it also happens to be the best solution in terms of Least Squares error: the projection error $\|  \mathbf e \|^2 = \| \mathbf b - A \mathbf{\hat x} \|^2$ is minimal |
+- it also happens to be the best solution in terms of Least Squares error: the projection error $\|  \mathbf e \|^2 = \| \mathbf b - A \mathbf{\hat x} \|^2$ is minimal
 
 === Invertability of $A^T A$ === 
 When does $A^T A$ have no inverse? 
@@ -131,7 +136,8 @@ $(A^T A)$ may be not invertible if
 
 
 ### $\mathbb R^2$ Case
-- suppose that $\text{dim } C(A) = 2$, i.e. the basis made of columns of $A$: $\mathbf a_1$ and $\mathbf a_2$, $A = \Bigg[ \ \mathop{\mathbf a_1}\limits_| ^| \ \mathop{\mathbf a_2}\limits_|^| \ \Bigg]$ |- <img src="http://habrastorage.org/files/245/834/296/245834296b494b6a8f42522ff1feb119.png" alt="Image">
+- suppose that $\text{dim } C(A) = 2$, i.e. the basis made of columns of $A$: $\mathbf a_1$ and $\mathbf a_2$, $A = \Bigg[ \ \mathop{\mathbf a_1}\limits_| ^| \ \mathop{\mathbf a_2}\limits_|^| \ \Bigg]$
+- <img src="http://habrastorage.org/files/245/834/296/245834296b494b6a8f42522ff1feb119.png" alt="Image">
 - $\mathbf b$ is not on the plane $C(A)$, but we project on it to get $\mathbf p$ 
 - $\mathbf e$ is our projection error
 
@@ -183,7 +189,9 @@ x_0 \\ x_1
 Is this indeed the best straight line through these points? 
 - we want to make the overall error as small as possible
 - recall that $\mathbf e$ is our projection error - so we want to minimize it 
-- usually we minimize the square: $\min \|  \mathbf e \|^2 = \min \big\{ e_1^2 + e_2^2 + e_3^2 \big\} $  |- so we minimize this: $\|  \mathbf e \|^2 = \| A \mathbf x - \mathbf b \|^2$ |- we claim that the solution to $A^T A \mathbf{\hat x} = A^T \mathbf b$ minimizes $\|  A \mathbf x - \mathbf b \|^2$ |
+- usually we minimize the square: $\min \|  \mathbf e \|^2 = \min \big\{ e_1^2 + e_2^2 + e_3^2 \big\} $
+- so we minimize this: $\|  \mathbf e \|^2 = \| A \mathbf x - \mathbf b \|^2$
+- we claim that the solution to $A^T A \mathbf{\hat x} = A^T \mathbf b$ minimizes $\|  A \mathbf x - \mathbf b \|^2$
 
 <img src="http://habrastorage.org/files/ae0/b63/5a2/ae0b635a2e81493bb363d898b0e6369c.png" alt="Image">
 
@@ -265,7 +273,9 @@ Normal Equation:
 How to speed up computation of $(X^T X)^{-1}$?
 - let's make the columns of $X$ orthonormal: orthogonal to each other and of length 1
 - we can do the [QR Factorization](QR_Factorization) and obtain matrix $X = QR$ 
-- $Q^T Q = I$, and it simplifies the calculation a lot|   |- usual case: $\mathbf w = (X^T X)^{-1} X^T \mathbf y$ |- with $X = QR$: $X^T X = R^T Q^T Q R = R^T R$
+- $Q^T Q = I$, and it simplifies the calculation a lot
+- usual case: $\mathbf w = (X^T X)^{-1} X^T \mathbf y$
+- with $X = QR$: $X^T X = R^T Q^T Q R = R^T R$
 - so, 
   - $X^T X \mathbf w = X^T \mathbf y$
   - $\cancel{R^T} R \mathbf w = \cancel{R^T} Q^T \mathbf y$
@@ -286,20 +296,26 @@ X \mathbf w - \mathbf y & = U \Sigma V^T \mathbf w - \mathbf y \\
 
 
 [Orthogonal Matrices](Orthogonal_Matrices) preserve the $L_2$-norm
-- i.e. $\|  U \mathbf x \| = \| \mathbf x \|$ |- thus, $\|  \mathbf e \| = \| X \mathbf w - \mathbf y \| = \| U (\Sigma \mathbf v - \mathbf z) \| = \| \Sigma \mathbf v - \mathbf z\|$.  |- $\|  X \mathbf w - \mathbf y \| = \| \Sigma \mathbf v - \mathbf z\|$ |- $\|  \Sigma \mathbf v - \mathbf z\|$ is easier to minimize than $\| X \mathbf w - \mathbf y \|$ |
+- i.e. $\|  U \mathbf x \| = \| \mathbf x \|$
+- thus, $\|  \mathbf e \| = \| X \mathbf w - \mathbf y \| = \| U (\Sigma \mathbf v - \mathbf z) \| = \| \Sigma \mathbf v - \mathbf z\|$.
+- $\|  X \mathbf w - \mathbf y \| = \| \Sigma \mathbf v - \mathbf z\|$
+- $\|  \Sigma \mathbf v - \mathbf z\|$ is easier to minimize than $\| X \mathbf w - \mathbf y \|$
 So we reduced OLS Regression problem to a diagonal form
 
 
-Minimization $\|  \Sigma \mathbf v - \mathbf z\|$: |- $\text{diag}(\Sigma) = (\sigma_1, \ ... \ , \sigma_r, 0, \ ... \ , 0)$
+Minimization $\|  \Sigma \mathbf v - \mathbf z\|$:
+- $\text{diag}(\Sigma) = (\sigma_1, \ ... \ , \sigma_r, 0, \ ... \ , 0)$
 - $\Sigma \mathbf v = \begin{bmatrix} \sigma_1 \mathbf v_1 \\ \vdots \\ \sigma_r \mathbf v_r \\ 0 \\ \vdots \\ 0 \end{bmatrix}$ and therefore $\Sigma \mathbf v - \mathbf z = \begin{bmatrix} \sigma_1 v_1 - z_1 \\ \vdots \\ \sigma_r v_r - z_r \\ -z_{r+1} \\ \vdots \\ -z_{m} \end{bmatrix}$
 - since we minimizing it w.r.t. $\mathbf v$, only first $r$ components of $\Sigma \mathbf v - \mathbf z$ matter
   - we can make these $\sigma_i v_i - z_i$ as small as possible by using $v_i = z_i / \sigma_i$
-  - so first $r$ components become 0, and the rest are $-c_i$, thus, $\|  \Sigma \mathbf v - \mathbf z \|^2 = \sum\limits_{i = r+1}^m c_i^2$ |  - when $r = m$, $\|  \Sigma \mathbf v - \mathbf z \| = 0$, but in this case there's no need to Normal Equation |
+  - so first $r$ components become 0, and the rest are $-c_i$, thus, $\|  \Sigma \mathbf v - \mathbf z \|^2 = \sum\limits_{i = r+1}^m c_i^2$
+- when $r = m$, $\|  \Sigma \mathbf v - \mathbf z \| = 0$, but in this case there's no need to Normal Equation
 
 Summary:
 - calculate $X = U \Sigma V^T$ and $\mathbf z = U^T \mathbf y$
-- use $\mathbf v = \left( \cfrac{z_1}{\sigma_1}, \ ... \ , \cfrac{z_r}{\sigma_r}, 0, \ ... \ , 0  \right)$ to minimize $\|  \Sigma \mathbf v - \mathbf z\|$ |- since $\mathbf v = V^T \mathbf w$, we recover $\mathbf w$ as $\mathbf w = V \mathbf v$
-- this gives solution $\mathbf w$ and residual error $\|  \Sigma \mathbf v - \mathbf z\|$  |
+- use $\mathbf v = \left( \cfrac{z_1}{\sigma_1}, \ ... \ , \cfrac{z_r}{\sigma_r}, 0, \ ... \ , 0  \right)$ to minimize $\|  \Sigma \mathbf v - \mathbf z\|$
+- since $\mathbf v = V^T \mathbf w$, we recover $\mathbf w$ as $\mathbf w = V \mathbf v$
+- this gives solution $\mathbf w$ and residual error $\|  \Sigma \mathbf v - \mathbf z\|$
 
 Compact solution:
 - if $X = U \Sigma V^T$, then $\mathbf w = V \Sigma^+ U^T \mathbf y$

@@ -84,7 +84,12 @@ Use patterns to extract definitions
 For example, 
 
 - DESC IDENTIFIER (this is actually the same as nearest noun method)
-- let| set IDENTIFIER denote|denotes|be DESC |- DESC is| are denoted|defined|given as|by IDENTIFIER |- IDENTIFIER denotes| dentore|stand|stands as|by IDENTIFIER |- IDENTIFIER is| are DESC |- DESC is| are IDENTIFIER |- others 
+- let| set IDENTIFIER denote|denotes|be DESC
+- DESC is| are denoted|defined|given as|by IDENTIFIER
+- IDENTIFIER denotes| dentore|stand|stands as|by IDENTIFIER
+- IDENTIFIER is| are DESC
+- DESC is| are IDENTIFIER
+- others 
 
 Patterns taken from
 - Trzeciak, Jerzy. Writing mathematical papers in English: a practical guide. European Mathematical Society, 1995.

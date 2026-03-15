@@ -12,7 +12,8 @@ How to choose an alternative in [Decision Under Uncertainty](Decision_Under_Unce
 ### Main idea
 - (using notation from [Decision Under Uncertainty](Decision_Under_Uncertainty))
 - since there is no way to assess probabilities in [Decision Under Uncertainty](Decision_Under_Uncertainty) models - assume the uniform distribution
-- so each state of nature $e \in E$ is expected to happen with probability $1 / | E|$ |- and we compute the expected values of the consequences based on these probabilities
+- so each state of nature $e \in E$ is expected to happen with probability $1 / | E|$
+- and we compute the expected values of the consequences based on these probabilities
 
 
 So,

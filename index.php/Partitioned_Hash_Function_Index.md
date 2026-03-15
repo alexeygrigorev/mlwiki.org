@@ -18,7 +18,9 @@ Suppose we use classical approach for hashing a tuple $(a, b)$
 
 ### Partitioned Hash Function
 To tackle this problem, we define a hash function $h$ in a different way
-- $h(v_1, ..., v_n) = h_1(v_1) | | ...  |  h_n(v_n)$ |  - where $| |$ means concatenation |  - so it's a list of functions $h_i$
+- $h(v_1, ..., v_n) = h_1(v_1) | | ...  |  h_n(v_n)$
+- where $| |$ means concatenation
+- so it's a list of functions $h_i$
 - $h$ produces $k$-bit output
   - each function $h_i$ produces $k_i$ bits and $\sum k_i = k$
 

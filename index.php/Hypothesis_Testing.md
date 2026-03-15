@@ -93,7 +93,9 @@ It answers the following question
 The smaller the $p$-value the stronger the evidence against $H_0$
 
 
-'''Note|  ''' |- $p$-value cannot be interpreted as how likely it is that the $H_0$ is true.  |- $p$-value tells you how unlikely the observed value of the test statistics (and more extreme value) is if the $H_0$ was true. 
+'''Note|  '''
+- $p$-value cannot be interpreted as how likely it is that the $H_0$ is true.
+- $p$-value tells you how unlikely the observed value of the test statistics (and more extreme value) is if the $H_0$ was true. 
 
 
 So the 3rd step is 
@@ -120,7 +122,8 @@ The result is statistically significant if the evidence is strong.
 
 
 The final step: 
-- '''make a conclusion based on the $p$-value''' and on the context of the problem (important|  ) | |
+- '''make a conclusion based on the $p$-value''' and on the context of the problem (important|  ) 
+
 ## Common Test Statistics
 - [$z$-tests](z-tests) - [normal](Normal_Distribution), for comparing means
 - [Binomial Proportion Test](Binomial_Proportion_Test)s - for comparing proportions, typically approximated by $z$ statistics as well
@@ -229,7 +232,9 @@ Small $p$-values can occur (in order of significance:)
 - ''by chance''
 - data collection is [biased](Bias)
 - violations of the conditions
-- $H_0$ is false (the last one|   - so be more careful about those above!) | |
+- $H_0$ is false (the last one
+- so be more careful about those above!) 
+
 So 
 - If multiple tests are carried out, some are likely to be significant by '''chance alone'''
 - If $\alpha = 0.05$ we expect significant results 5% of the time, even when the $H_0$ is '''true'''

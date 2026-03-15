@@ -62,7 +62,8 @@ Algorithm
 - if $B$ is full, and there's an overflow block, try putting it there
 - otherwise create a new overflow and store this record there
 
-'''NB:''' performance degrades as the number of overflow blocks grows|   see [#Reorganization](#Reorganization) | |
+'''NB:''' performance degrades as the number of overflow blocks grows|   see [#Reorganization](#Reorganization) 
+
 ### Deletion
 - for search key $k$ calculate $h(k)$ to locate the bucket $B$
 - find the record in bucket $B$

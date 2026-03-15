@@ -147,7 +147,8 @@ Use 2-Poisson Mixture Model with a Term Frequency formula
 BM25:
 - $\text{tf}(t, D)$ - how many times $t$ occurs in document $D$
 - $\text{df}(t \mid C)$ - how many documents in the corpus $C$ contain $t$ 
-- $$\text{bm25}(Q, D \mid C) = \sum_{t \in Q, D} \ln \cfrac- where $|  D |$ the length of $D$ and $| \bar D |$ is the average length of a document in $C$  |- params: $t_1 \in [1, 2]$, $b = 0.75$ and $k_3 \in [0, 1000]$
+- $$\text{bm25}(Q, D \mid C) = \sum_{t \in Q, D} \ln \cfrac- where $|  D |$ the length of $D$ and $| \bar D |$ is the average length of a document in $C$
+- params: $t_1 \in [1, 2]$, $b = 0.75$ and $k_3 \in [0, 1000]$
 - Note that BM25 formula is very similar to [TF-IDF](TF-IDF)s
 
 

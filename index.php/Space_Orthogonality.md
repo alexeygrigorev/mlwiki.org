@@ -18,7 +18,9 @@ Consider two subspaces $S$ and $T$
 ### Example 1
 Suppose you have two spaces: a wall and a floor. Are they orthogonal? 
 - <img src="http://habrastorage.org/files/40a/44a/1b5/40a44a1b5a02484cbab4cbff0176e6f2.png" alt="Image">
-- take one vector from the wall that is 45° to one of the axis. It's not orthogonal to the floor|   it's 45° |- also, there are vectors that belong to both subspaces (and not just the origin| ) - these vectors are not orthogonal  | |So, if two spaces intersect in more than just the zero-vector, then they cannot be orthogonal 
+- take one vector from the wall that is 45° to one of the axis. It's not orthogonal to the floor|   it's 45°
+- also, there are vectors that belong to both subspaces (and not just the origin| ) - these vectors are not orthogonal  
+So, if two spaces intersect in more than just the zero-vector, then they cannot be orthogonal 
 
 
 ### Example 2

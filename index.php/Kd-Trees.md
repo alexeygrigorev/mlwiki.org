@@ -9,7 +9,8 @@ title: Kd-Trees
 ---
 ## $kd$-Trees
 - it's a generalization of [binary search trees](Binary_Search_Trees) to multidimensional data
-- Main Memory structure (not [Secondary Storage](Secondary_Storage)|  ) | |
+- Main Memory structure (not [Secondary Storage](Secondary_Storage)|  ) 
+
 ## Classical $kd$-Tree
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/kd-tree-ex.png" alt="Image">
 - ''split attributes'' at different levels are different
@@ -17,7 +18,8 @@ title: Kd-Trees
 - interior nodes of the tree contain
   - attribute on which we divided the space
   - a dividing value
-  - left and right pointers (only 2|  ) |- leaves are blocks with records |
+  - left and right pointers (only 2|  )
+- leaves are blocks with records
 
 ## Operations
 ### Lookup

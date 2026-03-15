@@ -166,7 +166,11 @@ In this part matching happens
 
 ### Filter: Value constraints
 Boolean tests - not graph patterns
-- Logical: <code>|  </code>, <code>&&</code>, <code> | </code>  |- Arithmetic: <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>  |- Comparison: <code>=</code>, <code>|  =</code>, <code>></code>, <code><</code>, ...  |- SPARQL tests: <code>isURI</code>, <code>isBlank</code>, <code>isLiteral</code>, <code>bound</code> |- SPARQL accessors: <code>str</code>, <code>lang</code>, <code>datatype</code>
+- Logical: <code>|  </code>, <code>&&</code>, <code> | </code>
+- Arithmetic: <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>
+- Comparison: <code>=</code>, <code>|  =</code>, <code>></code>, <code><</code>, ...
+- SPARQL tests: <code>isURI</code>, <code>isBlank</code>, <code>isLiteral</code>, <code>bound</code>
+- SPARQL accessors: <code>str</code>, <code>lang</code>, <code>datatype</code>
 - Other: <code>sameTerm</code>, <code>langMatches</code>, <code>regex</code> ...
 
 

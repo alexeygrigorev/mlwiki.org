@@ -32,7 +32,8 @@ The global ranking is
 : $(10 > 9 > 8 > 0)$
 
 Therefore $t$ gets elected 
-- But 17 voters (the majority|  ) prefer $x$ to $t$ |- [Condorcet Fairness](Condorcet's_Rule#Fairness) criterion is not satisfied |
+- But 17 voters (the majority|  ) prefer $x$ to $t$
+- [Condorcet Fairness](Condorcet's_Rule#Fairness) criterion is not satisfied
 
 ### Example 1: [Two-Round Voting](Two-Round_Voting)
 Round 1:
@@ -44,7 +45,8 @@ Round 2:
   - 2 + 6 + 2 = 10 votes $t > x$
 
 $x$ wins
-- but $y$ is preferred to $x$ by 18 voters (the majority|  ) |- [Condorcet Fairness](Condorcet's_Rule#Fairness) criterion is not satisfied |
+- but $y$ is preferred to $x$ by 18 voters (the majority|  )
+- [Condorcet Fairness](Condorcet's_Rule#Fairness) criterion is not satisfied
 
 ### Example 1: [Borda's Rule](Borda's_Rule)
 The Borda Scores:

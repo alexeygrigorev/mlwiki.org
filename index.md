@@ -11,10 +11,10 @@ This is a comprehensive wiki covering machine learning concepts, algorithms, and
   <h2>Featured Articles</h2>
   <p>Explore these essential topics to get started with machine learning and statistics:</p>
   <ul>
-    <li><a href="{{ '/index.php/Central_Limit_Theorem' | relative_url }}" style="color: white;">Central Limit Theorem</a></li>
-    <li><a href="{{ '/index.php/Agglomerative_Clustering' | relative_url }}" style="color: white;">Agglomerative Clustering</a></li>
-    <li><a href="{{ '/index.php/Binomial_Distribution' | relative_url }}" style="color: white;">Binomial Distribution</a></li>
-    <li><a href="{{ '/index.php/Standard_Error' | relative_url }}" style="color: white;">Standard Error</a></li>
+    <li><a href="{{ '/index.php/Central_Limit_Theorem' | relative_url }}">Central Limit Theorem</a></li>
+    <li><a href="{{ '/index.php/Agglomerative_Clustering' | relative_url }}">Agglomerative Clustering</a></li>
+    <li><a href="{{ '/index.php/Binomial_Distribution' | relative_url }}">Binomial Distribution</a></li>
+    <li><a href="{{ '/index.php/Standard_Error' | relative_url }}">Standard Error</a></li>
   </ul>
 </div>
 

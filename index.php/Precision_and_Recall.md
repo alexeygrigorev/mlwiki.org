@@ -40,7 +40,8 @@ More formally,
 
 
 Let $k$ be the number of retrieved documents 
-- then by varying $k$ from $0$ to $N = | C|$ we can draw $P$ vs $R$ and obtain the Precision/recall curve: |- <img src="https://habrastorage.org/files/26b/c1e/a38/26bc1ea381424262b9d966c63f418661.png" alt="Image"> source: [http://www.searchtechnologies.com/precision-recall]
+- then by varying $k$ from $0$ to $N = | C|$ we can draw $P$ vs $R$ and obtain the Precision/recall curve:
+- <img src="https://habrastorage.org/files/26b/c1e/a38/26bc1ea381424262b9d966c63f418661.png" alt="Image"> source: [http://www.searchtechnologies.com/precision-recall]
 - the closer the curve to the $(1, 1)$ point - the better the IR system performance
 - <img src="https://habrastorage.org/files/010/ded/77e/010ded77e8d0454b99f0cafd3d962613.png" alt="Image"> source: [Information Retrieval (UFRT)](Information_Retrieval_(UFRT)) lecture 2
 
@@ -82,7 +83,8 @@ Two Classes: $C_+$ and $C_-$
 
 ### Precision
 Precision
-- $\pi = P\big(f(\mathbf x) = C_+ \, \big|  \, h_{\theta}(\mathbf x) =  C_+ \big)$ |- given that we predict $\mathbf x$ is +
+- $\pi = P\big(f(\mathbf x) = C_+ \, \big|  \, h_{\theta}(\mathbf x) =  C_+ \big)$
+- given that we predict $\mathbf x$ is +
 - what's the probability that the decision is correct
 - we estimate precision as $P = \cfrac{\text{# TP}}{\text{# predicted positives}} = \cfrac{\text{# TP}}{\text{# TP} + \text{# FP}}$
 
@@ -96,7 +98,8 @@ Interpretation
 
 ### Recall
 Recall
-- $\rho = P\big(h_{\theta}(\mathbf x) = C_+ \, \big|  \, f(\mathbf x) = C_+ \big)$ |- given a positive instance $\mathbf x$ 
+- $\rho = P\big(h_{\theta}(\mathbf x) = C_+ \, \big|  \, f(\mathbf x) = C_+ \big)$
+- given a positive instance $\mathbf x$ 
 - what's the probability that we predict correctly
 - we estimate recall as $R = \cfrac{\text{# TP}}{\text{# actual positives}} = \cfrac{\text{# TP}}{\text{# TP + # FN}}$
 
@@ -217,12 +220,14 @@ How do we adapt precision and recall to multi-class problems?
 
 
 Precision w.r.t class $C_i$ is 
-- $P\big(f(\mathbf x) = C_i \ \big|  \ h_\theta(\mathbf x) = C_i \big)$ |- probability that given that we classified $\mathbf x$ as $C_i$
+- $P\big(f(\mathbf x) = C_i \ \big|  \ h_\theta(\mathbf x) = C_i \big)$
+- probability that given that we classified $\mathbf x$ as $C_i$
 - the decision is indeed correct
 
 
 Recall w.r.t. class $C_i$ is 
-- $P\big(h_\theta(\mathbf x) = C_i \ \big|  \ f(\mathbf x) = C_i \big)$ |- given an instance $\mathbf x$ belongs to $C_i$
+- $P\big(h_\theta(\mathbf x) = C_i \ \big|  \ f(\mathbf x) = C_i \big)$
+- given an instance $\mathbf x$ belongs to $C_i$
 - what's the probability that we predict correctly
 
 

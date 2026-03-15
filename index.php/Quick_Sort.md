@@ -107,10 +107,12 @@ Reduction to sorting
 - $O(n \log n)$
 - apply merge sort
 - return $i$th element
-- can we do better? yes|   | |
+- can we do better? yes
+ |
 modification for QuickSort:
 - recall Partition procedure
-- pivot is on its position|   | |
+- pivot is on its position
+ |
 how to find $i$th order?
 - suppose need 5th element in $A$ of len 10
 - after partition, pivot in on 3rd position

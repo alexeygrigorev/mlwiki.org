@@ -109,7 +109,9 @@ Increasing $i$
 Very Bad Case
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/lin-hashing-bad-case.png" alt="Image">
 - suppose for block $011$ we have huge overflow chain
-- to reconstruct this chain, $n$ has to reach $111$ (twice more|  ) |- lots of time|  especially when $i$ becomes longer | |
+- to reconstruct this chain, $n$ has to reach $111$ (twice more|  )
+- lots of time|  especially when $i$ becomes longer 
+
 ## See also
 - [Open Hashing Index](Open_Hashing_Index)
 - [Extensible Hashing](Extensible_Hashing)

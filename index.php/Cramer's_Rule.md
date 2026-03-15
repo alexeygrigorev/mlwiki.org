@@ -48,7 +48,8 @@ a_{22} & -a_{21} \\
 a_{22} & - a_{12} \\
 - a_{21} & a_{11} \\
 \end{bmatrix}^T$
-- this is the same as in the formula for $A^{-1}$, but transposed|   |- so $A^{-1} = \cfrac{1} |
+- this is the same as in the formula for $A^{-1}$, but transposed
+- so $A^{-1} = \cfrac{1}
 
 ### General Case: Check
 Does it always work? Let's check 
@@ -78,23 +79,28 @@ C_{12} & C_{22} \\
 \boxed{a_{11} C_{11}} + a_{12} C_{12} & a_{11} C_{21} + a_{12} C_{22} \\
 a_{21} C_{11} + a_{22} C_{12} & a_{21} C_{21} + \boxed{a_{22} C_{22}} \\
 \end{bmatrix}$
-  - need to check that $\text{row $i$} \times \text{cofactor of $i$} = | A|$ |  - and $\text{row $i$} \times \text{cofactors of $j$} = 0$ ($i \ne j$)
-  - then we'll have $| A|$ only on the diagonal |
+  - need to check that $\text{row $i$} \times \text{cofactor of $i$} = | A|$
+- and $\text{row $i$} \times \text{cofactors of $j$} = 0$ ($i \ne j$)
+  - then we'll have $| A|$ only on the diagonal
 
-$\text{row $i$} \times \text{cofactors of $i$} = | A|$ |- $\text{row $i$} = \begin{bmatrix} a_{i1} & a_{i2} & \cdots & a_{in} \end{bmatrix}$
+$\text{row $i$} \times \text{cofactors of $i$} = | A|$
+- $\text{row $i$} = \begin{bmatrix} a_{i1} & a_{i2} & \cdots & a_{in} \end{bmatrix}$
 - $\text{cofactors of $i$} = \begin{bmatrix} C_{i1} \\ C_{i2} \\ \vdots \\ C_{in} \end{bmatrix}$
 - so $\text{row $i$} \times \text{cofactors of $i$} = \sum\limits_k a_{ik} C_{ik}$
-- note that this is the [Cofactors](Cofactors) formula for calculating the determinant|   |- thus, $\text{row $i$} \times \text{cofactors of $i$} = |A|$ |
+- note that this is the [Cofactors](Cofactors) formula for calculating the determinant
+- thus, $\text{row $i$} \times \text{cofactors of $i$} = |A|$
 
 $\text{row $i$} \times \text{cofactors of $j$} = 0$ for $i \ne j$
 - let's have a look what this dot product calculates
 - take row $i$ of $A$ and row $j$ of $C$ (i.e. column $j$ of $C^T$)
 - $\text{row $i$} \times \text{cofactors of $j$} = \begin{bmatrix} a_{i1} & a_{i2} & \cdots & a_{in} \end{bmatrix} \begin{bmatrix} C_{j1} \\ C_{j2} \\ \vdots \\ C_{jn} \end{bmatrix} = \sum\limits_k a_{ik} C_{jk}$
-- this is a cofactors formula for a new matrix $A^*$ where the row $i$ of $A$ is copied to row $j$ of $A$. So this new matrix has two equal rows, therefore $|  A^* | = 0$  |- and thus, $\text{row $i$} \times \text{cofactors of $j$} = 0$
+- this is a cofactors formula for a new matrix $A^*$ where the row $i$ of $A$ is copied to row $j$ of $A$. So this new matrix has two equal rows, therefore $|  A^* | = 0$
+- and thus, $\text{row $i$} \times \text{cofactors of $j$} = 0$
 
 
 so we showed that 
-- $A \, C^T = | A| \, I$ |- therefore, $A^{-1} = \cfrac{1}
+- $A \, C^T = | A!\, I$
+- therefore, $A^{-1} = \cfrac{1}
 
 ## Cramer's Rule: Solving $A \mathbf x = \mathbf b$
 Now since we can find the inverse of $A^{-1}$, we can solve the system $A \mathbf x = \mathbf b$

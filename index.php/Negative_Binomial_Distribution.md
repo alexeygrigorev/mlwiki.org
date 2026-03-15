@@ -47,7 +47,8 @@ p = set([x for x in permutations('SSSSFF')])
 |   1   |  F  |  S  |  S  |  F  |  S  |  S ||   2   |  S  |  S  |  F  |  S  |  F  |  S ||   3   |  S  |  F  |  F  |  S  |  S  |  S ||   4   |  F  |  F  |  S  |  S  |  S  |  S ||   5   |  F  |  S  |  F  |  S  |  S  |  S ||   6   |  S  |  F  |  S  |  S  |  F  |  S ||   7   |  S  |  F  |  S  |  F  |  S  |  S ||   8   |  S  |  S  |  F  |  F  |  S  |  S ||   9   |  S  |  S  |  S  |  F  |  F  |  S ||   10   |  F  |  S  |  S  |  S  |  F  |  S |
 
 There are 10 sequences that lead to this outcome 
-- note that Success is always last|   | |Let's calculate the probability of going home after 6 kicks (having 6th kick successful)
+- note that Success is always last
+ |Let's calculate the probability of going home after 6 kicks (having 6th kick successful)
 - so $P(\text{go home}) = \sum_{i=1}^{10} P(\text{seq}_i)$
 - each sequence has the same probability of occurring:
   - $P(\text{seq}_i) = P(\text{seq}) = q^{n-k} p^{k}$

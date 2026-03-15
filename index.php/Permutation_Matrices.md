@@ -50,7 +50,8 @@ Let's list all possible permutation matrices for $3 \times 3$
 
 ### [Permutations](Permutations)
 In how many ways we can permute rows of $I_n$?
-- it's the number of permutations of $n$: $n|  $ | |
+- it's the number of permutations of $n$: $n!$ 
+
 ## Types
 ### Row Exchange
 $\begin{bmatrix}
@@ -78,7 +79,8 @@ d & c
 \end{bmatrix}$
 
 
-Can't put such a matrix on the left|   Put in on the right instead | |$\begin{bmatrix}
+Can't put such a matrix on the left|   Put in on the right instead 
+$\begin{bmatrix}
 a & b\\
 c & d
 \end{bmatrix} \times 

@@ -116,7 +116,8 @@ Problem statement:
   - input alphabet $\Sigma$
   - transition function $\delta_D$
   - start state $\{ q_0 \}$
-  - finals states $F' = \{ q_F \ |  \ q_F \in 2^Q: \exists q \in F \}$ |    - all possible subsets of $Q$ that contain at least one state from the set of final states $F$ from NFA $A_N$
+  - finals states $F' = \{ q_F \ |  \ q_F \in 2^Q: \exists q \in F \}$
+- all possible subsets of $Q$ that contain at least one state from the set of final states $F$ from NFA $A_N$
 - such that $L(A_N) \equiv L(A_D)$
 
 Note:
@@ -133,7 +134,8 @@ Next, we define the transition function $\delta_D$ as
 
 
 Problem:
-- the number of states in DFA is exponential to $|  Q |$ |- so it may also be very expensive to transform NFA to DFA
+- the number of states in DFA is exponential to $|  Q |$
+- so it may also be very expensive to transform NFA to DFA
 - it gets very hard to visualize
 
 
@@ -168,7 +170,8 @@ Here we can show that
 - (recall that $\delta_N(q_0, w)$ returns a set, and $\delta_D( \{q_0\}, w)$ returns a state which also can be seen as a set)
 
 
-Proof by induction on $|  w |$ |- IH: $\delta_N(q_0, w) \equiv \delta_D( \{q_0\}, w)$
+Proof by induction on $|  w |$
+- IH: $\delta_N(q_0, w) \equiv \delta_D( \{q_0\}, w)$
 - basis: $w = \epsilon$
   - $\delta_N(q_0, \epsilon) \equiv \delta_D( \{q_0\}, \epsilon) \equiv \{q_0\}$
 - induction step
@@ -296,7 +299,7 @@ Algorithm
 
 These construction gives an equivalent NFA
 - on $w$ the NFA $A_N$ will enter the same set of states that $A_\epsilon$ would enter on $w$
-- so by induction on $|  w |$ need to show that $\text{CL}( \delta_N (q_0, w) ) = \hat\delta(q_0, w)$ |
+- so by induction on $|  w |$ need to show that $\text{CL}( \delta_N (q_0, w) ) = \hat\delta(q_0, w)$
 
 
 ### Example
@@ -331,7 +334,8 @@ Transformation
 - Non-Determinism and $\epsilon$-transitions give additional power 
   - NFAs are easier to design than DFAs 
 - but only DFAs can be implemented in practice
-  - Computers are always deterministic|   | |
+  - Computers are always deterministic
+ |
 ## Sources
 - [Automata (coursera)](Automata_(coursera))
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))

@@ -14,17 +14,21 @@ A $\mathbf z$ is a complex vector (denoted by $\mathbf z \in \mathbb C^n$)
 
 ## Norm
 How do we define the length of a complex vector? 
-- $\|  \mathbf z \|^2 = \langle \mathbf z, \mathbf z \rangle = \mathbf z^T \mathbf z$ is no good: |  - length should be positive
+- $\|  \mathbf z \|^2 = \langle \mathbf z, \mathbf z \rangle = \mathbf z^T \mathbf z$ is no good:
+- length should be positive
   - consider, for example, vector $(1, i)$
-  - $\|  (1, i) \|^2$ would be $1^2 + i^2 = 0$ |- what we really want is $\langle \mathbf z, \mathbf z \rangle = \overline {\mathbf z}^T \mathbf z$
+  - $\|  (1, i) \|^2$ would be $1^2 + i^2 = 0$
+- what we really want is $\langle \mathbf z, \mathbf z \rangle = \overline {\mathbf z}^T \mathbf z$
   - where $\overline {\mathbf z}$ is a [Complex Conjugate](Complex_Conjugate), i.e. $\overline {\mathbf z} = (\overline z_1, \ ... \ , \overline z_n)$
   - this way each component of $\langle \mathbf z, \mathbf z \rangle$ contributes a strictly positive number to the overall dot product
-  - so $\|  (1, i) \|^2$ is $1 - i^2 = 2$ |  - thus, $\|  (1, i) \| = \sqrt{2}$ |
+  - so $\|  (1, i) \|^2$ is $1 - i^2 = 2$
+- thus, $\|  (1, i) \| = \sqrt{2}$
 
 ### Hermitian
 The way to transpose and take the conjugate at the same time
 - $\mathbf z^H$ is $\overline {\mathbf z}^T$
-- so we say $\|  \mathbf z \|^2 = \mathbf z^H \mathbf z = \sum | z_i |^2$ |- hermitian operator also applies to matrices
+- so we say $\|  \mathbf z \|^2 = \mathbf z^H \mathbf z = \sum | z_i |^2$
+- hermitian operator also applies to matrices
 - $A^H$ is $\overline A^T$
 
 

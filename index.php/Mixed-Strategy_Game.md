@@ -21,7 +21,8 @@ title: Mixed-Strategy Game
 - these actions are called the support of the mixed strategy
 
 ### Expected payoff
-- $u_i(s) = \sum_{a \in A} u_i(a) Pr(a |  s)$ - sum over all cells of the game with each payoff multiplied by probability it happens  |- $Pr(a |  s) = \prod_{j \in N} s_j(a_j)$: probability it happens - product of each player's probability to select this cell |
+- $u_i(s) = \sum_{a \in A} u_i(a) Pr(a |  s)$ - sum over all cells of the game with each payoff multiplied by probability it happens
+- $Pr(a |  s) = \prod_{j \in N} s_j(a_j)$: probability it happens - product of each player's probability to select this cell
 
 ### Best Response
 - $s^*_i \in BR(s_{-i}) \iff \forall s_i \in S_i, u_i(s^*_i, s_{-i}) \geqslant u_i(s_i, s_{-i})$: $s^*_i$ is a BR if it's as good as others or better
@@ -130,6 +131,7 @@ predator:
     - K plays L with q, G plays L with p
     - {L} $G: 0p+1(1-p) = 0.75p+0(1-p)$ {R}, $p = 4/7$
     - {L} $K: q+0.25(1-q)  = 1-q;$ {R}, $q = 3/7$ 
-    - result: Kicker kicks more to the Right|   |    - because G has adjusted |
+    - result: Kicker kicks more to the Right
+- because G has adjusted
 ## Sources
 - [Game Theory (coursera)](Game_Theory_(coursera))

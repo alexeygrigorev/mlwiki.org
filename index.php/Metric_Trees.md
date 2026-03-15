@@ -23,7 +23,9 @@ Notation:
 Splitting a node:
 - choose two pivot points $p_l$ and $p_r$ from $N(v)$ 
 - ideally these points should be selected s.t. the distance between them is largest:
-  - $(p_l, p_r) = \operatorname{arg max}\limits_{p_1, p_2 \in N(v)} \|  p_1 - p_2 \|$ |  - but it takes $O(n^2)$ (where $n = | N(v)|$) to find optimal $p_l, p_r$ |- heuristic: 
+  - $(p_l, p_r) = \operatorname{arg max}\limits_{p_1, p_2 \in N(v)} \|  p_1 - p_2 \|$
+- but it takes $O(n^2)$ (where $n = | N(v)|$) to find optimal $p_l, p_r$
+- heuristic: 
   - pick a random point $p \in N(v)$
   - then let $p_l$ be point farthest from $p$
   - and then let $p_r$ be point farthest from $p_l$ 
@@ -53,8 +55,9 @@ After metric tree is constructed at each node we have:
   - if $q$ is in the left, then go to  $\text{left}(v)$, otherwise - to $\text{right}(v)$
   - (or can project the query point to $u$, and then check if $q < A$ or not)
 - all the time we maintain $x$: nearest neighbor found so far
-- let $d = \|  x - q \|$ - distance from best $x$ so far to the query |- we can use $d$ to prune nodes: we can check if a node is good or no point can better than $x$ 
-  - no point is better than $x$ if $\|  \text{center}(r) - q \| - r(v) \geqslant d$ |
+- let $d = \|  x - q \|$ - distance from best $x$ so far to the query
+- we can use $d$ to prune nodes: we can check if a node is good or no point can better than $x$ 
+  - no point is better than $x$ if $\|  \text{center}(r) - q \| - r(v) \geqslant d$
 
 This algorithm is very efficient when dimensionality is $\leqslant 30$ 
 - but slows down when it increases 
@@ -100,7 +103,8 @@ Problems with Spill-Trees: depth varies a lot with $\tau$
 Construction
 - let $\rho < 1$ be the balance threshold (usually $\rho = 0.7$)
 - Similar to SP-Trees, but 
-  - if either of $v$'s children contains more than $\rho \cdot |  N(v) |$ elements  |  - then don't do overlapping nodes - use usual MT split and mark the node as "non-overlapping"
+  - if either of $v$'s children contains more than $\rho \cdot |  N(v) |$ elements
+- then don't do overlapping nodes - use usual MT split and mark the node as "non-overlapping"
 - this way we still can maintain the logarithmic depth
 
 

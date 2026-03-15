@@ -81,7 +81,8 @@ Next, suppose we have the following relationship between data
 - $\theta_0 + \theta_1 x + \theta_2 x^2 $
 - or even 
 - $\theta_0 + \theta_1 x + \theta_2 x^2 +  \theta_3 x^3 $
-- So we have 3 features instead of one: $x$, $x^2$ and $x^3$|    |- Don't forget to normalize them - it's important because all these features have different scales |
+- So we have 3 features instead of one: $x$, $x^2$ and $x^3$
+- Don't forget to normalize them - it's important because all these features have different scales
 
 ## Computing Coefficients
 ### [Gradient Descent](Gradient_Descent) for Multivariate Linear Regression

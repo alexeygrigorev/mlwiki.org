@@ -58,9 +58,12 @@ We define the following relations between transitions in the log
   - $x \to y \iff x > y \land y \not > x$
   - i.e. if there are traces $...xy...$ and no traces $...yx...$
   - this relation may mean that we will need to put a place between $x$ and $y$
-- ''parallel'' $x \ | | \ y$ |  - $x \ | | \ y \iff x > y \land y > x$ |  - i.e. can see both $...xy...$ and $...yx...$
+- ''parallel'' $x \ | | \ y$
+- $x \ | | \ y \iff x > y \land y > x$
+- i.e. can see both $...xy...$ and $...yx...$
   - cannot put a place for such $x$ and $y$ - if we placed, we'd impose some order on them
-  - this is symmetric relation ($a \ | | \ b \to b \  |  \ a$) |- ''unrelated'' $x \ \# \ y$
+  - this is symmetric relation ($a \ | | \ b \to b \  |  \ a$)
+- ''unrelated'' $x \ \# \ y$
   - $x \ \# \ y \iff x \not > y \land y \not > x$
   - i.e. there are no traces $...xy...$ nor $...yx...$
   - this is also symmetric relation $x \ \# \ y \to y \ \# \ x$
@@ -77,7 +80,7 @@ For example,
 - the log is $L_1 = [abcd, acbd, ef]$
 - $a > b, a > c, b > c, b > d, c > b, c > d, e > f$
 - $a \to b, a \to c, b \to d, c \to d, e \to f$
-- $b \ | | \ c$ |
+- $b \ | | \ c$
 
 Consider another example:
 - $L_2 = [abcd, acbd, aed]$
@@ -121,8 +124,9 @@ for the log $L_2 = [abcd, acbd, aed]$ the footprint is
   - no outcoming edges, only incoming - in the rows
   - $T_O = \{d\}$
 
-With this table, using $\to$ and $| |$ relations we can draw the following graph: |- <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/pm-alpha-ex-graph.png" alt="Image">
-- (a directed edge represents $\to$ relation, undirected double edge represents $| |$) |
+With this table, using $\to$ and $| |$ relations we can draw the following graph:
+- <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/pm-alpha-ex-graph.png" alt="Image">
+- (a directed edge represents $\to$ relation, undirected double edge represents $| |$)
 Now with this graph can enumerate the maximal sets $A$ and $B$ 
 - recall that for sets $A$ and $B$ 
   - $\forall a_1, a_2 \in A: a_1 \ \# \ a_2$
@@ -176,7 +180,8 @@ but here is what $\alpha$ finds:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/short-loop2-res.png" alt="Image">
 
 reason
-- here we think that $b \ | | \ c$, since $b > c$ and $c > b$ |- but it's not the case 
+- here we think that $b \ | | \ c$, since $b > c$ and $c > b$
+- but it's not the case 
 
 
 ### Other Loops
@@ -186,7 +191,8 @@ No problems
 ### Non-Local Dependencies
 Non-Local dependencies results from some process constraints. 
 - These constraints cannot be captured by the $\alpha$ algorithm
-- They are not visible in the logs|   |- (It's actually the problem of many [Process Mining](Process_Mining) algorithms, not just $\alpha$) |
+- They are not visible in the logs
+- (It's actually the problem of many [Process Mining](Process_Mining) algorithms, not just $\alpha$)
 
 For example, 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/non-local-dependencies.png" alt="Image">
@@ -222,7 +228,8 @@ Recall our example:
 - $[abd, abcbd, abcbcbd]$
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/short-loop2-res.png" alt="Image">
 
-We see that the problem with these loops is incorrect assumption that $b | | c$.  |- because from the logs we see that $b > c$ and $c > b$, therefore we cannot cay $b \to c$ based on the defined relations
+We see that the problem with these loops is incorrect assumption that $b | | c$.
+- because from the logs we see that $b > c$ and $c > b$, therefore we cannot cay $b \to c$ based on the defined relations
 - need to define new relations that can capture such behavior
 
 
@@ -238,7 +245,7 @@ Example
 
 
 ### New Ordering Relations
-Recall that we need to be able to distinguish $a \to b$ and $a \ | | \ b$, which is not possible for loops of length 2 with the old notion of these relations.  |
+Recall that we need to be able to distinguish $a \to b$ and $a \ | | \ b$, which is not possible for loops of length 2 with the old notion of these relations.
 
 Same as previously
 - $a > b \iff$ we see trace $...ab...$
@@ -252,7 +259,8 @@ New relations
 And we redefine the relations that cause the error 
 - $a \to b \iff a > b \land (b \not > a \lor a \ \diamondsuit \ b)$
   - this way we can correctly identify the ''follow'' relation when there's a loop of length 2
-- $a \ | | \ b \iff a > b \land b > a \land a \ \not \diamondsuit \ b$ |  - by adding the last condition way we don't misidentify the ''parallel'' relation 
+- $a \ | | \ b \iff a > b \land b > a \land a \ \not \diamondsuit \ b$
+- by adding the last condition way we don't misidentify the ''parallel'' relation 
 
 
 However, there's one caveat. Short loops of length one also can produce such sequences  

@@ -4,57 +4,57 @@ permalink: /index.php/Functional_Programming
 tags:
 - functional-programming
 - programming
-- russian
 title: Functional Programming
 ---
 ## Functional Programming
 
-Основные идеи
-- Одного или нескольких типов данных
-- Операциях на этих данных
-- Законы, которые описывают отношения между значениями и операциями
-- Никаких мутаций|   (Изменений состояний) | |Цель: 
-- Сконцентрироваться на основных идеях
-- Избежать изменения состояния
-- Иметь возможность использовать абстракцию для составление сложных функций из простых
+Key ideas:
+- One or more data types
+- Operations on that data
+- Laws that describe the relationships between values and operations
+- No mutations (state changes)
+Goal:
+- Focus on the key ideas
+- Avoid state changes
+- Be able to use abstraction to compose complex functions from simple ones
 
 
-''Functional Programming'' 
-- В узком смысле - программирование без изменения состояния, циклов, присваивания и других структур, присущих императивному программированию
-- В широком смысле - фокусирование на функциях
-- Функции как основная единица абстракции
-  - Функции могут быть определены где угодно, в том числе внутри других функций,
-  - Функции могут создаваться, возвращаться как результат, и передаваться в качестве параметров другим функциям
-  - Из простых функций можно составлять более сложные функции
+*Functional Programming*
+- In the narrow sense - programming without state changes, loops, assignments, and other constructs inherent to imperative programming
+- In the broad sense - focusing on functions
+- Functions as the primary unit of abstraction
+  - Functions can be defined anywhere, including inside other functions
+  - Functions can be created, returned as results, and passed as parameters to other functions
+  - Complex functions can be composed from simpler functions
 
 
-Функции, которые принимают другие функции в качестве аргументов или возвращают в качестве результата, называют ''функциями высшего порядка''. 
+Functions that take other functions as arguments or return them as results are called *higher-order functions*.
 
-### Преимущества
-- Легко понимать и писать
-- Модульность
-- Легко параллелить
+### Advantages
+- Easy to understand and write
+- Modularity
+- Easy to parallelize
 
 
-## Вычисление выражений
-Так как в функциональных языках нет никаких побочных эффектов (т.к. нет изменений состояния), то для вычисления выражения можно использовать the Substitution Model [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.5] 
-- Основная идея: постепенно приводить выражение к некоторому значению
-- Это называется ''$\lambda$-calculus (лямбда-вычисление)'' - основа функционального программирование
+## Expression Evaluation
+Since functional languages have no side effects (because there are no state changes), the Substitution Model [http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.5] can be used to evaluate expressions.
+- The basic idea: gradually reduce the expression to some value
+- This is called *$\lambda$-calculus* - the foundation of functional programming
 
-''Побочный эффект (side-effect)'' изменение в однажды заданных определениях. Функции с побочным эффектом не могут быть выражены с помощью этой модели.
+A *side effect* is a change in previously established definitions. Functions with side effects cannot be expressed using this model.
 
-### Алгоритм
-- Вычислить все значения аргументов функции слева направо
-- В коде заменить вызов функции на тело этой функции
-- Заменить формальные аргументы в теле функции на значения
+### Algorithm
+- Evaluate all function argument values from left to right
+- Replace the function call in the code with the body of that function
+- Replace formal arguments in the function body with the values
 
-## Функциональные языки
+## Functional Languages
 - [Scala](Scala) ([Functional Programming Principles in Scala (coursera)](Functional_Programming_Principles_in_Scala_(coursera)))
 - [Haskell](Haskell)
 
-## Литература
+## Literature
 - Structure and Interpretation of Computer Programs [[http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://mitpress.mit.edu/sicp/full-text/book/book.html])
-- А. Филд, П. Харрисон, Functional Programming.
+- A. Field, P. Harrison, Functional Programming.
 
 ## Sources
 - [Functional Programming Principles in Scala (coursera)](Functional_Programming_Principles_in_Scala_(coursera))

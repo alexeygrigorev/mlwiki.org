@@ -44,12 +44,13 @@ want to compare
 
 ### Spearman's Footrule
 given $X = \{ x_1, ..., x_N \}$
-- $d_{SF}(r, r^*) = \sum_{i=1}^{N} \big|  r(x_i) - r^*(x_i) \big|$ |- not normalized: $d_{SF}(r, r^*) \in [0, +\infty)$ 
+- $d_{SF}(r, r^*) = \sum_{i=1}^{N} \big|  r(x_i) - r^*(x_i) \big|$
+- not normalized: $d_{SF}(r, r^*) \in [0, +\infty)$ 
 - similar to the Manhattan distance
 
 
 Example:
-- $d_{SF}(r, r^*) = | 1 - 2| + |2 - 1| + |3 - 5| + |4 - 3| + |5 - 4| = 1 + 1 + 2 + 1 + 1 = 6$ |
+- $d_{SF}(r, r^*) = | 1 - 2| + |2 - 1| + |3 - 5| + |4 - 3| + |5 - 4!= 1 + 1 + 2 + 1 + 1 = 6$
 
 ### Spearman Distance
 given $X = \{ x_1, ..., x_N \}$
@@ -58,7 +59,7 @@ given $X = \{ x_1, ..., x_N \}$
 
 
 Example:
-- $d_{SF}(r, r^*) = | 1 - 2|^2 + |2 - 1|^2 + |3 - 5|^2 + |4 - 3|^2 + |5 - 4|^2 = 1 + 1 + 4 + 1 + 1 = 8$ |
+- $d_{SF}(r, r^*) = | 1 - 2|^2 + |2 - 1|^2 + |3 - 5|^2 + |4 - 3|^2 + |5 - 4|^2 = 1 + 1 + 4 + 1 + 1 = 8$
 
 ### Spearman's $\rho$ (Rank Correlation Coefficient)
 given $X = \{ x_1, ..., x_N \}$
@@ -73,7 +74,8 @@ Example:
 
 ### Kendall's Distance
 It counts the pair-wise disagreement between two ranking lists, i.e. [Inversion Count](Inversion_Count)
-- $d_K(r, r^*) = \Big|  \big\{ (x_i, x_j)  | r(x_i) < r(x_j) \land r^*(x_i) > r^*(x_j) \big\} \Big|$ |- so it's the # of item pairs that are inverted in the $r$ compared to $r^*$, 
+- $d_K(r, r^*) = \Big|  \big\{ (x_i, x_j)  | r(x_i) < r(x_j) \land r^*(x_i) > r^*(x_j) \big\} \Big|$
+- so it's the # of item pairs that are inverted in the $r$ compared to $r^*$, 
 - also, the ranking can be partial
 - and it's not normalized
 
@@ -94,9 +96,11 @@ Example:
 ### Gamma Coefficient
 $\Gamma$ coefficient is based on the # of correct and incorrect rankings
 - "correct": 
-  - $d^+(r, r^*) = \big|  \big\{ (x_i, x_j) \ | \ r(x_i) < r(x_j) \land r^*(x_i) < r^*(x_j)  \big\} \big|$ |  - the number of items at the same relative position in raking
+  - $d^+(r, r^*) = \big|  \big\{ (x_i, x_j) \ | \ r(x_i) < r(x_j) \land r^*(x_i) < r^*(x_j)  \big\} \big|$
+- the number of items at the same relative position in raking
 - "inverted" (as in Kendall's $\tau$)
-  - $d^-(r, r^*) = \big|  \big\{ (x_i, x_j) \ | \ r(x_i) < r(x_j) \land r^*(x_i) > r^*(x_j)  \big\} \big|$ |  - the number of inversions
+  - $d^-(r, r^*) = \big|  \big\{ (x_i, x_j) \ | \ r(x_i) < r(x_j) \land r^*(x_i) > r^*(x_j)  \big\} \big|$
+- the number of inversions
 - $\Gamma(r, r^*) = \cfrac{d^+(r, r^*) - d^-(r, r^*)}{d^+(r, r^*) + d^-(r, r^*)}$
 - $\Gamma(r, r^*) \in [-1, 1]$
 - it's equal to $\tau_K(r, r^*)$ if the rankings are total

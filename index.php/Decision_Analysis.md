@@ -17,7 +17,8 @@ Problem:
 - to compare alternatives and find the optimal one 
 - on the basis of their consequences
 
-- When $| A|$ is very large - need [Optimization](Optimization) techniques |- When $x \in X$ is multi-dimensional, i.e. $x = (x_1, ..., x_m)$ need to apply [Multi-Objective Optimization](Multi-Objective_Optimization) and/or [MCDA](MCDA)
+- When $| A|$ is very large - need [Optimization](Optimization) techniques
+- When $x \in X$ is multi-dimensional, i.e. $x = (x_1, ..., x_m)$ need to apply [Multi-Objective Optimization](Multi-Objective_Optimization) and/or [MCDA](MCDA)
 
 For these models we make a strong assumption:
 - we can quantify the consequences of taking different actions with certainty

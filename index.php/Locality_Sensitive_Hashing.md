@@ -41,7 +41,9 @@ Basic idea
 ## Problem Definition
 ### Nearest Neighbor Search Problem
 Notation:
-- $\|  \mathbf x \|_p = \left( \sum_i |x_i|^p \right)^{1/p}$ |- let $d_p(\mathbf p, \mathbf q) = \|  \mathbf p - \mathbf q \|_p$ |- and let $d_H(\mathbf p, \mathbf q)$ be the [Hamming Distance](Hamming_Distance): # of bits in which $\mathbf p$ and $\mathbf q$ are different
+- $\|  \mathbf x \|_p = \left( \sum_i |x_i|^p \right)^{1/p}$
+- let $d_p(\mathbf p, \mathbf q) = \|  \mathbf p - \mathbf q \|_p$
+- and let $d_H(\mathbf p, \mathbf q)$ be the [Hamming Distance](Hamming_Distance): # of bits in which $\mathbf p$ and $\mathbf q$ are different
 
 
 NN Search problem: 
@@ -64,7 +66,7 @@ $\varepsilon$-NNS problem:
 
 Brute force solution:
 - try each object in the database and return the closest
-- the complexity of executing this query grows linearly with $N = | D|$: number of items in the database |
+- the complexity of executing this query grows linearly with $N = | D|$: number of items in the database
 
 Trees
 - e.g. [kd-Trees](kd-Trees), [Quad Trees](Quad_Trees), [R-Tree](R-Tree)s

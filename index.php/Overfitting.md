@@ -44,7 +44,8 @@ Dart throwing illustration:
 example:
 - predict always the same
 - very insensible to the data 
-- the variance is very low|   (0) |- but it has high bias - it's wrong |
+- the variance is very low|   (0)
+- but it has high bias - it's wrong
 
 
 ## Examples
@@ -73,7 +74,8 @@ Same applies for [Logistic Regression](Logistic_Regression)
 
 The problem with it
 - overly high polynomial 
-- it can fit anything|   |- it overfits - results in high variance |
+- it can fit anything
+- it overfits - results in high variance
 
 ## Diagnosing
 ### How to Diagnose the Problem

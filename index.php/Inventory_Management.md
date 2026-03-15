@@ -102,7 +102,9 @@ Suppose now there's a delay with refilling: $T_s$
 - variables
   - $n$ - number of items in one order
   - $p$ - number of items that we sell in advance 
-  - so now we have two variables|   |- parameters  |  - $\lambda$ - demand
+  - so now we have two variables
+- parameters
+- $\lambda$ - demand
   - $c_s$ - cost of storing
   - $c_f$ - cost of ordering
   - $c_p$ - cost of postponing the refill for each item that is delayed

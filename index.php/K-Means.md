@@ -41,7 +41,8 @@ $k$-means($k$, $\{ \mathbf x_i \}$):
 - repeat: 
 - cluster assignment step:
   - for $i = 1$ to $m$:
-  - $c_i \leftarrow$ closest to $\mathbf x_i$ centroid using [Euclidean Distance](Euclidean_Distance) $\text{dist} = \|  \mathbf x_i - \boldsymbol \mu_i \|^2$ |- move centroids step: 
+  - $c_i \leftarrow$ closest to $\mathbf x_i$ centroid using [Euclidean Distance](Euclidean_Distance) $\text{dist} = \|  \mathbf x_i - \boldsymbol \mu_i \|^2$
+- move centroids step: 
   - for $i = 1$ to $k$:
   - $\boldsymbol \mu_k \leftarrow$ average of all points assigned to $c_k$
 
@@ -59,7 +60,7 @@ e.g.
 
 
 So optimization objective (cost function, or sometimes called ''distortion''): 
-- $J(c_1, \ ... \ , c_m, \boldsymbol \mu_1, \ ... \ , \boldsymbol \mu_k) = \cfrac{1}{m} \sum_i \left\|  \mathbf x_i - \boldsymbol \mu_{c_i} \right\|^2$ |
+- $J(c_1, \ ... \ , c_m, \boldsymbol \mu_1, \ ... \ , \boldsymbol \mu_k) = \cfrac{1}{m} \sum_i \left\|  \mathbf x_i - \boldsymbol \mu_{c_i} \right\|^2$
 
 we want to find $\min J(c_1, \ ... \ , c_m, \boldsymbol \mu_1, \ ... \ , \boldsymbol \mu_k)$ with respect to $c_1, \ ... \ , c_m, \boldsymbol \mu_1, \ ... \ , \boldsymbol \mu_k$
 - cluster assignment - minimizes $J$ 
@@ -157,14 +158,16 @@ It's a smart way of doing seed selection
 ## Variants
 === [Weighted K-Means](Weighted_K-Means) === 
 Objective:
-- $$J(\boldsymbol \mu_1, \dots, \boldsymbol \mu_K) = \cfrac{\sum_{i} w_i \min_k \|  \mathbf x_i- \boldsymbol \mu_k\|^2}{\sum_{i} w_i},$$ |- $\boldsymbol \mu_i$ is $i$ centroid 
+- $$J(\boldsymbol \mu_1, \dots, \boldsymbol \mu_K) = \cfrac{\sum_{i} w_i \min_k \|  \mathbf x_i- \boldsymbol \mu_k\|^2}{\sum_{i} w_i},$$
+- $\boldsymbol \mu_i$ is $i$ centroid 
 - $w_i$ is weight assigned to each $\mathbf x_i$
 
 
 Solution:
 - Expectation step:
   - Find the nearest centroid for each data point:
-  - $$\forall \ 1 \leqslant k \leqslant K: \quad \mathcal{C}(k) \leftarrow \Big\{ i ~:~ k = \mathrm{arg}\min_k \|  \mathbf x_i - \boldsymbol \mu_k \|^2 \Big\}$$ |- Minimization step:
+  - $$\forall \ 1 \leqslant k \leqslant K: \quad \mathcal{C}(k) \leftarrow \Big\{ i ~:~ k = \mathrm{arg}\min_k \|  \mathbf x_i - \boldsymbol \mu_k \|^2 \Big\}$$
+- Minimization step:
   - Recompute the centroid as a the (weighted) mean of the associated data points:
   - $$\forall \ 1 \leqslant k \leqslant K: \quad c_k \leftarrow \frac{\sum_{i \in \mathcal{C}(k)} w_i \cdot \mathbf x_i}{\sum_{i \in \mathcal{C}(k)} w_i}$$
 - until $J$ converges

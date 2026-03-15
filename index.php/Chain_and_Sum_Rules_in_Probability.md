@@ -3,67 +3,65 @@ layout: default
 permalink: /index.php/Chain_and_Sum_Rules_in_Probability
 tags:
 - probability
-- russian
-- подготовка-к-шад
 title: Chain and Sum Rules in Probability
 ---
-== Теорема сложения вероятностей == 
+## Addition Theorem of Probabilities
 
-''Суммой'' $A + B$ двух событий $A$ и $B$ является событие, состоящее в появлении события $A$ или события $B$ 
+The *sum* $A + B$ of two events $A$ and $B$ is the event consisting of the occurrence of event $A$ or event $B$.
 
-'''Теорема'''. Probability появления одного из двух несовместных событий равна сумме этих событий:
+**Theorem**. The probability of occurrence of one of two mutually exclusive events equals the sum of their probabilities:
 
 $P(A + B) = P(A) + P(B)$
 
-Доказательство:
-$n$ - общее число исходов, $m_a$ - благоприятных $A$, $m_b$ - благоприятных $b$
+Proof:
+$n$ - total number of outcomes, $m_a$ - outcomes favorable to $A$, $m_b$ - outcomes favorable to $B$
 
 $P(A + B) = \frac{m_a + m_b}{n} = \frac{m_a}{n} + \frac{m_b}{n} = P(A) + P(B)$
 
 
-### Следствия
-- Сумма вероятностей всех событий $A_i \in \Omega$, составляющих [полную группу событий](Probability#События_и_испытания), равна единице.
+### Corollaries
+- The sum of probabilities of all events $A_i \in \Omega$ forming a [complete group of events](Probability#Events_and_Trials) equals one.
 : $P(A_1) + ... + P(A_n) = 1$
-- Сумма вероятности появления события $A$ или противоположного ему события $\bar{A}$ равна единице, т.к. $A$ и $\bar{A}$ образуют полную группу событий
+- The sum of the probability of event $A$ and its complementary event $\bar{A}$ equals one, since $A$ and $\bar{A}$ form a complete group of events.
 : $P(A) + P(\bar{A}) = 1$
 
 
-## Теорема сложения вероятностей совместных событий
-Два события называют ''совместными'', если появление одного не исключает появление другого в одном и том же испытании.
+## Addition Theorem for Compatible Events
+Two events are called *compatible* if the occurrence of one does not exclude the occurrence of the other in the same trial.
 
 
-'''Теорема.''' Probability появления хотя бы одного из двух совместных событий равна сумме вероятностей этих событий без вероятности их совместного появления 
+**Theorem.** The probability of occurrence of at least one of two compatible events equals the sum of their probabilities minus the probability of their joint occurrence:
 
 $P(A + B) = P(A) + P(B) - P(AB)$
 
-Доказательство
-- $A + B$ наступит, если произойдёт $A\bar{B}$, $\bar{A}B$ или $AB$. Так как эти события несовместы, то по теореме сложения имеем
-: $P(A + B) = P(A\bar{B}) + P(\bar{A}B) + P(AB)$ ('''*''')
-- $A$ наступит, если произойдёт или $AB$ или $A\bar{B}$. По теореме сложения, 
-: $P(A) = P(A\bar{B}) + P(AB)$ или
-: $P(A\bar{B}) = P(A) - P(AB)$ ('''**''')
-- Аналогично, $B$ наступит, если произойдёт или $AB$ или $\bar{A}B$. Т.е.
-: $P(B) = P(\bar{A}B) + P(AB)$ или
-: $P(\bar{A}B) = P(B) - P(AB)$ ('''***''')
-- Подставив ('''**''') и ('''***''') в ('''*'''), получим 
+Proof:
+- $A + B$ occurs if $A\bar{B}$, $\bar{A}B$, or $AB$ occurs. Since these events are mutually exclusive, by the addition theorem we have
+: $P(A + B) = P(A\bar{B}) + P(\bar{A}B) + P(AB)$ (**\***)
+- $A$ occurs if either $AB$ or $A\bar{B}$ occurs. By the addition theorem,
+: $P(A) = P(A\bar{B}) + P(AB)$ or
+: $P(A\bar{B}) = P(A) - P(AB)$ (**\*\***)
+- Similarly, $B$ occurs if either $AB$ or $\bar{A}B$ occurs. That is,
+: $P(B) = P(\bar{A}B) + P(AB)$ or
+: $P(\bar{A}B) = P(B) - P(AB)$ (**\*\*\***)
+- Substituting (**\*\***) and (**\*\*\***) into (**\***), we get
 : $P(A + B) = P(A) + P(B) - P(AB)$
 
-== Теорема произведения вероятностей == 
-''Произведением'' событий $A$ и $B$ называется событие $A \cdot B$, состоящее в совместном появлении этих событий. 
+## Multiplication Theorem of Probabilities
+The *product* of events $A$ and $B$ is the event $A \cdot B$ consisting of the joint occurrence of these events.
 
-Пример:
-- $A$ - деталь годная
-- $B$ - деталь окрашена
-- $A \cdot B$ - деталь годна и окрашена
+Example:
+- $A$ - the part is functional
+- $B$ - the part is painted
+- $A \cdot B$ - the part is functional and painted
 
-'''Теорема'''. Рассмотрим два события $A$ и $B$. Нам известны $P(A)$ и $P(B| A)$. Как найти вероятность появления и $A$ и $B$?  |
-$P(A \cdot B) = P(A) \cdot P(B |  A)$ - по определению [условной вероятности](Условная_вероятность).  |
-Для [независимых событий](Independence) теорема умножения принимает вид 
+**Theorem**. Consider two events $A$ and $B$. We know $P(A)$ and $P(B| A)$. How do we find the probability that both $A$ and $B$ occur?
+$P(A \cdot B) = P(A) \cdot P(B |  A)$ - by the definition of [conditional probability](Conditional_Probability).
+For [independent events](Independence) the multiplication theorem becomes
 
 $P(A \cdot B) = P(A) \cdot P(B)$
 
 ## See also
-- [Правила суммы и произведения](Правила_суммы_и_произведения) (Комбинаторика)
+- [Sum and Product Rules](Sum_and_Product_Rules) (Combinatorics)
 
 ## Sources
-- Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
+- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vysshaya Shkola, 2003.

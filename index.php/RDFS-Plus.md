@@ -45,7 +45,9 @@ Example:
 - suppose we have this assertion: <code>bio:Anne bio:married lit:Shakespeare</code>
 - consider this query
   - <code>SELECT ?who WHERE { ?lit:Shakespeare bio:married ?who }</code>
-  - it returns no answer|    |- now state that married is both-way: it's inverse of itself |  - <code>bio:married owl:inverseOf bio:married</code>
+  - it returns no answer
+- now state that married is both-way: it's inverse of itself
+- <code>bio:married owl:inverseOf bio:married</code>
   - now that query returns something 
 - this is an example of a <code>owl:SymmetricProperty</code>
   - so instead of <code>owl:inverseOf</code> can say
@@ -182,7 +184,8 @@ Note the semantics
 Inverse of <code>owl:FucntionalProperty</code>
 - a single value of an inverse functional property cannot be shared by two entities 
 - instead it infers that these two entities are the same
-- and it doesn't signalize any errors|   |- examples: SSN, driver license,  etc - anything that can be an ID number |
+- and it doesn't signalize any errors
+- examples: SSN, driver license,  etc - anything that can be an ID number
 ```carbon
 CONSTRUCT { ?a owl:sameAs ?b . } 
 WHERE {

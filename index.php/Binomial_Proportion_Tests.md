@@ -111,7 +111,9 @@ Now we calculate the $p$-value:
 - $P(N(0, 1) \leqslant -5.17) \approx 1 / 9000000$
 
 
-Small|   |- The probability that (by chance we may get the sample with 0.42 support when the true level of support is 0.5) is 1 / 9000000 |- So we reject the $H_0$
+Small
+- The probability that (by chance we may get the sample with 0.42 support when the true level of support is 0.5) is 1 / 9000000
+- So we reject the $H_0$
 
 
 ### Example 3: Flipping a Beer Cap
@@ -126,7 +128,10 @@ Assuming $H_0$, the observed statistic is
 
 
 $p$-value:
-- $P(| \hat{p} - p| \geqslant 0.076) =$ |- $P\left(\left|  \cfrac{\hat{p} - p}{\sqrt{0.5 \cdot 0.5 / 1000}} \right| \geqslant \left| \cfrac{0.076}{\sqrt{0.5 \cdot 0.5 /  1000}} \right|\right) \approx$ |- $P\left(| N(0, 1)| \geqslant 4.81\right) = $ |- $2 \cdot P(N(0, 1) \leqslant -4.81) \approx 1 / 661000$
+- $P(| \hat{p} - p| \geqslant 0.076) =$
+- $P\left(\left|  \cfrac{\hat{p} - p}{\sqrt{0.5 \cdot 0.5 / 1000}} \right| \geqslant \left| \cfrac{0.076}{\sqrt{0.5 \cdot 0.5 /  1000}} \right|\right) \approx$
+- $P\left(| N(0, 1)| \geqslant 4.81\right) = $
+- $2 \cdot P(N(0, 1) \leqslant -4.81) \approx 1 / 661000$
 
 
 Too small - so we reject the $H_0$.
@@ -235,8 +240,12 @@ Was there a drop in the support?
 
 
 then $p$-value under $H_0$ is 
-- $P( |  \hat{p}_1 - \hat{p}_2 | \geqslant 0.15 ) = $ |- $P( |  \cfrac{  (\hat{p}_1 - \hat{p}_2) - (p_1 - p_2)  }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} | \geqslant \cfrac{ 0.15 }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} ) \approx $ |- $P( |  N(0, 1) | \geqslant \cfrac{ 0.15 }{\sqrt{0.495 (1 - 0.495)(1/1050 + 1/1046)}} ) \approx $ |- $P( |  N(0, 1) | \geqslant 6.87 ) \approx 6 \cdot 10^{-12} $ |
-Very low|   So we reject the $H_0$ and conclude that the support dropped (i.e. $p_1 \neq p_2$). | |
+- $P( |  \hat{p}_1 - \hat{p}_2 | \geqslant 0.15 ) = $
+- $P( |  \cfrac{  (\hat{p}_1 - \hat{p}_2) - (p_1 - p_2)  }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} | \geqslant \cfrac{ 0.15 }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} ) \approx $
+- $P( |  N(0, 1) | \geqslant \cfrac{ 0.15 }{\sqrt{0.495 (1 - 0.495)(1/1050 + 1/1046)}} ) \approx $
+- $P( |  N(0, 1) | \geqslant 6.87 ) \approx 6 \cdot 10^{-12} $
+Very low|   So we reject the $H_0$ and conclude that the support dropped (i.e. $p_1 \neq p_2$). 
+
 ### Example 3
 Obama support poll:
 - $n_1 = 1010, \hat{p}_1 = 0.52$ (taken 12.08)
@@ -254,7 +263,10 @@ Pooled estimate:
 - $\hat{p} = \cfrac{n_1 \hat{p}_1 + n_2 \hat{p}_2}{n_1 + n_2} \approx 0.506$
 
 $p$-value (under $H_0$):
-- $P(|  \hat{p}_1 - \hat{p}_2 | \geqslant 0.04 ) = $ |- $P \left( \left|  \cfrac{  (\hat{p}_1 - \hat{p}_2) - (p_1 - p_2)  }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} \right| \geqslant \cfrac{ 0.04 }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} \right) \approx $ |- $P \left( |  N(0, 1) | \geqslant \cfrac{ 0.04 }{\sqrt{0.506 (1 - 0.506)(1/1010 + 1/563)}} \right) \approx $ |- $P( |  N(0, 1) | \geqslant 1.52 ) \approx 0.129 $ |
+- $P(|  \hat{p}_1 - \hat{p}_2 | \geqslant 0.04 ) = $
+- $P \left( \left|  \cfrac{  (\hat{p}_1 - \hat{p}_2) - (p_1 - p_2)  }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} \right| \geqslant \cfrac{ 0.04 }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} \right) \approx $
+- $P \left( |  N(0, 1) | \geqslant \cfrac{ 0.04 }{\sqrt{0.506 (1 - 0.506)(1/1010 + 1/563)}} \right) \approx $
+- $P( |  N(0, 1) | \geqslant 1.52 ) \approx 0.129 $
 Not so unlikely, so we cannot reject $H_0$. Perhaps no drop.
 
 

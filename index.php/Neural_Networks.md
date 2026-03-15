@@ -13,10 +13,12 @@ title: Neural Networks
 Say we have 100 features ($n = 100$) and we want to fit, a multiplication of each pair of features
 - i.e. we will have $x_1^2, x_1 x_2, ..., x_1 x_{100}, ... x_2^2, x_2 x_3, ..., $
 - this gives us $\approx$ 5000 features (it grows as $O(n)$)
-- for combinations of triples we'll have $\approx$ 170 000 features|   | |Next, suppose we have a computer vision problem: car detection
+- for combinations of triples we'll have $\approx$ 170 000 features
+ |Next, suppose we have a computer vision problem: car detection
 - we show it cars, then show it not cars, and then test
 - Say we have 50 x 50 pixels image, 2500 pixels in total (7500 if RGB). 
-- If we want to fit polynomials, the number of features is too huge to do this|   | |
+- If we want to fit polynomials, the number of features is too huge to do this
+ |
 So using [Logistic Regression](Logistic_Regression) is certainly not a good way to handle lots of features, and here Neural Networks can help 
 
 
@@ -139,7 +141,8 @@ Let's have a look at the 2nd and 3rd layers of our NN
 
 ## Multi-class Classification
 What to do if we what to use it for multi-class classification? 
-- We can have multiple output units|   (similar to [One-vs-All Classification](One-vs-All_Classification)) | |So we want 
+- We can have multiple output units|   (similar to [One-vs-All Classification](One-vs-All_Classification)) 
+So we want 
 - $h_{\theta}(x) \approx \left[\begin{matrix} 1 \\ 0 \\ 0 \\ 0\end{matrix} \right]$ if an item belongs to 1st category
 - $h_{\theta}(x) \approx \left[\begin{matrix} 0 \\ 1 \\ 0 \\ 0\end{matrix} \right]$ if it belongs to 2nd category 
 - and so on

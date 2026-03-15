@@ -23,7 +23,9 @@ Large files are typically distributed in chunks 64 mb each, and they are stored 
 - gives fault tolerance by data partitioning and replication
 
 
-#### not a DBS|   |- no indexing |- no random access to files
+#### not a DBS
+- no indexing
+- no random access to files
 - no SQL
 - if you need DB capabilities on top of HDFS use HBase
 

@@ -42,11 +42,12 @@ But in reality usual VSM models have problems with synonymy and polysemy - these
 how to enrich kernels with semantic information? 
 - document expansion: add all synonyms to the document
 - or replace words by concepts (can be taken from a semantic network or learned)
-- use information about term-term correlation|    | |So $K = D^T P^T \, P \, D$ 
+- use information about term-term correlation
+ |So $K = D^T P^T \, P \, D$ 
 - let  $P_{ij}$ denote semantic proximity between terms $i$ and $j$
 - then is a square symmetric matrix
 - so have  $k(\mathbf d_1, \mathbf d_2) = \mathbf d_1^T P^T P \mathbf d_2 = \mathbf d_1^T P^2 \, \mathbf d_2$
-- also note that $\|  P\, \mathbf d_1 - P\, \mathbf d_2 \|^2 = \| P \, (\mathbf d_1 - \mathbf d_2) \|^2 = (\mathbf d_1 - \mathbf d_2)^T P^2 \, (\mathbf d_1 - \mathbf d_2)$: can use this to apply Gaussian Kernel |
+- also note that $\|  P\, \mathbf d_1 - P\, \mathbf d_2 \|^2 = \| P \, (\mathbf d_1 - \mathbf d_2) \|^2 = (\mathbf d_1 - \mathbf d_2)^T P^2 \, (\mathbf d_1 - \mathbf d_2)$: can use this to apply Gaussian Kernel
 $P$ can also be concept-term similarity matrix, but then $P$ will not be symmetric
 
 

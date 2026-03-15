@@ -84,16 +84,19 @@ For SVM, suppose our cost function is
 - For simplification we skip the fist term of our sum and we assume that $\theta_0 = 0$ and number of features $n = 2$
 - $\theta^2 = \theta^T \theta$ is an [Inner Product](Inner_Product)
 - so we get:
-: $J(\theta) = \cfrac{1}{2} \sum_{j = 1}^{n} \theta_j^2 = \cfrac{1}{2} (\theta_1^2 + \theta_2^2) = \cfrac{1}{2} \left( \sqrt{\theta_1^2 + \theta_2^2} \right)^2 = \cfrac{1}{2} \|  \theta \|^2$ |- our optimization objective is to minimize the norm of $\theta$|    | |
+: $J(\theta) = \cfrac{1}{2} \sum_{j = 1}^{n} \theta_j^2 = \cfrac{1}{2} (\theta_1^2 + \theta_2^2) = \cfrac{1}{2} \left( \sqrt{\theta_1^2 + \theta_2^2} \right)^2 = \cfrac{1}{2} \|  \theta \|^2$
+- our optimization objective is to minimize the norm of $\theta$
+ |
 Next, let's have a look at  $\theta^T \cdot x^{(i)}$
 - this is [Inner Product](Inner_Product) as well
 - let $p^{(i)}$ be projection from $x^{(i)}$ to $\theta$
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/svm-vectors-projection_training.png" alt="Image">
 - $\theta^T \cdot x^{(i)} = \theta_1 x_1^{(i)} + \theta_2 x_2^{(i)} $
-- It means that we can replace the constraints $\theta^T x^{(i)} \geqslant 1$ on $p^{(i)} \|  \theta \|  \geqslant 1$ |
+- It means that we can replace the constraints $\theta^T x^{(i)} \geqslant 1$ on $p^{(i)} \|  \theta \|  \geqslant 1$
 Thus we get the following optimization objective: 
 - $\min_{\theta} \cfrac{1}{2} \sum_{j = 1}^{n} \theta_j^2$, s.t. 
-  - $p^{(i)} \cdot \|  \theta \| \geqslant 1$ if $y^{(i)} = 1$ |  - $p^{(i)} \cdot \|  \theta \| \leqslant -1$ if $y^{(i)} = 0$ |
+  - $p^{(i)} \cdot \|  \theta \| \geqslant 1$ if $y^{(i)} = 1$
+- $p^{(i)} \cdot \|  \theta \| \leqslant -1$ if $y^{(i)} = 0$
 
 Suppose we have the following decision boundary
 
@@ -101,7 +104,8 @@ Suppose we have the following decision boundary
 
 But SVM will never give us such line
 - both $p^{(1)}$ and $p^{(2)}$ are small numbers (see the picture)
-- $\Rightarrow$ $\|  \theta \|$ has to be large|  | |
+- $\Rightarrow$ $\|  \theta \|$ has to be large
+ |
 Let's now imagine that SVM chooses 
 - $OY$ axis as a decision boundary and 
 - vector $\theta$ is orthogonal - goes along $OX$
@@ -109,7 +113,7 @@ Let's now imagine that SVM chooses
 
 Here again we have 
 - $p^{(1)} > 0$ and $p^{(2)} < 0$, but they are much bigger now 
-- $\|  \theta \|$ doesn't have to be big  |
+- $\|  \theta \|$ doesn't have to be big
 That is how SVM gets large margins: because our projections are large. 
 
 
@@ -151,7 +155,8 @@ These similarity functions are called ''Kernels''
 
 ## Gaussian Kernel
 As a similarity function we  may use a ''Gaussian Kernel'': 
-- $\text{similarity}(x, l) = \exp \left( \cfrac{\|  x - l \|^2 }{2 \cdot \sigma^2} \right)$ |- where $\|  x - l \|^2 = \sum_{j = 1}^n (x_j - l_j)^2$ |
+- $\text{similarity}(x, l) = \exp \left( \cfrac{\|  x - l \|^2 }{2 \cdot \sigma^2} \right)$
+- where $\|  x - l \|^2 = \sum_{j = 1}^n (x_j - l_j)^2$
 Similarity
 - Suppose $x$ is close to $l^{(1)}$, i.e. $x \approx l^{(1)}$,
   - then the Euclidean distance will be close to 0
@@ -239,7 +244,8 @@ and so on
 
 Let's take a closer look at the second term
 - as we know, this is an [Inner Product](Inner_Product):
-- $\sum_{j = 1}^{n} \theta_j^2 = \|  \theta \|^2 = \theta^T \theta$ |- In reality, for SVM implementation a re-scaled version is often used: 
+- $\sum_{j = 1}^{n} \theta_j^2 = \|  \theta \|^2 = \theta^T \theta$
+- In reality, for SVM implementation a re-scaled version is often used: 
   - $\theta^T \cdot M \cdot  \theta$
   - which is a numerical optimization trick
 

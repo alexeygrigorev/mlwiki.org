@@ -95,7 +95,9 @@ Suppose we have duplicate keys in our database. How to build index?
 ### Option 1
 There could be some problems we build it same way as without assuming duplicate keys
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/sparse-ind-dup-problems.png" alt="Image">
-- careful with looking for 20 or 30|   |- if we follow the pointer for 20, we'll loose the previous record for 20 |- so in this case will need to also load the previous block to check if it contains something
+- careful with looking for 20 or 30
+- if we follow the pointer for 20, we'll loose the previous record for 20
+- so in this case will need to also load the previous block to check if it contains something
 
 ### Option 2
 We may point to previous values, so we know the range

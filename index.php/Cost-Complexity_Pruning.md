@@ -12,7 +12,8 @@ Post-pruning algorithm for [Decision Trees](Decision_Tree_(Data_Mining))
 
 ### Cost-Complexity Function
 - need to optimize the cost-complexity function
-- $R_\alpha (T) = R(T) + \alpha \cdot |  f(T) |$ where |  - $R(T)$ is the training/learning error
+- $R_\alpha (T) = R(T) + \alpha \cdot |  f(T) |$ where
+- $R(T)$ is the training/learning error
   - $f(T)$ a function that returns the set of leaves of tree $T$
   - $\alpha$ is a [Regularization](Regularization) parameter
 - $R(T) = \sum_{t \in f(T)} r(t) \cdot p(t) = \sum_{t \in f(T)} R(t)$
@@ -28,7 +29,8 @@ Subtrees:
 Pruning a subtree $T_{t}$
 - $R_\alpha(T - T_t) - R_\alpha(T)$ - variation of the cost-complexity function
   - this is the cont-complexity when pruning subtree $T_t$
-- $R_\alpha(T - T_t) - R_\alpha(T) = R(T - T_t) - R(T) + \alpha ( |  f(T - T_t) | - |f(T)| ) = R(t) - R(T_t) + \alpha ( 1 - |f(T_t)| )$ |- let $\alpha' = \cfrac{R(t) - R(T_t)}- variation is 
+- $R_\alpha(T - T_t) - R_\alpha(T) = R(T - T_t) - R(T) + \alpha ( |  f(T - T_t) | - |f(T)| ) = R(t) - R(T_t) + \alpha ( 1 - |f(T_t)| )$
+- let $\alpha' = \cfrac{R(t) - R(T_t)}- variation is 
   - null if $\alpha = \alpha'$
   - negative if $\alpha < \alpha'$
   - positive if $\alpha > \alpha'$
@@ -81,7 +83,8 @@ Some formulas:
   - $R_(t)  = r(t) \cdot p(t)$ 
   - $r(t)$ - misclassification error at this none (without considering the leaves)
   - $p(t)$ - proportion of data items reached $t$ (i.e. # of items reached $t$ divided by # of training items)
-- $g(t) = \cfrac{R(t) - R(T_{T_t})}  - $|  f(T_t) | - 1$ is the number of leaves to prune  |
+- $g(t) = \cfrac{R(t) - R(T_{T_t})}  - $|  f(T_t)
+- 1$ is the number of leaves to prune
 
 '''Iteration 1:'''
 - let $\alpha^{(1)} = 0$

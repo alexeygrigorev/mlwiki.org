@@ -80,7 +80,7 @@ rule:
 ## [Inner Product](Inner_Product)
 How do we define the inner product?
 - Element-wise: $\langle A, B \rangle = \sum_{ij} a_{ij} b_{ij}$
-- then the norm based on this product is $\|  A \|_F = \langle A, A \rangle$, it's called the [Frobenius Norm](Frobenius_Norm). |
+- then the norm based on this product is $\|  A \|_F = \langle A, A \rangle$, it's called the [Frobenius Norm](Frobenius_Norm).
 
 
 

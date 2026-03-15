@@ -76,7 +76,10 @@ At first we have only 7 positions to allocate: $S = 7$
 But suddenly we have an additional seat: $S = 8$
 
 |    |  $p_i$  |  $q_i$  |  $\lfloor q_i \rfloor$  |  $s_i$  |  $P_1$  |  20  |  1.569  |  1  |  ${\color{red}{\fbox{1}}}$ ||  $P_2$  |  34  |  2.667  |  2  |  3 ||  $P_3$  |  48  |  3.<u>765</u>  |  3  |  4 ||   $\sum$  |   102  |   |  6  |  7 | |
-$P_1$ loses one seat|    |- no [Monotonicity](Monotonicity)|  |- even with one additional vote $P_1$ cannot regain the seat|  | |
+$P_1$ loses one seat
+- no [Monotonicity](Monotonicity)
+- even with one additional vote $P_1$ cannot regain the seat
+ |
 |    |  $p_i$  |  $q_i$  |  $\lfloor q_i \rfloor$  |  $s_i$  |  $P_1$  |  21  |  1.631  |  1  |  1 ||  $P_2$  |  34  |  2.641  |  2  |  3 ||  $P_3$  |  48  |  3.<u>728</u>  |  3  |  4 ||   $\sum$  |   103  |   |  6  |  7 | |
 This is called the ''Alabama paradox'': increasing in the number of seats causes a party to lose a sit
 
@@ -102,7 +105,11 @@ $S = 5$
 
 |    |  $p_i$  |  $q_i$  |  $\lfloor q_i \rfloor$  |  $s_i$  |  $P_1$  |  14  |  2.593  |  2  |  3 ||  $P_2$  |  10  |  1.667  |  1  |  2 ||  $P_3$  |  3  |  0.556  |  0  |  0 ||   $\sum$  |   27  |   |  3  |  5 | |
 Suppose $P_2$ lost one vote, and $P_3$ received this vote:
-- That has an impact on $P_1$|   | ||    |  $p_i$  |  $q_i$  |  $\lfloor q_i \rfloor$  |  s_i  |  $P_1$  |  14  |  2.593  |  2  |  '''2''' ||  $P_2$  |  9  |  1.667  |  1  |  2 ||  $P_3$  |  3  |  0.741  |  0  |  1 ||   $\sum$  |   27  |   |  3  |  5 | |
+- That has an impact on $P_1$
+ |
+  $p_i$  |  $q_i$  |  $\lfloor q_i \rfloor$  |  s_i  |  $P_1$  |  14  |  2.593  |  2  |  '''2''' ||  $P_2$  |  9  |  1.667  |  1  |  2 ||  $P_3$  |  3  |  0.741  |  0  |  1 ||   $\sum$  |   27  
+  3  |  5 
+
 $P_1$ loses one seat, even though its position remained unchanged
 
 

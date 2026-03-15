@@ -58,7 +58,8 @@ Let's conduct a [Statistical Tests of Significance](Statistical_Tests_of_Signifi
 Test:
 - the hypothesis $H_A$: $A_1$ and $A_2$ have equal expected error rate
 - $H_A$ is accepted with $N = (1 - \alpha)\%$ confidence 
-- if $|  t | < t_{1 - \alpha / 2, K - 1}$ |  - $t_{1 - \alpha / 2, K - 1}$ is the $1 - \alpha / 2$ percentile of  the [Student distribution](Student_distribution) with $K-1$ degrees of freedom
+- if $|  t | < t_{1 - \alpha / 2, K - 1}$
+- $t_{1 - \alpha / 2, K - 1}$ is the $1 - \alpha / 2$ percentile of  the [Student distribution](Student_distribution) with $K-1$ degrees of freedom
 
 
 ## Examples
@@ -66,7 +67,8 @@ Test:
 
 |   $k$  |  1  |  2  |  3  |  4  |  5  |   $\text{error}(A_1, T_k)$   |  0.12  |  0.15  |  0.14  |  0.16  |  0.11 ||   $\text{error}(A_2, T_k)$   |  0.13  |  0.16  |  0.13  |  0.14  |  0.17 ||   $\delta_k$   |  -0.01  |  -0.01  |  0.01  |  0.02  |  -0.06 ||   $(\delta_k - \delta^*)^2$ with $\delta^* = -0.01$   |  0.0000  |  0.0000  |  0.0004  |  0.0009  |  0.0025 ||   $\cfrac{\delta^*}{\sigma} $  |   -0.73  |   |   |   |    |
 So,
-- $\left|  \cfrac{\delta^*}{\sigma} \right| = 0.73$ and $t_{97.5, 4} = 2.77$ |- the hypothesis $H_A$ is accepted with 95% confidence	
+- $\left|  \cfrac{\delta^*}{\sigma} \right| = 0.73$ and $t_{97.5, 4} = 2.77$
+- the hypothesis $H_A$ is accepted with 95% confidence	
 
 
 ### Example 2

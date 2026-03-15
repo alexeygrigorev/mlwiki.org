@@ -32,7 +32,8 @@ Proof ([La Grange Optimization](La_Grange_Optimization))
 - let $L(s_1, ..., s_n, \lambda)$ be the function we want to minimize
   - $L(s_1, ..., s_n, \lambda) = \sum_{i=1}^n \sum_{j=1}^n \big[ (s_i - s_j) - (\pi_{ij} - \pi_{ji}) \big]^2 - \lambda \cdot \sum_{i=1}^n s_i$
   - note that due to symmetry when we fix all variables expect a certain $s_i$ we can rewrite the double sum as twice the single sum:
-  - $L | _{s_i} = 2 \cdot \sum_{j=1,i \ne j}^n \big[ (s_i - s_j) - (\pi_{ij} - \pi_{ji}) \big]^2 - \lambda \cdot \sum_{i=1}^n s_i$ |- to optimize we take all partial derivatives plus the Lagrangian and equal them to 0:
+  - $L | _{s_i} = 2 \cdot \sum_{j=1,i \ne j}^n \big[ (s_i - s_j) - (\pi_{ij} - \pi_{ji}) \big]^2 - \lambda \cdot \sum_{i=1}^n s_i$
+- to optimize we take all partial derivatives plus the Lagrangian and equal them to 0:
   - $\forall s_i: \cfrac{\partial L(s_1, ..., s_n, \lambda)}{\partial s_i} = 0$
   - $\forall s_i: \cfrac{\partial L(s_1, ..., s_n, \lambda)}{\partial \lambda} = 0$
 - optimization:

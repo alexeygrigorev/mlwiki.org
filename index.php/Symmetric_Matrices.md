@@ -40,7 +40,9 @@ Let's show that
 - we have $\mathbf v_1^T A \mathbf v_2 = \lambda_1 \mathbf v_1^T \mathbf v_2$
   - since $A \mathbf v_2 = \lambda_2 \mathbf v_2$,
   - $\lambda_2 \mathbf v_1^T \mathbf v_2 = \lambda_1 \mathbf v_1^T \mathbf v_2$
-- but we assumed that $\lambda_1 \ne \lambda_2$|    |  - so the only way it can be true is when $\mathbf v_1^T \mathbf v_2 = 0$ |- thus, $\mathbf v_1 \; \bot \; \mathbf v_2$
+- but we assumed that $\lambda_1 \ne \lambda_2$
+- so the only way it can be true is when $\mathbf v_1^T \mathbf v_2 = 0$
+- thus, $\mathbf v_1 \; \bot \; \mathbf v_2$
 
 $\square$
 
@@ -73,7 +75,8 @@ Let's show that:
 Let's have a look at $\overline {\mathbf x}^T  \mathbf x$ (when $\ne 0$):
 - $\Big[ \overline x_1 \ \overline x_2 \ \cdots \ \overline x_n \Big] \begin{bmatrix}  x_1  \\ \vdots \\ x_n \end{bmatrix} = \sum \overline x_i x_i$
 - for a complex number $c$, $c \cdot \overline c = (a - ib) \cdot (a + ib) = a^2 + b^2 \in \mathbb R$
-- so it's a sum of real numbers|   sum of squared lengths of each component of $\mathbf x$ |- which means that the entire dot product is in $\mathbb R$ |
+- so it's a sum of real numbers|   sum of squared lengths of each component of $\mathbf x$
+- which means that the entire dot product is in $\mathbb R$
 $\square$
 
 

@@ -40,7 +40,8 @@ Example:
 
 ### Conflicts
 |    |  $f_1$  |  $f_2$  |   $a$  |  5  |  5 ||   $b$   |  10  |  0 ||   $c$   |  0  |  10 ||   $d$  |  5  |  5 ||    |  0.5  |  0.5 | |$V(a) = V(b) = V(c) = V(d) = 0.5$
-- but inside they are very different|   | |
+- but inside they are very different
+ |
 ### Scale is Important
 - suppose that we say that production $p$ is more important then quality $q$
 - i.e. $w_p = 2/3, w_q = 1/3$

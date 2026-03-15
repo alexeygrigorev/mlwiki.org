@@ -23,7 +23,9 @@ Many functions are continuous, for example:
 - [Exponential Functions](Exponential_Functions) and [Logarithms](Logarithms)
 
 
-Careful|   |- some functions might look discontinuous, but they may be continuous |- this is the case when the discontinuously-looking points are not in the domain 
+Careful
+- some functions might look discontinuous, but they may be continuous
+- this is the case when the discontinuously-looking points are not in the domain 
 - but if the function is defined in this point, then it's discontinuous 
 
 Discontinuous: 

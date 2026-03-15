@@ -88,7 +88,7 @@ For a [Matrix](Matrix) there are [Four Fundamental Subspaces](Four_Fundamental_S
 ### [Matrix Vector Spaces](Matrix_Vector_Spaces)
 A matrix space is also a vector space, where elements are matrices of the same dimensionality: we can multiply matrices by a scalar and can add two matrices of the same dimension.
 - [Inner Product](Inner_Product): e.g. $\langle A, B \rangle = \sum_{ij} a_{ij} b_{ij}$
-- norm: e.g. [Frobenius Norm](Frobenius_Norm): $\|  A \|_F = \langle A, A \rangle$ |
+- norm: e.g. [Frobenius Norm](Frobenius_Norm): $\|  A \|_F = \langle A, A \rangle$
 
 
 ### [Function Spaces](Function_Spaces)

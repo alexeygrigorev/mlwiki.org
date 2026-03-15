@@ -114,10 +114,10 @@ Posterior:
 
 
 Dirichlet Smoothing:
-- $P_\mu(w \mid \hat \theta) = \cfrac{c(w, D) + \mu \, P(w \mid C)}- Compare with Jelinek-Mercer: same if $\beta = \cfrac{\mu}{\mu + | D |
+- $P_\mu(w \mid \hat \theta) = \cfrac{c(w, D) + \mu \, P(w \mid C)}- Compare with Jelinek-Mercer: same if $\beta = \cfrac{\mu}{\mu + | D
 "Eventually, data overrides the prior":
 - for a fixed $\mu$ longer documents will get less smoothing
-- as $| D| \to \infty$, smoothing $\to 0$ |
+- as $| D| \to \infty$, smoothing $\to 0$
 
 Notes: 
 - the smoothing adds a pseudo count $\mu P(w \mid C)$ to each word
@@ -180,9 +180,10 @@ Let's derive a query retrieval function using the smoothed log likelihood:
 - $\sum_{w \not \in D} c(w, Q) \, \alpha \log P(w \mid \theta) = \sum_{w \in V} c(w, Q) \, \alpha \log P(w \mid \theta) - \sum_{w \in D} c(w, Q) \, \alpha \log P(w \mid \theta)$: 
   - words that are not in the document = all words - words that are in the document
 - let's regroup it:
-- $\log P(Q \mid \theta) = \sum_{w \in D} c(w, Q) \, \log \cfrac{P_S (w \mid \theta) }{\alpha \, P(w \mid C)} + | Q| \, \log \alpha + \sum_{w \in V} c(w, Q) \, \alpha \log P(w \mid \theta) = \ ...$ |- can ignore the last term $\sum_{w \in V} c(w, Q) \, \alpha \log P(w \mid \theta)$ because it will not affect the ranking 
+- $\log P(Q \mid \theta) = \sum_{w \in D} c(w, Q) \, \log \cfrac{P_S (w \mid \theta) }{\alpha \, P(w \mid C)} + | Q!\, \log \alpha + \sum_{w \in V} c(w, Q) \, \alpha \log P(w \mid \theta) = \ ...$
+- can ignore the last term $\sum_{w \in V} c(w, Q) \, \alpha \log P(w \mid \theta)$ because it will not affect the ranking 
 - thus we're left with 
-- $\log P(Q \mid \theta) \mathop{=}\limits^{\text{rank}} \sum_{w \in D} c(w, Q) \, \log \cfrac{P_S (w \mid \theta) }{\alpha \, P(w \mid C)} + | Q| \, \log \alpha$   |
+- $\log P(Q \mid \theta) \mathop{=}\limits^{\text{rank}} \sum_{w \in D} c(w, Q) \, \log \cfrac{P_S (w \mid \theta) }{\alpha \, P(w \mid C)} + | Q!\, \log \alpha$
 
 Observe:
 - form of this smoothed retrieval function is similar to TF-IDF:

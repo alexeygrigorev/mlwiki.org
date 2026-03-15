@@ -8,7 +8,7 @@ title: Determinants
 ## Determinants
 A ''determinant'' is a value associated with a square matrix $A$
 - it provides important information about [invertability](Inverse_Matrices) of the matrix
-- it's denoted as $\text{det } A$ or sometimes $|  A |$ |
+- it's denoted as $\text{det } A$ or sometimes $|  A |$
 
 ## Defining Properties
 These properties <u>define</u> what a determinant is (they don't say how to compute it)
@@ -128,7 +128,8 @@ d_1 & 0 & 0 \\
 
 Consequence: 
 - the easiest way to compute the determinant is to apply [$A = LU$ Factorization](LU_Factorization) and then compute $\text{det } U = \prod_i d_i$
-  - note that you should be careful with row exchanges|   |- what if some $d_i = 0$? then $\text{det } U = 0$ |
+  - note that you should be careful with row exchanges
+- what if some $d_i = 0$? then $\text{det } U = 0$
 
 ### Property 8: Singularity Test
 - when $A$ is singular, then $\text{det } A = 0$
@@ -366,7 +367,10 @@ a_{31} & a_{32} & a_{33}\\
 
 ### $n \times n$ case: "Big Formula"
 The big formula:
-- we consider all $n|  $ possible permutation matrices $P$  |- why $n| $? we can choose an element from the row 1 in $n$ ways, an element from the row 2 in $n - 1$ ways, ..., the last - in one way |- $\text{det } A = \sum\limits_{\text{$n| $ permutations $P$}}  \text{det } P \cdot a_{1\alpha_1} a_{2\alpha_2} ... a_{n\alpha_n}$ |- where $\boldsymbol \alpha = (\alpha_1, \ ... \ , \alpha_n)$ is a [Permutation](Permutation) of $(1, \ ... \ , n)$ |
+- we consider all $n!$ possible permutation matrices $P$
+- why $n!$? we can choose an element from the row 1 in $n$ ways, an element from the row 2 in $n - 1$ ways, ..., the last - in one way
+- $\text{det } A = \sum\limits_{\text{$n!$ permutations $P$}}  \text{det } P \cdot a_{1\alpha_1} a_{2\alpha_2} ... a_{n\alpha_n}$
+- where $\boldsymbol \alpha = (\alpha_1, \ ... \ , \alpha_n)$ is a [Permutation](Permutation) of $(1, \ ... \ , n)$
 
 
 ## The Pivot Formula
@@ -392,7 +396,8 @@ a_{31} & a_{32} & a_{33}\\
 \end{vmatrix} = a_{11}a_{22}a_{33} + a_{12}a_{23}a_{31} +  a_{13}a_{21}a_{32} - a_{11}a_{23}a_{32} - a_{12}a_{21}a_{33} - a_{13}a_{22}a_{31}$
 - let's group them
 - $\text{det } A = a_{11} (a_{22}a_{33} - a_{23}a_{32}) + a_{12} (-1) (a_{21}a_{33} - a_{23} a_{33}) + a_{13} (a_{21}a_{32} - a_{22}a_{31})$
-- note that now in parentheses we have determinants of smaller matrices|   |  - for $a_{11}$ we have $a_{22}a_{33} - a_{23}a_{32} = \begin{vmatrix} |a_{22} & a_{23}\\
+- note that now in parentheses we have determinants of smaller matrices
+- for $a_{11}$ we have $a_{22}a_{33} - a_{23}a_{32} = \begin{vmatrix} |a_{22} & a_{23}\\
 a_{32} & a_{33}\\
 \end{vmatrix}$
   - for $a_{12}$ we have $- (a_{21}a_{33} - a_{23} a_{33}) = - \begin{vmatrix}
@@ -468,7 +473,7 @@ a_{31} & a_{32} & a_{33}\\
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Determinant_parallelepiped.svg" alt="Image">/285px-Determinant_parallelepiped.svg.png
 
-$|  \text{det } A|$ is the volume of the box formed by vectors $\mathbf r_1, \mathbf r_2, \mathbf r_3$  |
+$|  \text{det } A|$ is the volume of the box formed by vectors $\mathbf r_1, \mathbf r_2, \mathbf r_3$
 To check if this is indeed true, we need to verify that the volume obeys the 3 defining properties
 - $A = I$ works, the volume is 1
 - property 2: reversing two rows changes the sign (don't care), but the volume remains the same - true
@@ -480,7 +485,8 @@ To check if this is indeed true, we need to verify that the volume obeys the 3 d
 
 ### Area of Triangle
 We know how to compute the area of a square 
-- so we can compute the area of a triangle|   |- let $A$ be $2 \times 2$ matrix, $A = \begin{bmatrix} |a_{11} & a_{12} \\ 
+- so we can compute the area of a triangle
+- let $A$ be $2 \times 2$ matrix, $A = \begin{bmatrix} |a_{11} & a_{12} \\ 
 a_{21} & a_{22} \\
 \end{bmatrix}$
 - the area of a triangle that starts in origin is $\cfrac{1}{2} \text{det } A = \cfrac{1}{2} (a_{11} \, a_{22} - a_{12} \, a_{21}) $

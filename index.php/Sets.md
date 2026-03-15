@@ -3,154 +3,152 @@ layout: default
 permalink: /index.php/Sets
 tags:
 - combinatorics
-- russian
-- подготовка-к-шад
 title: Sets
 ---
 ## Sets
 
-''Множество'' - совокупность различных предметов объединённых в одно целое по некоторому признаку.
+A *set* is a collection of distinct objects united into a whole by some criterion.
 
-Объекты, из которых состоит множество, называют ''элементами'' множества. Во множестве не может быть более одного одинакового элемента.
+The objects that make up a set are called *elements* of the set. A set cannot contain more than one identical element.
 
-- $a \in A$ - элемент a принадлежит множеству $A$
-- $a \notin A$ - элемент a не принадлежит множеству $A$
+- $a \in A$ - element a belongs to set $A$
+- $a \notin A$ - element a does not belong to set $A$
 
 
-''Пустое множество'' - множество, не содержащее ни одного элемента. Обозначается $\varnothing$
+The *empty set* is a set containing no elements. It is denoted by $\varnothing$
 
-Sets делят на ''конечные'' множества (например, число жителей города Биробиджана) и на ''бесконечные'' (число точек на отрезке).
+Sets are divided into *finite* sets (for example, the number of residents of a city) and *infinite* sets (the number of points on a segment).
 
-### Способы задания
+### Ways of Defining Sets
 
-- Перечисление:
+- Enumeration:
 : $A = \{a_1, a_2, ..., a_n\}$
 
-- Характеристические свойства:
-: $A = \{ x |  P(x) \}$, где $P(x)$ - свойство, которым обладают элементы $x \in A$ и не обладают $x \notin A$.  |: Например, $X = \{x |  x^2 - 3x + 2 = 0\}$ |
-### Подмножества
-Если каждый элемент множества $A$ является так же и элементом множества $B$, то $A$ - ''подмножество'' $B$. Обозначается $A \subset B$. 
+- Characteristic properties:
+: $A = \{ x |  P(x) \}$, where $P(x)$ is a property possessed by elements $x \in A$ and not possessed by $x \notin A$.  |: For example, $X = \{x |  x^2 - 3x + 2 = 0\}$
+### Subsets
+If every element of set $A$ is also an element of set $B$, then $A$ is a *subset* of $B$. This is denoted $A \subset B$.
 
-Каждое непустое множество $A$ имеет хотя бы два подмножества: само $A$ и $\varnothing$. Эти множества являются ''несобственными'' подмножествами $A$, а все остальные подмножества (если существуют) - ''собственными''. 
+Every non-empty set $A$ has at least two subsets: $A$ itself and $\varnothing$. These sets are *improper* subsets of $A$, and all other subsets (if they exist) are *proper* subsets.
 
-Если $A \subset B$ и $B \subset C$, то $A \subset C$. Т.е. свойство быть подмножеством удовлетворяет условию ''транзитивности''. 
+If $A \subset B$ and $B \subset C$, then $A \subset C$. That is, the subset relation satisfies the *transitivity* condition.
 
-Если $A \subset B$ и $B \subset A$, то $A$ и $B$ ''равны''.
+If $A \subset B$ and $B \subset A$, then $A$ and $B$ are *equal*.
 
-''Универсальное множество'' $U$ - множество, включающее все возможные элементы. Т.е. для любого множества $A$, $A \subset U$.
+The *universal set* $U$ is a set that includes all possible elements. That is, for any set $A$, $A \subset U$.
 
-## Круги Эйлера
-''Круги Эйлера'' - геометрическая схема для наглядного изображения отношения между подмножествами.
-
-
-## Операции
-
-### Пересечение
-''Пересечением'' (произведением) множеств $A$ и $B$ называется множество, состоящее из элементов, принадлежащих одновременно и $A$ и $B$. 
-
-$A \cap B = \{ x |  x \in A \mbox{~and~} x \in B\}$ |
-### Объединение
-''Объединением'' (сложением) $A$ и $B$ является множество всех элементов, принадлежащих хотя бы $A$ или $B$. 
-
-$A \cup B = \{ x |  x \in A \mbox{~and~} x \in B\}$ |
-### Разность
-''Разностью'' $A$ и $B$ называют множество, состоящее из всех элементов, не принаджежащих $B$ и принадлежащих $A$. 
-
-$A \backslash B = \{ x |  x \in A \mbox{~or~} x \notin B\}$ |
-''Симметричной разностью'' $A$ и $B$ называют множество, принадлежащее либо $A$, либо $B$, но не сразу и $A$ и $B$.
-
-''Дополнением'' множества А до универсального множества U называют множество всех элементов не принадлежащих множеству A и обозначается $\bar{A}$.
-
-$\bar{A} = U \backslash A = \{ x |  x \in A \mbox{~and~} x \notin U \}$ |
-### Декартово произведение
-Декартовым произведением множеств $A$ и $B$ называют множество таких упорядоченных пар $(a, b)$, что $x \in A, y \in B$:
-
-$A \times B = \{ (x, y) |  x \in A, y \in B \}$ |
-Пусть задано $n$ множеств $X_1, X_2, ..., X_n$. Декартовым произведением $X_1 \times X_2 \times ... \times X_n$ называют множество возможных упорядоченных наборов $\alpha = (x_1, x_2, ..., x_n)$, таких, что $x_1 \in X_1, x_2 \in X_2, ..., x_n \in X_n$:
-
-$X_1, X_2, ..., X_n = \{ (x_1, x_2, ..., x_n) |  x_i \in X_i, i = 1, ..., n \}$ |
-Каждый набор $\alpha = (x_1, x_2, ..., x_n)$ называется кортежем длины $n$, составленный из элементов множества $X^n = X \times X \times ... \times X$. Элемент $x_i$ называется $i$-ой компонентой кортежа.
-
-Отличия кортежа от множества:
-- во множестве порядок не имеет значения, а в кортеже имеет;
-- во множестве все элементы различны а в кортеже могут повторяться
+## Euler Diagrams
+*Euler diagrams* are a geometric scheme for visually representing the relationship between subsets.
 
 
-## Алгебра множеств
+## Operations
 
-- Объединения и пересечения коммутативны
+### Intersection
+The *intersection* (product) of sets $A$ and $B$ is the set consisting of elements that belong to both $A$ and $B$ simultaneously.
+
+$A \cap B = \{ x |  x \in A \mbox{~and~} x \in B\}$
+### Union
+The *union* (sum) of $A$ and $B$ is the set of all elements belonging to at least $A$ or $B$.
+
+$A \cup B = \{ x |  x \in A \mbox{~and~} x \in B\}$
+### Difference
+The *difference* of $A$ and $B$ is the set consisting of all elements that belong to $A$ and do not belong to $B$.
+
+$A \backslash B = \{ x |  x \in A \mbox{~or~} x \notin B\}$
+The *symmetric difference* of $A$ and $B$ is the set of elements belonging to either $A$ or $B$, but not to both $A$ and $B$ simultaneously.
+
+The *complement* of set A with respect to the universal set U is the set of all elements not belonging to set A, denoted $\bar{A}$.
+
+$\bar{A} = U \backslash A = \{ x |  x \in A \mbox{~and~} x \notin U \}$
+### Cartesian Product
+The Cartesian product of sets $A$ and $B$ is the set of all ordered pairs $(a, b)$ such that $x \in A, y \in B$:
+
+$A \times B = \{ (x, y) |  x \in A, y \in B \}$
+Given $n$ sets $X_1, X_2, ..., X_n$, the Cartesian product $X_1 \times X_2 \times ... \times X_n$ is the set of all possible ordered tuples $\alpha = (x_1, x_2, ..., x_n)$ such that $x_1 \in X_1, x_2 \in X_2, ..., x_n \in X_n$:
+
+$X_1, X_2, ..., X_n = \{ (x_1, x_2, ..., x_n) |  x_i \in X_i, i = 1, ..., n \}$
+Each tuple $\alpha = (x_1, x_2, ..., x_n)$ is called a tuple of length $n$, composed of elements of the set $X^n = X \times X \times ... \times X$. The element $x_i$ is called the $i$-th component of the tuple.
+
+Differences between a tuple and a set:
+- in a set, order does not matter, but in a tuple it does;
+- in a set, all elements are distinct, but in a tuple they may repeat
+
+
+## Algebra of Sets
+
+- Union and intersection are commutative
 : $A \cup B = B \cup A$
 : $A \cap B = B \cap A$
-- Объединения и пересечения ассоциативны
+- Union and intersection are associative
 : $(A \cup B) \cup C = A \cup (B \cup C)$
 : $(A \cap B) \cap C = A \cap (B \cap C)$
-- Свойства дистрибутивности объединения относительно пересечения и дистрибутивности пересечения отностительно объединения
+- Distributivity of union over intersection and distributivity of intersection over union
 : $(A \cap B) \cup C = (A \cup C) \cap (D \cup C)$
 : $(A \cup B) \cap C = (A \cap C) \cup (B \cap C)$
 - $A \cup A = A$
-- $A \cup U = U$ и $A \cap U = A$
-- $A \cup \varnothing = A$ и $A \cap \varnothing = \varnothing$
+- $A \cup U = U$ and $A \cap U = A$
+- $A \cup \varnothing = A$ and $A \cap \varnothing = \varnothing$
 - $\Bar{\Bar{A}} = A$
-- $\bar{U} = \varnothing$ и $\bar{\varnothing} = U$
-- Законы де-Моргана
-: $\overline{A \cup B} = \overline{A} \cap \overline{B}$ и 
+- $\bar{U} = \varnothing$ and $\bar{\varnothing} = U$
+- De Morgan's Laws
+: $\overline{A \cup B} = \overline{A} \cap \overline{B}$ and
 : $\overline{A \cap B} = \overline{A} \cup \overline{B}$
 
 
 
 
 
-## Формула включений и исключений
+## Inclusion-Exclusion Principle
 
-Дано $m$ предметов $x_1, x_2, ..., x_m$ и $n$ множеств $\alpha_1, \alpha_2, ..., \alpha_n$. При этом элементы $x_i$ могут принадлежать любому произвольному $\alpha_i$, а могут не принадлежать.
+Given $m$ objects $x_1, x_2, ..., x_m$ and $n$ sets $\alpha_1, \alpha_2, ..., \alpha_n$. The elements $x_i$ may belong to any arbitrary $\alpha_i$ or may not belong to any.
 
-Введём обозначения
-- $N$ - число всех предметов, $N = m$
-- $N(\alpha_i \alpha_j ... \alpha_k)$ - количество элементов, принадлежащих множеству $\alpha_i \cup \alpha_j \cup ... \cup \alpha_k$, 
-- $N(\overline{\alpha_i \alpha_j ... \alpha_k})$ - количество не принадлежащих ни одному из $\alpha_i \alpha_j ... \alpha_k$ (т.е. не принадлежащих $\alpha_i \cap \alpha_j \cap ... \cap \alpha_k$).
+Let us introduce the notation:
+- $N$ - the total number of objects, $N = m$
+- $N(\alpha_i \alpha_j ... \alpha_k)$ - the number of elements belonging to the set $\alpha_i \cup \alpha_j \cup ... \cup \alpha_k$,
+- $N(\overline{\alpha_i \alpha_j ... \alpha_k})$ - the number of elements not belonging to any of $\alpha_i \alpha_j ... \alpha_k$ (i.e., not belonging to $\alpha_i \cap \alpha_j \cap ... \cap \alpha_k$).
 
 
-Вычислим $N(\overline{\alpha_1 \alpha_2 ... \alpha_n})$ - т.е. посчитаем число элементов, не принадлежащих ни одному из множеств. 
+Let us compute $N(\overline{\alpha_1 \alpha_2 ... \alpha_n})$ - i.e., count the number of elements not belonging to any of the sets.
 
 
 $N(\overline{\alpha_1 \alpha_2 ... \alpha_n}) = N - N(\alpha_1) - N(\alpha_2) - ... - N(\alpha_n) + N(\alpha_1 \alpha_2) + N(\alpha_1 \alpha_3) + N(\alpha_1 \alpha_4) + ... N(\alpha_1 \alpha_n) + ... + N(\alpha_{n-1} \alpha_n) - N(\alpha_1 \alpha_2 \alpha_3) - ... + (-1)^n N(\alpha_1 \alpha_2 ... \alpha_n)$
 
 
-Причем слагаемое $N(...)$ имеет знак "+"" если число множеств чётно, и "-", если нечётно. 
+The term $N(...)$ has a "+" sign if the number of sets is even, and a "-" sign if it is odd.
 
-Эту формулу можно записать схематично, как $N(\overline{\alpha \beta ... \omega})$ = $N(1 - \alpha)(1 - \beta)...(1 - \omega)$, а после раскрытия скобок заменить $N\alpha\beta...\omega$ на $N(\alpha\beta...\omega)$.
+This formula can be written schematically as $N(\overline{\alpha \beta ... \omega})$ = $N(1 - \alpha)(1 - \beta)...(1 - \omega)$, and after expanding the brackets, replace $N\alpha\beta...\omega$ with $N(\alpha\beta...\omega)$.
 
-### Доказательство
+### Proof
 
-По индукции:
+By induction:
 
-1 шаг: для 1
+Step 1: for 1
 
 $N(\overline{\alpha_1}) = N - N(\alpha_1})$
 
-2 шаг: для $n - 1$
+Step 2: for $n - 1$
 
 $N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}}) = N - N(\alpha_1) - ... + N(\alpha_1 \alpha_2) + ... - N(\alpha_1 \alpha_2 \alpha_3) - ... + (-1)^{n-1} N(\alpha_1 \alpha_2 ... \alpha_{n-1})$
 
-3 шаг: для $n$
+Step 3: for $n$
 
-Рассмотрим группу элементов, принадлежащих $\alpha_n$
+Consider the group of elements belonging to $\alpha_n$
 
 $N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}} \alpha_n) = N(\alpha_n) - N(\alpha_1 \alpha_n) - ... + N(\alpha_1 \alpha_2 \alpha_n) + ... - N(\alpha_1 \alpha_2 \alpha_3 \alpha_n) - ... + (-1)^{n-1} N(\alpha_1 \alpha_2 ... \alpha_{n-1} \alpha_n)$
 
-Вычтем $N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}} \alpha_n)$ из $N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}})$
+Subtract $N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}} \alpha_n)$ from $N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}})$
 
-- $N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}})$ - число элементов, которые могут принадлежать \alpha_n, а могут и не принадлежать
-- $N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}} \alpha_n)$ - число элементов, которые наверняка принадлежат \alpha_n
-- Т.е. их разность как раз равна числу элементов, не принадлежащих ни одному из $\alpha_1 \alpha_2 ... \alpha_n$
+- $N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}})$ is the number of elements that may or may not belong to \alpha_n
+- $N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}} \alpha_n)$ is the number of elements that definitely belong to \alpha_n
+- Their difference is exactly the number of elements not belonging to any of $\alpha_1 \alpha_2 ... \alpha_n$
 
 
-Таким образом, 
-$N(\overline{\alpha_1 \alpha_2 ... \alpha_n}) = N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}}) -  N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}} \alpha_n)$. 
+Thus,
+$N(\overline{\alpha_1 \alpha_2 ... \alpha_n}) = N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}}) -  N(\overline{\alpha_1 \alpha_2 ... \alpha_{n - 1}} \alpha_n)$.
 
-'''Q.E.D.'''
+**Q.E.D.**
 
 
 ## Sources
-- Киреенко С.Г., Гриншпон И.Э. Элементы теории множеств (учебное пособие). Томск, 2003. http://portal.tpu.ru/lyceum/innovacion/workroom/sets.pdf
-- Виленкин Н.Я. Комбинаторика. М., Наука, 1969.
+- Kireenko S.G., Grinshpon I.E. Elements of Set Theory (textbook). Tomsk, 2003. http://portal.tpu.ru/lyceum/innovacion/workroom/sets.pdf
+- Vilenkin N.Ya. Combinatorics. Moscow, Nauka, 1969.

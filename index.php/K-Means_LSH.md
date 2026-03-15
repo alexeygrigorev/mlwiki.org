@@ -54,7 +54,8 @@ Search time:
 query($\mathbf q$)
 - $\text{res} = \varnothing$
 - for $j = 1$ to $L$ do
-  - $i^* = \operatorname{arg\, mix}\limits_{i = 1 .. k} \|  \mathbf q, \mathbf c_{ji} \|$ |  - $\text{res} = \text{res} \cup \big\{  \text{cluster}(\mathbf c_{ji^*}) \big\}$
+  - $i^* = \operatorname{arg\, mix}\limits_{i = 1 .. k} \|  \mathbf q, \mathbf c_{ji} \|$
+- $\text{res} = \text{res} \cup \big\{  \text{cluster}(\mathbf c_{ji^*}) \big\}$
 - return $\text{res}$
 
 
@@ -81,7 +82,8 @@ Usual Query-Adaptive LSH:
 
 
 Query-Adaptive K-Means LSH:
-- $\lambda_j(\mathbf q) = \min_{i = 1..k} \|  \mathbf q, \mathbf c_{ji} \|$ |- and $\lambda_j(\mathbf q)$ is actually a by-product of finding the nearest centroid
+- $\lambda_j(\mathbf q) = \min_{i = 1..k} \|  \mathbf q, \mathbf c_{ji} \|$
+- and $\lambda_j(\mathbf q)$ is actually a by-product of finding the nearest centroid
 - so rank $g_j(\mathbf q)$ by $\lambda_j(\mathbf q)$ then pick $p$ best and use them 
 
 

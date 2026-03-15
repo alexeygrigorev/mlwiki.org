@@ -164,7 +164,9 @@ Algorithm
   - split it to 2 nodes, need to add the pointer to the new node
 - cannot add it to $\fbox{10, 20, 30}$ (Intermediate Node Overflow case)
   - split it into 2 nodes, need to add the pointer to new block
-- but $\fbox{10, 20, 30}$ is a root|    |  - need to split it to two nodes  |  - and promote $\fbox{30}$ to the root
+- but $\fbox{10, 20, 30}$ is a root
+- need to split it to two nodes
+- and promote $\fbox{30}$ to the root
 
 
 #### I/O Cost

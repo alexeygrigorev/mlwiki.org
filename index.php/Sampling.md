@@ -82,7 +82,8 @@ Cluster Sampling
 
 Reason to use proportional
 - suppose you need to be good at detecting TRUE 
-- but you'll have only 5 records to train your classified - not enough|   |- so it's better to use stratified sampling |
+- but you'll have only 5 records to train your classified - not enough
+- so it's better to use stratified sampling
 
 #### Stratified Sampling Example
 Assume a company with the following allocation of staff 

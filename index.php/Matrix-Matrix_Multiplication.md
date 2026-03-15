@@ -42,7 +42,8 @@ For each column $\mathbf{b}_j$ of $B$
 - we multiply each column of $A$ with $\mathbf{b}_j$ - like in column at a time for matrix by vector
 - <img src="http://habrastorage.org/files/fe8/ffb/fb9/fe8ffbfb9ede4ad18a868024f8e791a1.png" alt="Image">
 - $\mathbf{c}_j = \begin{bmatrix}
-\mathop{a_1}\limits_| ^| \ \mathop{a_2}\limits_|^| \ \cdots \  \mathop{a_n}\limits_|^|  |\end{bmatrix} \times \mathbf{b}_j$
+\mathop{a_1}\limits_| ^| \ \mathop{a_2}\limits_|^| \ \cdots \  \mathop{a_n}\limits_|^
+\end{bmatrix} \times \mathbf{b}_j$
 - so each $\mathbf{c}_j$ is a combination of columns of $A$
 
 
@@ -111,7 +112,8 @@ $C(A\, B) \subseteq C(A)$
 - let $A$ be an $m \times n$ matrix and $B$ be an $k \times n$
 - $A \, B$ corresponds to linear transformation $T_A \circ T_B$
 - so need to show that $\text{image}(T_A \circ T_B) \subseteq \text{image}(T_A)$
-- <img src="http://habrastorage.org/files/693/fc9/9de/693fc99de6f7493d97e571e0a3b3e0c8.png" alt="Image"> <|  -- etc\alg\matrix-mult-image.png --> | |
+- <img src="http://habrastorage.org/files/693/fc9/9de/693fc99de6f7493d97e571e0a3b3e0c8.png" alt="Image"> <|  -- etc\alg\matrix-mult-image.png --> 
+
 What about $R(A \, B) \subseteq R(B)$?
 - $R(A \, B) = C(B^T A^T) \subseteq C(B^T) = R(B)$
 

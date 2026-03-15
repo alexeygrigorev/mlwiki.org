@@ -3,48 +3,46 @@ layout: default
 permalink: /index.php/The_Rules_of_Sums_and_Products_(Combinatorics)
 tags:
 - combinatorics
-- russian
-- подготовка-к-шад
 title: The Rules of Sums and Products (Combinatorics)
 ---
-## Правило суммы
-Если элемент $a$ можно выбрать $m$ способами, и элемент $b$ - $n$ способами, то выбор "или $a$ или $b$" можно произвести $m + n$ способами.
+## The Rule of Sum
+If element $a$ can be chosen in $m$ ways, and element $b$ in $n$ ways, then the choice "either $a$ or $b$" can be made in $m + n$ ways.
 
-### Обобщенное правило суммы
-Если некоторое способы выборки элемента $a$ совпадают со способами выбора элемента $b$, то такую выборку можно совершить $m + n - k$ способами, где $k$ - число совпадающих способов для $a$ и $b$.
+### Generalized Rule of Sum
+If some ways of choosing element $a$ coincide with ways of choosing element $b$, then such a selection can be made in $m + n - k$ ways, where $k$ is the number of coinciding ways for $a$ and $b$.
 
-## Правило произведения
-Если элемент $a$ можно выбрать $m$ способами, и элемент $b$ - $n$ способами, то пару $(a, b)$ можно выбрать $m \cdot n$ способами. (Пара $(a, b)$ отличается от пары $(b, a)$).
+## The Rule of Product
+If element $a$ can be chosen in $m$ ways, and element $b$ in $n$ ways, then the pair $(a, b)$ can be chosen in $m \cdot n$ ways. (The pair $(a, b)$ is different from the pair $(b, a)$).
 
 
-## Задачи
+## Problems
 
-### Задача 1
-В алфавите 33 буквы. Сколько слов, содержащих 5 букв можно составить так, чтобы не было двух идущих подряд одинаковых букв?
+### Problem 1
+An alphabet has 33 letters. How many 5-letter words can be formed such that no two consecutive letters are the same?
 
-- Первую букву можно выбрать 33 способами
-- Остальные можно выбрать только 32 способами, т.к. не может быть двух одинаковых букв, идущих подряд.
-- Ответ: 33 * 32 * 32 * 32 * 32
+- The first letter can be chosen in 33 ways
+- Each subsequent letter can be chosen in only 32 ways, since no two consecutive letters can be identical.
+- Answer: 33 * 32 * 32 * 32 * 32
 
-### Задача 2
-Сколькими способами можно поставить на шахматную доску размера 8 * 8 белую и черную ладьи так, чтобы они не били друг друга?
+### Problem 2
+In how many ways can a white and a black rook be placed on an 8 * 8 chessboard so that they do not attack each other?
 
-- 64 - 1-ю ладью можно поставить на любую клетку
-- 49 - ладья 1 бьёт 14 полей и на одном стоит, поэтому остается 64 - 15 полей
-- Ответ: 64 * 49
+- 64 - the first rook can be placed on any square
+- 49 - rook 1 attacks 14 squares and stands on one, so 64 - 15 squares remain
+- Answer: 64 * 49
 
-### Задача 3
-Сколькими способами можно поставить 2х королей на шахматную доску 8 * 8?
+### Problem 3
+In how many ways can 2 kings be placed on an 8 * 8 chessboard?
 
-Рассмотрим несколько случаев
-- Если король стоит в углу, то он бьёт 3 поля и стоит на одном - остается 60 клеток для второго;
-- Если король стоит на краю доски, но не в углу (24 поля), то он бьёт 5 полей и стоит на одном - остается 58 клеток;
-- Если не на краю доски (36 полей), то он бьёт 8 полей и стоит на одном - остается 55 клеток. 
+Consider several cases:
+- If the king is in a corner, it attacks 3 squares and stands on one - 60 squares remain for the second;
+- If the king is on the edge of the board but not in a corner (24 squares), it attacks 5 squares and stands on one - 58 squares remain;
+- If it is not on the edge (36 squares), it attacks 8 squares and stands on one - 55 squares remain.
 
-Ответ: 4 * 60 + 24 * 58 + 36 * 55
+Answer: 4 * 60 + 24 * 58 + 36 * 55
 
 ## Sources
 
-- Виленкин Н.Я. Комбинаторика. М., Наука, 1969.
-- Генкин С.А., Итенберг И.В., Фомин Д.В. Ленинградские математические кружки, 1994.
-- Виленкин Н.Я., Комбинаторика. Статья в журнале "Квант", 1 номер 1971 год.  http://kvant.mccme.ru/1971/01/kombinatorika.htm 
+- Vilenkin N.Ya. Combinatorics. Moscow, Nauka, 1969.
+- Genkin S.A., Itenberg I.V., Fomin D.V. Leningrad Mathematical Circles, 1994.
+- Vilenkin N.Ya., Combinatorics. Article in "Kvant" journal, issue 1, 1971.  http://kvant.mccme.ru/1971/01/kombinatorika.htm

@@ -37,7 +37,8 @@ What does it mean? Can think if it as of the "end" of the real line
 
 Definition:
 - the definition needs to be slightly adapted 
-- if $\forall \varepsilon > 0 \ \ \exists\, M > 0$ s.t. $| f(x) - L| < \varepsilon$ when $x > M$ |- if there's no such $M$, then the limit does not exist
+- if $\forall \varepsilon > 0 \ \ \exists\, M > 0$ s.t. $| f(x) - L| < \varepsilon$ when $x > M$
+- if there's no such $M$, then the limit does not exist
 
 
 Interpretation:
@@ -98,7 +99,10 @@ Gives a way to solve ambiguous limits:
 What is $\lim\limits_{x \to 0} \cfrac{\sin x}{x}$?
 - cannot apply the Quotient Rule because $x \to 0$ 
 - let's [Taylor Expand](Taylor_Series) $\sin x$ 
-- $\lim\limits_{x \to 0} \cfrac{\sin x}{x} = \lim\limits_{x \to 0} \cfrac{x - \frac{1}{3|  }\, x^3 + \frac{1}{5!}\, x^5 - \ ...}{x} = \ ...$ |  - $... \ = \lim\limits_{x \to 0} \cfrac{x\, \left(1 - \frac{1}{3| }\, x^2 + \frac{1}{5!}\, x^4 - \ ... \ \right)}{x} = \ ...$ |  - $... \ = \lim\limits_{x \to 0} \left(1 - \frac{1}{3| }\, x^2 + \frac{1}{5!}\, x^4 + \ ... \ \right) = 1$ | |
+- $\lim\limits_{x \to 0} \cfrac{\sin x}{x} = \lim\limits_{x \to 0} \cfrac{x - \frac{1}{3!}\, x^3 + \frac{1}{5!}\, x^5 - \ ...}{x} = \ ...$
+- $... \ = \lim\limits_{x \to 0} \cfrac{x\, \left(1 - \frac{1}{3!}\, x^2 + \frac{1}{5!}\, x^4 - \ ... \ \right)}{x} = \ ...$
+- $... \ = \lim\limits_{x \to 0} \left(1 - \frac{1}{3!}\, x^2 + \frac{1}{5!}\, x^4 + \ ... \ \right) = 1$ 
+
 Can also show this using the [L'Hopital's Rule](L'Hopital's_Rule)
 - $\lim\limits_{x \to 0} \cfrac{\sin x}{x} = \lim\limits_{x \to 0} \cfrac{\cos x}{1} = 1$
 

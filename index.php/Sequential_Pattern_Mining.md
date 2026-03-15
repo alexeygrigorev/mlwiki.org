@@ -48,7 +48,8 @@ Web:
 Sequence containment:
 - $s$ is contained in $s'$ ($s \sqsubseteq s'$) $\iff$
   - $\forall I \in s$ (in order) $\exists I' \in s'$ (in order) s.t. $I \subseteq I'$
-  - order is important|    |- $s'$ is a super sequence for $s$, or $s'$ "supports" $s$ |
+  - order is important
+- $s'$ is a super sequence for $s$, or $s'$ "supports" $s$
 
 Example:
 - $\langle (a)(bc)(d)(c) \rangle \sqsubseteq \langle (a)(abc)(ac)(d)(cf) \rangle$
@@ -59,7 +60,7 @@ Example:
 ## Sequential Pattern Mining
 Like in [Local Pattern Discovery](Local_Pattern_Discovery), we have the notion of Support
 - the support of sequence $s$ w.r.t to dataset $D$ is the # of sequenced in $D$ that support $s$ 
-- $\text{supp}(s, D) = \big|  \{ s' \in D \ : \ s \sqsubseteq s' \} \big|$ |
+- $\text{supp}(s, D) = \big|  \{ s' \in D \ : \ s \sqsubseteq s' \} \big|$
 Frequent patterns:
 - a sequence $s$ is frequent if $\text{supp}(s, D) \geqslant \theta$
 - where $\theta$ is the desired minimal support (parameter)

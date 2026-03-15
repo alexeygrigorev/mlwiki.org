@@ -26,7 +26,8 @@ So a good hash function should
 Example of bad function
 - given: memory locations for objects
 - $h(x) = x \mod 1000$
-- all odd buckets will be empty|   | |Pathological data sets
+- all odd buckets will be empty
+ |Pathological data sets
 - even a super-clever hash function does not guarantee even distribution
 - for every hash function there exists a pathological data set
 

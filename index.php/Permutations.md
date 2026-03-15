@@ -3,42 +3,47 @@ layout: default
 permalink: /index.php/Permutations
 tags:
 - combinatorics
-- russian
-- подготовка-к-шад
 title: Permutations
 ---
 ## Permutations
-Если брать [размещения](Partial_Permutations), в которые входят все $n$ предметов, то они могут различаться только порядком.
+If we take [partial permutations](Partial_Permutations) that include all $n$ elements, then they can only differ in order.
 
-''Перестановками из $n$ элементов'' называют размещения без повторений из $n$ элементов, в которые входят все элементы.
+*Permutations of $n$ elements* are partial permutations without repetition of $n$ elements that include all elements.
 
-Обозначаются $P_n = A_n^n = n \cdot (n - 1) \cdot ... \cdot 2 \cdot 1 = n|  $ | |### Задачи
-Сколькими способами можно расположить на шахматной доске 8 ладей так, чтобы они не били друг друга?
+They are denoted $P_n = A_n^n = n \cdot (n - 1) \cdot ... \cdot 2 \cdot 1 = n!$
+### Problems
+In how many ways can 8 rooks be placed on a chessboard so that none of them attacks another?
 
-При таком расположении на каждой горизонтали и вертикали стоит по одной ладье
-- $a_1$ - номер поля на первой горизонтали
-- $a_2$ - номер поля на второй горизонтали
+In such an arrangement, each row and each column contains exactly one rook.
+- $a_1$ - the square number on the first row
+- $a_2$ - the square number on the second row
 - ...
-- $a_8$ - номер поля на восьмой горизонтали
+- $a_8$ - the square number on the eighth row
 
-- $(a_1, ..., a_8)$ - некоторая перестановка $(1, ..., 8)$
-- $P_8 = 8|   = 40320$ | |
-## Permutations с повторениями
-В перестановках мы переставляли предметы, которые попарно различны. Если же некоторые переставляемые предметы одинаковы, то получается меньше перестановок - некоторые перестановки совпадают друг с другом. 
+- $(a_1, ..., a_8)$ is a permutation of $(1, ..., 8)$
+- $P_8 = 8!= 40320$
 
-Пусть имеется $n$ предметов $k$ различных типов. Сколько перестановок можно сделать из $n_1$ элементов первого типа, $n_2$ элементов второго типа, ..., $n_k$ элементов $k$-того типа?
+## Permutations with Repetitions
+In permutations above we rearranged elements that are all distinct. If some of the elements are identical, then we get fewer permutations -- some permutations coincide with each other.
 
-Число элементов в каждой перестановке равно $n = n_1 + n_2 + ... + n_k$
-Если бы все элементы были разными, то у нас было бы $n|  $ перестановок. | |Но из-за того, что элементы совпадают, получается меньшее количество перестановок.
+Suppose we have $n$ elements of $k$ distinct types. How many permutations can be made from $n_1$ elements of the first type, $n_2$ elements of the second type, ..., $n_k$ elements of the $k$-th type?
+
+The number of elements in each permutation is $n = n_1 + n_2 + ... + n_k$.
+If all elements were distinct, we would have $n!$ permutations.
+But because some elements are identical, we get fewer permutations.
 
 
-Рассмотрим перестановку 
+Consider the permutation
 
 $\underbrace{aa \ .. \ a}_{n_1} \ \underbrace{bb \ .. \ b}_{n_2} \ ... \ \underbrace{xx \ .. \ x}_{n_k}$
 
-- Элементы первого типа можно переставить друг с другом $n_1|  $ способами, но т.к. эти элементы одинаковы, то это не изменит перестановку.  |- Permutations первого, второго, $k$-того типов можно делать независимо друг от друга. Поэтому по правилу произведения элементы этой перестановки можно переставить друг с другом $n_1|  \cdot n_2! \cdot ... \cdot n_k!$ способами так, что она останется неизменной.  | |- Следовательно, $P(n_1, n_2, ..., n_k) = \frac{n|  }{n_1! n_2! ... n_k!}$ | |### Задача
+- Elements of the first type can be rearranged among themselves in $n_1!$ ways, but since these elements are identical, the permutation does not change.
+- Permutations of the first, second, ..., $k$-th types can be performed independently of each other. Therefore, by the multiplication rule, the elements of this permutation can be rearranged among themselves in $n_1!\cdot n_2! \cdot ... \cdot n_k!$ ways without changing the permutation.
+- Therefore, $P(n_1, n_2, ..., n_k) = \frac{n!}{n_1! n_2! ... n_k!}$
+### Problem
 
-Сколько перестановок можно сделать из букв слова "Миссисипи"?
+How many permutations can be made from the letters of the word "Mississippi"?
 
-$P(4, 3, 1, 1) = \frac{9|  }{4! \cdot 3! \cdot 1! \cdot 1!} = 2520$ | |## Sources
-- Виленкин Н.Я. Комбинаторика. М., Наука, 1969.
+$P(4, 4, 2, 1) = \frac{11!}{4! \cdot 4! \cdot 2! \cdot 1!} = 34650$
+## Sources
+- Vilenkin N.Ya. Combinatorics. Moscow, Nauka, 1969.

@@ -87,7 +87,8 @@ To be able to find the best solution we need to know ''subjective preferences''
 
 Given two alternatives $a$ and $b$ a decision maker can say if
 - $a \ P \ b$ or $b \ P \ a$: $a$ is preferred to $b$ - ''the preference relation''
-- $a \ I \ b$ - the indifference relation (not transitive|   see [Luce's Coffee Cups](Luce's_Coffee_Cups)) |- $a \ J \ b$ - the incomparability relation, when you cannot compare things |
+- $a \ I \ b$ - the indifference relation (not transitive|   see [Luce's Coffee Cups](Luce's_Coffee_Cups))
+- $a \ J \ b$ - the incomparability relation, when you cannot compare things
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/mcda/mcda-dm.png" alt="Image">
 

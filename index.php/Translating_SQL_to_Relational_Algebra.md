@@ -769,7 +769,8 @@ $
 \rho_C(\text{Class}) \times \rho_E(\text{Enrolled}) \times \rho_F(\text{Faculty}) 
 \Big]$
 
-Note that this is '''not the query we want'''|  !! |- Faculty members who don't teach any class are not output by the expression, but they are output by the original SQL query |
+Note that this is '''not the query we want'''|  !!
+- Faculty members who don't teach any class are not output by the expression, but they are output by the original SQL query
 
 Count bug
 - this issue is known as the ''count bug''

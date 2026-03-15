@@ -55,7 +55,9 @@ Case 2: $s_1 = s_2 < 0.5$
 
 
 Case 3: $s_1 = s_2 = 0.5$
-- this is a Nash Equilibrium|   |- <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/gt/median-voter-6-ne.png" alt="Image"> |- no one has an incentive to deviate:
+- this is a Nash Equilibrium
+- <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/gt/median-voter-6-ne.png" alt="Image">
+- no one has an incentive to deviate:
   - if somebody moves, he gets lower payoff
   - $u_1(s_1, s_2) > u_1(s_1 - \epsilon, s_2)$
 

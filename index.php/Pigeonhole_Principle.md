@@ -3,57 +3,55 @@ layout: default
 permalink: /index.php/Pigeonhole_Principle
 tags:
 - combinatorics
-- russian
-- подготовка-к-шад
 title: Pigeonhole Principle
 ---
-## Принцип кроликов и клеток
+## Pigeonhole Principle
 
-Если в $N$ клетках сидят не менее $N + 1$ кроликов, то в какой-то из клеток сидит не менее 2-х кроликов. 
+If there are at least $N + 1$ pigeons sitting in $N$ pigeonholes, then at least one pigeonhole contains at least 2 pigeons.
 
-Данное утверждение носит называние ''принцип Дирихле''. Доказывается методом от противного: если бы в каждой клетке сидело не более одного кролика, то в N клетках сидело бы не более $N$ кроликов -- противоречие. 
+This statement is known as the ''Dirichlet principle''. It is proved by contradiction: if each pigeonhole contained at most one pigeon, then $N$ pigeonholes would contain at most $N$ pigeons -- a contradiction.
 
-Более общая формулировка принципа:
+A more general formulation of the principle:
 
-Если в $n$ коробок положить $k$ предметов и $k > n$, то существует хотя бы одна коробка, в которой находится не менее 2-х предметов. 
+If $k$ objects are placed into $n$ boxes and $k > n$, then there exists at least one box containing at least 2 objects.
 
-## Обобщённый принцип Дирихле
-Если $pn + 1$ предметов поместить в n коробок, то хотя бы одна из них будет содержать $p + 1$ предметов.
+## Generalized Pigeonhole Principle
+If $pn + 1$ objects are placed into $n$ boxes, then at least one box will contain $p + 1$ objects.
 
-## Задачи
+## Problems
 
-### Задача 1
-В лесу растёт 1 млн ёлок и известно, что на каждой из них не более 600 тыс иголок. Доказать, что в лесу найдутся хотя бы две ёлки с одинаковым количеством иголок.
+### Problem 1
+There are 1 million fir trees in a forest and it is known that each of them has at most 600 thousand needles. Prove that there exist at least two trees with the same number of needles.
 
-- 1 000 000 ёлок (предметов)
-- 600 001 ящиков - на каждой из ёлок $0 \leqslant k \leqslant 600 000$ иголок
-- Т.к. предметов больше, чем ящиков, то в каком-то ящике находится более одного предмета. 
+- 1,000,000 trees (objects)
+- 600,001 boxes - each tree has $0 \leqslant k \leqslant 600,000$ needles
+- Since there are more objects than boxes, at least one box contains more than one object.
 
-### Задача 2
-Доказать, что среди 6-ти целых чисел найдутся два числа, разность которых делится на 5. 
+### Problem 2
+Prove that among 6 integers there exist two numbers whose difference is divisible by 5.
 
-- 5 коробок: { 0, 1, 2, 3, 4, 5 } - остатки от деления на 5,
-- Если распределить числа по коробкам, то в одной коробке окажется два числа,
-- Следовательно, существует как минимум два числа с одинаковым остатком от деления на 5, 
-- Тогда разность этих чисел делится на 5.
+- 5 boxes: { 0, 1, 2, 3, 4, 5 } - remainders when dividing by 5,
+- If we distribute the numbers into boxes, then one box will contain two numbers,
+- Therefore, there exist at least two numbers with the same remainder when dividing by 5,
+- Then the difference of these numbers is divisible by 5.
 
-### Задача 3
-Доказать, что для любого $n \in \mathbb{N}$, $n \geqslant 1$ существует $k \in \mathbb{N}$, состоящее только из чисел 0 и 5, такое, что оно делится на $n$.
+### Problem 3
+Prove that for any $n \in \mathbb{N}$, $n \geqslant 1$ there exists $k \in \mathbb{N}$, consisting only of the digits 0 and 5, such that it is divisible by $n$.
 
-- $a_1 = 50, a_2 = 5050, a_n = \underbrace{5050..50}$ ($n$ раз)
-- Распределим эти предметы по коробкам $s_i \in \{0, 1, ..., n-1\}$
-- В коробку $s_i$ помещаем число $a_k$ если оно имеет остаток от деления равный $i$
-- Если в $s_0$ находится 1 предмет - то задача решена.
-- Иначе, $n - 1$ коробке находится $n$ предметов, следовательно существует два числа, имеющих одинаковы остаток от деления на $n$
-- Т.к. разность двух чисел, состоящих их 5 и 0 тоже состоит из 5 и 0, то разность этих двух чисел и есть ответ.
+- $a_1 = 50, a_2 = 5050, a_n = \underbrace{5050..50}$ ($n$ times)
+- Distribute these objects into boxes $s_i \in \{0, 1, ..., n-1\}$
+- Place number $a_k$ into box $s_i$ if it has remainder $i$ when divided by $n$
+- If box $s_0$ contains 1 object, then the problem is solved.
+- Otherwise, $n$ objects are in $n - 1$ boxes, therefore there exist two numbers with the same remainder when divided by $n$
+- Since the difference of two numbers consisting of 5 and 0 also consists of 5 and 0, the difference of these two numbers is the answer.
 
-### Задача 4
-В доме 40 человек. Существует ли такой месяц, когда хотя бы 4 ученика празднует свои дни рождения?
+### Problem 4
+There are 40 people in a building. Does there exist a month in which at least 4 of them celebrate their birthdays?
 
-- Коробки - месяцы (12 шт)
-- Предметы - люди (40 = 12 * 3 + 4)
-- Существует коробка по крайней мере с 3 + 1 предметами
+- Boxes - months (12)
+- Objects - people (40 = 12 * 3 + 4)
+- There exists a box with at least 3 + 1 objects
 
 ## Sources
-- Генкин С.А., Итенберг И.В., Фомин Д.В. Ленинградские математические кружки, 1994.
+- Genkin S.A., Itenberg I.V., Fomin D.V. Leningrad Mathematical Circles, 1994.
 - Pigeonhole Principle, http://bars-minsk.narod.ru/teachers/dirichle.html

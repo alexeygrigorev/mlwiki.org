@@ -14,13 +14,14 @@ Used for comparing two different models
 |    |  $y = +$  |  $y = -$  |   $h_\theta(x) = +$  |  $C(+ | +)$  |  $C(+ | -)$ ||   $h_\theta(x) = -$  |  $C(- | +)$  |  $C(- | -)$ |
 
 In general case:
-- $C(i |  j)$  |- a cost of classifying an example of class $j$ as class $i$
+- $C(i |  j)$
+- a cost of classifying an example of class $j$ as class $i$
 - this way we can express that some mispredictions are very costly
 
 
 ### Example
 |    |  $y = +$  |  $y = -$  |   $h_\theta(x) = +$  |  $C(+ | +) = -1$  |  $C(+ | -) = 1$ ||   $h_\theta(x) = -$  |  $C(- | +) = 100$  |  $C(- | -) = 0$ |
-- we put $C(- |  +) = 100$ because in this example false negatives are very costly |
+- we put $C(- |  +) = 100$ because in this example false negatives are very costly
 And assume we're comparing two classifiers $C_1$ and $C_2$
 - below are their [Contingency Table](Contingency_Table)s
 

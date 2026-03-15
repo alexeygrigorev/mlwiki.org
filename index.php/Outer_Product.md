@@ -32,7 +32,9 @@ This matrix $A$ is a special matrix:
 
 == [Projection Matrices](Projection_Matrices) == 
 Suppose we want to project to a line $\mathbf u$ 
-- then the Projection Matrix $P$ is $P = \cfrac{\mathbf u \mathbf u^T}{\|  \mathbf u\|^2} = \mathbf u \mathbf u^T$ |- if $\mathbf u$ is a unit vector, e.g. $\|  \mathbf u \|^2 = 1$ |- then the projection matrix is just an outer product of $\mathbf u$ with itself
+- then the Projection Matrix $P$ is $P = \cfrac{\mathbf u \mathbf u^T}{\|  \mathbf u\|^2} = \mathbf u \mathbf u^T$
+- if $\mathbf u$ is a unit vector, e.g. $\|  \mathbf u \|^2 = 1$
+- then the projection matrix is just an outer product of $\mathbf u$ with itself
 
 
 ## Sources

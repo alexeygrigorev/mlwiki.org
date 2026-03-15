@@ -3,142 +3,147 @@ layout: default
 permalink: /index.php/Combinations
 tags:
 - combinatorics
-- russian
-- подготовка-к-шад
 title: Combinations
 ---
 ## Combinations
-Не всегда нас интересует порядок, в котором располагаются элементы - а интересует лишь состав.
+We are not always interested in the order in which elements are arranged - sometimes only the composition matters.
 
-Combinationsми размера $k$ из $n$ элементов называют всевозможные расстановки длины $k$, составленных из этих элементов и отличающихся лишь составом, а не порядком элементов. 
+Combinations of size $k$ from $n$ elements are all possible selections of length $k$ composed from these elements that differ only in composition, not in the order of elements.
 
-$C_n^k$ - число сочетаний размера $k$, которые можно составить из $n$ элементов.
+$C_n^k$ is the number of combinations of size $k$ that can be formed from $n$ elements.
 
-Сначала составим все сочетания размера $k$ из $n$ элементов, а потом переставим элементы в них всеми возможными способами - и получим все возможные размещения размера $k$ из $n$ элементов. Из каждого сочетания можно сделать $k|  $ [перестановок](Permutations), значит,  | |$k|   \cdot C_n^k = A_n^k, C_n^k = \frac{A_n^k}{k!} = \frac{n!}{(n - k)! \cdot k!}$ | |Эта функция совпадает с формулой для числа перестановок из $k$ элементов одного типа и $(n-k)$ элементов второго типа
+First, we form all combinations of size $k$ from $n$ elements, and then permute the elements in each of them in all possible ways - this gives us all possible partial permutations of size $k$ from $n$ elements. From each combination, $k!$ [permutations](Permutations) can be made, hence
+$k!\cdot C_n^k = A_n^k, C_n^k = \frac{A_n^k}{k!} = \frac{n!}{(n - k)! \cdot k!}$
+This function coincides with the formula for the number of permutations of $k$ elements of one type and $(n-k)$ elements of a second type
 
-$P(n, n-k) = \frac{n|  }{k! \cdot (n - k)!} = C_n^k$ | |Расставим по порядку все $n$ элементов и зашифруем каждое сочетание расстановкой размера $n$, состоящей из нулей и единиц. Если элемент входит, запишем 1, иначе 0.
-При этом каждому сочетанию будет соответствовать расстановка из $k$ единиц и $(n - k)$ нулей. 
+$P(n, n-k) = \frac{n!}{k! \cdot (n - k)!} = C_n^k$
+Let us arrange all $n$ elements in order and encode each combination as a sequence of length $n$ consisting of zeros and ones. If an element is included, we write 1; otherwise, 0.
+Each combination then corresponds to a sequence of $k$ ones and $(n - k)$ zeros.
 
-### Задача
-Сколькими способами можно поставить 8 ладей на поле 8 $\times$ 8? (Так, что они могут бить друг друга, а могут и не бить.)
+### Problem
+In how many ways can 8 rooks be placed on an 8 $\times$ 8 board? (So that they may or may not attack each other.)
 
-- Нам нужно выбрать из 64 клеток любые 8. 
-- Следовательно, $C_{64}^8 = \frac{64|  }{8! \cdot 56!}$ | |
-## Combinations с повторениями
-Имеется $n$ различных типов предметов. Сколько комбинаций размера $k$ можно сделать из них, если не принимать во внимание порядок элементов в комбинациях?
+- We need to choose any 8 out of 64 squares.
+- Therefore, $C_{64}^8 = \frac{64!}{8! \cdot 56!}$
 
-=== Мотивирующий пример === 
-В кондитерском магазине продают 4 типа пирожных: наполеон, эклеры, песочные и слоёные. Сколькими типами можно купить 7 пирожных? 
+## Combinations with Repetition
+There are $n$ different types of objects. How many combinations of size $k$ can be made from them, if the order of elements in the combinations is disregarded?
 
-#### Способ 1
-- Зашифруем каждую покупку с помощью единиц и нулей. 
-- Сначала запишем сколько было куплено наполеонов, затем ноль, затем количество эклеров, ноль, песочных, ноль, и, наконец, слоёных.
-- Получим $\underbrace{111} 0 \underbrace{1} 0 \underbrace{11} 0 \underbrace{1}$
-- Разным покупкам при этом соответствуют различные перестановки с повторениями 
+### Motivating Example
+A pastry shop sells 4 types of pastries: napoleon, eclairs, shortbread, and puff pastry. In how many ways can 7 pastries be purchased?
 
-$P(7, 3) = \frac{10|  }{7! \cdot 3!} = 120$ | |#### Способ 2
-- Расположим в каждой покупке пирожные по порядку (наполеоны, эклеры, песочные, слоёные)
-- Затем пронумеруем их, при этом к номерам наполеонов прибавляя 0, к номерам эклеров 1, песочных 2, слоёных - 3.
-- Самый большой номер - 7 + 3 = 10 для слоёного пирожного
-- Самый маленький номер - 1 + 0 = 1 для наполеона
-- Ни один номер при этом не будет повторятся и каждой возрастающей последовательности из 7 чисел будет соответствовать некоторая покупка 
+#### Method 1
+- Let us encode each purchase using ones and zeros.
+- First, write the number of napoleons purchased, then a zero, then the number of eclairs, a zero, shortbread, a zero, and finally puff pastries.
+- We get $\underbrace{111} 0 \underbrace{1} 0 \underbrace{11} 0 \underbrace{1}$
+- Different purchases correspond to distinct permutations with repetition
 
-Например, имеем последовательность (2, 3, 4, 5, 7, 8, 9). Отнимем (1, 2, 3, 4, 5, 6, 7) и получим (1, 1, 1, 1, 2, 2, 2).
-Т.е. имеем 4 эклера (к эклерам мы прибавляли 1) и 3 песочных (к их номерам прибавляли 2).
+$P(7, 3) = \frac{10!}{7! \cdot 3!} = 120$
+#### Method 2
+- Arrange the pastries in each purchase in order (napoleons, eclairs, shortbread, puff pastries)
+- Then number them, adding 0 to the numbers of napoleons, 1 to eclairs, 2 to shortbread, and 3 to puff pastries.
+- The largest number is 7 + 3 = 10 for a puff pastry
+- The smallest number is 1 + 0 = 1 for a napoleon
+- No number will repeat, and each increasing sequence of 7 numbers corresponds to some purchase
 
-- Таким образом, число способов купить 7 пирожных равно числу способов выбрать 7 предметов из 10:
-- Ответ $C_{10}^7 = 120$
+For example, given the sequence (2, 3, 4, 5, 7, 8, 9). Subtract (1, 2, 3, 4, 5, 6, 7) and obtain (1, 1, 1, 1, 2, 2, 2).
+That is, we have 4 eclairs (we added 1 to eclairs) and 3 shortbread (we added 2 to their numbers).
 
-
-
-В общем случае задачи на сочетания с повторениями решаются так же. 
-
-Зашифруем каждую комбинацию нулями и единицами 
-- для каждого типа единицами запишем сколько предметов входит в комбинацию 
-- и разделим типы предметов между собой нулями
+- Thus, the number of ways to buy 7 pastries equals the number of ways to choose 7 items from 10:
+- Answer: $C_{10}^7 = 120$
 
 
-При этом получится столько единиц, сколько предметов нам нужно выбрать, т.е. $k$, и $(n - 1)$ нулей
-- $\bar{C_n^k} = P(k, n - 1) = \frac{(k + n - 1)|  }{k! \cdot (n - 1)!}$ |- Следовательно, $\bar{C}_n^k} = C_{n + k - 1}^k$. |
 
-Аналогично можно прийти к этой формуле и вторым способом.
+In the general case, problems on combinations with repetition are solved in the same way.
 
-
-### Разновидность
-Встречаются задачи, в которые обязательно нужно включить элементы $r$ фиксированных типов, $r \leqslant n$
-
-Для этого 
-- возьмем $r$ элементов нужного типа
-- оставшиеся $k - r$ мест заполним остальными элементами, принадлежащими всем $n$ типам.
-
-Итого, имеем формулу $\bar{C}_n^{k - r}} = C_{n + k - r - 1}^{k - r}$
+Let us encode each combination with zeros and ones:
+- for each type, write in ones how many items are included in the combination
+- and separate the types with zeros
 
 
-## Свойства сочетаний
-### Свойство 1
+The result will have as many ones as items we need to choose, i.e. $k$, and $(n - 1)$ zeros
+- $\bar{C_n^k} = P(k, n - 1) = \frac{(k + n - 1)!}{k! \cdot (n - 1)!}$
+- Therefore, $\bar{C}_n^k} = C_{n + k - 1}^k$.
+
+One can arrive at this formula using the second method as well.
+
+
+### Variation
+There are problems where elements of $r$ fixed types must be included, $r \leqslant n$
+
+To solve this:
+- take $r$ elements of the required types
+- fill the remaining $k - r$ positions with elements belonging to all $n$ types.
+
+The resulting formula is $\bar{C}_n^{k - r}} = C_{n + k - r - 1}^{k - r}$
+
+
+## Properties of Combinations
+### Property 1
 $C_n^k = C_n^{n - k}$
-- Очевидно из формулы $C_n^k = \frac{n|  }{(n - k)! \cdot k!}$ |- Если в формуле заменить $k$ на $(n - k)$, то $n - k$ заменится на $n - (n - k) = k$ - и множители просто поменяются местами |
-### Свойство 2
+- Obvious from the formula $C_n^k = \frac{n!}{(n - k)! \cdot k!}$
+- If we replace $k$ with $(n - k)$ in the formula, then $n - k$ is replaced by $n - (n - k) = k$ - and the factors simply swap places
+### Property 2
 $C_n^k = C_{n - 1}^{k - 1} + C^k_{n - 1}$
 
-- Составим все сочетания размера $k$ из $n$ элементов $a_1, a_2, ..., a_n$ и разобъем на две группы:
-  - в первых будут элементы, содержащие $a_n$
-  - во второй не будет элементов, содержащих $a_n$
-- если в первой группе откинуть $a_n$ (т.к. оно есть везде, то на количество сочетаний это не повлияет), то получится сочетания размера $k - 1$, составленные из элементов $a_1, a_2, ..., a_{n - 1}$ (всего $n - 1$ элементов) .
-  - Число сочетаний в первой группе равно $C_{n - 1}^{k - 1}$
-- сочетания второй группы являются сочетаниями размера $k$, составленные из $n - 1$ элементов $a_1, a_2, ..., a_{n - 1}$
-  - Число сочетаний во второй группе равно $C_{n - 1}^k$
-- По [правилу суммы](Правила_суммы_и_произведения), общее число сочетаний равняется $C_{n - 1}^k + C_{n - 1}^{k - 1} = C_n^k$
+- Let us form all combinations of size $k$ from $n$ elements $a_1, a_2, ..., a_n$ and split them into two groups:
+  - the first group contains elements that include $a_n$
+  - the second group does not contain elements that include $a_n$
+- If we remove $a_n$ from the first group (since it appears everywhere, this does not affect the number of combinations), we get combinations of size $k - 1$ composed from elements $a_1, a_2, ..., a_{n - 1}$ (a total of $n - 1$ elements).
+  - The number of combinations in the first group equals $C_{n - 1}^{k - 1}$
+- The combinations in the second group are combinations of size $k$ composed from $n - 1$ elements $a_1, a_2, ..., a_{n - 1}$
+  - The number of combinations in the second group equals $C_{n - 1}^k$
+- By the [rule of sum](The_Rules_of_Sums_and_Products_(Combinatorics)), the total number of combinations is $C_{n - 1}^k + C_{n - 1}^{k - 1} = C_n^k$
 
-### Свойство 3
+### Property 3
 $\sum_{k = 0}^n C_n^k = 2^n$
 
-- $2^n$ - число всех [размещений с повторениями](Partial_Permutations) из элементов ''двух типов''.
-- Разобьём эти размещения на $k$ групп
-- в $k$-ю группу отнесем те элементы, в которые входят $k$ элементов первого типа и ($n - k$) элементов второго типа
-- размещения, входящие в $k$-ю группу - всевозможные [перестановки](Permutations) из $k$ элементов первого типа и $n - k$ второго 
-- число таких перестановок равно $P(k, n - k)$, а $P(k, n - k) = C_n^k$
+- $2^n$ is the number of all [partial permutations with repetition](Partial_Permutations) from elements of *two types*.
+- Let us split these arrangements into $k$ groups
+- In the $k$-th group, place those elements that contain $k$ elements of the first type and ($n - k$) elements of the second type
+- The arrangements in the $k$-th group are all possible [permutations](Permutations) of $k$ elements of the first type and $n - k$ of the second
+- The number of such permutations equals $P(k, n - k)$, and $P(k, n - k) = C_n^k$
 
-В общем виде эту формулу можно записать так:
+In general form, this formula can be written as:
 
 $\sum_{n_1 + ... + n_k = n} P(n_1, ..., n_k) = k^n$
 
 
 
-(свойства 4 и 5 опущены - см. Виленкина)
+(Properties 4 and 5 are omitted - see Vilenkin)
 
-=== Свойство 6 === 
+### Property 6
 $C_n^0 - C_n^1 + ... + (-1)^n C_n^k = 0$
 
 - $C_n^0 = C_{n - 1}^0 = 1$
-- т.к. $C_n^1 = C_{n - 1}^0 + C_{n - 1}^1$, то $C_{n - 1}^0 - C_n^{1} = -C_{n - 1}^2$
-- далее, имеем $-C_{n - 1}^2 + C_n^2 = C_{n - 1}^2$
-- В конце концов все слагаемые взаимоуничтожаются
+- Since $C_n^1 = C_{n - 1}^0 + C_{n - 1}^1$, we have $C_{n - 1}^0 - C_n^{1} = -C_{n - 1}^2$
+- Next, we have $-C_{n - 1}^2 + C_n^2 = C_{n - 1}^2$
+- Eventually all terms cancel out
 
 
-Некоторые свойства (особенно 3 и 6) очень легко доказываются с помощью [бинома Ньютона](Binomial_Theorem)
+Some properties (especially 3 and 6) are very easily proved using the [Binomial Theorem](Binomial_Theorem)
 
 
-## Треугольник Паскаля
-Биномиальные коэффициенты можно вычислять с помощью свойства 2: $C_n^k = C_{n - 1}^{k - 1} + C^k_{n - 1}$.
-Если расположить $C_n^k$ по середине под $C_{n - 1}^{k - 1}$ и $C^k_{n - 1}$, то числа выстроятся в треугольник
+## Pascal's Triangle
+Binomial coefficients can be computed using Property 2: $C_n^k = C_{n - 1}^{k - 1} + C^k_{n - 1}$.
+If we place $C_n^k$ in the middle below $C_{n - 1}^{k - 1}$ and $C^k_{n - 1}$, the numbers form a triangle
 
 <img src="http://allmatematika.ru/images/kombib8.GIF" />
 
 
-### Задача
+### Problem
 <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/pascal-triangle-problem.png" alt="Image">" />
 
-Сколькими способами можно добраться из вершины $A$ в вершину $B$, если двигаться можно только "вправо" и "вверх"?
+In how many ways can one get from vertex $A$ to vertex $B$, if movement is allowed only "right" and "up"?
 
 <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/pascal-triangle-problem-solution.png" alt="Image">" />
 
-- Если записать число способов, которыми можно попасть в определенный узел, то мы увидим треугольник Паскаля.
-- Действительно, в $k$-й узел $n$-й строки можно попасть либо из $(k-1)$-того, либо из $k$-го узла
-- Поэтому число путей, ведущих в этот узел есть $C_n^k = C_{n - 1}^{k - 1} + C^k_{n - 1}$
+- If we write the number of ways to reach a particular node, we see Pascal's Triangle.
+- Indeed, the $k$-th node in the $n$-th row can be reached either from the $(k-1)$-th or from the $k$-th node
+- Therefore, the number of paths leading to this node is $C_n^k = C_{n - 1}^{k - 1} + C^k_{n - 1}$
 
-Таким образом мы можем сформулировать одно из свойств треугольника Паскаля: 
-Каждое число в треугольнике равно количеству способов добраться до него из вершины, перемещаясь либо вправо-вниз, либо влево-вниз.
+Thus, we can formulate one of the properties of Pascal's Triangle:
+Each number in the triangle equals the number of ways to reach it from the top, moving either down-right or down-left.
 
 
 ## See also
@@ -146,5 +151,5 @@ $C_n^0 - C_n^1 + ... + (-1)^n C_n^k = 0$
 - [Binomial Theorem](Binomial_Theorem)
 
 ## Sources
-- Виленкин Н.Я. Комбинаторика. М., Наука, 1969.
-- Генкин С.А., Итенберг И.В., Фомин Д.В. Ленинградские математические кружки, 1994.
+- Vilenkin N.Ya. Combinatorics. Moscow, Nauka, 1969.
+- Genkin S.A., Itenberg I.V., Fomin D.V. Leningrad Mathematical Circles, 1994.

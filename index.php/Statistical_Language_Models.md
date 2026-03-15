@@ -40,7 +40,7 @@ LMs:
 Can't enumerate all possible sentences, so need to make some assumptions to simplify the model
 
 Notation:
-- $V = \{w_1, \ ... \ , w_N\}$ is the vocabulary, $| V| = N$ |
+- $V = \{w_1, \ ... \ , w_N\}$ is the vocabulary, $| V!= N$
 
 
 ## Unigrams
@@ -50,7 +50,8 @@ This is the simplest LM
 
 
 Let $\theta$ be a Unigram LM 
-- there are $| V|$ params in $\theta$  |- condition: $\sum p(w_i \mid \theta) = 1$
+- there are $| V|$ params in $\theta$
+- condition: $\sum p(w_i \mid \theta) = 1$
 - so unigram LM specifies a [Multinomial Distribution](Multinomial_Distribution) over words
 - according to unigram models, sentences with high-probability words have higher probability
 

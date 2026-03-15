@@ -41,7 +41,10 @@ Formally we can write it as:
 
 
 ### Link to [Voting Theory](Voting_Theory)
-But it is possible to draw a direct parallel with [Voting Theory](Voting_Theory)|   | ||                |  Voter 1  |  Voter 2  |  ...  |  Voter $q$  |  Candidate 1  |  100  |  Medium  |  ...  |  8 ||  Candidate 2  |  100  |  Medium  |  ...  |  8 ||  ...  |  ...  |  ...  |  ...  |  ... ||  Candidate $n$  |  55  |  Very Bad  |   |  8 |
+But it is possible to draw a direct parallel with [Voting Theory](Voting_Theory)
+ |
+  Voter 1  |  Voter 2  |  ...  |  Voter $q$  |  Candidate 1  |  100  |  Medium  |  ...  |  8 ||  Candidate 2  |  100  |  Medium  |  ...  |  8 ||  ...  |  ...  |  ...  |  ...  |  ... ||  Candidate $n$  |  55  |  Very Bad  
+  8
 So these two problems are similar:
 - Each voter ranks all candidates (alternatives)
 - We apply some voting mechanism and find the global preference (the "best" alternative)

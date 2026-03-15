@@ -41,7 +41,8 @@ what is the probability of successfully rejecting $H_0$?
 
 We can divide it onto two probability questions:
 
-- what are possible values of $\bar{x}$ sufficient to reject $H_0$? (under $H_0$|  ) |- use this hypothetical [Sampling Distribution](Sampling_Distribution) to find the probability of observing such values of $\bar{x}$ (from the 1st step) |
+- what are possible values of $\bar{x}$ sufficient to reject $H_0$? (under $H_0$|  )
+- use this hypothetical [Sampling Distribution](Sampling_Distribution) to find the probability of observing such values of $\bar{x}$ (from the 1st step)
 
 Step 1
 The null distribution is $N(130, 2.5)$
@@ -114,7 +115,8 @@ polygon(x=x[c(x2.left, x2.left:x2.right, x2.right)],
 
 
 ## Power Analysis
-<!-- TODO: what's that? --> |- e.g. see here [http://stats.stackexchange.com/questions/108186]
+<!-- TODO: what's that? -->
+- e.g. see here [http://stats.stackexchange.com/questions/108186]
 - http://www.statmethods.net/stats/power.html - in R
 - http://www.marketingdistillery.com/2014/08/10/multiple-abn-tests-in-marketing-with-anova-and-r/ - sample size 
 

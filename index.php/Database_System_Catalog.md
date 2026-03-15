@@ -10,12 +10,13 @@ To estimate a cost of [Physical operators](Physical_Operators_(databases)) in a 
 - $B(R)$ - # of blocks that relation $R$ holds
 - $T(R)$ - # of tuples in $R$
   - typically can be used to calculate $B(R)$ when we know how many bytes we have per block
-- $V(R, A_1, ..., A_n) = |  \delta \pi_{A_1, ..., A_n} (R)  |$ - # of distinct values  |
+- $V(R, A_1, ..., A_n) = |  \delta \pi_{A_1, ..., A_n} (R)  |$ - # of distinct values
 
 This statistics in DBMS is a ''system catalog''
 - they are regularly collected (when needed, scheduled, etc) 
 - and regularly revisited 
-- note that this data is kept only for base relations, not for subresults of a query|   | |
+- note that this data is kept only for base relations, not for subresults of a query
+ |
 ## Statistics
 For base relations we typically have some [Histogram](Histogram)s that show how values are distributed
 

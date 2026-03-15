@@ -147,7 +147,8 @@ P_{64}$
   &   &      & \ddots  &   \\
   &   &      &        & w^{n/2 - 1}
 \end{bmatrix}$
-- now we can break $W_{32}$ down in the same way|   |  - $W_{32} = \begin{bmatrix} |I_{16} &  D_{16} \\
+- now we can break $W_{32}$ down in the same way
+- $W_{32} = \begin{bmatrix} |I_{16} &  D_{16} \\
 I_{16} & -D_{16} 
 \end{bmatrix} 
 \begin{bmatrix}

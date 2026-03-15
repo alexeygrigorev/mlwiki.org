@@ -22,7 +22,7 @@ Reflection transformation:
 - and $v$ is the "Householder vector"
 - when we multiply $P x$, $x$ is reflected around $\text{span}(v)^{\bot}$
 - if $v$ is not unit vector, we need to normalize it
-- let $\beta = 2 / \|  v \|^2$, so we can simply write $P = I - \beta v v^T$ |
+- let $\beta = 2 / \|  v \|^2$, so we can simply write $P = I - \beta v v^T$
 
 ### Properties
 Householder matrices are [symmetric](Symmetric_Matrices) and [orthogonal](Orthogonal_Matrices): they are reflection matrices
@@ -34,11 +34,23 @@ So we have $P = I - 2vv^T$:
 - suppose we have some vector $x$ and want to reflect it such that it becomes parallel to some unit vector $y$
 - <img src="https://habrastorage.org/web/c24/6e0/3ba/c246e03bace34da19bf1a18b832f2f23.png" alt="Image"> <img src="https://habrastorage.org/web/668/dca/ac3/668dcaac3b5f4581abb7a7beca03430d.png" alt="Image">
 - here we want to reflect around the place that is between $y$ and $x$ - that bisects the angle between them
-- the vector orthogonal to this place is $x - \|  x \| y$ |- so let $u = x - \|  x \| y$ and $v = u / \| u \|$ |- $\|  u \|^2 = (x - \| x \| y)^T (x - \| x \| y) = \ ...$ |  - $... \ = \| x\|^2 - 2 \| x \| x^T y + \| x \|^2 \| y \|^2 = \ ...$  |  - $... \ = \| x\|^2 - 2 \| x \| x^T y + \| x \|^2  = \ ...$ (since $y$ is unit vector) |  - $... \ = 2 \| x\|^2 - 2 \| x \| x^T y$ |- $Px = (I - 2 v v^T) x = x - 2 \cfrac{u u^T x}{\|  u \|^2} = \ ...$ |  - $... \ = x - 2 \cfrac{(x - \|  x \| y) (x - \| x \| y)^T x}{2 \|x\|^2 - 2 \| x \| x^T y} = \ ...$ |  - $... \ = x - 2 \cfrac{(x - \|  x \| y) (x^T - \| x \| x^T y)}{2 \|x\|^2 - 2 \| x \| x^T y} = \ ...$ |  - $... \ = x - (x - \|  x \| y) = \| x \| y$ |- so when we apply $P$ to some $x$, we get $\|  x \| y$ |
+- the vector orthogonal to this place is $x - \|  x \| y$
+- so let $u = x - \|  x \| y$ and $v = u / \| u \|$
+- $\|  u \|^2 = (x - \| x \| y)^T (x - \| x \| y) = \ ...$
+- $... \ = \| x\|^2 - 2 \| x \| x^T y + \| x \|^2 \| y \|^2 = \ ...$
+- $... \ = \| x\|^2 - 2 \| x \| x^T y + \| x \|^2  = \ ...$ (since $y$ is unit vector)
+- $... \ = 2 \| x\|^2 - 2 \| x \| x^T y$
+- $Px = (I - 2 v v^T) x = x - 2 \cfrac{u u^T x}{\|  u \|^2} = \ ...$
+- $... \ = x - 2 \cfrac{(x - \|  x \| y) (x - \| x \| y)^T x}{2 \|x\|^2 - 2 \| x \| x^T y} = \ ...$
+- $... \ = x - 2 \cfrac{(x - \|  x \| y) (x^T - \| x \| x^T y)}{2 \|x\|^2 - 2 \| x \| x^T y} = \ ...$
+- $... \ = x - (x - \|  x \| y) = \| x \| y$
+- so when we apply $P$ to some $x$, we get $\|  x \| y$
 
 We use such transformations for zeroing elements
 - we want to zero all elements of $x$ except the first one, so we need $P x = \pm \alpha e_1$
-- we know that if $P x = \pm \alpha e_1$ and $P$ is Householder reflection with $y = e_1$, then $P x =\pm \alpha e_1 = \|  x \| e_1$, so $\alpha = \pm \| x \| = \rho \| x \|$ where $\rho = \pm 1$  |- let $z = x - \alpha e_1$ and $u = z / \|  z \|$ |- so $z = x - \alpha e_1 = x - \rho \|  x \| e_1 = \begin{bmatrix} |x_1 \\
+- we know that if $P x = \pm \alpha e_1$ and $P$ is Householder reflection with $y = e_1$, then $P x =\pm \alpha e_1 = \|  x \| e_1$, so $\alpha = \pm \| x \| = \rho \| x \|$ where $\rho = \pm 1$
+- let $z = x - \alpha e_1$ and $u = z / \|  z \|$
+- so $z = x - \alpha e_1 = x - \rho \|  x \| e_1 = \begin{bmatrix} |x_1 \\
 x_2 \\
 \vdots \\
 x_n 

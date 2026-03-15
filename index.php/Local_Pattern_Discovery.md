@@ -22,7 +22,8 @@ What we can learn from this data?
 
 Can reformulate these rules with probabilities
 - $P(\text{swim} \land \text{fly}) = 0.25$: 25% of birds can swim and fly
-- $P(\text{swim} \ |  \ \text{webfoot}) = 1$: 100% of web-footed birds can swim |- $P(\text{webfoot} \ |  \ \text{swim}) = 1$: 100% of swimming birds are web-footed ones |
+- $P(\text{swim} \ |  \ \text{webfoot}) = 1$: 100% of web-footed birds can swim
+- $P(\text{webfoot} \ |  \ \text{swim}) = 1$: 100% of swimming birds are web-footed ones
 
 
 ## Confidence and Support
@@ -43,7 +44,8 @@ Search space - [Lattice](Lattice)
 ### Support
 Support of itemset $X$
 - proportion of transactions in dataset $D$ that contain $X$
-- $\text{supp}(X, D) = \cfrac{ \big|  \{ T \in D \ | \ X \subseteq T \} \big| }{ | D | }$ |- or simpler, $\text{supp}(X, D) = \cfrac{ \text{freq}(X, D) }{ |  D | }$ |
+- $\text{supp}(X, D) = \cfrac{ \big|  \{ T \in D \ | \ X \subseteq T \} \big| }{ | D | }$
+- or simpler, $\text{supp}(X, D) = \cfrac{ \text{freq}(X, D) }{ |  D | }$
 Support of an association rule $X \to Y$ 
 - $\text{supp}(X \to Y, D) = \text{supp}(X \cup Y, D)$
 
@@ -121,7 +123,8 @@ Or, formally
 [Association Rule Mining](Association_Rule_Mining):
 - Finding all the rules $X \to Y$ such that
 - $P(X \land Y) \geqslant \text{min_supp}$ and 
-- $P(Y \ |  \ X) \geqslant \text{min_con}$ |- these are ''predictive'' patterns
+- $P(Y \ |  \ X) \geqslant \text{min_con}$
+- these are ''predictive'' patterns
 
 Or, formally
 - find $\{ X \to Y \ : \ \text{supp}(X  \to Y, D) \geqslant \text{min_supp} \land \text{conf}(X \to Y, D) \geqslant \text{min_conf} \}$

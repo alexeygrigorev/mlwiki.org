@@ -10,7 +10,8 @@ title: Association Rule Mining
 Association rule mining:
 - Finding all the rules $X \to Y$ such that
 - $P(X \land Y) \geqslant \text{min_supp}$ and 
-- $P(Y |  X) \geqslant \text{min_con}$ |- these are ''predictive'' patterns
+- $P(Y |  X) \geqslant \text{min_con}$
+- these are ''predictive'' patterns
 
 E.g.
 - $\text{wings} \to \text{beak}$

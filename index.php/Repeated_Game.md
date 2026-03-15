@@ -63,7 +63,9 @@ title: Repeated Game
 ### Equilibrium of Inf. Repeated Games
 - pure strategy
   - action on every stage
-  - given you remember anything|   |  - history, etc |  - so it's an infinite set
+  - given you remember anything
+- history, etc
+- so it's an infinite set
   - example strategies for Prisoner's Dilemma
     - Tit-for-tat
       - start out cooperating

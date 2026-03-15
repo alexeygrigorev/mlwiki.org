@@ -53,7 +53,8 @@ Properties:
 - indifference is ''symmetric''
   - $x \ I \ y \iff y \ I \ x$
 - indifference is not always transitive
-  - cups of coffee|   |  - but in some cases is: for instance, in the [Arrow's Impossibility Theorem](Arrow's_Impossibility_Theorem) it's considered transitive |
+  - cups of coffee
+- but in some cases is: for instance, in the [Arrow's Impossibility Theorem](Arrow's_Impossibility_Theorem) it's considered transitive
 
 Notation
 - $I_i$ is an individual indifference of voter $i$
@@ -71,7 +72,9 @@ $\geqslant$ or $S$ - means "at least as good as" - indifferent or better, someti
 Properties
 - for any pair $(x, y), x,y \in A, x \ne y$ 
   - $x \ S \ y \iff [x \ P \ y] \lor [x \ I \ y]  \lor [y \ I \ x]$
-  - $x \ S \ y \not \Rightarrow y \ P \ x$|  !! |- ''completeness'' |  - $\forall x, y \in A:$ either  $x \ S \ y$ or $y \ S \ x$
+  - $x \ S \ y \not \Rightarrow y \ P \ x$|  !!
+- ''completeness''
+- $\forall x, y \in A:$ either  $x \ S \ y$ or $y \ S \ x$
 - ''transitivity''  (or ''consistency'')
   - $\forall x, y, z \in A: x \ S y \land y \ S \ z \Rightarrow x \ S \ z$
 

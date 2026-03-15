@@ -36,7 +36,8 @@ The probability of observing this value is
   - $P\left(t_{59} \geqslant \cfrac{7.177}{\sqrt{2.948^2 / 60}}\right) \approx$
   - $P(t_{59} \geqslant 18.86) \approx 1 / 10^{26}$
 
-Extremely small|   So we reject $H_0$ and conclude that $\mu > 0$ | |
+Extremely small|   So we reject $H_0$ and conclude that $\mu > 0$ 
+
 
 ### Example 2
 - Sample $n = 400, \bar{X} = -14.15, s = 14.13$
@@ -47,11 +48,15 @@ We know that
 
 
 $p$-value:
-- $P( |  \bar{X} - \mu | \geqslant | -14.15 - 0 |) = $ |  - $P\left( \left|  \cfrac{\bar{X} - \mu}{\sqrt{s^2 / n}} \right| \geqslant \cfrac{14.15}{\sqrt{14.13^2 / 400}}\right) \approx $ |  - $P( |  t_{399} | \geqslant 20.03 ) =$ |  - $2 \cdot P( t_{399} \leqslant -20.03) \approx$
+- $P( |  \bar{X} - \mu | \geqslant | -14.15 - 0 |) = $
+- $P\left( \left|  \cfrac{\bar{X} - \mu}{\sqrt{s^2 / n}} \right| \geqslant \cfrac{14.15}{\sqrt{14.13^2 / 400}}\right) \approx $
+- $P( |  t_{399} | \geqslant 20.03 ) =$
+- $2 \cdot P( t_{399} \leqslant -20.03) \approx$
   - $1 / 3.5 \cdot 10^{64}$
 
 
-Extremely small|   Reject the $H_0$ and conclude that $\mu \neq 0$ | |
+Extremely small|   Reject the $H_0$ and conclude that $\mu \neq 0$ 
+
 ### R code
 Our test statistic is $T = \cfrac{\bar{X} - \mu}{\sqrt{s^2 / n}}$.
 

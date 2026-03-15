@@ -270,7 +270,10 @@ Modification:
 - There is one missing value for $X$:  $(?, 90, \text{Yes}, +)$
 - let $I$ be the misclassification error
 - $I(S - S_0) = 5/13$ (5 in "-", 8 in "+")
-- $I(S - S_0 |  X = a) = 2/5$ |- $I(S - S_0 |  X = b) = 0$ |- $I(S - S_0 |  X = c) = 2/5$ |- calculate IG $\cfrac- $\Delta I = \cfrac{13}{14} \cdot (\cfrac{5}{13} - \cfrac{5}{13} \cdot \cfrac{2}{5} - \cfrac{3}{13} \cdot 0 - \cfrac{5}{13} \cdot \cfrac{2}{5}) = \cfrac{1}{14}$
+- $I(S - S_0 |  X = a) = 2/5$
+- $I(S - S_0 |  X = b) = 0$
+- $I(S - S_0 |  X = c) = 2/5$
+- calculate IG $\cfrac- $\Delta I = \cfrac{13}{14} \cdot (\cfrac{5}{13} - \cfrac{5}{13} \cdot \cfrac{2}{5} - \cfrac{3}{13} \cdot 0 - \cfrac{5}{13} \cdot \cfrac{2}{5}) = \cfrac{1}{14}$
 
 </td>
 </tr>
@@ -296,17 +299,22 @@ Distribute the values to subsets
 
 #### Classification with Modification
 Classification:
-- let $P(C |  E,T)$ be the probability of classifying case $E$ to class $C$ using tree $T$ |- define it recursively:
+- let $P(C |  E,T)$ be the probability of classifying case $E$ to class $C$ using tree $T$
+- define it recursively:
 - if $t = \text{root}(T)$ is a leaf (i.e. it's a singleton tree)
-  - then P(C |  E,T) is the relative frequency of training cases in class $C$ that reach $T$  |- if $t = \text{root}(T)$ is not a leaf and $t$ is partitioned using attribute $X$
+  - then P(C |  E,T) is the relative frequency of training cases in class $C$ that reach $T$
+- if $t = \text{root}(T)$ is not a leaf and $t$ is partitioned using attribute $X$
   - if $E.X = x_k$
-    - then $P(C |  E,T) = P(C | E,T_k)$ where $T_k$ is a subtree of $T$ where $X = x_k$ |  - if $E.X$ is unknown,
-    - then $P(C| E,T) = \sum_{k=1}^{K} \cfrac    - so we sum up probabilities of belonging to class $C$ from each child of $t$ |- predict that a record belongs to class $C$ by selecting the highest probability $P(C| E,T)$ |
+    - then $P(C |  E,T) = P(C | E,T_k)$ where $T_k$ is a subtree of $T$ where $X = x_k$
+- if $E.X$ is unknown,
+    - then $P(C| E,T) = \sum_{k=1}^{K} \cfrac    - so we sum up probabilities of belonging to class $C$ from each child of $t$ |- predict that a record belongs to class $C$ by selecting the highest probability $P(C| E,T)$
 
 #### Example
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/kddm/decision-tree-class-with-nas.png" alt="Image">
 - assume that $X$ is unknown - how to classify the case? 
-- $P(+ | E,T) = \sum_{k=1}^{K} P(+ | E,T_k) = \cfrac{20}{50} \cdot \cfrac{15}{20} + \cfrac{30}{50} \cdot \cfrac{5}{30} = \cfrac{20}{50}$ |- $P(- | E,T) = \sum_{k=1}^{K} P(- | E,T_k) = \cfrac{20}{50} \cdot \cfrac{5}{20} + \cfrac{30}{50} \cdot \cfrac{25}{30} = \cfrac{30}{50}$ |- $P(- | E,T) > P(+ |E,T) \Rightarrow$ predict "$-$" |
+- $P(+ | E,T) = \sum_{k=1}^{K} P(+ | E,T_k) = \cfrac{20}{50} \cdot \cfrac{15}{20} + \cfrac{30}{50} \cdot \cfrac{5}{30} = \cfrac{20}{50}$
+- $P(- | E,T) = \sum_{k=1}^{K} P(- | E,T_k) = \cfrac{20}{50} \cdot \cfrac{5}{20} + \cfrac{30}{50} \cdot \cfrac{25}{30} = \cfrac{30}{50}$
+- $P(- | E,T) > P(+ |E,T) \Rightarrow$ predict "$-$"
 
 
 

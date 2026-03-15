@@ -3,44 +3,43 @@ layout: default
 permalink: /index.php/Law_of_Total_Probability
 tags:
 - probability
-- russian
-- подготовка-к-шад
 title: Law of Total Probability
 ---
 ## Law of Total Probability
 
-Пусть $A$ может наступить при условии появления одного из событий $B_1, B_2, ..., B_n$, образующих полную группу событий. Пусть известны вероятности этих событий $P(B_1), P(B_2), ..., P(B_n)$ а так же условные вероятности $P(A| B_1), P(A|B_2), ..., P(A|B_n)$ наступления события $A$ после каждого из $B_1, ..., B_n$.  |
+Suppose event $A$ can occur given the occurrence of one of the events $B_1, B_2, ..., B_n$, which form a complete group of events. Suppose the probabilities of these events $P(B_1), P(B_2), ..., P(B_n)$ are known, as well as the conditional probabilities $P(A| B_1), P(A|B_2), ..., P(A|B_n)$ of event $A$ given each of $B_1, ..., B_n$.
 
-'''Теорема.''' Probability события $A$, которое может произойти лишь при появлении одного из несовместных событий $B_1, B_2, ..., B_n$, образующих полную группу, есть
+**Theorem.** The probability of event $A$, which can occur only given the occurrence of one of the mutually exclusive events $B_1, B_2, ..., B_n$ forming a complete group, is
 
-$P(A) = P(B_1) P(A| B_1) + P(B_2) P(A|B_2) + ... + P(B_n) P(A|B_n)$ |
+$P(A) = P(B_1) P(A| B_1) + P(B_2) P(A|B_2) + ... + P(B_n) P(A|B_n)$
 
-Эту формулу называют ''формулой полной вероятности'' (следует из [определения условной вероятности](Условная_вероятность)).
+This formula is called the *law of total probability* (it follows from the [definition of conditional probability](Conditional_Probability)).
 
 
-### Доказательство
-Т.к. $B_1, B_2, ..., B_n$ несовместные, то появление $A$ означает появление одного из $B_1 A, B_2 A ..., B_n A$. 
+### Proof
+Since $B_1, B_2, ..., B_n$ are mutually exclusive, the occurrence of $A$ means the occurrence of one of $B_1 A, B_2 A, ..., B_n A$.
 
-По теореме сложения получим 
+By the addition theorem we get
 : $P(A) = P(B_1 A) + P(B_2 A) + ... + P(B_n A)$
 
-И, применяя теорему умножения к каждому из членов суммы, получим
-: $P(A) = P(B_1) P(A| B_1) + P(B_2) P(A|B_2) + ... + P(B_n) P(A|B_n)$. |
+And, applying the multiplication theorem to each term of the sum, we get
+: $P(A) = P(B_1) P(A| B_1) + P(B_2) P(A|B_2) + ... + P(B_n) P(A|B_n)$.
 
-### Пример
-В магазин поступают продукты с трех предприятий в соотношении 20%, 30%, 50%. С первого предприятия приходит 10% продуктов высшего сорта, со второго - 5%, с третьего - 20%. Какая вероятность того, что случайно купленный продукт высшего сорта?
+### Example
+A store receives products from three factories in proportions of 20%, 30%, and 50%. The first factory produces 10% premium-grade products, the second -- 5%, and the third -- 20%. What is the probability that a randomly purchased product is premium grade?
 
-- Пусть событие $B_i$ - покупка продукта с предприятия $i$. 
-- Тогда $P(B_1) = 0.2$, $P(B_2) = 0.3$ и $P(B_3) = 0.5$. 
-- $A$ - покупка продукта высшего сорта. 
-- Тогда $P(A| B_1) = 0.1$, $P(A|B_2) = 0.05$ и $P(A|B_3) = 0.2$.  |- По формуле полной вероятности получаем
-: $P(A) = \sum_{i = 1}^{3} P(B_i) P(A| B_i) = 0.135$ |
+- Let event $B_i$ be the purchase of a product from factory $i$.
+- Then $P(B_1) = 0.2$, $P(B_2) = 0.3$, and $P(B_3) = 0.5$.
+- $A$ is the purchase of a premium-grade product.
+- Then $P(A| B_1) = 0.1$, $P(A|B_2) = 0.05$, and $P(A|B_3) = 0.2$.
+- By the law of total probability we get
+: $P(A) = \sum_{i = 1}^{3} P(B_i) P(A| B_i) = 0.135$
 
 ## See also
 - [Conditional Probability](Conditional_Probability)
 - [Bayes Rule](Bayes_Rule)
 
 
-## Источники и ссылки
-- Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-- [Конспект по теории вероятности и математической статистике](http://www.dropbox.com/s/j9yxtvkd0ns5eot/Probability_and_Statistics_exams_c.pdf#13)
+## Sources
+- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vysshaya Shkola, 2003.
+- [Lecture notes on Probability Theory and Mathematical Statistics](http://www.dropbox.com/s/j9yxtvkd0ns5eot/Probability_and_Statistics_exams_c.pdf#13)

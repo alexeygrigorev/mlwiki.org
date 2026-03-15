@@ -134,7 +134,9 @@ For log $L = [abcd, acbd, acd]$ we have:
 
 Note:
 - we see that firing $a$ can bring us to 3 different states 
-- not deterministic|   |- you'll never see such thing in a [Reachability Graph](Reachability_Graph) of a [Petri Net](Petri_Nets) |- most likely wrong abstraction
+- not deterministic
+- you'll never see such thing in a [Reachability Graph](Reachability_Graph) of a [Petri Net](Petri_Nets)
+- most likely wrong abstraction
 
 
 ### Examples

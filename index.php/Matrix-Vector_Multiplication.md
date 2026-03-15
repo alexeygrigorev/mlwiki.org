@@ -40,13 +40,15 @@ And then multiply (using [Dot Product](Dot_Product)) each row $(\mathbf a_i)^T$ 
 Another way to see $A$ is as $n$ vectors along columns:
 
 $A = \begin{bmatrix}
-\mathop{a_1}\limits_| ^| \ \mathop{a_2}\limits_|^| \ \cdots \  \mathop{a_n}\limits_|^|  |\end{bmatrix}$
+\mathop{a_1}\limits_| ^| \ \mathop{a_2}\limits_|^| \ \cdots \  \mathop{a_n}\limits_|^
+\end{bmatrix}$
 
 When we multiply $A$ on a vector $\mathbf b$, it produces a [Linear Combination](Linear_Combination) of these column vectors: 
 
 $A \mathbf b = \begin{bmatrix}
-\mathop{a_1}\limits_| ^| \ \mathop{a_2}\limits_|^| \ \cdots \ \mathop{a_n}\limits_|^|  |\end{bmatrix} \mathbf b = 
-  b_1 \begin{bmatrix} \mathop{a_1}\limits_| ^| \end{bmatrix}  |+ b_2 \begin{bmatrix} \mathop{a_2}\limits_| ^| \end{bmatrix} + \cdots	 |+ \ b_n \begin{bmatrix} \mathop{a_n}\limits_| ^| \end{bmatrix}$ |
+\mathop{a_1}\limits_| ^| \ \mathop{a_2}\limits_|^| \ \cdots \ \mathop{a_n}\limits_|^
+\end{bmatrix} \mathbf b = 
+  b_1 \begin{bmatrix} \mathop{a_1}\limits_| ^| \end{bmatrix}  |+ b_2 \begin{bmatrix} \mathop{a_2}\limits_| ^| \end{bmatrix} + \cdots	 |+ \ b_n \begin{bmatrix} \mathop{a_n}\limits_| ^| \end{bmatrix}$
 
 ### Example
 $\begin{bmatrix}

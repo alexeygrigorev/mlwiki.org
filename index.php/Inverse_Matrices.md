@@ -68,7 +68,8 @@ x_{21} \\
 x_{12} \\ 
 x_{22} \\
 \end{bmatrix}$
-- but we can also put all such vectors $\mathbf x_i$ and $\mathbf e_i$ at the same time|   |  - $\left[ \begin{array}{cc|cc} |a_{11} & a_{12} & 1 & 0 \\ 
+- but we can also put all such vectors $\mathbf x_i$ and $\mathbf e_i$ at the same time
+- $\left[ \begin{array}{cc|cc} |a_{11} & a_{12} & 1 & 0 \\ 
 a_{21} & a_{22} & 0 & 1 \\
 \end{array} \right]$
 
@@ -78,16 +79,18 @@ Gaussian Elimination:
 a_{21} & a_{22} & 0 & 1 \\
 \end{array} \right]$
 - we come from $A$ to $I$  while applying the same actions to the augmented part $I$.
-- at the end we should get $\Big[ \ A \; \Big|  \; I \ \Big] \to \Big[ \ I \; \Big| \; A^{-1} \ \Big]$ |
+- at the end we should get $\Big[ \ A \; \Big|  \; I \ \Big] \to \Big[ \ I \; \Big| \; A^{-1} \ \Big]$
 
 Why does it work? 
 - suppose you did your elimination on $A$ alone, so you obtained $EA = I$ (assume no row exchanges)
-- let's apply $E$ to augmented $\Big[ \ A \; \Big|  \; I \ \Big]$.  |- $E \times \Big[ \ A \; \Big|  \; I \ \Big] = \Big[ \ EA \; \Big| \; EI \ \Big] = \Big[ \ I \; \Big| \; E \ \Big]$ |- what is $E$? Since $EA = I$ we know that it can be only when $E = A^{-1}$
-- so we finally have $\Big[ \ I \; \Big|  \; A^{-1} \ \Big]$ |
+- let's apply $E$ to augmented $\Big[ \ A \; \Big|  \; I \ \Big]$.
+- $E \times \Big[ \ A \; \Big|  \; I \ \Big] = \Big[ \ EA \; \Big| \; EI \ \Big] = \Big[ \ I \; \Big| \; E \ \Big]$
+- what is $E$? Since $EA = I$ we know that it can be only when $E = A^{-1}$
+- so we finally have $\Big[ \ I \; \Big|  \; A^{-1} \ \Big]$
 
 ### [Cramer's Rule](Cramer's_Rule)
 - We can compute the inverse of $A$ using the following formula:
-- $A^{-1} = \cfrac{1}- where $| A|$ is the [Determinant](Determinant) of $A$ and $C^T$ is the [Cofactors](Cofactors) matrix |
+- $A^{-1} = \cfrac{1}- where $| A|$ is the [Determinant](Determinant) of $A$ and $C^T$ is the [Cofactors](Cofactors) matrix
 
 
 ## Properties

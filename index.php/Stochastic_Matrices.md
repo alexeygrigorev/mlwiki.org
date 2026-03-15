@@ -18,7 +18,7 @@ A stochastic matrix is a matrix $A$ which
 ## Properties
 - for any $k$, $A^k$ is also stochastic 
 - its largest [eigenvalue](Eigenvalues_and_Eigenvectors) is $\lambda_1 = 1$
-- all other eigenvalues are $|  \lambda_i | \leqslant 1$, and usually it's strictly less |
+- all other eigenvalues are $|  \lambda_i | \leqslant 1$, and usually it's strictly less
 ### $\lambda_1 = 1$
 Let take any stochastic $A$ 
 - suppose $\lambda = 1$ is an eigenvalue

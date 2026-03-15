@@ -3,52 +3,54 @@ layout: default
 permalink: /index.php/Bayes_Theorem
 tags:
 - probability
-- russian
-- подготовка-к-шад
 title: Bayes Theorem
 ---
 ## Bayes Theorem
 
-Пусть $H = \{H_1, H_2, ..., H_n\}$ образуют полную группу событий и $A$ может выполняться только при выполнении одного из $\{ H_i \}$.
+Let $H = \{H_1, H_2, ..., H_n\}$ form a complete group of events and $A$ can only occur when one of the $\{ H_i \}$ occurs.
 
-Назовём события $H_1, H_2, ..., H_n$ ''гипотезами'', поскольку заранее не известно, какое из них наступит.
+We call events $H_1, H_2, ..., H_n$ ''hypotheses'', since it is not known in advance which one will occur.
 
-''Bayes Theorem'' позволяет переоценить вероятность гипотез после того, как становится известным результат испытания, после которого появилось $A$.
+''Bayes Theorem'' allows us to re-evaluate the probabilities of the hypotheses after the result of a trial becomes known, following which $A$ has occurred.
 
-$P(H_i |  A) = \frac{P(H_i) P(A | H_i)}{P(H_1) P(A|H_1) + P(H_2) P(A|H_2) + ... + P(H_n) P(A|H_n)}$ |
+$P(H_i |  A) = \frac{P(H_i) P(A | H_i)}{P(H_1) P(A|H_1) + P(H_2) P(A|H_2) + ... + P(H_n) P(A|H_n)}$
 
-$P(H_i)$ называется ''априорной вероятностью'', $P(H_i| A)$ - ''апостериорной''. |
-### Вывод формулы
-- Допустим, что произведено испытание, в результате которого появилось событие $A$. 
-- Найдем условные вероятности $P(H_1| A), P(H_2|A), ..., P(H_n|A)$  |: Т.е. вероятности гипотез, при условии, что событие $A$ уже наступило. 
+$P(H_i)$ is called the ''prior probability'', $P(H_i| A)$ is the ''posterior probability''.
+### Derivation
+- Suppose a trial has been conducted, as a result of which event $A$ has occurred.
+- Let us find the conditional probabilities $P(H_1| A), P(H_2|A), ..., P(H_n|A)$  |: That is, the probabilities of the hypotheses, given that event $A$ has already occurred.
 
-- Для $P(H_1| A) $по теореме умножения имеем  |: $P(A H_1) = P(A) P(H_1 A) = P(H_1) P(A |  H_1)$ |: Т.е. $P(H_1 |  A) = \frac{P(H_1) P(A | H_1)}{P(A)}$ |- Если заменить все $P(A)$ на формулу полной вероятности, то получим 
-: $P(H_1 |  A) = \frac{P(H_1) P(A | H_1)}{P(H_1) P(A|H_1) + P(H_2) P(A|H_2) + ... + P(H_n) P(A|H_n)}$ |- Аналогично и для других гипотез. Т.е. 
-: $P(H_i |  A) = \frac{P(H_i) P(A | H_i)}{P(H_1) P(A|H_1) + P(H_2) P(A|H_2) + ... + P(H_n) P(A|H_n)}$ |
+- For $P(H_1| A) $ by the multiplication theorem we have  |: $P(A H_1) = P(A) P(H_1 A) = P(H_1) P(A |  H_1)$ |: That is, $P(H_1 |  A) = \frac{P(H_1) P(A | H_1)}{P(A)}$
+- If we replace all $P(A)$ with the total probability formula, we get
+: $P(H_1 |  A) = \frac{P(H_1) P(A | H_1)}{P(H_1) P(A|H_1) + P(H_2) P(A|H_2) + ... + P(H_n) P(A|H_n)}$
+- Similarly for the other hypotheses. That is,
+: $P(H_i |  A) = \frac{P(H_i) P(A | H_i)}{P(H_1) P(A|H_1) + P(H_2) P(A|H_2) + ... + P(H_n) P(A|H_n)}$
 
-### Пример 1
-Каждый из трех стрелков может сделать два выстрела. Probability попаданий: $P(A_1) = 0.3$, $P(A_2) = 0.5$ и $P(A_3) = 0.8$. Один из стрелков выстрелил два раза и ни разу не попал. Какая вероятность, что стрелком был первый?
+### Example 1
+Each of three shooters can fire two shots. The hit probabilities are: $P(A_1) = 0.3$, $P(A_2) = 0.5$ and $P(A_3) = 0.8$. One of the shooters fired twice and missed both times. What is the probability that it was the first shooter?
 
-- Пусть гипотеза $H_1$ - стрелял первый, $H_2$ - стрелял второй и $H_3$ - стрелял третий. 
-- $P(H_1) = P(H_2) = P(H_3) = \frac{1}{3}$. 
-- $D$ - стрелок промахивается два раза.
-- $P(D| H_1) = 0.7 * 0.7 = 0.49$ |- $P(D| H_2) = 0.25$ |- $P(D| H_3) = 0.04$ |
-Тогда по формуле Байеса
-- $P(H_1| D) = 0.628$ |
-### Пример 2
-В первом ящике лежит 2 золотых монеты, во втором одна золотая, одна серебряная, а в третьем - две серебряных. Случайным образом выбирается монета, которая оказывается золотой. Какая вероятность того, что вторая монета в том же ящике тоже золотая?
+- Let hypothesis $H_1$ be that the first shooter fired, $H_2$ that the second fired, and $H_3$ that the third fired.
+- $P(H_1) = P(H_2) = P(H_3) = \frac{1}{3}$.
+- $D$ - the shooter misses twice.
+- $P(D| H_1) = 0.7 * 0.7 = 0.49$
+- $P(D| H_2) = 0.25$
+- $P(D| H_3) = 0.04$
+Then by Bayes' formula
+- $P(H_1| D) = 0.628$
+### Example 2
+In the first box there are 2 gold coins, in the second one gold and one silver, and in the third two silver coins. A coin is randomly selected and turns out to be gold. What is the probability that the second coin in the same box is also gold?
 
-Золотой вторая монета может быть только в первом ящике, поэтому нужно найти вероятность того, что монета извлечена из первого ящика.
+The second coin can only be gold in the first box, so we need to find the probability that the coin was drawn from the first box.
 
-Пусть $H_1$ - монета извлечена из первого ящика, $H_2$ - из второго и $H_3$ - из третьего. Очевидно, что $P(H_1) = P(H_2) = P(H_3) = \fraq{1}{3}$.
+Let $H_1$ be the hypothesis that the coin was drawn from the first box, $H_2$ from the second, and $H_3$ from the third. Obviously, $P(H_1) = P(H_2) = P(H_3) = \fraq{1}{3}$.
 
-$D$ - вытащенная монета является золотой. Тогда $P(D| H_1) = 1$, $P(D|H_2) = 0.5$ и $P(D|H_3) = 0$.  |
-Вычислим $P(H_1| D)$ по формуле $P(H_1|D) = \frac{ P(H_1) P(A|H_1) }{ \sum_{i=1}^{3} P(H_i) P(D|H_i) }$ |
+$D$ - the drawn coin is gold. Then $P(D| H_1) = 1$, $P(D|H_2) = 0.5$ and $P(D|H_3) = 0$.
+We compute $P(H_1| D)$ using the formula $P(H_1|D) = \frac{ P(H_1) P(A|H_1) }{ \sum_{i=1}^{3} P(H_i) P(D|H_i) }$
 
 ## See also
 - [Conditional Probability](Conditional_Probability)
 - [Law of Total Probability](Law_of_Total_Probability)
 
-## Источники и ссылки
-- Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-- [Конспект по теории вероятности и математической статистике](http://www.dropbox.com/s/j9yxtvkd0ns5eot/Probability_and_Statistics_exams_c.pdf#13)
+## Sources
+- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vyssh. shk., 2003.
+- [Lecture notes on probability theory and mathematical statistics](http://www.dropbox.com/s/j9yxtvkd0ns5eot/Probability_and_Statistics_exams_c.pdf#13)

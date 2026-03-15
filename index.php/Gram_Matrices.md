@@ -47,7 +47,8 @@ $\mathbf x \in N(A^T A) \Rightarrow \mathbf x \in N(A)$ case
 - multiply by $\mathbf x^T$ instead:
 - $\mathbf x^T A^T A \mathbf x = \mathbf x^T \mathbf 0 = 0$
 - $(A \mathbf x)^T A \mathbf x = 0$
-- $\|  A \mathbf x \|^2 = 0$ |- so the length of vector $A \mathbf x$ is 0 - it's true only when $A \mathbf x = \mathbf 0$
+- $\|  A \mathbf x \|^2 = 0$
+- so the length of vector $A \mathbf x$ is 0 - it's true only when $A \mathbf x = \mathbf 0$
 
 
 So $N(A) = N(A^T A)$
@@ -88,19 +89,23 @@ Theorem: $A^T A$ is invertible if and only if $A$ has linearly independent colum
 Check: Let $R$ be an $n \times m$ matrix
 - let $A = R^T R$, it's square and symmetric
 - $A$ is PDM:
-- $\mathbf v^T A \mathbf v = \mathbf v^T R^T R \, \mathbf v = (R \, \mathbf v)^T R \, \mathbf v = \|  R \, \mathbf v \|^2 > 0$  |- if $\mathbf v \ne \mathbf 0$ - and it's the case when columns of $R$ are linearly independent 
+- $\mathbf v^T A \mathbf v = \mathbf v^T R^T R \, \mathbf v = (R \, \mathbf v)^T R \, \mathbf v = \|  R \, \mathbf v \|^2 > 0$
+- if $\mathbf v \ne \mathbf 0$ - and it's the case when columns of $R$ are linearly independent 
 - see the theorem in [Projection onto Subspaces](Projection_onto_Subspaces#Theorem__.24A.5ET_A.24_is_Invertible)
 - If some columns of $R$ are linearly dependent, then still $R^T R$ is semi-positive, with some eigenvalues equal to 0
 
 
 Let's check $R R^T$:
-- $\mathbf v^T R R^T \mathbf v = \|  R^T \mathbf v \|^2$ |- it's always non negative
+- $\mathbf v^T R R^T \mathbf v = \|  R^T \mathbf v \|^2$
+- it's always non negative
 
 
 Also can see that both $R^T R$ and $R R^T$ have non-negative eigenvalues:
 - let $\mathbf v$ be eigenvector of $R^T R$ with eigenvalue $\lambda$
-- then $\|  R \mathbf v \|^2 = (R \mathbf v)^2 R \mathbf v = \mathbf v^T \underbrace{R^T R \mathbf v}_{\lambda \mathbf v} = \lambda \mathbf v^T \mathbf v = \lambda \| \mathbf v \|^2$ |- so $\|  R \mathbf v \|^2 = \lambda \| \mathbf v \|^2$. Lengths are always positive, so $\lambda$ must be non-negative |- can see the same for $RR^T$: if $\mathbf u$ is its eigenvector and $\lambda$ is eigenvalue, then
-- $\|  R^T \mathbf u \|^2 = \lambda \| \mathbf u \|^2$ |
+- then $\|  R \mathbf v \|^2 = (R \mathbf v)^2 R \mathbf v = \mathbf v^T \underbrace{R^T R \mathbf v}_{\lambda \mathbf v} = \lambda \mathbf v^T \mathbf v = \lambda \| \mathbf v \|^2$
+- so $\|  R \mathbf v \|^2 = \lambda \| \mathbf v \|^2$. Lengths are always positive, so $\lambda$ must be non-negative
+- can see the same for $RR^T$: if $\mathbf u$ is its eigenvector and $\lambda$ is eigenvalue, then
+- $\|  R^T \mathbf u \|^2 = \lambda \| \mathbf u \|^2$
 
 
 ## Sources

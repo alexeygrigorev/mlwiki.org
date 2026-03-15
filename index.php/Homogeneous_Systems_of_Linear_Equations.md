@@ -37,7 +37,8 @@ Let's do it:
 0 & 0 & 2 & 4 \\
 0 & 0 & 2 & 4 \\
 \end{bmatrix}$
-- we have 0's in the second column, but in the next column there's a non-zero value - can take it as a pivot|   |- $\begin{bmatrix} |\boxed 1 & 2 & 2 & 2 \\ 
+- we have 0's in the second column, but in the next column there's a non-zero value - can take it as a pivot
+- $\begin{bmatrix} |\boxed 1 & 2 & 2 & 2 \\ 
 0 & 0 & \boxed 2 & 4 \\
 0 & 0 & 2 & 4 \\
 \end{bmatrix} \to
@@ -131,7 +132,8 @@ So now if we take a look at our new system, we have
 x_1 + 2 x_2 - 2 x_4 & = 0 \\
 x_3 + 2 x_4 & = 0 \\
 \end{array}\right.$
-- $A \mathbf x = \mathbf 0$, $U \mathbf x = \mathbf 0$ and $R \mathbf x = \mathbf 0$ - all have the same solutions $\mathbf x$|   | |
+- $A \mathbf x = \mathbf 0$, $U \mathbf x = \mathbf 0$ and $R \mathbf x = \mathbf 0$ - all have the same solutions $\mathbf x$
+ |
 Let's rearrange columns in $R$ so first we have the pivot columns, and then the free columns
 - $\begin{bmatrix}
 1 & 0 & 2 & -2 \\ 
@@ -140,7 +142,9 @@ Let's rearrange columns in $R$ so first we have the pivot columns, and then the 
 \end{bmatrix}$
 - now can distinguish the $I$ part (identity) and the $F$ part (free)
 - <img src="http://habrastorage.org/files/13b/2e5/439/13b2e543918546ee99bb2ee4de2b5c9a.png" alt="Image">
-- these $I$ and $F$ appear in the "special" solutions of the $U \mathbf x = \mathbf 0$|    |- only $F$ comes with the minus sign: |- <img src="http://habrastorage.org/files/e62/6bf/0a7/e626bf0a7f1946e2a60df299631aee40.png" alt="Image">
+- these $I$ and $F$ appear in the "special" solutions of the $U \mathbf x = \mathbf 0$
+- only $F$ comes with the minus sign:
+- <img src="http://habrastorage.org/files/e62/6bf/0a7/e626bf0a7f1946e2a60df299631aee40.png" alt="Image">
 
 
 Why does it happen?

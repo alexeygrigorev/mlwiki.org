@@ -19,7 +19,8 @@ title: Hadoop Pseudo Distributed Mode
 
 You need to export the following env variables:
 
- #|  /bin/bash |  | export HADOOP_HOME=~/soft/hadoop-2.6.0
+ #|  /bin/bash 
+ export HADOOP_HOME=~/soft/hadoop-2.6.0
  export HADOOP_BIN=$HADOOP_HOME/bin
  
  export HADOOP_CONF_DIR=~/conf/hadoop-cluster

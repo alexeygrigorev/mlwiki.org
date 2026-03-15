@@ -24,7 +24,8 @@ Let $A$ be an $m \times n$ matrix
 
 
 to do this, we want to find matrices $U$ and $V$ s.t. 
-- $J = \cfrac{1}{2} \|  A - U V^T \|_F$ where the norm is the [Frobenius Norm](Frobenius_Norm) |- $U$ is $m \times k$ matrix
+- $J = \cfrac{1}{2} \|  A - U V^T \|_F$ where the norm is the [Frobenius Norm](Frobenius_Norm)
+- $U$ is $m \times k$ matrix
 - $V$ is $n \times k$ matrix 
 - columns of $V$ are the basis 
 
@@ -34,7 +35,8 @@ to do this, we want to find matrices $U$ and $V$ s.t.
 
 
 This can be solved analytically
-- for any matrix $Q$, $\|  Q \|_F = \text{tr}(QQ^T)$, where $\text{tr}(QQ^T)$ is the [Trace](Trace_(Matrix)) of $QQ^T$ (see properties of [Frobenius Norm](Frobenius_Norm)) |- so $J = 0.5 \text{tr}\Big( (A - UV^T)^T \, (A - UV^T) \Big) = \text{tr}\Big( AA^T - 2 A U V^T + U V^T V U^T \Big) = \frac{1}{2} \, \text{tr} (AA^T) - \text{tr}(A U V^T) + 0.5 \text{tr}(U V^T V U^T)$
+- for any matrix $Q$, $\|  Q \|_F = \text{tr}(QQ^T)$, where $\text{tr}(QQ^T)$ is the [Trace](Trace_(Matrix)) of $QQ^T$ (see properties of [Frobenius Norm](Frobenius_Norm))
+- so $J = 0.5 \text{tr}\Big( (A - UV^T)^T \, (A - UV^T) \Big) = \text{tr}\Big( AA^T - 2 A U V^T + U V^T V U^T \Big) = \frac{1}{2} \, \text{tr} (AA^T) - \text{tr}(A U V^T) + 0.5 \text{tr}(U V^T V U^T)$
 - additionally, we have constraints $u_{ij} \geqslant 0$, $v_{ij} \geqslant 0$: use [Lagrange Multipliers](Lagrange_Multipliers) for this
 - let $\boldsymbol \alpha$ be a matrix of $\alpha_{ij}$ of the same dimension as $U$ and $\boldsymbol \beta$ be a batrix of $\beta_{ij}$ of the same dimension as $V$ 
 - note that $\text{tr}(\boldsymbol \alpha \, U^T) = \sum_{ij} \alpha_{ij} u_{ij}$ and $\text{tr}(\boldsymbol \alpha \, U^T) = \sum_{ij} \alpha_{ij} u_{ij}$ - so we'll use them as lagrangian constraints

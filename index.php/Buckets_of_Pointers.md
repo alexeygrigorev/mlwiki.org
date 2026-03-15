@@ -18,7 +18,8 @@ So now we have
   - should be sequential: i.e. ordered by the key
 1. Actual blocks
 
-Also saves space|   | |Example
+Also saves space
+ |Example
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/secondary-level-of-ind.png" alt="Image">
 - index pointers point to the first occurrence of 10
 - we read buckets down till there's no 10 anymore

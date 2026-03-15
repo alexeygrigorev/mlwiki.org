@@ -121,7 +121,8 @@ Not always we are able to do the forward elimination
 
 
 === Augmented Matrix === 
-But we shouldn't forget about $\mathbf b$|   |- $A$ augmented is $\begin{bmatrix} |\mathop{a_1}\limits_| ^| \mathop{a_2}\limits_|^|  ...  \mathop{a_n}\limits_|^| \ \Bigg| \ \mathop{\mathbf b}\limits_|^|  |\end{bmatrix}$: matrix $A$ with column $\mathbf b$ stacked to the right
+But we shouldn't forget about $\mathbf b$
+- $A$ augmented is $\begin{bmatrix} |\mathop{a_1}\limits_| ^| \mathop{a_2}\limits_|^|  ...  \mathop{a_n}\limits_|^| \ \Bigg| \ \mathop{\mathbf b}\limits_|^|  |\end{bmatrix}$: matrix $A$ with column $\mathbf b$ stacked to the right
 - $A$ augmented: $\left[\begin{array}{ccc| c} |1 & 2 & 1 & 2\\ 
 3 & 8 & 1 & 12\\ 
 0 & 4 & 1 & 2
@@ -221,7 +222,8 @@ We can write these elimination steps in matrix form
 
 
 What if we need to exchange rows? 
-- use a [Permutation Matrix](Permutation_Matrices)|   |- in this case the correct solution is $E (PA) = U$ |
+- use a [Permutation Matrix](Permutation_Matrices)
+- in this case the correct solution is $E (PA) = U$
 
 
 ## See Also

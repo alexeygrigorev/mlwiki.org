@@ -38,7 +38,8 @@ We can look differently at the results of [Eigendecomposition](Eigendecompositio
 \end{bmatrix}$
 - can represent it as $A = Q \Lambda Q^T = \sum \lambda_i \mathbf q_i  \mathbf q_i^T$ - sum of [Outer Product](Outer_Product)s
 - each of these outer products can be seen as a [Projection Matrix](Projection_Matrices)
-- a projection matrix is $P_i = \cfrac{\mathbf q_i \mathbf q_i^T}{\|  \mathbf q_i \|^2} = \mathbf q_i \mathbf q_i^T$ |- so symmetric matrix can be represented as a combination of mutually orthogonal projection matrices
+- a projection matrix is $P_i = \cfrac{\mathbf q_i \mathbf q_i^T}{\|  \mathbf q_i \|^2} = \mathbf q_i \mathbf q_i^T$
+- so symmetric matrix can be represented as a combination of mutually orthogonal projection matrices
 
 
 ## Applications

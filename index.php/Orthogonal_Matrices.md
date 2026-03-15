@@ -22,7 +22,8 @@ What about a matrix form?
 \end{cases}$
 - how do we put it in a matrix form? 
 - Consider a matrix $Q$ whose columns are vectors $\mathbf q_1, \ ... \ , \mathbf q_n$:
-- let $Q = \Bigg[ \mathop{\mathbf q_1}\limits_| ^| \ \mathop{\mathbf q_2}\limits_|^| \ \cdots \  \mathop{\mathbf q_n}\limits_|^| \Bigg]$ |- $Q^T Q = 
+- let $Q = \Bigg[ \mathop{\mathbf q_1}\limits_| ^| \ \mathop{\mathbf q_2}\limits_|^| \ \cdots \  \mathop{\mathbf q_n}\limits_|^| \Bigg]$
+- $Q^T Q = 
 \begin{bmatrix}
 - \ \mathbf q_1^T - \\
 - \ \mathbf q_2^T - \\
@@ -134,7 +135,8 @@ Orthogonal matrices are very nice because it's very easy to invert them
 ## Orthogonalization
 How do we make matrices orthogonal? 
 - [Gram-Schmidt Process](Gram-Schmidt_Process) and [QR Factorization](QR_Factorization)
-- this preserves the column space $C(A)$|    | |Also, 
+- this preserves the column space $C(A)$
+ |Also, 
 - [Eigendecomposition](Eigendecomposition) $A = Q \Lambda Q^T$ decomposes symmetric $A$ onto orthogonal $Q$ and diagonal $\Lambda$
 - [SVD](SVD) $A = U \Sigma V^T$ decomposes $A$ onto orthogonal $U$ and $V$ and diagonal $\Sigma$
 
@@ -151,7 +153,8 @@ If $Q_1$ and $Q_2$ are orthogonal, so is $Q_1 \cdot Q_2$
 
 ### Linear Transformation Properties
 $Q$ preserves the [$L_2$ norm](Euclidean_Distance):
-- $\|  Q \mathbf x \| = \| \mathbf x \|$ |- proof: $\|  Q \mathbf x \|^2 = (Q \mathbf x)^T (Q \mathbf x) = \mathbf x^T Q^T Q \mathbf x = \mathbf x^T \mathbf x = \| \mathbf x \|^2$ |
+- $\|  Q \mathbf x \| = \| \mathbf x \|$
+- proof: $\|  Q \mathbf x \|^2 = (Q \mathbf x)^T (Q \mathbf x) = \mathbf x^T Q^T Q \mathbf x = \mathbf x^T \mathbf x = \| \mathbf x \|^2$
 
 $Q$ preserves the angle between $\mathbf x$ and $\mathbf y$
 - $\langle Q \mathbf x, Q \mathbf y \rangle = \langle \mathbf x, \mathbf y \rangle$

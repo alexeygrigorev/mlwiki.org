@@ -25,14 +25,14 @@ Here: choose $r_1 = R$ and $r_2 = c \cdot R$
 A [Probability Distribution](Probability_Distribution) $D$ over $\mathbb R$ is $p$-stable 
 - if there exists $p \geqslant 0$ s.t. for any $n$ real numbers $v_1, ..., v_n$
 - and iid samples from distribution $D$: $\ X_1, X_2, \ ... \ , X_n \sim D$
-- the [Random Variable](Random_Variable) $\sum v_i \, X_i$ follows the same distribution as $\left( \sum | v_i|^p \right)^{1/p} \cdot X = \| \mathbf v \| \cdot X$ where $X \sim D$ |
+- the [Random Variable](Random_Variable) $\sum v_i \, X_i$ follows the same distribution as $\left( \sum | v_i|^p \right)^{1/p} \cdot X = \| \mathbf v \| \cdot X$ where $X \sim D$
 
 Known $p$-stable Distribution:
 - [Cauchy Distribution](Cauchy_Distribution) for $p = 1$
 - [Gaussian Distribution](Gaussian_Distribution) for $p = 2$ 
 
 In CS $p$-stable distributions are useful for [Sketching](Sketching)
-- can be used to estimate $\|  \mathbf v \|_p$ |
+- can be used to estimate $\|  \mathbf v \|_p$
 
 Papers:
 - Nolan, J. "Stable distributions." 2009. [[http://academic2.american.edu/~jpnolan/stable/chap1.pdf](http://academic2.american.edu/~jpnolan/stable/stable.html])
@@ -41,11 +41,13 @@ Papers:
 
 ## E2 LSH
 A hash function family is ''locality-sensitive'' if 
-- "similar" $\mathbf v_1, \mathbf v_2$ - i.e. have small $\|  \mathbf v_1 - \mathbf v_2 \|_p$  |- they should collide: have same hash value with high probability
+- "similar" $\mathbf v_1, \mathbf v_2$ - i.e. have small $\|  \mathbf v_1 - \mathbf v_2 \|_p$
+- they should collide: have same hash value with high probability
 
 
 Consider $\mathbf a \cdot \mathbf v$ - it's a projection of $\mathbf v$ to a real line 
-- it follows from the $p$-stability that for two $\mathbf v_1, \mathbf v_2$ distance between the projections $\mathbf a \cdot \mathbf v_1 - \mathbf a \cdot \mathbf v_2$ is distributed as $\|  \mathbf v_1 - \mathbf v_2 \|_p \cdot X$  |- so if we chop the real line into equi-width segments of $w$, then the hash functions should be locality-preserving
+- it follows from the $p$-stability that for two $\mathbf v_1, \mathbf v_2$ distance between the projections $\mathbf a \cdot \mathbf v_1 - \mathbf a \cdot \mathbf v_2$ is distributed as $\|  \mathbf v_1 - \mathbf v_2 \|_p \cdot X$
+- so if we chop the real line into equi-width segments of $w$, then the hash functions should be locality-preserving
 
 
 ### Random Projections
@@ -65,11 +67,13 @@ Quantization:
 
 Requirements for the projection operator
 - let $\mathcal H$ be a family of LSH functions
-- for any $\mathbf p, \mathbf q \in \mathbb R^d$ that are close to each other, i.e. for $\| \mathbf p - \mathbf q \| \leqslant R_1$ |- probability that they end up in the same bucket should be high, i.e. $P_{\mathcal H} \Big[ h(\mathbf p) = h(\mathbf q) \Big] \geqslant p_1$ 
-- if $\mathbf p, \mathbf q$ are far apart, i.e. $\| \mathbf p - \mathbf q \| \geqslant R_2$ |- probability that they end up in the same bucket is low, i.e. $P_{\mathcal H} \Big[ h(\mathbf p) = h(\mathbf q) \Big] \leqslant p_2$
+- for any $\mathbf p, \mathbf q \in \mathbb R^d$ that are close to each other, i.e. for $\| \mathbf p - \mathbf q \| \leqslant R_1$
+- probability that they end up in the same bucket should be high, i.e. $P_{\mathcal H} \Big[ h(\mathbf p) = h(\mathbf q) \Big] \geqslant p_1$ 
+- if $\mathbf p, \mathbf q$ are far apart, i.e. $\| \mathbf p - \mathbf q \| \geqslant R_2$
+- probability that they end up in the same bucket is low, i.e. $P_{\mathcal H} \Big[ h(\mathbf p) = h(\mathbf q) \Big] \leqslant p_2$
 
 
-I.e. $\|  h(\mathbf p) - h(\mathbf q) \| \sim \| \mathbf p - \mathbf q \|$ ($\sim$ = "distributed proportionally to") |
+I.e. $\|  h(\mathbf p) - h(\mathbf q) \| \sim \| \mathbf p - \mathbf q \|$ ($\sim$ = "distributed proportionally to")
 
 
 ### $L$ Random Projections
@@ -118,14 +122,17 @@ Accuracy
 A distribution is $p$-stable if 
 - for iid sample $X_1, \ ... \ , X_n \sim D$
 - for any $v_1, \ ... \ , v_n \in \mathbb R$ 
-- $\sum v_i \, X_i$ follows the same distribution as the random variable $\left( \sum_i \| v_i \big \|_p \right)^{1 / p} \cdot X$ |- where $\|  \, \cdot \, \|_p$ is $L_p$ norm |- and $X \sim D$
+- $\sum v_i \, X_i$ follows the same distribution as the random variable $\left( \sum_i \| v_i \big \|_p \right)^{1 / p} \cdot X$
+- where $\|  \, \cdot \, \|_p$ is $L_p$ norm
+- and $X \sim D$
 - [PDF](Probability_Density_Function) of this RV is $f_p$
 
 
 For $p=2$ Gaussian is $p$-stable
 
 What it means:
-- $\mathbf u = \|  \mathbf p - \mathbf q \|$ will always be small if $\mathbf p$ and $\mathbf q$ are close  |- but because of quantization they may end up in different buckets 
+- $\mathbf u = \|  \mathbf p - \mathbf q \|$ will always be small if $\mathbf p$ and $\mathbf q$ are close
+- but because of quantization they may end up in different buckets 
 
 
 Probability of getting to the same bucket: 

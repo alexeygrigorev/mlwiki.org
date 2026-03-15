@@ -29,7 +29,8 @@ Suppose we have two vectors $\mathbf a$ and $\mathbf b$
 - (Triangle method of subtraction)
 
 Can use trigonometry to do it
-- magnitude is $\|  \mathbf e \| = \sqrt{ \| \mathbf p \| ^2 - \| \mathbf b \|^2 - 2 \cdot \| \mathbf p \| \cdot \| \mathbf b \| }$ |- so we want to find such $\mathbf p$ that minimizes the magnitude of $\mathbf e$
+- magnitude is $\|  \mathbf e \| = \sqrt{ \| \mathbf p \| ^2 - \| \mathbf b \|^2 - 2 \cdot \| \mathbf p \| \cdot \| \mathbf b \| }$
+- so we want to find such $\mathbf p$ that minimizes the magnitude of $\mathbf e$
 - it's nasty, we don't want to deal with it
 - alternatively can use Linear Algebra for that 
 
@@ -51,7 +52,8 @@ We want to find this $x$
 - $x = \cfrac{\mathbf a^T \mathbf b}{\mathbf a^T \mathbf a}$ (the $\cos \theta$ is built in, so we don't need to deal with angles)
 
 Projection $\mathbf p$
-- $x = \|  \mathbf p\|$,  $x$ is the distance (magnitude of $\mathbf p$), what's about the vector $\mathbf p$ itself?  |- just multiply $x$ by $\mathbf a$:
+- $x = \|  \mathbf p\|$,  $x$ is the distance (magnitude of $\mathbf p$), what's about the vector $\mathbf p$ itself?
+- just multiply $x$ by $\mathbf a$:
 - $\mathbf p = x \cdot \mathbf a = \mathbf a \cdot \cfrac{\mathbf a^T \mathbf b}{\mathbf a^T \mathbf a}$
 
 
@@ -76,13 +78,16 @@ What if $\mathbf b$ is on the line
 ### Motivation
 Suppose we cannot solve $A \mathbf x = \mathbf b$
 - i.e. $\mathbf b$ is not in $C(A)$
-- but we can try to get as close as possible to $C(A)$ by projecting onto it|   |- how do we do it? $C(A)$ is all the combinations of columns in $A$, so they form a hyperplane |- $\mathbf b$ is not on this hyperplane - otherwise we would not need to project on it
+- but we can try to get as close as possible to $C(A)$ by projecting onto it
+- how do we do it? $C(A)$ is all the combinations of columns in $A$, so they form a hyperplane
+- $\mathbf b$ is not on this hyperplane - otherwise we would not need to project on it
 - this is what we do for [Linear Least Squares](Linear_Least_Squares) via [Normal Equation](Normal_Equation)
 
 
 ### Projection onto Plane
 Example $\mathbb R^3 \to \mathbb R^2$
-- suppose that $\text{dim } C(A) = 2$, i.e. the basis made of columns of $A$: $\mathbf a_1$ and $\mathbf a_2$, $A = \Bigg[ \ \mathop{\mathbf a_1}\limits_| ^| \ \mathop{\mathbf a_1}\limits_|^| \ \Bigg]$ |  - $\mathbf a_1$ and $\mathbf a_2$ are [linearly independent](Linear_Independence)
+- suppose that $\text{dim } C(A) = 2$, i.e. the basis made of columns of $A$: $\mathbf a_1$ and $\mathbf a_2$, $A = \Bigg[ \ \mathop{\mathbf a_1}\limits_| ^| \ \mathop{\mathbf a_1}\limits_|^| \ \Bigg]$
+- $\mathbf a_1$ and $\mathbf a_2$ are [linearly independent](Linear_Independence)
 - <img src="http://habrastorage.org/files/245/834/296/245834296b494b6a8f42522ff1feb119.png" alt="Image">
 - $\mathbf b$ is not on the plane $C(A)$, but we project on it to get $\mathbf p$ 
 - $\mathbf e = \mathbf b - \mathbf p$ is our projection error
@@ -118,7 +123,9 @@ Now we're solving $\mathbf p = A \mathbf{\hat x}$
   - or $A^T \mathbf e = \mathbf 0$
 
 
-- thus $\mathbf e \in N(A^T)$ - the projection error belongs to the [left nullspace](Nullspace#Left_Nullspace)|   |- and we know that $C(A) \; \bot \; N(A^T)$ (see [Space Orthogonality](Space_Orthogonality)) |- <img src="http://habrastorage.org/files/f3a/ab5/ebc/f3aab5ebc51540579f18f34bff5d4476.png" alt="Image">
+- thus $\mathbf e \in N(A^T)$ - the projection error belongs to the [left nullspace](Nullspace#Left_Nullspace)
+- and we know that $C(A) \; \bot \; N(A^T)$ (see [Space Orthogonality](Space_Orthogonality))
+- <img src="http://habrastorage.org/files/f3a/ab5/ebc/f3aab5ebc51540579f18f34bff5d4476.png" alt="Image">
 
 Let's solve it
 - $A^T \mathbf e = \mathbf 0$, $\mathbf e = \mathbf b - \mathbf p = \mathbf b - A \mathbf{ \hat x}$
@@ -133,7 +140,8 @@ The projection $\mathbf p$
 - this way we found the coefficients $\mathbf{\hat x}$, but not the projection $\mathbf p$
 - we need to take all vectors of $C(A)$ (columns of $A$) and scale by $\mathbf{\hat x}$
 - thus we have $\mathbf p = A \mathbf{\hat x} = A (A^T A)^{-1} A^T \mathbf b$
-  - recall the 1-dim case: $\mathbf p = x \cdot \mathbf a = \mathbf a \cdot \cfrac{\mathbf a^T \mathbf b}{\mathbf a^T \mathbf a}$ - it's very similar|   | |
+  - recall the 1-dim case: $\mathbf p = x \cdot \mathbf a = \mathbf a \cdot \cfrac{\mathbf a^T \mathbf b}{\mathbf a^T \mathbf a}$ - it's very similar
+ |
 
 ## Projection Matrix
 How do we use a nice matrix representation for projecting onto subspaces?
@@ -147,7 +155,7 @@ Let $P$ be the projection matrix, i.e.
 - $P$ s.t. $\mathbf p = P \mathbf b$ - a matrix $P$ with which we can express the [Linear Transformation](Linear_Transformation) that brings $\mathbf b$ to $\mathbf p$
 - we know that $\mathbf p = \mathbf a \cdot \cfrac{\mathbf a^T \mathbf b}{\mathbf a^T \mathbf a}$
 - so $\mathbf p = P \mathbf b$ or $P = \cfrac{\mathbf a \mathbf a^T}{\mathbf a^T \mathbf a}$
-- in the numerator we have an [Outer Product](Outer_Product), and we have an [Inner Product](Inner_Product) in the denominator - it's $\|  \mathbf a \|^2$ |
+- in the numerator we have an [Outer Product](Outer_Product), and we have an [Inner Product](Inner_Product) in the denominator - it's $\|  \mathbf a \|^2$
 
 #### Properties
 - it's normalized rank-1 matrix
@@ -215,7 +223,8 @@ See this theorem in [Gram Matrices](Gram_Matrices)
 
 ## Projection onto Orthogonal Basis
 Let $\mathbf q_1, \ ... \ , \mathbf q_n \in \mathbb R^m$ be a set of orthonormal vectors 
-- $Q = \Bigg[ \mathop{\mathbf q_1}\limits_| ^| \ \mathop{\mathbf q_2}\limits_|^| \ \cdots \  \mathop{\mathbf q_n}\limits_|^| \Bigg]$. It's an [Orthogonal Matrix](Orthogonal_Matrix) |- suppose we want to project on the subspace $C(Q)$
+- $Q = \Bigg[ \mathop{\mathbf q_1}\limits_| ^| \ \mathop{\mathbf q_2}\limits_|^| \ \cdots \  \mathop{\mathbf q_n}\limits_|^| \Bigg]$. It's an [Orthogonal Matrix](Orthogonal_Matrix)
+- suppose we want to project on the subspace $C(Q)$
 - Projection matrix $P$, usual case: $P = A (A^T A)^{-1} A^T$
 - For orthogonal matrices $Q^T Q = I$, so $P = Q (Q^T Q)^{-1} Q^T = Q Q^T$
 
@@ -232,7 +241,8 @@ What if $m = n$?
 - That means that $P = I$, i.e. the basis spans the entire space
 - but still, $\mathbf b = \mathbf q_1 (\mathbf q_1^T \mathbf b) + \ ... \ + \mathbf q_n (\mathbf q_n^T \mathbf b)$
 - why is it useful? because it enables us to decompose a vectors into perpendicular pieces 
-- this is the foundation of the [Fourier Transformation](Fourier_Transformation)|   | |
+- this is the foundation of the [Fourier Transformation](Fourier_Transformation)
+ |
 ## Applications
 - [Normal Equation](Normal_Equation) in [Linear Least Squares](Linear_Least_Squares)
 - [Fourier Transformation](Fourier_Transformation)

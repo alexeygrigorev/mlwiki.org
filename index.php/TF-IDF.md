@@ -31,7 +31,7 @@ Weights can be:
 Term Frequency (TF)
 - local frequency of a word in the document
 - i.e. the word is weighed by how many times it occurs in the document
-- $\text{tf}(w, d) = \big|  \{ w' \in d  \ : \ w' = w \} \big|$ where $w$ is a word and $d = \{ w_1, \ ... \ , w_m \}$ is a document  |
+- $\text{tf}(w, d) = \big|  \{ w' \in d  \ : \ w' = w \} \big|$ where $w$ is a word and $d = \{ w_1, \ ... \ , w_m \}$ is a document
 
 Sublinear TF:
 - sometimes a word is used too often so we want to reduce its influence compared to other less frequently used words
@@ -44,13 +44,14 @@ Sublinear TF:
 Document Frequency (DF)
 - global frequency of a word in the document collection
 - it's the number of documents that contain the word:
-- $\text{df}(w, \mathcal D) = \big|  \{ d \in \mathcal D \ : \  w \in d \} \big|$ where $w$ is a word and $\mathcal D = \{ d_1, \ ... \ , d_N \}$ is the document corpus |
+- $\text{df}(w, \mathcal D) = \big|  \{ d \in \mathcal D \ : \  w \in d \} \big|$ where $w$ is a word and $\mathcal D = \{ d_1, \ ... \ , d_N \}$ is the document corpus
 
 Inverse Document Frequency (IDF)
 - more often we're interested in words that are rare across the document collections
 - they tend to be domain specific and are usually more relevant for retrieving this document
 - so we should give them more weight than to high-frequency words 
-- thus, $\text{idf}(w, \mathcal D) = \log \cfrac{ | \mathcal D| + 1 }{\text{df}(w, \mathcal D)}$  |- also can be some [Entropy](Entropy)-based measure
+- thus, $\text{idf}(w, \mathcal D) = \log \cfrac{ | \mathcal D| + 1 }{\text{df}(w, \mathcal D)}$
+- also can be some [Entropy](Entropy)-based measure
 
 
 ### Good Weighting System
@@ -106,7 +107,9 @@ In systems where vectors have very different lengths a third component of a weig
 
 
 Why? 
-- if we have a short document $d$, then for corresponding vector $d$, $\|  d \|$ is small |- if we have a large doc with many words, then $\|  d \|$ is big |- so for larger documents the chances of matching are higher => so larger documents have higher chances of being retrieved just because they are larger
+- if we have a short document $d$, then for corresponding vector $d$, $\|  d \|$ is small
+- if we have a large doc with many words, then $\|  d \|$ is big
+- so for larger documents the chances of matching are higher => so larger documents have higher chances of being retrieved just because they are larger
 
 
 Normalization Factor
@@ -121,7 +124,9 @@ In Information Retrieval more involved variants of TF-IDF give better performanc
 
 
 for example,
-- $$\text{tf-idf}(d, q \mid \mathcal D) = \sum_{w \in q, d} = \cfrac{1 + \ln \big(1 + \ln \text{tf}(w, d) \big)}{(1 - s) + s \cdot \|  d \| / \| \bar d \- where $s$ - some parameter |- $\|  d \|$ is the length of document $d$, i.e. how many words are in $d$ |- $\|  \bar d \|$ is the average document length |
+- $$\text{tf-idf}(d, q \mid \mathcal D) = \sum_{w \in q, d} = \cfrac{1 + \ln \big(1 + \ln \text{tf}(w, d) \big)}{(1 - s) + s \cdot \|  d \| / \| \bar d \- where $s$ - some parameter
+- $\|  d \|$ is the length of document $d$, i.e. how many words are in $d$
+- $\|  \bar d \|$ is the average document length
 
 
 ## Critique

@@ -29,7 +29,8 @@ Rules
 - there could be many rules like this
 - if most children under 4 survived, assume all children under 4 survived
 - if most people with 1 sibling survived, assume all people with 1 sibling survided 
-- calculate misclassification error (error rate) and take the best|   | |
+- calculate misclassification error (error rate) and take the best
+ |
 Some variables have more than 2 values
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/ds/rules-tit-plcass.png" alt="Image">
 - if pclass = 1 then survived=yes

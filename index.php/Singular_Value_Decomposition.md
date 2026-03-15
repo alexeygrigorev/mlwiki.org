@@ -97,7 +97,8 @@ Will it give the right bases?
 
 Finding the orthonormal $\{ \ \mathbf u_i \ \}$
 - vectors $A \mathbf v_i$ are orthogonal, but not orthonormal 
-- $\|  A \mathbf v_i \|^2 = \langle A \mathbf v_i, A \mathbf v_i \rangle = \mathbf v_i^T A^T A \mathbf v_i = \mathbf v_i^T \lambda_i \mathbf v_i = \lambda_i$ |- let $\mathbf u_i = \cfrac{A \mathbf v_i}{\|  A \mathbf v_i \- if $r < m$, we extend this basis for $\mathbb R^m$ |
+- $\|  A \mathbf v_i \|^2 = \langle A \mathbf v_i, A \mathbf v_i \rangle = \mathbf v_i^T A^T A \mathbf v_i = \mathbf v_i^T \lambda_i \mathbf v_i = \lambda_i$
+- let $\mathbf u_i = \cfrac{A \mathbf v_i}{\|  A \mathbf v_i \- if $r < m$, we extend this basis for $\mathbb R^m$
 
 This completes the construction for the bases
 - Let $\sigma_i = \sqrt{\lambda_i}$. Then $\mathbf u_i = \cfrac{1}{\sigma_i} A \mathbf v_i$
@@ -130,7 +131,8 @@ There's duality: we can do the save for $AA^T$:
 
 
 ### $\Sigma$: Eigenvalues of $A^T A$ and $AA^T$
-What is more, the eigenvalues of $A^T A$ and $AA^T$ are the same|   | |Let's first show that if $\lambda$ is eigenvalue for $A^T A$, then it's an eigenvalue for $AA^T$
+What is more, the eigenvalues of $A^T A$ and $AA^T$ are the same
+ |Let's first show that if $\lambda$ is eigenvalue for $A^T A$, then it's an eigenvalue for $AA^T$
 - let $\lambda \ne 0$ be an eigenvalue of $A^T A$ with corresponding eigenvector $\mathbf v \ne \mathbf 0$
 - then $A^T A \mathbf v = \lambda \mathbf v$. Multiply by $A$ on the left:
 - $A A^T A \mathbf v = \lambda A \mathbf v$

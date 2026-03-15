@@ -86,7 +86,8 @@ cv.test <- function(x) {
 - http://sas-and-r.blogspot.fr/2011/06/example-839-calculating-cramers-v.html
 - http://home.hib.no/ansatte/gbj/cramer_v.htm
 - http://en.wikipedia.org/wiki/Cram%C3%A9r%27s_V
-- |  !! http://stats.stackexchange.com/questions/105795/understanding-chi2-and-cram%C3%A9rs-v-results/105827#105827 | |
+- |  !! http://stats.stackexchange.com/questions/105795/understanding-chi2-and-cram%C3%A9rs-v-results/105827#105827 
+
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_(UFRT))
 - http://en.wikipedia.org/wiki/Analysis_of_variance

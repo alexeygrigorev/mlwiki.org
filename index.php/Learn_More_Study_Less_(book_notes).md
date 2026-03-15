@@ -253,7 +253,9 @@ Learn More, Study Less [http://www.scotthyoung.com/learnmorestudyless/]
     - start with a single element
     - draw connection arrow to different ideas
     - for understanding - not for picture
-      - less than 2 minutes|   |- Concept-Based Diagrams |  - start with the most important with branch off into details
+      - less than 2 minutes
+- Concept-Based Diagrams
+- start with the most important with branch off into details
 - Image Diagrams
   - not a diagram
   - rather a doodle
@@ -275,7 +277,8 @@ Learn More, Study Less [http://www.scotthyoung.com/learnmorestudyless/]
 - Step3. Create the links
   - vivid and exaggerating image that connects two adjacent items
   - banana and cow => big banana with cow spots
-- Imagination is needed|   | |#### Pegging
+- Imagination is needed
+ |#### Pegging
 - no need to be in sequence
 - link each element to a specific slot
   - 0 - hero
@@ -352,4 +355,5 @@ Learn More, Study Less [http://www.scotthyoung.com/learnmorestudyless/]
 - Getting Things Done - The classic by David Allen.
 - The Power of Full Engagement - Energy management.
 - Zen To Done - A spin off of Getting Things Done, this one focuses on slowly building productive habits.
-- How to Be a Straight-A Student & How to Win at College – Both classic books that can help you become more productive and handle the challenges of learning. Definitely worth reading|   | |
+- How to Be a Straight-A Student & How to Win at College – Both classic books that can help you become more productive and handle the challenges of learning. Definitely worth reading
+ |

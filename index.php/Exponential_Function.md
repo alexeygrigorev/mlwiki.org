@@ -32,6 +32,7 @@ Algebraic Properties
 
 
 ## [Taylor Expansion](Taylor_Series)
-Can expand $e^x = 1 + x + \cfrac{1}{2|  }\, x^2 + \cfrac{1}{3!}\, x^3 + \cfrac{1}{4!}\, x^4 + \ ... \ = \sum\limits_{k=0}^{\infty} \cfrac{1}{k!} x^k$ | |
+Can expand $e^x = 1 + x + \cfrac{1}{2!}\, x^2 + \cfrac{1}{3!}\, x^3 + \cfrac{1}{4!}\, x^4 + \ ... \ = \sum\limits_{k=0}^{\infty} \cfrac{1}{k!} x^k$ 
+
 ## Sources
 - [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))

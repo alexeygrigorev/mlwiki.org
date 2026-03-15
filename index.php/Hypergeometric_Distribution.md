@@ -4,41 +4,39 @@ permalink: /index.php/Hypergeometric_Distribution
 tags:
 - probability
 - probability-distributions
-- russian
-- подготовка-к-шад
 title: Hypergeometric Distribution
 ---
 ## Hypergeometric Distribution
 
-Пусть в партии из $N$ изделий $M$ стандартных ($M < N$). Из партии отбирают n изделий, причём изделия обратно не возвращаются. 
+Suppose a batch of $N$ items contains $M$ standard items ($M < N$). From the batch, $n$ items are selected without replacement.
 
-$X$ - случайная величина, число m стандартных изделий среди n отобранных. Возможные значения $X: 0, 1, ..., \min(M, n)$
+$X$ is a random variable representing the number $m$ of standard items among the $n$ selected. Possible values of $X: 0, 1, ..., \min(M, n)$
 
 
-Probability того, что $X = m$:
-- Общее число исходов $C_N^n$
-- Число благоприятствующих исходов $X = m$:
+The probability that $X = m$:
+- The total number of outcomes is $C_N^n$
+- The number of outcomes favorable to $X = m$:
 
 $C_M^m \cdot C_{N - M}^{m - n}$
 
-(число способов извлечь $m$ из $M$ умножить на число способов извлечь оставшиеся нестандартные детели)
+(the number of ways to select $m$ from $M$ multiplied by the number of ways to select the remaining non-standard items)
 
 
-Таким образом, 
+Thus,
 
 $P(X = m) = \frac{C_M^m \cdot C_{N - M}^{m - n}}{C_N^n}$
 
-Эта формула определяет ''гипергеометрическое распределение''.
+This formula defines the ''hypergeometric distribution''.
 
 
-### Пример
-Среди 50 изделий 20 окрашеных. Найти вероятность того, что из 5 извлёченных изделий 3 будут окрашенными. 
+### Example
+Among 50 items, 20 are painted. Find the probability that out of 5 drawn items, 3 will be painted.
 
 - $N = 50, M = 20, n = 5, m = 3$
 - $P(X = 3) = \frac{C_{20}^3 \cdot C_{30}^2}{C_{50}^5} = 0.234$
 
 ## See also
-- [Геометрическое распределение](Геометрическое_распределение)
+- [Geometric Distribution](Geometric_Distribution)
 
 ## Sources
-- Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
+- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vyssh. shk., 2003.

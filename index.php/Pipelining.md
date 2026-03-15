@@ -10,7 +10,8 @@ Sometimes the output of one [physical operator](Physical_Operators_(databases)) 
 - output of an operator is stored in a buffer that serves as input for the next operator
 - results are computed as early as possible - and its as soon as enough data is available
 - no need to wait unit the previous operator finishes its work 
-- dramatically speeds up the execution process|   | |
+- dramatically speeds up the execution process
+ |
 ### Operators
 Operators that usually can be pipelined
 - projections

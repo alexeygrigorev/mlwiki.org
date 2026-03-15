@@ -139,7 +139,8 @@ Pragmatic Thinking and Learning: Refactor Your Wetware, Andy Hunt
     - the further ideas are, the harder to join them
   - cultivate humor
     - have you seen my fishbowl?
-    - yes, it's just got a strike|   | |### learn to be comfortable with uncertainty
+    - yes, it's just got a strike
+ |### learn to be comfortable with uncertainty
 - perfectionism may be dangerous
 
 Think outside the box
@@ -251,7 +252,9 @@ Think outside the box
   - create a prototype
   - run unit tests
   - benchmarks
-  - get the feedback|   |- unittest your intuition |  - how do you know?
+  - get the feedback
+- unittest your intuition
+- how do you know?
   - says who?
   - how specifically?
   - how does what I'm doing cause you to ... ?
@@ -565,7 +568,9 @@ you have to learn by doing
 
 ### optimizing the context
 - context - things you're focusing on at the moment
-- context switching is very expensive|   |  - 20-40% of productivity eaten by switching contexts |- manage interruptions deliberately
+- context switching is very expensive
+- 20-40% of productivity eaten by switching contexts
+- manage interruptions deliberately
   - use virtual desktops
 
 
@@ -598,7 +603,8 @@ you have to learn by doing
 - retrospect
 - take some steps
 - cultivate new habbits
-- just start|   | |### Books
+- just start
+ |### Books
 - Tools of critical thinking: Metathoughts for Psychology
 - Dan Pink, A whole new mind
 - Drawing on the right side of the brain, B. Edwards

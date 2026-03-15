@@ -19,7 +19,8 @@ What about $\text{Var}(e)$?
 - $e_i = y_i - b_0 - b_1 x_i = y_i - (\bar{y} - b_1 \bar{x}) - b_1 x_i = (y_i - \bar{y}) - b_i (x_i - \bar{x}) = (y_i - \bar{y}) - R \cfrac{s_y}{s_x}(x_i - \bar{x})$
 - so, 
 : $(e_i - \bar{e})^2 = (y_i - \bar{y})^2 + (R \cfrac{s_y}{s_x})^2 (x_i - \bar{x})^2 - 2 (\bar{y} - b_1 \bar{x}) \cdot R \cfrac{s_y}{s_x}(x_i - \bar{x})$
-- $\text{Var}(e) = \cfrac{1}{n - 1} \sum (e_i - \bar{e})^2 = s_y^2 + (R \cfrac{s_y}{s_x})^2 s_x^2 - 2R \cfrac{s_y}{s_x} \cfrac{1}{n - 1} \sum (x_0 - \bar{x})(y_i - \bar{y}) = $ (note the [orrelation coefficient](Корреляция) again|  ) |- $= s_y^2 + R^2 s_y^2 - 2R\cfrac{s_y}{s_x} s_x s_y R = s_y^2 + R^2 s_y^2 - 2R^2 s_y^2 = s_y^2 (1 - R^2)$ |
+- $\text{Var}(e) = \cfrac{1}{n - 1} \sum (e_i - \bar{e})^2 = s_y^2 + (R \cfrac{s_y}{s_x})^2 s_x^2 - 2R \cfrac{s_y}{s_x} \cfrac{1}{n - 1} \sum (x_0 - \bar{x})(y_i - \bar{y}) = $ (note the [orrelation coefficient](Корреляция) again|  )
+- $= s_y^2 + R^2 s_y^2 - 2R\cfrac{s_y}{s_x} s_x s_y R = s_y^2 + R^2 s_y^2 - 2R^2 s_y^2 = s_y^2 (1 - R^2)$
 So 
 : $\text{Var}(e) = \text{Var}(y)(1 - R^2)$
 

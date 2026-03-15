@@ -98,6 +98,7 @@ Assume it wasn't the part of the CR
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-cr-booking-3-2tok2.png" alt="Image">
   - it processes one token and outputs it
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-cr-booking-3-2tok3.png" alt="Image">
-  - but now it can fire the second time|   | |
+  - but now it can fire the second time
+ |
 ## Sources
 - [Business Process Management (ULB)](Business_Process_Management_(ULB))

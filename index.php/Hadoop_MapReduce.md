@@ -142,7 +142,8 @@ Sorting at the Reducer side
 There are different types of failures:
 - Task Failure (e.g. task JVM crushed). 
   - It a task attempt fails, it's rescheduled on a different node
-  - If the attempt fails 4 times (configured in <code>mapreduce.map| reduce.maxattempts</code>), it's not rescheduled |- Application Master failure 
+  - If the attempt fails 4 times (configured in <code>mapreduce.map| reduce.maxattempts</code>), it's not rescheduled
+- Application Master failure 
 - Cluster Failure (not recoverable)
 
 
@@ -188,7 +189,9 @@ Client classpath:
 - classpath defined by <code>HADOOP_CLASSPATH</code>
 
 Task classpath
-- it runs on a separate JVM, not on the same as the client|   |- not controlled by <code>HADOOP_CLASSPATH</code> - it's only for the client |- the job jar and its <code>lib/</code> directory
+- it runs on a separate JVM, not on the same as the client
+- not controlled by <code>HADOOP_CLASSPATH</code> - it's only for the client
+- the job jar and its <code>lib/</code> directory
 - files in the distributed cache (submitted via <code>-libjars</code>)
 
 Task classpath precedence 

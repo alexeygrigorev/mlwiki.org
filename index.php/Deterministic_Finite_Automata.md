@@ -163,7 +163,8 @@ In Non-Deterministic Finite Automata (NFAs) one input can lead to multiple state
 - Non-Determinism and $\epsilon$-transitions give additional power 
   - NFAs are easier to design than DFAs 
 - but only DFAs can be implemented in practice
-  - Computers are always deterministic|   | |
+  - Computers are always deterministic
+ |
 
 ## Sources
 - [Automata (coursera)](Automata_(coursera))

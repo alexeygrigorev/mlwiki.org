@@ -168,9 +168,13 @@ b  2  4
   - read.csv
     - same as read.table, but default separator is ","
   - for large files
-    - RTFM|   |    - make a rough calculation of RAM needed |      - 1.5 mln rows * 120 cols of numeric data
+    - RTFM
+- make a rough calculation of RAM needed
+- 1.5 mln rows * 120 cols of numeric data
       - 1.5 mln * 120 * 8 bytes = 1.34 GB
-      - consider overhead|   1.43 * 2 ~ 2.7 GB |    - comment.char = "" - faster |    - colClasses set explicitly - much faster
+      - consider overhead|   1.43 * 2 ~ 2.7 GB
+- comment.char = "" - faster
+- colClasses set explicitly - much faster
       - initial <- read.table("db.txt", nrows=100)
 classes <- sapply(initial, class) #automatically figured out classes
 head(initial) #just shows the fist 6 lines
@@ -180,7 +184,9 @@ tabAll <- read.table("db.txt", colClasses=classes)
   - write.csv
 #### R objects
 - metadata, as R source
-  - editable|   |  - good for VCS |  - but not very space efficient
+  - editable
+- good for VCS
+- but not very space efficient
 - read
   - source
   - dget
@@ -244,7 +250,9 @@ x[1, 2] => 3
 x[2, 1] => 2
 - m[1, ] => first row
 - m[, 2] => secod col
-- return VECTOR|   |  - x[1, 2, drop=F] => matrix of one element |  - x[1, ,drop=F] => a matrix of one row
+- return VECTOR
+- x[1, 2, drop=F] => matrix of one element
+- x[1, ,drop=F] => a matrix of one row
 #### lists
 - x <- list(foo=1:4, bar=0.6)
 - x[1] => sublist
@@ -266,13 +274,16 @@ x["lo"]("lo") => NULL
 x["lo", exact=F]("lo",_exact=F) => $longname
 #### removing NAs
 - bad <- is.na(x)
-x[|  bad] #note the inversion! |- good <- complete.cases(x, y) |x[good]; y[good]
+x[|  bad] #note the inversion!
+- good <- complete.cases(x, y) |x[good]; y[good]
 - r <- matrix
 good <- complete.cases(r)
 r[good, ]
 #### vectorized operations
 - vector
-  - no need for looping|   |  - x <- 1:4; y <- 6:9 |  - x + y
+  - no need for looping
+- x <- 1:4; y <- 6:9
+- x + y
   - x > 2
   - x >= 2
   - y == 8
@@ -490,14 +501,15 @@ xlab=expression(sum(x[i]*y[i], i==1,n))
     - replaces x in the exp onto mean
 #### lattice
 - generally tale a formula
-- y ~ x |  f * g |  - y ~ x - variables
+- y ~ x |  f * g
+- y ~ x - variables
   - f * g - conditional variables
 - returns an object
 - example
   - x = rnorm(100)
   - y = x + rnorm(100, sd=0.5)
   - f = gl(2, 50, labels=c("g1", "g2"))
-  - xyplot(x ~ y |  f) # x vs y, split conditioned on f |
+  - xyplot(x ~ y |  f) # x vs y, split conditioned on f
 ### Sorting
 #### sort(read)
 - returns a sorted array

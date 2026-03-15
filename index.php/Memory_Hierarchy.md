@@ -36,7 +36,8 @@ stores all data and instructions
 - the OS manages VM keeping needed parts at hand (in the main memory)
 - and the rest on disk 
 
-So beware: data can be moved to and fro by the OS|   | |### Tertiary Storages
+So beware: data can be moved to and fro by the OS
+ |### Tertiary Storages
 - very high read/write times
 - may be optical disks stored somewhere 
 

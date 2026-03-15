@@ -62,7 +62,8 @@ So the regression line takes the following form
 This means: 
 - we start from mean of $y$
 - and shift by how far we're from $\bar{x}$ multiplied by slope
-- $(\bar{x}, \bar{y})$ is always on the line|   | |
+- $(\bar{x}, \bar{y})$ is always on the line
+ |
 Let's manipulate it a bit the formula for the slope coefficient to get better understanding of what's going on
 - $b_1 = \cfrac{n \sum x_i y_i - \sum x_i \sum y_i }{n \sum x_i^2 - (\sum x_i)^2} $ (divide top and bottom by $1/n^2$)
 - $ = \cfrac{\frac{1}{n} \sum x_i y_i - \frac{1}{n} \sum x_i \cdot \frac{1}{n} \sum y_i}{\frac{1}{n} \sum x_i^2 - (\frac{1}{n} \sum x_i )^2 } $ 
@@ -141,12 +142,16 @@ For the example above we have
 - $b_1= 0.41, \text{SE}(b_1) = 0.148$
 
 $p$-value (under $H_0$)
-- $P( |  b_1 - \beta_1 | \geqslant 0.41 ) = $ |- $P \left( \left|  \cfrac{b_1 - \beta_1}{\text{SE}(b_1)} \right| \geqslant \cfrac{0.41}{\text{SE}(b_1)} \right) \approx$ |- $P( |  t_{398} | \geqslant 2.77 ) \approx 0.0059$ |
+- $P( |  b_1 - \beta_1 | \geqslant 0.41 ) = $
+- $P \left( \left|  \cfrac{b_1 - \beta_1}{\text{SE}(b_1)} \right| \geqslant \cfrac{0.41}{\text{SE}(b_1)} \right) \approx$
+- $P( |  t_{398} | \geqslant 2.77 ) \approx 0.0059$
 Quite small, so we reject the $H_0$ and conclude that $\beta_1 \neq 0$, i.e. there is some linear relationship.
 
 
 ## Limitations
-- linear|   - fails to predict other kinds of relationships (quadratic etc) |- not robust to outliers (just one outlier can change the regression line rather significantly) |
+- linear
+- fails to predict other kinds of relationships (quadratic etc)
+- not robust to outliers (just one outlier can change the regression line rather significantly)
 
 ## [Gradient Descent](Gradient_Descent)
 Another way of finding the slope and intercept parameters is [Gradient Descent Algorithm](Gradient_Descent), 

@@ -107,7 +107,9 @@ The block is populated with records from the end
 Not everything can be represented by fixed-length records:
 - data items with varying size
   - addresses can be 256 bits, but usually not longer than 50 bits
-  - can safe a lot of space|   |- repeated fields |  - for example in many-to-many relationships we want to store many pointers within one record
+  - can safe a lot of space
+- repeated fields
+- for example in many-to-many relationships we want to store many pointers within one record
 - variable-format records 
   - when schema is not knows in advance (say JSON or XML)
 - media streams 

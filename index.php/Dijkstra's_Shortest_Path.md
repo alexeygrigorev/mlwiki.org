@@ -47,7 +47,8 @@ Example
 
 
 Non-example 
-- won't compute the shortest path for non-negative edges|   |- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/1ivblqfc6cju4p352nbq9mmad2.png" alt="Image">" \> |
+- won't compute the shortest path for non-negative edges
+- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/1ivblqfc6cju4p352nbq9mmad2.png" alt="Image">" \>
 
 ## Implementation notes
 - don't need the $B$ array

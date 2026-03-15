@@ -153,7 +153,8 @@ Example
 - consider merging (1, 2, 3) {L} with (2, 4, 6) {R}
 - when 2 is copied to the output, it discovers the split inversions (3, 2) and (5, 2)
 - when 4 is copied, it finds (5, 4)
-- when in R element is less than in L - that's an inversion|   | |
+- when in R element is less than in L - that's an inversion
+ |
 #### Implementation
 ```tera term macro
 public Pair<int[], Long> countAndSort(int[] input) {

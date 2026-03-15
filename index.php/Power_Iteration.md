@@ -29,7 +29,7 @@ Performance:
 - instead, can compute $A \, A^{k-1} \mathbf x$ where $\mathbf x$ is some random unit vector
 - $A^k \mathbf x \approx \lambda_1^k \, \mathbf q_1 \, (\mathbf q_1^T \mathbf x) = \alpha \cdot \mathbf q_1$
 - so it's some scalar times a unit vector $\mathbf q_1$
-- thus, to recover $\mathbf q_i$, use $A^k \mathbf x / \|  A^k \mathbf x \| = \mathbf q_i$ |
+- thus, to recover $\mathbf q_i$, use $A^k \mathbf x / \|  A^k \mathbf x \| = \mathbf q_i$
 
 ## Finding Other Eigenvectors
 - $A = Q \Lambda Q^T$, so $A = \sum_{i = 1}^n \lambda_i \mathbf q_i \mathbf q_i^T$

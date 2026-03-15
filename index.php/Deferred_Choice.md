@@ -34,7 +34,8 @@ Consider this:
   - both actions are enabled, and both are offered to the user 
   - and the user decides what to do next
 - but XOR-split is different
-  - based on some variables that were set before it (itself, not the user|  ) chooses the route |  - for example, if variable <code>dosomething</code> is set to true, we follow the top branch |
+  - based on some variables that were set before it (itself, not the user|  ) chooses the route
+- for example, if variable <code>dosomething</code> is set to true, we follow the top branch
 
 ## [BPMN](BPMN)
 In BMPN the deferred choice is represented by a special-purpose gateway

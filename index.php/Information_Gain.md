@@ -47,7 +47,8 @@ Given $m$ classes, the entropy of signal $S$ is
 ### Entropy for Two Classes
 For two classes:
 - If records in $S$ belong to classes $C_1$ or $C_2$
-- Let $p_1 = ( | S_1| / |S| ) = p$ and $p_2 = ( |S_2 | / |S| ) = 1 - p$ |- Then, $E[I(S)] = -p \cdot \log_2 (p) - (1 - p) \cdot \log_2 (1-p) $
+- Let $p_1 = ( | S_1| / |S| ) = p$ and $p_2 = ( |S_2 | / |S| ) = 1 - p$
+- Then, $E[I(S)] = -p \cdot \log_2 (p) - (1 - p) \cdot \log_2 (1-p) $
   - expected value of entropy with two subsets 
 
 

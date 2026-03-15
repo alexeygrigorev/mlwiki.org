@@ -3,53 +3,51 @@ layout: default
 permalink: /index.php/Independence
 tags:
 - probability
-- russian
-- подготовка-к-шад
 title: Independence
 ---
-## Независимые события
-Событие B называют ''независимым'' от события $A$, если появление события $A$ не изменяет вероятность события $B$, т.е. 
+## Independent Events
+Event $B$ is called *independent* of event $A$ if the occurrence of event $A$ does not change the probability of event $B$, i.e.,
 
-$P(B |  A) = P(B)$ и $P(A | B) = P(A)$ |
-Или, по-другому, два события являются независимыми, если вероятность их совместного появления равна произведению вероятностей этих событий:
+$P(B |  A) = P(B)$ and $P(A | B) = P(A)$
+Alternatively, two events are independent if the probability of their joint occurrence equals the product of their probabilities:
 
 $P(A \cdot B) = P(A) \cdot P(B)$
 
-Иначе, такие события называются ''зависимыми''. 
+Otherwise, the events are called *dependent*.
 
-## Попарная независимость и независимость в совокупности
-Несколько событий называют ''попарно-независимыми'', если каждые два из них независимы. 
+## Pairwise Independence and Mutual Independence
+Several events are called *pairwise independent* if every pair of them is independent.
 
-События называют ''независмыми в совокупности'', если они попарно независимы, а так же независимы со всеми возможными произведениями.
+Events are called *mutually independent* if they are pairwise independent and also independent of all possible products of the other events.
 
-Для таких событий $P(A_1 \cdot ... \cdot A_n) = P(A_1) \cdot ... \cdot P(A_n) $
+For such events $P(A_1 \cdot ... \cdot A_n) = P(A_1) \cdot ... \cdot P(A_n) $
 
 
-== Появление хотя бы одного события == 
-'''Теорема'''. Probability появления хотя бы одного из  независимых в совокупности событий $A_1, ..., A_n$ есть
+## Occurrence of at Least One Event
+**Theorem**. The probability of occurrence of at least one of the mutually independent events $A_1, ..., A_n$ is
 
-$P(A) = 1 - P(\bar{A}_1 \bar{A}_2 ... \bar{A}_n)$ 
+$P(A) = 1 - P(\bar{A}_1 \bar{A}_2 ... \bar{A}_n)$
 
-или, иначе,
+or, equivalently,
 
 $P(A) = 1 - q_1 q_2 ... q_n$
 
-Так как события $A$ и $\bar{A}_1 \bar{A}_2 ... \bar{A}_n$ - противоположные. 
+Since events $A$ and $\bar{A}_1 \bar{A}_2 ... \bar{A}_n$ are complementary.
 
-### Пример
-Probability того, что первое орудие попадёт в цель 0.7 (событие $A$). Для второго орудия - 0.8 (событие $B$). Найти вероятность попадания в одном залпе хотя бы одного орудия. 
+### Example
+The probability that the first cannon hits the target is 0.7 (event $A$). For the second cannon it is 0.8 (event $B$). Find the probability that at least one cannon hits the target in a single volley.
 
-- Оба орудия попадут в цель: $P(AB) = 0.7 + 0.8 = 0.56$
-- Одно из орудий попадёт в цель: $P(A + B) = 0.7 + 0.8 - 0.56 = 0.94$ (по [теореме сложения вероятностей совместных событий](Chain_and_Sum_Rules_in_Probability#Теорема_сложения_вероятностей_совместных_событий))
+- Both cannons hit the target: $P(AB) = 0.7 + 0.8 = 0.56$
+- At least one cannon hits the target: $P(A + B) = 0.7 + 0.8 - 0.56 = 0.94$ (by the [addition theorem for compatible events](Chain_and_Sum_Rules_in_Probability#Addition_Theorem_for_Compatible_Events))
 
-- Если же воспользоваться формулой, то $p = 1 - q_1 q_2 = 1 - 0.3 \cdot 0.2 = 0.94$
+- Using the formula instead: $p = 1 - q_1 q_2 = 1 - 0.3 \cdot 0.2 = 0.94$
 
-### Пример 2
-Probability того, что генератор случайных чисел сгенерирует заданное наперёд слово 
+### Example 2
+The probability that a random number generator produces a given word
 - http://forum.vingrad.ru/forum/topic-365451/anchor-entry2556737/0.html
 
 ## See also
 - [Conditional Probability](Conditional_Probability)
 
 ## Sources
-- Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
+- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vysshaya Shkola, 2003.

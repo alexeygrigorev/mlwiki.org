@@ -471,7 +471,8 @@ $\gamma_{\text{grouping_attribute}, \ \text{func}(A) \ \to \ \text{name}}(R)$
 - unary relation that takes $R$ as input 
 - first parameter ($\text{grouping_attribute}$) is attribute on which $R$ will be grouped 
 - function $\text{func}$ is applied to each group, and the result is written to attribute $\text{name}$
-- '''NB''': all other (non-mentioned) attributes are not output to the result|    | |Example
+- '''NB''': all other (non-mentioned) attributes are not output to the result
+ |Example
 - $\gamma_{A, \ \text{min}(B) \ \to \ D} \left(
 \begin{array}{ c |  c | c } |  A & B & C \\
   \hline \hline

@@ -31,7 +31,8 @@ Apriori(dataset $D$, frequency threshold $t$)
 - $C_1 = \{ \text{all itemsets of len 1} \}$
 - $i \leftarrow 1$
 - while $C_i \not \equiv \varnothing$ 
-  - $F_i \leftarrow  \{ c \in C_i |  \text{supp}(c, D) \geqslant t \} $ |  - $C_{i+1} \leftarrow  \{ \text{generate ($i+1$)-itemsets having $i+1$ frequent itemsets} \} $
+  - $F_i \leftarrow  \{ c \in C_i |  \text{supp}(c, D) \geqslant t \} $
+- $C_{i+1} \leftarrow  \{ \text{generate ($i+1$)-itemsets having $i+1$ frequent itemsets} \} $
   - $i \leftarrow i+1$
 - return $F_0 \ \cup \ ... \ \cup \ F_i$ 
 

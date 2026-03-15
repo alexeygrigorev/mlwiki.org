@@ -49,7 +49,9 @@ logical tests
 - all(x > 10) - are all trues?
 - which(x > 10) - which elements are TRUEs?
 - which(is.na(x)) - which are NAs
-- use <code>|  </code> not, <code>&</code> and, <code>|</code> or:  |  - <code>which(| is.na(x) & x > 10)</code> |- <code>sum(is.na(x))</code> - how many NAs |
+- use <code>|  </code> not, <code>&</code> and, <code>|</code> or:
+- <code>which(| is.na(x) & x > 10)</code>
+- <code>sum(is.na(x))</code> - how many NAs
 
 summarizing by columns or rows
 - <code>rowSums</code>, <code>rowMeans</code>

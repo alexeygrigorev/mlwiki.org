@@ -46,7 +46,8 @@ the ''true error'' of $C$ w.r.t distribution $S$ on the population $D$
 Estimate of $\text{error}(C, D)$
 - Sample error $\text{error}(C, S)$ is just an estimate of $\text{error}(C, D)$
 - since $S \subset D$, $S$ is always finite, while $D$ can be infinite 
-- but this estimate is not always accurate|   (need to have more accurate estimate) | |
+- but this estimate is not always accurate|   (need to have more accurate estimate) 
+
 More accurate estimates:
 - [K-Fold Cross-Validation](K-Fold_Cross-Validation)
 - average over $K$ testing errors to reduce variability 

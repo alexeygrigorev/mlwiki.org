@@ -55,7 +55,8 @@ Main Components
 - results of each job is stored (materialized) on [HDFS](HDFS)
 - and the results are consumed by the next job in the graph
 - so a job that depends on some other job must wait until it finishes
-- it cannot start until all results are materialized to disk, i.e. no [Pipelining](Pipelining)|   | |
+- it cannot start until all results are materialized to disk, i.e. no [Pipelining](Pipelining)
+ |
 ## Hive QL
 Hive Query Language is a SQL-like declarative query language for ad-hoc queries 
 

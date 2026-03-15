@@ -64,7 +64,8 @@ For two variables the cost function would look like that:
 ### Learning Rate
 - when $\alpha$ is too small - we're taking very small steps - too slow
 - when $\alpha$ is too large - we're taking too big steps and may miss the minimum 
-: in this case not only may it fail to converge, but even diverge|    | |Approaching the minimum
+: in this case not only may it fail to converge, but even diverge
+ |Approaching the minimum
 - As we're approaching the local minimum, it takes smaller and smaller steps 
 - If $\theta_1$ is at the local minimum, then $\beta = 0$ and $\theta_1$ won't change 
 

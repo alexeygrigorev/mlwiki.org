@@ -15,7 +15,8 @@ Sequence inversion
 
 Two ranked vectors
 - An inversion in two rankings $r_1, r_2$ of the same variable $X$ is 
-- a pair $(x_i, x_j) \ |  \ r_1(x_i) < r_1(x_j) \land r_2(x_i) > r_2(x_j)$ |- it's called a ''pair-wise disagreement'' between two ranking lists 
+- a pair $(x_i, x_j) \ |  \ r_1(x_i) < r_1(x_j) \land r_2(x_i) > r_2(x_j)$
+- it's called a ''pair-wise disagreement'' between two ranking lists 
 
 
 ### Graphical Counting
@@ -39,7 +40,8 @@ Example:
 
 
 ### Algorithms
-A modification of [Merge Sort](Merge_Sort) can compute the # of inversions in $O(| N| \log |N|)$ |- see [Merge Sort#Counting Inversions](Merge_Sort#Counting_Inversions)
+A modification of [Merge Sort](Merge_Sort) can compute the # of inversions in $O(| N| \log |N|)$
+- see [Merge Sort#Counting Inversions](Merge_Sort#Counting_Inversions)
 
 
 ## See Also

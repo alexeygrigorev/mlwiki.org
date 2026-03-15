@@ -69,7 +69,15 @@ title: Coalitional Game
   - with all these axioms
   - for game $G(N, v)$
   - the Shapley value is
-  - $\phi_i(N, v) = \frac{1}{N|  } \sum_{S \in N\{i}} |S|! (|N| - |S| - 1)! [v(S \cup {i}] - v(S)] $ |  - explanation |    - $\frac{1}{N|  }$ - we average over all combinations |    - sum over all subsets without $i$ |    - $| S |   (|N| - |S| - 1)!$ - weighted by how many different ways we could come up with this calculation |      - $|S |  $ - ways the set S could be formed before i's addition |      - $(|N| - |S| - 1)| $ - ways the remaining players could be added |    - $[v(S \cup {i}] - v(S)]$  - how much $i$ brings if added to the coalition |- theorem
+  - $\phi_i(N, v) = \frac{1}{N!} \sum_{S \in N\{i}} |S|! (|N| - |S| - 1)! [v(S \cup {i}] - v(S)] $
+- explanation
+- $\frac{1}{N!}$ - we average over all combinations
+- sum over all subsets without $i$
+- $| S |   (|N| - |S| - 1)!$ - weighted by how many different ways we could come up with this calculation
+- $|S |  $ - ways the set S could be formed before i's addition
+- $(|N| - |S| - 1)!$ - ways the remaining players could be added
+- $[v(S \cup {i}] - v(S)]$  - how much $i$ brings if added to the coalition
+- theorem
   - given a coalition game $(N, v)$
   - there is a unique payoff division
   - $x(v) = \phi(N, v)$
@@ -83,7 +91,9 @@ title: Coalitional Game
   - they are to vote
   - 51 should vote for a law to pass, otherwise all get nothing
   - Shapley Value: (50, 16.67, 16.67, 16.67)
-  - But A and B can form a coalition and get more|   (75, 25) |  - so they have incentive to defect |- motivation
+  - But A and B can form a coalition and get more|   (75, 25)
+- so they have incentive to defect
+- motivation
   - The Shapley Value - how to divide in a fair way
   - but it ignores the question of stability
   - i.e. would agents be willing to form the grand coalition?

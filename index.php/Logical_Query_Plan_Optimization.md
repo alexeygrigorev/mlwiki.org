@@ -60,7 +60,8 @@ Example
 - only selections, projections and joins, 
 - for selections only equalities are used as predicates
 
-And we can optimize this kind of queries|    | |
+And we can optimize this kind of queries
+ |
 ### Example
 ```sql
 SELECT movieTitle FROM StarsIn S1
@@ -80,7 +81,8 @@ WHERE starName IN (
     WHERE birthdate = 1960)
 ```
 
-This one has one join less to execute (and the join is the most expensive operation|  ) | |Why? 
+This one has one join less to execute (and the join is the most expensive operation|  ) 
+Why? 
 - the first query may be a result of view expansion (the subquery is actually a view that is expanded for query evaluation)
 - careless programmers
 

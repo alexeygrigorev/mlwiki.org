@@ -28,7 +28,8 @@ Main properties:
 
 Transitivity
 - $P$ is transitive
-- but $I$ is not|   by [Luce's Coffee Cups](Luce's_Coffee_Cups) (In contract to [Voting Theory](Voting_Theory) - there we assumed it's transitive) | |
+- but $I$ is not|   by [Luce's Coffee Cups](Luce's_Coffee_Cups) (In contract to [Voting Theory](Voting_Theory) - there we assumed it's transitive) 
+
 We can show the preferences of a decision maker with a graph:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/mcda/preference-modelling.png" alt="Image">
 

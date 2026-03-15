@@ -118,7 +118,8 @@ We need to combine first two vectors $v = \begin{bmatrix}
 I.e. we want to find a [Linear Combination](Linear_Combination) of these columns.
 - From the vector picture we know that the solution is $[1, 2]^T$, so let's take 
 - <img src="http://habrastorage.org/files/b17/368/e5e/b17368e5e7774f8ca58e054c7b98183e.png" alt="Image">
-- so we take 1 of vector $\mathbf u$ and 2 of vector $\mathbf v$ and end up at exactly $\mathbf b$|   | |
+- so we take 1 of vector $\mathbf u$ and 2 of vector $\mathbf v$ and end up at exactly $\mathbf b$
+ |
 
 ### Python Code
 <details><summary>Python code to reproduce the figures</summary>

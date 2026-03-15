@@ -3,34 +3,33 @@ layout: default
 permalink: /index.php/Partial_Permutations
 tags:
 - combinatorics
-- russian
-- подготовка-к-шад
 title: Partial Permutations
 ---
 ## Partial Permutations
-Имеется $n$ различных предметов. Сколько из них можно составить расстановок длины $k$? При этом две расстановки считаются различными, если они различаются либо хотя бы одним элементом, либо состоят из одних и тех же элементов, но расположенных в разном порядке.
+Given $n$ distinct objects, how many arrangements of length $k$ can be formed? Two arrangements are considered different if they differ in at least one element, or consist of the same elements but in a different order.
 
-Такие расстановки называются ''размещениями без повторений'' и обозначаются $A_n^k$
+Such arrangements are called *partial permutations (without repetition)* and are denoted $A_n^k$.
 
 
-При составлении нужно сделать $k$ выборов 
+To construct one, we need to make $k$ choices:
 
-- на первом шаге нужно выбрать из n предметов
-- на втором шаге - из $n - 1$ предметов (повторно выбрать нельзя)
-- на $k$-ом шаге - из $n - k + 1$ предметов
+- at the first step we choose from $n$ objects
+- at the second step -- from $n - 1$ objects (repetition is not allowed)
+- at the $k$-th step -- from $n - k + 1$ objects
 
-Таким образом, $A_n^k = n \cdot (n - 1) \cdot ... \cdot (n - k + 1) = \frac{n|  }{(n - k)!}$ | |### Задача
-Научное сообщество состоит из 25 человек. Надо выбрать президента, вице-президента, учёного секретаря и казначея. Сколькими способами можно сделать выбор?
+Thus, $A_n^k = n \cdot (n - 1) \cdot ... \cdot (n - k + 1) = \frac{n!}{(n - k)!}$
+### Problem
+A scientific society consists of 25 members. A president, vice-president, scientific secretary, and treasurer must be elected. In how many ways can this be done?
 
 $A_{25}^4 = 25 \cdot 24 \cdot 23 \cdot 22 = 303 \ 600$
 
-## Partial Permutations с повторениями
+## Partial Permutations with Repetitions
 
-'''TODO'''
+**TODO**
 
 
-== See also == 
+## See also
 - [Permutations](Permutations)
 
 ## Sources
-- Виленкин Н.Я. Комбинаторика. М., Наука, 1969.
+- Vilenkin N.Ya. Combinatorics. Moscow, Nauka, 1969.

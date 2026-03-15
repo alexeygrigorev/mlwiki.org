@@ -44,7 +44,9 @@ Inverse Trigonometric functions:
 
 
 ## [Taylor Expansion](Taylor_Series)
-- $\cos x = \sum\limits_{k=0}^\infty (-1)^k \cfrac{x^{2k}}{(2k)|  }$ |- $\sin x = \sum\limits_{k=0}^\infty (-1)^k \cfrac{x^{2k + 1}}{(2k + 1)| }$ | |
+- $\cos x = \sum\limits_{k=0}^\infty (-1)^k \cfrac{x^{2k}}{(2k)!}$
+- $\sin x = \sum\limits_{k=0}^\infty (-1)^k \cfrac{x^{2k + 1}}{(2k + 1)!}$ 
+
 [Euler's Formula](Euler's_Formula):
 - relates Exponential Function and [Trigonometric Functions](Trigonometric_Functions)
 - $e^{ix} = \cos x + i \sin x$ where $i = \sqrt {-1}$
@@ -130,7 +132,11 @@ With Taylor Expansions, we can pretend that $\sin x$, $\cos x$ and [Exponential]
 Basic Integrals:
 - $\int \sin x\, dx = -\cos x + C$
 - $\int \cos x\, dx = \sin x + C$
-- $\int \tan x\, dx = -\ln |  \cos x | + C$ |- $\int \sec x\, dx = \ln |  \tan x + \sec x | + C$ |- $\int \csc x\, dx = -\ln |  \cot x + \csc x | + C$ |- $\int \cot x\, dx = \ln |  \sin x | + C$ |- $\int \sin^2 x\, dx = \cfrac{x}{2} - \cfrac{\sin 2x}{4} + C$
+- $\int \tan x\, dx = -\ln |  \cos x | + C$
+- $\int \sec x\, dx = \ln |  \tan x + \sec x | + C$
+- $\int \csc x\, dx = -\ln |  \cot x + \csc x | + C$
+- $\int \cot x\, dx = \ln |  \sin x | + C$
+- $\int \sin^2 x\, dx = \cfrac{x}{2} - \cfrac{\sin 2x}{4} + C$
 - $\int \cos^2 x\, dx = \cfrac{x}{2} + \cfrac{\sin 2x}{4} + C$
 - $\int \sin x\, \cos x\, dx = -\cfrac{1}{2}\, \cos^2 x + C$
 

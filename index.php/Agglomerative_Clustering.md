@@ -44,7 +44,7 @@ Implementation:
 advantage: 
 - efficient to implement 
 - equivalent to a Spanning Tree algo on the complete graph of pair-wise distances <!-- TODO: Link to Algo 2 from Coursera -->
-- can use Prim's Spanning Tree algo |
+- can use Prim's Spanning Tree algo
 
 Drawbacks 
 - encourages chaining

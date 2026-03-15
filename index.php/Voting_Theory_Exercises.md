@@ -57,7 +57,9 @@ Consider the following example:
 
 And there can be no cycles: too few voters for this 
 - consider the case with 3 candidates: $A = \{a, b, c\}$
-- there are 6 possible individual rankings for elements from $A$: there are 3|   permutations of $A$ |  - $R_1: a < b < c$ -- $n_1$ voters |  - $R_2: a < c < b$ -- $n_2$ voters
+- there are 6 possible individual rankings for elements from $A$: there are 3|   permutations of $A$
+- $R_1: a < b < c$ -- $n_1$ voters
+- $R_2: a < c < b$ -- $n_2$ voters
   - $R_3: b < a < b$ -- $n_3$ voters
   - $R_4: b < c < a$ -- $n_4$ voters
   - $R_5: c < a < b$ -- $n_5$ voters

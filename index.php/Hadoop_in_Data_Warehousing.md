@@ -120,7 +120,9 @@ Input:
 
 #### Text Processing
 - most common use case of Hadoop (the survey)
-- RDBMs not good for this|   |- no SQL functions for text processing |- text stream -> structured data
+- RDBMs not good for this
+- no SQL functions for text processing
+- text stream -> structured data
 
 Examples
 - like: finding keywords, sentiment analysis
@@ -138,7 +140,9 @@ Example 2
 - suppose we run a eBay-like website
 - someone publishes an advertisement - it's a dress with some description
 - but the description doesn't mention the color
-  - user thinks it's obvious - it can be seen on the picture|   |- but we want to be able to answer queries such as "red dress" |- so we process this image to retrieve features
+  - user thinks it's obvious - it can be seen on the picture
+- but we want to be able to answer queries such as "red dress"
+- so we process this image to retrieve features
   - color
   - type
   - other things that might be used for search

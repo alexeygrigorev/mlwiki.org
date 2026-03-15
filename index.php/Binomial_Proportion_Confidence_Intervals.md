@@ -85,7 +85,8 @@ We say that we're 95% confident that the true value of $p$ is somewhere in this 
 
 
 ### Margin of Error
-Problem: $p$ (to use under the square root) is unknown|   | |Solutions:
+Problem: $p$ (to use under the square root) is unknown
+ |Solutions:
 - use $\hat{p}$ instead of $p$ (we assume it should be close) or
 - use $p = q = 0.5$: it maximizes our ''margin of error''
   - <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/margin-of-error.png" alt="Image">" />

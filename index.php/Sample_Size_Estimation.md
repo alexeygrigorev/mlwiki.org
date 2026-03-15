@@ -27,7 +27,9 @@ We plug everything in and calculate
 
 What if we want margin error 0.01? 
 - $0.01 = 1.96 \sqrt{0.5 \cdot 0.5 / n}$ or
-- $n \approx 9604 = 9 \cdot 1067$ |   | |To cut the margin error in half we need 4 times bigger sample size|   |  - So lovering the margin is expensive  |
+- $n \approx 9604 = 9 \cdot 1067$ 
+ |To cut the margin error in half we need 4 times bigger sample size|
+- So lovering the margin is expensive
 
 What if we want 99% CI instead of 95%? 
 - $z_{\alpha/2} = z_{0.005} \approx 2.576$

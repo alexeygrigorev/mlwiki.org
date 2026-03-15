@@ -93,7 +93,7 @@ These values are configurable on per-job basis:
 - <code>mapreduce.reduce.memry.mb</code>
 - <code>mapreduce.map.cpu.vcores</code>
 - <code>mapreduce.reduce.cpu.vcores</code>
-- they are subject to min/max constraints specified in the YARN config (<!-- TODO: describe them as well -->) |
+- they are subject to min/max constraints specified in the YARN config (<!-- TODO: describe them as well -->)
 
 ### Task Execution
 - a task is assigned to a container on a particular node by the Resource Manager's Scheduler

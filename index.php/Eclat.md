@@ -40,13 +40,14 @@ TidLists:
 - $\text{Tid}(f) = \{ T_2 \}$
 
 Support:
-- $\text{supp}(ab) = \cfrac{\big|  \text{Tid}(a) \cap \text{Tid}(b) \big |
+- $\text{supp}(ab) = \cfrac{\big|  \text{Tid}(a) \cap \text{Tid}(b) \big
 
 ## Eclat Algorithm
 ### Algorithm
 Eclat(prefix $X$, items $I$)
 - let $C$ be candidate itemsets and remove non-frequent items of $C$
-- $C = \big\{ X \cup {i} \ |  \ \forall i \in I \ : \ \text{freq}(X \cup {i}) \geqslant \text{min_th} \big\}$ |- $F = \varnothing$
+- $C = \big\{ X \cup {i} \ |  \ \forall i \in I \ : \ \text{freq}(X \cup {i}) \geqslant \text{min_th} \big\}$
+- $F = \varnothing$
 - $C_\text{it} \leftarrow C$
 - for each frequent item $i$ added to $C$
   - let $X_i = X \cap \{i\}$

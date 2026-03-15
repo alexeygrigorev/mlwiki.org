@@ -3,24 +3,22 @@ layout: default
 permalink: /index.php/Laws_of_Large_Numbers
 tags:
 - probability
-- russian
-- подготовка-к-шад
 title: Laws of Large Numbers
 ---
-## Закон больших чисел
-Общий смысл законов больших чисел - совместное действие большого числа одинаковых и независимых случайных факторов.
+## Law of Large Numbers
+The general idea behind the laws of large numbers is the combined effect of a large number of identical and independent random factors.
 
-Последовательность случайных величин $X_1, X_2, ..., X_n$ удовлетворяет закону больших чисел, если 
+A sequence of random variables $X_1, X_2, ..., X_n$ satisfies the law of large numbers if
 
-$\cfrac{X_1, X_2, ..., X_n}{n} - \cfrac{M(X_1), M(X_2), ..., M(X_n)}{n} \rightarrow_{p} 0$ при $n \rightarrow \infty$
+$\cfrac{X_1, X_2, ..., X_n}{n} - \cfrac{\mathbb{E}[X_1], \mathbb{E}[X_2], ..., \mathbb{E}[X_n]}{n} \rightarrow_{p} 0$ as $n \rightarrow \infty$
 
 
-Разновидности законов больших чисел:
-- [Weak Law of Large Numbers](Weak_Law_of_Large_Numbers) - наиболее общий закон больших чисел
-- [Bernoulli Theorem](Bernoulli_Theorem) - простейший закон больших чисел
-- [Центральная предельная теорема](Центральная_предельная_теорема)
+Types of laws of large numbers:
+- [Weak Law of Large Numbers](Weak_Law_of_Large_Numbers) - the most general law of large numbers
+- [Bernoulli Theorem](Bernoulli_Theorem) - the simplest law of large numbers
+- [Central Limit Theorem](Central_Limit_Theorem)
 
 
 ## Sources
-- Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
-- [Закон больших чисел на exponenta.ru](http://www.exponenta.ru/educat/class/courses/tv/theme0/10.asp)
+- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vyssh. shk., 2003.
+- [Law of Large Numbers on exponenta.ru](http://www.exponenta.ru/educat/class/courses/tv/theme0/10.asp)

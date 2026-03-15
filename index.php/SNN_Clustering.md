@@ -32,7 +32,8 @@ Step 1: SNN sparsification:
 
 
 Step 2: Weighting
-- weight the links with $\text{sim}(p, q) = \big|  \, \text{NN}(p) \ \cup \ \text{NN}(q) \, \big|$ |- where $\text{NN(p)}$ and $\text{NN(q)}$ are $k$ neighbors of $p$ and $q$ resp.
+- weight the links with $\text{sim}(p, q) = \big|  \, \text{NN}(p) \ \cup \ \text{NN}(q) \, \big|$
+- where $\text{NN(p)}$ and $\text{NN(q)}$ are $k$ neighbors of $p$ and $q$ resp.
 
 
 Step 3: Filtering

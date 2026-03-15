@@ -20,7 +20,9 @@ title: NoSQL
 - replication solutions are limited
   - use traditional replication algorithms to give strong consistency (like [Two-Phase Commit](Two-Phase_Commit))
   - but data is not made available until the commit finishes (and the database is back to the consistent state)
-  - not an option for systems where network failures are possible|   |- as the volume of data grows, queries become inefficient - not easily scalable |  - need to wait too long for all replicas to finish with commit
+  - not an option for systems where network failures are possible
+- as the volume of data grows, queries become inefficient - not easily scalable
+- need to wait too long for all replicas to finish with commit
 - hard to load-balance
 
 ## NoSQL

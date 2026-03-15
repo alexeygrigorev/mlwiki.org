@@ -142,7 +142,8 @@ F_{k+1} = F_{k+1} \\
   - $\lambda_1 = 0.5 (1 + \sqrt{5}) \approx  1.618$
   - $\lambda_1 = 0.5 (1 - \sqrt{5}) \approx -0.618$
 - so, $\mathbf u_{100} = c_1 \lambda_1^{100} \mathbf v_1 + c_2 \lambda_2^{100} \mathbf v_2$
-  - $\lambda_1 > 1$ so powers of it grow faster, and $| \lambda_2| < 1$, so its powers decay |  - thus $\lambda_1$ controls everything
+  - $\lambda_1 > 1$ so powers of it grow faster, and $| \lambda_2| < 1$, so its powers decay
+- thus $\lambda_1$ controls everything
 - and we can approximate $F_{100} \approx c_1 \lambda_1^{100}$
 
 

@@ -48,7 +48,8 @@ Using the dominance principle we can remove a set of actions from $A$
 
 $A^*$ is a set of efficient solutions
 - when $A$ and $E$ are finite, can define them $A^*$ as 
-- $A^* = \{ a \in A \ |  \ \forall  b: \overline{b \ D \ a} \}$ |- i.e. $A^*$ is a set of alternatives that are not dominated by any other 
+- $A^* = \{ a \in A \ |  \ \forall  b: \overline{b \ D \ a} \}$
+- i.e. $A^*$ is a set of alternatives that are not dominated by any other 
 - $A^*$ is always not empty
 
 

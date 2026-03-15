@@ -36,7 +36,8 @@ $S = $
 Is it [conflict-serializable](Serializable_Scheduling)? 
 - We build a precedence graph:
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/pred-graph-3.png" alt="Image">
-- there is a cycle|   $\to$ no conflict serializability |- so even if a lock-based schedule is legal, it doesn't mean it's conflict-serializable |
+- there is a cycle!$\to$ no conflict serializability
+- so even if a lock-based schedule is legal, it doesn't mean it's conflict-serializable
 
 ## Tho-Phase Locking
 To get a conflict-serializable schedule:

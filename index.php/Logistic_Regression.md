@@ -45,7 +45,8 @@ Logistic Regression - is a classification algorithm
 
 It inputs probability
 - We interpret the output from $h_{\theta}(x) $as probability that $y = 1$ on input $x$, or
-- $h_{\theta}(x) = P(y = 1 |  x; \theta)$: probability that $y = 1$ given $x$ parametrized by $\theta$ |- As $y = \{0, 1\}$, $P(y = 0|  x; \theta) =  1 - P(y = 1 | x; \theta)$ |
+- $h_{\theta}(x) = P(y = 1 |  x; \theta)$: probability that $y = 1$ given $x$ parametrized by $\theta$
+- As $y = \{0, 1\}$, $P(y = 0|  x; \theta) =  1 - P(y = 1 | x; \theta)$
 
 For example, suppose $x = \left[\begin{matrix} x_0 \\ x_1 \end{matrix} \right] = \left[\begin{matrix} 1 \\ \text{tumor size} \end{matrix} \right]$
 - if $h_{\theta}(x) = 0.7$, there's 70% chance of tumor being malignant 
@@ -148,7 +149,7 @@ So the whole Logistic Regression algorithms is:
 For multi-class classification with Logistic Regression use [One-vs-All Classification](One-vs-All_Classification)
 
 ### Regularization
-{{Main |  Regularization}} |
+{{Main |  Regularization}}
 To prevent [overfitting](Overfitting) we reduce magnitude of some features with [Regularization](Regularization)
 
 

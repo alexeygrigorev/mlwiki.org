@@ -66,13 +66,13 @@ So this the serialized form is
 <document> Hello World|   </document>
 ``` | |```xml
 <document>
-  <salutation> Hello World|   </salutation> |</document> |
+  <salutation> Hello World|   </salutation> |</document>
 ```
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <document>
-  <salutation color="blue"> Hello World|   </salutation> |</document> |
+  <salutation color="blue"> Hello World|   </salutation> |</document>
 ```
 
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/xml-trees-ex.png" alt="Image">

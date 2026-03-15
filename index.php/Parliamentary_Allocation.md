@@ -17,7 +17,8 @@ Problem:
 
 A quota $q_i$ of party $i$ is the number of sets the party receives after election:
 - $q_i = S \cdot \cfrac{P_i}{n}$
-- but it must be an integer|   Cannot divide one seat between two parties  | |
+- but it must be an integer|   Cannot divide one seat between two parties  
+
 This is important not only for seats allocation, but for allocating in general.
 
 For example,
@@ -28,7 +29,8 @@ For example,
 - can allocate as follows: the number of voters $p_i$ - density of a region, $n$ - all people of the area
 - $S$ is the number of medical units 
 - $q_i$ the number of medical units sent to region $i$ 
-- $q_i = S \cdot \cfrac{P_i}{n}$ - again: it has to be an integer|   | |
+- $q_i = S \cdot \cfrac{P_i}{n}$ - again: it has to be an integer
+ |
 ### Methods
 - [Hamilton's Method](Hamilton's_Method)
 - [Jefferson's Method](Jefferson's_Method)

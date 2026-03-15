@@ -45,7 +45,7 @@ $Z$-score of an observation is the number of standard deviations for the mean
 
 
 we can use $z$-scores to identify unusual observations 
-- $x_1$ is more unusual than $x_2$ if $|  z_1 | > | z_2 |$ |
+- $x_1$ is more unusual than $x_2$ if $|  z_1 | > | z_2 |$
 
 ### $Z$-standardization
 - so $Z$-scores are used to standardize the observations 

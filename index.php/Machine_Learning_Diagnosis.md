@@ -12,7 +12,9 @@ What should you try?
 - Get more training examples
 - Try smaller set of features 
 - Try getting additional features
-- Try adding polynomial features (beware of [Overfitting](Overfitting)|  ) |- Try increasing [regularization parameter](Regularization) $\lambda$ |- Try decreasing $\lambda $
+- Try adding polynomial features (beware of [Overfitting](Overfitting)|  )
+- Try increasing [regularization parameter](Regularization) $\lambda$
+- Try decreasing $\lambda $
 
 
 ''Diagnosis'' - a test that you can run to gain insights what is working with the learning algorithms and what is not, and gain guidance as how to improve the performance.
@@ -79,7 +81,8 @@ To fix high variance:
 
 To fix high bias:
 - Try getting additional features
-- Try adding polynomial features (beware of [Overfitting](Overfitting)|  ) |- Try increasing [regularization parameter](Regularization) $\lambda$ |
+- Try adding polynomial features (beware of [Overfitting](Overfitting)|  )
+- Try increasing [regularization parameter](Regularization) $\lambda$
 
 
 ## See also

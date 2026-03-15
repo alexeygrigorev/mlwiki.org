@@ -3,93 +3,91 @@ layout: default
 permalink: /index.php/Probability
 tags:
 - probability
-- russian
-- подготовка-к-шад
 title: Probability
 ---
-## События и испытания
+## Events and Trials
 
-''Событие'' называется ''случайным'', если при осуществлении определённой совокупности условий $S$ оно может либо произойти, либо не произойти.
+An ''event'' is called ''random'' if, under a certain set of conditions $S$, it may or may not occur.
 
-Событие - результат ''испытания''.
+An event is the result of a ''trial''.
 
-Пример
-- Стрелок стреляет по мишени. Выстрел - испытание. Попадание или непопадание - событие
-
-
-
-События являются ''несовместными'', если появление одного из них исключает появления других событий в одном и том же испытании
-
-Пример
-- Из ящика вынут шар. "Вынут красный шар" и "Вынут синий шар" - несовместные события;
-- Выпадание орла и решки - несовместные события.
+Example
+- A shooter fires at a target. The shot is a trial. Hitting or missing is an event.
 
 
-Несколько событий образуют ''полную группу'', если в результате испытания появится хотя бы одно из этих событий. Полная группа событий обозначается буквой $\Omega$.
 
-Если события, образующие полную группу, попарно несовместны, то появиться может только одно из них.
+Events are ''mutually exclusive'' if the occurrence of one of them precludes the occurrence of the others in the same trial.
 
-Пример
-- Орел и решка - полная группа событий
-
-
-''Противоположными'' называют два единственно возможных события, образующие полную группу событий. Событие, противоположное событию $A$ обозначают $\bar{A}$
+Example
+- A ball is drawn from a box. "A red ball is drawn" and "A blue ball is drawn" are mutually exclusive events;
+- Getting heads and tails are mutually exclusive events.
 
 
-Два события называют ''совместными'', если появление одного не исключает появление другого в одном и том же испытании.
+Several events form a ''complete group'' if at least one of these events will occur as a result of a trial. A complete group of events is denoted by $\Omega$.
 
-Пример
-- Брошена игральная кость. Событие $A$ - выпало 4 очка, и событие $B$ - выпало четное количество очков. События $A$ и $B$ совместные.
+If the events forming a complete group are pairwise mutually exclusive, then only one of them can occur.
 
-## Классическое определение вероятности
-
-''Probability'' - число, характерезующее степень возможности появления события.
-
-Каждый возможный результат испытания - ''элементарный исход''.
-
-''Probability события $A$'' - отношение числа благоприятствующих событию $A$ элементарных исходов к общему их числу, обозначается $P(A)$. 
-
-$P(A) = \frac{m}{n}$, где $m$ - число благоприятствующих исходов, $n$ - общее число исходов.
+Example
+- Heads and tails form a complete group of events
 
 
-'''Пример'''
+Two events are called ''complementary'' if they are the only two possible events forming a complete group. The event complementary to event $A$ is denoted $\bar{A}$.
 
-- Всевозможные элементарные исходы
-:* $\omega_1$ - белый шар
-:* $\omega_2$ - белый шар
-:* $\omega_3$ - чёрный шар
 
-- События
-: $A$ - вынут белый шар
-: $B$ - вынут чёрный шар
+Two events are called ''compatible'' if the occurrence of one does not preclude the occurrence of the other in the same trial.
 
-- Вероятности
-: $P(A) = \frac{2}{3}$ 
+Example
+- A die is thrown. Event $A$ is rolling 4, and event $B$ is rolling an even number. Events $A$ and $B$ are compatible.
+
+## Classical Definition of Probability
+
+''Probability'' is a number characterizing the degree of likelihood of an event occurring.
+
+Each possible outcome of a trial is an ''elementary outcome''.
+
+''The probability of event $A$'' is the ratio of the number of elementary outcomes favorable to event $A$ to the total number of outcomes, denoted $P(A)$.
+
+$P(A) = \frac{m}{n}$, where $m$ is the number of favorable outcomes, $n$ is the total number of outcomes.
+
+
+'''Example'''
+
+- All possible elementary outcomes
+:* $\omega_1$ - white ball
+:* $\omega_2$ - white ball
+:* $\omega_3$ - black ball
+
+- Events
+: $A$ - a white ball is drawn
+: $B$ - a black ball is drawn
+
+- Probabilities
+: $P(A) = \frac{2}{3}$
 : $P(B) = \frac{1}{3}$
 
-### Свойства вероятности
+### Properties of Probability
 
-1. . Probability достоверного события $A$: $P(A) = 1$
-1. . Probability невозможного события $A$: $P(A) = 0$
-1. . Probability случайного события $A$: $0 < P(A) < 1$
+1. . Probability of a certain event $A$: $P(A) = 1$
+1. . Probability of an impossible event $A$: $P(A) = 0$
+1. . Probability of a random event $A$: $0 < P(A) < 1$
 
-Таким образом, $0 \leqslant p \leqslant 1$
-
-
-## Статистическое определение вероятности
-
-Классическое определение вероятности подразумевает конечность числа элементарных исходов. На практике же это число может быть бесконечно. Так же часто невозможно представить результат в виде совокупности элементарных событий.
-
-''Статистическое определение вероятности'' - в качестве вероятности принимается относительная частота $\frac{m}{n}$.
-
-При этом все свойства вероятности выполняются: $0 \leqslant p = \frac{m}{n} \leqslant 1$
+Thus, $0 \leqslant p \leqslant 1$
 
 
-## Принцип практической невозможности маловероятных событий
+## Statistical Definition of Probability
 
-Если случайное событие имеет очень маленькую вероятность, то практически можно считать, что в единичном испытание это событие не произойдет.
+The classical definition of probability assumes a finite number of elementary outcomes. In practice, however, this number can be infinite. Also, it is often impossible to represent the result as a collection of elementary events.
 
-''Уровень значимости'' - достаточно малая вероятность, при которой событие можно считать невозможным. 
+''Statistical definition of probability'' - the relative frequency $\frac{m}{n}$ is taken as the probability.
+
+All properties of probability still hold: $0 \leqslant p = \frac{m}{n} \leqslant 1$
+
+
+## Principle of Practical Impossibility of Unlikely Events
+
+If a random event has a very small probability, then in practice it can be considered that this event will not occur in a single trial.
+
+''Significance level'' - a sufficiently small probability at which an event can be considered impossible.
 
 ## Sources
-- Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
+- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vyssh. shk., 2003.

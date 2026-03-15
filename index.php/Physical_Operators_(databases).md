@@ -15,7 +15,7 @@ To estimate a cost we use the following statistics from [Database System Catalog
 - $B(R)$ - # of blocks that relation $R$ holds
 - $T(R)$ - # of tuples in $R$
   - typically can be used to calculate $B(R)$ when we know how many bytes we have per block
-- $V(R, A_1, ..., A_n) = |  \delta \pi_{A_1, ..., A_n} (R)  |$ - # of distinct values  |
+- $V(R, A_1, ..., A_n) = |  \delta \pi_{A_1, ..., A_n} (R)  |$ - # of distinct values
 ### Parameters
 And also we use 
 - $M$ - number of available main memory buffers 
@@ -86,7 +86,8 @@ Idea:
 
 Problem: 
 - We can do it only when one of the relations fin into memory 
-- usually they don't fit|   | |
+- usually they don't fit
+ |
 ### Sort-Based Set Union
 what if there's no enough memory available? 
 
@@ -118,7 +119,8 @@ Cost:
 
 #### Optimization
 - Synchronous Iteration of Sort-Based Union is very similar to the merge phase of [External Merge Sort](External_Merge_Sort)
-- Sometimes we can combine them - and avoid doing the last pass of Merge Sort|   | |Algorithm:
+- Sometimes we can combine them - and avoid doing the last pass of Merge Sort
+ |Algorithm:
 - Sort $R$, but don't execute the last merge phase
   - we know that after that $R$ is divided into $l$ sorted lists
   - $1 < l \leqslant M$
@@ -134,7 +136,8 @@ Cost:
 - $2 B(S) \big( \lceil \log_M B(S) \rceil - 1 \big)$: cost of sorting $S$ without last pass
 - $B(R) + B(S)$ to iterate synchronously to output the results
 - or $2 B(R) \lceil \log_M B(R) \rceil + 2 B(S) \lceil \log_M B(S) \rceil - B(R) - B(S)$
-- we save $B(R) + B(S)$ I/Os|   | |
+- we save $B(R) + B(S)$ I/Os
+ |
 Note that
 - this optimization is only possible if $k + l \leqslant M$
 - can calculate $k$ and $l$ as
@@ -370,7 +373,8 @@ First variant is ''tuple-based nested join loop''
 We need only one buffer for $R$ and one buffer for $S$
 
 Cost
-- $T(R) \times T(S)$ - very expensive|   | |#### Block-Based Nested Join Loop
+- $T(R) \times T(S)$ - very expensive
+ |#### Block-Based Nested Join Loop
 - We divide $R$ into segments of $M - 1$ blocks
 - and for each such segment we go through entire $S$
 

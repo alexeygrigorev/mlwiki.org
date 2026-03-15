@@ -58,13 +58,17 @@ Why TF-IDF is good for classification:
 
 
 ### [Dimensionality Reduction](Dimensionality_Reduction)
-- Given a vocabulary/term set $V$ of size $|  V |$  |- the goal is to find $V'$ s.t. $|  V' | \ll | V |$ ($V'$ is called "reduced vocabulary" or "reduced term set") |- DR techniques tend to reduce [Overfitting](Overfitting): 
-  - if dimensionality of data is $| V'|$ and there are $N$ examples in the training set |  - then it's good to have $| V'| \approx N$ to avoid overfitting |
+- Given a vocabulary/term set $V$ of size $|  V |$
+- the goal is to find $V'$ s.t. $|  V' | \ll | V |$ ($V'$ is called "reduced vocabulary" or "reduced term set")
+- DR techniques tend to reduce [Overfitting](Overfitting): 
+  - if dimensionality of data is $| V'|$ and there are $N$ examples in the training set
+- then it's good to have $| V'| \approx N$ to avoid overfitting
 
 We can divide dimensionality reduction techniques by locality: 
 - local dimensionality reduction
   - applied to each category $c_i$ 
-  - choose a reduced set $|  V'_i | \ll | V_i |$  for each category |- global: choose $|  V' |$ using all categories  |
+  - choose a reduced set $|  V'_i | \ll | V_i |$  for each category
+- global: choose $|  V' |$ using all categories
 
 
 There are two (very different) types of dimensionality reduction
@@ -95,7 +99,8 @@ Usual IR and indexing techniques for reducing dimensionality are
 Note that DR techniques sometimes may remove important information when removing terms
 
 How to select terms?
-- [Subset Selection](Subset_Selection): usually not used because $|  V |$ is too large |- [Feature Filtering](Feature_Filtering): rank terms according to their "usefulness" and keep only some of them
+- [Subset Selection](Subset_Selection): usually not used because $|  V |$ is too large
+- [Feature Filtering](Feature_Filtering): rank terms according to their "usefulness" and keep only some of them
 - Document Frequency: Keep only terms that occur in higher number of documents
   - e.g. remove words that occur only in 3 documents or less
 
