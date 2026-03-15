@@ -9,15 +9,15 @@ title: Workflow Nets
 ## Workflow Nets
 By workflow nets here we refer to [petri-net-based](Petri_Nets) workflows. 
 
-So, a ''workflow net'' is a special type of a petri net that is suitable for expressing workflows 
+So, a *workflow net* is a special type of a petri net that is suitable for expressing workflows 
 
 In a workflow net:
 - there's a clear start: 
-  - the unique dedicated ''input place'' $i$ s.t.
+  - the unique dedicated *input place* $i$ s.t.
   - $\bullet i = \varnothing$
   - i.e. no transition can put a token to $i$
 - there's a clear end:
-  - the unique dedicated ''output place'' $o$ s.t.
+  - the unique dedicated *output place* $o$ s.t.
   - $o \bullet = \varnothing$
   - i.e. no transitions should consume tokens from $o$
 - every other transition and place are on the path from $i$ to $o$ 

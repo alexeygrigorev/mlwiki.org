@@ -6,7 +6,6 @@ tags:
 - statistics
 title: Statistical Simulation
 ---
-{{stub}}
 
 ## Statistical Simulation
 Sometimes it's not possible to use classical configurations to make inferences about things, e.g. our sample size is small 

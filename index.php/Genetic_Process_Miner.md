@@ -37,7 +37,7 @@ Cross-over
 How to create a petri net from two other petri nets?
 - suppose we have two parental petri nets:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/gm-crossover-p.png" alt="Image">
-- we may find some ''minimal cut'', cut the parents and make children from then 
+- we may find some *minimal cut*, cut the parents and make children from then 
   - minimal cut is the minimal number of transitions to remove s.t. the net becomes completely disconnected 
   - the same as in the [Graph](Graph) Theory: [Minimal Cut](Minimal_Cut)
 - in this example: 
@@ -78,7 +78,7 @@ Also
 
 ## Cost Function: Fitness
 ### Trace Level Fitness
-Define ''trace-level fitness'' as: 
+Define *trace-level fitness* as: 
 - $\text{fitness}(\sigma, N) = \cfrac{1}{2} \left( 1 - \cfrac{m}{c} \right) + \cfrac{1}{2} \left( 1 - \cfrac{r}{p} \right)$
 - $m$ - # of missing tokens
 - $c$ - # of consumed tokens

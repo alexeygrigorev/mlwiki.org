@@ -6,7 +6,6 @@ tags:
 - functions
 title: Hyperbolic Trigonometric Functions
 ---
-{{stub}}
 
 == Hyperbolic Trigonometric Functions == 
 Hyperbolic trigs are analogs of usual [Trigonometric Functions](Trigonometric_Functions) 

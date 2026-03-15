@@ -25,7 +25,7 @@ $\alpha$ is the learning rate, value that specifies how small are steps we take
 
 
 ### Simultaneous Update
-Note that the update for $(\theta_0, \theta_1)$ has to be ''simultaneous''. That is 
+Note that the update for $(\theta_0, \theta_1)$ has to be *simultaneous*. That is 
 - $\tau_0 = \theta_0 - \alpha \cfrac{\partial}{\partial \theta_0} J(\theta_0, \theta_1)$
 - $\tau_1 = \theta_1 - \alpha \cfrac{\partial}{\partial \theta_1} J(\theta_0, \theta_1)$
 - $\theta_0 = \tau_0$
@@ -33,7 +33,7 @@ Note that the update for $(\theta_0, \theta_1)$ has to be ''simultaneous''. That
 
 As you see, $\theta_0$ is used to calculate new value for $\theta_1$, so we cannot update it before we calculate new value for $\theta_0$.
 
-This is called ''simultaneous update''
+This is called *simultaneous update*
 
 
 ## Intuition
@@ -47,18 +47,18 @@ let's have a look at the partial derivative:
 - $\beta = \alpha \cfrac{d}{d \theta_1} J(\theta_1)$
 
 if the derivative is positive
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/gradient-descent-right-deriv.png" alt="Image">" />
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/gradient-descent-right-deriv.png" alt="Image" />
 - we're moving left: 
   $\theta_1 = \theta_1 - \beta$
 
 if the derivative is negative
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/gradient-descent-left-deriv.png" alt="Image">" />
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/gradient-descent-left-deriv.png" alt="Image" />
 - we're moving right:
   $\theta_1 = \theta_1 + \beta$
 
 
 For two variables the cost function would look like that:
-  <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/gradient-descent-2vars.png" alt="Image">" />
+  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/gradient-descent-2vars.png" alt="Image" />
 
 
 ### Learning Rate
@@ -81,7 +81,7 @@ The cost function $J$ has to be convex if we don't want to end up in a local min
 
 We need to minimize the cost function:
 - $J(\theta_1, \theta_2) = \cfrac{1}{2 m} \sum_{i = 1}{m} (h_0 x^{(i)} - y^{(i)} )^2$
-- This is the ''squared error cost function''
+- This is the *squared error cost function*
 
 Let's simplify our expression:
   $\cfrac{\partial}{\partial \theta_j} J(\theta_0, \theta_1) =  \cfrac{\partial}{\partial \theta_j} \cfrac{1}{2m} \sum (h_{\theta}(x^{i}) - y^{(i)} )^2 = \cfrac{\partial}{\partial \theta_j} \cfrac{1}{2m} \sum (\theta_0 + \theta_1 x^{i} - y^{(i)} )^2 $
@@ -132,7 +132,7 @@ Use [Feature Scaling](Feature_Scaling) to help GD converge faster
 ### Learning Rate
 - How to choose $\alpha$?
 - If GD works properly, cost function should decrease after each iteration 
-- if $J$ decreases by less than $\epsilon = 10^{-3}$ in one iteration - declare ''convergence''
+- if $J$ decreases by less than $\epsilon = 10^{-3}$ in one iteration - declare *convergence*
 - If $J$ is increasing instead - need to make $\alpha$ smaller 
 
 Choosing $\alpha$:

@@ -14,7 +14,7 @@ This is a part of [Local Pattern Discovery](Local_Pattern_Discovery)
 ### Descriptive Patterns
 Suppose that we have the following table:
 
-|    |  Wings  |  Beak  |  Webfoot  |  Fly  |  Swim  |   Owl  |  {{yes}}  |  {{yes}}  |  {{no}}  |  {{yes}}  |  {{no}} ||   Parrot  |  {{yes}}  |  {{yes}}  |  {{no}}  |  {{yes}}  |  {{no}} ||   Flamingo  |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{yes}} ||   Penguin  |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{no}}  |  {{yes}} |
+|    |  Wings  |  Beak  |  Webfoot  |  Fly  |  Swim  |   Owl  |  Yes  |  Yes  |  No  |  Yes  |  No ||   Parrot  |  Yes  |  Yes  |  No  |  Yes  |  No ||   Flamingo  |  Yes  |  Yes  |  Yes  |  Yes  |  Yes ||   Penguin  |  Yes  |  Yes  |  Yes  |  No  |  Yes |
 We can say that the following are descriptive patterns
 - $\text{wings}$
 - $\text{beak}$
@@ -34,11 +34,11 @@ Goal
 - finding descriptive patterns with probabilities that exceed a certain threshold
 
 ### Notation
-- ''items'': set of distinct literals: $\{ a, b, c, ...\}$
-- ''itemsets'': any combination of items $\{ a, f, ... \}$
-- ''language'': all possible itemsets for the set of items
-- ''dataset'': a multiset (i.e. a set that allows duplicates) of itemsets
-- an itemset is ''frequent'' if it happens more than some certain threshold
+- *items*: set of distinct literals: $\{ a, b, c, ...\}$
+- *itemsets*: any combination of items $\{ a, f, ... \}$
+- *language*: all possible itemsets for the set of items
+- *dataset*: a multiset (i.e. a set that allows duplicates) of itemsets
+- an itemset is *frequent* if it happens more than some certain threshold
 
 
 ### Naive Approach
@@ -52,7 +52,7 @@ Example
 - items ${a,b,c,d,e,f}$
 - 4 transactions $\big\{ \{a,b,c\}, \{a,c,d,e,f\}, \{a,b,c\}, \{d,e\} \big\}$
 
-```tera term macro
+```
 I = 'abcdef'
 T = ['abc', 'acdef', 'abc', 'de']
 for X in powerset(I):
@@ -94,16 +94,9 @@ There are two ways we can traverse this lattice:
 - [Depth-First Search](Depth-First_Search) - [Eclat](Eclat) algorithm
 
 
-|    |  [Apriori](Apriori)  |  [Eclat](Eclat)  |   $+$   |   |- "Perfect" pruning of infrequent candidate itemsets
-
-|   |- [DFS](Depth-First_Search) reduces memory requirements
-- Usually (considerably) faster
-
-|   $-$  |  |- Can require a lot of memory (since all frequent item sets are represented)
-- Support counting takes very long for large transactions
-- so not always efficient in practice
-
-|  |- Storage of transaction lists
+|    |  [Apriori](Apriori)  |  [Eclat](Eclat)  |
+|   $+$   |  - "Perfect" pruning of infrequent candidate itemsets  |  - [DFS](Depth-First_Search) reduces memory requirements - Usually (considerably) faster  |
+|   $-$  |  - Can require a lot of memory (since all frequent item sets are represented) - Support counting takes very long for large transactions - so not always efficient in practice  |  - Storage of transaction lists  |
 
 
 

@@ -6,7 +6,6 @@ tags:
 - topic-models
 title: Topic Models
 ---
-{{stub}}
 
 ## Topic Models
 Topic models is a probabilistic approach to [Document Clustering](Document_Clustering):

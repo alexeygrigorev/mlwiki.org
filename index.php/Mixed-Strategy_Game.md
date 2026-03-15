@@ -5,7 +5,6 @@ tags:
 - game-theory
 title: Mixed-Strategy Game
 ---
-{{draft}}
 
 ## Mixed-Strategy
 

@@ -10,11 +10,11 @@ In Game Theory the decision of a decision maker and its consequences are based o
 
 
 ### Game
-A ''game'' is a ''strategic interaction'' (in economics, social studies, networking, etc) between two or more ''self-interested agents''
+A *game* is a *strategic interaction* (in economics, social studies, networking, etc) between two or more *self-interested agents*
 
 Each agent has his/her own opinions and preferences
 
-The ''outcome'' of a game depends on what all agents do
+The *outcome* of a game depends on what all agents do
 - what actions a game player takes?
 - all users act in the same way?
 - is there a global behavior pattern?
@@ -54,7 +54,7 @@ There are many types of games:
 
 ### Rationality
 It is often assumed that agents behave rationally:
-- a ''rational agent'' wants to maximize the consequence (utility, etc)
+- a *rational agent* wants to maximize the consequence (utility, etc)
 - There are some important principles:
 - The [Dominance](Dominance) principle (same as [Unanimity](Unanimity)) [Iterative Removal](Iterative_Removal)
 - [Nash Equilibrium](Nash_Equilibrium)

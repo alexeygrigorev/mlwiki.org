@@ -12,8 +12,8 @@ In [Linear Algebra](Linear_Algebra), a matrix an $n \times n$ matrix is Positive
 - This is the energy based definition
 
 
-Why ''energy''?
-- because $\mathbf v^T A \mathbf v$ or $\frac{1}{2} \mathbf v^T A \mathbf v$ is called the ''energy'' of the system $A$
+Why *energy*?
+- because $\mathbf v^T A \mathbf v$ or $\frac{1}{2} \mathbf v^T A \mathbf v$ is called the *energy* of the system $A$
 
 
 ## Positive Semi-Definite Matrices
@@ -65,10 +65,10 @@ Consider an alternative:
 - <img src="http://habrastorage.org/files/07a/cbc/a56/07acbca564ff4962993cf450951146bf.png" alt="Image">
 
 
-We say that $A_1$ is ''indefinite'', and $A_2$ is ''positive-definite''
+We say that $A_1$ is *indefinite*, and $A_2$ is *positive-definite*
 
 
-<img src="<img src="http://brickisland.net/cs177/wp-content/uploads/2011/11/ddg_definiteness.svg" alt="Image">" />
+<img src="http://brickisland.net/cs177/wp-content/uploads/2011/11/ddg_definiteness.svg" alt="Image" />
 
 Source: [link](http://brickisland.net/cs177fa12/?p=302)
 

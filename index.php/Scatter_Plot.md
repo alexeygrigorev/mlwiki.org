@@ -11,7 +11,7 @@ This is a [Plot](Plot) that can be useful for [initial](Exploratory_Data_Analysi
 - it uses Cartesian coordinates to visualize relationships between variables
 - So, useful for [Bivariate Analysis](Bivariate_Analysis)
 
-```text only
+```
 plot(pData$JWMNP, pData$WAGP, pch=19, col="blue")
 ```
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/da/scatter-plot-1.png" alt="Image">
@@ -24,7 +24,7 @@ What if we want to include one more variable?
 - use color coding
 - e.g. can encode sex in color
 
-```text only
+```
 plot(pData$JWMNP, pData$WAGP, pch=19, col=pData$SEX, cex=0.5)
 ```
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/da/scatter-plot-2.png" alt="Image">
@@ -33,7 +33,7 @@ plot(pData$JWMNP, pData$WAGP, pch=19, col=pData$SEX, cex=0.5)
 ### Lots of Data
 How to visualize when there are many data points in your data?
 
-```text only
+```
 x = rnorm(10000)
 y = rnorm(10000)
 plot(x, y, pch=19)

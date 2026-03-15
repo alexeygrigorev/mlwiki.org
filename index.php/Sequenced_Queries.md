@@ -393,7 +393,7 @@ Step 3
 - coalesce these intervals 
 
 
-'''Count''' is a little bit different
+'*Count*' is a little bit different
 - we need to identify gaps in the history and put there zeros
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/adb/td-aggregations-count.png" alt="Image">
 

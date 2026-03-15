@@ -8,7 +8,7 @@ title: Nullspace
 ## Nullspace
 Nullspace $N(A)$ of a matrix $A$ is one of the [Four Fundamental Subspaces](Four_Fundamental_Subspaces) of the matrix $A$
 
-The nullspace of $A$ contains all $\mathbf x$ that solve the [system](System_of_Linear_Equations) $A \mathbf x = \mathbf 0$ (this system is called [''homogeneous''](Homogeneous_Systems_of_Linear_Equations))
+The nullspace of $A$ contains all $\mathbf x$ that solve the [system](System_of_Linear_Equations) $A \mathbf x = \mathbf 0$ (this system is called [*homogeneous*](Homogeneous_Systems_of_Linear_Equations))
 
 
 ### Example

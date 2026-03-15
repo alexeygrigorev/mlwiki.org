@@ -6,10 +6,9 @@ tags:
 - probability
 title: Distribution Function
 ---
-{{stub}}
 
 ## (Cumulative) [Distribution](Distribution) Function
-A ''distribution function'' $F_X(x)$ (''Функция распределения'') 
+A *distribution function* $F_X(x)$ (*Функция распределения*) 
 - is a function that defines the [Probability](Probability) of a [Random Variable](Random_Variable) $X$ having values less than $x$
 - i.e. $F_X(x) = P(X < x)$
 - this, $F_X(x)$ defines the probability of $X$ taking value on the left of $x$
@@ -32,7 +31,7 @@ if $\text{Dom}(X) = (a, b)$ (continuous)
 
 
 ## Probability Density Function
-A ''density'' of $F_X(x)$ is a function $f_X(x)$ s.t.
+A *density* of $F_X(x)$ is a function $f_X(x)$ s.t.
 - $f_X(x) = F_X'(x)$
 
 The probability that $X$ will take some value from interval $(a, b)$

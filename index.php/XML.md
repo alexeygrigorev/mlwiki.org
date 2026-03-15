@@ -57,8 +57,7 @@ So this the serialized form is
 - it's a textual, linear representation of the tree
 
 
-=== Examples === 
-```text only
+### Examples```
 <document />
 ```
 
@@ -186,7 +185,7 @@ Consider the following XML documents :
 Which representation is better? 
 - it depends 
 - attributes should rather be used for metadata (like units of measure, etc)
-- also attributes must be used only for simple types - not for complex values|   | |```text only
+- also attributes must be used only for simple types - not for complex values|   | |```
 <note date="10/01/2008" />
 ```
 

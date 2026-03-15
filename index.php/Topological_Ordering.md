@@ -8,21 +8,21 @@ tags:
 title: Topological Ordering
 ---
 ## Topological Ordering
-A ''topological ordering'' for a directed graph $G$ is a labelling $f$ of $G$'s nodes such that
+A *topological ordering* for a directed graph $G$ is a labelling $f$ of $G$'s nodes such that
 - the $f(v)$'s are the set $\{1, 2, ..., n\}$
 - $(u, v) \in G$ => $f(u) < f(v)$
 - all edges go forward
 
 Example:
-- graph <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/30n9ocu0akrqskcbbemhfamnld.png" alt="Image">" \>
-- possible orderings <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/1g0c9hkcn6db8rsd4somiag97q.png" alt="Image">" \>
+- graph <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/30n9ocu0akrqskcbbemhfamnld.png" alt="Image" />
+- possible orderings <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/1g0c9hkcn6db8rsd4somiag97q.png" alt="Image" />
 
 Motivation:
 - sequence tasks while respecting all constains
   - courses at uni with prerequisites
 
 ## Straightforward solution
-- every directed graph has a ''sink'' vertex  <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/4ptua7u63ola9kq942q7f108s8.png" alt="Image">" \>
+- every directed graph has a *sink* vertex  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/4ptua7u63ola9kq942q7f108s8.png" alt="Image" />
 - compute backwards, finding a sink on each iteration
 
 Idea:
@@ -62,10 +62,10 @@ Idea: instead of marking the vertices as explored, mark them with two colors:
 - another color means "the vertex has been processed"
 
 Modifications:
-- check if vertex $s$ is already ''being proceed'' - and if so, report a cycle 
-- mark the vertex as ''being processed''
+- check if vertex $s$ is already *being proceed* - and if so, report a cycle 
+- mark the vertex as *being processed*
 - proceed as usually
-- before leaving the routine, mark the vertex as ''done''
+- before leaving the routine, mark the vertex as *done*
 
 
 ## Implementation

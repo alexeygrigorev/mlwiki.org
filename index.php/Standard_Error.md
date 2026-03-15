@@ -10,8 +10,8 @@ title: Standard Error
 Goal of [Inferential Statistics](Inferential_Statistics) - to make conclusion about the whole population based on a sample
 - So we estimate the parameters based on sampled data 
   - if the estimate is just one number, we call it a [Point Estimate](Point_Estimate)
-- And with different samples (from the same population) we get different estimates of the same parameter - so we have ''variability'' (''sampling variability'') in estimates 
-- The probability distribution of the parameter estimate is called ''Sampling Distribution'' 
+- And with different samples (from the same population) we get different estimates of the same parameter - so we have *variability* (*sampling variability*) in estimates 
+- The probability distribution of the parameter estimate is called *Sampling Distribution* 
 
 
 ### Sampling Distribution
@@ -28,7 +28,7 @@ The sampling distribution represents the distribution of point estimates based o
   - $\hat{p} = \cfrac{\text{# of heads}}{\text{total # of flips}}$
   - i.e. $\hat{p}$ is calculated from data
 
-```text only
+```
 set.seed(134)
 rbinom(10, size=10, prob=0.5)
 ```
@@ -39,7 +39,7 @@ We get different results each time:
 
 Since we know that theoretically this [Random Variable](Random_Variable) follows [Binomial Distribution](Binomial_Distribution), we can model the sampling distribution as
 
-```text only
+```
 d = dbinom(1:10, size=10, prob=0.5)
 bp = barplot(d)
 axis(side=1, at=bp[1:10], labels=1:10)
@@ -54,7 +54,7 @@ This sampling distribution is used for [Binomial Proportion Confidence Intervals
 
 
 ### Example 2
-```gdscript
+```
 load(url('http://s3.amazonaws.com/assets.datacamp.com/course/dasi/ames.RData'))
 area = ames$Gr.Liv.Area
 sample_means50 = rep(NA, 5000)
@@ -73,7 +73,7 @@ hist(sample_means50, breaks=13, probability=T, col='orange',
 
 ### Example: Running Mean
 There's another example that shows that the more data we have, the more accurate our point estimates are
-- A ''running mean'' (or '[Moving Average](Moving_Average)') is a sequence of means, where each following mean uses one extra observation
+- A *running mean* (or '[Moving Average](Moving_Average)') is a sequence of means, where each following mean uses one extra observation
 - If we take the moving average from 1 data point and keep including next ones, it approaches the "true mean"
 
 <img src="http://habrastorage.org/files/454/073/b0a/454073b0ac4149c789916b3dba2c61c6.png" alt="Image">

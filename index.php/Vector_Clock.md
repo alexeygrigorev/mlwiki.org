@@ -11,7 +11,7 @@ title: Vector Clock
 Vector Clock is a popular data structure for ensuring ordering of events in distributes systems. It is often used for achieving [Eventual Consistency](Eventual_Consistency)
 
 
-'''def:''' a vector clock is a tuple $(t_1, ..., t_n)$  of clock values for each node, with $n$ nodes in total. 
+'*def:*' a vector clock is a tuple $(t_1, ..., t_n)$  of clock values for each node, with $n$ nodes in total. 
 
 Notation:
 for a vector clock $v$, $v[i]$ is the value for node $i$ 
@@ -29,14 +29,14 @@ When data is written to a node $i$, it sets its timestamp $t_i$ to its clock val
 ### Causation
 Suppose we have two events $e_1$ with vector clock $v_1$, and $e_2$ with vector clock $v_2$
 
-$e_1$ happens ''before'' $e_2$ if
+$e_1$ happens *before* $e_2$ if
 - $v_1$ < $v_2$
 
-$e_1$ happens ''concurrently'' to $e_2$ if
+$e_1$ happens *concurrently* to $e_2$ if
 - there exist $i, j$ s.t. $v_1[i] < v_2[i]$ and $v_1[j] > v_2[j]$
 - (cannot say if $v_1 < v_2$ or $v_2 < v_1$)
 
-$e_1$ happens ''after'' $e_2$ if
+$e_1$ happens *after* $e_2$ if
 - $v_1$ > $v_2$ 
 
 
@@ -48,19 +48,19 @@ $e_1$ happens ''after'' $e_2$ if
 
 
 ## Implementation
-Since the number of nodes may be big, may prefer to have sparse representation, i.e. to store the vector clock as '''(node_id, version)''' pairs
+Since the number of nodes may be big, may prefer to have sparse representation, i.e. to store the vector clock as '*(node_id, version)*' pairs
 
 
 ### Voldemort implementation
 Here's the [Voldemort](http://www.project-voldemort.com/voldemort/) implementation [link](http://code.google.com/p/project-voldemort/source/browse/trunk/src/java/voldemort/versioning/VectorClock.java)
 
 
-class '''ClockEntry'''
+class '*ClockEntry*'
 - has 2 fields: nodeId and verstion
 - method incremented() returns a new ClockEntry with incremented version (same nodeId)
 
 
-'''VectorClock'''
+'*VectorClock*'
 - 2 fields:
   - versions: list of ClockEntry classes
   - timestamp: time of the last update
@@ -72,7 +72,7 @@ class '''ClockEntry'''
 - merge with another VectorClock. Creates a new VectorClock in which
   - nodes are merged in sorted order (as in [Merge Sort](Merge_Sort))
   - if two nodes have the same nodeId, the max version is used
-- method compare returns a value from enum '''{BEFORE, AFTER, CONCURRENT}'''
+- method compare returns a value from enum '*{BEFORE, AFTER, CONCURRENT}*'
 
 
 ## Example

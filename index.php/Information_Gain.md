@@ -62,7 +62,7 @@ Entropy is maximal when $p_1 = p_2 = 0.5$
 Suppose we want to split a set $S$ into two parts $S_1$ and $S_2$
 - we compute the entropy before splitting
 - and compute the entropy after splitting at some point $\alpha$
-- the ''information gain'' of splitting is the entropy before minus the expected entropy after 
+- the *information gain* of splitting is the entropy before minus the expected entropy after 
 
 $I(S, \alpha) = I(S) - E[I(\{S_1, S_2\})] = I(S) - p_1 \cdot I(S_1) - p_2 \cdot I(S_2)$
 - where $p_1 = \cfrac- and $S_1, S_2$ are subsets of $S$ s.t. $S_1 \equiv \{ s \ : \ s < \alpha \}$ and $S_2 = S - S_1$

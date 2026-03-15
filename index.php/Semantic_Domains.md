@@ -7,7 +7,7 @@ tags:
 title: Semantic Domains
 ---
 ## Semantic Domains
-- A ''semantic field'' corresponds to words grouped by their meaning
+- A *semantic field* corresponds to words grouped by their meaning
 - it consists of words from some domain
 - e.g. in English the field "Rain" may include words like "rain", "drizzle", "downpour", "raindrop", "puddle", all of these words can be used to talk about rain
 
@@ -21,7 +21,7 @@ Words within one domain are related by lexical relations
 Forming lexical relations:
 - we learn lexical relations to speak correctly 
 - each of us has a big mental dictionary organized into a big network of lexical relations
-- there are clusters in this network: ''semantic field''
+- there are clusters in this network: *semantic field*
 
 
 Semantic Domains:
@@ -57,7 +57,7 @@ Limitation of this theory:
 
 
 ## Semantic Domains
-''Semantic Domains'' are Semantic Fields that are characterized by set of ''domain words'' which often occur in texts about corresponding domain
+*Semantic Domains* are Semantic Fields that are characterized by set of *domain words* which often occur in texts about corresponding domain
 - words belonging to the same lexical field are called "domain words"
 - usually large potion of the language terminology is characterized by domain words 
 
@@ -81,11 +81,11 @@ Lexical coherence assumption:
 
 
 There are 3 types of words 
-- '''Text-Related Domain words''': words that have at least one sense that contributes to determining the domain of the whore text 
+- '*Text-Related Domain words*': words that have at least one sense that contributes to determining the domain of the whore text 
   - e.g. word "bank" in a text about economy
-- '''Text-Unrelated Domain words''': words that are from some non-generic domain, but don't contribute to the domain of the text
+- '*Text-Unrelated Domain words*': words that are from some non-generic domain, but don't contribute to the domain of the text
   - e.g. word "church" in a text about economy
-- '''Text-Unrelated Generic words''': don't bring any relevant domain information 
+- '*Text-Unrelated Generic words*': don't bring any relevant domain information 
   - e.g. "to be"
 
 
@@ -262,8 +262,8 @@ LSA is done by projecting TermVSM and TextVSM to a common LSA space using some l
 
 DO [SVD](SVD):
 - $T = W \Sigma P^T$ 
-- $W$ (for '''W'''ords) are orthogonal eigenvectors of $T T^T$: word vectors
-- $P$ (for '''P'''assages) are orthogonal eigenvectors of $T^T T$: document vectors
+- $W$ (for '*W*'ords) are orthogonal eigenvectors of $T T^T$: word vectors
+- $P$ (for '*P*'assages) are orthogonal eigenvectors of $T^T T$: document vectors
 - Truncated SVD: use $\Sigma_k$: first $k$ singular values and the rest set to 0
 - $T_k = W \Sigma_k P^T \approx T$ the best approximation 
 
@@ -300,7 +300,7 @@ Term VSM:
 Domain Spaces ftw
 
 
-so a '''Domain Space''' is a cluster-based representation for estimating term and text meaning 
+so a '*Domain Space*' is a cluster-based representation for estimating term and text meaning 
 - it's a vector space where both terms and texts can be compared 
 - once a domain space is defined by a matrix $D$, can represent both terms and texts by domain vectors
 - domain vectors - vectors that represent relevance among linguistic objects and each domain

@@ -71,7 +71,7 @@ insert key 15
   - Immediate Reorganization
   - Overflow Blocks
 
-'''Immediate Reorganization'''
+'*Immediate Reorganization*'
 - re-distribution data
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/sparse-ind-insert-2.png" alt="Image">
 - we try to push the data down
@@ -80,7 +80,7 @@ insert key 15
 - worst case: we will move all the data blocks 
 - variant: insert a new block and update the index 
 
-'''Overflow Blocks'''
+'*Overflow Blocks*'
 - we create a new block and create a pointer to it from 
 - it will be reorganized later 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/sparse-ind-insert-3-overflow.png" alt="Image">
@@ -102,7 +102,7 @@ There could be some problems we build it same way as without assuming duplicate 
 ### Option 2
 We may point to previous values, so we know the range
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/sparse-ind-dup-2.png" alt="Image">
-- so in the index we indicate the ''first new'' (not seen previously) key from block
+- so in the index we indicate the *first new* (not seen previously) key from block
 
 
 ## See also

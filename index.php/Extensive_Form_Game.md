@@ -5,7 +5,6 @@ tags:
 - game-theory
 title: Extensive Form Game
 ---
-{{draft}}
 
 ## Extensive Form Games
 [Normal Form Game](Normal_Form_Game)s do not reflect time: 
@@ -43,10 +42,10 @@ Strategies
 
 ### Strategies
 A set of strategies consists of the cross product of all possible actions for all nodes
-- these strategies are called the ''pure strategies''
+- these strategies are called the *pure strategies*
 
 Example
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/1ek4jlfnq051brasho90rph19h.png" alt="Image">" />
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/1ek4jlfnq051brasho90rph19h.png" alt="Image" />
 - for player 2 pure strategies are $(C, D) \times (E, F)$
 - for player 1: $(A, B) \times (G, H)$
 - each has 4 strategy
@@ -64,9 +63,9 @@ Mixed strategy
 
 Translation to [Normal Form Game](Normal_Form_Game)
 - Extensive form game can be converted into a Normal Form Game
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/39pgmt7kdnb8h42m0lgiu4vtvn.png" alt="Image">" />
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/39pgmt7kdnb8h42m0lgiu4vtvn.png" alt="Image" />
 - pure strategies for each agent:
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/2k9n1e39c3vu9f8pcci9arofpj.png" alt="Image">" />
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/2k9n1e39c3vu9f8pcci9arofpj.png" alt="Image" />
 - the result is called Induced Normal Form Game
   - Although, this form is not compact
   - and we can't always perform the reverse transformation
@@ -88,7 +87,7 @@ Translation to [Normal Form Game](Normal_Form_Game)
     - i.e. when player $i$ will never go down that edge
     - but is anyway threatened that if goes, $j$ will pick up bad route
   - example
-    - <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/7svpoqecaqa4qh8mhajuucdjkp.png" alt="Image">" />
+    - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/7svpoqecaqa4qh8mhajuucdjkp.png" alt="Image" />
     - (A, G), (F, G) is subgame perfect
 
 
@@ -108,7 +107,7 @@ Translation to [Normal Form Game](Normal_Form_Game)
 
 
 ### Example: Centipede Game
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/087nlskqe9e4cq3ov898pivqj0.png" alt="Image">" />
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/087nlskqe9e4cq3ov898pivqj0.png" alt="Image" />
 - start from the end:
 - $p_1$ would go $D$ rather then $A$ (4 vs 3)
 - $p_2$ would go $D$ (4 vs 3)
@@ -125,7 +124,7 @@ Translation to [Normal Form Game](Normal_Form_Game)
 - p1 gets 10-x, p2 gets x if pl1 accepts
 - otherwise both get 0
 - tree (pic)
-  - <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/4vibbavmd07prrup1j3ccgcm2e.png" alt="Image">" />
+  - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/4vibbavmd07prrup1j3ccgcm2e.png" alt="Image" />
   - so, p1 should offer $x > 0$, as p2 will accept any possible amount
   - in fact
     - player may not act this way
@@ -140,7 +139,7 @@ Translation to [Normal Form Game](Normal_Form_Game)
   - hidden information
 - you sometimes don't see what others are doing, but it affects your payoff
 - so we create equivalent classes for some choices
-  - 2 choices are in $I_1$, two in $I_2$, last three in $I_3$ <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/0jdsq2c5tfruo36bask4hagorr.png" alt="Image">" />
+  - 2 choices are in $I_1$, two in $I_2$, last three in $I_3$ <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/0jdsq2c5tfruo36bask4hagorr.png" alt="Image" />
   - for items in those classes set of possible actions is the same
   - however payoffs may be different
 
@@ -153,10 +152,10 @@ Translation to [Normal Form Game](Normal_Form_Game)
 - pure strategies
   - product of all possible action of different equality classes
 - example
-  - <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/6skvsiu0fg86o6ebin2p8apnji.png" alt="Image">" />
+  - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/6skvsiu0fg86o6ebin2p8apnji.png" alt="Image" />
   - $p_1$ has 4 pure strategies: $Ll, Rr, Lr, Rr$
 - any normal form game can be represented this way
-  - Prisoners' Dilemma <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/3ddd4rn3pfhl7ttpg26htcu6en.png" alt="Image">" />
+  - Prisoners' Dilemma <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/3ddd4rn3pfhl7ttpg26htcu6en.png" alt="Image" />
 
 
 ## Sources

@@ -6,7 +6,7 @@ tags:
 title: Hamilton's Method
 ---
 ## Hamilton's Method
-This is a [Parliamentary Allocation](Parliamentary_Allocation) method, also known as the ''Largest Remainder method'' with the ''Hare Quota''.
+This is a [Parliamentary Allocation](Parliamentary_Allocation) method, also known as the *Largest Remainder method* with the *Hare Quota*.
 
 The task is:
 - given 
@@ -81,7 +81,7 @@ $P_1$ loses one seat
 - even with one additional vote $P_1$ cannot regain the seat
  |
 |    |  $p_i$  |  $q_i$  |  $\lfloor q_i \rfloor$  |  $s_i$  |  $P_1$  |  21  |  1.631  |  1  |  1 ||  $P_2$  |  34  |  2.641  |  2  |  3 ||  $P_3$  |  48  |  3.<u>728</u>  |  3  |  4 ||   $\sum$  |   103  |   |  6  |  7 | |
-This is called the ''Alabama paradox'': increasing in the number of seats causes a party to lose a sit
+This is called the *Alabama paradox*: increasing in the number of seats causes a party to lose a sit
 
 
 ### Population Paradox
@@ -93,7 +93,7 @@ But assume that we have forgotten about additional 65 votes:
 - 40 votes for $P_2$
 - and only 6 votes for $P_3$
 
-|    |  $p_i$  |  $q_i$  |  $\lfloor q_i \rfloor$  |  $s_i$  |  $P_1$  |  1805  |  9.588  |  9  |  '''9''' ||  $P_2$  |  1283  |  6.815  |  6  |  7 ||  $P_3$  |  677  |  3.596  |  3  |  '''4''' ||   $\sum$  |   3700  |   |  18  |  20 | |Even though $P_1$ was winning and received more additional votes than $P_3$, $P_3$ takes one seat from $P_1$
+|    |  $p_i$  |  $q_i$  |  $\lfloor q_i \rfloor$  |  $s_i$  |  $P_1$  |  1805  |  9.588  |  9  |  '*9*' ||  $P_2$  |  1283  |  6.815  |  6  |  7 ||  $P_3$  |  677  |  3.596  |  3  |  '*4*' ||   $\sum$  |   3700  |   |  18  |  20 | |Even though $P_1$ was winning and received more additional votes than $P_3$, $P_3$ takes one seat from $P_1$
 
 So the outcome is not robust and it is possible to manipulate the result.
 
@@ -107,7 +107,7 @@ $S = 5$
 Suppose $P_2$ lost one vote, and $P_3$ received this vote:
 - That has an impact on $P_1$
  |
-  $p_i$  |  $q_i$  |  $\lfloor q_i \rfloor$  |  s_i  |  $P_1$  |  14  |  2.593  |  2  |  '''2''' ||  $P_2$  |  9  |  1.667  |  1  |  2 ||  $P_3$  |  3  |  0.741  |  0  |  1 ||   $\sum$  |   27  
+  $p_i$  |  $q_i$  |  $\lfloor q_i \rfloor$  |  s_i  |  $P_1$  |  14  |  2.593  |  2  |  '*2*' ||  $P_2$  |  9  |  1.667  |  1  |  2 ||  $P_3$  |  3  |  0.741  |  0  |  1 ||   $\sum$  |   27  
   3  |  5 
 
 $P_1$ loses one seat, even though its position remained unchanged

@@ -27,7 +27,7 @@ Strategic reasoning:
 ### Main Ideas
 - each player wants to maximize their payoff 
 - so by the best reasoning, knowing what the others may take, they pick up an action that should be the best 
-- The actions taken by all players form an ''action profile''
+- The actions taken by all players form an *action profile*
 
 An action profile is a Nash Equilibrium if
 - it is stable: nobody has an incentive to deviate from their action 

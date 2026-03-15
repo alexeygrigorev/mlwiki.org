@@ -75,9 +75,9 @@ We know that
 
 
 $p$-value:
-- $P( |  \bar{X} - \mu | \geqslant | -14.15 - 0 |) = $
+- $P( \mid \bar{X} - \mu \mid \geqslant | -14.15 - 0 |) = $
 - $P\left( \left|  \cfrac{\bar{X} - \mu}{\sqrt{s^2 / n}} \right| \geqslant \cfrac{14.15}{\sqrt{14.13^2 / 400}}\right) \approx $
-- $P( |  t_{399} | \geqslant 20.03 ) =$
+- $P( \mid t_{399} \mid \geqslant 20.03 ) =$
 - $2 \cdot P( t_{399} \leqslant -20.03) \approx$
   - $1 / 3.5 \cdot 10^{64}$
 
@@ -87,7 +87,7 @@ Extremely small|   Reject the $H_0$ and conclude that $\mu \neq 0$
 ### R code
 Our test statistic is $T = \cfrac{\bar{X} - \mu}{\sqrt{s^2 / n}}$.
 
-```gdscript
+```
 xbar = mean(ch)
 s2 = var(ch)
 n = length(ch)
@@ -103,7 +103,7 @@ pt(t, df=n-1, lower.tail=F) // 5.84E-24
 
 ## Paired t-test
 ### Paired Data
-Two set of observations are ''paired'' if each observation in one set has exactly one corresponding observation is another set. 
+Two set of observations are *paired* if each observation in one set has exactly one corresponding observation is another set. 
 
 
 Examples:
@@ -121,7 +121,7 @@ t.test(textbooks$diff, mu=x.bar.nul, alternative='two.sided')
 
 or 
 
-```text only
+```
 t.test(textbooks$uclaNew, textbooks$amazNew, paired=T, 
        alternative='two.sided')
 ```
@@ -164,7 +164,7 @@ p
 
 or 
 
-```text only
+```
 t.test(textbooks$diff, mu=x.bar.nul, alternative='two.sided')
 ```
 
@@ -222,7 +222,7 @@ This can be a non-integer value, but that's fine
 - Can we "pool" the samples?
 - Yes, but only under assumption that $\sigma_1^2 = \sigma_2^2$ (in other words, we assume that the variances are equal)
 
-We can replace $s_1^2$ and $s_2^2$ by the ''pooled variance'':
+We can replace $s_1^2$ and $s_2^2$ by the *pooled variance*:
 - $s^2 = \cfrac{(n_1 - 1) s_1^2 + (n_2 - 1) s_2^2 }{ (n_1 - 1) + (n_2 - 1)}$
 - and $\text{df} = (n_1 - 1) + (n_2 - 1) = n_1 + n_2 - 2$
 
@@ -246,7 +246,7 @@ We have the following test
 
 
 $p$-value:
-- $P(|  \bar{X}_1 - \bar{X}_2 |  \geqslant  4.2 ) = $
+- $P(\mid \bar{X}_1 - \bar{X}_2 \mid \geqslant  4.2 ) = $
 - $P \left( \left|  \cfrac{(\bar{X}_1 - \bar{X}_2) - (\mu_1 - \mu_2)}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right|  \geqslant  \cfrac{4.2}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right) \approx $
 - $P\left( | t_\text{df} |  \geqslant \cfrac{4.2}{\sqrt{181.5 / 281 + 231 / 119}} \right) = 0.0097$
 pretty small, so we reject the $H_0$.
@@ -268,14 +268,14 @@ Our test:
 - $H_0: \mu_0 = \mu_1, H_A: \mu_0 \neq \mu_1$
 
 $p$-value:
-- $P(|  \bar{X}_1 - \bar{X}_2 |  \geqslant  6.1 ) = $
+- $P(\mid \bar{X}_1 - \bar{X}_2 \mid \geqslant  6.1 ) = $
 - $P \left( \left|  \cfrac{(\bar{X}_1 - \bar{X}_2) - (\mu_1 - \mu_2)}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right|  \geqslant  \cfrac{6.1}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right) \approx $
 - $P ( | t_\text{df} |  \geqslant 1.90 ) \approx 0.09$
 Not so small - we can't reject the $H_0$, it might be true that $\mu_0 = \mu_1$
 
 
 ### R (Means)
-```text only
+```
 male = skeletons[sex == '1', 6]
 female = skeletons[sex == '2', 6]
 
@@ -285,7 +285,7 @@ qt(0.025, df=200.9, lower.tail=F)
 
 or 
 
-```text only
+```
 t.test(male, female, mu=0, conf.level=0.95, alternative='two.sided')
 ```
 

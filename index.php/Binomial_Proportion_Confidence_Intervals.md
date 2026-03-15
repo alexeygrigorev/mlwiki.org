@@ -75,10 +75,10 @@ text(x=c(-2.07, 2.07), y=0.025, labels='0.025', cex=0.6)
 
 
 
-This is called ''95% confidence interval'' for $p$:
+This is called *95% confidence interval* for $p$:
 - $\left[\hat{p} - 1.96 \sqrt{p(1-p)/n};  \hat{p} + 1.96 \sqrt{p(1-p)/n}\right]$
-- left part - ''lower bound''
-- right part - ''upper bound ''
+- left part - *lower bound*
+- right part - *upper bound *
 
 
 We say that we're 95% confident that the true value of $p$ is somewhere in this interval.
@@ -88,8 +88,8 @@ We say that we're 95% confident that the true value of $p$ is somewhere in this 
 Problem: $p$ (to use under the square root) is unknown
  |Solutions:
 - use $\hat{p}$ instead of $p$ (we assume it should be close) or
-- use $p = q = 0.5$: it maximizes our ''margin of error''
-  - <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/margin-of-error.png" alt="Image">" />
+- use $p = q = 0.5$: it maximizes our *margin of error*
+  - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/margin-of-error.png" alt="Image" />
   - margin of error is $\beta = 1.96 \sqrt{p(1-p)/n}$
 
 
@@ -98,7 +98,7 @@ Problem: $p$ (to use under the square root) is unknown
 Why we chose 95% CI with $\alpha = 0.05$ and not another one?
 
 We can compute any confidence interval using any $\alpha$
-- Compute ''critical value'' $z_{\alpha/2}$ such that "not interesting" areas under the normal curve take $\alpha / 2$
+- Compute *critical value* $z_{\alpha/2}$ such that "not interesting" areas under the normal curve take $\alpha / 2$
   - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/ci-critical-value.png" alt="Image">
 - so the interval will be $\left[-z_{\alpha/2}; z_{\alpha/2}\right]$ and the "interesting" area under the bell curve is $1 - \alpha$
 
@@ -132,7 +132,7 @@ Result:
 
 
 In R:
-```scdoc
+```
 phat = 0.576
 z = qnorm(0.025, mean=0, sd=1, lower.tail=F) // the right tail rather then left
 ME = z * sqrt(phat * (1- phat) / 1000) // Margin of error: we replace p by phat
@@ -144,7 +144,7 @@ CI = phat + c(-ME, ME) // 0.545, 0.606
 - Calculate the 90% CI for $p$
 - With 60 successes out of 100 trials 
 
-```text only
+```
 phat = 0.6
 cl = 0.9
 al = (1 - cl) / 2

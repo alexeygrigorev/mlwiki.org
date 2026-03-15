@@ -6,9 +6,9 @@ tags:
 title: Machine Learning
 ---
 ## Machine Learning
-''Machine Learning'' - field of study that gives computers the ability to learn without being explicitly programmed
+*Machine Learning* - field of study that gives computers the ability to learn without being explicitly programmed
 
-A computer is said to ''learn'' from experience $E$ with respect to some task $T$ and some performance measure $P$
+A computer is said to *learn* from experience $E$ with respect to some task $T$ and some performance measure $P$
 - if it's performance of $T$,
 - as measured by $P$,
 - improves with experience $E$
@@ -39,7 +39,7 @@ Examples of Machine Learning:
 
 
 ### Regression
-''Regression'' - predict: continuous values 
+*Regression* - predict: continuous values 
 
 Examples:
 - You have a large inventory of identical items 
@@ -51,9 +51,9 @@ Main tool
 
 
 ### Classification
-''Classification'' - assigning to a group (0, 1) etc: discrete values
+*Classification* - assigning to a group (0, 1) etc: discrete values
 
-$y \in \{0, 1\}$ - ''binary classification problem'' 
+$y \in \{0, 1\}$ - *binary classification problem* 
 - 0 - negative class, connected with absence of smth (not spam)
 - 1 - positive class, connected with presence of smth (spam)
 
@@ -77,7 +77,7 @@ applications
 - market segregation
 
 ### [Clustering](Clustering)
-The goal is to automatically group the data into coherent subsets (or ''clusters'')
+The goal is to automatically group the data into coherent subsets (or *clusters*)
 - [K-Means](K-Means)
 
 

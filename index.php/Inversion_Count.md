@@ -9,14 +9,14 @@ title: Inversion Count
 ## Inversion Count
 Sequence inversion
 - In a sequence $\pi = \langle a_0, ..., a_t \rangle$ or elements $A = \{ a_i \}$
-- a pair $(a_i, a_j)$ is an ''inversion'' if $i < j \land a_i > a_j$
+- a pair $(a_i, a_j)$ is an *inversion* if $i < j \land a_i > a_j$
 - the number of such inversions is the inversion number of sequence $\pi$
 - this is a measure of "sortedness" of sequence $\pi$
 
 Two ranked vectors
 - An inversion in two rankings $r_1, r_2$ of the same variable $X$ is 
 - a pair $(x_i, x_j) \ |  \ r_1(x_i) < r_1(x_j) \land r_2(x_i) > r_2(x_j)$
-- it's called a ''pair-wise disagreement'' between two ranking lists 
+- it's called a *pair-wise disagreement* between two ranking lists 
 
 
 ### Graphical Counting
@@ -26,8 +26,8 @@ we can represent two rankings as a [Bipartite Graph](Bipartite_Graph) $G = \lang
 - $E$ is set of edges $E = \Big\{ \big(r_1(x), r_2(x) \big) \Big\} $ i.e. corresponding elements of $X$ are connected in this graph
 
 Counting:
-- ''bilayer drawing'' of $G$ is when there are two parallel lines, edges of $N$ are drawn on one, and edges of $S$ are drawn on another
-- ''bilayer cross count'' is a pairwise intersections edges of $N$ and $S$
+- *bilayer drawing* of $G$ is when there are two parallel lines, edges of $N$ are drawn on one, and edges of $S$ are drawn on another
+- *bilayer cross count* is a pairwise intersections edges of $N$ and $S$
 - bilayer cross count corresponds to the number of inversions when $N$ and $S$ are ranking vectors
 
 

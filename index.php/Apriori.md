@@ -19,9 +19,9 @@ This method uses the property of this Lattice:
 
 ### Idea
 - at a step $k$
-- '''generate phase'''
+- '*generate phase*'
   - generate potentially frequent interesting itemsets of size $k$ based on the previous step
-- '''test phase'''
+- '*test phase*'
   - scan the generated itemsets
   - eliminate non-frequent ones
 
@@ -72,7 +72,7 @@ Consider the result obtained by the algorithm:
 - there are two maximal sets: \text{de} and \text{abc}
 - so, if we generate all subsets of these two, we'll get all the frequent itemsets 
 
-```tera term macro
+```
 >>> powerset('de') |  powerset('abc') |1. sorted([''.join(i) for i in powerset('de') |  powerset('abc')],  |1. key=lambda x: (len(x), x))
 ['', 'a', 'b', 'c', 'd', 'e', 'ab', 'ac', 'bc', 'de', 'abc']
 ```

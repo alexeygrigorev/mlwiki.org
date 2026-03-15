@@ -16,7 +16,7 @@ A marking $M$ is reachable from the initial marking $M_0$
 - i.e. there exists a firing sequence that brings us from the initial state of a petri net to a state that corresponds to $M_0$
 
 
-In a ''reachability graph'' of a petri net $N = (P, T, F)$
+In a *reachability graph* of a petri net $N = (P, T, F)$
 - nodes correspond to reachable markings 
 - edges correspond to the relation $\to$
 

@@ -6,7 +6,7 @@ tags:
 title: Graph Kernel
 ---
 ## [Graph](Graph) Kernel
-A ''kernel'' of a graph $K \subset V$ is ($V$ - all nodes of a graph)
+A *kernel* of a graph $K \subset V$ is ($V$ - all nodes of a graph)
 - $\forall a \in K, \not \exists b: a \to b$
 - : no alternative $a$ inside the kernel $K$ is better than any other alternative $b$ inside $K$
 - $\forall c \not \in K, \exists a \in K: a \to c$

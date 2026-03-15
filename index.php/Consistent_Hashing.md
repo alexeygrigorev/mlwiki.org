@@ -20,7 +20,7 @@ Every existent key will have to be remapped.
 
 
 ### Consistent Hashing approach
-- In ''consistent hashing'' a hash function is viewed as a ring: largest hash values wrap around to smallest
+- In *consistent hashing* a hash function is viewed as a ring: largest hash values wrap around to smallest
 - The ring is divided onto $N$ regions ($N$ - number of servers)
 - Each server has its own key region (its "position" on the ring)
 - $\Rightarrow$ adding or removing a node affects only direct neighbors
@@ -56,7 +56,7 @@ There are some challenges with this basic approach
 A variant of Consistent Hashing algorithm addresses this issue:
 - instead of mapping a single node to the ring, 
 - each node gets multiple points there 
-- so each node has several ''virtual nodes''
+- so each node has several *virtual nodes*
 
 A virtual node looks like a single node, but it refers to the real node. 
 

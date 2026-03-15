@@ -7,7 +7,6 @@ tags:
 - notes
 title: Game Theory (coursera)
 ---
-{{draft}}
 
 Курс [Game Theory](http://www.coursera.org/course/gametheory) об основах теории игр
 

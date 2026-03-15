@@ -7,14 +7,14 @@ tags:
 title: Hypothesis Testing
 ---
 ## Hypothesis Testing
-''Hypothesis Testing'' is a framework of testing some assumptions in [Inferential Statistics](Inferential_Statistics)
-- a result is ''statistically significant'' if it's very unlikely to have happened due to chance alone 
+*Hypothesis Testing* is a framework of testing some assumptions in [Inferential Statistics](Inferential_Statistics)
+- a result is *statistically significant* if it's very unlikely to have happened due to chance alone 
 
 
 ### Motivation
 Suppose we have 2 groups and we observe the difference between them
 
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/tests-diff.png" alt="Image">" />
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/tests-diff.png" alt="Image" />
 
 Question: 
 - Is this difference significant?
@@ -22,13 +22,13 @@ Question:
 - Or we have something stronger?
 
 
-''Statistical tests'' (often as well called "Hypothesis tests" or "Tests of Significance") answer these questions.
+*Statistical tests* (often as well called "Hypothesis tests" or "Tests of Significance") answer these questions.
 
 
 ## Structure of Statistical Test
 ### Summary
 1. Determine the $H_0$ and $H_A$
-1. Collect data and calculate a ''test statistic''
+1. Collect data and calculate a *test statistic*
 1. Calculate the $p$-value
 1. Make a conclusion based on it and on the context
 
@@ -59,25 +59,25 @@ Alternatives could be
 
 
 So the first step is
-- '''clearly specify the null and alternative hypotheses'''
+- '*clearly specify the null and alternative hypotheses*'
 
 
 ### Step 2: Evidence  - Test Statistics
-- ''The evidence'' is provided by our data
-- We need to summarize the data into a ''test statistics'': a numerical summary of the data. 
+- *The evidence* is provided by our data
+- We need to summarize the data into a *test statistics*: a numerical summary of the data. 
 
 A test statistic is made under assumption that $H_0$ is true
 
 
 So the 2nd step is 
-- '''Collect the data and calculate a test statistic assuming $H_0$ is true'''
+- '*Collect the data and calculate a test statistic assuming $H_0$ is true*'
 
 
 ### Step 3: $P$-value
 - Is the evidence (the test statistics) good enough to reject the $H_0$? 
 
 
-''$p$-value'' 
+*$p$-value* 
 - helps us to answer this question: it transforms the test statistic into a probabilistic scale:
 - it's a number between 0 and 1 that quantifiers the strength of evidence against the $H_0$
 - formally, $p$-value is a conditional probability of 
@@ -93,13 +93,13 @@ It answers the following question
 The smaller the $p$-value the stronger the evidence against $H_0$
 
 
-'''Note|  '''
+'*Note|  *'
 - $p$-value cannot be interpreted as how likely it is that the $H_0$ is true.
 - $p$-value tells you how unlikely the observed value of the test statistics (and more extreme value) is if the $H_0$ was true. 
 
 
 So the 3rd step is 
-- '''determine how unlikely the test statistic is if the $H_0$ is true''' (or, calculate the $p$-value)
+- '*determine how unlikely the test statistic is if the $H_0$ is true*' (or, calculate the $p$-value)
 
 
 ### Step 4: Verdict
@@ -122,7 +122,7 @@ The result is statistically significant if the evidence is strong.
 
 
 The final step: 
-- '''make a conclusion based on the $p$-value''' and on the context of the problem (important|  ) 
+- '*make a conclusion based on the $p$-value*' and on the context of the problem (important|  ) 
 
 ## Common Test Statistics
 - [$z$-tests](z-tests) - [normal](Normal_Distribution), for comparing means
@@ -144,7 +144,7 @@ The final step:
 | + Summary [link](http://en.wikipedia.org/wiki/Type_I_and_type_II_errors) ||    |  $H_0$ is true   |  $H_0$ is false  |   Reject $H_0$  |  align="center"| Type&nbsp;I error<br />False positive ||  align="center"| Correct outcome<br />True positive ||   Fail to reject $H_0$  |  align="center"| Correct outcome<br />True negative ||  align="center"| Type&nbsp;II error<br />False negative |
 
 ### Significance Level
-- The ''significance level'' of a test gives a cut-off for how small is small for a $p$-value
+- The *significance level* of a test gives a cut-off for how small is small for a $p$-value
 - It's denoted by $\alpha$ and called "desired level of significance"
 - $\alpha$ shows how the testing method would perform in repeated sampling
 - If $H_0$ is true and you use $\alpha = 0.01$, and you carry out a test repeatedly, with the same size of a sample each time, you will reject $H_0$ 1% of the time, and not reject 99% of the time 
@@ -160,7 +160,7 @@ Choosing $\alpha$
 
 
 ### Robustness
-A statistical test is ''robust'' if the p-value is approximately correct even if some conditions aren't fully satisfied
+A statistical test is *robust* if the p-value is approximately correct even if some conditions aren't fully satisfied
 
 
 
@@ -229,21 +229,21 @@ Statistical significance $\neq$ practical significance
 
 
 Small $p$-values can occur (in order of significance:)
-- ''by chance''
+- *by chance*
 - data collection is [biased](Bias)
 - violations of the conditions
 - $H_0$ is false (the last one
 - so be more careful about those above!) 
 
 So 
-- If multiple tests are carried out, some are likely to be significant by '''chance alone'''
-- If $\alpha = 0.05$ we expect significant results 5% of the time, even when the $H_0$ is '''true'''
+- If multiple tests are carried out, some are likely to be significant by '*chance alone*'
+- If $\alpha = 0.05$ we expect significant results 5% of the time, even when the $H_0$ is '*true*'
 - $\Rightarrow$ be suspicious if you see only a few significant results when many tests have been carried out 
 
 
 ### [Data Snooping](Data_Snooping)
 - The test results are not reliable if the statements of the hypotheses are suggested by data.
-- This is called ''data snooping'' - So hypotheses should be specified before any data is collected
+- This is called *data snooping* - So hypotheses should be specified before any data is collected
 
 
 ### General Advice

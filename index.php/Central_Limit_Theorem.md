@@ -47,7 +47,7 @@ Exponential
 <details>
 <summary>R code of the experiment</summary>
 
-```text only
+```
 default.par = par()
 
 set.seed(18213)
@@ -149,7 +149,7 @@ par(default.par)
 ## Theorem (Lyapunov)
 If a random variable $X$ represents the sum of a very large number of mutually independent random variables, each of which has a negligible influence on the entire sum, then $X$ has a distribution close to normal.
 
-'''TODO''': proof
+'*TODO*': proof
 
 ### Application
 Let $X_i$ be a sequence of independent random variables, each having an expected value and variance:

@@ -40,7 +40,7 @@ This can be a non-integer value, but that's fine
 - Can we "pool" the samples?
 - Yes, but only under assumption that $\sigma_1^2 = \sigma_2^2$ (in other words, we assume that the variances are equal)
 
-We can replace $s_1^2$ and $s_2^2$ by the ''pooled variance'':
+We can replace $s_1^2$ and $s_2^2$ by the *pooled variance*:
 - $s^2 = \cfrac{(n_1 - 1) s_1^2 + (n_2 - 1) s_2^2 }{ (n_1 - 1) + (n_2 - 1)}$
 - and $\text{df} = (n_1 - 1) + (n_2 - 1) = n_1 + n_2 - 2$
 
@@ -64,7 +64,7 @@ We have the following test
 
 
 $p$-value:
-- $P(|  \bar{X}_1 - \bar{X}_2 |  \geqslant  4.2 ) = $
+- $P(\mid \bar{X}_1 - \bar{X}_2 \mid \geqslant  4.2 ) = $
 - $P \left( \left|  \cfrac{(\bar{X}_1 - \bar{X}_2) - (\mu_1 - \mu_2)}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right|  \geqslant  \cfrac{4.2}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right) \approx $
 - $P\left( | t_\text{df} |  \geqslant \cfrac{4.2}{\sqrt{181.5 / 281 + 231 / 119}} \right) = 0.0097$
 pretty small, so we reject the $H_0$.
@@ -86,14 +86,14 @@ Our test:
 - $H_0: \mu_0 = \mu_1, H_A: \mu_0 \neq \mu_1$
 
 $p$-value:
-- $P(|  \bar{X}_1 - \bar{X}_2 |  \geqslant  6.1 ) = $
+- $P(\mid \bar{X}_1 - \bar{X}_2 \mid \geqslant  6.1 ) = $
 - $P \left( \left|  \cfrac{(\bar{X}_1 - \bar{X}_2) - (\mu_1 - \mu_2)}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right|  \geqslant  \cfrac{6.1}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}} \right) \approx $
 - $P ( | t_\text{df} |  \geqslant 1.90 ) \approx 0.09$
 Not so small - we can't reject the $H_0$, it might be true that $\mu_0 = \mu_1$
 
 ## R code
 ### R (Means)
-```text only
+```
 male = skeletons[sex == '1', 6]
 female = skeletons[sex == '2', 6]
 
@@ -103,7 +103,7 @@ qt(0.025, df=200.9, lower.tail=F)
 
 or 
 
-```text only
+```
 t.test(male, female, mu=0, conf.level=0.95, alternative='two.sided')
 ```
 

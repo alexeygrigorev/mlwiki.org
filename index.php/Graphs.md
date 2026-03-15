@@ -14,8 +14,8 @@ Consist of:
 - edges ($E$) = pair of vertices
 - $m$ - number of edges
 
-- can be ''undirected'' <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/29btqo4e5smcg6v9l29a0k7i8u.png" alt="Image">" \>
-- or ''directed'' <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/37ijdgf2d7dri4jkv2fpbrouea.png" alt="Image">" \>
+- can be *undirected* <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/29btqo4e5smcg6v9l29a0k7i8u.png" alt="Image" />
+- or *directed* <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/37ijdgf2d7dri4jkv2fpbrouea.png" alt="Image" />
 
 
 ## Directed Acyclic Graph

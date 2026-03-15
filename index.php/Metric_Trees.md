@@ -38,7 +38,7 @@ Splitting a node:
 - heuristic:
   - can use the mean point as well, i.e. $A = (p_l + p_r) / 2$
 - let $L$ be a $d - 1$ dimensional plane orthogonal to $u$ that goes through $A$ 
-  - this $L$ is a ''decision boundary'' - we will use it for querying 
+  - this $L$ is a *decision boundary* - we will use it for querying 
 
 
 After metric tree is constructed at each node we have:
@@ -49,7 +49,7 @@ After metric tree is constructed at each node we have:
 
 
 
-'''MT-DFS'''($q$) - the search algorithm
+'*MT-DFS*'($q$) - the search algorithm
 - search in a Metric Tree is a guided [Depth-First Search](Depth-First_Search)
 - the decision boundary $L$ at each node $n$ is used to decide whether to go left or right
   - if $q$ is in the left, then go to  $\text{left}(v)$, otherwise - to $\text{right}(v)$
@@ -89,7 +89,7 @@ Why allowing overlap?
 - find the answer approximately, not exactly
 
 
-'''SP-Search'''($q$)
+'*SP-Search*'($q$)
 - don't backtrack at all - just do a tree descent, not DFS
 - consider a case when $q$ is close to $L$: it's true that the true NN might be on the other side of $L$ 
 - so by allowing overlap we hope to catch the true NN on the over side 

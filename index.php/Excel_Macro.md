@@ -9,7 +9,7 @@ title: Excel Macro
 ---
 ## Удаляет все пустые строки на всех листах
 
-```tera term macro
+```
 Sub DeleteBlanks()
 
     Application.ScreenUpdating = False

@@ -3,10 +3,9 @@ layout: default
 permalink: /index.php/Recurrence_Equation
 title: Recurrence Equation
 ---
-{{stub}}
 
 ## Recurrence Equations
-A ''difference equation'', or ''recurrence equation'', 
+A *difference equation*, or *recurrence equation*, 
 
 Examples:
 - Fibonacci Numbers:

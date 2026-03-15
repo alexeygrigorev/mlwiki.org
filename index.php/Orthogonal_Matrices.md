@@ -7,7 +7,7 @@ title: Orthogonal Matrices
 ---
 ## Orthogonal Matrices
 ### Orthonormal Vectors
-Vectors $\mathbf q_1, \ ... \ , \mathbf q_n$ are ''orthonormal'' if they are [orthogonal](Vector_Orthogonality) and unit vectors 
+Vectors $\mathbf q_1, \ ... \ , \mathbf q_n$ are *orthonormal* if they are [orthogonal](Vector_Orthogonality) and unit vectors 
 - $\mathbf q_i \; \bot \; \mathbf q_j \ \forall i \ne j$ and
 - $\mathbf q_i^T \mathbf q_j = 0$ if $i \ne j$ and $\mathbf q_i^T \mathbf q_j = 1$ otherwise
 - these vectors make a good [basis](Basis_(Linear_Algebra)) 
@@ -34,7 +34,9 @@ What about a matrix form?
 0 & 1 & \cdots & 0 \\
  &  & \ddots &  \\
 0 & 1 & \cdots & 1
-\end{bmatrix}$ by our definition|   |- so $Q^T Q = I$ |- such $Q$'s are called ''Orthogonal Matrices'' 
+\end{bmatrix}$ by our definition
+- so $Q^T Q = I$
+- such $Q$'s are called *Orthogonal Matrices*
 
 
 A matrix $Q$ is orthogonal if 
@@ -136,7 +138,8 @@ Orthogonal matrices are very nice because it's very easy to invert them
 How do we make matrices orthogonal? 
 - [Gram-Schmidt Process](Gram-Schmidt_Process) and [QR Factorization](QR_Factorization)
 - this preserves the column space $C(A)$
- |Also, 
+
+Also,
 - [Eigendecomposition](Eigendecomposition) $A = Q \Lambda Q^T$ decomposes symmetric $A$ onto orthogonal $Q$ and diagonal $\Lambda$
 - [SVD](SVD) $A = U \Sigma V^T$ decomposes $A$ onto orthogonal $U$ and $V$ and diagonal $\Sigma$
 

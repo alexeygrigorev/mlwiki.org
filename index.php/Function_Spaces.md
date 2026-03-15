@@ -6,7 +6,6 @@ tags:
 - linear-algebra
 title: Function Spaces
 ---
-{{stub}}
 
 ## Function Spaces
 A function space is a [vector space](Vector_Spaces) where "vectors" are functions

@@ -21,7 +21,7 @@ Suppose we have a Relational Algebra expression:
 
 
 ## Physical Query Plan
-A ''Physical Query Plan'' is the same as Logical Query Plan, but with [specific algorithms](Physical_Operators_(databases)) assigned to each operation (node of the tree)
+A *Physical Query Plan* is the same as Logical Query Plan, but with [specific algorithms](Physical_Operators_(databases)) assigned to each operation (node of the tree)
 - I.e. it defines how exactly a query will be executed
 - [Query Result Size Estimation](Query_Result_Size_Estimation) to estimate the size of [physical operator's](Physical_Operators_(databases)) output  
 - [Physical Query Plan Optimization](Physical_Query_Plan_Optimization) to select the best plan

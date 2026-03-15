@@ -6,7 +6,7 @@ tags:
 title: Atomicity (databases)
 ---
 ## Atomicity
-''Atomicity'' is a desired property of a transaction according to [ACID](ACID)
+*Atomicity* is a desired property of a transaction according to [ACID](ACID)
 - a transaction should be either executed completely - or not executed at all
 - If it executed - it takes database from one [consistent](Consistency_(databases)) state to another
 - if not executed - it takes database back to the consistent state it was before execution

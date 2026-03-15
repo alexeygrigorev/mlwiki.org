@@ -90,7 +90,7 @@ Columns of $F_n$ are orthogonal
 - so let's define a Fourier Matrix $W_4$ as $W_4 = \cfrac{1}{2} F_4$
 - now $W_4^H W_4 = I$
 - so let $W_n = \cfrac{1}{\sqrt{n}} F_n$
-- we call this $W_n$ a ''Fourier Matrix''
+- we call this $W_n$ a *Fourier Matrix*
 
 
 ### Discrete Fourier Transform

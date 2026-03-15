@@ -6,7 +6,7 @@ tags:
 title: Vector Orthogonality
 ---
 ## Vector [Orthogonality](Orthogonality)
-In geometry, we call two vectors $\mathbf x$ and $\mathbf y$ ''orthogonal'' of the angle between then is 90 - i.e. they are perpendicular. 
+In geometry, we call two vectors $\mathbf x$ and $\mathbf y$ *orthogonal* of the angle between then is 90 - i.e. they are perpendicular. 
 
 
 <img src="http://habrastorage.org/files/88f/e6b/149/88fe6b149c7148d9b93fa4a1fb203206.png" alt="Image">

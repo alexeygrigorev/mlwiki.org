@@ -11,13 +11,13 @@ There are two types of [Data Collection](Data_Collection)
 
 
 ### Variables in Experiments
-- ''Response variable'' (or ''dependent variable'') - the outcome of interest, measured on each subject or entry participating in the study
-- ''Explanatory variable'' (or ''predictor'', or ''independent variable'') - a variable that we think may help to explain the value of the response variable.
+- *Response variable* (or *dependent variable*) - the outcome of interest, measured on each subject or entry participating in the study
+- *Explanatory variable* (or *predictor*, or *independent variable*) - a variable that we think may help to explain the value of the response variable.
 
 
 ### Experiment
-- ''Experiment'' - when a researcher manipulates the explanatory variable to see the effect on the response. 
-- So they ''create'' the data
+- *Experiment* - when a researcher manipulates the explanatory variable to see the effect on the response. 
+- So they *create* the data
 
 
 ### Correlation and Causation
@@ -89,7 +89,7 @@ To reduce the bias in the human experiments, split the patients into two groups:
 ### Double-Blind Setup
 - but if a doctor knows that this patient is going to receive a placebo, it may impose some emotional effect on the doctors - it's difficult to quantify 
 - which is why both patients and the doctors are kept uninformed of what type of medicine they receive 
-- it's called a ''double-blind setup''
+- it's called a *double-blind setup*
 
 
 ## Sources

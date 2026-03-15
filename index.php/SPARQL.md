@@ -122,14 +122,14 @@ WHERE
 
 
 Also, this query can be translated to the following [Conjunctive Query](Conjunctive_Query)
-- $\text{query}(p, c) \equiv \text{Position}(p, \text{``striker''}), \text{PlaysFor}(p, c), Region(c, \text{``Barcelona''})$
+- $\text{query}(p, c) \equiv \text{Position}(p, \text{``striker*}), \text{PlaysFor}(p, c), Region(c, \text{``Barcelona*})$
 
 
 ### Querying for Property
 Can also query for a predicate 
 - e.g. what do we know about James Dean? 
 
-```text only
+```
 SELECT ?property ?value 
 WHERE {
   :JamesDean ?property ?value
@@ -138,7 +138,7 @@ WHERE {
 
 Also can use <code>DISTICNT</code> keyword
 
-```text only
+```
 SELECT DISTINCT ?property 
 WHERE {
   :JamesDean ?property ?value
@@ -147,7 +147,7 @@ WHERE {
 
 Suppose we want to know anything about a class <code>Actor</code>
 
-```text only
+```
 SELECT DISTINCT ?property 
 WHERE 
   q0 a :Actor . 
@@ -159,7 +159,7 @@ WHERE
 ## Where part
 In this part matching happens 
 - Generally, the same idea as in [Conjunctive Queries](Conjunctive_Query)
-- There are ''existential variables'' (not from the head of the query)
+- There are *existential variables* (not from the head of the query)
   - they are matched with some data in the database and assigned some value
 - as saw, here a graph is constructed and matched with 
 
@@ -188,7 +188,7 @@ WHERE {
 ```
 
 
-```text only
+```
 SELECT ?actor 
 WHERE { 
   ?actor :playedIn :Giant . 
@@ -199,7 +199,7 @@ WHERE {
 
 
 We can also have several filters
-```text only
+```
 SELECT ?person 
 WHERE{
   ?person a :Person . 
@@ -256,7 +256,7 @@ WHERE {
 
 Can have several unions:
 
-```text only
+```
 CONSTRUCT { ?s :hasParent ?o } 
 WHERE { 
   { ?s :hasMother ?o } 
@@ -277,7 +277,7 @@ Negation is achieved with a keyword <code>UNSAID</code>
 - the overall graph pattern will match if the UNSAID pattern does not match.
 
 This query will return all actors with no <code>:diedOn</code> record who played in "Giant"
-```text only
+```
 SELECT ?actor 
 WHERE {
   ?actor :playedIn :Giant . 
@@ -290,7 +290,7 @@ WHERE {
 Suppose we want to select Joe's children
 - and then children of his children
 
-```text only
+```
 SELECT ?member 
 WHERE { ?member :hasParent :Joe } 
 
@@ -307,7 +307,7 @@ But what if we want to follow <code>:hasParent</code> as long as it's there?
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/sw/sparql-transitive-2.png" alt="Image">
 - use <code>*</code> for that (only SPARQL 1.1)
 
-```scdoc
+```
 SELECT ?member 
 WHERE { ?member :hasParent* :Joe .}
 ```
@@ -316,14 +316,14 @@ But in this case it will also include <code>:Joe</code>
 - i.e. it includes zero-length chains as well
 - to avoid it, use <code>+</code> instead (like in [Regular Expressions](Regular_Expressions))
 
-```text only
+```
 SELECT ?member 
 WHERE { ?member :hasParent+ :Joe .}
 ```
 
 
 ### Ordering (SPARQL 1.1)
-```text only
+```
 SELECT ?title ?date 
 WHERE {
   :JamesDean :playedIn ?movie. 
@@ -352,7 +352,7 @@ LIMIT 1
 
 
 ### Aggregating and Grouping (SPARQL 1.1)
-```text only
+```
 SELECT (COUNT(?movie) AS ?howmany) 
 WHERE {:JamesDean ?playedIn ?movie .}
 
@@ -390,7 +390,7 @@ WHERE {
 
 
 ### Subqueries (SPARQL 1.1)
-```text only
+```
 SELECT ?company 
 WHERE { 
   {
@@ -421,13 +421,13 @@ WHERE {
 Use when we need just TRUE/FALSE
 
 Example: do we have any <code>:diedOn</code> record for <code>:ElizabethTaylor</code>?
-```text only
+```
 ASK WHERE {:ElizabethTaylor :diedOn ?any}
 ```
 
 Or can use negation for that:
 - e.g. is <code>:ElizabethTaylor</code> still alive?
-```text only
+```
 ASK WHERE { UNSAID {:ElizabethTaylor :diedOn ?any} }
 ```
 
@@ -476,7 +476,7 @@ Types of Rules
 - business rules 
   - customers spent > 5000 USD are preferred customers 
 
-```text only
+```
 CONSTRUCT{ ?q1 :hasSon :q2 .} 
 WHERE {
   ?q2 a :Man . 

@@ -8,7 +8,7 @@ title: Independence
 ## Independent Events
 Event $B$ is called *independent* of event $A$ if the occurrence of event $A$ does not change the probability of event $B$, i.e.,
 
-$P(B |  A) = P(B)$ and $P(A | B) = P(A)$
+$P(B \mid A) = P(B)$ and $P(A \mid B) = P(A)$
 Alternatively, two events are independent if the probability of their joint occurrence equals the product of their probabilities:
 
 $P(A \cdot B) = P(A) \cdot P(B)$

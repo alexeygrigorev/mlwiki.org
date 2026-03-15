@@ -84,7 +84,7 @@ In examples we can see if the size increases, $H_0$ rejected
 
 
 ## Examples
-=== Example: Gender vs City === 
+### Example: Gender vs City
 Consider this dataset
 - $\text{Dom}(X) = \{ x_1 = \text{female}, x_2 = \text{male} \}$ (Gender)
 - $\text{Dom}(Y) = \{ y_1 = \text{Blois}, y_2 = \text{Tours} \}$ (City)
@@ -124,7 +124,7 @@ Test
 
 
 R:
-```text only
+```
 tbl = matrix(data=c(55, 45, 20, 30), nrow=2, ncol=2, byrow=T)
 dimnames(tbl) = list(City=c('B', 'T'), Gender=c('M', 'F'))
 
@@ -158,7 +158,7 @@ Test
 - $\Rightarrow$ the independence hypothesis is rejected with a confidence of 95%
 
 
-```scdoc
+```
 tbl = matrix(data=c(55, 45, 20, 30) * 10, nrow=2, ncol=2, byrow=T)
 dimnames(tbl) = list(City=c('B', 'T'), Gender=c('M', 'F'))
 
@@ -215,7 +215,7 @@ Now we can compute the $X^2$ test statistics
 
 
 R:
-```text only
+```
 obs = matrix(c(3511, 1749, 1818, 1489, 751, 682), nrow=2, ncol=3, byrow=T)
 dimnames(obs) = list(outcome=c('click', 'new search'),
                      algorithm=c('current', 'test 1', 'test 2'))
@@ -235,7 +235,7 @@ qchisq(p=0.95, df=df)
 ```
 
 Or we can use <code>chisq.test</code> function
-```text only
+```
 test = chisq.test(obs, correct=F)
 test$expected
 c('p-value'=test$p.value, test$statistic)

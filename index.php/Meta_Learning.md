@@ -6,7 +6,7 @@ tags:
 title: Meta Learning
 ---
 ## Meta Learning
-In Machine Learning there are so-called ''meta''-tasks: 
+In Machine Learning there are so-called *meta*-tasks: 
 - [Model Selection](Model_Selection)
 - [Parameter Tuning](Parameter_Tuning)
 - Estimating model's ability to generalize to new data

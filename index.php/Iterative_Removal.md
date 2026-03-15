@@ -8,7 +8,7 @@ title: Iterative Removal
 ## Iterative Removal
 This is an application of the [Dominance](Dominance) principle in the [Game Theory](Game_Theory).
 
-A game is called ''dominance solvable'' if it can be solved with Iterative Removal 
+A game is called *dominance solvable* if it can be solved with Iterative Removal 
 
 
 Iterated elimination or Iterative removal algorithm:

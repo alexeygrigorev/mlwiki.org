@@ -210,7 +210,7 @@ So we need to determine the posterior probabilities
 - $p(G \mid PG) = \cfrac{ p(G) \cdot p(RG  \mid  G) }{ p(RG) } = \cfrac{0.7 \cdot 0.7}{0.55} = 0.89$
 - $p(P \mid PG) = 1 - 0.89 = 0.11$
 - $p(P \mid RP) = \cfrac{ p(P) \cdot p(RP \mid P) }{ p(RP) } = \cfrac{ 0.3 \cdot 0.8}{0.45} = 0.53$
-- $p(G \mid RP) = 1 - p(P| RP) = 0.47$
+- $p(G \mid RP) = 1 - p(P\mid RP) = 0.47$
 We create a decision tree based on that
 - note that if report is good, then the best is to take $M$ (it dominates all the other alternatives)
 - the same for bad: $E$ dominates all the other

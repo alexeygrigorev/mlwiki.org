@@ -116,7 +116,7 @@ You can expect questions about probability distributions:
 - What summary statistics do you know?
 
 
-=== Experiment Design === 
+### Experiment Design
 Sampling and Randomization
 - Why do we need to sample and how? 
 - Why is randomization important in experimental design?
@@ -154,7 +154,7 @@ Hypothesis tests
 - What are the distributions / is the distribution of p-value's, in general?
 
 
-=== A/B Tests === 
+### A/B Tests
 - What is A/B testing? How is it different from usual Hypothesis testing? 
 - How can you prove that one improvement you've brought to an algorithm is really an improvement over not doing anything? How familiar are you with A/B testing? 
 - How can we tell whether our website is improving?
@@ -172,7 +172,7 @@ In my interviews I didn't have any questions about Bayesian Stats, not did I fou
 You might also get questions about Bayesian non-parametric models, but I'm not sure if it's common. 
 
 
-=== Time Series === 
+### Time Series
 - What is a time series? 
 - What is the difference between data for usual statistical analysis and time series data? 
 - Have you used time series models? Cross-correlations with time lags? Correlograms? Spectral analysis? Signal processing and filtering techniques? In which context?

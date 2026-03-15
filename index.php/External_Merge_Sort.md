@@ -8,7 +8,7 @@ tags:
 title: External Merge Sort
 ---
 ## External Merge Sort
-Full name: ''External Memory Multi-Way Merge Sort''
+Full name: *External Memory Multi-Way Merge Sort*
 - same idea as in in-memory [Merge Sort](Merge_Sort), but extended to [Secondary Storage](Secondary_Storage)
 
 
@@ -48,7 +48,7 @@ This is essentially the merging phase of [Merge Sort](Merge_Sort)
 
 Algorithm:
 - load block of $R$ to $N_R$, block of $S$ to $N_S$
-- iterate over tuples $t_R \in N_R$ and $t_S \in N_S$ ''synchronously''
+- iterate over tuples $t_R \in N_R$ and $t_S \in N_S$ *synchronously*
   - if $t_R \geqslant t_S$
     - output $t_R$ 
     - move $t_R$ pointer to the next tuple in $R$ (load next block if needed)

@@ -6,7 +6,6 @@ tags:
 - database-systems-architecture
 title: Bitmap Heap Scan
 ---
-{{stub}}
 
 ## Bitmap Heap Scan
 Index can be clustered or unclustered

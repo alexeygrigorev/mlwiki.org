@@ -23,7 +23,7 @@ The line has the followoing form:
 
 Suppose we have $n$ observations
 - for $i$th observation we have $y_i = b_0 + b_1 x_i$
-- and difference $y_i - b_0 - b_1 x_i$ is called ''residual'' 
+- and difference $y_i - b_0 - b_1 x_i$ is called *residual* 
 - We'd like to make these differences for all $i$ as small as possible
 
 
@@ -48,7 +48,7 @@ Regression is not symmetric:
 ### Example
 This is an example of best linear fit:
 
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-line.png" alt="Image">" />
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-line.png" alt="Image" />
 
 
 
@@ -78,11 +78,11 @@ So we get
 where
 - $s_x = \sqrt{\cfrac{1}{n - 1} \sum (x_i - \bar{x}) }$ and
 - $s_y = \sqrt{\cfrac{1}{n - 1} \sum (y_i - \bar{y}) }$
-- $R = \cfrac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2 }}$ is the [''correlation coefficient''](Корреляция)
+- $R = \cfrac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2 }}$ is the [*correlation coefficient*](Корреляция)
 
 
 ## Residuals
-''Residuals'' is the difference between actual values and predicted values
+*Residuals* is the difference between actual values and predicted values
 
 $i$th residual is:
 - $e_i = y_i - (b_0 + b_1 x_i) = y_i - b_0 - b_1 x_1 $
@@ -105,7 +105,7 @@ We have a formula for slope $b_1$ and, let  $\beta_1$ be the true value of slope
 
 There's the following fact: 
 - $\cfrac{b_1 - \beta_1}{\text{SE}(b_1)} \sim t_{n - 2}$
-- where $\text{SE}$ is ''standard error'' 
+- where $\text{SE}$ is *standard error* 
 - we loose one degree because we don't know the slope and the other because of the intercept 
 
 And we calculate the standard error as
@@ -142,9 +142,9 @@ For the example above we have
 - $b_1= 0.41, \text{SE}(b_1) = 0.148$
 
 $p$-value (under $H_0$)
-- $P( |  b_1 - \beta_1 | \geqslant 0.41 ) = $
+- $P( \mid b_1 - \beta_1 \mid \geqslant 0.41 ) = $
 - $P \left( \left|  \cfrac{b_1 - \beta_1}{\text{SE}(b_1)} \right| \geqslant \cfrac{0.41}{\text{SE}(b_1)} \right) \approx$
-- $P( |  t_{398} | \geqslant 2.77 ) \approx 0.0059$
+- $P( \mid t_{398} \mid \geqslant 2.77 ) \approx 0.0059$
 Quite small, so we reject the $H_0$ and conclude that $\beta_1 \neq 0$, i.e. there is some linear relationship.
 
 
@@ -164,7 +164,7 @@ Another way of finding the slope and intercept parameters is [Gradient Descent A
 We can use the regression to fit a linear model for several variables.
 
 ## In R
-```cbm basic v2
+```
 1. lm - linear model 
 lm1 = lm(diff ~ bmi)
 
@@ -179,7 +179,7 @@ lm1$residuals
 ```
 
 Logarithmic transformation
-```text only
+```
 lm1 = lm(diff ~ log10(bmi))
 ```
 

@@ -6,14 +6,14 @@ tags:
 title: Statistics
 ---
 ## Statistics
-''Statistics'' - the science of 
+*Statistics* - the science of 
 - collecting, organizing, summarizing, analyzing data
 - drawing conclusions from it
 
 
 Goal: use imperfect information to infer facts, make predictions, and make decisions.
 
-''A statistic'' a number or value measured in context
+*A statistic* a number or value measured in context
 
 
 ### Statistical Investigation

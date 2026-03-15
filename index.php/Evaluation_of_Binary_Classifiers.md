@@ -30,9 +30,9 @@ So for evaluating a classifier we need to set some baseline
   - We built some classification model $h_{\theta}(x)$
   - if we have $h_{\theta}(x) = 1$, we predict cancer, and if $h_{\theta}(x) = 0$, we predict no cancer. 
 - Then we find out that we have 1% errors for our classifier on test set, and 99% were correctly diagnosed 
-  - So the ''error rate'' is 1%
+  - So the *error rate* is 1%
 - But now suppose only 0.5% of patients have cancer 
-  - This is a ''skewed class'' - it's a tiny portion of another class 
+  - This is a *skewed class* - it's a tiny portion of another class 
 - We would predict better by always returning 0 (by using the trivial classifier)
   - (we'll have 0.5% error which is better than 1%)
 - $\Rightarrow$ We need different evaluation metrics, not just error rate
@@ -44,13 +44,13 @@ Confusion matrix is a $2 \times 2$ [Contingency Table](Contingency_Table)
 - We divide our predictions and mis-predictions into this matrix
 
 
-| + Diagnostic Testing Measures  [link](http://en.wikipedia.org/wiki/Template:DiagnosticTesting_Diagram) ||  colspan="2" rowspan="2" style="border:none;"| ||   colspan="2" | Actual Class $y$  |  Positive ||  Negative ||   rowspan="2" | $h_{\theta}(x)$ <br/> Test<br />outcome  |  Test<br />outcome<br />positive || style="background:#ccffcc;"| '''True positive'''<br/> ($\text{TP}$) || style="background:#eedddd;"| '''False positive'''<br />($\text{FP}$, Type I error) ||  Precision =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FP}}$ ||  Test<br />outcome<br />negative || style="background:#eedddd;"| '''False negative'''<br />($\text{FN}$, Type II error) || style="background:#ccffcc;"| '''True negative'''<br /> ($\text{TN}$) ||  Negative predictive value =<br /> $\cfrac{\# \text{TN}}{\# \text{FN} + \# \text{TN}}$ || colspan="2" style="border:none;" | ||  Sensitivity =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FN}}$ ||  Specificity =<br /> $\cfrac{\# \text{TN}}{\# \text{FP} + \# \text{TN}}$ ||  Accuracy =<br /> $\cfrac{\# \text{TP} + \# \text{TN}}{\# \text{TOTAL}}$ |
+| + Diagnostic Testing Measures  [link](http://en.wikipedia.org/wiki/Template:DiagnosticTesting_Diagram) ||  colspan="2" rowspan="2" style="border:none;"| ||   colspan="2" | Actual Class $y$  |  Positive ||  Negative ||   rowspan="2" | $h_{\theta}(x)$ <br/> Test<br />outcome  |  Test<br />outcome<br />positive || style="background:#ccffcc;"| '*True positive*'<br/> ($\text{TP}$) || style="background:#eedddd;"| '*False positive*'<br />($\text{FP}$, Type I error) ||  Precision =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FP}}$ ||  Test<br />outcome<br />negative || style="background:#eedddd;"| '*False negative*'<br />($\text{FN}$, Type II error) || style="background:#ccffcc;"| '*True negative*'<br /> ($\text{TN}$) ||  Negative predictive value =<br /> $\cfrac{\# \text{TN}}{\# \text{FN} + \# \text{TN}}$ || colspan="2" style="border:none;" | ||  Sensitivity =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FN}}$ ||  Specificity =<br /> $\cfrac{\# \text{TN}}{\# \text{FP} + \# \text{TN}}$ ||  Accuracy =<br /> $\cfrac{\# \text{TP} + \# \text{TN}}{\# \text{TOTAL}}$ |
 
 Main values of this matrix:
-- '''True Positive''' - we predicted "+" and the true class is "+"
-- '''True Negative''' - we predicted "-" and the true class is "-"
-- '''False Positive''' - we predicted "+" and the true class is "-" (Type I error)
-- '''False Negative''' - we predicted "-" and the true class is "+" (Type II error)
+- '*True Positive*' - we predicted "+" and the true class is "+"
+- '*True Negative*' - we predicted "-" and the true class is "-"
+- '*False Positive*' - we predicted "+" and the true class is "-" (Type I error)
+- '*False Negative*' - we predicted "-" and the true class is "+" (Type II error)
 - (see also [Statistical Tests of Significance#Type I and Type II Errors](Statistical_Tests_of_Significance#Type_I_and_Type_II_Errors))
 
 
@@ -110,7 +110,7 @@ The [F Measure](F_Measure) is a combination of [Precision and Recall](Precision_
 
 ### Example
 
-| + Diagnostic Testing Wikipedia Example [link](http://en.wikipedia.org/wiki/Template:DiagnosticTesting_Example) || colspan="2" rowspan="2" style="border:none;"| || colspan="2" style="background:#eeeebb;"|'''Patients with bowel cancer<br />(as confirmed on endoscopy)''' || style="background:#ffffcc;"| Positive || style="background:#ddddaa;"| Negative || rowspan="2" style="background:#bbeeee;"|'''Fecal<br />Occult<br />Blood<br />Screen<br />Test<br />Outcome''' || style="background:#ccffff;"|Test<br />Outcome<br />Positive || style="background:#ccffcc;"|<span style="color:#006600;">'''True Positive'''</span><br />(TP) = 20 || style="background:#eedddd;"|<span style="color:#cc0000;">'''False Positive'''</span><br />(FP) = 180 || style="background:#ccffff;"|Positive predictive value<div style="text-align:left; margin-left:1em;">= TP / (TP + FP)<br />= 20 / (20 + 180)<br />= '''10%'''</div> || style="background:#aadddd;"|Test<br />Outcome<br />Negative || style="background:#eedddd;"|<span style="color:#cc0000;">'''False Negative'''</span><br />(FN) = 10 || style="background:#bbeebb;"|<span style="color:#006600;">'''True Negative'''</span><br />(TN) = 1820 || style="background:#aadddd;"|Negative predictive value<div style="text-align:left; margin-left:1em;">= TN / (FN + TN)<br />= 1820 / (10 + 1820)<br />&asymp; '''99.5%'''</div> || colspan="2" style="border:none;" | || style="background:#ffffcc;"|Sensitivity<div style="text-align:left;">= TP / (TP + FN)<br />= 20 / (20 + 10)<br />&asymp; '''67%'''</div> || style="background:#ddddaa;"|Specificity<div style="text-align:left;">= TN / (FP + TN)<br />= 1820 / (180 + 1820)<br />= '''91%'''</div> |
+| + Diagnostic Testing Wikipedia Example [link](http://en.wikipedia.org/wiki/Template:DiagnosticTesting_Example) || colspan="2" rowspan="2" style="border:none;"| || colspan="2" style="background:#eeeebb;"|'*Patients with bowel cancer<br />(as confirmed on endoscopy)*' || style="background:#ffffcc;"| Positive || style="background:#ddddaa;"| Negative || rowspan="2" style="background:#bbeeee;"|'*Fecal<br />Occult<br />Blood<br />Screen<br />Test<br />Outcome*' || style="background:#ccffff;"|Test<br />Outcome<br />Positive || style="background:#ccffcc;"|<span style="color:#006600;">'*True Positive*'</span><br />(TP) = 20 || style="background:#eedddd;"|<span style="color:#cc0000;">'*False Positive*'</span><br />(FP) = 180 || style="background:#ccffff;"|Positive predictive value<div style="text-align:left; margin-left:1em;">= TP / (TP + FP)<br />= 20 / (20 + 180)<br />= '*10%*'</div> || style="background:#aadddd;"|Test<br />Outcome<br />Negative || style="background:#eedddd;"|<span style="color:#cc0000;">'*False Negative*'</span><br />(FN) = 10 || style="background:#bbeebb;"|<span style="color:#006600;">'*True Negative*'</span><br />(TN) = 1820 || style="background:#aadddd;"|Negative predictive value<div style="text-align:left; margin-left:1em;">= TN / (FN + TN)<br />= 1820 / (10 + 1820)<br />&asymp; '*99.5%*'</div> || colspan="2" style="border:none;" | || style="background:#ffffcc;"|Sensitivity<div style="text-align:left;">= TP / (TP + FN)<br />= 20 / (20 + 10)<br />&asymp; '*67%*'</div> || style="background:#ddddaa;"|Specificity<div style="text-align:left;">= TN / (FP + TN)<br />= 1820 / (180 + 1820)<br />= '*91%*'</div> |
 
 
 

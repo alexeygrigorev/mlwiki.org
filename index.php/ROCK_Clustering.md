@@ -5,7 +5,6 @@ tags:
 - cluster-analysis
 title: ROCK Clustering
 ---
-{{stub}}
 
 ## ROCK Clustering
 ROCK $\approx$ group average in [Agglomerative Clustering](Agglomerative_Clustering)

@@ -12,10 +12,10 @@ These are notes of an introductory course to [Statistics](Statistics)
 
 
 ## [Statistics](Statistics)
-''Statistics'' - the science of collecting, organizing, summarizing, analyzing and interpreting data
+*Statistics* - the science of collecting, organizing, summarizing, analyzing and interpreting data
 
 ## Course Syllabus
-=== First Look at Data (Weeks 1-2) === 
+### First Look at Data (Weeks 1-2)
 - [Summary Statistics](Summary_Statistics)
 - [The Shape of Data](Distributions)
 - [Types of Variables](Types_of_Variables) 

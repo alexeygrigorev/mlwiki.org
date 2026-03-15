@@ -6,7 +6,6 @@ tags:
 - logic
 title: First Order Logic
 ---
-{{stub}}
 
 ## First Order Logic
 First Order Logic (FOL)

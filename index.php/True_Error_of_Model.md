@@ -8,8 +8,8 @@ tags:
 title: True Error of Model
 ---
 ## True Error of Model
-What do we do when we want to know how accurately the model ''will'' perform in practice
-- need to estimate its ''true error''
+What do we do when we want to know how accurately the model *will* perform in practice
+- need to estimate its *true error*
 
 
 ### Estimating the Accuracy
@@ -19,12 +19,12 @@ Given:
 
 Problem 
 - estimate the accuracy of $C$ over future instances drawn with $P$ 
-- this is called the ''true error''
-- it's important to distinguish ''sample error'' and ''true error''
+- this is called the *true error*
+- it's important to distinguish *sample error* and *true error*
 
 
 ### Sample Error
-the ''sample error'' of $C$ calculated on sample $S$ is
+the *sample error* of $C$ calculated on sample $S$ is
 - the proportion of examples in $S$ that $C$ misclassified
 - $\text{error}(C, S) = \cfrac{1}- $\text{acc}(C, S)  = \cfrac{1}
 
@@ -37,7 +37,7 @@ But usually we have training and testing sets (see [Cross-Validation](Cross-Vali
 
 
 ### True Error
-the ''true error'' of $C$ w.r.t distribution $S$ on the population $D$
+the *true error* of $C$ w.r.t distribution $S$ on the population $D$
 - is the probability to misclassify an instance drawn from $D$ at random
 - $\text{error}(C, D) = \sum_{(x,y) \in D} P(x, y) \cdot \delta(C(x) \ne y)$
   - $P(x, y)$ is the probability to draw a pair $(x,y) \in D$

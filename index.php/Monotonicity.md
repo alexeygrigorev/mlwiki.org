@@ -9,7 +9,7 @@ title: Monotonicity
 The monotonicity is a [Voting Theory](Voting_Theory) criterion/principle that characterizes voting methods for choosing the winner. 
 
 
-''Monotonicity'' is satisfied when:
+*Monotonicity* is satisfied when:
 - if 
   - an alternative $x$ rises or does not fall in the individual ordering and
   - $x$ was preferred to another alternative $y$ before the change in the individual orderings

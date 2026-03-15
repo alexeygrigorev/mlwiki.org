@@ -6,10 +6,10 @@ tags:
 title: Inverse Matrices
 ---
 ## Inverse Matrices
-A square $n \times n$ matrix $A$ has inverse (or $A$ is ''invertible'') if there exists $B$ s.t. $A \times B = B \times A = I_n$ 
+A square $n \times n$ matrix $A$ has inverse (or $A$ is *invertible*) if there exists $B$ s.t. $A \times B = B \times A = I_n$ 
 - If $B$ exists, then it's denoted $A^{-1}$  
-- $A$ in such case is called ''non-singular''
-- otherwise (no $A^{-1}$ exists) $A$ is called ''singular''
+- $A$ in such case is called *non-singular*
+- otherwise (no $A^{-1}$ exists) $A$ is called *singular*
 
 
 

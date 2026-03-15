@@ -54,8 +54,8 @@ This includes:
 
 
 Derived Data:
-- ''Views'': a query on the database that can be used as a relation in other queries 
-- ''Derived attributes'': values that are computed from other values 
+- *Views*: a query on the database that can be used as a relation in other queries 
+- *Derived attributes*: values that are computed from other values 
 
 There are two strategies for derived data
 - virtually supported - computed on demand (virtual tables)
@@ -128,7 +128,7 @@ Types:
 
 
 ### Syntax
-```text only
+```
 CREATE TABLE <name>
 ON <table>
 {AFTER |  INSTEAD OF} <list of events> |as 
@@ -158,7 +158,7 @@ Events that may violate this constraint:
 
 Events (a) and (b):
 
-```scdoc
+```
 create trigger StudSameLabAsSuperv_PhDStud_InsUpd_Abort
 -- EVENT
 on PhDStudent
@@ -181,7 +181,7 @@ end
 
 
 Event (c) 
-```scdoc
+```
 create trigger StudSameLabAsSuperv_Prof_Upd_Abort
 on Professor
 after update
@@ -211,7 +211,7 @@ Event (d)
 ; The age of employees must be greater than 18
 - this can be done with <code>CHECK</code> constraint
 
-```gdscript
+```
 alter table Employee
 add constraint employee_Age18
 check (dateadd(year, 18, BDate) <= getdate())
@@ -222,7 +222,7 @@ check (dateadd(year, 18, BDate) <= getdate())
 - can recalculate everything
 - or update incrementally
 
-```scdoc
+```
 create trigger DeptNbrEmp_Employee_InsUpdDel_Derive
 on Employee
 after insert, update, delete
@@ -241,7 +241,7 @@ end
 
 Incremental version
 
-```scdoc
+```
 create trigger derived_Department_NbrEmployees_Employee
 on Employee
 after insert, update, delete
@@ -261,7 +261,7 @@ end
 
 Now also need to ensure that no one can modify this attribute
 
-```scdoc
+```
 create trigger derived_Department_NbrEmployees_Department
 on Department
 after insert, update

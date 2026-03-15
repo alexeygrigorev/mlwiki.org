@@ -18,7 +18,7 @@ Generates 10 random values from [Normal Distribution](Normal_Distribution)
 - with standard deviation 3 and mean 188
 
 
-```text only
+```
 heights = rnorm(10, mean=188, sd=3)
 > 186.0 191.2 187.6 187.9 186.6 187.2 187.2 189.5 190.8 186.4
 ```
@@ -28,7 +28,7 @@ Generates 10 random values from [Binomial Distribution](Binomial_Distribution)
 - flipping a coin 10 times:
 - of 10 independent experiments with probability 0.5
 
-```text only
+```
 coinFlips = rbinom(10,size=10,prob=0.5)
 > 3 4 6 5 7 6 5 8 5 6
 ```
@@ -36,7 +36,7 @@ coinFlips = rbinom(10,size=10,prob=0.5)
 
 ### d<code>name</code>: [Probability Density Function](Probability_Density_Function)
 Calculates the density of some probability distribution
-```text only
+```
 x = seq(from=-5, to=5, length=10)
 normalDensity = dnorm(x, mean=0, sd=1)
 round(normalDensity, 2)
@@ -44,7 +44,7 @@ round(normalDensity, 2)
 ```
 
 same with 15 :
-```text only
+```
 x = seq(from=-3, to=3, length=15)
 normalDensity = dnorm(x, mean=0, sd=1)
 r = round(normalDensity, 2)
@@ -61,7 +61,7 @@ So we can see that it generates the values of the density function
 
 Same for the Binomial distribution:
 
-```text only
+```
 x = seq(0,10,by=1)
 binomialDensity = dbinom(x,size=10,prob=0.5)
 round(binomialDensity,2)
@@ -74,7 +74,7 @@ Function <code>sample</code> draws a random sample
 - <code>function(x, size, replace= FALSE, prob = NULL) </code>
 - <code>replace = T</code> for sampling with replacement
 
-```text only
+```
 s = seq(0, 20)
 > 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
 sample(s, size=10)
@@ -89,7 +89,7 @@ The sample can be draw with specified probability
 - e.g. suppose we want to sample with normal distribution
 
 
-```text only
+```
 dnorm(seq(-3, 3, length=length(s)))
 sample(s, size=10, replace=T, prob=n)
 > 9  7 11 11  1 13 11 14  5  6

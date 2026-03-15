@@ -9,7 +9,7 @@ title: Pigeonhole Principle
 
 If there are at least $N + 1$ pigeons sitting in $N$ pigeonholes, then at least one pigeonhole contains at least 2 pigeons.
 
-This statement is known as the ''Dirichlet principle''. It is proved by contradiction: if each pigeonhole contained at most one pigeon, then $N$ pigeonholes would contain at most $N$ pigeons -- a contradiction.
+This statement is known as the *Dirichlet principle*. It is proved by contradiction: if each pigeonhole contained at most one pigeon, then $N$ pigeonholes would contain at most $N$ pigeons -- a contradiction.
 
 A more general formulation of the principle:
 

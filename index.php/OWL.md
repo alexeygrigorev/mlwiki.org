@@ -53,7 +53,7 @@ Best way to use these restrictions:
 Schema (namespace <code>q</code>):
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/sw/owl-rest-quest1.png" alt="Image">
 
-```actionscript 3
+```
 q:optionOf a owl:ObjectProperty; 
     rdfs:domain q:Answer; 
     rdfs:range q:Question; 
@@ -71,7 +71,7 @@ q:Question a owl:Class.
 
 
 Data (namespace <code>d</code>): 
-```actionscript 3
+```
 d:WhatProblem a q:Question; 
     q:hasOption d:STV, d:SInternet, d:SBoth; 
     q:questionText "What system are you having trouble with?".
@@ -125,7 +125,7 @@ now define questions that can be asked: <code>q:EnabledQuestion a owl:Class</cod
 - each answer potentially makes some other questions enabled
 - define property <code>q:enablesCandidate</code> for that
 
-```actionscript 3
+```
 q:enablesCandidate a owl:ObjectProperty;
     rdfs:domain q:Asnwer;
     rdfs:range q:Question.
@@ -177,7 +177,7 @@ Recall the Open World Assumption (see [Semantic Web#Main Assumptions](Semantic_W
 - so we put a limit on the AAA slogan: now nobody can say something additional about this topic
 - so handle it with care
 - Example:
-```actionscript 3
+```
 ss:SolarPlanet rdf:type owl:Class; 
     owl:oneOf (ss:Mercury ss:Venus  ss:Earth  ss:Mars
                ss:Jupiter ss:Saturn ss:Uranus ss:Neptune).
@@ -201,7 +201,7 @@ Also can use:
 
 ### Set Compliment
 <code>ex:ClassA owl:complimentOf ex:ClassB</code>
-- ''compliment'' - another class whose members are things that don't belong to this ''complimented'' class
+- *compliment* - another class whose members are things that don't belong to this *complimented* class
 - $A = \Omega - B$
 
 But it includes <u>everything</u> that is not in the complimented class

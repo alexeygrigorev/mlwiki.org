@@ -3,7 +3,6 @@ layout: default
 permalink: /index.php/Polynomial_Functions
 title: Polynomial Functions
 ---
-{{stub}}
 
 ## Polynomial Functions
 - $\cfrac{d}{dx} x^k = k\, x^{k-1}$

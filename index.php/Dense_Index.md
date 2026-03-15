@@ -14,7 +14,7 @@ A dense [index](Indexing_(databases)) is a sequence of blocks that can hold only
 
 
 Assumptions
-- out file (on the right) is ''sequential'' 
+- out file (on the right) is *sequential* 
   - i.e. it's created by sorting all tuples by some attribute, say, primary key
 - we can keep 2 records in one block
 

@@ -8,7 +8,7 @@ title: Process Mining
 ---
 ## Process Mining
 Suppose we have a log of our process, but do not have the model of this process
-- the ''process mining'' is a way to find a process from the logs
+- the *process mining* is a way to find a process from the logs
 - the model can be a [Workflow Net](Workflow_Nets), [YAWL](YAWL) or [BPMN](BPMN) model. 
 
 
@@ -22,7 +22,7 @@ play-in = process discovery
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/process-discovery.png" alt="Image">
 
 
-the ''ability to rediscover''
+the *ability to rediscover*
 - is a property of a process mining algorithm to discover a model of some process 
 - from logs that have been generated from this model 
 - i.e. in case of [Petri Nets](Petri_Nets), if $N$ is the original model and $N'$ is the discovered model, then $N \equiv N'$

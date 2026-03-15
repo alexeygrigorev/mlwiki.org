@@ -9,7 +9,7 @@ title: Observational Studies
 There are two types of [Data Collection](Data_Collection)
 - Observation Studies and [Statistical Experiment](Statistical_Experiment)s
 
-In ''Observation Studies'' we observe existing characteristics of a subset of individuals in a population
+In *Observation Studies* we observe existing characteristics of a subset of individuals in a population
 - typically done via surveys, by following smb, etc
 - this method doesn't directly interfere with how the data appear (in contrast to [Statistical Experiment](Statistical_Experiment)s)
 
@@ -35,12 +35,12 @@ Types of variables:
 
 ### Types of Relationships
 The relationships between the explanatory variable and the outcome
-- ''independent'': there is no association between the variables
-- ''association'': the variables are dependent, but it's not clear what kind of relationship there is
-  - ''causes'': changes in the explanatory variables case the outcome to change 
-  - ''reverse causation'': changes in outcome cause the explanatory variable to change
-  - ''coincidence'': just pure chance
-  - ''common cause'': some other variable causes both the explanatory variables and the outcome to change (see also [Confounding Variables](Confounding_Variables))
+- *independent*: there is no association between the variables
+- *association*: the variables are dependent, but it's not clear what kind of relationship there is
+  - *causes*: changes in the explanatory variables case the outcome to change 
+  - *reverse causation*: changes in outcome cause the explanatory variable to change
+  - *coincidence*: just pure chance
+  - *common cause*: some other variable causes both the explanatory variables and the outcome to change (see also [Confounding Variables](Confounding_Variables))
 
 
 ### Correlation and Causation

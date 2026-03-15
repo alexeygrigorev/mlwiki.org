@@ -219,7 +219,7 @@ D_{Q_4} =
 - $Q_4 \not \subseteq Q_3$
 
 
-'''Recap''':  $Q_4 \subseteq Q_1$, $Q_3 \subseteq Q_2$, no equivalent queries 
+'*Recap*':  $Q_4 \subseteq Q_1$, $Q_3 \subseteq Q_2$, no equivalent queries 
 
 
 ## See Also

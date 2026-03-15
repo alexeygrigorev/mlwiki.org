@@ -73,13 +73,13 @@ Exceptions:
 Consider this example:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/bpmn/bpmn-exceptions-ex.png" alt="Image">
 - there's one throwing event that interrupts the flow 
-  - ''throwing event''
+  - *throwing event*
   - produces some events 
   - these events are interrupting: the flow ends with such event
 - and this exception is caught outside of the subflow and handled 
-  - ''catching event''
+  - *catching event*
   - listens for certain events
-- we also have ''non-interrupting'' events - border events 
+- we also have *non-interrupting* events - border events 
   - they are activated when something happens outside of the flow
 
 

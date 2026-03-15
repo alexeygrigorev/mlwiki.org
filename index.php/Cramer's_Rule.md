@@ -120,7 +120,7 @@ Now since we can find the inverse of $A^{-1}$, we can solve the system $A \mathb
   a_{n1} & a_{n2} & \cdots & a_{nn} \\
 \end{vmatrix}$
 - and generally, $x_i = \cfrac
-This is known as the '''Cramer's Rule'''
+This is known as the **Cramer's Rule**
 
 
 ### Efficiency

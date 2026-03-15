@@ -10,8 +10,8 @@ title: Rule-Based Classifier
 Rule-based classifiers
 - use a set of IF-THEN rules for classification 
 - if {condition} then {conclusion}
-- if part - ''condition'' stated over the data
-- then part - a class label, ''consequent''
+- if part - *condition* stated over the data
+- then part - a class label, *consequent*
 
 
 ## 1-Rule
@@ -79,7 +79,7 @@ Where to extract these rules from?
 
 
 ### Sequential Covering Algorithm
-'''PRISM'''(dataset $D$):
+'*PRISM*'(dataset $D$):
 - $R$ - resulting rule dataset, $R \leftarrow \varnothing$
 - for each class $C$ 
 - while $D \not \equiv \varnothing$
@@ -92,7 +92,7 @@ Finding the next rule [link](http://www.evernote.com/shard/s344/sh/d82d9776-7319
 - FindNextRule($C, D$) subroutine
 - uses [Depth-First Search](Depth-First_Search) to construct the next rule for class $C$ 
 - we know the consequent for this rule: it's $C$
-- so we need to construct only ''antecedent'' (предыдущий член отношения)
+- so we need to construct only *antecedent* (предыдущий член отношения)
   - start with an empty antecedent,
   - iteratively add most promising "attribute=value" constraints 
   - use error rate to get the best one 
@@ -100,13 +100,13 @@ Finding the next rule [link](http://www.evernote.com/shard/s344/sh/d82d9776-7319
 
 
 
-'''FindNextRule'''(class $C$, dataset $D$):
+'*FindNextRule*'(class $C$, dataset $D$):
 - let $A$ be all attributes in $D$
 - let $r$ be the initial rule $r: \varnothing \to C$
   - not examining anything, just always returning $C$
 - while $r$ incorrectly classifies some non-$C$ instances in $D$
   - let $\text{ant}(r) \to C$ be the rule computed at the previous iteration
-    - $\text{ant}(r)$ is the ''antecedent'' of $r$;
+    - $\text{ant}(r)$ is the *antecedent* of $r$;
     - it means take the rule from the previous iteration of the rule creation loop 
     - (or an empty rule if this is the first iteration)
   - for each pair $(a, v)$ s.t. $a \in A$ and $v \in \text{dom}(a)$

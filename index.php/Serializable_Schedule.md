@@ -8,26 +8,26 @@ title: Serializable Schedule
 ---
 ## Serializable Schedule
 ### Definitions
-An ''action'' is 
+An *action* is 
 - $r(X)$ - read database element $X$ or 
 - $w(X)$ - write database element $X$
 - we abstract away from the actual values that are read/written, we are not interested in them
 
-A ''transaction'' $T$ is a sequence of action 
+A *transaction* $T$ is a sequence of action 
 - $r(A), r(B), w(A), w(B)$
 
-A ''schedule'' is a sequence of actions that belong to different transactions 
+A *schedule* is a sequence of actions that belong to different transactions 
 - $r_1(A), w_1(A), r_2(A), w_2(A), r_1(B), w_1(B), r_2(B), w_2(B)$
 - $r_i(X)$ denotes that this action belongs to transaction $T_i$
 
 
 ### Serializability
-a ''serial schedule'' is a schedule in which transactions are executed consequently, not concurrently
+a *serial schedule* is a schedule in which transactions are executed consequently, not concurrently
 - e.g. first all actions of $T_1$ and then all actions of $T_2$
 - $\underbrace{r_1(A), w_1(A), r_1(B), w_1(B)}_{\text{all actions of $T_1$}}, \underbrace{r_2(A), w_2(A), r_2(B), w_2(B)}_{\text{all actions of $T_2$}}$
 
 Serializable Schedule
-- a schedule is called ''serializable'' is there exists an equivalent serial schedule 
+- a schedule is called *serializable* is there exists an equivalent serial schedule 
 - even though we may execute actions concurrently, the effect is guaranteed to be the same as if it was run in isolation
 
 - $S_1 = r_1(A), w_1(A), r_2(A), w_2(A), r_1(B), w_1(B), r_2(B), w_2(B)$
@@ -45,11 +45,11 @@ We want to schedule our actions in such a way that the result is serializable
 ### Conflict-Serializability
 Serializability is very hard to achieve 
 
-two actions are ''in conflict'' if
+two actions are *in conflict* if
 1. they belong to the same transaction 
 1. both deal with the same element and one of the actions is a write
 
-A schedule is ''conflict-serializable'' if
+A schedule is *conflict-serializable* if
 - we can obtain a serial schedule by swapping actions that are not in conflict
 
 Example:
@@ -76,7 +76,7 @@ but converse is not true
 ## Precedence Graph
 There is an algorithm that checks if a schedule is conflict-serializable
 
-construct a ''precedence graph'':
+construct a *precedence graph*:
 - suppose you have a schedule $S$ with several transactions 
 - create a node for each transaction 
 - connect $T_i$ with $T_j$ if 
@@ -93,7 +93,7 @@ Example 2:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/pred-graph-2.png" alt="Image">
 
 
-'''Thm''' If the precedence graph $G$ of a schedule $S$ is a [DAG](Graphs#Directed_Acyclic_Graph) then
+'*Thm*' If the precedence graph $G$ of a schedule $S$ is a [DAG](Graphs#Directed_Acyclic_Graph) then
 - $S$ is conflict-serializable 
 - otherwise it's not
 

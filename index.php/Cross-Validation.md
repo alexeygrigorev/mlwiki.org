@@ -12,8 +12,8 @@ How you can tell that a hypothesis [overfits](Overfitting)?
 - plotting - not always good
 
 We can split all the data into 2 subsets 
-- training set $\approx$ '''70%''' of data, $m$ - number of examples in the training set
-- testing set $\approx$ '''30%''' of data, $m_{\text{test}}$ - number of examples in the testing set
+- training set $\approx$ '*70%*' of data, $m$ - number of examples in the training set
+- testing set $\approx$ '*30%*' of data, $m_{\text{test}}$ - number of examples in the testing set
 
 it's better to choose examples for training/testing sets randomly 
 
@@ -54,20 +54,20 @@ How well this model generalize?
 
 To address that problem 
 - instead of splitting the data set into 2 categories, we split into 3 sets: 
-- training set ($\approx$ '''60%''')
+- training set ($\approx$ '*60%*')
   - $x^{(i)}, y^{(i)}$, total $m$ examples
-- cross-validation set (or cv, $\approx$ '''20%''')
+- cross-validation set (or cv, $\approx$ '*20%*')
   - $x_{\text{cv}}^{(i)}, y_{\text{cv}}^{(i)}$, total $m_{\text{cv}}$ examples
-- test set ($\approx$ '''20%''')
+- test set ($\approx$ '*20%*')
   - $x_{\text{test}}^{(i)}, y_{\text{test}}^{(i)}$, total $m_{\text{test}}$ examples
 
 
 Now we can define 
-- ''Training error''
+- *Training error*
   $J(\theta) = J_{\text{train}}(\theta) = \cfrac{1}{2m} \sum \text{cost}(x^{(i)}, y^{(i)})$
-- ''Cross-Validation error''
+- *Cross-Validation error*
   $J_{\text{cv}}(\theta) = \cfrac{1}{2m_{\text{cv}}} \sum \text{cost}(x_{\text{cv}}^{(i)}, y_{\text{cv}}^{(i)})$
-- ''Test Error ''
+- *Test Error *
   $J_{\text{test}}(\theta) = \cfrac{1}{2m_{\text{test}}} \sum \text{cost}(x_{\text{test}}^{(i)}, y_{\text{test}}^{(i)})$
 
 

@@ -17,7 +17,7 @@ MergeSort(array $a$):
 
 ## Implementation
 ### Java
-```tera term macro
+```
 public int[] mergeSort(int[] input) {
     int n = input.length;
     if (n <= 1) {
@@ -109,18 +109,18 @@ Motivation
 
 Example
 - 1 3 5 2 4 6
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/4sejvio5u5q0jbvvq4ig4lpleg.png" alt="Image">" \>
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/4sejvio5u5q0jbvvq4ig4lpleg.png" alt="Image" />
 - if we write the sorted input and the given input, number of crosses would be number of inversions
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/6p2a0utmd4bi6kjp6tigf1pqfi.png" alt="Image">" \>
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/6p2a0utmd4bi6kjp6tigf1pqfi.png" alt="Image" />
 - inversions are $(3,2)$, $(5,2)$, $(5,4)$
 
 Brute force is not an option: $\Theta(n^2)$ time
 
 Basic idea:
 - insertion $c(i, j)$ is
-  - '''left''', if $i, j \leqslant \frac{n}{2}$
-  - '''right''', if $i, j > \frac{n}{2}$
-  - '''split''' if $i \leqslant \frac{n}{2} < j$
+  - '*left*', if $i, j \leqslant \frac{n}{2}$
+  - '*right*', if $i, j > \frac{n}{2}$
+  - '*split*' if $i \leqslant \frac{n}{2} < j$
 
 
 #### Algorithm
@@ -156,7 +156,7 @@ Example
 - when in R element is less than in L - that's an inversion
  |
 #### Implementation
-```tera term macro
+```
 public Pair<int[], Long> countAndSort(int[] input) {
     int n = input.length;
     if (n == 1) {

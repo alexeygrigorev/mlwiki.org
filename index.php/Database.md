@@ -24,7 +24,7 @@ What problems databases solve?
 
 
 ## DBMS
-- usually the term database refers to a collection of data that is managed by a ''DBMS'' - a tool for managing large amounts of data
+- usually the term database refers to a collection of data that is managed by a *DBMS* - a tool for managing large amounts of data
 
 A Database Management System (DBMS) is expected to (by [Data Model](Data_Model) Enforcement)
 - allow users to create DBs and specify the schema - logical structure of the data 
@@ -44,7 +44,7 @@ deals with [Crash Recovery](Crash_Recovery)
 - Uses [Database Transaction Log](Database_Transaction_Log)s for that
 
 ### [Concurrency Control](Concurrency_Control)
-- ''Transaction Manager'' is responsible for receiving read and write requests (SQL is eventually translated to them)
+- *Transaction Manager* is responsible for receiving read and write requests (SQL is eventually translated to them)
 - it has a [Scheduler](Scheduler): a component  that schedules commands in some sequence thus creating an impression that all users work in [isolation](Isolation_(databases))
 
 
@@ -63,18 +63,18 @@ Responsible for [Query Processing](Query_Processing)
 
 
 ### Buffer Manager
-''Buffer Manager'' is mediator between [external storage](Secondary_Storage) and main memory (see [Memory Hierarchy](Memory_Hierarchy))
+*Buffer Manager* is mediator between [external storage](Secondary_Storage) and main memory (see [Memory Hierarchy](Memory_Hierarchy))
 
 Main Responsibility: Partitioning main memory into buffers
-- it maintains a ''buffer pool''
-- it's a collection of memory slots (called ''buffers'')
-- a ''buffer'' is a page-sized regions into which disk blocks are transferred 
+- it maintains a *buffer pool*
+- it's a collection of memory slots (called *buffers*)
+- a *buffer* is a page-sized regions into which disk blocks are transferred 
 - disk blocks are brought into memory per request
   - sometimes it may allocate more blocks when asked - in anticipation that some blocks will be needed
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/db-architecture-buffermanager.png" alt="Image">
 
-A ''replacement policy'' decides which block gets evicted when the buffer pool is full
+A *replacement policy* decides which block gets evicted when the buffer pool is full
 - popular policies" FIFO, Least Recently Used, Clock, etc
 
 Blocks Management
@@ -84,14 +84,14 @@ Blocks Management
   - if no empty buffers, but need to load something, it uses the replacing policy
 - Higher levels also inform when a block is no longer needed 
   - so BM can reuse the space
-- ''pinned block'' - block that should remain in the memory because it's still needed 
-  - ''pinning'' - making a block pinned
-  - ''unpinning'' - telling BM that a block is no longer needed
+- *pinned block* - block that should remain in the memory because it's still needed 
+  - *pinning* - making a block pinned
+  - *unpinning* - telling BM that a block is no longer needed
 - if a block is modified, BM makes sure the changes are propagated to dosk
 
 
 ### Disk Space Manager
-sometimes also ''Storage Manager''
+sometimes also *Storage Manager*
 - controls where the data in main memory or on disk is stored 
 - keeps track on locations of data requested by buffer manager  
 - deals with requests from upper layers to allocate, deallocate, read and write blocks 

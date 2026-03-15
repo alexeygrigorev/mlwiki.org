@@ -14,7 +14,7 @@ A document-oriented database is a database designed for storing document-oriente
 ### Documents
 The central abstraction of these databases is documents.
 
-A ''document'' is 
+A *document* is 
 - a self-contained record: it contains everything it needs (thus, no or little need for joining with other documents)
 - a semi-structured record: it is a set of values, each of which may be complex (i.e. hold other values)
 - a record with no imposed structure, other then the structure of the format (XML, JSON, etc) that is used to represent the record
@@ -23,7 +23,7 @@ Documents inside such databases are not rigid: there are usually no requirements
 
 Categorizing
 - there are ways to organize records into categories (like relations in [Relational Databases](Relational_Databases))
-- typical way: add ''tags'' to mark the category of a record. A tag is usually just another field that specifies the type of a record
+- typical way: add *tags* to mark the category of a record. A tag is usually just another field that specifies the type of a record
 - databases usually don't provide tools for categorizing, and it's up to users to decide whether to use tags or not
 
 

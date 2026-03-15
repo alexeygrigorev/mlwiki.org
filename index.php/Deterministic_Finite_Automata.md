@@ -10,19 +10,19 @@ Deterministic Finite Automata (DFA) are [Automata](Automata) that defile [Regula
 
 
 ### [Formal Languages](Formal_Languages)
-A ''language'' $L$ is a subset of all possible words $\Sigma^*$ formed by symbols of alphabet $\Sigma$
+A *language* $L$ is a subset of all possible words $\Sigma^*$ formed by symbols of alphabet $\Sigma$
 - English, French
 - words with equal number of 1's and 0's 
 - and so on
 
 
 ### Informal Introduction
-A ''finite automata'' is a formal system 
+A *finite automata* is a formal system 
 - it can be viewed as a [graph](graph) or table
 - it remembers only <u>finite</u> amount of information
 - it has only <u>finite</u> number of states
 - states chance in response to some input: characters or events 
-- rules that tell how the state changes are called ''transitions''
+- rules that tell how the state changes are called *transitions*
 
 Usage:
 - design and verification of circuits and communication protocols
@@ -31,7 +31,7 @@ Usage:
 
 
 ### Definition
-A ''Deterministic Finite Automaton'' (DFA) is a tuple $A = \langle Q, \Sigma, \delta, q_o, F \rangle$
+A *Deterministic Finite Automaton* (DFA) is a tuple $A = \langle Q, \Sigma, \delta, q_o, F \rangle$
 - $Q$ is a finite set of states
 - $\Sigma$  a finite input alphabet
 - $\delta$ a transition function
@@ -40,7 +40,7 @@ A ''Deterministic Finite Automaton'' (DFA) is a tuple $A = \langle Q, \Sigma, \d
 
 
 ## Transition Function
-''Transition function'' $\delta$
+*Transition function* $\delta$
 - a function $\delta(q, a)$ that takes
 - the current state of $q \in Q$ of $A$ 
 - the current input symbol $a \in \Sigma$
@@ -49,7 +49,7 @@ A ''Deterministic Finite Automaton'' (DFA) is a tuple $A = \langle Q, \Sigma, \d
 - for DFA there for each pair $(q, a)$ there exists exactly one state $p$ (for deterministic behavior)
 
 
-A ''dead state'':
+A *dead state*:
 - a state that is not final, but there's no way to escape it
 - on every input symbol there's a transition to itself 
 - once you get there, it's not possible to leave it
@@ -57,7 +57,7 @@ A ''dead state'':
 
 ### Extended Transition Function
 Extended Transition Function $\delta$ (sometimes $\hat{\delta}$) is
-- a function that takes $q$ and a '''word''' $w$ (of any length, including 0)
+- a function that takes $q$ and a '*word*' $w$ (of any length, including 0)
 - and tells where the automaton $A$ gets to after applying this word $w$
 - i.e. it follows the path from $q$ by arcs labeled by symbols from $w$ in order 
 
@@ -71,7 +71,7 @@ Inductive definition of extended $\delta$:
   - $w$ is string, $a$ is symbol, $.$ is concatenation
   - state we end up after seeing $wa$ is state $q'$ after seeing $w$ plus $\delta(q', a) $
 
-A ''run'' of a string $w = a_1 . \ ... \ . a_n$ on automaton $A$ 
+A *run* of a string $w = a_1 . \ ... \ . a_n$ on automaton $A$ 
 - is the sequence of state changes that $A$ makes while executing $w$ 
 
 
@@ -120,7 +120,7 @@ Symbols:
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/crs/automata/tennis-example-1.png" alt="Image">
 
 Game:
-- it starts from the '''love''' state: both players have 0-0
+- it starts from the '*love*' state: both players have 0-0
 - at each state, depending on who wins, we transition from one state to another
 - note: for "15-all" - we don't know how exactly we got there, but it doesn't matter 
 - final states are when somebody wins

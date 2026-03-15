@@ -3,7 +3,6 @@ layout: default
 permalink: /index.php/KNN
 title: KNN
 ---
-{{stub}} {{draft}}
 
 ## $K$ Nearest Neighbors
 

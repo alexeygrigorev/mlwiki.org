@@ -10,8 +10,8 @@ title: Secondary Storage
 This is a part of the [Memory Hierarchy](Memory_Hierarchy)
 
 Disks is the most common secondary storage 
-- The disk is organized into disk ''blocks'' (or ''pages'', from the OS point of view) of 4-64 KBs each
-- ''Buffers'' - entire blocks are moved to and from a continuous sections of main memory 
+- The disk is organized into disk *blocks* (or *pages*, from the OS point of view) of 4-64 KBs each
+- *Buffers* - entire blocks are moved to and from a continuous sections of main memory 
 
 Key technique: organize data in a way that  
 - when something is needed from a block 
@@ -24,24 +24,24 @@ Consists of two main components:
 - Head Assembly
 
 Disk Assembly
-- has one or more circular ''platters''  that rotate around a central spindle
+- has one or more circular *platters*  that rotate around a central spindle
 - upper and lower surfaces are covered with magnetic materials (that store 1s and 0s)
 
 Hierarchy
-- disk is organized into ''tracks'' - concentric circles on a single platter 
-- tracks that are at fixed radius from the center (among all the surfaces) form one ''cylinder''
-- tracks are organized into ''sectors'' - segments that are separated by non-magnetic ''gaps'' 
-- for each surface there's one head that reads data, and all the heads form ''the head assembly''
+- disk is organized into *tracks* - concentric circles on a single platter 
+- tracks that are at fixed radius from the center (among all the surfaces) form one *cylinder*
+- tracks are organized into *sectors* - segments that are separated by non-magnetic *gaps* 
+- for each surface there's one head that reads data, and all the heads form *the head assembly*
 
 
 ### Disk Controller
-Disk drives are controlled by a ''disk controller'' (DC): a small processor that
+Disk drives are controlled by a *disk controller* (DC): a small processor that
 - controls the head assembly
 - selects a needed sector 
 - transfers bits between sectors and the main memory
 - buffers entire track in local memory of the disk controller (in hope it will be needed soon)
 
-It communicates with the main memory via the ''data bus''
+It communicates with the main memory via the *data bus*
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/disk-controller.png" alt="Image">
 
@@ -50,21 +50,21 @@ It communicates with the main memory via the ''data bus''
 Accessing (reading or writing) a block of data requires 3 steps:
 
 1. DC positions the head assembly at the cylinder that contains the needed block
-1. : the time to do it is the ''seek time''
+1. : the time to do it is the *seek time*
 1. DC waits until the first sector of the block appears under the head
-1. : the ''rotation latency''
+1. : the *rotation latency*
 1. : typically 0-10 mls, 5 mls on average (1 rotations is 10 mls)
 1. DC reads/writes sectors under the head while sectors pass under it
-1. : the ''transfer time''
+1. : the *transfer time*
 1. : quite small 
 
-the ''latency of disk'' is a sum of the three:
+the *latency of disk* is a sum of the three:
 - seek time + rotation latency + transfer time
 - usually ~10-11 mls 
 - but it doesn't mean that the system will get all data in 10 mls after sending a request to DC: it may be busy with another processes
 
 Another measure: 
-- ''throughput'' - the number of dist accesses per second that the system can accommodate 
+- *throughput* - the number of dist accesses per second that the system can accommodate 
 
 
 ## Techniques to Speed Up Access
@@ -83,7 +83,7 @@ divide data among several smaller disks (rather than one large one)
 - then $n$ disks will have approximately the performance of 1 disk operating $n$ times faster
 - but if the system is overloaded, when requests are delayed (or even cancelled)
 
-''Striping'' - this is a technique to speed up access to large DB objects 
+*Striping* - this is a technique to speed up access to large DB objects 
 - (a large DB object is one that spans several disk blocks)
 
 Idea:

@@ -7,11 +7,11 @@ tags:
 title: Minimal Cut Problem
 ---
 ## Minimal Cut Problem
-A ''cut'' in a [graph](Graphs) is a partition of vertices $V$ into two non-empty subsets $A$ and $B$
+A *cut* in a [graph](Graphs) is a partition of vertices $V$ into two non-empty subsets $A$ and $B$
 
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/31fvn7e3gpg82523n3cguh1sua.png" alt="Image">" \>
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/31fvn7e3gpg82523n3cguh1sua.png" alt="Image" />
 
-A ''crossing edges'' is an edge that
+A *crossing edges* is an edge that
 - has one end point in each of $(A, B)$
 - has tail in $A$, head in $B$ (directed)
 - if head in $B$, tail in $A$ - not a crossing edge
@@ -22,7 +22,7 @@ A ''crossing edges'' is an edge that
 
 Eg:
 
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/44dvh9gbo78ljnt0tmds5rv618.png" alt="Image">" \>
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/44dvh9gbo78ljnt0tmds5rv618.png" alt="Image" />
 
 ## Applications
 - identify weakness/bottlenecks
@@ -40,13 +40,13 @@ MinCut algo:
 
 
 Example:
-- step 1 <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/3lf26679cst0jm7hsug5h1hef2.png" alt="Image">" \>
-- step 2 <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/3rdg1jgvkna7mtb0gnu00vbkdg.png" alt="Image">" \>
-- step 3 <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/7j8r5op0949ctu5jmq03c1uf0m.png" alt="Image">" \>
-- result <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/5eoumts8f24v0ifjebqgjsumjr.png" alt="Image">" \>
+- step 1 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/3lf26679cst0jm7hsug5h1hef2.png" alt="Image" />
+- step 2 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/3rdg1jgvkna7mtb0gnu00vbkdg.png" alt="Image" />
+- step 3 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/7j8r5op0949ctu5jmq03c1uf0m.png" alt="Image" />
+- result <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/5eoumts8f24v0ifjebqgjsumjr.png" alt="Image" />
 
 Example 2:
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/15f4s9iuk97l9qvnt171bqc904.png" alt="Image">" \>
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/15f4s9iuk97l9qvnt171bqc904.png" alt="Image" />
 
 It can find something other than a minimal cut
 - the probability of success is just $\cfrac{1}{n^2}$

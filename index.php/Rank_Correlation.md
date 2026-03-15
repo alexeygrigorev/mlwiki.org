@@ -6,7 +6,7 @@ tags:
 title: Rank Correlation
 ---
 ## Rank Correlation
-a ''rank correlation'' is a measure of relationship 
+a *rank correlation* is a measure of relationship 
 - between different rankings of the same variable
 - of between two rankings of different ordinal variables
 
@@ -25,7 +25,7 @@ One variable case:
 
 
 ## Correlation Coefficient
-- A ''rank correlation coefficient'' shows the degree of similarity between two rankings
+- A *rank correlation coefficient* shows the degree of similarity between two rankings
 - so we want to calculate the distances between two rank vectors
 
 

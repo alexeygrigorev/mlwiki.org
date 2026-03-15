@@ -19,7 +19,7 @@ Suppose we have 4 alternatives $a,b,c,d$ and a subset of criteria $J \subset G$ 
 - for criteria not in $J$, $a$ is the same as $b$, $c$ is the same as $d$ 
 
 Preferential Independence
-- $J \subset A$ is ''preferentially independent'' within $G$ when 
+- $J \subset A$ is *preferentially independent* within $G$ when 
 - if $\forall a,b,c,d \in A$ these conditions hold
 - then $a \ P \ b \iff c \ P \ d$ 
 

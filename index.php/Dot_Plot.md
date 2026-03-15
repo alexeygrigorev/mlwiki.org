@@ -36,7 +36,7 @@ data(email50)
 ```
 
 
-```scdoc
+```
 stripchart(email50$num_char, pch=19, col=rgb(0, 0, 1, 0.3), 
            cex=1.5, axes=F, ylim=c(0.9, 1.5))
 axis(side = 1)
@@ -48,7 +48,7 @@ polygon(x=c(m-3, m, m+3), y=c(0.90, 0.95, 0.90), col="red")
 
 Also we can add some jitter to have an idea of how many items we have in some area
 
-```scdoc
+```
 set.seed(10)
 stripchart(email50$num_char, method="jitter", 
            pch=19, col=rgb(0, 0, 1, 0.3), cex=1.5, axes=F,
@@ -60,7 +60,7 @@ polygon(x=c(m-3, m, m+3), y=c(0.87, 0.95, 0.87) - 0.1, col="red")
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/b/openintrostat/dotplot-r2.png" alt="Image">
 
 Or can plot it vertically 
-```scdoc
+```
 stripchart(email50$num_char, method="jitter", 
            vertical=T, 
            pch=19, col=rgb(0, 0, 1, 0.3), cex=1.5)
@@ -69,7 +69,7 @@ stripchart(email50$num_char, method="jitter",
 To have a stacked plot, use <code>method="stack"</code>
 
 
-```scdoc
+```
 stripchart(round(email50$num_char), method="stack", 
            pch=19, col=rgb(0, 0, 1, 0.5), axes=F,
            ylim=c(0.8, 1.8))
@@ -82,7 +82,7 @@ polygon(x=c(m-3, m, m+3), y=c(0.87, 0.95, 0.87), col="red")
 Note that it given similar information to a [Histogram](Histogram)
 - but the latter is binned, and this is not (so it looks rather as a [Bar Chart](Bar_Chart))
 
-```scdoc
+```
 t = table(round(email50$num_char))
 a = rep(NA, 65)
 names(a) = 0:64
@@ -98,7 +98,7 @@ polygon(x=c(m-3, m, m+3), y=c(-0.4, -0.05, -0.4), col="red")
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/b/openintrostat/dotplot-r3-as-hist-1.png" alt="Image">
 
 
-```scdoc
+```
 hist(email50$num_char, breaks=30, col="red")
 ```
 
@@ -106,7 +106,7 @@ hist(email50$num_char, breaks=30, col="red")
 
 And finally, an example from [link](http://stackoverflow.com/a/15245023/861423)
 
-```scdoc
+```
 set.seed(1)
 A = sample(0:10, 100, replace=T)
 stripchart(A, method="stack", offset=.5, at=.15, pch = 19,

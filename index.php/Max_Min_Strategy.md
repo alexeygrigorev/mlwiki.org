@@ -45,7 +45,7 @@ Downsides
 
 No Compensation
 
-|   $c$  |  $e_1$  |  $e_2$  |  ...  |  $e_{1000}$  |  min  |   $a$   |  -100  |  1000  |  1000  |  ...  |  1000  |  -100 ||   $b$   |  -99  |  -99  |  -99  |  ...  |  -99  |  -99 ||         |       |       |       |       |       |  '''-99'''   |
+|   $c$  |  $e_1$  |  $e_2$  |  ...  |  $e_{1000}$  |  min  |   $a$   |  -100  |  1000  |  1000  |  ...  |  1000  |  -100 ||   $b$   |  -99  |  -99  |  -99  |  ...  |  -99  |  -99 ||         |       |       |       |       |       |  '*-99*'   |
 In this case we choose $b$ 
 - although it's clear that $a$ is better at everything 
 - it's only a little little bit worse at $e_1$
@@ -73,8 +73,8 @@ Advantages:
 - each player receives a payoff that is equal to both
 - his minimax and his maximin value
 - 0 is a saddle point
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/1luv6hbhnsqr0a8bblsdadplgd.png" alt="Image">" />
-- ''saddle point'' - where minimax = maximin
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/1luv6hbhnsqr0a8bblsdadplgd.png" alt="Image" />
+- *saddle point* - where minimax = maximin
 
 
 ## Sources

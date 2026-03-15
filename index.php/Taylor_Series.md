@@ -15,7 +15,7 @@ The idea behind Taylor Series is that any well-behaving [Function](Function) (e.
 A Taylor Series of $f(x)$ at $x=0$ is 
 - $f(x) = \sum\limits_{k=0}^\infty \cfrac{f^{(k)}(0)}{k!}\, x^k$
 - where $f^{(k)}(0)$ is $k$th [Derivative](Derivative) of $f$ evaluated at $x=0$
-- this kind of Taylor Series about $x = 0$ is sometimes called ''Maclaurin Series''
+- this kind of Taylor Series about $x = 0$ is sometimes called *Maclaurin Series*
 
 
 Taylor Series of $f(x)$ at $x = a$ is 
@@ -110,7 +110,7 @@ for example, natural [Logarithm](Logarithm):
 
 
 ### [Convergence Domain](Convergence_Domain)
-Taylor Series has a ''convergence domain'' on which the series is well behaved 
+Taylor Series has a *convergence domain* on which the series is well behaved 
 - for many functions, e.g. $e^x$, $\sin x$, $\cos x$, $\sinh x$, etc, the domain is $\mathbb R = (-\infty, \infty)$
 
 Within the domain of convergence you can do with series whatever you want: 
@@ -129,7 +129,7 @@ For example, $\ln (1 + x)$
   - $\ln (1 + x) = \sum\limits_{k=1}^\infty (-1)^{k+1}\, \cfrac{x^k}{k} = x - \cfrac{1}{2}\, x^2 + \cfrac{1}{3}\, x^3 - \cfrac{1}{4}\, x^4 + \ ...$
 - no factorials involved
  |
-'''Convergence domain''':
+'*Convergence domain*':
 - we used [Geometric Series](Geometric_Series) here, so we must be in the domain of convergence of this series 
 - which is $| x| < 1$
 - Taylor Series approximates well only on the domain of convergence 

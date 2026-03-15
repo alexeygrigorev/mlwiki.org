@@ -5,7 +5,6 @@ tags:
 - topic-models
 title: Probabilistic LSA
 ---
-{{stub}}
 
 ## Probabilistic LSA
 This is a probabilistic extension to [Latent Semantic Analysis](Latent_Semantic_Analysis)

@@ -128,7 +128,7 @@ Assuming $H_0$, the observed statistic is
 
 
 $p$-value:
-- $P(| \hat{p} - p| \geqslant 0.076) =$
+- $P(\mid \hat{p} - p\mid \geqslant 0.076) =$
 - $P\left(\left|  \cfrac{\hat{p} - p}{\sqrt{0.5 \cdot 0.5 / 1000}} \right| \geqslant \left| \cfrac{0.076}{\sqrt{0.5 \cdot 0.5 /  1000}} \right|\right) \approx$
 - $P\left(| N(0, 1)| \geqslant 4.81\right) = $
 - $2 \cdot P(N(0, 1) \leqslant -4.81) \approx 1 / 661000$
@@ -139,14 +139,14 @@ Too small - so we reject the $H_0$.
 
 ### R-code (proportions)
 Our test statistics is $z = \cfrac{\hat{p} - p}{\sqrt{p (1 - p) / n}}$
-```scdoc
+```
 test.stat = (0.42 - 0.5) / sqrt(0.5 * 0.5 / 1046) // -5.17
 pnorm(test.stat, mean=0, sd=1, lower.tail=T) // 1.17 * 10E-7
 ```
 
 
-or, using '''binom.test''' 
-```scdoc
+or, using '*binom.test*' 
+```
 x = round(0.42 * 1046, 0) // 439 successes
 binom.test(x, 1046, p=0.5 // our H_0
            alternative="less")
@@ -188,9 +188,9 @@ Test statistics calculation:
 
 
 ### Pooled Proportion Estimate
-Under $H_0$ we assume that $p_a = p_b$ so we approximate '''both''' $p_a$ and $p_b$ by 
+Under $H_0$ we assume that $p_a = p_b$ so we approximate '*both*' $p_a$ and $p_b$ by 
 - $\hat{p} = \cfrac{n_a \hat{p}_a + n_b \hat{p}_b}{n_a + n_b}$
-- This is called ''pooled estimate''
+- This is called *pooled estimate*
 - $\text{SE} = \sqrt{\hat{p} (1 - \hat{p})(1/n_a + 1/n_b)}$
 - Then $\cfrac{(\hat{p}_a - \hat{p}_b) - (p_a - p_b)}{\text{SE}} = \cfrac{\hat{p}_a - \hat{p}_b}{\text{SE}} \approx N(0, 1)$
 
@@ -240,10 +240,10 @@ Was there a drop in the support?
 
 
 then $p$-value under $H_0$ is 
-- $P( |  \hat{p}_1 - \hat{p}_2 | \geqslant 0.15 ) = $
-- $P( |  \cfrac{  (\hat{p}_1 - \hat{p}_2) - (p_1 - p_2)  }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} | \geqslant \cfrac{ 0.15 }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} ) \approx $
-- $P( |  N(0, 1) | \geqslant \cfrac{ 0.15 }{\sqrt{0.495 (1 - 0.495)(1/1050 + 1/1046)}} ) \approx $
-- $P( |  N(0, 1) | \geqslant 6.87 ) \approx 6 \cdot 10^{-12} $
+- $P( \mid \hat{p}_1 - \hat{p}_2 \mid \geqslant 0.15 ) = $
+- $P( \mid \cfrac{  (\hat{p}_1 - \hat{p}_2) - (p_1 - p_2)  }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} | \geqslant \cfrac{ 0.15 }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} ) \approx $
+- $P( \mid N(0, 1) | \geqslant \cfrac{ 0.15 }{\sqrt{0.495 (1 - 0.495)(1/1050 + 1/1046)}} ) \approx $
+- $P( \mid N(0, 1) | \geqslant 6.87 ) \approx 6 \cdot 10^{-12} $
 Very low|   So we reject the $H_0$ and conclude that the support dropped (i.e. $p_1 \neq p_2$). 
 
 ### Example 3
@@ -263,15 +263,15 @@ Pooled estimate:
 - $\hat{p} = \cfrac{n_1 \hat{p}_1 + n_2 \hat{p}_2}{n_1 + n_2} \approx 0.506$
 
 $p$-value (under $H_0$):
-- $P(|  \hat{p}_1 - \hat{p}_2 | \geqslant 0.04 ) = $
+- $P(\mid \hat{p}_1 - \hat{p}_2 \mid \geqslant 0.04 ) = $
 - $P \left( \left|  \cfrac{  (\hat{p}_1 - \hat{p}_2) - (p_1 - p_2)  }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} \right| \geqslant \cfrac{ 0.04 }{\sqrt{\hat{p} (1 - \hat{p})(1/n_1 + 1/n_2)}} \right) \approx $
 - $P \left( |  N(0, 1) | \geqslant \cfrac{ 0.04 }{\sqrt{0.506 (1 - 0.506)(1/1010 + 1/563)}} \right) \approx $
-- $P( |  N(0, 1) | \geqslant 1.52 ) \approx 0.129 $
+- $P( \mid N(0, 1) | \geqslant 1.52 ) \approx 0.129 $
 Not so unlikely, so we cannot reject $H_0$. Perhaps no drop.
 
 
 ### R
-```text only
+```
 n1 = 1050
 n2 = 1046
 

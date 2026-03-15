@@ -6,11 +6,11 @@ tags:
 title: Sampling
 ---
 ## Sampling
-''Statistical Inference'' - making conclusions and decisions incomplete information in based on data. This is the main goal of [Statistics](Statistics)
-- ''Population'' - the group we're interested in making conclusions about.
-- ''Census'' - collection of data from the entire population
+*Statistical Inference* - making conclusions and decisions incomplete information in based on data. This is the main goal of [Statistics](Statistics)
+- *Population* - the group we're interested in making conclusions about.
+- *Census* - collection of data from the entire population
   - Census is almost impossible or very expensive to obtain
-- ''Sample'' - a subset of the population, typically a small fraction
+- *Sample* - a subset of the population, typically a small fraction
 
 
 ### Goals
@@ -23,12 +23,12 @@ So, the goal of sampling (data collection):
 
 For [ML](Machine_Learning) models there are other goals
 - how to reduce data to speed up computation? 
-- select a subset of rows - a ''sample''
+- select a subset of rows - a *sample*
 
 
 
 ## Types of Sampling
-We need a ''representative'' sample to be able to generalize from the statistics calculated on a sample to the population parameters
+We need a *representative* sample to be able to generalize from the statistics calculated on a sample to the population parameters
 - For that we need to use randomization - and have [#Random Sampling](#Random_Sampling)
 - otherwise can have [#Non-Random Sampling](#Non-Random_Sampling)
 
@@ -40,9 +40,9 @@ Random sampling (especially SRS - simple random sampling) is very important
 
 
 ### Replacements
-- '''without replacement'''
+- '*without replacement*'
   - when item is selected for a sampling, it's taken out of the population
-- sampling '''with replacement''' 
+- sampling '*with replacement*' 
   - an item can be sampled several times
   - used in the [Bootstrap](Bootstrap) method - for resampling
 - also see [Simulation Basics in R#Sampling](Simulation_Basics_in_R#Sampling)
@@ -55,7 +55,7 @@ Randomly pick up items from the population
 
 ### Stratified Sampling
 Stratified Sampling 
-- divide the population into non-overlapping groups (called ''strata'') 
+- divide the population into non-overlapping groups (called *strata*) 
 - and use SRS within each stratum
 - so the original distribution is kept
 
@@ -115,7 +115,7 @@ So we know that
 - A sample is biased if it's differs from a population in a systematic way
 - That can result in a statistics that's consistently larger or smaller
 
-=== Types of Biases === 
+### Types of Biases
 - Selection bias - when you systematically exclude or under-represent a part of population
 - Measurement/Response bias - when data is collected with systematic error 
 - Non-response bias - when responses aren't obtained from all individuals selected for inclusion in sampling

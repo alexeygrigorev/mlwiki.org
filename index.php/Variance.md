@@ -67,7 +67,7 @@ The variance has the dimension equal to the square of the dimension of the rando
 
 ($n - 1$ gives "unbiased" estimate of the variance <!-- TODO: add link -->)
 in R:
-```text only
+```
 st.dev = sd(data)
 ```
 

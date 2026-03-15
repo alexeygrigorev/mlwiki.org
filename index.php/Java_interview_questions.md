@@ -22,7 +22,7 @@ title: Java interview questions
 
 Also
 - Length in bytes for primitive types
-- '''this''' and '''super''' keywords
+- '*this*' and '*super*' keywords
 - What different between StringBuffer and StringBuilder? 
 - Difference between overriding and overloading
 

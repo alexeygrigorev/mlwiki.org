@@ -23,10 +23,10 @@ Observe that these statements all have the same general form:
 ### [RDFS](RDFS)
 |   [RDFS](RDFS) statements  |  [FOL](First_Order_Logic) translation  |  [DL](Descriptive_Logic) notation  |  <code>i rdf:type C</code>  |  $C(i)$  |  $i \ : \ C$ or $C(i)$ ||  <code>i P j</code>  |  $P(i, j)$  |  $i \ P \ j$ or $P(i, j)$ ||  <code>C rdfs:subClassOf D</code>  |  $\forall X \ \big( C(X) \ \exists \ D(X) \big)$  |  $C \sqsubseteq D$ ||  <code>P rdfs:subPropertyOf R</code>  |  $\forall X, Y \ \big( P(X, Y) \ \exists \ R(X, Y) \big)$  |  $P \sqsubseteq R$ ||  <code>P rdfs:domain C</code>  |  $\forall X, Y \ \big( P(X, Y) \ \exists \ C(X) \big)$  |  $\exists P \sqsubseteq C$ ||  <code>P rdfs:range D</code>  |  $\forall X, Y \ \big( P(X, Y) \ \exists \ D(Y) \big)$  |  $\exists P^- \sqsubseteq D$ |
 
-=== [RDFS-Plus](RDFS-Plus) === 
+### [RDFS-Plus](RDFS-Plus)
 |   [RDFS-Plus](RDFS-Plus)  |  [FOL](First_Order_Logic)  |  [DL](Descriptive_Logic)  |  <code>P rdf:type owl:FunctionalProperty</code>  |  $\forall X, Y, Z \ \big( P(X, Y ) \land P(X, Z) \Rightarrow Y = Z \big)$  |  $(\text{funct} P)$ or $\exists P \sqsubseteq (\leqslant 1 P)$ ||  <code>P rdf:type owl:InverseFunctionalProperty</code>  |  $\forall X, Y, Z \ \big( P(X, Y) \land P(Z, Y) \Rightarrow X = Z)$  |  $(\text{funct} P^− )$ or $\exists P^− (\leqslant 1 P^− )$ ||  <code>P owl:inverseOf Q</code>  |  $\forall X, Y \ \big(P(X, Y) \Leftrightarrow Q(Y, X) \big)$  |  $P \equiv Q^−$ ||  <code>P rdf:type owl:SymmetricProperty</code>  |  $\forall X, Y \ \big(P(X, Y) \Rightarrow P(Y, X) \big)$  |  $P \sqsubseteq P^−$ |
 
-=== [OWL](OWL) === 
+### [OWL](OWL)
 Restrictions 
 
 |   [OWL](OWL)  |  [FOL](First_Order_Logic)  |  [DL](Descriptive_Logic)  |  <code>owl:onProperty P; owl:allValuesFrom C</code>  |  $\forall Y \ \big(P(X, Y) \Rightarrow C(Y) \big)$  |  $\forall  P.C$ ||  <code>owl:onProperty P; owl:someValuesFrom C</code>  |  $\exists Y \ \big( P(X, Y) \land C(Y) \big)$  |  $\exists P.C$ ||  <code>owl:onProperty P; owl:minCardinality n</code>  |  $\exists Y_1 ... Y_n \  \big(P(X, Y_1) \land ... \land P(X, Y_n) \land [\forall i, j, i \ne j: Y_i \ne Y_j ]\big)$  |  $(\geqslant n P)$  ||  <code>owl:maxCardinality n</code>  |  (too complex)  |  $(\leqslant n P)$ |

@@ -6,7 +6,7 @@ tags:
 title: Conjunctive Query/Homomorphism
 ---
 ## Conjunctive Query Homomorphism
-'''def''': a ''homomorphism'' of a [Conjunctive Query](Conjunctive_Query) $Q_2$ to a Conjunctive Query $Q_1$ is 
+'*def*': a *homomorphism* of a [Conjunctive Query](Conjunctive_Query) $Q_2$ to a Conjunctive Query $Q_1$ is 
 - a function $h$ that maps each variable in $Q_2$ to either
   - a variable from $Q_1$ or
   - a constant form $Q_1$

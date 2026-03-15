@@ -17,7 +17,7 @@ We can turn a matrix into a diagonal one by using eigenvectors
 
 Eigenvalue decomposition is a decomposition of a matrix into a "canonical form"
 - we want to constrict a diagonal matrix from a given one
-- a matrix $A$ is ''diagonalizable'' if it's [similar](Similar_Matrices) to a diagonal matrix
+- a matrix $A$ is *diagonalizable* if it's [similar](Similar_Matrices) to a diagonal matrix
   - (a matrix $A$ is similar to $B$ if there exists an invertible $M$ s.t. $B = M^{-1} A \, M$)
 - $A$ is diagonalizable if there exists [invertible matrix](Inverse_Matrices) $P$ s.t.  $P^{-1} A \, P$ is diagonal
 
@@ -79,7 +79,7 @@ Now what if we multiply $AS$?
 
 ### Decomposition
 - if $S$ is invertible (or all $\mathbf x_i$ are independent), then
-- $\Lambda = S^{-1} A \, S$ - this is called ''diagonalization'' of $A$ 
+- $\Lambda = S^{-1} A \, S$ - this is called *diagonalization* of $A$ 
 - and $A = S \Lambda S^{-1}$ - another factorization of $A$ 
 - if $A$ is diagonal, then $\Lambda = A$, but if it's triangular, we still need to calculate $\Lambda$
 

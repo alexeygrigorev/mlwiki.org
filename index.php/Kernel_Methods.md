@@ -5,7 +5,6 @@ tags:
 - kernels
 title: Kernel Methods
 ---
-{{draft}} {{stub}}
 
 ## Kernel Methods
 

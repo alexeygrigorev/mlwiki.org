@@ -80,7 +80,7 @@ General Idea:
 
 
 Estimating variability:
-- this variability is called ''MSG'': '''mean square between groups''' 
+- this variability is called *MSG*: '*mean square between groups*' 
 - $\text{df}_G = k - 1$ for $k$ groups 
 
 
@@ -247,13 +247,13 @@ Post-ANOVA processing: use $t$-test to pairwise compare $A,B,C$
 
 
 In R:
-```text only
+```
 pairwise.t.test(classData$m1, classData$lecture,
                 alternative='two.sided', p.adjust.method='bonferroni')
 ```
 
 Or 
-```text only
+```
 TukeyHSD(aov1)
 ```
 
@@ -276,7 +276,7 @@ We run ANOVA analysis and get the following:
 - $p\text{-value} = 0.006876$
 
 
-```text only
+```
 file = 'http://courses.statistics.com/software/data/donuts.txt'
 donuts = read.table(file, header=T)
 donuts = stack(donuts)
@@ -290,7 +290,7 @@ oneway.test(donuts$values ~ donuts$ind, var.equal=TRUE)
 
 Same, done in steps:
 
-```gdscript
+```
 groups = 4
 1. total variance
 df.g = groups - 1

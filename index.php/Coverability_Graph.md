@@ -36,8 +36,8 @@ Let's consider the following [Petri Net](Petri_Nets):
 - so if it's possible to get from one marking $M_1$ to another marking $M_2$ s.t. $M_2$ covers $M_1$ completely - then we have a loop 
 
 
-''Coverability'':
-- marking $M$ is ''coverable'' by $M'$ $\iff$
+*Coverability*:
+- marking $M$ is *coverable* by $M'$ $\iff$
 - there $\exists$ a marking $M'$ s.t. $M \to^* M'$ and $M \leqslant M'$
 
 
@@ -45,7 +45,7 @@ Let's construct the coverability graph for this example
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-coverability-ex-reach2.png" alt="Image">
 - look at all the nodes that you can reach
 - if you notice some marking that covers another marking, add a loop to the coverability graph
-- <img src="<img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-coverability-ex-с.png" alt="Image">" />
+- <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-coverability-ex-с.png" alt="Image" />
 - note that this graph is finite 
 - and we can see that in this graph we do have the option to complete 
 

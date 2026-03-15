@@ -16,7 +16,7 @@ Suppose we have a [Matrix](Matrix) $A$. What does it do with a vector?
 - what if $A \mathbf x$ is in the same direction as $\mathbf x$? 
 - <img src="http://habrastorage.org/files/a57/974/fa1/a57974fa1416425bb4f296df8ea6b507.png" alt="Image">
 - i.e. if it's the same direction, then $A \mathbf x = \lambda \mathbf x$ for some $\lambda$
-- such $\mathbf x$ is called ''eigenvector'' and $\lambda$ is called ''eigenvalue''
+- such $\mathbf x$ is called *eigenvector* and $\lambda$ is called *eigenvalue*
 
 
 What if $\lambda = 0$? 
@@ -44,7 +44,7 @@ $A \mathbf x = \lambda \mathbf x$
 - let's rewrite it as $(A - \lambda I) \mathbf x = \mathbf 0$
 - for $\mathbf x \ne \mathbf 0$ 
 - so the matrix $A - \lambda I$ is singular, thus its [Determinant](Determinant) is zero: 
-- $\text{det}(A - \lambda I) = 0$ - this is called the ''characteristic equation''
+- $\text{det}(A - \lambda I) = 0$ - this is called the *characteristic equation*
 - this equation has $n$ roots, so you'll find $n$ eigenvalues $\lambda_i$
 - then for each $\lambda_i$ we solve the system $A \mathbf x = \lambda_i \mathbf x$ in order to get eigenvectors
 
@@ -130,7 +130,7 @@ If all eigenvalues $\lambda_1, \ ... \ , \lambda_n$ are different then all eigen
 - so any matrix with distinct eigenvalues can be [diagonalized](Eigendecomposition)
 
 
-'''Thm.''' $\mathbf x_1, \ ... \ , \mathbf x_n$ that correspond to distinct eigenvalues are linearly independent. 
+'*Thm.*' $\mathbf x_1, \ ... \ , \mathbf x_n$ that correspond to distinct eigenvalues are linearly independent. 
 
 
 Proof

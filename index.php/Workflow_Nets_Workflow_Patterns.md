@@ -6,7 +6,6 @@ tags:
 - petri-nets
 title: Workflow Nets/Workflow Patterns
 ---
-{{stub}}
 
 ## [Workflow Patterns](Workflow_Patterns) in Workflow Nets
 
@@ -37,7 +36,7 @@ A combination of Parallel Split and Synchronization
 after $a$, do $b$ or $c$
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-xor.png" alt="Image">
 - choice in this case depends on the results of the activity $a$
-- here both '''doA''' and '''doB''' will be active, but we want to fire only one of them, based on the activity $a$ 
+- here both '*doA*' and '*doB*' will be active, but we want to fire only one of them, based on the activity $a$ 
 
 
 ### Simple Merge

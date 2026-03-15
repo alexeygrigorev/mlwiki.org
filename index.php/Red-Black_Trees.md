@@ -6,7 +6,6 @@ tags:
 - data-structures
 title: Red-Black Trees
 ---
-{{stub}}
 
 ## Red-Black trees
 In [Binary Search Trees](Binary_Search_Trees) the worst case running time depends on the height of a tree. How we can make sure the tree doesn't turn into a linked list - and is kept balanced? 

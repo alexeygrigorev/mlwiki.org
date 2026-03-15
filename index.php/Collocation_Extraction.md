@@ -190,6 +190,6 @@ For $n$-grams:
 - Gerlof Bouma, "Normalized (Pointwise) Mutual Information in Collocation Extraction" [link](https://svn.spraakdata.gu.se/repos/gerlof/pub/www/Docs/npmi-pfd.pdf)
 
 ## Sources
-- De Kok D., Brouwer H. "Natural language processing for the working programmer". 2011. Chapter 3 [[https://web.archive.org/web/20151026194211/http://nlpwp.org/book/chap-ngrams.xhtml archived version version](http://nlpwp.org/book/chap-ngrams.xhtml]), [google scholar](http://scholar.google.com/scholar?cluster=12545221866517295405&as_sdt=0,5)
+- De Kok D., Brouwer H. "Natural language processing for the working programmer". 2011. Chapter 3 [archived version](https://web.archive.org/web/20151026194211/http://nlpwp.org/book/chap-ngrams.xhtml), [google scholar](http://scholar.google.com/scholar?cluster=12545221866517295405&as_sdt=0,5)
 - Manning C. D., Schütze H. "Foundations of statistical natural language processing", 1999. Chapter 5 [link](http://nlp.stanford.edu/fsnlp/promo/colloc.pdf)
 - Petrović S. et al. "Comparison of collocation extraction measures for document indexing", 2006. [link](http://bib.irb.hr/datoteka/251298.110-4-157-203.pdf)

@@ -9,7 +9,7 @@ tags:
 title: ROC Analysis
 ---
 ## ROC Analysis
-ROC stands for '''R'''eceiver '''O'''perating '''C'''haracteristic (from Signal Detection Theory)
+ROC stands for '*R*'eceiver '*O*'perating '*C*'haracteristic (from Signal Detection Theory)
 - initially - for distinguishing noise from not noise
 - so it's a way of showing the performance of Binary Classifiers
   - only two classes - noise vs not noise
@@ -161,7 +161,7 @@ For binary classification
 ROC Curve
 - plot of $\text{fpr}$ vs $\text{tpr}$ for different thresholds of the same ranker
 - a model with perfect discrimination passes through the upper left corner 
-  - ''perfect discrimination'' - with no overlap between the two classes
+  - *perfect discrimination* - with no overlap between the two classes
 - so the closer the ROC curve to the upper corner, the better the accuracy
 
 
@@ -379,7 +379,7 @@ abline(v=th, col='grey', lty=2)
 ### AUC Calculation
 (This code uses LambdaJ [link](https://code.google.com/p/lambdaj/)  for grouping and soring)
 
-```component pascal
+```
 private static final int NEGATIVE = 0;
 private static final int POSITIVE = 1;
 

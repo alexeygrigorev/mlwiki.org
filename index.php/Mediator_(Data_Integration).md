@@ -16,7 +16,7 @@ This is an approach to [Data Integration](Data_Integration) (opposite to [Data W
 
 ### Architecture
 Global Schema
-- start by designing a global (''mediated'') schema - an unique entry point for all the queries 
+- start by designing a global (*mediated*) schema - an unique entry point for all the queries 
 - need to have semantic mappings between the mediated schema and data sources
 
 
@@ -28,15 +28,15 @@ Querying:
 
 
 ## Semantic Mapping
-Let $S_1, ..., S_n$ be ''local schemas''
+Let $S_1, ..., S_n$ be *local schemas*
 - assume that each $S_i$ has only one relation, also denoted $S_i$
-- these $S_1, ..., S_n$ are ''local relations''
+- these $S_1, ..., S_n$ are *local relations*
 
-''Global schema'' $G$ 
-- consists of ''global relations'' $G_1, ..., G_m$
+*Global schema* $G$ 
+- consists of *global relations* $G_1, ..., G_m$
 
-Goal of ''Semantic Mappings'':
-- specify ''mappings'' between $\{ S_i \}$ and $\{ G_i \}$ - relationships between local and global schemas
+Goal of *Semantic Mappings*:
+- specify *mappings* between $\{ S_i \}$ and $\{ G_i \}$ - relationships between local and global schemas
 - examples of such relationships:
   - $G_1 \equiv S_1$ - equality
   - $G_2 \equiv S_1 \cup S_2$

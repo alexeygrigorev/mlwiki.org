@@ -21,7 +21,7 @@ So it's
 
 ### Play In
 Suppose we have some logs that were captured during the process execution
-- we can '''play in''' these sequences of actions on the model 
+- we can '*play in*' these sequences of actions on the model 
 - and see if any of them fails 
 - if yes - then we have no conformance 
 

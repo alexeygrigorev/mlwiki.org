@@ -19,7 +19,7 @@ Bar Chart, or Bar Plot or Bar Graph
 To create a bar chart in R
 - use <code>barplot</code> command
 
-```text only
+```
 r = dnorm(seq(from=-3, to=3, length=15), mean=0, sd=1)
 barplot(r, col="red")
 ```

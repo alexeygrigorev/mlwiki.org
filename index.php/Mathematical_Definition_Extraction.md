@@ -26,7 +26,7 @@ A phrase that defines a mathematical expression consists of three parts: (Kristi
 - definiens (definition): The word or phrase that defines the definiendum in a definition. 
 - definitor (relator verb)
 
-We are interested only in parts 1 and 2, and we will call them ''relations''
+We are interested only in parts 1 and 2, and we will call them *relations*
 
 An identifier is a mathematical 
 

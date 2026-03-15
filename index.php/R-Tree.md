@@ -10,17 +10,17 @@ title: R-Tree
 ## R-Tree
 This is [Tree-Based](Binary_Search_Trees) [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_(databases)) 
 - Generalization of a [B-Tree](B-Tree) to multidimensional space
-- Indexes ''regions'' 
+- Indexes *regions* 
 
 
 ### B-Tree
 In a B-Tree we can view a node as a line (1-dimensional space)
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/rtree-1dim-btree.png" alt="Image">
-- and it divides a line into ''segments''
+- and it divides a line into *segments*
 
 ### R-Tree
 Same, but for 2D and more
-- we divide data into data ''regions''
+- we divide data into data *regions*
 - interior nodes of an R-Tree correspond to interior region
   - not data region as in B-Tree, but just a region
 - A region can be of any shape, but usually it's a rectangle or other simple shape
@@ -44,7 +44,7 @@ Suppose we have a region
 
 ## Operations
 ### Lookup
-specify a point $P$ and ask what regions $P$ lies in (''where-am-I'' query)
+specify a point $P$ and ask what regions $P$ lies in (*where-am-I* query)
 - start with the root
 - find which children correspond to interior regions that contain $P$
 - if there are no such regions - we're done ($P$ doesn't belong to any region)

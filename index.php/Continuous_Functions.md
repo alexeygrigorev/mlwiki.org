@@ -5,7 +5,6 @@ tags:
 - functions
 title: Continuous Functions
 ---
-{{stub}}
 
 ## Continuous Functions
 A [Function](Function) $f(x)$ is continuous if the [Limit](Limit) of this function always exists
@@ -13,7 +12,7 @@ otherwise the function is discontinuous
 
 
 - $f(x)$ is continuous at $x = a$ if $\lim\limits_{x \to a} f(x) = f(a)$ 
-- $f(x)$ is continuous everywhere if its continuous for all $a$ in the '''domain''' of $f(x)$
+- $f(x)$ is continuous everywhere if its continuous for all $a$ in the '*domain*' of $f(x)$
 
 
 Many functions are continuous, for example: 

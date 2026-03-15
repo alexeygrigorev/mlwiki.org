@@ -6,13 +6,13 @@ tags:
 title: Modeling Preferences
 ---
 ## Modeling Preferences
-To be able to find the best solution for [MCDA](Multi-Criteria_Decision_Aid) problems we need to know ''subjective preferences'':
+To be able to find the best solution for [MCDA](Multi-Criteria_Decision_Aid) problems we need to know *subjective preferences*:
 - these are binary relations provided by a decision maker 
 - defined analogously to [Voting Theory Relations](Voting_Theory_Relations)
 
 
 So given two alternatives $a$ and $b$ a decision maker can say if
-- $a \ P \ b$ or $b \ P \ a$: $a$ is preferred to $b$ - ''the preference relation''
+- $a \ P \ b$ or $b \ P \ a$: $a$ is preferred to $b$ - *the preference relation*
 - $a \ I \ b$ - the indifference relation
 - $a \ J \ b$ - the incomparability relation, when you cannot compare things
 

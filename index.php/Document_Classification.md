@@ -83,7 +83,7 @@ Usual IR and indexing techniques for reducing dimensionality are
 
 
 [Stop Words](Stop_Words) Removal
-- Before indexing some ''function words'' are sometimes removed 
+- Before indexing some *function words* are sometimes removed 
 - for example [Stop Words](Stop_Words) - topic neutral words such as articles, prepositions, conjunctions
 - cases when stop words are not removed: author identification ("the little words give authors away")
 

@@ -8,7 +8,7 @@ title: Stemming
 ---
 ## Stemming
 Stemming is a part of [NLP Pipeline](NLP_Pipeline) useful in [Text Mining](Text_Mining) and [Information Retrieval](Information_Retrieval)
-- ''stemming'' is an algorithm that extract the morphological root of a word 
+- *stemming* is an algorithm that extract the morphological root of a word 
 
 
 Usage:

@@ -76,7 +76,7 @@ Suggestions:
 - IDF varies inversely with the # of documents and the number of documents containing them
 
 
-'''Term discrimination''' considerations:
+*Term discrimination* considerations:
 - best terms are the ones that can distinguish individual documents from the test 
 - so best terms should have high TF but low IDF => so we can combine them and use TF $\times$ IDF
 
@@ -98,7 +98,8 @@ Intuition:
 
 
 So, we can combine then my multiplying:
-- $\text{tf-idf}(w, d \mid \mathcal D) = (1 + \log \text{tf}(w, d)) \cdot \log \cfrac- this is often used in [Text Mining](Text_Mining), but in [Information Retrieval](Information_Retrieval) there can be other components in the TF-IDF
+- $\text{tf-idf}(w, d \mid \mathcal D) = (1 + \log \text{tf}(w, d)) \cdot \log \cfrac{|\mathcal D|}{\text{df}(w, \mathcal D)}$
+- this is often used in [Text Mining](Text_Mining), but in [Information Retrieval](Information_Retrieval) there can be other components in the TF-IDF
 
 
 ### Normalization
@@ -113,7 +114,10 @@ Why?
 
 
 Normalization Factor
-- Thus, we need to incorporate the normalization factor $\cfrac{d}{\|  d \- It's also called "Cosine Normalization": we normalize weights s.t. they have a unit length |- then for a document vector $d$ and a query vector $q$, $\|  d \| = 1$ and $\| q \| = 1$ |- if we do this, the [Inner Product](Inner_Product) is the same as [Cosine Similarity](Cosine_Similarity): $d^T q = \text{cosine}(d, q)$ 
+- Thus, we need to incorporate the normalization factor $\cfrac{d}{\| d \|}$
+- It's also called "Cosine Normalization": we normalize weights s.t. they have a unit length
+- then for a document vector $d$ and a query vector $q$, $\| d \| = 1$ and $\| q \| = 1$
+- if we do this, the [Inner Product](Inner_Product) is the same as [Cosine Similarity](Cosine_Similarity): $d^T q = \text{cosine}(d, q)$
 
 
 
@@ -124,7 +128,8 @@ In Information Retrieval more involved variants of TF-IDF give better performanc
 
 
 for example,
-- $$\text{tf-idf}(d, q \mid \mathcal D) = \sum_{w \in q, d} = \cfrac{1 + \ln \big(1 + \ln \text{tf}(w, d) \big)}{(1 - s) + s \cdot \|  d \| / \| \bar d \- where $s$ - some parameter
+- $\text{tf-idf}(d, q \mid \mathcal D) = \sum_{w \in q, d} \cfrac{1 + \ln \big(1 + \ln \text{tf}(w, d) \big)}{(1 - s) + s \cdot \| d \| / \| \bar d \|} \cdot \log \cfrac{|\mathcal D| + 1}{\text{df}(w, \mathcal D)}$
+- where $s$ is some parameter
 - $\|  d \|$ is the length of document $d$, i.e. how many words are in $d$
 - $\|  \bar d \|$ is the average document length
 

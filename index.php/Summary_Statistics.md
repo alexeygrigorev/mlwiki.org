@@ -8,11 +8,11 @@ title: Summary Statistics
 ---
 ## Five Number Summary
 Consists of 
-- ''Minimum'': the lowest point
-- ''First quartile'': the ¼ point in data
-- ''Median'': the center of data
-- ''Third quartile'': the ¾ point in dat.
-- ''Maximum'': the largest point
+- *Minimum*: the lowest point
+- *First quartile*: the ¼ point in data
+- *Median*: the center of data
+- *Third quartile*: the ¾ point in dat.
+- *Maximum*: the largest point
 
 
 If a sample has even length, then the median is average of the two middle points:
@@ -26,10 +26,10 @@ In [R](R), command <code>summary</code> returns the 5 number summary as well as 
 
 ## Visualization
 ### [Box Plot](Box_Plot)
-A visual summary of all the 5 numbers is called a ''box plot''
+A visual summary of all the 5 numbers is called a *box plot*
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/da/boxplot.png" alt="Image">
 
-''Modified box plot''
+*Modified box plot*
 - is a variation of the box plot
 - it's used to explain data with unusual values - [Outliers](Outliers)
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/da/boxplot-modified.png" alt="Image">
@@ -48,7 +48,7 @@ Mean and median don't show how spread the data is. There is another measure that
 - $s(x) = \text{std}(x) = \sqrt{\text{var}(x)}$
 - ($n - 1$ gives "unbiased" estimate of the variance <!-- TODO: add link -->)
 in R: 
-```text only
+```
 st.dev = sd(data)
 ```
 

@@ -13,7 +13,7 @@ title: Kd-Trees
 
 ## Classical $kd$-Tree
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/kd-tree-ex.png" alt="Image">
-- ''split attributes'' at different levels are different
+- *split attributes* at different levels are different
   - in the example: first split by $Y$, then by $X$, then by $Y$...
 - interior nodes of the tree contain
   - attribute on which we divided the space

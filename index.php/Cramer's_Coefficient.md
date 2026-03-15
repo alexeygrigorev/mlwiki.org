@@ -8,7 +8,6 @@ tags:
 - statistics
 title: Cramer's Coefficient
 ---
-{{draft}}
 
 ## Cramer's Coefficient
 Note about [$\chi^2$ Test of Independence](Chi-Squared_Test_of_Independence):
@@ -49,7 +48,7 @@ $V = \sqrt{ 3 / 150 } = \sqrt{ 30 / 1500 } \approx 0.14 $
 
 ## [R](R)
 <!-- TODO: Expand it -->
-```scdoc
+```
 cv.test = function(x,y) {
   CV = sqrt(chisq.test(x, y, correct=FALSE)$statistic /
     (length(x) * (min(length(unique(x)),length(unique(y))) - 1)))
@@ -60,7 +59,7 @@ cv.test = function(x,y) {
 
 So we can get Cramer's V as
 
-```text only
+```
 helpdata = read.csv("http://www.math.smith.edu/r/data/help.csv")
 with(helpdata, cv.test(female, homeless)
 ```

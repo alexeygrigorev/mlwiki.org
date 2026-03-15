@@ -106,7 +106,7 @@ Calculation:
 
 R code 
 Manual:
-```text only
+```
 obs = c(205, 26, 25, 19)
 exp = c(198, 19.25, 33, 24.75)
 
@@ -127,7 +127,7 @@ pchisq(x2, df=length(obs) - 1, lower.tail=F)
 
 
 
-=== Example: Trading === 
+### Example: Trading
 - Suppose that we have some data from some stock exchange 
 - we want to test if stock activity on one day is independent from previous day
 - the data is taken [link](http://research.stlouisfed.org/fred2/series/SP500/downloaddata) for 2004-08-04	 to 2014-07-01
@@ -164,7 +164,7 @@ Calculations:
 <details>
 <summary>R code</summary>
 
-```text only
+```
 sp500 = read.csv('http://goo.gl/lv268V')
 values = as.numeric( as.character(sp500$VALUE) )
 change = as.factor(values > 0)

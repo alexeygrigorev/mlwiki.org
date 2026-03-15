@@ -10,7 +10,7 @@ title: Relational Algebra
 ## Relational Algebra
 - Relational Algebra repesents the operations on relations for [Relational Databases](Relational_Databases)
 - Relational Algebra is algebra that consists of operations for constructing new relations from given relations 
-  - (it's ''closed'', i.e. each operation always produces another relation)
+  - (it's *closed*, i.e. each operation always produces another relation)
 - RA is not used as a query language, but usually [SQL is translated to it](Translating_SQL_to_Relational_Algebra) in RDBMS
 
 
@@ -441,8 +441,8 @@ $R \ltimes S = \pi_{R.*}(R \Join S)$
 - Allows Bag semantics for operations
 
 ### Sets vs Bags
-- ''Set'' of tuples: no duplicates allowed
-- ''Bag'' of tuples: there can be duplicates
+- *Set* of tuples: no duplicates allowed
+- *Bag* of tuples: there can be duplicates
 - In theory set semantics is usually assumed
 - But in implementation - bag semantics
 
@@ -471,7 +471,7 @@ $\gamma_{\text{grouping_attribute}, \ \text{func}(A) \ \to \ \text{name}}(R)$
 - unary relation that takes $R$ as input 
 - first parameter ($\text{grouping_attribute}$) is attribute on which $R$ will be grouped 
 - function $\text{func}$ is applied to each group, and the result is written to attribute $\text{name}$
-- '''NB''': all other (non-mentioned) attributes are not output to the result
+- '*NB*': all other (non-mentioned) attributes are not output to the result
  |Example
 - $\gamma_{A, \ \text{min}(B) \ \to \ D} \left(
 \begin{array}{ c |  c | c } |  A & B & C \\

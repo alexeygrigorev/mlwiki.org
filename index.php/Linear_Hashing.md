@@ -14,7 +14,7 @@ title: Linear Hashing
 - $b$ - length of bit-string that [Hash Function](Hash_Function) outputs (typically 64)
 - $i$ - number of bits we can use
   - as number of keys grows, we increase $i$
-  - but in contrast to [Extensible Hashing](Extensible_Hashing), we use $i$ ''least'' significant bits if key 
+  - but in contrast to [Extensible Hashing](Extensible_Hashing), we use $i$ *least* significant bits if key 
   - for example, $\overbrace{0 1 1 1 0 \underbrace{1 0 1 1}_{i}}^{b}$ with $i$ = 4 and $b$ = 9
 - $n$ - number of buckets we use now, $n \leqslant 2^i$
   - $2^i$ - max number of items we can address with current $i$ 
@@ -27,7 +27,7 @@ title: Linear Hashing
 - otherwise look at the bucket $h(k)[i..b] - 2^{i - 1}$ (i.e. just flip the most significant bit of the hash)
 - this rule is used for inserting and looking up
 
-'''Example'''
+'*Example*'
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/lin-hashing-ex1.png" alt="Image">
 - $b$ = 4 bits 
 - $i = 2$, can address $2^i = 4$ buckets
@@ -60,7 +60,7 @@ If we increase $i$
 ### When
 When it's better to increment $n$?
 - Similar to ideas from [Open Hashing Index](Open_Hashing_Index#Reorganization)
-- $u = \cfrac{\text{# records}}{\text{# buckets}}$ where $u$ is ''space utilization''
+- $u = \cfrac{\text{# records}}{\text{# buckets}}$ where $u$ is *space utilization*
 - and we set some threshold - once we exceed it, we increment $n$
 - $i$ is incremented when $n$ becomes high enough so it no longer fits in $i$ bites
 

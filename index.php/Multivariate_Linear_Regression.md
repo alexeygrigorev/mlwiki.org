@@ -65,7 +65,7 @@ x_0 \\ \vdots \\ x_n
 \end{matrix}
 \right]$ )
 
-This is called ''multivariate linear regression''
+This is called *multivariate linear regression*
 
 
 ## Polynomial Regression

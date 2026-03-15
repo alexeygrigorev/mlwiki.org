@@ -27,7 +27,7 @@ GROUP BY City;
 
 
 Pig Latin
-```text only
+```
 -- 1
 tmp = COGROUP Sales BY AddrId,
               Cities BY AddrId

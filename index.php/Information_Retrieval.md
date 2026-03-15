@@ -29,24 +29,24 @@ Problem:
 - user interacts with the collection by sending a query
 - we find some results, but in what order should they be presented? 
 
-The ''central problem'' of IR is ranking  elements of the collection according to relevance for a user query
+The *central problem* of IR is ranking  elements of the collection according to relevance for a user query
 
 
 Text IR:
 - Most common usecase for IR systems is finding something in textual data
-- the '''goal''' of textual IR system is to retrieve most relevant documents for the user
+- the '*goal*' of textual IR system is to retrieve most relevant documents for the user
 
 
 Basic formulation:
 - Given a collection $C = \{d_1, d_2, \ ... \ , d_N \}$ and a query $q \in Q$ 
-- IR system given $q$ returns a ranked list of ''relevant'' documents from $C$ 
-- documents are ''relevant'' when they contain information that the user looks for 
+- IR system given $q$ returns a ranked list of *relevant* documents from $C$ 
+- documents are *relevant* when they contain information that the user looks for 
 e.g. they contain the answer to the query 
 
 
 
 ### Relevancy
-''Retrieval function'' is a scoring function that's used to rank documents 
+*Retrieval function* is a scoring function that's used to rank documents 
 - retrieval function is based on a [retrieval model](Information_Retrieval_Models)
 - Retrieval Model defines the notion of relevance and makes it possible to rank the documents 
 

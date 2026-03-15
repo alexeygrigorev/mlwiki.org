@@ -25,7 +25,8 @@ Sets are divided into *finite* sets (for example, the number of residents of a c
   $A = \{a_1, a_2, ..., a_n\}$
 
 - Characteristic properties:
-  $A = \{ x |  P(x) \}$, where $P(x)$ is a property possessed by elements $x \in A$ and not possessed by $x \notin A$.  |: For example, $X = \{x |  x^2 - 3x + 2 = 0\}$
+  $A = \{ x |  P(x) \}$, where $P(x)$ is a property possessed by elements $x \in A$ and not possessed by $x \notin A$.
+  - For example, $X = \{x |  x^2 - 3x + 2 = 0\}$
 ### Subsets
 If every element of set $A$ is also an element of set $B$, then $A$ is a *subset* of $B$. This is denoted $A \subset B$.
 

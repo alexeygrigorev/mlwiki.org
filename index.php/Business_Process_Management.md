@@ -6,8 +6,8 @@ tags:
 title: Business Process Management
 ---
 ## Business Process Management
-a ''business process'' consists of a set of activities that are performed in coordination in an organization and technical environment
-- these process jointly implement some ''business goal''
+a *business process* consists of a set of activities that are performed in coordination in an organization and technical environment
+- these process jointly implement some *business goal*
 - (Weske, 2007)
 
 Motivation:

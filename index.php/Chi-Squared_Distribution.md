@@ -6,7 +6,6 @@ tags:
 - statistics
 title: Chi-Squared Distribution
 ---
-{{stub}}
 
 ## Chi-Squared Distribution
 - always positive 

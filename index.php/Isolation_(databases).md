@@ -26,7 +26,7 @@ Problem here:
 
 ### Transaction Manager
 - Transaction Manager is a component of a [DBMS](Database) that has a scheduler
-- The ''scheduler'' is responsible for creating an impressions that all transactions are run in isolation
+- The *scheduler* is responsible for creating an impressions that all transactions are run in isolation
 
 
 ## Levels of Isolation

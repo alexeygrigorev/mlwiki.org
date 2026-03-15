@@ -46,7 +46,7 @@ We add one more level of indirection
 
 So now we have
 1. [Dense Index](Dense_Index) where each value is stored once
-1. ''Bucket list'' where we have multiple occurrences
+1. *Bucket list* where we have multiple occurrences
   - pointers to actual values 
   - should be sequential: i.e. ordered by the key
 1. Actual blocks

@@ -67,7 +67,7 @@ That gives larger margin for SVM
 
 ### SVM Decision Boundary
 - SVM sometimes is referred as Large Margin classifier 
-- The reason for that is SVM tries to find a decision boundary that has the widest distance (''margin'' from the dataset samples)
+- The reason for that is SVM tries to find a decision boundary that has the widest distance (*margin* from the dataset samples)
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/svm-margin.png" alt="Image">
 - here we see the margin
 
@@ -123,7 +123,7 @@ As a simplification, we assumed $\theta_0 = 0$
 
 
 ## Kernels
-''Kernels'' is a technique for using a SVN as a complex, non-linear classifier 
+*Kernels* is a technique for using a SVN as a complex, non-linear classifier 
 
 Suppose we have the following data
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/svm-kernels-nonlinear.png" alt="Image">
@@ -141,7 +141,7 @@ Is there a different / better choice of features $f_1, f_2, f_3, ...$?
 
 ### Similarity
 Say our $x \in \mathbb{R}^2$
-- We may pick up 3 data points, or ''landmarks'': $l^{(1)}, l^{(2)}, l^{(3)}$
+- We may pick up 3 data points, or *landmarks*: $l^{(1)}, l^{(2)}, l^{(3)}$
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/svm-kernels-landmarks.png" alt="Image">
 - So given a new $x$ we compute new features as proximity to these $l^{(1)}$, $l^{(2)}$ and $l^{(3)}$
 
@@ -150,11 +150,11 @@ We compute $f_1$, $f_2$ and $f_3$ as follows:
 - $f_2 = \text{similarity}(x, l^{(2)})$
 - $f_3 = \text{similarity}(x, l^{(3)})$
 
-These similarity functions are called ''Kernels''
+These similarity functions are called *Kernels*
 
 
 ## Gaussian Kernel
-As a similarity function we  may use a ''Gaussian Kernel'': 
+As a similarity function we  may use a *Gaussian Kernel*: 
 - $\text{similarity}(x, l) = \exp \left( \cfrac{\|  x - l \|^2 }{2 \cdot \sigma^2} \right)$
 - where $\|  x - l \|^2 = \sum_{j = 1}^n (x_j - l_j)^2$
 Similarity

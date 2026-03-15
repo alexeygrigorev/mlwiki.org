@@ -15,7 +15,7 @@ Suppose we want to reduce from 2D to 1D
 
 We want to find a line which would give us the smallest square distance from the data points to their projection
 - http://stolzen.googlecode.com/svn/trunk/courses/coursera/Machine%20Learning/figures/pca-projection-error
-- the sum of squared length of projection liens is called a ''projection error''
+- the sum of squared length of projection liens is called a *projection error*
 
 Before running PCA it's a good idea to perform [Feature Scaling](Feature_Scaling)
 - so features have zero mean and

@@ -11,7 +11,7 @@ title: Frobenius Norm
 Is a norm for [Matrix Vector Spaces](Matrix_Vector_Spaces): a vector space of matrices
 - Define [Inner Product](Inner_Product) element-wise: $\langle A, B \rangle = \sum_{ij} a_{ij} b_{ij}$
 - then the norm based on this product is $\|  A \|_F = \langle A, A \rangle$
-- this norm is ''Frobenius Norm''
+- this norm is *Frobenius Norm*
 
 
 Orthogonality:

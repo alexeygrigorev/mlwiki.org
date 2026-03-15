@@ -8,7 +8,7 @@ title: Greatest Common Divisor
 ---
 ## Greatest Common Divisor
 
-A ''common divisor'' of numbers $a_1, a_2, ..., a_n$ is a number that divides all numbers $a_1, a_2, ..., a_n$ without remainder.
+A *common divisor* of numbers $a_1, a_2, ..., a_n$ is a number that divides all numbers $a_1, a_2, ..., a_n$ without remainder.
 
 ### Algorithm
 
@@ -39,8 +39,8 @@ Given: numbers $m$ and $n$. Find: the greatest common divisor of these numbers.
 
 ### Proof
 
-'''First''', the algorithm always converges.
-'''Second''', at each iteration we have:
+'*First*', the algorithm always converges.
+'*Second*', at each iteration we have:
 
 1. $m = n \cdot q_1 + r_1$
 
@@ -55,7 +55,7 @@ k+1. $r_{k-1} = r_k \cdot q_{k+1} + r_{k+1}$
 k+2. $r_k = r_{k+1} \cdot q_{k+2} + 0$
 
 
-'''At the first step''':
+'*At the first step*':
 
 Suppose that $c = GCD(m, n)$.
 
@@ -69,13 +69,13 @@ Therefore, $r_1 = m - n q_1 = c \cdot (d_m - d_n \cdot q_1$)
 That is, $r_1$ is also divisible by $c$.
 
 
-'''At the $i$-th step''': similarly, $r_i$ is divisible by $c$.
+'*At the $i$-th step*': similarly, $r_i$ is divisible by $c$.
 
 
-'''Last step''':
+'*Last step*':
 Since the remainder at this step is 0, we have $r_k = c = GCD(m, n)$
 
-'''Q.E.D.'''
+'*Q.E.D.*'
 
 ## Greatest Common Divisor by Subtraction
 

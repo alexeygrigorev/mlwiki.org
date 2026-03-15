@@ -33,7 +33,7 @@ Example of bad function
 
 
 ## Collisions
-A ''collision'' is
+A *collision* is
 - distinct $x, y \in U$
 - such that $h(x) = h(y)$
 

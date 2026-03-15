@@ -5,7 +5,6 @@ tags:
 - game-theory
 title: Coalitional Game
 ---
-{{draft}}
 
 ## Coalitional Games
 

@@ -8,13 +8,13 @@ title: Inverse-Rules Algorithm
 ## Inverse-Rules Algorithm
 This is an approach for query rewriting used in [LAV Mediation](LAV_Mediation)
 - radically different from [Bucket](Bucket_Algorithm_(Data_Integration)) and [Minicon](Minicon_Algorithm)
-- idea: transform [LAV mappings](LAV_Mediation) to [GAV mappings](GAV_Mediation) (called ''inverse rules'')
+- idea: transform [LAV mappings](LAV_Mediation) to [GAV mappings](GAV_Mediation) (called *inverse rules*)
 - to do that, use query unfolding instead of query rewriting
 
 
 ### Overview
 Steps:
-- constructing ''inverse rules'' from a set of LAV mappings
+- constructing *inverse rules* from a set of LAV mappings
 - unfolding a global query to obtain local queries 
 
 
@@ -111,7 +111,7 @@ Before (in [GAV Mediation](GAV_Mediation))
 - but here it doesn't work: we have Skolen Functions
 
 Now:
-- need ''unification'' of atoms with functions
+- need *unification* of atoms with functions
 - more complex than simple unfolding
 - may require substitution of some variables with function terms - Skolem terms
 
@@ -147,15 +147,15 @@ Inverse Rules:
 
 
 Now try to unify each atom of $Q$ with some atom from the rules
-- we use ''most general unifier'' (''mgu'')
+- we use *most general unifier* (*mgu*)
 
 
 Atom 1: $U(y, z)$
-- $U(y, z)$ can be ''unified'' with $U \big(v, f_1(u,v) \big)$ (from $\text{IN}_{1,2}$)
+- $U(y, z)$ can be *unified* with $U \big(v, f_1(u,v) \big)$ (from $\text{IN}_{1,2}$)
 - the mgu is a substitution $\sigma = \{ y \mapsto v_1, v \mapsto v_1, z \mapsto f_1(v_2,v_1), u \mapsto v_2 \}$
 - $v_1$ and $v_2$ are new fresh variables to avoid conflicts
 - $y$ and $v$ map to the same variable $v_1$ because they are at the same position
-- substitution $\sigma$ is called a ''unifier'' of two expressions and $U \big(v, f_1(u,v) \big)$
+- substitution $\sigma$ is called a *unifier* of two expressions and $U \big(v, f_1(u,v) \big)$
 - it's a unifier because applying $\sigma$ results in identical expressions:
   - $\sigma \Big( U(y, z) \Big) \equiv \sigma \Big( U \big(v, f_1(u,v) \big) \Big) \equiv U \big(v_1, f_1(v_2, v_1) \big)$
 - apply $\sigma$ to the rest of atoms in $Q$ and unfold the first query atom of $Q$

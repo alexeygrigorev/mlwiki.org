@@ -10,7 +10,7 @@ title: Hadoop Distributed File System
 Typically [MapReduce](MapReduce) I/O operations are performed on distribute file systems.  
 
 One such file system is HDFS - [Hadoop](Hadoop) Distribute File System
-- ''Name Node'' - the node that orchestrates the process of data distributing and knows where everything is stored
+- *Name Node* - the node that orchestrates the process of data distributing and knows where everything is stored
 
 Large files are typically distributed in chunks 64 mb each, and they are stored in data nodes. Each chuck is replicated (typically stored on 3 servers)
 
@@ -36,10 +36,10 @@ How to maintain [consistency](Consistency_(databases)) across all these replicas
 ### Reading
 When a client needs to read data, it needs to know where this piece of data is:
 ; a "read" command is issued with an offset - how many bytes the client wants to read 
-1. The '''name node''' knows where every chunk of data is kept, so the clients read the metadata from it. 
-1. After getting the metadata, the client reads the data from the '''data node''' (so there's no centralized bottleneck - all reads are in parallel) 
+1. The '*name node*' knows where every chunk of data is kept, so the clients read the metadata from it. 
+1. After getting the metadata, the client reads the data from the '*data node*' (so there's no centralized bottleneck - all reads are in parallel) 
 
-In case the client fails to read a chunk of data, it asks the '''name node''' where the next replica is - and tries again
+In case the client fails to read a chunk of data, it asks the '*name node*' where the next replica is - and tries again
 
 
 ### Writing

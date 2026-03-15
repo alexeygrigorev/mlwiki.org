@@ -30,7 +30,7 @@ We translate it to the following expression:
 But there is a more optimal way to obtain the same results 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/logical-query-plan-ex2-opt.png" alt="Image">
 
-The process of finding a cheaper equivalent expression is called (logical) ''query optimization''
+The process of finding a cheaper equivalent expression is called (logical) *query optimization*
 
 
 ## Optimality
@@ -87,7 +87,7 @@ Why?
 - careless programmers
 
 It is possible to automatically translate from first kind of query to second one
-- the process is called ''removing redundant joins''
+- the process is called *removing redundant joins*
 
 
 ### Removing Redundant Joins

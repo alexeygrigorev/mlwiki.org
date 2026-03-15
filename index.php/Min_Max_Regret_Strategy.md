@@ -22,7 +22,7 @@ Idea:
 
 
 Regret
-  - ''regret'' is a measure that shows how we regret choosing some alternative $a$ to another alternative $a^*$ after $e \in E$ happens
+  - *regret* is a measure that shows how we regret choosing some alternative $a$ to another alternative $a^*$ after $e \in E$ happens
 - imagine that $e$ happens and the best alternative in this case is $a^*$
 - but we chose $a$
 - so our regret is $c(e, a^*) - c(e, a)$

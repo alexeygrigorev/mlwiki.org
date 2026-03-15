@@ -52,7 +52,7 @@ There could be several decision trees for this dataset:
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/kddm/decision-tree-ex.png" alt="Image">  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/kddm/decision-tree-ex2.png" alt="Image">
 
 
-''Decision Tree'':
+*Decision Tree*:
 - leaves are labels with the predicted class
 - internal nodes are labeled with attributes used to decide which path to take
 - edges are labeled with values for this attributes or with boolean tests
@@ -66,7 +66,7 @@ Classification:
 
 
 ### Error Measures
-A tree is ''perfect'' if it makes no errors on the training set
+A tree is *perfect* if it makes no errors on the training set
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/kddm/decision-tree-ex2.png" alt="Image">
 - this tree is perfect w.r.t. the training dataset
 - learning error = 0%
@@ -288,33 +288,35 @@ Distribute the values to subsets
 <table>
 <tr>
 <td>
-| + $X = a$ ||  $Y$  |  $Z$  |  Class  |  $w$  ||  70  |  Yes  |  +  |  1  ||  90  |  Yes  |  -  |  1  ||  85  |  No  |  -  |  1  ||  95  |  No  |  -  |  1  ||  70  |  No  |  +  |  1  ||  '''90'''  |  '''Yes'''  |  '''+'''  |  '''5/13''' |</td>
+| + $X = a$ ||  $Y$  |  $Z$  |  Class  |  $w$  ||  70  |  Yes  |  +  |  1  ||  90  |  Yes  |  -  |  1  ||  85  |  No  |  -  |  1  ||  95  |  No  |  -  |  1  ||  70  |  No  |  +  |  1  ||  '*90*'  |  '*Yes*'  |  '*+*'  |  '*5/13*' |</td>
 <td>
-| + $X = a$ ||  $Y$  |  $Z$  |  Class  |  $w$  ||  78  |  No  |  +  |  1  ||  65  |  Yes  |  +  |  1  ||  75  |  No  |  +  |  1 ||  '''90'''  |  '''Yes'''  |  '''+'''  |  '''3/13'''  |</td>
+| + $X = a$ ||  $Y$  |  $Z$  |  Class  |  $w$  ||  78  |  No  |  +  |  1  ||  65  |  Yes  |  +  |  1  ||  75  |  No  |  +  |  1 ||  '*90*'  |  '*Yes*'  |  '*+*'  |  '*3/13*'  |</td>
 <td>
-| + $X = a$ ||  $Y$  |  $Z$  |  Class  |  $w$ ||  80  |  Yes  |  -  |  1  ||  70  |  Yes  |  -  |  1  ||  80  |  No  |  +  |  1  ||  80  |  No  |  +  |  1  ||  96  |  No  |  +  |  1  ||  '''90'''  |  '''Yes'''  |  '''+'''  |  '''5/13'''  |</td>
+| + $X = a$ ||  $Y$  |  $Z$  |  Class  |  $w$ ||  80  |  Yes  |  -  |  1  ||  70  |  Yes  |  -  |  1  ||  80  |  No  |  +  |  1  ||  80  |  No  |  +  |  1  ||  96  |  No  |  +  |  1  ||  '*90*'  |  '*Yes*'  |  '*+*'  |  '*5/13*'  |</td>
 </tr>
 </table>
 
 
 #### Classification with Modification
 Classification:
-- let $P(C |  E,T)$ be the probability of classifying case $E$ to class $C$ using tree $T$
+- let $P(C \mid E,T)$ be the probability of classifying case $E$ to class $C$ using tree $T$
 - define it recursively:
 - if $t = \text{root}(T)$ is a leaf (i.e. it's a singleton tree)
   - then P(C |  E,T) is the relative frequency of training cases in class $C$ that reach $T$
 - if $t = \text{root}(T)$ is not a leaf and $t$ is partitioned using attribute $X$
   - if $E.X = x_k$
-    - then $P(C |  E,T) = P(C | E,T_k)$ where $T_k$ is a subtree of $T$ where $X = x_k$
+    - then $P(C \mid E,T) = P(C \mid E,T_k)$ where $T_k$ is a subtree of $T$ where $X = x_k$
 - if $E.X$ is unknown,
-    - then $P(C| E,T) = \sum_{k=1}^{K} \cfrac    - so we sum up probabilities of belonging to class $C$ from each child of $t$ |- predict that a record belongs to class $C$ by selecting the highest probability $P(C| E,T)$
+    - then $P(C\mid E,T) = \sum_{k=1}^{K} \cfrac{|S_k|}{|S|} P(C \mid E,T_k)$
+    - so we sum up probabilities of belonging to class $C$ from each child of $t$
+- predict that a record belongs to class $C$ by selecting the highest probability $P(C\mid E,T)$
 
 #### Example
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/kddm/decision-tree-class-with-nas.png" alt="Image">
 - assume that $X$ is unknown - how to classify the case? 
-- $P(+ | E,T) = \sum_{k=1}^{K} P(+ | E,T_k) = \cfrac{20}{50} \cdot \cfrac{15}{20} + \cfrac{30}{50} \cdot \cfrac{5}{30} = \cfrac{20}{50}$
-- $P(- | E,T) = \sum_{k=1}^{K} P(- | E,T_k) = \cfrac{20}{50} \cdot \cfrac{5}{20} + \cfrac{30}{50} \cdot \cfrac{25}{30} = \cfrac{30}{50}$
-- $P(- | E,T) > P(+ |E,T) \Rightarrow$ predict "$-$"
+- $P(+ \mid E,T) = \sum_{k=1}^{K} P(+ \mid E,T_k) = \cfrac{20}{50} \cdot \cfrac{15}{20} + \cfrac{30}{50} \cdot \cfrac{5}{30} = \cfrac{20}{50}$
+- $P(- \mid E,T) = \sum_{k=1}^{K} P(- \mid E,T_k) = \cfrac{20}{50} \cdot \cfrac{5}{20} + \cfrac{30}{50} \cdot \cfrac{25}{30} = \cfrac{30}{50}$
+- $P(- \mid E,T) > P(+ \mid E,T) \Rightarrow$ predict "$-$"
 
 
 

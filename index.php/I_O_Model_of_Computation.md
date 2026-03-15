@@ -6,7 +6,7 @@ tags:
 title: I/O Model of Computation
 ---
 ## I/O Model of Computation
-'''The Rule:''' Dominance of I/O cost
+'*The Rule:*' Dominance of I/O cost
 - The time taken to perform a [disk access](Secondary_Storage) is much larger than the time needed for manipulating data in the [main memory](Memory_Hierarchy)
 - Thus, the number of block accesses (Disk I/Os) is a good approximation to the time needed for an algorithm
 

@@ -24,7 +24,7 @@ In math,
 - if $f(x) = y$, then $f^{-1}(y) = x$
 - the same idea is in RDFS-Plus
 
-```text only
+```
 CONSTRUCT { ?y ?q ?x }
 WHERE {
   ?p owl:inverseOf ?q .
@@ -53,7 +53,7 @@ Example:
   - so instead of <code>owl:inverseOf</code> can say
   - <code>bio:married rdf:type owl:SymmetricType</code>
 
-```text only
+```
 CONSTRUCT { ?p owl:inverseOf ?p. } 
 WHERE { ?p a owl:SymmetricProperty . }
 ```
@@ -75,7 +75,7 @@ In RDFS-plus, <code>owl:TransitiveProperty</code> is used for that:
 - <code>:P rdf:type owl:TransitiveProperty</code>
 
 Meaning:
-```text only
+```
 CONSTRUCT { ?x ?p ?z .} 
 WHERE {
   ?x ?p ?y . 
@@ -124,7 +124,7 @@ Suppose in 3 namespaces we have 3 different ways of describing a person
 - e.g. <code>pr:WilliamShakspere owl:sameAs lit:Shakespeare</code>
 
 it's defined by 3 rules:
-```text only
+```
 -- when it's a subject
 CONSTRUCT { ?s ?p ?x. } 
 WHERE {

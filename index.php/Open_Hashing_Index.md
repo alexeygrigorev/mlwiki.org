@@ -62,7 +62,7 @@ Algorithm
 - if $B$ is full, and there's an overflow block, try putting it there
 - otherwise create a new overflow and store this record there
 
-'''NB:''' performance degrades as the number of overflow blocks grows|   see [#Reorganization](#Reorganization) 
+'*NB:*' performance degrades as the number of overflow blocks grows|   see [#Reorganization](#Reorganization) 
 
 ### Deletion
 - for search key $k$ calculate $h(k)$ to locate the bucket $B$
@@ -76,9 +76,9 @@ Algorithm
 ## Reorganization
 Rule: we want to keep space utilization between 50% and 80%
 
-''space utilization'' - how much space is used
+*space utilization* - how much space is used
 - $u = \cfrac{\text{# keys used}}{\text{total # of keys}}$
-- the denominator is the # of keys that we can store if we used '''only''' main buckets, without any overflow blocks 
+- the denominator is the # of keys that we can store if we used '*only*' main buckets, without any overflow blocks 
   - e.g. 2 items per block, 3 blocks = 6 keys
 - if $u < 50\%$ - lots of space wasted (many empty buckets)
 - if $u > 80\%$ - significant overflow

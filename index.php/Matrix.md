@@ -5,7 +5,6 @@ tags:
 - linear-algebra
 title: Matrix
 ---
-{{stub}}
 
 ## Matrix
 In [Linear Algebra](Linear_Algebra) a $m \times n$ matrix $A$ is a rectangular array with $m$ rows and $n$ columns:
@@ -19,7 +18,7 @@ a_{m1} & a_{m2} & ... & a_{mn}
 
 $\{a_{ij}\}$ (or $(A)_{ij}$) are components of the matrix $A$
 
-if $m = n$, then $A$ is called ''rectangular''
+if $m = n$, then $A$ is called *rectangular*
 
 $(a_{11}, a_{22}, ..., a_{nn})$ are diagonal elements
 

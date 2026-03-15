@@ -17,7 +17,7 @@ Notation:
 
 
 ### Simple Lotteries
-A ''simple lottery'' $l$ on $X$ is
+A *simple lottery* $l$ on $X$ is
 - a discrete [Random Value](Random_Value) on $X$
 - $l = \{(x_1, p_1), (x_2, p_2), ..., (x_n, p_n) \}$
 - $x_i$ is a consequence, $p_i$ is the probability that $x_i$ will happen

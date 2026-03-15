@@ -7,7 +7,6 @@ tags:
 - rule-mining
 title: Frequent Word Patterns
 ---
-{{stub}}
 
 ## Frequent Word Patterns
 Frequent word patters is a technique of [Local Pattern Discovery](Local_Pattern_Discovery) applied to documents

@@ -54,8 +54,8 @@ Example:
 - $B$ - the part is painted
 - $A \cdot B$ - the part is functional and painted
 
-**Theorem**. Consider two events $A$ and $B$. We know $P(A)$ and $P(B| A)$. How do we find the probability that both $A$ and $B$ occur?
-$P(A \cdot B) = P(A) \cdot P(B |  A)$ - by the definition of [conditional probability](Conditional_Probability).
+**Theorem**. Consider two events $A$ and $B$. We know $P(A)$ and $P(B\mid A)$. How do we find the probability that both $A$ and $B$ occur?
+$P(A \cdot B) = P(A) \cdot P(B \mid A)$ - by the definition of [conditional probability](Conditional_Probability).
 For [independent events](Independence) the multiplication theorem becomes
 
 $P(A \cdot B) = P(A) \cdot P(B)$

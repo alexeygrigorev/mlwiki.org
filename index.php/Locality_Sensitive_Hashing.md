@@ -12,7 +12,7 @@ title: Locality Sensitive Hashing
 In large databases it's not possible to use brute force search: there's too much data
 - one way of speeding search up is using [Indexing](Indexing_(databases)): in particular, most interesting indexes are [Multi-Dimensional Indexes](Multi-Dimensional_Indexes)
 - but many of these "classical" indexing schemes don't work for high dimensional data
-- '''Locality-Sensitive Hashing''' algorithms address this problem:
+- '*Locality-Sensitive Hashing*' algorithms address this problem:
 - it's a family of probabilistic/approximate indexing techniques that return the true KNNs most of the time correctly  
 
 
@@ -20,7 +20,7 @@ In large databases it's not possible to use brute force search: there's too much
 LSH algorithms:
 - used for quick search of similar entires in larges DBs
 - used for Nearest Neighbor (1-NN) queries as well as in [KNN](KNN) queries 
-- these algorithms are ''randomized'': they don't guarantee the exact answer, but rather give a high probability to find the correct answer or a close approximation
+- these algorithms are *randomized*: they don't guarantee the exact answer, but rather give a high probability to find the correct answer or a close approximation
 
 - Good similarity/distance function should rank relevant answers much closer to the query than irrelevant 
 - if it's the case, approximate answer should also give good result
@@ -145,7 +145,7 @@ $k$ and $L$ are parameters chosen s.t.:
 - total number of collisions on $\mathbf q$ with points from outside $B(\mathbf q, r_1)$ is less than $3L$
 
 
-A hash function family is ''locality-sensitive'' if 
+A hash function family is *locality-sensitive* if 
 - "similar" $\mathbf v_1, \mathbf v_2$ - e.g. big $\text{sim}(\mathbf v_1, \mathbf v_2)$ for some [Similarity Measure](Similarity_Measure) or small $d(\mathbf v_1, \mathbf v_2)$ for some distance measure 
 - they should collide: have same hash value with high probability
 

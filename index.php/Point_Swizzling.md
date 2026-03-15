@@ -11,8 +11,8 @@ How to manage pointers to blocks and records if they are moved between main and 
 Translation table
 - when a record is stored on disk, it's pointers are in physical address form 
 - but when we load it into memory, it remains in this form 
-- to convert the physical address to the main memory address we use the same idea as for ''map table'':
-- we keep a ''translation table'' to do that
+- to convert the physical address to the main memory address we use the same idea as for *map table*:
+- we keep a *translation table* to do that
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/translation-table.png" alt="Image">
 
 
@@ -23,8 +23,8 @@ When following a pointer,
 
 ## Point Swizzling
 But for some frequently accessed pointers we don't want to repeatedly look up the address 
-- to avoid that we use ''pointer swizzling'' techniques
-- pointer is ''swizzled'' when it's translated to main memory address (and saved in this form)
+- to avoid that we use *pointer swizzling* techniques
+- pointer is *swizzled* when it's translated to main memory address (and saved in this form)
 
 So in memory with these techniques a pointer consists of 
 - a bit indicating whether this pointer is a physical address or (swizzled) memory address
@@ -67,7 +67,7 @@ This can be done using the transformation table but in the opposite direction
 
 
 ## Pinning
-A block in memory is ''pinned'' if it cannot be moved back to disk safely
+A block in memory is *pinned* if it cannot be moved back to disk safely
 - a bit signifying if a block is pinned in located in header
 
 reasons for pinning 

@@ -64,7 +64,7 @@ Like in [Local Pattern Discovery](Local_Pattern_Discovery), we have the notion o
 Frequent patterns:
 - a sequence $s$ is frequent if $\text{supp}(s, D) \geqslant \theta$
 - where $\theta$ is the desired minimal support (parameter)
-- A frequent (sub)sequence is called a ''sequential pattern''
+- A frequent (sub)sequence is called a *sequential pattern*
 
 
 Sequential Pattern Mining
@@ -127,7 +127,7 @@ Given
 
 |   SID  |  Sequence  |  10  |  $\langle (bd)(c)(b)(ac) \rangle$ ||  20  |  $\langle (bf)(ce)(b)(fg) \rangle$ ||  30  |  $\langle (ah)(bf)(a)(b)(f) \rangle$ ||  40  |  $\langle (be)(ce)(d) \rangle$ ||  50  |  $\langle (a)(bd)(b)(c)(b)(ade) \rangle$ |
 
-'''Step 1:'''
+'*Step 1:*'
 - generate length-1 candidates 
 - $\langle (a) \rangle, \langle (b) \rangle, \langle (c) \rangle, \langle (d) \rangle, \langle (e) \rangle, \langle (f) \rangle, \langle (g) \rangle, \langle (h) \rangle$
 - calculate frequency
@@ -143,7 +143,7 @@ Given
 
 
 
-'''Step 2'''
+'*Step 2*'
 Now need to generate length-2 candidates
 - two ways
   - adding an item to a new itemset, i.e. $\langle (a) \rangle$ becomes $\langle (a)(b) \rangle$ when we add $b$

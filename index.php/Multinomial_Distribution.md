@@ -5,7 +5,6 @@ tags:
 - distributions
 title: Multinomial Distribution
 ---
-{{stub}}
 
 ## Multinomial Distribution
 It's an extension of [Binomial Distribution](Binomial_Distribution)

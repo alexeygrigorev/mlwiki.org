@@ -6,7 +6,7 @@ tags:
 title: Normal Form Game
 ---
 ## Normal Form Game
-A ''Normal Form Game'' (also ''Matrix Form Game'' or ''Strategic Game'') if a type of games from the [Game Theory](Game_Theory)
+A *Normal Form Game* (also *Matrix Form Game* or *Strategic Game*) if a type of games from the [Game Theory](Game_Theory)
 - main idea: the players move simultaneously
 - compare to [Extensive Form Game](Extensive_Form_Game)s where players move sequentially 
 
@@ -15,12 +15,12 @@ In these games:
 - There is a finite number $n$ of [rational](Rational_Behavior) players: $N = \{ 1, 2, ..., n \}$
 - Each player $i$ has a finite set of actions $A_i$
 - Also each player $i$ has a set of possible consequences $C$, in this case it's $C \equiv \mathbb{R}$
-- The chosen alternatives form an ''action profile'' (or ''strategy profile'') $A: A_1 \times ... \times A_n$
+- The chosen alternatives form an *action profile* (or *strategy profile*) $A: A_1 \times ... \times A_n$
 - There's a consequence function $g_i: A \mapsto C$ that associates each alternative $a \in A_i$ with some consequence 
 - The preferences of agents are modeled with an utility function $u_i: A \mapsto \mathbb{R}$
 
 
-'''def:''' So a ''normal form game'' (or a ''strategic game'') is
+'*def:*' So a *normal form game* (or a *strategic game*) is
 - a tuple $\langle N, A, u \rangle$ where
 - $N = \{ 1, 2, ..., n \}$ - set of all players 
 - $A = \{A_1, ..., A_n\}$ - set of each players' actions 

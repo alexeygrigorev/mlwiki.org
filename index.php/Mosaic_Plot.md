@@ -23,7 +23,7 @@ data(email)
 
 One variable
 
-```text only
+```
 tab1 = table(email$number)
 mosaicplot(tab1, col=c('yellow2', 'skyblue2', 'red'),
            main='Numbers in emails')

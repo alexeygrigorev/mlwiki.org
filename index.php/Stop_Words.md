@@ -9,7 +9,7 @@ tags:
 title: Stop Words
 ---
 ## Stop Words
-Stop words are ''function words'':
+Stop words are *function words*:
 - stop words are useful syntactically and grammatically, but don't tell anything about the document content 
 - and they are topic-neutral: stop words have the same likelihood of occurring in both relevant and non-relevant documents - so not very useful for [Information Retrieval](Information_Retrieval)  
 - they are present everywhere: usually most frequent words are stop words

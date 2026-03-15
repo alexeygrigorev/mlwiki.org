@@ -45,7 +45,7 @@ Can be used in [Document Clustering](Document_Clustering) to speed up similarity
 Build a dictionary: a "posting" list
 - for each word we store ids of documents that have this word
 - document are sorted by ids
-- <img src="<img src="http://slidewiki.org/upload/media/images/29/509.png" alt="Image">?filter=Resize-width-550" />
+- <img src="http://slidewiki.org/upload/media/images/29/509.png" alt="Image" />
 - source of picture: [link](http://slidewiki.org/print/deck/339)
 - sorting - because it's easier to take union: just merge the posting list 
 

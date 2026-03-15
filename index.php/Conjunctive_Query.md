@@ -6,7 +6,7 @@ tags:
 title: Conjunctive Query
 ---
 ## Conjunctive Query
-A ''Conjunctive Query'' (CQ) is
+A *Conjunctive Query* (CQ) is
 - a [First Order Logic](First_Order_Logic) expression without negations and disjunctions
 
 
@@ -18,17 +18,17 @@ $\underbrace{Q(x_1, ..., x_n)}_{\text{head}} \leftarrow
 - $V = (a_1, ..., a_m, ..., c_1, ..., c_k)$ - variables and constants from the body
 - $X = (x_1, ..., x_n)$ is a set of variables from the head
   - $X \subseteq V$
-  - the variables from $X$ are called ''distinguished variables'' (also ''free'' or ''placeholder'' variables)
+  - the variables from $X$ are called *distinguished variables* (also *free* or *placeholder* variables)
 - $Y = V - X$  - variables from the body which aren't in the head
   - $Y \subseteq V$
-  - variables from $Y$ are called ''existential variables'' (also ''bound'' variables)
+  - variables from $Y$ are called *existential variables* (also *bound* variables)
 - note that the head doesn't necessarily have to contain only variables, it might as well contain constants
   - these constants will be returned in the results
 
 
 
-$R(a_1, ..., a_m)$ is called an ''atom'' 
-- if an atom does not contain any variables, only constants, it's a ''fact''
+$R(a_1, ..., a_m)$ is called an *atom* 
+- if an atom does not contain any variables, only constants, it's a *fact*
 - so we can view a database as a set of facts 
 
 
@@ -67,10 +67,10 @@ the query $Q(x, y) \leftarrow R(x, y), R(y, 5), S(y)$ wants to retrieve all pair
 
 
 ### Substitution
-'''def''': a ''substitution'' $f$ of $Q$ into database $D$ is 
+'*def*': a *substitution* $f$ of $Q$ into database $D$ is 
   a function that maps all variables from $Q$ to constants from $D$
 
-'''def''': a substitution $f$ of $Q$ into a database $D$ is a ''matching'' if
+'*def*': a substitution $f$ of $Q$ into a database $D$ is a *matching* if
   $f(\text{body}) \subseteq D$, i.e. if we evaluate $f$ on the body of the query $Q$, we will get a subset of $D$
   so when we apply $f(\text{head})$ we get a tuple that is a part of the result of evaluating $Q$ on $D$
 
@@ -133,11 +133,11 @@ This makes CQs very suitable for [Logical Query Plan Optimization](Logical_Query
 
 ## Containment and Equivalence
 ### Containment
-$Q_1$ ''is contained in'' $Q_2$ (denoted as $Q_1 \subseteq Q_2$) if
+$Q_1$ *is contained in* $Q_2$ (denoted as $Q_1 \subseteq Q_2$) if
 - for any database $D$ holds $Q_1(D) \subseteq Q_2(D)$
 - i.e. the result of $Q_1$ is always a subset of the result of $Q_2$, no matter what database $D$ they are evaluated on
 
-$Q_1$ ''is equivalent to'' $Q_2$ (denoted as $Q_1 \equiv Q_2$)
+$Q_1$ *is equivalent to* $Q_2$ (denoted as $Q_1 \equiv Q_2$)
 - iff $Q_1 \subseteq Q_2 \land Q_2 \subseteq Q_1$
 
 Example 
@@ -160,7 +160,7 @@ It is also possible to show that containment is decidable.
 
 
 ### Homomorphism
-'''def''': a ''homomorphism'' of $Q_2$ to $Q_1$ is 
+'*def*': a *homomorphism* of $Q_2$ to $Q_1$ is 
 - a function $h$ that maps each variable in $Q_2$ to either
   - a variable from $Q_1$ or
   - a constant form $Q_1$
@@ -175,7 +175,7 @@ Examples
 
 
 ### Containment Theorem
-'''Thm''': $Q_1 \subset Q_2 \iff $ there's a homomorphism from $Q_2$ to $Q_1$
+'*Thm*': $Q_1 \subset Q_2 \iff $ there's a homomorphism from $Q_2$ to $Q_1$
 
 Proof of $\Leftarrow$ (if)
 - let $h: Q_2 \to Q_1$ be a homomorphism
@@ -198,7 +198,7 @@ Proof of $\Rightarrow$ (only if)
 - suppose that $Q_1 \subseteq Q_2$
 - let's consider variables in $Q_1$ as constants
   - we can view $\text{body}_1$ as a mini-database $D_{Q_1}$ 
-  - (this database is called a ''canonical database'' of $Q_1$) 
+  - (this database is called a *canonical database* of $Q_1$) 
 - the identity function is a matching of $Q_1$ to $D_{Q_1}$
   - hence $\text{head}_1 \in Q_1(D_{Q_1})$
 - since $Q_1 \subseteq Q_2$ we know that $\text{head}_1 \in Q_2(D_{Q_1})$
@@ -226,7 +226,7 @@ QueryContainment($Q_1$, $Q_2$)
   - $Q_2(\vec{y}) \leftarrow h_1(\vec{y}_1), ..., h_m(\vec{y}_m)$
 - freeze $Q_1$: construct a canonical database $D_{Q_1} \equiv \{ g_i \big( v( \vec{x}_i ) \big) \}$
   - with $v$ being a matching 
-- if $v(\vec{x}) \in Q_2(D_{Q_1})$ return '''yes''', otherwise '''no'''
+- if $v(\vec{x}) \in Q_2(D_{Q_1})$ return '*yes*', otherwise '*no*'
 
 
 

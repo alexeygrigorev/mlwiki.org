@@ -10,7 +10,7 @@ How to use [Semantic Web](Semantic_Web) in your application?
 
 Main tools:
 - [RDF](RDF) parsers, serializers and converters 
-- RDF Store (sometimes called ''Triple Store'')
+- RDF Store (sometimes called *Triple Store*)
 - RDF Query Engine
 
 ### Parsers & Serializers

@@ -12,7 +12,7 @@ title: Paired t-test
 This variation of [t-test](t-test) is used for Paired Data
 
 ### Paired Data
-Two set of observations are ''paired'' if each observation in one set has exactly one corresponding observation is another set. 
+Two set of observations are *paired* if each observation in one set has exactly one corresponding observation is another set. 
 
 
 Examples:
@@ -30,7 +30,7 @@ t.test(textbooks$diff, mu=x.bar.nul, alternative='two.sided')
 
 or 
 
-```text only
+```
 t.test(textbooks$uclaNew, textbooks$amazNew, paired=T, alternative='two.sided')
 ```
 
@@ -72,7 +72,7 @@ p
 
 or 
 
-```text only
+```
 t.test(textbooks$diff, mu=x.bar.nul, alternative='two.sided')
 ```
 

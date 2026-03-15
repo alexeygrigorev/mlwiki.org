@@ -95,7 +95,7 @@ From 10k draws 487 turned out to be below $\hat{p}$
 
 R code:
 
-```text only
+```
 n = 62
 p = 0.10
 m = 10000

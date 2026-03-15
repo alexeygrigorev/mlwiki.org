@@ -17,9 +17,9 @@ Important consequence:
 ## Block and Record Addresses
 Blocks (and Records) can be in
 - the main memory
-  - their '''address''' is the address of the 1st byte of the block (record)
+  - their '*address*' is the address of the 1st byte of the block (record)
 - the secondary storage
-  - and the '''address''' is: device id, cylinder number, etc. 
+  - and the '*address*' is: device id, cylinder number, etc. 
   - A record can be identified by an offset within a block
 
 There are several ways to represent an address in the [secondary memory](Secondary_Storage)
@@ -31,7 +31,7 @@ There are several ways to represent an address in the [secondary memory](Seconda
 
 ### Logical (Structured) Address
 - arbitrary string of some fixed length
-- a ''map table'' knows how to translate logical address to physical 
+- a *map table* knows how to translate logical address to physical 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/map-table.png" alt="Image">
 
 Logical table and map table give us flexibility
@@ -41,7 +41,7 @@ Logical table and map table give us flexibility
 
 ### [Point Swizzling](Point_Swizzling)
 - Initially all pointers have physical address
-- but when we load them into memory, we need to ''swizzle'' (translate) them to main memory address
+- but when we load them into memory, we need to *swizzle* (translate) them to main memory address
 
 
 ## Arranging Data on Disk
@@ -50,8 +50,8 @@ Logical table and map table give us flexibility
 - what data structures are used 
 
 Definitions
-- a ''data element'' (a tuple of object) is represented by a ''record'', which consists of consecutive bytes on some disk block
-- ''header'' is a region that contains some meta information about the record
+- a *data element* (a tuple of object) is represented by a *record*, which consists of consecutive bytes on some disk block
+- *header* is a region that contains some meta information about the record
 
 many machines allow more efficient access for main memory chunks when the data is addressed by a multiplier of 4 or 8
 
@@ -87,14 +87,14 @@ Blocks
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/layout-fixed-block.png" alt="Image">
 - we pack as much as possible to the block, and leave the remaining space unused 
 
-A ''block header'' may hold
+A *block header* may hold
 - which relation this block belongs to
 - timestamp that shows time of the last access 
 - other things 
 
 
 ### Offset Table
-Another way to organize records within a block is to keep an ''offset table'' in the header
+Another way to organize records within a block is to keep an *offset table* in the header
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/offset-table.png" alt="Image">
 
@@ -166,14 +166,14 @@ Disadvantaged
 
 #### Records Spanning Several Blocks
 How to store records that are larger than a block? 
-- technique for storing such records as called ''spanned records''
+- technique for storing such records as called *spanned records*
 
 This technique is also useful when records are smaller than a block, but storing them within a block wastes lots of space 
 - say a record takes 51% of a block 
 - then 49% of each block will be wasted (cannot put another record there)
 
-- A portion of a record that appears in one block is called a ''record fragment''
-- A record with 2 or more fragments is called ''spanned'', otherwise (it lays within one block) - it's ''unspanned''
+- A portion of a record that appears in one block is called a *record fragment*
+- A record with 2 or more fragments is called *spanned*, otherwise (it lays within one block) - it's *unspanned*
 
 
 To store a record fragment we need some extra information in the header 
@@ -234,10 +234,10 @@ For example
 - slide the records around on both blocks 
 
 #### Approach 2: Overflow Blocks
-We can create ''an overflow block''
+We can create *an overflow block*
 - each block $B$ has a pointer to a special block where additional records are kept
 - by "additional" we mean records that theoretically belong to $B$, but don't fit in 
-- these blocks are called ''overflow'' blocks 
+- these blocks are called *overflow* blocks 
 - in such a way we can link blocks together to have a list of overflow blocks
   <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/overflow-blocks.png" alt="Image">
 
@@ -261,7 +261,7 @@ Dangling Pointers
 - we don't want these pointers to dangle or point to wrong records
 
 Usual technique in this case 
-- to place a ''tombstone'' in place of the record being deleted 
+- to place a *tombstone* in place of the record being deleted 
 - the tombstone is permanent: it must exist until the DB is reconstructed 
 
 Where to put a tombstone depends on the nature of record pointers 

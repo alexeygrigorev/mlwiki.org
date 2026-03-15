@@ -6,7 +6,7 @@ tags:
 title: Homogeneous Systems of Linear Equations
 ---
 ## Homogeneous Linear Systems $A\mathbf x = \mathbf 0$
-Suppose we have a [system](System_of_Linear_Equations) $A\mathbf x = \mathbf 0$. Such a system is called ''homogeneous'' - because we have $\mathbf 0$ on the right side of the system. 
+Suppose we have a [system](System_of_Linear_Equations) $A\mathbf x = \mathbf 0$. Such a system is called *homogeneous* - because we have $\mathbf 0$ on the right side of the system. 
 
 
 ## Solving $A\mathbf x = \mathbf 0$
@@ -48,17 +48,17 @@ Let's do it:
 0 & 0 & 0 & 0 \\
 \end{bmatrix} = U$
 - it's not really an upper-triangular matrix, but we still can call it $U$
-- this $U$ is in the ''echelon form'' (or "staircase" form)
+- this $U$ is in the *echelon form* (or "staircase" form)
 - <img src="http://habrastorage.org/files/fff/873/751/fff8737512334debaf8ae3f1878cd8b3.png" alt="Image">
 
 
-[''rank''](Rank) $r$ of a matrix is the number of Pivot variables in the echelon form
+[*rank*](Rank) $r$ of a matrix is the number of Pivot variables in the echelon form
 
 
 During the elimination the nullspace $N(A)$ of $A$ doesn't change
 - so systems $A\mathbf x = \mathbf 0$ and $U \mathbf x = \mathbf 0$ have the same solutions $\mathbf x$
-- the column with pivot variables are called ''pivot columns'', there are $r$ of them 
-- the rest of the columns are called ''free columns'', there are $n - r$ of them 
+- the column with pivot variables are called *pivot columns*, there are $r$ of them 
+- the rest of the columns are called *free columns*, there are $n - r$ of them 
 - <img src="http://habrastorage.org/files/fcb/1dc/c9e/fcb1dcc9e07345df9fd4c6624d8038a7.png" alt="Image">
 
 
@@ -118,7 +118,7 @@ Suppose we have matrix $A$ that we reduced to $U = \begin{bmatrix}
 0 & 0 & \boxed 1 & 4 \\
 0 & 0 & 0 & 0 \\
 \end{bmatrix} = R$
-- $R$ is a ''Row Reduced Echelon Form'' (RRFR) of $A$ 
+- $R$ is a *Row Reduced Echelon Form* (RRFR) of $A$ 
 - <img src="http://habrastorage.org/files/d02/b71/666/d02b7166629a482fa5e29591cf5d6baf.png" alt="Image">
 - note that if we consider only the pivot rows and columns, we see that we have the identity matrix $\begin{bmatrix}
 1 & 0 \\
@@ -154,7 +154,7 @@ I & F \\
 \end{bmatrix}$
 - we have $r$ pivot columns, $n-r$ free columns and $r$ pivot rows
 - we want to solve $R\mathbf x = \mathbf 0$. What are the "special" solutions?
-- let's create a ''Nullspace matrix'' $N$, $N = \begin{bmatrix}
+- let's create a *Nullspace matrix* $N$, $N = \begin{bmatrix}
 -F \\ I
 \end{bmatrix}$
 - Columns of $N$ are our special solutions

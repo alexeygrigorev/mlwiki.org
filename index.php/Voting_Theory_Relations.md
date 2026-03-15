@@ -12,7 +12,7 @@ The relations that are defined for [Voting Theory](Voting_Theory) principles and
 ### Notation
 - let $A = \{ a_1, ..., a_k \}$ be the set of candidates
 - let $V = \{ 1, 2, ..., N \}$ be the set of voters; there are $N$ voters 
-- each voter can express his preference on the basis of a ''total order''
+- each voter can express his preference on the basis of a *total order*
   - i.e. he has to rank all the candidates
   - $R_j(a_i)$ is the position of candidate $a_i$ in the ranking of voter $j$
 
@@ -31,11 +31,11 @@ Example:
 - a vote is $b > a > c > d$
 
 It satisfies three axioms:
-- ''completeness''
+- *completeness*
   - for any $x$ and $y$ either $x < y$ or $y < x$
-- ''transitivity'' (or ''consistency'')
+- *transitivity* (or *consistency*)
   - $\forall x, y, z \in A: x > y \land y > z \Rightarrow x > z$
-- ''asymmetric''
+- *asymmetric*
   - $\forall x, y: (x > y) \Rightarrow \overline{ y > x }$
 
 
@@ -50,7 +50,7 @@ Notation
 $\sim$ or $I$ is the indifference relation, voters use it to express that both candidates are equally good
 
 Properties: 
-- indifference is ''symmetric''
+- indifference is *symmetric*
   - $x \ I \ y \iff y \ I \ x$
 - indifference is not always transitive
   - cups of coffee
@@ -62,7 +62,7 @@ Notation
 
 
 ### At Least As Good As Relation
-$\geqslant$ or $S$ - means "at least as good as" - indifferent or better, sometimes referred as ''weak preference''
+$\geqslant$ or $S$ - means "at least as good as" - indifferent or better, sometimes referred as *weak preference*
 - $S \equiv (P \lor I)$ or $\geqslant \equiv [< \lor \sim]$
 - the opposite of $a \ S \ b$ is $b \ P \ A$:
   - $\overline{a \ S \ b} \equiv (a \ \overline{S} \ b) \equiv (a \ \overline{P \lor I} \ b) \equiv (a \ (\overline{P} \land \overline{I}) \ b) \equiv a \ \overline{P} \ b \equiv b \ P \ a$
@@ -73,9 +73,9 @@ Properties
 - for any pair $(x, y), x,y \in A, x \ne y$ 
   - $x \ S \ y \iff [x \ P \ y] \lor [x \ I \ y]  \lor [y \ I \ x]$
   - $x \ S \ y \not \Rightarrow y \ P \ x$|  !!
-- ''completeness''
+- *completeness*
 - $\forall x, y \in A:$ either  $x \ S \ y$ or $y \ S \ x$
-- ''transitivity''  (or ''consistency'')
+- *transitivity*  (or *consistency*)
   - $\forall x, y, z \in A: x \ S y \land y \ S \ z \Rightarrow x \ S \ z$
 
 We can use express Preference and Indifference via this relation:

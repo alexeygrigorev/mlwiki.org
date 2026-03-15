@@ -23,7 +23,7 @@ Consider the following scenario:
 
 
 ### Syntax
-A ''cancellation region'' consists of
+A *cancellation region* consists of
 - a number of tasks and places 
 - transitions between tasks - recall that in YAWL they contain "hidden" places
 - the cancellation task
@@ -45,7 +45,7 @@ Syntax:
 Typical Pattern of Usage:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-cr-pattern.png" alt="Image">
 - there's a cancellation place before the cancellation task
-- when the job inside the cancellation region is done, '''close case''' takes a token away from this place
+- when the job inside the cancellation region is done, '*close case*' takes a token away from this place
 - so the cancel task is no longer active 
 - but if the cancel task fires, it takes the token from the cancellation regions and finishes the case
 

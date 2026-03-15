@@ -20,7 +20,7 @@ for every transaction $T$ we record
 - a set of database items $WS(T)$ that is wants to write / were written by $T$
 
 All transactions are executed in 3 phases
-- transactions are '''only allowed to read''' 
+- transactions are '*only allowed to read*' 
   - when an item $X$ is read by $T$, $X$ is added to $RS(T)$
 - the scheduler validated the schedule based on 
   - actions read by $T$: $RT(T)$

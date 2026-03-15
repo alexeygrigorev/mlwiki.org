@@ -9,8 +9,8 @@ title: Memory Hierarchy
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/memory-hierarchy.png" alt="Image">
 
 Two main categories:
-- ''volatile'': forgets what it stores when power goes off
-- ''non-volatile'': can persist data for a long time
+- *volatile*: forgets what it stores when power goes off
+- *non-volatile*: can persist data for a long time
 
 Normally data is moved only between adjacent levels of hierarchy 
 
@@ -29,10 +29,10 @@ stores all data and instructions
 ### [Secondary Storage](Secondary_Storage)
 - 10 milliseconds to transfer data from disk to memory 
 
-''Secondary storage'': disks and other devices that can store large amounts of data 
+*Secondary storage*: disks and other devices that can store large amounts of data 
 
 ### Virtual Memory
-''Virtual Memory'' is an address space (32 or 64 bits) 
+*Virtual Memory* is an address space (32 or 64 bits) 
 - the OS manages VM keeping needed parts at hand (in the main memory)
 - and the rest on disk 
 

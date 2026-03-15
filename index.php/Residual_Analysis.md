@@ -6,7 +6,7 @@ tags:
 title: Residual Analysis
 ---
 ## Residuals
-''Residuals'' is the difference between actual values and predicted values
+*Residuals* is the difference between actual values and predicted values
 
 $i$th residual is:
 - $e_i = y_i - (b_0 + b_1 x_i) = y_i - b_0 - b_1 x_1 $
@@ -27,10 +27,10 @@ So
 
 ## Coefficient of Determination
 The regression multiplies the variance of $y$ by $(1 - R^2)$
-- Or, the regression line ''removes'' (or ''reduces'') a fraction of $R^2$ of the variance of $y$
+- Or, the regression line *removes* (or *reduces*) a fraction of $R^2$ of the variance of $y$
 - Or we say it "explains a fraction of $R^2$ of the variation"
 
-$R^2$ is called ''coefficient of determination'' - and says what fraction of $\text{Var}(Y)$ has been explained by the linear relationship
+$R^2$ is called *coefficient of determination* - and says what fraction of $\text{Var}(Y)$ has been explained by the linear relationship
 
 
 Examples:
@@ -40,7 +40,7 @@ Examples:
 
 
 Let's take a look at the example again: 
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-line.png" alt="Image">" />
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-line.png" alt="Image" />
 - $R^2$ = 0.4033
 - so it means quite a bit of variance there is explained by linear model
 - but still it doesn't explain everything - indeed the real data doesn't seem to have linear relationship
@@ -50,18 +50,18 @@ Let's take a look at the example again:
 Are there any other kinds of relationships between $X$ and $Y$, not captured by regression? 
 
 ### Ideal case
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-residuals-good2.png" alt="Image">" />
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-residuals-good2.png" alt="Image" />
 
 - This is a good case because after taking out linear relationship there's no particular pattern in residuals: only independent errors are left
 - So overall there's no particular trend and that means that the regression really tells us something about the relationships between $X$ and $Y$
 
 
 ### Another Example
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-residuals-quad2.png" alt="Image">" />
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-residuals-quad2.png" alt="Image" />
 
 And the same here 
 
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-residuals-pat2.png" alt="Image">" />
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-residuals-pat2.png" alt="Image" />
 
 In both cases the linear relationship doesn't describe the whole story and we see there are apparent patterns in the residuals in both cases 
 
@@ -72,14 +72,14 @@ In both cases the linear relationship doesn't describe the whole story and we se
 
 So we have the following: 
 
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-residuals-log1.png" alt="Image">" />
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-residuals-log1.png" alt="Image" />
 
 Recall that in this case $R^2 = 0.40$
 
 
 If we calculate $\log_{10} x$ what we get is 
 
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-residuals-log3.png" alt="Image">" />
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/regression-residuals-log3.png" alt="Image" />
 
 Now we're able to fit a better regression line and in this case $R^2 = 0.6576$
 

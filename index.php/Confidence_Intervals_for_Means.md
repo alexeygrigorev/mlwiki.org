@@ -52,7 +52,7 @@ Suppose we take 10k samples
 <details>
 <summary>R code to reproduce the experiment</summary>
 
-```gdscript
+```
 load(url('http://s3.amazonaws.com/assets.datacamp.com/course/dasi/ames.RData'))
 population = ames$Gr.Liv.Area
 
@@ -157,7 +157,7 @@ Use the $t$- distribution rather than the normal distribution when
 
 Shape of $t$ vs Normal:
 - When the sample size is large, e.g. $\geqslant$ 100, the $t$ is very similar to $N(0,1)$
-- on smaller sizes, $t$ is ''leptokurtic'' - it has relatively more scores in its tails than the normal distribution
+- on smaller sizes, $t$ is *leptokurtic* - it has relatively more scores in its tails than the normal distribution
   - $\Rightarrow$ you have to extend farther from the mean to span a given proportion of the area. 
 - for $N(0,1)$ 95% of data is within 1.96 $\sigma$ from the mean
 - for $t$, if you a sample size is only 5, 95% of the area is within 2.78 std from the mean
@@ -178,7 +178,7 @@ Thus
 
 ### R-code
 In R:
-```gdscript
+```
 n = 60
 xbar = mean(d)
 v = var(d)
@@ -188,7 +188,7 @@ xbar + c(-ME, ME)
 ```
 
 or:
-```text only
+```
 t.test(d, conf.int=0.95)$confint
 ```
 
@@ -201,7 +201,7 @@ Example1:
 - The sample variance was 5
 - Calculate the 99% CI for the mean
 
-```scdoc
+```
 xbar = 20
 v = 5
 t = qt(0.005, df=50, lower.tail=F)

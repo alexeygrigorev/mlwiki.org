@@ -68,13 +68,13 @@ Main Features
 ### Example
 Suppose we have the following tables:
 - status_update(user_id int, status string, ds string)
-  - '''ds''' is date
+  - '*ds*' is date
 - profiles(userid int, school string, gender int)
 
 
 To load data into a table we use 
 
-```scdoc
+```
 LOAD DATA LOCAL INPATH 'logs/status_updates'
 INTO TABLE status_updates 
 PARTITION (ds='2009-03-20')
@@ -110,7 +110,7 @@ note that we have 2 operations in one query
 #### Query 2
 suppose we want to display top 10 memes per school
 
-```text only
+```
 REDUCE subq2.school, subq2.meme, subq2.cnt
 -- using custom python script
 USING 'top10.py' AS (school, meme, cnt)

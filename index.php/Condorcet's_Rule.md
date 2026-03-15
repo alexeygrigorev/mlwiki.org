@@ -14,10 +14,10 @@ The main idea:
 
 
 ### Fairness
-We say that a voting system (procedure) is ''fair'' when 
+We say that a voting system (procedure) is *fair* when 
 - if we choose a candidate $x$ then 
 - $x$ can beat every other candidate in a pair-wise election
-- in this case $x$ is called ''the Condorcet winner''
+- in this case $x$ is called *the Condorcet winner*
 
 If $x$ wins the election but it loses in pairwise comparison
 - then the Condorcet fairness criteria is not satisfied
@@ -27,7 +27,7 @@ Many other [Voting Theory](Voting_Theory) methods do not satisfy this criterion:
 - [Two-Round Voting](Two-Round_Voting)
 - [Borda's Rule](Borda's_Rule)
 
-But the ''Condorcet Voting System'' (discussed below) does satisfy it.
+But the *Condorcet Voting System* (discussed below) does satisfy it.
 
 
 ### Condorcet Voting System
@@ -64,7 +64,7 @@ The Preference Graph for this example is
 
 
 ## Condorcet Paradox
-The Condorcet winner does not always exist - this is called ''the Condorcet Paradox''.
+The Condorcet winner does not always exist - this is called *the Condorcet Paradox*.
 - when there's a cycle in the Preference Graph - there is no winner 
 
 ### Example

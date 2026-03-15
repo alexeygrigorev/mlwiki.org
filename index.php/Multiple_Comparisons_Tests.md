@@ -8,7 +8,6 @@ title: Multiple Comparisons Tests
 ---
 ## Multiple Comparisons Tests
 
-{{stub}}
 
 
 ## Family-Wise Error Rate

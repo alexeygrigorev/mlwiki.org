@@ -7,11 +7,11 @@ tags:
 title: Histogram
 ---
 ## Histogram
-''Histogram'' is a graphical representation of the [Distribution](Distribution) of data
+*Histogram* is a graphical representation of the [Distribution](Distribution) of data
 - Bins: the intervals used in a histogram. The data must be separated into mutually exclusive and exhaustive bins
 - Cutpoints: the values that define the beginning and the end of the bins
 - Frequency: the count of the number of the data values in each bin
-- The peaks in the distribution are called ''modes''
+- The peaks in the distribution are called *modes*
 - so the variables you plot must be [Quantitative Variables](Quantitative_Variables)
 
 [Probability Density Function](Probability_Density_Function)
@@ -19,7 +19,7 @@ title: Histogram
 - Alternative - [Density Plot](Density_Plot) that use [Kernel](Kernel)s to smooth the plots 
 
 
-```text only
+```
 hist(d$age, col="blue")
 ```
 - Params

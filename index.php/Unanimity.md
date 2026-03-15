@@ -6,7 +6,7 @@ tags:
 title: Unanimity
 ---
 ## Unanimity
-The unanimity principle is a [Voting Theory](Voting_Theory) principle. ''Unanimity'' means "agreement reached by all people".
+The unanimity principle is a [Voting Theory](Voting_Theory) principle. *Unanimity* means "agreement reached by all people".
 
 Using [Voting Theory Relations](Voting_Theory_Relations) for $N = 2$ we define Unanimity as:
 - if $x \ P_1 \ y$ and $x \ P_2 \ y$ then  $x \ P \ y$

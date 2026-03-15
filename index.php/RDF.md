@@ -44,7 +44,7 @@ namespaces are typically URIs (like in [XML](XML))
   - <code>http://www.example.com/states#Washington</code>
   - <code>http://www.example.com/cities#Washington</code>
   - <code>http://www.example.com/people#Washington</code>
-- and as in XML, it's possible to use '''qnames''' - URI abbreviations for local use
+- and as in XML, it's possible to use '*qnames*' - URI abbreviations for local use
   - qnames have 2 parts: namespace and id
   - <code>states</code> - <code>http://www.example.com/states#</code>
   - so use <code>states:Washington</code> to refer to Washington state

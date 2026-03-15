@@ -11,7 +11,7 @@ General goal of an [Information Retrieval](Information_Retrieval) systems: rank 
 - to do it, the items must be scored 
 
 
-''Retrieval function'' is a scoring function that's used to rank documents 
+*Retrieval function* is a scoring function that's used to rank documents 
 - retrieval function is based on a [retrieval model](Information_Retrieval_Models)
 - Retrieval Model defines the notion of relevance and makes it possible to rank the documents 
 
@@ -27,7 +27,7 @@ There are 5 categories of IR models
 - potentially can use any similarity function 
 
 
-=== Algebraic Model === 
+### Algebraic Model
 [Vector Space Model](Vector_Space_Model)s are most well-known 
 - use Bag-of-Word to build a vector space
 - both documents and the query are represented as vectors in this space

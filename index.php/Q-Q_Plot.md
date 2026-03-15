@@ -44,7 +44,7 @@ if the data is normally distributed, $z$-scores on the horizontal axis should ap
 ### Example 1
 Evaluating the [Normal Distribution](Normal_Distribution) (see [link](http://rpubs.com/agrigorev/21480))
 
-```gdscript
+```
 load(url("http://www.openintro.org/stat/data/bdims.RData"))
 fdims = subset(bdims, bdims$sex == 0)
 
@@ -58,7 +58,7 @@ Does it look similar to real [Normal Distribution](Normal_Distribution)?
 - it does
 - let's simulate the normal distribution and compare 
 
-```text only
+```
 set.seed(123)
 sim.norm = rnorm(n=length(fdims$hgt), mean=mean(fdims$hgt), sd=sd(fdims$hgt))
 qqnorm(sim.norm, col="orange", pch=19, main="Normal Q-Q Plot of simulated data")
@@ -70,7 +70,7 @@ qqline(sim.norm, lwd=2)
 
 Can try to plot several simulations 
 
-```tera term macro
+```
 qqnormsim = function(dat, dim=c(2,2)) {
   par(mfrow=dim)
   qqnorm(dat, main="Normal QQ Plot (Data)")
@@ -95,7 +95,7 @@ Looks like it's indeed normal
 
 Let's take a look at another dataset
 
-```text only
+```
 hist(fdims$wgt)
 ```
 
@@ -103,14 +103,14 @@ hist(fdims$wgt)
 
 Looks a bit skewed 
 
-```text only
+```
 qqnorm(fdims$wgt, col="orange", pch=19)
 qqline(fdims$wgt, lwd=2)
 ```
 
 <img src="http://habrastorage.org/files/fba/bb4/94c/fbabb494c4554aa8b9c88d58b0ae0213.png" alt="Image">
 
-```text only
+```
 qqnormsim(fdims$wgt)
 ```
 

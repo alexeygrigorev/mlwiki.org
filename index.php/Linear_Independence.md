@@ -6,7 +6,7 @@ tags:
 title: Linear Independence
 ---
 ## Linear Independence
-Vectors $\mathbf x_1, \mathbf x_2, ... , \mathbf x_n$ are ''linearly independent'' if no linear combinations gives a zero vector $\mathbf 0$ 
+Vectors $\mathbf x_1, \mathbf x_2, ... , \mathbf x_n$ are *linearly independent* if no linear combinations gives a zero vector $\mathbf 0$ 
 - $c_1 \mathbf x_1 + c_2 \mathbf x_2 + ... + c_n \mathbf x_n \ne \mathbf 0$ 
 - only when $\forall i: c_i = 0$ it's true that $\sum c_i \mathbf x_i = 0$
 

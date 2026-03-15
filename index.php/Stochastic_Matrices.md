@@ -44,7 +44,7 @@ If $\lambda_1 < 0$, then $A^k$ for large $k$ will converge to $\mathbf O$ - a ma
 - then $\mathbf u_k = A^k \mathbf u_0 = c_1 \lambda_1^k \mathbf v_1 + c_2 \lambda_2^k \mathbf v_2 + \ ... \ c_n \lambda_n^k \mathbf v_n$
 - $\lambda_1 = 1$ and the rest are less than 1, so for large $k$ we have 
 - $\mathbf u_k \approx c_1 \mathbf v_1$
-- $c_1 \mathbf v_1$ is the ''steady state''
+- $c_1 \mathbf v_1$ is the *steady state*
 - This an application of the [Power Iteration](Power_Iteration) method
 
 

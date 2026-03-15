@@ -5,11 +5,10 @@ tags:
 - rule-mining
 title: Rule Mining
 ---
-{{stub}}
 
 ## Rule Mining
 This is a specialization of [Data Mining](Data_Mining) that deals with rules
-- ''rules'' or ''patterns'' - correlation between features 
+- *rules* or *patterns* - correlation between features 
 
 E.g. 
 - like, lot $\Rightarrow$ positive

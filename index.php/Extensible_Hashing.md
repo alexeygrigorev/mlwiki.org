@@ -23,7 +23,7 @@ Variables we use:
 
 
 ### Directory
-''Directory'' introduces additional level of indirection 
+*Directory* introduces additional level of indirection 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/ex-hashing-directory.png" alt="Image">
 - here we keep all possible combinations of $i$ bits with pointers to associated buckets
 
@@ -42,7 +42,7 @@ Example
 - then we follow the pointer and find the whole key (all $b$ bits) there
 
 
-=== Insert === 
+### Insert
 #### Simple Case
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/ex-hashing-add-1.png" alt="Image">
 - suppose $i = 1$
@@ -62,7 +62,7 @@ Example
   - that means that both blocks use 2 bits to assign a key to a bucket (and we indicate that value on top of the buckets)
 - but to address these new buckets now we need 2 bits, and still $i = 1$
   - i.e. $i$ in the directory becomes less than at least one $i$ from buckets
-  - that means we need to '''create a new directory'''
+  - that means we need to '*create a new directory*'
   - if it wasn't the case, we just would re-wire pointers to the dict
 - note that bucket for (0) is still the same - so both 00 and 01 in the new directory point to this bucket 
 - if now we insert 0000 and 0100, we will reorganize the first bucket, but will not rebuild the directory

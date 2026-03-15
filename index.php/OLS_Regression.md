@@ -10,16 +10,16 @@ title: OLS Regression
 ---
 ## Ordinary Least Squares Regression
 - This is a technique for computing coefficients for [Multivariate Linear Regression](Multivariate_Linear_Regression).
-- the solution is obtained via minimizing the squared error, therefore it's called ''Linear Least Squares''
+- the solution is obtained via minimizing the squared error, therefore it's called *Linear Least Squares*
 - two solutions: [Normal Equation](Normal_Equation) and [Gradient Descent](Gradient_Descent)
-- this is the the typical way of solving the [Multivariate Linear Regression](Multivariate_Linear_Regression), therefore it's often called '''OLS Regression'''
+- this is the the typical way of solving the [Multivariate Linear Regression](Multivariate_Linear_Regression), therefore it's often called '*OLS Regression*'
 
 
 ## Regression Problem
 Suppose we have
 - $m$ training examples $(\mathbf x_i, y_i)$
 - $n$ features, $\mathbf x_i = \big[x_{i1}, \ ... \ , x_{in} \big]^T \in \mathbb{R}^n$
-- We can put all such $\mathbf x_i$ as rows of a matrix $X$ (sometimes called a ''design matrix'')
+- We can put all such $\mathbf x_i$ as rows of a matrix $X$ (sometimes called a *design matrix*)
 - $X = \begin{bmatrix}
 - \ \mathbf x_1^T - \\ 
   \vdots  \\ 

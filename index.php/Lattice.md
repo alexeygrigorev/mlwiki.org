@@ -49,7 +49,7 @@ for d in sorted(dep, key=len):
 
 
 Drawing it with dot:
-```text only
+```
 digraph A {
   node[shape=none, fontsize=10, width=0.3, fixedsize=true]
   edge[arrowsize=.4,color=grey]

@@ -39,9 +39,9 @@ $E[X] = np$
 
 
 ### [Variance](Variance)
-'''Thm''' $\text{Var}[X] = npq$
+'*Thm*' $\text{Var}[X] = npq$
 
-'''Proof'''
+'*Proof*'
 - let $X$ be the # of independent experiments in which $A$ appeared,
   - $X = X_1 + X_2 + ... + X_n$
 - $X_i$ are pair-wise independent, i.e. the outcome of one experiment doesn't depend on the outcome of any other experiment

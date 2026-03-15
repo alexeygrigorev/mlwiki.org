@@ -10,14 +10,14 @@ title: Hadoop MapReduce
 ---
 ## Hadoop MapReduce
 This is a [Hadoop](Hadoop) data processing tool on top of [HDFS](HDFS)
-- it's a batch query processing tool that goes over '''all''' available data
+- it's a batch query processing tool that goes over '*all*' available data
 - best for off-line use
 - it's a part of [Hadoop](Hadoop)
 
 
 ## [MapReduce](MapReduce) Jobs
 ### Jobs
-''Job'' is a specification that should be run on the cluster by [Hadoop](Hadoop)/[YARN](YARN)
+*Job* is a specification that should be run on the cluster by [Hadoop](Hadoop)/[YARN](YARN)
 - it's a unit of work
 - contains: paths to input data, the MapReduce program (Map and Reduce UDFs) and configuration
 - a job can have several input paths, and one output path
@@ -36,12 +36,12 @@ Job packaging:
 
 ### Tasks
 Each job consists of tasks:
-- there are two types of tasks: '''map tasks''' and '''reduce tasks'''
+- there are two types of tasks: '*map tasks*' and '*reduce tasks*'
 - tasks are scheduled by [YARN](YARN) and run on different nodes 
 - if a task fails, it's rescheduled on a different node
 
 Map tasks:
-- the input files are split into fixed-size pieces - ''input splits''
+- the input files are split into fixed-size pieces - *input splits*
 - then Hadoop creates a map task for each input split
 - and then the task applies the map function to each record of that split
 - map tasks write their results to local disks, not HDFS - their output is intermediate results and can be thrown away, when reducers are done 
@@ -69,21 +69,21 @@ Map only tasks
 ## MapReduce Job Execution
 General flow:
 - input files are split into input splits
-- '''map phase''': master picks some idle workers and assigns them a map task
+- '*map phase*': master picks some idle workers and assigns them a map task
 - mappers write their results to their disks
-- '''reduce phase''': once they finish, reducers take the results and process
+- '*reduce phase*': once they finish, reducers take the results and process
 
 <img src="https://raw.github.com/alexeygrigorev/ulb-adb-project-couchbd/master/report/images/map-reduce2.png" alt="Image">
 
 
-'''map phase'''
+'*map phase*'
 - each input split is assigned to a map worker
 - it applies the [map function](MapReduce#Map_Function) to each record
 - results are written to $R$ partitions, where $R$ is the number of reducers
-- wait until '''all''' map tasks are completed
+- wait until '*all*' map tasks are completed
 
 
-'''shuffle phase''' (sorting)
+'*shuffle phase*' (sorting)
 - the master assigns reduce task to workers
 - the intermediate results are shuffled and assigned to reducers
 - if there's a combiner function, it is applied to each partition
@@ -92,7 +92,7 @@ General flow:
 
 
 <img src="https://habrastorage.org/files/29b/802/f87/29b802f87a734694b9e5fcf16fd016e9.png" alt="Image"> <!-- Image: map-to-reduce.png -->
-'''reduce phase'''
+'*reduce phase*'
 - Reducers ask the Application Master where the mappers are located
 - and then they start pulling files from mappers as soon as mappers complete
 - now apply the [reduce function](MapReduce#Reduce_Function) to each group
@@ -109,14 +109,14 @@ Hadoop in one picture:
 ### Shuffling Details
 - Hadoop is often referred as "Big [Distributed Merge Sort](External_Merge_Sort)"
 - Hadoop guarantees that the that the input to reducers is sorted by key 
-- ''Shuffle'' is the process of sorting and transferring map output to the reducers
+- *Shuffle* is the process of sorting and transferring map output to the reducers
 - The output of mappers is not just written to disk, Hadoop does some pre-sorting 
 
 <img src="https://habrastorage.org/files/9f3/a16/024/9f3a16024acb42d98c8aeb320b370d1e.png" alt="Image"> <!-- Image: shuffling.png -->
 
 For tuning MapReduce jobs, it may be useful to know how the shuffling is performed
 - Each mapper has ~100 mb buffer (buffer size is configured in <code>mapreduce.task.io.sort.mb</code>)
-- when it's 80% full (set in <code>mapreduce.map.sort.spill.percent</code>), a background thread starts to ''spill'' the content on disk (while the buffers are still being populated)
+- when it's 80% full (set in <code>mapreduce.map.sort.spill.percent</code>), a background thread starts to *spill* the content on disk (while the buffers are still being populated)
 - it's written to disk in the [Round Robin](Round_Robin) fashion to <code>mapreduce.cluster.local.dir</code> directory into a job-specific subdirectory 
 - before writing to disk, the output is subdivided into partitions, and within each partition records are sorted by key
 - if there's a combiner function, it's applied 
@@ -181,7 +181,7 @@ Jobs must be packaged to jar files
 - easiest way: <code>mvn clean package </code>
 - or <code>mvn clean package -DskipTests</code>
 
-''client'' - the driver class that submits the job, usually it implements the <code>Tool</code> interface
+*client* - the driver class that submits the job, usually it implements the <code>Tool</code> interface
 
 Client classpath:
 - job jar

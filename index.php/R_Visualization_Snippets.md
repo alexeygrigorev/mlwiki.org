@@ -12,7 +12,7 @@ title: R Visualization Snippets
 
 ## [Scatter Plot](Scatter_Plot)s
 ### Labels and Grids
-```text only
+```
 x = c(2, 6, 7, 1, 8, 2, 5, 7)
 y = c(3, 5, 1, 1, 1, 2, 3, 4)
 l = c('A', 'B', 'C', 'D', 'B2', 'E', 'F', 'G')
@@ -36,7 +36,7 @@ text(x + 0.3, y, labels=l, cex=0.7)
 
 Same code as for the previous example, with the following:
 
-```tera term macro
+```
 pallete = rainbow(n, s=1, v=1, start=0, end=max(1, n-1)/8, alpha=0.5)
 symbols(x, y, circles=rep(0.2, n), bg=pallete, add=T, inches = FALSE)
 ```
@@ -47,7 +47,7 @@ symbols(x, y, circles=rep(0.2, n), bg=pallete, add=T, inches = FALSE)
 
 
 ### Scatter Plot and [Box Plot](Box_Plot)s
-```text only
+```
 oldpar = par(no.readonly = TRUE)
 data(mtcars)
 attach(mtcars)
@@ -79,7 +79,7 @@ par(oldpar)
 
 ## [Histogram](Histogram)s
 ### Best Fit [Normal Model](Normal_Distribution), Shaded
-```gdscript
+```
 load(url("http://www.openintro.org/stat/data/bdims.RData"))
 
 fdims = subset(bdims, bdims$sex == 0)
@@ -103,7 +103,7 @@ polygon(x=x[c(x1, x1:x2, x2)], y=c(0, y[x1:x2], 0), col=rgb(0,0.5,1,0.5))
 <img src="http://habrastorage.org/files/0d4/0ae/1a8/0d40ae1a8e7d42d68d85116a972adc09.png" alt="Image">
 
 If we want to shade just a part, modify slightly:
-```text only
+```
 x1 = min(which(x >= 57))
 x2 = max(which(x <= 70))
 
@@ -117,7 +117,7 @@ polygon(x=x[c(x1, x1:x2, x2)], y=c(0, y[x1:x2], 0), col=rgb(0,0.5,1,0.5))
 
 
 ### Two Histograms Overlaying
-```gdscript
+```
 load(url("http://www.openintro.org/stat/data/bdims.RData"))
 
 mdims = subset(bdims, bdims$sex == 1)
@@ -139,7 +139,7 @@ plot( p2, col=rgb(1,0,0,1/4), add=T)
 ### Histogram with Deviations Shown
 <img src="http://habrastorage.org/files/24c/6a0/d64/24c6a0d641c345a39394f65c20db2542.png" alt="Image">
 
-```scdoc
+```
 plot(x=NA, y=NA, ylim=c(0, 0.0057), xlim=c(1200, 1800),
      xlab='point estimates of mean', ylab='density',
      main='Sampling distribuion of mean', bty='n')
@@ -163,7 +163,7 @@ lines(x=1200:1800, y=fy)
 
 ## Barplot
 ### Barplot DIY
-```text only
+```
 n = 10
 p = 0.13
 max.n = 30
@@ -183,7 +183,7 @@ rect(xleft=x-bar.width, xright=x+bar.width,
 
 <img src="http://habrastorage.org/files/611/97f/732/61197f732d2a4cd6b1c65a2b2bc8ab8e.png" alt="Image">
 
-```scdoc
+```
 fn = dnorm(x=c(-1, 0, 1, x), mean=n*p, sd=sqrt(n*p*(1-p)))
 xspline(x=c(-1, 0, 1, x), y=fn, lwd=2, shape=1, border="blue")
 ```
@@ -194,7 +194,7 @@ xspline(x=c(-1, 0, 1, x), y=fn, lwd=2, shape=1, border="blue")
 
 <img src="http://habrastorage.org/files/ad7/d13/3a5/ad7d133a5b254d62a83fe4c8f0d349d8.gif" alt="Image">
 
-```tera term macro
+```
 require(animation)
 
 saveGIF({

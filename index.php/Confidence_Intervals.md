@@ -17,7 +17,7 @@ Main idea - the CI should include the real parameter
 
 
 ### Confidence Level
-The degree of confidence at which we're sure the interval will span the true parameter is ''Confidence level''
+The degree of confidence at which we're sure the interval will span the true parameter is *Confidence level*
 - e.g. 95% confidence interval contains the estimated parameter with probability 0.95 - i.e. in 1 case out of 20 it will miss the real parameter
 
 
@@ -80,8 +80,8 @@ par(xpd=FALSE)
 
 
 A confidence interval consists of two parts
-- left part - ''lower bound''
-- right part - ''upper bound ''
+- left part - *lower bound*
+- right part - *upper bound *
 
 
 "95% confident" means that if we took many many samples from the SD and build a CI from each, then about 95% of these CIs should contain the actual parameter being estimated (e.g. $p$ for binom, $\mu$ for mean)
@@ -97,7 +97,7 @@ but we're 95% confident that a CI calculated from one sample will include it
 <details>
 <summary>R code to produce the figure</summary>
 
-```gdscript
+```
 load(url('http://s3.amazonaws.com/assets.datacamp.com/course/dasi/ames.RData'))
 population = ames$Gr.Liv.Area
 
@@ -116,8 +116,8 @@ plot_ci(sampl.m - me, sampl.m + me, mean(population))
 
 
 ### Margin Of Error
-If the [Sampling Distribution](Sampling_Distribution) is symmetric (e.g. [Normal Distribution](Normal_Distribution) or [t-Distribution](t-Distribution)) we can calculate the CI bounds by adding and subtracting the ''margin of error'' 
-- '''margin of error''' is typically percentile ($z$ or $t$ score) multiplied by [Standard Error](Standard_Error)
+If the [Sampling Distribution](Sampling_Distribution) is symmetric (e.g. [Normal Distribution](Normal_Distribution) or [t-Distribution](t-Distribution)) we can calculate the CI bounds by adding and subtracting the *margin of error* 
+- '*margin of error*' is typically percentile ($z$ or $t$ score) multiplied by [Standard Error](Standard_Error)
 
 
 ### Critical Value
@@ -140,7 +140,7 @@ Not always it's possible to calculate everything with traditional methods
 
 ## Extra Stuff
 ### Robustness
-A method  for constructing CIs is ''robust'' if
+A method  for constructing CIs is *robust* if
 - the resulting CIs include the theoretical parameter approximately the percentage claimed by the confidence level
 - even if not all necessary conditions for the CIs are satisfied
 

@@ -5,7 +5,6 @@ tags:
 - multi-objective-optimization
 title: Multi-Objective Knapsack Problem
 ---
-{{stub}}
 
 ## Multi-Objective Knapsack Problem
 This is a [Multi-Objective Optimization](Multi-Objective_Optimization) problem: a variation of uni-objective [Knapsack Problem](Knapsack_Problem): In this case instead of maximizing profits we look at multiple objectives.

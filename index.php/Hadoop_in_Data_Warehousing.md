@@ -106,9 +106,9 @@ Hadoop as an [ETL](ETL) process
 Algorithm
 - load data into [Hadoop](Hadoop)
 - discover something there with it
-- '''E''' parse and prepare (with [MapReduce](MapReduce))
-- '''T''' clean and transform to some structured format (with [MapReduce](MapReduce))
-- '''L''' extract data from Hadoop and load to a Data Warehouse
+- '*E*' parse and prepare (with [MapReduce](MapReduce))
+- '*T*' clean and transform to some structured format (with [MapReduce](MapReduce))
+- '*L*' extract data from Hadoop and load to a Data Warehouse
 
 Input:
 - not structured provisional data

@@ -172,7 +172,7 @@ Consider the following net:
 
 ### Sub-Nets
 To increase readability it's possible to fold some activities to one 
-- this concept is called a ''sub-net''
+- this concept is called a *sub-net*
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-subnets.png" alt="Image">
 - a subnet must also be a valid net - with its own start and stop places 
 
@@ -194,11 +194,11 @@ We don't need to transfer data from activity to activity
 
 
 ## Timers
-'''TODO'''
+'*TODO*'
 
 
 ## Resource Perspective
-'''TODO'''
+'*TODO*'
 
 
 ## YAWL Option to Complete

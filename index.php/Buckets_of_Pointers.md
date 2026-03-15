@@ -13,7 +13,7 @@ We add one more level of indirection for [indexing](Indexing_(databases))
 
 So now we have
 1. [Dense Index](Dense_Index) where each value is stored once
-1. ''Bucket list'' where we have multiple occurrences
+1. *Bucket list* where we have multiple occurrences
   - pointers to actual values 
   - should be sequential: i.e. ordered by the key
 1. Actual blocks
@@ -25,7 +25,7 @@ Also saves space
 - we read buckets down till there's no 10 anymore
 
 Good for Range Queries
-- These buckets are also useful for ''Range Queries''
+- These buckets are also useful for *Range Queries*
 
 Suppose we have 
 - relation Emp(name, dept, floor)

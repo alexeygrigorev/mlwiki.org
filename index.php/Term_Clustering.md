@@ -32,7 +32,7 @@ How to do this?
 - try applying usual row clustering techniques on $D^T$
 
 
-=== Frequent Termset === 
+### Frequent Termset
 Apply [Local Pattern Discovery](Local_Pattern_Discovery) and [Frequent Patterns Mining](Frequent_Patterns_Mining) techniques for terms:
 - can see a document as a transaction and words like items 
 - we want to find frequent itemsets of words in these documents 

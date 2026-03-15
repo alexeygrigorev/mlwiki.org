@@ -14,7 +14,7 @@ Given set $A$ of candidates
 
 
 Example
-- here we assume that preferences are ''stable'': people don't change their preferences between two rounds
+- here we assume that preferences are *stable*: people don't change their preferences between two rounds
 - Round 1:
   - $a > b > c$ - 11 votes
   - $b > a > c$ - 8 votes

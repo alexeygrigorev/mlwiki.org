@@ -10,7 +10,7 @@ title: Local Pattern Discovery
 ### Local Patterns
 Suppose that we have the following table:
 
-|    |  Wings  |  Beak  |  Webfoot  |  Fly  |  Swim  |   Owl  |  {{yes}}  |  {{yes}}  |  {{no}}  |  {{yes}}  |  {{no}} ||   Parrot  |  {{yes}}  |  {{yes}}  |  {{no}}  |  {{yes}}  |  {{no}} ||   Flamingo  |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{yes}} ||   Penguin  |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{no}}  |  {{yes}} |
+|    |  Wings  |  Beak  |  Webfoot  |  Fly  |  Swim  |   Owl  |  Yes  |  Yes  |  No  |  Yes  |  No ||   Parrot  |  Yes  |  Yes  |  No  |  Yes  |  No ||   Flamingo  |  Yes  |  Yes  |  Yes  |  Yes  |  Yes ||   Penguin  |  Yes  |  Yes  |  Yes  |  No  |  Yes |
 What we can learn from this data?
 - Global (mainstream) Patterns/Rules
   - All birds have wings and beaks
@@ -22,17 +22,17 @@ What we can learn from this data?
 
 Can reformulate these rules with probabilities
 - $P(\text{swim} \land \text{fly}) = 0.25$: 25% of birds can swim and fly
-- $P(\text{swim} \ |  \ \text{webfoot}) = 1$: 100% of web-footed birds can swim
-- $P(\text{webfoot} \ |  \ \text{swim}) = 1$: 100% of swimming birds are web-footed ones
+- $P(\text{swim} \ \mid \ \text{webfoot}) = 1$: 100% of web-footed birds can swim
+- $P(\text{webfoot} \ \mid \ \text{swim}) = 1$: 100% of swimming birds are web-footed ones
 
 
 ## Confidence and Support
 ### Notation
-- ''items'': set of distinct literals: $\{ a, b, c, ...\}$
-- ''itemsets'': any combination of items $\{ a, f, ... \}$
-- ''language'': all possible itemsets for the set of items
-- ''dataset'': a multiset (i.e. a set that allows duplicates) of itemsets
-- an itemset is ''frequent'' if it happens more than some certain threshold
+- *items*: set of distinct literals: $\{ a, b, c, ...\}$
+- *itemsets*: any combination of items $\{ a, f, ... \}$
+- *language*: all possible itemsets for the set of items
+- *dataset*: a multiset (i.e. a set that allows duplicates) of itemsets
+- an itemset is *frequent* if it happens more than some certain threshold
 
 
 Search space - [Lattice](Lattice)
@@ -95,7 +95,7 @@ Let's calculate it for a couple of rules
 
 
 ### Measures of Interestingness
-There could be other measures of ''interestingness'' of $X$ in $D_i \subset D$
+There could be other measures of *interestingness* of $X$ in $D_i \subset D$
 - [Lift](Lift_(Data_Mining)): $\text{lift}(X,D_i,D)=\cfrac{\text{supp}(X,D_i)}{\text{supp}(X,D)}$
 - Growth rate: $\text{gr}(X,D_i,D)=\cfrac{\text{supp}(X,D_i)}{\text{supp}(X, D - D_i)}$
   - how much more support $X$ has in $D_i$ than in $D - D_i$
@@ -123,8 +123,8 @@ Or, formally
 [Association Rule Mining](Association_Rule_Mining):
 - Finding all the rules $X \to Y$ such that
 - $P(X \land Y) \geqslant \text{min_supp}$ and 
-- $P(Y \ |  \ X) \geqslant \text{min_con}$
-- these are ''predictive'' patterns
+- $P(Y \ \mid \ X) \geqslant \text{min_con}$
+- these are *predictive* patterns
 
 Or, formally
 - find $\{ X \to Y \ : \ \text{supp}(X  \to Y, D) \geqslant \text{min_supp} \land \text{conf}(X \to Y, D) \geqslant \text{min_conf} \}$

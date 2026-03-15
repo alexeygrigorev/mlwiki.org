@@ -298,7 +298,7 @@ D_hat[idx['human']].dot(D_hat[idx['minors']]) # -0.251
 Can do the same without building $\hat D$:
 
 
-```text only
+```python
 T = T[:, 0:2]
 S = np.diag(S[0:2])
 P = P[0:2, :].T
@@ -311,9 +311,9 @@ human.dot(user) # same result: 0.955
 
 Finally, let's calculate cosine between human and user:
 
-```scdoc
+```python
 human.dot(user) / (la.norm(human) * la.norm(user))
-1. 0.88784582874340123
+# 0.88784582874340123
 ```
 
 
@@ -364,7 +364,7 @@ LSA and [Principal Component Analysis](Principal_Component_Analysis) are related
 - Landauer, Thomas K., Peter W. Foltz, and Darrell Laham. "An introduction to latent semantic analysis." 1998. [link](http://tottdp.googlecode.com/files/LandauerFoltz-Laham1998.pdf)
 - http://www.scholarpedia.org/article/Latent_semantic_analysis
 - http://edutechwiki.unige.ch/en/Latent_semantic_analysis_and_indexing
-- Evangelopoulos, Nicholas, Xiaoni Zhang, and Victor R. Prybutok. "Latent semantic analysis: five methodological recommendations." (2012). [[link](http://scholar.google.com/scholar?cluster=13322286620975267196&hl=ru&as_sdt=0,5)(http://digital.library.unt.edu/ark:/67531/metadc288006/m2/1/high_res_d/Evangelopoulos2012_EJIS-Pre-print.pdf])
+- Evangelopoulos, Nicholas, Xiaoni Zhang, and Victor R. Prybutok. "Latent semantic analysis: five methodological recommendations." (2012). [link](http://digital.library.unt.edu/ark:/67531/metadc288006/m2/1/high_res_d/Evangelopoulos2012_EJIS-Pre-print.pdf)
 - Deerwester, Scott C., et al. "Indexing by latent semantic analysis." 1990. [link](http://www.cob.unt.edu/itds/faculty/evangelopoulos/dsci5910/LSA_Deerwester1990.pdf)
 - Berry, Michael W., Susan T. Dumais, and Gavin W. O'Brien. "Using linear algebra for intelligent information retrieval." (1995). [link](http://machinelearningtext.pbworks.com/w/file/fetch/47378285/lsiPaper_ut-cs-94-270.pdf)
 - Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On principal component analysis, cosine and Euclidean measures in information retrieval." 2007. [link](http://www.sciencedirect.com/science/article/pii/S0020025507002630) 

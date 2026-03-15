@@ -7,9 +7,9 @@ tags:
 title: Strongly Connected Components
 ---
 ## Computing Strong Components
-''strongly connected'':
+*strongly connected*:
 - you can get to any point to any point within component
-- example <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/0b4o3ktommo3j25jinji8tla29.png" alt="Image">" \>
+- example <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/0b4o3ktommo3j25jinji8tla29.png" alt="Image" />
 
 idea:
 - use DFS and mark "leaders"
@@ -30,17 +30,17 @@ This is a randomized algorithm for finding strongly connected components, consis
 - reverse the graph and run DFS 
 
 Example
-- graph (already reversed) <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/5vusfd6dc62fo3e58d567np03j.png" alt="Image">" \>
+- graph (already reversed) <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/5vusfd6dc62fo3e58d567np03j.png" alt="Image" />
 
 - t = [7, 3, 1, 8, 2, 5, 9, 4, 6]
-- order <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/5j38otlp5foorh6v5rmqeojmj8.png" alt="Image">" \>
+- order <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/5j38otlp5foorh6v5rmqeojmj8.png" alt="Image" />
 
 ### Second pass
 - now we replace ordinal node names with finishing times
 - and it's run on the original graph (not the reversed)
 
 Example
-- second pass <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/01l0gvo7sq1aqgkpkj9kea0gv4.png" alt="Image">" \>
+- second pass <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/01l0gvo7sq1aqgkpkj9kea0gv4.png" alt="Image" />
 
 
 ### Algorithm

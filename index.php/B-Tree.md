@@ -9,11 +9,11 @@ title: B-Tree
 ---
 ## B+ Tree
 A [search tree](Binary_Search_Trees) is a way to organize data to allow efficient 
-- ''B-Tree'' - same idea, but for secondary memory, for blocks
-- A ''B+ Tree'' variation of B-Tree. Here if B-Tree is mentioned, it's usually referred to B+ Tree
+- *B-Tree* - same idea, but for secondary memory, for blocks
+- A *B+ Tree* variation of B-Tree. Here if B-Tree is mentioned, it's usually referred to B+ Tree
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/btree-ex.png" alt="Image">
-- consists of ''leaf nodes'' and ''intermediate nodes''
+- consists of *leaf nodes* and *intermediate nodes*
 
 
 ### Order of Tree
@@ -122,7 +122,7 @@ Algorithm
 - I/O cost in this case is 
   - length of the path from the root to the leaf
   - then the number of leaves that we need to follow
-  - and also we need to follow a pointer for '''each''' key in the range
+  - and also we need to follow a pointer for '*each*' key in the range
 
 
 ### Insert
@@ -142,7 +142,7 @@ Algorithm
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/btree-insert-case2.png" alt="Image">
 - add $k = 7$
 - look up the block for 7, but it's fyll 
-- so we ''split'' this block
+- so we *split* this block
   - create a new one and re-distribute items between them
   - this way they both become half-full (the invariant is maintained)
 - then in the new block we have some space (Simple Case) and we can put this record there
@@ -226,7 +226,7 @@ Sometimes we want to address a key made of several keys
 
 ### Lexicographical Order
 For B-Trees have to be ordered somehow
-- we may need to compare tuples in ''lexicographical order''
+- we may need to compare tuples in *lexicographical order*
   - so we define this ordering as
   - $(x, y, z) \leqslant (x', y', z') \iff \\ x < x' \lor (x = x' \land y < y') \lor (x = x' \land y = y' \land z \leqslant z')$
 

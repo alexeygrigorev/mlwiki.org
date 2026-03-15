@@ -6,7 +6,6 @@ tags:
 - statistics
 title: ANOVA
 ---
-{{draft}}{{stub}}
 
 ## ANOVA
 ANOVA is ANalysis Of VAriance

@@ -10,7 +10,7 @@ What if we want to [transform](Data_Transformation) a continuous attribute to a 
 
 
 ## Equal-Width Partitioning
-Also called ''distance partitioning''
+Also called *distance partitioning*
 - want to divide $X = (x_1, ..., x_m)$ into $N$ equal intervals
 - let $A = \min X$ and $B = \max X$
 - width: $W = \cfrac{B - A}{N}$
@@ -21,7 +21,7 @@ Also called ''distance partitioning''
 
 
 ## Equal-Depth Partitioning
-Also called ''frequency partitioning'' 
+Also called *frequency partitioning* 
 - Divides $X$ into $N$ intervals, 
 - with each interval containing approximately same number of samples
 - not sensible to outliers

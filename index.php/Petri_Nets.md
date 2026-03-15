@@ -18,13 +18,13 @@ Petri nets is a technique for description and analysis of concurrent systems
 ## Definition
 ### Petri Net
 Informally:
-- a petri net consists of ''places'' (circles) and ''transitions'' (squares: activities)
+- a petri net consists of *places* (circles) and *transitions* (squares: activities)
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-simplest.png" alt="Image">
-- ''places'' can be input/output of transitions
+- *places* can be input/output of transitions
 - places represent the states of a system 
-- ''transition'' represent state changes
+- *transition* represent state changes
 
-A ''petri net'' is a tuple $(P, T, F)$ where
+A *petri net* is a tuple $(P, T, F)$ where
 - $P$ is a finite set of places 
 - $T$ is a finite set of transitions
 - $F \subseteq (P \times T \cup T \times P)$ is a flow relation
@@ -33,9 +33,9 @@ A ''petri net'' is a tuple $(P, T, F)$ where
   - in this case: $F = \{(p_1, t_1), (t_1, p_2)\}$
 
 
-Every place can contain one or more ''tokens'' 
+Every place can contain one or more *tokens* 
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-tokens.png" alt="Image">
-- a ''token'' is a piece of work that needs to be processed
+- a *token* is a piece of work that needs to be processed
 
 
 Notation:
@@ -57,9 +57,9 @@ Example:
 
 
 ### Marking
-A ''marking'' is a state of the net
+A *marking* is a state of the net
 - shows the distribution of tokens across all places
-- transition change the state of a bet by ''firing'' 
+- transition change the state of a bet by *firing* 
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-active-transition.png" alt="Image">
 - for a transition $t_1$ in all its input places must be a token
 - when $t_1$ fires, it takes exactly one token from each input place and puts exactly one token to each its output place
@@ -68,7 +68,7 @@ A ''marking'' is a state of the net
 
 
 Formally,
-- a ''marking'' $M$ of a petri net $N = (P, T, F)$ is a function
+- a *marking* $M$ of a petri net $N = (P, T, F)$ is a function
 - $M: P \mapsto {0, 1, 2, ...}$
 - that associates each $p \in P$ with some number: the number of tokens in $p$ 
 
@@ -83,12 +83,12 @@ Comparisons
 
 
 ### Enabled Transitions
-A place is ''enabled'' if there is at least one token in all its input places 
+A place is *enabled* if there is at least one token in all its input places 
 - transitions change the status of a petri net by firing
 - only enabled transitions may fire 
 
 
-'''def'''
+'*def*'
 - a transition is enabled in a marking $M$ $\iff$
 - $\forall p \in \bullet t: M(p) > 0$
 
@@ -157,7 +157,7 @@ It can be seen here:
 
 ## [Workflow Nets](Workflow_Nets)
 <!-- Main: Workflow Nets -->
-Typically a ''workflow net'' is a special type of a petri net with
+Typically a *workflow net* is a special type of a petri net with
 - clear start point 
 - clear end point
 - good for expressing workflows
@@ -188,7 +188,7 @@ Sequences:
 - $A,C,D$
 - but not $A,B,C,D$ - can never have it
 
-When there's one input place for two and more transitions, they are in the ''race condition'': 
+When there's one input place for two and more transitions, they are in the *race condition*: 
 - only one transition can take the token 
 
 Alternatively, there could be some other condition

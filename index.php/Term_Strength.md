@@ -13,7 +13,7 @@ Term Strength is a technique for [Feature Selection](Feature_Selection) in [Text
 - this method estimates term importance based on how often a term appears in "related" documents
 
  
-''Strength'' of a term $t$ 
+*Strength* of a term $t$ 
 - measures how informative a word is for identifying two related documents
 - $s(t) = P(t \in y \mid t \in x)$
 - for two related documents $x, y$ what's the probability that $t$ belongs to $y$ given it belongs to $x$?

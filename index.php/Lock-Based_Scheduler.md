@@ -56,7 +56,7 @@ $\to$ all locks are released after the entire manipulation with a DB object is c
 A schedule $S$ obtained by Tho-Phase Locking is conflict-serializable
 
 
-'''Proof:'''
+'*Proof:*'
 
 Suppose we have a schedule $S$ in which a transaction doesn't lock after unlocking
 - we want to show that we can transform $S$ into a conflict-serializable one by conflict-free swapping

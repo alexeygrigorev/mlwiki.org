@@ -10,7 +10,7 @@ The monotonicity is a [Voting Theory](Voting_Theory) principle that characterize
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/vt/separability.png" alt="Image">
 
-The ''separability'' principle is satisfied if
+The *separability* principle is satisfied if
 - when we split a region $\Omega$ into subregions $B$ and $\Omega - B$ and run the election in both
 - if the same candidate $a$ wins in both sub regions $B$ and $\Omega - B$
 - then $a$ should win if the election were run for the whole region $\Omega$

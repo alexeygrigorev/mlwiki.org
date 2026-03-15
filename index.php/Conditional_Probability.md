@@ -6,7 +6,7 @@ tags:
 title: Conditional Probability
 ---
 ## Conditional Probability
-''Conditional Probability'' $P(B \mid A)$ (or $P_A (B)$) is the probability that $B$ happens provided that $A$ has already happen.
+*Conditional Probability* $P(B \mid A)$ (or $P_A (B)$) is the probability that $B$ happens provided that $A$ has already happen.
 
 The conditional probability is calculated by the following formula:
 - $P(B  \mid  A) = \cfrac{P(A \land B)}{P(A)}$

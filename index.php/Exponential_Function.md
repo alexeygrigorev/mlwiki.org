@@ -6,7 +6,6 @@ tags:
 - functions
 title: Exponential Function
 ---
-{{stub}}
 
 ## Exponential Functions
 - $e^x$, or $\exp x$ is the exponential function

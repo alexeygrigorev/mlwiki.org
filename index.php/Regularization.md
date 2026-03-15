@@ -6,7 +6,7 @@ tags:
 title: Regularization
 ---
 ## Regularization
-- ''Regularization'' is a technique used to address [overfitting](Overfitting)
+- *Regularization* is a technique used to address [overfitting](Overfitting)
 - Main idea of regularization is to keep all the features, but reduce magnitude of parameters $\theta$
 - It works well when we have a lot of features, each of which contributes a bit to predicting $y$
 
@@ -16,11 +16,11 @@ title: Regularization
 - We want to penalize $\theta_3$ and $\theta_4$ - and make them small 
 - we modify out cost function $J$:
   $J(\theta) = \cfrac{1}{m} \left[ \sum_{i=1}^{m}  \text{cost}(h_{\theta}(x^{(i)}), y^{(i)}) + 1000 \cdot \theta_3^2 + 1000 \cdot \theta_4^2 \right]$
-- where $1000 \cdot \theta_3^2$ and $1000 \cdot \theta_4^2$ - ''penalty'' for using $\theta_3$ and $\theta_4$ respectively
+- where $1000 \cdot \theta_3^2$ and $1000 \cdot \theta_4^2$ - *penalty* for using $\theta_3$ and $\theta_4$ respectively
 - As a result, we'll have $\theta_3 \approx 0$ and $\theta_4 \approx 0$
 
 
-So, ''regularization'' ensures that values for $\theta_1 ... \theta_n$ are small 
+So, *regularization* ensures that values for $\theta_1 ... \theta_n$ are small 
 - it makes the hypotheses simple
 - and less prone to overfitting 
 
@@ -36,7 +36,7 @@ Here is our cost function $J$ with regularization:
 - $J(\theta) = \cfrac{1}{m} \left[ \sum_{i=1}^{m} \text{cost}(h_{\theta}(x^{(i)}), y^{(i)}) + \lambda \sum_{j = 1}^{n} \theta_j^2 \right]$
 - In the cost function we include the penalty for all $\theta$s  
   - we typically don't penalize $\theta_0$, only $\theta_1, ..., \theta_n$
-  - $\lambda$ is called ''regularization parameter''
+  - $\lambda$ is called *regularization parameter*
 
 
 ## Regularization Parameter $\lambda$

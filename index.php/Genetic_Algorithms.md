@@ -5,7 +5,6 @@ tags:
 - optimization
 title: Genetic Algorithms
 ---
-{{stub}}
 
 ## Genetic Algorithms
 This is a group of algorithms that aim at solving [Optimization](Optimization) problems with ideas borrowed from biology (evolutions)

@@ -7,7 +7,7 @@ tags:
 title: Consistency (databases)
 ---
 ## Consistency
-For databases, ''consistency'' means satisfying integrity constraints, which are about the correctness of the data in a database. So a database is ''consistent'' if all its constraint are satisfied. 
+For databases, *consistency* means satisfying integrity constraints, which are about the correctness of the data in a database. So a database is *consistent* if all its constraint are satisfied. 
 
 ### Integrity Constraints
 Some of the integrity constraints are: 
@@ -26,7 +26,7 @@ In a database to specify if data is valid we use constraints.
 ## Transaction Constraints
 Transaction Consistency
 - essentially involve two database states: the old state (before $T$) and the new state (after $T$)
-- but '''always''' maintaining a database in a consistent state is impossible 
+- but '*always*' maintaining a database in a consistent state is impossible 
 
 Example:
 - we have $n$ accounts in a bank: $a_1, ..., a_n$
@@ -40,8 +40,8 @@ Example:
   - update TOTAL: $\text{TOTAL} \leftarrow \text{TOTAL} + 100$
 - so during the transaction we'll have a state in which the DB is not consistent
 
-We can define a ''transaction'' as a sequence of updates on the database. 
-- It ''preserves consistency'' if executing it brings a database from one consistent state to another. 
+We can define a *transaction* as a sequence of updates on the database. 
+- It *preserves consistency* if executing it brings a database from one consistent state to another. 
 - The database doesn't have to be consistent during the transaction.  
 - For transactions, consistency is the letter "C" in the [ACID](ACID).
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/transaction-consistency.png" alt="Image">
@@ -56,7 +56,7 @@ But what if during the execution of a transaction a crash occurs?
 
 
 ## Consistency Models
-For [Distributed Databases](Distributed_Databases) maintaining consistency is harder. Consistency models determine rules for ''visibility'' and ''order'' of updates.
+For [Distributed Databases](Distributed_Databases) maintaining consistency is harder. Consistency models determine rules for *visibility* and *order* of updates.
 
 ### Strict Consistency
 - every replica sees every update in the same order 

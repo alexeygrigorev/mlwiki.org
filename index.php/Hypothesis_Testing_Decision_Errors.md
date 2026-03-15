@@ -43,7 +43,7 @@ Significance Level $\alpha$ controls Type I errors
 - We don't have enough power - probably the test size is too small
 - (A criminal is freed)
 
-The probability of making Type II Errors is called the ''Type II error rate''
+The probability of making Type II Errors is called the *Type II error rate*
 
 ### Controlling Type II Errors
 Type II Errors can be controlled by:

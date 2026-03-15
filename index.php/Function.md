@@ -10,10 +10,10 @@ title: Function
 ## Function
 In mathematics, a function $f(\cdot)$ is a set of pairs $x, f(x)$, where
 - $x$ is input, $f(x)$ is output 
-- all possible inputs $x$ that a function can take is the ''domain'' of $f$
-- all possible outputs $f(x)$ of a function $f(\cdot)$ is the ''range'' of $f$
+- all possible inputs $x$ that a function can take is the *domain* of $f$
+- all possible outputs $f(x)$ of a function $f(\cdot)$ is the *range* of $f$
 
-<img src="<img src="http://alexeygrigorev.com/wiki-figures/crs/calc/function.svg" alt="Image">"/>
+<img src="http://alexeygrigorev.com/wiki-figures/crs/calc/function.svg" alt="Image" />
 
 ## Operations on Functions
 ### Composition

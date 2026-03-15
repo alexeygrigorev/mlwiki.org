@@ -7,7 +7,6 @@ tags:
 - programming
 title: Computing for Data Analysis (coursera)
 ---
-{{draft}}
 
 Курс [Computing for Data Analysis](http://www.coursera.org/course/compdata) об основах языка программирования R
 
@@ -266,7 +265,10 @@ $bar
 - x[c(1, 3)] returns several cols
 - name <- "bar"
 x[name] => smth
-x$name => NULL|   ("name" doesn't exist) |- x[c(1, 3)](c(1,_3)) => 1st list, 3th el |  - the same: x[1](1)[3](3)
+x$name => NULL
+  - ("name" doesn't exist)
+- x[c(1, 3)](c(1,_3)) => 1st list, 3th el
+  - the same: x[1](1)[3](3)
 - partial matching
   - x <- list(longname=1:5)
 x$lo => returns $longname

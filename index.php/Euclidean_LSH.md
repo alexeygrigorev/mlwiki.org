@@ -40,7 +40,7 @@ Papers:
 
 
 ## E2 LSH
-A hash function family is ''locality-sensitive'' if 
+A hash function family is *locality-sensitive* if 
 - "similar" $\mathbf v_1, \mathbf v_2$ - i.e. have small $\|  \mathbf v_1 - \mathbf v_2 \|_p$
 - they should collide: have same hash value with high probability
 

@@ -59,7 +59,7 @@ Example:
 - so <code>:brother rdfs:subPropertyOf :sibling</code>
 
 The inference rule is 
-```text only
+```
 CONSTRUCT { ?x ?r ?y } 
 WHERE {
   ?x ?q ?y . 
@@ -72,8 +72,8 @@ Another example
 
 
 ### <code>rdfs:domain</code> and <code>rdfs:range</code>
-Typing data by usage (also - ''implicit'' typing)
-- as opposed to the ''explicit'' typing <code>rdf:type</code>
+Typing data by usage (also - *implicit* typing)
+- as opposed to the *explicit* typing <code>rdf:type</code>
 - <code>rdfs:domain</code> - set of values for which a property is defined (subject)
 - <code>rdfs:range</code> - set of values it can take (object)
 
@@ -92,7 +92,7 @@ WHERE {
 }
 ```
 
-'''NB''': 
+'*NB*': 
 - there's no notion of incorrect/inconsistent inference in RDFS
 - it doesn't signalize an error if a property isn't used consistently with the declaration
 - RDFS will [infer](Inference_in_Semantic_Web) the type to make this property consistent 
@@ -141,7 +141,7 @@ Intersection and Union can also be used for properties, e.g.
   - <code>:Q rdfs:subPropertyOf :R .</code>
 
 
-### Example: ''Terminology reconciliation''
+### Example: *Terminology reconciliation*
 - A military plane needs to determine if it can attach something or not
 - it has 2 sources of data
   - "never-target" list: schools, churches, hospitals

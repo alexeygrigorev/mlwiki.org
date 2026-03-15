@@ -35,7 +35,7 @@ So the goal is to have machine-readable linked data. We want to have "Smart Web"
 - fundamental issue of the web: how to manage distributed data 
 
 
-=== Motivation: Integration === 
+### Motivation: Integration
 Data integration and distribution
 - suppose that two servers share the same tables
 - but tables have different schemas 
@@ -110,7 +110,7 @@ Open World assumption
 How to model data in such a way so it's good for the web scale 
 - need to explain things in understandable way
 - and then be able to reuse it 
-- need to be formal so machines can understand it, and '''logical inference''' is possible
+- need to be formal so machines can understand it, and '*logical inference*' is possible
 - Result of modeling: [Ontologies](Ontologies)
 
 

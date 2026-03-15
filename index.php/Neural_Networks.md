@@ -27,8 +27,8 @@ This technique is based on how our brain works - it tries to mimic its behavior.
 
 
 ## Model Representation
-- A NN model is built from many ''neurons'' - cells in the brain.
-- the neuron, called ''activation unit'', takes features as input 
+- A NN model is built from many *neurons* - cells in the brain.
+- the neuron, called *activation unit*, takes features as input 
 - A network consists of many activation units
 
 
@@ -37,7 +37,7 @@ This technique is based on how our brain works - it tries to mimic its behavior.
 - i.e. it is equivalent to [Logistic Regression](Logistic_Regression) model
 
 
-it's called ''sigmoid (logistic) activation function'': 
+it's called *sigmoid (logistic) activation function*: 
   <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/nn-sigmoid.png" alt="Image">
 
 
@@ -48,7 +48,7 @@ Bias unit
 Weights
 - arrows are "input wires"
 - so this unit takes $x = [x_0, x_1, x_2, x_3]^T$, 
-- and the wires are out parameters $\theta = [\theta_0, \theta_1, \theta_2, \theta_3]^T$ - their are called ''weights''
+- and the wires are out parameters $\theta = [\theta_0, \theta_1, \theta_2, \theta_3]^T$ - their are called *weights*
 
 Result
 - it applies the sigmoid function to the input, and as the result, it returns 
@@ -59,19 +59,19 @@ Result
 Let's have a look at an actual neural network
   <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/nn-representation.png" alt="Image">
 
-- A NN model is a network of many sigmoid activation units, organized in ''layers'' 
+- A NN model is a network of many sigmoid activation units, organized in *layers* 
   - where the next layer's input is the current layer's output 
-- the first layer is ''input layer'', called $x$ - it takes our feature vector $x = [x_1, ..., x_n]^T$
+- the first layer is *input layer*, called $x$ - it takes our feature vector $x = [x_1, ..., x_n]^T$
 - the last layer (3rd on the picture) is an output layer, it gives us the final result
-- all layers in between are called ''hidden layers ''
+- all layers in between are called *hidden layers *
 - (note that bias units $x_0$ and $a_0^{(2)}$ are omitted from the picture, but they are there)
 
 
 
 ### Mathematical Representation
 We'll have the following notation: 
-- $a_i^{(j)}$ is an ''activation of unit $i$ in layer $j$''
-- $\theta^{(j)}$ - matrix of ''weights'' that control mapping from layer $j$ to $j + 1$ (i.e. $\theta_1$ is the parameters of the 2nd layer and so on)
+- $a_i^{(j)}$ is an *activation of unit $i$ in layer $j$*
+- $\theta^{(j)}$ - matrix of *weights* that control mapping from layer $j$ to $j + 1$ (i.e. $\theta_1$ is the parameters of the 2nd layer and so on)
 - Neural Networks are parametrized by $\theta$s 
 
 Mathematical representation of a neural network is (where $g$ is the sigmoid function)
@@ -100,7 +100,7 @@ For the first step we have
 - $a_1^{(2)} = g(z_1^{(2)})$ where $z_1^{(2)} = \theta_{10}^{(1)} x_0 + \theta_{11}^{(1)} x_1 + \theta_{12}^{(1)} x_2  + \theta_{13}^{(1)} x_3$
 - $a_2^{(2)} = g(z_2^{(2)})$, and
 - $a_3^{(2)} = g(z_3^{(2)})$
-- ($z_1^{(2)}, z_2^{(2)}, z_3^{(2)}$ - are ''linear combinations'' of $x_1, x_2, x_3$)
+- ($z_1^{(2)}, z_2^{(2)}, z_3^{(2)}$ - are *linear combinations* of $x_1, x_2, x_3$)
 
 
 So we have 3 vectors
@@ -123,7 +123,7 @@ And can rewrite the first step in a vectorized form:
 - finally 
   - $h_{\theta}(x) = a^{(3)} = g(z^{(3)})$
 
-This process is called ''forward propagation''
+This process is called *forward propagation*
 
 
 ### What's going on?
@@ -136,7 +136,7 @@ Let's have a look at the 2nd and 3rd layers of our NN
 
 
 - We can create NNs with as many layers as we want 
-- The way the neurons are connected is called ''architecture''
+- The way the neurons are connected is called *architecture*
 
 
 ## Multi-class Classification
@@ -192,7 +192,7 @@ here we also don't regularize bias inputs
 - for that we can use [Gradient Descent](Gradient_Descent) or other advanced optimization techniques 
 - for GD we need to compute partial derivative $\cfrac{\partial}{\partial \theta_{ij}^{(l)}} J(\theta)$ with respect to each $\theta_{ij}^{(l)}$
 
-''Back Propagation'' is a technique for calculating partial derivatives in neural networks
+*Back Propagation* is a technique for calculating partial derivatives in neural networks
 
 
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/nn-propagation-ex.png" alt="Image">
@@ -317,7 +317,7 @@ Suppose we set all $\theta_{ij}^{(l)}$ to 0
 - Then we'll have same values for $a_1^{(2)} = a_2^{(2)} = ... = a_{s_2}^{(2)}$ and same for $\delta^{(2)}$
   (after each update, parameters corresponding to inputs are identical, and all hidden units will compute the same value)
 - And therefore, all partial derivatives will also we equal 
-- This is called ''the problem of symmetric weights'' 
+- This is called *the problem of symmetric weights* 
 
 We can break the symmetry with random initialization
 - so, initialize each $\theta_{ij}^{(l)}$ with random value from $[-\epsilon; \epsilon]$:
@@ -333,7 +333,7 @@ We can break the symmetry with random initialization
 - Use [gradient checking](#Numerical_Gradient_Checking) to compare numerical estimations of partial derivatives vs values from back propagation
 - Use [Gradient Descent](Gradient_Descent) or another optimization technique to minimize $J(\theta)$
 
-'''NB''': $J(\theta)$ in non-convex and can get stuck in local minimum - but usually it's not a problem 
+'*NB*': $J(\theta)$ in non-convex and can get stuck in local minimum - but usually it's not a problem 
 
 
 ### Octave

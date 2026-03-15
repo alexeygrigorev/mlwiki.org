@@ -24,9 +24,9 @@ Mapping between [OWL](OWL), FOL and DL:
 
 ## DL Knowledge Base
 A DL knowledge base consists of:
-- ''intentional'' part (''TBox'', $T$) - ontology: classes and concepts
-- ''assertional'' part (''ABox'', $A$) - data
-- So a ''DL KB'' is a tuple $\langle T, A\rangle$
+- *intentional* part (*TBox*, $T$) - ontology: classes and concepts
+- *assertional* part (*ABox*, $A$) - data
+- So a *DL KB* is a tuple $\langle T, A\rangle$
 
 
 In [Semantic Web](Semantic_Web) knowledge base is
@@ -39,8 +39,8 @@ TBox defines the ontology that serves as conceptual view over the data in the AB
 
 
 Terminology
-- Classes = ''Concepts'' ($B, C, ...$)
-- Properties = ''Roles'' ($R, E, ...$)
+- Classes = *Concepts* ($B, C, ...$)
+- Properties = *Roles* ($R, E, ...$)
 
 
 A TBox $T$ is a set of terminological axioms
@@ -50,9 +50,9 @@ A TBox $T$ is a set of terminological axioms
 
 ### ABox
 an ABox - set of assertions that 
-- state ''membership'' of ''individuals'' to concepts 
+- state *membership* of *individuals* to concepts 
   - $C(a)$
-- and ''role membership'' for pairs
+- and *role membership* for pairs
   - $R(a, b)$
 
 
@@ -68,12 +68,12 @@ an ABox - set of assertions that
 
 
 ### Constructs and Axioms
-''Conjunction'' construct $\sqcap$
+*Conjunction* construct $\sqcap$
 - $\text{Student} \sqcap \text{Researcher}$
-- this is a ''complex'' concept build from atomic concepts $\text{Student}$ and $\text{Researcher}$
+- this is a *complex* concept build from atomic concepts $\text{Student}$ and $\text{Researcher}$
 
 
-''Inclusion'' $\sqsubseteq$ and ''equivalence'' $\equiv$ axioms
+*Inclusion* $\sqsubseteq$ and *equivalence* $\equiv$ axioms
 - We can relate any concepts (atomic and complex) to atomic concepts 
 - e.g. 
   - $\text{PhDStudent} \sqsubseteq \text{Student} \sqcap \text{Researcher}$
@@ -81,8 +81,8 @@ an ABox - set of assertions that
 
 
 Restriction constructs 
-- ''value restriction'': $\forall \ R.C$ (<code>owl:allValuesFrom</code>)
-- ''existential restriction'': $\exists \ R.C$ (<code>owl:someValuesFrom</code>)
+- *value restriction*: $\forall \ R.C$ (<code>owl:allValuesFrom</code>)
+- *existential restriction*: $\exists \ R.C$ (<code>owl:someValuesFrom</code>)
 
 
 Examples
@@ -92,7 +92,7 @@ Examples
   - a math student is a student is he's a student and registered to at least one math course
 
 
-''Inclusion'' axiom  $\sqsubseteq$
+*Inclusion* axiom  $\sqsubseteq$
 - expresses relation between concepts / roles
 - left side: more specific, right side: more general
 - e.g.
@@ -109,7 +109,7 @@ Example
 - only professor or lecturer may teach undergraduate students 
 - in [OWL](OWL) it will be the following
 
-```actionscript 3
+```
 _:a rdfs:subClassOf owl:Restriction
 _:a owl:onProperty :TeachesTo
 _:a owl:someValuesFrom :Undergraduate 

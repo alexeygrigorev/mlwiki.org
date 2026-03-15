@@ -23,7 +23,7 @@ So, Eventual consistency is a [Consistency Model](Consistency_(databases)) in wh
 - not synchronously with the write 
 
 
-That is, suppose we have two methods: '''put''' and '''get'''
+That is, suppose we have two methods: '*put*' and '*get*'
 - put call returns to the caller before the update is applied to all replicas
 - but get may return no the most up-to-date object
 

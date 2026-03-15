@@ -28,7 +28,7 @@ But we can infer other things as well
 - so we can denote this dependency as $d_1 = f_1(a, b)$
 
 
-''Skolem Function''
+*Skolem Function*
 - the symbol $f_1(u, v)$ is a Skolem Function of arity 2
   - $f_1(u, v)$ denotes that there exists some constant that depends on values of $u$ and $v$
 - given two distinct Skolem terms, e.g. $f_1(1, 2)$ and $f_1(2, v_3)$ we never can say if they belong to the same constant or not

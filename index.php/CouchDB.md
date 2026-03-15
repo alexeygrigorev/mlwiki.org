@@ -30,7 +30,7 @@ Each document has an id, which must be unique per database. Usually the best ids
 - A good example of a document is a file for a word processor or a user profile.
 - This sort of data you want to denormalize as mush as possible 
 - Usually you want to fetch in one request as mush data as it makes sense to display 
-- If we need to join some records, we want to precompute as much as possible and store related data together so it's retrieved at the same time. For that there's notion of ''virtual documents'' for that 
+- If we need to join some records, we want to precompute as much as possible and store related data together so it's retrieved at the same time. For that there's notion of *virtual documents* for that 
 
 
 
@@ -50,10 +50,10 @@ It consists of two components:
 
 
 To check if it's running, send a GET request to this address :
-```text only
+```
 curl -X GET http://localhost:5984/
 ```
-('''curl''' is an unix utility for sending HTTP requests [link](http://curl.haxx.se/))
+('*curl*' is an unix utility for sending HTTP requests [link](http://curl.haxx.se/))
 
 The database replies with the following: (if you see that, everything works)
 ```json
@@ -71,12 +71,12 @@ The database replies with the following: (if you see that, everything works)
 
 
 To get the list of all available databases, use command "_all_dbs"
-```scdoc
+```
 curl -X GET http://localhost:5984/_all_dbs
 ```
 
-To create a new database, issue a '''PUT''' request to database you want to create 
-```scdoc
+To create a new database, issue a '*PUT*' request to database you want to create 
+```
 curl -X PUT http://localhost:5984/new_database
 ```
 
@@ -98,7 +98,7 @@ curl -X PUT http://localhost:5984/new_database/super_toaster -d '{"title":"toast
 it returns id of the newly added plus revision id
 
 To retrieve this document use the same url 
-```scdoc
+```
 curl -X GET http://localhost:5984/new_database/super_toaster
 ```
 ```json
@@ -121,7 +121,7 @@ Mechanisms behind versioning and revisions will be discussed below.
 We have prepared 80k+ lines of JSON code (1500 documents) with user data to be inserted to the database (available at http://goo.gl/jkcCim)
 
 To create this database execute the following: 
-```gdscript
+```
 1. create a database "users"
 curl -X PUT http://localhost:5984/users/
 1. download database data into "database.json"
@@ -149,11 +149,11 @@ There are two options:
 ## Core
 Main core components:
 - [B-Tree](B-Tree)-based storage engine
-- [MapReduce](MapReduce) for querying (MapReduce queries are called ''views'')
+- [MapReduce](MapReduce) for querying (MapReduce queries are called *views*)
 
 
 ### Design Documents
-A ''design document'' is a special type of documents that contain application code. 
+A *design document* is a special type of documents that contain application code. 
 - They also live inside the database, but they are highly structured.
 - These documents are very similar to usual documents: they can be replicated, have id and revision id. 
 
@@ -184,7 +184,7 @@ A design document may contain only one validation function, but if you have seve
 - NB: order of execution is not defined, so you must not make any assumptions about it 
 
 
-```scdoc
+```
 function(newDoc, savedDoc, ctx) {
   // some logic 
   if (/* validation */) {
@@ -222,7 +222,7 @@ However, documents aren't always as structured as relations in Relational Databa
 A user has to provide two functions that will operate on all data:
 - Map - apply to each document and emit zero or more key/value pairs
 - Reduce - apply reduce function to the result of Map function grouped by key
-- A combination of Map and Reduce functions is called a ''view'' 
+- A combination of Map and Reduce functions is called a *view* 
 
 These functions provide CouchDB with great flexibility: they can adapt to various document structures. 
 
@@ -240,7 +240,7 @@ View functions are stored inside "views" field of a design document
 
 
 ### Map
-- Map is applied to each document and emits zero or more key/value pairs - ''view rows''
+- Map is applied to each document and emits zero or more key/value pairs - *view rows*
 - A map function doesn't depend on any information outside of the document, which allows CouchDB views be generated incrementally and in parallel 
 - Views are stored as rows that are sorted by key in a [B-Tree](B-Tree), which makes range retrievals efficient
 - When writing a map function, your goal is to build an index that stores related data recodes under nearby keys.
@@ -250,7 +250,7 @@ Incremental Computation of Map Results
 - a call to emit creates an entry in the view results where everything is sorted by the key
 - indexes for each document can be computed independently and in parallel 
 - if a document is changed, the map function is run only once to recompute the key and values for this single documents 
-- if a document is deleted, corresponding entries are marked ''invalid'' - and they don't show up in the results 
+- if a document is deleted, corresponding entries are marked *invalid* - and they don't show up in the results 
 
 
 ### Reduce
@@ -260,13 +260,13 @@ Reduce is applied after map
 ### Querying Views
 to query a view use the following url
 
-```scdoc
+```
 curl -X GET HOST/db/_design/{design_document}/_views/{view_name}
 ```
 
-but you also can pass a ''view parameter''
+but you also can pass a *view parameter*
 
-```scdoc
+```
 curl -X GET HOST/db/_design/{design_document}/_views/{view_name}?key="abcd"
 ```
 
@@ -276,7 +276,7 @@ where "abcd" is the key we used in "emit" call
 ### Examples
 Retrieve all active users that are women with more than 3 friends
 
-```tera term macro
+```
 function(doc) {
   if (doc.isActive && doc.gender == 'female' && doc.friends.length >= 3) {
     emit(null, doc);
@@ -402,7 +402,7 @@ When the replication process is run
   documents that exist both on source and on target are not transfered (only differences will be moved)
 
 
-Databases in CouchDB have a ''sequence number''
+Databases in CouchDB have a *sequence number*
 - it gets incremented when any change occurs 
 - it remembers what change was associated with a particular sequence number
 
@@ -423,7 +423,7 @@ curl -X PUT http://localhost:5984/_replicate -d '{"source":"users","target":"use
 ```
 The database replies with some statistics and tells if it was successful or not 
 
-'''NB''': the request for replication will stay open till the replication process finishes, so it may take a while 
+'*NB*': the request for replication will stay open till the replication process finishes, so it may take a while 
 
 
 ## Concurrency
@@ -442,7 +442,7 @@ This concurrency model allows CouchDB to run effectively even under high load, w
 
 ### [B-Tree](B-Tree) storage engine
 B-Tree (CouchDB uses a variation of a B-Tree [[link](http://www.scholarpedia.org/article/B-tree_and_UB-tree)(http://en.wikipedia.org/wiki/B-tree]) called B+Tree [link](http://en.wikipedia.org/wiki/B%2B_tree))
-- ''B-Tree'' is a sorted data structure that allows for searching, insertions and deletion in logarithmic time 
+- *B-Tree* is a sorted data structure that allows for searching, insertions and deletion in logarithmic time 
 - Lookup is $O(\log N)$ time, and range is $O(\log N + K)$
 
 
@@ -508,14 +508,14 @@ This time the database replies with "ok" and a new revision update:
 
 
 ### Conflicts
-A ''conflicting'' change is a change that occurs simultaneously in two or more replicas. This happens regularly in [Distributes Databases](Distributes_Databases).
+A *conflicting* change is a change that occurs simultaneously in two or more replicas. This happens regularly in [Distributes Databases](Distributes_Databases).
 
-So a ''document conflict'' means that now there are two latest revisions of the same document.
+So a *document conflict* means that now there are two latest revisions of the same document.
 
 
 CouchDB can detect a conflicting change in a document and signals it with "_conflict" flag set to true.
 
-When there are two revisions of the same file, CouchDB has to choose one ''winning'' revision - revision that will be stored and the latest revision. However the ''loosing'' revisions aren't deleted - they are stored as well, but as previous revisions. 
+When there are two revisions of the same file, CouchDB has to choose one *winning* revision - revision that will be stored and the latest revision. However the *loosing* revisions aren't deleted - they are stored as well, but as previous revisions. 
 
 
 CouchDB doesn't attempt to reconcile the conflicting changes: it ensures that all conflicts are detected, but it's up to the application to deal with them. Essentially this is the same mechanism used by SVN [link](http://en.wikipedia.org/wiki/Apache_Subversion) and other popular version control systems. 
@@ -540,7 +540,7 @@ All other types of replication are reduced to these steps
 
 To see if we have any conflicts we may use this simple view: 
 
-```scdoc
+```
 function(doc) {
   if (doc._conflicts) {
     emit(doc._conflicts, null)
@@ -564,7 +564,7 @@ Algorithm
 
 If we don't agree with CouchDB automatic choice, we delete one revision and keep another 
 
-```scdoc
+```
 curt -X DELETE $HOST/database/document_id?rev=2-de...
 ```
 
@@ -621,7 +621,7 @@ The way to resolve conflict:
 - Note that when we delete a record, another revision is added to the revision tree, and the deleted record still exists, but as "deleted" node. 
 - It will be still possible to retrieve this record, but it will be marked with "_deleted" flag set to true
 - Also afterwards during compaction data from non-leaf nodes will be removed
-  - leaving only a chunk of metadata called ''tombstone'' plus 
+  - leaving only a chunk of metadata called *tombstone* plus 
   - the list of historical "_revs" is still retained in case in future you meet old database replicas 
 - There also is a mechanism for "pruning" the revision tree to prevent it from growing too large 
 
@@ -635,11 +635,11 @@ During the compaction of a database CouchDB
 - creates a new file with ".compact" extension and transfers only actual data into it
 - when the data successfully transferred, the ".compact" file replaces the actual database file 
 
-Old revisions are replaced with a ''tombstone'' - a small piece of metadata that will be used for conflict resolution 
+Old revisions are replaced with a *tombstone* - a small piece of metadata that will be used for conflict resolution 
 
 To cause the compaction manually, run 
 
-```scdoc
+```
 curl -X POST HOST/{database}/_compact
 ```
 

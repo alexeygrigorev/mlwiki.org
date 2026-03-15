@@ -43,14 +43,14 @@ But since the ontologies are backed by some storage,
 
 
 #### Main Approaches
-''Cached Inference'' 
+*Cached Inference* 
 - inferred triples are stored along with asserted
 - risk an explosion of the triple store
 - also, change management is important - how to propagate changes and deletes
 - for deletes - same inferred tuple can be due to several facts, so need to be careful when deleting
 
 
-''Just-In-Time Inference''
+*Just-In-Time Inference*
 - To respond to queries only 
 - no inferred triples retained
 

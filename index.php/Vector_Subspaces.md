@@ -31,7 +31,7 @@ Any line through the origin:
 - if the line is not through the origin, then multiplying by 0 will bring us out of the space - so the origin must be included 
 
 
-So, a ''subspace'' of a space should form a space on its own: it should be closed under all possible operations on elements in the subspace
+So, a *subspace* of a space should form a space on its own: it should be closed under all possible operations on elements in the subspace
 
 
 ### Subspaces of $\mathbb R^2$

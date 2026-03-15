@@ -7,7 +7,7 @@ tags:
 title: Feature Normalization
 ---
 ## Data Normalization
-Typically, ''normalization'' refers to
+Typically, *normalization* refers to
 - transforming all values of some continuous variable to the same scale
 - it's done at the [Data Transformation](Data_Transformation) stage
 

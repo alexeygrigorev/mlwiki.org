@@ -40,7 +40,7 @@ We treat all words as independent
 
 ## Document-Term Matrix
 Document-Term Matrix - representation of a document for text analysis 
-- each row of the matrix - is a ''document vector'' 
+- each row of the matrix - is a *document vector* 
 - each component of the document vectors is a concept, a key word, or a term, but usually it's terms 
 - documents don't contain many distinct words, so the matrix is sparse
 
@@ -68,13 +68,13 @@ Notation:
 - let $D$ be the matrix 
 
 
-'''Term-Document Matrix'''
+'*Term-Document Matrix*'
 - if $D$ is $n \times m$ matrix 
 - rows of $D$ are indexed by terms $w_i$ and columns are indexed by documents $d_j$
 - then $D$ is a Term-Document Matrix and $D_{ij}$ is a weight of $w_i$ in document $d_j$
 
 
-'''Document-Term Matrix'''
+'*Document-Term Matrix*'
 - if $D$ is $m \times n$ matrix 
 - rows of $D$ are indexed by terms $w_j$ and columns are indexed by documents $d_i$
 - then $D$ is a Document-Term Matrix and $D_{ji}$ is a weight of $w_j$ in document $d_i$
@@ -121,7 +121,7 @@ A geometrical way to express BoW features is the Vector Space Model
 - let $D$ be a document-term matrix 
 
 
-'''TextVSM''': Document Vector Space Model - it's the [Row Space](Row_Space) of $D$
+'*TextVSM*': Document Vector Space Model - it's the [Row Space](Row_Space) of $D$
 - each document $d_i$ is $i$th row of the matrix 
 - dimensions are words and vectors are documents
 - <img src="https://habrastorage.org/files/ace/015/d08/ace015d080da420d98b4228dfaeeb0d0.png" alt="Image">
@@ -129,7 +129,7 @@ A geometrical way to express BoW features is the Vector Space Model
 - similarity between two documents: [dot product](Inner_Product) or [cosine](Cosine_Similarity)
 
 
-'''TermVSM''': Term Vector Space model - it's the [Column Space](Column_Space) of $D$
+'*TermVSM*': Term Vector Space model - it's the [Column Space](Column_Space) of $D$
 - Can do the same for the terms:
 - dimensions are documents and vector are terms
 - <img src="https://habrastorage.org/files/e86/a64/ab6/e86a64ab6f904b9180ff7874495a445f.png" alt="Image">
@@ -168,7 +168,7 @@ With that matrix you can compute the similarity of two documents
 - $S = D \cdot D^T$
 - The result is a square document - document matrix where each cell represents similarity 
 - and you have (unnormalized) measure of similarity
-- if $D$ is row-normalized, then $S$ contains ''cosine scores'' between each document
+- if $D$ is row-normalized, then $S$ contains *cosine scores* between each document
 - [Cosine Similarity](Cosine_Similarity) - is a measure of the angle between the two document vectors, normalized by magnitude 
 - computing $D \, D^T$ may be the first step for [Document Clustering](Document_Clustering)
 

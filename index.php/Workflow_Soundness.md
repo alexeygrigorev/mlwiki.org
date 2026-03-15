@@ -15,15 +15,15 @@ These properties are usually checked with [Reachability Graph](Reachability_Grap
 
 ## Situations to Avoid
 ### Unboundness
-''Unboundness'' means:
+*Unboundness* means:
 - there is no bound on the number of tokens that a place can hold
 - this always means a problem
 
 
 ### Improper Termination
-A workflow net satisfies ''proper completion'' when
+A workflow net satisfies *proper completion* when
 - if there's a token in the output place, then there are no tokens in other places
-- if this property is not satisfied, then the problem is called ''improper termination''
+- if this property is not satisfied, then the problem is called *improper termination*
 
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/workflow-nets-unbounded.png" alt="Image">
@@ -87,7 +87,7 @@ Used notation:
 
 
 ### Liveness
-In a ''live'' petri net there are no dead transitions
+In a *live* petri net there are no dead transitions
 - a dead transition is a transition that can never fire in any marking reachable from the initial marking 
 
 a petri net $N$ with initial marking $M_0$ is live $\iff$
@@ -128,7 +128,7 @@ So liveness means:
 
 
 ### Boundness
-A petri net $N$ with initial marking $M_0$ is $k$-''bounded'' iff
+A petri net $N$ with initial marking $M_0$ is $k$-*bounded* iff
 - $\forall M: M_0 \to^* M, \forall p \in P: M(p) \leqslant k$
 - there never can appear more than $k$ tokens in any $p \in P$ in any reachable marking $M$ 
 
@@ -136,7 +136,7 @@ A petri net $N$ with initial marking $M_0$ is $k$-''bounded'' iff
 - each $p$ can hold no more than 5 tokens
 
 
-1-bounded net is called ''safe''
+1-bounded net is called *safe*
 
 
 #### Example
@@ -152,7 +152,7 @@ A petri net $N$ with initial marking $M_0$ is $k$-''bounded'' iff
 
 
 ### Deadlock Free
-a petri net $N$ with initial marking $M_0$ is ''deadlock-free'' iff
+a petri net $N$ with initial marking $M_0$ is *deadlock-free* iff
 - $\forall M: M_0 \to^* M \ \exists M': M \to M'$
 - for any reachable marking $M$ there exists another marking $M'$ that can be reached from $M$
 - i.e. every reachable marking enables some transition $t \in T$
@@ -169,7 +169,7 @@ With workflow nets
 - we can decide many things statically, before enacting the workflow
 - there are some desirable properties that help to avoid these problems
 
-A ''workflow net'' is sound $\iff$ it has
+A *workflow net* is sound $\iff$ it has
 - the option to complete
 - proper completion
 - no dead transitions 

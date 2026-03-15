@@ -43,13 +43,13 @@ We can notice the same patterns for all the regions
 ### Transition System
 But usually we do not know where are the tokens, we may know only that there are some states:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/pm-reg-based-trans.png" alt="Image">
-- this is called a ''transition system'': we know the states, but don't know which places have tokens
+- this is called a *transition system*: we know the states, but don't know which places have tokens
 - yet we still can use this idea to recognize the structural properties 
 - and try to reconstruct the original model 
 
 How? 
 - create a transition system from logs
-- find groups of nodes -- ''regions'' -- in the transition system
+- find groups of nodes -- *regions* -- in the transition system
 - add places to capture the behavior 
 
 
@@ -249,9 +249,9 @@ Regions
 - all nodes together form a region
 - all nodes except for the first and last one - also form a region
   - enter by doing $a$, exit by doing $e$
-- but we want to find minimal ''non-trivial'' regions
+- but we want to find minimal *non-trivial* regions
 
-''Trivial'' regions
+*Trivial* regions
 - empty region (nothing takes in, nothing takes out - a region as well)
 - all nodes together
 

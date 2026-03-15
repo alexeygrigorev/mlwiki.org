@@ -28,7 +28,7 @@ Initialization:
 
 Main loop: 
 - we examine all edges that came from $X$ to $V - X$
-- and among all vertices we pick one which gives the minimal score in Dijkstra's greedy criterion $A[v] + l_{vw}$: we call it ''minimizing edge''
+- and among all vertices we pick one which gives the minimal score in Dijkstra's greedy criterion $A[v] + l_{vw}$: we call it *minimizing edge*
 
 
 while $X \neq V$:
@@ -43,12 +43,12 @@ while $X \neq V$:
 
 Example 
 - $s$ - starting vertex 
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/2b7gkb7r01nl56v8o3l1pgpchd.png" alt="Image">" \>
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/2b7gkb7r01nl56v8o3l1pgpchd.png" alt="Image" />
 
 
 Non-example 
 - won't compute the shortest path for non-negative edges
-- <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/1ivblqfc6cju4p352nbq9mmad2.png" alt="Image">" \>
+- <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/1ivblqfc6cju4p352nbq9mmad2.png" alt="Image" />
 
 ## Implementation notes
 - don't need the $B$ array
@@ -79,7 +79,7 @@ running time with heaps: $O(m \log_2 n)$
 
 
 ## Implementation
-```text only
+```
 public static final int INFINITY = 1000000;
 
 public static int[] dijkstra(UndirectedWeightedGraph graph, int s) {

@@ -5,7 +5,6 @@ tags:
 - business-process-management
 title: Milestone Pattern
 ---
-{{stub}}
 
 ## Milestone Pattern
 This is a State-based [Workflow Pattern](Workflow_Patterns)

@@ -11,7 +11,7 @@ This is a tool to model [Decision Analysis](Decision_Analysis) problems. Unlike 
 
 ; Decision Under Uncertainty
 - it is impossible to determine with certainty the consequences of implementing an alternative - there are no probabilities 
-- ''Nature'' decides what will happen 
+- *Nature* decides what will happen 
   - we make a decision and then the Nature decides what is going to happen based on the decision
   - this is like a [two-player game](Game_Theory), where consequences of my actions are based on what the Nature decides to do 
 
@@ -43,7 +43,7 @@ Using the dominance principle we can remove a set of actions from $A$
 - the definition is exactly the same as for [Normal Form Game](Normal_Form_Game)s 
 - $a \ D \ b$ - $a$ dominates $b$
 
-; $a \in A$ is ''efficient''
+; $a \in A$ is *efficient*
 - if $a$ is not dominated by any other alternative
 
 $A^*$ is a set of efficient solutions

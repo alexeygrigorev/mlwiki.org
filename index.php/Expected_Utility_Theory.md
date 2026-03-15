@@ -12,7 +12,7 @@ title: Expected Utility Theory
 So instead of calculating Expected Values based on (numerical) consequences, we
 - replace the values of the consequences onto their utilities
 - the utilities are provided by individuals - and therefore may vary from one individual to another
-- the ''utility'' captures  how an individual things about certain risk 
+- the *utility* captures  how an individual things about certain risk 
 
 
 ### Utility

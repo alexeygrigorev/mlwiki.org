@@ -8,38 +8,38 @@ tags:
 title: Relational Databases
 ---
 ## Relational [Data Model](Data_Model)
-A relational database is a collection of ''relations''
+A relational database is a collection of *relations*
 - everything is a table 
 - every row in a table has the same number of columns 
 - relations are implicit: no pointers
 
 
 ### Structure of Data
-A ''relation'' is a two-dimension table 
+A *relation* is a two-dimension table 
 
-For example, Consider a '''Movie''' relation: 
+For example, Consider a '*Movie*' relation: 
 
 |   Title  |  Year  |  Length  |  Genre   |  Gone with the Wind  |  1939  |  231  |  Drama  ||  Star Wars  |  1977  |  124  |  Sci-Fi |
 
 Columns
-- The columns of a relation are named by ''attributes''
+- The columns of a relation are named by *attributes*
 - E.g.: Title, Year, etc.
 - They describe the meaning of entities in columns
 
 
-The name of a relation with its attributes is called ''schema''
+The name of a relation with its attributes is called *schema*
 - e.g.: Movies(Title, Year, Length, Genre)
 - Note that the attributes form a set, not a list
 - A database consists of one or more relations, each with a schema 
-- And the set of all schemata within one database is called ''Relational DB Schema''
+- And the set of all schemata within one database is called *Relational DB Schema*
 
 
-Rows of a relation (other than the header row - which describes the attributes) are called ''tuples''
+Rows of a relation (other than the header row - which describes the attributes) are called *tuples*
 - ("Gone with the Wind", 1939, Drama)
 - We don't include the attribute names, so the order is important here 
 
 
-We usually associate a ''domain'' with each attribute - a particular elementary type 
+We usually associate a *domain* with each attribute - a particular elementary type 
 - E.g.: Movie(Title: String, Year: Integer, Length: Integer, Genre: String)
 
 
@@ -49,9 +49,9 @@ We usually associate a ''domain'' with each attribute - a particular elementary 
 
 
 ### Constraint
-One fundamental constraint in this model is ''key constraint'' 
+One fundamental constraint in this model is *key constraint* 
 
-A set of attributes form a ''key'' for a relation if there are no two tuples with the same values in for the attributes of the key
+A set of attributes form a *key* for a relation if there are no two tuples with the same values in for the attributes of the key
 
 We indicate that the attributes form a key by <u>underlining</u> them:
 - e.g.: Movies(<u>Title</u>, <u>Year</u>, Length, Genre)

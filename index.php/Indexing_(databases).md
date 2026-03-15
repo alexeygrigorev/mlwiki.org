@@ -32,7 +32,7 @@ Can we do better?
 
 
 ## Indexing
-An ''index'' is any [secondary memory](Secondary_Storage) data structure that
+An *index* is any [secondary memory](Secondary_Storage) data structure that
 - takes a search key as input
 - efficiently returns the collection of matching records
 

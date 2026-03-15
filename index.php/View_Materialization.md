@@ -5,7 +5,6 @@ tags:
 - databases
 title: View Materialization
 ---
-{{stub}}
 
 ## View Materialization
 

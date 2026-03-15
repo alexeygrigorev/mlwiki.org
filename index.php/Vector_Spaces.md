@@ -8,8 +8,8 @@ title: Vector Spaces
 ---
 ## Vector Spaces
 Suppose we have a set $V$ and elements $\mathbf v_1, ..., \mathbf v_i ... \in V$
-- we define ''addition'' on $V$ where we map any pair $\mathbf v_i, \mathbf v_j \in V$ to a value $\mathbf v_i + \mathbf v_j$
-- and we define the operation ''scalar multiplication'' where for any scalar number $c$ and a vector $\mathbf v \in V$ we have a value $c \cdot \mathbf v$
+- we define *addition* on $V$ where we map any pair $\mathbf v_i, \mathbf v_j \in V$ to a value $\mathbf v_i + \mathbf v_j$
+- and we define the operation *scalar multiplication* where for any scalar number $c$ and a vector $\mathbf v \in V$ we have a value $c \cdot \mathbf v$
 
 
 So, what can we do with elements in a vector space? 
@@ -19,12 +19,12 @@ So, what can we do with elements in a vector space?
 
 
 ## Axioms
-The elements of $V$ are ''vectors'' and $V$ is a space if the axioms hold
+The elements of $V$ are *vectors* and $V$ is a space if the axioms hold
 - commutativity: $\mathbf v_i + \mathbf v_j = \mathbf v_j + \mathbf v_i$
 - associativity: $(\mathbf v_i + \mathbf v_j) + \mathbf v_k = \mathbf v_j + (\mathbf v_i + \mathbf v_k)$
 - there exists an element $\mathbf 0 \in V$ s.t. $\mathbf 0 + \mathbf v = \mathbf v$
-- for any element $\mathbf v$ there exists the ''opposite'' $-\mathbf v$ s.t. $\mathbf v + (-\mathbf v) = \mathbf 0$
-  - therefore can define ''difference'' as $\mathbf v_1 - \mathbf v_2 = \mathbf v_1 + (-\mathbf v_2)$
+- for any element $\mathbf v$ there exists the *opposite* $-\mathbf v$ s.t. $\mathbf v + (-\mathbf v) = \mathbf 0$
+  - therefore can define *difference* as $\mathbf v_1 - \mathbf v_2 = \mathbf v_1 + (-\mathbf v_2)$
 
 multiplication on scalars ($c$'s are scalars): 
 - $c (\mathbf v_1 + \mathbf v_2) = c \mathbf v_1 + c \mathbf v_2$

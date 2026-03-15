@@ -38,7 +38,7 @@ Origin (and usage):
 
 <details><summary>R code to produce the figure</summary>
 
-```text only
+```
 default.par = par()
 
 x = seq(-4,4,0.1)

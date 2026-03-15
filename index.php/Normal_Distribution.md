@@ -15,7 +15,7 @@ This is a continuous Symmetric, unimodal bell-shaped [Distribution](Distribution
 
 
 ### [Probability Density Function](Probability_Density_Function)
-```text only
+```
 x = seq(from=-3, to=3, length=15)
 normalDensity = dnorm(x, mean=0, sd=1)
 r = round(normalDensity, 2)
@@ -53,7 +53,7 @@ we can use $z$-scores to identify unusual observations
 - see [Normalization](Normalization)
 
 
-=== Percentile === 
+### Percentile
 Example:
 - Scores of SAT takers are distributed normally
 - parameters: $\mu = 1500, \sigma = 300$
@@ -61,7 +61,7 @@ Example:
 - so Ann's $z = 1$
 
 
-Ann's ''percentile'' - percent of people who earned lower SAT score 
+Ann's *percentile* - percent of people who earned lower SAT score 
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/b/openintrostat/normal-ex-percentile.png" alt="Image">
 - shaded - individuals who scored below Ann
 - so knowing the $z$-score we can calculate the percentile 
@@ -102,7 +102,7 @@ But need to check if it's reasonable to use the normal approximation
 
 Code to produce the first figure:
 
-```gdscript
+```
 load(url("http://www.openintro.org/stat/data/bdims.RData"))
 fdims = subset(bdims, bdims$sex == 0)
 hist(fdims$hgt, probability=TRUE, ylim=c(0, 0.07))
@@ -114,7 +114,7 @@ lines(x=x, y=y, col="blue")
 
 Code to produce  [Q-Q Plot](Q-Q_Plot)s
 
-```text only
+```
 qqnorm(fdims$hgt, col="orange", pch=19)
 qqline(fdims$hgt, lwd=2)
 ```

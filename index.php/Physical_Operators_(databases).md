@@ -27,7 +27,7 @@ To simplify we suppose that the situation is ideal
 
 ## Operators Overview
 
-|   Type $\downarrow$  |   [Bag Union](#Bag_Union)  |   [Set Union](#Set_Union)  |   [Set Intersection](#Set_Intersection)  |   [Bag Intersection](#Bag_Intersection)  |   [Set Difference](#Set_Difference)   |   [Bag Difference](#Bag_Difference)  |   [Join](#Join)  |   One-Pass  |  [{{yes}}](#Bag_Union) ||  [{{yes}}](#One-Pass_Set_Union) ||  [{{yes}}](#One-Pass_Set_Intersection) ||  [{{yes}}](#One-Pass_Bag_Intersection) ||  [{{yes}}](#One-Pass_Set_Difference) ||  [{{yes}}](#One-Pass_Bag_Difference) ||  [{{yes}}](#One-Pass_Join) ||   Sort-Based   |  {{no}} ||  [{{yes}}](#Sort-Based_Set_Union) ||  [{{yes}}](#Sort-Based_Set_Intersection) ||  [{{yes}}](#Sort-Based_Bag_Intersection) ||  [{{yes}}](#Sort-Based_Set_Difference) ||  [{{yes}}](#Sort-Based_Bag_Difference) ||  [{{yes}}](#Sort-Based_Join) ||   Hash-Based  |  {{no}} ||  [{{yes}}](#Hash-Based_Set_Union) ||  not here ||  not here ||  not here ||  not here ||  [{{yes}}](#(Partition)_Hash_Join) |
+|   Type $\downarrow$  |   [Bag Union](#Bag_Union)  |   [Set Union](#Set_Union)  |   [Set Intersection](#Set_Intersection)  |   [Bag Intersection](#Bag_Intersection)  |   [Set Difference](#Set_Difference)   |   [Bag Difference](#Bag_Difference)  |   [Join](#Join)  |   One-Pass  |  [Yes](#Bag_Union) ||  [Yes](#One-Pass_Set_Union) ||  [Yes](#One-Pass_Set_Intersection) ||  [Yes](#One-Pass_Bag_Intersection) ||  [Yes](#One-Pass_Set_Difference) ||  [Yes](#One-Pass_Bag_Difference) ||  [Yes](#One-Pass_Join) ||   Sort-Based   |  No ||  [Yes](#Sort-Based_Set_Union) ||  [Yes](#Sort-Based_Set_Intersection) ||  [Yes](#Sort-Based_Bag_Intersection) ||  [Yes](#Sort-Based_Set_Difference) ||  [Yes](#Sort-Based_Bag_Difference) ||  [Yes](#Sort-Based_Join) ||   Hash-Based  |  No ||  [Yes](#Hash-Based_Set_Union) ||  not here ||  not here ||  not here ||  not here ||  [Yes](#(Partition)_Hash_Join) |
 Also:
 - For Joins: [#Nested Loop Join](#Nested_Loop_Join)
 
@@ -39,7 +39,7 @@ $R \cup_B S$
 - for this operation just need to use one buffer block 
 - load elements to the block and then just output 
 
-'''Algorithm'''
+'*Algorithm*'
 - for each block $B_R \in R$
   - load $B_R$ to buffer $N$
   - for each tuple $t_R \in N$
@@ -49,7 +49,7 @@ $R \cup_B S$
   - for each tuple $t_S \in N$
     - output $t_S$
 
-'''Cost'''
+'*Cost*'
 - $B(R) + B(S)$
 - we don't count output 
 - and we must have some available buffers: $M \geqslant 1$
@@ -70,7 +70,7 @@ Idea:
 - using 1 extra buffer go through all blocks of $S$
 - output element if only it's not in $R$
 
-'''Algorithm'''
+'*Algorithm*'
 - load $R$ to $N_1, ..., N_{B(R)}$ buffers
 - for each tuple $t_R \in \cup_i N_i$
   - output $t_R$
@@ -79,7 +79,7 @@ Idea:
   - for each tuple $t_S \in N_0$
     - if $t_S \not \in \cup_i N_i$, output $t_S$
 
-'''Cost'''
+'*Cost*'
 - $B(R) + B(S)$
 - pass once through $R$ and once through $S$
 - we ignore the cost of searching in memory - interested only in I/O cost
@@ -100,7 +100,7 @@ Algorithm:
 
 Synchronous Iteration:
 - load block of $R$ to $N_R$, block of $S$ to $N_S$
-- iterate over tuples $t_R \in N_R$ and $t_S \in N_S$ ''synchronously''
+- iterate over tuples $t_R \in N_R$ and $t_S \in N_S$ *synchronously*
   - if $t_R < t_S$
     - output $t_R$ 
     - move $t_R$ pointer to the next tuple in $R$ (load next block if needed)
@@ -109,7 +109,7 @@ Synchronous Iteration:
     - move $t_S$ pointer to the next tuple in $S$ (load next block if needed)
   - if $t_R = t_S$
     - output $t_S$ 
-    - move '''both''' $t_R$ and $t_S$
+    - move '*both*' $t_R$ and $t_S$
 
 Cost:
 - $2 B(R) \lceil \log_M B(R) \rceil$: cost of sorting $R$
@@ -251,7 +251,7 @@ $R \cap_B S$
 ### One-Pass Bag Intersection
 Essentially same as [#One-Pass Set Union](#One-Pass_Set_Union) 
 - if $R$ is small enough to fit into $M - 1$ buffers 
-- but for each distinct value we associate a '''count''' - number of times this tuple occurred
+- but for each distinct value we associate a '*count*' - number of times this tuple occurred
   - generally, this structure can take more that $M - 1$ memory buffer if there are few duplicates
   - but if there are a lot of duplicates - this way of organizing will take less room than $M - 1$
 
@@ -263,8 +263,8 @@ Algorithm
   - for each tuple $t_S \in B_S$
     - if $t_S \in K_R$
       - output $t_S$
-      - decrease '''count''' of $t_S$ in $K_R$
-      - if '''count''' = 0 then remove this tuple from memory
+      - decrease '*count*' of $t_S$ in $K_R$
+      - if '*count*' = 0 then remove this tuple from memory
 
 
 ### Sort-Based Bag Intersection
@@ -303,7 +303,7 @@ $R -_S S$ case
 
 
 ## Bag Difference
-- same as in [#Bag Intersection](#Bag_Intersection): we '''count''' the number of occurrences
+- same as in [#Bag Intersection](#Bag_Intersection): we '*count*' the number of occurrences
 - also two cases: $S -_B R$ and $R -_B S$
 
 ### One-Pass Bag Difference
@@ -311,23 +311,23 @@ For this we assume $R$ fits into $M-1$ blocks
 
 
 $S -_B R$ case: count $c$ in this case is $c$ reasons not to output a tuple
-- read tuples of $R$ to $K_R = N_1, ..., N_{B(R)}$, '''count''' the number of occurrences
+- read tuples of $R$ to $K_R = N_1, ..., N_{B(R)}$, '*count*' the number of occurrences
 - load each block $B_S$ to $N_0$
   - for each tuple $t_S \in B_S$
     - if $t_S \not \in K_R$: output $t_S$
     - otherwise 
-      - decrement '''count''' of $t_S$ and 
+      - decrement '*count*' of $t_S$ and 
       - remove $t_S$ from $K_S$ if count = 0
 
 
 $R -_B S$ case
-- read tuples of $R$ to $K_R = N_1, ..., N_{B(R)}$, '''count''' the number of occurrences
+- read tuples of $R$ to $K_R = N_1, ..., N_{B(R)}$, '*count*' the number of occurrences
 - load each $B_S$ to $N_0$
   - if $t_S \in K_R$
-    - decrement '''count''' for $t_S$ in $K_R$
-    - remove $t_S$ from $K_R$ if '''count''' = 0
+    - decrement '*count*' for $t_S$ in $K_R$
+    - remove $t_S$ from $K_R$ if '*count*' = 0
 - for each remaining $t_R \in K_R$
-  - output $t_R$ '''count''' times
+  - output $t_R$ '*count*' times
 
 ### Sort-Based Bag Difference
 - same as [#Sort-Based Set Union](#Sort-Based_Set_Union)
@@ -365,7 +365,7 @@ Cost
 
 ### Nested Loop Join
 #### Tuple-Based Nested Join Loop
-First variant is ''tuple-based nested join loop''
+First variant is *tuple-based nested join loop*
 - for each $r \in R$
 - for each $s \in S$
   - if $r$ matches $s$ output $r \Join s$
@@ -413,7 +413,7 @@ Cost
     - sorting cost + $B(R) + B(S)$
   - it's also possible to optimize and save additional $B(R) + B(S)$ I/Os
     - sorting cost - $B(R) - B(S)$
-- '''NB''': if there's a [clustered index](Indexing_(databases)#Clustered_Index) on $Y$ we don't need to sort it - it's already sorted
+- '*NB*': if there's a [clustered index](Indexing_(databases)#Clustered_Index) on $Y$ we don't need to sort it - it's already sorted
 
 
 ### (Partition) Hash Join

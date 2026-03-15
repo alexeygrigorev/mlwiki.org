@@ -10,7 +10,7 @@ This is a problem of choosing the best position
 - to open a new shop
 - etc
 
-In [Game Theory](Game_Theory) this problem is known as the ''Median Voter Theorem''.
+In [Game Theory](Game_Theory) this problem is known as the *Median Voter Theorem*.
 
 
 ## The Median Voter Theorem

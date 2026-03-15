@@ -6,7 +6,7 @@ tags:
 title: Expected Value
 ---
 ## Expected Value
-''Expected Value'' (''Математическое ожидание'') of a [Random Variable](Random_Variable) X
+*Expected Value* (*Математическое ожидание*) of a [Random Variable](Random_Variable) X
 - is a sum of all possible values from $x_i \in \text{Dom}(X)$ multiplied by their probabilities $p_i$
 - denoted $E[X]$ or $M[X]$
 - it's often called the center of a [Distribution](Distribution)

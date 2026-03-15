@@ -34,7 +34,7 @@ cls
 ```
 
 ## Передаём параметры
-```scdoc
+```
 python C:\UBS\dev\portablepython\App\Scripts\uncompyle2 %*
 ```
 

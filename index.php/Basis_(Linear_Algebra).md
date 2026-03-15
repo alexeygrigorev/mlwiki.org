@@ -6,11 +6,11 @@ tags:
 title: Basis (Linear Algebra)
 ---
 ## Basis (Linear Algebra)
-In Linear Algebra, ''basis'' is a set of [linearly independent](Linear_Independence) vectors $\mathbf v_1, ...,  \mathbf v_n$ 
+In Linear Algebra, *basis* is a set of [linearly independent](Linear_Independence) vectors $\mathbf v_1, ...,  \mathbf v_n$ 
 
 
 ### Spanning a Space
-Vectors $\mathbf v_1, ...,  \mathbf v_l$  ''span a (sub)space'' $\iff$ this space consists of all possible linear combinations of these vectors 
+Vectors $\mathbf v_1, ...,  \mathbf v_l$  *span a (sub)space* $\iff$ this space consists of all possible linear combinations of these vectors 
 - columns of a matrix $A$ span it's column space $C(A)$
 - are such $\mathbf v_i$ independent? - depends 
 
@@ -72,7 +72,7 @@ Also,
 
 
 ## Dimension
-Every space has some basis, and each basis of this space has the same number of vectors. The number of vectors in the basis is the ''dimension'' of this space.
+Every space has some basis, and each basis of this space has the same number of vectors. The number of vectors in the basis is the *dimension* of this space.
 
 
 ## Sources

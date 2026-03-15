@@ -120,7 +120,7 @@ Not always we are able to do the forward elimination
   - there's no solution to the system
 
 
-=== Augmented Matrix === 
+### Augmented Matrix
 But we shouldn't forget about $\mathbf b$
 - $A$ augmented is $\begin{bmatrix} |\mathop{a_1}\limits_| ^| \mathop{a_2}\limits_|^|  ...  \mathop{a_n}\limits_|^| \ \Bigg| \ \mathop{\mathbf b}\limits_|^|  |\end{bmatrix}$: matrix $A$ with column $\mathbf b$ stacked to the right
 - $A$ augmented: $\left[\begin{array}{ccc| c} |1 & 2 & 1 & 2\\ 

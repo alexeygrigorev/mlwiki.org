@@ -23,7 +23,7 @@ The presentation elements are meant to express the syntactic structure of mathem
 - MathML expressions trees with nested layout.
 
 
-A ''token'' in MathML is an individual symbol, name or number. Tokens are grouped together to form MathML expressions. 
+A *token* in MathML is an individual symbol, name or number. Tokens are grouped together to form MathML expressions. 
 
 Tokens can be:
 - identifier, variable or function names

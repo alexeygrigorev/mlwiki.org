@@ -59,7 +59,7 @@ e.g.
 - $\mu_{c_i} = \boldsymbol \mu_5$
 
 
-So optimization objective (cost function, or sometimes called ''distortion''): 
+So optimization objective (cost function, or sometimes called *distortion*): 
 - $J(c_1, \ ... \ , c_m, \boldsymbol \mu_1, \ ... \ , \boldsymbol \mu_k) = \cfrac{1}{m} \sum_i \left\|  \mathbf x_i - \boldsymbol \mu_{c_i} \right\|^2$
 
 we want to find $\min J(c_1, \ ... \ , c_m, \boldsymbol \mu_1, \ ... \ , \boldsymbol \mu_k)$ with respect to $c_1, \ ... \ , c_m, \boldsymbol \mu_1, \ ... \ , \boldsymbol \mu_k$
@@ -91,7 +91,7 @@ Different clusters
 - what we can do is to try it several times and choose the best 
 
 
-'''Algorithm''':
+'*Algorithm*':
 - repeat $n$ times (typically 50 - 1000)
   - randomly initialize $k$ centroids 
   - run k-means, get $c_1, \ ... \ , c_m, \boldsymbol \mu_1, \ ... \ , \boldsymbol \mu_k$
@@ -156,7 +156,7 @@ It's a smart way of doing seed selection
 
 
 ## Variants
-=== [Weighted K-Means](Weighted_K-Means) === 
+### [Weighted K-Means](Weighted_K-Means)
 Objective:
 - $$J(\boldsymbol \mu_1, \dots, \boldsymbol \mu_K) = \cfrac{\sum_{i} w_i \min_k \|  \mathbf x_i- \boldsymbol \mu_k\|^2}{\sum_{i} w_i},$$
 - $\boldsymbol \mu_i$ is $i$ centroid 
@@ -318,7 +318,7 @@ def kmeans(X, k):
 
 With weighted <code>J</code>:
 
-```scdoc
+```
 while not converged:
     D = distmat(X, M)
     M = closest(D)

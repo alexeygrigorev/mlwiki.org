@@ -12,8 +12,7 @@ It's like a [Histogram](Histogram), but smoothed out
 - So it's an estimation of the [Probability Density Function](Probability_Density_Function) of the underlying variable
 
 
-=== With [Histogram](Histogram) === 
-```text only
+### With [Histogram](Histogram)```
 hist(pData$AGEP, breaks=12, col="red", prob=T)
 dens = density(pData$AGEP, adjust=2) 
 lines(dens, col="blue", lwd=2)
@@ -22,7 +21,7 @@ lines(dens, col="blue", lwd=2)
 
 
 ### Without Histogram
-```text only
+```
 dens = density(pData$AGEP)
 plot(dens, lwd=3, col="blue")
 ```
@@ -36,7 +35,7 @@ plot(dens, lwd=3, col="blue")
 - it is more convenient than Histograms for doing that 
 - since it uses plot, not bars
 
-```text only
+```
 densM = density(pData$AGEP[which(pData$SEX==1)])
 densF = density(pData$AGEP[which(pData$SEX==2)])
 plot(densM, lwd=3, col="blue")

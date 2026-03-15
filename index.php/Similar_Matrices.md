@@ -6,7 +6,7 @@ tags:
 title: Similar Matrices
 ---
 ## Similar Matrices
-We say that two $n \times n$ matrices $A$ and $B$ are ''similar''
+We say that two $n \times n$ matrices $A$ and $B$ are *similar*
 - if for some invertible $M$ we can write $B = M^{-1} A \, M$
 
 
@@ -58,7 +58,7 @@ $M$ does not change:
 - rank, and therefore number of independent eigenvectors
 
 
-$M$ '''does''' change
+$M$ '*does*' change
 - eivenvectors
 - [Nullspace](Nullspace) and left nullspace
 - [Row Space](Row_Space) and [Column Space](Column_Space)

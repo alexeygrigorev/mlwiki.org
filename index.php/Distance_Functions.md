@@ -6,7 +6,6 @@ tags:
 - norms
 title: Distance Functions
 ---
-{{stub}}
 
 ## Distance
 A metric function (or distance) is a generalization of geometric distance (i.e. [Euclidean Distance](Euclidean_Distance))

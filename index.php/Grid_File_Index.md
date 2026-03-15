@@ -10,9 +10,9 @@ title: Grid File Index
 This is [Hash-Based](Hash_Function) [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_(databases)) 
 
 ## Main Idea
-In each dimension, using ''Grid Lines'', we divide our key space into ''stripes''
+In each dimension, using *Grid Lines*, we divide our key space into *stripes*
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/grid-files-ex1.png" alt="Image">
-- lines divide the space into subspaces that are large enough to store ''one block''
+- lines divide the space into subspaces that are large enough to store *one block*
 - if needed, overflow blocks may be used 
 
 ### Representation

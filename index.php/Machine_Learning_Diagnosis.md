@@ -17,7 +17,7 @@ What should you try?
 - Try decreasing $\lambda $
 
 
-''Diagnosis'' - a test that you can run to gain insights what is working with the learning algorithms and what is not, and gain guidance as how to improve the performance.
+*Diagnosis* - a test that you can run to gain insights what is working with the learning algorithms and what is not, and gain guidance as how to improve the performance.
 
 
 ### Evaluating a Hypothesis

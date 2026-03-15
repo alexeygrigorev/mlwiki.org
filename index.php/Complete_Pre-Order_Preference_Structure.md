@@ -30,8 +30,8 @@ Suppose there are three sport teams: $a$, $b$, and $c$.
 - If $a$ beats $b$, $a$ receives 3 points and the loser receives 0 points
 - If they draw, both receives 1 point. 
 - The three teams will play with each other and at the end they will have total points. 
-- If all total scores are different, there will be a ''complete order''
-- If there is a tie, the order will be a ''complete preorder''
+- If all total scores are different, there will be a *complete order*
+- If there is a tie, the order will be a *complete preorder*
 
 
 ### Example 2

@@ -132,11 +132,11 @@ If we place $C_n^k$ in the middle below $C_{n - 1}^{k - 1}$ and $C^k_{n - 1}$, t
 
 
 ### Problem
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/pascal-triangle-problem.png" alt="Image">" />
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/pascal-triangle-problem.png" alt="Image" />
 
 In how many ways can one get from vertex $A$ to vertex $B$, if movement is allowed only "right" and "up"?
 
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/pascal-triangle-problem-solution.png" alt="Image">" />
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/pascal-triangle-problem-solution.png" alt="Image" />
 
 - If we write the number of ways to reach a particular node, we see Pascal's Triangle.
 - Indeed, the $k$-th node in the $n$-th row can be reached either from the $(k-1)$-th or from the $k$-th node

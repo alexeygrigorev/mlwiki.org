@@ -11,7 +11,7 @@ title: Dot for Petri Nets
 Dot for [Petri Nets](Petri_Nets)
 
 ## Simplest Petri Net
-```text only
+```
 digraph G {
   rankdir=LR;
   center=true; margin=1; 
@@ -33,7 +33,7 @@ digraph G {
 
 
 ## Nodes Alignment
-```text only
+```
 digraph G {
   rankdir=LR;
   subgraph place {
@@ -62,7 +62,7 @@ digraph G {
 
 
 ## Red Color and Alignment
-```text only
+```
 digraph G {
   rankdir=LR;
   ranksep=0.3;
@@ -93,7 +93,7 @@ digraph G {
 ## Clusters
 Using keyword <code>cluster</code> before name of a subgraph
 
-```text only
+```
 digraph G1 {
   rankdir=LR;
   subgraph place {
@@ -124,7 +124,7 @@ digraph G1 {
 ## Records
 Special shape: record
 
-```text only
+```
 digraph G1 {
   rankdir=LR;
   s1 [style="invisible", shape=record, label="<0>| <1> | <2>|<3>"]; |  s2 [style="invisible", shape=record, label="<0>| <1> | <2>|<3>"]; |  
@@ -149,7 +149,7 @@ digraph G1 {
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/not-allowed-1.png" alt="Image">
 
-```text only
+```
 digraph G2 {
   rankdir=LR;
   s1 [style="invisible", shape=record, label="<0>| <1> | <2>|<3>"]; |  s2 [style="invisible", shape=record, label="<0>| <1> | <2>|<3>"]; |  
@@ -177,7 +177,7 @@ digraph G2 {
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/not-allowed-2.png" alt="Image">
 
 ## Candy Storage (neato)
-```text only
+```
 digraph G {
   center=true; margin=1; 
   normalize=true;
@@ -205,7 +205,7 @@ digraph G {
 
 
 ## [Reachability Graph](Reachability_Graph)
-```text only
+```
 digraph G {
   center=true; margin=1; 
 

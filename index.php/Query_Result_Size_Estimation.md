@@ -26,7 +26,7 @@ So the goal:
 
 
 ## Projection
-for ''bag-based'' projection $\pi_L (R)$ the general formula is 
+for *bag-based* projection $\pi_L (R)$ the general formula is 
 - $T(\pi_L (R)) = T(R)$: tuples are not eliminated
 - but $B(\pi_L (R))$ can change since the size of each tuple changes
 
@@ -129,7 +129,7 @@ Selection $\sigma_{p_1 \lor p_2} (R)$
   - also they select disjoint sets of tuples (otherwise we would count some tuples twice)
 
 Another way: to use De-Morgan Rule
-- $p_1 \lor p_2 \equiv \overline{\overline{p_1} \land \overline{p_2}}$ (the line over means '''not''')
+- $p_1 \lor p_2 \equiv \overline{\overline{p_1} \land \overline{p_2}}$ (the line over means '*not*')
 - $\text{sel}_{p_1 \lor p_2}(R) = 1 - (1 - \text{sel}_{p_1}(R)) \times (1 - \text{sel}_{p_2}(R))$
 - in this case we also have the same assumptions
 
@@ -161,12 +161,12 @@ $R \Join S, R(X, Y), S(Y, Z)$ (i.e. we join on $Y$)
 #### Simplifications
 For other harder cases we need the following simplifications:
 
-'''Containment''' of Value Sets
+'*Containment*' of Value Sets
 - if $R(V, Y) \leqslant V(S, Y)$
 - then every value of $Y \in R$ will have a joining tuple with $Y \in S$
 - that means: all matched values in $X$ will have a corresponding value in $Y$ - or vice-versa
 
-'''Preservation''' of Value Sets
+'*Preservation*' of Value Sets
 - when joining two relations, all non-matching attributes are not lost
 - i.e. they get transfered to the results 
 - (if we join two relations on $Y$, $R$ has $X$ and $S$ has $Z$, then all possible values are going to occur in the output)

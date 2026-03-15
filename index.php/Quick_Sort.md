@@ -21,11 +21,11 @@ Main idea - partition around a pivot:
 
 done in $O(n)$ time
 
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/3qgfuh1sgn1v8jm90h0utise6h.png" alt="Image">" \>
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/3qgfuh1sgn1v8jm90h0utise6h.png" alt="Image" />
 
 partition:
 
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/30s2g8fj552rlsrh1j0q2bjkn8.png" alt="Image">" \>
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/30s2g8fj552rlsrh1j0q2bjkn8.png" alt="Image" />
 
 ## Algorithm
 QuickSort(array $A$):

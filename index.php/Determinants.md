@@ -6,7 +6,7 @@ tags:
 title: Determinants
 ---
 ## Determinants
-A ''determinant'' is a value associated with a square matrix $A$
+A *determinant* is a value associated with a square matrix $A$
 - it provides important information about [invertability](Inverse_Matrices) of the matrix
 - it's denoted as $\text{det } A$ or sometimes $|  A |$
 
@@ -431,7 +431,7 @@ a_{31} & a_{32} & 0\\
 
 
 ### Cofactors
-a ''cofactor'' of $a_{ij}$ is $C_{ij}$
+a *cofactor* of $a_{ij}$ is $C_{ij}$
 - $C_{ij}$ is a determinant of a $n - 1$ matrix - it's a matrix $A$ with row $i$ and column $j$ removed
 - note that we can have a minus sign before some of the cofactors
 - we have $C_{ij}$ with $-$ if $i+j$ is odd, and $+$ if $i+j$ is even
@@ -441,7 +441,7 @@ a ''cofactor'' of $a_{ij}$ is $C_{ij}$
 + & - & + \\
 \end{vmatrix}$
 
-a ''minor'' of $a_{ij}$ is $M_{ij}$
+a *minor* of $a_{ij}$ is $M_{ij}$
 - it's the same as cofactor, but always with the same sign
 
 

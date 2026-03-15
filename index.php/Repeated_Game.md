@@ -5,7 +5,6 @@ tags:
 - game-theory
 title: Repeated Game
 ---
-{{draft}}
 
 ## Repeated Games
 
@@ -24,7 +23,7 @@ title: Repeated Game
 ### Stochastic games
 - generalization of repeated games
 - informal visualization
-  - <img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/5a33joqeuq1eap2r2sl78811pd.png" alt="Image">" />
+  - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/5a33joqeuq1eap2r2sl78811pd.png" alt="Image" />
 
 
 ### Learning in Repeated Games

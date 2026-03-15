@@ -7,7 +7,7 @@ tags:
 title: Hadoop
 ---
 ## Hadoop
-usually the term ''Hadoop'' refers to an entire family of products. 
+usually the term *Hadoop* refers to an entire family of products. 
 
 So it's usually a set of products:
 - parallel storage ([HDFS](Hadoop_Distributed_File_System))
@@ -42,15 +42,15 @@ So it's performed in two steps
   - input file is loaded to DFS
   - it's partitioned into blocks (typically 64 kb each)
   - each block is replicated 3 times to guarantee fault-tolerance
-- '''map phase'''
+- '*map phase*'
   - each block is assigned to a map worker
   - it applies the [map function](MapReduce#Map_Function) to it
   - intermediate results are sorted locally
   - then it's stored on local disk of mapper
   - it's partitioned into $R$ reduce tasks 
     - $R$ is specified beforehand
-    - partitioning is typically done by '''hash(key) % $R$'''
-- wait until ''all'' map tasks are completed
+    - partitioning is typically done by '*hash(key) % $R$*'
+- wait until *all* map tasks are completed
 - before reduce
   - the master assigns reduce task to workers
   - the intermediate results are shuffled and assigned to reducers
@@ -58,7 +58,7 @@ So it's performed in two steps
     - all map results are already partitioned and stored on mapper disks
     - read the input and group it by key
   - each record is assigned to only one reduces 
-- '''reduce phase'''
+- '*reduce phase*'
   - now apply the [reduce function](MapReduce#Reduce_Function) to each group
   - output is stored and replicated 3 times
 
@@ -72,8 +72,8 @@ Hadoop in one picture:
 
 In short:
 - There's only one Name Node 
-- the Name Node divides input files into $M$ ''splits'' (by key)
-- then the Name Node assigns ''workers'' (servers) to perform $M$ map tasks
+- the Name Node divides input files into $M$ *splits* (by key)
+- then the Name Node assigns *workers* (servers) to perform $M$ map tasks
 - while they are computing, it keeps track on their progress 
 - Workers write their results on local disk dividing it into $R$ regions
 - once Map part is done, the Name Node assigns workers to the $R$ reduce tasks 

@@ -21,7 +21,7 @@ A GAV mapping is an expression of the form
 - $R(x_1, ..., x_n) \supseteq Q(x_1, ..., x_n)$
 - where $Q(x_1, ..., x_n)$ is a [Conjunctive Query](Conjunctive_Query) of the same arity as $R$
 - since $Q(x_1, ..., x_n) \leftarrow A_1(...), \ ..., \ A_k(...)$, can rewrite as $R(x_1, ..., x_n) \supseteq A_1(...), \ ..., \ A_k(...)$
-- so a mapping is some query over some source relations, also called a ''view''
+- so a mapping is some query over some source relations, also called a *view*
 
 
 [FOL](First_Order_Logic) Semantics of this mapping
@@ -67,7 +67,7 @@ To evaluate a query
 - then we issue queries for each data source and combine the result
 
 
-'''GAV Unfolding''' (informal)
+'*GAV Unfolding*' (informal)
 - for each atom $A_i(...)$ of the query
 - if this atom can be matched to a head of some mapping $R_j(...)$
 - replace the atom $A_i(...)$ by the body of the mapping $R_j(...)$
@@ -89,11 +89,11 @@ Illustration by example
 
 
 ### GAV Unfolding
-'''def''': ''GAV Query unfolding'' (or ''GAV rewriting'')
+'*def*': *GAV Query unfolding* (or *GAV rewriting*)
 - let $Q(\vec{x}) \leftarrow G_1(\vec{z}_1), \ ..., \ G_n(\vec{z}_n)$ be a query over global schema 
 - $\forall \ G_i \ \exists$ GAV mapping $G_i \supseteq q_i(\vec{x}_i, \vec{y}_i)$
   - where in $q_i(\vec{x}, \vec{y})$: $\vec{x}$ - distinguished variables, $\vec{y}$ - existential  
-- ''an unfolding'' of $Q(\vec{x})$ is a query $U$ that is obtained by
+- *an unfolding* of $Q(\vec{x})$ is a query $U$ that is obtained by
 - replacing each conjunct $G_i(\vec{z}_i)$ by $q_i \big( \Psi_i(\vec{x}, \vec{y}) \big)$
 - $\Psi_i(\vec{x}, \vec{y})$ maps 
   - variables $\vec{x}$ of $q_i$ to $\vec{z}$ and 

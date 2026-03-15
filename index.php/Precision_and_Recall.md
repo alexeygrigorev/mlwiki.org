@@ -22,14 +22,14 @@ IR system has to be:
 
 
 Given a test collection, the quality of an IR system is evaluated with:
-- ''Precision'': % of relevant documents in the result
-- ''Recall'': % of retrieved relevant documents
+- *Precision*: % of relevant documents in the result
+- *Recall*: % of retrieved relevant documents
 
 
 More formally, 
 - given a collection of documents $C$ 
 - If $X \subseteq C$ is the output of the IR system  and $Y \subseteq C$ is the list of all relevant documents then define
-- ''precision'' as $P = \cfrac- both $P$ and $R$ are defined w.r.t a set of retrieved documents 
+- *precision* as $P = \cfrac- both $P$ and $R$ are defined w.r.t a set of retrieved documents 
 
 
 
@@ -69,13 +69,13 @@ and get Mean Average Precision: MAP
 The precision and recall metrics can also be applied to [Machine Learning](Machine_Learning): to binary classifiers
 
 
-| + Diagnostic Testing Measures  [link](http://en.wikipedia.org/wiki/Template:DiagnosticTesting_Diagram) ||  colspan="2" rowspan="2" style="border:none;"| ||   colspan="2" | Actual Class $y$  |  Positive ||  Negative ||   rowspan="2" | $h_{\theta}(x)$ <br/> Test<br />outcome  |  Test<br />outcome<br />positive || style="background:#ccffcc;"| '''True positive'''<br/> ($\text{TP}$) || style="background:#eedddd;"| '''False positive'''<br />($\text{FP}$, Type I error) ||  Precision =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FP}}$ ||  Test<br />outcome<br />negative || style="background:#eedddd;"| '''False negative'''<br />($\text{FN}$, Type II error) || style="background:#ccffcc;"| '''True negative'''<br /> ($\text{TN}$) ||  Negative predictive value =<br /> $\cfrac{\# \text{TN}}{\# \text{FN} + \# \text{TN}}$ || colspan="2" style="border:none;" | ||  Sensitivity =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FN}}$ ||  Specificity =<br /> $\cfrac{\# \text{TN}}{\# \text{FP} + \# \text{TN}}$ ||  Accuracy =<br /> $\cfrac{\# \text{TP} + \# \text{TN}}{\# \text{TOTAL}}$ |
+| + Diagnostic Testing Measures  [link](http://en.wikipedia.org/wiki/Template:DiagnosticTesting_Diagram) ||  colspan="2" rowspan="2" style="border:none;"| ||   colspan="2" | Actual Class $y$  |  Positive ||  Negative ||   rowspan="2" | $h_{\theta}(x)$ <br/> Test<br />outcome  |  Test<br />outcome<br />positive || style="background:#ccffcc;"| '*True positive*'<br/> ($\text{TP}$) || style="background:#eedddd;"| '*False positive*'<br />($\text{FP}$, Type I error) ||  Precision =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FP}}$ ||  Test<br />outcome<br />negative || style="background:#eedddd;"| '*False negative*'<br />($\text{FN}$, Type II error) || style="background:#ccffcc;"| '*True negative*'<br /> ($\text{TN}$) ||  Negative predictive value =<br /> $\cfrac{\# \text{TN}}{\# \text{FN} + \# \text{TN}}$ || colspan="2" style="border:none;" | ||  Sensitivity =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FN}}$ ||  Specificity =<br /> $\cfrac{\# \text{TN}}{\# \text{FP} + \# \text{TN}}$ ||  Accuracy =<br /> $\cfrac{\# \text{TP} + \# \text{TN}}{\# \text{TOTAL}}$ |
 
 Main values of this matrix:
-- '''True Positive''' - we predicted "+" and the true class is "+"
-- '''True Negative''' - we predicted "-" and the true class is "-"
-- '''False Positive''' - we predicted "+" and the true class is "-" (Type I error)
-- '''False Negative''' - we predicted "-" and the true class is "+" (Type II error)
+- '*True Positive*' - we predicted "+" and the true class is "+"
+- '*True Negative*' - we predicted "-" and the true class is "-"
+- '*False Positive*' - we predicted "+" and the true class is "-" (Type I error)
+- '*False Negative*' - we predicted "-" and the true class is "+" (Type II error)
 
 
 Two Classes: $C_+$ and $C_-$
@@ -184,12 +184,12 @@ Here's the best is $A_1$ because it has the highest $F_1$-score
 Can use precision and recall to evaluate the result of clustering 
 
 Correct decisions:
-- '''TP''' = decision to assign two similar documents to the same cluster
-- '''TN''' = assign two dissimilar documents to different clusters 
+- '*TP*' = decision to assign two similar documents to the same cluster
+- '*TN*' = assign two dissimilar documents to different clusters 
 
 Errors:
-- '''FP''': assign two dissimilar documents to the same cluster
-- '''FN''': assign two similar documents to different clusters 
+- '*FP*': assign two dissimilar documents to the same cluster
+- '*FN*': assign two similar documents to different clusters 
 
 
 So the confusion matrix is:
@@ -254,7 +254,7 @@ Now estimate precision and recall for class $C_i$
 - how to combine them? 
 
 
-'''Micro-averaging''' 
+'*Micro-averaging*' 
 - calculate TP, ... etc globally and then average
 - let 
   - $\text{TP} = \sum_i \text{TP}_i$ 
@@ -267,7 +267,7 @@ Now estimate precision and recall for class $C_i$
 
 
 
-'''Macro-averaging'''
+'*Macro-averaging*'
 - calculate $P_i$ and $R_i$ "locally" for each $C_i$
 - and then let $P^M = \cfrac{1}{K} \sum_i P_i$ and $R^M = \cfrac{1}{K} \sum_i R_i$
 

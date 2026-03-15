@@ -44,7 +44,7 @@ Our goal:
 - $A = U \Sigma V^T$
 - we want to find the orthogonal basis in the [Row Space](Row_Space) $C(A^T)$ of $A$ 
 - and we then map this basis to some orthogonal basis in the [Column Space](Column_Space) $C(A)$ of $A$
-- these vectors are called ''singular vectors''
+- these vectors are called *singular vectors*
 
 
 Solution:

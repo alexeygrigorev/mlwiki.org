@@ -18,7 +18,7 @@ Links:
 ## Functions and Their Evaluation
 ### Definitions
 Once values have been defined, they can no longer be changed. The expression of assigning a value to some identifier is called a *definition*.
-```text only
+```
 def radius = 10
 def pi = 3.14159
 ```
@@ -40,7 +40,7 @@ The [Substitution Model](Functional_Programming#Expression_Evaluation) is used t
 #### call-by-value (<code>CBV</code>)
 Argument values are evaluated first, then the computed values are passed to the function
 
-```scdoc
+```
 - square(2 + 2)
 - square(4)
 - 4 * 4
@@ -53,7 +53,7 @@ Pros:
 #### call-by-name (<code>CBN</code>)
 Expressions are passed as arguments and are evaluated only when called inside the function body
 
-```scdoc
+```
 - square(2 + 2)
 - (2 + 2) * (2 + 2)
 - 4 * 4
@@ -88,7 +88,7 @@ Definitions can also be <code>CBN</code> and <code>CBV</code>
 
 The keyword <code>def</code> creates a <code>CBN</code> definition, <code>val</code> creates a <code>CBV</code> definition
 
-```text only
+```
 val x = 2
 val y = square(2)
 val z = square(x)
@@ -96,7 +96,7 @@ val z = square(x)
 
 For <code>val</code> the right-hand side is evaluated immediately and used subsequently (i.e., <code>y</code> refers to <code>4</code>, not to <code>square(2)</code>)
 
-```tera term macro
+```
 def x = loop // OK
 val x = loop // hangs
 ```
@@ -153,7 +153,7 @@ Scoping rules:
 - Definitions outside the block are visible inside the block (parent scope)
 - Definitions inside the block (in the local scope) shadow definitions outside the block (i.e., in the parent scope)
 
-```scdoc
+```
 val x = 0
 val res = {
   val x = f(3)
@@ -185,7 +185,7 @@ The type <code>A => B</code> describes a function that takes an argument of type
 
 A function without a name is called an *anonymous function*
 
-```scdoc
+```
 (x: Int) => x * x
 (x: Int, y: Int) => x + y
 ```
@@ -227,7 +227,7 @@ def sumFactorials = sum(fact)
 ```
 
 That is,
-```text only
+```
 sumCubes(1, 10) == (sum(cube))(1, 10)
 ```
 
@@ -309,7 +309,7 @@ type Set = Int => Boolean
 That is, a set can be represented as a function that takes a number and returns <code>true</code> if the number is in the set, and <code>false</code> otherwise.
 
 For example, to represent the set of all negative numbers, one can write:
-```text only
+```
 (x: Int) => x < 0
 ```
 
@@ -338,13 +338,13 @@ In this definition, <code>Rational</code> adds to the code:
 - a new type - <code>Rational</code>
 - a constructor that can be used to create elements of type <code>Rational</code>
 
-```text only
+```
 new Rantional(1, 2) // constructor
 ```
 
 The definitions <code>numer</code> and <code>denum</code> are called class members. Class members are accessed using the infix operator <code>.</code> (dot):
 
-```gdscript
+```
 x.numer
 x.denum
 ```
@@ -387,7 +387,7 @@ class Rational(x: Int, y: Int) {
 
 (The keyword <code>override</code> indicates that the method <code>toString</code> already exists)
 
-```text only
+```
 val x = new Rational(1, 3)
 val y = new Rational(5, 7)
 val z = new Rational(9, 11)
@@ -437,14 +437,14 @@ new Rational(2) // -> 2/1
 ### Identifiers and Operators
 In Scala, it is possible to write
 
-```text only
+```
 r add s
 r mul s
 ```
 
 instead of
 
-```text only
+```
 r.add(s)
 r.mul(s)
 ```
@@ -495,7 +495,7 @@ Operator precedence is determined by the first character of their name. Preceden
 - all other special characters
 
 Example:
-```text only
+```
 a + b ^? c ^? d less a ==> b |  c |((a + b) ^? (c ^? d)) less ((a ==> b) |  c) |
 ```
 
@@ -544,7 +544,7 @@ Both classes <code>Empty</code> and <code>NonEmpty</code> extend <code>IntSet</c
 
 Classes <code>Empty</code> and <code>NonEmpty</code> implement the abstract definitions incl and contains from <code>IntSet</code>. It is also possible to override existing non-abstract definitions of the parent class in a subclass using the keyword override.
 
-```text only
+```
 abstract class Base {
   def foo = 1
   def bar: Int
@@ -559,7 +559,7 @@ class Sub extends Base {
 #### Value parameters
 To define class fields, the keyword val can be used in the constructor
 
-```scalate server page
+```
 class Cons(val head: Int, val tail: IntList) extends IntList {
   // ...
 }
@@ -567,7 +567,7 @@ class Cons(val head: Int, val tail: IntList) extends IntList {
 
 This notation is equivalent to the following:
 
-```gdscript
+```
 class Cons(_head: Int, _tail: IntList) extends IntList {
   val head = _head
   val tail = _tail
@@ -591,7 +591,7 @@ As in Java, a class in Scala can have only one superclass. To enable code reuse 
 
 Declaring a trait is similar to declaring an abstract class, but a subclass can use multiple traits with the keyword with
 
-```scdoc
+```
 trait Planar {
   def height
   def width
@@ -621,7 +621,7 @@ object Hello {
 
 To run the application, write
 
-```text only
+```
 scala Hello
 ```
 
@@ -638,14 +638,14 @@ object Hello {
 The *fully-qualified name* of a class consists of the package name and the class name, for example, <code>progfun.example.Hello</code>
 
 To start the application, specify the fully-qualified class name:
-```text only
+```
 scala progfun.example.Hello
 ```
 
 #### Imports
 We can refer to a class/object by its fully-qualified name
 
-```text only
+```
 val r = new week3.Rational(1, 2)
 ```
 
@@ -676,13 +676,13 @@ Some classes and objects are imported automatically. These include the contents 
 - For all classes, the base class is <code>AnyRef</code> (which is a synonym for <code>java.lang.Object</code>)
 - For primitives, the base type is <code>AnyVal</code>
 
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/class-hierarchy.png" alt="Image">" />
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/class-hierarchy.png" alt="Image" />
 
 
 - The type <code>Nothing</code> is at the bottom of the hierarchy and is a subtype of all types.
 - Scala also has the type <code>Null</code>, which is the type of the value <code>null</code>. <code>Null</code> is a subclass of all subclasses of <code>AnyRef</code>
 
-```scalate server page
+```
 val x = null // x: Null
 val y: String = null // y: String
 val z: Int = null // error: type mismatch (not a subclass of AnyRef)
@@ -694,7 +694,7 @@ Consider a *Cons-list* - an immutable linked list built from the following eleme
 - <code>Cons</code> - a cell containing an element and a reference to the next part of the list
 - <code>Nil</code> - an empty list
 
-```scalate server page
+```
 trait IntList ...
 class Cons(val head: Int, val tail: IntList) extends IntList ...
 class Nil extends IntList ...
@@ -702,7 +702,7 @@ class Nil extends IntList ...
 
 However, this definition is too narrow: such a list can only be used with the Int type. But we can generalize the definition of our list using *type parameters*
 
-```scalate server page
+```
 trait List[T] ...
 class Cons(val head: T, val tail: List[T]) extends List[T] ...
 class Nil extends List[T] ...
@@ -716,7 +716,7 @@ signleton[Boolean](true)
 ```
 
 However, Scala can infer the needed type, so the parameter can be omitted
-```scdoc
+```
 signleton(1)
 signleton(true)
 ```
@@ -736,7 +736,7 @@ That is, functions are objects that have an <code>apply</code> method
 
 An anonymous function declaration can be written using a class as follows:
 
-```gdscript
+```
 // anonymous
 (x: Int) => x * x
 
@@ -759,7 +759,7 @@ new Function1[Int, Int] {
 
 For example,
 
-```scdoc
+```
 val f = (x: Int) => x * x
 f(7)
 ```
@@ -775,7 +775,7 @@ f.apply(7)
 
 Methods are not functions, but they can also be used as functions - and they are automatically converted to functions as follows
 
-```text only
+```
 (x: Int) => f(x)
 ```
 
@@ -799,7 +799,7 @@ But
 
 This can be done using an *upper bound* of the parameterized type
 
-```text only
+```
 def assertAllPos[S <: IntSet](r: S): S = ...
 ```
 
@@ -819,7 +819,7 @@ Such a relationship is called *covariance*, and types that support this are call
 
 However, covariance does not always make sense. For example, arrays in Java are covariant, but this causes a number of problems. Consider the following code:
 
-```text only
+```
 NonEmpty[] a = new NonEmpty[] { new NonEmpty(...) }
 IntSet[] b = a
 
@@ -900,7 +900,7 @@ This definition will not pass the variance check, as a covariant type is used in
 
 Moreover, this violates the Liskov Substitution Principle. Suppose we have a list <code>xs</code> of type <code>List[IntSet]</code>
 
-```text only
+```
 xs.prepend(Empty)
 ```
 
@@ -938,7 +938,7 @@ The return type of this function will be <code>List[IntSet]</code>
 As an example, consider a small interpreter for arithmetic operations. All expressions can be represented as a class hierarchy, with a base trait <code>Expr</code> and subclasses <code>Number</code> and <code>Sum</code> (we limit ourselves to numbers and the addition operation).
 
 We can use the OOP approach
-```gdscript
+```
 trait Expr {
   def eval: Int
 }
@@ -960,7 +960,7 @@ Limitation of this approach:
 
 ### Case Classes
 Consider the following definition:
-```gdscript
+```
 trait Expr
 case class Number(n: Int) extends Expr
 case classs Sum(e1: Expr, e2: Expr) extends Expr
@@ -1044,7 +1044,7 @@ def positiveSingleton(xs: List[Int]): Boolean = xs match {
 ## Lists
 A list consisting of elements $x_1, ..., x_n$ is written in Scala as follows:
 
-```text only
+```
 List(x1, ..., xn)
 ```
 
@@ -1058,25 +1058,25 @@ In Scala, lists are constructed using
 - The <code>::</code> operator (also known as <code>Cons</code>) for prepending a new element to the list
 
 ### Operations on Lists
-```text only
+```
 x :: xs
 ```
 Prepends element $x$ to list $xs$
 
-```text only
+```
 fruit = "apples" :: ("pears" :: Nil)
 nums = 1 :: (2 :: (3 :: Nil))
 empty = Nil
 ```
 
 The <code>::</code> operation is right-associative, so parentheses can be omitted
-```text only
+```
 fruit = "apples" :: "pears" :: Nil
 nums = 1 :: 2 :: 3 :: Nil
 ```
 
 The <code>::</code> operation is a method, so the following two notations are equivalent
-```text only
+```
 nums = 1 :: 2 :: 3 :: Nil
 nums = Nil.::(3).::(2).::(1)
 ```
@@ -1161,7 +1161,7 @@ Variations of the <code>filter</code> function:
 Example:
 The <code>pack</code> function that performs the following transformation:
 
-```text only
+```
 "a","a","a","b","c","c","c","a" => List("a","a","a"), List("b"), List("c","c","c"), List("a")
 ```
 
@@ -1259,7 +1259,7 @@ Lists are linear, i.e., access to the first element of a list is very fast, but 
 
 However, Scala has alternative implementations of sequences (the <code>Seq</code> interface), for example, <code>Vector</code>, which provides more efficient element access operations.
 
-```text only
+```
 val nums = Vector(1, 2, 3)
 val people = Vector("Bob", "James", "Peter")
 ```
@@ -1277,7 +1277,7 @@ They are created using three operations:
 - <code>until</code> (exclusive)
 - <code>by</code> (step)
 
-```scalate server page
+```
 val r: Range = 1 until 5 // 1, 2, 3, 4
 val s: Range = 1 to 5 // 1, 2, 3, 4, 5
 
@@ -1288,7 +1288,7 @@ val s: Range = 1 to 5 // 1, 2, 3, 4, 5
 ### Seq
 <code>Seq</code> is the common base class for <code>Vector</code>, <code>List</code>, and <code>Range</code>:
 
-<img src="<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/collections-hier.png" alt="Image">" />
+<img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/collections-hier.png" alt="Image" />
 
 Strings (type <code>String</code>) and arrays (type <code>Array</code>) support the same operations as Seq, and are implicitly converted to the <code>Seq</code> type when needed (but they cannot be subclasses of Seq since they come from Java)
 
@@ -1309,7 +1309,7 @@ And also:
 
 All combinations for $x \in [1..M]$ and $y \in [1..N]$
 
-```text only
+```
 (1 to M) flatMap (x => (1 to N) map (y => (x, y)))
 ```
 
@@ -1322,7 +1322,7 @@ def scalarProduct(xs: Vector[Double], ys: Vector[Double]): Double =
 
 Which, using a pattern matching function value, can be written as:
 
-```scdoc
+```
 (xs zip ys).map { case (x, y) = x * y }.sum
 ```
 
@@ -1335,7 +1335,7 @@ def isPrime(n: Int): Boolean =
 ### For-Expressions
 From a list of people, we want to output the names of those older than 20:
 
-```text only
+```
 persons filter (p => p.age > 20) map (p => p.name)
 ```
 
@@ -1346,7 +1346,7 @@ for (p <- persons if p.age < 20) yield p.name
 ```
 
 Syntax:
-```tera term macro
+```
 for (s) yield e
 ```
 
@@ -1380,14 +1380,14 @@ Thus, the dot product can be written as:
 ### Set
 A data type representing a set - a collection in which elements do not repeat.
 
-```text only
+```
 val fruit = Set("apple", "banana", "pear")
 val s = (1 to 6).toSet
 ```
 
 Most operations for sequences are also available for sets:
 
-```scdoc
+```
 s map (_ + 2)
 fruit filter (_.startsWith("app"))
 ```
@@ -1434,7 +1434,7 @@ val countries = capitals map { case (x, y) => (y, x) }
 
 For extraction, simply apply the map to a key:
 
-```text only
+```
 capital("Andorra")
 ```
 
@@ -1464,7 +1464,7 @@ def showCapital(country: String) = capital.get(country) match {
 
 #### Group By
 A collection can be turned into a <code>Map</code> of collections using the <code>groupBy</code> operation:
-```scdoc
+```
 fruit groupBy(_.head)
 ```
 
@@ -1508,7 +1508,7 @@ Polynom(1 -> 2.0, 3 -> 4.0, 5 -> 6.2)
 ### Stream
 [link](http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5). Given the task: compute the second prime number in the sequence between 1000 and 10000.
 
-```scdoc
+```
 ((1000 to 10000) filter isPrime)(1)
 ```
 
@@ -1520,7 +1520,7 @@ However, we can avoid computing the tail of the sequence until it is explicitly 
 
 The Stream data structure is built on this principle and is internally very similar to a list. The only difference: the tail of a stream is computed only when needed.
 
-```text only
+```
 Stream.cons(1, Stream.cons(2, Stream.empty))
 Stream(1, 2, 3)
 ```
@@ -1535,13 +1535,13 @@ All operations for lists can also be applied to this data structure.
 
 For example,
 
-```scdoc
+```
 ((1000 to 10000).toStream filter isPrime)(1)
 ```
 
 However, <code>::</code> always creates a list, not a Stream, so <code>#::</code> is used for streams:
 
-```text only
+```
 x #:: xs == Stream.cons(x, xs)
 ```
 
@@ -1564,7 +1564,7 @@ This can be avoided by saving the computed value on the first call and returning
 
 This technique is called *lazy initialization*, and in Scala it is done using the keyword <code>lazy</code>:
 
-```text only
+```
 lazy val x = expression
 ```
 
@@ -1644,13 +1644,13 @@ In this example, the <code>splitAt</code> function returns two sublists as a *pa
 
 In Scala, a pair is written as <code>(x1, x2)</code>
 
-```text only
+```
 val pair = ("answer", 12) // type: (String, Int)
 ```
 
 Pairs can be used in pattern matching:
 
-```text only
+```
 val (label, value) = pair
 laber == "answer"
 value == 12

@@ -46,8 +46,8 @@ If one is numeric, and another is categorical:
 ## Categorical vs Categorical
 To compare two categorical variables
 - start from building a [Contingency Table](Contingency_Table) to show relative frequencies of values
-  - ''Marginal distribution'' - distribution of only one of the variables in a contingency table
-  - ''Conditional Distribution'' - distribution within a fixed value of a second variable
+  - *Marginal distribution* - distribution of only one of the variables in a contingency table
+  - *Conditional Distribution* - distribution within a fixed value of a second variable
   - so it's simple to see if there's any correlation between the two variables just using this matrix
 - run some Tests of Independence:
   - [Chi-square Test of Independence](Chi-square_Test_of_Independence)

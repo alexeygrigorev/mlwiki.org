@@ -11,7 +11,7 @@ Two vectors [(sub)spaces](Vector_Spaces) can also be [orthogonal](Orthogonality)
 
 Consider two subspaces $S$ and $T$
 - $S \; \bot \; T$ means that $\forall \mathbf s \in S, \forall \mathbf t \in T: \mathbf s \; \bot \; \mathbf t$
-- i.e. if every vector in $T$ is [orthogonal](Vector_Orthogonality) to every vector in $S$, then $S$ and $T$ are ''orthogonal''
+- i.e. if every vector in $T$ is [orthogonal](Vector_Orthogonality) to every vector in $S$, then $S$ and $T$ are *orthogonal*
 
 
 ## Examples
@@ -69,7 +69,7 @@ They are orthogonal for exactly the same reason
 ## Orthogonal Compliments
 $N(A) \; \bot \; C(A^T)$ and $\text{dim} N(A) + \text{dim} C(A^T) = n$
 - they add up to the whole space 
-- so they are ''orthogonal compliments'' in $\mathbb R^n$
+- so they are *orthogonal compliments* in $\mathbb R^n$
 
 
 ## Sources

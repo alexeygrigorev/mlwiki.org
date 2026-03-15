@@ -6,7 +6,7 @@ tags:
 title: Permutation Matrices
 ---
 ## Permutation Matrix
-A [Matrix](Matrix) that exchanges 2 or more rows is called a ''permutation matrix'' 
+A [Matrix](Matrix) that exchanges 2 or more rows is called a *permutation matrix* 
 - a permutation matrix $P$ is a matrix that is obtained by permuting rows/columns of identity matrix $I$
 - this is an important type of matrices - it's used for solving [System of Linear Equations](System_of_Linear_Equations) and for [LU Factorization](LU_Factorization)
 - e.g. for [Gaussian Elimination](Gaussian_Elimination) when we have a zero in the pivot position, we would like to exchange this to get non-zero pivot - this is done with a Permutation Matrix

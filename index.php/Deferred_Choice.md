@@ -8,7 +8,7 @@ title: Deferred Choice
 ## Deferred Choice
 Deferred Choice is a [workflow pattern](Workflow_Patterns). It it used to express a situation when the action you're going to take is not known till the point of executing it.
 
-So, ''Deferred choice'': When the choice is deferred to the point when we execute something 
+So, *Deferred choice*: When the choice is deferred to the point when we execute something 
 - for Petri Nets, visually looks identical to Exclusive Choice
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-deferred-choice.png" alt="Image">
 

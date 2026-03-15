@@ -6,9 +6,9 @@ tags:
 title: Banzhaf Power Index
 ---
 ## Banzhaf Power Index
-''Coalition'' is a group of people/parties that need to achieve some quota when voting for a law. Otherwise this law will not pass. 
+*Coalition* is a group of people/parties that need to achieve some quota when voting for a law. Otherwise this law will not pass. 
 
-The ''Banzhaf Power Index'' shows how strong a party is.
+The *Banzhaf Power Index* shows how strong a party is.
 
 
 Suppose we have a company with 200 shares in total. 
@@ -25,8 +25,8 @@ Is $N$ 48 times more important then $E$? To assess the importance we use the Ban
 
 ### The Power Index
 Critical Voter:
-- A coalition is ''winning'' if it has enough power to pass a low/decree/whatever. 
-- A voter in a winning coalition is ''critical'' if his withdrawal causes the coalition to become a loosing coalition 
+- A coalition is *winning* if it has enough power to pass a low/decree/whatever. 
+- A voter in a winning coalition is *critical* if his withdrawal causes the coalition to become a loosing coalition 
 
 Example:
 - there are $2^3$ coalitions in total, and $3$ of them are winning
@@ -43,9 +43,9 @@ Example:
 
 
 The Power: 
-- The ''Banzhaf Power'' $BP(a)$ of a voter $a$ is the number of winning coalitions in which $a$ is critical. 
-- The ''Total Banzhaf Power'' of a voting game is the sum of all Bahnzaf powers of all voters: $TBP = \sum_{a} BP(a)$
-- The ''Banzhaf Index'' of a voter $a$ is $\cfrac{BP(a)}{TBP}$
+- The *Banzhaf Power* $BP(a)$ of a voter $a$ is the number of winning coalitions in which $a$ is critical. 
+- The *Total Banzhaf Power* of a voting game is the sum of all Bahnzaf powers of all voters: $TBP = \sum_{a} BP(a)$
+- The *Banzhaf Index* of a voter $a$ is $\cfrac{BP(a)}{TBP}$
 
 
 Example:

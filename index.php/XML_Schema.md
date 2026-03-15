@@ -148,7 +148,7 @@ Also we can restrict some class
 
 ### Local vs Global Declaration
 Usually we define an element and reference it
-- this is called ''global declaration''
+- this is called *global declaration*
 
 However it's possible to describe an element with an anonymous type
 ```carbon
@@ -164,7 +164,7 @@ However it's possible to describe an element with an anonymous type
 
 Note that it can cause some problems
 - locally defined elements must belong to the namespace - but they don't
-- they are ''unqualified'' by default (no namespace is associated)
+- they are *unqualified* by default (no namespace is associated)
 - such elements belong to the element they're associated with
 - so we have to set <code>elementFormDefault="qualified"</code>
 - some links: [and [link](http://www.w3.org/TR/xmlschema-0/#NS)(http://stackoverflow.com/questions/1463138/what-does-elementformdefault-do-for-xml-when-is-it-used])
@@ -208,7 +208,7 @@ Consider the following XML:
 
 Here's the XML schema for it
 
-```scdoc
+```
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" 
   targetNamespace="http://foo.fr/solar_system" xmlns:s="http://foo.fr/solar_system">
 

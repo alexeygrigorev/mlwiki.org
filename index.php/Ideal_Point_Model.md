@@ -8,7 +8,7 @@ title: Ideal Point Model
 ## Ideal Point
 In a [Multi-Objective Optimization](Multi-Objective_Optimization) Problems there are a set of the "best" (Pareto-optimal) solutions. How to decide which one to take?
 
-The ''ideal point'' (or ''datum point'') is a solution that is not feasible, but most desired:
+The *ideal point* (or *datum point*) is a solution that is not feasible, but most desired:
 - we take all the extreme solutions
 - and take the values of criteria at which they are best
 - from these criteria we form the ideal point $i$

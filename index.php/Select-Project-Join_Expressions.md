@@ -6,9 +6,9 @@ tags:
 title: Select-Project-Join Expressions
 ---
 ## Select-Project-Join Expression
-In practice, most [Relational Algebra](Relational_Algebra) expressions (i.e. queries) are of the ''Select-Project-Join'' form (SPJ)
+In practice, most [Relational Algebra](Relational_Algebra) expressions (i.e. queries) are of the *Select-Project-Join* form (SPJ)
 
-an ''SPJ expression'' is
+an *SPJ expression* is
 - a [Relational Algebra](Relational_Algebra) expression
 - it consists only of selections, projections and joins
 - there are only equality predicates for selection (i.e. of form $A_j = B_i$)

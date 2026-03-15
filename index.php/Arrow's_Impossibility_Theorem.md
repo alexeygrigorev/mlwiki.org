@@ -35,18 +35,18 @@ $S$ is the "at least as good as" relation
 
 
 ## Axioms
-; Axiom 1: ''Completeness''
+; Axiom 1: *Completeness*
   $\forall x, y \in A:$ either  $x \ S \ y$ or $y \ S \ x$
 
-; Axiom 2: ''Consistency'' (or ''Transitivity'')
+; Axiom 2: *Consistency* (or *Transitivity*)
   $\forall x, y, z \in A: x \ S \ y \land y \ S \ z \Rightarrow x \ S \ z$
 
 
 ## Lemmas
 $\forall x, y, z \in A:$
-- (1) $x \ S \ x$ (''reflectivity'')
+- (1) $x \ S \ x$ (*reflectivity*)
 - (2) $x \ P \ y \Rightarrow x \ S \ y$
-- (3) $x \ P y \land y \ P \ z \Rightarrow x \ P \ z$ (''transitivity'' for $P$)
+- (3) $x \ P y \land y \ P \ z \Rightarrow x \ P \ z$ (*transitivity* for $P$)
 - (4) $x \ I \ y, y \ I \ z \Rightarrow x \ I \ z$ (?)
 - (5) either $x \ S \ y$ or $y \ P \ x$
 - (6) $x \ P \ y \land y \ S \ z \Rightarrow x \ P \ z$
@@ -108,7 +108,7 @@ $\square$
 
 
 ## Conditions
-The ''social welfare function'' $H$ it takes two individual rankings and produces the global (social) choice:
+The *social welfare function* $H$ it takes two individual rankings and produces the global (social) choice:
   $H(R_1, R_2) \to R$
 
 $H$ must satisfy the following conditions:
@@ -124,7 +124,7 @@ $H$ is defined for every pair $R_1$ and $R_2$
 - i.e. for each pair there should exist a solution
 - we want to avoid the [Condorcet Problem](Condorcet's_Rule#Condorcet's_Paradox) - a cycle
 
-This condition is also called ''Unrestricted Domain''
+This condition is also called *Unrestricted Domain*
 
 
 ### Condition 2: [Monotonicity](Monotonicity)
@@ -144,7 +144,7 @@ Independence to Third Alternatives is satisfied when
 ### Condition 4: Non-Imposition
 $H$ should not be imposed
 
-$H$ is ''imposed'' if
+$H$ is *imposed* if
 - for some distinct $x$ and $y$, for rankings $R_1$ and $R_2$: $x \ S \ y$
 - $S$ relates to the global ordering obtained from $H$
 
@@ -164,7 +164,7 @@ $H$ should not be dictatorial
 $H$ is dictatorial if 
 - $\exists$ individual $i$ s.t. $\forall x, y \in A: x \ P_i \ y \Rightarrow x \ P \ y$
 - no matter what is the individual ranking $R_i$
-- such individual $i$ is called ''the dictator''
+- such individual $i$ is called *the dictator*
 
 In other words:
 - for any alternatives, the choice of the dictator determines the outcome
@@ -251,15 +251,15 @@ Suppose we have two ratings:
 - i.e. both candidates agree that $x \ P \ y$
 
 But there's a strong opposition when it comes to $z$:
-- '''(1)''' $x$ vs $z$
+- '*(1)*' $x$ vs $z$
   - $x \ P_1 z \land z \ P_2 \ x$
   - the only possible outcome in this case is indifference (by Consequence 3)
   - $x \ I \ z$
-- '''(2)''' $y$ vs $z$
+- '*(2)*' $y$ vs $z$
   - $y \ P_1 z \land z \ P_2 \ y \Rightarrow y \ I \ z$
 
 
-by '''(1)''' + '''(2)''':
+by '*(1)*' + '*(2)*':
 - $y \ I \ z  \equiv z \ I \ y $
 - $x \ I \ z \land z \ I \ y \Rightarrow x \ I \ y$ by transitivity of $I$ (Lemma 4)
 - but it contradicts with $x \ P \ y$

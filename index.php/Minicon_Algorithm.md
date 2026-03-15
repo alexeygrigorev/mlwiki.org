@@ -19,7 +19,7 @@ An optimized version of the [Bucket Algorithm](Bucket_Algorithm_(Data_Integratio
 So, steps are
 - creating MCDs (corresponds to the Bucket creation step)
 - combining MCDs (the second step)
-- where MCDs are ''Minicon Descriptions'' - instead of buckets
+- where MCDs are *Minicon Descriptions* - instead of buckets
 
 
 ### Example

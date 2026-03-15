@@ -5,12 +5,11 @@ tags:
 - document-clustering
 title: Co-Clustering
 ---
-{{stub}}
 
 ## Co-Clustering
 Co-clustering is a set of techniques in [Cluster Analysis](Cluster_Analysis)
 - given some matrix $A$ we want to cluster rows of $A$ and columns of $A$ simultaneously 
-- this is a common task for ''dyadic'' data matrices such as [term-document matrices](Vector_Space_Models) or [user-item matrices](Collaborative_Filtering)
+- this is a common task for *dyadic* data matrices such as [term-document matrices](Vector_Space_Models) or [user-item matrices](Collaborative_Filtering)
 
 
 Co-clustering is also called bi-clustering 

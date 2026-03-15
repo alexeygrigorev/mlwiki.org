@@ -26,7 +26,7 @@ Thus,
 
 $P(X = m) = \frac{C_M^m \cdot C_{N - M}^{m - n}}{C_N^n}$
 
-This formula defines the ''hypergeometric distribution''.
+This formula defines the *hypergeometric distribution*.
 
 
 ### Example

@@ -18,7 +18,7 @@ LAV - Local-as-View Mediation
 
 
 ## LAV Mapping
-''LAV Mapping ''
+*LAV Mapping *
 - mapping $S \subseteq Q$ for some [Conjunctive Query](Conjunctive_Query) $Q(\vec{x}) \leftarrow A_1(\vec{u}_1), \ ..., \ A_k(\vec{u}_k)$ over the global relations 
 - this gives loose-coupling between global and local schemas
 

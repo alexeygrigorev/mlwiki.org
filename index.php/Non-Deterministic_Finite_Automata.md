@@ -6,7 +6,7 @@ tags:
 title: Non-Deterministic Finite Automata
 ---
 ## Non-Deterministic Finite Automata
-[Automata](Automata) that are ''non-deterministic'' (NFA) can be in several states at once 
+[Automata](Automata) that are *non-deterministic* (NFA) can be in several states at once 
 - from a state $q$ on input $a$ it can go to several different states 
   - this is "non-determinism"
   - [Deterministic Finite Automata](Deterministic_Finite_Automata) can go only to one state in such situations
@@ -31,7 +31,7 @@ A string $w$ is accepted if
 - $\exists p \in \delta(q_0, w): p \in F$
 
 
-The ''language'' $L(A)$ of $A$
+The *language* $L(A)$ of $A$
 - is the set of all strings it accepts
 - languages defined by NDA are also [Regular Languages](Regular_Languages)
 
@@ -105,7 +105,7 @@ Consider this sequence: $rbb$
 But also for any NFA $A_N$ there exists DFA $A_D$ s.t.
 - $L(A_N) \equiv L(A_D)$
 - thus, NFAs also define [Regular Languages](Regular_Languages)
-- can show that by ''subset construction''
+- can show that by *subset construction*
 
 
 ### Subset Construction
@@ -145,7 +145,7 @@ Recall the chessboard NFA
 |  <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/crs/automata/dna-ex1-cb.png" alt="Image"> ||   |    |   |  State |  |   $r$  |  $b$ |    | $\to$  |  1  |  $\{ 2,4 \}$  |  $\{ 5 \}$ |    |   |  2  |  $\{ 4,6 \}$  |  $\{ 1,3,5 \}$ |    |   |  3  |  $\{ 2,6 \}$  |  $\{ 5 \}$ |    |   |  4  |  $\{ 2,8 \}$  |  $\{ 1,5,6 \}$ |    |   |  5  |  $\{ 2,4,6,8 \}$  |  $\{ 1,3,7,9 \}$ |    |   |  6  |  $\{ 2,8 \}$  |  $\{ 3,5,9 \}$ |    |   |  7  |  $\{ 4,8 \}$  |  $\{ 5 \}$ |    |   |  8  |  $\{ 4,6 \}$  |  $\{ 5,7,9 \}$ |    |  $*$  |  9  |  $\{ 6,9 \}$  |  $\{ 5 \}$ |  
 
 Let's construct a DFA for it
-- we'll do a ''lazy'' construction of DFA states:
+- we'll do a *lazy* construction of DFA states:
   - that is, instead of generating all elements of $A^Q$ we will add only needed ones on the go
 
 
@@ -208,7 +208,7 @@ Have a look on $E$:
 - on input 1 it can to $B$ and there to $C$ 
 - or to $C$ and there to $D$
 - so there are quite a few nodes that are directly reachable from $E$ 
-- this leads us to the notion of ''closure'' of $E$ 
+- this leads us to the notion of *closure* of $E$ 
 
 
 ### Closure of States

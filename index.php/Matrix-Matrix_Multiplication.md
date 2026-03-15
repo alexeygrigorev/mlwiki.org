@@ -122,7 +122,7 @@ What about $R(A \, B) \subseteq R(B)$?
 ## Implementation
 ### SQL
 Sparse matrix multiplication
-```scdoc
+```
 select a.row_num, b.col_num, sum(a.value * b.value)
   from A a, B b
  where a.col_num = b.row_num
@@ -137,7 +137,7 @@ group by a.row_num, b.col_num;
 
 E.g. Apache Flink:
 
-```text only
+```
 matrixA.join(matrixB).where(1).equalTo(0)
        .map(new ProjectJoinResultMapper()).groupBy(0, 1).sum(2)
 ```

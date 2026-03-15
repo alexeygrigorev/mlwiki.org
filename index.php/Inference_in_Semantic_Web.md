@@ -13,10 +13,10 @@ In [Semantic Web](Semantic_Web), using [RDFS](RDFS) and [OWL](OWL) many things c
 
 
 Inferencing - a systematic process of adding new tuples to an RDF graph based on some patterns (rules)
-- ''asserted triples'' - RDF triples provided by some data source
-- ''inferred triples'' - new triples added by inference rules
-- ''inference rules'' - systematic patterns that define how and what to infer
-- ''inference engine'' - engine that does the inference
+- *asserted triples* - RDF triples provided by some data source
+- *inferred triples* - new triples added by inference rules
+- *inference rules* - systematic patterns that define how and what to infer
+- *inference engine* - engine that does the inference
 
 
 ### Motivating Example
@@ -30,7 +30,7 @@ Suppose you have a [SPARQL](SPARQL) query on your [RDF](RDF) graph
 Possible solution:
 - use [SPARQL#Transitive Queries](SPARQL#Transitive_Queries)
 
-```scdoc
+```
 SELECT ?item 
 WHERE {
   ?class :subClassOf* :Fruit . 
@@ -42,13 +42,13 @@ WHERE {
 But users will have to do it each time 
 - alternatives? 
 - can have rules if $X$ subclass of $Y$, then $\forall x \in X: x \in Y$
-- ''inferencing'' - given some information we can determine related information - and consider that it's also stored in our database 
+- *inferencing* - given some information we can determine related information - and consider that it's also stored in our database 
 - so here we'd infer that if <code>:RedDelicious</code> is an <code>:Apple</code>, it's also a <code>:Fruit</code>
 - <code>:Fruit</code> is broader than <code>:Apple</code>, so <code>:Fruit</code> is a subclass of <code>:Apple</code>
 
 
 ### Inferencing
-The motivating example illustrates the ''type propagation rule''
+The motivating example illustrates the *type propagation rule*
 - this is a part of the [RDFS](RDFS) language: <code>rdfs:subClassOf</code> relation
 - rule: $X$ <code>rdfs:subClassOf</code> $Y \Rightarrow $ every member of $X$ is also a member of $Y$
 

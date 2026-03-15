@@ -8,7 +8,7 @@ tags:
 title: CAP Theorem
 ---
 ## CAP Theorem
-'''CAP''' stands for ['''C'''onsistency](Consistency_(databases)), '''A'''vailability and '''P'''artition tolerance
+'*CAP*' stands for ['*C*'onsistency](Consistency_(databases)), '*A*'vailability and '*P*'artition tolerance
 
 ### [Consistency](Consistency_(databases))
 In a consistent system values of any objects don't contradict each other
@@ -26,7 +26,7 @@ If two parts of your system cannot communicate to each other, can they proceed o
 If a system is partition-tolerant, then it can continue to operate even in presence of failures
 
 
-'''Theorem:''' It is impossible to implement a [distributed system](Distributed_Databases) which will have all three mentioned properties. Only 2 of the 3 is possible to achieve
+'*Theorem:*' It is impossible to implement a [distributed system](Distributed_Databases) which will have all three mentioned properties. Only 2 of the 3 is possible to achieve
 
 
 ## Choices

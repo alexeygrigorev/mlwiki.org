@@ -82,18 +82,18 @@ Consequences:
   - $\pi(a_i, a_j)$ is a weighed sum of $\pi_k$ which are always positive
   - this is because the preference functions always return positive values
 - $\pi(a_i, a_j) + \pi(a_j, a_i) \leqslant 1$
-  - '''todo'''
+  - '*todo*'
 
 
 
 ## Net Flow Scores
 For each $a_i, a_j \in A$ we compute net flow scores
 - $\Phi^+(a_i) = \cfrac{1}{n-1} \sum_{a_j \in A} \pi(a_i, a_j)$ 
-  - ''positive outranking net flow'' 
+  - *positive outranking net flow* 
   - "strengths" of an alternative, how an alternative outranks others 
   - want to maximize it
 - $\Phi^-(a_i) = \cfrac{1}{n-1} \sum_{a_j \in A} \pi(a_j, a_a)$
-  - ''negatives outranking net flow'' 
+  - *negatives outranking net flow* 
   - "weaknesses" of an alternative, how an alternative is outranked by others
   - want to minimize it
 
@@ -106,7 +106,7 @@ The values are normalized:
 The flow score is computed as difference between the positive flow and negative flow
 - $\Phi(a_i) = \Phi^+(a_i) - \Phi^-(a_i) \in [-1, 1]$ and 
 
-''Uni-criteria flow''
+*Uni-criteria flow*
 - flow computed with respect to only one criteria $f_k$
 - $\Phi_k(a) = \cfrac{1}{n-1} \sum_{b \in A} [ P_k(a, b) - P_k(b, a) ]$
 
@@ -212,7 +212,7 @@ Consider a "Buying a new car" example (from D-Sight [link](http://www.d-sight.co
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/mcda/gaia-new-car.png" alt="Image"> 
 - points are alternatives
 - lines with points at the end are criteria 
-- the red stick is a ''decision stick'' - the projection of weights to the plain 
+- the red stick is a *decision stick* - the projection of weights to the plain 
 
 
 Based on a GAIA plane can make some observations:

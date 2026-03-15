@@ -10,8 +10,8 @@ title: Association Rule Mining
 Association rule mining:
 - Finding all the rules $X \to Y$ such that
 - $P(X \land Y) \geqslant \text{min_supp}$ and 
-- $P(Y |  X) \geqslant \text{min_con}$
-- these are ''predictive'' patterns
+- $P(Y \mid X) \geqslant \text{min_con}$
+- these are *predictive* patterns
 
 E.g.
 - $\text{wings} \to \text{beak}$
@@ -19,11 +19,11 @@ E.g.
 
 
 Association rules
-- $X \to Y$ is an ''association rule'' if
+- $X \to Y$ is an *association rule* if
 - $X$ and $Y$ are itemsets 
 - $X \cap Y = \varnothing$
-- $X$ is called the ''body''
-- $Y$ is called the ''head'' (conclusion)
+- $X$ is called the *body*
+- $Y$ is called the *head* (conclusion)
 
 
 ### Motivation
@@ -32,7 +32,7 @@ Consider this example
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/kddm/as-rules-ex1.png" alt="Image">
 
 
-|     |  pasta  |  t.souse  |  red wine  |  seafood  |  white wine  |  salami  |   1   |  {{yes}}  |  {{yes}}  |  {{yes}}  |    |    |    ||   2   |  {{yes}}  |    |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{yes}} ||   3   |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{yes}}  ||   4   |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{yes}}  |  {{yes}}  ||   5   |    |    |    |  {{yes}}  |  {{yes}}  |    |
+|     |  pasta  |  t.souse  |  red wine  |  seafood  |  white wine  |  salami  |   1   |  Yes  |  Yes  |  Yes  |    |    |    ||   2   |  Yes  |    |  Yes  |  Yes  |  Yes  |  Yes ||   3   |  Yes  |  Yes  |  Yes  |  Yes  |  Yes  |  Yes  ||   4   |  Yes  |  Yes  |  Yes  |  Yes  |  Yes  |  Yes  ||   5   |    |    |    |  Yes  |  Yes  |    |
 
 Pattern 1: How to organize supermarket?
 - we see that seafood and white wine usually go together, so put them together 

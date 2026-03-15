@@ -24,11 +24,11 @@ Experiment:
 
 ## Sampling Distribution
 - if we repeat over and over again, each time we will probably have different estimates of $\hat{p}$
-- so there is a ''variability'' in the estimate
-- this is called ''sampling variability'', and it occurs because of the randomness in our data
+- so there is a *variability* in the estimate
+- this is called *sampling variability*, and it occurs because of the randomness in our data
 
 
-The probability distribution of all the possible values of an estimator is it's ''sampling distribution''.
+The probability distribution of all the possible values of an estimator is it's *sampling distribution*.
 
 
 ### Unbiased estimation
@@ -42,10 +42,10 @@ For the entire experiment:
 - 10 coin flips = 10 Bernoulli experiments with outcomes $X_1, ..., X_{10}$
 - so, $\hat{p} = \cfrac{X_1 + ... + X_{10}}{10} = \bar{X}$
 - thus, $E(\hat{p}) = p$ since $E(X_i) = p$ and $E(\bar{X}) = \cfrac{10 p}{10}  = p$
-- and $\hat{p}$ is called ''unbiased estimator''
+- and $\hat{p}$ is called *unbiased estimator*
 
 
-A statistic used to estimate a parameter is ''unbiased'' if the expected value of its sampling distribution is equal to the value of the parameter being estimated
+A statistic used to estimate a parameter is *unbiased* if the expected value of its sampling distribution is equal to the value of the parameter being estimated
 
 
 ### Variance estimation

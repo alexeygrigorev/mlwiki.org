@@ -46,7 +46,7 @@ Discount some probability mass of seen words
 - so it's some sort of interpolation between LME probabilities and prior/collection model
 
 
-=== Additive Smoothing === 
+### Additive Smoothing
 [Laplace Smoothing](Laplace_Smoothing) (or Additive Smoothing):
 - $\hat p_\lambda (w \mid \theta) = \cfrac{c(w, D) + \lambda}{\sum_{w \in V} c(w, D)} = \cfrac{c(w, D)}- so it gives the same probability mass $\cfrac{\lambda}
 If $\lambda = 1$ then we have "+1 Smoothing"
@@ -137,7 +137,7 @@ Interpolation:
 - for example, if a word is frequent in the collection LM 
 
 
-Alternative Strategy: ''Back Off''
+Alternative Strategy: *Back Off*
 - trust MLE for high count words
 - but discount and redistribute probability mass for less common terms
 - popular in [Speech Recognition](Speech_Recognition), but less popular in [Information Retrieval](Information_Retrieval)

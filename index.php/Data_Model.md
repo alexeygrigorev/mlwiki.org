@@ -7,7 +7,7 @@ tags:
 title: Data Model
 ---
 ## Data Model
-A ''data model'' is a notation for describing data. 
+A *data model* is a notation for describing data. 
 - It makes sure that all applications see clean and organized data
 
 
@@ -26,7 +26,7 @@ It consists of 3 parts
   - sequences of bytes?
 
 
-=== Operations on Data === 
+### Operations on Data
 - what queries are efficiently supported by this organization and what are not? 
 
 It can be

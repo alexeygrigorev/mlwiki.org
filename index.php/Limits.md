@@ -22,8 +22,8 @@ Interpretation:
 - then $L$ is the limit of $f(x)$ 
 
 or
-- choose some ''output tolerance'' $\varepsilon$ 
-- then there exists some ''input tolerance'' $\delta$ such that $L$ lies within $\varepsilon$ of $f(x)$
+- choose some *output tolerance* $\varepsilon$ 
+- then there exists some *input tolerance* $\delta$ such that $L$ lies within $\varepsilon$ of $f(x)$
 - if you change $\varepsilon$, you need to be able to update $\delta$ - this has to be true for any $\varepsilon$
 
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/limit-def.png" alt="Image">
@@ -76,10 +76,10 @@ The function oscillates up and down as the input approaches some value
 Rules for limits
 
 Suppose $\lim\limits_{x \to a} f(x)$ and $\lim\limits_{x \to a} g(x)$ exist. Then
-- '''Sum Rule''': $\lim \big(f(x) + g(x) \big) = \lim f(x) + \lim g(x)$
-- '''Product Rule''': $\lim \big(f(x) \cdot g(x) \big) = \left[\lim f(x)\right] \cdot \left[ \lim g(x) \right]$
-- '''Quotient Rule''': $\lim \cfrac{f(x)}{g(x)} = \cfrac{\lim f(x)}{\lim g(x)}$ (when $\lim g(x) \ne 0$)
-- '''Chain Rule''' (or '''Composition Rule'''): $\lim f \big(g(x) \big) = f \big(\lim g(x) \big)$ if $f$ is continuous 
+- '*Sum Rule*': $\lim \big(f(x) + g(x) \big) = \lim f(x) + \lim g(x)$
+- '*Product Rule*': $\lim \big(f(x) \cdot g(x) \big) = \left[\lim f(x)\right] \cdot \left[ \lim g(x) \right]$
+- '*Quotient Rule*': $\lim \cfrac{f(x)}{g(x)} = \cfrac{\lim f(x)}{\lim g(x)}$ (when $\lim g(x) \ne 0$)
+- '*Chain Rule*' (or '*Composition Rule*'): $\lim f \big(g(x) \big) = f \big(\lim g(x) \big)$ if $f$ is continuous 
 
 
 ## [L'Hopital's Rule](L'Hopital's_Rule)

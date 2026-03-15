@@ -15,7 +15,7 @@ Assume we run a series of [Bernoulli Trial](Bernoulli_Trial)s where the probabil
 The trials stop once $A$ occures, i.e. if $A$ occures at $k$-th trial, it didn't occur in previous $k -1$ trials
 
 [Random Variable](Random_Variable) $X$ is the number of trials we should run until we see $A$
-- the distribution of $X$ is called ''Geomentric''
+- the distribution of $X$ is called *Geomentric*
 
 Formally, Geometric Distribution describes the waiting time until a success for indepented and identically distributed Bernoulli Random Variables
 

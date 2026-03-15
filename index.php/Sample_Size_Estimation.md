@@ -43,7 +43,7 @@ For 90% CI $n \approx 753$
 
 ### [R](R)
 Example 1
-```scdoc
+```
 p = 0.5
 ME = 0.03
 z = qnorm(0.025, mean=0, sd=1, lower.tail=F)
@@ -53,7 +53,7 @@ n = z^2 * p * (1 - p) / ME^2
 
 Example 2:
 - What sample size is needed to attain a margin error of 0.5% for 99% CI?
-```text only
+```
 p = 0.5 // worst-case estimate
 ME = 0.005
 cl = 0.99

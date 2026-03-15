@@ -31,14 +31,14 @@ Properties of constraints in [Lattice](Lattice)
 
 ### Anti-Monotone
 Anti-monotone constraint
-- A constraint $q$ is ''anti-monotone'' iff 
+- A constraint $q$ is *anti-monotone* iff 
   - when an itemset $X$ satisfies $q$, then any $Y \subseteq X$ also satisfies $q$.
 - $q(X) \Rightarrow \forall Y \subseteq X : q(Y)$
 
 
 ### Monotone
 Monotone constraint
-- A constraint $q$ is ''monotone'' iff 
+- A constraint $q$ is *monotone* iff 
   - when an itemset $X$ satisfies $q$, then any $Y \supseteq X$ also satisfies $q$.
 - $q(X) \Rightarrow \forall Y \supseteq X : q(Y)$
 

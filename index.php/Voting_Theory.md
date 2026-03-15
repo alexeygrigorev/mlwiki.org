@@ -16,7 +16,7 @@ Examples:
 ## Notation and Relations
 - let $A = \{a, b, c, ...\}$ be the set of candidates
 - there are $N$ voters 
-- each voter can express his preference on the basis of a ''total order''
+- each voter can express his preference on the basis of a *total order*
   - i.e. he has to rank all the candidates 
 
 For this notation we define the following relations ([Voting Theory Relations](Voting_Theory_Relations))
@@ -25,7 +25,7 @@ For this notation we define the following relations ([Voting Theory Relations](V
 
 
 ## Voting Mechanisms and Principles
-A ''voting mechanism'' (or ''voting procedure'' or ''voting method'') takes a collection of votes (individual preferences of the candidates from set $A$) and forms the global ranking. Usually it choses a single candidate from the set $A$.
+A *voting mechanism* (or *voting procedure* or *voting method*) takes a collection of votes (individual preferences of the candidates from set $A$) and forms the global ranking. Usually it choses a single candidate from the set $A$.
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/vt/voting-mechanism.png" alt="Image">
 
@@ -47,7 +47,7 @@ There are several criteria
 - [Separability](Separability)
 
 
-|    |  [PV](Plurality_Voting)  |  [2PV](Two-Round_Voting)  |  [Borda](Borda's_Rule)  |  [Cond.](Condorcet's_Rule)  |   [Monotonicity](Monotonicity)  |  [{{yes}}](Plurality_Voting#Monotonicity) ||  [{{no}}](Two-Round_Voting#Monotonicity)  ||  [{{yes}}](Borda's_Rule#Monotonicity) ||  [{{no}}](Condorcet's_Rule#Monotonicity) ||   Solution Existence  |  {{yes}}  |  {{yes}}  |  {{yes}}  |  [{{no}}](Condorcet's_Rule#Condorcet_Paradox) ||   [Manipulation](Independence_to_Third_Alternatives)  |  [{{no}}](Plurality_Voting#Independence_to_Third_Alternatives) ||  [{{no}}](Two-Round_Voting#Independence_to_Third_Alternatives)  ||  [{{no}}](Borda's_Rule#Independence_to_Third_Alternatives)  ||  [{{no}}](Condorcet's_Rule#Independence_to_Third_Alternatives) ||   [Separability](Separability)  |  [{{yes}}](Plurality_Voting#Separability) ||  [{{no}}](Two-Round_Voting#Separability)  ||  [{{yes}}](Borda's_Rule#Separability) ||  [{{yes}}](Condorcet's_Rule#Separability) ||   [Condorcet Fairness](Condorcet's_Rule#Fairness)  |  {{no}}  ||  {{no}}  ||  [{{no}}](Borda's_Rule#Condorcet_Fairness)  ||  {{yes}} |
+|    |  [PV](Plurality_Voting)  |  [2PV](Two-Round_Voting)  |  [Borda](Borda's_Rule)  |  [Cond.](Condorcet's_Rule)  |   [Monotonicity](Monotonicity)  |  [Yes](Plurality_Voting#Monotonicity) ||  [No](Two-Round_Voting#Monotonicity)  ||  [Yes](Borda's_Rule#Monotonicity) ||  [No](Condorcet's_Rule#Monotonicity) ||   Solution Existence  |  Yes  |  Yes  |  Yes  |  [No](Condorcet's_Rule#Condorcet_Paradox) ||   [Manipulation](Independence_to_Third_Alternatives)  |  [No](Plurality_Voting#Independence_to_Third_Alternatives) ||  [No](Two-Round_Voting#Independence_to_Third_Alternatives)  ||  [No](Borda's_Rule#Independence_to_Third_Alternatives)  ||  [No](Condorcet's_Rule#Independence_to_Third_Alternatives) ||   [Separability](Separability)  |  [Yes](Plurality_Voting#Separability) ||  [No](Two-Round_Voting#Separability)  ||  [Yes](Borda's_Rule#Separability) ||  [Yes](Condorcet's_Rule#Separability) ||   [Condorcet Fairness](Condorcet's_Rule#Fairness)  |  No  ||  No  ||  [No](Borda's_Rule#Condorcet_Fairness)  ||  Yes |
 
 Other principles:
 - [Unanimity](Unanimity)

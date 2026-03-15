@@ -20,7 +20,7 @@ The process of (re-)discovering a workflow consists of 3 phases:
 
 ## Definitions
 ### Implicit Places
-One important caveat: implicit places. A place is ''implicit'' if adding or removing it does not cause the behavior of a workflow. 
+One important caveat: implicit places. A place is *implicit* if adding or removing it does not cause the behavior of a workflow. 
 
 Example
 - This workflow does not contain any implicit places
@@ -36,7 +36,7 @@ These places cannot be seen from the logs since they have no affect on the behav
 ### Complete Log
 We assume that the log we feed into this algorithm is complete.
 
-A log of a workflow net $N$ is ''complete'' if
+A log of a workflow net $N$ is *complete* if
 - if it contains all other possible logs of $N$
 - it contains all transitions $t$ from this $N$ 
 
@@ -52,25 +52,25 @@ In order to find discover a workflow net from logs, we need to establish the ord
 
 
 We define the following relations between transitions in the log
-- ''direct succession'' $x > y$ 
+- *direct succession* $x > y$ 
   - $x > y \iff$ we see in log sub-traces $...xy...$
-- ''causality'' $x \to y$
+- *causality* $x \to y$
   - $x \to y \iff x > y \land y \not > x$
   - i.e. if there are traces $...xy...$ and no traces $...yx...$
   - this relation may mean that we will need to put a place between $x$ and $y$
-- ''parallel'' $x \ | | \ y$
+- *parallel* $x \ | | \ y$
 - $x \ | | \ y \iff x > y \land y > x$
 - i.e. can see both $...xy...$ and $...yx...$
   - cannot put a place for such $x$ and $y$ - if we placed, we'd impose some order on them
   - this is symmetric relation ($a \ | | \ b \to b \  |  \ a$)
-- ''unrelated'' $x \ \# \ y$
+- *unrelated* $x \ \# \ y$
   - $x \ \# \ y \iff x \not > y \land y \not > x$
   - i.e. there are no traces $...xy...$ nor $...yx...$
   - this is also symmetric relation $x \ \# \ y \to y \ \# \ x$
 
 
 The set of all relations for a log $L$ 
-- is called the ''footprint'' of $L$
+- is called the *footprint* of $L$
 
 
 
@@ -104,7 +104,7 @@ $\alpha(L):$
   - in this example: $a \ \# \ b, c \ \# \ d, a \to c, a \to d, b \to c, b \to d$
   - in other words: all transitions from $A$ put tokens to the place $p$, and transitions of $B$ take tokes from $p$
 - once found all such sets, we retain only the maximal ones
-  - a ''maximal set'' contains the maximal possible number of elements that can be connected via single place
+  - a *maximal set* contains the maximal possible number of elements that can be connected via single place
 - for each such pair $(A, B)$ we connect all elements from $A$ with all elements from $B$ with one single place $p_{(A, B)}$ 
 - then we also connect appropriate transitions with the input and output places
 - finally we connect the start place $i$ to all transitions from $T_I$
@@ -151,7 +151,7 @@ So we have:
 ## Limitations
 There are some limitations of the $\alpha$ algorithm.
 
-=== Loops of Length One === 
+### Loops of Length One
 If there are short loops of length one, $\alpha$ cannot re-discover them. 
 
 suppose we have the following log
@@ -209,7 +209,7 @@ In general, the constraints the difficult constraints are:
 We want to avoid such constructs in out workflow nets because they cannot be discovered.
 
 
-A workflow net belongs to ''Structured Workflow Net'' (SWF) class of workflow nets if
+A workflow net belongs to *Structured Workflow Net* (SWF) class of workflow nets if
 - it doesn't have such constructions
 - it has no implicit places
 
@@ -258,21 +258,21 @@ New relations
 
 And we redefine the relations that cause the error 
 - $a \to b \iff a > b \land (b \not > a \lor a \ \diamondsuit \ b)$
-  - this way we can correctly identify the ''follow'' relation when there's a loop of length 2
+  - this way we can correctly identify the *follow* relation when there's a loop of length 2
 - $a \ | | \ b \iff a > b \land b > a \land a \ \not \diamondsuit \ b$
-- by adding the last condition way we don't misidentify the ''parallel'' relation 
+- by adding the last condition way we don't misidentify the *parallel* relation 
 
 
 However, there's one caveat. Short loops of length one also can produce such sequences  
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/short-loop1-problem-for2.png" alt="Image">
-- therefore at this step we assume that the net is ''one-loop-free'' - i.e. it does not contain loops of length 1
-- if it's not the case, we can turn our worflow net into ''one-loop-free'' by removing all transitions that create these loops. we discuss below why it is possible.  
+- therefore at this step we assume that the net is *one-loop-free* - i.e. it does not contain loops of length 1
+- if it's not the case, we can turn our worflow net into *one-loop-free* by removing all transitions that create these loops. we discuss below why it is possible.  
 - we will address this problem during pre-procession step
 - also note that for one-loop-free workflow nets $a \ \triangle \ b \Rightarrow b \ \triangle \ a$
 
 
 ### Loops of Length 1
-a transition is ''one-loop'' transition if it participates in a loop of length 1 
+a transition is *one-loop* transition if it participates in a loop of length 1 
 
 Properties 
 - one-loop transition cannot be connected to the input or output places (otherwise such a network would not be a workflow net) 
@@ -292,7 +292,7 @@ For example:
 
 Idea: 
 - handle these transitions during pre- and post-processing stages
-- identify ''one-loop'' transition $t$ by searching for patterns like $...tt...$
+- identify *one-loop* transition $t$ by searching for patterns like $...tt...$
 
 determine the places $p$ to which it should be connected 
 to do it we check: 

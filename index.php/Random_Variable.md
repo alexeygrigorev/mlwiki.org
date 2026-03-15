@@ -7,12 +7,12 @@ title: Random Variable
 ---
 ## Random Variable
 Random Variables (RV)
-- A variable is ''random'' if it can take some value with certain probability
+- A variable is *random* if it can take some value with certain probability
 
 
 ## Types of Random Variables
 ### Discrete Random Variables
-A RV is ''discrete'' if it takes certain isolated values.
+A RV is *discrete* if it takes certain isolated values.
 - the # of possible values can be finite or infinite
 - example: the number of born boys
 

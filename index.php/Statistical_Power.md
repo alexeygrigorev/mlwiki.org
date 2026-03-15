@@ -8,7 +8,7 @@ title: Statistical Power
 ---
 ## Statistical Power
 How to detect a false $H_0$? 
-- ''The power of a test'' is the probability of making a correct decision (by rejecting the $H_0$) when the $H_0$ is false. 
+- *The power of a test* is the probability of making a correct decision (by rejecting the $H_0$) when the $H_0$ is false. 
 - The higher the power, the more sensitive the test in detecting the false hypothesis.
 
 How to have higher power? 

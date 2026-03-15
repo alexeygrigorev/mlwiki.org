@@ -5,7 +5,6 @@ tags:
 - game-theory
 title: Bayesian Game
 ---
-{{draft}}
 
 ## Bayesian Games
 ### Motivation

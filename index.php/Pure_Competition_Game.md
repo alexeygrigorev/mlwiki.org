@@ -13,7 +13,7 @@ So a pure competition game is where
 - $a \in A, u_1(a) + u_2(a) = c$
 - means that if somebody wins, another player loses exactly the amount the first player wins
 - this is also called  constant sum game
-- if $c$ = 0, a game is called a ''zero sum game'' 
+- if $c$ = 0, a game is called a *zero sum game* 
 
 
 ## Zero Sum Games

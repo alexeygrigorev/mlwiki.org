@@ -27,7 +27,7 @@ If documents have unit length, then cosine similarity is the same as [Dot Produc
 - for documents $\text{cosine}(\mathbf d_1, \mathbf d_2) \in [0, 1]$
 - it is max when two documents are the same
 - how to define a distance? distance function should become larger as elements become less similar
-- since maximal value of cosine is 1, we can define '''cosine distance''' as 
+- since maximal value of cosine is 1, we can define '*cosine distance*' as 
 - $d_c(\mathbf d_1, \mathbf d_2) = 1 - \text{cosine}(\mathbf d_1, \mathbf d_2) = 1 -  \cfrac{\mathbf d_1^T \mathbf d_2}{\|  \mathbf d_1 \| \cdot \| \mathbf d_2 \
 ### [Metricity](Distance_Functions)
 Let's check if cosine distance is a proper metric, i.e. it satisfies all the requirements

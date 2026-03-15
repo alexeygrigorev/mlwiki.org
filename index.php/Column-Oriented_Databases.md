@@ -23,8 +23,8 @@ Are better for storing large amounts of data, especially when the number of colu
 
 
 - Tables are distributes across different servers 
-- A table is broken into many ''tablets'', each containing multiple rows (''regions'' in HBase) 
-- Each tablet is broken into ''column families'', each containing set of columns 
+- A table is broken into many *tablets*, each containing multiple rows (*regions* in HBase) 
+- Each tablet is broken into *column families*, each containing set of columns 
 - Each column family spans multiple rows - and stored in chunks of the [Distributed File System](Distributed_File_Systems)
 - Each chunk is served by a tablet server (which also takes care of replicas) 
 
@@ -44,7 +44,7 @@ Search:
 ## Example
 <img src="https://raw.github.com/alexeygrigorev/ulb-adb-project-couchbd/master/report/images/col-oriented-db-example.png" alt="Image">
 
-- The row is indexed by a key ('''transaction ID''')
+- The row is indexed by a key ('*transaction ID*')
 - Column families have multiple columns, and columns are stored within single chunks 
 - Each Column Family may be stored on different chunk servers 
 - The number of column families is fixed, but the number of columns isn't - you may create as many as you want. 

@@ -8,7 +8,7 @@ title: Redo Logging
 ## Redo Logging
 This is a [Database Transaction Log](Database_Transaction_Log) for dealing with [Crash Recovery](Crash_Recovery)
 
-Also called ''deferred modification'' 
+Also called *deferred modification* 
 - we don't record the old value, but the new value 
 - instead of undoing actions, we will do them 
 - $\langle T_i, \text{commit} \rangle$ record may appear earlier than the actual modification is written to disk

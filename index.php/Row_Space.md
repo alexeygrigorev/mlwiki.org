@@ -8,7 +8,7 @@ title: Row Space
 ## Row Space
 This is one of the [Four Fundamental Subspaces](Four_Fundamental_Subspaces)
 
-A ''Row Space'' $C(A^T)$ of a matrix $A$ is all linear combinations of rows of $A$, or all combinations of columns of $A^T$
+A *Row Space* $C(A^T)$ of a matrix $A$ is all linear combinations of rows of $A$, or all combinations of columns of $A^T$
 
 
 Row Space

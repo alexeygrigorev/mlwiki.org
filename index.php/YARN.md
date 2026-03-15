@@ -29,7 +29,7 @@ It has:
 
 Roles of components:
 - node managers launch and monitor containers (which are unix processes)
-- a client contacts the RM and asks to run a ''master process''
+- a client contacts the RM and asks to run a *master process*
 - if the requirements can be satisfied, YARN finds a node manager that can run it 
 - then the application master can request more containers for its processes
 
@@ -84,7 +84,7 @@ Job Submission:
 
 
 Request constraints that Resource Manager has to satisfy:
-- Locality constraint. Optimal case when the task is ''data local'', or at least ''rack local''
+- Locality constraint. Optimal case when the task is *data local*, or at least *rack local*
 - Memory and CPU requirements. By default, each task is allocated 1024 MB and 1 CPU 
 
 

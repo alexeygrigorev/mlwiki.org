@@ -186,7 +186,7 @@ Matrix Solution
 
 
 ### Solving $A \mathbf x = \mathbf 0$
-Such systems are called ''homogeneous'' - see [Homogeneous Systems of Linear Equations](Homogeneous_Systems_of_Linear_Equations)
+Such systems are called *homogeneous* - see [Homogeneous Systems of Linear Equations](Homogeneous_Systems_of_Linear_Equations)
 
 
 ### Complete Solution to $A \mathbf x = \mathbf b$
@@ -199,7 +199,7 @@ Steps:
 - set all free variables to 0 and solve - get $\textbf x_p = \textbf x_\text{particular}$ 
 - then solve $A \mathbf x_n = \mathbf 0$ - get all $\mathbf x_n$ - all $\mathbf x$ that solve the homogeneous system
 - Then find all other solutions: they are $\mathbf x = \textbf x_p + \mathbf x_n$
-- this solution is called ''the complete solution''
+- this solution is called *the complete solution*
 - why? $A \mathbf x_p = \mathbf b$ and $A \mathbf x_n = \mathbf 0$. Add them and get $A \cdot (\mathbf x_p + \mathbf x_n) = \mathbf b + \mathbf 0 = \mathbf b$
 - so we can the solution as the Nullspace $C(A)$ but shifted away from the origin by $x_p$ 
 - note that this solution doesn't form a subspace
@@ -244,11 +244,11 @@ for which $\mathbf b$ we can solve $A \mathbf x = \mathbf b$?
 
 ### Full Rank
 - If our $A$ is square, $m = n = r$
-- then there's always a solution, and $A$ is called ''invertible''
+- then there's always a solution, and $A$ is called *invertible*
 - $N(A) = \{ \ \mathbf 0 \ \}$ - there's only one unique solution
 
 
-=== $r < m$ and $r < n$ === 
+### $r < m$ and $r < n$
 <img src="http://habrastorage.org/files/d2a/f16/064/d2af160643b24017846c05381c600fe6.png" alt="Image">
 
 - $A \mathbf x = \mathbf 0$ always have a solution - there's always something in the [Nullspace](Nullspace) $N(A)$ of $A$ apart from the zero-vector

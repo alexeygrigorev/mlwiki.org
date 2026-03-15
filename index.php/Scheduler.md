@@ -7,9 +7,9 @@ tags:
 title: Scheduler
 ---
 ## Scheduler
-The ''Transaction Manager'' is a component of a [Database](Database#Classical_DBMS_Architecture) that issues read and write requests to the ''scheduler''.
+The *Transaction Manager* is a component of a [Database](Database#Classical_DBMS_Architecture) that issues read and write requests to the *scheduler*.
 
-The ''scheduler'' determines the order of execution of these requests
+The *scheduler* determines the order of execution of these requests
 - Given some transactions,  
 - Find a [conflict-serializable schedule](Serializable_Schedule) to execute them
 

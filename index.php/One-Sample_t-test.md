@@ -48,9 +48,9 @@ We know that
 
 
 $p$-value:
-- $P( |  \bar{X} - \mu | \geqslant | -14.15 - 0 |) = $
+- $P( \mid \bar{X} - \mu \mid \geqslant | -14.15 - 0 |) = $
 - $P\left( \left|  \cfrac{\bar{X} - \mu}{\sqrt{s^2 / n}} \right| \geqslant \cfrac{14.15}{\sqrt{14.13^2 / 400}}\right) \approx $
-- $P( |  t_{399} | \geqslant 20.03 ) =$
+- $P( \mid t_{399} \mid \geqslant 20.03 ) =$
 - $2 \cdot P( t_{399} \leqslant -20.03) \approx$
   - $1 / 3.5 \cdot 10^{64}$
 
@@ -60,7 +60,7 @@ Extremely small|   Reject the $H_0$ and conclude that $\mu \neq 0$
 ### R code
 Our test statistic is $T = \cfrac{\bar{X} - \mu}{\sqrt{s^2 / n}}$.
 
-```gdscript
+```
 xbar = mean(ch)
 s2 = var(ch)
 n = length(ch)

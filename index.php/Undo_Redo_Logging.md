@@ -13,7 +13,7 @@ Undo/Redo Logging is a combination of two logging approaches:
 - [Redo Logging](Redo_Logging)
 
 
-=== Log Record === 
+### Log Record
 Each log record has the following form:
 - $\langle T_i, X, v_\text{new}, v_\text{old} \rangle$
 - $T_i$ - transaction identifier
@@ -32,8 +32,8 @@ Each log record has the following form:
 Algorithm
 - write $\langle \text{start ckpt} (T_1, ..., T_k) \rangle$ and flush the log
   - $(T_1, ..., T_k)$ - all active transactions 
-- write to disk all ''dirty'' memory buffers 
-  - a memory buffer is ''dirty'' if it contains a modified item
+- write to disk all *dirty* memory buffers 
+  - a memory buffer is *dirty* if it contains a modified item
   - no matter whether it was committed or not
 - write $\langle \text{end ckpt} \rangle$ and flush the log
 
@@ -50,12 +50,12 @@ The recovery procedure happens in two passes
 Notation:
 - let $S^+$ be all committed transactions and $S^-$ all not-committed transactions
 
-'''Backwards Pass'''
+'*Backwards Pass*'
 - undo transactions $T_i \in S^-$ - ones that have not committed 
 - for doing that may have to go little bit further than the last valid $\langle \text{start ckpt} (T_1, ..., T_k) \rangle$
 
 
-'''Forwards Pass'''
+'*Forwards Pass*'
 - redo all transactions $T_j \in S^+$ 
 
 

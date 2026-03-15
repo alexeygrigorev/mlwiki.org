@@ -15,26 +15,26 @@ A database can be modeled as
 
 
 ### Definitions
-''Entity'' is an object that exists and is distinguishable from other objects
+*Entity* is an object that exists and is distinguishable from other objects
 - e.g. a company, an event, a person
 - entities have attributes 
 
-An ''entity set'' is a set of entities of the same type that share the same properties 
+An *entity set* is a set of entities of the same type that share the same properties 
 - set of all people, companies, events
 
-A ''relationship'' is an association between several entities 
+A *relationship* is an association between several entities 
 - for example "student" entity -- advisor (relationship) -- "instructor" entity
 
 A relationship set is a set of relations between two specific entities 
 - e.g. (studentId, instructorId) $\in$ advisor
 
 
-An entity is represented by a set of ''attributes'' 
+An entity is represented by a set of *attributes* 
 - an attribute is a descriptive property that all members of this entity set have 
 - e.g. <code>instructor=(ID, name, street, city, salary)</code>
 - <code>course=(ID, title, credits)</code>
 
-''Domain'' is a set of permitted values for each attribute
+*Domain* is a set of permitted values for each attribute
 
 
 Types of attributes:
@@ -46,14 +46,14 @@ Types of attributes:
 
 
 ; Keys
-A ''super key'' of an entity set is a set of one or more attributes 
+A *super key* of an entity set is a set of one or more attributes 
 - these attributes must uniquely identity each entity
 
-A ''candidate key'' of an entity set is a minimal possible super key
+A *candidate key* of an entity set is a minimal possible super key
 - e.g. id of an instructor
-- although there could be several candidate keys, one must be selected to be a ''primary key'' 
+- although there could be several candidate keys, one must be selected to be a *primary key* 
 
-''Relationships primary keys''
+*Relationships primary keys*
 - The combination of primary keys for entities that participate in a relationship form a primary key for that relationship
 - e.g. (s_id, i_id) is a superkey for advisor
 
@@ -89,11 +89,11 @@ A ''candidate key'' of an entity set is a minimal possible super key
 
 
 ### Weak Entity Sets
-An entity set that does not have a primary key is a ''weak entity set''
-- the existence of a weak entity set depends of ''identifying entity set''
+An entity set that does not have a primary key is a *weak entity set*
+- the existence of a weak entity set depends of *identifying entity set*
 - it must relate to the identifying entity set via a total one-to-many relationship set
 
-''Discriminator (or partial key)'' of a weak entity set
+*Discriminator (or partial key)* of a weak entity set
 - this is the set of attributes that distinguishes an entity among another entities 
 
 So the primary key of such entities is formed by:

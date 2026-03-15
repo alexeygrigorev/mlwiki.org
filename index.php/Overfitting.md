@@ -7,7 +7,7 @@ tags:
 title: Overfitting
 ---
 ## Overfitting
-''Overfitting'' (or  ''high variance'') - if we have too many features, the learning hypothesis may 
+*Overfitting* (or  *high variance*) - if we have too many features, the learning hypothesis may 
 - fit the training set very well (with cost function $J(\theta) \approx 0$), 
 - but fail to generalize to new examples (predict for new data)
 

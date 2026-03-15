@@ -19,9 +19,9 @@ The Borda Rule:
   - the 2nd candidate in $P_i$ gets $k - 1$ points
   - the $j$th candidate in $P_i$ gets $k - j + 1$ points
   - the $k$th candidate in $P_i$ gets 1 point
-  - so define the ''individual Borda score'' $S_i(a)$ as the score that candidate $a$ receivers from a voter $i$
+  - so define the *individual Borda score* $S_i(a)$ as the score that candidate $a$ receivers from a voter $i$
   - $S_i(a) = k - \text{pos}_i (a)$ where $\text{pos}_i(a)$ is the position of $a$ in $R_i$
-- define the ''Borda score'' $B(c)$ for candidate $c$ as the sum of points from all $P_i$
+- define the *Borda score* $B(c)$ for candidate $c$ as the sum of points from all $P_i$
   - $B(c) = \sum_j S_j(c)$
 - the candidate with the highest Borda score wins the election
 

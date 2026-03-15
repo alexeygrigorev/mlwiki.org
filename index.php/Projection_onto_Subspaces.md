@@ -14,12 +14,12 @@ Suppose we have an $n$-dimensional subspace that we want to project on
 
 ## Two-Dimensional Case: Motivation and Intuition
 Suppose we have two vectors $\mathbf a$ and $\mathbf b$
-- we want to ''project'' $\mathbf b$ to $\mathbf a$: find a point on $\mathbf a$ that is closest to $\mathbf b$ 
+- we want to *project* $\mathbf b$ to $\mathbf a$: find a point on $\mathbf a$ that is closest to $\mathbf b$ 
 
 <img src="http://habrastorage.org/files/2fa/2d0/3be/2fa2d03be62e43f3a14f0e4c7bb1398c.png" alt="Image">
 
 
-- let $\mathbf e$ be the vector from $\mathbf b$ to $\mathbf  a$ - it's our ''projection error'' - how much we're wrong about it
+- let $\mathbf e$ be the vector from $\mathbf b$ to $\mathbf  a$ - it's our *projection error* - how much we're wrong about it
 - let $\mathbf p$ be the projection of $\mathbf  b$ to $\mathbf  a$ 
 - $\mathbf e = \mathbf b - \mathbf p$ 
 
@@ -36,7 +36,7 @@ Can use trigonometry to do it
 
 
 ### Linear Algebra
-The ''closest'' - means that $\mathbf e$ must be as small as possible
+The *closest* - means that $\mathbf e$ must be as small as possible
 - it's possible when $\mathbf e \; \bot \; \mathbf a$
 - we don't know $\mathbf p$, but can express it in terms of $\mathbf a$: 
   - we know that $\mathbf p$ lies on the line that's formed by $\mathbf a$,
@@ -145,7 +145,7 @@ The projection $\mathbf p$
 
 ## Projection Matrix
 How do we use a nice matrix representation for projecting onto subspaces?
-- we introduce a ''Projection'' matrix $P$ that projects from one subspace to another
+- we introduce a *Projection* matrix $P$ that projects from one subspace to another
 
 
 ### Projecting on a Line

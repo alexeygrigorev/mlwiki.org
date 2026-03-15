@@ -8,26 +8,26 @@ tags:
 title: Distributions
 ---
 ## The Shape of Data
-''Distribution'' - the pattern of values in the data, showing their frequency of occurrence relative to each other. 
+*Distribution* - the pattern of values in the data, showing their frequency of occurrence relative to each other. 
 
 
 ## [Plots](Plots)
 There are some plots that can be useful for showing the distribution of data
 
 ### [Histogram](Histogram)s
-''Histogram'' is useful to show distribution of data
+*Histogram* is useful to show distribution of data
 - Bins: the intervals used in a histogram. The data must be separated into mutually exclusive and exhaustive bins
 - Cutpoints: the values that define the beginning and the end of the bins
 - Frequency: the count of the number of the data values in each bin
-- The peaks in the distribution are called ''modes''
+- The peaks in the distribution are called *modes*
 
 We can group distributions according to the number of modes they have:
-- ''unimodal'' - a distribution with one mode
-- ''bimodal'' - with 2 peaks
-- ''multimodal'' - more than 2 peaks
+- *unimodal* - a distribution with one mode
+- *bimodal* - with 2 peaks
+- *multimodal* - more than 2 peaks
 
 In R:
-```text only
+```
 hist(..., breaks=10, ...) // histogram
 ```
 

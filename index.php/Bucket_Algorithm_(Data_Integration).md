@@ -24,7 +24,7 @@ This is an approach for query rewriting used in [LAV Mediation](LAV_Mediation)
   - heads of mappings that have some atom $G^*$ in their bodies
   - s.t. $G$ can be inferred from $G^*$ (i.e. matched)
 
-A atom $G$ of global query $Q$ is ''satisfied by local data'' if
+A atom $G$ of global query $Q$ is *satisfied by local data* if
 - $G$ can be matched to an atom $R_j$ in the body of some mapping $M_i$ and
 - the head of this mapping $M_i$ can be matched to the fact from the data sources
 
@@ -137,7 +137,7 @@ Obtain candidates
   - i.e. without taking into account the possible bindings of existential variables within the query
 
 
-''Expanding'' a rewriting $R$: 
+*Expanding* a rewriting $R$: 
 - for each atom $A$ from the body of rewriting $R$ 
   - replace $A$ by the corresponding LAV mapping for $A$ 
   - new existential variables are introduced - to avoid naming conflicts

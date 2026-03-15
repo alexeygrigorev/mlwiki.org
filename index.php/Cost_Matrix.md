@@ -9,7 +9,7 @@ title: Cost Matrix
 ---
 ## Cost Matrix
 Used for comparing two different models
-- A ''cost matrix'' is a matrix of the following form:
+- A *cost matrix* is a matrix of the following form:
 
 |    |  $y = +$  |  $y = -$  |   $h_\theta(x) = +$  |  $C(+ | +)$  |  $C(+ | -)$ ||   $h_\theta(x) = -$  |  $C(- | +)$  |  $C(- | -)$ |
 

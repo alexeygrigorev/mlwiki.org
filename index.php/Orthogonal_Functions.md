@@ -6,7 +6,6 @@ tags:
 - linear-algebra
 title: Orthogonal Functions
 ---
-{{stub}}
 
 ## Orthogonal Functions
 Two functions $f$ and $g$ are orthogonal if their inner product is 0

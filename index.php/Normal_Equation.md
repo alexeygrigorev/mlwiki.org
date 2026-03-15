@@ -12,16 +12,16 @@ $\require{cancel}$
 
 ## Normal Equation
 - This is a technique for computing coefficients for [Multivariate Linear Regression](Multivariate_Linear_Regression).
-- the problem is also called [OLS Regression](OLS_Regression), and ''Normal Equation'' is an approach of solving it
+- the problem is also called [OLS Regression](OLS_Regression), and *Normal Equation* is an approach of solving it
 - It finds the regression coefficients analytically
-- It's ''an one-step learning'' algorithm (as opposed to [Gradient Descent](Gradient_Descent))
+- It's *an one-step learning* algorithm (as opposed to [Gradient Descent](Gradient_Descent))
 
 
 ## [Multivariate Linear Regression](Multivariate_Linear_Regression) Problem
 Suppose we have
 - $m$ training examples $(\mathbf x_i, y_i)$
 - $n$ features, $\mathbf x_i = \big[x_{i1}, \ ... \ , x_{in} \big]^T \in \mathbb{R}^n$
-- We can put all such $\mathbf x_i$ as rows of a matrix $X$ (sometimes called a ''design matrix'')
+- We can put all such $\mathbf x_i$ as rows of a matrix $X$ (sometimes called a *design matrix*)
 - $X = \begin{bmatrix}
 - \ \mathbf x_1^T - \\ 
   \vdots  \\ 
@@ -97,11 +97,11 @@ Suppose we have a matrix $A$ with out observations
 Normal Equation:
 - so we have $A \mathbf x = \mathbf b$
 - let's multiply both sides by $A^T$ - to find the best $\mathbf{\hat x}$ that approximates the solution $\mathbf x$ that doesn't exist
-- $A^T A \mathbf{\hat x} = A^T \mathbf b$ - this one usually has the solution, and it's called the '''Normal Equation'''
+- $A^T A \mathbf{\hat x} = A^T \mathbf b$ - this one usually has the solution, and it's called the '*Normal Equation*'
 - it projects $\mathbf b$ onto $C(A)$ and gives the solution $\mathbf{\hat x}$
 - it also happens to be the best solution in terms of Least Squares error: the projection error $\|  \mathbf e \|^2 = \| \mathbf b - A \mathbf{\hat x} \|^2$ is minimal
 
-=== Invertability of $A^T A$ === 
+### Invertability of $A^T A$
 When does $A^T A$ have no inverse? 
 
 Consider this example: 
@@ -340,7 +340,7 @@ This is called [Ridge Regression](Ridge_Regression)
 ### Implementation
 Implementation in Octave
 
-```scdoc
+```
 pinv(X' * X) * X' * y
 ```
 

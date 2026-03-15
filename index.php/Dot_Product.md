@@ -9,7 +9,7 @@ title: Dot Product
 ## Dot Product
 
 ## Geometric Definition
-Let $\vec v \cdot \vec w$ denote the ''dot product'' between vectors $\vec v$ and $\vec w$
+Let $\vec v \cdot \vec w$ denote the *dot product* between vectors $\vec v$ and $\vec w$
 - definition: $\vec v \cdot \vec w = \|  \vec v \| \cdot \| \vec w \| \cdot \cos \theta$ where $\theta$ is the angle between $\vec v$ and $\vec w$
 - $\|  \vec v \|$ denotes the length of $\vec v$
 - if two vectors are perpendicular, then $\cos \theta = 0$ and thus $\vec v \cdot \vec w = 0$

@@ -11,7 +11,7 @@ In contrast to Uni-Objective [Optimization](Optimization) problems, in Multi-Obj
 
 An usual model is:
 - $\text{opt} f_1(x), ..., f_q(x), x \in A$
-- but usually in this case there is no single ''optimal'' solution - but a set of solutions where you cannot say which one is better  
+- but usually in this case there is no single *optimal* solution - but a set of solutions where you cannot say which one is better  
 
 
 Example:
@@ -21,7 +21,7 @@ Example:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/moo/moo-illustration.png" alt="Image">
 - note that you cannot say that $d$ is better than $b$ or better than $a$ 
 - but $c$ is clearly [dominated](Dominance) by $b$: it's as comfortable as $c$, but cheaper
-- the set of the best alternatives is called the ''Pareto-optimal'' set of alternatives
+- the set of the best alternatives is called the *Pareto-optimal* set of alternatives
 
 
 ## Multi-Criteria Problem

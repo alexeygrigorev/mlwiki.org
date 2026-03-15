@@ -25,9 +25,9 @@ Consider this example:
   - the solutions in blue circles also form the pareto-optimal set
 
 Dominance
-- for the second examples we can say that $b$ ''dominates'' $c$:
+- for the second examples we can say that $b$ *dominates* $c$:
 - $b$ has the same level of quality, but it is cheaper
-- we can remove all ''dominated'' solutions from the solution space and this will give us the Pareto-optimal set of solutions
+- we can remove all *dominated* solutions from the solution space and this will give us the Pareto-optimal set of solutions
 - in [MOO](Multi-Objective_Optimization) this is also called the set of efficient solutions
 
 ; dominance
@@ -50,7 +50,7 @@ Another example
 - there are 6 alternatives
 
 |    |  Price  |  Power  |  Consumption  |  Comfort  |  <font color="grey">Avg A.</font>  |  <font color="grey">18</font>  |  <font color="grey">75</font>  |  <font color="grey">8</font>  |  <font color="grey">3</font> ||  Sport  |  18.5  |  110  |  9  |  2 ||  <font color="red">Avg B.</font>  |  <font color="red">17.5</font>  |  <font color="red">85</font>  |  <font color="red">7</font>  |  <font color="red">3</font> ||  Lux 1  |  24  |  90  |  8.5  |  5 ||  Exonomic  |  12.5  |  50  |  7.5  |  1 ||  Lux 2  |  22.5  |  85  |  9  |  4 |
-We see that '''Avg B''' is always better than '''Avg. A'''
+We see that '*Avg B*' is always better than '*Avg. A*'
 - then nobody will ever choose Avg A: A is dominated by B
 
 No other alternative can be eliminated this way
@@ -66,14 +66,14 @@ Notation:
 - denote $A_{-i}$ as the set of all strategies for other players 
 
 ; Strict dominance
-  $a$ '' '''strictly''' dominates'' $b$ if $\forall c \in A_{-1}: u_i(a, c) > u_i(b, c)$
+  $a$ * *'strictly'* dominates* $b$ if $\forall c \in A_{-1}: u_i(a, c) > u_i(b, c)$
   in other words: $a$ strictly dominates $b$ is for every action that other players can take, the action $a$ gives $i$ better payoff than $b$ 
 
 ; Weak dominance
-  $a$ ''(weakly) dominates'' $b$ if $\forall c \in A_{-1}: u_i(a, c) \geqslant u_i(b, c)$
+  $a$ *(weakly) dominates* $b$ if $\forall c \in A_{-1}: u_i(a, c) \geqslant u_i(b, c)$
 
 
-If $a$ dominates all other strategies $b$ of the player $i$ then it's ''dominant''
+If $a$ dominates all other strategies $b$ of the player $i$ then it's *dominant*
 - in a strategy profile if every player plays their dominant strategies then it's a [Nash Equilibria](Nash_Equilibrium)
 - this idea is used in [Iterative Removal](Iterative_Removal) for solving [Normal Form Game](Normal_Form_Game)s
 
@@ -89,10 +89,10 @@ Pareto-Dominance
 - suppose there's one outcome $O$ that is as good as some other outcome $O'$ for all players
 - but there's one agent $i$ who strictly prefers $O$ to $O'$ 
 - then $O$ is considered better than $O'$ 
-- and $O$ ''pareto-dominates'' $O'$
+- and $O$ *pareto-dominates* $O'$
 
 Pareto-Optimality 
-- outcome $O^*$ is ''pareto-optimal'' if there is no other outcome that pareto-dominates it
+- outcome $O^*$ is *pareto-optimal* if there is no other outcome that pareto-dominates it
 - a game can have more than one pareto-optimal outcome
 - for [Zero-Sum Game](Zero-Sum_Game)s every outcome is pareto-optimal
 

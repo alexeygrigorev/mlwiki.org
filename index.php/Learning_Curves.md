@@ -10,7 +10,7 @@ This is a good technique (a part of [Machine Learning Diagnosis](Machine_Learnin
 - to sanity-check a model 
 - to improve performance 
 
-A ''learning curve'' is a plot where we have two functions of $m$ ($m$ is a set size): 
+A *learning curve* is a plot where we have two functions of $m$ ($m$ is a set size): 
 - training set error $J_{\text{train}}(\theta)$, 
 - the cross-validation error $J_{\text{cv}}(\theta)$
 

@@ -32,7 +32,7 @@ Example:
   - the only thing that changes is the relative position of $z$ within the pairs of rankings
 
 
-A voting method $H$ is ''independent to third alternatives'' if 
+A voting method $H$ is *independent to third alternatives* if 
 - the global ordering produced by $H$ under the set $A$ is the same for both rankings such rankings:
 - $H(R_1, R_2) | _A \equiv  H(R'_1, R'_2) |_A$
 In other words, ordering of the set $A^* - A$ is irrelevant to the choice over $A$
@@ -41,7 +41,7 @@ In other words, ordering of the set $A^* - A$ is irrelevant to the choice over $
 ### Example 1
 - Consider two dishes: beef and lamb
 - The choice between these two alternatives should not change when pork is also available
-- pork is ''irrelevant alternative'' to the preference ordering of beef and lamb
+- pork is *irrelevant alternative* to the preference ordering of beef and lamb
 
 
 ### Example 2
@@ -76,11 +76,11 @@ There are several ways in which a method may suffer from dependence to 3rd alter
 
 
 ## Risk of Manipulation
-A method suffers from the ''Risk of Manipulation'' if the outcome of an election can be changed by
+A method suffers from the *Risk of Manipulation* if the outcome of an election can be changed by
 - adding a new candidate or
 - deleting a candidate 
 
-This manipulation is also sometimes called ''control''.
+This manipulation is also sometimes called *control*.
 
 Manipulation:
 - suppose somebody knows the individual rankings 

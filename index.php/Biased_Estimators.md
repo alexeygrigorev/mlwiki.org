@@ -7,16 +7,16 @@ tags:
 title: Biased Estimators
 ---
 ## Biased Estimators
-A [Point Estimate](Point_Estimate) is [''biased''](Bias) if
+A [Point Estimate](Point_Estimate) is [*biased*](Bias) if
 - the [Sampling Distribution](Sampling_Distribution) of some parameter being estimated is not centered around the true parameter value
-- otherwise a Point Estimate is ''unbiased''
+- otherwise a Point Estimate is *unbiased*
 
 
 [Bias](Bias) of an estimate is the expected difference between the estimated value and the true value
 
 
 ## Unbiased Estimation
-A statistic used to estimate a parameter is ''unbiased'' if the expected value of its sampling distribution is equal to the value of the parameter being estimated
+A statistic used to estimate a parameter is *unbiased* if the expected value of its sampling distribution is equal to the value of the parameter being estimated
 
 
 ### Proportion
@@ -30,7 +30,7 @@ For the entire experiment:
 - 10 coin flips = 10 Bernoulli experiments with outcomes $X_1, ..., X_{10}$
 - so, $\hat{p} = \cfrac{X_1 + ... + X_{10}}{10} = \bar{X}$
 - thus, $E(\hat{p}) = p$ since $E(X_i) = p$ and $E(\bar{X}) = \cfrac{10 p}{10}  = p$
-- and $\hat{p}$ is called ''unbiased estimator''
+- and $\hat{p}$ is called *unbiased estimator*
 
 
 ## Biased Estimation

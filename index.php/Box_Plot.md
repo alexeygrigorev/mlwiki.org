@@ -24,7 +24,7 @@ General idea:
 - whiskers (fences) capture data outside of the box
 
 
-```text only
+```
 boxplot(..., range=0, ...)
 boxplot(..., horizontal=T, ...) // horizontal boxplot
 ```
@@ -33,10 +33,10 @@ boxplot(..., horizontal=T, ...) // horizontal boxplot
 
 
 ### Modified Box Plot
-''Modified box plot'' can be used to show [Outliers](Outliers)
+*Modified box plot* can be used to show [Outliers](Outliers)
 
-- IQR (''Inter Quartile Range'') - difference between 3rd and 1st quartile 
-- ''Inner fences'' - the values that are 1.5 times the IQR beyond the 1st and 3rd quartile 
+- IQR (*Inter Quartile Range*) - difference between 3rd and 1st quartile 
+- *Inner fences* - the values that are 1.5 times the IQR beyond the 1st and 3rd quartile 
 - Lower inner fence = 1st quartile - (1.5 x IQR)
 - Upper inner fence = 3rd quartile + (1.5 x IQR)
 - observations beyond the whiskers (fences) are outliers and marked with dots 
@@ -57,13 +57,13 @@ We can calculate [all 5 number](Summary_Statistics) values for all quantitative 
 
 
 ### R
-```text only
+```
 boxplot(d$a ~ as.factor(d$f))
 ```
 - it will show separate boxplot of values in $a$ for each values of $f$ 
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/da/boxplot-bivariate-r.png" alt="Image">
 
-```gdscript
+```
 boxplot(d$a ~ as.factor(d$f), col=c("blue","orange"), names=c("yes","no"), varwidth=T)
 ```
 - if we want to show how much data is there for each factor, 
