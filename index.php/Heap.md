@@ -88,5 +88,5 @@ Implementation: [link](http://code.google.com/p/codeforces-solutions-java/source
 - [Dijkstra's Shortest Path](Dijkstra's_Shortest_Path)
 
 ## Sources
-- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
+- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)
 - http://algorithms.soc.srcf.net/notes/dijkstra_with_heaps.pdf

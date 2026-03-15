@@ -57,7 +57,7 @@ A *dead state*:
 
 ### Extended Transition Function
 Extended Transition Function $\delta$ (sometimes $\hat{\delta}$) is
-- a function that takes $q$ and a '*word*' $w$ (of any length, including 0)
+- a function that takes $q$ and a *word* $w$ (of any length, including 0)
 - and tells where the automaton $A$ gets to after applying this word $w$
 - i.e. it follows the path from $q$ by arcs labeled by symbols from $w$ in order 
 
@@ -120,7 +120,7 @@ Symbols:
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/crs/automata/tennis-example-1.png" alt="Image">
 
 Game:
-- it starts from the '*love*' state: both players have 0-0
+- it starts from the *love* state: both players have 0-0
 - at each state, depending on who wins, we transition from one state to another
 - note: for "15-all" - we don't know how exactly we got there, but it doesn't matter 
 - final states are when somebody wins
@@ -167,5 +167,5 @@ In Non-Deterministic Finite Automata (NFAs) one input can lead to multiple state
  |
 
 ## Sources
-- [Automata (coursera)](Automata_(coursera))
-- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
+- [Automata (coursera)](Automata_%28coursera%29)
+- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_%28UFRT%29)

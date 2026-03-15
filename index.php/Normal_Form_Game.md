@@ -20,7 +20,7 @@ In these games:
 - The preferences of agents are modeled with an utility function $u_i: A \mapsto \mathbb{R}$
 
 
-'*def:*' So a *normal form game* (or a *strategic game*) is
+*def:* So a *normal form game* (or a *strategic game*) is
 - a tuple $\langle N, A, u \rangle$ where
 - $N = \{ 1, 2, ..., n \}$ - set of all players 
 - $A = \{A_1, ..., A_n\}$ - set of each players' actions 
@@ -60,5 +60,5 @@ There are several types of normal form games:
   - [Battle of the Sexes](Battle_of_the_Sexes)
 
 ## Sources
-- [Game Theory (coursera)](Game_Theory_(coursera))
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Game Theory (coursera)](Game_Theory_%28coursera%29)
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

@@ -20,5 +20,5 @@ http://www.analysis-of-patterns.net/files/bgoethals.pdf
 
 
 ## Source
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
-- [Web Intelligence and Big Data (coursera)](Web_Intelligence_and_Big_Data_(coursera))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
+- [Web Intelligence and Big Data (coursera)](Web_Intelligence_and_Big_Data_%28coursera%29)

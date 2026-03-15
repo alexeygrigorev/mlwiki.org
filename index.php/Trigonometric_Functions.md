@@ -149,6 +149,6 @@ Harder Integrals:
 
 
 ## Sources
-- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
+- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_%28coursera%29)
 - http://calculus-geometry.hubpages.com/hub/Trig-Identities-Derivatives-Antiderivatives-sin-cos-tan-Formulas
 - https://en.wikipedia.org/wiki/Trigonometric_functions

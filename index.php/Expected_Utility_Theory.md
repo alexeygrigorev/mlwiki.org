@@ -6,7 +6,7 @@ tags:
 title: Expected Utility Theory
 ---
 ## Expected Utility Theory
-[We see](Expected_Values_for_Lotteries) that using [Expected Value](Expected_Value) is not enough to compare simple lotteries in [Decision Trees](Decision_Tree_(Decision_Theory))
+[We see](Expected_Values_for_Lotteries) that using [Expected Value](Expected_Value) is not enough to compare simple lotteries in [Decision Trees](Decision_Tree_%28Decision_Theory%29)
 
 
 So instead of calculating Expected Values based on (numerical) consequences, we
@@ -27,7 +27,7 @@ The preference and indifference relations are defined as follows:
 
 
 ### Utilities for Lotteries
-- for lotteries (as defined in [Decision Trees](Decision_Tree_(Decision_Theory))) we see the lotteries as alternatives
+- for lotteries (as defined in [Decision Trees](Decision_Tree_%28Decision_Theory%29)) we see the lotteries as alternatives
 - probabilities are the weights 
 - $X$ is a set of consequences for which the lotteries are defined 
 
@@ -136,4 +136,4 @@ This principle is also used in Multi-Criteria Decision Aiding:
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

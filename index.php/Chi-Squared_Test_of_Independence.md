@@ -246,5 +246,5 @@ c('p-value'=test$p.value, test$statistic)
 - http://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test#Test_of_independence
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

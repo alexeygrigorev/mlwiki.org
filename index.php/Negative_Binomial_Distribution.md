@@ -57,5 +57,5 @@ There are 10 sequences that lead to this outcome
 
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - https://en.wikipedia.org/wiki/Negative_binomial_distribution

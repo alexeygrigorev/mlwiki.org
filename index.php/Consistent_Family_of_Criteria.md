@@ -44,4 +44,4 @@ $G$ is not redundant if removal of any $g_i \in G$ leads to violation of exhaust
 - http://www.lamsade.dauphine.fr/~bouyssou/TranspaOrbel16.pdf
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

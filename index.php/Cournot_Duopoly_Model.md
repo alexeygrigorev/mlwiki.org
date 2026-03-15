@@ -80,4 +80,4 @@ This action profile is a [Nash Equilibrium](Nash_Equilibrium) - no one will have
 - [Bertrand Duopoly Model](Bertrand_Duopoly_Model)
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

@@ -82,4 +82,4 @@ For data, unbiased variance is
 
 
 ## Sources
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)

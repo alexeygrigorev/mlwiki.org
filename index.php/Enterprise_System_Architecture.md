@@ -22,7 +22,7 @@ No integration:
 - a change in one DB is not propagated to others (automatically)
 - this has to be maintained 
 - suppose an address changes in HR, but the rest don't know about it
-- $\Rightarrow$ [inconsistency](Consistency_(databases))
+- $\Rightarrow$ [inconsistency](Consistency_%28databases%29)
 
 
 ### Central ERP System
@@ -76,4 +76,4 @@ There are three kind of workflow management systems:
 
 
 ## Sources
-- [Business Process Management (ULB)](Business_Process_Management_(ULB))
+- [Business Process Management (ULB)](Business_Process_Management_%28ULB%29)

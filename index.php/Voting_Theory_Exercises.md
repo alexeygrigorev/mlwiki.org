@@ -81,4 +81,4 @@ And there can be no cycles: too few voters for this
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

@@ -7,7 +7,7 @@ tags:
 title: Multiple-Key Index
 ---
 ## Multiple-Key Index
-This is a very simple conventional [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_(databases))
+This is a very simple conventional [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_%28databases%29)
 
 
 ### Idea
@@ -34,5 +34,5 @@ The main idea is a nested index:
 
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

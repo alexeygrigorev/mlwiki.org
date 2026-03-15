@@ -50,12 +50,12 @@ The recovery procedure happens in two passes
 Notation:
 - let $S^+$ be all committed transactions and $S^-$ all not-committed transactions
 
-'*Backwards Pass*'
+*Backwards Pass*
 - undo transactions $T_i \in S^-$ - ones that have not committed 
 - for doing that may have to go little bit further than the last valid $\langle \text{start ckpt} (T_1, ..., T_k) \rangle$
 
 
-'*Forwards Pass*'
+*Forwards Pass*
 - redo all transactions $T_j \in S^+$ 
 
 
@@ -72,4 +72,4 @@ Notation:
 - [Undo Logging](Undo_Logging) and [Redo Logging](Redo_Logging)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

@@ -28,5 +28,5 @@ use $\alpha^* = \alpha \cdot \cfrac{1}{K}$
 
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - http://en.wikipedia.org/wiki/Familywise_error_rate

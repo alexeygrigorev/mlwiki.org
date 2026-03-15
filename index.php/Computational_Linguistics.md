@@ -30,4 +30,4 @@ NLP
 ## Sources
 - http://www.coli.uni-saarland.de/~hansu/what_is_cl.html
 - http://en.wikipedia.org/wiki/Computational_linguistics
-- [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_(book))
+- [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_%28book%29)

@@ -26,7 +26,7 @@ In a database to specify if data is valid we use constraints.
 ## Transaction Constraints
 Transaction Consistency
 - essentially involve two database states: the old state (before $T$) and the new state (after $T$)
-- but '*always*' maintaining a database in a consistent state is impossible 
+- but *always* maintaining a database in a consistent state is impossible 
 
 Example:
 - we have $n$ accounts in a bank: $a_1, ..., a_n$
@@ -45,7 +45,7 @@ We can define a *transaction* as a sequence of updates on the database.
 - The database doesn't have to be consistent during the transaction.  
 - For transactions, consistency is the letter "C" in the [ACID](ACID).
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/transaction-consistency.png" alt="Image">
-- And a transaction should happen in [Isolation](Isolation_(databases)) (Letter "I" in ACID)
+- And a transaction should happen in [Isolation](Isolation_%28databases%29) (Letter "I" in ACID)
 
 
 ### [Crash Recovery](Crash_Recovery)
@@ -77,7 +77,7 @@ in this case later updates may be overwritten by earlier ones because they arriv
 
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
 - [Design Patterns for Distributed Nonrelational Databases](http://www.slideshare.net/guestdfd1ec/design-patterns-for-distributed-nonrelational-databases)
 - [Consistency and availability in Amazon's Dynamo](http://the-paper-trail.org/blog/consistency-and-availability-in-amazons-dynamo/)
 

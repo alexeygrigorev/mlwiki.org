@@ -136,6 +136,6 @@ Thus, [Separability](Separability) is respected.
 - http://www.ctl.ua.edu/math103/voting/methodpc.htm
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 - Mathematics of Voting, slides [link](http://www.ms.uky.edu/~lee/ma111fa09/slides01.pdf)(http___www.ms.uky.edu_~lee_ma111fa09_slides01.pdf)
 - Voting Fairness Criteria [link](http://www.math.unl.edu/~bharbourne1/M203JSpr09/VotingFairnessHandout.pdf)

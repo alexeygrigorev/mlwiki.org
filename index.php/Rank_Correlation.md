@@ -129,6 +129,6 @@ Can also use Multi-Criteria Decision Aid for that
 - http://theory.stanford.edu/~sergei/slides/www10-metrics.pdf
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
 - http://en.wikipedia.org/wiki/Rank_correlation
 - http://en.wikipedia.org/wiki/Kendall_tau_distance

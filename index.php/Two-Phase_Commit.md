@@ -33,7 +33,7 @@ A way to ensure consistency in a [distributed system](Distributed_Databases)
 
 
 ## See also
-- [ACID](ACID): [Consistency (databases)](Consistency_(databases)) and [Durability (databases)](Durability_(databases))
+- [ACID](ACID): [Consistency (databases)](Consistency_%28databases%29) and [Durability (databases)](Durability_%28databases%29)
 
 ## Sources
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)

@@ -47,4 +47,4 @@ lines(densF, lwd=3, col="orange")
 - http://en.wikipedia.org/wiki/Density_estimation
 
 ## Sources
-- [Data Analysis (coursera)](Data_Analysis_(coursera))
+- [Data Analysis (coursera)](Data_Analysis_%28coursera%29)

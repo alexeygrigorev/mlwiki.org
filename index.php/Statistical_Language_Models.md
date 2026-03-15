@@ -126,5 +126,5 @@ There are also models that take into account the structure of natural languages
 
 
 ## Sources
-- [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
+- [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.

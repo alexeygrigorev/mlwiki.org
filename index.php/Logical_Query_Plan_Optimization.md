@@ -128,7 +128,7 @@ $\pi_A \sigma_{B < D} \big( \sigma_{A = 5}(R) \times S \big)$
 
 ### Recognizing Joins
 - we replace Cartesian product with Joins
-- to help the optimizer assign the best [physical operation](Physical_Operators_(databases)) to this join
+- to help the optimizer assign the best [physical operation](Physical_Operators_%28databases%29) to this join
 
 $\pi_A \big( \sigma_{A = 5}(R) \Join_{B < D} S \big)$
 
@@ -148,5 +148,5 @@ See [LQP Optimization Exercises (DBSA)](LQP_Optimization_Exercises_(DBSA))
 
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)

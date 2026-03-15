@@ -159,4 +159,4 @@ Translation to [Normal Form Game](Normal_Form_Game)
 
 
 ## Sources
-- [Game Theory (coursera)](Game_Theory_(coursera))
+- [Game Theory (coursera)](Game_Theory_%28coursera%29)

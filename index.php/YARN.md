@@ -110,4 +110,4 @@ These values are configurable on per-job basis:
 - if there was an error, it returns <code>false</code>
 
 ## Source
-- [Hadoop: The Definitive Guide (book)](Hadoop__The_Definitive_Guide_(book))
+- [Hadoop: The Definitive Guide (book)](Hadoop__The_Definitive_Guide_%28book%29)

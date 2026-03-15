@@ -59,4 +59,4 @@ stem = snowball_stemmer.stem(unigram)
 
 
 ## Sources
-- [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
+- [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)

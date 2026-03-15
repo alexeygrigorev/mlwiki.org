@@ -21,16 +21,16 @@ Suppose we have a Relational Algebra expression:
 
 
 ## Physical Query Plan
-A *Physical Query Plan* is the same as Logical Query Plan, but with [specific algorithms](Physical_Operators_(databases)) assigned to each operation (node of the tree)
+A *Physical Query Plan* is the same as Logical Query Plan, but with [specific algorithms](Physical_Operators_%28databases%29) assigned to each operation (node of the tree)
 - I.e. it defines how exactly a query will be executed
-- [Query Result Size Estimation](Query_Result_Size_Estimation) to estimate the size of [physical operator's](Physical_Operators_(databases)) output  
+- [Query Result Size Estimation](Query_Result_Size_Estimation) to estimate the size of [physical operator's](Physical_Operators_%28databases%29) output  
 - [Physical Query Plan Optimization](Physical_Query_Plan_Optimization) to select the best plan
 
 
 Questions to consider
-- What algorithms are available to do selections, joins, projections? These algorithms are called [physical operators](Physical_Operators_(databases)) 
+- What algorithms are available to do selections, joins, projections? These algorithms are called [physical operators](Physical_Operators_%28databases%29) 
 - each physical operator has an associated cost - number of I/O operations (in [I/O Model of Computation](I_O_Model_of_Computation))
-- It also highly depends on [how data is stored](Physical_Data_Organization_(databases))
+- It also highly depends on [how data is stored](Physical_Data_Organization_%28databases%29)
 
 ### Example
 We just assign some operation to each node: 
@@ -38,4 +38,4 @@ We just assign some operation to each node:
 
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

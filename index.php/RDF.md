@@ -44,7 +44,7 @@ namespaces are typically URIs (like in [XML](XML))
   - <code>http://www.example.com/states#Washington</code>
   - <code>http://www.example.com/cities#Washington</code>
   - <code>http://www.example.com/people#Washington</code>
-- and as in XML, it's possible to use '*qnames*' - URI abbreviations for local use
+- and as in XML, it's possible to use *qnames* - URI abbreviations for local use
   - qnames have 2 parts: namespace and id
   - <code>states</code> - <code>http://www.example.com/states#</code>
   - so use <code>states:Washington</code> to refer to Washington state
@@ -153,5 +153,5 @@ There are several:
 - [Ontologies](Ontologies)
 
 ## Sources
-- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
-- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
+- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_%28book%29)
+- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_%28UFRT%29)

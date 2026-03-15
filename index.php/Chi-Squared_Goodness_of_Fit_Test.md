@@ -76,7 +76,7 @@ Test statistics
 - suppose we have a set of 275 jurors from a small county
 - they are categorized with their racial group 
 - are they representing the population of eligible jurors or there's some racial bias?
-- (source: [OpenIntro](OpenIntro_Statistics_(book)), table 6.5)
+- (source: [OpenIntro](OpenIntro_Statistics_%28book%29), table 6.5)
 
 
 |   Race  |  White  |  Black  |  Hispanic  |  Other  |  Total  |   County   |  205  |  26  |  25  |  19  ||   275  |   Ratio   |  0.75  |  0.09  |  0.09  |  0.07 ||   1.00  |   Population Ratio   |  0.72  |  0.07  |  0.12  |  0.09 | ||   1.00   | |
@@ -131,7 +131,7 @@ pchisq(x2, df=length(obs) - 1, lower.tail=F)
 - Suppose that we have some data from some stock exchange 
 - we want to test if stock activity on one day is independent from previous day
 - the data is taken [link](http://research.stlouisfed.org/fred2/series/SP500/downloaddata) for 2004-08-04	 to 2014-07-01
-- example motivated by an example from [OpenIntro](OpenIntro_Statistics_(book)) 
+- example motivated by an example from [OpenIntro](OpenIntro_Statistics_%28book%29) 
 
 
 Idea
@@ -220,5 +220,5 @@ c(x2=x2, theoretic=qchisq(0.95, df=k - 1))
 - http://en.wikipedia.org/wiki/Goodness_of_fit#Pearson.27s_chi-squared_test
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - https://onlinecourses.science.psu.edu/stat504/node/61

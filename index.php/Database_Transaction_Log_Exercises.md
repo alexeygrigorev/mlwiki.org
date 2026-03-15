@@ -261,7 +261,7 @@ Changed values:
 - $T$ must be undone (it doesn't have a commit record $\langle T, \text{commit} \rangle$)
 
 
-'*Recovering:*'
+*Recovering:*
 
 forwards (redoing) - same as for Redo Logging:
 - ignoring changes of $T$
@@ -377,4 +377,4 @@ Recovery
 
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

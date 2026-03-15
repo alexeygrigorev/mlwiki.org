@@ -30,4 +30,4 @@ Main tools
 
 ## Sources
 - http://en.wikipedia.org/wiki/Statistical_inference
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)

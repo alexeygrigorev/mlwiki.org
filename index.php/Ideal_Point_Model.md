@@ -61,4 +61,4 @@ Now we calculate which solutions are closest to $D$:
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

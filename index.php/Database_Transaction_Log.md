@@ -6,7 +6,7 @@ tags:
 title: Database Transaction Log
 ---
 ## Database Transaction Log
-A way to ensure [atomicity](Atomicity_(databases)), [consistency](Consistency_(databases)) and [durability](Durability_(databases)) in [Database](Database)s
+A way to ensure [atomicity](Atomicity_%28databases%29), [consistency](Consistency_%28databases%29) and [durability](Durability_%28databases%29) in [Database](Database)s
 - Important for [Crash Recovery](Crash_Recovery)
 
 ### Types of Loggings
@@ -19,4 +19,4 @@ A way to ensure [atomicity](Atomicity_(databases)), [consistency](Consistency_(d
 <!-- Main: Database Transaction Log Exercises -->
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

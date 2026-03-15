@@ -151,4 +151,4 @@ title: Repeated Game
     - $\beta \geqslant 0.5$
 
 ## Sources
-- [Game Theory (coursera)](Game_Theory_(coursera))
+- [Game Theory (coursera)](Game_Theory_%28coursera%29)

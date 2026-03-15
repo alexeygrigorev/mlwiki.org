@@ -16,7 +16,7 @@ Goal of Data Integration - provide uniform access to heterogeneous data sources 
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/sw/architecture-dwh.png" alt="Image">
 
 
-### [Mediator](Mediator_(Data_Integration))
+### [Mediator](Mediator_%28Data_Integration%29)
 - data remains in the data sources 
 - sometimes called "virtual data integration"
 - better for the Web - there are many DBs, and we would like to find something, no matter what DB provides it

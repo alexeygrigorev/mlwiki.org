@@ -6,7 +6,7 @@ tags:
 title: Pipelining
 ---
 ## Pipelining
-Sometimes the output of one [physical operator](Physical_Operators_(databases)) can be used directly as input for other operator. This technique is called *pipelining*.
+Sometimes the output of one [physical operator](Physical_Operators_%28databases%29) can be used directly as input for other operator. This technique is called *pipelining*.
 - output of an operator is stored in a buffer that serves as input for the next operator
 - results are computed as early as possible - and its as soon as enough data is available
 - no need to wait unit the previous operator finishes its work 
@@ -39,4 +39,4 @@ When we cannot pipeline, we have to *materialize* everything. It means we have t
 
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

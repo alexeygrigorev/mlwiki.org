@@ -88,7 +88,7 @@ A place is *enabled* if there is at least one token in all its input places
 - only enabled transitions may fire 
 
 
-'*def*'
+*def*
 - a transition is enabled in a marking $M$ $\iff$
 - $\forall p \in \bullet t: M(p) > 0$
 
@@ -200,4 +200,4 @@ Alternatively, there could be some other condition
 
 
 ## Sources
-- [Business Process Management (ULB)](Business_Process_Management_(ULB))
+- [Business Process Management (ULB)](Business_Process_Management_%28ULB%29)

@@ -32,4 +32,4 @@ c \cdot a_{m1} & c \cdot a_{m2} & \cdots & c \cdot  a_{mn}
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)

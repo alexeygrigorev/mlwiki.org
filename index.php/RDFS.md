@@ -92,7 +92,7 @@ WHERE {
 }
 ```
 
-'*NB*': 
+*NB*: 
 - there's no notion of incorrect/inconsistent inference in RDFS
 - it doesn't signalize an error if a property isn't used consistently with the declaration
 - RDFS will [infer](Inference_in_Semantic_Web) the type to make this property consistent 
@@ -182,5 +182,5 @@ There are properties that aren't used for inference, but just for description
 
 
 ## Sources
-- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
-- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
+- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_%28book%29)
+- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_%28UFRT%29)

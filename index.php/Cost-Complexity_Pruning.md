@@ -6,7 +6,7 @@ tags:
 title: Cost-Complexity Pruning
 ---
 ## Cost-Complexity Pruning
-Post-pruning algorithm for [Decision Trees](Decision_Tree_(Data_Mining))
+Post-pruning algorithm for [Decision Trees](Decision_Tree_%28Data_Mining%29)
 - by Breiman, Olshen, Stone (1984) 
 
 
@@ -86,7 +86,7 @@ Some formulas:
 - $g(t) = \cfrac{R(t) - R(T_{T_t})}  - $|  f(T_t)
 - 1$ is the number of leaves to prune
 
-'*Iteration 1:*'
+*Iteration 1:*
 - let $\alpha^{(1)} = 0$
  
 |   $t$  |  $R_(t)$  |  $R(T_t)$  |  $g(t)$  |  $t_1$  |  $\cfrac{8}{16} \cdot \cfrac{16}{16}$  |  $T_{t_1}$ - the entire tree <br/> all leaves are pure <br/> $R(T_{t_1}) = 0$  |  $\cfrac{8/16 - 0}{4 - 1} = \cfrac{1}{6}$  ||  $t_2$  |  $\cfrac{4}{12} \cdot \cfrac{12}{16} = \cfrac{4}{16}$ <br/> (there are 12 records, 4 $\blacksquare$ + 8 $\bigcirc$ )  |  $R(T_{t_2}) = 0$  |  $\cfrac{4/16 - 0}{3 - 1} = \cfrac{1}{8}$ ||  $t_3$  |  $\cfrac{2}{6} \cdot \cfrac{6}{16} = \cfrac{2}{16}$   |  $R(T_{t_3}) = 0$  |   $\cfrac{2/16 - 0}{3 - 1} = \cfrac{1}{8}$ |
@@ -101,7 +101,7 @@ We want to find the minimal $g(t)$
 
 
 
-'*Iteration 2:*'
+*Iteration 2:*
 - in the tree now we have only candidates: $t_1$ and $t_2$
 
 
@@ -115,13 +115,13 @@ Find minimal $g(t)$:
 
 
 
-'*Iteration 3:*'
+*Iteration 3:*
 - only one candidate for pruning: $t_1$
 - $\alpha^{(4)} = g(t_1) = \cfrac{8/16 - 4/16}{2 - 1} = \cfrac{1}{4}$
 
 
 
-'*Selecting the best*':
+*Selecting the best*:
 - we have these values: $\alpha^{(0)} = 0, \alpha^{(1)} = 1/8, \alpha^{(2)} = 1/8, \alpha^{(3)} = 1/4$
 - by the theorem we want to find tree such $T$ that minimizes the cost-complexity function 
   - if $0 \geqslant \alpha < 1/8$, then $T_1$ is the best
@@ -138,4 +138,4 @@ From IT4BI 2013 year exam:
 
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

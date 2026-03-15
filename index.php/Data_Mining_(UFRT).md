@@ -32,7 +32,7 @@ Data Preparation
 
 
 Data Modeling
-- [Decision Tree (Data Mining)](Decision_Tree_(Data_Mining))
+- [Decision Tree (Data Mining)](Decision_Tree_%28Data_Mining%29)
   - [Cost-Complexity Pruning](Cost-Complexity_Pruning)
   - [Information Gain](Information_Gain)  
 

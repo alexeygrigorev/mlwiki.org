@@ -23,7 +23,7 @@ Lectures by G. Strang, 2005
 1. [Vector Subspaces](Vector_Subspaces): [Column Space](Column_Space) and [Nullspace](Nullspace) [link](http://www.youtube.com/watch?v=8o5Cmfpeo6g)
 1. [Solving $A \mathbf x = \mathbf 0$](Homogeneous_Systems_of_Linear_Equations): Pivot Variables, Special Solutions [link](http://www.youtube.com/watch?v=VqP2tREMvt0)
 1. [Solving $A \mathbf x = \mathbf b$](System_of_Linear_Equations): [Row Reduced Form $R$](Row_Reduced_Echelon_Form) [link](http://www.youtube.com/watch?v=9Q1q7s1jTzU)
-1. [Independence](Linear_Independence), [Basis](Basis_(Linear_Algebra)), and Dimension [link](http://www.youtube.com/watch?v=yjBerM5jWsc)
+1. [Independence](Linear_Independence), [Basis](Basis_%28Linear_Algebra%29), and Dimension [link](http://www.youtube.com/watch?v=yjBerM5jWsc)
 1. The [Four Fundamental Subspaces](Four_Fundamental_Subspaces) [link](http://www.youtube.com/watch?v=nHlE7EgJFds)
 1. [Matrix Spaces](Matrix_Vector_Spaces); [Rank 1 Matrices](Outer_Product); Small World Graphs [link](http://www.youtube.com/watch?v=2IdtqGM6KWU)
 1. Graphs, Networks, Incidence Matrices [link](http://www.youtube.com/watch?v=6-wh6yvk6uc)

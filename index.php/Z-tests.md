@@ -33,7 +33,7 @@ If these assumptions are hold, then we can use the $z$ statistics
 ### Example 1: One-Sided
 Assume we have the following
 - <img src="http://habrastorage.org/files/9d6/bf3/a36/9d6bf3a3673e4ca9a37fe1e94a481b29.png" alt="Image">
-- source: [OpenIntro](OpenIntro_Statistics_(book)), figure 4.14
+- source: [OpenIntro](OpenIntro_Statistics_%28book%29), figure 4.14
 
 Sample: 110 students, conditions are met:
 - less than 10% of all students are sampled,
@@ -54,7 +54,7 @@ $Z$ score:
 - then calculate the $p$-value for this test statistics 
   - $p = 0.007$
   - <img src="http://habrastorage.org/files/4c3/5c0/ae1/4c35c0ae1faf403cbb35255a3bd20544.png" alt="Image">
-  - source: [OpenIntro](OpenIntro_Statistics_(book)), figure 4.15
+  - source: [OpenIntro](OpenIntro_Statistics_%28book%29), figure 4.15
 
 
 so, under $H_0$ the probability of observing such $\bar{x}$ is just $p = 0.007$
@@ -104,6 +104,6 @@ p
 
 
 ## Sources
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - http://projectile.sv.cmu.edu/research/public/talks/t-test.htm

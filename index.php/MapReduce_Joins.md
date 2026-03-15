@@ -33,7 +33,7 @@ There are several types of joins:
 - mapper outputs (id, record) for each record
   - same keys will be copied to same reducer during shuffling
 - each reducer does the join based on equal kets
-- similar to [Hash Join](Physical_Operators_(databases)#(Partition)_Hash_Join) in DBMS
+- similar to [Hash Join](Physical_Operators_%28databases%29)#(Partition)_Hash_Join) in DBMS
 
 note
 - it may lead to massive data re-distribution 
@@ -87,5 +87,5 @@ From [AIM3](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB)):
 - so there's no need to implement them 
 
 ## Sources
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
 - [Scalable Data Analytics and Data Mining AIM3 (TUB)](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB))

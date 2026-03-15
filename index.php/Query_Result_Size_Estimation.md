@@ -7,7 +7,7 @@ tags:
 title: Query Result Size Estimation
 ---
 ## Query Result Size Estimation
-Choosing a [physical operator](Physical_Operators_(databases)) for a [Relational Algebra](Relational_Algebra) operator depends on
+Choosing a [physical operator](Physical_Operators_%28databases%29) for a [Relational Algebra](Relational_Algebra) operator depends on
 - a particular case and statistics kept in [Database System Catalog](Database_System_Catalog)
 - note that this data is kept only for base relations, not for sub-results
   - but we need to be able to estimate them for sub-results as well
@@ -15,7 +15,7 @@ Choosing a [physical operator](Physical_Operators_(databases)) for a [Relational
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/plan-selection-int-res.png" alt="Image">
 - note that these measures depend only on
   - statistics 
-  - and [Logical Query Plan](Query_Plan#Logical_Query_Plan) and not on [Physical Query Plan](Query_Plan#Physical_Query_Plan) (no matter what [physical algorithm](Physical_Operators_(databases)) we apply we will end with exactly same result)
+  - and [Logical Query Plan](Query_Plan#Logical_Query_Plan) and not on [Physical Query Plan](Query_Plan#Physical_Query_Plan) (no matter what [physical algorithm](Physical_Operators_%28databases%29) we apply we will end with exactly same result)
 
 So the goal:
 - for every internal node $n$ estimate parameters 
@@ -44,7 +44,7 @@ Solution
 - 1000 / 20 = 50 tuples per block 
 - $B(\pi_{A,B}(R)) = T(\pi_{A,B}(R)) / 50 = 10000 / 50 = 200$
 
-If size of records is [variable](Physical_Data_Organization_(databases)#Variable-Length_Data_Records), it's harder.
+If size of records is [variable](Physical_Data_Organization_%28databases%29)#Variable-Length_Data_Records), it's harder.
 - In this case usually keep some statistics to estimate the avg size of a projected record
 
 
@@ -129,7 +129,7 @@ Selection $\sigma_{p_1 \lor p_2} (R)$
   - also they select disjoint sets of tuples (otherwise we would count some tuples twice)
 
 Another way: to use De-Morgan Rule
-- $p_1 \lor p_2 \equiv \overline{\overline{p_1} \land \overline{p_2}}$ (the line over means '*not*')
+- $p_1 \lor p_2 \equiv \overline{\overline{p_1} \land \overline{p_2}}$ (the line over means *not*)
 - $\text{sel}_{p_1 \lor p_2}(R) = 1 - (1 - \text{sel}_{p_1}(R)) \times (1 - \text{sel}_{p_2}(R))$
 - in this case we also have the same assumptions
 
@@ -161,12 +161,12 @@ $R \Join S, R(X, Y), S(Y, Z)$ (i.e. we join on $Y$)
 #### Simplifications
 For other harder cases we need the following simplifications:
 
-'*Containment*' of Value Sets
+*Containment* of Value Sets
 - if $R(V, Y) \leqslant V(S, Y)$
 - then every value of $Y \in R$ will have a joining tuple with $Y \in S$
 - that means: all matched values in $X$ will have a corresponding value in $Y$ - or vice-versa
 
-'*Preservation*' of Value Sets
+*Preservation* of Value Sets
 - when joining two relations, all non-matching attributes are not lost
 - i.e. they get transfered to the results 
 - (if we join two relations on $Y$, $R$ has $X$ and $S$ has $Z$, then all possible values are going to occur in the output)
@@ -226,7 +226,7 @@ This formula generalizes to more than 2 joining attributes
 ## See also
 - [Database System Catalog](Database_System_Catalog)
 - [Relational Algebra](Relational_Algebra)
-- [Physical Operators (databases)](Physical_Operators_(databases)) 
+- [Physical Operators (databases)](Physical_Operators_%28databases%29) 
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

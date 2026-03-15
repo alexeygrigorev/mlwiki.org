@@ -8,7 +8,7 @@ title: Decision Tree (Data Mining)
 ---
 ## Decision Tree
 This is a classification method used in [Machine Learning](Machine_Learning) and [Data Mining](Data_Mining) that is based on [Tree](Tree)s
-- not to confuse with Decision trees in [Decision Analysis](Decision_Analysis): [Decision Tree (Decision Theory)](Decision_Tree_(Decision_Theory))
+- not to confuse with Decision trees in [Decision Analysis](Decision_Analysis): [Decision Tree (Decision Theory)](Decision_Tree_%28Decision_Theory%29)
 
 
 ### [Rule-Based Classifier](Rule-Based_Classifier)s
@@ -288,11 +288,11 @@ Distribute the values to subsets
 <table>
 <tr>
 <td>
-| + $X = a$ ||  $Y$  |  $Z$  |  Class  |  $w$  ||  70  |  Yes  |  +  |  1  ||  90  |  Yes  |  -  |  1  ||  85  |  No  |  -  |  1  ||  95  |  No  |  -  |  1  ||  70  |  No  |  +  |  1  ||  '*90*'  |  '*Yes*'  |  '*+*'  |  '*5/13*' |</td>
+| + $X = a$ ||  $Y$  |  $Z$  |  Class  |  $w$  ||  70  |  Yes  |  +  |  1  ||  90  |  Yes  |  -  |  1  ||  85  |  No  |  -  |  1  ||  95  |  No  |  -  |  1  ||  70  |  No  |  +  |  1  ||  *90*  |  *Yes*  |  *+*  |  *5/13* |</td>
 <td>
-| + $X = a$ ||  $Y$  |  $Z$  |  Class  |  $w$  ||  78  |  No  |  +  |  1  ||  65  |  Yes  |  +  |  1  ||  75  |  No  |  +  |  1 ||  '*90*'  |  '*Yes*'  |  '*+*'  |  '*3/13*'  |</td>
+| + $X = a$ ||  $Y$  |  $Z$  |  Class  |  $w$  ||  78  |  No  |  +  |  1  ||  65  |  Yes  |  +  |  1  ||  75  |  No  |  +  |  1 ||  *90*  |  *Yes*  |  *+*  |  *3/13*  |</td>
 <td>
-| + $X = a$ ||  $Y$  |  $Z$  |  Class  |  $w$ ||  80  |  Yes  |  -  |  1  ||  70  |  Yes  |  -  |  1  ||  80  |  No  |  +  |  1  ||  80  |  No  |  +  |  1  ||  96  |  No  |  +  |  1  ||  '*90*'  |  '*Yes*'  |  '*+*'  |  '*5/13*'  |</td>
+| + $X = a$ ||  $Y$  |  $Z$  |  Class  |  $w$ ||  80  |  Yes  |  -  |  1  ||  70  |  Yes  |  -  |  1  ||  80  |  No  |  +  |  1  ||  80  |  No  |  +  |  1  ||  96  |  No  |  +  |  1  ||  *90*  |  *Yes*  |  *+*  |  *5/13*  |</td>
 </tr>
 </table>
 
@@ -366,5 +366,5 @@ We decide to use $X < 1.5$ to split the data
 
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)

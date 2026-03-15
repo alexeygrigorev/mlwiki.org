@@ -19,14 +19,14 @@ title: Database Systems Architecture (ULB)
 - [Logical Query Plan Optimization](Logical_Query_Plan_Optimization): Heuristics and optimization of [Conjunctive Queries](Conjunctive_Query)
 
 [Physical Query Plan](Query_Plan#Physical_Query_Plan)
-- [Physical Operators (databases)](Physical_Operators_(databases))
+- [Physical Operators (databases)](Physical_Operators_%28databases%29)
 - [Physical Query Plan Optimization](Physical_Query_Plan_Optimization)
   - [Query Result Size Estimation](Query_Result_Size_Estimation) to estimate the result size 
   - [Join Ordering](Join_Ordering) to select the optimal way of ordering join operations
   - [Greedy Algorithm](Physical_Query_Plan_Optimization#Greedy_Algorithm) to select the optimal plan
 
 
-### [Indexing](Indexing_(databases))
+### [Indexing](Indexing_%28databases%29)
 Simple (Conventional) Indexes
 - [Dense Index](Dense_Index)
 - [Sparse Index](Sparse_Index)
@@ -54,17 +54,17 @@ Hash-Based Indexes
 - [Partitioned Hash Function Index](Partitioned_Hash_Function_Index)
 
 ### Different Stuff
-- [Physical Data Organization (databases)](Physical_Data_Organization_(databases))
+- [Physical Data Organization (databases)](Physical_Data_Organization_%28databases%29)
 - [Typical DB Architecture](Database#Classical_DBMS_Architecture)
 
 ### Ensuring [ACID](ACID)
-; [A](Atomicity_(databases)), [C](Consistency_(databases)) and [D](Durability_(databases))
+; [A](Atomicity_%28databases%29), [C](Consistency_%28databases%29) and [D](Durability_%28databases%29)
 - [Crash Recovery](Crash_Recovery)
 - [Database Transaction Log](Database_Transaction_Log)
   - [Undo Logging](Undo_Logging)
   - [Redo Logging](Redo_Logging)
   - [Undo/Redo Logging](Undo_Redo_Logging)
-; [I](Isolation_(databases))
+; [I](Isolation_%28databases%29)
 - [Concurrency Control](Concurrency_Control) and [Serializable Scheduling](Serializable_Scheduling)
 - [Scheduler](Scheduler)s:
   - [Lock-Based Scheduler](Lock-Based_Scheduler)

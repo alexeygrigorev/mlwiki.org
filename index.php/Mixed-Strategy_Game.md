@@ -133,4 +133,4 @@ predator:
     - result: Kicker kicks more to the Right
 - because G has adjusted
 ## Sources
-- [Game Theory (coursera)](Game_Theory_(coursera))
+- [Game Theory (coursera)](Game_Theory_%28coursera%29)

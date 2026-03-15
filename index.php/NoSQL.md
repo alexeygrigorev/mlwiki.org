@@ -12,7 +12,7 @@ title: NoSQL
 - Good transactions support ([ACID](ACID))
 - Algebraic Optimization
 - Caching / Materialized Views 
-- Strong [ Consistency](Consistency_(databases))
+- Strong [ Consistency](Consistency_%28databases%29)
 
 ### Downsides
 - many services don't require complex ad-hoc querying
@@ -83,6 +83,6 @@ Showed that persistend record storage could be scaled to thousands of nodes
 
 
 ## Sources
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-- [Web Intelligence and Big Data (coursera)](Web_Intelligence_and_Big_Data_(coursera))
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
+- [Web Intelligence and Big Data (coursera)](Web_Intelligence_and_Big_Data_%28coursera%29)
 - Amazon's Dynamo paper [link](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)

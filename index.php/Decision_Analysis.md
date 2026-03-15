@@ -46,7 +46,7 @@ Methods
 ### [Decision Under Risk](Decision_Under_Risk)
 - $c(a)$ is not known with certainty, but we know the probability distribution on the set of $X$
 
-[Decision Trees](Decision_Tree_(Decision_Theory))
+[Decision Trees](Decision_Tree_%28Decision_Theory%29)
 - [Expected Values for Lotteries](Expected_Values_for_Lotteries)
 - [Expected Utility Theory](Expected_Utility_Theory)
 
@@ -57,4 +57,4 @@ Methods
 - http://ids355.wikispaces.com/Ch.+5s+Decision+Making - Questions and Answers
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

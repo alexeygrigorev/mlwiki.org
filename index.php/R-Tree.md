@@ -8,7 +8,7 @@ tags:
 title: R-Tree
 ---
 ## R-Tree
-This is [Tree-Based](Binary_Search_Trees) [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_(databases)) 
+This is [Tree-Based](Binary_Search_Trees) [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_%28databases%29) 
 - Generalization of a [B-Tree](B-Tree) to multidimensional space
 - Indexes *regions* 
 
@@ -85,5 +85,5 @@ Also
 - [Spatial Databases](Spatial_Databases)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

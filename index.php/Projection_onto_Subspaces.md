@@ -249,7 +249,7 @@ What if $m = n$?
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - The Four Fundamental Subspaces: 4 Lines, G. Strang, [link](http://web.mit.edu/18.06/www/Essays/newpaper_ver3.pdf) 
 - The fundamental theorem of linear algebra, G. Strang [link](http://www.engineering.iastate.edu/~julied/classes/CE570/Notes/strangpaper.pdf)
 - Strang, G. Introduction to linear algebra.

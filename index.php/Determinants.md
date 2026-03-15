@@ -504,6 +504,6 @@ x_1 & y_1 & 1 \\
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - Strang, G. Introduction to linear algebra.
 - Курош А.Г. Курс Высшей Алгебры

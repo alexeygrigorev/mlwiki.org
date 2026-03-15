@@ -51,4 +51,4 @@ Main challenge: distinguish between full stop dot and dot in abbreviations
 
 
 ## Sources
-- [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
+- [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)

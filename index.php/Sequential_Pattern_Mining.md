@@ -127,7 +127,7 @@ Given
 
 |   SID  |  Sequence  |  10  |  $\langle (bd)(c)(b)(ac) \rangle$ ||  20  |  $\langle (bf)(ce)(b)(fg) \rangle$ ||  30  |  $\langle (ah)(bf)(a)(b)(f) \rangle$ ||  40  |  $\langle (be)(ce)(d) \rangle$ ||  50  |  $\langle (a)(bd)(b)(c)(b)(ade) \rangle$ |
 
-'*Step 1:*'
+*Step 1:*
 - generate length-1 candidates 
 - $\langle (a) \rangle, \langle (b) \rangle, \langle (c) \rangle, \langle (d) \rangle, \langle (e) \rangle, \langle (f) \rangle, \langle (g) \rangle, \langle (h) \rangle$
 - calculate frequency
@@ -143,7 +143,7 @@ Given
 
 
 
-'*Step 2*'
+*Step 2*
 Now need to generate length-2 candidates
 - two ways
   - adding an item to a new itemset, i.e. $\langle (a) \rangle$ becomes $\langle (a)(b) \rangle$ when we add $b$
@@ -188,4 +188,4 @@ Idea:
 - [Local Pattern Discovery](Local_Pattern_Discovery)
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

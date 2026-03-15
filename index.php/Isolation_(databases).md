@@ -7,7 +7,7 @@ title: Isolation (databases)
 ---
 ## Isolation
 A transaction is a sequence of updates to the database 
-- a transaction must be [consistent](Consistency_(databases))
+- a transaction must be [consistent](Consistency_%28databases%29)
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/transaction-consistency.png" alt="Image">
 - we need to ensure that all the transactions run in isolation
 - that is, while one transactions is running, no other transaction should see its intermediate results (which can be inconsistent)
@@ -40,4 +40,4 @@ Problem here:
 - [ACID](ACID)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

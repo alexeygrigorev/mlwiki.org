@@ -9,7 +9,7 @@ title: Decision Under Risk
 In contrast to [Decision Under Uncertainty](Decision_Under_Uncertainty) models, here we assume that we can assign probabilities to consequences 
 
 
-[Decision Trees](Decision_Tree_(Decision_Theory)) and simple lotteries are the main tool for expressing decision taking process and associated risk 
+[Decision Trees](Decision_Tree_%28Decision_Theory%29) and simple lotteries are the main tool for expressing decision taking process and associated risk 
 
 These lotteries are compared by the decision maker and he chooses the best option:
 - [Expected Values for Lotteries](Expected_Values_for_Lotteries) - limited approach
@@ -18,4 +18,4 @@ These lotteries are compared by the decision maker and he chooses the best optio
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

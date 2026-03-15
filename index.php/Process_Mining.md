@@ -118,4 +118,4 @@ These algorithms let you find a [Petri Net](Petri_Nets) from logs
 
 
 ## Sources
-- [Business Process Management (ULB)](Business_Process_Management_(ULB))
+- [Business Process Management (ULB)](Business_Process_Management_%28ULB%29)

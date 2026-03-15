@@ -44,7 +44,7 @@ Search:
 ## Example
 <img src="https://raw.github.com/alexeygrigorev/ulb-adb-project-couchbd/master/report/images/col-oriented-db-example.png" alt="Image">
 
-- The row is indexed by a key ('*transaction ID*')
+- The row is indexed by a key (*transaction ID*)
 - Column families have multiple columns, and columns are stored within single chunks 
 - Each Column Family may be stored on different chunk servers 
 - The number of column families is fixed, but the number of columns isn't - you may create as many as you want. 
@@ -63,4 +63,4 @@ But it can be overcome by adding a special table with indexes (it's used by Goog
 
 
 ## Sources
-- [Web Intelligence and Big Data (coursera)](Web_Intelligence_and_Big_Data_(coursera))
+- [Web Intelligence and Big Data (coursera)](Web_Intelligence_and_Big_Data_%28coursera%29)

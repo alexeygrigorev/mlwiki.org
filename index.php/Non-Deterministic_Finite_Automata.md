@@ -337,5 +337,5 @@ Transformation
   - Computers are always deterministic
  |
 ## Sources
-- [Automata (coursera)](Automata_(coursera))
-- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
+- [Automata (coursera)](Automata_%28coursera%29)
+- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_%28UFRT%29)

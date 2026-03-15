@@ -210,7 +210,7 @@ ONTOP:
 
 ## Source
 - Web Data Management book [link](http://webdam.inria.fr/Jorge)
-- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
-- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
+- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_%28UFRT%29)
+- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_%28book%29)
 - Ontology-Based Data Access: From Theory to Practice (presentation) [link](https://www.inf.unibz.it/~calvanese/presentations/BDA-2012-obda-calvanese.pdf)
 - ONTOP Demo Video [link](https://www.youtube.com/watch?v=KHtlARfex4c)

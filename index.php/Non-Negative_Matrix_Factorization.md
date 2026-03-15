@@ -225,4 +225,4 @@ def seung_nmf(V, k, threshold=1e-5, maxiter=500):
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [link](http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90)
 - Xu, Wei, Xin Liu, and Yihong Gong. "Document clustering based on non-negative matrix factorization." 2003. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.2293&rep=rep1&type=pdf)
 - Osinski, Stanislaw. "Improving quality of search results clustering with approximate matrix factorisations." 2006. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.74&rep=rep1&type=pdf)
-- [Python for Machine Learning (TUB)](Python_for_Machine_Learning_(TUB))
+- [Python for Machine Learning (TUB)](Python_for_Machine_Learning_%28TUB%29)

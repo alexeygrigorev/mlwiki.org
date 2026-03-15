@@ -35,7 +35,7 @@ rollback - abort the transaction that caused the triggered event
 
 
 ### Applications
-Rules usually express various aspects of application semantics and are typically used for maintaining [Consistency (databases)](Consistency_(databases))
+Rules usually express various aspects of application semantics and are typically used for maintaining [Consistency (databases)](Consistency_%28databases%29)
 - static constrains 
   - referential integrity
   - value constraints 
@@ -280,4 +280,4 @@ end
 
 
 ## Sources
-- [Advanced Databases (ULB)](Advanced_Databases_(ULB))
+- [Advanced Databases (ULB)](Advanced_Databases_%28ULB%29)

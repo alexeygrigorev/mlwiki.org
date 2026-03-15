@@ -241,5 +241,5 @@ Protégé
 - [Semantic Web Logics](Semantic_Web_Logics)
 
 ## Sources
-- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
-- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
+- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_%28book%29)
+- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_%28UFRT%29)

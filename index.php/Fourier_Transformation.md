@@ -166,5 +166,5 @@ This way we reduce computation from $O(n^2)$ to $\cfrac{n}{2} \, \log_2 n$
 - http://www.katjaas.nl/fourier/fourier.html
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - http://en.wikipedia.org/wiki/DFT_matrix

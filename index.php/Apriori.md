@@ -19,9 +19,9 @@ This method uses the property of this Lattice:
 
 ### Idea
 - at a step $k$
-- '*generate phase*'
+- *generate phase*
   - generate potentially frequent interesting itemsets of size $k$ based on the previous step
-- '*test phase*'
+- *test phase*
   - scan the generated itemsets
   - eliminate non-frequent ones
 
@@ -161,4 +161,4 @@ Remark:
 - [Eclat](Eclat)
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

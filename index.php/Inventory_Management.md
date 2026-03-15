@@ -33,10 +33,10 @@ EOQ = Economic Order Quantity model
 
 
 Costs:
-- '*daily order cost*': how much we pay on average *per day* for ordering items
+- *daily order cost*: how much we pay on average *per day* for ordering items
   - it's the cost of ordering divided by $T$ - time to empty the stock
   - $\text{doc}(n) = \cfrac{c_f}{T} = c_f \cdot \cfrac{\lambda}{n}$
-- '*daily storage cost*': how much we pay on average *per day* for keeping items
+- *daily storage cost*: how much we pay on average *per day* for keeping items
   - this is the total # of items we store divided by $T$
   - total # of items is the square of our triangle 
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/im/em-basic-eoq-dailycos.png" alt="Image">
@@ -70,10 +70,10 @@ Calculations
   - the total period $T$ is: (a) time to reach the peak + (b) time till the end
   - $T = {\color{grey}{(a)}} \ \cfrac{n}{V} +  {\color{grey}{(b)}} \  \cfrac{n}{\lambda} - \cfrac{n}{V}$
   - $T = \cfrac{n}{\lambda}$
-- '*daily order cost*'
+- *daily order cost*
   - the same as before
   - $\text{doc}(n) = \cfrac{c_f}{T} = c_f \cdot \cfrac{\lambda}{n}$
-- '*daily storage cost*'
+- *daily storage cost*
   - this is the total # of items we store divided by $T$
   - total # of items is the square of our triangle 
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/im/em-basic-stcost.png" alt="Image">
@@ -118,17 +118,17 @@ Calculations
   - $T_s = \cfrac{n - p}{\lambda}$ - # of days before no items left
   - $T_p = \cfrac{p}{\lambda}$ - # of days before the next refill
   - $T = \cfrac{n - p}{\lambda} + \cfrac{p}{\lambda} = \cfrac{n}{\lambda}$
-- '*daily order cost*'
+- *daily order cost*
   - the same as before
   - $\text{doc}(n) = \cfrac{c_f}{T} = c_f \cdot \cfrac{\lambda}{n}$
-- '*daily storage cost*'
+- *daily storage cost*
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/im/em-plst-sim-triangles.png" alt="Image">
   - the store items only during $T_s$, when we at $T_p$ there's nothing to store
   - $S_{\color{blue}{\blacktriangle}} = \cfrac{(n - p) \cdot T_s}{2}$ 
   - $\text{dsc}(n, p) = S_{\color{blue}{\blacktriangle}} \cdot \cfrac{1}{T}$
   - note that since the blue triangle and the big orange triangle are similar $\cfrac{T_s}{T} = \cfrac{n-p}{n}$
   - so we have $\text{dsc}(n, p) = c_s \cdot S_{\color{blue}{\blacktriangle}} \cdot \cfrac{1}{T} = c_s \cdot \cfrac{(n - p) \cdot {\color{blue}{T_s}}}{2} \cdot {\color{blue}{\cfrac{1}{T}}} = c_s \cdot \cfrac{(n - p)^2}{2n}$
-- '*daily postponing cost*'
+- *daily postponing cost*
   - the average cost of postponing per day 
   - this is the square of the red triangle
   - $S_{\color{red}{\blacktriangle}} = \cfrac{p \cdot T_p}{2}$
@@ -158,4 +158,4 @@ Optimization
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

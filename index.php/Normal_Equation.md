@@ -97,7 +97,7 @@ Suppose we have a matrix $A$ with out observations
 Normal Equation:
 - so we have $A \mathbf x = \mathbf b$
 - let's multiply both sides by $A^T$ - to find the best $\mathbf{\hat x}$ that approximates the solution $\mathbf x$ that doesn't exist
-- $A^T A \mathbf{\hat x} = A^T \mathbf b$ - this one usually has the solution, and it's called the '*Normal Equation*'
+- $A^T A \mathbf{\hat x} = A^T \mathbf b$ - this one usually has the solution, and it's called the *Normal Equation*
 - it projects $\mathbf b$ onto $C(A)$ and gives the solution $\mathbf{\hat x}$
 - it also happens to be the best solution in terms of Least Squares error: the projection error $\|  \mathbf e \|^2 = \| \mathbf b - A \mathbf{\hat x} \|^2$ is minimal
 
@@ -351,7 +351,7 @@ pinv(X' * X) * X' * y
 - [Gradient Descent](Gradient_Descent)
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)
 - http://en.wikipedia.org/wiki/Linear_least_squares_%28mathematics%29
 - http://www.seas.ucla.edu/~vandenbe/103/lectures/qr.pdf

@@ -128,5 +128,5 @@ Identity and square diagonal matrices are symmetric
 - https://inst.eecs.berkeley.edu/~ee127a/book/login/l_sym_psd.html
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - http://www.math.ucsd.edu/~njw/Teaching/Math271C/Lecture_03.pdf

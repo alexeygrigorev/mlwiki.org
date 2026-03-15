@@ -120,6 +120,6 @@ stripchart(A, method="stack", offset=.5, at=.15, pch = 19,
 - [R Visualization Snippets](R_Visualization_Snippets)
 
 ## Links and Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - http://www.cyclismo.org/tutorial/R/plotting.html
 - http://stackoverflow.com/a/15245023/861423

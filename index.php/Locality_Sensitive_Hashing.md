@@ -10,9 +10,9 @@ title: Locality Sensitive Hashing
 ---
 ## Locality Sensitive Hashing
 In large databases it's not possible to use brute force search: there's too much data
-- one way of speeding search up is using [Indexing](Indexing_(databases)): in particular, most interesting indexes are [Multi-Dimensional Indexes](Multi-Dimensional_Indexes)
+- one way of speeding search up is using [Indexing](Indexing_%28databases%29): in particular, most interesting indexes are [Multi-Dimensional Indexes](Multi-Dimensional_Indexes)
 - but many of these "classical" indexing schemes don't work for high dimensional data
-- '*Locality-Sensitive Hashing*' algorithms address this problem:
+- *Locality-Sensitive Hashing* algorithms address this problem:
 - it's a family of probabilistic/approximate indexing techniques that return the true KNNs most of the time correctly  
 
 

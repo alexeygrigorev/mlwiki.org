@@ -27,7 +27,7 @@ title: Linear Hashing
 - otherwise look at the bucket $h(k)[i..b] - 2^{i - 1}$ (i.e. just flip the most significant bit of the hash)
 - this rule is used for inserting and looking up
 
-'*Example*'
+*Example*
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/lin-hashing-ex1.png" alt="Image">
 - $b$ = 4 bits 
 - $i = 2$, can address $2^i = 4$ buckets
@@ -117,4 +117,4 @@ Very Bad Case
 - [Extensible Hashing](Extensible_Hashing)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

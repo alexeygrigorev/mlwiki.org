@@ -44,4 +44,4 @@ $a \ P \ b, b \ I \ c, c \ P \ d \Rightarrow a \ P \ d$
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

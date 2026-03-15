@@ -81,11 +81,11 @@ Lexical coherence assumption:
 
 
 There are 3 types of words 
-- '*Text-Related Domain words*': words that have at least one sense that contributes to determining the domain of the whore text 
+- *Text-Related Domain words*: words that have at least one sense that contributes to determining the domain of the whore text 
   - e.g. word "bank" in a text about economy
-- '*Text-Unrelated Domain words*': words that are from some non-generic domain, but don't contribute to the domain of the text
+- *Text-Unrelated Domain words*: words that are from some non-generic domain, but don't contribute to the domain of the text
   - e.g. word "church" in a text about economy
-- '*Text-Unrelated Generic words*': don't bring any relevant domain information 
+- *Text-Unrelated Generic words*: don't bring any relevant domain information 
   - e.g. "to be"
 
 
@@ -223,7 +223,8 @@ Using WordNet Domain for building a domain model:
 This is for synsets, not words
 - now let $V = \{ w_1 , \ ... \ , w_n \}$ the vocabulary
 - then domain relevance of a word is a function $R: \mathcal D \times V \to \mathbb R$ 
-- define $R$ as $$R(D_z, w_i) = \cfrac{1}- so it's average relevance of all $w_i$'s senses
+- define $R$ as $$R(D_z, w_i) = \cfrac{1}{|\text{senses}(w_i)|} \sum_{c \in \text{senses}(w_i)} R_s(D_z, c)$$
+- so it's average relevance of all $w_i$'s senses
 - if $w$ has only one sense, then $R(D_z, w) = R_s(D_z, c)$
 - a word with several senses ("polysemous") will be less relevant than a word with few senses 
 - words with just one sense are ("monosemic") - they will be the most relevant: they provide more information about the domain
@@ -262,15 +263,16 @@ LSA is done by projecting TermVSM and TextVSM to a common LSA space using some l
 
 DO [SVD](SVD):
 - $T = W \Sigma P^T$ 
-- $W$ (for '*W*'ords) are orthogonal eigenvectors of $T T^T$: word vectors
-- $P$ (for '*P*'assages) are orthogonal eigenvectors of $T^T T$: document vectors
+- $W$ (for *W*ords) are orthogonal eigenvectors of $T T^T$: word vectors
+- $P$ (for *P*assages) are orthogonal eigenvectors of $T^T T$: document vectors
 - Truncated SVD: use $\Sigma_k$: first $k$ singular values and the rest set to 0
 - $T_k = W \Sigma_k P^T \approx T$ the best approximation 
 
 
 Now let's define the domain matrix 
 - $D = I^{\text{N}} W \sqrt{\Sigma}$
-- $I^{\text{N}}$ is a diagonal matrix s.t. $I^{\text{N}}_{ii} = \cfrac{1}{\|  w_i \- $w_i$ is $i$th column of $W \sqrt{\Sigma}$ - principal components ($W \sqrt{\Sigma}$ are loadings for words)
+- $I^{\text{N}}$ is a diagonal matrix s.t. $I^{\text{N}}_{ii} = \cfrac{1}{\| w_i \|}$
+- $w_i$ is $i$th column of $W \sqrt{\Sigma}$ - principal components ($W \sqrt{\Sigma}$ are loadings for words)
 
 
 
@@ -300,7 +302,7 @@ Term VSM:
 Domain Spaces ftw
 
 
-so a '*Domain Space*' is a cluster-based representation for estimating term and text meaning 
+so a *Domain Space* is a cluster-based representation for estimating term and text meaning 
 - it's a vector space where both terms and texts can be compared 
 - once a domain space is defined by a matrix $D$, can represent both terms and texts by domain vectors
 - domain vectors - vectors that represent relevance among linguistic objects and each domain
@@ -318,7 +320,7 @@ In the domain space the vector representation of terms and documents is "augment
 
 Geometrically: 
 - <img src="http://habrastorage.org/files/0fe/98c/f82/0fe98cf82f2b4e369c5043c522b283a6.png" alt="Image">
-- source: [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_(book)), Fig 3.2
+- source: [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_%28book%29), Fig 3.2
 - both terms and texts are represented in common vector space 
 - so comparison between terms and texts are possible
 - also, the dimensionality of Domain Space is generally lower 
@@ -344,8 +346,10 @@ This kernel is represented by a DOmain Model matrix $D$
 
 $K$ is defined as 
 - $K(w) = w_i'$ if $w = w_i \in V$ 
-- $K(w) = \cfrac{\sum_{t \in T} \text{tf}(w, t) \cdot t'} {\|  \sum_{t \in T} \text{tf}(w, t) \cdot t' \- $K(t) = t (I^{text{idf}} D) = t'$ for documents |- $\text{tf}(w, t)$ is a term frequency of $w$ in text $t$ 
-- $I^{\text{idf}}$ is a diagonal matrix with IDFs: $I^{\text{idf}}_{ii} = \cfrac{1}
+- $K(w) = \cfrac{\sum_{t \in T} \text{tf}(w, t) \cdot t'} {\| \sum_{t \in T} \text{tf}(w, t) \cdot t' \|}$ if $w \notin V$
+- $K(t) = t (I^{\text{idf}} D) = t'$ for documents
+- $\text{tf}(w, t)$ is a term frequency of $w$ in text $t$
+- $I^{\text{idf}}$ is a diagonal matrix with IDFs: $I^{\text{idf}}_{ii} = \cfrac{1}{\text{df}(w_i)}$
 
 Can compute the similarity using cosine 
 
@@ -374,4 +378,4 @@ Domain Kernels can be used for any instance-based algorithm in many NLP applicat
 
 ## Sources
 - http://www.semdom.org/description
-- [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_(book))
+- [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_%28book%29)

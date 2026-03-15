@@ -50,4 +50,4 @@ A modification of [Merge Sort](Merge_Sort) can compute the # of inversions in $O
 ## Sources
 - Simple and efficient bilayer cross counting [link](http://www.emis.de/journals/JGAA/accepted/2004/BarthMutzelJuenger2004.8.2.pdf)
 - http://en.wikipedia.org/wiki/Inversion_(discrete_mathematics)
-- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
+- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

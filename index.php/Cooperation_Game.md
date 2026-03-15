@@ -37,4 +37,4 @@ There are two [Nash Equilibria](Nash_Equilibrium):
 
 
 ## Sources
-- [Game Theory (coursera)](Game_Theory_(coursera))
+- [Game Theory (coursera)](Game_Theory_%28coursera%29)

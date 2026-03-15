@@ -129,7 +129,7 @@ For example, $\ln (1 + x)$
   - $\ln (1 + x) = \sum\limits_{k=1}^\infty (-1)^{k+1}\, \cfrac{x^k}{k} = x - \cfrac{1}{2}\, x^2 + \cfrac{1}{3}\, x^3 - \cfrac{1}{4}\, x^4 + \ ...$
 - no factorials involved
  |
-'*Convergence domain*':
+*Convergence domain*:
 - we used [Geometric Series](Geometric_Series) here, so we must be in the domain of convergence of this series 
 - which is $| x| < 1$
 - Taylor Series approximates well only on the domain of convergence 
@@ -188,4 +188,4 @@ For example, compute expansion for $e^{\cos x}$ about $x = 0$
 - $e^u = e + e\, (u - 1) + \cfrac{1}{2!}\, e\, (u - 1)^2 + \ ...$ 
 
 ## Sources
-- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
+- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_%28coursera%29)

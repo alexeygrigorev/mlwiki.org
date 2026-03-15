@@ -45,7 +45,7 @@ Downsides
 
 No Compensation
 
-|   $c$  |  $e_1$  |  $e_2$  |  ...  |  $e_{1000}$  |  min  |   $a$   |  -100  |  1000  |  1000  |  ...  |  1000  |  -100 ||   $b$   |  -99  |  -99  |  -99  |  ...  |  -99  |  -99 ||         |       |       |       |       |       |  '*-99*'   |
+|   $c$  |  $e_1$  |  $e_2$  |  ...  |  $e_{1000}$  |  min  |   $a$   |  -100  |  1000  |  1000  |  ...  |  1000  |  -100 ||   $b$   |  -99  |  -99  |  -99  |  ...  |  -99  |  -99 ||         |       |       |       |       |       |  *-99*   |
 In this case we choose $b$ 
 - although it's clear that $a$ is better at everything 
 - it's only a little little bit worse at $e_1$
@@ -78,5 +78,5 @@ Advantages:
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-- [Game Theory (coursera)](Game_Theory_(coursera))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
+- [Game Theory (coursera)](Game_Theory_%28coursera%29)

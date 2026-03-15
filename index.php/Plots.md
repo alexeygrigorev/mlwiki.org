@@ -34,5 +34,5 @@ Types
 
 
 ## Sources
-- [Data Analysis (coursera)](Data_Analysis_(coursera))
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [Data Analysis (coursera)](Data_Analysis_%28coursera%29)
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)

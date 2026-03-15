@@ -21,7 +21,7 @@ In order to analyze one variable
 Results can be used for
 - deciding how to [discretize](Data_Discretization) this variable 
 - [Handling Missing Values](Handling_Missing_Values)
-- [Noise Handling (Data Mining)](Noise_Handling_(Data_Mining))
+- [Noise Handling (Data Mining)](Noise_Handling_%28Data_Mining%29)
 
 
 ## Visualization
@@ -32,5 +32,5 @@ Results can be used for
 
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
 - http://en.wikipedia.org/wiki/Univariate_analysis

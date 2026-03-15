@@ -92,4 +92,4 @@ To fix high bias:
 
 
 ## Sources
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

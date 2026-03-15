@@ -6,8 +6,8 @@ tags:
 - decision-under-uncertainty
 title: Decision Tree Exercises
 ---
-## [Decision Tree](Decision_Tree_(Decision_Theory)) Exercises
-These are exercises given at [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+## [Decision Tree](Decision_Tree_%28Decision_Theory%29) Exercises
+These are exercises given at [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 
 
 ## Exercise 1: Football Team Campaign
@@ -192,7 +192,7 @@ Then the expected value of the perfect information is
 - $EV(PF) = 0.7 \cdot 13 + 0.3 \cdot 5 = 1.06$
 
 
-### [Decision Tree (Decision Theory)](Decision_Tree_(Decision_Theory))
+### [Decision Tree (Decision Theory)](Decision_Tree_%28Decision_Theory%29)
 Now suppose that we hire a consultant
 - he will report whether to wait for $G$ or $P$
 - $RP$ report says to wait for $P$, $RG$ - report says to wait for $G$
@@ -226,4 +226,4 @@ Now we can calculate the expected value when hiring a consultant
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

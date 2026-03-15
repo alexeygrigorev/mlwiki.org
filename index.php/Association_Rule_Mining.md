@@ -97,4 +97,4 @@ Redundant rules
 - [Local Pattern Discovery](Local_Pattern_Discovery)
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

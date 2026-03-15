@@ -149,7 +149,7 @@ Full code of Matrix Multiplication in Flink: [link](https://github.com/alexeygri
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - Курош А.Г. Курс Высшей Алгебры
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
 - [Scalable Data Analytics and Data Mining AIM3 (TUB)](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB))

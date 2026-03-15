@@ -93,7 +93,7 @@ Example 2:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/pred-graph-2.png" alt="Image">
 
 
-'*Thm*' If the precedence graph $G$ of a schedule $S$ is a [DAG](Graphs#Directed_Acyclic_Graph) then
+*Thm* If the precedence graph $G$ of a schedule $S$ is a [DAG](Graphs#Directed_Acyclic_Graph) then
 - $S$ is conflict-serializable 
 - otherwise it's not
 
@@ -135,4 +135,4 @@ The following schedulers produce Conflict-Serializable Schedules:
 - [Validation-Based Scheduler](Validation-Based_Scheduler)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

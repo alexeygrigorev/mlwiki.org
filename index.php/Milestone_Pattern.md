@@ -18,4 +18,4 @@ Consider the following example:
 
 
 ## Sources
-- [Business Process Management (ULB)](Business_Process_Management_(ULB))
+- [Business Process Management (ULB)](Business_Process_Management_%28ULB%29)

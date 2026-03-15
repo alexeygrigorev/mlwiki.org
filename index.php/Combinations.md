@@ -93,7 +93,7 @@ $C_n^k = C_{n - 1}^{k - 1} + C^k_{n - 1}$
   - The number of combinations in the first group equals $C_{n - 1}^{k - 1}$
 - The combinations in the second group are combinations of size $k$ composed from $n - 1$ elements $a_1, a_2, ..., a_{n - 1}$
   - The number of combinations in the second group equals $C_{n - 1}^k$
-- By the [rule of sum](The_Rules_of_Sums_and_Products_(Combinatorics)), the total number of combinations is $C_{n - 1}^k + C_{n - 1}^{k - 1} = C_n^k$
+- By the [rule of sum](The_Rules_of_Sums_and_Products_%28Combinatorics%29), the total number of combinations is $C_{n - 1}^k + C_{n - 1}^{k - 1} = C_n^k$
 
 ### Property 3
 $\sum_{k = 0}^n C_n^k = 2^n$

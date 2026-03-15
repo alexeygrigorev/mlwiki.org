@@ -40,6 +40,6 @@ If not Normal, use these non-parametric tests
 
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - http://en.wikipedia.org/wiki/Analysis_of_variance

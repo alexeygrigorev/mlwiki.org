@@ -149,4 +149,4 @@ Log-level fitness is
 - http://www.processmining.org/blogs/pub2006/genetic_process_mining
 
 ## Sources
-- [Business Process Management (ULB)](Business_Process_Management_(ULB))
+- [Business Process Management (ULB)](Business_Process_Management_%28ULB%29)

@@ -53,7 +53,7 @@ Bad States we want to avoid:
 - before element $X$ is modified on disk, we write all log records that belong to $X$ to disk
   - this is called *Write-Ahead Logging*: 
   - before writing a new value, write all corresponding log records
-- before you write '*commit*' to logs, all modifications should be already flushed on disk
+- before you write *commit* to logs, all modifications should be already flushed on disk
 
 
 ### Undo Logging Recovery Rules
@@ -109,7 +109,7 @@ Suppose we undo both, but write only $\langle T_1, \text{abort} \rangle$ (power 
 - we have undone $T_1$ and now trying to undo $T_2$ 
 - this will rollback to value that was there prior to $T_2$, overwriting value that was prior to $T_1$ 
 - (That actually could be the value written by $T_1$ which we rolled back)
-- '*BAD STATE*' 
+- *BAD STATE* 
 
 If we write $\langle T_2, \text{abort} \rangle$, but not $\langle T_1, \text{abort} \rangle$
 - no problems in this case 
@@ -219,4 +219,4 @@ In this case:
 <!-- Main: Database Transaction Log Exercises -->
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

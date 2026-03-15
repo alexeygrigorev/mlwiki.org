@@ -49,7 +49,7 @@ A *side effect* is a change in previously established definitions. Functions wit
 - Replace formal arguments in the function body with the values
 
 ## Functional Languages
-- [Scala](Scala) ([Functional Programming Principles in Scala (coursera)](Functional_Programming_Principles_in_Scala_(coursera)))
+- [Scala](Scala) ([Functional Programming Principles in Scala (coursera)](Functional_Programming_Principles_in_Scala_%28coursera%29))
 - [Haskell](Haskell)
 
 ## Literature
@@ -57,4 +57,4 @@ A *side effect* is a change in previously established definitions. Functions wit
 - A. Field, P. Harrison, Functional Programming.
 
 ## Sources
-- [Functional Programming Principles in Scala (coursera)](Functional_Programming_Principles_in_Scala_(coursera))
+- [Functional Programming Principles in Scala (coursera)](Functional_Programming_Principles_in_Scala_%28coursera%29)

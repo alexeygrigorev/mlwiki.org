@@ -6,7 +6,7 @@ tags:
 title: Expected Values for Lotteries
 ---
 ## [Expected Value](Expected_Value)s for Lotteries
-[Expected Value](Expected_Value) is one way to compare lotteries in [Decision Trees](Decision_Tree_(Decision_Theory))
+[Expected Value](Expected_Value) is one way to compare lotteries in [Decision Trees](Decision_Tree_%28Decision_Theory%29)
 
 Define :
 - $EV(l) = \sum_{x \in X} x \cdot p_l(x)$
@@ -73,4 +73,4 @@ We need to use a different approach
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

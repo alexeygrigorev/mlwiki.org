@@ -7,7 +7,7 @@ tags:
 title: Extensible Hashing
 ---
 ## Extensible Hashing
-Hash-based [secondary memory](Secondary_Storage) [index](Indexing_(databases)) structure for [databases](Databases)
+Hash-based [secondary memory](Secondary_Storage) [index](Indexing_%28databases%29) structure for [databases](Databases)
 
 Main ideas:
 - Growing hash function
@@ -62,7 +62,7 @@ Example
   - that means that both blocks use 2 bits to assign a key to a bucket (and we indicate that value on top of the buckets)
 - but to address these new buckets now we need 2 bits, and still $i = 1$
   - i.e. $i$ in the directory becomes less than at least one $i$ from buckets
-  - that means we need to '*create a new directory*'
+  - that means we need to *create a new directory*
   - if it wasn't the case, we just would re-wire pointers to the dict
 - note that bucket for (0) is still the same - so both 00 and 01 in the new directory point to this bucket 
 - if now we insert 0000 and 0100, we will reorganize the first bucket, but will not rebuild the directory
@@ -96,4 +96,4 @@ Cons
 - [Hash Indexes](http://dblab.cs.toronto.edu/courses/443/2013/06.hash-index.html)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

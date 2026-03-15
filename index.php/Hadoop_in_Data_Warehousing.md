@@ -7,7 +7,7 @@ tags:
 title: Hadoop in Data Warehousing
 ---
 [Hadoop](Hadoop) for [Data Warehousing](Data_Warehouse)
-- This is a part of a project for [Data Warehousing (ULB)](Data_Warehousing_(ULB)) course
+- This is a part of a project for [Data Warehousing (ULB)](Data_Warehousing_%28ULB%29) course
 - link to the final report: [report](http://alexeygrigorev.github.io/ulb-dw-project-hadoop/report/report.pdf)
 - presentation: [html](http://alexeygrigorev.github.io/ulb-dw-project-hadoop/presentation/dw-presentation.html) or [slide share](http://www.slideshare.net/AlexeyGrigorev/hadoop-in-data-warehousing)
 
@@ -106,9 +106,9 @@ Hadoop as an [ETL](ETL) process
 Algorithm
 - load data into [Hadoop](Hadoop)
 - discover something there with it
-- '*E*' parse and prepare (with [MapReduce](MapReduce))
-- '*T*' clean and transform to some structured format (with [MapReduce](MapReduce))
-- '*L*' extract data from Hadoop and load to a Data Warehouse
+- *E* parse and prepare (with [MapReduce](MapReduce))
+- *T* clean and transform to some structured format (with [MapReduce](MapReduce))
+- *L* extract data from Hadoop and load to a Data Warehouse
 
 Input:
 - not structured provisional data

@@ -149,7 +149,7 @@ np.abs((A - Q.dot(R)).sum()) < 1e-6
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - Strang, G. Introduction to linear algebra.
 - http://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process
 - http://inst.eecs.berkeley.edu/~ee127a/book/login/l_mats_qr.html

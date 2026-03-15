@@ -74,4 +74,4 @@ $\Rightarrow$ if a learning algorithm is suffering from high variance (i.e. it o
 
 
 ## Sources
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

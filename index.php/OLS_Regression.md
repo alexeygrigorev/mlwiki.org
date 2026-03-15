@@ -12,7 +12,7 @@ title: OLS Regression
 - This is a technique for computing coefficients for [Multivariate Linear Regression](Multivariate_Linear_Regression).
 - the solution is obtained via minimizing the squared error, therefore it's called *Linear Least Squares*
 - two solutions: [Normal Equation](Normal_Equation) and [Gradient Descent](Gradient_Descent)
-- this is the the typical way of solving the [Multivariate Linear Regression](Multivariate_Linear_Regression), therefore it's often called '*OLS Regression*'
+- this is the the typical way of solving the [Multivariate Linear Regression](Multivariate_Linear_Regression), therefore it's often called *OLS Regression*
 
 
 ## Regression Problem
@@ -137,7 +137,7 @@ w_0 \\ w_1
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)
 - [Seminar Hot Topics in Information Management IMSEM (TUB)](Seminar_Hot_Topics_in_Information_Management_IMSEM_(TUB))
 - http://en.wikipedia.org/wiki/Linear_least_squares_%28mathematics%29

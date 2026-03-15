@@ -61,9 +61,9 @@ This idea is used in [Buckets of Pointers](Buckets_of_Pointers)
 
 
 ## See also
-- [Indexing (databases)](Indexing_(databases))
+- [Indexing (databases)](Indexing_%28databases%29)
 - [Sparse Index](Sparse_Index)
 - [Dense Index](Dense_Index)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

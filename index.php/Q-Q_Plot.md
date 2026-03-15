@@ -120,6 +120,6 @@ Most likely not normal
 
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - https://en.wikipedia.org/wiki/Q-Q_plot
 - https://en.wikipedia.org/wiki/Normal_probability_plot

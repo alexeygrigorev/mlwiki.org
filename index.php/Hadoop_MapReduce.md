@@ -10,7 +10,7 @@ title: Hadoop MapReduce
 ---
 ## Hadoop MapReduce
 This is a [Hadoop](Hadoop) data processing tool on top of [HDFS](HDFS)
-- it's a batch query processing tool that goes over '*all*' available data
+- it's a batch query processing tool that goes over *all* available data
 - best for off-line use
 - it's a part of [Hadoop](Hadoop)
 
@@ -36,7 +36,7 @@ Job packaging:
 
 ### Tasks
 Each job consists of tasks:
-- there are two types of tasks: '*map tasks*' and '*reduce tasks*'
+- there are two types of tasks: *map tasks* and *reduce tasks*
 - tasks are scheduled by [YARN](YARN) and run on different nodes 
 - if a task fails, it's rescheduled on a different node
 
@@ -69,21 +69,21 @@ Map only tasks
 ## MapReduce Job Execution
 General flow:
 - input files are split into input splits
-- '*map phase*': master picks some idle workers and assigns them a map task
+- *map phase*: master picks some idle workers and assigns them a map task
 - mappers write their results to their disks
-- '*reduce phase*': once they finish, reducers take the results and process
+- *reduce phase*: once they finish, reducers take the results and process
 
 <img src="https://raw.github.com/alexeygrigorev/ulb-adb-project-couchbd/master/report/images/map-reduce2.png" alt="Image">
 
 
-'*map phase*'
+*map phase*
 - each input split is assigned to a map worker
 - it applies the [map function](MapReduce#Map_Function) to each record
 - results are written to $R$ partitions, where $R$ is the number of reducers
-- wait until '*all*' map tasks are completed
+- wait until *all* map tasks are completed
 
 
-'*shuffle phase*' (sorting)
+*shuffle phase* (sorting)
 - the master assigns reduce task to workers
 - the intermediate results are shuffled and assigned to reducers
 - if there's a combiner function, it is applied to each partition
@@ -92,7 +92,7 @@ General flow:
 
 
 <img src="https://habrastorage.org/files/29b/802/f87/29b802f87a734694b9e5fcf16fd016e9.png" alt="Image"> <!-- Image: map-to-reduce.png -->
-'*reduce phase*'
+*reduce phase*
 - Reducers ask the Application Master where the mappers are located
 - and then they start pulling files from mappers as soon as mappers complete
 - now apply the [reduce function](MapReduce#Reduce_Function) to each group
@@ -327,7 +327,7 @@ In Java API you'd use this:
 [RDBMS](Relational_Databases) 
 - Declarative query language
 - Schemas
-- [Indexing](Indexing_(databases)) 
+- [Indexing](Indexing_%28databases%29) 
 - [Logical Query Plan Optimization](Logical_Query_Plan_Optimization) 
 - [Caching](Caching)
 - [View Materialization](View_Materialization) 
@@ -402,5 +402,5 @@ Solutions for I/O optimization
 - Lee et al, Parallel Data Processing with MapReduce: A Survey [link](http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf)
 - Ordonez et al, Relational versus non-relational database systems for data warehousing [link](http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf)
 - Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [link](http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/)
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
-- [Hadoop: The Definitive Guide (book)](Hadoop__The_Definitive_Guide_(book))
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
+- [Hadoop: The Definitive Guide (book)](Hadoop__The_Definitive_Guide_%28book%29)

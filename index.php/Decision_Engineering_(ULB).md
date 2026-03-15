@@ -82,7 +82,7 @@ Methods:
 
 
 [Decision Under Risk](Decision_Under_Risk)
-- [Decision Trees](Decision_Tree_(Decision_Theory)) and [Decision Tree Exercises](Decision_Tree_Exercises)
+- [Decision Trees](Decision_Tree_%28Decision_Theory%29) and [Decision Tree Exercises](Decision_Tree_Exercises)
 - [Expected Values for Lotteries](Expected_Values_for_Lotteries)
 - [Expected Utility Theory](Expected_Utility_Theory)
 

@@ -89,7 +89,7 @@ Can give the answer of "how much unpredictable is your data?"
 - \text{Entropy} = - \cfrac{342}{891} \log_2 \cfrac{342}{891}  - \cfrac{549}{891} \log_2 \cfrac{549}{891} \approx 0.96
 
 
-This is important measure for splitting in [Decision Trees](Decision_Tree_(Data_Mining))
+This is important measure for splitting in [Decision Trees](Decision_Tree_%28Data_Mining%29)
 - select the attribute with the highest information gain 
 - it will reduce the unpredictability the most
 
@@ -107,5 +107,5 @@ Suppose we have a data set of customers
 - http://en.wikipedia.org/wiki/Information_entropy
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)

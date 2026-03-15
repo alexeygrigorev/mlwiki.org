@@ -10,7 +10,7 @@ title: Orthogonal Matrices
 Vectors $\mathbf q_1, \ ... \ , \mathbf q_n$ are *orthonormal* if they are [orthogonal](Vector_Orthogonality) and unit vectors 
 - $\mathbf q_i \; \bot \; \mathbf q_j \ \forall i \ne j$ and
 - $\mathbf q_i^T \mathbf q_j = 0$ if $i \ne j$ and $\mathbf q_i^T \mathbf q_j = 1$ otherwise
-- these vectors make a good [basis](Basis_(Linear_Algebra)) 
+- these vectors make a good [basis](Basis_%28Linear_Algebra%29) 
 
 
 ### Orthogonal Matrix
@@ -166,5 +166,5 @@ $Q$ preserves the angle between $\mathbf x$ and $\mathbf y$
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - http://inst.eecs.berkeley.edu/~ee127a/book/login/l_mats_qr.html

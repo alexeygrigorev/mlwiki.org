@@ -20,4 +20,4 @@ $f_k$ is non-discriminating criterion because for all alternatives it evaluates 
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

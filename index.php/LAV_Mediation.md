@@ -6,7 +6,7 @@ tags:
 title: LAV Mediation
 ---
 ## LAV Mediation
-There are two main approached for [Mediating](Mediator_(Data_Integration)) in [Data Integration](Data_Integration) 
+There are two main approached for [Mediating](Mediator_%28Data_Integration%29) in [Data Integration](Data_Integration) 
 - [GAV Mediation](GAV_Mediation) - defining global relations in terms of local
 - [LAV Mediation](LAV_Mediation) - defining local relations in terms of global
 
@@ -14,7 +14,7 @@ There are two main approached for [Mediating](Mediator_(Data_Integration)) in [D
 LAV - Local-as-View Mediation
 - local relations are defined as views (queries) over global relations
 - goal: define the global schema in such a way that individual definitions don't change when new data sources are added or old are removed 
-- See some notation in [Mediator (Data Integration)](Mediator_(Data_Integration))
+- See some notation in [Mediator (Data Integration)](Mediator_%28Data_Integration%29)
 
 
 ## LAV Mapping
@@ -84,7 +84,7 @@ suppose we're interested in Master students
 - rewriting process is more complex, than for GAV
 
 Algorithms to do that
-- [Bucket Algorithm](Bucket_Algorithm_(Data_Integration))
+- [Bucket Algorithm](Bucket_Algorithm_%28Data_Integration%29)
 - [Minicon Algorithm](Minicon_Algorithm)
 - [Inverse-Rules Algorithm](Inverse-Rules_Algorithm)
 

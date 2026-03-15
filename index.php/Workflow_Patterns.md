@@ -63,4 +63,4 @@ perform $d$ after $b$ or $c$ finishes [link](http://www.workflowpatterns.com/pat
 
 
 ## Sources
-- [Business Process Management (ULB)](Business_Process_Management_(ULB))
+- [Business Process Management (ULB)](Business_Process_Management_%28ULB%29)

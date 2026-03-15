@@ -13,12 +13,12 @@ title: Physical Query Plan Optimization
 
 Translating SQL to RA expression is the first step in [Query Processing](Query_Processing) Pipeline
 - Input: Optimized Logical Query plan - expression in Extended [Relational Algebra](Relational_Algebra)
-- Output: Optimized Physical Query Plan - expression in Relational algebra with each node assigned some [physical algorithm](Physical_Operators_(databases))
+- Output: Optimized Physical Query Plan - expression in Relational algebra with each node assigned some [physical algorithm](Physical_Operators_%28databases%29)
 
 
 ## Cost-Based Plan Selection
 We need to select the optimal plan based on 
-- Cost of [Physical Operators](Physical_Operators_(databases)) and 
+- Cost of [Physical Operators](Physical_Operators_%28databases%29) and 
 - on [estimated cost of subqueries](Query_Result_Size_Estimation)
 
 This is an [Optimization Problem](Optimization_Problem)
@@ -53,10 +53,10 @@ Consider this example:
 
 ## See also
 - [Query Plan](Query_Plan)
-- [Physical Operators (databases)](Physical_Operators_(databases))
+- [Physical Operators (databases)](Physical_Operators_%28databases%29)
 - [Query Result Size Estimation](Query_Result_Size_Estimation)
 - [Join Ordering](Join_Ordering)
 - [Pipelining](Pipelining)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

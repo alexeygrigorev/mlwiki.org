@@ -10,7 +10,7 @@ Spectral Theorem is also sometimes called Principal Axis Theorem
 - In [Linear Algebra](Linear_Algebra) a Spectrum is a set of [Eigenvectors](Eigenvalues_and_Eigenvectors) of a matrix 
 
 
-'*Theorem*':
+*Theorem*:
 - Every [Symmetric Matrix](Symmetric_Matrices) can be factorized as $A = Q \Lambda Q^T$
 - with real eigenvalues $\Lambda$ and orthonormal eigenvectors in the columns of $Q$
 
@@ -49,4 +49,4 @@ We can look differently at the results of [Eigendecomposition](Eigendecompositio
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)

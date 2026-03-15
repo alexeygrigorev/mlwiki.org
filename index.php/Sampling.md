@@ -40,9 +40,9 @@ Random sampling (especially SRS - simple random sampling) is very important
 
 
 ### Replacements
-- '*without replacement*'
+- *without replacement*
   - when item is selected for a sampling, it's taken out of the population
-- sampling '*with replacement*' 
+- sampling *with replacement* 
   - an item can be sampled several times
   - used in the [Bootstrap](Bootstrap) method - for resampling
 - also see [Simulation Basics in R#Sampling](Simulation_Basics_in_R#Sampling)
@@ -122,6 +122,6 @@ So we know that
 
 
 ## Sources
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)

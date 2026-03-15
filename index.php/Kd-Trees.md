@@ -67,5 +67,5 @@ The described algorithm is for Main Memory, not for disk
 - [Multi-Dimensional Indexes](Multi-Dimensional_Indexes)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

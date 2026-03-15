@@ -9,7 +9,7 @@ tags:
 title: ROC Analysis
 ---
 ## ROC Analysis
-ROC stands for '*R*'eceiver '*O*'perating '*C*'haracteristic (from Signal Detection Theory)
+ROC stands for *R*eceiver *O*perating *C*haracteristic (from Signal Detection Theory)
 - initially - for distinguishing noise from not noise
 - so it's a way of showing the performance of Binary Classifiers
   - only two classes - noise vs not noise
@@ -416,6 +416,6 @@ public static double auc(List<TrainingInstance> list) {
 - http://stats.stackexchange.com/a/105577/49130 answer on CV about drawing ROC Curves
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
 - http://www.cs.bris.ac.uk/~flach/ICML04tutorial/ROCtutorialPartI.pdf
 - http://www.medcalc.org/manual/roc-curves.php

@@ -92,8 +92,8 @@ Interpretation:
 <th>$x \to 0$</th><th>$x \to \infty$</th>
 </tr>
 <tr>
-<td>$O(x^n)$ consists of all functions $f$ that approach 0 '*at least as fast as*' $x^n$</td>
-<td>$O(x^n)$ consists of all functions $f$ that approach \infty '*no faster than*' $x^n$</td>
+<td>$O(x^n)$ consists of all functions $f$ that approach 0 *at least as fast as* $x^n$</td>
+<td>$O(x^n)$ consists of all functions $f$ that approach \infty *no faster than* $x^n$</td>
 </tr>
 <tr>
 <td>
@@ -156,4 +156,4 @@ Example 1:
 - Stirling Formula (see [Factorial](Factorial))
 
 ## Sources
-- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
+- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_%28coursera%29)

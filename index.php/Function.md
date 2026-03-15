@@ -63,4 +63,4 @@ Functions, like [Vectors](Vectors), can form [Vector Spaces](Vector_Spaces)
 
 
 ## Sources
-- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
+- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_%28coursera%29)

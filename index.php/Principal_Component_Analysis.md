@@ -33,4 +33,4 @@ To reduce from $N$-dim to $K$-dim
 - [Dimensionality Reduction](Dimensionality_Reduction)
 
 ## Sources
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

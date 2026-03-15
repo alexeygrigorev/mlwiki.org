@@ -91,7 +91,7 @@ Different clusters
 - what we can do is to try it several times and choose the best 
 
 
-'*Algorithm*':
+*Algorithm*:
 - repeat $n$ times (typically 50 - 1000)
   - randomly initialize $k$ centroids 
   - run k-means, get $c_1, \ ... \ , c_m, \boldsymbol \mu_1, \ ... \ , \boldsymbol \mu_k$
@@ -337,8 +337,8 @@ See ipython notebook for complete code:
 
 
 ## Sources
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
-- [Python for Machine Learning (TUB)](Python_for_Machine_Learning_(TUB))
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)
+- [Python for Machine Learning (TUB)](Python_for_Machine_Learning_%28TUB%29)
 - [Machine Learning 1 (TUB)](Machine_Learning_1_(TUB))
 - Steinbach, Michael, George Karypis, and Vipin Kumar. "A comparison of document clustering techniques." 2000.
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [link](http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90)

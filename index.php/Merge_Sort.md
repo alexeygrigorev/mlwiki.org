@@ -118,9 +118,9 @@ Brute force is not an option: $\Theta(n^2)$ time
 
 Basic idea:
 - insertion $c(i, j)$ is
-  - '*left*', if $i, j \leqslant \frac{n}{2}$
-  - '*right*', if $i, j > \frac{n}{2}$
-  - '*split*' if $i \leqslant \frac{n}{2} < j$
+  - *left*, if $i, j \leqslant \frac{n}{2}$
+  - *right*, if $i, j > \frac{n}{2}$
+  - *split* if $i \leqslant \frac{n}{2} < j$
 
 
 #### Algorithm
@@ -230,4 +230,4 @@ The merge sort algorith is very easy to extend to sort large amounts of data tha
 - [Quick Sort](Quick_Sort)
 
 ## Sources
-- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
+- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

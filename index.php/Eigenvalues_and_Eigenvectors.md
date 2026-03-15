@@ -130,7 +130,7 @@ If all eigenvalues $\lambda_1, \ ... \ , \lambda_n$ are different then all eigen
 - so any matrix with distinct eigenvalues can be [diagonalized](Eigendecomposition)
 
 
-'*Thm.*' $\mathbf x_1, \ ... \ , \mathbf x_n$ that correspond to distinct eigenvalues are linearly independent. 
+*Thm.* $\mathbf x_1, \ ... \ , \mathbf x_n$ that correspond to distinct eigenvalues are linearly independent. 
 
 
 Proof
@@ -189,5 +189,5 @@ This matrix is used for [Matrix Diagonalization](Eigendecompostion)
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - Strang, G. Introduction to linear algebra.

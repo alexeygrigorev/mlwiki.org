@@ -82,7 +82,7 @@ Consequences:
   - $\pi(a_i, a_j)$ is a weighed sum of $\pi_k$ which are always positive
   - this is because the preference functions always return positive values
 - $\pi(a_i, a_j) + \pi(a_j, a_i) \leqslant 1$
-  - '*todo*'
+  - *todo*
 
 
 
@@ -297,5 +297,5 @@ Cannot say anything about $a$ and $c$
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 - An Introduction to Multicriteria Decision Aid: The PROMETHEE and GAIA Methods, Yves De Smet, Karim Lidouh, 2013

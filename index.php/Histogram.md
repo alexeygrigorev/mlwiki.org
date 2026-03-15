@@ -52,6 +52,6 @@ Usual histogram estimates the [Probability Density Function](Probability_Density
 - [Density Plot](Density_Plot)
 
 ## Sources
-- [Data Analysis (coursera)](Data_Analysis_(coursera))
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
+- [Data Analysis (coursera)](Data_Analysis_%28coursera%29)
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)

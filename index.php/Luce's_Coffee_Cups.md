@@ -33,4 +33,4 @@ The reason for it is that there's a sensitivity threshold that is not taken into
 - On Indifference: http://econweb.umd.edu/~ozbay/indifference.pdf
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

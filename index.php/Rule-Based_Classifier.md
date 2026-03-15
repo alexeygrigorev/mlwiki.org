@@ -48,7 +48,7 @@ Some variables have more than 2 values
 - select attribute with best error rate for its rules
 
 
-Can see 1-Rule as a one-level [Decision Tree (Data Mining)](Decision_Tree_(Data_Mining))
+Can see 1-Rule as a one-level [Decision Tree (Data Mining)](Decision_Tree_%28Data_Mining%29)
 - one branch for each value
 - each branch assigns most frequent class
 
@@ -71,7 +71,7 @@ Can go further
 
 ### Getting Rules
 Where to extract these rules from?
-- from [Decision Trees](Decision_Tree_(Data_Mining))
+- from [Decision Trees](Decision_Tree_%28Data_Mining%29)
   - each path from top to the bottom is a rule, and the leaf is a class
 - sequential covering - for learning rules directly (PRISM algorithm [link](http://www.cs.bc.edu/~alvarez/DataMining/Notes/covering.html))  
   - repeatedly removes a portion of the dataset
@@ -79,7 +79,7 @@ Where to extract these rules from?
 
 
 ### Sequential Covering Algorithm
-'*PRISM*'(dataset $D$):
+*PRISM*(dataset $D$):
 - $R$ - resulting rule dataset, $R \leftarrow \varnothing$
 - for each class $C$ 
 - while $D \not \equiv \varnothing$
@@ -100,7 +100,7 @@ Finding the next rule [link](http://www.evernote.com/shard/s344/sh/d82d9776-7319
 
 
 
-'*FindNextRule*'(class $C$, dataset $D$):
+*FindNextRule*(class $C$, dataset $D$):
 - let $A$ be all attributes in $D$
 - let $r$ be the initial rule $r: \varnothing \to C$
   - not examining anything, just always returning $C$
@@ -149,7 +149,7 @@ Other measures of "promisingness"
 
 
 ## Sources and Links
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
 - http://www.slideshare.net/pierluca.lanzi/machine-learning-and-data-mining-12-classification-rules
 - http://www.tutorialspoint.com/data_mining/dm_rbc.htm 
 - http://www.cs.bc.edu/~alvarez/DataMining/Notes/covering.html

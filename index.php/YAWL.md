@@ -194,11 +194,11 @@ We don't need to transfer data from activity to activity
 
 
 ## Timers
-'*TODO*'
+*TODO*
 
 
 ## Resource Perspective
-'*TODO*'
+*TODO*
 
 
 ## YAWL Option to Complete
@@ -248,4 +248,4 @@ The same net as in [Petri Nets](Petri_Nets):
 - http://yawlfoundation.org/yawldocs/GettingStartedWithYAWL.pdf
 
 ## Sources
-- [Business Process Management (ULB)](Business_Process_Management_(ULB))
+- [Business Process Management (ULB)](Business_Process_Management_%28ULB%29)

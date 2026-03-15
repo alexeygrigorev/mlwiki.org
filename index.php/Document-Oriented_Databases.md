@@ -46,7 +46,7 @@ Most XML databases are Document-Oriented
 
 
 ## Sources
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
 - [Document-oriented database (wikipedia)](http://en.wikipedia.org/wiki/Document-oriented_database)
 
 ## See also

@@ -59,7 +59,7 @@ Alternatives could be
 
 
 So the first step is
-- '*clearly specify the null and alternative hypotheses*'
+- *clearly specify the null and alternative hypotheses*
 
 
 ### Step 2: Evidence  - Test Statistics
@@ -70,7 +70,7 @@ A test statistic is made under assumption that $H_0$ is true
 
 
 So the 2nd step is 
-- '*Collect the data and calculate a test statistic assuming $H_0$ is true*'
+- *Collect the data and calculate a test statistic assuming $H_0$ is true*
 
 
 ### Step 3: $P$-value
@@ -93,13 +93,13 @@ It answers the following question
 The smaller the $p$-value the stronger the evidence against $H_0$
 
 
-'*Note|  *'
+*Note|  *
 - $p$-value cannot be interpreted as how likely it is that the $H_0$ is true.
 - $p$-value tells you how unlikely the observed value of the test statistics (and more extreme value) is if the $H_0$ was true. 
 
 
 So the 3rd step is 
-- '*determine how unlikely the test statistic is if the $H_0$ is true*' (or, calculate the $p$-value)
+- *determine how unlikely the test statistic is if the $H_0$ is true* (or, calculate the $p$-value)
 
 
 ### Step 4: Verdict
@@ -122,7 +122,7 @@ The result is statistically significant if the evidence is strong.
 
 
 The final step: 
-- '*make a conclusion based on the $p$-value*' and on the context of the problem (important|  ) 
+- *make a conclusion based on the $p$-value* and on the context of the problem (important|  ) 
 
 ## Common Test Statistics
 - [$z$-tests](z-tests) - [normal](Normal_Distribution), for comparing means
@@ -178,21 +178,21 @@ Consider the following one-sample [$z$-test](z-test) for means:
 - i.e. we want to check if population mean is larger than some value 
 - under the [Normal Model](Normal_Distribution) we calculate the $z$-score and corresponding $p$ value of the right tail
 - <img src="http://habrastorage.org/files/ab5/ad1/a1f/ab5ad1a1f6054967aecca86243c4b433.png" alt="Image">
-  - (source: [OpenIntro](OpenIntro_Statistics_(book)), figure 4.16)
+  - (source: [OpenIntro](OpenIntro_Statistics_%28book%29), figure 4.16)
 
 
 Analogously, for 
 - $H_0: \mu = \mu_0, H_A: \mu < \mu_0$ 
 - we calculate the $p$-value based on the left tail 
 - <img src="http://habrastorage.org/files/bb4/edb/b53/bb4edbb5330e4c0c814a89d52c821690.png" alt="Image">
-  - (source: [OpenIntro](OpenIntro_Statistics_(book)), figure 4.16. modified)
+  - (source: [OpenIntro](OpenIntro_Statistics_%28book%29), figure 4.16. modified)
 
 
 ### Two-Sided
 Two-Sided alternative hypotheses looks at both left and right tails. E.g.
 - $H_0: \mu = \mu_0, H_A: \mu \ne \mu_0$ 
 - <img src="http://habrastorage.org/files/34a/68f/2b4/34a68f2b488c420fbc9ec0d522a9e906.png" alt="Image">
-  - (source: [OpenIntro](OpenIntro_Statistics_(book)), figure 4.19, modified)
+  - (source: [OpenIntro](OpenIntro_Statistics_%28book%29), figure 4.19, modified)
 - if this case, we reject $H_0$ if the test statistics gets under any of the shaded tails 
   - i.e. the $p$-value is (typically) twice bigger than for one-sided tests 
 
@@ -236,8 +236,8 @@ Small $p$-values can occur (in order of significance:)
 - so be more careful about those above!) 
 
 So 
-- If multiple tests are carried out, some are likely to be significant by '*chance alone*'
-- If $\alpha = 0.05$ we expect significant results 5% of the time, even when the $H_0$ is '*true*'
+- If multiple tests are carried out, some are likely to be significant by *chance alone*
+- If $\alpha = 0.05$ we expect significant results 5% of the time, even when the $H_0$ is *true*
 - $\Rightarrow$ be suspicious if you see only a few significant results when many tests have been carried out 
 
 
@@ -268,6 +268,6 @@ Some hypothesis can be checked with [Confidence Intervals](Confidence_Intervals)
 
 
 ## Sources
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - http://en.wikipedia.org/wiki/Statistical_hypothesis_testing

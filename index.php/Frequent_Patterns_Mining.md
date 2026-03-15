@@ -117,4 +117,4 @@ After we found Frequent patterns it's easy to find association rules
 - [Association Rule Mining](Association_Rule_Mining)
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

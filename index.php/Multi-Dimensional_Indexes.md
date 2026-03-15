@@ -30,7 +30,7 @@ Not all values of a search key are specified
 - return closest 3 stars to a star at (10, 15, 20) 
 
 ## Can Use One-Dimensional Indexes?
-[One-Dimensional Indexes](Indexing_(databases)#One-Dimensional_Indexes) (such as [B-Tree](B-Tree))
+[One-Dimensional Indexes](Indexing_%28databases%29)#One-Dimensional_Indexes) (such as [B-Tree](B-Tree))
 - take one single key
 - can use one key made of multiple attributes 
 
@@ -39,7 +39,7 @@ Need to impose [lexicographical order](B-Tree#Lexicographical_Order) on keys in 
 - don't answer all our queries - see [B-Tree#Multiple Keys](B-Tree#Multiple_Keys)
 
 ### Hash Tables
-For [Hash-Based Indexes](Indexing_(databases)#Hash-Based_Indexes) we need to compute [Hash Function](Hash_Function) for tuples
+For [Hash-Based Indexes](Indexing_%28databases%29)#Hash-Based_Indexes) we need to compute [Hash Function](Hash_Function) for tuples
 - extend hash function: $h(x, y, z) = h_1(x) + h_2(y) + h_3(z)$
 
 Problem 
@@ -64,5 +64,5 @@ Problem
 - [R-Tree](R-Tree)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

@@ -99,7 +99,7 @@ To identify overfitting we can use [Machine Learning Diagnosis](Machine_Learning
 
 
 ## Sources
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
 - Domingos, Pedro. "A few useful things to know about machine learning." [link](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)

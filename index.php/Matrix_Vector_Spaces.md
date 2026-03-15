@@ -23,7 +23,7 @@ Subspaces of the matrix space should form a space on their own.
 - diagonal matrices (upper-triangular $\cup$ symmetric)
 
 
-### [Bases](Basis_(Linear_Algebra))
+### [Bases](Basis_%28Linear_Algebra%29)
 What about bases for such spaces?
 
 E.g. $M$: $3 \times 3$ matrices:
@@ -85,5 +85,5 @@ How do we define the inner product?
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." (1996). [link](http://www.math.washington.edu/~morrow/498_13/svd.pdf)

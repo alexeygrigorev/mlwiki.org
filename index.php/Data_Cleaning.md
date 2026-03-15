@@ -28,7 +28,7 @@ Outliers are extreme values in the data
 - use [Anomaly Detection](Anomaly_Detection) techniques for that
 
 
-### [Handling Noise](Noise_Handling_(Data_Mining))
+### [Handling Noise](Noise_Handling_%28Data_Mining%29)
 noise - modification of an original value
 - very hard to detect - because noisy data looks like real data
 
@@ -41,4 +41,4 @@ Duplicate Data: major issue when you merge data from different sources
 - [Data Transformation](Data_Transformation)
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

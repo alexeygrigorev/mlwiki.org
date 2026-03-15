@@ -96,7 +96,7 @@ Let's calculate it for a couple of rules
 
 ### Measures of Interestingness
 There could be other measures of *interestingness* of $X$ in $D_i \subset D$
-- [Lift](Lift_(Data_Mining)): $\text{lift}(X,D_i,D)=\cfrac{\text{supp}(X,D_i)}{\text{supp}(X,D)}$
+- [Lift](Lift_%28Data_Mining%29): $\text{lift}(X,D_i,D)=\cfrac{\text{supp}(X,D_i)}{\text{supp}(X,D)}$
 - Growth rate: $\text{gr}(X,D_i,D)=\cfrac{\text{supp}(X,D_i)}{\text{supp}(X, D - D_i)}$
   - how much more support $X$ has in $D_i$ than in $D - D_i$
 
@@ -170,5 +170,5 @@ Method 2
 - [Eclat](Eclat)
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
 - http://en.wikipedia.org/wiki/Association_rule_learning

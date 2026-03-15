@@ -66,4 +66,4 @@ Summary from [RDFS](RDFS), [RDFS-Plus](RDFS-Plus) and [OWL](OWL)
 
 
 ## Sources
-- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
+- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_%28book%29)

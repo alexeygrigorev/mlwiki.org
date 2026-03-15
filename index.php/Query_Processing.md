@@ -16,13 +16,13 @@ Steps:
   - translating to [Conjunctive Query](Conjunctive_Query) and simplifying it
   - applying some heuristics (pushing selections and projections, etc)
 1. [Physical Query Plan Optimization](Physical_Query_Plan_Optimization)
-  - doing the cost-based assignment of [physical operators](Physical_Operators_(databases))
+  - doing the cost-based assignment of [physical operators](Physical_Operators_%28databases%29)
   - assigning each node of Logical [Query Plan](Query_Plan) a physical operator
   - for that need to know statistics from [Database System Catalog](Database_System_Catalog) 
 1. execution engine - for that important things are:
-  - [Physical Data Organization (databases)](Physical_Data_Organization_(databases))
-  - [Indexing (databases)](Indexing_(databases))
+  - [Physical Data Organization (databases)](Physical_Data_Organization_%28databases%29)
+  - [Indexing (databases)](Indexing_%28databases%29)
 
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

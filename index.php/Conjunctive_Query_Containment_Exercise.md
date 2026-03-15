@@ -219,12 +219,12 @@ D_{Q_4} =
 - $Q_4 \not \subseteq Q_3$
 
 
-'*Recap*':  $Q_4 \subseteq Q_1$, $Q_3 \subseteq Q_2$, no equivalent queries 
+*Recap*:  $Q_4 \subseteq Q_1$, $Q_3 \subseteq Q_2$, no equivalent queries 
 
 
 ## See Also
 - [Conjunctive Query](Conjunctive_Query)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
 - Database Systems Architecture lecture notes #2 by S. Vansummeren [link](https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf)

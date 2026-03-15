@@ -17,9 +17,9 @@ Important consequence:
 ## Block and Record Addresses
 Blocks (and Records) can be in
 - the main memory
-  - their '*address*' is the address of the 1st byte of the block (record)
+  - their *address* is the address of the 1st byte of the block (record)
 - the secondary storage
-  - and the '*address*' is: device id, cylinder number, etc. 
+  - and the *address* is: device id, cylinder number, etc. 
   - A record can be identified by an offset within a block
 
 There are several ways to represent an address in the [secondary memory](Secondary_Storage)
@@ -45,7 +45,7 @@ Logical table and map table give us flexibility
 
 
 ## Arranging Data on Disk
-[physical algorithms](Physical_Operators_(databases)) depend on 
+[physical algorithms](Physical_Operators_%28databases%29) depend on 
 - how data (relations, records, shemas) is organized on disk 
 - what data structures are used 
 
@@ -295,4 +295,4 @@ If the new version is shorter, we may want to reclaim the freed space for later 
 
 ## Sources
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

@@ -48,7 +48,7 @@ Does it form a [Vector Space](Vector_Space) on its own?
 - so yes, it is a subspace
 
 
-### [Basis](Basis_(Linear_Algebra)) of $N(A)$
+### [Basis](Basis_%28Linear_Algebra%29) of $N(A)$
 Basis for $N(A)$ is formed by the "special" solutions
 
 
@@ -68,7 +68,7 @@ Let's take the transpose of $A^T \mathbf y = \mathbf 0$:
 $\big[ - \, \mathbf y^T - \big] \Bigg[ ~ ~ ~ ~ ~ {A} ~ ~ ~ ~ ~ \Bigg] = \big[ - \, \mathbf 0^T - \big]$
 
 
-### [Basis](Basis_(Linear_Algebra)) of $N(A^T)$
+### [Basis](Basis_%28Linear_Algebra%29) of $N(A^T)$
 Let's consider this example 
 
 Let $A$ be some rectangular matrix and we find it's rref $R$
@@ -145,5 +145,5 @@ From [link](http://stackoverflow.com/questions/1835246/how-to-solve-homogeneous-
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - http://en.wikipedia.org/wiki/Kernel_%28linear_algebra%29#Numerical_computation

@@ -114,5 +114,5 @@ public class TopologicalOrdering {
 - [Depth-First Search](Depth-First_Search)
 
 ## Sources
-- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
+- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)
 - http://en.wikipedia.org/wiki/Topological_sorting

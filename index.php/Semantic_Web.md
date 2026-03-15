@@ -110,7 +110,7 @@ Open World assumption
 How to model data in such a way so it's good for the web scale 
 - need to explain things in understandable way
 - and then be able to reuse it 
-- need to be formal so machines can understand it, and '*logical inference*' is possible
+- need to be formal so machines can understand it, and *logical inference* is possible
 - Result of modeling: [Ontologies](Ontologies)
 
 
@@ -144,5 +144,5 @@ How to use the SW in your applications?
 
 
 ## Sources
-- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
-- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
+- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_%28book%29)
+- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_%28UFRT%29)

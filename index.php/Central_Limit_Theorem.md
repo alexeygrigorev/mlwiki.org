@@ -142,14 +142,14 @@ par(default.par)
 
 
 [See also here](http://yadi.sk/i/-4wm3y_0XzkKN)
-- this is taken from [OpenIntro](OpenIntro_Statistics_(book)), figure 4.20
+- this is taken from [OpenIntro](OpenIntro_Statistics_%28book%29), figure 4.20
 
 
 
 ## Theorem (Lyapunov)
 If a random variable $X$ represents the sum of a very large number of mutually independent random variables, each of which has a negligible influence on the entire sum, then $X$ has a distribution close to normal.
 
-'*TODO*': proof
+*TODO*: proof
 
 ### Application
 Let $X_i$ be a sequence of independent random variables, each having an expected value and variance:
@@ -177,4 +177,4 @@ $
 
 ## Sources
 - [Law of Large Numbers on exponenta.ru](http://www.exponenta.ru/educat/class/courses/tv/theme0/10.asp)
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)

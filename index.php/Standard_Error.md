@@ -104,7 +104,7 @@ So it illustrates that the more sample size is, the better we can estimate the p
 
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)
 - DataCamp, Lab 3A - Sampling distributions [link](http://rpubs.com/agrigorev/21595)
 - https://en.wikipedia.org/wiki/Sampling_distribution

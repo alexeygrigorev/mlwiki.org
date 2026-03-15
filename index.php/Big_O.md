@@ -27,4 +27,4 @@ title: Big O
 - [Plain English explanation of Big O (stackoverflow)](http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o)
 
 ## Sources
-- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
+- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

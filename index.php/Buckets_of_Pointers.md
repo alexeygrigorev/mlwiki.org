@@ -7,7 +7,7 @@ tags:
 title: Buckets of Pointers
 ---
 ## Buckets of Pointers
-We add one more level of indirection for [indexing](Indexing_(databases))
+We add one more level of indirection for [indexing](Indexing_%28databases%29)
 - we have index on buckets
 - buckets are pointers to the actual tuples
 
@@ -42,8 +42,8 @@ SELECT * FROM Emp where dept = 'Toy' AND floor = 2
 
 
 ## See also
-- [Indexing (databases)](Indexing_(databases))
+- [Indexing (databases)](Indexing_%28databases%29)
 - [Secondary Index](Secondary_Index)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

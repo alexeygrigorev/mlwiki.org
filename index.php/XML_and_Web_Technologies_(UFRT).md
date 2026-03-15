@@ -25,10 +25,10 @@ title: XML and Web Technologies (UFRT)
 
 
 ### BI Seminar Project
-- [Data Integration](Data_Integration) and [Mediator (Data Integration)](Mediator_(Data_Integration))
+- [Data Integration](Data_Integration) and [Mediator (Data Integration)](Mediator_%28Data_Integration%29)
 - [GAV Mediation](GAV_Mediation)
 - [LAV Mediation](LAV_Mediation)
-  - [Bucket Algorithm](Bucket_Algorithm_(Data_Integration))
+  - [Bucket Algorithm](Bucket_Algorithm_%28Data_Integration%29)
   - [Minicon Algorithm](Minicon_Algorithm)
   - [Inverse-Rules Algorithm](Inverse-Rules_Algorithm)
 - [Ontology Based Data Access](Ontology_Based_Data_Access)

@@ -74,5 +74,5 @@ par(default.par)
 
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - http://projectile.sv.cmu.edu/research/public/talks/t-test.htm

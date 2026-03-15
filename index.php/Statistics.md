@@ -35,7 +35,7 @@ There are two types of statistics:
 
 ## Good Online Resources
 Free online books and online resources on statistics
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - http://en.wikibooks.org/wiki/Statistics
 - http://onlinestatbook.com/2/index.html
 - http://en.wikiversity.org/wiki/Topic:Statistics
@@ -43,5 +43,5 @@ Free online books and online resources on statistics
 
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)

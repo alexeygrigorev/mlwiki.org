@@ -161,5 +161,5 @@ They are always semi-positive definite
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - Jauregui, Jeff. "Principal component analysis with linear algebra." (2012). [link](http://www.math.union.edu/~jaureguj/PCA.pdf)

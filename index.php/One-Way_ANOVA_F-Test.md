@@ -80,7 +80,7 @@ General Idea:
 
 
 Estimating variability:
-- this variability is called *MSG*: '*mean square between groups*' 
+- this variability is called *MSG*: *mean square between groups* 
 - $\text{df}_G = k - 1$ for $k$ groups 
 
 
@@ -124,7 +124,7 @@ the larger $\text{MSG}$ relative to $\text{MSE}$, the larger $F$ is, and the str
 We use upper tail to compute the $p$-value 
 
 
-### Test (From [Data Mining (UFRT)](Data_Mining_(UFRT)))
+### Test (From [Data Mining (UFRT)](Data_Mining_%28UFRT%29))
 Given
 - $X$ with $k$ possible values $x_1, ..., x_k$ - categorical variable (e.g. Job)
 - and $Y$ - continuous variable (e.g. Age)
@@ -169,10 +169,10 @@ Test:
 we approximate each $\mu$ by $\bar{x}$
 
 
-|    |  OF  |  IF  |  DH  |  C  | + Summary statistics (source: table 5.27, [OpenIntro](OpenIntro_Statistics_(book))) ||   Sample size ($n_i$)   |  120  |  154  |  14  |  39 ||   Sample mean ($\bar{x}_i$)   |  0.334  |  0.332  |  0.348  |  0.323 ||   Sample SD ($s_i$)   |  0.029  |  0.037  |  0.036  |  0.045 |
+|    |  OF  |  IF  |  DH  |  C  | + Summary statistics (source: table 5.27, [OpenIntro](OpenIntro_Statistics_%28book%29)) ||   Sample size ($n_i$)   |  120  |  154  |  14  |  39 ||   Sample mean ($\bar{x}_i$)   |  0.334  |  0.332  |  0.348  |  0.323 ||   Sample SD ($s_i$)   |  0.029  |  0.037  |  0.036  |  0.045 |
 
 <img src="http://habrastorage.org/files/05a/241/ce5/05a241ce52204838a53ad13554c3372d.png" alt="Image">
-(source: fig 5.28, [OpenIntro](OpenIntro_Statistics_(book)))
+(source: fig 5.28, [OpenIntro](OpenIntro_Statistics_%28book%29))
 
 
 We see that DH and C look really different. Why don't we just check if $\mu_\text{DH} = \mu_\text{C}$?
@@ -333,6 +333,6 @@ abline(v=F.stat)
 
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
 - http://en.wikipedia.org/wiki/Analysis_of_variance

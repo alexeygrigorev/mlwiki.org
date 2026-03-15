@@ -52,5 +52,5 @@ Closely related to [#RDF Store](#RDF_Store)
   - NLG - Natural Language Generation
 
 ## Sources
-- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_(book))
+- [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_%28book%29)
 - Web Data Management, Manolescu, Ioana, et al. [link](http://webdam.inria.fr/Jorge/)

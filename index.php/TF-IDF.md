@@ -148,6 +148,6 @@ Smoothing and TF-IDF are connected
 
 
 ## Sources
-- [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
+- [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
 - Salton, Gerard, and Christopher Buckley. "Term-weighting approaches in automatic text retrieval." 1988. [link](http://www.cs.odu.edu/~jbollen/spring03_IR/readings/article1-29-03.pdf)

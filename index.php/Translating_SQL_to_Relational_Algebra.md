@@ -40,11 +40,11 @@ FROM StarsIn, MovieStarM
 WHERE starName = M.name AND M.birthdate = 1960
 ```
 
-- in the '*from*' clause we have all relations we need
+- in the *from* clause we have all relations we need
 - so we make a Cartesian Product for all relations there
 - if there is an alias - we do Renaming 
 - then we filter the Cartesian Product 
-- then translate the '*where*' clause too
+- then translate the *where* clause too
 
 So we get:
   $\pi_\text{movieTitle} \sigma_{\text{starName = M.name } \land \text{M.birthdate = 1960}}(\text{StartsIn} \times \rho_M (\text{MovieStar}))$
@@ -65,11 +65,11 @@ WHERE starName IN (
 Here we may have different constraints:
 - $\text{in}, \leqslant, <, \geqslant, >, =, \neq$, etc
 - whenever we have such constraints, we may replace them with quantifiers $\forall$ and $\exists$
-- or with '*EXISTS*' and '*IN*' or '*NOT EXISTS*'
-- so we first translate a SQL query to the equivalent SQL with '*EXISTS*' or '*NOT EXISTS*'
+- or with *EXISTS* and *IN* or *NOT EXISTS*
+- so we first translate a SQL query to the equivalent SQL with *EXISTS* or *NOT EXISTS*
 
 
-'*Example 1*': IN
+*Example 1*: IN
 ```sql
 SELECT movieTitle FROM StarsIn
 WHERE starName IN (
@@ -89,7 +89,7 @@ WHERE EXISTS (
 ```
 
 
-'*Example 2*': $\geqslant$
+*Example 2*: $\geqslant$
 ```sql
 SELECT name FROM MovieExec
 WHERE netWorth >= (
@@ -108,7 +108,7 @@ WHERE NOT EXISTS (
 ```
 
 
-'*Example 3:*' aggregated attributes 
+*Example 3:* aggregated attributes 
 ```sql
 SELECT C FROM S
 WHERE C IN (
@@ -138,7 +138,7 @@ Hence we can assume that all queries are in this form
 
 ## Correlated Queries
 - A subquery can refer to attributes of relations that are introduces in the outer query
-- '*def*': we call such queries *correlated subqueries*
+- *def*: we call such queries *correlated subqueries*
 - the outer relation is called the *context relation* - a correlated subquery uses its attributes 
 - a *parameter* - is a set of attributes of all context relations of a subquery
 
@@ -174,7 +174,7 @@ Algorithm
   \end{subarray}
 }
 (\text{MovieStar})$
-  - problem: cannot find '*S.starName*' in the input relation
+  - problem: cannot find *S.starName* in the input relation
   - so it must be a correlated query
   - we therefore need to recognize that this is a context relation's parameter 
 - so we need to add the context relations and parameters 
@@ -508,13 +508,13 @@ We translate it as
 \sigma_{\text{cert = producer}}
 (\text{MovieExec} \times \text{Movie})$
 
-- here the translate the '*HAVING*' clause as $\sigma$ before the $\gamma$
-- also note that '*SUM(length)*' goes to $\gamma$
+- here the translate the *HAVING* clause as $\sigma$ before the $\gamma$
+- also note that *SUM(length)* goes to $\gamma$
 
 
 
 ## Exercises
-Exercises from [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+Exercises from [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
 - the exercises: [link](https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/8ZdHjWVPN8/lect1-exercise.pdf)
 - the proposed solutions [link](https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/WbFRIKUVMc/lect1-exercise-solution.pdf)
 
@@ -585,7 +585,7 @@ Now we translate the subquery
 \rho_E(\text{Enrolled}) \times \rho_C(\text{Class})
 \big)
 $
-- '*note*' that we use $\gamma_{
+- *note* that we use $\gamma_{
   \begin{subarray}{l}
     \text{E.cname}, \\
     \text{count(*) $\to$ cnt}, \\
@@ -620,7 +620,7 @@ Next, we need to synchronize (or "decorrelate") the subquery $q_1$ and the outer
 \big)
 \Big]
 $
-- add $\pi_{\text{C.*}}$ because we need only these values - '*E.name*' was used for EXISTS part only
+- add $\pi_{\text{C.*}}$ because we need only these values - *E.name* was used for EXISTS part only
 - since we have $\rho_C(\text{Class})$ on both sides of the Join - we can drop the first one (as well as the Join)
 - and we also can merge successive projections 
 - so we get:
@@ -769,7 +769,7 @@ $
 \rho_C(\text{Class}) \times \rho_E(\text{Enrolled}) \times \rho_F(\text{Faculty}) 
 \Big]$
 
-Note that this is '*not the query we want*'|  !!
+Note that this is *not the query we want*|  !!
 - Faculty members who don't teach any class are not output by the expression, but they are output by the original SQL query
 
 Count bug
@@ -802,4 +802,4 @@ $\pi_{\text{F.name}}
 - Lecture Notes by S. Vansummeren [link](https://dl.dropboxusercontent.com/s/5e6w6pia970bnki/lect1-notes-relalg.pdf)  
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

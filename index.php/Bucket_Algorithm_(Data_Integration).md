@@ -188,7 +188,7 @@ The final result is
 
 ## See Also
 - [Data Integration](Data_Integration)
-- [Mediator (Data Integration)](Mediator_(Data_Integration))
+- [Mediator (Data Integration)](Mediator_%28Data_Integration%29)
 - [GAV Mediation](GAV_Mediation)
 - [Minicon Algorithm](Minicon_Algorithm)
 - [Inverse-Rules Algorithm](Inverse-Rules_Algorithm)

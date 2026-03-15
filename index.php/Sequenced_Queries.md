@@ -393,7 +393,7 @@ Step 3
 - coalesce these intervals 
 
 
-'*Count*' is a little bit different
+*Count* is a little bit different
 - we need to identify gaps in the history and put there zeros
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/adb/td-aggregations-count.png" alt="Image">
 
@@ -418,8 +418,8 @@ WHERE NOT EXISTS
 
 
 ## Links
-- Exercises from the [ADB](Advanced_Databases_(ULB)) course: [link](https://www.dropbox.com/s/es8a430fhgg55ow/202-temporal_exercices.pdf)
+- Exercises from the [ADB](Advanced_Databases_%28ULB%29) course: [link](https://www.dropbox.com/s/es8a430fhgg55ow/202-temporal_exercices.pdf)
 
 
 ## Sources
-- [Advanced Databases (ULB)](Advanced_Databases_(ULB))
+- [Advanced Databases (ULB)](Advanced_Databases_%28ULB%29)

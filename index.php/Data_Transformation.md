@@ -31,4 +31,4 @@ By replacing low-level values by higher level abstractions
 
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

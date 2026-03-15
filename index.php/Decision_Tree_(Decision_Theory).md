@@ -67,4 +67,4 @@ To be able to decide on the decision nodes, a decision maker needs to be able to
 - [Decision Tree Exercises](Decision_Tree_Exercises)
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

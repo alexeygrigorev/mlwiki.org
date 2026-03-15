@@ -158,5 +158,5 @@ So we see that [Monotonicity](Monotonicity) is satisfied
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 - An Introduction to Multicriteria Decision Aid: The PROMETHEE and GAIA Methods, Yves De Smet, Karim Lidouh, 2013

@@ -93,4 +93,4 @@ $t = \cfrac{\delta^*}{\sigma^2} \approx 2.34$
 - [Cross-Validation](Cross-Validation)
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

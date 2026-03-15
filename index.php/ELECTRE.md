@@ -184,12 +184,12 @@ Then we construct the concordance index by comparing alternatives pair-wise
 
 For example, consider alternatives $A$ and $B$
 
-|    |  $A$ vs $B$  |  $B$ vs $A$   |   $D$   |      |  15   ||   $K$   |      |  15 ||   $P$   |  25  |  25 ||   $L$   |  25  |   ||   $S$   |      |  20 ||  '*Total*'  |  50  |  100 ||  '*Normalized*'  |  0.5  |  0.75 |
+|    |  $A$ vs $B$  |  $B$ vs $A$   |   $D$   |      |  15   ||   $K$   |      |  15 ||   $P$   |  25  |  25 ||   $L$   |  25  |   ||   $S$   |      |  20 ||  *Total*  |  50  |  100 ||  *Normalized*  |  0.5  |  0.75 |
 Repeating this for all pairs, construct the following table: 
 
-|     |  $A$  |  $B$  |  $C$  |  $D$  |  $E$  |   $A$   |  -  |  '*0.75*'  |  0.15  |  0.4  |  0.4  ||   $B$   |  0.5  |  -  |  0.35  |  '*0.75*'  |  '*0.6*'  ||   $C$   |  '*0.85*'  |  '*0.65*'  |  -  |  '*0.6*'  |  0.5  ||   $D$   |  '*0.6*'  |  0.25  |  0.4  |  -  |  0.25  ||   $E$   |  '*0.6*'  |  '*0.6*'  |  '*0.75*'  |  '*0.75*'  |  -  |
+|     |  $A$  |  $B$  |  $C$  |  $D$  |  $E$  |   $A$   |  -  |  *0.75*  |  0.15  |  0.4  |  0.4  ||   $B$   |  0.5  |  -  |  0.35  |  *0.75*  |  *0.6*  ||   $C$   |  *0.85*  |  *0.65*  |  -  |  *0.6*  |  0.5  ||   $D$   |  *0.6*  |  0.25  |  0.4  |  -  |  0.25  ||   $E$   |  *0.6*  |  *0.6*  |  *0.75*  |  *0.75*  |  -  |
 
-'*Bold*' are alternatives that should be preferred provided that there's no discordance
+*Bold* are alternatives that should be preferred provided that there's no discordance
 - recall that $\tilde c = 0.6$ and we check all values that $\geqslant \tilde c$
 
 
@@ -200,7 +200,7 @@ The discordance index is $\tilde d = 6$
 
 Let's compare $A$ with $B$ and $A$ with $C$:
 
-|    |  $A$ vs $B$  |  $B$ vs $A$  |  $A$ vs $C$  |  $C$ vs $A$   |   $D$   |   7  |  -  |  '*8*'  |  -  ||   $K$   |   6  |  -  |  -  |  '*6*' ||   $P$   |  0  |  0  |  1  |  - ||   $L$   |  -  |  '*2*'  |  1  |  - ||   $S$   |  '*10*'  |  -  |  6  |  - ||  '*Max*'  |  *10*  |  2  |  *8*  |  *6*  ||   Rel   |  $A \ J \ B$  |   |  $A \ J \ C$  |  $C \ J \ A$ |
+|    |  $A$ vs $B$  |  $B$ vs $A$  |  $A$ vs $C$  |  $C$ vs $A$   |   $D$   |   7  |  -  |  *8*  |  -  ||   $K$   |   6  |  -  |  -  |  *6* ||   $P$   |  0  |  0  |  1  |  - ||   $L$   |  -  |  *2*  |  1  |  - ||   $S$   |  *10*  |  -  |  6  |  - ||  *Max*  |  *10*  |  2  |  *8*  |  *6*  ||   Rel   |  $A \ J \ B$  |   |  $A \ J \ C$  |  $C \ J \ A$ |
 - if a difference exceeds the threshold, the alternatives are incomparable 
 
 
@@ -212,7 +212,7 @@ Based on the Concordance and Discordance we define the outranking relation $S$
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 - http://web.itu.edu.tr/~topcuil/ya/MDM08Outranking.pptx
 - http://electre.no.sapo.pt/MElecI2.htm
 - Multiple Criteria Decision Analysis: State of the Art Surveys, 2005 

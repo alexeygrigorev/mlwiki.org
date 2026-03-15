@@ -84,4 +84,4 @@ The goal is to automatically group the data into coherent subsets (or *clusters*
 
 
 ## Sources
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

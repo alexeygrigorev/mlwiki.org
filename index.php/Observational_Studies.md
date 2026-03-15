@@ -60,5 +60,5 @@ Example
 
 
 ## Sources
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)

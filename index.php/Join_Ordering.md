@@ -21,7 +21,7 @@ Example
 
 
 ## Importance of Orderings
-But [physical join operators](Physical_Operators_(databases)#Join) are binary
+But [physical join operators](Physical_Operators_%28databases%29)#Join) are binary
 - Order becomes important
 how can we order these joins?
 - $R \Join S \Join T \Join U \equiv$
@@ -40,7 +40,7 @@ Recall that Join is the most expensive operation
   - $B(R \Join S) = 150$
   - $B(S \Join T) = 2500$ ($S$ and $T$ don't have anything in common - so it's a cartesian product)
   - $B(R \Join T) = 200$
-- assume ideal case: everything can be done with [one-pass join](Physical_Operators_(databases)#One-Pass_Join) algorithm 
+- assume ideal case: everything can be done with [one-pass join](Physical_Operators_%28databases%29)#One-Pass_Join) algorithm 
   - i.e. we have # of free buffers $M = 51$
 - what's the best ordering for $R \Join S \Join T$?
 
@@ -131,9 +131,9 @@ Suppose:
 <!-- Main: Query Plan Selection Exercises -->
 
 ## See also
-- [Physical Operators (databases)](Physical_Operators_(databases))
+- [Physical Operators (databases)](Physical_Operators_%28databases%29)
 - [Query Result Size Estimation](Query_Result_Size_Estimation)
 - [Physical Query Plan Optimization](Physical_Query_Plan_Optimization)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

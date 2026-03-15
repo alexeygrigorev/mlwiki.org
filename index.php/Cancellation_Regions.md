@@ -45,7 +45,7 @@ Syntax:
 Typical Pattern of Usage:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-cr-pattern.png" alt="Image">
 - there's a cancellation place before the cancellation task
-- when the job inside the cancellation region is done, '*close case*' takes a token away from this place
+- when the job inside the cancellation region is done, *close case* takes a token away from this place
 - so the cancel task is no longer active 
 - but if the cancel task fires, it takes the token from the cancellation regions and finishes the case
 
@@ -101,4 +101,4 @@ Assume it wasn't the part of the CR
   - but now it can fire the second time
  |
 ## Sources
-- [Business Process Management (ULB)](Business_Process_Management_(ULB))
+- [Business Process Management (ULB)](Business_Process_Management_%28ULB%29)

@@ -39,4 +39,4 @@ Can show that with Taylor expansions:
 - same with $\cosh x$
 
 ## Sources
-- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
+- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_%28coursera%29)

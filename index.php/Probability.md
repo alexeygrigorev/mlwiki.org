@@ -50,7 +50,7 @@ Each possible outcome of a trial is an *elementary outcome*.
 $P(A) = \frac{m}{n}$, where $m$ is the number of favorable outcomes, $n$ is the total number of outcomes.
 
 
-'*Example*'
+*Example*
 
 - All possible elementary outcomes
 :* $\omega_1$ - white ball

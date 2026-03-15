@@ -122,7 +122,7 @@ Algorithm
 - I/O cost in this case is 
   - length of the path from the root to the leaf
   - then the number of leaves that we need to follow
-  - and also we need to follow a pointer for '*each*' key in the range
+  - and also we need to follow a pointer for *each* key in the range
 
 
 ### Insert
@@ -247,7 +247,7 @@ need other types of indexes - [Multi-Dimensional Indexes](Multi-Dimensional_Inde
 
 
 ## See also
-- [Indexing (databases)](Indexing_(databases))
+- [Indexing (databases)](Indexing_%28databases%29)
 - [Multi-Dimensional Indexes](Multi-Dimensional_Indexes)
 - [R-Tree](R-Tree)
 - Wikipedia articles [and [link](http://en.wikipedia.org/wiki/B%2B_tree)(http://en.wikipedia.org/wiki/B-tree]) 
@@ -255,4 +255,4 @@ need other types of indexes - [Multi-Dimensional Indexes](Multi-Dimensional_Inde
 
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

@@ -46,4 +46,4 @@ $p, qp, q^2 p, ..., q^{k - 1} p, ...$
 
 ## Sources
 - Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vyssh. shk., 2003.
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)

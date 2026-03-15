@@ -8,7 +8,7 @@ title: Concurrency Control
 ---
 ## Concurrency Control
 A database typically serves multiple users at the same time 
-- the goal in this case is to make an impression that everything works in [isolation](Isolation_(databases))
+- the goal in this case is to make an impression that everything works in [isolation](Isolation_%28databases%29)
 - Concurrency Control deals with that: it ensures that transactions have the same effect as if they were run in isolation 
 
 
@@ -48,7 +48,7 @@ Example
 We want the transactions to run in some sequence
 - as if they were not allowed to interleave 
 
-Not [consistent](Consistency_(databases)) state:
+Not [consistent](Consistency_%28databases%29) state:
 - $B$ has 100 USD, $A$ has 200 
 
 Consistent state:
@@ -77,6 +77,6 @@ Consistent state:
 
 
 ## Sources
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
 - [Design Patterns for Distributed Non-relational Databases](http://www.slideshare.net/guestdfd1ec/design-patterns-for-distributed-nonrelational-databases)
 - http://en.wikipedia.org/wiki/Concurrency_control

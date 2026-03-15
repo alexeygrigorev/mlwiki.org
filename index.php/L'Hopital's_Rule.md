@@ -54,4 +54,4 @@ See http://calculus.seas.upenn.edu/?n=Main.LHopitalsRule
 
 
 ## Sources
-- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
+- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_%28coursera%29)

@@ -7,7 +7,7 @@ title: Reduced Rank Approximation
 ---
 ## Reduced Rank Approximation
 Given an $m \times n$ matrix $A$, the goal is to describe $A$ using fewer than $m \times n$ entries
-- also called '*Total Least Squares*' because we want to approximate matrix $A$ with matrix $B$ by minimizing $\|  A - B \|^2_F$
+- also called *Total Least Squares* because we want to approximate matrix $A$ with matrix $B$ by minimizing $\|  A - B \|^2_F$
 - in the [Matrix Vector Spaces](Matrix_Vector_Spaces) with [Frobenius Norm](Frobenius_Norm)
 
 
@@ -53,7 +53,7 @@ Let's express $A$ as $A = S_k + E_k$
 - also, $\|  S_k \|_F^2 = \sum_{i = 1}^k \sigma_i^2$ and  $\| E_k \|_F^2 = \sum_{i = k+1}^r \sigma_i^2$
 
 ### Rank-1 Approximation
-'*Theorem*'
+*Theorem*
   The best rank-1 approximation of $A$ is $\sigma_1 \mathbf u_1 \mathbf v_1^T$
 
 Proof

@@ -333,7 +333,7 @@ We can break the symmetry with random initialization
 - Use [gradient checking](#Numerical_Gradient_Checking) to compare numerical estimations of partial derivatives vs values from back propagation
 - Use [Gradient Descent](Gradient_Descent) or another optimization technique to minimize $J(\theta)$
 
-'*NB*': $J(\theta)$ in non-convex and can get stuck in local minimum - but usually it's not a problem 
+*NB*: $J(\theta)$ in non-convex and can get stuck in local minimum - but usually it's not a problem 
 
 
 ### Octave
@@ -347,4 +347,4 @@ We can break the symmetry with random initialization
 - [Logistic Regression](Logistic_Regression)
 
 ## Sources
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

@@ -6,14 +6,14 @@ tags:
 title: GAV Mediation
 ---
 ## GAV Mediation
-There are two main approached for [Mediating](Mediator_(Data_Integration)) in [Data Integration](Data_Integration) 
+There are two main approached for [Mediating](Mediator_%28Data_Integration%29) in [Data Integration](Data_Integration) 
 - [GAV Mediation](GAV_Mediation) - defining global relations in terms of local
 - [LAV Mediation](LAV_Mediation) - defining local relations in terms of global
 
 
 GAV - Global-as-View Mediation
 - global is constrained by views of the local relations
-- See some notation in [Mediator (Data Integration)](Mediator_(Data_Integration))
+- See some notation in [Mediator (Data Integration)](Mediator_%28Data_Integration%29)
 
 
 ## GAV Mapping
@@ -67,7 +67,7 @@ To evaluate a query
 - then we issue queries for each data source and combine the result
 
 
-'*GAV Unfolding*' (informal)
+*GAV Unfolding* (informal)
 - for each atom $A_i(...)$ of the query
 - if this atom can be matched to a head of some mapping $R_j(...)$
 - replace the atom $A_i(...)$ by the body of the mapping $R_j(...)$
@@ -89,7 +89,7 @@ Illustration by example
 
 
 ### GAV Unfolding
-'*def*': *GAV Query unfolding* (or *GAV rewriting*)
+*def*: *GAV Query unfolding* (or *GAV rewriting*)
 - let $Q(\vec{x}) \leftarrow G_1(\vec{z}_1), \ ..., \ G_n(\vec{z}_n)$ be a query over global schema 
 - $\forall \ G_i \ \exists$ GAV mapping $G_i \supseteq q_i(\vec{x}_i, \vec{y}_i)$
   - where in $q_i(\vec{x}, \vec{y})$: $\vec{x}$ - distinguished variables, $\vec{y}$ - existential  
@@ -115,7 +115,7 @@ Simplification
 
 ## See Also
 - [Data Integration](Data_Integration)
-- [Mediator (Data Integration)](Mediator_(Data_Integration))
+- [Mediator (Data Integration)](Mediator_%28Data_Integration%29)
 - [LAV Mediation](LAV_Mediation)
 
 ## Source

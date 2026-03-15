@@ -40,4 +40,4 @@ In this case, descriptive statistics include:
 ## Sources
 - http://en.wikipedia.org/wiki/Descriptive_statistics
 - [Descriptive Statistics lecture](http://www.pitt.edu/~super1/lecture/lec0421/index.htm)
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

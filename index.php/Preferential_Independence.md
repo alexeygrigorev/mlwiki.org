@@ -120,5 +120,5 @@ However an employee would prefer:
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 - http://wiki.ece.cmu.edu/ddl/index.php/Preferential_independence

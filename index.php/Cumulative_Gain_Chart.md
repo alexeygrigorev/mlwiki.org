@@ -181,6 +181,6 @@ Lift charts show basically the same information as Gain charts
 - [ROC Analysis](ROC_Analysis)
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
 - [Measuring Model Performance With Gains And Lift](http://www.youtube.com/watch?v=IwCUZQllVVI)
 - [6k:175 Business Intelligence - Creating Lift and Cumulative Gains charts in Excel](http://www.youtube.com/watch?v=aiC4AIf6ons)

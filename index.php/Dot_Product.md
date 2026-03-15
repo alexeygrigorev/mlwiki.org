@@ -89,8 +89,8 @@ $\square$
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)
 - http://en.wikipedia.org/wiki/Dot_product
 - http://math.oregonstate.edu/bridge/papers/dot+cross.pdf
 - http://en.wikipedia.org/wiki/Law_of_cosines

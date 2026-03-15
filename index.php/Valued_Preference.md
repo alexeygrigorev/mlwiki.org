@@ -28,4 +28,4 @@ This is quite similar to [Condorcet's Rule](Condorcet's_Rule):
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

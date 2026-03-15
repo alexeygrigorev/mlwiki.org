@@ -17,7 +17,7 @@ In [Distributed Databases](Distributed_Databases) for distributed transactions t
 - [Two-Phase Commit](Two-Phase_Commit) 
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
 - [Durability (database systems)](http://en.wikipedia.org/wiki/Durability_%28database_systems%29)
 
 ## See also

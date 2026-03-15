@@ -39,9 +39,9 @@ $E[X] = np$
 
 
 ### [Variance](Variance)
-'*Thm*' $\text{Var}[X] = npq$
+*Thm* $\text{Var}[X] = npq$
 
-'*Proof*'
+*Proof*
 - let $X$ be the # of independent experiments in which $A$ appeared,
   - $X = X_1 + X_2 + ... + X_n$
 - $X_i$ are pair-wise independent, i.e. the outcome of one experiment doesn't depend on the outcome of any other experiment
@@ -189,7 +189,7 @@ Example:
 
 Reason why:
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/b/openintrostat/binom-normal-approx.png" alt="Image">
-- (source: Figure 3.19 from [OpenIntro](OpenIntro_Statistics_(book)))
+- (source: Figure 3.19 from [OpenIntro](OpenIntro_Statistics_%28book%29))
 - normal curve + ares between 69 and 71 is shaded
 - outlined area - exact binomial probability
 - Normal approx is too fine-grained (area for ND is too slim)
@@ -205,7 +205,7 @@ A [Sampling Distribution](Sampling_Distribution) for a population mean follows t
 
 ## Sources
 - Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vyssh. shk., 2003.
-- [Data Analysis (coursera)](Data_Analysis_(coursera))
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [Data Analysis (coursera)](Data_Analysis_%28coursera%29)
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - http://stat.duke.edu/courses/Spring13/sta101.001/slides/unit2lec4H.pdf
 - https://en.wikipedia.org/wiki/Binomial_distribution#Normal_approximation

@@ -7,7 +7,7 @@ tags:
 title: Dense Index
 ---
 ## Dense Index
-A dense [index](Indexing_(databases)) is a sequence of blocks that can hold only keys and pointers.
+A dense [index](Indexing_%28databases%29) is a sequence of blocks that can hold only keys and pointers.
 - here all records have a record in the index that point to them
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/dense-ind1.png" alt="Image">
@@ -67,9 +67,9 @@ Suppose we have duplicate keys in our database. How to build index?
 
 
 ## See also
-- [Indexing (databases)](Indexing_(databases))
+- [Indexing (databases)](Indexing_%28databases%29)
 - [Sparse Index](Sparse_Index)
 - [Secondary Index](Secondary_Index)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

@@ -35,4 +35,4 @@ This type of query is very interesting for [Logical Query Plan Optimization](Log
 - [Conjunctive Query](Conjunctive_Query)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

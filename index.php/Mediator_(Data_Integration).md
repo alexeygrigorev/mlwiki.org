@@ -76,7 +76,7 @@ GAV are mappings of the following form
 
 
 Main algorithms for query rewriting in LAV Meditation:
-- [Bucket Algorithm](Bucket_Algorithm_(Data_Integration))
+- [Bucket Algorithm](Bucket_Algorithm_%28Data_Integration%29)
 - [Minicon Algorithm](Minicon_Algorithm)
 - [Inverse-Rules Algorithm](Inverse-Rules_Algorithm)
 

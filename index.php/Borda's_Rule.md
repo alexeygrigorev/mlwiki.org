@@ -156,5 +156,5 @@ Slightly different approach
 - http://www.ctl.ua.edu/math103/voting/borda.htm
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 - Voting Fairness Criteria [link](http://www.math.unl.edu/~bharbourne1/M203JSpr09/VotingFairnessHandout.pdf)

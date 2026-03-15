@@ -24,7 +24,7 @@ And reject the $H_0$ because the $p$-value is small
 Now let's calculate 95% CI:
 - $\hat{p} \pm 1.96 \sqrt{p(1-p)/n} = [0.532, 0.620]$
 - The CI misses 0.5 
-- and this is '*not*' a coincidence
+- and this is *not* a coincidence
  |
 ## General Test
 Suppose we have a test of the following form
@@ -54,4 +54,4 @@ So these are equivalent:
 - [Statistical Tests of Significance](Statistical_Tests_of_Significance)
 
 ## Sources
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)

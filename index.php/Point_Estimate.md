@@ -33,6 +33,6 @@ A point estimate - is a single plausible value for a parameter
 - [Sampling Distribution](Sampling_Distribution)
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - http://onlinestatbook.com/2/glossary/point_estimate.html
 - http://en.wikibooks.org/wiki/Statistics/Point_Estimates

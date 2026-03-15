@@ -26,4 +26,4 @@ There are two objectives:
 - http://en.wikipedia.org/wiki/Flow_shop_scheduling
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

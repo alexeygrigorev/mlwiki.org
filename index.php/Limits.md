@@ -76,10 +76,10 @@ The function oscillates up and down as the input approaches some value
 Rules for limits
 
 Suppose $\lim\limits_{x \to a} f(x)$ and $\lim\limits_{x \to a} g(x)$ exist. Then
-- '*Sum Rule*': $\lim \big(f(x) + g(x) \big) = \lim f(x) + \lim g(x)$
-- '*Product Rule*': $\lim \big(f(x) \cdot g(x) \big) = \left[\lim f(x)\right] \cdot \left[ \lim g(x) \right]$
-- '*Quotient Rule*': $\lim \cfrac{f(x)}{g(x)} = \cfrac{\lim f(x)}{\lim g(x)}$ (when $\lim g(x) \ne 0$)
-- '*Chain Rule*' (or '*Composition Rule*'): $\lim f \big(g(x) \big) = f \big(\lim g(x) \big)$ if $f$ is continuous 
+- *Sum Rule*: $\lim \big(f(x) + g(x) \big) = \lim f(x) + \lim g(x)$
+- *Product Rule*: $\lim \big(f(x) \cdot g(x) \big) = \left[\lim f(x)\right] \cdot \left[ \lim g(x) \right]$
+- *Quotient Rule*: $\lim \cfrac{f(x)}{g(x)} = \cfrac{\lim f(x)}{\lim g(x)}$ (when $\lim g(x) \ne 0$)
+- *Chain Rule* (or *Composition Rule*): $\lim f \big(g(x) \big) = f \big(\lim g(x) \big)$ if $f$ is continuous 
 
 
 ## [L'Hopital's Rule](L'Hopital's_Rule)
@@ -107,4 +107,4 @@ Can also show this using the [L'Hopital's Rule](L'Hopital's_Rule)
 - $\lim\limits_{x \to 0} \cfrac{\sin x}{x} = \lim\limits_{x \to 0} \cfrac{\cos x}{1} = 1$
 
 ## Sources
-- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
+- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_%28coursera%29)

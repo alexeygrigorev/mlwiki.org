@@ -312,4 +312,4 @@ if $n$ is small, m is large
 - http://www.tristanfletcher.co.uk/SVM%20Explained.pdf
 
 ## Sources
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

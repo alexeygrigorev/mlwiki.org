@@ -12,7 +12,7 @@ otherwise the function is discontinuous
 
 
 - $f(x)$ is continuous at $x = a$ if $\lim\limits_{x \to a} f(x) = f(a)$ 
-- $f(x)$ is continuous everywhere if its continuous for all $a$ in the '*domain*' of $f(x)$
+- $f(x)$ is continuous everywhere if its continuous for all $a$ in the *domain* of $f(x)$
 
 
 Many functions are continuous, for example: 
@@ -33,4 +33,4 @@ Discontinuous:
 
 
 ## Sources
-- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
+- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_%28coursera%29)

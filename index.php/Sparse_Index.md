@@ -7,7 +7,7 @@ tags:
 title: Sparse Index
 ---
 ## Sparse Index
-A sparse [index](Indexing_(databases)) has one (key, pointer) per each block
+A sparse [index](Indexing_%28databases%29) has one (key, pointer) per each block
 - so it uses less space than [Dense Index](Dense_Index)
 - but requires more time to find a record
 
@@ -71,7 +71,7 @@ insert key 15
   - Immediate Reorganization
   - Overflow Blocks
 
-'*Immediate Reorganization*'
+*Immediate Reorganization*
 - re-distribution data
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/sparse-ind-insert-2.png" alt="Image">
 - we try to push the data down
@@ -80,7 +80,7 @@ insert key 15
 - worst case: we will move all the data blocks 
 - variant: insert a new block and update the index 
 
-'*Overflow Blocks*'
+*Overflow Blocks*
 - we create a new block and create a pointer to it from 
 - it will be reorganized later 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/sparse-ind-insert-3-overflow.png" alt="Image">
@@ -106,9 +106,9 @@ We may point to previous values, so we know the range
 
 
 ## See also
-- [Indexing (databases)](Indexing_(databases))
+- [Indexing (databases)](Indexing_%28databases%29)
 - [Dense Index](Dense_Index)
 - [Secondary Index](Secondary_Index)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

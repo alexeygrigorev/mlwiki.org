@@ -79,5 +79,5 @@ Other
 - [Median Voter Theorem](Median_Voter_Theorem) (also known as the [Allocation Problem](Allocation_Problem))
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-- [Game Theory (coursera)](Game_Theory_(coursera))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
+- [Game Theory (coursera)](Game_Theory_%28coursera%29)

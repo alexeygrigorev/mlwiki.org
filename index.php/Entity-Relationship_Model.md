@@ -156,4 +156,4 @@ Car insurance company
 
 ## Sources
 - Database Systems Concept, slides for chapter 7 [link](http://codex.cs.yale.edu/avi/db-book/db6/slide-dir/index.html): Most of the figures are taken from there
-- [Data Warehousing (ULB)](Data_Warehousing_(ULB))
+- [Data Warehousing (ULB)](Data_Warehousing_%28ULB%29)

@@ -85,4 +85,4 @@ Also [MCDA](Multi-Criteria_Decision_Aid) is used for that:
 - apply MCDA to find the best one
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

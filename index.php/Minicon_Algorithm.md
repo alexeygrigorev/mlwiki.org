@@ -9,11 +9,11 @@ title: Minicon Algorithm
 This is an approach for query rewriting used in [LAV Mediation](LAV_Mediation)
 
 ### Overview
-An optimized version of the [Bucket Algorithm](Bucket_Algorithm_(Data_Integration))
+An optimized version of the [Bucket Algorithm](Bucket_Algorithm_%28Data_Integration%29)
 - avoids the last step: verification
 - idea: not to put atoms that will generate invalid rewritings 
 - an atom can be useless if its binding of variables doesn't match the bindings of other occurrences of this variable
-  - recall ([Bucket Algorithm (Data Integration)#Validation Example](Bucket_Algorithm_(Data_Integration)#Validation_Example) - this is the reason why $r_1$ didn't validate)
+  - recall ([Bucket Algorithm (Data Integration)#Validation Example](Bucket_Algorithm_%28Data_Integration%29)#Validation_Example) - this is the reason why $r_1$ didn't validate)
 
 
 So, steps are
@@ -45,7 +45,7 @@ In this step
 Consider first atom $U(y, z)$ of $Q$:
 
 
-Vs [Bucket](Bucket_Algorithm_(Data_Integration)):
+Vs [Bucket](Bucket_Algorithm_%28Data_Integration%29):
 - Bucket would put $V_1(v_1, y)$ to $\text{Bucket} \Big( U(y, z) \Big)$
 - because we have mapping $v \mapsto y, w \mapsto z \ \ (*)$
 - $(*)$ allows the match between atom $U(y, z)$ and atom $U(v, w)$ from the body of $V_1(v_1, y)$ 
@@ -101,9 +101,9 @@ So, a rewriting for $Q(x)$ is
 
 ## See Also
 - [Data Integration](Data_Integration)
-- [Mediator (Data Integration)](Mediator_(Data_Integration))
+- [Mediator (Data Integration)](Mediator_%28Data_Integration%29)
 - [GAV Mediation](GAV_Mediation)
-- [Bucket Algorithm (Data Integration)](Bucket_Algorithm_(Data_Integration))
+- [Bucket Algorithm (Data Integration)](Bucket_Algorithm_%28Data_Integration%29)
 - [Inverse-Rules Algorithm](Inverse-Rules_Algorithm)
 
 

@@ -141,4 +141,4 @@ Troubleshooting:
 - [note on Evernote](http://www.evernote.com/shard/s344/sh/21cdb658-ed50-40e7-809c-4a6418d3c10b/1912d438d4abb05617d31caa7609ffdd)
 
 ## Sources
-- [Hadoop: The Definitive Guide (book)](Hadoop__The_Definitive_Guide_(book))
+- [Hadoop: The Definitive Guide (book)](Hadoop__The_Definitive_Guide_%28book%29)

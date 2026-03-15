@@ -71,4 +71,4 @@ Since $c_1 \ne c_2$ there could be two cases:
 - [Cournot Duopoly Model](Cournot_Duopoly_Model)
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

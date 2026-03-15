@@ -7,7 +7,7 @@ tags:
 - nosql
 title: CouchDB
 ---
-This is a part of the report made for [Advanced Databases (ULB)](Advanced_Databases_(ULB)) course
+This is a part of the report made for [Advanced Databases (ULB)](Advanced_Databases_%28ULB%29) course
 - The report is available [here](http://docs.google.com/document/d/1pCfUo8TmxZkl5eFtyZGa42T5HlJJRqOBnc0TFiQAIFM/pub)
 
 
@@ -53,7 +53,7 @@ To check if it's running, send a GET request to this address :
 ```
 curl -X GET http://localhost:5984/
 ```
-('*curl*' is an unix utility for sending HTTP requests [link](http://curl.haxx.se/))
+(*curl* is an unix utility for sending HTTP requests [link](http://curl.haxx.se/))
 
 The database replies with the following: (if you see that, everything works)
 ```json
@@ -75,7 +75,7 @@ To get the list of all available databases, use command "_all_dbs"
 curl -X GET http://localhost:5984/_all_dbs
 ```
 
-To create a new database, issue a '*PUT*' request to database you want to create 
+To create a new database, issue a *PUT* request to database you want to create 
 ```
 curl -X PUT http://localhost:5984/new_database
 ```
@@ -423,7 +423,7 @@ curl -X PUT http://localhost:5984/_replicate -d '{"source":"users","target":"use
 ```
 The database replies with some statistics and tells if it was successful or not 
 
-'*NB*': the request for replication will stay open till the replication process finishes, so it may take a while 
+*NB*: the request for replication will stay open till the replication process finishes, so it may take a while 
 
 
 ## Concurrency

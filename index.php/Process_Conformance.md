@@ -21,7 +21,7 @@ So it's
 
 ### Play In
 Suppose we have some logs that were captured during the process execution
-- we can '*play in*' these sequences of actions on the model 
+- we can *play in* these sequences of actions on the model 
 - and see if any of them fails 
 - if yes - then we have no conformance 
 
@@ -61,4 +61,4 @@ After the execution we can see:
 
 
 ## Sources
-- [Business Process Management (ULB)](Business_Process_Management_(ULB))
+- [Business Process Management (ULB)](Business_Process_Management_%28ULB%29)

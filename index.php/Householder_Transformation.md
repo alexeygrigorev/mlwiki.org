@@ -110,5 +110,5 @@ Instead of using it for reducting the matrix to Triangular, we can use Household
 
 ## Sources
 - http://www.cs.cornell.edu/~bindel/class/cs6210-f12/notes/lec16.pdf
-- [Matrix Computations (book)](Matrix_Computations_(book))
+- [Matrix Computations (book)](Matrix_Computations_%28book%29)
 - https://math.dartmouth.edu/~m116w17/Householder.pdf

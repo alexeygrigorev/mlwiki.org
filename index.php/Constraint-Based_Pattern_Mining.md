@@ -131,4 +131,4 @@ Now we're sure that the average always increases
 - [Frequent Pattern Mining](Frequent_Pattern_Mining)
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

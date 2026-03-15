@@ -32,7 +32,7 @@ Modules
 ### Symmetric Replication
 - all copies accept updates 
 - each can have both capture and application modules
-- but simultaneous updates may cause loss of [consistency](Consistency_(databases))
+- but simultaneous updates may cause loss of [consistency](Consistency_%28databases%29)
   - i.e. the copies may be inconsistent during some period of time 
 - this leans to another notion of consistency: [Eventual Consistency](Eventual_Consistency)
 
@@ -80,4 +80,4 @@ THEN INSERT INTO PosDelta (SELECT * FROM INSERTED);
 
 
 ## Sources
-- [Advanced Databases (ULB)](Advanced_Databases_(ULB))
+- [Advanced Databases (ULB)](Advanced_Databases_%28ULB%29)

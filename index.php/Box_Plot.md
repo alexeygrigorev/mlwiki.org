@@ -83,6 +83,6 @@ Box plots are nice to combine with other plots
 - [R Visualization Snippets](R_Visualization_Snippets)
 
 ## Sources
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-- [Data Analysis (coursera)](Data_Analysis_(coursera))
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)
+- [Data Analysis (coursera)](Data_Analysis_%28coursera%29)
 - http://en.wikipedia.org/wiki/Box_plot

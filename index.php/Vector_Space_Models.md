@@ -68,13 +68,13 @@ Notation:
 - let $D$ be the matrix 
 
 
-'*Term-Document Matrix*'
+*Term-Document Matrix*
 - if $D$ is $n \times m$ matrix 
 - rows of $D$ are indexed by terms $w_i$ and columns are indexed by documents $d_j$
 - then $D$ is a Term-Document Matrix and $D_{ij}$ is a weight of $w_i$ in document $d_j$
 
 
-'*Document-Term Matrix*'
+*Document-Term Matrix*
 - if $D$ is $m \times n$ matrix 
 - rows of $D$ are indexed by terms $w_j$ and columns are indexed by documents $d_i$
 - then $D$ is a Document-Term Matrix and $D_{ji}$ is a weight of $w_j$ in document $d_i$
@@ -121,19 +121,19 @@ A geometrical way to express BoW features is the Vector Space Model
 - let $D$ be a document-term matrix 
 
 
-'*TextVSM*': Document Vector Space Model - it's the [Row Space](Row_Space) of $D$
+*TextVSM*: Document Vector Space Model - it's the [Row Space](Row_Space) of $D$
 - each document $d_i$ is $i$th row of the matrix 
 - dimensions are words and vectors are documents
 - <img src="https://habrastorage.org/files/ace/015/d08/ace015d080da420d98b4228dfaeeb0d0.png" alt="Image">
-- source: [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_(book)), Fig 3.1
+- source: [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_%28book%29), Fig 3.1
 - similarity between two documents: [dot product](Inner_Product) or [cosine](Cosine_Similarity)
 
 
-'*TermVSM*': Term Vector Space model - it's the [Column Space](Column_Space) of $D$
+*TermVSM*: Term Vector Space model - it's the [Column Space](Column_Space) of $D$
 - Can do the same for the terms:
 - dimensions are documents and vector are terms
 - <img src="https://habrastorage.org/files/e86/a64/ab6/e86a64ab6f904b9180ff7874495a445f.png" alt="Image">
-- source: [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_(book)), Fig 3.1
+- source: [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_%28book%29), Fig 3.1
 - terms are expressed by documents in which they occur
 - similarity between two terms: [dot product](Inner_Product) or [cosine](Cosine_Similarity)
 
@@ -269,6 +269,6 @@ Reference:
 ## Sources
 - Salton, Gerard, Anita Wong, and Chung-Shu Yang. "A vector space model for automatic indexing." (1975). [link](http://cgis.cs.umd.edu/class/fall2009/cmsc828r/PAPERS/VSM_salton-2.pdf)
 - Jing, Liping. "Survey of text clustering." 2008. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf)
-- [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_(book))
-- [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
+- [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_%28book%29)
+- [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.

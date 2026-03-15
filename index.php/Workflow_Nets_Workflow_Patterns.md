@@ -36,7 +36,7 @@ A combination of Parallel Split and Synchronization
 after $a$, do $b$ or $c$
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-xor.png" alt="Image">
 - choice in this case depends on the results of the activity $a$
-- here both '*doA*' and '*doB*' will be active, but we want to fire only one of them, based on the activity $a$ 
+- here both *doA* and *doB* will be active, but we want to fire only one of them, based on the activity $a$ 
 
 
 ### Simple Merge
@@ -61,4 +61,4 @@ Deferred Choice vs Exclusive Choice
 
 
 ## Sources
-- [Business Process Management (ULB)](Business_Process_Management_(ULB))
+- [Business Process Management (ULB)](Business_Process_Management_%28ULB%29)

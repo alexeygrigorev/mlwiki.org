@@ -21,4 +21,4 @@ We see that the solutions showed with a red line are the best alternatives:
 - they are called the pareto-optimal set of alternatives
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

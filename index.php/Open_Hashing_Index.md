@@ -9,7 +9,7 @@ title: Open Hashing Index
 ---
 ## Open Hashing Index
 Idea: 
-- apply [Open Hashing](Hash_Tables) to [Secondary Storage](Secondary_Storage) to build an [index](Indexing_(databases))
+- apply [Open Hashing](Hash_Tables) to [Secondary Storage](Secondary_Storage) to build an [index](Indexing_%28databases%29)
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/hash-idea.png" alt="Image">
 
@@ -28,7 +28,7 @@ Two options
 - store records themselves in the buckets (clustered index) 
 - store only pointers to actual records (the only option for secondary index) (unclustered index)
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/hash-ways-to-store.png" alt="Image">
-- also see ([Clustered Index](Indexing_(databases)#Clustered_Index))
+- also see ([Clustered Index](Indexing_%28databases%29)#Clustered_Index))
 
 Do we sort records by key withing buckets
 - we may if we want faster retrieval
@@ -62,7 +62,7 @@ Algorithm
 - if $B$ is full, and there's an overflow block, try putting it there
 - otherwise create a new overflow and store this record there
 
-'*NB:*' performance degrades as the number of overflow blocks grows|   see [#Reorganization](#Reorganization) 
+*NB:* performance degrades as the number of overflow blocks grows|   see [#Reorganization](#Reorganization) 
 
 ### Deletion
 - for search key $k$ calculate $h(k)$ to locate the bucket $B$
@@ -78,7 +78,7 @@ Rule: we want to keep space utilization between 50% and 80%
 
 *space utilization* - how much space is used
 - $u = \cfrac{\text{# keys used}}{\text{total # of keys}}$
-- the denominator is the # of keys that we can store if we used '*only*' main buckets, without any overflow blocks 
+- the denominator is the # of keys that we can store if we used *only* main buckets, without any overflow blocks 
   - e.g. 2 items per block, 3 blocks = 6 keys
 - if $u < 50\%$ - lots of space wasted (many empty buckets)
 - if $u > 80\%$ - significant overflow
@@ -96,9 +96,9 @@ To be able to better cope with growth, there are other approaches:
 
 
 ## See also
-- [Indexing (databases)](Indexing_(databases))
+- [Indexing (databases)](Indexing_%28databases%29)
 - http://dblab.cs.toronto.edu/courses/443/2013/06.hash-index.html
 
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

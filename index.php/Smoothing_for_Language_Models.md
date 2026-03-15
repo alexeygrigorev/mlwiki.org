@@ -23,7 +23,8 @@ Suppose $\theta$ is a Unigram [Statistical Language Model](Statistical_Language_
 
 With MLE, we have:
 
-$\hat p_\text{ML} (w \mid \theta) = \cfrac{c(w, D)}{\sum_{w \in V} c(w, D)} = \cfrac{c(w, D)}
+$\hat p_\text{ML} (w \mid \theta) = \cfrac{c(w, D)}{\sum_{w \in V} c(w, D)} = \cfrac{c(w, D)}{|D|}$
+
 No smoothing
 
 

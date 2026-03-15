@@ -42,14 +42,14 @@ So it's performed in two steps
   - input file is loaded to DFS
   - it's partitioned into blocks (typically 64 kb each)
   - each block is replicated 3 times to guarantee fault-tolerance
-- '*map phase*'
+- *map phase*
   - each block is assigned to a map worker
   - it applies the [map function](MapReduce#Map_Function) to it
   - intermediate results are sorted locally
   - then it's stored on local disk of mapper
   - it's partitioned into $R$ reduce tasks 
     - $R$ is specified beforehand
-    - partitioning is typically done by '*hash(key) % $R$*'
+    - partitioning is typically done by *hash(key) % $R$*
 - wait until *all* map tasks are completed
 - before reduce
   - the master assigns reduce task to workers
@@ -58,7 +58,7 @@ So it's performed in two steps
     - all map results are already partitioned and stored on mapper disks
     - read the input and group it by key
   - each record is assigned to only one reduces 
-- '*reduce phase*'
+- *reduce phase*
   - now apply the [reduce function](MapReduce#Reduce_Function) to each group
   - output is stored and replicated 3 times
 
@@ -199,4 +199,4 @@ And finally, it's very young
 - Lee et al, Parallel Data Processing with MapReduce: A Survey [link](http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf)
 - Ordonez et al, Relational versus non-relational database systems for data warehousing [link](http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf)
 - Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [link](http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/)
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)

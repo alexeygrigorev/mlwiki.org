@@ -44,5 +44,5 @@ Example
 
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

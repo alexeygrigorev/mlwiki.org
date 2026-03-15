@@ -30,5 +30,5 @@ This issue occurs in:
 - http://en.wikipedia.org/wiki/Rank_reversals_in_decision-making
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 - An Introduction to Multicriteria Decision Aid: The PROMETHEE and GAIA Methods, Yves De Smet, Karim Lidouh, 2013

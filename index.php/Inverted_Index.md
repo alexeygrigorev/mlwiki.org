@@ -8,7 +8,7 @@ title: Inverted Index
 ---
 ## Inverted Index
 ### Indexing for [Information Retrieval](Information_Retrieval)
-In [Databases](Databases), [indexing](Indexing_(databases)) is needed to speed up queries
+In [Databases](Databases), [indexing](Indexing_%28databases%29) is needed to speed up queries
 - want to avoid full table scan 
 - same is true for [Information Retrieval](Information_Retrieval) and other [Text Mining](Text_Mining)/[NLP](NLP) tasks
 - Inverted index is a way of achieving this, and it can be generalized to other forms of input, not just text
@@ -52,5 +52,5 @@ Build a dictionary: a "posting" list
 
 
 == Sources == 
-- [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
+- [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)
 - Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [link](http://static.msi.umn.edu/rreports/2003/73.pdf)

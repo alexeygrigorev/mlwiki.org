@@ -55,4 +55,4 @@ if $x$ wasn't inserted, false positives if
 - [Hash Tables](Hash_Tables)
 
 ## Sources
-- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
+- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

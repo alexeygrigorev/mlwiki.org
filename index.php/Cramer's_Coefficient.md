@@ -88,5 +88,5 @@ cv.test <- function(x) {
 - |  !! http://stats.stackexchange.com/questions/105795/understanding-chi2-and-cram%C3%A9rs-v-results/105827#105827 
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
 - http://en.wikipedia.org/wiki/Analysis_of_variance

@@ -62,5 +62,5 @@ plot(x[sampledValues], y[sampledValues], pch=19)
 
 
 ## Sources
-- [Data Analysis (coursera)](Data_Analysis_(coursera))
+- [Data Analysis (coursera)](Data_Analysis_%28coursera%29)
 - http://en.wikipedia.org/wiki/Scatter_plot

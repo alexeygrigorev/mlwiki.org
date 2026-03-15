@@ -68,7 +68,7 @@ Main Features
 ### Example
 Suppose we have the following tables:
 - status_update(user_id int, status string, ds string)
-  - '*ds*' is date
+  - *ds* is date
 - profiles(userid int, school string, gender int)
 
 

@@ -136,5 +136,5 @@ Heap implementation can be found here: [Heap#Implementation](Heap#Implementation
 
 
 ## Sources
-- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
+- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)
 - http://algorithms.soc.srcf.net/notes/dijkstra_with_heaps.pdf

@@ -7,7 +7,7 @@ tags:
 title: Partitioned Hash Function Index
 ---
 ## Partitioned Hash Function Index
-This is [Hash-Based](Hash_Function) [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_(databases)) 
+This is [Hash-Based](Hash_Function) [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_%28databases%29) 
 
 ### Typical Approach
 Suppose we use classical approach for hashing a tuple $(a, b)$
@@ -57,5 +57,5 @@ And
 - [Grid File Index](Grid_File_Index)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

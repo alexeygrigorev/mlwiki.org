@@ -8,7 +8,7 @@ tags:
 title: Eventual Consistency
 ---
 ## Eventual Consistency
-- In highly available systems it is very hard to keep replicas consistent, because they have to contact each other every time a write occurs (e.g. with [Two-Phase Commit](Two-Phase_Commit)) to preserve [consistency](Consistency_(databases)).
+- In highly available systems it is very hard to keep replicas consistent, because they have to contact each other every time a write occurs (e.g. with [Two-Phase Commit](Two-Phase_Commit)) to preserve [consistency](Consistency_%28databases%29).
 - During the time the replicas synchronize everybody should be prevented from writing 
 - But that impacts availability, and to have high availability we have to sacrifice that (See the [CAP Theorem](CAP_Theorem))
 
@@ -18,12 +18,12 @@ Reasons for Eventual Consistency:
 - need to always support updates (no matter what happens)
 
 
-So, Eventual consistency is a [Consistency Model](Consistency_(databases)) in which
+So, Eventual consistency is a [Consistency Model](Consistency_%28databases%29) in which
 - Updates are propagated to replicas eventually, 
 - not synchronously with the write 
 
 
-That is, suppose we have two methods: '*put*' and '*get*'
+That is, suppose we have two methods: *put* and *get*
 - put call returns to the caller before the update is applied to all replicas
 - but get may return no the most up-to-date object
 
@@ -85,6 +85,6 @@ Suppose we have
 
 
 ## Sources
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
 - [Consistency and availability in Amazon's Dynamo](http://the-paper-trail.org/blog/consistency-and-availability-in-amazons-dynamo/)
 - Amazon's Dynamo paper [link](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)

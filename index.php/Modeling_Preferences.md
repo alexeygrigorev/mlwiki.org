@@ -52,4 +52,4 @@ This is an important condition between preferences and criteria: the criteria sh
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

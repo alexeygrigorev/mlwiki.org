@@ -45,7 +45,7 @@ deals with [Crash Recovery](Crash_Recovery)
 
 ### [Concurrency Control](Concurrency_Control)
 - *Transaction Manager* is responsible for receiving read and write requests (SQL is eventually translated to them)
-- it has a [Scheduler](Scheduler): a component  that schedules commands in some sequence thus creating an impression that all users work in [isolation](Isolation_(databases))
+- it has a [Scheduler](Scheduler): a component  that schedules commands in some sequence thus creating an impression that all users work in [isolation](Isolation_%28databases%29)
 
 
 
@@ -53,13 +53,13 @@ deals with [Crash Recovery](Crash_Recovery)
 Responsible for [Query Processing](Query_Processing)
 - Transforms SQL to [Relational Algebra](Relational_Algebra) (see [Translating SQL to Relational Algebra](Translating_SQL_to_Relational_Algebra))
 - [Optimizes RA expressions](Logical_Query_Plan_Optimization)
-- Creates [Physical Query Plan](Query_Plan#Physical_Query_Plan) from Logical Query Plan using [physical operators](Physical_Operators_(databases))
+- Creates [Physical Query Plan](Query_Plan#Physical_Query_Plan) from Logical Query Plan using [physical operators](Physical_Operators_%28databases%29)
 - [Physical Query Plan Optimization](Physical_Query_Plan_Optimization) is used for finding the cheapest physical query plan
 
 
 ### File & Access Methods
 - Provides Wrapper Around Buffer Manager
-- here [B-Tree](B-Tree) and other [Indexes](Indexing_(databases)) are implemented
+- here [B-Tree](B-Tree) and other [Indexes](Indexing_%28databases%29) are implemented
 
 
 ### Buffer Manager
@@ -105,7 +105,7 @@ sometimes also *Storage Manager*
 - metadata - DB schema that describes the DB
 - [log records](Database_Transaction_Log) - information about recent changes to the database 
 - Statistics - sizes, values, relation to other components of DB, stored in [Database System Catalog](Database_System_Catalog)
-- [Indexes](Indexing_(databases)) to support efficient access to data
+- [Indexes](Indexing_%28databases%29) to support efficient access to data
 
 
 ## Databases
@@ -117,5 +117,5 @@ sometimes also *Storage Manager*
 
 ## Sources
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)

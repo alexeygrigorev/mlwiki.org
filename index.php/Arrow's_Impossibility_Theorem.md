@@ -251,15 +251,15 @@ Suppose we have two ratings:
 - i.e. both candidates agree that $x \ P \ y$
 
 But there's a strong opposition when it comes to $z$:
-- '*(1)*' $x$ vs $z$
+- *(1)* $x$ vs $z$
   - $x \ P_1 z \land z \ P_2 \ x$
   - the only possible outcome in this case is indifference (by Consequence 3)
   - $x \ I \ z$
-- '*(2)*' $y$ vs $z$
+- *(2)* $y$ vs $z$
   - $y \ P_1 z \land z \ P_2 \ y \Rightarrow y \ I \ z$
 
 
-by '*(1)*' + '*(2)*':
+by *(1)* + *(2)*:
 - $y \ I \ z  \equiv z \ I \ y $
 - $x \ I \ z \land z \ I \ y \Rightarrow x \ I \ y$ by transitivity of $I$ (Lemma 4)
 - but it contradicts with $x \ P \ y$
@@ -273,5 +273,5 @@ How to overcome this limitation?
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 - EC228 Voting Theory Lecture Notes [link](http://www2.warwick.ac.uk/fac/soc/economics/current/modules/ec228/details/lecturenotes/lecturenotesbook.pdf)

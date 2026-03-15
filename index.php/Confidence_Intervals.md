@@ -117,7 +117,7 @@ plot_ci(sampl.m - me, sampl.m + me, mean(population))
 
 ### Margin Of Error
 If the [Sampling Distribution](Sampling_Distribution) is symmetric (e.g. [Normal Distribution](Normal_Distribution) or [t-Distribution](t-Distribution)) we can calculate the CI bounds by adding and subtracting the *margin of error* 
-- '*margin of error*' is typically percentile ($z$ or $t$ score) multiplied by [Standard Error](Standard_Error)
+- *margin of error* is typically percentile ($z$ or $t$ score) multiplied by [Standard Error](Standard_Error)
 
 
 ### Critical Value
@@ -161,6 +161,6 @@ A method  for constructing CIs is *robust* if
 - [Hypothesis Testing](Hypothesis_Testing)
 
 ## Sources
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - https://en.wikipedia.org/wiki/Confidence_interval

@@ -34,12 +34,12 @@ so we manually examine the 100 errors and categorize them based on
 - what type of email it is 
   - pharmacy 12
   - replica 4
-  - '*steal password 53*' - seems it's worth investing time in this category
+  - *steal password 53* - seems it's worth investing time in this category
 - other 31
 - what features might help the algorithm to classify it correctly 
   - deliberate misspelling 15
   - unusual email routing 16
-  - '*unusual punctuation 32*' - so concentrate on this
+  - *unusual punctuation 32* - so concentrate on this
  |
 ## Numerical Evaluation
 - Error Analysis may not be helpful for deciding if this is likely to improve performance 
@@ -53,4 +53,4 @@ so we manually examine the 100 errors and categorize them based on
 - [Learning Curves](Learning_Curves)
 
 ## Sources
-- [Machine Learning (coursera)](Machine_Learning_(coursera))
+- [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

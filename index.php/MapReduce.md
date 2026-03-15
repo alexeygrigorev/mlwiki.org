@@ -96,7 +96,7 @@ There are SQL-like languages that work on top of [Hadoop](Hadoop) and translate 
 - mapper outputs (id, record) for each record
   - same keys will be copied to same reducer during shuffling
 - each reducer does the join based on equal kets
-- similar to [Hash Join](Physical_Operators_(databases)#(Partition)_Hash_Join) in DBMS
+- similar to [Hash Join](Physical_Operators_%28databases%29)#(Partition)_Hash_Join) in DBMS
 
 note
 - it may lead to massive data re-distribution 
@@ -149,7 +149,7 @@ Reduce:
 - Declarative query language
 - Schemas 
 - Logical Data Independence
-- [Indexing](Indexing_(databases)) 
+- [Indexing](Indexing_%28databases%29) 
 - [Algebraic Optimization](Logical_Query_Plan_Optimization) 
 - Caching / [Materialized Views](View_Materialization) 
 - [ACID](ACID) and transactions 
@@ -165,5 +165,5 @@ MapReduce
 - [Hadoop Distributed File System](Hadoop_Distributed_File_System)
 
 ## Sources
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
 - Lee et al, Parallel Data Processing with MapReduce: A Survey [link](http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf)

@@ -33,5 +33,5 @@ Some Statistical, [ML](Machine_Learning) and [DM](Data_Mining) models are sensib
 
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)

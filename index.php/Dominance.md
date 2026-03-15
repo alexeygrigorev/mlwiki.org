@@ -50,7 +50,7 @@ Another example
 - there are 6 alternatives
 
 |    |  Price  |  Power  |  Consumption  |  Comfort  |  <font color="grey">Avg A.</font>  |  <font color="grey">18</font>  |  <font color="grey">75</font>  |  <font color="grey">8</font>  |  <font color="grey">3</font> ||  Sport  |  18.5  |  110  |  9  |  2 ||  <font color="red">Avg B.</font>  |  <font color="red">17.5</font>  |  <font color="red">85</font>  |  <font color="red">7</font>  |  <font color="red">3</font> ||  Lux 1  |  24  |  90  |  8.5  |  5 ||  Exonomic  |  12.5  |  50  |  7.5  |  1 ||  Lux 2  |  22.5  |  85  |  9  |  4 |
-We see that '*Avg B*' is always better than '*Avg. A*'
+We see that *Avg B* is always better than *Avg. A*
 - then nobody will ever choose Avg A: A is dominated by B
 
 No other alternative can be eliminated this way
@@ -114,5 +114,5 @@ But we see that $c$ and $d$ aren't that good, but both are in $A^*$
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
-- [Game Theory (coursera)](Game_Theory_(coursera))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
+- [Game Theory (coursera)](Game_Theory_%28coursera%29)

@@ -17,7 +17,7 @@ A relational database is a collection of *relations*
 ### Structure of Data
 A *relation* is a two-dimension table 
 
-For example, Consider a '*Movie*' relation: 
+For example, Consider a *Movie* relation: 
 
 |   Title  |  Year  |  Length  |  Genre   |  Gone with the Wind  |  1939  |  231  |  Drama  ||  Star Wars  |  1977  |  124  |  Sci-Fi |
 
@@ -68,4 +68,4 @@ We indicate that the attributes form a key by <u>underlining</u> them:
 
 ## Sources
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
-- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_(coursera))
+- [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)

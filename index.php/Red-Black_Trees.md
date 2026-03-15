@@ -29,4 +29,4 @@ All the operations expect insert and delete are performed as usual in [Binary Se
 - [Binary Search Trees](Binary_Search_Trees)
 
 ## Sources
-- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
+- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

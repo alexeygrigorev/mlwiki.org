@@ -88,4 +88,4 @@ We can use express Preference and Indifference via this relation:
 - http://en.wikipedia.org/wiki/Pairwise_comparison
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

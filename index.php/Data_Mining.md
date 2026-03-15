@@ -106,7 +106,7 @@ Data Preparation
 Data Modeling
 - [Multivariate Linear Regression](Multivariate_Linear_Regression)
 - [Logistic Regression](Logistic_Regression)
-- [Decision Tree (Data Mining)](Decision_Tree_(Data_Mining))
+- [Decision Tree (Data Mining)](Decision_Tree_%28Data_Mining%29)
 - [SVM](SVM)
 - many others 
 
@@ -128,4 +128,4 @@ Evaluation
 
 
 ## Source
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

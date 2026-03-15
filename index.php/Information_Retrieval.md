@@ -34,7 +34,7 @@ The *central problem* of IR is ranking  elements of the collection according to 
 
 Text IR:
 - Most common usecase for IR systems is finding something in textual data
-- the '*goal*' of textual IR system is to retrieve most relevant documents for the user
+- the *goal* of textual IR system is to retrieve most relevant documents for the user
 
 
 Basic formulation:
@@ -76,7 +76,7 @@ Which documents are relevant?
 
 ## Retrieval Process
 <img src="https://habrastorage.org/files/4b9/a9b/1a6/4b9a9b1a60d041b2b4dfeca4b7989586.png" alt="Image">
-- source: [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))  L01-introduction.pdf
+- source: [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)  L01-introduction.pdf
 
 
 The retrieval consists of several phases:
@@ -132,6 +132,6 @@ Pre-retrieval
 
 
 ## Sources
-- [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
+- [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
 - http://datascience.stackexchange.com/questions/1106/how-to-build-a-textual-search-engine

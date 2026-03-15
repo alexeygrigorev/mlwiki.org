@@ -65,4 +65,4 @@ Graphical representation
 - http://www.dcs.bbk.ac.uk/~ptw/teaching/ssd/notes.html
 
 ## Sources
-- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_(UFRT))
+- [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_%28UFRT%29)

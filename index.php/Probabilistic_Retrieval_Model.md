@@ -13,9 +13,9 @@ Due to Robertson 1977
 
 
 ### Assumptions
-- '*ranking assumption*': usefulness of a relevant document depends on the number of relevant documents the user has already seen
+- *ranking assumption*: usefulness of a relevant document depends on the number of relevant documents the user has already seen
   - the more documents we see - the less useful they are 
-- '*independence assumption*': relevance of $D_i$ to $Q$ is independent to other documents $D_j$ from the collection
+- *independence assumption*: relevance of $D_i$ to $Q$ is independent to other documents $D_j$ from the collection
   - therefore we can apply it for each document separately
 
 
@@ -163,5 +163,5 @@ See
 
 
 ## Sources
-- [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
+- [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)
 - Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.

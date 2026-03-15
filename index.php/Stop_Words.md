@@ -63,6 +63,6 @@ Examples:
 
 
 ## Sources
-- [Information Retrieval (UFRT)](Information_Retrieval_(UFRT))
+- [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. 2012.
 - Wilbur, W. John, "The automatic identification of stop words." 1992. [link](http://www.researchgate.net/publication/247786801_The_automatic_identification_of_stop_words)

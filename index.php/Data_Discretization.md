@@ -38,4 +38,4 @@ Uses entropy to find the best way to split your data
 
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

@@ -96,7 +96,7 @@ Amounts of Data
 - http://it.toolbox.com/wiki/index.php/Data_Warehouse_Fundamentals
 
 ## Sources
-- [Data Warehousing (ULB)](Data_Warehousing_(ULB))
+- [Data Warehousing (ULB)](Data_Warehousing_%28ULB%29)
 - [Data Warehouse definition](http://www.1keydata.com/datawarehousing/data-warehouse-definition.html)
 - Ordonez et al, Relational versus non-relational database systems for data warehousing [link](http://www2.cs.uh.edu/~ordonez/co_research_proceedings.html)
 - Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [link](http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/)

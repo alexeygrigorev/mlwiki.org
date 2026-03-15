@@ -7,7 +7,7 @@ tags:
 title: Grid File Index
 ---
 ## Grid File Index
-This is [Hash-Based](Hash_Function) [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_(databases)) 
+This is [Hash-Based](Hash_Function) [Multi-Dimensional](Multi-Dimensional_Indexes) [Index Structure](Indexing_%28databases%29) 
 
 ## Main Idea
 In each dimension, using *Grid Lines*, we divide our key space into *stripes*
@@ -67,5 +67,5 @@ Recall [the typical of queries](Multi-Dimensional_Indexes#Typical_Queries) we wa
 - [Partitioned Hash Function Index](Partitioned_Hash_Function_Index)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
 - Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

@@ -119,7 +119,7 @@ Term Extraction techniques:
 ## [Classification](Classification)
 Good classifiers for text:
 - [Naive Bayes Classifier](Naive_Bayes_Classifier)
-- [Decision Tree (Data Mining)](Decision_Tree_(Data_Mining))
+- [Decision Tree (Data Mining)](Decision_Tree_%28Data_Mining%29)
 - [Support Vector Machines](Support_Vector_Machines)
 
 

@@ -73,5 +73,5 @@ $N(A) \; \bot \; C(A^T)$ and $\text{dim} N(A) + \text{dim} C(A^T) = n$
 
 
 ## Sources
-- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_(OCW))
+- [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - http://en.wikipedia.org/wiki/Orthogonality

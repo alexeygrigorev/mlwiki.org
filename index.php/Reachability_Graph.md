@@ -52,4 +52,4 @@ This is a similar notion for expressing states of Workflow Nets
 
 
 ## Sources
-- [Business Process Management (ULB)](Business_Process_Management_(ULB))
+- [Business Process Management (ULB)](Business_Process_Management_%28ULB%29)

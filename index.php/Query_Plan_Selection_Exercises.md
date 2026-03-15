@@ -8,7 +8,7 @@ title: Query Plan Selection Exercises
 ---
 Cost-Based Plan Selection exercises 
 - Wiki Articles:
-  - [Physical Operators (databases)](Physical_Operators_(databases)) 
+  - [Physical Operators (databases)](Physical_Operators_%28databases%29) 
   - [Physical Query Plan Optimization](Physical_Query_Plan_Optimization) 
   - [Join Ordering](Join_Ordering)
   - [Query Result Size Estimation](Query_Result_Size_Estimation)
@@ -204,11 +204,11 @@ The last projection also can be done on the fly - without materializing anything
 
 
 ## See also
-- [Physical Operators (databases)](Physical_Operators_(databases))
+- [Physical Operators (databases)](Physical_Operators_%28databases%29)
 - [Query Result Size Estimation](Query_Result_Size_Estimation)
 - [Physical Query Plan Optimization](Physical_Query_Plan_Optimization)
 - [Join Ordering](Join_Ordering) 
 - [B-Tree](B-Tree)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

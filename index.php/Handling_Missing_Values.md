@@ -26,5 +26,5 @@ Handling
 
 
 ## Sources
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
 - http://www.developerzen.com/2009/08/14/data-mining-handling-missing-values-the-database/

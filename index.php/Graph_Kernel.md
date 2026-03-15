@@ -31,6 +31,6 @@ Remarks:
 - http://jmlr.org/papers/volume11/vishwanathan10a/vishwanathan10a.pdf
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 - http://web.itu.edu.tr/~topcuil/ya/MDM08Outranking.pptx
 - http://electre.no.sapo.pt/MElecI2.htm

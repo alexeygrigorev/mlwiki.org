@@ -71,4 +71,4 @@ In this example all the power in equally distributed withing the 3 first distric
 - [Shapley Value](Shapley_Value)
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

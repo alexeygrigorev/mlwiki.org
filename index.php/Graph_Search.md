@@ -34,4 +34,4 @@ GenericAlgorithm(graph $G$, starting vertex $s$):
 - [Graphs](Graphs)
 
 ## Sources
-- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_(coursera))
+- [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

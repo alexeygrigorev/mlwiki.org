@@ -6,7 +6,7 @@ tags:
 title: Conjunctive Query/Homomorphism
 ---
 ## Conjunctive Query Homomorphism
-'*def*': a *homomorphism* of a [Conjunctive Query](Conjunctive_Query) $Q_2$ to a Conjunctive Query $Q_1$ is 
+*def*: a *homomorphism* of a [Conjunctive Query](Conjunctive_Query) $Q_2$ to a Conjunctive Query $Q_1$ is 
 - a function $h$ that maps each variable in $Q_2$ to either
   - a variable from $Q_1$ or
   - a constant form $Q_1$
@@ -83,5 +83,5 @@ But there's no homomorphism from $C_2$ to $C_1$
 - [Conjunctive Query](Conjunctive_Query)
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_(ULB))
+- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
 - Database Systems Architecture lecture notes #2 by S. Vansummeren [link](https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf)

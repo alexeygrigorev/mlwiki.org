@@ -77,5 +77,5 @@ Other principles:
 - Methods vs Voting Criteria [link](http://en.wikipedia.org/wiki/Voting_system_criterion)
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_(ULB))
+- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 - The mathematics of voting and elections: Paradox, deception, and chaos [link](http://xaravve.trentu.ca/pivato/Teaching/votingslides.pdf)

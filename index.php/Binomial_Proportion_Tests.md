@@ -145,7 +145,7 @@ pnorm(test.stat, mean=0, sd=1, lower.tail=T) // 1.17 * 10E-7
 ```
 
 
-or, using '*binom.test*' 
+or, using *binom.test* 
 ```
 x = round(0.42 * 1046, 0) // 439 successes
 binom.test(x, 1046, p=0.5 // our H_0
@@ -188,7 +188,7 @@ Test statistics calculation:
 
 
 ### Pooled Proportion Estimate
-Under $H_0$ we assume that $p_a = p_b$ so we approximate '*both*' $p_a$ and $p_b$ by 
+Under $H_0$ we assume that $p_a = p_b$ so we approximate *both* $p_a$ and $p_b$ by 
 - $\hat{p} = \cfrac{n_a \hat{p}_a + n_b \hat{p}_b}{n_a + n_b}$
 - This is called *pooled estimate*
 - $\text{SE} = \sqrt{\hat{p} (1 - \hat{p})(1/n_a + 1/n_b)}$
@@ -221,7 +221,7 @@ Perform the test:
 - $Z$-score: $Z = \cfrac{0.025}{0.013} = 1.92$
 - for this $Z$ score we have $p = 0.027$ 
   - <img src="http://habrastorage.org/files/0cb/b90/bc0/0cbb90bc05dc43b68ca0ad0a2c7c9ea7.png" alt="Image">
-  - (figure source: [OpenIntro](OpenIntro_Statistics_(book)), figure 4.22)
+  - (figure source: [OpenIntro](OpenIntro_Statistics_%28book%29), figure 4.22)
 - with $\alpha = 0.05$, $p < \alpha$, so 
   - we reject $H_0$ in favor of $H_A$ and
   - conclude that the drug is effective
@@ -292,6 +292,6 @@ prop.test(c(x1, x2), c(n1, n2), alternative="two.sided", correct=F)
 - http://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/binotest.htm
 
 ## Sources
-- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_(coursera))
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
 - http://www.cliffsnotes.com/math/statistics/univariate-inferential-tests/test-for-comparing-two-proportions

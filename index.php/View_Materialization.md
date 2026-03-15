@@ -21,4 +21,4 @@ Two basic strategies:
 
 
 ## Sources
-- [Advanced Databases (ULB)](Advanced_Databases_(ULB))
+- [Advanced Databases (ULB)](Advanced_Databases_%28ULB%29)

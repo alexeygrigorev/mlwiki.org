@@ -12,4 +12,4 @@ A [Taylor Expansion](Taylor_Series) of a polynomial is polynomial
 
 
 ## Sources
-- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_(coursera))
+- [Calculus: Single Variable (coursera)](Calculus__Single_Variable_%28coursera%29)

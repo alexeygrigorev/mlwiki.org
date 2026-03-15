@@ -26,4 +26,4 @@ Visualization
 - http://homepage.stat.uiowa.edu/~mbognar/applets/chisq.html
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_(book))
+- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)

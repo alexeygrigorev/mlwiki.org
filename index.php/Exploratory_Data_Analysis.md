@@ -31,5 +31,5 @@ Main plots used at this stage
 
 
 ## Sources
-- [Data Analysis (coursera)](Data_Analysis_(coursera))
-- [Data Mining (UFRT)](Data_Mining_(UFRT))
+- [Data Analysis (coursera)](Data_Analysis_%28coursera%29)
+- [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
