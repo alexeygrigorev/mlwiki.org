@@ -13,7 +13,7 @@ Suppose we want to multiply $m \times n$ matrix $A$ on $n \times p$ matrix $B$, 
 What is matrix-matrix multiplication in terms of Linear Transformations?
 - Let $A$ be an $m \times n$ matrix, 
 - then there's a linear transformation $T_A \ : \ \mathbb R^n \to \mathbb R^m$: $T_A(\mathbf x) = A \mathbf x$ where $A \mathbf x$ is [Matrix-Vector Multiplication](Matrix-Vector_Multiplication)
-- now let $B$ be an $n \times k$ matrix, then $T_B \ : \ \mathbb R^m \to \mathbb R^k$: $T_B(\mathbf y) = B \mathbf x$
+- now let $B$ be an $n \times k$ matrix, then $T_B \ : \ \mathbb R^k \to \mathbb R^n$: $T_B(\mathbf x) = B \mathbf x$
 - what is $T_A \circ T_B$? It's $T_A \circ T_B \ : \ \mathbb R^k \to \mathbb R^m $
 - $(T_A \circ T_B)(\mathbf x) = T_A \big( T_B(\mathbf x) \big) = T_A \big( B \mathbf x \big) = A \, B \, \mathbf x$
 - $AB$ is matrix-matrix multiplication
