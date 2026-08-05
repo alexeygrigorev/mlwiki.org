@@ -109,7 +109,7 @@ Image of linear transformation
 
 
 $C(A\, B) \subseteq C(A)$
-- let $A$ be an $m \times n$ matrix and $B$ be an $k \times n$
+- let $A$ be an $m \times n$ matrix and $B$ be an $n \times k$
 - $A \, B$ corresponds to linear transformation $T_A \circ T_B$
 - so need to show that $\text{image}(T_A \circ T_B) \subseteq \text{image}(T_A)$
 - <img src="http://habrastorage.org/files/693/fc9/9de/693fc99de6f7493d97e571e0a3b3e0c8.png" alt="Image"> <|  -- etc\alg\matrix-mult-image.png --> 
