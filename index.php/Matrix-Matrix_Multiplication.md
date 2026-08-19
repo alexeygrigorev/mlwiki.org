@@ -34,16 +34,14 @@ All of them are equivalent and lead to the same result
 This is usual dot product multiplication: 
 - for each row of matrix $A$ we calculate a dot product with each column of matrix $B$
 - <img src="http://habrastorage.org/files/bad/3a8/b38/bad3a8b38db64a918543146979adcea0.png" alt="Image">
-- $c_{ij} = (\text{row $i$ of $A$})^T \times (\text{col $j$ of $B$}) = \sum\limits_{k=1}^{m} c_{ik} b_{kj}$
+- $`c_{ij} = (\text{row $i$ of $A$})^T \times (\text{col $j$ of $B$}) = \sum\limits_{k=1}^{n} a_{ik} b_{kj}`$
 
 
 ### Column at a Time
 For each column $\mathbf{b}_j$ of $B$ 
 - we multiply each column of $A$ with $\mathbf{b}_j$ - like in column at a time for matrix by vector
 - <img src="http://habrastorage.org/files/fe8/ffb/fb9/fe8ffbfb9ede4ad18a868024f8e791a1.png" alt="Image">
-- $\mathbf{c}_j = \begin{bmatrix}
-\mathop{a_1}\limits_| ^| \ \mathop{a_2}\limits_|^| \ \cdots \  \mathop{a_n}\limits_|^
-\end{bmatrix} \times \mathbf{b}_j$
+- $`\mathbf{c}_j = \begin{bmatrix} | & | & & | \\ \mathbf{a}_1 & \mathbf{a}_2 & \cdots & \mathbf{a}_n \\ | & | & & | \end{bmatrix} \times \mathbf{b}_j`$
 - so each $\mathbf{c}_j$ is a combination of columns of $A$
 
 
