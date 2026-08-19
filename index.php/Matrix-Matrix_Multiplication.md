@@ -13,7 +13,7 @@ Suppose we want to multiply $m \times n$ matrix $A$ on $n \times p$ matrix $B$, 
 What is matrix-matrix multiplication in terms of Linear Transformations?
 - Let $A$ be an $m \times n$ matrix, 
 - then there's a linear transformation $T_A \ : \ \mathbb R^n \to \mathbb R^m$: $T_A(\mathbf x) = A \mathbf x$ where $A \mathbf x$ is [Matrix-Vector Multiplication](Matrix-Vector_Multiplication)
-- now let $B$ be an $n \times k$ matrix, then $T_B \ : \ \mathbb R^m \to \mathbb R^k$: $T_B(\mathbf y) = B \mathbf x$
+- now let $B$ be an $n \times k$ matrix, then $T_B \ : \ \mathbb R^k \to \mathbb R^n$: $T_B(\mathbf x) = B \mathbf x$
 - what is $T_A \circ T_B$? It's $T_A \circ T_B \ : \ \mathbb R^k \to \mathbb R^m $
 - $(T_A \circ T_B)(\mathbf x) = T_A \big( T_B(\mathbf x) \big) = T_A \big( B \mathbf x \big) = A \, B \, \mathbf x$
 - $AB$ is matrix-matrix multiplication
@@ -107,7 +107,7 @@ Image of linear transformation
 
 
 $C(A\, B) \subseteq C(A)$
-- let $A$ be an $m \times n$ matrix and $B$ be an $k \times n$
+- let $A$ be an $m \times n$ matrix and $B$ be an $n \times k$
 - $A \, B$ corresponds to linear transformation $T_A \circ T_B$
 - so need to show that $\text{image}(T_A \circ T_B) \subseteq \text{image}(T_A)$
 - <img src="http://habrastorage.org/files/693/fc9/9de/693fc99de6f7493d97e571e0a3b3e0c8.png" alt="Image"> <|  -- etc\alg\matrix-mult-image.png --> 
