@@ -22,7 +22,7 @@ We expect that the following constraint is satisfied:
 - and the difference in global scores should be as close as possible to the initial differences
 
 
-; The PROMETHEE property:
+; The [PROMETHEE](PROMETHEE) property:
 - the netflow score $\Phi(a_i)$ is a centered score $s_i$ ($\forall i$) that minimizes the following $Q$:
 - $Q = \sum_{i=1}^n \sum_{j=1}^n \big[ (s_i - s_j) - (\pi_{ij} - \pi_{ji}) \big]^2 $
 - i.e. $Q$ is the sum of squared deviation and we want to minimize it
@@ -36,7 +36,7 @@ Proof ([La Grange Optimization](La_Grange_Optimization))
 - to optimize we take all partial derivatives plus the Lagrangian and equal them to 0:
   - $\forall s_i: \cfrac{\partial L(s_1, ..., s_n, \lambda)}{\partial s_i} = 0$
   - $\forall s_i: \cfrac{\partial L(s_1, ..., s_n, \lambda)}{\partial \lambda} = 0$
-- optimization:
+- [optimization](Optimization):
   - $\cfrac{\partial L}{\partial s_i} = 4 \cdot \sum_{j \ne i} \big[ (s_i - s_j) - (\pi_{ij} - \pi_{ji}) \big] - \lambda = ...$ (open the brackets for the sum)
   - $... = 4 \cdot \left[ \sum_{j \ne i} s_i - \sum_{j \ne i} s_j - \sum_{j \ne i} (\pi_{ij} - \pi_{ji}) \right] - \lambda = ...$ 
   - $... = 4 \cdot \left[ (n - 1) \cdot s_i - \sum_{j \ne i} s_j - \sum_{j \ne i} (\pi_{ij} - \pi_{ji}) \right] - \lambda = ...$  (by property $\sum_i s_i = 0$, $s_i = \sum_{j \ne i} s_j$ ) 
@@ -91,7 +91,7 @@ Suppose we
 - divided the set of criteria $G$ into $J$ and $\overline{J}$ and 
 - have alternatives $a,b,c,d \in A$ for which the following holds 
 - $(*)
-\left\{\begin{matrix}
+\left\{\begin{[matrix](Matrix)}
   g_i(a) = g_i(b), \forall i \not \in J \\ 
   g_i(c) = g_i(d), \forall i \not \in J \\ 
   g_i(a) = g_i(a), \forall i \in J \\
@@ -123,7 +123,7 @@ Now we show that $J$ is preferentially independent, i.e. $a \ P \ c \iff b \ P \
 
 ## [Arrow's Impossibility Theorem](Arrow's_Impossibility_Theorem)
 ### [Monotonicity](Monotonicity)
-The Monotonicity property is satisfied 
+The [Monotonicity](Monotonicity) property is satisfied 
 
 Let's show that
 - $A = \{a, ..., a_i, ..., a_n\}$ - set of alternatives, $F = \{f_1, ..., f_q\}$ - set of criteria
@@ -154,7 +154,7 @@ Let's show that
     - thus $\pi_k(a, a'_i) - \pi_k(a'_i, a) \leqslant \pi_k(a, a_i) - \pi_k(a_i, a)$
   - that shows that $\Phi'(a) \leqslant \Phi(a)$
 
-So we see that [Monotonicity](Monotonicity) is satisfied
+So we see that Monotonicity is satisfied
 
 
 ## Sources

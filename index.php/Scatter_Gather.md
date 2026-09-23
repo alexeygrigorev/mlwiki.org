@@ -9,7 +9,7 @@ title: Scatter/Gather
 ## Scatter/Gather
 This is 
 - use [Hierarchical Clustering](Hierarchical_Clustering) for seed selection, 
-- k-means for clustering
+- [k-means](K-Means) for clustering
 
 Scatter/Gather is a variation of K-Means used for [Document Clustering](Document_Clustering) with
 - special seed selection

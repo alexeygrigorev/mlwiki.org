@@ -17,7 +17,7 @@ Ontologies for Semantic Web:
 - should allow [reasoning](Inference_in_Semantic_Web)
 - [RDFS](RDFS) + [OWL](OWL) for describing ontologies on top of RDF [graphs](Graphs)
 - Tbox in [Descriptive Logic](Descriptive_Logic) as the formal foundation for inferencing
-- in [OWL](OWL) there's a special property: <code>SOME_URI a owl:Ontology</code>
+- in OWL there's a special property: <code>SOME_URI a owl:Ontology</code>
 
 
 Useful for 
@@ -40,21 +40,21 @@ FOAF - friend of a friend (uses [RDFS-Plus](RDFS-Plus))
 - also, about organizations
 
 ### SKOS
-SKOS  (uses [RDFS-Plus](RDFS-Plus))
+SKOS  (uses RDFS-Plus)
 - Simple Knowledge Organization System
 - e.g. controlled vocabularies, taxonomies, thesauri - defines relationships between terms
 - in a distributed and linkable way
 
 ### Others
-- GR: Good Relations - for business to make descriptions of their offers (uses [OWL](OWL))
-- QUDT - Quantity/Units/Dimensions/Types - for aligning data coming from multiple source  (uses [OWL](OWL))
+- GR: Good Relations - for business to make descriptions of their offers (uses OWL)
+- QUDT - Quantity/Units/Dimensions/Types - for aligning data coming from multiple source  (uses OWL)
 
 
 
 ## See Also
 - [First Order Logic](First_Order_Logic)
-- [Descriptive Logic](Descriptive_Logic)
-- [RDFS](RDFS), [RDFS-Plus](RDFS-Plus), [OWL](OWL)
+- Descriptive Logic
+- RDFS, RDFS-Plus, OWL
 
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_%28book%29)

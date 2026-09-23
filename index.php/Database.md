@@ -26,7 +26,7 @@ What problems databases solve?
 ## DBMS
 - usually the term database refers to a collection of data that is managed by a *DBMS* - a tool for managing large amounts of data
 
-A Database Management System (DBMS) is expected to (by [Data Model](Data_Model) Enforcement)
+A Database Management System (DBMS) is expected to (by Data Model Enforcement)
 - allow users to create DBs and specify the schema - logical structure of the data 
   (using DDL - data definition language)
 - allows to query and modify the data with some query language or data manipulation language
@@ -103,9 +103,9 @@ sometimes also *Storage Manager*
 ## Stored Information
 - data - content of the DS
 - metadata - DB schema that describes the DB
-- [log records](Database_Transaction_Log) - information about recent changes to the database 
+- log records - information about recent changes to the database 
 - [Statistics](Statistics) - sizes, values, relation to other components of DB, stored in [Database System Catalog](Database_System_Catalog)
-- [Indexes](Indexing_%28databases%29) to support efficient access to data
+- Indexes to support efficient access to data
 
 
 ## Databases

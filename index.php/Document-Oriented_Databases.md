@@ -22,7 +22,7 @@ A *document* is
 Documents inside such databases are not rigid: there are usually no requirements to adhere to any schema, and records are not required to have same files. 
 
 Categorizing
-- there are ways to organize records into categories (like relations in [Relational Databases](Relational_Databases))
+- there are ways to organize records into categories (like relations in Relational Databases)
 - typical way: add *tags* to mark the category of a record. A tag is usually just another field that specifies the type of a record
 - databases usually don't provide tools for categorizing, and it's up to users to decide whether to use tags or not
 
@@ -35,7 +35,7 @@ Categorizing
 
 ### [CouchDB](CouchDB)
 - JSON for storing documents
-- [Eventual Consistency](Eventual_Consistency)
+- Eventual Consistency
 - [REST](REST) Api
 
 ### OrientDB

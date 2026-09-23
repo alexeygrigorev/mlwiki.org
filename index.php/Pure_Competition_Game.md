@@ -13,7 +13,7 @@ So a pure competition game is where
 - $a \in A, u_1(a) + u_2(a) = c$
 - means that if somebody wins, another player loses exactly the amount the first player wins
 - this is also called  constant sum game
-- if $c$ = 0, a game is called a *zero sum game* 
+- if $c$ = 0, a game is called a *[zero sum game](Zero_Sum_Game)* 
 
 
 ## Zero Sum Games
@@ -26,7 +26,7 @@ Rules:
 - if both have the same, $p_1$ wins, $p_2$ looses
 - if both have different, $p_1$ looses, $p_2$ wins
 
-Payoff matrix:
+Payoff [matrix](Matrix):
 
 |    |  Head  |  Tail  |   Head   |  (1, -1)  |  (-1, 1)  ||   Tail   |  (-1, 1)  |  (1, -1) |
 
@@ -38,7 +38,7 @@ In this game there's no [Nash Equilibrium](Nash_Equilibrium):
 
 
 ### Rock Paper Scissors
-Is a generalization of Matching Pennies to 3 alternatives
+Is a generalization of [Matching Pennies](Matching_Pennies) to 3 alternatives
 
 |    |  Rock  |  Paper  |  Scissors  |   Rock       |  (0, 0)  |  (-1, 1)  |  (1, -1)  ||   Paper      |  (1, -1)  |  (0, 0)  |  (-1, 1)  ||   Scissors   |  (-1, 1)  |  (1, -1)  |  (0, 0)  |
 

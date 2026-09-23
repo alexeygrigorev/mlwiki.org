@@ -12,7 +12,7 @@ title: Chi-Squared Ranking
 [Chi-Squared Test of Independence](Chi-Squared_Test_of_Independence)
 
 
-The $\chi^2$ statistics measures the lack of independence between $f$ and $y$ and can be compared to $\chi^2$ with one degree of freedom
+The $\chi^2$ [statistics](Statistics) measures the lack of [independence](Independence) between $f$ and $y$ and can be compared to $\chi^2$ with one degree of freedom
 
 it's zero when $f$ and $y$ are independent
 

@@ -21,7 +21,7 @@ $\require{cancel}$
 Suppose we have
 - $m$ training examples $(\mathbf x_i, y_i)$
 - $n$ features, $\mathbf x_i = \big[x_{i1}, \ ... \ , x_{in} \big]^T \in \mathbb{R}^n$
-- We can put all such $\mathbf x_i$ as rows of a matrix $X$ (sometimes called a *design matrix*)
+- We can put all such $\mathbf x_i$ as rows of a [matrix](Matrix) $X$ (sometimes called a *design matrix*)
 - $X = \begin{bmatrix}
 - \ \mathbf x_1^T - \\ 
   \vdots  \\ 
@@ -90,7 +90,7 @@ In Linear algebra we typically use different notation
 Suppose we have a matrix $A$ with out observations
 - the system $A \mathbf x = \mathbf b$ has no solution
 - We [project](Projection_onto_Subspaces) $\mathbf b$ on the Column Space $C(A)$
-- how do we do it? $C(A)$ is all the combinations of columns in $A$, so they form a hyperplane in $\mathbb R^m$ 
+- how do we do it? $C(A)$ is all the [combinations](Combinations) of columns in $A$, so they form a hyperplane in $\mathbb R^m$ 
 - $\mathbf b$ is not on this hyperplane - otherwise we would not need to project on it
 
 
@@ -123,7 +123,7 @@ In this case $\text{rank}(A) = 1$ and $\text{rank}(A^T A) = 1$   so $A^T A$ is n
 
 
 When it is invertible?
-- $N(A^T A) = N(A)$ (see the theorem in [Projection onto Subspaces](Projection_onto_Subspaces))
+- $N(A^T A) = N(A)$ (see the theorem in Projection onto Subspaces)
 - so when $N(A) = \{ \; \mathbf 0 \; \}$ then it's invertible
 - or, in other words, the columns of $A$ are linearly independent
 
@@ -254,7 +254,7 @@ print p.dot(e)
 
 
 ## Normal Equation vs [Gradient Descent](Gradient_Descent)
-[Gradient Descent](Gradient_Descent):
+Gradient Descent:
 - need to choose learning rate $\alpha$
 - need to do many iterations
 - works well with large $n$
@@ -333,7 +333,7 @@ We find $\mathbf w$ by calculating $\mathbf w = (X^T X + \lambda E^*)^{-1} \cdot
 
 
 This is called [Ridge Regression](Ridge_Regression)
-- it can also be solved by both Normal Equation and [Gradient Descent](Gradient_Descent) 
+- it can also be solved by both Normal Equation and Gradient Descent 
 
 
 
@@ -347,8 +347,8 @@ pinv(X' * X) * X' * y
 
 
 ## See Also
-- [Multivariate Linear Regression](Multivariate_Linear_Regression)
-- [Gradient Descent](Gradient_Descent)
+- Multivariate Linear Regression
+- Gradient Descent
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)

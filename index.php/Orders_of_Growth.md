@@ -57,10 +57,10 @@ It's the opposite for $x \to 0$
 
 The hierarchy reverses 
 - Constant 
-- [Logarithm](Logarithm)
-- [Polynomial Functions](Polynomial_Functions) ($x^{n+1} < x^n$)
-- [Exponential Function](Exponential_Function)
-- [Factorial](Factorial)
+- Logarithm
+- Polynomial Functions ($x^{n+1} < x^n$)
+- Exponential Function
+- Factorial
 
 Example:
 - $\lim\limits_{x \to 0} \cfrac{1 -2x + 3x^2}{4 - 5x + 6x^2} = \cfrac{1}{4}$
@@ -152,8 +152,8 @@ Example 1:
 
 ## Applications
 - Algorithms: Computational Complexity, [Big O](Big_O)
-- Error Analysis
-- Stirling Formula (see [Factorial](Factorial))
+- [Error Analysis](Error_Analysis)
+- Stirling Formula (see Factorial)
 
 ## Sources
 - [Calculus: Single Variable (coursera)](Calculus__Single_Variable_%28coursera%29)

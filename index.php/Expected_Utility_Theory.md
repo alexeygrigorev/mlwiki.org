@@ -27,7 +27,7 @@ The preference and indifference relations are defined as follows:
 
 
 ### Utilities for Lotteries
-- for lotteries (as defined in [Decision Trees](Decision_Tree_%28Decision_Theory%29)) we see the lotteries as alternatives
+- for lotteries (as defined in Decision Trees) we see the lotteries as alternatives
 - probabilities are the weights 
 - $X$ is a set of consequences for which the lotteries are defined 
 
@@ -95,10 +95,10 @@ for lotteries $l_1, l_2 \in L(X)$ over the same outcomes $\{x, y\} \subseteq X$
 for high-order lotteries $l^{(1)}, l^{(2)} \in L(X)$ 
 - $l^{(1)}$ is over  set of lotteries $\{l_1, \ ... \ , l_k\} \subset L(X)$
 - $l^{(2)}$ is over  set of lotteries $\{l'_1, \ ... \ , l_k\} \subset L(X)$
-- (the sets are almost the same - they only differ in $l_1$ and $l'_1$)
-- both $l^{(1)}, l^{(2)}$ have the same probability distributions over their sets
+- (the [sets](Sets) are almost the same - they only differ in $l_1$ and $l'_1$)
+- both $l^{(1)}, l^{(2)}$ have the same [probability](Probability) [distributions](Distributions) over their sets
 
-Independence:
+[Independence](Independence):
 - if $l_1 \ I \ l'_1$ then $l^{(1)} \ I \ l^{(2)}$ 
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/ru/lotteries-independence.png" alt="Image">

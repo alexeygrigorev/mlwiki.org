@@ -12,7 +12,7 @@ A [Graph Search](Graph_Search) algorithm:
 - uses FILO / recursion
 
 ## Algorithm
-DFS(graph $G$, start vertex $s$):
+DFS([graph](Graph) $G$, start vertex $s$):
 - mark $s$ as explored
 - for every edge $(s, v)$
   - if $v$ is unexplored

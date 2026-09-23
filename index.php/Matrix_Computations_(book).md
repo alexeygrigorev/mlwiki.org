@@ -29,7 +29,7 @@ Basics
 - [Householder Transformation](Householder_Transformation)
 - [Givens Transformation](Givens_Transformation)
 - [Gram-Schmidt Process](Gram-Schmidt_Process)
-- [Ordinary Least Squares](Ordinary_Least_Squares)
+- Ordinary Least Squares
 
 [Eigenvalue Problems](Eigenvalues_and_Eigenvectors)
 - [Power Iteration](Power_Iteration)

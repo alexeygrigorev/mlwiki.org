@@ -65,7 +65,7 @@ n = z^2 * p * (1 - p) / ME^2
 
 
 ## Controlling False Negatives
-Sample Size controls [Type II Errors](Type_II_Errors) - False Negatives
+Sample Size controls Type II Errors - False Negatives
 - What sample size is good for a certain margin of error?
 - recall that a margin of error the "radius" of the Confidence Interval - boundaries of the [Point Estimate](Point_Estimate)
 
@@ -76,7 +76,7 @@ Suppose we want to have a 95% confidence interval
 - $\text{ME}_{0.95} = Z \cdot \text{SE} = 1.96 \cfrac{\sigma}{\sqrt{n}}$
 - we want $\text{ME} \leqslant 4$ 
 - so $1.96 \cdot \cfrac{\sigma}{\sqrt{n}} \leqslant 4$, and we want to get $n$ from this inequality
-  - NOTE: need to know $\sigma$, otherwise we should use $T$ statistics instead of $Z$ and estimate $\sigma$ by $s$
+  - NOTE: need to know $\sigma$, otherwise we should use $T$ [statistics](Statistics) instead of $Z$ and estimate $\sigma$ by $s$
 - e.g. suppose that we know that the whole country $\sigma$ is 25, so it might be a good estimate for $\sigma$ within a company
 
 

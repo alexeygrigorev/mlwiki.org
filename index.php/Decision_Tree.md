@@ -13,8 +13,8 @@ In [Decision Analysis](Decision_Analysis), decision trees are used
 
 
 In [Data Mining](Data_Mining), 
-- a [decision tree](Decision_Tree_%28Data_Mining%29) describes data but not decisions; 
-- and the resulting classification tree can be an input for decision making
+- a decision tree describes data but not decisions; 
+- and the resulting classification [tree](Tree) can be an input for decision making
 
 
 ## Sources

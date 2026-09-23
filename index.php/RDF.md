@@ -7,8 +7,8 @@ tags:
 title: RDF
 ---
 ## Motivation
-Data integration
-- suppose we have a distributed database across many servers
+[Data integration](Data_Integration)
+- suppose we have a distributed [database](Database) across many servers
 - each row is some entity, a column represents some property of this entity, and the cell contains a value described by this property
 - inside a cell we can refer to another entity, and the meaning of the relationship is described by the name of the column
 - so each cell of this database can be seen as a triple <code>row column value</code>
@@ -23,7 +23,7 @@ Data integration
 ## RDF
 RDF - resource description framework, a way to represent knowledge for the [Semantic Web](Semantic_Web)
 - knowledge representation based on triples $\langle \text{subject}, \ \text{predicate}, \ \text{object} \rangle$
-- the triples can form a graph
+- the triples can form a [graph](Graph)
   - nodes - resources
   - edges - predicates
   - both represented with URIs
@@ -120,14 +120,14 @@ We should interpret it as
 - there exists a woman who lived in England and is the source of inspiration for "Sonnet 79"
 - so blank nodes interpreted as existential variables 
 
-In Turtle it's 
+In [Turtle](Turtle) it's 
 - <code>lit:Sonnet78 lit:hasInspiration [a bio:Woman; bio:livedIn geo:England]</code>
 
 
 
 ## [Semantic Web](Semantic_Web)
 RDF is a basis for the Semantic Web 
-- [RDFS](RDFS) is schema for RDF that allows some basic inference
+- RDFS is schema for RDF that allows some basic inference
 - [RDFS-Plus](RDFS-Plus) extension of RDFS, and subset of OWL
 - OWL - Web [Ontologies](Ontologies) Language 
 
@@ -144,13 +144,13 @@ Default is triplets - not very compact and user friendly
 
 There are several:
 - [RDF/XML](RDF_XML)
-- [Turtle](Turtle)
+- Turtle
 
 
 ## See Also
-- [Semantic Web](Semantic_Web)
-- [RDFS](RDFS), [OWL](OWL)
-- [Ontologies](Ontologies)
+- Semantic Web
+- RDFS, OWL
+- Ontologies
 
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_%28book%29)

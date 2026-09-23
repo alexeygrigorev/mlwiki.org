@@ -119,7 +119,7 @@ Splitting numerical attributes
 - $\fbox{$C_1$: 5, $C_2$: 5}$ - homogeneous, high degree of impurity
 - $\fbox{$C_1$: 9, $C_2$: 1}$ - non-homogeneous, low degree of impurity
 - the lower the better
-- use Information Gain for that
+- use [Information Gain](Information_Gain) for that
 
 
 ### Stopping Conditions
@@ -137,7 +137,7 @@ Given a set $S$ with $K$ classes $C_1, ..., C_K$
 ### Measures of Impurity
 - Misclassification Error:
   - $I(S) = 1 - \max_k p_k$
-- Entropy and [Information Gain](Information_Gain)
+- Entropy and Information Gain
   - $I(S) = - \sum_k p_k \cdot \log_2 p_k$
 - Gini index:
   - $I(S) = 1 - \sum_k p_k \cdot c_k$
@@ -225,7 +225,7 @@ Simple ones:
 
 
 More complex:
-- when class distribution of instances becomes independent from available features
+- when class [distribution](Distributions) of instances becomes independent from available features
   - e.g. using [Chi-square Test of Independence](Chi-square_Test_of_Independence)
 
 
@@ -305,7 +305,7 @@ Distribute the values to subsets
 
 #### Classification with Modification
 Classification:
-- let $P(C \mid E,T)$ be the probability of classifying case $E$ to class $C$ using tree $T$
+- let $P(C \mid E,T)$ be the [probability](Probability) of classifying case $E$ to class $C$ using tree $T$
 - define it recursively:
 - if $t = \text{root}(T)$ is a leaf (i.e. it's a singleton tree)
   - then P(C |  E,T) is the relative frequency of training cases in class $C$ that reach $T$

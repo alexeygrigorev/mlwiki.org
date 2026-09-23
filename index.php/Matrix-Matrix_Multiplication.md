@@ -6,7 +6,7 @@ tags:
 title: Matrix-Matrix Multiplication
 ---
 ## Matrix-Matrix Multiplication
-Suppose we want to multiply $m \times n$ matrix $A$ on $n \times p$ matrix $B$, we get an $m \times p$ matrix $C$
+Suppose we want to multiply $m \times n$ [matrix](Matrix) $A$ on $n \times p$ matrix $B$, we get an $m \times p$ matrix $C$
 
 
 ## [Linear Transformation](Linear_Transformation)
@@ -20,18 +20,18 @@ What is matrix-matrix multiplication in terms of Linear Transformations?
 
 
 ## Multiplication
-We can see matrix by matrix multiplication from 5 different positions:
+We can see matrix by [matrix multiplication](Matrix_Multiplication) from 5 different positions:
 - row by column multiplication
 - column at a time
 - row at a time
-- as sum of outer products
+- as sum of [outer products](Outer_Product)
 - block multiplication
 
 All of them are equivalent and lead to the same result
 
 
 ### Row By Columns
-This is usual dot product multiplication: 
+This is usual [dot product](Dot_Product) multiplication: 
 - for each row of matrix $A$ we calculate a dot product with each column of matrix $B$
 - <img src="http://habrastorage.org/files/bad/3a8/b38/bad3a8b38db64a918543146979adcea0.png" alt="Image">
 - $`c_{ij} = (\text{row $i$ of $A$})^T \times (\text{col $j$ of $B$}) = \sum\limits_{k=1}^{n} a_{ik} b_{kj}`$
@@ -129,7 +129,7 @@ group by a.row_num, b.col_num;
 
 
 ### [MapReduce](MapReduce)
-- It's easy to implement the SQL expression above in terms of MapReduce
+- It's easy to implement the SQL expression above in terms of [MapReduce](MapReduce)
 - Link [link](https://code.google.com/p/stolzen/source/browse/trunk/courses/coursera/Introduction%20to%20Data%20Science/assignment3/p6_matrixmult.py)
 
 

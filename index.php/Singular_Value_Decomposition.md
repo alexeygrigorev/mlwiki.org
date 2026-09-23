@@ -7,11 +7,11 @@ tags:
 title: Singular Value Decomposition
 ---
 ## Singular Value Decomposition
-SVD is a decomposition of rectangular $m \times n$ matrix $A$ as
+SVD is a decomposition of rectangular $m \times n$ [matrix](Matrix) $A$ as
 - $A = U \Sigma V^T$ where
 - $U$ is an $m \times m$ [orthogonal matrix](Orthogonal_Matrices) with [Eigenvectors](Eigenvectors) of $A A^T$
 - $\Sigma$ is an diagonal $m \times n$  matrix with [Eigenvalues](Eigenvalues) of both $A^T A$ and $A A^T$
-- $V$ is an $n \times n$ orthogonal matrix with [Eigenvalues](Eigenvalues) of $A^T A$
+- $V$ is an $n \times n$ orthogonal matrix with Eigenvalues of $A^T A$
 
 
 
@@ -24,9 +24,9 @@ But it's not only a decomposition, but a way of finding the bases for the [Four 
 <img width="50%" src="<img src="http://alexeygrigorev.com/projects/imsem-ws14-lina/img-svg/diagram3-svd.svg" alt="Image">" />
 
 
-- Singular vectors $\mathbf v_1, \ ... \ , \mathbf v_r$ are in the row space of $A$ 
+- Singular vectors $\mathbf v_1, \ ... \ , \mathbf v_r$ are in the [row space](Row_Space) of $A$ 
 - applying $A$ to $\mathbf v_i$ gives $A \mathbf v_i = \sigma_i \mathbf u_i$
-- $\mathbf u_1, \ ... \ , \mathbf u_r$ are in the column space of $A$ 
+- $\mathbf u_1, \ ... \ , \mathbf u_r$ are in the [column space](Column_Space) of $A$ 
 - Singular values $\sigma_1, \ ... \ , \sigma_r$ are all positive numbers
 - so $V$ and $U$ diagonalize $A$:
 - $A \mathbf v_i = \sigma_i \mathbf u_i$ $\Rightarrow$ $A V = \Sigma U$
@@ -37,13 +37,13 @@ But it's not only a decomposition, but a way of finding the bases for the [Four 
 ### Eigenvalue Decomposition
 Problems with general [Eigendecomposition](Eigendecomposition) $A = S \, \Lambda \, S^{-1}$:
 - doesn't work with rectangular matrices 
-- eigenvalues in $S$ are usually not orthonormal (unless $A$ is symmetric)
+- [eigenvalues](Eigenvalues_and_Eigenvectors) in $S$ are usually not orthonormal (unless $A$ is symmetric)
 
 
 Our goal:
 - $A = U \Sigma V^T$
-- we want to find the orthogonal basis in the [Row Space](Row_Space) $C(A^T)$ of $A$ 
-- and we then map this basis to some orthogonal basis in the [Column Space](Column_Space) $C(A)$ of $A$
+- we want to find the orthogonal basis in the Row Space $C(A^T)$ of $A$ 
+- and we then map this basis to some orthogonal basis in the Column Space $C(A)$ of $A$
 - these vectors are called *singular vectors*
 
 
@@ -53,7 +53,7 @@ Solution:
 
 ### [Spectral Theorem](Spectral_Theorem)
 SVD extends the [Spectral Theorem](Spectral_Theorem) 
-- it's EVD for all symmetric positive-definite matrices
+- it's EVD for all symmetric [positive-definite matrices](Positive-Definite_Matrices)
 - we extend EVD to all rectangular matrices $A$ 
 
 
@@ -68,7 +68,7 @@ Goal:
 ### Orthogonalization
 Finding orthogonal basis for the rowspace $C(A^T)$ 
 - let $r$ be the [rank](Rank_(Matrix)) of $A$ 
-- select orthonormal basis $\mathbf v_1, \ ... \ , \mathbf v_r$ in $\mathbb R^n$ s.t. it spans the [Row Space](Row_Space) of $A$
+- select orthonormal basis $\mathbf v_1, \ ... \ , \mathbf v_r$ in $\mathbb R^n$ s.t. it spans the Row Space of $A$
 - e.g. using the [Gram-Schmidt Process](Gram-Schmidt_Process) on the rows of $A^T$
 - continue the process to find $\mathbf v_{r+1}, \ ... \ , \mathbf v_n$ in $\mathbb R^n$ s.t it spans the [Nullspace](Nullspace) of $A$
 
@@ -84,7 +84,7 @@ Here $\{ \ \mathbf v_i \ \}$ are orthogonal by construction
 - we want to find such $\{ \ \mathbf v_i \ \}$ that $\{ \ \mathbf u_i \ \}$ are also orthogonal
 
 
-We can use [EVD](Eigendecomposition) to find the right basis
+We can use EVD to find the right basis
 - Let $\{ \ \mathbf v_i \ \}$ be eigenvectors of $A^T A$ with $\lambda_i$ being corresponding eigenvalues
 - so $A^T A \mathbf v_i = \lambda_i \mathbf v_i$ and EVD is $A^T A = V \Lambda V^T$ (with $\mathbf v_i$ being the columns of $V$) 
 
@@ -284,7 +284,7 @@ SVD is $A = U \Sigma V^T$
 
 
 ### [Outer Product](Outer_Product) Form
-A matrix multiplication $AB$ can be expressed as a sum of outer products:
+A matrix multiplication $AB$ can be expressed as a sum of [outer products](Outer_Product):
 - let $A$ be $n \times k$ matrix and $B$ be $k \times m$ matrix
 - then $AB = \sum\limits_{i=1}^k \mathbf a_i \mathbf b_i^T$
 - where $\mathbf a_i$ are columns of $A$ and $\mathbf b_i$ are rows of $B$
@@ -326,7 +326,7 @@ Given SVD $A V = U \Sigma$, why $U$ in is the column space of $A$ and $V$ is the
 Data Compression
 - Truncated SVD gives the best rank-$k$ approximation to the original matrix $A$ 
 - when using [Frobenius Norm](Frobenius_Norm) in the [Matrix Vector Space](Matrix_Vector_Spaces)
-- the problem is [Reduced Rank Approximation](Reduced_Rank_Approximation) (sometimes Total Least Squares)
+- the problem is Reduced Rank Approximation (sometimes Total Least Squares)
 
 
 It's like Discrete [Fourier Transformation](Fourier_Transformation):
@@ -345,7 +345,7 @@ Image Compression
 
 
 ### [Latent Semantic Analysis](Latent_Semantic_Analysis)
-- When used as a Dimensionality Reduction technique for Term-Document matrix
+- When used as a [Dimensionality Reduction](Dimensionality_Reduction) technique for Term-Document matrix
 - it helps revealing some hidden semantic patterns
 
 
@@ -359,7 +359,7 @@ There are many other applications
 
 
 ## See Also
-- [Eigendecomposition](Eigendecomposition) and [Spectral Theorem](Spectral_Theorem)
+- Eigendecomposition and Spectral Theorem
 - Note that $A A^T$ and $A^T A$ are called [Gram Matrices](Gram_Matrices)
 
 

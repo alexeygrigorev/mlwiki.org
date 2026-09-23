@@ -23,7 +23,7 @@ $v_1 < v_2$ if
 
 $v_1 < v_2$ implies global time ordering 
 
-When data is written to a node $i$, it sets its timestamp $t_i$ to its clock value
+When data is written to a node $i$, it [sets](Sets) its timestamp $t_i$ to its clock value
 
 
 ### Causation
@@ -41,7 +41,7 @@ $e_1$ happens *after* $e_2$ if
 
 
 ## Usage in databases
-- Every replica in a database keeps a list of number of updates it has seen. 
+- Every replica in a [database](Database) keeps a list of number of updates it has seen. 
 - When an update comes, the replica increases its update counter in the vector clock 
 - and sends the new clock value with the update to other replicas
 - if a read returns a conflicting version, application must reconcile the data and put it back to the database
@@ -98,7 +98,7 @@ How to see if there is a conflict?
 |  Data 1  |  Data 2  |  Conflict? ||  $([S_x, 3], [S_y, 6])$  |  $([S_x, 3], [S_z, 2])$  |  Yes ||  $([S_x, 3])$  |  $([S_x, 5])$  |  No || $([S_x, 3], [S_y, 6])$  |  $([S_x, 3], [S_y, 6], [S_z, 6])$  |  No |
 
 ## See also
-- [Eventual Consistency](Eventual_Consistency)
+- Eventual Consistency
 
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)

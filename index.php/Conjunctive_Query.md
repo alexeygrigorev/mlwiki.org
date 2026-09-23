@@ -29,7 +29,7 @@ $\underbrace{Q(x_1, ..., x_n)}_{\text{head}} \leftarrow
 
 $R(a_1, ..., a_m)$ is called an *atom* 
 - if an atom does not contain any variables, only constants, it's a *fact*
-- so we can view a database as a set of facts 
+- so we can view a [database](Database) as a set of facts 
 
 
 Alternative vector form:
@@ -110,8 +110,8 @@ So this way we try all values of our database table and return only matching one
 
 
 ### Translation
-[First Order Logic](First_Order_Logic)
-- CQs can be translated to [First Order Logic](First_Order_Logic) expressions
+First Order Logic
+- CQs can be translated to First Order Logic expressions
 - for query $q(x_1, ..., x_n) = A_1(...), \ ..., \ A_n(...)$
 - FOL expressions is $\{ x_1, ..., x_n \ |  \ \exists \ y_1, ..., y_m : A_1(...) \ \land \ ... \ \land \ A_n(...) \}$
 - $x_1, ..., x_n$ - distinguished variables, and $y_1, ..., y_m$ are existential
@@ -127,7 +127,7 @@ CQs have an interesting property
 - The query containment problem is undecidable for SQL and Relational Algebra (see [Logical Query Plan Optimization](Logical_Query_Plan_Optimization)), but it is decidable for Conjunctive Queries 
 - The decidability of containment is NP-complete problem, but usually CQs are not big, so it is acceptable 
 
-This makes CQs very suitable for [Logical Query Plan Optimization](Logical_Query_Plan_Optimization), namely, for [removing redundant joins](Logical_Query_Plan_Optimization#Removing_Redundant_Joins)
+This makes CQs very suitable for Logical Query Plan Optimization, namely, for removing redundant joins
 
 
 

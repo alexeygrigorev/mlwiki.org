@@ -45,7 +45,7 @@ Also
 - TreeSet vs LinkedHashSet
 - Internal structure of HashMap/Hashtable
 - Requirements for implementation of hashCode to achieve best performance
-- Definition and ways of resolving collisions in hash tables
+- Definition and ways of resolving collisions in [hash tables](Hash_Tables)
 - Differences between Hashtable and ConcurrentHashMap
 - Special versions of collections. EnumSet, EnumMap, WeakHaskMap, IdentityHashMap.
 - Implementation details of about ConcurrentHashMap. Synchronization.
@@ -105,7 +105,7 @@ How to interrupt a thread
 - What difference between float and BigDecimal. How they store the data?
 - Java object references
 - What is deep copy of a Java object?
-- Disadvantages of setting heap size too high
+- Disadvantages of setting [heap](Heap) size too high
 - What are utilities for JVM monitoring? What is Jconsole?
 - How to force GC be executed?
 - Garbage collection principles

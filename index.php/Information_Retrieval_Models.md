@@ -29,7 +29,7 @@ There are 5 categories of IR models
 
 ### Algebraic Model
 [Vector Space Model](Vector_Space_Model)s are most well-known 
-- use Bag-of-Word to build a vector space
+- use Bag-of-Word to build a [vector space](Vector_Spaces)
 - both documents and the query are represented as vectors in this space
 - each term is assigned some weight that reflects the importance of this term
 - and then we use [Cosine Similarity](Cosine_Similarity) or [Inner Product](Inner_Product) to rank queries
@@ -50,8 +50,8 @@ It's a framework that defines:
 
 ## Probabilistic Relevance Models
 [Probabilistic Retrieval Model](Probabilistic_Retrieval_Model)
-- relevance = "what is the probability that document $D$ is relevant to the query $Q$?"
-- Binary Independence Retrieval - classical probabilistic IR model, assumes term independence 
+- relevance = "what is the [probability](Probability) that document $D$ is relevant to the query $Q$?"
+- Binary [Independence](Independence) Retrieval - classical probabilistic IR model, assumes term independence 
 - it's sort of "[Naive Bayes Classifier](Naive_Bayes_Classifier)" for IR
 - BM25 Ranking Function is comparable with [TF-IDF](TF-IDF) weighting performance
 

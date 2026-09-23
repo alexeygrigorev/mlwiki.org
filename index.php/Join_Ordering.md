@@ -35,12 +35,12 @@ Recall that Join is the most expensive operation
 
 ### Example
 - given: $R(A, B), S(B, C), T(A, E)$
-- statistics:
+- [statistics](Statistics):
   - $B(R) = 50, B(S) = 50, B(T) = 50$
   - $B(R \Join S) = 150$
   - $B(S \Join T) = 2500$ ($S$ and $T$ don't have anything in common - so it's a cartesian product)
   - $B(R \Join T) = 200$
-- assume ideal case: everything can be done with [one-pass join](Physical_Operators_%28databases%29)#One-Pass_Join) algorithm 
+- assume ideal case: everything can be done with one-pass join#One-Pass_Join) algorithm 
   - i.e. we have # of free buffers $M = 51$
 - what's the best ordering for $R \Join S \Join T$?
 
@@ -66,17 +66,17 @@ So we see that the order is indeed important
 ### Possibly Orderings
 We see that we need to enumerate all possible join orderings 
 - in how many ways we can put ()s?
-- how many permutations are there?
+- how many [permutations](Permutations) are there?
 
 $\Rightarrow$ the number of possible orderings is $n|   \times T(n)$
 - $n!$ - number of ways to permute $n$ relations
-- $T(n)$ ways to create a binary tree over $n$ leaf nodes
+- $T(n)$ ways to create a binary [tree](Tree) over $n$ leaf nodes
 - $T(1) = 1, T(n) = \sum_{i = 1}^{n - 1} T(i) \times T(n - 1)$
 
 The resulting space is super-exponential:
 
 |   $n$  |  2  |  3  |  4  |  5  |  6  |  7  |  8 ||   $n! \times T(n)$  |  2  |  12  |  120  |  1680  |  30 240  |  665 580  |  17 297 280 |
-The query optimization must not take longer than the most stupid and naive way of executing it
+The query [optimization](Optimization) must not take longer than the most stupid and naive way of executing it
 - so we disregard the option of trying all possible orderings and infeasible
 
 
@@ -131,9 +131,9 @@ Suppose:
 <!-- Main: Query Plan Selection Exercises -->
 
 ## See also
-- [Physical Operators (databases)](Physical_Operators_%28databases%29)
+- Physical Operators (databases)
 - [Query Result Size Estimation](Query_Result_Size_Estimation)
-- [Physical Query Plan Optimization](Physical_Query_Plan_Optimization)
+- Physical Query Plan Optimization
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

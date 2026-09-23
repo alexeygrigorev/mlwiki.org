@@ -15,7 +15,7 @@ The goal:
 - (figure source: Ertöz2003)
 
 
-Distance:
+[Distance](Distance_Functions):
 - [Euclidean Distance](Euclidean_Distance) is not good for high-dimensional data 
 - use different similarity measure in terms of [KNN](KNN)s - "Shared Nearest Neighbors"
 - then define density in terms of this similarity
@@ -57,7 +57,7 @@ Usual density is not good:
 - In the Euclidean space, the density is the number of points per unit volume 
 - but as dimensionality increases, the volume increases rapidly
 - so unless the number of points increases exponentially with dimensionality, the density tends to 0
-- Density-based algorithms (e.g. [DBSCAN](DBSCAN)) will not work properly 
+- Density-based algorithms (e.g. DBSCAN) will not work properly 
 
 
 Need different intuition of density
@@ -74,7 +74,7 @@ SSN-based measures of density:
   - to reduce random variation - which happens when we look only at one point
   - to be consistent with the graph-based view of the problem
 - of it can be the number of points within some radius - specified in terms of SNN distance
-  - like in [DBSCAN](DBSCAN), but with SSN distance
+  - like in DBSCAN, but with SSN distance
 
 
 ### SSN Clustering Algorithm

@@ -16,7 +16,7 @@ Term Strength is a technique for [Feature Selection](Feature_Selection) in [Text
 *Strength* of a term $t$ 
 - measures how informative a word is for identifying two related documents
 - $s(t) = P(t \in y \mid t \in x)$
-- for two related documents $x, y$ what's the probability that $t$ belongs to $y$ given it belongs to $x$?
+- for two related documents $x, y$ what's the [probability](Probability) that $t$ belongs to $y$ given it belongs to $x$?
 - estimate $s(t)$ on training data using [Maximum Likelihood Estimation](Maximum_Likelihood_Estimation)
 
 

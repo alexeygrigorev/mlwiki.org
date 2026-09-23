@@ -10,7 +10,7 @@ title: OWL
 OWL - Web Ontology Language
 
 Several languages 
-- OWL-Full - No limits, but some things can be undecidable
+- OWL-Full - No [limits](Limits), but some things can be undecidable
 - OWL-DL - [Descriptive Logic](Descriptive_Logic)
 - OWL-Lite - [RDFS-Plus](RDFS-Plus), DL-Lite
 - for logical semantics behind there expressions see [Semantic Web Logic](Semantic_Web_Logics)
@@ -233,12 +233,12 @@ Protégé
 
 ## See Also
 - [RDFS and OWL Summary](RDFS_and_OWL_Summary)
-- [Semantic Web](Semantic_Web)
+- Semantic Web
 - [RDF](RDF)
 - [RDFS](RDFS)
-- [RDFS-Plus](RDFS-Plus) - a subset of OWL and an extension of [RDFS](RDFS) with more inferencing capabilities
+- RDFS-Plus - a subset of OWL and an extension of RDFS with more inferencing capabilities
 - [Inference in Semantic Web](Inference_in_Semantic_Web)
-- [Semantic Web Logics](Semantic_Web_Logics)
+- Semantic Web Logics
 
 ## Sources
 - [Semantic Web for the Working Ontologist (book)](Semantic_Web_for_the_Working_Ontologist_%28book%29)

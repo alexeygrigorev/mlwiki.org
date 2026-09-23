@@ -16,7 +16,7 @@ This scheduler is optimistic (similar idea to [Timestamp-Based Scheduler](Timest
 
 ## Rules
 for every transaction $T$ we record 
-- a set of database items $RS(T)$ that were read by $T$
+- a set of [database](Database) items $RS(T)$ that were read by $T$
 - a set of database items $WS(T)$ that is wants to write / were written by $T$
 
 All transactions are executed in 3 phases

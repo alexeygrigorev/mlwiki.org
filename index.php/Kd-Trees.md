@@ -15,7 +15,7 @@ title: Kd-Trees
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/kd-tree-ex.png" alt="Image">
 - *split attributes* at different levels are different
   - in the example: first split by $Y$, then by $X$, then by $Y$...
-- interior nodes of the tree contain
+- interior nodes of the [tree](Tree) contain
   - attribute on which we divided the space
   - a dividing value
   - left and right pointers (only 2|  )
@@ -23,7 +23,7 @@ title: Kd-Trees
 
 ## Operations
 ### Lookup
-- similar to [binary search trees](Binary_Search_Trees)
+- similar to binary search trees
 - but need to use only attribute specified in a interior node of the tree
 
 ### Insertion
@@ -61,11 +61,11 @@ The described algorithm is for Main Memory, not for disk
 
 
 ## See also
-- [Binary Search Trees](Binary_Search_Trees)
+- Binary Search Trees
 - [Quad Trees](Quad_Trees)
 - [R-Tree](R-Tree)
-- [Multi-Dimensional Indexes](Multi-Dimensional_Indexes)
+- Multi-Dimensional Indexes
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

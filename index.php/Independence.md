@@ -6,7 +6,7 @@ tags:
 title: Independence
 ---
 ## Independent Events
-Event $B$ is called *independent* of event $A$ if the occurrence of event $A$ does not change the probability of event $B$, i.e.,
+Event $B$ is called *independent* of event $A$ if the occurrence of event $A$ does not change the [probability](Probability) of event $B$, i.e.,
 
 $P(B \mid A) = P(B)$ and $P(A \mid B) = P(A)$
 Alternatively, two events are independent if the probability of their joint occurrence equals the product of their probabilities:
@@ -50,4 +50,4 @@ The probability that a random number generator produces a given word
 - [Conditional Probability](Conditional_Probability)
 
 ## Sources
-- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vysshaya Shkola, 2003.
+- Gmurman V.E., Probability Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vysshaya Shkola, 2003.

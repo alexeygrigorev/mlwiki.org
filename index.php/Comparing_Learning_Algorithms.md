@@ -27,11 +27,11 @@ What if we want to compare
 We want to measure the expected error 
 - for $R \subset D$ where $D$ is the population, we want to measure
 - $E \Big[ \text{error} \big(A_1(R), D \big) - \text{error} \big(A_2(R), D \big) \Big]$
-  - with $\text{error} \big(A_1(R), D \big)$ being the [true error](True_Error_of_Model)
+  - with $\text{error} \big(A_1(R), D \big)$ being the true error
 
 
 How to estimate it?
-- average result over many different training sets 
+- average result over many different training [sets](Sets) 
 - ideally all of these sets must be independent from each other 
 - but usually use [K-Fold Cross-Validation](K-Fold_Cross-Validation)
 
@@ -59,7 +59,7 @@ Test:
 - the hypothesis $H_A$: $A_1$ and $A_2$ have equal expected error rate
 - $H_A$ is accepted with $N = (1 - \alpha)\%$ confidence 
 - if $|  t | < t_{1 - \alpha / 2, K - 1}$
-- $t_{1 - \alpha / 2, K - 1}$ is the $1 - \alpha / 2$ percentile of  the [Student distribution](Student_distribution) with $K-1$ degrees of freedom
+- $t_{1 - \alpha / 2, K - 1}$ is the $1 - \alpha / 2$ percentile of  the Student distribution with $K-1$ degrees of freedom
 
 
 ## Examples

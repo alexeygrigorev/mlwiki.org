@@ -21,7 +21,7 @@ Which side of the road you drive on?
 |    |  Left  |  Right  |   Left    |  (1, 1)  |  (0, 0) ||   Right   |  (0, 0)  |  (1, 1) |
 
 ## Battle of the Sexes
-This is not only a cooperation game, but also a [Pure Competition Game](Pure_Competition_Game)
+This is not only a cooperation game, but also a Pure Competition Game
 
 Description:
 - 2 players - a husband and a wife

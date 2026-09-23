@@ -20,7 +20,7 @@ How do we define the length of a complex vector?
   - $\|  (1, i) \|^2$ would be $1^2 + i^2 = 0$
 - what we really want is $\langle \mathbf z, \mathbf z \rangle = \overline {\mathbf z}^T \mathbf z$
   - where $\overline {\mathbf z}$ is a [Complex Conjugate](Complex_Conjugate), i.e. $\overline {\mathbf z} = (\overline z_1, \ ... \ , \overline z_n)$
-  - this way each component of $\langle \mathbf z, \mathbf z \rangle$ contributes a strictly positive number to the overall dot product
+  - this way each component of $\langle \mathbf z, \mathbf z \rangle$ contributes a strictly positive number to the overall [dot product](Dot_Product)
   - so $\|  (1, i) \|^2$ is $1 - i^2 = 2$
 - thus, $\|  (1, i) \| = \sqrt{2}$
 
@@ -39,10 +39,10 @@ The same for the dot product
 
 
 ## Symmetric Matrices
-What about symmetric matrices in $\mathbb C^{n \times n}$?
+What about [symmetric matrices](Symmetric_Matrices) in $\mathbb C^{n \times n}$?
 - The definition that $A$ is symmetric if $A^T = A$ is for $\mathbb R$, not $\mathbb C$
 - the complex version of symmetry is $\overline {A}^T = A$, or $A^H = A$ 0 using the Hermitian operator
-- note that diagonal of a symmetric matrix must be real, because otherwise real values are complex conjugates of each others
+- note that diagonal of a symmetric [matrix](Matrix) must be real, because otherwise real values are complex conjugates of each others
 
 
 ### Unitary Matrices

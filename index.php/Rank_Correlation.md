@@ -15,7 +15,7 @@ a *rank correlation* is a measure of relationship
 Two variables case:
 - $X$ - basketball ranking of college teams
 - $Y$ - football ranking of college teams
-- is there a correlation between $X$ and $Y$? 
+- is there a [correlation](Correlation) between $X$ and $Y$? 
 - e.g. do colleges with good football ranks tend to have good basketball ranks? 
 
 One variable case:
@@ -26,7 +26,7 @@ One variable case:
 
 ## Correlation Coefficient
 - A *rank correlation coefficient* shows the degree of similarity between two rankings
-- so we want to calculate the distances between two rank vectors
+- so we want to calculate the [distances](Distance_Functions) between two rank vectors
 
 
 ## One Variable Case
@@ -121,7 +121,7 @@ Solution
 
 
 ### [MCDA](MCDA) Methods
-Can also use Multi-Criteria Decision Aid for that
+Can also use [Multi-Criteria Decision Aid](Multi-Criteria_Decision_Aid) for that
 - e.g. Concordance Index from [ELECTRE](ELECTRE)
 
 

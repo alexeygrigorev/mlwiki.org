@@ -54,7 +54,7 @@ Basis for $N(A)$ is formed by the "special" solutions
 
 
 ## Left Nullspace
-We can also consider another nullspace of $A$ - the nullspace of $A^T$ (this is the 4th [fundamental subspace](Four_Fundamental_Subspaces) of a matrix)
+We can also consider another nullspace of $A$ - the nullspace of $A^T$ (this is the 4th fundamental subspace of a matrix)
 
 Let's have a look at a system $A^T \mathbf y = \mathbf 0$
 - $A$ is an $n \times m$ matrix, so $A^T$ is $m \times n$

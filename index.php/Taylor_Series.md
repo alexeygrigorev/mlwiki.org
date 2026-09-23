@@ -52,7 +52,7 @@ Trigonometric Functions:
 
 Approximation near the expansion point 0:
 - Note that these approximations work best near 0
-- It's clear from the sin/cos graphs - the more away from 0, need more terms 
+- It's clear from the sin/cos [graphs](Graphs) - the more away from 0, need more terms 
 
 
 ## Computing Taylor Series
@@ -101,7 +101,7 @@ To show what behavior HOTs have, we use [Orders of Growth](Orders_of_Growth): th
 ## [Convergence](Series_Convergence)
 [Series](Series) = adding an infinite number of terms 
 - it can be dangerous 
-- Problem: not all functions can be expressed as sum of [Polynomial Functions](Polynomial_Functions), i.e. as $f(x) = \sum c_k x^k$ 
+- Problem: not all functions can be expressed as sum of Polynomial Functions, i.e. as $f(x) = \sum c_k x^k$ 
 
 for example, natural [Logarithm](Logarithm):
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/log.png" alt="Image">
@@ -130,7 +130,7 @@ For example, $\ln (1 + x)$
 - no factorials involved
  |
 *Convergence domain*:
-- we used [Geometric Series](Geometric_Series) here, so we must be in the domain of convergence of this series 
+- we used Geometric Series here, so we must be in the domain of convergence of this series 
 - which is $| x| < 1$
 - Taylor Series approximates well only on the domain of convergence 
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/log-domain-of-conv.png" alt="Image">

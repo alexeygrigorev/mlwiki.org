@@ -28,7 +28,7 @@ $\alpha = 0.5$
 
 ## Downsides
 - bad use of information
-  - we combine two approaches ([Max Min Strategy](Max_Min_Strategy) and [Max Max Strategy](Max_Max_Strategy)) that both suffer from bad use of information
+  - we combine two approaches (Max Min Strategy and Max Max Strategy) that both suffer from bad use of information
 - now the scale matters - since we multiply by $\alpha$
 - how to determine and justify $\alpha$?
 

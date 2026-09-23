@@ -35,8 +35,8 @@ Not all values of a search key are specified
 - can use one key made of multiple attributes 
 
 ### [B-Tree](B-Tree)
-Need to impose [lexicographical order](B-Tree#Lexicographical_Order) on keys in B-Tree to do that
-- don't answer all our queries - see [B-Tree#Multiple Keys](B-Tree#Multiple_Keys)
+Need to impose lexicographical order on keys in B-Tree to do that
+- don't answer all our queries - see B-Tree#Multiple Keys
 
 ### Hash Tables
 For Hash-Based Indexes#Hash-Based_Indexes) we need to compute [Hash Function](Hash_Function) for tuples
@@ -65,4 +65,4 @@ Problem
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

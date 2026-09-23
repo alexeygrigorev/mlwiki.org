@@ -78,7 +78,7 @@ We suppose (without loss of generality) that
 
 Utility functions
 
-|  $s_a < s_b < s_c$ ||  <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/gt/median-voter3-cases-1-alldif.png" alt="Image"> ||  $\left\{\begin{matrix} |u^{(1)}_a(s_a, s_b, s_c) = \cfrac{s_a + s_b}{2} \\ 
+|  $s_a < s_b < s_c$ ||  <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/gt/median-voter3-cases-1-alldif.png" alt="Image"> ||  $\left\{\begin{[matrix](Matrix)} |u^{(1)}_a(s_a, s_b, s_c) = \cfrac{s_a + s_b}{2} \\ 
 u^{(1)}_b(s_a, s_b, s_c) = 1 - \cfrac{s_b + s_c}{2} \\
 u^{(1)}_c(s_a, s_b, s_c) = \cfrac{s_b + s_c}{2} - \cfrac{s_a + s_b}{2} \\ 
 \end{matrix}\right.$
@@ -104,7 +104,7 @@ So in all cases there is somebody who wants to deviate:
 
 
 ## Applications
-This is the allocation problem: 
+This is the [allocation problem](Allocation_Problem): 
 - suppose we want to find a location for a new store 
 - clients that are closer will go to this store 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/gt/allocation-problem.png" alt="Image">

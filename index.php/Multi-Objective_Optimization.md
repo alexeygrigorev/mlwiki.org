@@ -82,7 +82,7 @@ There are several approaches:
 ### [Multi-Criteria Decision Aid](Multi-Criteria_Decision_Aid)
 Also [MCDA](Multi-Criteria_Decision_Aid) is used for that:
 - find the Pareto-optimal solutions
-- apply MCDA to find the best one
+- apply [MCDA](MCDA) to find the best one
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

@@ -18,4 +18,4 @@ It's an extension of [Binomial Distribution](Binomial_Distribution)
 - by solving it, we get $P(w \mid \hat \theta) = \cfrac{c(w, D)}
 
 ## Sources
-- Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
+- Zhai, ChengXiang. "[Statistical language models](Statistical_Language_Models) for [information retrieval](Information_Retrieval)." 2008.

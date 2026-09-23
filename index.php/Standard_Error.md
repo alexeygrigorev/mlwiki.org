@@ -10,13 +10,13 @@ title: Standard Error
 Goal of [Inferential Statistics](Inferential_Statistics) - to make conclusion about the whole population based on a sample
 - So we estimate the parameters based on sampled data 
   - if the estimate is just one number, we call it a [Point Estimate](Point_Estimate)
-- And with different samples (from the same population) we get different estimates of the same parameter - so we have *variability* (*sampling variability*) in estimates 
-- The probability distribution of the parameter estimate is called *Sampling Distribution* 
+- And with different samples (from the same population) we get different estimates of the same parameter - so we have *variability* (*[sampling](Sampling) variability*) in estimates 
+- The [probability](Probability) [distribution](Distributions) of the parameter estimate is called *[Sampling Distribution](Sampling_Distribution)* 
 
 
 ### Sampling Distribution
 The sampling distribution represents the distribution of point estimates based on samples of fixed size from the same population
-- we can think that a particular [Point Estimate](Point_Estimate) is drawn from the sampling distribution
+- we can think that a particular Point Estimate is drawn from the sampling distribution
 - and [Standard Error](Standard_Error) is the measure of variability (e.g. how uncertain we are about our estimate)
 
 
@@ -49,7 +49,7 @@ axis(side=1, at=bp[1:10], labels=1:10)
 
 
 This sampling distribution is used for [Binomial Proportion Confidence Intervals](Binomial_Proportion_Confidence_Intervals) and for [Binomial Proportion Test](Binomial_Proportion_Test)
-- note that as the sample size grows it becomes more reasonable to use the [Normal Approximation](Binomial_Distribution#Normal_Approximation) 
+- note that as the sample size grows it becomes more reasonable to use the Normal Approximation 
 
 
 

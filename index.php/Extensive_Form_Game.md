@@ -21,7 +21,7 @@ $A$ is defined by $(N, A, H, Z, \chi, \rho, \sigma, u)$
 - $\chi$ - set of actions available for player in $h \in H$
 - $\rho$ - assigns to each $h \in H$ a player $i \in N$ who chooses an action $a$ in this $h$
 - $Z$ - terminal nodes, where a game ends
-- $\sigma$ - defines a tree (how to get from node h \in H to next note \h_i \in H
+- $\sigma$ - defines a [tree](Tree) (how to get from node h \in H to next note \h_i \in H
 - $u$ - utility function, defined $\forall z \in Z$
 
 
@@ -51,17 +51,17 @@ Example
 - each has 4 strategy
 
 Mixed strategy
-- same as for [Normal Form Game](Normal_Form_Game)
-- but we define the probability distribution over the pure strategies
+- same as for Normal Form Game
+- but we define the [probability](Probability) [distribution](Distributions) over the pure strategies
 
 [Nash Equilibrium](Nash_Equilibrium)
-- in this case the best response notion is the same as for [Normal Form Game](Normal_Form_Game)s
+- in this case the best response notion is the same as for Normal Form Games
 - we want to maximize the [Expected Utility](Expected_Utility)
 - so the Best Response is a mixed strategy that maximized the utility
-- a strategy profile where each agent best-responds to every other agent is called a [Nash Equilibrium](Nash_Equilibrium)
+- a strategy profile where each agent best-responds to every other agent is called a Nash Equilibrium
 
 
-Translation to [Normal Form Game](Normal_Form_Game)
+Translation to Normal Form Game
 - Extensive form game can be converted into a Normal Form Game
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/39pgmt7kdnb8h42m0lgiu4vtvn.png" alt="Image" />
 - pure strategies for each agent:

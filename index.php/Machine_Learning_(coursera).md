@@ -17,7 +17,7 @@ title: Machine Learning (coursera)
 - Univariate [Linear Regression](Linear_Regression)
   - [Gradient Descent](Gradient_Descent)
 - [Multivariate Linear Regression](Multivariate_Linear_Regression)
-  - [Gradient Descent for Multivariate Linear Regression](Gradient_Descent#Gradient_Descent_for_Multivariate_Linear_Regression)
+  - Gradient Descent for Multivariate Linear Regression
 - [Normal Equation](Normal_Equation)
 
 
@@ -29,8 +29,8 @@ title: Machine Learning (coursera)
 
 ### [Neural Networks](Neural_Networks)
 - [Representation](Neural_Networks#Model_Representation)
-- [Forward Propagation](Neural_Networks#Forward_Propagation)
-- [Back Propagation](Neural_Networks#Back_Propagation)
+- Forward Propagation
+- Back Propagation
 
 
 ### [Support Vector Machines](Support_Vector_Machines)
@@ -56,8 +56,8 @@ title: Machine Learning (coursera)
 
 ### [Error Metrics](Error_Metrics)
 - [Precision](Error_Metrics#Precision)
-- [Recall](Error_Metrics#Recall)
-- [$F_1$-score](Error_Metrics#F1_Score)
+- Recall
+- $F_1$-score
 
 
 ### Practical Advice

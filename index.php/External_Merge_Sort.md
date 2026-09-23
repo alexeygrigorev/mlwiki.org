@@ -8,7 +8,7 @@ tags:
 title: External Merge Sort
 ---
 ## External Merge Sort
-Full name: *External Memory Multi-Way Merge Sort*
+Full name: *External Memory Multi-Way [Merge Sort](Merge_Sort)*
 - same idea as in in-memory Merge Sort, but extended to [Secondary Storage](Secondary_Storage)
 
 
@@ -44,7 +44,7 @@ After the first pass we have $\left\lceil \cfrac{B(R)}{M} \right\rceil $ sorted 
 
 
 ### Synchronous Iteration
-This is essentially the merging phase of [Merge Sort](Merge_Sort)
+This is essentially the merging phase of Merge Sort
 
 Algorithm:
 - load block of $R$ to $N_R$, block of $S$ to $N_S$
@@ -69,9 +69,9 @@ Algorithm:
 
 
 ## See also
-- [Merge Sort](Merge_Sort)
+- Merge Sort
 - [Physical Operators (databases)](Physical_Operators_%28databases%29)
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

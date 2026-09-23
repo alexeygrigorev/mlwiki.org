@@ -8,13 +8,13 @@ title: RDFS
 ## RDFS
 Is a schema language for [RDF](RDF)
 - roughly, RDF is for defining [graphs](Graphs), RDFS - for defining [sets](Sets) 
-- RDFS tells how to use the graph structure - gives some semantics to the used vocabulary
+- RDFS tells how to use the [graph](Graph) structure - gives some semantics to the used vocabulary
   - how items and their properties are related
 - also provides some basic [inferencing capabilities](Inference_in_Semantic_Web) (for Knowledge Discovery)
   - Inference rules are nice to show with [SPARQL](SPARQL) CONSTRUCT queries
   - RDFS statements can be interpreted as [FOL](First_Order_Logic) statements 
   - for logical semantics behind there expressions see [Semantic Web Logic](Semantic_Web_Logics)
-- RDFS is expressed using [RDF](RDF) triples 
+- RDFS is expressed using RDF triples 
 
 
 RDFS "extends" RDF
@@ -95,7 +95,7 @@ WHERE {
 *NB*: 
 - there's no notion of incorrect/inconsistent inference in RDFS
 - it doesn't signalize an error if a property isn't used consistently with the declaration
-- RDFS will [infer](Inference_in_Semantic_Web) the type to make this property consistent 
+- RDFS will infer the type to make this property consistent 
 - this declaration is quite aggressive - even with one triple it can result in surprising inferences
 
 
@@ -145,7 +145,7 @@ Intersection and Union can also be used for properties, e.g.
 - A military plane needs to determine if it can attach something or not
 - it has 2 sources of data
   - "never-target" list: schools, churches, hospitals
-  - "off-limit airspace": no-fly zones
+  - "off-[limit](Limits) airspace": no-fly zones
 - a target is off-limit if it belongs to one of these classes 
   - solution: use union
   - <code>fc:Civilian rdfs:subClassOf cc:OffLimitTarget</code>
@@ -175,10 +175,10 @@ There are properties that aren't used for inference, but just for description
 ## See Also
 - [RDFS and OWL summary](RDFS_and_OWL_Summary)
 - [Semantic Web](Semantic_Web)
-- [Inference in Semantic Web](Inference_in_Semantic_Web)
+- Inference in Semantic Web
 - [RDFS-Plus](RDFS-Plus) - a subset of [OWL](OWL) and an extension of [RDFS](RDFS) with more inferencing capabilities
-- [OWL](OWL) 
-- [Semantic Web Logics](Semantic_Web_Logics)
+- OWL 
+- Semantic Web Logics
 
 
 ## Sources

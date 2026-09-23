@@ -60,8 +60,8 @@ Usually deal with it with [Database Transaction Log](Database_Transaction_Log) (
 
 ## See also
 - [ACID](ACID): Consistency (databases) and [Durability (databases)](Durability_%28databases%29)
-- [Database Transaction Log](Database_Transaction_Log)
-- [Undo/Redo Logging](Undo_Redo_Logging)
+- Database Transaction Log
+- Undo/Redo Logging
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

@@ -13,7 +13,7 @@ The negative binomial distribution is a Discrete [Distribution](Distribution) of
 - so NBD is a generic case of Geometric Distribution
 
 
-A distribution is NBD if:
+A [distribution](Distributions) is NBD if:
 - trials are independent 
 - each trial is a [Bernoulli Trial](Bernoulli_Trial) - i.e. has only two outcomes - success and failure
 - $p$ is the same for all the trials

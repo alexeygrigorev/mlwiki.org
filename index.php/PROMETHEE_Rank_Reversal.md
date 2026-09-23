@@ -21,10 +21,10 @@ Notation:
 - we want to show that $\Phi(a_i) > \Phi(a_j) \iff \Phi'(a_i) > \Phi'(a_j)$
 
 
-In PROMETHEE removal of such criteria doesn't lead to Rank Reversal:
+In [PROMETHEE](PROMETHEE) removal of such criteria doesn't lead to [Rank Reversal](Rank_Reversal):
 - let $W_k = \sum_{j \ne k} w_j$ and $w'_j = \cfrac{w_j}{W_k}$ - we normalized the weights so when we remove the $w_k$, the rest still sum up to 1
 - $\Phi(a_i) = \sum_{j=1}^q w_j \cdot \Phi_j(a_i) = \sum_{j \ne k} w_j \cdot \Phi_j(a_i) = ...$ (we removed the term that is always 0)
-- $... = W_k  \sum_{j \ne k} \cfrac{w_j}{W_k} \Phi_j(a_i) = W_k  \sum_{j \ne k} w'_j \Phi_j(a_i) = ... $ (we multiplied and divided by a non-negative normalization factor)
+- $... = W_k  \sum_{j \ne k} \cfrac{w_j}{W_k} \Phi_j(a_i) = W_k  \sum_{j \ne k} w'_j \Phi_j(a_i) = ... $ (we multiplied and divided by a non-negative [normalization](Feature_Normalization) factor)
 - $... = W_k \cdot \Phi'_(a_i)$
 - so we know that when removing $f_k$, all netflow scores will change on the same non-negative value
 - therefore, $\Phi(a_i) > \Phi(a_j) \iff \Phi'(a_i) > \Phi'(a_j)$
@@ -79,7 +79,7 @@ RR is possible when $\Phi(a) - \Phi(b) > \cfrac{2}{n - 1}$
   - i.e. $\Phi(a) - \Phi(b) > \cfrac{2}{n - 1}$
 
 
-Thus, [Rank Reversal](Rank_Reversal) can happen only when $\Phi(a) - \Phi(b) > \cfrac{2}{n - 1}$
+Thus, Rank Reversal can happen only when $\Phi(a) - \Phi(b) > \cfrac{2}{n - 1}$
 
 
 In other words

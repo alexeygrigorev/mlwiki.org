@@ -21,13 +21,13 @@ In FOL, inference is generally [undecidable](Decidability)
 - [FOL](First_Order_Logic) give formal definitions of [RDFS](RDFS) and OWL statements 
   - Classes - unary predicates
   - Properties - binary predicates
-- [DL](Descriptive_Logic) is a subset of FOL where many interesting properties are decidable 
+- DL is a subset of FOL where many interesting properties are decidable 
 
 
 
 ## See Also
 - [Conjunctive Query](Conjunctive_Query)
-- [Descriptive Logic](Descriptive_Logic)
+- Descriptive Logic
 
 ## Sources
 - Web Data Management, Manolescu, Ioana, et al. [link](http://webdam.inria.fr/Jorge/)

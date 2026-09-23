@@ -45,7 +45,7 @@ Papers
 
 
 ## [Document Classification](Document_Classification)
-It's also useful for document classification
+It's also useful for [document classification](Document_Classification)
 
 Papers:
 - Nigam, Kamal, et al. "Learning to classify text from labeled and unlabeled documents." (1998). [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.49.6837&rep=rep1&type=pdf)

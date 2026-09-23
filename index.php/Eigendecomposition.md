@@ -8,10 +8,10 @@ title: Eigendecomposition
 ---
 ## Eigen Decomposition
 Eigen Decomposition or, sometimes, Eigenvalue Decomposition (shortcut EVD)
-- is a way of diagonalizing a square $n \times n$ matrix $A$ 
+- is a way of diagonalizing a square $n \times n$ [matrix](Matrix) $A$ 
 
 
-We can turn a matrix into a diagonal one by using eigenvectors
+We can turn a matrix into a diagonal one by using [eigenvectors](Eigenvalues_and_Eigenvectors)
 - $A$ is square 
 
 
@@ -27,7 +27,7 @@ Why can we do it?
 - if all eigenvalues $\lambda_1, \ ... \ , \lambda_n$ are different 
 - then all eigenvalues $\mathbf x_1, \ ... \ , \mathbf x_n$ are linearly independent
 - so any matrix with distinct eigenvalues can be decomposed by eigenvalue decomposition
-- see proof in [Eigenvalues and Eigenvectors](Eigenvalues_and_Eigenvectors)
+- see proof in Eigenvalues and Eigenvectors
 
 
 Diagonalization:
@@ -43,7 +43,7 @@ Eigenvalue Decomposition:
 
 
 ### Intuition
-Suppose we have $n$ linearly independent [eigenvectors](Eigenvalues_and_Eigenvectors) $\mathbf x_i$ of $A$
+Suppose we have $n$ linearly independent eigenvectors $\mathbf x_i$ of $A$
 - let's put them in columns of a matrix $S$ - eigenvector matrix 
 - $S = \begin{bmatrix}
 |  & & | \\ |\mathbf x_1 & ... & \mathbf x_n \\
@@ -87,7 +87,7 @@ Now what if we multiply $AS$?
 ### [Symmetric Matrices](Symmetric_Matrices)
 For symmetric $A$
 - its eigenvalues are orthonormal,
-- so the matrix $S$ is [orthogonal](Orthogonal_Matrices)
+- so the matrix $S$ is orthogonal
 - thus, $A = S \Lambda S^{-1} = S \Lambda S^T$
 - So we write $A = Q \Lambda Q^T$, where $Q$ is orthogonal
 
@@ -125,7 +125,7 @@ Suppose you are given a vector $\mathbf u_0$ and a recurrent formula $\mathbf u_
 ### [Fibonacci Numbers](Fibonacci_Numbers)
 - Fibonacci numbers is a sequence 0, 1, 1, 2, 3, 5, 8, 13... 
 - $F_{k + 2} = F_{k+ 1} + F_{k}$
-- it's a second order Recurrence Equation
+- it's a second order [Recurrence Equation](Recurrence_Equation)
 - Let's build a system: $\begin{cases}
 F_{k+2} = F_{k+1} + F_{k} \\
 F_{k+1} = F_{k+1} \\

@@ -27,7 +27,7 @@ In many cases stop words are not needed:
 
 ### [NLP Pipeline](NLP_Pipeline)
 Stop words removal is a part of the [NLP Pipeline](NLP_Pipeline)
-- for building [Inverted Index](Inverted_Index)
+- for building Inverted Index
 - for building [Vector Space Model](Vector_Space_Model)
 
 
@@ -58,7 +58,7 @@ Examples:
 - Stop words can be learned from the text, usually by looking at top words and manually selecting them 
 - But this process can be automated (Wilbur1992):
 - use [Term Strength](Term_Strength) for automatically discovering stop words
-- Term Strength: given a pair of documents, what's the probability that when a term occurs in one document of the pair, it also occurs in another?  
+- Term Strength: given a pair of documents, what's the [probability](Probability) that when a term occurs in one document of the pair, it also occurs in another?  
 
 
 

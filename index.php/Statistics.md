@@ -29,7 +29,7 @@ Questions 2-4 - answered by Statistics
 ### Types
 There are two types of statistics:
 - Descriptive Statistics - [summarizing data](Summarizing_Data) with numbers or plots 
-- [Inferential Statistics](Inferential_Statistics) - making conclusions or decisions based on data 
+- Inferential Statistics - making conclusions or decisions based on data 
 
 
 
@@ -43,5 +43,5 @@ Free online books and online resources on statistics
 
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
+- OpenIntro Statistics (book)
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)

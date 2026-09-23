@@ -14,7 +14,7 @@ title: Linear Hashing
 - $b$ - length of bit-string that [Hash Function](Hash_Function) outputs (typically 64)
 - $i$ - number of bits we can use
   - as number of keys grows, we increase $i$
-  - but in contrast to [Extensible Hashing](Extensible_Hashing), we use $i$ *least* significant bits if key 
+  - but in contrast to Extensible Hashing, we use $i$ *least* significant bits if key 
   - for example, $\overbrace{0 1 1 1 0 \underbrace{1 0 1 1}_{i}}^{b}$ with $i$ = 4 and $b$ = 9
 - $n$ - number of buckets we use now, $n \leqslant 2^i$
   - $2^i$ - max number of items we can address with current $i$ 
@@ -102,7 +102,7 @@ Increasing $i$
 
 ## Summary
 - Can handle growing files (+)
-- No additional level of indirection like in [Extensible Hashing](Extensible_Hashing) (+)
+- No additional level of indirection like in Extensible Hashing (+)
 - Can still have overflow chains (-)
 
 
@@ -113,8 +113,8 @@ Very Bad Case
 - lots of time|  especially when $i$ becomes longer 
 
 ## See also
-- [Open Hashing Index](Open_Hashing_Index)
-- [Extensible Hashing](Extensible_Hashing)
+- Open Hashing Index
+- Extensible Hashing
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

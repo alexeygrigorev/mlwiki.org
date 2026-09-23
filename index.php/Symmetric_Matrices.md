@@ -6,7 +6,7 @@ tags:
 title: Symmetric Matrices
 ---
 ## Symmetric Matrices
-A matrix $A$ is symmetric if $A^T = A$ holds. 
+A [matrix](Matrix) $A$ is symmetric if $A^T = A$ holds. 
 - thus, $A$ must be a square matrix
 
 
@@ -14,13 +14,13 @@ A matrix $A$ is symmetric if $A^T = A$ holds.
 
 ## Properties
 What's special about $A \mathbf x = \lambda \mathbf x$? when $A$ is symmetric?
-- $A$ has real eigenvalues, and orthonormal eigenvectors
+- $A$ has real [eigenvalues](Eigenvalues_and_Eigenvectors), and orthonormal eigenvectors
 - therefore [Eigendecomposition](Eigendecomposition) of $A$ is $A = Q \Lambda Q^T$ instead of $A = S \Lambda S^{-1}$
 - this fact is sometimes referred as the [Spectral Theorem](Spectral_Theorem)
 
 
 ### Orthogonal Eigenvectors
-- [diagonalize](Eigendecomposition) $A = S \Lambda S^{-1}$
+- diagonalize $A = S \Lambda S^{-1}$
 - $A^T = (S \Lambda S^{-1})^T = (S^{-1})^T \Lambda^T S^T = (S^{-1})^T \Lambda \, S^T$
 - since $A = A^T$, we have:
 - $S \Lambda S^{-1} = (S^{-1})^T \Lambda \, S^T$
@@ -76,7 +76,7 @@ Let's have a look at $\overline {\mathbf x}^T  \mathbf x$ (when $\ne 0$):
 - $\Big[ \overline x_1 \ \overline x_2 \ \cdots \ \overline x_n \Big] \begin{bmatrix}  x_1  \\ \vdots \\ x_n \end{bmatrix} = \sum \overline x_i x_i$
 - for a complex number $c$, $c \cdot \overline c = (a - ib) \cdot (a + ib) = a^2 + b^2 \in \mathbb R$
 - so it's a sum of real numbers|   sum of squared lengths of each component of $\mathbf x$
-- which means that the entire dot product is in $\mathbb R$
+- which means that the entire [dot product](Dot_Product) is in $\mathbb R$
 $\square$
 
 
@@ -93,7 +93,7 @@ A symmetric matrix is positive-definite when
 
 ### [Subspaces](Four_Fundamental_Subspaces)
 If $A$ is symmetric,
-- then its row space is the same as column space
+- then its [row space](Row_Space) is the same as [column space](Column_Space)
 - i.e. $C(A) = C(A^T)$
 
 
@@ -103,7 +103,7 @@ E.g. the identity matrix $I$: all eigenvalues $\lambda_i = 1$ and every vector i
 
 
 ## [Spectral Theorem](Spectral_Theorem)
-We can apply [Eigendecomposition](Eigendecomposition) to $A$ and get
+We can apply Eigendecomposition to $A$ and get
 - $A = Q \Lambda Q^T = \sum \lambda_i \mathbf q_i  \mathbf q_i^T$ - sum of [Outer Product](Outer_Product)s
 - each of these outer products can be seen as a [Projection Matrix](Projection_Matrices)
 - so symmetric matrix can be represented as a combination of mutually orthogonal projection matrices

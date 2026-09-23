@@ -14,7 +14,7 @@ Euclidean LSH - [LSH](LSH) for the [Euclidean Space](Euclidean_Distance)
 
 
 ## $p$-Stable Distributions
-A family of hash functions $\mathcal H$ is $(r_1, r_2, p_1, p_2)$-sensitive if 
+A family of [hash functions](Hash_Function) $\mathcal H$ is $(r_1, r_2, p_1, p_2)$-sensitive if 
 - for all $\mathbf p, \mathbf q$
 - if $\mathbf p \in B(\mathbf q, r_1)$ then $P_{\mathcal H} \Big[ h(\mathbf q) = h(\mathbf p)  \Big] \geqslant p_1$
 - if $\mathbf p \not \in B(\mathbf q, r_2)$ then $P_{\mathcal H} \Big[ h(\mathbf q) = h(\mathbf p)  \Big] \leqslant p_2$
@@ -24,7 +24,7 @@ Here: choose $r_1 = R$ and $r_2 = c \cdot R$
 
 A [Probability Distribution](Probability_Distribution) $D$ over $\mathbb R$ is $p$-stable 
 - if there exists $p \geqslant 0$ s.t. for any $n$ real numbers $v_1, ..., v_n$
-- and iid samples from distribution $D$: $\ X_1, X_2, \ ... \ , X_n \sim D$
+- and iid samples from [distribution](Distributions) $D$: $\ X_1, X_2, \ ... \ , X_n \sim D$
 - the [Random Variable](Random_Variable) $\sum v_i \, X_i$ follows the same distribution as $\left( \sum | v_i|^p \right)^{1/p} \cdot X = \| \mathbf v \| \cdot X$ where $X \sim D$
 
 Known $p$-stable Distribution:
@@ -42,11 +42,11 @@ Papers:
 ## E2 LSH
 A hash function family is *locality-sensitive* if 
 - "similar" $\mathbf v_1, \mathbf v_2$ - i.e. have small $\|  \mathbf v_1 - \mathbf v_2 \|_p$
-- they should collide: have same hash value with high probability
+- they should collide: have same hash value with high [probability](Probability)
 
 
 Consider $\mathbf a \cdot \mathbf v$ - it's a projection of $\mathbf v$ to a real line 
-- it follows from the $p$-stability that for two $\mathbf v_1, \mathbf v_2$ distance between the projections $\mathbf a \cdot \mathbf v_1 - \mathbf a \cdot \mathbf v_2$ is distributed as $\|  \mathbf v_1 - \mathbf v_2 \|_p \cdot X$
+- it follows from the $p$-stability that for two $\mathbf v_1, \mathbf v_2$ [distance](Distance_Functions) between the projections $\mathbf a \cdot \mathbf v_1 - \mathbf a \cdot \mathbf v_2$ is distributed as $\|  \mathbf v_1 - \mathbf v_2 \|_p \cdot X$
 - so if we chop the real line into equi-width segments of $w$, then the hash functions should be locality-preserving
 
 

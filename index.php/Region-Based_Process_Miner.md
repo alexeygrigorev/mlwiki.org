@@ -12,12 +12,12 @@ This is a state-based approach to [Process Mining](Process_Mining)
 
 
 ### Motivation
-Consider the following Petri Net:
+Consider the following [Petri Net](Petri_Net):
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/pm-reg-based-petrinet-ex.png" alt="Image">
 - here's its [Reachability Graph](Reachability_Graph):
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/pm-reg-based-rg.png" alt="Image">
 
-Suppose that for each place $p_i$ we identify the set of nodes $R_i$ in the graph (i.e. the set of markings) where $p_i$ has a token:
+Suppose that for each place $p_i$ we identify the set of nodes $R_i$ in the [graph](Graph) (i.e. the set of markings) where $p_i$ has a token:
 - $p_1: R_1 \equiv \{[p_1]\}$
 - $p_2: R_2 \equiv \{[p_2, p_3], [p_2, p_5]\}$
 - $p_3: R_3 \equiv \{[p_2, p_3], [p_3, p_4]\}$
@@ -135,7 +135,7 @@ For log $L = [abcd, acbd, acd]$ we have:
 Note:
 - we see that firing $a$ can bring us to 3 different states 
 - not deterministic
-- you'll never see such thing in a [Reachability Graph](Reachability_Graph) of a [Petri Net](Petri_Nets)
+- you'll never see such thing in a Reachability Graph of a Petri Net
 - most likely wrong abstraction
 
 
@@ -282,7 +282,7 @@ The result - is the minimal saturated net
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/pm-reg-based-lim.png" alt="Image">
 - in this example $b$ can fire $\infty$ number of times 
 - but you cannot detect it - $b$ cannot be a pre-region and a post-region at the same time 
-- there are mechanisms to overcome this problem - like in the [$\alpha^+$ algorithm](Alpha_Algorithm)
+- there are mechanisms to overcome this problem - like in the $\alpha^+$ algorithm
 
 
 ### Susceptibility to Noise

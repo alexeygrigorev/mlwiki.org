@@ -17,7 +17,7 @@ The set up:
 - for cooperating: the other goes to jail on 10 years and you are set free 
 - but if both cooperate, each gets 5 years in prison
 
-This can be depicted by a matrix: 
+This can be depicted by a [matrix](Matrix): 
 
 |    |  $N$  |  $C$  |   $N$   |  (-1, -1)  |  (-10, 0) ||   $C$   |  (0, -10)  |  (-5, -5) |
 The best strategy - the [Nash Equilibria](Nash_Equilibrium) is:
@@ -25,7 +25,7 @@ The best strategy - the [Nash Equilibria](Nash_Equilibrium) is:
 - for $p_1$: the same 
 - so both choose to play $(C, C)$ - the strictly dominating strategy
 - but this strategy clearly is not better than $(N, N)$ - but the [Dominance](Dominance) principle misses it
-- which is why it's called a [Game Theory](Game_Theory) paradox 
+- which is why it's called a Game Theory paradox 
 
 
 ## Variations

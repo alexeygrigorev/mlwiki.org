@@ -19,7 +19,7 @@ Notation:
 - $u(X)$ - unlock $X$
 
 Rule:
-- before a transaction $T_i$ can read or write a database item $X$, it must obtain the lock on $X$
+- before a transaction $T_i$ can read or write a [database](Database) item $X$, it must obtain the lock on $X$
 - if $T_i$ requests a lock that is already taken by other transaction $T_j$, it's paused until $T_j$ releases the lock
 - so it's impossible for both $T_i$ and $T_j$ to have a lock on the same database element at the same time
 
@@ -34,13 +34,13 @@ Another example:
 $S = $
 |   $T_1$  |  $T_2$  |  $l_1(A), r_1(A), w_1(A), u_1(A),$  |  ||   |  $l_2(A), r_2(A), w_2(A), u_2(A),$ ||   |  $l_2(B), r_2(B), w_2(B), u_2(B),$ ||  $l_1(B), r_1(B), w_1(B), u_1(B)$  |  |
 Is it [conflict-serializable](Serializable_Scheduling)? 
-- We build a precedence graph:
+- We build a precedence [graph](Graph):
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/pred-graph-3.png" alt="Image">
 - there is a cycle!$\to$ no conflict serializability
 - so even if a lock-based schedule is legal, it doesn't mean it's conflict-serializable
 
 ## Tho-Phase Locking
-To get a conflict-serializable schedule:
+To get a conflict-[serializable schedule](Serializable_Schedule):
 - for each $T_i$, all lock requests $l_i$ must precede unlock requests $u_i$
 
 In other words

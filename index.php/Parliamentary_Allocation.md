@@ -15,7 +15,7 @@ Problem:
 - size of $P_i$ is $p_i$
 - goal: to select $S$ representatives, $S$ - the total number of seats that are allocated 
 
-A quota $q_i$ of party $i$ is the number of sets the party receives after election:
+A quota $q_i$ of party $i$ is the number of [sets](Sets) the party receives after election:
 - $q_i = S \cdot \cfrac{P_i}{n}$
 - but it must be an integer|   Cannot divide one seat between two parties  
 

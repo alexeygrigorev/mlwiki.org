@@ -88,7 +88,7 @@ Say, we have:
 - $s_d = 11.056$
 - $n = 398$
 
-Test statistics:
+Test [statistics](Statistics):
 - $\cfrac{\bar{X}_d - 0}{s_d / \sqrt{n}} = \cfrac{6.854}{11.056 / \sqrt{398}} \approx 12.37$
 
 Then we compare it with $t_{397}$

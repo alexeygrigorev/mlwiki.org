@@ -13,7 +13,7 @@ Hansel and Gretel
 - poor parents dropped the children in the forest
 - the children trace the steps they take and recover the path back to parents 
 
-The same in databases:
+The same in [databases](Database):
 - we keep a log of things we do
 - but the [Memory Hierarchy](Memory_Hierarchy) changes a little bit: 
 - additionally to Main Memory and [Secondary Storage](Secondary_Storage) we now have Log
@@ -57,7 +57,7 @@ Bad States we want to avoid:
 
 
 ### Undo Logging Recovery Rules
-How to [recover from failures](Crash_Recovery) with Undo Logging:
+How to recover from failures with Undo Logging:
 - we undo the failed transactions 
 - i.e. we put the database in the state it was prior this transaction
 

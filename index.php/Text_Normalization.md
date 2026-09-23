@@ -34,7 +34,7 @@ Can be done by
 ### [Phonetic Normalization](Phonetic_Normalization)
 In English words that are pronounced the same way can be spelled differently
 - in some IR applications need to account for that 
-- use phonetic normalization to reduce similar-sounding words to the same token
+- use [phonetic normalization](Phonetic_Normalization) to reduce similar-sounding words to the same token
 
 
 ### Acronyms

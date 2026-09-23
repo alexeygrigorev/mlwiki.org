@@ -15,7 +15,7 @@ A data warehouse is a storage with the following four characteristics: it's subj
 
 #### Integrated
 - Data comes from different sources and is integrated into one.
-- Integrated also implies consistency
+- Integrated also implies [consistency](Consistency_(databases))
 - For example, in source A and source B products have different identifiers, but in a data warehouse data from all sources have adhere to the same way of identifying.
 - Another example: date may be stored in different format, but it's converted to the single common format in a data warehouse
 
@@ -61,7 +61,7 @@ RDBMSs are likely to remain standard in Data Warehousing worlds
 ### Language
 For Data Warehousing purposes we can use 
 - standard SQL (joins, group by, etc)
-- ROLAP - SQL extensions for [OLAP](OLAP) (group by cube, ect)
+- ROLAP - SQL extensions for OLAP (group by cube, ect)
 - Queries are ad-hoc
 
 
@@ -92,11 +92,11 @@ Amounts of Data
 
 
 ## See Also
-- [Hadoop](Hadoop)
+- Hadoop
 - http://it.toolbox.com/wiki/index.php/Data_Warehouse_Fundamentals
 
 ## Sources
 - [Data Warehousing (ULB)](Data_Warehousing_%28ULB%29)
 - [Data Warehouse definition](http://www.1keydata.com/datawarehousing/data-warehouse-definition.html)
-- Ordonez et al, Relational versus non-relational database systems for data warehousing [link](http://www2.cs.uh.edu/~ordonez/co_research_proceedings.html)
+- Ordonez et al, Relational versus non-relational [database](Database) systems for data warehousing [link](http://www2.cs.uh.edu/~ordonez/co_research_proceedings.html)
 - Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [link](http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/)

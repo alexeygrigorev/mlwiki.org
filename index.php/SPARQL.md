@@ -9,7 +9,7 @@ title: SPARQL
 ## SPARQL
 In [Semantic Web](Semantic_Web), SPARQL is a query language for getting information from [RDF](RDF) [graphs](Graphs)
 - SPARQL = SPARQL Protocol and RDF Query Language
-- matches graph patterns - so also a graph matching language 
+- matches [graph](Graph) patterns - so also a graph matching language 
 - it's a variant of [Turtle](Turtle) adapted for querying
 - variables denoted by <code>?</code>
 
@@ -63,8 +63,8 @@ Formally,
 - A SPARQL query is a tuple $\langle P, G, D, S, R \rangle$: 
 - $P$ stands for the prefix declarations ection 
 - $G$ is a graph pattern (pattern of the query) 
-- $D$ is a set of RDF data ("dataset" : database) 
-- $S$ is a "result transformer": Projection,  Distinct, Order, Limit, Offset 
+- $D$ is a set of RDF data ("dataset" : [database](Database)) 
+- $S$ is a "result transformer": Projection,  Distinct, Order, [Limit](Limits), Offset 
 - $R$ is the type of the result: SELECT, CONSTRUCT, DESCRIBE, ASK 
 
 
@@ -121,7 +121,7 @@ WHERE
 ```
 
 
-Also, this query can be translated to the following [Conjunctive Query](Conjunctive_Query)
+Also, this query can be translated to the following Conjunctive Query
 - $\text{query}(p, c) \equiv \text{Position}(p, \text{``striker*}), \text{PlaysFor}(p, c), Region(c, \text{``Barcelona*})$
 
 
@@ -158,7 +158,7 @@ WHERE
 
 ## Where part
 In this part matching happens 
-- Generally, the same idea as in [Conjunctive Queries](Conjunctive_Query)
+- Generally, the same idea as in Conjunctive Queries
 - There are *existential variables* (not from the head of the query)
   - they are matched with some data in the database and assigned some value
 - as saw, here a graph is constructed and matched with 

@@ -8,7 +8,7 @@ tags:
 title: Topological Ordering
 ---
 ## Topological Ordering
-A *topological ordering* for a directed graph $G$ is a labelling $f$ of $G$'s nodes such that
+A *topological ordering* for a directed [graph](Graph) $G$ is a labelling $f$ of $G$'s nodes such that
 - the $f(v)$'s are the set $\{1, 2, ..., n\}$
 - $(u, v) \in G$ => $f(u) < f(v)$
 - all edges go forward
@@ -19,7 +19,7 @@ Example:
 
 Motivation:
 - sequence tasks while respecting all constains
-  - courses at uni with prerequisites
+  - [courses](Courses) at uni with prerequisites
 
 ## Straightforward solution
 - every directed graph has a *sink* vertex  <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/4ptua7u63ola9kq942q7f108s8.png" alt="Image" />
@@ -111,7 +111,7 @@ public class TopologicalOrdering {
 ```
 
 ## See also
-- [Depth-First Search](Depth-First_Search)
+- Depth-First Search
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

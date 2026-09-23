@@ -25,7 +25,7 @@ Schema-free design (like in CouchDB) allows to aggregate data after some fact ha
 ### Documents
 A document is the central data structure in CouchDB, and it uses JSON to store documents
 
-Each document has an id, which must be unique per database. Usually the best ids are UUIDs (Universal Unique ID - random string with extremely low collision probability [link](http://en.wikipedia.org/wiki/Universally_unique_identifier)), but generally it can be anything 
+Each document has an id, which must be unique per [database](Database). Usually the best ids are UUIDs (Universal Unique ID - random string with extremely low collision [probability](Probability) [link](http://en.wikipedia.org/wiki/Universally_unique_identifier)), but generally it can be anything 
 
 - A good example of a document is a file for a word processor or a user profile.
 - This sort of data you want to denormalize as mush as possible 
@@ -45,7 +45,7 @@ It consists of two components:
 
 
 ## HTTP REST API Overview
-- CouchDB provides [REST](REST)ful HTTP Api to interact with it (To see what's REST consult [link](http://en.wikipedia.org/wiki/Representational_state_transfer))
+- CouchDB provides RESTful HTTP Api to interact with it (To see what's REST consult [link](http://en.wikipedia.org/wiki/Representational_state_transfer))
 - When it's installed with default settings, it can be accessed via http://localhost:5984/
 
 
@@ -166,7 +166,7 @@ Virtual Documents
 A design document starts with a special prefix "_design/".
 
 A design document may contain:
-- [MapReduce](MapReduce) queries: "views" field
+- MapReduce queries: "views" field
 - "show" and "list" functions to render responses in other formats rather than JSON: XML, HTML, whatever you want 
 
 
@@ -174,7 +174,7 @@ A design document may contain:
 Validation is a powerful tool to ensure that only document you need/want end up in your database 
 - There is a function "validate_doc_update" in a design document 
 - this function must not have any side-effects, and they are run in isolation 
-- it also can block invalid updated from other CouchDB instances during replication 
+- it also can block invalid updated from other CouchDB instances during [replication](Replication) 
 - This function is executed each time a document is added or updated 
   - if it raises an exception, the update is canceled, otherwise - accepted 
 - Validation is optional, if there's no such function, every update will get accepted 
@@ -215,9 +215,9 @@ function(newDoc, oldDoc, ctx) {
 
 
 ## Queries and MapReduce
-For [Relational Databases](Relational_Databases) you can issue any query, and as long as you data is structured correctly, you'll be able to get an answer. 
+For Relational Databases you can issue any query, and as long as you data is structured correctly, you'll be able to get an answer. 
 
-However, documents aren't always as structured as relations in Relational Databases, and for that we need a different approach. For CouchDB this approach is [MapReduce](MapReduce).
+However, documents aren't always as structured as relations in Relational Databases, and for that we need a different approach. For CouchDB this approach is MapReduce.
 
 A user has to provide two functions that will operate on all data:
 - Map - apply to each document and emit zero or more key/value pairs
@@ -242,7 +242,7 @@ View functions are stored inside "views" field of a design document
 ### Map
 - Map is applied to each document and emits zero or more key/value pairs - *view rows*
 - A map function doesn't depend on any information outside of the document, which allows CouchDB views be generated incrementally and in parallel 
-- Views are stored as rows that are sorted by key in a [B-Tree](B-Tree), which makes range retrievals efficient
+- Views are stored as rows that are sorted by key in a B-Tree, which makes range retrievals efficient
 - When writing a map function, your goal is to build an index that stores related data recodes under nearby keys.
 
 Incremental Computation of Map Results 
@@ -356,9 +356,9 @@ Reasons for doing replication:
 
 
 ### [Eventual Consistency](Eventual_Consistency)
-- [Distributed systems](Distributed_Databases) operate over some network, 
+- Distributed systems operate over some network, 
 - and networks are often segmented (see Partition Tolerance in the [CAP Theorem](CAP_Theorem)). 
-- Eventual consistency means that data will be consistent eventually, but the database is always available
+- [Eventual consistency](Eventual_Consistency) means that data will be consistent eventually, but the database is always available
 
 
 ### Incremental Replication
@@ -421,7 +421,7 @@ CouchDB will figure out what are the new documents and what are the new revision
 ```json
 curl -X PUT http://localhost:5984/_replicate -d '{"source":"users","target":"users_replica"}'
 ```
-The database replies with some statistics and tells if it was successful or not 
+The database replies with some [statistics](Statistics) and tells if it was successful or not 
 
 *NB*: the request for replication will stay open till the replication process finishes, so it may take a while 
 
@@ -441,7 +441,7 @@ This concurrency model allows CouchDB to run effectively even under high load, w
 
 
 ### [B-Tree](B-Tree) storage engine
-B-Tree (CouchDB uses a variation of a B-Tree [[link](http://www.scholarpedia.org/article/B-tree_and_UB-tree)(http://en.wikipedia.org/wiki/B-tree]) called B+Tree [link](http://en.wikipedia.org/wiki/B%2B_tree))
+B-Tree (CouchDB uses a variation of a B-Tree [[link](http://www.scholarpedia.org/article/B-tree_and_UB-tree)(http://en.wikipedia.org/wiki/B-tree]) called B+[Tree](Tree) [link](http://en.wikipedia.org/wiki/B%2B_tree))
 - *B-Tree* is a sorted data structure that allows for searching, insertions and deletion in logarithmic time 
 - Lookup is $O(\log N)$ time, and range is $O(\log N + K)$
 
@@ -508,7 +508,7 @@ This time the database replies with "ok" and a new revision update:
 
 
 ### Conflicts
-A *conflicting* change is a change that occurs simultaneously in two or more replicas. This happens regularly in [Distributes Databases](Distributes_Databases).
+A *conflicting* change is a change that occurs simultaneously in two or more replicas. This happens regularly in Distributes Databases.
 
 So a *document conflict* means that now there are two latest revisions of the same document.
 

@@ -9,9 +9,9 @@ title: DB interview questions
 ## DB
 - Czy kazdy system SQL implementuje standard SQL w jednakowy sposób? 
 - Podaj róznice pomiedzy tabela a perspektywa 
-- Jaka jest glówna róznica miedzy systemami SQL a NoSQL? 
+- Jaka jest glówna róznica miedzy systemami SQL a [NoSQL](NoSQL)? 
 - Czym jest transakcja?  
-- Czym jest ACID? 
+- Czym jest [ACID](ACID)? 
 - What transaction isolation levels do you know? 
 - Primary key vs unique key. Differences. 
 - What types of constraints does one know? 
@@ -19,11 +19,11 @@ title: DB interview questions
 - What kind of joins do you know? 
 - What is the difference between inner join and outer join? 
 - Types of tables (regular, temporary, index-organized etc) 
-- Are database Indexes useful? What is the role of them? 
+- Are [database](Database) Indexes useful? What is the role of them? 
 - Why many indexes are not good for performance 
 - Views, why they are needed? 
 - Which of SELECT, UPDATE, DELETE, ADD’s performance is mostly affected by performance of indexes? 
-- What does it mean database de-normalization? 
+- What does it mean database de-[normalization](Feature_Normalization)? 
 - What are ways to increase performance of database 
 
 

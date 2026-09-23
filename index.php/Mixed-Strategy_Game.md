@@ -12,10 +12,10 @@ title: Mixed-Strategy Game
 - Not a good idea to play deterministic game
 - so another player will always want to choose better results
 - Idea: confuse them by playing randomly
-- Consider the matching pennies: randomly picking actions is better
+- Consider the [matching pennies](Matching_Pennies): randomly picking actions is better
 
 ### Pure vs mixed
-- Pure strategy: only one action is played with positive probability
+- Pure strategy: only one action is played with positive [probability](Probability)
 - Mixed strategy: more than one action is player with positive probability
 - these actions are called the support of the mixed strategy
 
@@ -25,7 +25,7 @@ title: Mixed-Strategy Game
 
 ### Best Response
 - $s^*_i \in BR(s_{-i}) \iff \forall s_i \in S_i, u_i(s^*_i, s_{-i}) \geqslant u_i(s_i, s_{-i})$: $s^*_i$ is a BR if it's as good as others or better
-- $s = \{s_1, ..., s_n\}$ is a Nash Equilibrium if $\forall i, s_i \in BR(s_{-i})$
+- $s = \{s_1, ..., s_n\}$ is a [Nash Equilibrium](Nash_Equilibrium) if $\forall i, s_i \in BR(s_{-i})$
 
 
 ### Theorem (Nash)
@@ -44,7 +44,7 @@ title: Mixed-Strategy Game
   - if he's not indifferent, he will play the same strategy, and over time his opponent will use it
   - $u_1(A) = u_1(B)$
 utility when P1 plays A = P1 plays B
-- Battle of the Sexes
+- [Battle of the Sexes](Battle_of_the_Sexes)
   - $2p+0(1-p) = 0p + 1(1-p)$; $p = 1/3$
   - $q+0(1-q) = 0q+2(1-q)$; $q = 2/3$
   - Thus, the mixed strategies $(2/3, 1/3)$ and $(1/3, 2/3)$ are NE

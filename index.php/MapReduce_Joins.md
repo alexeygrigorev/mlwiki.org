@@ -36,7 +36,7 @@ There are several types of joins:
 - similar to [Hash Join](Physical_Operators_%28databases%29)#(Partition)_Hash_Join) in DBMS
 
 note
-- it may lead to massive data re-distribution 
+- it may lead to massive data re-[distribution](Distributions) 
 - when input is huge
 - even though data may be on one node it may be moved to others
 - need to take the cost of communication into account

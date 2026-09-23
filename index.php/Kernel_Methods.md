@@ -32,7 +32,7 @@ Just dot product is enough for many algorithms:
 
 ## Use of Kernels
 ### [Classification](Classification)
-[Support Vector Machines](Support_Vector_Machines)
+Support Vector Machines
 
 ### [Text Mining](Text_Mining)
 [Latent Semantic Kernels](Latent_Semantic_Kernels): Use Latent Semantic Analysis
@@ -83,7 +83,7 @@ We can combine Kernels:
 
 
 ## References
-- Hofmann, Thomas, Bernhard Schölkopf, and Alexander J. Smola. "Kernel methods in machine learning." 2008. [link](http://www.kernel-machines.org/publications/pdfs/0701907.pdf)
+- Hofmann, Thomas, Bernhard Schölkopf, and Alexander J. Smola. "Kernel methods in [machine learning](Machine_Learning)." 2008. [link](http://www.kernel-machines.org/publications/pdfs/0701907.pdf)
 
 
 ## Sources

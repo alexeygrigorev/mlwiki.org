@@ -60,4 +60,4 @@ For example
 
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

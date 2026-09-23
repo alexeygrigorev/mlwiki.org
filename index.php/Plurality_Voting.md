@@ -8,7 +8,7 @@ title: Plurality Voting
 ## Plurality Voting
 This a voting mechanism from [Voting Theory](Voting_Theory)
 
-- $A$ - the sets of candidates
+- $A$ - the [sets](Sets) of candidates
 - Every voter tells his preferred candidate in the form of personal ranking
 - let $S(a)$ define the number of voters that prefer $a$ to all other candidates
 - the candidate $a$ that gets the majority of votes (the best $S(a)$ score) gets elected 
@@ -59,7 +59,7 @@ Case (b):
   - or he took the vote from the winner and became the winner himself - $a$ improved his positions
 
 
-Therefore, the [Monotonicity](Monotonicity) criterion is satisfied by the Plurality Voting.
+Therefore, the Monotonicity criterion is satisfied by the Plurality Voting.
 
 
 ### [Separability](Separability)
@@ -80,7 +80,7 @@ And for $V$ they are:
 Or,
 - $S_V(a_1) > ... > S_V(a_n) \Rightarrow$
 - for $V$ the ranking is $a_1 > ... > a_n$
-- therefore, [Separability](Separability) is satisfied
+- therefore, Separability is satisfied
 
 Note that it will hold for any partition of $V$
 

@@ -59,7 +59,7 @@ e.g.
 - $\mu_{c_i} = \boldsymbol \mu_5$
 
 
-So optimization objective (cost function, or sometimes called *distortion*): 
+So [optimization](Optimization) objective (cost function, or sometimes called *distortion*): 
 - $J(c_1, \ ... \ , c_m, \boldsymbol \mu_1, \ ... \ , \boldsymbol \mu_k) = \cfrac{1}{m} \sum_i \left\|  \mathbf x_i - \boldsymbol \mu_{c_i} \right\|^2$
 
 we want to find $\min J(c_1, \ ... \ , c_m, \boldsymbol \mu_1, \ ... \ , \boldsymbol \mu_k)$ with respect to $c_1, \ ... \ , c_m, \boldsymbol \mu_1, \ ... \ , \boldsymbol \mu_k$
@@ -135,7 +135,7 @@ But often it gives a smooth curve with no visible elbow
 - Quite sensitive to initial seeds - so may need to choose them carefully
 - For high dimensional data such as [documents](Document_Clustering) may be not practical
   - centroids may contain lots of words - but we usually want to have sparse centroids
-- doesn't perform well on data with outliers or with clusters of different sizes or shapes
+- doesn't perform well on data with [outliers](Outliers) or with clusters of different sizes or shapes
 
 
 
@@ -180,7 +180,7 @@ Instead of mean, we take the "medoid" of each cluster to represent its centroid
 
 ### Bisecting K-Means
 This is a variant of K-Means 
-- it's a [Hierarchical Clustering](Hierarchical_Clustering) method, and it's useful for [Document Clustering](Document_Clustering)
+- it's a Hierarchical Clustering method, and it's useful for Document Clustering
 
 
 Algorithm:
@@ -192,8 +192,8 @@ Algorithm:
 
 
 ### [Scatter/Gather](Scatter_Gather)
-- a special version of k-means for [Document Clustering](Document_Clustering)
-- uses [Hierarchical Clustering](Hierarchical_Clustering) on a sample to do seed selection
+- a special version of k-means for Document Clustering
+- uses Hierarchical Clustering on a sample to do seed selection
 
 
 
@@ -224,7 +224,7 @@ Algorithm:
   - $\boldsymbol \mu \leftarrow (1 - \eta) \cdot \boldsymbol \mu + \eta \cdot \mathbf x$ //gradient step
 
 
-Can enforce sparsity by $L_1$ regularization: see Sculley2010
+Can enforce sparsity by $L_1$ [regularization](Regularization): see Sculley2010
 
 
 Implementation:
@@ -233,7 +233,7 @@ Implementation:
 
 ### [Fuzzy C-Means](Fuzzy_C-Means)
 Modify the membership function s.t. it outputs the degree of association between item and cluster
-- degree of membership to the cluster depends on the distance from the document to the cluster centroid
+- degree of membership to the cluster depends on the [distance](Distance_Functions) from the document to the cluster centroid
 
 
 Reference:
@@ -244,7 +244,7 @@ Reference:
 ## Implementation
 Usual version:
 
-<code>D = distmat(X, C)</code> calculates the squared distance matrix $D$ between each $x_i \in X$ and each $\mathbf c_k \in C$
+<code>D = distmat(X, C)</code> calculates the squared distance [matrix](Matrix) $D$ between each $x_i \in X$ and each $\mathbf c_k \in C$
 
 ```python
 def distmat(X, C):    

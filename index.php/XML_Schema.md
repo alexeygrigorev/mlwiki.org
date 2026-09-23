@@ -94,7 +94,7 @@ Elements:
 - reference to already defined element: <code><element ref="name" /> </code>
 
 
-We can use [Regular Expressions](Regular_Expressions) for restricting sequences of tags we can have:
+We can use Regular Expressions for restricting sequences of tags we can have:
 
 |  Concatenation   |  <code><sequence> ...</sequence> </code> ||  Union     |  <code><choice> ...</choice> </code> ||  All    |  <code><all> ...</all></code> ||  Element wildcard  |  <code><any /> </code> ||  ?  |  minOccurs="0" maxOccurs="1" ||  +  |  minOccurs="1" maxOccurs="unbounded" ||  *  |  minOccurs="0" maxOccurs="unbounded" |
 
@@ -267,8 +267,8 @@ Note the usage of <code>xs:NCName</code>
 
 
 ## See Also
-- [XML](XML)
-- [DTD](DTD)
+- XML
+- DTD
 - [Tree Automata](Tree_Automata)
 
 

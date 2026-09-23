@@ -23,7 +23,7 @@ The following tests are $t$-tests:
 Assumptions for $t$ tests are similar to the assumptions of the [$z$-tests](Z-tests)
 - Observations are independent (if less than 10% of population is sampled, then we can make sure it's satisfied)
 - Sample size is sufficiently large so [C.L.T.](Central_Limit_Theorem) holds
-- Moderate skew, few outliers (not too extreme)
+- Moderate skew, few [outliers](Outliers) (not too extreme)
 
 
 ### vs [$z$-tests](Z-tests)
@@ -31,7 +31,7 @@ Sample Size
 - the sample size can be smaller than for $z$-tests 
 - so it can be smaller than 30 - after 30 we can safely use $z$-tests with almost the same outcomes 
 
-$t$-distribution:
+$t$-[distribution](Distributions):
 - the tails are thicker than for $N(0,1)$ and observations are more likely to fall within 2$\sigma$ from the mean
 - this is exactly the correction we need to account for poorly estimated [Standard Error](Standard_Error) when the sample size is not big
 
@@ -57,7 +57,7 @@ Let's run a test:
 - How plausible is the observed value under $H_0$? 
 
 
-The probability of observing this value is 
+The [probability](Probability) of observing this value is 
 - $P(\bar{X} - \mu \geqslant 7.177) = $
   - $P\left(\cfrac{\bar{X} - \mu}{\sqrt{s^2 / n}} \geqslant \cfrac{7.177}{\sqrt{s^2 / n}}\right) \approx$
   - $P\left(t_{59} \geqslant \cfrac{7.177}{\sqrt{2.948^2 / 60}}\right) \approx$
@@ -195,7 +195,7 @@ This variation of $t$-test is used when we want to compare the means of two diff
 - suppose that we have two samples $a$ and $b$ of sizes $n_a$ and $n_b$ resp.
 - we're interested in inferring something about $\mu_a - \mu_b$ 
 - [Point Estimate](Point_Estimate) in this case is $\bar{x}_a - \bar{x}_b$
-- [Standard Error](Standard_Error) is $\text{SE}_{\bar{x}_a - \bar{x}_b} = \sqrt{\text{SE}_a + \text{SE}_b } = \sqrt{ s^2_a / n_a + s^2_b / n_b}$
+- Standard Error is $\text{SE}_{\bar{x}_a - \bar{x}_b} = \sqrt{\text{SE}_a + \text{SE}_b } = \sqrt{ s^2_a / n_a + s^2_b / n_b}$
   - because $\text{SE}^2_{\bar{x}_a - \bar{x}_b} = \text{var}[\bar{x}_a - \bar{x}_b] = \text{var}[x_a] + \text{var}[x_b] = \text{SE}^2_a + \text{SE}^2_b$
 
 
@@ -220,7 +220,7 @@ This can be a non-integer value, but that's fine
 
 ### Pooled Variance Estimation
 - Can we "pool" the samples?
-- Yes, but only under assumption that $\sigma_1^2 = \sigma_2^2$ (in other words, we assume that the variances are equal)
+- Yes, but only under assumption that $\sigma_1^2 = \sigma_2^2$ (in other words, we assume that the [variances](Variance) are equal)
 
 We can replace $s_1^2$ and $s_2^2$ by the *pooled variance*:
 - $s^2 = \cfrac{(n_1 - 1) s_1^2 + (n_2 - 1) s_2^2 }{ (n_1 - 1) + (n_2 - 1)}$
@@ -293,7 +293,7 @@ t.test(male, female, mu=0, conf.level=0.95, alternative='two.sided')
 
 ## Pairwise t-test
 - we have $n$ groups, $n > 2$
-- we conduct a series of Two-Sample t-tests to find out which groups are different 
+- we conduct a series of [Two-Sample t-tests](Two-Sample_t-test) to find out which groups are different 
 - e.g. in post-[ANOVA](ANOVA) analysis
 
 

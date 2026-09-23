@@ -52,7 +52,7 @@ Suppose we want to delete $k = 30$
 
 
 ## Duplicate Keys
-Suppose we have duplicate keys in our database. How to build index?
+Suppose we have duplicate keys in our [database](Database). How to build index?
 
 ### Option 1
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/dense-ind-dup-1.png" alt="Image">
@@ -67,8 +67,8 @@ Suppose we have duplicate keys in our database. How to build index?
 
 
 ## See also
-- [Indexing (databases)](Indexing_%28databases%29)
-- [Sparse Index](Sparse_Index)
+- Indexing (databases)
+- Sparse Index
 - [Secondary Index](Secondary_Index)
 
 ## Sources

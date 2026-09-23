@@ -10,7 +10,7 @@ title: Entropy-Based Ranking
 
 
 ## Unsupervised Learning
-Consider feature $F_i$ as  a Random Variable with a value $f_i$ 
+Consider feature $F_i$ as  a [Random Variable](Random_Variable) with a value $f_i$ 
 
 Entropy is
 - $H(F_1, \ ... \ , F_M) = - \sum_{f_1}  \ ... \ \sum_{f_M} p(f_1, \ ... \ , f_M) \log p(f_1, \ ... \ , f_M)$
@@ -29,7 +29,7 @@ where $S_{ij}$ is similarity between documents $i$ and $j$ when feature $f$ is r
 
 $$S_{ij} = 2^{-\frac{\text{dist}(i, j)}{\text{avg.dist}}}$$
 
-- $\text{dist}(i, j)$ distance between $i$ and $j$ when $t$ is removed 
+- $\text{dist}(i, j)$ [distance](Distance_Functions) between $i$ and $j$ when $t$ is removed 
 - $\text{avg.dist}$ - average distance when 
 
 

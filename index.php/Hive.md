@@ -43,7 +43,7 @@ Main Components
   - called Metastore
   - contains schemas
   - keeps [statistics](Statistics) - like in [DBMS](Databases)
-  - enables optimization techniques (but only naive rule-based optimizations)
+  - enables [optimization](Optimization) techniques (but only naive rule-based optimizations)
 - Driver that manages HiveQL queries, contains 
   - optimizer
   - executor (which executes the plan in [Topological Ordering](Topological_Ordering))
@@ -51,9 +51,9 @@ Main Components
 
 
 ### Query Execution
-- a query plan consists of several MapReduce jobs
-- results of each job is stored (materialized) on [HDFS](HDFS)
-- and the results are consumed by the next job in the graph
+- a [query plan](Query_Plan) consists of several [MapReduce](MapReduce) jobs
+- results of each job is stored (materialized) on HDFS
+- and the results are consumed by the next job in the [graph](Graph)
 - so a job that depends on some other job must wait until it finishes
 - it cannot start until all results are materialized to disk, i.e. no [Pipelining](Pipelining)
  |
@@ -80,7 +80,7 @@ INTO TABLE status_updates
 PARTITION (ds='2009-03-20')
 ```
 
-In this query we want to [partition](Database_Partitioning) our table by date
+In this query we want to partition our table by date
 
 #### Query 1
 Compute daily statistics on how often a status is updated based on gender and school
@@ -130,7 +130,7 @@ FROM (
 
 
 ## See also
-- [Hadoop](Hadoop) and [MapReduce](MapReduce)
+- Hadoop and MapReduce
 - [Pig](Pig)
 
 ## Sources

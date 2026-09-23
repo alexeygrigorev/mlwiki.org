@@ -18,7 +18,7 @@ Petri nets is a technique for description and analysis of concurrent systems
 ## Definition
 ### Petri Net
 Informally:
-- a petri net consists of *places* (circles) and *transitions* (squares: activities)
+- a [petri net](Petri_Net) consists of *places* (circles) and *transitions* (squares: activities)
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-simplest.png" alt="Image">
 - *places* can be input/output of transitions
 - places represent the states of a system 
@@ -58,7 +58,7 @@ Example:
 
 ### Marking
 A *marking* is a state of the net
-- shows the distribution of tokens across all places
+- shows the [distribution](Distributions) of tokens across all places
 - transition change the state of a bet by *firing* 
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-active-transition.png" alt="Image">
 - for a transition $t_1$ in all its input places must be a token

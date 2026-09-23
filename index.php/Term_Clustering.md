@@ -57,4 +57,4 @@ Simultaneous clustering of rows and columns is called [Co-Clustering](Co-Cluster
 
 ## Sources
 - Li, Yong H., and Anil K. Jain. "Classification of text documents." (1998) [link](http://julio.staff.ipb.ac.id/files/2014/09/LiJ98.pdf)
-- Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [link](http://arxiv.org/pdf/cs/0110053.pdf)
+- Sebastiani, Fabrizio. "[Machine learning](Machine_Learning) in automated text categorization." (2002). [link](http://arxiv.org/pdf/cs/0110053.pdf)

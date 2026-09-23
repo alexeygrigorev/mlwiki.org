@@ -51,11 +51,11 @@ a combination of Exclusive Choice and Simple Merge
 
 ### [Deferred Choice](Deferred_Choice)
 When the choice is deferred to the point when we execute something 
-- for Petri Nets, visually looks identical to Exclusive Choice
+- for [Petri Nets](Petri_Nets), visually looks identical to Exclusive Choice
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-deferred-choice.png" alt="Image">
 
 
-Deferred Choice vs Exclusive Choice
+[Deferred Choice](Deferred_Choice) vs Exclusive Choice
 - in Exclusive Choice after execution of $a$ you already know what activity to run
 - but for the deferred choice there's a race condition between the activities 
 

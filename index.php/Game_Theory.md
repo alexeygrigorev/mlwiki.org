@@ -29,7 +29,7 @@ Example:
 - Both consider two options: either make tickets cheap or make them expensive 
 - Clearly if $p_1$ decides to sell cheap tickets while $p_2$ - to sell expensive tickets, everybody will buy from $p_1$
 
-So we can depict it with the following pay-off matrix
+So we can depict it with the following pay-off [matrix](Matrix)
 - a cell represents consequences of the decision that both players take
 
 |   $p_2 \leftarrow$ <br/> $p_1 \downarrow$  |  500  |  200   |   500   |  (50, 100)  |  (-100, 200) ||   200   |  (150, -200)  |  (-10, -10) |
@@ -44,7 +44,7 @@ This is a variation of the [Prisoner's Dilemma](Prisoner's_Dilemma), an example 
 
 ### Types of Games
 There are many types of games:
-- [Normal Form Game](Normal_Form_Game) (also Strategic Game)
+- Normal Form Game (also Strategic Game)
 - [Extensive Form Game](Extensive_Form_Game)
 - [Mixed-Strategy Game](Mixed-Strategy_Game)
 - [Repeated Game](Repeated_Game)
@@ -62,7 +62,7 @@ It is often assumed that agents behave rationally:
 
 ### Examples
 Paradoxes
-- [Prisoner's Dilemma](Prisoner's_Dilemma)
+- Prisoner's Dilemma
 
 [Pure Competition Game](Pure_Competition_Game)s
 - [Matching Pennies](Matching_Pennies) (also "Head or Tail" game)

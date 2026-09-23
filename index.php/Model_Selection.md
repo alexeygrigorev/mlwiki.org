@@ -13,7 +13,7 @@ Model Selection is a way to fit parameters such as
 - and so on 
 
 ## Criteria for Model Selection
-- [Cross-Validation](Cross-Validation)
+- Cross-Validation
 
 
 ## Sources

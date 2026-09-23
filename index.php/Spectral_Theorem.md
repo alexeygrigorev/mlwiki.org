@@ -17,11 +17,11 @@ Spectral Theorem is also sometimes called Principal Axis Theorem
 
 The factorization is [Eigendecomposition](Eigendecomposition)
 - Spectral Theorem is a special case for symmetric matrices
-- See the proof in the [Symmetric Matrices](Symmetric_Matrices) article
+- See the proof in the Symmetric Matrices article
 
 
 ### Sum of [Rank One](Outer_Product) Matrices
-We can look differently at the results of [Eigendecomposition](Eigendecomposition) of $A$ 
+We can look differently at the results of Eigendecomposition of $A$ 
 
 - $A = Q \Lambda Q^T = \begin{bmatrix} 
 |  & & | \\ |\mathbf q_1 & \cdots & \mathbf q_n \\

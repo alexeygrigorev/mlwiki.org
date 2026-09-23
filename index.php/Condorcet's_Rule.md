@@ -22,7 +22,7 @@ We say that a voting system (procedure) is *fair* when
 If $x$ wins the election but it loses in pairwise comparison
 - then the Condorcet fairness criteria is not satisfied
 
-Many other [Voting Theory](Voting_Theory) methods do not satisfy this criterion:
+Many other Voting Theory methods do not satisfy this criterion:
 - [Plurality Voting](Plurality_Voting)
 - [Two-Round Voting](Two-Round_Voting)
 - [Borda's Rule](Borda's_Rule)
@@ -39,7 +39,7 @@ Idea:
 
 $i$ is preferred globally to $j$ $\iff n_{ij} > \cfrac{N}{2}$
 
-Preference Graph:
+Preference [Graph](Graph):
 - we depict all preferences in a graph
 - each candidate is a node
 - an edge between two nodes $a$ and $b$ means "$a$ is preferred over $b$" ($a > b$)
@@ -128,7 +128,7 @@ Say we have two regions $A$ and $B$, and $A \cup B = V$.
   - $n^A_{ab} > n^A_{ba} \land n^B_{ab} > n^B_{ba} \Rightarrow n_{ab} > n_{ba}$
 - so $a$ is preferred over $b$ in the whole region $V$ as well
 
-Thus, [Separability](Separability) is respected. 
+Thus, Separability is respected. 
 
 
 

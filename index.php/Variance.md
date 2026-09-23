@@ -73,4 +73,4 @@ st.dev = sd(data)
 
 
 ## Sources
-- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vysshaya Shkola, 2003.
+- Gmurman V.E., [Probability](Probability) Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vysshaya Shkola, 2003.

@@ -80,8 +80,8 @@ But there's no homomorphism from $C_2$ to $C_1$
 
 
 ## See Also
-- [Conjunctive Query](Conjunctive_Query)
+- Conjunctive Query
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
-- Database Systems Architecture lecture notes #2 by S. Vansummeren [link](https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf)
+- [Database](Database) Systems Architecture lecture notes #2 by S. Vansummeren [link](https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf)

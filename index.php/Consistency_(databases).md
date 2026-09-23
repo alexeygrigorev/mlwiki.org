@@ -7,7 +7,7 @@ tags:
 title: Consistency (databases)
 ---
 ## Consistency
-For databases, *consistency* means satisfying integrity constraints, which are about the correctness of the data in a database. So a database is *consistent* if all its constraint are satisfied. 
+For [databases](Database), *consistency* means satisfying integrity constraints, which are about the correctness of the data in a database. So a database is *consistent* if all its constraint are satisfied. 
 
 ### Integrity Constraints
 Some of the integrity constraints are: 
@@ -83,4 +83,4 @@ in this case later updates may be overwritten by earlier ones because they arriv
 
 ## See also
 - [BASE](BASE) - weaker alternative to ACID
-- the [CAP Theorem](CAP_Theorem)
+- the CAP Theorem

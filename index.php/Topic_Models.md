@@ -17,7 +17,7 @@ Notation and problem:
 - $D_1, \ ... \ , D_n$ are documents
 - $T_1, \ ... \ , T_k$ are topics (sort of "clusters")
 - each document may belong to several topics - so these "clusters" are [Fuzzy](Fuzzy_Clustering)
-- probability of $D_i$ belonging to $T_j$ is $P(T_j \mid D_i)$
+- [probability](Probability) of $D_i$ belonging to $T_j$ is $P(T_j \mid D_i)$
 - but cluster membership is secondary in this problem
 - the main problem is to find latent topics that generated documents - which is why it's called Topic Modeling 
 - let $t_1, \ ... \ , t_d$ be $d$ terms from the lexicon

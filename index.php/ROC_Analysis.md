@@ -19,13 +19,13 @@ ROC stands for *R*eceiver *O*perating *C*haracteristic (from Signal Detection Th
   - see [Evaluation of Binary Classifiers](Evaluation_of_Binary_Classifiers)
 
 
-[Evaluation of Binary Classifiers](Evaluation_of_Binary_Classifiers)
-- precision and recall are popular metrics to evaluate the quality of a classification system
+Evaluation of Binary Classifiers
+- [precision and recall](Precision_and_Recall) are popular metrics to evaluate the quality of a classification system
 - ROC Curves can be used to evaluate the tradeoff between true- and false-positive rates of classification algorithms
 
 
 Properties:
-- ROC Curves are insensitive to class distribution 
+- ROC Curves are insensitive to class [distribution](Distributions) 
 - If the proportion of positive to negative instances changes, the ROC Curve will not change
 
 
@@ -44,7 +44,7 @@ When evaluating a binary classifier, we often use a [Confusion Matrix](Confusion
 
 ### ROC Space Baseline
 Baseline
-- for the baseline we put a random classifier that predicts 1 with some probability
+- for the baseline we put a random classifier that predicts 1 with some [probability](Probability)
 - e.g. on the illustration we have 3 random classifiers:
 - always predict 0 (0% change to predict 1)
 - predict 1 in 80% cases
@@ -336,7 +336,7 @@ For that we can plot accuracy vs cutoff plot:
 
 <img src="http://habrastorage.org/files/b97/77c/d8e/b9777cd8e9334b9486f79c0dbfb7d00a.png" alt="Image">
 
-So the best cutoff is at around 0.5 for this graph
+So the best cutoff is at around 0.5 for this [graph](Graph)
 
 
 ```bash
@@ -406,7 +406,7 @@ public static double auc(List<TrainingInstance> list) {
 ```
 
 ## See Also
-- [Evaluation of Binary Classifiers](Evaluation_of_Binary_Classifiers)
+- Evaluation of Binary Classifiers
 - [Cumulative Gain Chart](Cumulative_Gain_Chart)
 
 ## Links

@@ -17,7 +17,7 @@ In [Statistics](Statistics), there is
 
 
 ### Types
-There are several types of data collection: 
+There are several [types of data](Types_of_Data) collection: 
 - [Observational Studies](Observational_Studies) - monitor and record 
   - sufficient to show association
   - not sufficient to show causation

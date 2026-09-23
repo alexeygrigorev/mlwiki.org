@@ -19,15 +19,15 @@ We want to build a [Confidence Interval](Confidence_Intervals) for a [Point Esti
 
 ## [Normal Model](Normal_Distribution)
 With sufficiently large sample and no violations of the assumptions, we can use [Normal Distribution](Normal_Distribution) to model the [Sampling Distribution](Sampling_Distribution) of mean
-- note that it's better to use the $t$ statistics described below
+- note that it's better to use the $t$ [statistics](Statistics) described below
 
 
 ### Normal Approximation
-Normal approximation is crucial for this - because we use [Normal Distribution](Normal_Distribution) to find percentiles 
+Normal approximation is crucial for this - because we use Normal Distribution to find percentiles 
 
 ### Assumptions
 - sample observations are independent
-- the distribution is not strongly skewed and there are few outliers 
+- the [distribution](Distributions) is not strongly skewed and there are few [outliers](Outliers) 
 - sample size is sufficiently large (e.g. $\geqslant 30$)
   - the larger the sample, the more tolerant we can be to the skews (thanks to the [C.L.T](Central_Limit_Theorem))
 - sampling distribution is symmetric, unimodal, no outliers - approximately normal
@@ -43,7 +43,7 @@ We have this data set that contains data about the whole population
 
 Suppose we take 10k samples 
 - and for each sample we calculate the mean
-- and then draw the histogram of this data - thus we'll get the sampling distribution
+- and then draw the [histogram](Histogram) of this data - thus we'll get the sampling distribution
 - <img src="http://habrastorage.org/files/8fd/562/12b/8fd56212b94641918e49649673a26113.png" alt="Image">
 - we see that it's normal, but can also try to draw the [Normal Probability Plot](Normal_Probability_Plot) to see that it's indeed the case
 - <img src="http://habrastorage.org/files/8a1/8f9/d42/8a18f9d42fb74957acb26f859b51c289.png" alt="Image">
@@ -113,7 +113,7 @@ In this case all the assumptions hold - can use the Normal Approximation to calc
 ### Model
 - $E[\bar{X}] = \mu$, it's an unbiased estimate of mean
 - [Standard Error](Standard_Error): $\text{var}(\bar{X}) = \cfrac{\sigma^2}{n}$
-- by [C.L.T.](Central_Limit_Theorem) have $\bar{X} \approx N\left(\mu, \cfrac{\sigma^2}{n}\right)$
+- by C.L.T. have $\bar{X} \approx N\left(\mu, \cfrac{\sigma^2}{n}\right)$
 - therefore
   - $\cfrac{\bar{X} - \mu}{\sqrt{\sigma^2 / n}} \approx N(0, 1)$
 
@@ -151,7 +151,7 @@ $t$-distribution
 
 
 Use the $t$- distribution rather than the normal distribution when 
-- the variance is not known and 
+- the [variance](Variance) is not known and 
 - has to be estimated from sample data. 
 
 

@@ -13,7 +13,7 @@ This is [Hash-Based](Hash_Function) [Multi-Dimensional](Multi-Dimensional_Indexe
 Suppose we use classical approach for hashing a tuple $(a, b)$
 - $h(a, b) = h_1(a) + h_2(b)$
 - in this case we need to provide both $a$ and $b$ 
-- but what if we want to [query only for $a$](Multi-Dimensional_Indexes#Typical_Queries)?
+- but what if we want to query only for $a$?
 - this will not work
 
 ### Partitioned Hash Function
@@ -47,15 +47,15 @@ Good support:
 
 No Support for:
 - range queries 
-- nearest-neighbor queries (physical distance is not reflected in the way we build $h$)
+- nearest-neighbor queries (physical [distance](Distance_Functions) is not reflected in the way we build $h$)
 
 And
 - less space wasted than in [Grid File Index](Grid_File_Index)
 
 
 ## See also
-- [Grid File Index](Grid_File_Index)
+- Grid File Index
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

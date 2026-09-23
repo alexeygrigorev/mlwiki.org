@@ -6,20 +6,20 @@ tags:
 - shad
 title: YADS Admission Program
 ---
-Program for admission to the Yandex School of Data Analysis (YADS)
+Program for admission to the Yandex School of [Data Analysis](Data_Analysis) (YADS)
 
 ## Algebra
 
 1. [Substitutions](Substitutions). Definition of a substitution, parity of substitutions. Product of substitutions, decomposition of substitutions into a product of transpositions and independent cycles.
 1. [Complex Numbers](Complex_Numbers). Geometric representation, algebraic and trigonometric forms, extraction of roots, roots of unity.
 1. [Systems of Linear Equations](System_of_Linear_Equations). Rectangular matrices. Reduction of matrices and systems of linear equations to row echelon form. [Gaussian elimination](Gaussian_Elimination).
-1. Linear dependence and rank. Linear dependence of rows (columns). The fundamental lemma on linear dependence, basis and rank of a system of rows (columns). Rank of a matrix. Criterion for the consistency and determinacy of a system of linear equations in terms of matrix ranks. The fundamental system of solutions of a homogeneous system of linear equations.
+1. Linear dependence and rank. Linear dependence of rows (columns). The fundamental lemma on linear dependence, basis and rank of a system of rows (columns). Rank of a [matrix](Matrix). Criterion for the [consistency](Consistency_(databases)) and determinacy of a system of linear equations in terms of matrix ranks. The fundamental system of solutions of a homogeneous system of linear equations.
 1. [Determinant](Determinants). Determinant of a square matrix, its basic properties. Criterion for the determinant being zero. Formula for expanding the determinant of a matrix along a row (column).
 1. Operations on matrices. Operations on matrices and their properties. Theorem on the rank of a product of two matrices. Determinant of a product of square matrices. Inverse matrix, its explicit form (formula), method of expression using elementary row transformations.
-1. Vector spaces; basis. Vector space, its basis and dimension. Coordinate transformations in a vector space. Subspaces as solution sets of systems of homogeneous linear equations. Relationship between the dimensions of the sum and intersection of two subspaces. Linear independence of subspaces. Basis and dimension of a direct sum of subspaces.
+1. [Vector spaces](Vector_Spaces); basis. Vector space, its basis and dimension. Coordinate transformations in a vector space. Subspaces as solution [sets](Sets) of systems of homogeneous linear equations. Relationship between the dimensions of the sum and intersection of two subspaces. [Linear independence](Linear_Independence) of subspaces. Basis and dimension of a direct sum of subspaces.
 1. Linear maps and linear operators. Linear maps, their representation in coordinates. Image and kernel of a linear map, relationship between their dimensions. Dual space and dual bases. Change of the matrix of a linear operator when changing to a different basis.
 1. Bilinear and quadratic forms. Bilinear forms, their representation in coordinates. Change of the matrix of a bilinear form when changing to a different basis. Orthogonal complement to a subspace with respect to a symmetric bilinear form. Relationship between symmetric bilinear and quadratic forms. Existence of an orthogonal basis for a symmetric bilinear form. Normal form of a real quadratic form. The law of inertia.
-1. Eigenvectors and eigenvalues. Eigenvectors and eigenvalues of a linear operator. Eigenspaces of a linear operator, their linear independence. Condition for diagonalizability of an operator.
+1. [Eigenvectors](Eigenvalues_and_Eigenvectors) and eigenvalues. Eigenvectors and eigenvalues of a linear operator. Eigenspaces of a linear operator, their linear independence. Condition for diagonalizability of an operator.
 
 
 
@@ -33,7 +33,7 @@ Program for admission to the Yandex School of Data Analysis (YADS)
 
 ## Combinatorics
 1. Basic rules of combinatorics. [Rule for counting combinatorial objects](The_Rules_of_Sums_and_Products_%28Combinatorics%29). [Pigeonhole Principle](Pigeonhole_Principle). Examples.
-1. [Sets](Sets). Euler diagrams, set operations. Inclusion-exclusion principle. Examples.
+1. Sets. Euler diagrams, set operations. Inclusion-exclusion principle. Examples.
 1. [Combinations](Combinations). [Partial Permutations](Partial_Permutations), [permutations](Permutations) and combinations. [Binomial Theorem](Binomial_Theorem). Pascal's Triangle. Combinations with repetition.
 
 ## Probability Theory
@@ -42,7 +42,7 @@ Program for admission to the Yandex School of Data Analysis (YADS)
 1. [Expected value](Expected_Value), [variance](Variance), [correlation](Correlation). Definition of expected value, variance, covariance and correlation, their properties.
 1. [Independence](Independence). Pairwise independence and mutual independence. ([Chain and Sum Rules in Probability](Chain_and_Sum_Rules_in_Probability).)
 1. Main theorems of probability theory. [Chebyshev's Inequality](Chebyshev's_Inequality). [Laws of Large Numbers](Laws_of_Large_Numbers). [Central Limit Theorem](Central_Limit_Theorem).
-1. Distributions. Standard discrete and continuous distributions, their expected values, variances and properties:
+1. [Distributions](Distributions). Standard discrete and continuous distributions, their expected values, variances and properties:
   - [binomial](Binomial_Distribution);
   - [uniform](Uniform_Distribution);
   - [normal](Normal_Distribution);
@@ -58,7 +58,7 @@ Program for admission to the Yandex School of Data Analysis (YADS)
 1. Analysis of algorithms. The notion of time and space complexity. Asymptotics, Big-O notation. Invariants, pre- and post-conditions. Proof of algorithm correctness.
 1. Basic data structures. Arrays, stacks, queues, linked lists. Comparison of time costs for different types of operations.
 1. Strings and operations on them. String representation. Computing length, concatenation, fast substring search.
-1. Sorting. The information-theoretic lower bound on sorting complexity. Insertion sort, bubble sort, quicksort, merge sort algorithms. Complexity analysis.
+1. Sorting. The information-theoretic lower bound on sorting complexity. Insertion sort, bubble sort, quicksort, [merge sort](Merge_Sort) algorithms. Complexity analysis.
 1. Pointers. Pointers and dynamic memory management.
 
 

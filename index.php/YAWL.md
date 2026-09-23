@@ -17,7 +17,7 @@ It is possible to express the following constructions:
 - etc
 
 ## Basic Syntax
-Syntax in YAWL looks similar to [Petri Nets](Petri_Nets)
+Syntax in YAWL looks similar to Petri Nets
 - but there is syntactic sugar that makes it easier and more expressive
 - and there also is some relaxation of the rules
 
@@ -53,7 +53,7 @@ XOR-join
 While-loop
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-while-loop.png" alt="Image">
 - based on the condition in the XOR-split it either continues or stops
-- it was not possible to express that in [Workflow Nets](Workflow_Nets)
+- it was not possible to express that in Workflow Nets
 
 
 Repeat-loop
@@ -76,7 +76,7 @@ Transitions in YAWL can be connected directly, without a place within them
 Transitions in YAWL are no longer atomic 
 - in YAWL now you cannot assume that they fire immediately: they may need some time to do the task
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-transitions-2.png" alt="Image">
-- so in essence, one transition in YAWL correspond to two transitions in a Petri Net and one place between them
+- so in essence, one transition in YAWL correspond to two transitions in a [Petri Net](Petri_Net) and one place between them
 
 
 
@@ -86,7 +86,7 @@ Transitions in YAWL are no longer atomic
 - first, let's explicitly show the invisible places and name all the places
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-ex-seq2.png" alt="Image">
 - now we can build some kind of a [Reachability Graph](Reachability_Graph) (here we don't consider places inside the transactions)
-- but in this case, unlike in [Petri Nets](Petri_Nets), firing one transition can lead to several states 
+- but in this case, unlike in Petri Nets, firing one transition can lead to several states 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-ex-seq2-rg.png" alt="Image">
 - in this example firing $B$ may bring to 3 different states, depending on what arch it will take
 - we see that this network in not [sound](Workflow_Soundness):
@@ -150,7 +150,7 @@ Consider the following net:
 - in this example none of the OR-joins can fire
 - there hypothetically can be more tokens to arrive
 - so they are waiting
-- no [Option to Complete](Workflow_Soundness)
+- no Option to Complete
 
 
 #### Examples
@@ -202,7 +202,7 @@ We don't need to transfer data from activity to activity
 
 
 ## YAWL Option to Complete
-YAWL's option to complete is different from the [option to complete](Workflow_Soundness) property of [Workflow Nets](Workflow_Nets)
+YAWL's option to complete is different from the option to complete property of Workflow Nets
 
 YAWL-OTC:
 - for every reachable marking $M$ we can reach the final marking $[o]$
@@ -238,7 +238,7 @@ An exercise for modeling from the resource perspective:
 
 
 ### Example 4: Four Dining Philosophers
-The same net as in [Petri Nets](Petri_Nets):
+The same net as in Petri Nets:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-dining-philosophers.png" alt="Image">
 
 

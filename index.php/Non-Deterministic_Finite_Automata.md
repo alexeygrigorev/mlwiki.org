@@ -38,7 +38,7 @@ The *language* $L(A)$ of $A$
 
 
 ### Transition Function
-Unlike in [DFA](Deterministic_Finite_Automata)s, $\delta(q, a)$ returns <u>a set</u> of states 
+Unlike in DFAs, $\delta(q, a)$ returns <u>a set</u> of states 
 - $\delta(q, a) = \{ p_1, ..., p_m \} $
 - and it can return an empty set $\varnothing$ if there's nothing to go next
 
@@ -96,7 +96,7 @@ Consider this sequence: $rbb$
 
 
 ## DFA vs NFA
-[DFA](Deterministic_Finite_Automata) is NFA without non-determinism 
+DFA is NFA without non-determinism 
 - so a DFA $A_D$ can easily be turned into an NFA $A_N$ that accepts the same language
 - if $\delta_D(q, a) = p$ then let $A_N$ have $\delta_N(q, a) = \{ p \} $
 - and $L(A_D) \equiv L(A_N)$
@@ -104,7 +104,7 @@ Consider this sequence: $rbb$
 
 But also for any NFA $A_N$ there exists DFA $A_D$ s.t.
 - $L(A_N) \equiv L(A_D)$
-- thus, NFAs also define [Regular Languages](Regular_Languages)
+- thus, NFAs also define Regular Languages
 - can show that by *subset construction*
 
 
@@ -190,7 +190,7 @@ $\square$
 ## $\epsilon$-Transitions
 We can allow state-to-state transitions on empty input $\epsilon$
 - these transitions are done spontaneously, without looking at the input string
-- but still with these transitions we can accept only [Regular Languages](Regular_Languages)
+- but still with these transitions we can accept only Regular Languages
 
 
 ### NFAs with $\epsilon$-Transitions
@@ -273,7 +273,7 @@ Example
 The language of $\epsilon$-NFA is 
 - the set of strings $w$ s.t. $\hat\delta(q_0, w) \cap F \not \equiv \varnothing$
 - i.e. it's possible to get on $w$ to at least one of the final states from $F$ 
-- languages defined by $\epsilon$-NFAs are also [Regular Languages](Regular_Languages)
+- languages defined by $\epsilon$-NFAs are also Regular Languages
 
 
 ### Equivalence of NFA and $\epsilon$-NFA
@@ -328,9 +328,9 @@ Transformation
 
 
 ## Summary
-- it's possible to construct equivalent [DFA](Deterministic_Finite_Automata) NFA and $\epsilon$-NFA
+- it's possible to construct equivalent DFA NFA and $\epsilon$-NFA
   - it's also possible to convert $\epsilon$-NFAs to [Regular Expressions](Regular_Expressions)
-  - all accept the same class of languages: [Regular Languages](Regular_Languages)
+  - all accept the same class of languages: Regular Languages
 - Non-Determinism and $\epsilon$-transitions give additional power 
   - NFAs are easier to design than DFAs 
 - but only DFAs can be implemented in practice

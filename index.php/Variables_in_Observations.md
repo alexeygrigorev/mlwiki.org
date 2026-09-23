@@ -6,7 +6,7 @@ tags:
 title: Variables in Observations
 ---
 ## Variables in Observations
-A paradigm for Observation Studies
+A paradigm for [Observation Studies](Observation_Studies)
 - 2 or more group
 - response variables (*outcome*) to be compared between the groups
 - *an explanatory variable* is an variable that can be used to explain the differences in the response 

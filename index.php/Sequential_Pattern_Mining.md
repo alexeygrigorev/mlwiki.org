@@ -8,7 +8,7 @@ title: Sequential Pattern Mining
 $\require{color}$
 
 ## Sequence Mining
-Data Model 
+[Data Model](Data_Model) 
 - similar to [Local Pattern Discovery](Local_Pattern_Discovery)
 - item - binary-valued attribute (either present - 1, or not present - 0)
 - itemset - <u>lexicographically</u> sorted subset of all items 
@@ -58,7 +58,7 @@ Example:
 
 
 ## Sequential Pattern Mining
-Like in [Local Pattern Discovery](Local_Pattern_Discovery), we have the notion of Support
+Like in Local Pattern Discovery, we have the notion of Support
 - the support of sequence $s$ w.r.t to dataset $D$ is the # of sequenced in $D$ that support $s$ 
 - $\text{supp}(s, D) = \big|  \{ s' \in D \ : \ s \sqsubseteq s' \} \big|$
 Frequent patterns:
@@ -68,7 +68,7 @@ Frequent patterns:
 
 
 Sequential Pattern Mining
-- given a sequence database $D$, find the complete set of all frequent subsequences 
+- given a sequence [database](Database) $D$, find the complete set of all frequent subsequences 
 
 
 ### Example
@@ -167,7 +167,7 @@ And so on...
 
 
 ### Drawbacks
-- Exponential growth in # of combinations
+- Exponential growth in # of [combinations](Combinations)
 - Computationally expensive 
 
 
@@ -185,7 +185,7 @@ Idea:
 <!-- TODO: Add description -->
 
 ## See Also
-- [Local Pattern Discovery](Local_Pattern_Discovery)
+- Local Pattern Discovery
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

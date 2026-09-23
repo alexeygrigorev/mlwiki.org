@@ -33,7 +33,7 @@ Example:
 It satisfies three axioms:
 - *completeness*
   - for any $x$ and $y$ either $x < y$ or $y < x$
-- *transitivity* (or *consistency*)
+- *transitivity* (or *[consistency](Consistency_(databases))*)
   - $\forall x, y, z \in A: x > y \land y > z \Rightarrow x > z$
 - *asymmetric*
   - $\forall x, y: (x > y) \Rightarrow \overline{ y > x }$
@@ -54,7 +54,7 @@ Properties:
   - $x \ I \ y \iff y \ I \ x$
 - indifference is not always transitive
   - cups of coffee
-- but in some cases is: for instance, in the [Arrow's Impossibility Theorem](Arrow's_Impossibility_Theorem) it's considered transitive
+- but in some cases is: for instance, in the Arrow's Impossibility Theorem it's considered transitive
 
 Notation
 - $I_i$ is an individual indifference of voter $i$
@@ -75,7 +75,7 @@ Properties
   - $x \ S \ y \not \Rightarrow y \ P \ x$|  !!
 - *completeness*
 - $\forall x, y \in A:$ either  $x \ S \ y$ or $y \ S \ x$
-- *transitivity*  (or *consistency*)
+- *transitivity*  (or *[consistency](Consistency_(databases))*)
   - $\forall x, y, z \in A: x \ S y \land y \ S \ z \Rightarrow x \ S \ z$
 
 We can use express Preference and Indifference via this relation:

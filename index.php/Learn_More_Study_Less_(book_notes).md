@@ -284,9 +284,9 @@ Learn More, Study Less [link](http://www.scotthyoung.com/learnmorestudyless/)
   - 0 - hero
   - 1 - gun
   - 2 - shoe
-  - 3 - tree
+  - 3 - [tree](Tree)
   - 4 - door
-  - 5 - hive
+  - 5 - [hive](Hive)
   - 6 - sticks
   - 7 - heaven
   - 8 - plate

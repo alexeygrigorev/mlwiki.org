@@ -50,7 +50,7 @@ Let's list all possible permutation matrices for $3 \times 3$
 
 ### [Permutations](Permutations)
 In how many ways we can permute rows of $I_n$?
-- it's the number of permutations of $n$: $n!$ 
+- it's the number of [permutations](Permutations) of $n$: $n!$ 
 
 ## Types
 ### Row Exchange

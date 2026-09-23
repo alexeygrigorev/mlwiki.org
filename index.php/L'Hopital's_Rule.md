@@ -24,7 +24,7 @@ Can show this using [Taylor Expansion](Taylor_Expansion) about $x = a$:
 - $\lim\limits_{x \to a} \cfrac{f(x)}{g(x)} = \lim\limits_{x \to a} \cfrac{f'(a)\, (x - a) + \ ...}{g'(a)\, (x - a) + \ ...}$
 - can factor $(x - a)$ out, so we have: 
 - $\lim\limits_{x \to a} \cfrac{f(x)}{g(x)} = \lim\limits_{x \to a} \cfrac{f'(a) + \ ...}{g'(a) + \ ...}$
-- the leading order terms are $f'(a)$ and $g'(a)$, and the rest vanish under the limit
+- the leading order terms are $f'(a)$ and $g'(a)$, and the rest vanish under the [limit](Limits)
 
 
 Examples:

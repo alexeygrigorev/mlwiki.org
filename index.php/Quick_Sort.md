@@ -100,12 +100,12 @@ public void swap(int[] input, int j, int i) {
 ## Randomized Selection ($i$th order statistics)
 problem
 - input: given $i$th element and array $A$
-- goal: find $i$th order statistics (i.e. $i$th smallest element)
+- goal: find $i$th order [statistics](Statistics) (i.e. $i$th smallest element)
 
 
 Reduction to sorting
 - $O(n \log n)$
-- apply merge sort
+- apply [merge sort](Merge_Sort)
 - return $i$th element
 - can we do better? yes
  |
@@ -138,8 +138,8 @@ Best pivot - the median
 
 
 ## See also
-- [Divide and Conquer](Divide_and_Conquer)
-- [Merge Sort](Merge_Sort)
+- Divide and Conquer
+- Merge Sort
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

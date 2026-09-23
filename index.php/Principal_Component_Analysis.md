@@ -13,7 +13,7 @@ Suppose we want to reduce from 2D to 1D
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/dim-red-intuition.png" alt="Image">
 - how to find the best projection line? 
 
-We want to find a line which would give us the smallest square distance from the data points to their projection
+We want to find a line which would give us the smallest square [distance](Distance_Functions) from the data points to their projection
 - http://stolzen.googlecode.com/svn/trunk/courses/coursera/Machine%20Learning/figures/pca-projection-error
 - the sum of squared length of projection liens is called a *projection error*
 
@@ -30,7 +30,7 @@ To reduce from $N$-dim to $K$-dim
 
 
 ## See also
-- [Dimensionality Reduction](Dimensionality_Reduction)
+- Dimensionality Reduction
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

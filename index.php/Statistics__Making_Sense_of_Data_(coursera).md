@@ -19,8 +19,8 @@ These are notes of an introductory course to [Statistics](Statistics)
 - [Summary Statistics](Summary_Statistics)
 - [The Shape of Data](Distributions)
 - [Types of Variables](Types_of_Variables) 
-  - [Quantitative Variables](Types_of_Variables#Quantitative_Variables)
-  - [Relationship Between Two Variables](Types_of_Variables#Relationships)
+  - Quantitative Variables
+  - Relationship Between Two Variables
 
 ### [Collecting Data](Data_Collection) (Week 2)
 - [Sampling](Sampling)
@@ -46,9 +46,9 @@ These are notes of an introductory course to [Statistics](Statistics)
 - [The Power of a Test](Statistical_Power)
 
 ### [Two Samples](Comparing_Two_Samples) (Week 6)
-- [Comparing Two Proportions](Binomial_Proportion_Tests#Two-Sample_Binomial_Proportion_Test)
-- [Matched Pairs](t-tests#Paired_t-test)
-- [Comparing Two Means](t-tests#Two_Sample_t-test)
+- Comparing Two Proportions
+- Matched Pairs
+- Comparing Two Means
 
 ### [Simple Linear Regression](Linear_Regression) (Week 7)
 - [Method of Least Squares](Method_of_Least_Squares)

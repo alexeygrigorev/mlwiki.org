@@ -6,7 +6,7 @@ tags:
 title: Column Space
 ---
 ## Column Space
-A column space $C(A)$ of a matrix $A$ is a subspace formed by columns of $A$
+A column space $C(A)$ of a [matrix](Matrix) $A$ is a subspace formed by columns of $A$
 - it's one of is one of the [Four Fundamental Subspaces](Four_Fundamental_Subspaces) of $A$
 
 
@@ -35,7 +35,7 @@ $A = \begin{bmatrix}
 
 Subspace from columns - $C(A)$ - the [Column Space](Column_Space) of $A$:
 - we cannot just take the two columns and call it a subspace: 
-- it also must include all linear combinations of these columns
+- it also must include all linear [combinations](Combinations) of these columns
 - these linear combinations of two vectors form a plane - a subspace $\mathbb R^2$ in the space $\mathbb R^3$
 - since we include all possible combinations, we're guaranteed to have a subspace 
 - <img src="http://habrastorage.org/files/cf5/432/f56/cf5432f561ec4f14888e8b376c5f438b.png" alt="Image">

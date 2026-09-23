@@ -23,7 +23,7 @@ We may try to use [Linear Regression](Linear_Regression) for that
   - if $h_{\theta}(x) < 0.5$ - we predict 0
 
 What's wrong with this approach?
-- Linear regression is susceptible to outliers - a single outlier can break the classificator 
+- Linear regression is susceptible to [outliers](Outliers) - a single outlier can break the classificator 
 - $h_{\theta}(x)$ can be $> 1$ or $< 0$
 - So linear regression is not a good idea
 
@@ -43,7 +43,7 @@ Logistic Regression - is a classification algorithm
   it's always between 0 and 1
 
 
-It inputs probability
+It inputs [probability](Probability)
 - We interpret the output from $h_{\theta}(x) $as probability that $y = 1$ on input $x$, or
 - $h_{\theta}(x) = P(y = 1 \mid x; \theta)$: probability that $y = 1$ given $x$ parametrized by $\theta$
 - As $y = \{0, 1\}$, $P(y = 0\mid x; \theta) =  1 - P(y = 1 \mid x; \theta)$
@@ -101,7 +101,7 @@ We have:
 
 
 ### Non-Convex Cost Function
-For [Linear Regression](Linear_Regression) the cost function was
+For Linear Regression the cost function was
 - $J(\theta) = \cfrac{1}{m} \sum \text{cost}(h_{\theta}(x^{(i)}), y^{(i)})$
 - where $\text{cost}(h_{\theta}(x), y) = \cfrac{1}{2} (h_{\theta}(x) - y)^2$
 
@@ -110,7 +110,7 @@ For logistic regression the problem with this approach is that with the sigmoid 
   <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/log-reg-convex-non-convex.png" alt="Image">
 - that is, 
 - if $J(\theta)$ is non-convex, it has many local optima, and [Gradient Descent](Gradient_Descent) is not guaranteed to converge to a global optimum
-- if $J(\theta)$ is convex, [Gradient Descent](Gradient_Descent) always converges to a global optimum
+- if $J(\theta)$ is convex, Gradient Descent always converges to a global optimum
 - So we need a different cost function that is convex and GD will work on it
 
 
@@ -133,7 +133,7 @@ Because $y \in \{0, 1\}$, we can rewrite the cost function as
 
 ### Fitting $\theta$
 - To fit $\theta$ we use Gradient Descent or other [optimization](Optimization) technique 
-- The algorithm is identical to finding $\theta$ for [Linear Regression](Gradient_Descent#Multivariate_Linear_Regression)
+- The algorithm is identical to finding $\theta$ for Linear Regression
 
 
 ## Basic Algorithm
@@ -160,9 +160,9 @@ Matlab/Octave implementation:
 
 
 ## See also
-- [Linear Regression](Linear_Regression)
-- [One-vs-All Classification](One-vs-All_Classification)
-- [Regularization](Regularization)
+- Linear Regression
+- One-vs-All Classification
+- Regularization
 - [Neural Networks](Neural_Networks)
 
 ## Sources

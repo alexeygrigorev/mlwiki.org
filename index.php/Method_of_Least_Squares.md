@@ -13,7 +13,7 @@ title: Method of Least Squares
 - And we want to find the best fit 
 
 
-Optimization
+[Optimization](Optimization)
 - To do that we minimize the sum of squares for differences:
 - $\text{ss} = \sum_{i = 1}^{n} (y_i - b_0 - b_1 x_i)^2 $
 - We want to make $\text{ss}$ as small as possible 

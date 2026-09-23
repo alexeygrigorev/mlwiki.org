@@ -9,7 +9,7 @@ title: Householder Transformation
 ---
 ## Householder Transformation
 Householder Transformation (also "Householder Reflection") is an orthogonal reflection transformation:
-- it reflex the vectors in the columns of the matrix such that
+- it reflex the vectors in the columns of the [matrix](Matrix) such that
 - the first vector has all zeros except the first element 
 
 

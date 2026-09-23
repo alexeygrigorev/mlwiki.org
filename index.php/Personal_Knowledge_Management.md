@@ -200,7 +200,7 @@ KM - making the best use of knowledge
   - major categories radiate from central node
   - free form
   - spatial layout
-  - a tree
+  - a [tree](Tree)
   - guidelines - see @ wiki
   - uses
     - generate, visualize, classify ideas

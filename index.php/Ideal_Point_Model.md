@@ -14,7 +14,7 @@ The *ideal point* (or *datum point*) is a solution that is not feasible, but mos
 - from these criteria we form the ideal point $i$
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/moo/ideal-point.png" alt="Image">
 
-Then we use the weighted distance to compute a point which is closest to the ideal
+Then we use the weighted [distance](Distance_Functions) to compute a point which is closest to the ideal
 
 The distance function is:
 - $\min \left[ \sum_{k=1}^m w_k (z_k(x) - i_k)^p \right]^{1/p}$

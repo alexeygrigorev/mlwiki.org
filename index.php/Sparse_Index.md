@@ -72,7 +72,7 @@ insert key 15
   - Overflow Blocks
 
 *Immediate Reorganization*
-- re-distribution data
+- re-[distribution](Distributions) data
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/sparse-ind-insert-2.png" alt="Image">
 - we try to push the data down
 - in this case 20 is moved to the next block
@@ -90,7 +90,7 @@ insert key 15
 
 
 ## Duplicate Keys
-Suppose we have duplicate keys in our database. How to build index?
+Suppose we have duplicate keys in our [database](Database). How to build index?
 
 ### Option 1
 There could be some problems we build it same way as without assuming duplicate keys
@@ -106,8 +106,8 @@ We may point to previous values, so we know the range
 
 
 ## See also
-- [Indexing (databases)](Indexing_%28databases%29)
-- [Dense Index](Dense_Index)
+- Indexing (databases)
+- Dense Index
 - [Secondary Index](Secondary_Index)
 
 ## Sources

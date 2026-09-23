@@ -48,7 +48,7 @@ Other general questions:
 
 
 ## Process
-All Machine Learning, Data Mining and Data Science projects should follow some process, so there can be questions about it. 
+All [Machine Learning](Machine_Learning), [Data Mining](Data_Mining) and Data Science projects should follow some process, so there can be questions about it. 
 
 Data Mining process questions:
 - Can you outline the steps in an analytics project?
@@ -76,15 +76,15 @@ So next you may discuss each of these steps in details
 Basic Linear Algebra questions might include:
 - What is $A \mathbf x = \mathbf b$? How to solve it?
 - How do we multiply matrices? 
-- What is an Eigenvalue? And what is an Eigenvector? What is Eigenvalue Decomposition or The Spectral Theorem?
+- What is an Eigenvalue? And what is an Eigenvector? What is Eigenvalue Decomposition or The [Spectral Theorem](Spectral_Theorem)?
 - What is [Singular Value Decomposition](Singular_Value_Decomposition)? 
 - You can expect tons of LA questions in the Machine Learning part of the interview
 
 
 ### Other Areas
 - Analysis, Discrete Mathematics and Logics are not that important for Data Science 
-- Probability and Statistics are core skills and discussed in the next section
-- Optimization is usually discussed in the Machine Learning and usually when talking about a particular algorithm
+- [Probability](Probability) and [Statistics](Statistics) are core skills and discussed in the next section
+- [Optimization](Optimization) is usually discussed in the Machine Learning and usually when talking about a particular algorithm
 
 
 ## Probability and Statistics
@@ -96,28 +96,28 @@ You can have a couple of simple questions to check your understanding of probabi
 
 For example:
 - Given two fair dices, what is the probability of getting scores that sum to 4? to 8?
-- A simple questions on Bayes rule: Imagine a test with a true positive rate of 100% and false positive rate of 5%. Imagine a population with a 1/1000 rate of having the condition the test identifies. Given a positive test, what is the probability of having that condition?
+- A simple questions on [Bayes rule](Bayes_Theorem): Imagine a test with a true positive rate of 100% and false positive rate of 5%. Imagine a population with a 1/1000 rate of having the condition the test identifies. Given a positive test, what is the probability of having that condition?
 
 
 ### Distributions
-You can expect questions about probability distributions:
-- What is the normal distribution? Give an example of some variable that follows this distribution
+You can expect questions about probability [distributions](Distributions):
+- What is the [normal distribution](Normal_Distribution)? Give an example of some variable that follows this distribution
 - What about log-normal?
 - Explain what a long tailed distribution is and provide three examples of relevant phenomena that have long tails. Why are they important in classification and prediction problems?
 - How to check if a distribution is close to Normal? Why would you want to check it? What is QQ Plot? 
 - Give examples of data that does not have a Gaussian distribution, or log-normal. 
 - Do you know what the exponential family is?
-- Do you know the Dirichlet distribution? the multinomial distribution?
+- Do you know the Dirichlet distribution? the [multinomial distribution](Multinomial_Distribution)?
 
 
 ### Basic Statistics
-- What is the Laws of Large Numbers? Central Limit Theorem?
+- What is the [Laws of Large Numbers](Laws_of_Large_Numbers)? [Central Limit Theorem](Central_Limit_Theorem)?
 - Why are they important for Statistics?
-- What summary statistics do you know?
+- What [summary statistics](Summary_Statistics) do you know?
 
 
 ### Experiment Design
-Sampling and Randomization
+[Sampling](Sampling) and Randomization
 - Why do we need to sample and how? 
 - Why is randomization important in experimental design?
 - Some 3rd party organization randomly assigned people to control and experiment groups. How can you verify that the assignment truly was random?
@@ -136,8 +136,8 @@ Other questions
 
 
 ### Point Estimates
-Confidence intervals
-- What is a point estimate? What is a confidence interval for it?
+[Confidence intervals](Confidence_Intervals)
+- What is a [point estimate](Point_Estimate)? What is a confidence interval for it?
 - How they are constructed?
 - Why you standardize?
 - How to interpret confidence intervals?
@@ -145,10 +145,10 @@ Confidence intervals
 
 ### Testing
 Hypothesis tests
-- Why do we need hypothesis testing? What is P-Value?
+- Why do we need [hypothesis testing](Hypothesis_Testing)? What is P-Value?
 - What is the null hypothesis? How do we state it? 
 - Do you know what type-I (type-II) error is?
-- What is t-Test/F-Test/ANOVA? When to use it? 
+- What is [t-Test](T-tests)/F-Test/[ANOVA](ANOVA)? When to use it? 
 - How would you test if two populations have the same mean? What if you have 3 or 4 populations?
 - You applied ANOVA and it says that the mean is different. How do you identify the populations where the means are different? 
 - What are the distributions / is the distribution of p-value's, in general?
@@ -175,7 +175,7 @@ You might also get questions about Bayesian non-parametric models, but I'm not s
 ### Time Series
 - What is a time series? 
 - What is the difference between data for usual statistical analysis and time series data? 
-- Have you used time series models? Cross-correlations with time lags? Correlograms? Spectral analysis? Signal processing and filtering techniques? In which context?
+- Have you used time series models? Cross-[correlations](Correlation) with time lags? Correlograms? Spectral analysis? Signal processing and filtering techniques? In which context?
 - Have you used any of the following: Time series models, Cross-correlations with time lags, Correlograms, Spectral analysis, Signal processing and filtering techniques? If yes, in which context?
 - In time series modeling how can we deal with multiple types of seasonality like weekly and yearly seasonality?
 
@@ -201,18 +201,18 @@ The ML part may start with something quite simple, like:
 
 ### Regression
 - Describe the regression problem. Is it supervised learning? Why? 
-- What is linear regression? Why is it called linear? 
-- Discuss the bias-variance tradeoff.
+- What is [linear regression](Linear_Regression)? Why is it called linear? 
+- Discuss the bias-[variance](Variance) tradeoff.
 
 
 Linear Regression:
-- What is Ordinary Least Squares Regression? How it can be learned? 
+- What is [Ordinary Least Squares](OLS_Regression) Regression? How it can be learned? 
 - Can you derive the OLS Regression formula? (For one-step solution)
 - Is model $Y = X_1 + X_2 + X_1 \, X_2 + \varepsilon$ still linear? Why? 
 - Do we always need the intercept term? When do we need it and when do we not? 
 - What is collinearity and what to do with it? How to remove multicollinearity? 
-- What if the design matrix is not full rank? 
-- What is overfitting a regression model? What are ways to avoid it?
+- What if the design [matrix](Matrix) is not full rank? 
+- What is [overfitting](Overfitting) a regression model? What are ways to avoid it?
 - What is Ridge Regression? How is it different from OLS Regression? Why do we need it? 
 - What is Lasso regression? How is it different from OLS and Ridge? 
 
@@ -233,7 +233,7 @@ Evaluation
 
 
 Other algorithms for regression
-- Decision trees for regression
+- [Decision trees](Decision_Tree) for regression
 - KNN for regression
 - Do you know others? E.g. Splines? LOESS/LOWESS? 
 
@@ -251,27 +251,27 @@ Decision trees:
 - How do you build it? 
 - What impurity measures do you know? 
 - Describe some of the different splitting rules used by different decision tree algorithms.
-- Is a big brushy tree always good? Why would you want to prune it? 
+- Is a big brushy [tree](Tree) always good? Why would you want to prune it? 
 - Is it a good idea to combine multiple trees? 
 - What is Random Forest? Why is it good? [link](https://medium.com/@D33B/the-unreasonable-effectiveness-of-random-forests-f33c3ce28883)
 
 
 
-Logistic regression:
+[Logistic regression](Logistic_Regression):
 - What is logistic regression? 
 - How do we train a logistic regression model?
 - How do we interpret its coefficients?
 
 
 
-Support Vector Machines
+[Support Vector Machines](Support_Vector_Machines)
 - What is the maximal margin classifier? How this margin can be achieved and why is it beneficial?
 - How do we train SVM? What about hard SVM and soft SVM?
 - What is a kernel? Explain the Kernel trick
 - Which kernels do you know? How to choose a kernel? 
 
 
-Neural Networks
+[Neural Networks](Neural_Networks)
 - What is an Artificial Neural Network?
 - How to train an ANN? What is back propagation? 
 - How does a neural network with one layer and one input and output compare to a logistic regression?
@@ -286,7 +286,7 @@ Other models:
 
 
 ### Regularization
-- What is Regularization? 
+- What is [Regularization](Regularization)? 
 - Which problem does Regularization try to solve? 
 - What does it mean (practically) for a design matrix to be "ill-conditioned"?
 - When might you want to use ridge regression instead of traditional linear regression?
@@ -298,7 +298,7 @@ Other models:
 
 ### Dimensionality Reduction
 Basics:
-- What is the purpose of dimensionality reduction and why do we need it? 
+- What is the purpose of [dimensionality reduction](Dimensionality_Reduction) and why do we need it? 
 - What ways of reducing dimensionality do you know? 
 - Is feature selection a dimensionality reduction technique? 
 - What is the difference between feature selection and feature extraction? 
@@ -307,7 +307,7 @@ Basics:
 PCA:
 - Is it beneficial to perform dimensionality reduction before fitting an SVM? Why or why not?
 - Are dimensionality reduction techniques supervised or not? Are all of them are (un)supervised? 
-- What is Principal Component Analysis (PCA)? What is the problem it solves? How is it related to eigenvalue decomposition (EVD)? 
+- What is [Principal Component Analysis](Principal_Component_Analysis) (PCA)? What is the problem it solves? How is it related to eigenvalue decomposition (EVD)? 
 - What's the relationship between PCA and SVD? When SVD is better than EVD for PCA?
 - Under what conditions is PCA effective?
 - Why do we need to center data for PCA and what can happed if we don't do it? Do we need to scale data for PCA? 
@@ -324,19 +324,19 @@ Other DR techniques:
 
 
 ### Cluster Analysis
-- What is the cluster analysis problem?
+- What is the [cluster analysis](Cluster_Analysis) problem?
 - Which cluster analysis methods you know? 
-- Describe K-Means. What is the objective of K-Means? Can you describe the Lloyd algorithm? 
+- Describe [K-Means](K-Means). What is the objective of K-Means? Can you describe the Lloyd algorithm? 
 - How do you select K for K-Means? 
 - How can you modify k-means to produce soft class assignments?
 - How to assess the quality of clustering? 
-- Describe any other cluster analysis method. E.g. DBSCAN.
+- Describe any other cluster analysis method. E.g. [DBSCAN](DBSCAN).
 
 
 ### Optimization
 You may have some basic questions about optimization:
 - What is the difference between a convex function and non-convex? 
-- What is Gradient Descent Method?
+- What is [Gradient Descent](Gradient_Descent) Method?
 - Will Gradient Descent methods always converge to the same point?
 - What is a local optimum? 
 - Is it always bad to have local optima?
@@ -357,21 +357,21 @@ You may have some basic questions about optimization:
 
 
 ### Feature Engineering
-- How to apply machine learning to audio data, images, texts, graphs, etc? 
+- How to apply machine learning to audio data, images, texts, [graphs](Graphs), etc? 
 - What is feature engineering? Can you give an example? Why do we need it? 
 - How to go from categorical variables to numerical? 
 
 
 
 ### Natural Language Processing
-If the company deals with text data, you can expect some questions on NLP and Information Retrieval:
+If the company deals with text data, you can expect some questions on NLP and [Information Retrieval](Information_Retrieval):
 - What is NLP? How is it related to Machine Learning? 
 - How would you turn unstructured text data into structured data usable for ML models?
-- What is the Vector Space Model?
-- What is TF-IDF?
-- Which distances and similarity measures can we use to compare documents? What is cosine similarity? 
-- Why do we remove stop words? When do we not remove them?
-- Language Models. What is N-Grams? 
+- What is the [Vector Space Model](Vector_Space_Models)?
+- What is [TF-IDF](TF-IDF)?
+- Which [distances](Distance_Functions) and similarity measures can we use to compare documents? What is [cosine similarity](Cosine_Similarity)? 
+- Why do we remove [stop words](Stop_Words)? When do we not remove them?
+- [Language Models](Statistical_Language_Models). What is N-Grams? 
 
 
 ### Meta Learning
@@ -382,11 +382,11 @@ Feature selection
 - How many features should you use? How do you select the best features? Describe several feature selection methods. Are these methods depend on the model or not?
 
 
-Model selection
+[Model selection](Model_Selection)
 - You have built several different models. How would you select the best one? 
 - You have one model and want to find the best set of parameters for this model. How would you do that? 
 - How would you look for the best parameters? Do you know something else apart from grid search? 
-- What is Cross-Validation? 
+- What is [Cross-Validation](Cross-Validation)? 
 - What is 10-Fold CV?
 - What is the difference between holding out a validation set and doing 10-Fold CV.
 
@@ -396,7 +396,7 @@ Model evaluation
 - How do you assess the results of a logistic regression?
 - Which evaluation metrics you know? Something apart from accuracy?
 - Which is better: Too many false positives or too many false negatives?
-- What precision and recall are?
+- What [precision and recall](Precision_and_Recall) are?
 - What is a ROC curve? What is AU ROC (AUC)? How to interpret ROC and AU ROC? 
 - Do you know about Concordance or Lift? 
 
@@ -408,7 +408,7 @@ Discussion Questions:
 
 
 ### Miscellanea
-Curse of Dimensionality
+[Curse of Dimensionality](Curse_of_Dimensionality)
 - What is Curse of Dimensionality? How does it affect distance and similarity measures? 
 - What are the problems of large feature space? How does it affect different models, e.g. OLS? What about computational complexity? 
 - What dimensionality reductions can be used for preprocessing the data?
@@ -422,7 +422,7 @@ You are training an image classifier with limited data. What are some ways you c
 
 How does the "power method" work?
 How are sparse matrices special/useful?
-Why is the QR factorization often used to solve OLS regression problems instead of the better known matrix form of the normal equations?
+Why is the [QR factorization](Gram-Schmidt_Process) often used to solve OLS regression problems instead of the better known matrix form of the [normal equations](Normal_Equation)?
 
 
 ## Computer Science
@@ -448,7 +448,7 @@ You can be asked about libraries:
 
 ### Algorithms
 And also some algorithm related questions, like
-- What is big O? 
+- What is [big O](Big_O)? 
 - What sorting algorithm do you know? 
 - How to HashMap is implemented? 
 - What are hash table collisions? How is it avoided? How frequently does it happen?
@@ -469,11 +469,11 @@ Other questions:
 
 
 ### Databases
-- Have you been involved in database design and data modeling?
+- Have you been involved in [database](Database) design and data modeling?
 - SQL-Related questions: e.g. what's group by? 
 - Or given some DB schema you may be asked to write a simple SQL query.
 
-Describe different NoSQL technologies you're familiar with, what they are good at, and what they are bad at.
+Describe different [NoSQL](NoSQL) technologies you're familiar with, what they are good at, and what they are bad at.
 
 What is a "star schema"?
 
@@ -481,11 +481,11 @@ What is a "star schema"?
 ### Distributed Systems and Big Data
 Basic "Big Data" questions:
 - What is the biggest data set that you have processed and how did you process it? What was the result?
-- Do you know about Apache Hadoop, Apache Spark, Apache Flink? Have you used Apache Mahout?
+- Do you know about Apache [Hadoop](Hadoop), Apache Spark, Apache Flink? Have you used Apache Mahout?
 
 
 
-MapReduce
+[MapReduce](MapReduce)
 - What are the advantages/disadvantages of "shared-nothing" architecture?
 - What is MapReduce? Why is it "shared-nothing" architecture?
 - Can you implement word count in MapReduce? What about something a bit more complex like TF-IDF? Naive Bayes? 
@@ -532,7 +532,7 @@ Additionally, you may be asked:
 
 
 ### Problem Solving Coding
-- Sometimes you even may be presented a small dataset and ask to do a particular task with any tool. For example, write a script to extract features, then do some exploratory data analysis and finally apply some ML algorithm to this dataset. Or just the last two, with a ready to use dataset in tabular form. 
+- Sometimes you even may be presented a small dataset and ask to do a particular task with any tool. For example, write a script to extract features, then do some [exploratory data analysis](Exploratory_Data_Analysis) and finally apply some ML algorithm to this dataset. Or just the last two, with a ready to use dataset in tabular form. 
 
 
 Anyway, the right way to conduct a data science interview is to create a dataset (i.e. from a Kaggle, etc) that resembles the problem you want to solve, and have the 'scientist' work through the different steps from start to finish of what they would do:

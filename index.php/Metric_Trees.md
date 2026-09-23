@@ -22,7 +22,7 @@ Notation:
 
 Splitting a node:
 - choose two pivot points $p_l$ and $p_r$ from $N(v)$ 
-- ideally these points should be selected s.t. the distance between them is largest:
+- ideally these points should be selected s.t. the [distance](Distance_Functions) between them is largest:
   - $(p_l, p_r) = \operatorname{arg max}\limits_{p_1, p_2 \in N(v)} \|  p_1 - p_2 \|$
 - but it takes $O(n^2)$ (where $n = | N(v)|$) to find optimal $p_l, p_r$
 - heuristic: 
@@ -93,7 +93,7 @@ Why allowing overlap?
 - don't backtrack at all - just do a tree descent, not DFS
 - consider a case when $q$ is close to $L$: it's true that the true NN might be on the other side of $L$ 
 - so by allowing overlap we hope to catch the true NN on the over side 
-- and by varying $\tau$ we can reduce the probability of a mistake
+- and by varying $\tau$ we can reduce the [probability](Probability) of a mistake
 
 
 
@@ -134,7 +134,7 @@ So,
 ## References
 - Uhlmann, Jeffrey K. "Metric trees." 1991. [link](http://trac.astrometry.net/export/20934/trunk/documents/papers/dstn-review/papers/uhlmann1991b.pdf)
 - Omohundro, Stephen M. "Bumptrees for efficient function, constraint, and classification learning." 1991. [link](http://www1.icsi.berkeley.edu/ftp/pub/techreports/1991/tr-91-009.pdf)
-- Achlioptas, Dimitris. "Database-friendly random projections: Johnson-Lindenstrauss with binary coins." 2003. [link](http://www.sciencedirect.com/science/article/pii/S0022000003000254)
+- Achlioptas, Dimitris. "[Database](Database)-friendly random projections: Johnson-Lindenstrauss with binary coins." 2003. [link](http://www.sciencedirect.com/science/article/pii/S0022000003000254)
 
 
 

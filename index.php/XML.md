@@ -19,7 +19,7 @@ XML
 
 ## Representations
 ### [Tree](Tree) Representation
-In XML Trees,
+In XML [Trees](Tree),
 - values are always at the leaf level 
 - all other nodes contain information about these nodes 
 
@@ -144,8 +144,8 @@ Schemas are used to
 - designing contracts for web services 
 
 There are 3 ways of doing it:
-- [DTD](DTD) - based
-- [XML Schema](XML_Schema)
+- DTD - based
+- XML Schema
 - Relax NG
 
 Schemas are build on top of [Tree Automata](Tree_Automata) and [Regular Expressions](Regular_Expressions) theory

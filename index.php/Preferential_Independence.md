@@ -41,7 +41,7 @@ In this example the Preferential Independence principle is not satisfied
 We're in a restaurant and there are 2 dishes and 2 drinks
 - dishes: fish, meat
 - drinks: red wine, white wine
-- so we have 4 combinations:
+- so we have 4 [combinations](Combinations):
 
 |    |  colspan="2" | drinks $\downarrow$  |   rowspan="2" | meal $\to$  |  $(a)$ fish + white  |  $(c)$ fish + red ||  $(b)$ meal + white  |  $(d)$ meal + red |
 So we have two criteria: 

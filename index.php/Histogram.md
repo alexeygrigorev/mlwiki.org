@@ -11,11 +11,11 @@ title: Histogram
 - Bins: the intervals used in a histogram. The data must be separated into mutually exclusive and exhaustive bins
 - Cutpoints: the values that define the beginning and the end of the bins
 - Frequency: the count of the number of the data values in each bin
-- The peaks in the distribution are called *modes*
+- The peaks in the [distribution](Distributions) are called *modes*
 - so the variables you plot must be [Quantitative Variables](Quantitative_Variables)
 
 [Probability Density Function](Probability_Density_Function)
-- with histogram you estimate the [Probability Density Function](Probability_Density_Function) of the underlying variable 
+- with histogram you estimate the Probability Density Function of the underlying variable 
 - Alternative - [Density Plot](Density_Plot) that use [Kernel](Kernel)s to smooth the plots 
 
 
@@ -37,19 +37,19 @@ Consider this example
 - and we want to build a model that can distinguish them
 - so we can create a histogram that shows the distribution of age w.r.t. to class attribute
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/kddm/hist-bivariate.png" alt="Image">
-- can see that age and class are not independent: there is strong correlation between them:
+- can see that age and class are not independent: there is strong [correlation](Correlation) between them:
   - if age is lower then some value (say 30), all belong to class $A$ 
   - if greater than other value - all always belong to class $B$ 
 - can learn that just using a simple histogram 
 
 
 ## Cumulative Histogram
-Usual histogram estimates the [Probability Density Function](Probability_Density_Function)
+Usual histogram estimates the Probability Density Function
 - Cumulative Histogram will show the [Cumulative Distribution Function](Cumulative_Distribution_Function)
 
 
 ## See Also
-- [Density Plot](Density_Plot)
+- Density Plot
 
 ## Sources
 - [Data Analysis (coursera)](Data_Analysis_%28coursera%29)

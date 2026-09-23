@@ -9,7 +9,7 @@ title: Exact Binomial Proportion Tests
 ## Exact Binomial Test
 This is a [Statistical Test](Statistical_Test) for proportions that uses the [Binomial Distribution](Binomial_Distribution) as the null ([sampling](Sampling)) [distribution](Distributions). 
 
-It doesn't use the [Normal Approximation](Binomial_Distribution#Normal_Approximation)
+It doesn't use the Normal Approximation
 - because sometimes it's possible to use the Binomial model directly 
 - or because it's not possible to use the Normal Model: some conditions are not met
 

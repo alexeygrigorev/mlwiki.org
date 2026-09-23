@@ -38,7 +38,7 @@ D_{Q_1} =
   C_c & C_y \\
   \hline
 \end{array}$
-  - note that instead of creating a database with the body of $Q_1$, we created constant that correspond to the variables (to avoid confusion)
+  - note that instead of creating a [database](Database) with the body of $Q_1$, we created constant that correspond to the variables (to avoid confusion)
 - Evaluate $Q_2(D_{Q_1})$:
 - $Q_2(x, y) \leftarrow \underbrace{Q(x, a)}_{(1)}, \underbrace{Q(a, b)}_{(2)}, \underbrace{Q(b, c)}_{(3)}, \underbrace{Q(c, y)}_{(4)}$
 - Let's build a candidate substitution. We want this substitution to be a matching.
@@ -223,7 +223,7 @@ D_{Q_4} =
 
 
 ## See Also
-- [Conjunctive Query](Conjunctive_Query)
+- Conjunctive Query
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

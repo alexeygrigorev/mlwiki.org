@@ -29,7 +29,7 @@ stores all data and instructions
 ### [Secondary Storage](Secondary_Storage)
 - 10 milliseconds to transfer data from disk to memory 
 
-*Secondary storage*: disks and other devices that can store large amounts of data 
+*[Secondary storage](Secondary_Storage)*: disks and other devices that can store large amounts of data 
 
 ### Virtual Memory
 *Virtual Memory* is an address space (32 or 64 bits) 
@@ -45,7 +45,7 @@ a storage with very large capacity (petabytes, etc)
 
 
 ## See also
-- [Secondary Storage](Secondary_Storage)
+- Secondary Storage
 
 ## Sources
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

@@ -71,7 +71,7 @@ Can go further
 
 ### Getting Rules
 Where to extract these rules from?
-- from [Decision Trees](Decision_Tree_%28Data_Mining%29)
+- from Decision Trees
   - each path from top to the bottom is a rule, and the leaf is a class
 - sequential covering - for learning rules directly (PRISM algorithm [link](http://www.cs.bc.edu/~alvarez/DataMining/Notes/covering.html))  
   - repeatedly removes a portion of the dataset

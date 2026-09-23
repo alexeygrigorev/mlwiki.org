@@ -9,7 +9,7 @@ title: Q-Q Plot
 ---
 ## Q-Q Plot
 ### Probability Plot
-A Probability plot is a technique for comparing two data sets
+A [Probability](Probability) plot is a technique for comparing two data [sets](Sets)
 - e.g. two empirical observations
 - or empirical set vs theoretical set
 
@@ -20,7 +20,7 @@ Commonly used:
 
 ### Normal Probability Plot
 It's a special case of Q-Q plots:
-- a Q-Q plot against the standard normal distribution;
+- a Q-Q plot against the standard [normal distribution](Normal_Distribution);
 
 
 The normal probability plot is formed by:
@@ -42,7 +42,7 @@ if the data is normally distributed, $z$-scores on the horizontal axis should ap
 
 ## [R](R)
 ### Example 1
-Evaluating the [Normal Distribution](Normal_Distribution) (see [link](http://rpubs.com/agrigorev/21480))
+Evaluating the Normal Distribution (see [link](http://rpubs.com/agrigorev/21480))
 
 ```
 load(url("http://www.openintro.org/stat/data/bdims.RData"))
@@ -54,7 +54,7 @@ qqline(fdims$hgt, lwd=2)
 
 <img src="http://habrastorage.org/files/fb0/7c2/422/fb07c242281d4b25911459e38f3f1d58.png" alt="Image">
 
-Does it look similar to real [Normal Distribution](Normal_Distribution)?
+Does it look similar to real Normal Distribution?
 - it does
 - let's simulate the normal distribution and compare 
 

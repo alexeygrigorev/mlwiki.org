@@ -11,7 +11,7 @@ There are two types of [Data Collection](Data_Collection)
 
 In *Observation Studies* we observe existing characteristics of a subset of individuals in a population
 - typically done via surveys, by following smb, etc
-- this method doesn't directly interfere with how the data appear (in contrast to [Statistical Experiment](Statistical_Experiment)s)
+- this method doesn't directly interfere with how the data appear (in contrast to Statistical Experiments)
 
 
 the goal is to
@@ -28,7 +28,7 @@ the goal is to
 
 
 ## Finding Relationships
-Types of variables: 
+[Types of variables](Types_of_Variables): 
 - outcome - the variables of our interest
 - explanatory - the variables that are used to analyze and explain the outcome
 
@@ -45,17 +45,17 @@ The relationships between the explanatory variable and the outcome
 
 ### Correlation and Causation
 - with this type of studies it is possible to find association relationship between the variables
-- but it's not possible to show the causation here - need to run a controlled [Statistical Experiment](Statistical_Experiment) for that 
-- beware of [Confounding Variables](Confounding_Variables)
+- but it's not possible to show the causation here - need to run a controlled Statistical Experiment for that 
+- beware of Confounding Variables
 
 
 Example
 - Suppose we run a sunscreen study and collected some data
 - We saw that the more sunscreen is used, the more chances to have skin cancer 
 - does sunscreen causes the cancer? 
-- cannot say it here because the study is observational - we didn't run a controlled [Statistical Experiment](Statistical_Experiment) to make sure there are no other variables that might have caused it
+- cannot say it here because the study is observational - we didn't run a controlled Statistical Experiment to make sure there are no other variables that might have caused it
 - e.g. in this case  we don't see the exposure to sun - it's correlated with both sunscreen and cancer variables
-  - this is a [Confounding Variable](Confounding_Variables) that is likely to have caused the effect
+  - this is a Confounding Variable that is likely to have caused the effect
 
 
 

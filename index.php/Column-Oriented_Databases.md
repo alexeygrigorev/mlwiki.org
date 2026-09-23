@@ -12,7 +12,7 @@ title: Column-Oriented Databases
 
 Are better for storing large amounts of data, especially when the number of columns is very large
 
-- Sets of columns are stored together, so a particular record is actually split across several blocks
+- [Sets](Sets) of columns are stored together, so a particular record is actually split across several blocks
 - Within each block data is stored in sorted order
 - Need to maintain "join index" - to pull together different blocks that are for the same record
 - These column-oriented databases are especially good for [OLAP](OLAP) 

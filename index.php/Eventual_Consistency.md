@@ -18,7 +18,7 @@ Reasons for Eventual Consistency:
 - need to always support updates (no matter what happens)
 
 
-So, Eventual consistency is a [Consistency Model](Consistency_%28databases%29) in which
+So, Eventual consistency is a Consistency Model in which
 - Updates are propagated to replicas eventually, 
 - not synchronously with the write 
 
@@ -77,10 +77,10 @@ In many systems (Dynamo, MongoDB, [CouchDB](CouchDB)) conflicts are allowed and 
 Suppose we have
 - $R$ - minimum number of nodes that participate in a successful read
 - $W$ - minimum number of nodes that participate is a successful write 
-- $N$ - replication factor 
+- $N$ - [replication](Replication) factor 
 
 
-- if $R + W > N$ we can claim consistency
+- if $R + W > N$ we can claim [consistency](Consistency_(databases))
 - but $R + W < N$ means lower latency
 
 

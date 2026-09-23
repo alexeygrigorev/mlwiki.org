@@ -19,7 +19,7 @@ Note that since we perform pair-wise comparisons, it may become computationally 
 
 There are four steps:
 1. Compute Uni-Criterion Preferences 
-1. Compute Preference Matrix
+1. Compute Preference [Matrix](Matrix)
 1. Compute Net-Flow Scores
 1. Rankings
   - Complete: PROMETHEE II
@@ -159,12 +159,12 @@ Easy to see that by the way we construct $\Phi(a_i)$
 Want to show that  $\sum_{i = 1}^N \Phi(a_i) = 0$
 - $N$ - the number of alternatives
 - that can be shown by induction
-- proof: [PROMETHEE/Properties#Property 2](PROMETHEE_Properties#Property_2)
+- proof: PROMETHEE/Properties#Property 2
 
 
 ### [Preferential Independence](Preferential_Independence)
 PROMETHEE respects the [Preferential Independence](Preferential_Independence) hypothesis
-- [PROMETHEE/Properties#Preferential Independence](PROMETHEE_Properties#Preferential_Independence)
+- PROMETHEE/Properties#Preferential Independence
 
 
 ## [Arrow's Impossibility Theorem](Arrow's_Impossibility_Theorem)
@@ -175,9 +175,9 @@ Recall that according to the theorem all 5 conditions cannot be satisfied at the
 
 
 ### [Rank Reversal](Rank_Reversal)
-A rank reversal happens if:
+A [rank reversal](Rank_Reversal) happens if:
 - $\pi_{ij} \geqslant \pi_{ji}$ but in spite of that $\Phi(a_i) \leqslant \Phi(a_j)$
-- the main article: [PROMETHEE/Rank Reversal](PROMETHEE_Rank_Reversal)
+- the main article: PROMETHEE/Rank Reversal
 
 
 
@@ -202,7 +202,7 @@ But $q$ dimensional space is really hard to visualize
 
 $\delta$ 
 - some information is lost during the projection, and the $\delta$ coefficient shows how much information is retained on the plane
-- $\delta$ is the ratio between the projected variance and the initial variance 
+- $\delta$ is the ratio between the projected [variance](Variance) and the initial variance 
 - $\delta \geqslant 70\%$ is good
 
 
@@ -284,7 +284,7 @@ Note that this is a complete ranking:
 
 ### PROMETHEE I ranking
 |    |  $\Phi^+$  |  $\Phi^-$  |   $a$   |  0.8  |  0.1 ||   $b$   |  0.5  |  0.05 ||   $c$   |  0.1  |  0.8 |
-for both $\Phi^+$ and $\Phi^-$ (applying the [Unanimity](Unanimity) principle)
+for both $\Phi^+$ and $\Phi^-$ (applying the Unanimity principle)
 - $a \ P \ c$
 - $b \ P \ c$
 

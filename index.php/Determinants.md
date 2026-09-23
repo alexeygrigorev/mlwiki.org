@@ -6,7 +6,7 @@ tags:
 title: Determinants
 ---
 ## Determinants
-A *determinant* is a value associated with a square matrix $A$
+A *determinant* is a value associated with a square [matrix](Matrix) $A$
 - it provides important information about [invertability](Inverse_Matrices) of the matrix
 - it's denoted as $\text{det } A$ or sometimes $|  A |$
 
@@ -68,7 +68,7 @@ These properties are consequences of the defining properties
 - $\begin{vmatrix}
 a_{11} & a_{12} \\ 
 a_{21} - c a_{11} & a_{22} - c a_{12} \\ 
-\end{vmatrix} \ \mathop{=}\limits^{3^{\circ}} \
+\end{vmatrix} \ \mathop{=}\[limits](Limits)^{3^{\circ}} \
 \begin{vmatrix}
 a_{11} & a_{12} \\ 
 a_{21} & a_{22} \\ 
@@ -287,7 +287,7 @@ a_{11} & a_{12} & a_{13}\\
 a_{21} & a_{22} & a_{23}\\
 a_{31} & a_{32} & a_{33}\\
 \end{vmatrix} = \ ...$
-- we follow the same divide and conquer approach 
+- we follow the same [divide and conquer](Divide_and_Conquer) approach 
 - most of the terms will go away because they will be equal to 0
 - the "survivers" will have one non-zero entry from each row 
 - so for $3 \times 3$ we have:

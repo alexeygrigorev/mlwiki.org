@@ -14,7 +14,7 @@ Post-pruning algorithm for [Decision Trees](Decision_Tree_%28Data_Mining%29)
 - need to optimize the cost-complexity function
 - $R_\alpha (T) = R(T) + \alpha \cdot |  f(T) |$ where
 - $R(T)$ is the training/learning error
-  - $f(T)$ a function that returns the set of leaves of tree $T$
+  - $f(T)$ a function that returns the set of leaves of [tree](Tree) $T$
   - $\alpha$ is a [Regularization](Regularization) parameter
 - $R(T) = \sum_{t \in f(T)} r(t) \cdot p(t) = \sum_{t \in f(T)} R(t)$
   - $\sum_{t \in f(T)} R(t)$ - sum of misclassification errors at each leaf
@@ -128,7 +128,7 @@ Find minimal $g(t)$:
   - if $\alpha = 1/8$, then $T_2$ is the best
   - if $1/8 < \alpha < 1/4$, then $T_3$ is the best
   - if $1/8 < \alpha < 1/4$, then $T_3$ is the best
-- to choose $\alpha$ use [Cross-Validation](Cross-Validation)
+- to choose $\alpha$ use Cross-Validation
 
 
 

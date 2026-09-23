@@ -14,7 +14,7 @@ Independence to Third Alternatives, or [Independence](Independence) to Irrelevan
 
 ### Definition
 - Suppose we have a set of alternatives (candidates) $A^*$
-- Let us consider 4 different individual rankings over the sets $A^*$ and $A$ s.t. $A \subset A^*$ 
+- Let us consider 4 different individual rankings over the [sets](Sets) $A^*$ and $A$ s.t. $A \subset A^*$ 
   (note that $A$ is a strict subset of $A^*$)
 - The rankings are $R_1, R_2$ and $R'_1, R'_2$
 - $S_1, S_2, S'_1, S'_2$ are indifference relations defined by these orderings (respectively)
@@ -56,7 +56,7 @@ The publisher proposes the following:
 - $P$: 100 USD, $W$: 60 USD, $P+W$ also 100 USD.
 - in this case we see that no rational decision taker will ever take just $P$, but always $P+W$
 
-Before the preposition the distribution of readers could be this:
+Before the preposition the [distribution](Distributions) of readers could be this:
 - $P$ for 100 USD: 30%
 - $W$ for 60 USD: 70%
 

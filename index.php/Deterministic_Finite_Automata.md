@@ -109,7 +109,7 @@ It is possible to represent automata as [Graphs](Graphs)
 
 #### Example 3: Tennis
 Rules:
-- Match consists of 3-5 sets, a set of 6 or more games
+- Match consists of 3-5 [sets](Sets), a set of 6 or more games
 - one person servers throughout a whole game 
 - to win, a player must score at least 4 points, but win by at least 2 points 
 
@@ -152,14 +152,14 @@ Automata define [Formal Languages](Formal_Languages)
 - if $A$ is an automaton, $L(A)$ is its language
 - for a DFA $A$, $L(A)$ is a set of strings that lead from the start state $q_0$ to one of the final states $F$ 
 - formally: $L(A) = \{ \forall w : \delta{q_0, w} \in F \}$
-- languages defined by Finite Automata are called [Regular Languages](Regular_Languages)
+- languages defined by Finite Automata are called Regular Languages
 
 
 ## [Non-Deterministic Finite Automata](Non-Deterministic_Finite_Automata)
-In Non-Deterministic Finite Automata (NFAs) one input can lead to multiple states
+In [Non-Deterministic Finite Automata](Non-Deterministic_Finite_Automata) (NFAs) one input can lead to multiple states
 - additionally there can be $\epsilon$-transitions that can taken spontaneously without any input character
 - it is possible to convert one representation to another
-  - thus they all define the same class of [Formal Languages](Formal_Languages): [Regular Languages](Regular_Languages)
+  - thus they all define the same class of Formal Languages: Regular Languages
 - Non-Determinism and $\epsilon$-transitions give additional power 
   - NFAs are easier to design than DFAs 
 - but only DFAs can be implemented in practice

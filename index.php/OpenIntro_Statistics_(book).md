@@ -75,11 +75,11 @@ The labs [link](https://www.datacamp.com/courses/data-analysis-and-statistical-i
 
 Labs:
 - [Lab 1](http://rpubs.com/agrigorev/21475): Introduction to Data
-- [Lab 2](http://rpubs.com/agrigorev/21476): Probability
-- [Lab 3A](http://rpubs.com/agrigorev/21595): [Sampling Distribution](Sampling_Distribution)s
-- [Lab 3B](http://rpubs.com/agrigorev/21596): [Confidence Intervals](Confidence_Intervals)
+- [Lab 2](http://rpubs.com/agrigorev/21476): [Probability](Probability)
+- [Lab 3A](http://rpubs.com/agrigorev/21595): Sampling Distributions
+- [Lab 3B](http://rpubs.com/agrigorev/21596): Confidence Intervals
 - [Lab 4](http://rpubs.com/agrigorev/23230): Inference for numerical data
 - [Lab 5](http://rpubs.com/agrigorev/23240): Inference for categorical data
-- [Lab 6](http://rpubs.com/agrigorev/23247): Introduction to linear regression
+- [Lab 6](http://rpubs.com/agrigorev/23247): Introduction to [linear regression](Linear_Regression)
 - [Lab 7](http://rpubs.com/agrigorev/23249): Multiple linear regression
 - [Extra lab](http://rpubs.com/agrigorev/21480): Distributions (lab 3 from [link](http://www.openintro.org/stat/labs.php))

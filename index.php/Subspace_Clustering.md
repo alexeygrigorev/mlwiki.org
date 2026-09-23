@@ -38,19 +38,19 @@ Use downward closure property for density to reduce the search space ([Apriori](
 
 
 CLIQUE:
-- Agrawal, Rakesh, et al. Automatic subspace clustering of high dimensional data for data mining applications.1998. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.407.4066&rep=rep1&type=pdf)
+- Agrawal, Rakesh, et al. Automatic subspace clustering of high dimensional data for [data mining](Data_Mining) applications.1998. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.407.4066&rep=rep1&type=pdf)
 
 ENCLUS
 - Cheng, Chun-Hung, Ada Waichee Fu, and Yi Zhang. "Entropy-based subspace clustering for mining numerical data." 1999. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.33.1465&rep=rep1&type=pdf)
 
 MAFIA 
-- Goil, Sanjay, Harsha Nagesh, and Alok Choudhary. "MAFIA: Efficient and scalable subspace clustering for very large data sets." 1999. [link](http://www.cs.upc.edu/~bejar/amlt/material_art/DM%20clustering%20goil99mafia.pdf)
+- Goil, Sanjay, Harsha Nagesh, and Alok Choudhary. "MAFIA: Efficient and scalable subspace clustering for very large data [sets](Sets)." 1999. [link](http://www.cs.upc.edu/~bejar/amlt/material_art/DM%20clustering%20goil99mafia.pdf)
 
 CBF
 - Chang, Jae-Woo, and Du-Seok Jin. "A new cell-based clustering method for large, high-dimensional data in data mining applications.", 2002. [link](http://www.researchgate.net/profile/Jae-Woo_Chang2/publication/221001126_A_new_cell-based_clustering_method_for_large_high-dimensional_data_in_data_mining_applications/links/02e7e519c25a68e567000000.pdf)
 
 CLTree
-- clustering via decision trees 
+- clustering via [decision trees](Decision_Tree) 
 
 DOC
 - Procopiuc, Cecilia M., et al. "A Monte Carlo algorithm for fast projective clustering." 2002. [link](http://www.cs.duke.edu/~pankaj/publications/papers/proj-cluster-sample.pdf)

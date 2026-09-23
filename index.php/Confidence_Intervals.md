@@ -18,7 +18,7 @@ Main idea - the CI should include the real parameter
 
 ### Confidence Level
 The degree of confidence at which we're sure the interval will span the true parameter is *Confidence level*
-- e.g. 95% confidence interval contains the estimated parameter with probability 0.95 - i.e. in 1 case out of 20 it will miss the real parameter
+- e.g. 95% confidence interval contains the estimated parameter with [probability](Probability) 0.95 - i.e. in 1 case out of 20 it will miss the real parameter
 
 
 The idea of [Sampling Distribution](Sampling_Distribution) is important here
@@ -30,7 +30,7 @@ Example
 - we want to estimate the mean
 - suppose we happen to know the sampling distribution: it's $N(\mu = 10, \sigma = 3.3)$
   - it's centered around the proportion mean $\mu$
-  - and the [Standard Error](Standard_Error) is 3.3
+  - and the Standard Error is 3.3
 - we draw a Point Estimate from the sampling distribution
   - we get $\bar{X} = 5.5$
 - Assuming that the SD is centered around 5.5, we compute 95% CI
@@ -117,7 +117,7 @@ plot_ci(sampl.m - me, sampl.m + me, mean(population))
 
 ### Margin Of Error
 If the Sampling Distribution is symmetric (e.g. [Normal Distribution](Normal_Distribution) or [t-Distribution](t_Distribution)) we can calculate the CI bounds by adding and subtracting the *margin of error* 
-- *margin of error* is typically percentile ($z$ or $t$ score) multiplied by [Standard Error](Standard_Error)
+- *margin of error* is typically percentile ($z$ or $t$ score) multiplied by Standard Error
 
 
 ### Critical Value
@@ -133,7 +133,7 @@ Main types:
 
 ### [Statistical Simulation](Statistical_Simulation)
 Not always it's possible to calculate everything with traditional methods 
-- but when we know the truth and can control it, we can simulate and build the [Sampling Distribution](Sampling_Distribution), this way getting the CIs
+- but when we know the truth and can control it, we can simulate and build the Sampling Distribution, this way getting the CIs
 - also, [Bootstrapping](Bootstrapping) (a [Resampling](Resampling) method) is a powerful strategy for calculating CIs 
 
 
@@ -156,8 +156,8 @@ A method  for constructing CIs is *robust* if
 
 
 ## See Also
-- [Sampling Distribution](Sampling_Distribution)
-- [Inferential Statistics](Inferential_Statistics)
+- Sampling Distribution
+- Inferential Statistics
 - [Hypothesis Testing](Hypothesis_Testing)
 
 ## Sources

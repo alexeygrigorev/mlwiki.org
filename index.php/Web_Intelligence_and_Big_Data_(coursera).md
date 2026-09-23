@@ -18,12 +18,12 @@ Listen
 - Analyzing Sentiment and Intent
 
 Load
-- Big data technology, MapReduce
-- Databases and their evolution
-- Large scale Graph Databases
+- Big data technology, [MapReduce](MapReduce)
+- [Databases](Database) and their evolution
+- Large scale [Graph](Graph) Databases
 
 Learn
-- Learning: Clustering, Mining, Machine Learning and its Limits
+- Learning: Clustering, Mining, [Machine Learning](Machine_Learning) and its [Limits](Limits)
 - Information Extraction
 
 Connect

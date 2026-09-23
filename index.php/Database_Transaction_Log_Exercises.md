@@ -21,14 +21,14 @@ Consider the following log:
 - what sequences of events are valid for this log? 
 
 ### Undo Logging
-According [Undo Logging#Undo Logging Rules](Undo_Logging#Undo_Logging_Rules), we have the following constraints (< = "occurs before")
+According Undo Logging#Undo Logging Rules, we have the following constraints (< = "occurs before")
 - Flush-Log($A$) < Output($A$) and Flush-Log($B$) < Output($B$)
   - should always flush before writing the modified item to disk
 - Flush-Log($A$) < Flush-Log($B$) < Commit
   - assume DB items are flushed on disk in the order they are created $\to$ flushing logs for $A$ before logs for $B$ 
   - both have to be flushed before we write the commit record
 - Output($A$) < Commit and Output($B$) < Commit
-  - should write the modified database element to disk before the commit
+  - should write the modified [database](Database) element to disk before the commit
 
 Hence, the following sequences are legal:
 - Flush-Log($A$), Output($A$), Flush-Log($B$), Output($B$), Commit
@@ -37,7 +37,7 @@ Hence, the following sequences are legal:
 
 
 ### Redo Logging
-According [Redo Logging#Redo Logging Rules](Redo_Logging#Redo_Logging_Rules), we have the following constraints (< = "occurs before")
+According Redo Logging#Redo Logging Rules, we have the following constraints (< = "occurs before")
 - Flush-Log($A$) < Output($A$) and Flush-Log($B$) < Output($B$)
   - same as for Undo Logging: should always flush before writing the modified item to disk
 - Flush-Log($A$) < Flush-Log($B$) < Commit
@@ -52,7 +52,7 @@ Hence, the following sequences are legal:
 
 
 ### Undo/Redo Logging
-According [Undo/Redo Logging#Rules](Undo_Redo_Logging#Rules), we have the following constraints (< = "occurs before")
+According Undo/Redo Logging#Rules, we have the following constraints (< = "occurs before")
 - Flush-Log($A$), Output($A$) and Flush-Log($B$), Output($B$)
   - log records should appear before a database item is modified on disk
 - Flush-Log($A$) < Flush-Log($B$) < Commit

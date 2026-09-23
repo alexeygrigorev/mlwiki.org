@@ -26,9 +26,9 @@ Given:
 ## Storing
 Two options 
 - store records themselves in the buckets (clustered index) 
-- store only pointers to actual records (the only option for secondary index) (unclustered index)
+- store only pointers to actual records (the only option for [secondary index](Secondary_Index)) (unclustered index)
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/hash-ways-to-store.png" alt="Image">
-- also see ([Clustered Index](Indexing_%28databases%29)#Clustered_Index))
+- also see (Clustered Index#Clustered_Index))
 
 Do we sort records by key withing buckets
 - we may if we want faster retrieval
@@ -96,7 +96,7 @@ To be able to better cope with growth, there are other approaches:
 
 
 ## See also
-- [Indexing (databases)](Indexing_%28databases%29)
+- Indexing (databases)
 - http://dblab.cs.toronto.edu/courses/443/2013/06.hash-index.html
 
 

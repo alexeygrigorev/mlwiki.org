@@ -42,7 +42,7 @@ Lectures by G. Strang, 2005
 1. Quiz 2 Review [link](http://www.youtube.com/watch?v=sFxA8eIS6tA)
 1. [Symmetric Matrices](Symmetric_Matrices) and [Positive Definiteness](Positive-Definite_Matrices) [link](http://www.youtube.com/watch?v=umt6BB1nJ4w)
 1. [Complex Matrices](Complex_Vector_Space); Fast Fourier Transform [link](http://www.youtube.com/watch?v=M0Sa8fLOajA)
-1. [Positive-Definite Matrices](Positive-Definite_Matrices) and Minima [link](http://www.youtube.com/watch?v=vF7eyJ2g3kU)
+1. Positive-Definite Matrices and Minima [link](http://www.youtube.com/watch?v=vF7eyJ2g3kU)
 1. [Similar Matrices](Similar_Matrices) and Jordan Form [link](http://www.youtube.com/watch?v=z_zYQHmrh08)
 1. [Singular Value Decomposition](Singular_Value_Decomposition) [link](http://www.youtube.com/watch?v=Nx0lRBaXoz4)
 1. [Linear Transformations](Linear_Transformations) and Their Matrices [link](http://www.youtube.com/watch?v=Ts3o2I8_Mxc)

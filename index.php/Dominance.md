@@ -28,7 +28,7 @@ Dominance
 - for the second examples we can say that $b$ *dominates* $c$:
 - $b$ has the same level of quality, but it is cheaper
 - we can remove all *dominated* solutions from the solution space and this will give us the Pareto-optimal set of solutions
-- in [MOO](Multi-Objective_Optimization) this is also called the set of efficient solutions
+- in MOO this is also called the set of efficient solutions
 
 ; dominance
   $a$ dominates $b$ $\iff \forall i: f_i(a) \geqslant f_i(b)$ and $\exists i: f_j(a) > f_j(b)$
@@ -37,7 +37,7 @@ Dominance
 
 This is not always good. Consider this example
 - you're looking for an apartment to rent 
-- you consider price and distance to work (want to minimize both)
+- you consider price and [distance](Distance_Functions) to work (want to minimize both)
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/moo/dominance-bad-case.png" alt="Image">
 - in this case $c$ is dominated by $a$ and $b$: 
   - $b$ is very cheap, $a$ is very close

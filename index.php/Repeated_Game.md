@@ -18,7 +18,7 @@ title: Repeated Game
     - $\beta$ - discount factor ($0 < \beta < 1$)
     - future discounted reward: $\sum_{j=1}{\inf} \beta ^j r_j$
     - $\beta$ can be seen as an "interest rate"
-    - with probability $(1 - \beta)$ game may finish
+    - with [probability](Probability) $(1 - \beta)$ game may finish
 
 ### Stochastic games
 - generalization of repeated games
@@ -36,7 +36,7 @@ title: Repeated Game
     - each turn
       - play a BR to the assumed strategy
       - observe actual play and update beliefs
-  - consider matching pennies
+  - consider [matching pennies](Matching_Pennies)
     - won't converge to a specific value
     - but empirical frequencies will converge to a NA
 - No-regret learning
@@ -65,7 +65,7 @@ title: Repeated Game
   - given you remember anything
 - history, etc
 - so it's an infinite set
-  - example strategies for Prisoner's Dilemma
+  - example strategies for [Prisoner's Dilemma](Prisoner%27s_Dilemma)
     - Tit-for-tat
       - start out cooperating
       - if opponent defects, defect next round

@@ -46,7 +46,7 @@ Costs:
   - $\Gamma(n) = \text{doc}(n) + \text{dsc}(n) = c_f \cdot \cfrac{\lambda}{n} + \cfrac{n}{2} \cdot c_s$
 
 
-Optimization 
+[Optimization](Optimization) 
 - to optimize the cost w.r.t. $n$ we calculate the derivative $\Gamma'(n)$
 - $\Gamma'(n) = - \cfrac{\lambda \cdot c_f}{n^2} + \cfrac{c_s}{2} = 0$
 - $ \cfrac{n^2}{c_f \cdot \lambda} = \cfrac{2}{c_s} $

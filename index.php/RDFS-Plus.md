@@ -7,7 +7,7 @@ title: RDFS-Plus
 ---
 ## RDFS-Plus
 In [Semantic Web](Semantic_Web) [RDFS-Plus](RDFS-Plus) is an extension of [RDFS](RDFS), and a subset of [OWL](OWL)
-- even though the namespace is [OWL](OWL), it's considered as a subset 
+- even though the namespace is OWL, it's considered as a subset 
 - [Inference](Inference_in_Semantic_Web) rules are shown with [SPARQL](SPARQL) CONSTRUCT queries
 - for logical semantics behind there expressions see [Semantic Web Logic](Semantic_Web_Logics)
 - DL-Lite something
@@ -92,7 +92,7 @@ Identity
 - URIs give the global notion of identity
 - but what if we merging two different sources that have the same concept, but under different URIs? 
 - i.e. we want to say that $:A \equiv :B$
-- use [RDFS](RDFS):
+- use RDFS:
   - <code>:A rdfs:subClassOf :B</code> $\land$ <code>:B rdfs:subClassOf :A</code>
 - semantically same effect is achieved with <code>owl:equivalentClass</code>
 
@@ -235,10 +235,10 @@ Examples:
 
 ## See Also
 - [RDFS and OWL Summary](RDFS_and_OWL_Summary)
-- [Semantic Web](Semantic_Web)
-- [RDFS](RDFS) and [OWL](OWL)
-- [Inference in Semantic Web](Inference_in_Semantic_Web)
-- [Semantic Web Logics](Semantic_Web_Logics)
+- Semantic Web
+- RDFS and OWL
+- Inference in Semantic Web
+- Semantic Web Logics
 
 
 ## Sources

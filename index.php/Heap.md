@@ -34,7 +34,7 @@ delete
 
 
 ## Implementation
-- it's a tree with $\approx \log_2 n$ levels
+- it's a [tree](Tree) with $\approx \log_2 n$ levels
 - backed by array
 
 Traversing the tree:
@@ -73,7 +73,7 @@ Java implementation:
     - $H_\text{high}$ (extract-min)
 
 - key idea: maintain invariant that $\approx \cfrac{i}{2}$ smallest (largest) numbers are in $H_\text{low}$ ($H_\text{high}$)
-- so on $20$th step, in $H_\text{low}$ would be $10$th order statistics, and in $H_\text{high}$ - $11$th
+- so on $20$th step, in $H_\text{low}$ would be $10$th order [statistics](Statistics), and in $H_\text{high}$ - $11$th
 - keep the heaps balanced|   (so they have the same number of elements) 
 
 Implementation: [link](http://code.google.com/p/codeforces-solutions-java/source/browse/trunk/codeforces-java/src/main/java/coursera/algo1/week6/NextMedian.java)

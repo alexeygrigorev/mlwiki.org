@@ -14,7 +14,7 @@ Noise - a modification of the original value
 
 
 Reasons for Noise:
-- Faulty data collection instruments 
+- Faulty [data collection](Data_Collection) instruments 
 - people don't want to put data and put some garbage 
 - e.g. age - 40 - true or false?
 - Data entry or transmission problems 

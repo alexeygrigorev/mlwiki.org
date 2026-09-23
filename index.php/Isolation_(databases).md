@@ -6,7 +6,7 @@ tags:
 title: Isolation (databases)
 ---
 ## Isolation
-A transaction is a sequence of updates to the database 
+A transaction is a sequence of updates to the [database](Database) 
 - a transaction must be [consistent](Consistency_%28databases%29)
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/transaction-consistency.png" alt="Image">
 - we need to ensure that all the transactions run in isolation

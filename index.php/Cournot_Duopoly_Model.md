@@ -17,7 +17,7 @@ Set Up:
   - $q_2$ is the number of produced units for $c_2$
   - so the set of actions each firm can take is $\mathbb{N}$ - all positive numbers
 - $q = q_1 + q_2$
-- but the market has limits
+- but the market has [limits](Limits)
   - if both companies decide to produce too much, not everything will be sold
   - and the price will go down
 - let $p(q) = A - q$ be the price per unit, where $A$ is some constant
@@ -53,7 +53,7 @@ We want to maximize the payoff
   - or $A - c_2 = q_1 + 2 q_2$
 - so assuming they cooperate and both want to find the best strategy, we have
   - $
-\left\{\begin{matrix}
+\left\{\begin{[matrix](Matrix)}
 A - c_1 = q_2 - 2q_1 \\ 
 A - c_2 = q_1 + 2q_2
 \end{matrix}\right.$

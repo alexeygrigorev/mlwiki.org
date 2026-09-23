@@ -30,9 +30,9 @@ Example
 
 
 ## See Also
-- [Physical Operators (databases)](Physical_Operators_%28databases%29)
+- Physical Operators (databases)
 - [Data Discretization](Data_Discretization)
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

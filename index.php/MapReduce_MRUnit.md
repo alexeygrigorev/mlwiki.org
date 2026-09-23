@@ -26,7 +26,7 @@ For Hadoop2:
 
 Use classifier <code>hadoop1</code> for Hadoop1 
 
-This version works well with Hadoop <code>2.6.0-cdh5.4.7</code>
+This version works well with [Hadoop](Hadoop) <code>2.6.0-cdh5.4.7</code>
 
 
 ### Mapper Test

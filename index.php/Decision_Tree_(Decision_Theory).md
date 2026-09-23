@@ -20,7 +20,7 @@ Notation:
 A *simple lottery* $l$ on $X$ is
 - a discrete [Random Value](Random_Value) on $X$
 - $l = \{(x_1, p_1), (x_2, p_2), ..., (x_n, p_n) \}$
-- $x_i$ is a consequence, $p_i$ is the probability that $x_i$ will happen
+- $x_i$ is a consequence, $p_i$ is the [probability](Probability) that $x_i$ will happen
 - this is a simple model: it depends only on one set of consequences 
 
 
@@ -46,11 +46,11 @@ Notation
 
 
 ## Decision Trees
-Decision Trees have three kinds of nodes:
+[Decision Trees](Decision_Tree) have three kinds of nodes:
 - decision nodes
   - here the decision maker has to choose which action to implement
 - chance nodes 
-  - at a chance node the Nature chooses a branch according to the probability distribution 
+  - at a chance node the Nature chooses a branch according to the probability [distribution](Distributions) 
   - this is a lottery of higher order
 - terminal nodes 
   - single lotteries out of $L(X)$

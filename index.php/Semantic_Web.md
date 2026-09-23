@@ -21,7 +21,7 @@ What we currently have in WWW:
 ### DIKW
 DIKW [link](http://en.wikipedia.org/wiki/DIKW_Pyramid): data $\to$ information $\to$ knowledge $\to$ wisdom $\Rightarrow$ decision 
 - D - just collecting data, smb enters data into a web app - just values
-- I - databases (RDBs, XML, etc) - now you have some structure
+- I - [databases](Database) (RDBs, XML, etc) - now you have some structure
   - but also know when it was collected, by whom, etc - i.e. with some metadata
 - K - reports, analysis - to facilitate decision making
 - W - to increase effectiveness 
@@ -36,7 +36,7 @@ So the goal is to have machine-readable linked data. We want to have "Smart Web"
 
 
 ### Motivation: Integration
-Data integration and distribution
+[Data integration](Data_Integration) and [distribution](Distributions)
 - suppose that two servers share the same tables
 - but tables have different schemas 
 - how do we know that one columns in first db corresponds to another one in second?
@@ -46,7 +46,7 @@ Data integration and distribution
   - global reference for column
   - global reference for the value in the cell 
 - such cells can be stored on any of these servers 
-- this is the basic idea of [RDF](RDF)
+- this is the basic idea of RDF
 - and global references are URIs
 
 
@@ -60,7 +60,7 @@ Smart Managing of Data
 
 
 ### Linked Data
-Linked Open Data: a giant graph 
+Linked Open Data: a giant [graph](Graph) 
 - all these sources provide RDF data
 - every circle - a source of data, the bigger - the more articles it has 
 - the bigger the arrow - the more links from one source to another
@@ -111,11 +111,11 @@ How to model data in such a way so it's good for the web scale
 - need to explain things in understandable way
 - and then be able to reuse it 
 - need to be formal so machines can understand it, and *logical inference* is possible
-- Result of modeling: [Ontologies](Ontologies)
+- Result of modeling: Ontologies
 
 
 Semantic Web provides a number of modeling languages with different degree of expressivity:
-- [RDF](RDF) - resource definition framework
+- RDF - resource definition framework
   - the basic mechanism to make basic statements about anything
 - [RDFS](RDFS) - schema for RDF, expresses classes, subclasses and properties
 - [RDFS-Plus](RDFS-Plus) - a subset of OWL, more expressive than RDFS, less complex than OWL
@@ -128,7 +128,7 @@ Formal foundation for RDFS and OWL:
 
 ### Logical Inference
 <!-- Main: Inference in Semantic Web -->
-[RDFS](RDFS) and [OWL](OWL) allow new tuples to be created from facts asserted in the database
+RDFS and OWL allow new tuples to be created from facts asserted in the database
 
 
 ## [Semantic Web/Application Architecture](Semantic_Web_Application_Architecture)

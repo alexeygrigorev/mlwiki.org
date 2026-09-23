@@ -68,11 +68,11 @@ Job Submission:
 
 
 ### Job Initialization
-- when the Resource Manager get a call to its <code>submit</code>, it passes it to YARN Scheduler
+- when the Resource Manager get a call to its <code>submit</code>, it passes it to YARN [Scheduler](Scheduler)
 - The Scheduler allocates a container that satisfies the requirements
 - the Resource Manager launches the Application Master process there
-- For MapReduce, the Application Master is <code>MRAppMaster</code> class - it creates some bookkeeping classes to monitor the progress
-- Then it retrieves the input splits from HDFS
+- For [MapReduce](MapReduce), the Application Master is <code>MRAppMaster</code> class - it creates some bookkeeping classes to monitor the progress
+- Then it retrieves the input splits from [HDFS](Hadoop_Distributed_File_System)
 - and creates map tasks for each split and reducer tasks (set with <code>setNumReduceTasks()</code>)
 - each task is assigned an ID
 

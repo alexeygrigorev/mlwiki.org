@@ -21,7 +21,7 @@ If $pn + 1$ objects are placed into $n$ boxes, then at least one box will contai
 ## Problems
 
 ### Problem 1
-There are 1 million fir trees in a forest and it is known that each of them has at most 600 thousand needles. Prove that there exist at least two trees with the same number of needles.
+There are 1 million fir [trees](Tree) in a forest and it is known that each of them has at most 600 thousand needles. Prove that there exist at least two trees with the same number of needles.
 
 - 1,000,000 trees (objects)
 - 600,001 boxes - each tree has $0 \leqslant k \leqslant 600,000$ needles

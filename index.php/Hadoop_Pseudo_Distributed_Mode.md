@@ -56,7 +56,7 @@ Hadoop in "Pseudo-distributed mode" should have properties similar to these:
  <?xml version="1.0"?>
  <configuration>
    <property>
-     <name>dfs.replication</name>
+     <name>dfs.[replication](Replication)</name>
      <value>1</value>
    </property>
  </configuration>
@@ -65,7 +65,7 @@ Hadoop in "Pseudo-distributed mode" should have properties similar to these:
  <?xml version="1.0"?>
  <configuration>
    <property>
-     <name>mapreduce.framework.name</name>
+     <name>[mapreduce](MapReduce).framework.name</name>
      <value>yarn</value>
    </property>
  </configuration>

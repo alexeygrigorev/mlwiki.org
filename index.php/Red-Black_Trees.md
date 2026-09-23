@@ -22,11 +22,11 @@ Idea
 - every path from the root to NULL-nodes passed the same amount of black nodes
 
 ## Operations
-All the operations expect insert and delete are performed as usual in [Binary Search Trees](Binary_Search_Trees)
+All the operations expect insert and delete are performed as usual in Binary Search Trees
 
 
 ## See also
-- [Binary Search Trees](Binary_Search_Trees)
+- Binary Search Trees
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

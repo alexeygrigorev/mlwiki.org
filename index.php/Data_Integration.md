@@ -6,7 +6,7 @@ tags:
 title: Data Integration
 ---
 ## Data Integration
-Goal of Data Integration - provide uniform access to heterogeneous data sources in some domain. 
+Goal of Data Integration - provide uniform access to heterogeneous [data sources](Data_Sources) in some domain. 
 
 
 ## Main approaches
@@ -29,7 +29,7 @@ Goal of Data Integration - provide uniform access to heterogeneous data sources 
 
 ## See Also
 - [Data Transformation](Data_Transformation)
-- [ETL](ETL)
+- ETL
 - [Data Warehousing](Data_Warehousing)
 
 ## Links

@@ -19,8 +19,8 @@ So it's usually a set of products:
 
 Hadoop
 - Any combination of them is still referred as Hadoop 
-- Lots of vendors (like HortonWorks) provide their own distributions of Hadoop
-- Even though [MapReduce](MapReduce) is considered the most important part, it is entirely optional: we may just use HDFS and HBase - and still will consider this combination Hadoop 
+- Lots of vendors (like HortonWorks) provide their own [distributions](Distributions) of Hadoop
+- Even though MapReduce is considered the most important part, it is entirely optional: we may just use HDFS and HBase - and still will consider this combination Hadoop 
 
 
 ## MapReduce Component
@@ -44,7 +44,7 @@ So it's performed in two steps
   - each block is replicated 3 times to guarantee fault-tolerance
 - *map phase*
   - each block is assigned to a map worker
-  - it applies the [map function](MapReduce#Map_Function) to it
+  - it applies the map function to it
   - intermediate results are sorted locally
   - then it's stored on local disk of mapper
   - it's partitioned into $R$ reduce tasks 
@@ -59,7 +59,7 @@ So it's performed in two steps
     - read the input and group it by key
   - each record is assigned to only one reduces 
 - *reduce phase*
-  - now apply the [reduce function](MapReduce#Reduce_Function) to each group
+  - now apply the reduce function to each group
   - output is stored and replicated 3 times
 
 
@@ -99,12 +99,12 @@ Result: no communication costs
 
 
 ## Advantages
-- [MapReduce](MapReduce) is simple and expressive
+- MapReduce is simple and expressive
   - computing aggregation is easy
 - flexible
   - no dependency on [Data Model](Data_Model) or schema
     - especially good for unstructured data
-    - cannot do that in [Database](Database)s
+    - cannot do that in Databases
   - can write in any programming language
 - fault-tolerance
   - detect failures and re-assigns tasks of failed nodes to others in the cluster
@@ -120,13 +120,13 @@ However it has many disadvantages
 
 ### No Query Language
 No high-level declarative language as SQL
-- [MapReduce](MapReduce) is very low level - need to know programming languages 
+- MapReduce is very low level - need to know programming languages 
 - programs are expensive to write and to maintain
 - programmers that can do that are expensive
 - for [Data Warehousing](Data_Warehousing): [OLAP](OLAP) is not that good in MapReduce
 
 Possible solutions: 
-- [Pig](Pig) and [Hive](Hive)
+- Pig and Hive
 
 
 ### Performance
@@ -134,15 +134,15 @@ Performance issues:
 - no schema, no index, need to parse each input
   - may cause performance degradation
 - not tuned for multidimensional queries
-- possible solutions: [HBase](HBase), [Hive](Hive)
+- possible solutions: HBase, Hive
 - because of fault-tolerance and scalability - it's not always optimized for I/O cost
   - all intermediate results are materialized (no [Pipelining](Pipelining))
-  - triple replication
+  - triple [replication](Replication)
 - low latency
   - big overhead for small queries (job start time + jvm start time)
 
-Solutions for I/O optimization
-- [HBase](HBase)
+Solutions for I/O [optimization](Optimization)
+- HBase
   - [Column-Oriented Database](Column-Oriented_Databases) that has index structures
   - data compression (easier for Column-Oriented Databases)
 - Hadoop++ [link](https://infosys.uni-saarland.de/projects/hadoop.php)
@@ -154,9 +154,9 @@ Solutions for I/O optimization
 ### Map and Reduce are Blocking
 - a transition from Map phase to Reduce phase cannot be made while Map tasks are still running
   - reason for it is that relies on [External Merge Sort](External_Merge_Sort) for grouping intermediate results
-  - [Pipelining](Pipelining) is not possible
+  - Pipelining is not possible
 - latency problems from this blocking processing nature
-- causes performance degradation - bad for [on-line processing](OLAP)
+- causes performance degradation - bad for on-line processing
 
 Solution
 - Incremental MapReduce (like in [CouchDB](CouchDB) [[link](http://eagain.net/articles/incremental-mapreduce/)(http://stackoverflow.com/questions/11236676/why-is-mapreduce-in-couchdb-called-incremental]))
@@ -176,7 +176,7 @@ Solution
 - Design
   - read simple input
   - generate simple output
-- Again, tools like [Hive](Hive) can help
+- Again, tools like Hive can help
 
 
 ### Other
@@ -191,12 +191,12 @@ And finally, it's very young
 - http://www.stanford.edu/class/ee380/Abstracts/111116.html - a lecture about Hadoop from Cloudera CTO 
 
 ## See also
-- [MapReduce](MapReduce)
-- [Hadoop Distributed File System](Hadoop_Distributed_File_System)
+- MapReduce
+- Hadoop Distributed File System
 - [Hadoop in Data Warehousing](Hadoop_in_Data_Warehousing)
 
 ## Sources
 - Lee et al, Parallel Data Processing with MapReduce: A Survey [link](http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf)
-- Ordonez et al, Relational versus non-relational database systems for data warehousing [link](http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf)
+- Ordonez et al, Relational versus non-relational database systems for [data warehousing](Data_Warehouse) [link](http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf)
 - Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [link](http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/)
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)

@@ -28,7 +28,7 @@ Note:
 
 ### Property 1
 If a [matrix](Matrix) game ([Normal Form Game](Normal_Form_Game)) can be solved by using iterative removal of strictly dominated strategies
-- (1) then the found solution is a [Nash Equilibrium](Nash_Equilibrium)
+- (1) then the found solution is a Nash Equilibrium
 - (2) this equilibrium is unique
 
 Recall that a profile $(s^*_1, s^*_2)$ is a Nash Equilibrium if 
@@ -79,7 +79,7 @@ This means we never can remove a NE by iterative removal.
 
 ## Examples
 ### Example 1
-Consider this [Normal Form Game](Normal_Form_Game) with 2 players and with 3 actions each 
+Consider this Normal Form Game with 2 players and with 3 actions each 
 
 |   $p_2 \to$ <br> $p_1 \downarrow$   |  $L$  |  $C$  |  $R$   |   $T$   |  (1,0)  |  (1,3)  |  (3,0) ||   $M$   |  (0,2)  |  (0,1)  |  (3,0) ||   $B$   |  (0,2)  |  (2,4)  |  (5,3) |
 
@@ -115,7 +115,7 @@ Remove strategies iteratively:
 So we end with the following matrix: 
 
 |    |  $C_1$  |  $C_3$  |   $R_2$   |  (3, 3)  |  (0, 1) ||   $R_3$   |  (2, 5)  |  (1, 8) |
-Now apply the [Nash Equilibrium](Nash_Equilibrium) rule
+Now apply the Nash Equilibrium rule
 - $(R_3, C_1)$ - not an equilibrium, both players want to deviate 
 - same for $(R_2, C_3)$
 - the Nash Equilibria are $(R_2, C_1)$ and $(R_3, C_3)$ - they are stable and no one wants to deviate

@@ -32,7 +32,7 @@ Or quantification of positive arguments
 For ELECTRE 1, when comparing $a$ and $b$
 - identify all criteria $g_j$ such that $g_j(a) \geqslant g_j(b)$
 - for all such criteria $g_j$ sum their weights $w_j$, 
-- let $W$  be the sum of all weights: $W = \sum_i w_i$ (we use this for normalization)
+- let $W$  be the sum of all weights: $W = \sum_i w_i$ (we use this for [normalization](Feature_Normalization))
 - define the concordance index as:
 - : $c(a, b) = \cfrac{1}{W} \sum_{j: g_j(a) \geqslant g_j(b)} w_j$
 
@@ -51,7 +51,7 @@ We want to find a strong argument against $a \ P \ b$
 - if we find such an argument then we cannot say that $a \ P \ b$
 
 For ELECTRE I, define $d(a, b)$ as 
-- 0 when $\forall j: g_j(a) \geqslant g_j(v)$ (none when there's [Unanimity](Unanimity))
+- 0 when $\forall j: g_j(a) \geqslant g_j(v)$ (none when there's Unanimity)
 - if $\exists g_i: g_i(b) \geqslant g_i(a)$ then we have an argument against $a \ P \ b$
 - in this case we want to identify the largest difference between $a$ and $b$:
   - $\cfrac{1}{\delta} \max_j [g_j(b) - g_j(a)]$
@@ -85,9 +85,9 @@ Note that this relation gives us partial order:
 
 
 ## [Graph Kernel](Graph_Kernel)s
-Graph Kernels are used to identify good alternatives. 
+[Graph Kernels](Graph_Kernel) are used to identify good alternatives. 
 
-It is possible to express the outranking relation $S$ in form of a directed graph 
+It is possible to express the outranking relation $S$ in form of a directed [graph](Graph) 
 
 Example:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/mcda/electree-graph.png" alt="Image">
@@ -215,4 +215,4 @@ Based on the Concordance and Discordance we define the outranking relation $S$
 - [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 - http://web.itu.edu.tr/~topcuil/ya/MDM08Outranking.pptx
 - http://electre.no.sapo.pt/MElecI2.htm
-- Multiple Criteria Decision Analysis: State of the Art Surveys, 2005 
+- Multiple Criteria [Decision Analysis](Decision_Analysis): State of the Art Surveys, 2005 

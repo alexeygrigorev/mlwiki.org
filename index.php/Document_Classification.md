@@ -64,7 +64,7 @@ Why TF-IDF is good for classification:
   - if dimensionality of data is $| V'|$ and there are $N$ examples in the training set
 - then it's good to have $| V'| \approx N$ to avoid overfitting
 
-We can divide dimensionality reduction techniques by locality: 
+We can divide [dimensionality reduction](Dimensionality_Reduction) techniques by locality: 
 - local dimensionality reduction
   - applied to each category $c_i$ 
   - choose a reduced set $|  V'_i | \ll | V_i |$  for each category
@@ -82,17 +82,17 @@ Usual IR and indexing techniques for reducing dimensionality are
 - [Stemming](Stemming) or [Lemmatization](Lemmatization)
 
 
-[Stop Words](Stop_Words) Removal
+Stop Words Removal
 - Before indexing some *function words* are sometimes removed 
-- for example [Stop Words](Stop_Words) - topic neutral words such as articles, prepositions, conjunctions
+- for example Stop Words - topic neutral words such as articles, prepositions, conjunctions
 - cases when stop words are not removed: author identification ("the little words give authors away")
 
 
-[Stemming](Stemming)
+Stemming
 - Stemming is grouping words that share the same morphological root 
 - it's controversial whether it's helpful for document classification or not
 - usually it's used: it reduces the dimensionality 
-- sometimes [Lemmatization](Lemmatization) is applied instead, but it's more involved
+- sometimes Lemmatization is applied instead, but it's more involved
 
 
 

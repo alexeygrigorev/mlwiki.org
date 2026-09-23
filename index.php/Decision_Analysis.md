@@ -33,7 +33,7 @@ There are two categories of decision analysis tools that help model this:
 
 
 ### [Decision Under Uncertainty](Decision_Under_Uncertainty)
-- we are not able to asses the distribution, but we can list all possible scenarios
+- we are not able to asses the [distribution](Distributions), but we can list all possible scenarios
 
 Methods
 - [Max Min Strategy](Max_Min_Strategy) - extreme pessimism 
@@ -44,7 +44,7 @@ Methods
 
 
 ### [Decision Under Risk](Decision_Under_Risk)
-- $c(a)$ is not known with certainty, but we know the probability distribution on the set of $X$
+- $c(a)$ is not known with certainty, but we know the [probability](Probability) distribution on the set of $X$
 
 [Decision Trees](Decision_Tree_%28Decision_Theory%29)
 - [Expected Values for Lotteries](Expected_Values_for_Lotteries)

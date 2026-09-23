@@ -17,10 +17,10 @@ Decision Engineering is about helping to make a decision
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/vt/decision-enginering-overview.png" alt="Image">
 
 It includes several disciplines: 
-- Voting Theory
+- [Voting Theory](Voting_Theory)
 - Multicriteria Decision Aid
-- Decision Under Risk and Uncertainty
-- Game Theory
+- [Decision Under Risk](Decision_Under_Risk) and Uncertainty
+- [Game Theory](Game_Theory)
 
 
 ### [Voting Theory](Voting_Theory)
@@ -34,7 +34,7 @@ It includes several disciplines:
 [Condorcet's Rule](Condorcet's_Rule)
 |  |[Monotonicity](Monotonicity) <br/>
 [Independence to Third Alternatives](Independence_to_Third_Alternatives) <br/>
-[Condorcet Fairness Criterion](Condorcet's_Rule#Fairness) <br/>
+Condorcet Fairness Criterion <br/>
 [Separability](Separability)
 
 Theorems:
@@ -55,7 +55,7 @@ Other concepts:
 - [Weighted Sum Model](Weighted_Sum_Model)
 - [Ideal Point Model](Ideal_Point_Model)
 
-MCDA:
+[MCDA](MCDA):
 - [Modeling Preferences](Modeling_Preferences)
 - [Preferential Independence](Preferential_Independence)
 
@@ -81,7 +81,7 @@ Methods:
 - [Laplace Rule](Laplace_Rule)
 
 
-[Decision Under Risk](Decision_Under_Risk)
+Decision Under Risk
 - [Decision Trees](Decision_Tree_%28Decision_Theory%29) and [Decision Tree Exercises](Decision_Tree_Exercises)
 - [Expected Values for Lotteries](Expected_Values_for_Lotteries)
 - [Expected Utility Theory](Expected_Utility_Theory)

@@ -34,10 +34,10 @@ Cross-over
   - note that we should not always select only "the best" - we need diversity
 
 
-How to create a petri net from two other petri nets?
+How to create a [petri net](Petri_Net) from two other petri nets?
 - suppose we have two parental petri nets:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/gm-crossover-p.png" alt="Image">
-- we may find some *minimal cut*, cut the parents and make children from then 
+- we may find some *[minimal cut](Minimal_Cut)*, cut the parents and make children from then 
   - minimal cut is the minimal number of transitions to remove s.t. the net becomes completely disconnected 
   - the same as in the [Graph](Graph) Theory: Minimal Cut
 - in this example: 

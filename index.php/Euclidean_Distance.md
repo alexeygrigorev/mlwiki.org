@@ -8,7 +8,7 @@ title: Euclidean Distance
 ---
 ## Euclidean Distance
 Euclidean distance is a geometric [Distance](Distance) between two datapoints
-- distance between $\mathbf x_1$ and $\mathbf x_2$ is 
+- [distance](Distance_Functions) between $\mathbf x_1$ and $\mathbf x_2$ is 
 - length of the line that connects these two points:
 - $\|  \mathbf x_1 - \mathbf x_2 \| = \sqrt{ (\mathbf x_1 - \mathbf x_2)^T (\mathbf x_1 - \mathbf x_2) } = \sqrt{\sum_i (x_{1i} - x_{2i})^2}$
 
@@ -51,4 +51,4 @@ When the data is sparse it's better to use different measure of distance/similar
 ## Sources
 - http://en.wikipedia.org/wiki/Euclidean_distance
 - Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [link](http://static.msi.umn.edu/rreports/2003/73.pdf)
-- Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On principal component analysis, cosine and Euclidean measures in information retrieval." 2007. [link](http://www.sciencedirect.com/science/article/pii/S0020025507002630) 
+- Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On [principal component analysis](Principal_Component_Analysis), cosine and Euclidean measures in [information retrieval](Information_Retrieval)." 2007. [link](http://www.sciencedirect.com/science/article/pii/S0020025507002630) 

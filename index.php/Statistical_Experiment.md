@@ -45,14 +45,14 @@ Randomized Experiments
 ### Principles of Experimental Design
 - Controlling
 - Randomization 
-- Replication
+- [Replication](Replication)
 - Blocking
 
 
 ### Controlling
 - We want to see if there's any causal relationship between the variables
 - so do the best to control any other difference in the group
-  - to make sure there's nothing else that might interfere with the experiment (no [Confounding Variables](Confounding_Variables))
+  - to make sure there's nothing else that might interfere with the experiment (no Confounding Variables)
   - e.g. the exposure to sun in the previous example
 
 Example

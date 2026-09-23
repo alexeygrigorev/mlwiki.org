@@ -29,7 +29,7 @@ A point estimate - is a single plausible value for a parameter
 
 
 ## See Also
-- [Confidence Intervals](Confidence_Intervals)
+- Confidence Intervals
 - [Sampling Distribution](Sampling_Distribution)
 
 ## Sources

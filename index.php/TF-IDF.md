@@ -15,7 +15,7 @@ Suppose we have
 - a collection of documents $\mathcal D = \{ d_1, \ ... \ , d_N \}$ with $N$ documents
 - the vocabulary $V = \{ w_1, \ ... \ , w_M \}$ consisting of $M$ words
 - then each document is represented by $d = (x_1, x_2, \ ... \ , x_M)$ where $x_i$ is the weight assigned to the word $w_i$ in the document $d \in \mathcal D$
-- let $D$ be a matrix with rows indexed by documents and columns indexed by words. $D$ is called a Document-Term matrix
+- let $D$ be a [matrix](Matrix) with rows indexed by documents and columns indexed by words. $D$ is called a Document-Term matrix
 
 
 
@@ -99,12 +99,12 @@ Intuition:
 
 So, we can combine then my multiplying:
 - $\text{tf-idf}(w, d \mid \mathcal D) = (1 + \log \text{tf}(w, d)) \cdot \log \cfrac{|\mathcal D|}{\text{df}(w, \mathcal D)}$
-- this is often used in [Text Mining](Text_Mining), but in [Information Retrieval](Information_Retrieval) there can be other components in the TF-IDF
+- this is often used in Text Mining, but in Information Retrieval there can be other components in the TF-IDF
 
 
 ### Normalization
 In systems where vectors have very different lengths a third component of a weight can be useful: 
-- Term normalization component
+- Term [normalization](Feature_Normalization) component
 
 
 Why? 
@@ -149,5 +149,5 @@ Smoothing and TF-IDF are connected
 
 ## Sources
 - [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)
-- Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
+- Zhai, ChengXiang. "[Statistical language models](Statistical_Language_Models) for information retrieval." 2008.
 - Salton, Gerard, and Christopher Buckley. "Term-weighting approaches in automatic text retrieval." 1988. [link](http://www.cs.odu.edu/~jbollen/spring03_IR/readings/article1-29-03.pdf)

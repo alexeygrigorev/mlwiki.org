@@ -10,16 +10,16 @@ title: NoSQL
 - Typically have strict schema
 - Declarative query language SQL (excellent for ad-hoc queries, easy joins)
 - Good transactions support ([ACID](ACID))
-- Algebraic Optimization
+- Algebraic [Optimization](Optimization)
 - Caching / Materialized Views 
 - Strong [ Consistency](Consistency_%28databases%29)
 
 ### Downsides
 - many services don't require complex ad-hoc querying
 - typically choose [consistency](Consistency_(databases)) over availability (see the [CAP Theorem](CAP_Theorem))
-- replication solutions are limited
+- [replication](Replication) solutions are limited
   - use traditional replication algorithms to give strong [consistency](Consistency_(databases)) (like [Two-Phase Commit](Two-Phase_Commit))
-  - but data is not made available until the commit finishes (and the database is back to the consistent state)
+  - but data is not made available until the commit finishes (and the [database](Database) is back to the consistent state)
   - not an option for systems where network failures are possible
 - as the volume of data grows, queries become inefficient - not easily scalable
 - need to wait too long for all replicas to finish with commit
@@ -29,7 +29,7 @@ title: NoSQL
 ### [Column-Oriented Databases](Column-Oriented_Databases)
 Are better for storing large amounts of data, especially when the number of columns is very large
 
-- Sets of columns are stored together, so a particular record is actually split across several blocks
+- [Sets](Sets) of columns are stored together, so a particular record is actually split across several blocks
 - Within each block data is stored in sorted order
 - Need to maintain "join index" - to pull together different blocks that are for the same record
 - Especially good for analytical queries (such as [OLAP](OLAP))
@@ -65,7 +65,7 @@ Showed that in-memory indexes can be highly scalable and it's possible to distri
 - important concept: [Consistent Hashing](Consistent_Hashing)
 
 ### Dynamo
-Pioneered the idea of eventual consistency as a new way to achieve higher availability and scalability :
+Pioneered the idea of [eventual consistency](Eventual_Consistency) as a new way to achieve higher availability and scalability :
 - data fetches are not guaranteed to be up-to-date, but
 - updates are guaranteed to be propagated to all nodes (eventually)
 - DHT (Distributed Hash Table) with replication 
@@ -74,7 +74,7 @@ Pioneered the idea of eventual consistency as a new way to achieve higher availa
 - Reconciliation at read time:
   - writes never fail
   - conflict resolution: last write wins or application specific
-- [Configurable Consistency](Eventual_Consistency#Configurable_Consistency)
+- Configurable Consistency
 
 
 ### BigTable

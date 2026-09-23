@@ -23,8 +23,8 @@ What we can do is to add other math-related classes:
 Mathematical expressions are usually contained within special tags, e.g. inside tag <code>&lt;math&gt;&lt;/math&gt;</code> for wikipedia, or inside <code>$$</code> for latex documents. 
 
 - We find all such mathematical expressions and replace each with a unique single token "*MATH_mathID*"
-- the mathID could be a randomly generated string or result of some hash function applied to the content of formula. The latter approach is preferred when we want to have consistent strings across several runs. 
-- Then we apply traditional [POS Tagging](POS_Tagging) techniques to the textual data. They typically will annotate such "*MATH_mathID*" tokens as nouns
+- the mathID could be a randomly generated string or result of some [hash function](Hash_Function) applied to the content of formula. The latter approach is preferred when we want to have consistent strings across several runs. 
+- Then we apply traditional POS Tagging techniques to the textual data. They typically will annotate such "*MATH_mathID*" tokens as nouns
 - after that we may want to re-annotate all math tokens: if it contains only one identifier, we label it as *ID*, if several - as *MATH*. But in some cases we want to keep original annotation
 - after that we can bring the mathematical content back to the document
 

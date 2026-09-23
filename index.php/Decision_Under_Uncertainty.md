@@ -38,7 +38,7 @@ Filling this table in is already very difficult (the same is in [MCDA](MCDA) pro
 
 
 ## [Dominance](Dominance)
-Using the dominance principle we can remove a set of actions from $A$
+Using the [dominance](Dominance) principle we can remove a set of actions from $A$
 - we can always remove the actions that are dominated 
 - the definition is exactly the same as for [Normal Form Game](Normal_Form_Game)s 
 - $a \ D \ b$ - $a$ dominates $b$

@@ -7,7 +7,7 @@ tags:
 title: Dijkstra's Shortest Path
 ---
 ## Dijkstra's Shortest Path
-Goal: to find the shortest path in a graph from a single-source s
+Goal: to find the shortest path in a [graph](Graph) from a single-source s
 
 input
 - directed graph $G = (V, E)$
@@ -127,7 +127,7 @@ private static List<HeapNode<Integer, Integer>> prepareHeapNodesList(int n) {
 }
 ```
 
-Heap implementation can be found here: [Heap#Implementation](Heap#Implementation)
+Heap implementation can be found here: Heap#Implementation
 
 
 ## See also

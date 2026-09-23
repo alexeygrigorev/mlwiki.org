@@ -226,7 +226,7 @@ The merge sort algorith is very easy to extend to sort large amounts of data tha
 
 
 ## See Also
-- [Divide and Conquer](Divide_and_Conquer)
+- Divide and Conquer
 - [Quick Sort](Quick_Sort)
 
 ## Sources

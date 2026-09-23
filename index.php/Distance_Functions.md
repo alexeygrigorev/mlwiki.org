@@ -12,7 +12,7 @@ A metric function (or distance) is a generalization of geometric distance (i.e. 
 
 
 Direct similarity measures are not always reliable for high-dimensional clustering (see Guha1999)
-- [Euclidean Distance](Euclidean_Distance)
+- Euclidean Distance
 - [Edit Distance](Edit_Distance)
 
 

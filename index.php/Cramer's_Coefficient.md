@@ -11,9 +11,9 @@ title: Cramer's Coefficient
 
 ## Cramer's Coefficient
 Note about [$\chi^2$ Test of Independence](Chi-Squared_Test_of_Independence):
-- when the size of a data set increases, the gap between observed and expected values also increases
-- even if the distribution remains unchanged
-- thus we reject the independence hypothesis as the size grows 
+- when the size of a data set increases, the gap between observed and [expected values](Expected_Value) also increases
+- even if the [distribution](Distributions) remains unchanged
+- thus we reject the [independence](Independence) hypothesis as the size grows 
 - Crammer's Coefficient provides a solution for that
 
 
@@ -23,7 +23,7 @@ The Cramer's coefficient $v$
 - with $\chi^2_\text{max} = N \times ( \min(N, P) - 1 )$ where
   - $N$ is the number of tuples and $P$ the number of attributes 
 - $V \in [0, 1]$
-- 0 - maximal independence, and 1 - maximal correlation
+- 0 - maximal independence, and 1 - maximal [correlation](Correlation)
 
 
 ## Example

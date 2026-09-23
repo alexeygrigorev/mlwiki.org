@@ -34,7 +34,7 @@ Setup
 <td>
 | + Observed Values ||    |  $a_1$  |  $a_2$  |  ...  |  $a_n$  |  row total  |   $b_1$  |  $O_{11}$  |  $O_{21}$  |  ...  |  $O_{n1}$  |  $r_1$ ||   $b_2$  |  $O_{12}$  |  $O_{22}$  |  ...  |  $O_{n2}$  |  $r_2$ ||   ...  |  ...  |  ...  |  ...  |  ...  |  ||   $b_m$  |  $O_{1m}$  |  $O_{2m}$  |  ...  |  $O_{nm}$  |  $r_m$ ||   col total   |  $c_1$  |  $c_2$  |  ...  |  $c_n$  |  $N$  |</td>
 <td>
-| + Expected Values ||    |  $a_1$  |  $a_2$  |  ...  |  $a_n$  |  row total  |   $b_1$  |  $E_{11}$  |  $E_{21}$  |  ...  |  $E_{n1}$  |  $r_1$ ||   $b_2$  |  $E_{12}$  |  $E_{22}$  |  ...  |  $E_{n2}$  |  $r_2$ ||   ...  |  ...  |  ...  |  ...  |  ...  |  ||   $b_m$  |  $E_{1m}$  |  $E_{2m}$  |  ...  |  $E_{nm}$  |  $r_m$ ||   col total   |  $c_1$  |  $c_2$  |  ...  |  $c_n$  |  $N$  |</td>
+| + [Expected Values](Expected_Value) ||    |  $a_1$  |  $a_2$  |  ...  |  $a_n$  |  row total  |   $b_1$  |  $E_{11}$  |  $E_{21}$  |  ...  |  $E_{n1}$  |  $r_1$ ||   $b_2$  |  $E_{12}$  |  $E_{22}$  |  ...  |  $E_{n2}$  |  $r_2$ ||   ...  |  ...  |  ...  |  ...  |  ...  |  ||   $b_m$  |  $E_{1m}$  |  $E_{2m}$  |  ...  |  $E_{nm}$  |  $r_m$ ||   col total   |  $c_1$  |  $c_2$  |  ...  |  $c_n$  |  $N$  |</td>
 </tr>
 </table>
 
@@ -60,8 +60,8 @@ or, in vectorized form,
 
 
 ### $X^2$-statistics Calculation
-Statistics
-- assuming independence, we would expect that the values in the cells are distributed uniformly with small deviations because of sampling variability
+[Statistics](Statistics)
+- assuming [independence](Independence), we would expect that the values in the cells are distributed uniformly with small deviations because of [sampling](Sampling) variability
 - so we calculate the expected values under $H_0$ and check how far the observed values are from them 
 - we use the standardized squared difference for that and calculate $X^2$ statistics that under $H_0$ follows [$\chi^2$ distribution](Chi-Squared_Distribution) with $\text{df} = (n - 1) \cdot (m - 1)$
 
@@ -167,7 +167,7 @@ c(chi2$statistic, chi2$p.value)
 ```
 
 So we see that the sample size matters
-- possible solution is to use [Cramer's Coefficient](Cramer's_Coefficient) that tells how much two variables correlate
+- possible solution is to use Cramer's Coefficient that tells how much two variables correlate
 
 
 
@@ -195,7 +195,7 @@ So we record the outcomes
 
 | + observed outcomes ||    |  current  |  test 1  |  test 2  |  total  |   success   |  3511  |  1749  |  1818  |  7078 ||   failure   |  1489  |  751  |  682  |  2922 ||   |  5000  |  2500  |  2500  |  10000 |
 
-The combinations are binned into a two-way table 
+The [combinations](Combinations) are binned into a two-way table 
 
 Expected counts 
 - Proportion of users who are satisfied with the search is 7078/10000 = 0.7078
@@ -208,7 +208,7 @@ Expected counts
 
 Now we can compute the $X^2$ test statistics 
 - $X^2 = \cfrac{( 3511 - 3539 )^2}{ 3539 } + \cfrac{( 1489 - 1461 )^2}{ 1461 } + \cfrac{( 1749 - 1769.5 )^2}{ 1769.5 } + \cfrac{( 751 - 730.5 )^2}{ 730.5 } +  \cfrac{( 1818 - 1769.5 )^2}{ 1769.5 } + \cfrac{( 682 - 730.5 )^2}{ 730.5 } = 6.12$
-- under $H_0$ it follows $\chi^2$ distribution with $\text{df} = (3 - 1) \cdot (2 - 1)$
+- under $H_0$ it follows $\chi^2$ [distribution](Distributions) with $\text{df} = (3 - 1) \cdot (2 - 1)$
 - the $p$ value is $p=0.047$, which is less than $\alpha = 0.05$ so we can reject $H_0$ 
 - <img src="http://habrastorage.org/files/2b5/c8f/c6e/2b5c8fc6e4f5414fa115c7e1ffd00375.png" alt="Image">
 - also, it makes sense to have a look at expected $X^2$ for $\alpha = 0.05$, which is  $X^2_{\text{exp}} = 5.99$, and $X^2_{\text{exp}} < X^2$

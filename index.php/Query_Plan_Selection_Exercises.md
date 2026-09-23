@@ -21,12 +21,12 @@ Suppose we have 3 relations
 - $D$(<u>did: int</u>, dname: char(20), floor:int, phone: char(10))
 - $F$(<u>did: int</u>, budget: int, sales: int, expenses: int)
 
-Statistics and parameters:
+[Statistics](Statistics) and parameters:
 - 2048 bytes per block, 10 memory buffers are available
 - record from $E$ is 35 bytes long, from $D$ - 40 bytes, from $F$ - 15 bytes
 - indexes: 
   - unclustered [B-Tree](B-Tree)s on $E$.did and $D$.floor 
-  - clustered [B-Tree](B-Tree)s on $E$.sal, $D$.did and $F$.did
+  - clustered B-Trees on $E$.sal, $D$.did and $F$.did
 - statistics:
   - $E$'s salaries are distributed uniformly within range [10 000, 60 000]
   - in $E$ there are 200 distinct hobbies - $V(E, \text{hobby}) = 200$ 
@@ -65,8 +65,8 @@ $
 ### Solution Plan
 - calculate number of blocks for each relations
 - find the best plan for each selection individually
-  - [Estimate result size](Query_Result_Size_Estimation) for each
-- find the optimal [Join Ordering](Join_Ordering)
+  - Estimate result size for each
+- find the optimal Join Ordering
 
 
 ### Some calculations
@@ -138,7 +138,7 @@ Pair-wise comparison:
 - $s_D \Join F$
 
 Note
-- we need to take into account the possibility of [Pipelining](Pipelining)
+- we need to take into account the possibility of Pipelining
 - no index on intermediate results $s_E$ and $s_D$
 
 
@@ -169,7 +169,7 @@ $s_D \Join F$
   - note that $F$ is already sorted on F.did (it has a clustered index), so we need to sort only $s_D$
   - also output from selection of $E$ should be already sorted ($E$ has a clustering index on E.did), but normally we don't assume anything about the intermediate results - so we also calculate in the cost of sorting
   - cost: $2 B(s_D) \lceil \log_M B(s_D) \rceil + B(s_D) + B(F) = 2 \cdot 50 \cdot 2 + 50 + 37 = 287$
-  - we can apply the optimization: $\left\lceil \cfrac{B(s_D)}{M} \right\rceil + 1 \leqslant M = 9$
+  - we can apply the [optimization](Optimization): $\left\lceil \cfrac{B(s_D)}{M} \right\rceil + 1 \leqslant M = 9$
 - : in this case the cost is:
 - : $2 B(s_D) [\lceil \log_M B(s_D) \rceil - 1] + B(s_D) + B(F) = 187$
 - hash-based join
@@ -204,11 +204,11 @@ The last projection also can be done on the fly - without materializing anything
 
 
 ## See also
-- [Physical Operators (databases)](Physical_Operators_%28databases%29)
-- [Query Result Size Estimation](Query_Result_Size_Estimation)
-- [Physical Query Plan Optimization](Physical_Query_Plan_Optimization)
-- [Join Ordering](Join_Ordering) 
-- [B-Tree](B-Tree)
+- Physical Operators (databases)
+- Query Result Size Estimation
+- Physical Query Plan Optimization
+- Join Ordering 
+- B-Tree
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

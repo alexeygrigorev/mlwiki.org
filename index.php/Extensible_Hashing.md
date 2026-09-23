@@ -10,13 +10,13 @@ title: Extensible Hashing
 Hash-based [secondary memory](Secondary_Storage) [index](Indexing_%28databases%29) structure for [databases](Databases)
 
 Main ideas:
-- Growing hash function
+- Growing [hash function](Hash_Function)
 - Directory
 
 
 ### Growing Hash Function
 Variables we use:
-- $b$ - length of bit-string that [Hash Function](Hash_Function) outputs (typically 64)
+- $b$ - length of bit-string that Hash Function outputs (typically 64)
 - $i$ - number of bits we can use
   - as number of keys grows, we increase $i$
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/ex-hashing-hash-function.png" alt="Image">
@@ -25,7 +25,7 @@ Variables we use:
 ### Directory
 *Directory* introduces additional level of indirection 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/ex-hashing-directory.png" alt="Image">
-- here we keep all possible combinations of $i$ bits with pointers to associated buckets
+- here we keep all possible [combinations](Combinations) of $i$ bits with pointers to associated buckets
 
 Example 
 - suppose for key $k$: $h(k) = \fbox{1010}$
@@ -91,8 +91,8 @@ Cons
 
 
 ## See also
-- [Open Hashing Index](Open_Hashing_Index)
-- [Linear Hashing](Linear_Hashing)
+- Open Hashing Index
+- Linear Hashing
 - [Hash Indexes](http://dblab.cs.toronto.edu/courses/443/2013/06.hash-index.html)
 
 ## Sources

@@ -7,14 +7,14 @@ title: Types of Data
 ---
 ## Types of Data
 There are two types of data:
-- with data model: structured, know what to expect
+- with [data model](Data_Model): structured, know what to expect
 - without data model: structured, have to impose some structure, harder to know what to expect
 
 
 ## With [Data Model](Data_Model)
 ### Structured
 - Relations in a [Relational Databases](Relational_Databases)
-- [Relational Data Model](Relational_Databases#Relational_Data_Model)
+- Relational Data Model
 
 
 ### Semi-structured

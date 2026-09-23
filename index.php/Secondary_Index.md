@@ -20,16 +20,16 @@ Doesn't make sense
 
 ### [Dense Index](Dense_Index)?
 Idea: 
-- build a dense index, sort it,
-- construct sparse index on it
+- build a [dense index](Dense_Index), sort it,
+- construct [sparse index](Sparse_Index) on it
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/secondary-dense-sparse.png" alt="Image">
 
 
 ## Duplicates
 ### Just Repeat
-Suppose we use [Dense Index](Dense_Index) as our secondary index
+Suppose we use Dense Index as our secondary index
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/secondary-dense-dups-1.png" alt="Image">
-- Same is [Option 1](Dense_Index#Option_1) from [Dense Index](Dense_Index) (note that [Option 2](Dense_Index#Option_2) will not work here - file is not ordered by this key)
+- Same is Option 1 from Dense Index (note that Option 2 will not work here - file is not ordered by this key)
 - 10 occurs 3 times - may lead to waste of space
 - may look innocent for integers, but often keys are strings
 
@@ -45,7 +45,7 @@ We add one more level of indirection
 - buckets are pointers to the actual tuples
 
 So now we have
-1. [Dense Index](Dense_Index) where each value is stored once
+1. Dense Index where each value is stored once
 1. *Bucket list* where we have multiple occurrences
   - pointers to actual values 
   - should be sequential: i.e. ordered by the key
@@ -62,8 +62,8 @@ This idea is used in [Buckets of Pointers](Buckets_of_Pointers)
 
 ## See also
 - [Indexing (databases)](Indexing_%28databases%29)
-- [Sparse Index](Sparse_Index)
-- [Dense Index](Dense_Index)
+- Sparse Index
+- Dense Index
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

@@ -16,7 +16,7 @@ The main idea is a nested index:
 - index could be anything: [B-Tree](B-Tree) or Hash-Based one-dimensional index
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/mult-key-ind-ex1.png" alt="Image">
-- in this case we have a tree 
+- in this case we have a [tree](Tree) 
 - nodes at each level of this tree are also indexes 
 - so for this example we have an index on the first attribute that points to an index on 2nd attribute
 
@@ -35,4 +35,4 @@ The main idea is a nested index:
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

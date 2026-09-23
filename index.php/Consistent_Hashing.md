@@ -20,7 +20,7 @@ Every existent key will have to be remapped.
 
 
 ### Consistent Hashing approach
-- In *consistent hashing* a hash function is viewed as a ring: largest hash values wrap around to smallest
+- In *consistent hashing* a [hash function](Hash_Function) is viewed as a ring: largest hash values wrap around to smallest
 - The ring is divided onto $N$ regions ($N$ - number of servers)
 - Each server has its own key region (its "position" on the ring)
 - $\Rightarrow$ adding or removing a node affects only direct neighbors
@@ -50,7 +50,7 @@ So routing is simple in this schema:
 
 ### Virtual Nodes
 There are some challenges with this basic approach
-- random position assignment may lead to non-uniform data/load distribution
+- random position assignment may lead to non-uniform data/load [distribution](Distributions)
 - heterogeneity is performance is assumed (that is, we assume that all the servers have same performance)
 
 A variant of Consistent Hashing algorithm addresses this issue:

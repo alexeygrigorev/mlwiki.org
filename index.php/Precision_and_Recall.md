@@ -66,12 +66,12 @@ and get Mean Average Precision: MAP
 
 
 ## Precision and Recall for [Classification](Classification)
-The precision and recall metrics can also be applied to [Machine Learning](Machine_Learning): to binary classifiers
+The precision and recall metrics can also be applied to Machine Learning: to binary classifiers
 
 
 | + Diagnostic Testing Measures  [link](http://en.wikipedia.org/wiki/Template:DiagnosticTesting_Diagram) ||  colspan="2" rowspan="2" style="border:none;"| ||   colspan="2" | Actual Class $y$  |  Positive ||  Negative ||   rowspan="2" | $h_{\theta}(x)$ <br/> Test<br />outcome  |  Test<br />outcome<br />positive || style="background:#ccffcc;"| *True positive*<br/> ($\text{TP}$) || style="background:#eedddd;"| *False positive*<br />($\text{FP}$, Type I error) ||  Precision =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FP}}$ ||  Test<br />outcome<br />negative || style="background:#eedddd;"| *False negative*<br />($\text{FN}$, Type II error) || style="background:#ccffcc;"| *True negative*<br /> ($\text{TN}$) ||  Negative predictive value =<br /> $\cfrac{\# \text{TN}}{\# \text{FN} + \# \text{TN}}$ || colspan="2" style="border:none;" | ||  Sensitivity =<br /> $\cfrac{\# \text{TP}}{\# \text{TP} + \# \text{FN}}$ ||  Specificity =<br /> $\cfrac{\# \text{TN}}{\# \text{FP} + \# \text{TN}}$ ||  Accuracy =<br /> $\cfrac{\# \text{TP} + \# \text{TN}}{\# \text{TOTAL}}$ |
 
-Main values of this matrix:
+Main values of this [matrix](Matrix):
 - *True Positive* - we predicted "+" and the true class is "+"
 - *True Negative* - we predicted "-" and the true class is "-"
 - *False Positive* - we predicted "+" and the true class is "-" (Type I error)
@@ -85,7 +85,7 @@ Two Classes: $C_+$ and $C_-$
 Precision
 - $\pi = P\big(f(\mathbf x) = C_+ \, \big|  \, h_{\theta}(\mathbf x) =  C_+ \big)$
 - given that we predict $\mathbf x$ is +
-- what's the probability that the decision is correct
+- what's the [probability](Probability) that the decision is correct
 - we estimate precision as $P = \cfrac{\text{# TP}}{\text{# predicted positives}} = \cfrac{\text{# TP}}{\text{# TP} + \text{# FP}}$
 
 
@@ -126,7 +126,7 @@ Suppose we have a ranking classifier that produces some score for $\mathbf x$
 - improving recall will lead to worse precision
 - improving precision will lead to worse recall 
 - how to pick the threshold? 
-- combine $P$ and $R$ into one measure (also see [ROC Analysis](ROC_Analysis))
+- combine $P$ and $R$ into one measure (also see ROC Analysis)
 
 
 $F_\beta = \cfrac{(\beta^2 + 1) P\, R}{\beta^2 \, P + R}$
@@ -284,6 +284,6 @@ This way is often used in [Document Classification](Document_Classification)
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_%28coursera%29)
 - Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [link](http://arxiv.org/pdf/cs/0110053.pdf)
-- Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
-- [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)
+- Zhai, ChengXiang. "[Statistical language models](Statistical_Language_Models) for information retrieval." 2008.
+- Information Retrieval (UFRT)
 - Manning, Christopher D., Prabhakar Raghavan, and Hinrich Schütze. "Introduction to information retrieval." 2008. [link](http://informationretrieval.org/)

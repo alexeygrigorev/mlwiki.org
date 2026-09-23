@@ -29,7 +29,7 @@ Suppose we have $n$ observations
 
 ### Method of Least Squares
 <!-- Main: Method of Least Squares -->
-To find the slope and the intercept parameters we may use the method of least squares
+To find the slope and the intercept parameters we may use the [method of least squares](Method_of_Least_Squares)
 
 
 ### Interpretation
@@ -105,7 +105,7 @@ We have a formula for slope $b_1$ and, let  $\beta_1$ be the true value of slope
 
 There's the following fact: 
 - $\cfrac{b_1 - \beta_1}{\text{SE}(b_1)} \sim t_{n - 2}$
-- where $\text{SE}$ is *standard error* 
+- where $\text{SE}$ is *[standard error](Standard_Error)* 
 - we loose one degree because we don't know the slope and the other because of the intercept 
 
 And we calculate the standard error as
@@ -151,7 +151,7 @@ Quite small, so we reject the $H_0$ and conclude that $\beta_1 \neq 0$, i.e. the
 ## Limitations
 - linear
 - fails to predict other kinds of relationships (quadratic etc)
-- not robust to outliers (just one outlier can change the regression line rather significantly)
+- not robust to [outliers](Outliers) (just one outlier can change the regression line rather significantly)
 
 ## [Gradient Descent](Gradient_Descent)
 Another way of finding the slope and intercept parameters is [Gradient Descent Algorithm](Gradient_Descent), 

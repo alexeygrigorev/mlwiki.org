@@ -59,7 +59,7 @@ Summary from [RDFS](RDFS), [RDFS-Plus](RDFS-Plus) and [OWL](OWL)
 
 
 ## See Also
-- [RDFS](RDFS), [RDFS-Plus](RDFS-Plus), [OWL](OWL)
+- RDFS, RDFS-Plus, OWL
 - [Semantic Web](Semantic_Web)
 - [Inference in Semantic Web](Inference_in_Semantic_Web)
 

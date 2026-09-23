@@ -35,7 +35,7 @@ the main sources of problems are
 
 ### Fitting Polynomial
 How to distinguish between them and say which one of them we experience? 
-- Suppose we want to fit parameter $d$ - what degree of polynomial to use (see [here](Cross-Validation#Cross-Validation))
+- Suppose we want to fit parameter $d$ - what degree of polynomial to use (see here)
 - with $d = 1$ we underfit
 - with $d = 2$ we are just right 
 - with $d = 4$ we overfit 
@@ -57,7 +57,7 @@ in case of variance (overfit)
 
 
 ### Fitting Regularization Parameter
-When we [try to find the best](Cross-Validation#Cross-Validation_for_Regularization) [Regularization parameter](Regularization) for a hypothesis we get similar curves:
+When we try to find the best Regularization parameter for a hypothesis we get similar curves:
   <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/diagnosis-regularization-curve.png" alt="Image">
 - with small $\lambda$ we have high variance
 - with large $\lambda$ we have high bias
@@ -77,17 +77,17 @@ So, depending on what kind of problem we have, we should decide what to do next
 To fix high variance:
 - Get more training examples
 - Try smaller set of features
-- Try decreasing [regularization parameter](Regularization) $\lambda$
+- Try decreasing regularization parameter $\lambda$
 
 To fix high bias:
 - Try getting additional features
-- Try adding polynomial features (beware of [Overfitting](Overfitting)|  )
-- Try increasing [regularization parameter](Regularization) $\lambda$
+- Try adding polynomial features (beware of Overfitting|  )
+- Try increasing regularization parameter $\lambda$
 
 
 ## See also
-- [Overfitting](Overfitting)
-- [Learning Curves](Learning_Curves)
+- Overfitting
+- Learning Curves
 - [Model Selection](Model_Selection)
 
 

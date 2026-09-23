@@ -10,7 +10,7 @@ title: Logical Query Plan Optimization
 
 Translating SQL to RA expression is the first step in [Query Processing](Query_Processing) Pipeline
 - Input: SQL
-- Output: Logical Query Plan - expression in Extended Relational Algebra
+- Output: Logical [Query Plan](Query_Plan) - expression in Extended [Relational Algebra](Relational_Algebra)
 
 
 
@@ -30,15 +30,15 @@ We translate it to the following expression:
 But there is a more optimal way to obtain the same results 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/logical-query-plan-ex2-opt.png" alt="Image">
 
-The process of finding a cheaper equivalent expression is called (logical) *query optimization*
+The process of finding a cheaper equivalent expression is called (logical) *query [optimization](Optimization)*
 
 
 ## Optimality
 - every node needs executing 
 - hence, the fewer nodes we have, the faster the execution 
 
-A [Relational Algebra](Relational_Algebra) expression $e$ is optimal if there is no other expression $e'$ s.t.
-- $e'$ is equivalent to $e$ (i.e. for every database $D:$ $e(D) = e'(D)$)
+A Relational Algebra expression $e$ is optimal if there is no other expression $e'$ s.t.
+- $e'$ is equivalent to $e$ (i.e. for every [database](Database) $D:$ $e(D) = e'(D)$)
 - $e'$ is shorten (i.e. has fewer operations)
 
 
@@ -101,13 +101,13 @@ To do that we could exploit one of the properties of [Conjunctive Query](Conjunc
 
 
 The algorithm to remove redundant joins is as follows:
-- find the minimal [Select-Project-Join](Select-Project-Join_Expression) expression
-- [translate it to Conjunctive Query](Conjunctive_Query#Translation_to_CQ)
+- find the minimal Select-Project-Join expression
+- translate it to Conjunctive Query
 - try removing each atom of the expression and check for equivalence with the original query
   - if removing leads to an equivalent query, use it for later checks 
   - at the end return the simplest version
   - it suffices to do a single pass
-- once found the optimized CQ query, [translate it back to Relational Algebra](Conjunctive_Query#Translation_from_CQ)
+- once found the optimized CQ query, translate it back to Relational Algebra
 
 This will eliminate the redundant joins in an RA expression
 

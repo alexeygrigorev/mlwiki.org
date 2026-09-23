@@ -19,7 +19,7 @@ How to choose what is better?
 
 ## Error Analysis
 Recommended Approach 
-- Start with the simplest possible algorithm (avoid premature optimization|  ) that you can implement quickly
+- Start with the simplest possible algorithm (avoid premature [optimization](Optimization)|  ) that you can implement quickly
 - Implement it and test it on your [cross-validation set](Cross-Validation)
 - Plot [Learning Curves](Learning_Curves) to decide if more data features is likely to help
 - Do the Error Analysis 
@@ -44,13 +44,13 @@ so we manually examine the 100 errors and categorize them based on
 ## Numerical Evaluation
 - Error Analysis may not be helpful for deciding if this is likely to improve performance 
 - The only solution in this case is to try it and see if it works 
-- But we need a numerical evaluation (e.g. [Cross-Validation](Cross-Validation) error) of algorithm's performance with and without the new code/idea/etc
+- But we need a numerical evaluation (e.g. Cross-Validation error) of algorithm's performance with and without the new code/idea/etc
 - So we need to use [Error Metrics](Error_Metrics)
 
 
 ## See also
-- [Cross-Validation](Cross-Validation)
-- [Learning Curves](Learning_Curves)
+- Cross-Validation
+- Learning Curves
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

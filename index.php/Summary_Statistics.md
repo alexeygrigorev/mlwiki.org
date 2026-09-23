@@ -26,7 +26,7 @@ In [R](R), command <code>summary</code> returns the 5 number summary as well as 
 
 ## Visualization
 ### [Box Plot](Box_Plot)
-A visual summary of all the 5 numbers is called a *box plot*
+A visual summary of all the 5 numbers is called a *[box plot](Box_Plot)*
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/da/boxplot.png" alt="Image">
 
 *Modified box plot*

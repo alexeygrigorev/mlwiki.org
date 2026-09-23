@@ -12,7 +12,7 @@ In [Information Retrieval](Information_Retrieval) via [Vector Space Model](Vecto
 - so can also use [Kernels](Kernels)
 - You can already use [SVM](SVM) for text data and get very good performance 
 - but also can incorporate additional information by using a kernel
-- In traditional [Vector Space Model](Vector_Space_Model) semantic relationships are not taken into account 
+- In traditional Vector Space Model semantic relationships are not taken into account 
 - Goal: design a "Semantic Kernel": a kernel which creates a map that captures semantic information
 
 
@@ -24,8 +24,8 @@ Building the Kernel:
 - this statistical co-occurrence is extracted via [SVD](SVD)
 
 
-== [Vector Space Model](Vector_Space_Model) == 
-Suppose we have a term-document matrix $D$
+== Vector Space Model == 
+Suppose we have a term-document [matrix](Matrix) $D$
 - then $G = D^T D$ is a doc-by-doc matrix and $T = D D^T$ matrix
 - can define a base kernel as $k(\mathbf d_1, \mathbf d_2) = \mathbf d_1^T \mathbf d_2$
 - suppose we apply some [Linear Transformation](Linear_Transformation) $\phi$: to documents: $\phi(\mathbf d) = P \, \mathbf d$
@@ -42,7 +42,7 @@ But in reality usual VSM models have problems with synonymy and polysemy - these
 how to enrich kernels with semantic information? 
 - document expansion: add all synonyms to the document
 - or replace words by concepts (can be taken from a semantic network or learned)
-- use information about term-term correlation
+- use information about term-term [correlation](Correlation)
  |So $K = D^T P^T \, P \, D$ 
 - let  $P_{ij}$ denote semantic proximity between terms $i$ and $j$
 - then is a square symmetric matrix
@@ -52,8 +52,8 @@ $P$ can also be concept-term similarity matrix, but then $P$ will not be symmetr
 
 
 ### LSI Kernel
-[LSI](Latent_Semantic_Analysis): document feature vector $\mathbf d$ is projected onto the subspace spanned by first $k$ singular vectors if the feature space 
-- apply [SVD](SVD) to $D$: $D = U \Sigma V^T$ where $U$ contains the singular vectors of the feature space
+LSI: document feature vector $\mathbf d$ is projected onto the subspace spanned by first $k$ singular vectors if the feature space 
+- apply SVD to $D$: $D = U \Sigma V^T$ where $U$ contains the singular vectors of the feature space
 - the projection on $k$ first singular values gives $U_k$, so let $P = U_k^T$ 
 - $U_k$ identifies terms that co-occur most often 
 - this have $k(\mathbf d_1, \mathbf d_2) = (U_k^T \mathbf d_1)^T U_k^T \mathbf d_2 = \mathbf d_1^T U_k \, U_k^T \mathbf d_2$ 
@@ -86,7 +86,7 @@ Can we avoid working on the feature space? We still have $\Sigma_k$ and $U_k$
 
 Bottleneck: 
 - decomposing $K$ 
-- approximate: Smola, Alex J., and Bernhard Schölkopf. "Sparse greedy matrix approximation for machine learning." 2000. [link](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.43.3153)
+- approximate: Smola, Alex J., and Bernhard Schölkopf. "Sparse greedy matrix approximation for [machine learning](Machine_Learning)." 2000. [link](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.43.3153)
 
 
 

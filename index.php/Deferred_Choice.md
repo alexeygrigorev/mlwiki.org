@@ -9,7 +9,7 @@ title: Deferred Choice
 Deferred Choice is a [workflow pattern](Workflow_Patterns). It it used to express a situation when the action you're going to take is not known till the point of executing it.
 
 So, *Deferred choice*: When the choice is deferred to the point when we execute something 
-- for Petri Nets, visually looks identical to Exclusive Choice
+- for [Petri Nets](Petri_Nets), visually looks identical to Exclusive Choice
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-deferred-choice.png" alt="Image">
 
 
@@ -26,7 +26,7 @@ Consider a flight:
 
 
 ## [YAWL](YAWL)
-In YAWL it's possible to tell the difference between XOR-split and Deferred choice
+In [YAWL](YAWL) it's possible to tell the difference between XOR-split and Deferred choice
 
 Consider this:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-deferred-choice.png" alt="Image">

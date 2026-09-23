@@ -79,7 +79,7 @@ polygon(x=c(m-3, m, m+3), y=c(0.87, 0.95, 0.87), col="red")
 
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/b/openintrostat/dotplot-r3.png" alt="Image">
 
-Note that it given similar information to a [Histogram](Histogram)
+Note that it given similar information to a Histogram
 - but the latter is binned, and this is not (so it looks rather as a [Bar Chart](Bar_Chart))
 
 ```

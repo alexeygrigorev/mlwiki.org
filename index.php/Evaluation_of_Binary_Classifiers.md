@@ -123,7 +123,7 @@ Visual ways of evaluating the performance of a classifier
 
 ## Not Binary Classifiers
 When we have multi-class classifiers we can use:
-- [Contingency Table](Contingency_Table)
+- Contingency Table
   - just show misclassified examples side-by-side
 - [Cost Matrix](Cost_Matrix)
   - we define the cost for each misclassification 
@@ -133,7 +133,7 @@ When we have multi-class classifiers we can use:
 
 
 ## See Also
-- [Statistical Tests of Significance](Statistical_Tests_of_Significance)
+- Statistical Tests of Significance
 
 
 ## Sources

@@ -20,7 +20,7 @@ Large files are typically distributed in chunks 64 mb each, and they are stored 
 - MR runs on some underlying storage for reading and writing
 - such storage may be distributes
 - chunk-based distributed file system
-- gives fault tolerance by data partitioning and replication
+- gives fault tolerance by data partitioning and [replication](Replication)
 
 
 #### not a DBS

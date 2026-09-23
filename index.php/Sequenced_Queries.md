@@ -203,7 +203,7 @@ WHERE EXISTS (
 #### Declarative Version in SQL
 Algorithm:
 
-Let $E$ be a database with John's history
+Let $E$ be a [database](Database) with John's history
 - for salary $x$ we need to find $f, l \in E$ such that
 - $f$ is the first period with salary $x$ and $l$ last period with $x$
 - and the interval between $f$ and $l$ is continuous:
@@ -422,4 +422,4 @@ WHERE NOT EXISTS
 
 
 ## Sources
-- [Advanced Databases (ULB)](Advanced_Databases_%28ULB%29)
+- Advanced Databases (ULB)

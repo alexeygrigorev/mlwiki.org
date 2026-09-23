@@ -24,7 +24,7 @@ When we do elimination, we have some elimination matrices:
 $L$
 - $L = E^{-1} = (E_1 \cdots E_k)^{-1} = E_k^{-1} \cdots E_1^{-1}$
 - $E_i$ have zeros up the diagonal, so when we inverse them, they become lower-diagonal 
-- when we multiply a bunch of lower-diagonal matrices, we get a lower-diagonal matrix
+- when we multiply a bunch of lower-diagonal matrices, we get a lower-diagonal [matrix](Matrix)
 
 
 [Permutation Matrices](Permutation_Matrices)

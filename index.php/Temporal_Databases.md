@@ -22,7 +22,7 @@ Valid time of a fact:
 - (link to [Slowly Changing Dimensions](Slowly_Changing_Dimensions))?
 
 Transaction time of a fact:
-- when the fact was recorded in a database
+- when the fact was recorded in a [database](Database)
 
 
 

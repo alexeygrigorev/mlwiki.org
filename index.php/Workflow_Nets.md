@@ -9,7 +9,7 @@ title: Workflow Nets
 ## Workflow Nets
 By workflow nets here we refer to [petri-net-based](Petri_Nets) workflows. 
 
-So, a *workflow net* is a special type of a petri net that is suitable for expressing workflows 
+So, a *workflow net* is a special type of a [petri net](Petri_Net) that is suitable for expressing workflows 
 
 In a workflow net:
 - there's a clear start: 

@@ -14,7 +14,7 @@ Is a norm for [Matrix Vector Spaces](Matrix_Vector_Spaces): a [vector space](Vec
 - this norm is *Frobenius Norm*
 
 
-Orthogonality:
+[Orthogonality](Orthogonality):
 - Matrices $A$ and $B$ are orthogonal if $\langle A, B \rangle = 0$
 
 
@@ -53,7 +53,7 @@ Same applies if $\mathbf y_i$ are orthogonal/orthonormal
 
 ## Norm of Matrices
 ### [Rank-1 Matrices](Outer_Product)
-Suppose $A$ is a rank-1 matrix, i.e. $A = \mathbf x \mathbf y^T$
+Suppose $A$ is a rank-1 [matrix](Matrix), i.e. $A = \mathbf x \mathbf y^T$
 - $A = \mathbf x \mathbf y^T = \begin{bmatrix}
 |  & & | \\ |\mathbf x y_i & \cdots & \mathbf x y_n \\
 |  & & | \\ |\end{bmatrix} = 
@@ -96,7 +96,7 @@ Can also apply SVD to show that:
 - then $\|  A \|_F^2 = \| \Sigma \|_F^2 = \sum\limits_{i=1}^r \sigma_i^2$
 - $\sigma_i^2$ are [Eigenvalues](Eigenvalues) of $AA^T$ and $A^TA$
 - then, $\sum \sigma_i^2 = \text{tr}(A A^T) = \text{tr}(A^T A)$ 
-- so it also shows that sum of eigenvalues is the trace of the matrix
+- so it also shows that sum of [eigenvalues](Eigenvalues_and_Eigenvectors) is the trace of the matrix
 
 
 ## Application

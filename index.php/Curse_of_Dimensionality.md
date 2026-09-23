@@ -8,7 +8,7 @@ title: Curse of Dimensionality
 ## Curse of Dimensionality
 In high dimensional space [distances](Distance_Functions) (esp. [Euclidean Distance](Euclidean_Distance)) become less meaningful
 - distance between each pair of point is almost the same 
-- for many data distributions and distances  
+- for many data [distributions](Distributions) and distances  
 
 
 $$\lim_{d \to \infty} \frac{\text{dist}_\max - \text{dist}_\min}{\text{dist}_\min} = 0$$
@@ -30,7 +30,7 @@ How to deal?
 
 ## Paper
 - Beyer, Kevin, et al. "When is “nearest neighbor” meaningful?." 1999. [link](http://www.loria.fr/~berger/Enseignement/Master2/Exposes/beyer.pdf)
-- Kriegel, Hans-Peter, Peer Kröger, and Arthur Zimek. "Clustering high-dimensional data: A survey on subspace clustering, pattern-based clustering, and correlation clustering." (2009) 
+- Kriegel, Hans-Peter, Peer Kröger, and Arthur Zimek. "Clustering high-dimensional data: A survey on subspace clustering, pattern-based clustering, and [correlation](Correlation) clustering." (2009) 
 
 ## Sources
 - http://en.wikipedia.org/wiki/Curse_of_dimensionality

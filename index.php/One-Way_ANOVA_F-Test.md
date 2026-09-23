@@ -18,13 +18,13 @@ It's an $F$-Test
 - We assume that we have [Normal Distribution](Normal_Distribution)
 - and the resulting value follows the [$F$-Distribution](F-Distribution)
 
-It's a parametric test of Variance:
+It's a parametric test of [Variance](Variance):
 - it's parametric because it's based on Normality hypothesis 
 
 
 ### Comparing Means
 Comparing means of several groups
-- We can compare means of two groups using [Two-Sample $t$-test](t-tests#Two-Sample_t-test)
+- We can compare means of two groups using Two-Sample $t$-test
 - But sometimes we want to compare means across many groups
 
 First idea: do Pairwise comparison
@@ -107,14 +107,14 @@ standardized form of $\text{SSE}$: $\text{MSE} = 1 / \text{df}_E \text{SSE}$
 
 if $H_0$ is true then differences are due to chance and MSG and MSE should be approximately equal 
 
-Then we can calculate the test statistics
+Then we can calculate the test [statistics](Statistics)
 $F = \cfrac{\text{MSG}}{\text{MSE}}$
 
 
 - $\text{MSG}$ = between the group variability
 - $\text{MSE}$ = withing the group variability 
 
-$F$ is a $F$ statistics that follows $F$-distribution 
+$F$ is a $F$ statistics that follows $F$-[distribution](Distributions) 
 it has 2 associated parameters: $\text{df}_1$ and $\text{df}_2 $
 for ANOVA it's $\text{df}_G$ and $\text{df}_E$
 
@@ -136,14 +136,14 @@ Let
 - $N = \sum_k N_k$ : total number of records
 
 Define: 
-- Interclass [Variance](Variance): $\text{Inter} = \cfrac{1}{K-1} \cdot \sum_k N_k \cdot (\mu_k - \mu)^2$
+- Interclass Variance: $\text{Inter} = \cfrac{1}{K-1} \cdot \sum_k N_k \cdot (\mu_k - \mu)^2$
   - total variance
-- Intraclass [Variance](Variance): $\text{Intra} = \cfrac{1}{N-K} \cdot \sum_k \sum_{j : X = x_k} ( y_j - \mu_k )^2$
+- Intraclass Variance: $\text{Intra} = \cfrac{1}{N-K} \cdot \sum_k \sum_{j : X = x_k} ( y_j - \mu_k )^2$
   - variance inside each group
 
 Test
-- to evaluate the correlation between $X$ and $Y$ calculate $F = \cfrac{\text{Inter}}{\text{Intra}}$
-- the null hypothesis $H_0$: all means $\mu_k$ are equal (i.e. assume independence), 
+- to evaluate the [correlation](Correlation) between $X$ and $Y$ calculate $F = \cfrac{\text{Inter}}{\text{Intra}}$
+- the null hypothesis $H_0$: all means $\mu_k$ are equal (i.e. assume [independence](Independence)), 
 - under $H_0$ $F$-ratio follows $F_{K-1,N-K}$: [$F$-distribution](F-distribution) with $K-1,N-K$ degrees of freedom
 - if independent, all the means should be the same for all classes and $F$ should be 0
 
@@ -172,7 +172,7 @@ we approximate each $\mu$ by $\bar{x}$
 |    |  OF  |  IF  |  DH  |  C  | + [Summary statistics](Summary_Statistics) (source: table 5.27, [OpenIntro](OpenIntro_Statistics_%28book%29)) ||   Sample size ($n_i$)   |  120  |  154  |  14  |  39 ||   Sample mean ($\bar{x}_i$)   |  0.334  |  0.332  |  0.348  |  0.323 ||   Sample SD ($s_i$)   |  0.029  |  0.037  |  0.036  |  0.045 |
 
 <img src="http://habrastorage.org/files/05a/241/ce5/05a241ce52204838a53ad13554c3372d.png" alt="Image">
-(source: fig 5.28, [OpenIntro](OpenIntro_Statistics_%28book%29))
+(source: fig 5.28, OpenIntro)
 
 
 We see that DH and C look really different. Why don't we just check if $\mu_\text{DH} = \mu_\text{C}$?
@@ -199,7 +199,7 @@ P-value
 
 ### Example 2: Statistics Class
 We have high demand for a course, so run it several times in one semester 
-- e.g. it's run 3 times: scores of each run are sets $A, B, C$
+- e.g. it's run 3 times: scores of each run are [sets](Sets) $A, B, C$
 - are these significant differences? 
 
 Test:
@@ -240,7 +240,7 @@ summary(aov1)
 
 
 Post-ANOVA processing: use $t$-test to pairwise compare $A,B,C$
-- With [Bonferroni Correction](Bonferroni_Correction), $\alpha^* = \alpha / 3 = 0.05 / 3 = 0.017$
+- With Bonferroni Correction, $\alpha^* = \alpha / 3 = 0.05 / 3 = 0.017$
 - $A$ vs $B$: $p$-value is 0.228, don't reject
 - $A$ vs $C$: $p$-value is 0.148, don't reject
 - $B$ vs $C$: $p$-value is 0.01, reject
@@ -333,6 +333,6 @@ abline(v=F.stat)
 
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
+- OpenIntro Statistics (book)
 - [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
 - http://en.wikipedia.org/wiki/Analysis_of_variance

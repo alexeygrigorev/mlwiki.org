@@ -39,7 +39,7 @@ Modules
 
 Examples
 - withdrawal in an ATM 
-  - not instant - it takes some time for changes to propagate to every database 
+  - not instant - it takes some time for changes to propagate to every [database](Database) 
   - so it's not consistent during some period of time until changes are eventually propagated
   - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ulb/adb/ad-replication-2.png" alt="Image">
 - suppose we have a network

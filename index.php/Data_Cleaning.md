@@ -8,7 +8,7 @@ title: Data Cleaning
 ## Data Cleaning
 There can be several problems with data 
 - Missing values - NAs, NULLs, empty or blank values
-- Outliers - extreme values
+- [Outliers](Outliers) - extreme values
 - Noise in data - modifications of the original value, hard to detect
 - Duplicates 
 

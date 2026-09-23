@@ -79,7 +79,7 @@ Steps:
 1. [Exploratory Data Analysis](Exploratory_Data_Analysis)
   - Playing with data in R
   - try different things: [Plots](Plots), [Histograms](Histogram), etc
-  - learn the main characteristics: distribution, mean, medium, outliers, etc
+  - learn the main characteristics: [distribution](Distributions), mean, medium, [outliers](Outliers), etc
   - [Univariate Analysis](Univariate_Analysis), [Bivariate Analysis](Bivariate_Analysis)
   - Summarizing the DAta
 1. Statistical prediction/modeling

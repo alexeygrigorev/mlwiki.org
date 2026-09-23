@@ -32,7 +32,7 @@ Let's consider the following [Petri Net](Petri_Nets):
 - how we can represent $\infty$ many nodes in this reachability graph? 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-coverability-ex-reach.png" alt="Image">
 - note that marking $[p_1, p_3] < [p_1]$ - strictly larger 
-  - thus with marking $[p_1, p_3]$ the petri net can do all the same as $[p_1]$ plus a little bit more
+  - thus with marking $[p_1, p_3]$ the [petri net](Petri_Net) can do all the same as $[p_1]$ plus a little bit more
 - so if it's possible to get from one marking $M_1$ to another marking $M_2$ s.t. $M_2$ covers $M_1$ completely - then we have a loop 
 
 
@@ -46,7 +46,7 @@ Let's construct the coverability graph for this example
 - look at all the nodes that you can reach
 - if you notice some marking that covers another marking, add a loop to the coverability graph
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-coverability-ex-с.png" alt="Image" />
-- note that this graph is finite 
+- note that this [graph](Graph) is finite 
 - and we can see that in this graph we do have the option to complete 
 
 

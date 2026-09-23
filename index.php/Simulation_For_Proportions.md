@@ -65,7 +65,7 @@ Normal Model
 What we can do? 
 - There is still a way to evaluate the $p$-value for this $p_A = 0.10$ - via simulations
 - Simulate many draws from the population and build a Sampling Distribution (under $H_0$)
-- then compute the probability of observing such  $\hat{p}$ in this distribution
+- then compute the [probability](Probability) of observing such  $\hat{p}$ in this distribution
 
 
 Test
@@ -75,10 +75,10 @@ Test
 
 
 Simulation
-- repeat many times (e.g. 5-10k) to build a [Sampling Distribution](Sampling_Distribution)
-  - draw a sample from the [Binomial Distribution](Binomial_Distribution) with $p=0.10$ and $n=62$
+- repeat many times (e.g. 5-10k) to build a Sampling Distribution
+  - draw a sample from the Binomial Distribution with $p=0.10$ and $n=62$
   - calculate $\hat{p}_\text{sim}$ from this sample
-- draw a histogram 
+- draw a [histogram](Histogram) 
 - and shade bars that support the $H_A$ - ones with $hat{p}_\text{sim} < 0.048$
 - the shaded area represents the $p$-value - the probability of observing such small $\hat{p}$ only due to chance 
 

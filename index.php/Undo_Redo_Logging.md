@@ -8,18 +8,18 @@ title: Undo/Redo Logging
 ## Undo/Redo Logging
 This is a [Database Transaction Log](Database_Transaction_Log) for dealing with [Crash Recovery](Crash_Recovery). 
 
-Undo/Redo Logging is a combination of two logging approaches:
+Undo/[Redo Logging](Redo_Logging) is a combination of two logging approaches:
 - [Undo Logging](Undo_Logging) and
-- [Redo Logging](Redo_Logging)
+- Redo Logging
 
 
 ### Log Record
 Each log record has the following form:
 - $\langle T_i, X, v_\text{new}, v_\text{old} \rangle$
 - $T_i$ - transaction identifier
-- $X$ - id of database object
-- $v_\text{new}$ - new value of $X$ (like in [Redo Logging](Redo_Logging))
-- $v_\text{old}$ - old value of $X$ (like in [Undo Logging](Undo_Logging))
+- $X$ - id of [database](Database) object
+- $v_\text{new}$ - new value of $X$ (like in Redo Logging)
+- $v_\text{old}$ - old value of $X$ (like in Undo Logging)
 
 
 ## Rules
@@ -68,8 +68,8 @@ Notation:
 <!-- Main: Database Transaction Log Exercises -->
 
 ## See also
-- [Crash Recovery](Crash_Recovery)
-- [Undo Logging](Undo_Logging) and [Redo Logging](Redo_Logging)
+- Crash Recovery
+- Undo Logging and Redo Logging
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

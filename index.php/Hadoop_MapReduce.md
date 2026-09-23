@@ -10,16 +10,16 @@ title: Hadoop MapReduce
 ---
 ## Hadoop MapReduce
 This is a [Hadoop](Hadoop) data processing tool on top of [HDFS](HDFS)
-- it's a batch query processing tool that goes over *all* available data
+- it's a batch [query processing](Query_Processing) tool that goes over *all* available data
 - best for off-line use
-- it's a part of [Hadoop](Hadoop)
+- it's a part of Hadoop
 
 
 ## [MapReduce](MapReduce) Jobs
 ### Jobs
 *Job* is a specification that should be run on the cluster by Hadoop/[YARN](YARN)
 - it's a unit of work
-- contains: paths to input data, the MapReduce program (Map and Reduce UDFs) and configuration
+- contains: paths to input data, the [MapReduce](MapReduce) program (Map and Reduce UDFs) and configuration
 - a job can have several input paths, and one output path
 
 Job packaging: 
@@ -37,14 +37,14 @@ Job packaging:
 ### Tasks
 Each job consists of tasks:
 - there are two types of tasks: *map tasks* and *reduce tasks*
-- tasks are scheduled by [YARN](YARN) and run on different nodes 
+- tasks are scheduled by YARN and run on different nodes 
 - if a task fails, it's rescheduled on a different node
 
 Map tasks:
 - the input files are split into fixed-size pieces - *input splits*
 - then Hadoop creates a map task for each input split
 - and then the task applies the map function to each record of that split
-- map tasks write their results to local disks, not HDFS - their output is intermediate results and can be thrown away, when reducers are done 
+- map tasks write their results to local disks, not [HDFS](Hadoop_Distributed_File_System) - their output is intermediate results and can be thrown away, when reducers are done 
 
 Reducer tasks:
 - we specify the number of reducers for the job
@@ -78,7 +78,7 @@ General flow:
 
 *map phase*
 - each input split is assigned to a map worker
-- it applies the [map function](MapReduce#Map_Function) to each record
+- it applies the map function to each record
 - results are written to $R$ partitions, where $R$ is the number of reducers
 - wait until *all* map tasks are completed
 
@@ -95,8 +95,8 @@ General flow:
 *reduce phase*
 - Reducers ask the Application Master where the mappers are located
 - and then they start pulling files from mappers as soon as mappers complete
-- now apply the [reduce function](MapReduce#Reduce_Function) to each group
-- output is typically stored on [HDFS](HDFS)
+- now apply the reduce function to each group
+- output is typically stored on HDFS
 
 
 Hadoop in one picture: 
@@ -129,11 +129,11 @@ For tuning MapReduce jobs, it may be useful to know how the shuffling is perform
 Sorting at the Reducer side
 - as soon as mappers complete, reducers start pulling the data from their local disks
 - each reducer gets its own partitions and merge-sort them 
-- also, reducer is fed data at the last merge phase to save one iteration of merge sort
+- also, reducer is fed data at the last merge phase to save one iteration of [merge sort](Merge_Sort)
 
 
 ### Runtime Scheduling Scheme
-- see [YARN](YARN) for details how it's scheduled
+- see YARN for details how it's scheduled
 - For job execution MapReduce component doesn't build any execution plan beforehand
 - Result: no communication costs
 - MR tasks are done without communication between tasks
@@ -215,7 +215,7 @@ Hadoop solution: <code>JobControl</code> class
  JobClient.runJob(conf1);
  JobClient.runJob(conf2);
 
-- the job control creates a graph of jobs to be run on the cluster 
+- the job control creates a [graph](Graph) of jobs to be run on the cluster 
 - the jobs are submitted to the cluster specified in configuration 
 - but the <code>JobClient</code> class is run on the client machine 
 
@@ -339,7 +339,7 @@ MapReduce
 
 
 ## Advantages
-[MapReduce](MapReduce) is simple and expressive
+MapReduce is simple and expressive
 - computing aggregation is easy
 - flexible
   - no dependency on [Data Model](Data_Model) or schema
@@ -356,7 +356,7 @@ MapReduce
 ## Disadvantages
 ### No Query Language
 No high-level declarative language as SQL
-- [MapReduce](MapReduce) is very low level - need to know programming languages 
+- MapReduce is very low level - need to know programming languages 
 - programs are expensive to write and to maintain
 - programmers that can do that are expensive
 - for [Data Warehousing](Data_Warehousing): [OLAP](OLAP) is not that good in MapReduce
@@ -373,34 +373,34 @@ Performance issues:
 - possible solutions: [HBase](HBase), Hive
 - because of fault-tolerance and scalability - it's not always optimized for I/O cost
   - all intermediate results are materialized (no [Pipelining](Pipelining))
-  - triple replication
+  - triple [replication](Replication)
 - low latency
   - big overhead for small queries (job start time + jvm start time)
 
 
 Map and Reduce are Blocking
 - a transition from Map phase to Reduce phase cannot be made while Map tasks are still running
-  - reason for it is that relies on [External Merge Sort](External_Merge_Sort) for grouping intermediate results
-  - [Pipelining](Pipelining) is not possible
+  - reason for it is that relies on External Merge Sort for grouping intermediate results
+  - Pipelining is not possible
 - latency problems from this blocking processing nature
-- causes performance degradation - bad for [on-line processing](OLAP)
+- causes performance degradation - bad for on-line processing
 
 
-Solutions for I/O optimization
-- [HBase](HBase)
+Solutions for I/O [optimization](Optimization)
+- HBase
   - [Column-Oriented Database](Column-Oriented_Databases) that has index structures
   - data compression (easier for Column-Oriented Databases)
 - Hadoop++ [link](https://infosys.uni-saarland.de/projects/hadoop.php)
   - HAIL (Hadoop Aggressive Indexing Library) as an enhancement for HDFS 
   - structured file format
   - 20x improvement in Hadoop performance
-- [Spark](Spark) and [Flink](Flink) can do pipelining
+- Spark and Flink can do pipelining
 - Incremental MapReduce (like in [CouchDB](CouchDB) [[link](http://eagain.net/articles/incremental-mapreduce/)(http://stackoverflow.com/questions/11236676/why-is-mapreduce-in-couchdb-called-incremental]))
 
 
 ## Sources
 - Lee et al, Parallel Data Processing with MapReduce: A Survey [link](http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf)
-- Ordonez et al, Relational versus non-relational database systems for data warehousing [link](http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf)
+- Ordonez et al, Relational versus non-relational database systems for [data warehousing](Data_Warehouse) [link](http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf)
 - Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [link](http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/)
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
 - [Hadoop: The Definitive Guide (book)](Hadoop__The_Definitive_Guide_%28book%29)

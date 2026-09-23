@@ -23,7 +23,7 @@ Covered Topics:
 Data Analysis notes by [Felix Y.H. Fan](http://rpubs.com/Felix)
 - https://www.google.com/search?q=%3C%3C+Data+Analysis+%3E%3E+Note+site:rpubs.com
 - [Part 1](http://rpubs.com/Felix/7647): Representing Data, Exploratory Data Analysis, Cluster Analysis, [Principal Component Analysis](Principal_Component_Analysis) and [Singular Value Decomposition](Singular_Value_Decomposition)
-- [Part 2](http://rpubs.com/Felix/6705): [Clustering Example](Cluster_Analysis)
+- [Part 2](http://rpubs.com/Felix/6705): Clustering Example
 - [Part 3](http://rpubs.com/Felix/6706): [Method of Least Squares](Method_of_Least_Squares) and [Linear Regression](Linear_Regression)
 - [Part 4](http://rpubs.com/Felix/6708): [Statistical Tests of Significance](Statistical_Tests_of_Significance), $P$-values
 - [Part 5](http://rpubs.com/Felix/6709): [Multivariate Linear Regression](Multivariate_Linear_Regression), regression with categorical variables

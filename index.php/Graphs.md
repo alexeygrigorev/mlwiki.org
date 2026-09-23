@@ -19,7 +19,7 @@ Consist of:
 
 
 ## Directed Acyclic Graph
-This is a special kind of graph where
+This is a special kind of [graph](Graph) where
 - there are no cycles
 - and it is directed
 
@@ -28,7 +28,7 @@ These graphs can be [sorted topologically](Topological_Ordering)
 
 ## Representation
 ### adjacency matrix
-- $n \times n$ matrix where 
+- $n \times n$ [matrix](Matrix) where 
 - $A_{i,j} = 1$ if $G$ has $(i, j)$ edge
 - or $+1$/$-1$ if directed
 - or weight if weighted
@@ -82,7 +82,7 @@ public class Graph {
 - [Minimal Cut Problem](Minimal_Cut_Problem)
 - [Graph Search](Graph_Search) ([Breadth-First Search](Breadth-First_Search) and [Depth-First Search](Depth-First_Search))
 - [Dijkstra's Shortest Path](Dijkstra's_Shortest_Path)
-- [Topological Ordering](Topological_Ordering)
+- Topological Ordering
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

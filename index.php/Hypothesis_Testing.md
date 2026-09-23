@@ -64,7 +64,7 @@ So the first step is
 
 ### Step 2: Evidence  - Test Statistics
 - *The evidence* is provided by our data
-- We need to summarize the data into a *test statistics*: a numerical summary of the data. 
+- We need to summarize the data into a *test [statistics](Statistics)*: a numerical summary of the data. 
 
 A test statistic is made under assumption that $H_0$ is true
 
@@ -80,7 +80,7 @@ So the 2nd step is
 *$p$-value* 
 - helps us to answer this question: it transforms the test statistic into a probabilistic scale:
 - it's a number between 0 and 1 that quantifiers the strength of evidence against the $H_0$
-- formally, $p$-value is a conditional probability of 
+- formally, $p$-value is a [conditional probability](Conditional_Probability) of 
   - observing data favorable to $H_A$ and to the current data set 
   - given $H_0$ is true
 
@@ -146,7 +146,7 @@ The final step:
 ### Significance Level
 - The *significance level* of a test gives a cut-off for how small is small for a $p$-value
 - It's denoted by $\alpha$ and called "desired level of significance"
-- $\alpha$ shows how the testing method would perform in repeated sampling
+- $\alpha$ shows how the testing method would perform in repeated [sampling](Sampling)
 - If $H_0$ is true and you use $\alpha = 0.01$, and you carry out a test repeatedly, with the same size of a sample each time, you will reject $H_0$ 1% of the time, and not reject 99% of the time 
 - If $\alpha$ is too small, you may never reject $H_0$, even if the true value is very different from the $H_0$
 
@@ -166,7 +166,7 @@ A statistical test is *robust* if the p-value is approximately correct even if s
 
 ## One-Sided vs Two-Sided
 Alternative hypotheses $H_A$ could be one-sided or two-sided 
-- if it's one-sided we look only at the corresponding tail of our [Sampling Distribution](Sampling_Distribution)
+- if it's one-sided we look only at the corresponding tail of our Sampling Distribution
 - otherwise we look at both tails
 
 
@@ -176,7 +176,7 @@ Consider the following one-sample [$z$-test](z-test) for means:
 - $H_0: \mu = \mu_0, H_A: \mu > \mu_0$
 - $\mu_0$ is called the "null value" because we assume it under $H_0$
 - i.e. we want to check if population mean is larger than some value 
-- under the [Normal Model](Normal_Distribution) we calculate the $z$-score and corresponding $p$ value of the right tail
+- under the Normal Model we calculate the $z$-score and corresponding $p$ value of the right tail
 - <img src="http://habrastorage.org/files/ab5/ad1/a1f/ab5ad1a1f6054967aecca86243c4b433.png" alt="Image">
   - (source: [OpenIntro](OpenIntro_Statistics_%28book%29), figure 4.16)
 
@@ -185,14 +185,14 @@ Analogously, for
 - $H_0: \mu = \mu_0, H_A: \mu < \mu_0$ 
 - we calculate the $p$-value based on the left tail 
 - <img src="http://habrastorage.org/files/bb4/edb/b53/bb4edbb5330e4c0c814a89d52c821690.png" alt="Image">
-  - (source: [OpenIntro](OpenIntro_Statistics_%28book%29), figure 4.16. modified)
+  - (source: OpenIntro, figure 4.16. modified)
 
 
 ### Two-Sided
 Two-Sided alternative hypotheses looks at both left and right tails. E.g.
 - $H_0: \mu = \mu_0, H_A: \mu \ne \mu_0$ 
 - <img src="http://habrastorage.org/files/34a/68f/2b4/34a68f2b488c420fbc9ec0d522a9e906.png" alt="Image">
-  - (source: [OpenIntro](OpenIntro_Statistics_%28book%29), figure 4.19, modified)
+  - (source: OpenIntro, figure 4.19, modified)
 - if this case, we reject $H_0$ if the test statistics gets under any of the shaded tails 
   - i.e. the $p$-value is (typically) twice bigger than for one-sided tests 
 
@@ -206,7 +206,7 @@ Two-Sided alternative hypotheses looks at both left and right tails. E.g.
 
 ### Data Collection
 [Data Collection](Data_Collection) matters 
-- [Sample](Sampling) wisely:
+- Sample wisely:
 - use randomization to avoid flaws and biases 
 
 
@@ -262,12 +262,12 @@ Some hypothesis can be checked with [Confidence Intervals](Confidence_Intervals)
 
 
 ## See Also
-- [Sampling Distribution](Sampling_Distribution)
-- [Confidence Intervals](Confidence_Intervals)
+- Sampling Distribution
+- Confidence Intervals
 - [Confidence Intervals and Statistical Tests](Confidence_Intervals_and_Statistical_Tests)
 
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
+- OpenIntro Statistics (book)
 - http://en.wikipedia.org/wiki/Statistical_hypothesis_testing

@@ -54,8 +54,8 @@ Graphical representation
 
 
 ### There's a serialized form
-- The serialized representation of a such graph 
-- [XML](XML)
+- The serialized representation of a such [graph](Graph) 
+- XML
 - JSON 
 - etc
 

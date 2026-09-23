@@ -42,12 +42,12 @@ How to characterize "good" voting methods?
 There are several criteria 
 - [Monotonicity](Monotonicity)
 - [Independence to Third Alternatives](Independence_to_Third_Alternatives)
-- [Condorcet Fairness Criterion](Condorcet's_Rule#Fairness)
+- Condorcet Fairness Criterion
 - Solution Existence 
 - [Separability](Separability)
 
 
-|    |  [PV](Plurality_Voting)  |  [2PV](Two-Round_Voting)  |  [Borda](Borda's_Rule)  |  [Cond.](Condorcet's_Rule)  |   [Monotonicity](Monotonicity)  |  [Yes](Plurality_Voting#Monotonicity) ||  [No](Two-Round_Voting#Monotonicity)  ||  [Yes](Borda's_Rule#Monotonicity) ||  [No](Condorcet's_Rule#Monotonicity) ||   Solution Existence  |  Yes  |  Yes  |  Yes  |  [No](Condorcet's_Rule#Condorcet_Paradox) ||   [Manipulation](Independence_to_Third_Alternatives)  |  [No](Plurality_Voting#Independence_to_Third_Alternatives) ||  [No](Two-Round_Voting#Independence_to_Third_Alternatives)  ||  [No](Borda's_Rule#Independence_to_Third_Alternatives)  ||  [No](Condorcet's_Rule#Independence_to_Third_Alternatives) ||   [Separability](Separability)  |  [Yes](Plurality_Voting#Separability) ||  [No](Two-Round_Voting#Separability)  ||  [Yes](Borda's_Rule#Separability) ||  [Yes](Condorcet's_Rule#Separability) ||   [Condorcet Fairness](Condorcet's_Rule#Fairness)  |  No  ||  No  ||  [No](Borda's_Rule#Condorcet_Fairness)  ||  Yes |
+|    |  PV  |  2PV  |  Borda  |  Cond.  |   Monotonicity  |  Yes ||  No  ||  Yes ||  No ||   Solution Existence  |  Yes  |  Yes  |  Yes  |  No ||   Manipulation  |  No ||  No  ||  No  ||  No ||   Separability  |  Yes ||  No  ||  Yes ||  Yes ||   Condorcet Fairness  |  No  ||  No  ||  No  ||  Yes |
 
 Other principles:
 - [Unanimity](Unanimity)

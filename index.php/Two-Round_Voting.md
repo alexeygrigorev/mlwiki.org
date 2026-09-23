@@ -62,7 +62,7 @@ Note that $x$ by improving his position should remain the winner
 Elections:
 - Round 1: $x$ and $z$ ($x=6+2, z=5, y=4$)
 - Round 2: $z$ wins (not $x$!) (6+2: $x > y$, 9: $z > x$)
-This counter-example shows that the [Monotonicity](Monotonicity) principle is not respected by Two-Round Voting method.
+This counter-example shows that the Monotonicity principle is not respected by Two-Round Voting method.
 
 
 ### [Separability](Separability)

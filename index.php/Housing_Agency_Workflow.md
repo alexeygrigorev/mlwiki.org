@@ -14,7 +14,7 @@ Housing Agency
 Registration
 - potential tenants indicate their interests: 
   - certain <u>criteria</u>: price, size, location, etc
-- the interests are entered into some database
+- the interests are entered into some [database](Database)
 
 Offer
 - after the registration, the agency <u>sends an offer</u> when a suitable apartment is found
@@ -64,7 +64,7 @@ Bad sides of the model:
 The main flow:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-housing-agency1.png" alt="Image">
 - there are 2 [Cancellation Regions](Cancellation_Regions)
-- note that for "initiate eviction process" this activity is also included to the cancellation regions of itself (for the reasons described in [Cancellation Regions](Cancellation_Regions))
+- note that for "initiate eviction process" this activity is also included to the cancellation regions of itself (for the reasons described in Cancellation Regions)
 
 
 Initiate Renting flow:
@@ -87,11 +87,11 @@ Using the [$\alpha^+$ algorithm](Alpha_Algorithm)
 Steps
 - first of all, the transitions were renamed to letters
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-housing-agency-ren.png" alt="Image">
-- to obtain the possible sequences  we construct the following graph:
+- to obtain the possible sequences  we construct the following [graph](Graph):
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-housing-agency-firing.png" alt="Image">
 - then we execute [Breadth-First Search](Breadth-First_Search) restricting the traversal of each node to 2 visits
 - and get a log with the following possible firing sequences: http://pastebin.com/kSyhR9uK
-- then the [$\alpha^+$ algorithm](Alpha_Algorithm) is applied to these sequences using [EMiT](http://www.processmining.org/discontinued/emit) 
+- then the $\alpha^+$ algorithm is applied to these sequences using [EMiT](http://www.processmining.org/discontinued/emit) 
 - and the following workflow net is rediscovered:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-housing-agency-redisc.png" alt="Image">
 

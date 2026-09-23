@@ -13,7 +13,7 @@ General idea:
 - start with a population of potential solutions 
 - score each solution
 - select the best (only the best "survive")
-- perform some random mutations (permutations, etc)
+- perform some random mutations ([permutations](Permutations), etc)
 - combine the solutions in hope to get a better one (cross-over)
 - repeat for several generations 
 

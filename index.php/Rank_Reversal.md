@@ -22,7 +22,7 @@ This may lead to:
 
 
 This issue occurs in:
-- [ELECTRE](ELECTRE)
+- ELECTRE
 - PROMETHEE both I and II (see [Rank Reversal in PROMETHEE](PROMETHEE_Rank_Reversal))
 
 

@@ -12,14 +12,14 @@ title: OLS Regression
 - This is a technique for computing coefficients for [Multivariate Linear Regression](Multivariate_Linear_Regression).
 - the solution is obtained via minimizing the squared error, therefore it's called *Linear Least Squares*
 - two solutions: [Normal Equation](Normal_Equation) and [Gradient Descent](Gradient_Descent)
-- this is the the typical way of solving the [Multivariate Linear Regression](Multivariate_Linear_Regression), therefore it's often called *OLS Regression*
+- this is the the typical way of solving the Multivariate Linear Regression, therefore it's often called *OLS Regression*
 
 
 ## Regression Problem
 Suppose we have
 - $m$ training examples $(\mathbf x_i, y_i)$
 - $n$ features, $\mathbf x_i = \big[x_{i1}, \ ... \ , x_{in} \big]^T \in \mathbb{R}^n$
-- We can put all such $\mathbf x_i$ as rows of a matrix $X$ (sometimes called a *design matrix*)
+- We can put all such $\mathbf x_i$ as rows of a [matrix](Matrix) $X$ (sometimes called a *design matrix*)
 - $X = \begin{bmatrix}
 - \ \mathbf x_1^T - \\ 
   \vdots  \\ 
@@ -70,7 +70,7 @@ From the [Linear Algebra](Linear_Algebra) point of view:
 - we need to solve $X \mathbf w = \mathbf y$
 - if $\mathbf y \not \in C(X)$ ([Column Space](Column_Space)) then there's no solution
 - How to solve it approximately? [Project](Projection_onto_Subspaces) on $C(A)$
-- again, it gives us the [Normal Equation](Normal_Equation): $X^T X \mathbf w = X^T \mathbf y$
+- again, it gives us the Normal Equation: $X^T X \mathbf w = X^T \mathbf y$
 
 ### [Gradient Descent](Gradient_Descent)
 Alternatively, we can use Gradient Descent:
@@ -117,13 +117,13 @@ w_0 \\ w_1
 
 
 ## Normal Equation vs [Gradient Descent](Gradient_Descent)
-[Gradient Descent](Gradient_Descent):
+Gradient Descent:
 - need to choose learning rate $\alpha$
 - need to do many iterations
 - works well with large $n$
 
 
-[Normal Equation](Normal_Equation):
+Normal Equation:
 - don't need to choose $\alpha$
 - don't need to iterate - computed in one step
 - slow if $n$ is large $(n \geqslant 10^4)$
@@ -132,8 +132,8 @@ w_0 \\ w_1
 
 
 ## See Also
-- [Multivariate Linear Regression](Multivariate_Linear_Regression)
-- [Gradient Descent](Gradient_Descent)
+- Multivariate Linear Regression
+- Gradient Descent
 
 
 ## Sources

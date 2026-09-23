@@ -23,7 +23,7 @@ Idea: Extreme Optimism
 |   $c$  |  $e_1$  |  $e_2$  |  $e_3$  |  max  |   |   $a_1$   |  40  |  70  |  -20  |  70   |  best case for $a_1$ ||   $a_2$   |  -10  |  40  |  100  |  <font color="red">100</font>  |  best case for $a_2$ ||   $a_3$   |  20  |  40  |  -5  |  40  |  best case for $a_3$ ||   |   |      |   max   |  100  |  $\to a_2$ |
 
 ### Advantages and Disadvantages
-Same as for [Max Min Strategy](Max_Min_Strategy)
+Same as for Max Min Strategy
 
 Downsides
 - bad use of information

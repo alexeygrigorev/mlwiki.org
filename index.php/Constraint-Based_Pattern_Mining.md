@@ -16,7 +16,7 @@ Goal:
 Example:
 - suppose $q \equiv \sum_{x \in X} x.\text{price} \leqslant 8$
 - prices: $(a \to 1, b \to 2, c \to 5, d \to 4, e \to 6, f \to 4)$
-- the same idea as in [Frequent Pattern Mining](Frequent_Pattern_Mining)
+- the same idea as in Frequent Pattern Mining
 - enumerate all subsets, check ones in which this constraint is satisfied
 - solution:
   - $(\{\} \to 0), (a \to 1), (b \to 2), (c \to 5), (d \to 4), (e \to 6),$ 
@@ -60,7 +60,7 @@ Monotone constraint
   - $\forall X \subseteq Y, \sum_{y \in Y} p(y) \leqslant 6 \Rightarrow \sum_{x \in X} p(X) \leqslant 6$
   - and if we remove an item, we're sure that the price will decrease 
 
-Since it's anti-monotone, can use Apriori to find all itemsets that satisfy it
+Since it's anti-monotone, can use [Apriori](Apriori) to find all itemsets that satisfy it
 - Level 1: $A, B, C, D, E, F$
 - Level 2: $AB, AC, AD, AE, AF, BC, CD, CE, CF$
 - Level 3: $ACD$
@@ -124,11 +124,11 @@ Now we're sure that the average always increases
 
 ## Papers
 - Heikki Mannila, Hannu Toivonen: Levelwise Search and Borders of Theories in Knowledge Discovery. Data Min. Knowl. Discov. 1(3): 241-258 (1997) (about anti-monotone constraints)
-- Jian Pei, Jiawei Han: Can we push more constraints into frequent pattern mining? KDD 2000: 350-354 (about convertible constraints)
+- Jian Pei, Jiawei Han: Can we push more constraints into [frequent pattern mining](Frequent_Patterns_Mining)? KDD 2000: 350-354 (about convertible constraints)
 
 ## See Also
 - [Local Pattern Discovery](Local_Pattern_Discovery)
-- [Frequent Pattern Mining](Frequent_Pattern_Mining)
+- Frequent Pattern Mining
 
 ## Sources
 - [Data Mining (UFRT)](Data_Mining_%28UFRT%29)

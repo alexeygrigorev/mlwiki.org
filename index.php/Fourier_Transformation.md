@@ -17,7 +17,7 @@ Goal: to expand a function $f(x)$
 These functions $\cos nx$ and $\sin nx$ are [orthogonal](Orthogonal_Functions)
 - they form an orthogonal basis
 - so basis is $\big[ 1, \cos x, \sin x, \cos 2x, \sin 2x, \ ... \big]$
-- inner product in functions space is $\langle f, g \rangle = \int\limits_0^{2\pi} f(x) g(x) \, dx$
+- [inner product](Dot_Product) in functions space is $\langle f, g \rangle = \int\limits_0^{2\pi} f(x) g(x) \, dx$
   - because these functions are all periodic and analytical, we take the integral only over $[0, 2 \pi]$
 - e.g. $\int \sin x \, \cos x \, dx = 0.5 (\sin x)^2 \mathop- so we have orthogonal $\infty$-dimensional basis for this functional space
 - and we want to express some function $f(x)$ in this basis 
@@ -37,7 +37,7 @@ We can do it for all the coefficients
 
 ## Discrete Fourier Transform
 ### Fourier Matrix
-Let $F_n$ be a Fourier matrix:
+Let $F_n$ be a Fourier [matrix](Matrix):
 - $F_n = \begin{bmatrix} 
 1 & 1 & 1 & \cdots & 1 \\
 1 & w^2 & w^2 & \cdots & w^{n - 1} \\

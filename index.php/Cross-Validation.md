@@ -15,7 +15,7 @@ We can split all the data into 2 subsets
 - training set $\approx$ *70%* of data, $m$ - number of examples in the training set
 - testing set $\approx$ *30%* of data, $m_{\text{test}}$ - number of examples in the testing set
 
-it's better to choose examples for training/testing sets randomly 
+it's better to choose examples for training/testing [sets](Sets) randomly 
 
 
 | + [Error Metrics](Evaluation_of_Binary_Classifiers) ||    |  Prediction  |  Classification   |   Example Model   |  [Linear Regression](Multivariate_Linear_Regression)  |  [Logistic Regression](Logistic_Regression) ||   Test Error  | colspan="2" | $J_{\text{test}}(\theta) = \cfrac{1}{m_{\text{test}}} \sum \text{error} \big(h_{\theta}(x_{\text{test}}^{(i)}), y_{\text{test}}^{(i)} \big)$ ||   $\text{error}(h_{\theta}(x), y)$  |  Average Square Error <br> $\text{error}(h_{\theta}(x), y) = \cfrac{1}{2} (h_{\theta}(x) - y)^2$ ||  Misclassification Error <br> $\text{error}(h_{\theta}(x), y) = \left\{\begin{array}{l} 0 \text { if classification is correct} \\ 1 \text{ otherwise} \end{array}\right.$ |
@@ -40,7 +40,7 @@ So the problem
 - $d=10: h_{\theta} = \theta_0 + \theta_1 x + \theta_2 x^2 + ... + \theta_{10} x^{10}$
 
 Results
-- Each $d$ will give us a vector (or matrix) $\theta^{(d)}$
+- Each $d$ will give us a vector (or [matrix](Matrix)) $\theta^{(d)}$
 - Now we can try all $d$ models  and see which gives the best (lowest) $J_{\text{test}}(\theta^{(i)})$
 - Let's say we decided to choose 5th model
 
@@ -71,7 +71,7 @@ Now we can define
   $J_{\text{test}}(\theta) = \cfrac{1}{2m_{\text{test}}} \sum \text{cost}(x_{\text{test}}^{(i)}, y_{\text{test}}^{(i)})$
 
 
-So for [Model Selection](Model_Selection) to fit $d$, we 
+So for Model Selection to fit $d$, we 
 - obtain $\theta^{(1)}, ..., \theta^{(d)}$ and select best (lowest) $J_{\text{cv}}(\theta^{(i)})$
 - estimate generalization error for the test set $J_{\text{test}}(\theta^{(i)})$
 
@@ -154,15 +154,15 @@ Choosing best value for parameter $\gamma$ with $K$-Fold Cross-Validation
 
 
 ### Stratified K-Fold Cross-Validation
-What if we want to preserve the class distribution over $K$ runs?
+What if we want to preserve the class [distribution](Distributions) over $K$ runs?
 - then for each $T_i$ pick up the same proportion of labels as in the original dataset
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/kddm/k-fold-cv-strat.png" alt="Image">
 - it's very important if the test distribution is not uniform 
 
 
 ## See Also
-- [Overfitting](Overfitting)
-- [Model Selection](Model_Selection)
+- Overfitting
+- Model Selection
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

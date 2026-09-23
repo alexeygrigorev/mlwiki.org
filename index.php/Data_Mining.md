@@ -48,7 +48,7 @@ DM is mostly used
   - credit scoring
   - sales forecasting 
   - etc
-- website/search optimization
+- website/search [optimization](Optimization)
 - supply chain optimization 
 - many others
 
@@ -74,7 +74,7 @@ Sequence Mining:
 - Web Mining
 - [Text Mining](Text_Mining) - part of [Natural Language Processing](Natural_Language_Processing) and [Information Retrieval](Information_Retrieval)
 - [Stream Mining](Stream_Mining)
-- Tree Mining
+- [Tree](Tree) Mining
 - Preference Mining
 
 

@@ -16,7 +16,7 @@ Two Phases
 
 
 ### Notation
-- let $D$ be term-document matrix: rows are documents and columns are terms 
+- let $D$ be term-document [matrix](Matrix): rows are documents and columns are terms 
 - $X = \{ \mathbf x_1 , \ ... \ , \mathbf x_n \}$ - random vectors: rows of $D$
 - $Y = \{ \mathbf y_1 , \ ... \ , \mathbf y_d \}$ - random vectors: columnts of $D$
 

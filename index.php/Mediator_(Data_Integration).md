@@ -7,7 +7,7 @@ title: Mediator (Data Integration)
 ---
 ## Mediator
 This is an approach to [Data Integration](Data_Integration) (opposite to [Data Warehousing](Data_Warehousing))
-- data remains in the data sources (so it's sometimes called "virtual data integration")
+- data remains in the [data sources](Data_Sources) (so it's sometimes called "virtual data integration")
 - also better if you want to access "fresh" data
 - but way harder to implement - need to transform data during the query time 
   - need to use [Ontologies](Ontologies) for that, no [ETL](ETL)s
@@ -46,7 +46,7 @@ Goal of *Semantic Mappings*:
 
 But better to use containment instead of equality
 - to be able to express the usage of multiple sources
-- example ([GAV Mediation](GAV_Mediation))
+- example (GAV Mediation)
   - $G_3 \supseteq S_1 \Join S_3$
   - $G_3 \supseteq \sigma_{A = \text{yes}} ( S_4 )$
 - example ([LAV Mediation](LAV_Mediation))
@@ -82,12 +82,12 @@ Main algorithms for query rewriting in LAV Meditation:
 
 Discussion
 - all these algorithms have the same complexity
-- but in experiments (from the book) show that Minicon outperforms others
+- but in [experiments](Statistical_Experiment) (from the book) show that Minicon outperforms others
 - no algorithm handles additional knowledge (ontologies)
 
 
-Ontology Based Data Access
-- Typically LAV is used along with [OBDA](OBDA)
+[Ontology Based Data Access](Ontology_Based_Data_Access)
+- Typically LAV is used along with OBDA
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/sw/semantic-web-data-access.png" alt="Image">
 
 

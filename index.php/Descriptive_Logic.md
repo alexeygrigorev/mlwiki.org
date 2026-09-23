@@ -18,7 +18,7 @@ Descriptive Logic (DL)
 - exactly what needed for [Ontologies](Ontologies)
 
 
-Mapping between [OWL](OWL), FOL and DL: 
+Mapping between OWL, FOL and DL: 
 - see [Semantic Web Logic](Semantic_Web_Logics)
 
 
@@ -30,7 +30,7 @@ A DL knowledge base consists of:
 
 
 In [Semantic Web](Semantic_Web) knowledge base is
-- TBox: [Ontologies](Ontologies) in [RDFS](RDFS) and [OWL](OWL)
+- TBox: Ontologies in RDFS and OWL
 - ABox: Data in [RDF](RDF)-[graphs](Graphs)
 
 
@@ -87,7 +87,7 @@ Restriction constructs
 
 Examples
 - $\text{MathStudent} \equiv \text{Student} \ \sqcap \ \forall \text{RegisteredTo} . \text{MathCourse}$
-  - a math student is a student is he's a student and registered to math courses only
+  - a math student is a student is he's a student and registered to math [courses](Courses) only
 - $\text{MathStudent} \equiv \text{Student} \ \sqcap \ \exists \text{RegisteredTo} . \text{MathCourse}$
   - a math student is a student is he's a student and registered to at least one math course
 
@@ -107,7 +107,7 @@ General Inclusion Axioms (CGIs)
 Example
 - $\exists \text{TeachesTo} . \text{UndergraduateStudent} \sqsubseteq \text{Professor} \sqcup \text{Lecturer} $
 - only professor or lecturer may teach undergraduate students 
-- in [OWL](OWL) it will be the following
+- in OWL it will be the following
 
 ```
 _:a rdfs:subClassOf owl:Restriction
@@ -152,8 +152,8 @@ Also, there are two families of DL-Lite:
 
 
 ## See Also
-- [First Order Logic](First_Order_Logic)
-- [RDFS](RDFS) and [OWL](OWL)
+- First Order Logic
+- RDFS and OWL
 
 ## Sources
 - Web Data Management, Manolescu, Ioana, et al. [link](http://webdam.inria.fr/Jorge/)

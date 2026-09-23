@@ -7,7 +7,7 @@ tags:
 title: Descriptive Analysis
 ---
 ## Descriptive Analysis
-Descriptive statistics - how to summarize data with numbers or plots 
+Descriptive [statistics](Statistics) - how to summarize data with numbers or plots 
 
 
 ### Summaries
@@ -16,14 +16,14 @@ Descriptive statistics - how to summarize data with numbers or plots
 
 
 ## [Univariate Analysis](Univariate_Analysis)
-Univariate analysis is describing the distribution of a single variable
+[Univariate analysis](Univariate_Analysis) is describing the [distribution](Distributions) of a single variable
 - central tendency (e.g. the mean, median, and mode) 
 - dispersion, e.g. 
   - the range and quantiles of the data set
-  - measures of spread variance and standard deviation
+  - measures of spread [variance](Variance) and standard deviation
 - the shape of the distribution 
   - as skewness and kurtosis. 
-  - graphical or tabular format, including histograms and stem-and-leaf display.
+  - graphical or tabular format, including [histograms](Histogram) and stem-and-leaf display.
 
 
 ## [Bivariate Analysis](Bivariate_Analysis)

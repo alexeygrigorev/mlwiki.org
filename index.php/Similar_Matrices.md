@@ -17,7 +17,7 @@ Suppose $A$ has all its [eigenvalues](Eigenvalues_and_Eigenvectors)
 - then if we [diagonalize](Eigendecomposition) $A$, we have $S^{-1} A \, S = \Lambda$
 - so $A$ is similar to $\Lambda$
 - Here $M = \Lambda$ 
-- we may take another $M \ne \Lambda$ and will get another matrix similar to $A$ (not necessarily diagonal)
+- we may take another $M \ne \Lambda$ and will get another [matrix](Matrix) similar to $A$ (not necessarily diagonal)
 
 
 A family of similar matrices for $A$ is a set of matrices similar for $A$ for different $M$ 

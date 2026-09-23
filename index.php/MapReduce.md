@@ -53,7 +53,7 @@ So it's performed in two steps
 - map phase 
 - reduce phase
 
-Implementation on top of [Distributed File System](Hadoop_Distributed_File_System) is little bit more complex and needs some additional logic for replicating and so on. 
+Implementation on top of Distributed File System is little bit more complex and needs some additional logic for replicating and so on. 
 - For [Hadoop](Hadoop) implementation refer to Hadoop#Map-Reduce Job Execution
 
 
@@ -78,7 +78,7 @@ def reduce(String output_key, Iterator output_vals):
 
 
 ## High Level Languages
-There are SQL-like languages that work on top of [Hadoop](Hadoop) and translate into a set of Map-Reduce jobs 
+There are SQL-like languages that work on top of Hadoop and translate into a set of Map-Reduce jobs 
 - [Pig](Pig)
 - [Hive](Hive)
 
@@ -99,7 +99,7 @@ There are SQL-like languages that work on top of [Hadoop](Hadoop) and translate 
 - similar to [Hash Join](Physical_Operators_%28databases%29)#(Partition)_Hash_Join) in DBMS
 
 note
-- it may lead to massive data re-distribution 
+- it may lead to massive data re-[distribution](Distributions) 
 - when input is huge
 - even though data may be on one node it may be moved to others
 - need to take the cost of communication into account
@@ -148,7 +148,7 @@ Reduce:
 [RDBMS](Relational_Databases) 
 - Declarative query language
 - Schemas 
-- Logical Data Independence
+- Logical Data [Independence](Independence)
 - [Indexing](Indexing_%28databases%29) 
 - [Algebraic Optimization](Logical_Query_Plan_Optimization) 
 - Caching / [Materialized Views](View_Materialization) 
@@ -161,8 +161,8 @@ MapReduce
 
 
 ## See also
-- [Hadoop](Hadoop)
-- [Hadoop Distributed File System](Hadoop_Distributed_File_System)
+- Hadoop
+- Hadoop Distributed File System
 
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)

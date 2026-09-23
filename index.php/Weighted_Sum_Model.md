@@ -67,7 +67,7 @@ But suppose now we want to use $p$ - production per week
 |    |  $p$  |  $q$  |  Score  |   $a$  |  25  |  100  |  50 ||   $b$   |  30  |  80  |  46 ||   $w$  |  2/3  |  1/3  |   |
 Now all of a sudden $a$ becomes better 
 - because the scale changed
-- need normalization 
+- need [normalization](Feature_Normalization) 
 
 
 ### Not All Solutions

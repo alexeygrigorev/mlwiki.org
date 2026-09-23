@@ -6,7 +6,7 @@ tags:
 title: Redis
 ---
 ## Redis
-[Redis](http://redis.io/) is an in-memory database, good to be used as 
+[Redis](http://redis.io/) is an in-memory [database](Database), good to be used as 
 - a cache
 - a message queue
 
@@ -84,7 +84,7 @@ String functions:
 
 
 ### Sets
-Unordered sets
+Unordered [sets](Sets)
 - <code>sadd set1 val1 val2 val3</code> adds values "val1" "val2" "val3" to set <code>setkey</code>
 - <code>smember set1 val1</code>
 - <code>sinter set1 set2</code> intersection of two sets <code>set1</code> and <code>set2</code>

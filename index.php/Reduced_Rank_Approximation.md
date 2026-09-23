@@ -6,7 +6,7 @@ tags:
 title: Reduced Rank Approximation
 ---
 ## Reduced Rank Approximation
-Given an $m \times n$ matrix $A$, the goal is to describe $A$ using fewer than $m \times n$ entries
+Given an $m \times n$ [matrix](Matrix) $A$, the goal is to describe $A$ using fewer than $m \times n$ entries
 - also called *Total Least Squares* because we want to approximate matrix $A$ with matrix $B$ by minimizing $\|  A - B \|^2_F$
 - in the [Matrix Vector Spaces](Matrix_Vector_Spaces) with [Frobenius Norm](Frobenius_Norm)
 
@@ -25,13 +25,13 @@ Given an $m \times n$ matrix $A$, the goal is to describe $A$ using fewer than $
 Finding the approximation
 - Suppose our matrix doesn't have rank-1, 
 - but we want to find the best rank-1 approximation to this matrix 
-- so we want to express $A$ in terms of two vectors and their [Outer Product](Outer_Product)
+- so we want to express $A$ in terms of two vectors and their Outer Product
 
 
 How do we define "best"?
 - let matrix $B$ be the best rank-one approximation of $A$ if $\|  B - A \|^2$ is minimum
 - so $B$ is the best in terms of "Total Least Squares"
-- norm for a matrix? Use [Frobenious Norm](Frobenious_Norm)
+- norm for a matrix? Use Frobenious Norm
 - so use element-wise [Inner Product](Inner_Product) $\langle A, B \rangle = \sum_{ij} a_{ij} b_{ij}$ and norm is $\|  A \|_F = \langle A, A \rangle$.
 
 
@@ -39,7 +39,7 @@ Let's apply [SVD](SVD):
 - $A = U \Sigma V^T = \sum_i \sigma_i \mathbf u_i \mathbf v_i^T$
 - $\|  A \|^2_F = \sum_i \| \sigma_i \mathbf u_i \mathbf v_i^T \|^2_F$
 - <!-- TODO: why??? prove it -->
-- the terms are orthogonal w.r.t. matrix inner product
+- the terms are orthogonal w.r.t. matrix [inner product](Dot_Product)
 - SVD is orthogonal decomposition into rank-1 matrices
 - also because norm of rank-1 matrix is $\|  \mathbf u_i \mathbf v_i^T \|^2_F = \| \mathbf u_i  \|^2 \|\mathbf v_i  \|^2$ and $\mathbf v_i$ and $\mathbf u_i$ are orthonormal, we have
 - $\|  A \|^2_F = \sum_i \sigma_i^2$

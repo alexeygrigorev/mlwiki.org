@@ -25,7 +25,7 @@ So,
 
 ### IR Problem
 Problem: 
-- we have a large data collection of unstructured data
+- we have a large [data collection](Data_Collection) of unstructured data
 - user interacts with the collection by sending a query
 - we find some results, but in what order should they be presented? 
 
@@ -51,7 +51,7 @@ e.g. they contain the answer to the query
 - Retrieval Model defines the notion of relevance and makes it possible to rank the documents 
 
 
-[Information Retrieval Models](Information_Retrieval_Models):
+Information Retrieval Models:
 - the model should be able to represent both objects in the collection and the queries 
 - for documents the most popular one is [Vector Space Model](Vector_Space_Model)
 - but there are other Information Retrieval Models: e.g. [Probabilistic Retrieval Model](Probabilistic_Retrieval_Model)
@@ -65,7 +65,7 @@ Given the model we define a retrieval function $s$
 
 
 Which documents are relevant?
-- in the [Vector Space Model](Vector_Space_Model)
+- in the Vector Space Model
 - assumption: relevance of a document $d$ w.r.t. to a query $q$ correlated with similarity between query and document:
 - So can use some [similarity function](Similarity_Functions) $\text{similarity}(d, q)$ to find if  a document is relevant
 - so the retrieval function can be a similarity function, and you'll just need to sort all documents in $C$ by their similarity to $q$
@@ -120,7 +120,7 @@ Ranked list is not the only way of presenting the retrieval results to the user
 
 
 There are two ways to cluster the results:
-- search-result clustering (post-retrieval document clustering)
+- search-result clustering (post-retrieval [document clustering](Document_Clustering))
 - pre-retrieval document clustering 
 
 
@@ -132,6 +132,6 @@ Pre-retrieval
 
 
 ## Sources
-- [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)
-- Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
+- Information Retrieval (UFRT)
+- Zhai, ChengXiang. "[Statistical language models](Statistical_Language_Models) for information retrieval." 2008.
 - http://datascience.stackexchange.com/questions/1106/how-to-build-a-textual-search-engine

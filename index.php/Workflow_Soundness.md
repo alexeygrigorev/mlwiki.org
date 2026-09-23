@@ -6,7 +6,7 @@ tags:
 title: Workflow Soundness
 ---
 ## Workflow Soundness
-Soundness is a notion of correctness of workflow nets
+Soundness is a notion of correctness of [workflow nets](Workflow_Nets)
 - for [Petri Nets](Petri_Nets) and Workflow Nets
 - for [YAWL](YAWL)
 
@@ -83,11 +83,11 @@ For Petri Nets that represent infinite processes there is a notion of correctnes
 - deadlock-free
 
 Used notation:
-- [Reachability Graph](Reachability_Graph)
+- Reachability Graph
 
 
 ### Liveness
-In a *live* petri net there are no dead transitions
+In a *live* [petri net](Petri_Net) there are no dead transitions
 - a dead transition is a transition that can never fire in any marking reachable from the initial marking 
 
 a petri net $N$ with initial marking $M_0$ is live $\iff$
@@ -115,7 +115,7 @@ In other words:
 #### Example 2
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-liveness2.png" alt="Image">
 - this network is deadlock-free
-- [Reachability Graph](Reachability_Graph): <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-liveness2-rg.png" alt="Image">
+- Reachability Graph: <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-liveness2-rg.png" alt="Image">
 - so whatever we do there are always active transitions 
 - but we cannot escape marking $[p_2]$, and $a$ is no longer live
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pn/petri-net-liveness3.png" alt="Image">
@@ -178,7 +178,7 @@ A *workflow net* is sound $\iff$ it has
 Notation:
 - $M_0 = [i]$ initial marking 
 - $[o]$ - final marking
-- also notation from [Petri Nets](Petri_Nets) and [Reachability Graph](Reachability_Graph)
+- also notation from Petri Nets and Reachability Graph
 - given a petri net $N = (P, T, F)$
 
 

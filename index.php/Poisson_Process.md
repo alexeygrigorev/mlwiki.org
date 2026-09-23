@@ -21,7 +21,7 @@ Examples:
 A simple stream is a stream that possesses the following properties:
 
 ### Stationarity
-The probability of $k$ events occurring in any interval depends only on $k$ and the length $t$ of the interval, and does not depend on the starting point. The time intervals are assumed to be non-overlapping.
+The [probability](Probability) of $k$ events occurring in any interval depends only on $k$ and the length $t$ of the interval, and does not depend on the starting point. The time intervals are assumed to be non-overlapping.
 
 ### Lack of Aftereffect (Memorylessness)
 The probability of $k$ events occurring in any time interval does not depend on whether events occurred before that interval or not. That is, the history of the stream does not affect the probability of an event occurring in the near future.
@@ -62,8 +62,8 @@ During one minute, on average 2 calls arrive at a telephone exchange. Find the p
 
 
 ## See also
-- [Poisson Limit Theorem](Poisson_Limit_Theorem)
+- Poisson Limit Theorem
 - [Poisson Distribution](Poisson_Distribution)
 
 ## Sources
-- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vysshaya Shkola, 2003.
+- Gmurman V.E., Probability Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vysshaya Shkola, 2003.

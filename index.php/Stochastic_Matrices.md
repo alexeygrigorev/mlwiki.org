@@ -9,7 +9,7 @@ title: Stochastic Matrices
 ## Stochastic Matrices
 Stochastic matrices (or Markov matrices) - matrices used to describe transitions in [Markov Chains](Markov_Chains)
 
-A stochastic matrix is a matrix $A$ which
+A stochastic [matrix](Matrix) is a matrix $A$ which
 - is square $n \times n$
 - for all entires $0 \leqslant a_{ij} \leqslant 1$
 - sum over columns is 1
@@ -26,7 +26,7 @@ Let take any stochastic $A$
 - sum of columns of $A$ is 1. But when we subtract $1$ from diagonal, the sum is 0 for all columns
 - so columns are now linearly dependent, and it means that rows are also linearly dependent
 - then $(1,1,1) \in N(A^T)$ (left [Nullspace](Nullspace) of $A$)
-- and the [Nullspace](Nullspace) $N(A)$ also contains something: it contains the eigenvector $\mathbf v_1$ that corresponds to $\lambda_1 = 0$
+- and the Nullspace $N(A)$ also contains something: it contains the eigenvector $\mathbf v_1$ that corresponds to $\lambda_1 = 0$
 
 If $\lambda_1 < 0$, then $A^k$ for large $k$ will converge to $\mathbf O$ - a matrix with all zeros.
 

@@ -30,7 +30,7 @@ the *ability to rediscover*
 
 ### Some Notes
 Usually, first a [Petri Net](Petri_Net) model is discovered
-- and then this model is converted to [YAWL](YAWL) or [BPMN](BPMN)
+- and then this model is converted to YAWL or BPMN
 - because Petri Nets are simpler 
 
 
@@ -65,7 +65,7 @@ Can we replay the log?
 Do we underfit the log?
 - play out the model, capture logs 
 - see what's generated and compare to the original logs
-- is it far? (need to have some distance measure)
+- is it far? (need to have some [distance](Distance_Functions) measure)
 
 if produced logs $\subseteq$ original logs
 - then we have 100% precision
@@ -102,8 +102,8 @@ The simpler the model - the better
 
 
 ### Conclusions
-So [Process Mining](Process_Mining) is difficult
-- it's a [Multi-Objective Optimization](Multi-Objective_Optimization) problem
+So Process Mining is difficult
+- it's a Multi-Objective Optimization problem
 - there are no negative examples
 - the search space is too complex 
 - logs typically show only a fraction of possible behavior 
@@ -111,10 +111,10 @@ So [Process Mining](Process_Mining) is difficult
 
 
 ## Algorithms
-These algorithms let you find a [Petri Net](Petri_Nets) from logs
+These algorithms let you find a Petri Net from logs
 - [$\alpha$ and $\alpha^+$ algorithms](Alpha_Algorithm) - simple, but tend to overfit, very susceptible to noise in logs
 - [Region-Based Process Miner](Region-Based_Process_Miner) - state-based approach, still susceptible to noise
-- [Genetic Process Miner](Genetic_Process_Miner) - good performance, much less susceptible to noise
+- Genetic Process Miner - good performance, much less susceptible to noise
 
 
 ## Sources

@@ -14,7 +14,7 @@ title: Simulation Basics in R
 |   Name  |  [Function](Distribution_Function)  |  [Density](Probability_Density_Function)  |   |  <code>rbeta</code>  |  <code>dbeta</code> ||  [Binomial Distribution](Binomial_Distribution)  |  <code>rbinom</code>  |  <code>dbinom</code> ||   |  <code>rcauchy</code>  |  <code>dcauchy</code> ||   |  <code>rchisq</code>  |  <code>dchisq</code> ||   |  <code>rexp</code>  |  <code>dexp</code> ||   |  <code>rf</code>  |  <code>df</code> ||   |  <code>rgamma</code>  |  <code>dgamma</code> ||   |  <code>rgeom</code>  |  <code>dgeom</code> ||   |  <code>rhyper</code>  |  <code>dhyper</code> ||   |  <code>rlogis</code>  |  <code>dlogis</code> ||   |  <code>rlnorm</code>  |  <code>dlnorm</code> ||   |  <code>rnbinom</code>  |  <code>dnbinom</code> ||  [Normal Distribution](Normal_Distribution)  |  <code>rnorm</code>  |  <code>dnorm</code> ||   |  <code>rpois</code>  |  <code>dpois</code> ||   |  <code>rt</code>  |  <code>dt</code> ||  [Uniform Distribution](Uniform_Distribution)  |  <code>runif</code>  |  <code>dunif</code> ||   |  <code>rweibull</code>  |  <code>dweibull</code> |
 
 ### r<code>name</code>: [Distribution Function](Distribution_Function)
-Generates 10 random values from [Normal Distribution](Normal_Distribution)
+Generates 10 random values from Normal Distribution
 - with standard deviation 3 and mean 188
 
 
@@ -24,9 +24,9 @@ heights = rnorm(10, mean=188, sd=3)
 ```
 
 
-Generates 10 random values from [Binomial Distribution](Binomial_Distribution)
+Generates 10 random values from Binomial Distribution
 - flipping a coin 10 times:
-- of 10 independent experiments with probability 0.5
+- of 10 independent [experiments](Statistical_Experiment) with [probability](Probability) 0.5
 
 ```
 coinFlips = rbinom(10,size=10,prob=0.5)
@@ -35,7 +35,7 @@ coinFlips = rbinom(10,size=10,prob=0.5)
 
 
 ### d<code>name</code>: [Probability Density Function](Probability_Density_Function)
-Calculates the density of some probability distribution
+Calculates the density of some probability [distribution](Distributions)
 ```
 x = seq(from=-5, to=5, length=10)
 normalDensity = dnorm(x, mean=0, sd=1)
@@ -72,7 +72,7 @@ round(binomialDensity,2)
 ## [Sampling](Sampling)
 Function <code>sample</code> draws a random sample 
 - <code>function(x, size, replace= FALSE, prob = NULL) </code>
-- <code>replace = T</code> for sampling with replacement
+- <code>replace = T</code> for [sampling](Sampling) with replacement
 
 ```
 s = seq(0, 20)

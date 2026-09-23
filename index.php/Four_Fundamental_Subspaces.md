@@ -6,7 +6,7 @@ tags:
 title: Four Fundamental Subspaces
 ---
 ## Four Fundamental Subspaces
-A matrix $A$ has four subspaces: 
+A [matrix](Matrix) $A$ has four subspaces: 
 - [Column Space](Column_Space) $C(A)$
 - [Nullspace](Nullspace) $N(A)$
 - [Row Space](Row_Space) $C(A^T)$ of $A$ is the same as Column Space of $A^T$

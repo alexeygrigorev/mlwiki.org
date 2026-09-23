@@ -14,7 +14,7 @@ a Lattice is a partially ordered set in which every two elements have
 
 ## Hasse Diagram
 Hasse Diagram [link](http://en.wikipedia.org/wiki/Hasse_diagram)
-- a way of representing finite partially ordered sets 
+- a way of representing finite partially ordered [sets](Sets) 
 
 
 Layer approach

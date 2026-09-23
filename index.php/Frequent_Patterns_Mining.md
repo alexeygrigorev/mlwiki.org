@@ -26,7 +26,7 @@ We can say that the following are descriptive patterns
 
 They involve no rules or inference
 - so they are combination of items
-- they just describe things that are true with some certain probability
+- they just describe things that are true with some certain [probability](Probability)
 
 
 ## Frequent Patterns Mining
@@ -44,7 +44,7 @@ Goal
 ### Naive Approach
 - enumerate all possible itemsets
 - for each possible itemset $X$ see how many occurrences there are in $D$
-- i.e. calculate [Support](Local_Pattern_Discovery#Support) of $X$ in $F$
+- i.e. calculate Support of $X$ in $F$
 - if the # of occurrences is lower than some threshold, don't output it
 
 
@@ -67,7 +67,7 @@ frequencies:
 |   cnt  |  itemsets   |  1  |  $f,ad,ae,af,cd,ce,cf,df,ef,acd,ace,acf,ade,adf,aef,cde,cdf,cef,def,acde,acdf,acef,adef,cdef,acdef$ ||  2  |  $b,d,e,ab,bc,de,abc$ ||  3  |  $a,c,ac$ ||  4  |  $\{\}$ |
 
 Problems:
-- search space: $2^{|I|}$ - e.g. only 6 items - 64 combinations
+- search space: $2^{|I|}$ - e.g. only 6 items - 64 [combinations](Combinations)
 - but once we found the answer for the 1st problem, we can easily find the answer for the 2nd problem
 
 
@@ -90,14 +90,14 @@ Downward closure
 
 
 ### Algorithms
-There are two ways we can traverse this lattice:
+There are two ways we can traverse this [lattice](Lattice):
 - [Breadth-First Search](Breadth-First_Search) - [Apriori](Apriori) algorithm
 - [Depth-First Search](Depth-First_Search) - [Eclat](Eclat) algorithm
 
 
-|    |  [Apriori](Apriori)  |  [Eclat](Eclat)  |
-|   $+$   |  - "Perfect" pruning of infrequent candidate itemsets  |  - [DFS](Depth-First_Search) reduces memory requirements - Usually (considerably) faster  |
-|   $-$  |  - Can require a lot of memory (since all frequent item sets are represented) - Support counting takes very long for large transactions - so not always efficient in practice  |  - Storage of transaction lists  |
+|    |  Apriori  |  Eclat  |
+|   $+$   |  - "Perfect" pruning of infrequent candidate itemsets  |  - DFS reduces memory requirements - Usually (considerably) faster  |
+|   $-$  |  - Can require a lot of memory (since all frequent item [sets](Sets) are represented) - Support counting takes very long for large transactions - so not always efficient in practice  |  - Storage of transaction lists  |
 
 
 
@@ -114,7 +114,7 @@ After we found Frequent patterns it's easy to find association rules
 - Frequent Itemset Mining Implementations Repository http://fimi.ua.ac.be/
 
 ## See Also
-- [Local Pattern Discovery](Local_Pattern_Discovery)
+- Local Pattern Discovery
 - [Association Rule Mining](Association_Rule_Mining)
 
 ## Sources

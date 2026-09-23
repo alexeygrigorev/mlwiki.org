@@ -52,7 +52,7 @@ We want to find this $x$
 - $x = \cfrac{\mathbf a^T \mathbf b}{\mathbf a^T \mathbf a}$ (the $\cos \theta$ is built in, so we don't need to deal with angles)
 
 Projection $\mathbf p$
-- $x = \|  \mathbf p\|$,  $x$ is the distance (magnitude of $\mathbf p$), what's about the vector $\mathbf p$ itself?
+- $x = \|  \mathbf p\|$,  $x$ is the [distance](Distance_Functions) (magnitude of $\mathbf p$), what's about the vector $\mathbf p$ itself?
 - just multiply $x$ by $\mathbf a$:
 - $\mathbf p = x \cdot \mathbf a = \mathbf a \cdot \cfrac{\mathbf a^T \mathbf b}{\mathbf a^T \mathbf a}$
 
@@ -79,7 +79,7 @@ What if $\mathbf b$ is on the line
 Suppose we cannot solve $A \mathbf x = \mathbf b$
 - i.e. $\mathbf b$ is not in $C(A)$
 - but we can try to get as close as possible to $C(A)$ by projecting onto it
-- how do we do it? $C(A)$ is all the combinations of columns in $A$, so they form a hyperplane
+- how do we do it? $C(A)$ is all the [combinations](Combinations) of columns in $A$, so they form a hyperplane
 - $\mathbf b$ is not on this hyperplane - otherwise we would not need to project on it
 - this is what we do for [Linear Least Squares](Linear_Least_Squares) via [Normal Equation](Normal_Equation)
 
@@ -97,14 +97,14 @@ $\mathbf e$ - want to make it as small as possible,
 - so $\mathbf e \; \bot \; \text{plane}$ or $\mathbf b - \mathbf p \; \bot \; \text{plane}$ 
 - we want to find what combinations of the basis vectors $\mathbf a_1$ and $\mathbf a_2$ will make $\mathbf p$
 - thus we express $\mathbf p$ as $\mathbf p = \hat x_1 \mathbf a_1 + \hat x_2 \mathbf a_2$
-- since these $\mathbf a_1$ and $\mathbf a_2$ are from the matrix $A$, we can write $\mathbf p = A \mathbf{\hat x}$ 
+- since these $\mathbf a_1$ and $\mathbf a_2$ are from the [matrix](Matrix) $A$, we can write $\mathbf p = A \mathbf{\hat x}$ 
 - so the goal is to find the right combinations of $\mathbf a_1$ and $\mathbf a_2$ s.t. $\mathbf e \; \bot \; \text{plane}$
 
 
 Now we're solving $\mathbf p = A \mathbf{\hat x}$ 
 - how to find $\mathbf{\hat x}$? 
 - $\mathbf e = \mathbf b - \mathbf p = \mathbf b - A \mathbf{\hat x}$, 
-- $\mathbf e \; \bot \; \text{plane}$, or $\mathbf e \; \bot \; \mathbf a_1$ and $\mathbf e \; \bot \; \mathbf a_2$ - $\mathbf e$ is [orthogonal](Vector_Orthogonality) to every vector in $C(A)$
+- $\mathbf e \; \bot \; \text{plane}$, or $\mathbf e \; \bot \; \mathbf a_1$ and $\mathbf e \; \bot \; \mathbf a_2$ - $\mathbf e$ is orthogonal to every vector in $C(A)$
 - if vectors are orthogonal, their [Dot Product](Dot_Product) is zero. So now we have two equations:
   - $\mathbf a_1^T (\mathbf b - A \mathbf{\hat x}) = 0$
   - $\mathbf a_2^T (\mathbf b - A \mathbf{\hat x}) = 0$
@@ -226,7 +226,7 @@ Let $\mathbf q_1, \ ... \ , \mathbf q_n \in \mathbb R^m$ be a set of orthonormal
 - $Q = \Bigg[ \mathop{\mathbf q_1}\limits_| ^| \ \mathop{\mathbf q_2}\limits_|^| \ \cdots \  \mathop{\mathbf q_n}\limits_|^| \Bigg]$. It's an [Orthogonal Matrix](Orthogonal_Matrix)
 - suppose we want to project on the subspace $C(Q)$
 - Projection matrix $P$, usual case: $P = A (A^T A)^{-1} A^T$
-- For orthogonal matrices $Q^T Q = I$, so $P = Q (Q^T Q)^{-1} Q^T = Q Q^T$
+- For [orthogonal matrices](Orthogonal_Matrices) $Q^T Q = I$, so $P = Q (Q^T Q)^{-1} Q^T = Q Q^T$
 
 
 Thus, to project $\mathbf b$ onto $C(Q)$ we do this: $\mathbf p = P \mathbf b$
@@ -244,13 +244,13 @@ What if $m = n$?
 - this is the foundation of the [Fourier Transformation](Fourier_Transformation)
  |
 ## Applications
-- [Normal Equation](Normal_Equation) in [Linear Least Squares](Linear_Least_Squares)
-- [Fourier Transformation](Fourier_Transformation)
+- Normal Equation in Linear Least Squares
+- Fourier Transformation
 
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
-- The Four Fundamental Subspaces: 4 Lines, G. Strang, [link](http://web.mit.edu/18.06/www/Essays/newpaper_ver3.pdf) 
+- The [Four Fundamental Subspaces](Four_Fundamental_Subspaces): 4 Lines, G. Strang, [link](http://web.mit.edu/18.06/www/Essays/newpaper_ver3.pdf) 
 - The fundamental theorem of linear algebra, G. Strang [link](http://www.engineering.iastate.edu/~julied/classes/CE570/Notes/strangpaper.pdf)
 - Strang, G. Introduction to linear algebra.
 - http://physics-help.info/physicsguide/appendices/vectors.shtml

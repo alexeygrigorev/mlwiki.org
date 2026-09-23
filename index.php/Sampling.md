@@ -14,9 +14,9 @@ title: Sampling
 
 
 ### Goals
-So, the goal of sampling (data collection): 
+So, the goal of sampling ([data collection](Data_Collection)): 
 - based on a sample make conclusions about the population 
-- this is done at the [Data Collection](Data_Collection) step in the process of statistical investigation (see [Statistics](Statistics))
+- this is done at the Data Collection step in the process of statistical investigation (see Statistics)
 
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/sample-conclusion.png" alt="Image">
 
@@ -57,7 +57,7 @@ Randomly pick up items from the population
 Stratified Sampling 
 - divide the population into non-overlapping groups (called *strata*) 
 - and use SRS within each stratum
-- so the original distribution is kept
+- so the original [distribution](Distributions) is kept
 
 Also called 
 - Sampling with proportional allocation

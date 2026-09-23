@@ -90,4 +90,4 @@ If a random event has a very small probability, then in practice it can be consi
 *Significance level* - a sufficiently small probability at which an event can be considered impossible.
 
 ## Sources
-- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vyssh. shk., 2003.
+- Gmurman V.E., Probability Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vyssh. shk., 2003.

@@ -50,7 +50,7 @@ $A \mathbf x = \lambda \mathbf x$
 
 
 $(A - \lambda I) \mathbf x = \mathbf 0$
-This eigenvectors are in the [Nullspace](Nullspace) of $(A - \lambda I)$
+This eigenvectors are in the Nullspace of $(A - \lambda I)$
 
 
 Eigenvalues are sometimes called "singular values" because 
@@ -91,12 +91,12 @@ Let $Q = \begin{bmatrix}
 \end{vmatrix} = \lambda^2 + 1$
 - so $\lambda_1 = i$ and $\lambda_2 = -i$ - complex numbers
 - note that they are complex conjugates 
-- this doesn't happen for Symmetric matrices - they always have real eigenvalues
+- this doesn't happen for [Symmetric matrices](Symmetric_Matrices) - they always have real eigenvalues
 
 
 
 ## Properties
-[Gaussian Elimination](Gaussian_Elimination) changes the eigenvalues of $A$ 
+Gaussian Elimination changes the eigenvalues of $A$ 
 - Triangular $U$ has its eigenvalues on the diagonal - but they are not eigenvalues of $A$
 
 
@@ -110,7 +110,7 @@ $\text{tr } A = \sum\limits_i \lambda_i$
 
 
 $\text{det } A = \prod\limits_i \lambda_i$
-- $\text{det } A$ is a [Determinant](Determinant) of $A$
+- $\text{det } A$ is a Determinant of $A$
 
 
 <!-- TODO: prove it -->
@@ -176,12 +176,12 @@ Suppose we have $n$ linearly independent eigenvectors $\mathbf x_i$ of $A$
 - let's put them in columns of a matrix $S$ - eigenvector matrix 
 
 $S = \Bigg[ \mathop{\mathbb x_1}\limits_| ^| \ \mathop{\mathbb x_2}\limits_|^| \ \cdots \  \mathop{\mathbb x_n}\limits_|^|  \Bigg]$
-This matrix is used for [Matrix Diagonalization](Eigendecompostion)
+This matrix is used for Matrix Diagonalization
 
 
 ## Usage
 - Matrix decomposition: Eigendecomposition ([Spectral Theorem](Spectral_Theorem)) and [SVD](SVD)
-  - Eigenvectors give a good basis, especially for [Symmetric Matrices](Symmetric_Matrices): they are orthogonal 
+  - Eigenvectors give a good basis, especially for Symmetric Matrices: they are orthogonal 
 - [Principal Component Analysis](Principal_Component_Analysis)
 - [Markov Chains](Markov_Chains) and [PageRank](PageRank) 
 - many many others

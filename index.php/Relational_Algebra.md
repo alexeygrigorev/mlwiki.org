@@ -236,7 +236,7 @@ Sometimes also called "Cross-Product"
 $R_1 \times R_2$
 - Result of $R_1 \times R_2$ is a new relation 
 - in which each tuple in $R_1$ concatenated with each tuple in $R_2$
-- i.e. it outputs all possible combinations of tuples
+- i.e. it outputs all possible [combinations](Combinations) of tuples
 - $R_1$ and $R_2$ must have disjoint schema
 
 SQL 
@@ -546,4 +546,4 @@ $ (set semantics)
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

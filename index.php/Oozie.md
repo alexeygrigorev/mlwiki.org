@@ -11,14 +11,14 @@ title: Oozie
 [Apache Oozie](Oozie) is a workflow manager, designed especially for running [Hadoop MapReduce](Hadoop_MapReduce) jobs
 
 It contains 2 parts:
-- workflow engine: runs workflow jobs (MR, Pig, Hive)
+- workflow engine: runs workflow jobs (MR, Pig, [Hive](Hive))
 - coordinator engine: coordinates the execution
 
 
 It's a service:
 - Oozie is a service that runs on the cluster 
 - the client submits only workflow definitions
-- so, unlike hadoop <code>JobControl</code>, it doesn't submit the tasks itself
+- so, unlike [hadoop](Hadoop) <code>JobControl</code>, it doesn't submit the tasks itself
 
 
 ### Workflow

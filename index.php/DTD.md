@@ -136,7 +136,7 @@ For example, the following is not possible to validate with DTD
 
 ## See Also
 - [Tree Automata](Tree_Automata)
-- [XML](XML)
+- XML
 - [XML Schema](XML_Schema)
 
 ## Sources

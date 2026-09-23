@@ -20,7 +20,7 @@ title: Voting Theory Exercises
 Define $a \ B \ b$ as 
 - $a \ B \ b \iff n_{ab} \geqslant 6$ where $n_{ab}$ is the number of people who rank $a$ before $b$ (like in [Condorcet's Rule](Condorcet's_Rule))
 
-This voting system is very similar to the [Condorcet's Rule](Condorcet's_Rule)
+This voting system is very similar to the Condorcet's Rule
 
 We can show that it means to be transitive:
 - ex-transitivity.png
@@ -57,7 +57,7 @@ Consider the following example:
 
 And there can be no cycles: too few voters for this 
 - consider the case with 3 candidates: $A = \{a, b, c\}$
-- there are 6 possible individual rankings for elements from $A$: there are 3|   permutations of $A$
+- there are 6 possible individual rankings for elements from $A$: there are 3|   [permutations](Permutations) of $A$
 - $R_1: a < b < c$ -- $n_1$ voters
 - $R_2: a < c < b$ -- $n_2$ voters
   - $R_3: b < a < b$ -- $n_3$ voters

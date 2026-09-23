@@ -16,7 +16,7 @@ There are two type of tests
 
 One-Way Table Tests 
 - counts for each outcome in a single variable, it's a [Frequency Table](Frequency_Table)
-- it's for checking if the observed data comes from some distribution
+- it's for checking if the observed data comes from some [distribution](Distributions)
 - test: [Chi-Squared Goodness of Fit Test](Chi-Squared_Goodness_of_Fit_Test)
 
 

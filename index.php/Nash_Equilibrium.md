@@ -34,7 +34,7 @@ An action profile is a Nash Equilibrium if
 
 
 ## [Normal Form Game](Normal_Form_Game)s
-In a Normal Form Game a profile $a^* \in A$ is a Nash Equilibria if
+In a [Normal Form Game](Normal_Form_Game) a profile $a^* \in A$ is a Nash Equilibria if
 - $ \forall a_i \in A: (a^*_{-i}, a^*_i) \ S_i \ (a^*{-i}, a_i):$
 - $S_i$ is a preference relation of a player $i$
 - $a_{-i}$ - all components except $i$
@@ -88,7 +88,7 @@ In this case there are two equilibrium: $(B, B)$ and $(F, F)$
   - we place a traffic light
   - so by putting a fair randomizing device that
 tells players whether to go or wait
-- the same can be applied to Battle of the Sexes
+- the same can be applied to [Battle of the Sexes](Battle_of_the_Sexes)
 - benefits
   - we avoid negative outcomes
   - fairness is achieved

@@ -30,7 +30,7 @@ Let's run a test:
 - How plausible is the observed value under $H_0$? 
 
 
-The probability of observing this value is 
+The [probability](Probability) of observing this value is 
 - $P(\bar{X} - \mu \geqslant 7.177) = $
   - $P\left(\cfrac{\bar{X} - \mu}{\sqrt{s^2 / n}} \geqslant \cfrac{7.177}{\sqrt{s^2 / n}}\right) \approx$
   - $P\left(t_{59} \geqslant \cfrac{7.177}{\sqrt{2.948^2 / 60}}\right) \approx$

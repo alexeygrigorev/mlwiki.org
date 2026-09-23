@@ -11,7 +11,7 @@ title: Cluster Analysis
 Clustering is about finding groups of similar objects in the data
 
 How do we define similar? 
-- we measure with some similarity/distance function 
+- we measure with some similarity/[distance](Distance_Functions) function 
 
 
 Application of Clustering
@@ -45,7 +45,7 @@ Algorithms:
 
 ### [Hierarchical Clustering](Hierarchical_Clustering)
 Idea:
-- build a tree
+- build a [tree](Tree)
 
 Main approaches:
 - [Agglomerative Clustering](Agglomerative_Clustering)
@@ -74,21 +74,21 @@ Partition space into finite number of cells and perform clustering there
 ## Other Types
 ### Graph-Based Clustering
 apply [Graph Partitioning](Graph_Partitioning) Algorithms: 
-- identify clusters by cutting edges from the graph 
+- identify clusters by cutting edges from the [graph](Graph) 
 - s.t. the sum of cuts is minimal 
 - for example, [Minimal Cut Algorithm](Minimal_Cut_Algorithm)
 
 Algorithms:
-- [Chameleon Clustering](Chameleon_Clustering)
+- Chameleon Clustering
 
 
 [Spectral Clustering](Spectral_Clustering)
-- apply [Graph Partitioning](Graph_Partitioning) but in some high-dimensional space
+- apply Graph Partitioning but in some high-dimensional space
 - usually involves computing [Singular Values and Vectors](SVD) / [Eigenvalues and Eigenvectors](Eigenvalues_and_Eigenvectors) of the graph affinity [matrix](Matrix)
 - usually has global optimum
 - criteria: Average Cut, Average Association, Normalized Cut, Min-Max Cut
 - when applied to [documents](Document_Clustering), under certain conditions resulting eigenspaces are equivalent to semantic spaces found by [Latent Semantic Analysis](Latent_Semantic_Analysis) 
-- but also like in LSA, usually found directions don't correspond to clusters directly, need to do additional clustering afterwards (e.g. by [K-Means](K-Means))
+- but also like in LSA, usually found directions don't correspond to clusters directly, need to do additional clustering afterwards (e.g. by K-Means)
 
 
 Link-Based Clustering
@@ -145,15 +145,15 @@ Algorithms:
 
 ### [Co-Clustering](Co-Clustering)
 One-sided clustering is clustering only rows of data matrix $D$
-- co-clustering: clustering both rows and columns at the same time
+- [co-clustering](Co-Clustering): clustering both rows and columns at the same time
 
 
 Algorithms
-- clustering via [Non-Negative Matrix Factorization](Non-Negative_Matrix_Factorization) can be viewed as clustering both columns and rows
+- clustering via Non-Negative Matrix Factorization can be viewed as clustering both columns and rows
 
 
 ### [Subspace Clustering](Subspace_Clustering)
-Subspace clustering:
+[Subspace clustering](Subspace_Clustering):
 - it's the task of detecting all clusters  in all subspaces 
 - a data point may belong to many different clusters - with each cluster in some subspace 
 
@@ -162,5 +162,5 @@ Subspace clustering:
 ## Sources
 - http://en.wikipedia.org/wiki/Cluster_analysis
 - Jing, Liping. "Survey of text clustering." (2008). [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf)
-- Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." Data mining and knowledge discovery handbook. 2010. [link](https://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5)
+- Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." [Data mining](Data_Mining) and knowledge discovery handbook. 2010. [link](https://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5)
 - Xu, Wei, Xin Liu, and Yihong Gong. "Document clustering based on non-negative matrix factorization." 2003. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.2293&rep=rep1&type=pdf)

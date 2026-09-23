@@ -12,7 +12,7 @@ In [Semantic Web](Semantic_Web), using [RDFS](RDFS) and [OWL](OWL) many things c
   - see [Semantic Web Logics](Semantic_Web_Logics)
 
 
-Inferencing - a systematic process of adding new tuples to an RDF graph based on some patterns (rules)
+Inferencing - a systematic process of adding new tuples to an RDF [graph](Graph) based on some patterns (rules)
 - *asserted triples* - RDF triples provided by some data source
 - *inferred triples* - new triples added by inference rules
 - *inference rules* - systematic patterns that define how and what to infer
@@ -28,7 +28,7 @@ Suppose you have a [SPARQL](SPARQL) query on your RDF graph
   - and <code>:Apple :subClassOf :Fruit</code>
 
 Possible solution:
-- use [SPARQL#Transitive Queries](SPARQL#Transitive_Queries)
+- use SPARQL#Transitive Queries
 
 ```
 SELECT ?item 
@@ -42,17 +42,17 @@ WHERE {
 But users will have to do it each time 
 - alternatives? 
 - can have rules if $X$ subclass of $Y$, then $\forall x \in X: x \in Y$
-- *inferencing* - given some information we can determine related information - and consider that it's also stored in our database 
+- *inferencing* - given some information we can determine related information - and consider that it's also stored in our [database](Database) 
 - so here we'd infer that if <code>:RedDelicious</code> is an <code>:Apple</code>, it's also a <code>:Fruit</code>
 - <code>:Fruit</code> is broader than <code>:Apple</code>, so <code>:Fruit</code> is a subclass of <code>:Apple</code>
 
 
 ### Inferencing
 The motivating example illustrates the *type propagation rule*
-- this is a part of the [RDFS](RDFS) language: <code>rdfs:subClassOf</code> relation
+- this is a part of the RDFS language: <code>rdfs:subClassOf</code> relation
 - rule: $X$ <code>rdfs:subClassOf</code> $Y \Rightarrow $ every member of $X$ is also a member of $Y$
 
-Reference rules of [RDFS](RDFS)/[OWL](OWL) can be expressed using [SPARQL](SPARQL) Construct queries:
+Reference rules of RDFS/OWL can be expressed using SPARQL Construct queries:
 - this is a good way of describing rules
 
 ```carbon

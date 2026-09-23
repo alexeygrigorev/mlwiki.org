@@ -21,7 +21,7 @@ Let $A$ be an $2 \times 2$ matrix
 a_{11} & a_{12} \\
 a_{21} & a_{22} \\
 \end{bmatrix}$
-- let's find $A^{-1}$ with Gauss-Jordan elimination (see [Inverse Matrices](Inverse_Matrices))
+- let's find $A^{-1}$ with Gauss-Jordan elimination (see Inverse Matrices)
   - $\left[ \begin{array}{cc|cc}a_{11} & a_{12} & 1 & 0 \\ 
 a_{21} & a_{22} & 0 & 1 \\
 \end{array} \right] \sim $ row 2: $\text{row $2$} - \cfrac{a_{21}}{a_{11}} \text{row $1$}$
@@ -44,8 +44,8 @@ a_{21} & a_{22} & 0 & 1 \\
 a_{22} & - a_{12} \\
 - a_{21} & a_{11} \\
 \end{bmatrix}$
-- now we can note that the [Cofactors](Cofactors) of $A$ are: $C_{11} = a_{22}, C_{12} = -a_{21}, C_{21} = - a_{12}, C_{22} = a_{11}$
-- we can put all cofactors in one matrix $C = \begin{bmatrix}
+- now we can note that the Cofactors of $A$ are: $C_{11} = a_{22}, C_{12} = -a_{21}, C_{21} = - a_{12}, C_{22} = a_{11}$
+- we can put all [cofactors](Determinants) in one matrix $C = \begin{bmatrix}
 C_{11} & C_{12} \\
 C_{21} & C_{22} \\
 \end{bmatrix} = 
@@ -101,11 +101,11 @@ $\text{row $i$} \times \text{cofactors of $i$} = | A|$
 - $\text{row $i$} = \begin{bmatrix} a_{i1} & a_{i2} & \cdots & a_{in} \end{bmatrix}$
 - $\text{cofactors of $i$} = \begin{bmatrix} C_{i1} \\ C_{i2} \\ \vdots \\ C_{in} \end{bmatrix}$
 - so $\text{row $i$} \times \text{cofactors of $i$} = \sum\limits_k a_{ik} C_{ik}$
-- note that this is the [Cofactors](Cofactors) formula for calculating the determinant
+- note that this is the Cofactors formula for calculating the determinant
 - thus, $\text{row $i$} \times \text{cofactors of $i$} = |A|$
 
 $\text{row $i$} \times \text{cofactors of $j$} = 0$ for $i \ne j$
-- let's have a look what this dot product calculates
+- let's have a look what this [dot product](Dot_Product) calculates
 - take row $i$ of $A$ and row $j$ of $C$ (i.e. column $j$ of $C^T$)
 - $\text{row $i$} \times \text{cofactors of $j$} = \begin{bmatrix} a_{i1} & a_{i2} & \cdots & a_{in} \end{bmatrix} \begin{bmatrix} C_{j1} \\ C_{j2} \\ \vdots \\ C_{jn} \end{bmatrix} = \sum\limits_k a_{ik} C_{jk}$
 - this is a cofactors formula for a new matrix $A^*$ where the row $i$ of $A$ is copied to row $j$ of $A$. So this new matrix has two equal rows, therefore $|  A^* | = 0$

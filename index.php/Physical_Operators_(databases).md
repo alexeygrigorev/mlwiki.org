@@ -93,9 +93,9 @@ what if there's no enough memory available?
 
 Algorithm:
 - Sort $R$ with [External Merge Sort](External_Merge_Sort)
-- Sort $S$ with [External Merge Sort](External_Merge_Sort)
+- Sort $S$ with External Merge Sort
 - Iterate Synchronously over $R$ and $S$
-  - like in [External Merge Sort](External_Merge_Sort), but don't output repeating values
+  - like in External Merge Sort, but don't output repeating values
   - i.e.: increase both pointers when see a duplicate 
 
 Synchronous Iteration:
@@ -118,8 +118,8 @@ Cost:
 
 
 #### Optimization
-- Synchronous Iteration of Sort-Based Union is very similar to the merge phase of [External Merge Sort](External_Merge_Sort)
-- Sometimes we can combine them - and avoid doing the last pass of Merge Sort
+- Synchronous Iteration of Sort-Based Union is very similar to the merge phase of External Merge Sort
+- Sometimes we can combine them - and avoid doing the last pass of [Merge Sort](Merge_Sort)
  |Algorithm:
 - Sort $R$, but don't execute the last merge phase
   - we know that after that $R$ is divided into $l$ sorted lists
@@ -127,7 +127,7 @@ Cost:
 - Sort $S$, but don't execute the last merge phase
   - we know that after that $S$ is divided into $k$ sorted lists
   - $1 < k \leqslant M$
-- if $l + k \leqslant M$ then we can apply the optimization
+- if $l + k \leqslant M$ then we can apply the [optimization](Optimization)
   - because there are enough buffers available to synchronously iterate through both set of sub-results
 
 
@@ -171,7 +171,7 @@ Main idea: we want to partition both $R$ and $S$ in such a way that
 #### Record distribution
 - $B(R) < B(S)$ - $R$ is smaller than $S$
 - we suppose that we can partition $R$ in $k$ buckets $R_i$
-  - to do that we apply some hash function $h$
+  - to do that we apply some [hash function](Hash_Function) $h$
 - and then distribute tuples from $S$ also into $k$ buckets $S_i$
   - also by applying $h$ 
 - all records in $R_i$ and $S_i$ ended up in the bucket $i$ because they have the same hash value
@@ -436,7 +436,7 @@ Cost
 
 
 ## See also
-- [Query Plan](Query_Plan)
+- Query Plan
 - [Query Processing](Query_Processing)
 
 ## Sources

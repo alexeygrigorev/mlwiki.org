@@ -19,13 +19,13 @@ title: Introduction to Data Science (coursera)
   - [Document-Oriented Databases](Document-Oriented_Databases) and [Eventual Consistency](Eventual_Consistency)
   - [Column-Oriented Databases](Column-Oriented_Databases)
   - Tradeoffs of SQL and NoSQL
-- Data cleaning, entity resolution, data integration, information extraction
+- [Data cleaning](Data_Cleaning), entity resolution, [data integration](Data_Integration), information extraction
 
 
 ### Part 2: Analytics
 - Basic statistical modeling, experiment design
 - Introduction to [Machine Learning](Machine_Learning)
-  - Supervised Learning: decision trees/forests, simple nearest neighbor
+  - Supervised Learning: [decision trees](Decision_Tree)/forests, simple nearest neighbor
   - Unsupervised learning: [K-Means](K-Means), multi-dimensional scaling
 
 

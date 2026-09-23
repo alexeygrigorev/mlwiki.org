@@ -17,7 +17,7 @@ How to solve such a system?
 
 
 ### Elimination and Echelon Form
-Suppose we have a matrix $A = 
+Suppose we have a [matrix](Matrix) $A = 
 \begin{bmatrix}
 1 & 2 & 2 & 2 \\ 
 2 & 4 & 6 & 8 \\

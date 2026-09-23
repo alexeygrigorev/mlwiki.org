@@ -7,7 +7,7 @@ tags:
 title: Multi-Version Concurrency Control
 ---
 ## Concurrency Control
-In a typical relational database when we modify a table, we put a lock - and all other clients that want to access the table are queued
+In a typical relational [database](Database) when we modify a table, we put a lock - and all other clients that want to access the table are queued
 - This sequential execution of tasks wastes a lot of processor's power and time: 
 - under high load it may spend a lot of time trying to figure out whose turn is next
 
@@ -27,7 +27,7 @@ This is used in:
 
 ## Ways to Achieve
 ### [B-Tree](B-Tree) Storage Engine
-This way it is achieved in [CouchDB](CouchDB)
+This way it is achieved in CouchDB
 
 [B-Tree](B-Tree) is used everywhere, also for internal data: documents and views
 - Usage of this data structure imposes an important restriction: can access only by key. 

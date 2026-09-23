@@ -7,7 +7,7 @@ title: Random Variable
 ---
 ## Random Variable
 Random Variables (RV)
-- A variable is *random* if it can take some value with certain probability
+- A variable is *random* if it can take some value with certain [probability](Probability)
 
 
 ## Types of Random Variables
@@ -29,7 +29,7 @@ In [Statistics](Statistics) and [Data Analysis](Data_Analysis), there are differ
 
 
 ## [Distributions](Distributions)
-A distribution of an RV is a mapping from possible values of RV to probabilities 
+A [distribution](Distributions) of an RV is a mapping from possible values of RV to probabilities 
 - it can be a table (for discrete RVs) or a function (for continuous RVs)
 - the sum of all probabilities must be 1
 

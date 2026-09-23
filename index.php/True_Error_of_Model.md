@@ -15,7 +15,7 @@ What do we do when we want to know how accurately the model *will* perform in pr
 ### Estimating the Accuracy
 Given: 
 - classification model $C$ 
-- dataset $S$ with $n$ examples drawn w.r.t. distribution $P$ 
+- dataset $S$ with $n$ examples drawn w.r.t. [distribution](Distributions) $P$ 
 
 Problem 
 - estimate the accuracy of $C$ over future instances drawn with $P$ 
@@ -37,8 +37,8 @@ But usually we have training and testing [sets](Sets) (see [Cross-Validation](Cr
 
 
 ### True Error
-the *true error* of $C$ w.r.t distribution $S$ on the population $D$
-- is the probability to misclassify an instance drawn from $D$ at random
+the *true error* of $C$ w.r.[t distribution](T_Distribution) $S$ on the population $D$
+- is the [probability](Probability) to misclassify an instance drawn from $D$ at random
 - $\text{error}(C, D) = \sum_{(x,y) \in D} P(x, y) \cdot \delta(C(x) \ne y)$
   - $P(x, y)$ is the probability to draw a pair $(x,y) \in D$
 

@@ -42,7 +42,7 @@ To do this we need to define the environment of execution
 - need to have the process itself
 - for each activity
   - times and priorities 
-  - statistics on how often a certain branch is followed
+  - [statistics](Statistics) on how often a certain branch is followed
 - frequency of incoming cases 
 - the number of resources that can handle the cases
 

@@ -52,7 +52,7 @@ The way of estimating running time of D&Q algorithms
   - $O(n ^ {\log_b a})$ if $a > b^d$ (case 3)
 
 ### Examples
-[Merge Sort](Merge_Sort)
+Merge Sort
 - $a = 2$, $b = 2$, $d = 1$
 - $b^d = 2$; case 1
 - $T(n) \leqslant O(n^d \log n) = O(n \log n)$
@@ -96,8 +96,8 @@ Then if
 
 
 ## See also
-- [Merge Sort](Merge_Sort)
-- [Quick Sort](Quick_Sort)
+- Merge Sort
+- Quick Sort
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

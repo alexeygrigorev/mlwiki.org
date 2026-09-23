@@ -15,7 +15,7 @@ Suppose we have a set $V$ and elements $\mathbf v_1, ..., \mathbf v_i ... \in V$
 So, what can we do with elements in a vector space? 
 - add two elements 
 - multiply them by a scalar 
-- it means we should be able to take linear combinations of elements in the space
+- it means we should be able to take linear [combinations](Combinations) of elements in the space
 
 
 ## Axioms
@@ -80,7 +80,7 @@ For a [Matrix](Matrix) there are [Four Fundamental Subspaces](Four_Fundamental_S
 - [Column Space](Column_Space)
 - [Row Space](Row_Space) 
 - [Nullspace](Nullspace)
-- [Left Nullspace](Nullspace#Left_Nullspace)
+- Left Nullspace
 
 
 

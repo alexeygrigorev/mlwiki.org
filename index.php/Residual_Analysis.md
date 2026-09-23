@@ -26,7 +26,7 @@ So
 
 
 ## Coefficient of Determination
-The regression multiplies the variance of $y$ by $(1 - R^2)$
+The regression multiplies the [variance](Variance) of $y$ by $(1 - R^2)$
 - Or, the regression line *removes* (or *reduces*) a fraction of $R^2$ of the variance of $y$
 - Or we say it "explains a fraction of $R^2$ of the variation"
 

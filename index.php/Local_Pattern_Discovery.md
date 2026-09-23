@@ -36,7 +36,7 @@ Can reformulate these rules with probabilities
 
 
 Search space - [Lattice](Lattice)
-- all possible combinations of our items
+- all possible [combinations](Combinations) of our items
 - with arrows showing inclusions of one itemset into another
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/kddm/language-lattice.png" alt="Image">
 
@@ -60,7 +60,7 @@ Consider this
 - items: ${A, B, C, D, E, F}$
 - $
 \left[
-\begin{matrix} 
+\begin{[matrix](Matrix)} 
 {\color{red}{1}} & {\color{red}{1}} & {\color{red}{1}} & 0 & 0 & 0 \\
 1 & 0 & 1 & 1 & 1 & 1 \\
 {\color{red}{1}} & {\color{red}{1}} & {\color{red}{1}} & 0 & 0 & 0 \\
@@ -144,7 +144,7 @@ So there are other mining tasks
   - finding rare features
 - Contrast mining
   - characterizing the difference between two classes
-- Utility-pattern mining
+- Utility-[pattern mining](Rule_Mining)
   - the frequency is not the only end-user interest
   - (e.g., price of items in a supermarket)
 
@@ -153,7 +153,7 @@ So there are other mining tasks
 Mining patterns that compares two or more datasets
 
 Method 1
-  (with [Frequent Pattern Mining](Frequent_Pattern_Mining))
+  (with Frequent Pattern Mining)
 - Mine all the non frequent patterns in class 1
 - Mine all the frequent patterns in class 2
 - Intersect results
@@ -165,7 +165,7 @@ Method 2
 
 
 ## See Also
-- [Frequent Pattern Mining](Frequent_Pattern_Mining)
+- Frequent Pattern Mining
 - [Apriori](Apriori)
 - [Eclat](Eclat)
 

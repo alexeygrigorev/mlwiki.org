@@ -15,7 +15,7 @@ title: Distributions
 There are some plots that can be useful for showing the distribution of data
 
 ### [Histogram](Histogram)s
-*Histogram* is useful to show distribution of data
+*[Histogram](Histogram)* is useful to show distribution of data
 - Bins: the intervals used in a histogram. The data must be separated into mutually exclusive and exhaustive bins
 - Cutpoints: the values that define the beginning and the end of the bins
 - Frequency: the count of the number of the data values in each bin

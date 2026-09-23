@@ -59,7 +59,7 @@ How to select the best one?
 
 
 ## Links
-- Routing Optimization for Waste Management http://www.ma.iup.edu/~jchrispe/ORArticles/WasteManagement.pdf
+- Routing [Optimization](Optimization) for Waste Management http://www.ma.iup.edu/~jchrispe/ORArticles/WasteManagement.pdf
 - Ant Colony optimization for Waste Utilization problem: http://thescipub.com/pdf/10.3844/jmssp.2009.199.205 
 
 

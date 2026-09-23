@@ -124,8 +124,8 @@ We also can prefetch blocks to the main memory in anticipation they'll be needed
 
 
 ## See also
-- [Memory Hierarchy](Memory_Hierarchy)
+- Memory Hierarchy
 - [I/O Model of Computation](I_O_Model_of_Computation)
 
 ## Sources
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

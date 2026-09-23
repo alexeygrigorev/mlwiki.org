@@ -13,7 +13,7 @@ Given:
 - capital $K$ to invest into equities
 - objectives:
   - maximize expected return (average of past returns)
-  - minimize risk (variance)
+  - minimize risk ([variance](Variance))
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/moo/portfolio-mgmt.png" alt="Image">
 

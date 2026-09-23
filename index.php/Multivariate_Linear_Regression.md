@@ -33,7 +33,7 @@ e.g.
   $x^{(2)} = (x_1^{(2)}, x_2^{(2)}, x_3^{(2)}, x_4^{(2)})$ - vector of all features from the second row 
 
 
-- Recall that for [one variable](Linear_Regression) we have
+- Recall that for one variable we have
   $h_{\theta}(x) = \theta_0 + \theta_1 x$
 - now we have 
   $h_{\theta}(x) = \theta_0 + \theta_1 x_1 + ... + \theta_n x_n$
@@ -45,7 +45,7 @@ let $x_0 = 1$ (i.e. all $x_0^{(i)} = 1$) - so-called zeroth feature - always 1 (
 So now we can view $x^{(i)}$ as $n+1$ vector: $x^{(i)} \in \mathbb{R}^{n + 1}$, 
 $x = 
 \left[
-\begin{matrix}
+\begin{[matrix](Matrix)}
 x_0 \\ \vdots \\ x_n
 \end{matrix}
 \right]$
@@ -69,7 +69,7 @@ This is called *multivariate linear regression*
 
 
 ## Polynomial Regression
-- Suppose we want to fit not just features, but their combinations
+- Suppose we want to fit not just features, but their [combinations](Combinations)
 - For example, we have two features: height and width, and we want to use them both to fit one parameter $\theta$
   - So we write: 
   - $h(x) = \theta_0 + \theta_1 x = \theta_0 + \theta_1 \cdot \text{height} \cdot \text{width}$

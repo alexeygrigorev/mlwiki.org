@@ -76,7 +76,7 @@ Denormalization works well
 ### Queries
 Special-purpose QL for querying it
 - Like [Pig](Pig) and Hive they are compiled to MapReduce jobs
-- With some optimizations
+- With some [optimizations](Optimization)
 
 Unfortunately Chetach is proprietary - wasn't able to play with it
 
@@ -93,21 +93,21 @@ It can be
 - Active Storage
 
 ### Transitory platform for [ETL](ETL)
-Hadoop as an [ETL](ETL) process
+Hadoop as an ETL process
 - this was the initial use case of Hadoop
 - goal: extract value from terabytes of information
 - Hadoop is rather a component in ETL tools, not an ETL tool itself
   - it's just another channel in ETL designers
   - many vendors came up with Hadoop components in their graphical languages
-  - and it's possible to do [Pig](Pig) and [Hive](Hive) queries inside these channels
+  - and it's possible to do Pig and Hive queries inside these channels
   - for example, Informatica can do that 
 
 
 Algorithm
-- load data into [Hadoop](Hadoop)
+- load data into Hadoop
 - discover something there with it
-- *E* parse and prepare (with [MapReduce](MapReduce))
-- *T* clean and transform to some structured format (with [MapReduce](MapReduce))
+- *E* parse and prepare (with MapReduce)
+- *T* clean and transform to some structured format (with MapReduce)
 - *L* extract data from Hadoop and load to a Data Warehouse
 
 Input:
@@ -134,7 +134,7 @@ Examples
 Example 1
 - process raw click streams
 - use [Data Mining](Data_Mining) to detect patterns 
-- then put all the findings into a [Data Warehouse](Data_Warehouse)
+- then put all the findings into a Data Warehouse
 
 Example 2
 - suppose we run a eBay-like website
@@ -187,7 +187,7 @@ Last common use case:
 - Our input data is not structured
 - That means we do not know yet what we want to derive from it 
 - Need to play around to see what value we can extract
-- And hadoop (along with [Hive](Hive) or [Pig](Pig) for ad-hoc queries) is good for it
+- And hadoop (along with Hive or Pig for ad-hoc queries) is good for it
 
 
 #### How to Integrate
@@ -224,14 +224,14 @@ Q: How much data a company should have?
 
 
 ## See also
-- [Data Warehouse](Data_Warehouse)
-- [Hadoop](Hadoop)
-- [MapReduce](MapReduce)
+- Data Warehouse
+- Hadoop
+- MapReduce
 - [Hadoop Distributed File System](Hadoop_Distributed_File_System)
 
 ## Sources
 - Lee et al, Parallel Data Processing with MapReduce: A Survey [link](http://www.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf)
-- Ordonez et al, Relational versus non-relational database systems for data warehousing [link](http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf)
+- Ordonez et al, Relational versus non-relational [database](Database) systems for data warehousing [link](http://www2.cs.uh.edu/~ordonez/w-2010-DOLAP-relnonrel.pdf)
 - Paper by Cloudera and Teradata, Awadallah and Graham, Hadoop and the Data Warehouse: When to Use Which. [link](http://www.teradata.com/white-papers/Hadoop-and-the-Data-Warehouse-When-to-Use-Which/)
 - Chen. Cheetah: A High Performance, Custom Data Warehouse on Top of MapReduce. [link](http://www.vldb.org/pvldb/vldb2010/papers/I08.pdf)
 - Russom, Integrating Hadoop into Business Intelligence and Data Warehousing. [link](http://www.slideshare.net/emcacademics/tdwi-best-practices-report-hadoop-foro-bi-and-dw-april-2013)

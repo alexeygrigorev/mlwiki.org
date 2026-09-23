@@ -22,7 +22,7 @@ The test is of the following form
 - $H_A: \mu_a \neq \mu_b$ or $H_A: \mu_a - \mu_b \neq 0$ (two-sided, can also be $<$ or $>$)
 
 
-So, test statistics:
+So, test [statistics](Statistics):
 - $T = \cfrac{(\bar{X}_1 - \bar{X}_2) - (\mu_1 - \mu_2)}{\sqrt{s_1^2 / n_1 + s_2^2 / n_2}}$
 - $T \approx t_{\text{df}}$
 - $\text{df}$ depends on a few things, discussed below
@@ -38,7 +38,7 @@ This can be a non-integer value, but that's fine
 
 ### Pooled Variance Estimation
 - Can we "pool" the samples?
-- Yes, but only under assumption that $\sigma_1^2 = \sigma_2^2$ (in other words, we assume that the variances are equal)
+- Yes, but only under assumption that $\sigma_1^2 = \sigma_2^2$ (in other words, we assume that the [variances](Variance) are equal)
 
 We can replace $s_1^2$ and $s_2^2$ by the *pooled variance*:
 - $s^2 = \cfrac{(n_1 - 1) s_1^2 + (n_2 - 1) s_2^2 }{ (n_1 - 1) + (n_2 - 1)}$

@@ -10,10 +10,10 @@ How to choose an alternative in [Decision Under Uncertainty](Decision_Under_Unce
 
 
 ### Main idea
-- (using notation from [Decision Under Uncertainty](Decision_Under_Uncertainty))
+- (using notation from Decision Under Uncertainty)
 - since there is no way to assess probabilities in Decision Under Uncertainty models - assume the uniform [distribution](Distributions)
-- so each state of nature $e \in E$ is expected to happen with probability $1 / | E|$
-- and we compute the expected values of the consequences based on these probabilities
+- so each state of nature $e \in E$ is expected to happen with [probability](Probability) $1 / | E|$
+- and we compute the [expected values](Expected_Value) of the consequences based on these probabilities
 
 
 So,
@@ -21,7 +21,7 @@ So,
 - $\max_{a \in A} \sum_{e \in E} \cfrac{1}
 
 ### Example
-Consider this matrix:
+Consider this [matrix](Matrix):
 
 |   $c$  |  $e_1$  |  $e_2$  |  $e_4$  |    |   $a_1$   |  40  |  70  |  -20  |  90/3 ||   $a_2$   |  -10  |  40  |  100  |  <font color="blue">130/3</font> ||   $a_3$   |  20  |  40  |  -5  |  55/3 |
 

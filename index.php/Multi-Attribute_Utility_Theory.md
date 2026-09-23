@@ -78,7 +78,7 @@ In this case $J = \{g_1\}, \overline{J} = \{g_2\}$
 - under $J$: $a_1 = a_2 = a_3; a_4 = a_5 = a_6; a_7 = a_8 = a_8$ 
 - under $\overline{J}$: $a_1 = a_4 = a_7; a_2 = a_5 = a_8; a_3 = a_7 = a_9$
 
-Need to check if this principle is satisfied for all possible combinations
+Need to check if this principle is satisfied for all possible [combinations](Combinations)
 
 For example, $a_1, a_4, a_5, a_5$:
 - $a_4 \ P \ a_1 \iff a_5 \ P \ a_2$

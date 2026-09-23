@@ -26,8 +26,8 @@ For IR
 Idea:
 - usually a document contains only a small portion of terms 
 - so document vectors are very sparse
-- typical distance is cosine similarity - it ignores zeros. for cosine to be non-zero, two docs need to share at least one term
-- $D^T$ is the inverted index of the term-document matrix $D$
+- typical [distance](Distance_Functions) is [cosine similarity](Cosine_Similarity) - it ignores zeros. for cosine to be non-zero, two docs need to share at least one term
+- $D^T$ is the inverted index of the term-document [matrix](Matrix) $D$
 
 
 This, to find docs similar to $d$:

@@ -33,4 +33,4 @@ $P(\mid X - \mathbb{E}[X]\mid < \epsilon) \geqslant 1 - \frac{\text{Var}(X)}{\ep
 
 
 ## Sources
-- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vysshaya Shkola, 2003.
+- Gmurman V.E., Probability Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vysshaya Shkola, 2003.

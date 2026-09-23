@@ -9,19 +9,19 @@ title: Probabilistic Retrieval Model
 ## Probabilistic Retrieval Model
 ### Probabilistic Ranking Principle
 Due to Robertson 1977
-- relevance = "what is the probability that document $D$ is relevant to the query $Q$?"
+- relevance = "what is the [probability](Probability) that document $D$ is relevant to the query $Q$?"
 
 
 ### Assumptions
 - *ranking assumption*: usefulness of a relevant document depends on the number of relevant documents the user has already seen
   - the more documents we see - the less useful they are 
-- *independence assumption*: relevance of $D_i$ to $Q$ is independent to other documents $D_j$ from the collection
+- *[independence](Independence) assumption*: relevance of $D_i$ to $Q$ is independent to other documents $D_j$ from the collection
   - therefore we can apply it for each document separately
 
 
 
 ## Relevance Function
-- $R = \{ r, \lnot r \}$ a binary random variable that indicates relevance
+- $R = \{ r, \lnot r \}$ a binary [random variable](Random_Variable) that indicates relevance
 - let $r$ represent the event that $D$ is relevant 
 - $\lnot r$ represent the event that $D$ is not relevant 
 
@@ -56,7 +56,7 @@ Comments:
 
 
 Literature:
-- Joachims, Thorsten, et al. "Learning to rank for information retrieval." 2007. [link](http://www.sigir.org/files/forum/2007D/2007d_sigirforum_joachims.pdf)
+- Joachims, Thorsten, et al. "Learning to rank for [information retrieval](Information_Retrieval)." 2007. [link](http://www.sigir.org/files/forum/2007D/2007d_sigirforum_joachims.pdf)
 - Liu, Tie-Yan. "Learning to rank for information retrieval." 2009. [link](http://didawikinf.di.unipi.it/lib/exe/fetch.php/magistraleinformatica/ir/ir13/1_-_learning_to_rank.pdf)
 
 

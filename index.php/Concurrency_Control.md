@@ -7,7 +7,7 @@ tags:
 title: Concurrency Control
 ---
 ## Concurrency Control
-A database typically serves multiple users at the same time 
+A [database](Database) typically serves multiple users at the same time 
 - the goal in this case is to make an impression that everything works in [isolation](Isolation_%28databases%29)
 - Concurrency Control deals with that: it ensures that transactions have the same effect as if they were run in isolation 
 

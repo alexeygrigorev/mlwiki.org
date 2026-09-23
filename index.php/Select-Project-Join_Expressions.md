@@ -9,7 +9,7 @@ title: Select-Project-Join Expressions
 In practice, most [Relational Algebra](Relational_Algebra) expressions (i.e. queries) are of the *Select-Project-Join* form (SPJ)
 
 an *SPJ expression* is
-- a [Relational Algebra](Relational_Algebra) expression
+- a Relational Algebra expression
 - it consists only of selections, projections and joins
 - there are only equality predicates for selection (i.e. of form $A_j = B_i$)
 
@@ -31,8 +31,8 @@ This type of query is very interesting for [Logical Query Plan Optimization](Log
 
 
 ## See also
-- [Logical Query Plan Optimization](Logical_Query_Plan_Optimization)
-- [Conjunctive Query](Conjunctive_Query)
+- Logical Query Plan Optimization
+- Conjunctive Query
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

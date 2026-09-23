@@ -8,7 +8,7 @@ title: Gaussian Elimination
 ## Gaussian Elimination
 Gaussian Elimination or Row Reduction is a method for solving a [System of Linear Equations](System_of_Linear_Equations)
 - it corresponds to elimination of variables in the system 
-- if a matrix $A$ that we reduce is non-singular and invertible, then we always have a solution
+- if a [matrix](Matrix) $A$ that we reduce is non-singular and invertible, then we always have a solution
 - a by-product of Gaussian Elimination is [LU Factorization](LU_Factorization)
 
 
@@ -218,7 +218,7 @@ We can write these elimination steps in matrix form
 - we continue this way until we transform $A$ to $U$
   - so we have $E_{21} (E_{21} A) = U$ 
   - or $\underbrace{(E_{21} E_{21})}_E A = EA = U $ 
-  - This a part of [$LU$ Factorization](LU_Factorization)
+  - This a part of $LU$ Factorization
 
 
 What if we need to exchange rows? 
@@ -228,7 +228,7 @@ What if we need to exchange rows?
 
 ## See Also
 - [Inverse Matrices#Gauss-Jordan Elimination](Inverse_Matrices#Gauss-Jordan_Elimination)
-- [LU Factorization](LU_Factorization)
+- LU Factorization
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)

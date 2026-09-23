@@ -62,12 +62,12 @@ Source: <img src="http://en.wikipedia.org/wiki/File:Gram-Schmidt_orthonormalizat
 
 
 ## [Column Space](Column_Space)s
-Claim: The column space of $A$ does not change when we orthogonalize it
+Claim: The [column space](Column_Space) of $A$ does not change when we orthogonalize it
 
 
 Suppose that we take a matrix $A = \Bigg[ \mathop{\mathbf a_1}\limits_| ^| \ \mathop{\mathbf a_2}\limits_|^| \ \cdots \  \mathop{\mathbf a_n}\limits_|^| \Bigg]$ and orthogonalize its columns  into $Q = \Bigg[ \mathop{\mathbf q_1}\limits_|^| \ \mathop{\mathbf q_2}\limits_|^| \ \cdots \  \mathop{\mathbf q_n}\limits_|^| \Bigg]$
 - Why $C(A) = C(Q)$?
-- at each step of the Gram-Schmidt process we take linear combinations from $C(A)$
+- at each step of the Gram-Schmidt process we take linear [combinations](Combinations) from $C(A)$
 - e.g. $\mathbf v_3 = \mathbf c - \alpha_1  \mathbf v_1 - \alpha_2  \mathbf v_2 = \mathbf c - \alpha_1\mathbf a - \alpha_2 \cdot \left(\mathbf b - \alpha_3 \mathbf a \right) = \mathbf c - \alpha_1 \mathbf a - \alpha_2 \mathbf b - \alpha_2 \alpha_3 \mathbf a$
 - $\alpha_1 = \cfrac{\mathbf v_1^T \mathbf c}{\mathbf v_1^T \mathbf v_1}, \alpha_2 = \cfrac{\mathbf v_2^T \mathbf c}{\mathbf v_2^T \mathbf v_2}, \alpha_3 = \cfrac{\mathbf v_1^T \mathbf b}{\mathbf v_1^T \mathbf v_1}$ are just scalars 
 

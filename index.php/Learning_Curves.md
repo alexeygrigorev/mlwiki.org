@@ -12,7 +12,7 @@ This is a good technique (a part of [Machine Learning Diagnosis](Machine_Learnin
 
 A *learning curve* is a plot where we have two functions of $m$ ($m$ is a set size): 
 - training set error $J_{\text{train}}(\theta)$, 
-- the cross-validation error $J_{\text{cv}}(\theta)$
+- the [cross-validation](Cross-Validation) error $J_{\text{cv}}(\theta)$
 
 
 We can artificially reduce our training set size. 
@@ -62,15 +62,15 @@ So we can see that as $m$ increases,
 - and there's a huge gap between these 2
 - to fill that gap we need many many more training examples
 
-$\Rightarrow$ if a learning algorithm is suffering from high variance (i.e. it overfits), getting more data is likely to help
+$\Rightarrow$ if a learning algorithm is suffering from high [variance](Variance) (i.e. it overfits), getting more data is likely to help
 
 
 
 
 ## See also
-- [Machine Learning Diagnosis](Machine_Learning_Diagnosis)
+- Machine Learning Diagnosis
 - [Model Selection](Model_Selection)
-- [Cross-Validation](Cross-Validation)
+- Cross-Validation
 
 
 ## Sources

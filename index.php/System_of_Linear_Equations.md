@@ -14,7 +14,7 @@ The fundamental problem of [Linear Algebra](Linear_Algebra) is solving a system 
 ### Matrix View
 Suppose we have a system with $m$ equations and $n$ unknowns:
 
-$\left\{\begin{matrix}
+$\left\{\begin{[matrix](Matrix)}
 a_{11} x_1 + a_{12} x_2 + \ ... \ + a_{1n} x_n = b_1\\ 
 a_{21} x_1 + a_{22} x_2 + \ ... \ + a_{2n} x_n = b_2\\ 
 \vdots \\
@@ -22,7 +22,7 @@ a_{m1} x_1 + a_{22} x_2 + \ ... \ + a_{mn} x_n = b_m\\
 \end{matrix}\right.$
 
 
-The coefficients of the unknowns form a [Matrix](Matrix) - a rectangular array of numbers:
+The coefficients of the unknowns form a Matrix - a rectangular array of numbers:
 - $A = \begin{bmatrix}
 a_{11} & a_{12} & ... & a_{1n}\\ 
 a_{21} & a_{22} & ... & a_{2n}\\ 
@@ -201,7 +201,7 @@ Steps:
 - Then find all other solutions: they are $\mathbf x = \textbf x_p + \mathbf x_n$
 - this solution is called *the complete solution*
 - why? $A \mathbf x_p = \mathbf b$ and $A \mathbf x_n = \mathbf 0$. Add them and get $A \cdot (\mathbf x_p + \mathbf x_n) = \mathbf b + \mathbf 0 = \mathbf b$
-- so we can the solution as the Nullspace $C(A)$ but shifted away from the origin by $x_p$ 
+- so we can the solution as the [Nullspace](Nullspace) $C(A)$ but shifted away from the origin by $x_p$ 
 - note that this solution doesn't form a subspace
 
 
@@ -251,7 +251,7 @@ for which $\mathbf b$ we can solve $A \mathbf x = \mathbf b$?
 ### $r < m$ and $r < n$
 <img src="http://habrastorage.org/files/d2a/f16/064/d2af160643b24017846c05381c600fe6.png" alt="Image">
 
-- $A \mathbf x = \mathbf 0$ always have a solution - there's always something in the [Nullspace](Nullspace) $N(A)$ of $A$ apart from the zero-vector
+- $A \mathbf x = \mathbf 0$ always have a solution - there's always something in the Nullspace $N(A)$ of $A$ apart from the zero-vector
 - reason: there are always free variables and we can assign any non-zero values to them and solve the homogeneous system
 
 

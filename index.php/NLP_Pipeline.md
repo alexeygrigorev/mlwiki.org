@@ -22,14 +22,14 @@ title: NLP Pipeline
 
 
 ### [Information Retrieval](Information_Retrieval)
-- [Tokenization](Tokenization)
-- [Stop Words Removal](Stop_Words)
-- [Text Normalization](Text_Normalization)
-  - [Stemming](Stemming) or [Lemmatization](Lemmatization)
-  - [Spelling Correction](Spelling_Correction)
+- Tokenization
+- Stop Words Removal
+- Text Normalization
+  - Stemming or Lemmatization
+  - Spelling Correction
   - [Phonetic Normalization](Phonetic_Normalization) (e.g. with [Soundex](Soundex))
-  - find equivalence classes (using thesauri, e.g. [WordNet](WordNet)) (semantic stuff)
-- [Named Entity Recognition](Named_Entity_Recognition)
+  - find equivalence classes (using thesauri, e.g. WordNet) (semantic stuff)
+- Named Entity Recognition
 - building [Inverted Index](Inverted_Index) and [Vector Space Model](Vector_Space_Model)
 
 

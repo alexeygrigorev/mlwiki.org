@@ -12,14 +12,14 @@ A [Matrix](Matrix) space is a [Vector Space](Vector_Space) where elements are ma
 
 E.g. Space $M$ - $3 \times 3$ matrices 
 - any $3 \times 3$ matrix an element of this space $M$ ("vector" in $M$)
-- we can multiply by a scalar and add two matrices - which is why we can call it "vector space"
+- we can multiply by a scalar and add two matrices - which is why we can call it "[vector space](Vector_Spaces)"
 
 
 ### [Subspaces](Vector_Subspaces)
 Subspaces of the matrix space should form a space on their own. 
 - What are subspaces of the matrix space? 
 - All upper-triangular matrices
-- all symmetric matrices
+- all [symmetric matrices](Symmetric_Matrices)
 - diagonal matrices (upper-triangular $\cup$ symmetric)
 
 
@@ -78,7 +78,7 @@ rule:
 
 
 ## [Inner Product](Inner_Product)
-How do we define the inner product?
+How do we define the [inner product](Dot_Product)?
 - Element-wise: $\langle A, B \rangle = \sum_{ij} a_{ij} b_{ij}$
 - then the norm based on this product is $\|  A \|_F = \langle A, A \rangle$, it's called the [Frobenius Norm](Frobenius_Norm).
 

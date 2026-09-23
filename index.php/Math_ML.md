@@ -20,7 +20,7 @@ There are two types of MathML:
 
 ## Presentation Elements
 The presentation elements are meant to express the syntactic structure of mathematical notation
-- MathML expressions trees with nested layout.
+- MathML expressions [trees](Tree) with nested layout.
 
 
 A *token* in MathML is an individual symbol, name or number. Tokens are grouped together to form MathML expressions. 
@@ -97,7 +97,7 @@ Often tokens are just single characters, like <code><mi>E</mi></code> or <code><
 In MathML <code>mi</code> elements represent some symbolic name or text that should be rendered as identifiers. Identifiers could be variables, function names, and symbolic constants.
 
 
-Transitional mathematical notation often involve some special typographical properties of fonts, e.g. using bold symbols e.g. $\mathbf x$ to denote vectors or capital script symbols e.g. $\mathcal G$ to denote groups and sets. To address this, there is a special attribute "mathvariant" that can take values such as "bold", "script" and others. 
+Transitional mathematical notation often involve some special typographical properties of fonts, e.g. using bold symbols e.g. $\mathbf x$ to denote vectors or capital script symbols e.g. $\mathcal G$ to denote groups and [sets](Sets). To address this, there is a special attribute "mathvariant" that can take values such as "bold", "script" and others. 
 
 
 Numerical literals are represented with <code>mn</code> elements. Typically they are sequences of digits, sometimes with a decimal point, representing an unsigned integer or real number, e.g. <code><mn>50</mn></code> or <code><mn>50.00</mn></code>. 

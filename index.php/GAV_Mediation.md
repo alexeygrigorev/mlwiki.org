@@ -13,7 +13,7 @@ There are two main approached for [Mediating](Mediator_%28Data_Integration%29) i
 
 GAV - Global-as-View Mediation
 - global is constrained by views of the local relations
-- See some notation in [Mediator (Data Integration)](Mediator_%28Data_Integration%29)
+- See some notation in Mediator (Data Integration)
 
 
 ## GAV Mapping
@@ -31,7 +31,7 @@ A GAV mapping is an expression of the form
 
 
 ### GAV Mapping Example
-Data sources:
+[Data sources](Data_Sources):
 - S1.Catalogue(nomUniv, programme). - programs in French universities
 - S2.Erasmus(student, course, univ). - European Erasmus students 
 - S3.CampusFr(student, program, university). - foreign students in France
@@ -114,9 +114,9 @@ Simplification
 
 
 ## See Also
-- [Data Integration](Data_Integration)
-- [Mediator (Data Integration)](Mediator_%28Data_Integration%29)
-- [LAV Mediation](LAV_Mediation)
+- Data Integration
+- Mediator (Data Integration)
+- LAV Mediation
 
 ## Source
 - Web Data Management book [link](http://webdam.inria.fr/Jorge)

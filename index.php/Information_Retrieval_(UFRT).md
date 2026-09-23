@@ -41,7 +41,7 @@ Taught by
 
 ### [Natural Language Processing](Natural_Language_Processing) in IR
 - General introduction: applications of NLP and linguistic level of description
-- Morphology: linguistic modeling (compound words), [Stemming](Stemming), [Lemmatization](Lemmatization)
+- Morphology: linguistic modeling (compound words), Stemming, Lemmatization
 - Terminology: motivation and applications
 - Morphology and syntax: [POS Tagging](POS_Tagging), [Named Entities Recognition](Named_Entities_Recognition)
 - Syntax: parsing

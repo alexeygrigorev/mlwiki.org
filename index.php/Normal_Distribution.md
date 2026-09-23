@@ -71,7 +71,7 @@ Ann's *percentile* - percent of people who earned lower SAT score
 
 Example 2
 - Shannon is a randomly selected SAT-taker.
-- What's the probability that she'll score 1630 or more? 
+- What's the [probability](Probability) that she'll score 1630 or more? 
 - Can find the $z$-score for that - it's $z = \cfrac{x - \mu}{\sigma} = 0.43$
 - so we calculate the percentiles
   - probability of getting below $z=0.43$ is 2/3
@@ -94,7 +94,7 @@ Many processes can be approximated well by normal distribution
 But need to check if it's reasonable to use the normal approximation 
 
 2 visual methods for checking the assumption of normality 
-1. simple histogram + best fit of normal shape
+1. simple [histogram](Histogram) + best fit of normal shape
   - <img src="http://habrastorage.org/files/dd4/cda/bcd/dd4cdabcdf864de594a2d46d760ee067.png" alt="Image">
 1. [Q-Q Plot](Q-Q_Plot) (or Normal Probability Plot)
   - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/b/openintrostat/normal-prob-plot-ex.png" alt="Image">
@@ -112,7 +112,7 @@ lines(x=x, y=y, col="blue")
 ```
 
 
-Code to produce  [Q-Q Plot](Q-Q_Plot)s
+Code to produce  Q-Q Plots
 
 ```
 qqnorm(fdims$hgt, col="orange", pch=19)

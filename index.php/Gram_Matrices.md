@@ -6,7 +6,7 @@ tags:
 title: Gram Matrices
 ---
 ## Gram Matrices
-A Gram matrix of vectors $\mathbf a_1 , \ ... \ , \mathbf a_n$ is a matrix $G$ 
+A Gram matrix of vectors $\mathbf a_1 , \ ... \ , \mathbf a_n$ is a [matrix](Matrix) $G$ 
 - s.t. $G = \langle \mathbf a_i, \mathbf a_j \rangle$ for all $i,j$
 - if vectors $\mathbf a_1 , \ ... \ , \mathbf a_n$ are columns of a matrix $A$, then 
 - $G = A^T A$ 
@@ -92,7 +92,7 @@ Check: Let $R$ be an $n \times m$ matrix
 - $\mathbf v^T A \mathbf v = \mathbf v^T R^T R \, \mathbf v = (R \, \mathbf v)^T R \, \mathbf v = \|  R \, \mathbf v \|^2 > 0$
 - if $\mathbf v \ne \mathbf 0$ - and it's the case when columns of $R$ are linearly independent 
 - see the theorem in [Projection onto Subspaces](Projection_onto_Subspaces#Theorem__.24A.5ET_A.24_is_Invertible)
-- If some columns of $R$ are linearly dependent, then still $R^T R$ is semi-positive, with some eigenvalues equal to 0
+- If some columns of $R$ are linearly dependent, then still $R^T R$ is semi-positive, with some [eigenvalues](Eigenvalues_and_Eigenvectors) equal to 0
 
 
 Let's check $R R^T$:

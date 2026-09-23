@@ -30,7 +30,7 @@ Two subspaces that meet in $\mathbf 0$ can be orthogonal
 
 
 ### [Row space](Row_Space) and [Nullspace](Nullspace)
-Row space $C(A^T)$ and nullspace $N(A)$ are orthogonal.
+[Row space](Row_Space) $C(A^T)$ and [nullspace](Nullspace) $N(A)$ are orthogonal.
 - <img src="http://habrastorage.org/files/c67/a41/cc5/c67a41cc5bfb4bcaa634b1135f5d97ad.png" alt="Image">
 
 why?
@@ -53,7 +53,7 @@ Let's consider only rows from $A$
 \end{bmatrix}$
 - so $\mathbf x$ is orthogonal to all rows in $A$ 
 
-what else is in the row space? linear combinations of rows of $A$ 
+what else is in the row space? linear [combinations](Combinations) of rows of $A$ 
 - $c_1 \cdot \text{row 1} + \ ... \ + c_n \cdot \text{row $n$}$ what if we multiply it by $\mathbf x$?
 - $(c_1 \cdot \text{row 1} + \ ... \ + c_n \cdot \text{row $n$})^T \mathbf x = (c_1 \cdot \text{row 1})^T \mathbf x + \ ... \ + (c_n \cdot  \text{row $n$})^T \mathbf x = c_1 \cdot  \underbrace{(\text{row 1})^T \mathbf x}_{0} + \ ... \ + c_n \cdot  \underbrace{(\text{row $n$})^T \mathbf x}_{0} = 0$
 

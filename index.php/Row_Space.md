@@ -8,11 +8,11 @@ title: Row Space
 ## Row Space
 This is one of the [Four Fundamental Subspaces](Four_Fundamental_Subspaces)
 
-A *Row Space* $C(A^T)$ of a matrix $A$ is all linear combinations of rows of $A$, or all combinations of columns of $A^T$
+A *Row Space* $C(A^T)$ of a [matrix](Matrix) $A$ is all linear [combinations](Combinations) of rows of $A$, or all combinations of columns of $A^T$
 
 
 Row Space
-- $\text{dim } C(A^T) = r = \text{dim } C(A)$, there are $r$ pivot rows - the same dim as for Column Space
+- $\text{dim } C(A^T) = r = \text{dim } C(A)$, there are $r$ pivot rows - the same dim as for [Column Space](Column_Space)
 - basis: maximal system of linearly independent vectors from $A^T$ 
 - when we get [Row Reduced Echelon Form](Row_Reduced_Echelon_Form) $R$ by applying [Gaussian Elimination](Gaussian_Elimination) to $A$, the column space changes, so $C(A) \ne C(R)$
 - but because we did row operations the row space should remain the same: it changed only the column space
@@ -28,7 +28,7 @@ Why the row space remains the same?
 
 
 ## See Also
-- [Four Fundamental Subspaces](Four_Fundamental_Subspaces)
+- Four Fundamental Subspaces
 
 
 ## Sources

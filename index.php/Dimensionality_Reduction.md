@@ -8,7 +8,7 @@ tags:
 title: Dimensionality Reduction
 ---
 ## Dimensionality Reduction
-This is a technique to reduce the dimensionality of our data sets 
+This is a technique to reduce the dimensionality of our data [sets](Sets) 
 - we have a data set of $\{ \mathbf x_i \}$ of $\mathbf x_i \in \mathbb R^D$ with very large $D$
 - the goal is to find a mapping $f: \mathbb R^D \mapsto \mathbb R^d$ s.t. $d \ll D$
 - for [Visualization](Visualization) the target dimension is usually small, e.g. $d = 2$ or $d =3$
@@ -74,4 +74,4 @@ Non-Linear
 - [Machine Learning (coursera)](Machine_Learning_%28coursera%29)
 - [Machine Learning 1 (TUB)](Machine_Learning_1_(TUB))
 - [Machine Learning 2 (TUB)](Machine_Learning_2_(TUB))
-- Sebastiani, Fabrizio. "Machine learning in automated text categorization." (2002). [link](http://arxiv.org/pdf/cs/0110053.pdf)
+- Sebastiani, Fabrizio. "[Machine learning](Machine_Learning) in automated text categorization." (2002). [link](http://arxiv.org/pdf/cs/0110053.pdf)

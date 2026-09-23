@@ -21,13 +21,13 @@ Cosine similarity is a [Similarity Function](Similarity_Function) that is often 
 
 
 ### Cosine Normalization
-If documents have unit length, then cosine similarity is the same as [Dot Product](Dot_Product)
+If documents have unit length, then cosine similarity is the same as Dot Product
 - $\text{cosine}(\mathbf d_1, \mathbf d_2) = \cfrac{\mathbf d_1^T \mathbf d_2}{\| \mathbf d_1 \| \cdot \| \mathbf d_2 \|} = \mathbf d_1^T \mathbf d_2$ when $\| \mathbf d_1 \| = \| \mathbf d_2 \| = 1$
 - thus we can "unit-normalize" document vectors $\mathbf d' = \cfrac{\mathbf d}{\| \mathbf d \|}$
-- this "unit-length normalization" is often called "cosine normalization" in IR
+- this "unit-length [normalization](Feature_Normalization)" is often called "cosine normalization" in IR
 
 
-== Cosine Distance == 
+== Cosine [Distance](Distance_Functions) == 
 - for documents $\text{cosine}(\mathbf d_1, \mathbf d_2) \in [0, 1]$
 - it is max when two documents are the same
 - how to define a distance? distance function should become larger as elements become less similar
@@ -47,7 +47,7 @@ What about the triangle inequality?
 
 
 ## Cosine and [Euclidean Distance](Euclidean_Distance)
-Euclidean distance $\|  \mathbf d_1 - \mathbf d_2 \| = \sqrt{(\mathbf d_1 - \mathbf d_2)^T (\mathbf d_1 - \mathbf d_2)}$
+[Euclidean distance](Euclidean_Distance) $\|  \mathbf d_1 - \mathbf d_2 \| = \sqrt{(\mathbf d_1 - \mathbf d_2)^T (\mathbf d_1 - \mathbf d_2)}$
 - ED is a proper metric 
 
 There's a connection between Cosine Distance end Euclidean Distance
@@ -77,4 +77,4 @@ For [PCA](PCA) we usually do mean-correction
 
 
 ## Sources
-- Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On principal component analysis, cosine and Euclidean measures in information retrieval." 2007. [link](http://www.sciencedirect.com/science/article/pii/S0020025507002630) 
+- Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On [principal component analysis](Principal_Component_Analysis), cosine and Euclidean measures in information retrieval." 2007. [link](http://www.sciencedirect.com/science/article/pii/S0020025507002630) 

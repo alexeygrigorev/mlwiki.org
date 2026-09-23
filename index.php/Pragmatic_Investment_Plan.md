@@ -59,4 +59,4 @@ title: Pragmatic Investment Plan
 
 
 ## Links
-[Refactor your Wetware#Pragmatic Investment Plan](Refactor_your_Wetware#Pragmatic_Investment_Plan)
+Refactor your Wetware#Pragmatic Investment Plan

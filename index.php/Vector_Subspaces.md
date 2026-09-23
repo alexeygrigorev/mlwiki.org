@@ -52,7 +52,7 @@ For a [Matrix](Matrix) there are [Four Fundamental Subspaces](Four_Fundamental_S
 - [Column Space](Column_Space)
 - [Row Space](Row_Space) 
 - [Nullspace](Nullspace)
-- [Left Nullspace](Nullspace#Left_Nullspace)
+- Left Nullspace
 
 
 #### Column Space
@@ -64,9 +64,9 @@ $A = \begin{bmatrix}
 4 & 1 \\
 \end{bmatrix}$
 
-Subspace from columns - $C(A)$ - the [Column Space](Column_Space) of $A$:
+Subspace from columns - $C(A)$ - the Column Space of $A$:
 - we cannot just take the two columns and call it a subspace: 
-- it also must include all linear combinations of these columns
+- it also must include all linear [combinations](Combinations) of these columns
 - these linear combinations of two vectors form a plane - a subspace $\mathbb R^2$ in the space $\mathbb R^3$
 - since we include all possible combinations, we're guaranteed to have a subspace 
 - <img src="http://habrastorage.org/files/cf5/432/f56/cf5432f561ec4f14888e8b376c5f438b.png" alt="Image">

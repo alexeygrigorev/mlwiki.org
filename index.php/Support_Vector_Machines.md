@@ -15,7 +15,7 @@ Recall [Logistic Regression](Logistic_Regression):
   - if $y = 0$ we want $h_{\theta}(x) \approx 0$, or $\theta^T x \ll 0$
 
 ### Cost Function
-[Logistic Regression](Logistic_Regression) cost function is 
+Logistic Regression cost function is 
 - $\text{cost}(h_{\theta}(x), y) = \left\{\begin{array}{l l} -\log(h_{\theta}(x)) & \text{ if } y = 1 \\ - \log(1 - h_{\theta}(x)) & \text{ if } y = 0 \end{array} \right. $
 - let's have a look at contribution of each part of the cost function:
   - $- \log \cfrac{1}{1 + e^{-z}}$: if $y = 1$, it gives $\theta^T x \gg 0$
@@ -30,11 +30,11 @@ Let's change that function onto 2 straight lines:
 That gives us 
 - an approximation of the regression function
 - computational advantages and 
-- easier optimization
+- easier [optimization](Optimization)
 
 
 ### Objective Function
-for [Logistic Regression](Logistic_Regression) we had 
+for Logistic Regression we had 
 - $J(\theta) = \cfrac{1}{m} \sum_{i = 1}^{m} \left [ y^{(i)} \cdot \text{cost}_{1}(\theta^T x^{(i)}) + (1 - y^{(i)}) \cdot \text{cost}_{0}(\theta^T x^{(i)})    \right]  + \cfrac{\lambda}{2m} \sum_{j = 1}^{n} \theta_j^2$
   - where $\text{cost}_{1}(\theta^T x^{(i)})$ and $\text{cost}_{0}(\theta^T x^{(i)})$ are logarithmic cost functions for $y = 1$ and $y = 0$ respectively. 
 - Let's change them onto svm's cost functions $\text{cost}_{1}(\theta^T x^{(i)})$ and $\text{cost}_{0}(\theta^T x^{(i)})$
@@ -49,7 +49,7 @@ Finally we have:
 
 ### Hypothesis
 The final difference is that 
-- [Logistic Regression](Logistic_Regression) outputs probabilities 
+- Logistic Regression outputs probabilities 
 - but for SVM out hypothesis is 
   $h_{\theta}(x) = \left\{ \begin{array}{l l} 1 & \text{ if  } \theta^T x \geqslant 0 \\ 0 & \text{ otherwise }   \end{array} \right.$
 
@@ -67,12 +67,12 @@ That gives larger margin for SVM
 
 ### SVM Decision Boundary
 - SVM sometimes is referred as Large Margin classifier 
-- The reason for that is SVM tries to find a decision boundary that has the widest distance (*margin* from the dataset samples)
+- The reason for that is SVM tries to find a decision boundary that has the widest [distance](Distance_Functions) (*margin* from the dataset samples)
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/svm-margin.png" alt="Image">
 - here we see the margin
 
 
-When $C$ is big, the algorithm becomes sensitive to outliers, decreasing $C$ makes it less sensitive
+When $C$ is big, the algorithm becomes sensitive to [outliers](Outliers), decreasing $C$ makes it less sensitive
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/svm-outliers.png" alt="Image">
 
 
@@ -88,7 +88,7 @@ For SVM, suppose our cost function is
 - our optimization objective is to minimize the norm of $\theta$
  |
 Next, let's have a look at  $\theta^T \cdot x^{(i)}$
-- this is [Inner Product](Inner_Product) as well
+- this is Inner Product as well
 - let $p^{(i)}$ be projection from $x^{(i)}$ to $\theta$
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/svm-vectors-projection_training.png" alt="Image">
 - $\theta^T \cdot x^{(i)} = \theta_1 x_1^{(i)} + \theta_2 x_2^{(i)} $
@@ -159,7 +159,7 @@ As a similarity function we  may use a *Gaussian Kernel*:
 - where $\|  x - l \|^2 = \sum_{j = 1}^n (x_j - l_j)^2$
 Similarity
 - Suppose $x$ is close to $l^{(1)}$, i.e. $x \approx l^{(1)}$,
-  - then the Euclidean distance will be close to 0
+  - then the [Euclidean distance](Euclidean_Distance) will be close to 0
   - or $f_1 \approx e^0 \approx 1$
 - if $x$ is far from $l^{(1)}$ then 
   - $f_1 \approx \exp \left( \cfrac{(\text{large number})^2}{2 \sigma^2} \right) \to 0$
@@ -243,7 +243,7 @@ and so on
 - with Kernels, we now have $n = m + 1$ features 
 
 Let's take a closer look at the second term
-- as we know, this is an [Inner Product](Inner_Product):
+- as we know, this is an Inner Product:
 - $\sum_{j = 1}^{n} \theta_j^2 = \|  \theta \|^2 = \theta^T \theta$
 - In reality, for SVM implementation a re-scaled version is often used: 
   - $\theta^T \cdot M \cdot  \theta$
@@ -283,7 +283,7 @@ Suppose we have
 
 if $n$ is large (relative to $m$)
 - e.g. $n = 10000$, $m \in [10, 1000]$
-- use [Logistic Regression](Logistic_Regression)
+- use Logistic Regression
 - or SVM without kernel 
 
 if $n$ is small, $m$ in intermediate 
@@ -294,19 +294,19 @@ if $n$ is small, m is large
 - say $n \in [1, 1000], m = 50000+ $
 - SVM is too slow for that 
 - create more features 
-- then use [Logistic Regression](Logistic_Regression) or SVM without a kernel 
+- then use Logistic Regression or SVM without a kernel 
 
-[Logistic Regression](Logistic_Regression) and SVM without a kernel are pretty similar and have similar performance
+Logistic Regression and SVM without a kernel are pretty similar and have similar performance
 
 ### vs [Neural Networks](Neural_Networks)
 - [Neural Networks](Neural_Networks) are likely to work for all these cases, but they are slower to train.
-- SVM models always have global optimum, whereas [Neural Networks](Neural_Networks) have local optima
+- SVM models always have global optimum, whereas Neural Networks have local optima
 
 
 ## See also
-- [Logistic Regression](Logistic_Regression)
-- [Machine Learning Diagnosis](Machine_Learning_Diagnosis)
-- [One-vs-All Classification](One-vs-All_Classification)
+- Logistic Regression
+- Machine Learning Diagnosis
+- One-vs-All Classification
 
 ## Links
 - http://www.tristanfletcher.co.uk/SVM%20Explained.pdf

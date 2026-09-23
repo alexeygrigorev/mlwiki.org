@@ -17,7 +17,7 @@ A *crossing edges* is an edge that
 - if head in $B$, tail in $A$ - not a crossing edge
 
 ## The problem
-- input: indirect [graph](Graphs) $G = (V, E)$ with parallel edges allowed
+- input: indirect graph $G = (V, E)$ with parallel edges allowed
 - goal: compute a cut with fewer number of crossing edges (the min cut)
 
 Eg:
@@ -48,8 +48,8 @@ Example:
 Example 2:
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/15f4s9iuk97l9qvnt171bqc904.png" alt="Image" />
 
-It can find something other than a minimal cut
-- the probability of success is just $\cfrac{1}{n^2}$
+It can find something other than a [minimal cut](Minimal_Cut)
+- the [probability](Probability) of success is just $\cfrac{1}{n^2}$
 - solution: repeated trials
 - try $N$ times and remember the smallest cut found
 
@@ -204,7 +204,7 @@ public class UndirectedGraph {
 ```
 
 ## See also
-- [Graphs](Graphs)
+- Graphs
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

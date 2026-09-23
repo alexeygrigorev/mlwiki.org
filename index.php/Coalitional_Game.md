@@ -70,7 +70,7 @@ title: Coalitional Game
   - the Shapley value is
   - $\phi_i(N, v) = \frac{1}{N!} \sum_{S \in N\{i}} |S|! (|N| - |S| - 1)! [v(S \cup {i}] - v(S)] $
 - explanation
-- $\frac{1}{N!}$ - we average over all combinations
+- $\frac{1}{N!}$ - we average over all [combinations](Combinations)
 - sum over all subsets without $i$
 - $| S |   (|N| - |S| - 1)!$ - weighted by how many different ways we could come up with this calculation
 - $|S |  $ - ways the set S could be formed before i's addition

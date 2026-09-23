@@ -51,7 +51,7 @@ Splitting
 
 
 ## Summary
-Recall [the typical of queries](Multi-Dimensional_Indexes#Typical_Queries) we want to answer for [Multi-Dimensional Indexes](Multi-Dimensional_Indexes)
+Recall the typical of queries we want to answer for Multi-Dimensional Indexes
 - (+) good support for 
   - point queries
   - partial match queries (we know where to look to needed data)
@@ -68,4 +68,4 @@ Recall [the typical of queries](Multi-Dimensional_Indexes#Typical_Queries) we wa
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

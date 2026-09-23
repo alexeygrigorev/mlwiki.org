@@ -18,7 +18,7 @@ Idea:
 - instead of calculating the maximal gain (like in [Max Max Strategy](Max_Max_Strategy)) or maximal loss ([Max Min Strategy](Max_Min_Strategy)) we calculate the regret
 - use this measure to decide which option to choose
 - we don't want to experience a lot of regret, so we will minimize the maximal regret we have 
-- so it's similar to  [Max Min Strategy](Max_Min_Strategy), but instead of utility we use regret
+- so it's similar to  Max Min Strategy, but instead of utility we use regret
 
 
 Regret
@@ -43,7 +43,7 @@ Remarks
 
 
 ### Example
-Suppose we have the following matrix:
+Suppose we have the following [matrix](Matrix):
 
 |   $c$  |  $e_1$  |  $e_2$  |  $e_3$  |   $a_1$   |  40  |  70  |  -20 ||   $a_2$   |  -10  |  40  |  100 ||   $a_3$   |  20  |  40  |  -5 |
 
@@ -77,7 +77,7 @@ But now $a_2$ wins
  |
 ## [Expected Opportunity Lost](Expected_Opportunity_Lost)
 Similar idea:
-- we calculate the expected value on the regret table
+- we calculate the [expected value](Expected_Value) on the regret table
 
 
 ## Sources

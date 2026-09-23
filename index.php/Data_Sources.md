@@ -27,7 +27,7 @@ Football:
 Also: Data Repositories
 - http://bitly.com/bundles/hmason/1 Hilary Mason's research data
 - http://snap.stanford.edu/data/ Stanford Large Network Dataset Collection
-- http://archive.ics.uci.edu/ml/ UCI Machine Learning Repository
+- http://archive.ics.uci.edu/ml/ UCI [Machine Learning](Machine_Learning) Repository
 - http://www.kdnuggets.com/datasets/index.html Datasets for Data Mining and Data Science
 - http://lib.stat.cmu.edu/datasets/
 - http://www.ncbi.nlm.nih.gov/geo/ a public functional genomics data repository

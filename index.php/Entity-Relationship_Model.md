@@ -62,7 +62,7 @@ A *candidate key* of an entity set is a minimal possible super key
 ## E-R Diagrams
 ### Basic Notation
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/adb/er-example1.png" alt="Image">
-- rectangles represent entity sets 
+- rectangles represent entity [sets](Sets) 
   - attributes are listed inside
   - primary key attributes are underlined 
 - diamonds represent relationship sets 
@@ -77,7 +77,7 @@ A *candidate key* of an entity set is a minimal possible super key
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/adb/er-example-3.png" alt="Image">
 - directed line shows relationship with cardinality "one"
 - undirected line - cardinality "many"
-- alternatively, we can use cardinality limits 
+- alternatively, we can use cardinality [limits](Limits) 
 
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/adb/er-example-4.png" alt="Image">

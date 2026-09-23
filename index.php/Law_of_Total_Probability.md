@@ -9,7 +9,7 @@ title: Law of Total Probability
 
 Suppose event $A$ can occur given the occurrence of one of the events $B_1, B_2, ..., B_n$, which form a complete group of events. Suppose the probabilities of these events $P(B_1), P(B_2), ..., P(B_n)$ are known, as well as the conditional probabilities $P(A\mid B_1), P(A\mid B_2), ..., P(A\mid B_n)$ of event $A$ given each of $B_1, ..., B_n$.
 
-**Theorem.** The probability of event $A$, which can occur only given the occurrence of one of the mutually exclusive events $B_1, B_2, ..., B_n$ forming a complete group, is
+**Theorem.** The [probability](Probability) of event $A$, which can occur only given the occurrence of one of the mutually exclusive events $B_1, B_2, ..., B_n$ forming a complete group, is
 
 $P(A) = P(B_1) P(A\mid B_1) + P(B_2) P(A\mid B_2) + ... + P(B_n) P(A\mid B_n)$
 
@@ -36,10 +36,10 @@ A store receives products from three factories in proportions of 20%, 30%, and 5
   $P(A) = \sum_{i = 1}^{3} P(B_i) P(A\mid B_i) = 0.135$
 
 ## See also
-- [Conditional Probability](Conditional_Probability)
+- Conditional Probability
 - [Bayes Rule](Bayes_Rule)
 
 
 ## Sources
-- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vysshaya Shkola, 2003.
+- Gmurman V.E., Probability Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vysshaya Shkola, 2003.
 - [Lecture notes on Probability Theory and Mathematical Statistics](http://www.dropbox.com/s/j9yxtvkd0ns5eot/Probability_and_Statistics_exams_c.pdf#13)

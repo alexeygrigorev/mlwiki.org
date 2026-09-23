@@ -10,7 +10,7 @@ title: Distributed Databases
 ## Architectures
 Evolution of Distributes DBs 
 
-Logical multi-processor database design:
+Logical multi-processor [database](Database) design:
 
 - Shared memory (easiest to program, but most expensive)
 - Shared disks (easier)
@@ -22,7 +22,7 @@ Logical multi-processor database design:
 - each processing unit (node, process, thread) is independent and self-sufficient
 - it has its own memory and storage
 - these is no single point of connection in the system
-- allows individual servers to fail (with proper replication)
+- allows individual servers to fail (with proper [replication](Replication))
 - data records are distributed by messaging
 
 
@@ -62,7 +62,7 @@ Decentralization
 - favor peer-to-peer techniques over centralized control
 
 Heterogeneity
-- work distribution must be proportional to the capabilities of individual servers 
+- work [distribution](Distributions) must be proportional to the capabilities of individual servers 
 - don't need to upgrade old servers when adding a newer one
 
 ## Concurrency Control

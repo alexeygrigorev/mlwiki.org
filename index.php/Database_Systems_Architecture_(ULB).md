@@ -18,12 +18,12 @@ title: Database Systems Architecture (ULB)
 - [Translating SQL to Relational Algebra](Translating_SQL_to_Relational_Algebra)
 - [Logical Query Plan Optimization](Logical_Query_Plan_Optimization): Heuristics and [optimization](Optimization) of [Conjunctive Queries](Conjunctive_Query)
 
-[Physical Query Plan](Query_Plan#Physical_Query_Plan)
+Physical Query Plan
 - [Physical Operators (databases)](Physical_Operators_%28databases%29)
 - [Physical Query Plan Optimization](Physical_Query_Plan_Optimization)
   - [Query Result Size Estimation](Query_Result_Size_Estimation) to estimate the result size 
   - [Join Ordering](Join_Ordering) to select the optimal way of ordering join operations
-  - [Greedy Algorithm](Physical_Query_Plan_Optimization#Greedy_Algorithm) to select the optimal plan
+  - Greedy Algorithm to select the optimal plan
 
 
 ### [Indexing](Indexing_%28databases%29)
@@ -32,7 +32,7 @@ Simple (Conventional) Indexes
 - [Sparse Index](Sparse_Index)
 - [Secondary Index](Secondary_Index)
 
-Tree-Based Indexes
+[Tree](Tree)-Based Indexes
 - [B-Tree](B-Tree)
 
 Hash-Based Indexes

@@ -31,7 +31,7 @@ Lift:
 - $\text{lift}(A \to \varnothing) = 1 / 1 = 1$ (everything gives 0, so it's not interesting)
 - $\text{lift}(A \to B) = 0.5 / 0.5 = 1$ ($A$ and $B$ are independent, so nothing interesting)
 - $\text{lift}(A \to BC) = 0.5 / 0.24 = 2$
-- so lift is 1 when two items are independent, and higher when there's some correlation between them
+- so lift is 1 when two items are independent, and higher when there's some [correlation](Correlation) between them
 
 
 ## Sources

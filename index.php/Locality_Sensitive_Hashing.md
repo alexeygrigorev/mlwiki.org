@@ -9,7 +9,7 @@ tags:
 title: Locality Sensitive Hashing
 ---
 ## Locality Sensitive Hashing
-In large databases it's not possible to use brute force search: there's too much data
+In large [databases](Database) it's not possible to use brute force search: there's too much data
 - one way of speeding search up is using [Indexing](Indexing_%28databases%29): in particular, most interesting indexes are [Multi-Dimensional Indexes](Multi-Dimensional_Indexes)
 - but many of these "classical" indexing schemes don't work for high dimensional data
 - *Locality-Sensitive Hashing* algorithms address this problem:
@@ -20,9 +20,9 @@ In large databases it's not possible to use brute force search: there's too much
 LSH algorithms:
 - used for quick search of similar entires in larges DBs
 - used for Nearest Neighbor (1-NN) queries as well as in [KNN](KNN) queries 
-- these algorithms are *randomized*: they don't guarantee the exact answer, but rather give a high probability to find the correct answer or a close approximation
+- these algorithms are *randomized*: they don't guarantee the exact answer, but rather give a high [probability](Probability) to find the correct answer or a close approximation
 
-- Good similarity/distance function should rank relevant answers much closer to the query than irrelevant 
+- Good similarity/[distance](Distance_Functions) function should rank relevant answers much closer to the query than irrelevant 
 - if it's the case, approximate answer should also give good result
 - Outcome: by allowing some small error and storage overhead, can considerably improve the query time
 
@@ -35,7 +35,7 @@ Basic idea
 - Finding duplicates and near-duplicates 
 - Audio, video, image search
 - Pattern Classification
-- Cluster Analysis
+- [Cluster Analysis](Cluster_Analysis)
 
 
 ## Problem Definition
@@ -68,7 +68,7 @@ Brute force solution:
 - try each object in the database and return the closest
 - the complexity of executing this query grows linearly with $N = | D|$: number of items in the database
 
-Trees
+[Trees](Tree)
 - e.g. [kd-Trees](kd-Trees), [Quad Trees](Quad_Trees), [R-Tree](R-Tree)s
 - the complexity is $O(\log N)$
 - problem: when dimensionality is big, they break down, and we end up testing all the nodes - which brings the complexity back to $O(N)$
@@ -131,7 +131,7 @@ Common for almost all LSH families. Outline:
 
 Preprocessing: 
 - store each $\mathbf v \in P$ in bucket $g_j(\mathbf v)$ for all $j = 1 \ .. \ L$
-- (can do second hashing to put $g_j(\mathbf v) \in \mathbb R^k$ to a usual [Hash Table](Hash_Table))
+- (can do second hashing to put $g_j(\mathbf v) \in \mathbb R^k$ to a usual Hash Table)
 
 Querying:
 - given query $\mathbf q$ 
@@ -159,10 +159,10 @@ A hash function family is *locality-sensitive* if
 ### E2 LSH
 - Or p-stable LSH or random projection/quantization LSH
 - [Euclidean LSH](Euclidean_LSH) often called E2LSH in the literature
-- Approximated Distance: Euclidean Distance 
+- Approximated Distance: [Euclidean Distance](Euclidean_Distance) 
 
 ### [MinHash](MinHash)
-- aka Min-Wise independent permutations
+- aka Min-Wise independent [permutations](Permutations)
 - Approximated similarity: Jaccard
 
 ### [SimHash](SimHash)
@@ -247,7 +247,7 @@ Achieved by rehashing
 
 Reference:
 - Bahmani, Bahman, Ashish Goel, and Rajendra Shinde. "Efficient distributed locality sensitive hashing." 2012. [link](http://arxiv.org/abs/1210.7057)
-- there's a MapReduce implementation and Storm implementation in the paper
+- there's a [MapReduce](MapReduce) implementation and Storm implementation in the paper
 
 
 
@@ -274,5 +274,5 @@ Jégou, Hervé, et al. "Query adaptative locality sensitive hashing." 2008. [lin
 ## Sources
 - Slaney, Malcolm, and Michael Casey. "Locality-sensitive hashing for finding nearest neighbors [lecture notes]." 2008. [link](http://web.iitd.ac.in/~sumeet/Slaney2008-LSHTutorial.pdf)
 - Gionis, Aristides, Piotr Indyk, and Rajeev Motwani. "Similarity search in high dimensions via hashing." 1999. [link](http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf)
-- Datar, Mayur, et al. "Locality-sensitive hashing scheme based on p-stable distributions." 2004. [link](http://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf)
+- Datar, Mayur, et al. "Locality-sensitive hashing scheme based on p-stable [distributions](Distributions)." 2004. [link](http://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf)
 - Paulevé, Loïc, et al. "Locality sensitive hashing: A comparison of hash function types and querying mechanisms." 2010. [link](https://hal.inria.fr/inria-00567191/document)

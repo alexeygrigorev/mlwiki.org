@@ -18,7 +18,7 @@ This is a method for assessing a null model when the data is binned
 
 Used when:
 - given a sample of cases that can be classified into several groups, determine if the sample is representative of the general population 
-- evaluate is the data resemble some distribution, e.g. normal or geometric ("Goodness Of Fit")
+- evaluate is the data resemble some [distribution](Distributions), e.g. normal or geometric ("Goodness Of Fit")
 
 
 ### Idea
@@ -39,17 +39,17 @@ Goodness of Fit test:
 
 ### Test Statistics $X^2$
 - for each group $i$ we calculate the squared difference between observed and expected
-- this difference is normalized with standard error for each group
+- this difference is normalized with [standard error](Standard_Error) for each group
 
 Values:
 - $O_i$ - observed count 
 - $E_i$ - count expected under $H_0$
 
 
-Test statistics
+Test [statistics](Statistics)
 - we can think of it as calculating $n$ $Z$ statistics (standardized differences) and sum them up:
 - $Z_i = \cfrac{O_i - E_i}{\text{SE}_i}$, each $Z_i$ follows the [Normal Model](Normal_Distribution)
-  - note that $\text{SE}_i$ is a sampling distribution under $H_0$, i.e. 
+  - note that $\text{SE}_i$ is a [sampling distribution](Sampling_Distribution) under $H_0$, i.e. 
   - $\text{SE}_i = \sqrt{ E_i }$
 - Since we want to minimize the squared error, we calculate 
   - $X^2 = \sum_{i=1}^{k} Z^2_i = \sum_{i=1}^{k} \cfrac{(O_i - E_i)^2}{ E_i }$
@@ -84,7 +84,7 @@ Test statistics
 - might it be solely due to chance or there's some bias? 
 
 
-Expected values
+[Expected values](Expected_Value)
 - What we do is to create another table, where we add expected 
 - Expected numbers represent the values we expect to see if the sample set was entirely representative
 
@@ -94,7 +94,7 @@ And now we calculate the squared difference between observed and expected values
 
 
 Test:
-- $H_0$: the jurors are random sample, there is no racial bias and the observed counts reflect natural sampling variability
+- $H_0$: the jurors are random sample, there is no racial bias and the observed counts reflect natural [sampling](Sampling) variability
 - $H_A$: there's racial bias in the selection 
 
 
@@ -131,7 +131,7 @@ pchisq(x2, df=length(obs) - 1, lower.tail=F)
 - Suppose that we have some data from some stock exchange 
 - we want to test if stock activity on one day is independent from previous day
 - the data is taken [link](http://research.stlouisfed.org/fred2/series/SP500/downloaddata) for 2004-08-04	 to 2014-07-01
-- example motivated by an example from [OpenIntro](OpenIntro_Statistics_%28book%29) 
+- example motivated by an example from OpenIntro 
 
 
 Idea
@@ -220,5 +220,5 @@ c(x2=x2, theoretic=qchisq(0.95, df=k - 1))
 - http://en.wikipedia.org/wiki/Goodness_of_fit#Pearson.27s_chi-squared_test
 
 ## Sources
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
+- OpenIntro Statistics (book)
 - https://onlinecourses.science.psu.edu/stat504/node/61

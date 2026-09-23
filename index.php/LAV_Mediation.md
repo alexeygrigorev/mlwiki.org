@@ -13,8 +13,8 @@ There are two main approached for [Mediating](Mediator_%28Data_Integration%29) i
 
 LAV - Local-as-View Mediation
 - local relations are defined as views (queries) over global relations
-- goal: define the global schema in such a way that individual definitions don't change when new data sources are added or old are removed 
-- See some notation in [Mediator (Data Integration)](Mediator_%28Data_Integration%29)
+- goal: define the global schema in such a way that individual definitions don't change when new [data sources](Data_Sources) are added or old are removed 
+- See some notation in Mediator (Data Integration)
 
 
 ## LAV Mapping

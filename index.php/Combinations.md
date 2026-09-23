@@ -98,10 +98,10 @@ $C_n^k = C_{n - 1}^{k - 1} + C^k_{n - 1}$
 ### Property 3
 $\sum_{k = 0}^n C_n^k = 2^n$
 
-- $2^n$ is the number of all [partial permutations with repetition](Partial_Permutations) from elements of *two types*.
+- $2^n$ is the number of all partial permutations with repetition from elements of *two types*.
 - Let us split these arrangements into $k$ groups
 - In the $k$-th group, place those elements that contain $k$ elements of the first type and ($n - k$) elements of the second type
-- The arrangements in the $k$-th group are all possible [permutations](Permutations) of $k$ elements of the first type and $n - k$ of the second
+- The arrangements in the $k$-th group are all possible permutations of $k$ elements of the first type and $n - k$ of the second
 - The number of such permutations equals $P(k, n - k)$, and $P(k, n - k) = C_n^k$
 
 In general form, this formula can be written as:
@@ -147,8 +147,8 @@ Each number in the triangle equals the number of ways to reach it from the top, 
 
 
 ## See also
-- [Permutations](Permutations)
-- [Binomial Theorem](Binomial_Theorem)
+- Permutations
+- Binomial Theorem
 
 ## Sources
 - Vilenkin N.Ya. Combinatorics. Moscow, Nauka, 1969.

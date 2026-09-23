@@ -7,7 +7,7 @@ tags:
 title: Overfitting
 ---
 ## Overfitting
-*Overfitting* (or  *high variance*) - if we have too many features, the learning hypothesis may 
+*Overfitting* (or  *high [variance](Variance)*) - if we have too many features, the learning hypothesis may 
 - fit the training set very well (with cost function $J(\theta) \approx 0$), 
 - but fail to generalize to new examples (predict for new data)
 
@@ -79,7 +79,7 @@ The problem with it
 
 ## Diagnosing
 ### How to Diagnose the Problem
-To identify overfitting we can use [Machine Learning Diagnosis](Machine_Learning_Diagnosis):
+To identify overfitting we can use Machine Learning Diagnosis:
 - [Cross-Validation](Cross-Validation)
 - and [Learning Curves](Learning_Curves)
 
@@ -93,7 +93,7 @@ To identify overfitting we can use [Machine Learning Diagnosis](Machine_Learning
   - [Principal Component Analysis](Principal_Component_Analysis)
 - [Regularization](Regularization)
   - keep all the features but reduce the magnitude of parameters
-- [Cross-Validation](Cross-Validation)
+- Cross-Validation
   - test your hypotheses on cross-validation set 
 
 
@@ -102,4 +102,4 @@ To identify overfitting we can use [Machine Learning Diagnosis](Machine_Learning
 - [Machine Learning (coursera)](Machine_Learning_%28coursera%29)
 - [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
-- Domingos, Pedro. "A few useful things to know about machine learning." [link](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
+- Domingos, Pedro. "A few useful things to know about [machine learning](Machine_Learning)." [link](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)

@@ -45,7 +45,7 @@ Redo(log $L$)
 
 
 ## Non-Quiescent Checkpoint
-Idea similar to [Undo Logging](Undo_Logging#Non-Quiescent_Checkpoint), but different semantics
+Idea similar to Undo Logging, but different semantics
 
 Algo for creating checkpoints:
 - write a log records $\langle \text{start ckpt} (T_1, ..., T_k) \rangle$
@@ -110,7 +110,7 @@ Note:
 
 
 ## Undo/Redo Logging
-[Undo/Redo Logging](Undo_Redo_Logging) is the combination of [Undo Logging](Undo_Logging) and Redo Logging
+Undo/Redo Logging is the combination of Undo Logging and Redo Logging
 
 
 ## Exercises

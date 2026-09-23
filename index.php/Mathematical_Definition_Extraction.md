@@ -63,7 +63,7 @@ For example:
 
 ## Extraction Methods
 ### Nearest Noun Method
-Definition is a combination of adjectives and nouns (also sometimes determinants) in the text before the identifier
+Definition is a combination of adjectives and nouns (also sometimes [determinants](Determinants)) in the text before the identifier
 
 This way it only can be compound nouns without additional phrases. 
 
@@ -93,11 +93,11 @@ For example,
 
 Patterns taken from
 - Trzeciak, Jerzy. Writing mathematical papers in English: a practical guide. European Mathematical Society, 1995.
-- frequent sentence patterns from Graphs and Combinatorics papers from Springer
+- frequent sentence patterns from [Graphs](Graphs) and Combinatorics papers from Springer
 
 
 Papers: 
-- Quoc, Minh Nghiem, et al. "Mining coreference relations between formulas and text using Wikipedia." 23rd International Conference on Computational Linguistics. 2010. ([pdf](http://lexitron.nectec.or.th/public/COLING-2010_Beijing_China/NLPIX/NLPIX-2010.pdf#page=77)) 
+- Quoc, Minh Nghiem, et al. "Mining coreference relations between formulas and text using Wikipedia." 23rd International Conference on [Computational Linguistics](Computational_Linguistics). 2010. ([pdf](http://lexitron.nectec.or.th/public/COLING-2010_Beijing_China/NLPIX/NLPIX-2010.pdf#page=77)) 
 - in other papers usually is used as the baseline to compare with
 
 Tools:
@@ -116,12 +116,12 @@ Features:
 - if there's a colon/comma between candidate and identifier
 - if there's another math expression between
 - if candidate is inside parentheses and identifier is outside 
-- word-distance between candidate and identifier 
+- word-[distance](Distance_Functions) between candidate and identifier 
 - position of candidate relative to identifier
 - text and POS tag of one/two/three preceding and following tokens around the candidate
 - unigram/bigram/trigram of previous features
 - text of first verb between candidate and identifier
-- hop-distance in the dependency tree between the candidate and identifier
+- hop-distance in the dependency [tree](Tree) between the candidate and identifier
 - ...
 
 Classifiers: 
@@ -166,7 +166,7 @@ Ranking:
 Gaussian: 
 - $R_{\sigma}(\Delta) = \exp \left( -\cfrac{1}{2} \cdot {\Delta^2 - 1}{\sigma_2} \right)$
 - we don't take the raw distance, but instead use a Gaussian of this distance 
-- assume that the probability to find a relation at $\Delta = 1$ is maximal 
+- assume that the [probability](Probability) to find a relation at $\Delta = 1$ is maximal 
 
 Parameters $\sigma_d$ and $\sigma_s$
 - $\sigma_d$ - the standard deviation of Gaussian that models the distance to definition candidate 

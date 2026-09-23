@@ -56,7 +56,7 @@ The [Computing for Data Analysis](http://www.coursera.org/course/compdata) cours
   - nrow
   - ncol
 - creating
-  - m <- matrix(nrow = 2, ncol = 3)
+  - m <- [matrix](Matrix)(nrow = 2, ncol = 3)
   - m <- matrix(1:6, nrow = 2, ncol = 3)
     - from upper left down
     - 1 3 5
@@ -296,7 +296,7 @@ r[good, ]
 y <- matrix(rep(10, 4)), 2, 2)
   - x * y => element-wise
   - x / y => element-wise
-  - x %*% y - true matrix multiplication
+  - x %*% y - true [matrix multiplication](Matrix_Multiplication)
 
 
 ## Week2
@@ -440,7 +440,7 @@ lapply(x, mean)
 #### common prefixes
 - d - density
 - r - random number
-- p - cumulative distribution
+- p - cumulative [distribution](Distributions)
 - q - quantile
 #### normal
 - rnorm

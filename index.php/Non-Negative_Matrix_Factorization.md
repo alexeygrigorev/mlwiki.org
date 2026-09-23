@@ -19,7 +19,7 @@ See Lee2001
 
 
 ### Norm Minimization Algorithm
-Let $A$ be an $m \times n$ matrix 
+Let $A$ be an $m \times n$ [matrix](Matrix) 
 - we want to find $k$-rank approximation of $A$ (or, in other words, create $k$ clusters)
 
 
@@ -109,7 +109,7 @@ It's a variant of NMF (Li2001)
 3 additional constants on $U$ and $V$ that aim to find the local features in the original matrix
 - max sparsity in $V$: want to have as many 0's as possible
 - expressiveness of $U$: retain only those components of $U$ that carry most information about the matrix
-- max orthogonality of $U$ 
+- max [orthogonality](Orthogonality) of $U$ 
 
 
 Results reported by Osinski2006:
@@ -119,7 +119,7 @@ Results reported by Osinski2006:
 
 ## Implementation
 ### NMF-ED in Python/Numpy
-NMF-ED = Euclidean distance minimization 
+NMF-ED = [Euclidean distance](Euclidean_Distance) minimization 
 - Algorithm from Lee1999
 
 ```python
@@ -223,6 +223,6 @@ def seung_nmf(V, k, threshold=1e-5, maxiter=500):
 
 ## Sources
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [link](http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90)
-- Xu, Wei, Xin Liu, and Yihong Gong. "Document clustering based on non-negative matrix factorization." 2003. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.2293&rep=rep1&type=pdf)
+- Xu, Wei, Xin Liu, and Yihong Gong. "[Document clustering](Document_Clustering) based on non-negative matrix factorization." 2003. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.2293&rep=rep1&type=pdf)
 - Osinski, Stanislaw. "Improving quality of search results clustering with approximate matrix factorisations." 2006. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.74&rep=rep1&type=pdf)
 - [Python for Machine Learning (TUB)](Python_for_Machine_Learning_%28TUB%29)

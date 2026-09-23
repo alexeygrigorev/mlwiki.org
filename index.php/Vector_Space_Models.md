@@ -15,7 +15,7 @@ Vector space model is a statistical model for representing text information for 
 
 ### From Text to Vectors: [NLP Pipeline](NLP_Pipeline)
 How do we represent a free text in terms of queries? 
-- to do we need some preprocessing steps, often called "NLP Pipeline"
+- to do we need some preprocessing steps, often called "[NLP Pipeline](NLP_Pipeline)"
 - the pipeline may include the following:
 - [Tokenization](Tokenization) - most important step, extracts individual words - "tokens"
 - [Stop Words Removal](Stop_Words) - removes functional words
@@ -39,7 +39,7 @@ We treat all words as independent
 
 
 ## Document-Term Matrix
-Document-Term Matrix - representation of a document for text analysis 
+Document-Term [Matrix](Matrix) - representation of a document for text analysis 
 - each row of the matrix - is a *document vector* 
 - each component of the document vectors is a concept, a key word, or a term, but usually it's terms 
 - documents don't contain many distinct words, so the matrix is sparse
@@ -133,9 +133,9 @@ A geometrical way to express BoW features is the Vector Space Model
 - Can do the same for the terms:
 - dimensions are documents and vector are terms
 - <img src="https://habrastorage.org/files/e86/a64/ab6/e86a64ab6f904b9180ff7874495a445f.png" alt="Image">
-- source: [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_%28book%29), Fig 3.1
+- source: Semantic Domains in Computational Linguistics (book), Fig 3.1
 - terms are expressed by documents in which they occur
-- similarity between two terms: [dot product](Inner_Product) or [cosine](Cosine_Similarity)
+- similarity between two terms: dot product or cosine
 
 
 
@@ -158,11 +158,11 @@ finally these spaces are disjoint: they don't hare any common dimensions
 ## Similarities
 ### Common Similarity Measures
 Suppose we have two document vectors $d_1, d_2$. Then we can define the following measures of similarity:
-- [Inner Product](Inner_Product): $d_1^T d_2$
-- [Cosine Similarity](Cosine_Similarity): $\cfrac{d_1^T d_2}{\| d_1 \| \cdot \| d_2 \|}$
+- Inner Product: $d_1^T d_2$
+- Cosine Similarity: $\cfrac{d_1^T d_2}{\| d_1 \| \cdot \| d_2 \|}$
 - [Dice Coefficient](Dice_Coefficient): $\cfrac{d_1^T d_2}{\|d_1\|^2 + \| d_2\|^2}$
 - [Jaccard Coefficient](Jaccard_Coefficient): $\cfrac{d_1^T d_2}{\| d_1\|^2 + \| d_2\|^2 - d_1^T d_2}$
-- most efficient: normalize $d_1$ and $d_2$ and compute the dot product to get cosine
+- most efficient: normalize $d_1$ and $d_2$ and compute the [dot product](Dot_Product) to get cosine
 
 
 ### Document-Document Similarity
@@ -172,7 +172,7 @@ With that matrix you can compute the similarity of two documents
 - The result is a square document - document matrix where each cell represents similarity 
 - and you have (unnormalized) measure of similarity
 - if $D$ is row-normalized, then $S$ contains *cosine scores* between each document
-- [Cosine Similarity](Cosine_Similarity) - is a measure of the angle between the two document vectors, normalized by magnitude 
+- Cosine Similarity - is a measure of the angle between the two document vectors, normalized by magnitude 
 - computing $D \, D^T$ may be the first step for [Document Clustering](Document_Clustering)
 
 
@@ -188,11 +188,11 @@ In some cases term-term similarity can be useful
 In IR a query is also represented in TextVSM
 - in such a case the query is called "pseudo-document" $q$
 - so ranking is done by computing cosine between the query and all the documents
-- it can be done by matrix multiplication: if $q$ and $D$'s rows are unit normalized
+- it can be done by [matrix multiplication](Matrix_Multiplication): if $q$ and $D$'s rows are unit normalized
 - then [Matrix-Vector Multiplication](Matrix-Vector_Multiplication) $D \, q$ is the cosine score between each doc and the query
 
 
-[Inverted Index](Inverted_Index)
+Inverted Index
 - computing $D \, q$ may be computationally expensive when there are many documents in the corpus
 - so usually the documents are indexed and we compute the similarity only to whose documents that share at least one word with the query
 
@@ -224,7 +224,7 @@ Term VSM:
 
 
 Solutions: 
-- Generalized Vector Space Models: Relaxes the Term Independence assumption and uses term co-occurrence information
+- Generalized Vector Space Models: Relaxes the Term [Independence](Independence) assumption and uses term co-occurrence information
 - Distributed Clusters (Bekkerman et al. Distributional word clusters vs. words for text categorization. 2002)
 - Concept-Based Representation (Gonzalo et al. Indexing with WordNet synsets can improve text retrieval. 1998)
 - [Latent Semantic Analysis](Latent_Semantic_Analysis)
@@ -244,7 +244,7 @@ A VMS is more a (retrieval) framework
 VSM has several components:
 - term space for representing documents and queries
 - document space for representing terms
-- similarity/distance measure 
+- similarity/[distance](Distance_Functions) measure 
 
 Framework:
 - The exact vector representation and similarity is not specified 
@@ -254,7 +254,7 @@ Framework:
 
 ### [Latent Semantic Analysis](Latent_Semantic_Analysis)
 For example, consider LSA:
-- if we apply [SVD](SVD) to the document-term matrix, we'll have LSA
+- if we apply SVD to the document-term matrix, we'll have LSA
 - this way we'll reduce the dimensionality of data and capture some semantic closeness between terms
 - by doing this we changed the way documents and terms are represented 
 - also the similarity is changed slightly
@@ -265,13 +265,13 @@ For example, consider LSA:
 Don't assume that words are independent
 
 Reference:
-- Wong, SK Michael, Wojciech Ziarko, and Patrick CN Wong. "Generalized vector spaces model in information retrieval." 1985. [link](http://dl.acm.org/citation.cfm?id=253506))
+- Wong, SK Michael, Wojciech Ziarko, and Patrick CN Wong. "Generalized [vector spaces](Vector_Spaces) model in information retrieval." 1985. [link](http://dl.acm.org/citation.cfm?id=253506))
 
 
 
 ## Sources
 - Salton, Gerard, Anita Wong, and Chung-Shu Yang. "A vector space model for automatic indexing." (1975). [link](http://cgis.cs.umd.edu/class/fall2009/cmsc828r/PAPERS/VSM_salton-2.pdf)
 - Jing, Liping. "Survey of text clustering." 2008. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf)
-- [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_%28book%29)
+- Semantic Domains in Computational Linguistics (book)
 - [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)
-- Zhai, ChengXiang. "Statistical language models for information retrieval." 2008.
+- Zhai, ChengXiang. "[Statistical language models](Statistical_Language_Models) for information retrieval." 2008.

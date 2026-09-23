@@ -6,7 +6,7 @@ tags:
 title: Conditional Probability
 ---
 ## Conditional Probability
-*Conditional Probability* $P(B \mid A)$ (or $P_A (B)$) is the probability that $B$ happens provided that $A$ has already happen.
+*Conditional Probability* $P(B \mid A)$ (or $P_A (B)$) is the [probability](Probability) that $B$ happens provided that $A$ has already happen.
 
 The conditional probability is calculated by the following formula:
 - $P(B  \mid  A) = \cfrac{P(A \land B)}{P(A)}$
@@ -45,5 +45,5 @@ An urn contains three red and three blue balls. Two balls are drawn. What is the
 - [Bayes Rule](Bayes_Rule)
 
 ## Sources
-- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vyssh. shk., 2003.
+- Gmurman V.E., Probability Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vyssh. shk., 2003.
 - [Lecture notes on probability theory and mathematical statistics](http://www.dropbox.com/s/j9yxtvkd0ns5eot/Probability_and_Statistics_exams_c.pdf#9)

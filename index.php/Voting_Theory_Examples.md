@@ -10,7 +10,7 @@ Different examples from [Voting Theory](Voting_Theory) that illustrate some inte
 
 
 ## Example 1
-This is an example in which different voting mechanisms of [Voting Theory](Voting_Theory) produce different results.
+This is an example in which different voting mechanisms of Voting Theory produce different results.
 
 
 Consider this example:
@@ -46,7 +46,7 @@ Round 2:
 
 $x$ wins
 - but $y$ is preferred to $x$ by 18 voters (the majority|  )
-- [Condorcet Fairness](Condorcet's_Rule#Fairness) criterion is not satisfied
+- Condorcet Fairness criterion is not satisfied
 
 ### Example 1: [Borda's Rule](Borda's_Rule)
 The Borda Scores:
@@ -68,7 +68,7 @@ Pairwise comparison:
 - $y,z: n_{yz} = 13, n_{zy} = 14 \Rightarrow z > y$
 - $t,z: n_{tz} = 10, n_{zt} = 17 \Rightarrow z > t$
 
-We build the preference graph for this:
+We build the preference [graph](Graph) for this:
   <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/vt/condorcet-ex2.png" alt="Image">
 
 We see that $z$ is the winner 

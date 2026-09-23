@@ -21,4 +21,4 @@ In [Distributed Databases](Distributed_Databases) for distributed transactions t
 - [Durability (database systems)](http://en.wikipedia.org/wiki/Durability_%28database_systems%29)
 
 ## See also
-- [ACID](ACID)
+- ACID

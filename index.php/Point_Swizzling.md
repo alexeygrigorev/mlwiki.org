@@ -94,4 +94,4 @@ Possible approaches
 - [Physical Data Organization (databases)](Physical_Data_Organization_%28databases%29)
 
 ## Sources
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom

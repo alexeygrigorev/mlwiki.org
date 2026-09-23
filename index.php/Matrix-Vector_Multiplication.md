@@ -6,7 +6,7 @@ tags:
 title: Matrix-Vector Multiplication
 ---
 ## Matrix-Vector Multiplication
-Suppose we have an $m \times n$ matrix $A$ and $n$-vector $\mathbf b$
+Suppose we have an $m \times n$ [matrix](Matrix) $A$ and $n$-vector $\mathbf b$
 - How to calculate $\mathbf x = A \mathbf b$?
 - note that $\mathbf x \in \mathbb R^m$ 
 

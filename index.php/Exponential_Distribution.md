@@ -8,7 +8,7 @@ title: Exponential Distribution
 ---
 ## Exponential Distribution
 
-Probability density function:
+[Probability density function](Distribution_Function):
 - $f(x) = \left\{ \begin{array}{lll} 0 & \mbox{if} & x < 0 \\ \lambda e^{-\lambda x} & \mbox{if} & x \geqslant 0 \end{array} \right.$
 
 - $F(X) = \int_{-\infty}^{x} f(x) dx = \int_{-\infty}^{0} 0 dx + \lambda \int_{0}^{x} e^{-\lambda x} dx = 1 - e^{-\lambda x}$

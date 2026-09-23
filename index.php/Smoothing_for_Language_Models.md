@@ -36,7 +36,7 @@ No smoothing
 - use MAP: [Maximum A Posteriori Estimation](Maximum_A_Posteriori_Estimation):
 - $\hat \theta = \operatorname{arg max}_{\theta} P(\theta \mid D) = \operatorname{arg max}_{\theta} P(D \mid \theta) \, P(\theta)$
 - so we can define some prior $P(\theta)$, and depending on the choice of prior, we'd have different estimators
-- if the prior prefers models that don't assign 0 probability to any $w$, then at the end we won't have 0 entries 
+- if the prior prefers models that don't assign 0 [probability](Probability) to any $w$, then at the end we won't have 0 entries 
 - adjusting MLE to avoid 0 probability is called "smoothing" - it's a form of regularization
 
 
@@ -118,7 +118,7 @@ Dirichlet is a [Conjugate Prior](Conjugate_Prior) for Multinomial Distribution
 
 Posterior:
 - $P(\theta \mid D) \propto \prod_{w \in V} P(w \mid \theta)^{c(w, D) + \mu \, P(w \mid C) - 1}$ 
-- posterior is also Dirichlet distribution with $\alpha_i = c(w_i, D) + \mu \, P(w \mid C)$
+- posterior is also Dirichlet [distribution](Distributions) with $\alpha_i = c(w_i, D) + \mu \, P(w \mid C)$
 
 
 Dirichlet Smoothing:

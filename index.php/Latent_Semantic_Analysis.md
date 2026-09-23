@@ -19,7 +19,7 @@ Issues with text data:
 - synonymy: many ways to refer to the same object 
 - synonymy tends to decrease [recall](Precision_and_Recall)
 - polysemy: many words have more than one distinct meaning (e.g. "chip", "trunk")
-- polysemy tends to decrease [precision](Precision_and_Recall)
+- polysemy tends to decrease precision
 
 
 Overcoming Synonymy:
@@ -34,7 +34,7 @@ Overcoming Polysemy:
 WEIRD (Koll1979) is the first IR system that dealt with these problems automatically, not with some controlled vocabulary
 - the goal of WIERD: to go from term matching to concept matching
 - can use statistical analysis to empirically find relations among terms 
-- so it analyzed term-to-term co-occurrence matrix 
+- so it analyzed term-to-term co-occurrence [matrix](Matrix) 
 - can use [Factor Analysis](Factor_Analysis) to identify the right basis for terms s.t. there's little or no loss of information
 - in WEIRD only 7 dimensions were used - based on 7 completely non-overlapping documents found in the collection
 
@@ -55,7 +55,7 @@ LSA/LSI solves these problems as well
 Latent Semantic Analysis (LSA) $\approx$ Latent Semantic Indexing (LSI) 
 - LSI is the alias of LSA for [Information Retrieval](Information_Retrieval)
 - indexing and retrieval method that uses [SVD](Singular_Value_Decomposition) to identify patterns in relations between terms and concepts
-- instead of literal match between query and documents (e.g. using cosine in the traditional vector space morels), convert both into the Semantic Space and calculate the cosine there
+- instead of literal match between query and documents (e.g. using cosine in the traditional [vector space](Vector_Spaces) morels), convert both into the Semantic Space and calculate the cosine there
 
 
 
@@ -90,7 +90,7 @@ Let $D$ be an $t \times p$ Term-Passage matrix
 - then SVD decomposition is $D = T \cdot \Sigma \cdot P^T$ 
 - $T$ is $t \times r$ [Orthogonal Matrix](Orthogonal_Matrix), contains left singular vectors, corresponds to term vectors
 - $\Sigma$ is $r \times r$ a diagonal matrix of singular values
-- $P$ is $r \times p$ [Orthogonal Matrix](Orthogonal_Matrix), contains right singular vectors, corresponds to passage vectors
+- $P$ is $r \times p$ Orthogonal Matrix, contains right singular vectors, corresponds to passage vectors
 - and then $T \sqrt\Sigma$ are loadings for terms and $P \sqrt\Sigma$ - for passages
 
 
@@ -101,7 +101,7 @@ Now reduce the dimensionality:
 - the "True Semantic Space" should address the Text Problems
 
 
-So, Apply reduced-rank [SVD](SVD)
+So, Apply reduced-rank SVD
 - $D \approx T_k \cdot \Sigma_k \cdot P^T_k$
 - keep only $k$ largest singular values
 - the result: best $k$-dim approximation of the original matrix $D$
@@ -111,9 +111,9 @@ So, Apply reduced-rank [SVD](SVD)
 
 ## Semantic Space
 LSA constructs a semantic space via SVD:
-- $T$ is $t \times r$ [Orthogonal Matrix](Orthogonal_Matrix), contains left singular vectors, corresponds to term vectors
+- $T$ is $t \times r$ Orthogonal Matrix, contains left singular vectors, corresponds to term vectors
 - $\Sigma$ is $r \times r$ a diagonal matrix of singular values
-- $P$ is $r \times p$ [Orthogonal Matrix](Orthogonal_Matrix), contains right singular vectors, corresponds to passage vectors
+- $P$ is $r \times p$ Orthogonal Matrix, contains right singular vectors, corresponds to passage vectors
 - and then $T \sqrt\Sigma$ are loadings for terms and $P \sqrt\Sigma$ - for passages
 
 
@@ -138,13 +138,13 @@ Term comparisons:
 - In $D$ we would compare rows of $D$. How to compare them in the semantic space?
 - $\hat D \hat D^T$ gives a term-term [Gram Matrix](Gram_Matrix) 
   - $\hat D \hat D^T = T \Sigma \Sigma^T T^T = T \Sigma \, (T \Sigma)^T$
-  - thus $\big[\hat D \hat D^T\big]_{ij}$ is the dot product between $i$th and $j$th rows of $T \Sigma$
+  - thus $\big[\hat D \hat D^T\big]_{ij}$ is the [dot product](Dot_Product) between $i$th and $j$th rows of $T \Sigma$
 - rows of $T \Sigma$ are coordinates for terms in the semantic space
 
 
 Document comparisons:
 - how similar are documents $\mathbf p_i$ and $\mathbf p_j$ in the semantic space? 
-- $\hat D^T \hat D$ gives a document-document [Gram Matrix](Gram_Matrix) 
+- $\hat D^T \hat D$ gives a document-document Gram Matrix 
 - $\hat D^T \hat D = P \Sigma \Sigma^T P^T = P \Sigma \,  (P \Sigma)^T$
 - so to compute document $i$ and $j$ you compute the dot product between $i$th and $j$th rows of $P \Sigma$
 
@@ -182,8 +182,8 @@ Let's consider titles of some articles (from Deerwester90):
 - $c_3$: "The EPS user interface management system"
 - $c_4$: "Systemand human system engineering testing of EPS"
 - $c_5$: "Relation of user perceived response time to error measurement"
-- $m_1$: "The generation of random, binary, ordered trees"
-- $m_2$: "The intersection graph of paths in trees"
+- $m_1$: "The generation of random, binary, ordered [trees](Tree)"
+- $m_2$: "The intersection [graph](Graph) of paths in trees"
 - $m_3$: "Graph minors IV: Widths of trees and well-quasi-ordering"
 - $m_4$: "Graph minors: A survey"
 
@@ -252,7 +252,7 @@ Taking 2 principal components is the same as taking only 2 abstract concepts
 
 
 The idea:
-- we don't want to reconstruct the underlying data perfectly, but instead we hope to find the correlation and the abstract concepts
+- we don't want to reconstruct the underlying data perfectly, but instead we hope to find the [correlation](Correlation) and the abstract concepts
 
 
 
@@ -323,12 +323,12 @@ human.dot(user) / (la.norm(human) * la.norm(user))
 ### Applications
 - [Document Classification](Document_Classification)
 - [Document Clustering](Document_Clustering)
-- Text search in [Information Retrieval](Information_Retrieval)
+- Text search in Information Retrieval
 
 
 ### Limitations
 - makes no use of words order, punctuation
-- if the original terms are already descriptive enough (e.g. for [Document Classification](Document_Classification)), they may be lost during the transformation
+- if the original terms are already descriptive enough (e.g. for Document Classification), they may be lost during the transformation
 
 
 ### When Not Good

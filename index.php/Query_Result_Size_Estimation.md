@@ -52,14 +52,14 @@ If size of records is [variable](Physical_Data_Organization_%28databases%29)#Var
 $\sigma_p(R)$ for some filtering predicate $p$ 
 - estimation is $T(\sigma_p(R)) = T(R) \times \text{sel}_p (R)$
 - where $\text{sel}_p (R)$ is selectivity of predicate $p$ on relation $R$ 
-  - or the probability that a tuple $t \in R$ will satisfy $p$ 
+  - or the [probability](Probability) that a tuple $t \in R$ will satisfy $p$ 
 - calculating $\text{sel}_p$ depends on the type of predicate $p$ 
 
 ### Equality
 Selection $\sigma_{A = c}(R)$ where $c$ is a constant 
 - $\text{sel}_{A = c} (R) = \cfrac{1}{V(R, A)}$
 - where $V(R, A)$ is the number of distinct values in $R$ 
-- in this case for simplicity we assume the uniform distribution of values in $R$ 
+- in this case for simplicity we assume the uniform [distribution](Distributions) of values in $R$ 
 
 Example
 - Given: $R(A, B, C)$, $T(R) = 10000$, $V(R, A) = 50$
@@ -68,7 +68,7 @@ Example
 But typically [Databases](Databases) collect some statistics in the Database System Catalog
 
 |   range   |  [1, 10)   |  [11, 20)  |  [21, 30)  |  [31, 40)  |  [41, 50)  ||   # of tuples   |  50  |  2000  |  2000  |  3000  |  2950  |
-- suppose we have [equal-width histogram](Database_System_Catalog#Equal-Width_Histogram) on $A$:
+- suppose we have equal-width histogram on $A$:
 - then we can estimate $\text{sel}_{A = 10} = \underbrace{\cfrac{50}{10000}}_{50 values} \times \underbrace{\cfrac{1}{10}}_{10 possible values}$
 
 
@@ -126,7 +126,7 @@ Selection $\sigma_{p_1 \lor p_2} (R)$
   - it cannot be greater than 1
 - assumptions
   - $p_1$ and $p_2$ are independent
-  - also they select disjoint sets of tuples (otherwise we would count some tuples twice)
+  - also they select disjoint [sets](Sets) of tuples (otherwise we would count some tuples twice)
 
 Another way: to use De-Morgan Rule
 - $p_1 \lor p_2 \equiv \overline{\overline{p_1} \land \overline{p_2}}$ (the line over means *not*)
@@ -224,9 +224,9 @@ This formula generalizes to more than 2 joining attributes
 
 
 ## See also
-- [Database System Catalog](Database_System_Catalog)
-- [Relational Algebra](Relational_Algebra)
-- [Physical Operators (databases)](Physical_Operators_%28databases%29) 
+- Database System Catalog
+- Relational Algebra
+- Physical Operators (databases) 
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

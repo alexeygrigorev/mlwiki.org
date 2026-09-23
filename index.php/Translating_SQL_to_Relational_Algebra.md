@@ -129,7 +129,7 @@ WHERE EXISTS (
 (note that in this case we use "HAVING" and not "WHERE")
 
 
-So the first step when processing these kinds of queries is *normalization* step: 
+So the first step when processing these kinds of queries is *[normalization](Feature_Normalization)* step: 
 - translate a query into EXISTS/NOT EXISTS form
 
 Hence we can assume that all queries are in this form
@@ -309,7 +309,7 @@ Algorithm
 (\text{MovieStar} {\color{red}{\times \rho_S(\text{StarsIn}) }})$
 - And same for the FROM clause
   - $\rho_S(\text{StarsIn}) \times \rho_M(\text{Movie})$
-- Then we need to *synchronize* the results, but this time with [Anti-Join](Relational_Algebra#Anti-Join) ($\AntiJoin$)
+- Then we need to *synchronize* the results, but this time with Anti-Join ($\AntiJoin$)
   - $\big[ \rho_S(\text{StarsIn}) \times \rho_M(\text{Movie}) \big]
 \AntiJoin
 \big[
@@ -687,7 +687,7 @@ WHERE EXISTS (
 Remarks
 - note the change in the sign from > to <
 - also we use HAVING instead of WHERE - because GROUP is assumed 
-- not all databases will take this kind of query. 
+- not all [databases](Database) will take this kind of query. 
   - For instance, MySQL will not (however it's not fully SQL compliant)
 
 Using the rules, we try to translate the query this way:
@@ -798,8 +798,8 @@ $\pi_{\text{F.name}}
 
 
 ## See also
-- [Relational Algebra](Relational_Algebra)
+- Relational Algebra
 - Lecture Notes by S. Vansummeren [link](https://dl.dropboxusercontent.com/s/5e6w6pia970bnki/lect1-notes-relalg.pdf)  
 
 ## Sources
-- [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
+- Database Systems Architecture (ULB)

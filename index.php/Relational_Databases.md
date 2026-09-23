@@ -8,7 +8,7 @@ tags:
 title: Relational Databases
 ---
 ## Relational [Data Model](Data_Model)
-A relational database is a collection of *relations*
+A relational [database](Database) is a collection of *relations*
 - everything is a table 
 - every row in a table has the same number of columns 
 - relations are implicit: no pointers
@@ -63,7 +63,7 @@ We indicate that the attributes form a key by <u>underlining</u> them:
 
 
 ## Query Processing
-<!-- Main: Query Processing --> How to translate a SQL query into physical query plan
+<!-- Main: Query Processing --> How to translate a SQL query into physical [query plan](Query_Plan)
 
 
 ## Sources

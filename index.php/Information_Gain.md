@@ -39,7 +39,7 @@ E.g.
 ### Entropy Function
 Given $m$ classes, the entropy of signal $S$ is 
 - $I(S) = - \sum_{i=1}^{m} p_i \log_2 (p_i)$
-- where $p_i$ is probability of seeing class $C_i$ in $S$
+- where $p_i$ is [probability](Probability) of seeing class $C_i$ in $S$
 - $S_i$ - set of all records of class $i$
 
 

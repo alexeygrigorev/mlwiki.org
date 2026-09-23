@@ -13,13 +13,13 @@ title: Neural Networks
 Say we have 100 features ($n = 100$) and we want to fit, a multiplication of each pair of features
 - i.e. we will have $x_1^2, x_1 x_2, ..., x_1 x_{100}, ... x_2^2, x_2 x_3, ..., $
 - this gives us $\approx$ 5000 features (it grows as $O(n)$)
-- for combinations of triples we'll have $\approx$ 170 000 features
+- for [combinations](Combinations) of triples we'll have $\approx$ 170 000 features
  |Next, suppose we have a computer vision problem: car detection
 - we show it cars, then show it not cars, and then test
 - Say we have 50 x 50 pixels image, 2500 pixels in total (7500 if RGB). 
 - If we want to fit polynomials, the number of features is too huge to do this
  |
-So using [Logistic Regression](Logistic_Regression) is certainly not a good way to handle lots of features, and here Neural Networks can help 
+So using Logistic Regression is certainly not a good way to handle lots of features, and here Neural Networks can help 
 
 
 ## Neural Networks
@@ -33,8 +33,8 @@ This technique is based on how our brain works - it tries to mimic its behavior.
 
 
 ### Sigmoid Activation Unit
-- the simplest activation unit is a [Logistic Regression](Logistic_Regression) 
-- i.e. it is equivalent to [Logistic Regression](Logistic_Regression) model
+- the simplest activation unit is a Logistic Regression 
+- i.e. it is equivalent to Logistic Regression model
 
 
 it's called *sigmoid (logistic) activation function*: 
@@ -71,7 +71,7 @@ Let's have a look at an actual neural network
 ### Mathematical Representation
 We'll have the following notation: 
 - $a_i^{(j)}$ is an *activation of unit $i$ in layer $j$*
-- $\theta^{(j)}$ - matrix of *weights* that control mapping from layer $j$ to $j + 1$ (i.e. $\theta_1$ is the parameters of the 2nd layer and so on)
+- $\theta^{(j)}$ - [matrix](Matrix) of *weights* that control mapping from layer $j$ to $j + 1$ (i.e. $\theta_1$ is the parameters of the 2nd layer and so on)
 - Neural Networks are parametrized by $\theta$s 
 
 Mathematical representation of a neural network is (where $g$ is the sigmoid function)
@@ -131,7 +131,7 @@ Let's have a look at the 2nd and 3rd layers of our NN
   <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/nn-representation.png" alt="Image">
 
 - $h_{\theta} = g((\theta^{(2)})^T \cdot a^{(2)})$, and $a^{(2)}$ is given by the 2nd level units 
-- so it's doing a [logistic regression](Logistic_Regression), but it uses $a^{(2)} = [a_0^{(2)} ... a_3^{(2)}]$ for features (instead of $x$s)
+- so it's doing a logistic regression, but it uses $a^{(2)} = [a_0^{(2)} ... a_3^{(2)}]$ for features (instead of $x$s)
 - and features $a^{(2)} = [a_0^{(2)} ... a_3^{(2)}]$ are themselves learned by the previous layer 
 
 
@@ -154,7 +154,7 @@ So we want
 For training set ${(x^{(i)}, y^{(i)})}$
 - we turn $y$ into one of $\left\{ \left[\begin{matrix} 1 \\ 0 \\ 0 \\ 0\end{matrix} \right], \left[\begin{matrix} 0 \\ 1 \\ 0 \\ 0\end{matrix} \right], \left[\begin{matrix} 0 \\ 0 \\ 1 \\ 0\end{matrix} \right], \left[\begin{matrix} 0 \\ 0 \\ 0 \\ 1\end{matrix} \right] \right\}$  - instead of $y \in \{1, 2, 3, 4\}$, 
 - so, when training, we would like to have $h_{\theta}(x^{(i)}) \approx y^{(i)} \in \mathbb{R}^4$
-- then we select the class with highest $h_{\theta}^{(i)}(x^{(i)})$, as in [One-vs-All Classification](One-vs-All_Classification)
+- then we select the class with highest $h_{\theta}^{(i)}(x^{(i)})$, as in One-vs-All Classification
 
 
 ## Cost Function
@@ -310,7 +310,7 @@ To implement Back Propagation use the following approach:
 
 ## Random Initialization
 - We need to have initial values for $\theta$
-- In [Logistic Regression](Logistic_Regression) we used $\theta = [0, 0, ..., 0]^T$
+- In Logistic Regression we used $\theta = [0, 0, ..., 0]^T$
 - It won't work for NNs
 
 Suppose we set all $\theta_{ij}^{(l)}$ to 0
@@ -331,7 +331,7 @@ We can break the symmetry with random initialization
 - Implement code to compute [cost function](#Cost_Function) $J(\theta)$
 - Implement [back propagation](#Back_Propagation) to compute partial derivatives $\cfrac{\partial}{\partial \theta_{ij}^{(l)}} J(\theta)$
 - Use [gradient checking](#Numerical_Gradient_Checking) to compare numerical estimations of partial derivatives vs values from back propagation
-- Use [Gradient Descent](Gradient_Descent) or another optimization technique to minimize $J(\theta)$
+- Use Gradient Descent or another optimization technique to minimize $J(\theta)$
 
 *NB*: $J(\theta)$ in non-convex and can get stuck in local minimum - but usually it's not a problem 
 
@@ -344,7 +344,7 @@ We can break the symmetry with random initialization
 
 
 ## See also
-- [Logistic Regression](Logistic_Regression)
+- Logistic Regression
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

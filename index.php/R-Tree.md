@@ -36,7 +36,7 @@ Suppose we have a region
 - but we insert an new object - and it no longer fits
   - need to split the block into two regions
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/rtree-ex2.png" alt="Image">
-  - note that (a) the blocks overlap and (b) how we represent these blocks in out database
+  - note that (a) the blocks overlap and (b) how we represent these blocks in out [database](Database)
 - when we insert next time, a new object can be added to an existent block
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/rtree-ex3.png" alt="Image">
   - note that we have to adjust regions boundaries to include the new object
@@ -62,7 +62,7 @@ specify a point $P$ and ask what regions $P$ lies in (*where-am-I* query)
   - remember that we want regions to be as small as possible
   - so we find the split that gives us that
   - after that we insert the new subregion to the leaf's parent
-  - essentially the same procedure as for [B-Tree](B-Tree)
+  - essentially the same procedure as for B-Tree
 
 
 ## Summary
@@ -79,8 +79,8 @@ Also
 
 
 ## See also
-- [B-Tree](B-Tree) and [Binary Search Trees](Binary_Search_Trees)
-- [Multi-Dimensional Indexes](Multi-Dimensional_Indexes)
+- B-Tree and Binary Search Trees
+- Multi-Dimensional Indexes
 - [kd-Trees](kd-Trees) and [Quad Trees](Quad_Trees)
 - [Spatial Databases](Spatial_Databases)
 

@@ -7,7 +7,7 @@ tags:
 - scala
 title: Functional Programming Principles in Scala (coursera)
 ---
-Lecture notes for the course "Functional Programming Principles in Scala"
+Lecture notes for the course "[Functional Programming](Functional_Programming) Principles in Scala"
 
 Links:
 - [Course description](http://www.coursera.org/course/progfun)
@@ -35,7 +35,7 @@ def power(x: Double, y: Int): Double = ...
 ```
 
 ### Function Evaluation Strategies
-The [Substitution Model](Functional_Programming#Expression_Evaluation) is used to evaluate function values.
+The Substitution Model is used to evaluate function values.
 
 #### call-by-value (<code>CBV</code>)
 Argument values are evaluated first, then the computed values are passed to the function
@@ -239,7 +239,7 @@ def sum(f: Int => Int)(a: Int, b: Int): Int =
   if (a > b) 0 else f(a) + sum(f)(a + 1, b)
 ```
 
-This is called [*currying*](Functional_Programming#Currying).
+This is called *currying*.
 
 
 ### Example: Finding a Fixed Point
@@ -301,7 +301,7 @@ def sqrt(x: Double) = fixedPoint(averageDamp(x => x / y))(1.0)
 ### Example: Sets
 A *type alias* is a new identifier for an already existing type.
 
-For sets, we can define the following alias:
+For [sets](Sets), we can define the following alias:
 ```carbon
 type Set = Int => Boolean
 ```
@@ -873,7 +873,7 @@ In this class, the problem is caused by
 - The covariant type parameter <code>T</code>
 - Which is used for a parameter in the <code>update</code> method
 
-The Scala compiler checks that there are no such problematic combinations in the code.
+The Scala compiler checks that there are no such problematic [combinations](Combinations) in the code.
 
 In summary,
 - Covariant types can only be used in method results
@@ -896,7 +896,7 @@ trait List[+T] {
 }
 ```
 
-This definition will not pass the variance check, as a covariant type is used in a method parameter.
+This definition will not pass the [variance](Variance) check, as a covariant type is used in a method parameter.
 
 Moreover, this violates the Liskov Substitution Principle. Suppose we have a list <code>xs</code> of type <code>List[IntSet]</code>
 
@@ -935,7 +935,7 @@ The return type of this function will be <code>List[IntSet]</code>
 
 
 ## Pattern Matching
-As an example, consider a small interpreter for arithmetic operations. All expressions can be represented as a class hierarchy, with a base trait <code>Expr</code> and subclasses <code>Number</code> and <code>Sum</code> (we limit ourselves to numbers and the addition operation).
+As an example, consider a small interpreter for arithmetic operations. All expressions can be represented as a class hierarchy, with a base trait <code>Expr</code> and subclasses <code>Number</code> and <code>Sum</code> (we [limit](Limits) ourselves to numbers and the addition operation).
 
 We can use the OOP approach
 ```
@@ -1314,7 +1314,7 @@ All combinations for $x \in [1..M]$ and $y \in [1..N]$
 ```
 
 
-Dot product of two vectors:
+[Dot product](Dot_Product) of two vectors:
 ```python
 def scalarProduct(xs: Vector[Double], ys: Vector[Double]): Double =
   (xs zip ys).map(xy => xy._1 * xy._2).sum
@@ -1610,7 +1610,7 @@ def sieve(s: Stream[Int]): Stream[Int] =
 
 ## Miscellaneous
 ### Tuples and Pairs
-Consider merge sort
+Consider [merge sort](Merge_Sort)
 
 Algorithm:
 - Split the list in half

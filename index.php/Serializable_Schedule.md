@@ -9,7 +9,7 @@ title: Serializable Schedule
 ## Serializable Schedule
 ### Definitions
 An *action* is 
-- $r(X)$ - read database element $X$ or 
+- $r(X)$ - read [database](Database) element $X$ or 
 - $w(X)$ - write database element $X$
 - we abstract away from the actual values that are read/written, we are not interested in them
 
@@ -76,7 +76,7 @@ but converse is not true
 ## Precedence Graph
 There is an algorithm that checks if a schedule is conflict-serializable
 
-construct a *precedence graph*:
+construct a *precedence [graph](Graph)*:
 - suppose you have a schedule $S$ with several transactions 
 - create a node for each transaction 
 - connect $T_i$ with $T_j$ if 

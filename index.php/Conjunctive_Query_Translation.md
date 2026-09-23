@@ -12,12 +12,12 @@ This describes translation algorithms from [Relational Algebra](Relational_Algeb
 ## Translation to [Conjunctive Queries](Conjunctive_Query)
 We can translate a Relational Algebra expression that is in [Select-Project-Join](Select-Project-Join_Expressions) form into CQ. Note that it is not possible to translate any other form to it
 - for SQL, first [translate SQL to TA](Translating_SQL_to_Relational_Algebra)
-- then find the minimal possible [SPJ Expression](Select-Project-Join_Expressions)
+- then find the minimal possible SPJ Expression
 - translate it as suggested below 
 
 
 ### Translation by Example
-Suppose we have the following logical query plan:
+Suppose we have the following logical [query plan](Query_Plan):
 
 $
 \pi_{
@@ -75,7 +75,7 @@ $
 
 
 ## Translation from [Conjunctive Queries](Conjunctive_Query)
-Translation from CQ back to [Relational Algebra](Relational_Algebra) is straightforward 
+Translation from CQ back to Relational Algebra is straightforward 
 - the number of elements being joined is equal to the number of atoms
   - i.e. the number of joins is (# of atoms) - 1
 - we then add the selection
@@ -102,8 +102,8 @@ We translate it as
 
 
 ## See Also
-- [Conjunctive Query](Conjunctive_Query)
+- Conjunctive Query
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)
-- Database Systems Architecture lecture notes #2 by S. Vansummeren [link](https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf)
+- [Database](Database) Systems Architecture lecture notes #2 by S. Vansummeren [link](https://dl.dropboxusercontent.com/sh/r0zvy3zaycbevx8/U0XnqCSwGZ/lect2-notes-conjunctive.pdf)

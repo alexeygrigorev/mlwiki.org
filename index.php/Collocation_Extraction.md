@@ -37,14 +37,14 @@ There are following applications for Collocation Extraction
 - [Document Classification](Document_Classification)
 - and many others 
 
-[Information Retrieval](Information_Retrieval)
+Information Retrieval
 - in IR these words may represent documents better than unigram tokens
 - some tri-grams and higher order $n$-grams may be good for IR, even though they aren't compound term - in the sense of the definitions above. 
 
 
 ### Identification of Collocations
 How to find and extract collocations? 
-- by "co-occur more often than by chance" we can mean independence 
+- by "co-occur more often than by chance" we can mean [independence](Independence) 
 - so we can test if the words in the collocation are independent or not
 - if they aren't - then maybe it's a collocation
 - we also can use some measures than quantify the dependence between words - and the higher the measure, the more likely the words form a collocation
@@ -61,7 +61,7 @@ Let us start by considering the bigram collocation case
 General framework:
 - under the Independence hypothesis ($H_0$) we assume that there is no association between $w_1$ and $w_2$, i.e. they are independent 
 - let $P(w_1)$ and $P(w_2)$ are probabilities that a random token in a text is $w_1$ and $w_2$ resp.
-- and $P(w_1, w_2)$ is the probability that $(w_1, w_2)$ occur together in the text (i.e. one follows another) 
+- and $P(w_1, w_2)$ is the [probability](Probability) that $(w_1, w_2)$ occur together in the text (i.e. one follows another) 
 - so under $H_0$, $P(w_1, w_2) = P(w_1)\, P(w_2)$
 - we can compute the observed probability of $P(w_1, w_2)$ and compare it with the probability under $H_0$  
 - if these probabilities are significantly different from each other, then $(w_1, w_2)$ is a collocation
@@ -69,7 +69,7 @@ General framework:
 
 Ranking candidates 
 - if we can measure the degree of dependence, we can rank the candidate collocation
-- usually tests have some test statistics which we can use for ranking candidates
+- usually tests have some test [statistics](Statistics) which we can use for ranking candidates
 - often it is more interesting to look at the top ranking candidates rather than at all of them
 
 
@@ -86,7 +86,7 @@ Ways to test/rank:
 
 ### [$T$-tests](T-test)
 $t$-test can also be used for collocation discovery
-- it looks at the mean and variance 
+- it looks at the mean and [variance](Variance) 
 - can use $t$-test for proportions: $t = \cfrac{\bar x - \mu}{\sqrt{s^2 / N}}$
 
 The idea:
@@ -101,7 +101,7 @@ The idea:
 ### Other Tests
 Other tests can also be used 
 - e.g. Chi-Squared Test (see [Chi-Squared Test of Independence](Chi-Squared_Test_of_Independence))
-- it's a good alternative for t-test
+- it's a good alternative for [t-test](T-tests)
 
 it's applied to 2-by-2 table 
 - in essence, it compares observed frequencies to expected frequencies 
@@ -126,7 +126,7 @@ To compare $P(w_1, w_2)$ with $P(w_1) \, P(w_2)$ we can use the Odds Ratio:
 Point-Wise Mutual Information (PMI):
 - instead of Odds Ratio, can use [Log Odds](Log_Odds):
 - $\log \cfrac{P(w_1, w_2)}{P(w_1) \, P(w_2)}$
-- then it becomes [Point-Wise Mutual Information](Point-Wise_Mutual_Information)
+- then it becomes Point-Wise Mutual Information
 - $\text{PMI}(w_1, w_2) = \log \cfrac{P(w_1, w_2)}{P(w_1)\, P(w_2)} = \log \cfrac{P(w_1) \, P(w_2 \mid w_1)}{P(w_1)\, P(w_2)} = \log \cfrac{P(w_2 \mid w_1)}{P(w_2)}$
 
 
@@ -156,7 +156,7 @@ Estimation of $P(w_1)$, $P(w_2)$ and $P(w_1, w_2)$:
 - $N$ is the total number of tokens
 
 
-[MLE](MLE) of $P(w_1, w_2)$
+MLE of $P(w_1, w_2)$
 - $P(w_1, w_2) = P(w_1) \, P(w_2 \mid w_1)$, so 
 - $\hat P(w_1, w_2) = \hat P(w_1) \, \hat P(w_2 \mid w_1) = \cfrac{c(w_1)}{N} \cdot \cfrac{c(w_1, w_2)}{c(w_1)} = \cfrac{c(w_1, w_2)}{N}$
 

@@ -9,7 +9,7 @@ title: Chain and Sum Rules in Probability
 
 The *sum* $A + B$ of two events $A$ and $B$ is the event consisting of the occurrence of event $A$ or event $B$.
 
-**Theorem**. The probability of occurrence of one of two mutually exclusive events equals the sum of their probabilities:
+**Theorem**. The [probability](Probability) of occurrence of one of two mutually exclusive events equals the sum of their probabilities:
 
 $P(A + B) = P(A) + P(B)$
 
@@ -20,7 +20,7 @@ $P(A + B) = \frac{m_a + m_b}{n} = \frac{m_a}{n} + \frac{m_b}{n} = P(A) + P(B)$
 
 
 ### Corollaries
-- The sum of probabilities of all events $A_i \in \Omega$ forming a [complete group of events](Probability#Events_and_Trials) equals one.
+- The sum of probabilities of all events $A_i \in \Omega$ forming a complete group of events equals one.
   $P(A_1) + ... + P(A_n) = 1$
 - The sum of the probability of event $A$ and its complementary event $\bar{A}$ equals one, since $A$ and $\bar{A}$ form a complete group of events.
   $P(A) + P(\bar{A}) = 1$
@@ -64,4 +64,4 @@ $P(A \cdot B) = P(A) \cdot P(B)$
 - [Sum and Product Rules](Sum_and_Product_Rules) (Combinatorics)
 
 ## Sources
-- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vysshaya Shkola, 2003.
+- Gmurman V.E., Probability Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vysshaya Shkola, 2003.

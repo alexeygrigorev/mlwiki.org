@@ -20,14 +20,14 @@ title: Data Warehousing (ULB)
 - Data Explosion Problem
 
 
-Important database notions:
+Important [database](Database) notions:
 - ER Modelling
 - Translation to the relational model
 - Dependencies: Functional and foreign key dependencies
 
 ### Dimensional Modeling
 - Dimensional Modeling
-- Roll-up lattice
+- Roll-up [lattice](Lattice)
 
 ### Logical Modelling
 - Special aggregation cases
@@ -46,7 +46,7 @@ Important database notions:
   - Degenerate dimension
 
 ### Physical level
-- View materialization
+- [View materialization](View_Materialization)
 - Indexing
   - Bitmap index, Projection index, Join index, Bitmap-join index
   - Indexing dimension and fact tables
@@ -54,5 +54,5 @@ Important database notions:
 
 
 ### ETL
-- Data warehouse architectures
+- [Data warehouse](Data_Warehouse) architectures
 - ETL

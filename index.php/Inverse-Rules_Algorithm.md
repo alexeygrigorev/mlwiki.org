@@ -42,7 +42,7 @@ And two LAV mappings:
 
 ## [Skolem Function](Skolem_Function)
 ### Logical Intuition
-For $V_1$, [FOL](First_Order_Logic) meaning is 
+For $V_1$, FOL meaning is 
 - $\forall \ u, v \Big[ V_1(u, v) \Rightarrow \exists \ w \ : \ T(w, u) \land U(v, w) \land R(v, u)  \Big]$
 - suppose a tuple $(a, b)$ belongs to the data source that backs $V_1$
   - so we have a fact $V_1(a, b)$
@@ -60,7 +60,7 @@ But we can infer other things as well
 - so we can denote this dependency as $d_1 = f_1(a, b)$
 
 
-[Skolem Function](Skolem_Function)
+Skolem Function
 - the symbol $f_1(u, v)$ is a Skolem Function of arity 2
   - $f_1(u, v)$ denotes that there exists some constant that depends on values of $u$ and $v$
 - given two distinct Skolem terms, e.g. $f_1(1, 2)$ and $f_1(2, v_3)$ we never can say if they belong to the same constant or not
@@ -98,12 +98,12 @@ So, for each existentially qualified variable we define some Skolem function
 
 ## Step 2: Query Unfolding
 Query Unfolding
-- The process of unfolding query is different from [GAV Mediation](GAV_Mediation)
+- The process of unfolding query is different from GAV Mediation
 - Reason = Skolem terms
 
 
 ### GAV vs Inverse-Rules
-Before (in [GAV Mediation](GAV_Mediation))
+Before (in GAV Mediation)
 - for each query atom $G_i(x_1, ..., x_m)$
   - match with some GAV mapping atom of the form $G_i(z_1, ..., z_m)$ 
   - with mapping $\forall i: \ x_i \mapsto z_i$
@@ -223,9 +223,9 @@ Main advantage
 ## See Also
 - [Data Integration](Data_Integration)
 - [Mediator (Data Integration)](Mediator_%28Data_Integration%29)
-- [GAV Mediation](GAV_Mediation)
-- [Bucket Algorithm (Data Integration)](Bucket_Algorithm_%28Data_Integration%29)
-- [Minicon Algorithm](Minicon_Algorithm)
+- GAV Mediation
+- Bucket Algorithm (Data Integration)
+- Minicon Algorithm
 
 ## Sources
 - Web Data Management book [link](http://webdam.inria.fr/Jorge)

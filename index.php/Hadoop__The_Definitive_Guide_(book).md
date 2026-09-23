@@ -16,7 +16,7 @@ This is a book by T. White published by O'Reilly Media, Inc.
 
 ## Table of Contents
 ### [Hadoop](Hadoop) Fundamentals
-- Meet Hadoop
+- Meet [Hadoop](Hadoop)
 - [MapReduce](MapReduce)
 - The [Hadoop Distributed File System](Hadoop_Distributed_File_System)
 - [YARN](YARN)
@@ -28,7 +28,7 @@ This is a book by T. White published by O'Reilly Media, Inc.
   - Running Locally on Test Data
   - [Hadoop Pseudo Distributed Mode](Hadoop_Pseudo_Distributed_Mode)
   - MapReduce Workflows: [Apache Oozie](Oozie)
-- How MapReduce Works (see [YARN](YARN))
+- How MapReduce Works (see YARN)
 - MapReduce Types and Formats
 - MapReduce Features
   - [MapReduce/Secondary Sort](MapReduce_Secondary_Sort)

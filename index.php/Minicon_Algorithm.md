@@ -13,7 +13,7 @@ An optimized version of the [Bucket Algorithm](Bucket_Algorithm_%28Data_Integrat
 - avoids the last step: verification
 - idea: not to put atoms that will generate invalid rewritings 
 - an atom can be useless if its binding of variables doesn't match the bindings of other occurrences of this variable
-  - recall ([Bucket Algorithm (Data Integration)#Validation Example](Bucket_Algorithm_%28Data_Integration%29)#Validation_Example) - this is the reason why $r_1$ didn't validate)
+  - recall (Bucket Algorithm (Data Integration)#Validation Example#Validation_Example) - this is the reason why $r_1$ didn't validate)
 
 
 So, steps are
@@ -45,7 +45,7 @@ In this step
 Consider first atom $U(y, z)$ of $Q$:
 
 
-Vs [Bucket](Bucket_Algorithm_%28Data_Integration%29):
+Vs Bucket:
 - Bucket would put $V_1(v_1, y)$ to $\text{Bucket} \Big( U(y, z) \Big)$
 - because we have mapping $v \mapsto y, w \mapsto z \ \ (*)$
 - $(*)$ allows the match between atom $U(y, z)$ and atom $U(v, w)$ from the body of $V_1(v_1, y)$ 
@@ -103,7 +103,7 @@ So, a rewriting for $Q(x)$ is
 - [Data Integration](Data_Integration)
 - [Mediator (Data Integration)](Mediator_%28Data_Integration%29)
 - [GAV Mediation](GAV_Mediation)
-- [Bucket Algorithm (Data Integration)](Bucket_Algorithm_%28Data_Integration%29)
+- Bucket Algorithm (Data Integration)
 - [Inverse-Rules Algorithm](Inverse-Rules_Algorithm)
 
 

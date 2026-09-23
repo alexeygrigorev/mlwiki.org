@@ -6,7 +6,7 @@ tags:
 title: Outer Product
 ---
 ## Rank One Matrices
-Suppose we have two vectors $\mathbf u \in \mathbb R^m$ and $\mathbf v \in \mathbb R^n$. Then multiplication $\mathbf u \times \mathbf v^T$ gives us a matrix $A = \mathbf u \cdot \mathbf v^T$, $A \in \mathbb R^{m \times n}$
+Suppose we have two vectors $\mathbf u \in \mathbb R^m$ and $\mathbf v \in \mathbb R^n$. Then multiplication $\mathbf u \times \mathbf v^T$ gives us a [matrix](Matrix) $A = \mathbf u \cdot \mathbf v^T$, $A \in \mathbb R^{m \times n}$
 - This multiplication produces [rank](Rank_(Matrix))-1 matrices
 
 

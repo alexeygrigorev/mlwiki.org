@@ -19,7 +19,7 @@ title: Chi-Squared Distribution
 - mean = df
 - variability increases as df increases 
 - shape becomes less skewed, more symmetric 
-- for Chi-Squared tests typically need only upper-tail values
+- for [Chi-Squared tests](Chi-Squared_Tests) typically need only upper-tail values
 
 
 Visualization 

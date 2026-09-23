@@ -22,11 +22,11 @@ The following are $z$ tests
 ## Assumptions
 - Observations are independent (if less than 10% of population is sampled, then we can make sure it's satisfied)
 - Sample size is sufficiently large so [C.L.T.](Central_Limit_Theorem) holds
-- Moderate skew, few outliers (not too extreme)
+- Moderate skew, few [outliers](Outliers) (not too extreme)
 
 If these assumptions are hold, then we can use the $z$ statistics 
-- if sample size is smaller, then it's better to use [$t$-tests](t-tests)
-- if the distribution has skews and outliers, use simulations <!-- TODO: add link -->
+- if sample size is smaller, then it's better to use $t$-tests
+- if the [distribution](Distributions) has skews and outliers, use simulations <!-- TODO: add link -->
 - but in any case the observations have to be independent
 
 ## One-Sample $z$ Test
@@ -54,10 +54,10 @@ $Z$ score:
 - then calculate the $p$-value for this test statistics 
   - $p = 0.007$
   - <img src="http://habrastorage.org/files/4c3/5c0/ae1/4c35c0ae1faf403cbb35255a3bd20544.png" alt="Image">
-  - source: [OpenIntro](OpenIntro_Statistics_%28book%29), figure 4.15
+  - source: OpenIntro, figure 4.15
 
 
-so, under $H_0$ the probability of observing such $\bar{x}$ is just $p = 0.007$
+so, under $H_0$ the [probability](Probability) of observing such $\bar{x}$ is just $p = 0.007$
 - our level of significance is $\alpha 0.05$, we compare $\alpha$ and $p$: 
 - $p =  0.007 < 0.05 = \alpha$,
 - $\Rightarrow$ we reject $H_0$ in favor of $H_A$: what we observe is so unusual under $H_0$ which casts a doubt on $H_0$ and provides strong evidence to $H_A$
@@ -105,5 +105,5 @@ p
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)
-- [OpenIntro Statistics (book)](OpenIntro_Statistics_%28book%29)
+- OpenIntro Statistics (book)
 - http://projectile.sv.cmu.edu/research/public/talks/t-test.htm

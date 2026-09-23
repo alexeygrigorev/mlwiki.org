@@ -8,7 +8,7 @@ title: Query Plan
 ---
 ## Logical Query Plan
 In [Relational Databases](Relational_Databases), Logical Query Plan - intermediate code in the [Query Processing](Query_Processing) pipeline (typically a [Relational Algebra](Relational_Algebra) expression)
-- Essentially it's an execution tree
+- Essentially it's an execution [tree](Tree)
 - We evaluate it bottom-up
 - Usually need to [optimize it](Logical_Query_Plan_Optimization) before executing  to make the execution faster
 
@@ -28,7 +28,7 @@ A *Physical Query Plan* is the same as Logical Query Plan, but with [specific al
 
 
 Questions to consider
-- What algorithms are available to do selections, joins, projections? These algorithms are called [physical operators](Physical_Operators_%28databases%29) 
+- What algorithms are available to do selections, joins, projections? These algorithms are called physical operators 
 - each physical operator has an associated cost - number of I/O operations (in [I/O Model of Computation](I_O_Model_of_Computation))
 - It also highly depends on [how data is stored](Physical_Data_Organization_%28databases%29)
 

@@ -18,7 +18,7 @@ Search:
 - goal: $O(n+m)$
 
 ## Algorithm
-GenericAlgorithm(graph $G$, starting vertex $s$):
+GenericAlgorithm([graph](Graph) $G$, starting vertex $s$):
 - initially only $s$ is explored
 - while possible
   - choose an edge $(u, v)$ with $u$ explored and $v$ unexplored
@@ -31,7 +31,7 @@ GenericAlgorithm(graph $G$, starting vertex $s$):
 - [Dijkstra's Shortest Path](Dijkstra's_Shortest_Path)
 
 ## See also
-- [Graphs](Graphs)
+- Graphs
 
 ## Sources
 - [Algorithms Design and Analysis Part 1 (coursera)](Algorithms_Design_and_Analysis_Part_1_%28coursera%29)

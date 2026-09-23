@@ -105,7 +105,7 @@ The square error cost function is convex, so we always converge to the global mi
 
 
 ## Gradient Descent for [Multivariate Linear Regression](Multivariate_Linear_Regression)
-For Multivariate Linear Regression we have $x^{(i)} \in \mathbb{R}^{n + 1} $and $\theta = \in \mathbb{R}^{n+1}$, where 
+For [Multivariate Linear Regression](Multivariate_Linear_Regression) we have $x^{(i)} \in \mathbb{R}^{n + 1} $and $\theta = \in \mathbb{R}^{n+1}$, where 
 - $n$ - is number of features 
 - $m$ - number of training examples
 - and $x_0^{(i)} = 1$ for all $i$ (the slope)
@@ -143,7 +143,7 @@ Choosing $\alpha$:
 
 
 ## Applications
-Apart from [Linear Regression](Linear_Regression), Gradient Descent may also be used for 
+Apart from Linear Regression, Gradient Descent may also be used for 
 - [Logistic Regression](Logistic_Regression)
 - [Neural Networks](Neural_Networks)
 - and many others 

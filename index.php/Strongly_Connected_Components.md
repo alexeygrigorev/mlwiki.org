@@ -19,7 +19,7 @@ idea:
 where to start?
 - it depends on the starting point
 - with good starting point we may discover a SCC
-- with bad - the whole graph
+- with bad - the whole [graph](Graph)
 
 
 ## Kosaraju's Two-Pass algorithm

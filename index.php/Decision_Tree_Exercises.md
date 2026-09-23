@@ -33,7 +33,7 @@ How we compare these two lotteries?
 - with [Expected Values for Lotteries](Expected_Values_for_Lotteries)
 - launch: $E(C) = 3 \cdot 0.6 + (-2) \cdot 0.4 = 1$
 - not launch: $E(\overline{C}) = 0$
-- based on expected value we decide to launch
+- based on [expected value](Expected_Value) we decide to launch
 
 
 ### [Perfect Information](Perfect_Information)
@@ -41,7 +41,7 @@ Suppose we hired an Oracle - someone who knows for sure what is going to happen
 - how much we want to pay for such an Oracle?
 
 Oracle
-- based on past statistics we assume that the oracle will say that
+- based on past [statistics](Statistics) we assume that the oracle will say that
   - team loses ($OL$) 40% of time
   - them wins ($OW$) 60% of time
 - Oracle is always right: 
@@ -51,7 +51,7 @@ Oracle
   - $p(W \mid OL) = 0, p(L \mid OL) = 1$
 
 
-So we get this perfect information tree
+So we get this perfect information [tree](Tree)
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/ru/ex1-decision-tree1.png" alt="Image">
 
 Now we can calculate the expected gain from having the perfect information:
@@ -69,12 +69,12 @@ But suppose we hire a human being who makes mistakes to help us to predict the o
 
 Model:
 - we know the statistics about him:
-  - $p(GW \mid W) = 0.75$ - the probability of the guru saying that the team wins when it indeed wins
+  - $p(GW \mid W) = 0.75$ - the [probability](Probability) of the guru saying that the team wins when it indeed wins
   - $p(GL \mid L) = 0.8$  - the probability of the guru saying that the team loses when it indeed loses
 - we don't know the probabilities
   - but we can calculate them 
 
-Here's our decision tree:
+Here's our [decision tree](Decision_Tree):
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/ru/ex1-decision-tree2.png" alt="Image">
 - need to calculate the probabilities 
 
@@ -169,7 +169,7 @@ We want to maximize it, so
 
 
 #### [Expected Opportunity Lost](Expected_Opportunity_Lost)
-This is the same, but we calculate [Expected Value](Expected_Value) on the Regret Table:
+This is the same, but we calculate Expected Value on the Regret Table:
 - in this case we want to minimize the regret
 
 Expected Values
@@ -226,4 +226,4 @@ Now we can calculate the expected value when hiring a consultant
 
 
 ## Sources
-- [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
+- Decision Engineering (ULB)

@@ -77,7 +77,7 @@ So, what about Semantic Fields?
 Lexical coherence assumption:
 - We assume that real-world documents are lexically coherent
 - this guarantees the existence of Semantic Domains
-- it's also proven by experiments: in real texts if you count the percentage of words that belong to the same domain, you'll see that the most belong to one domain 
+- it's also proven by [experiments](Statistical_Experiment): in real texts if you count the percentage of words that belong to the same domain, you'll see that the most belong to one domain 
 
 
 There are 3 types of words 
@@ -103,7 +103,7 @@ The lexical coherence assumption allows us to represent Semantic Domains by the 
 Characterizing word senses (i.e. lexical concepts)
 - typically by assigning domain labels to words in a lexicon
 - e.g. Crane has senses in Zoology and Construction
-- WordNet Domains - extension of [WordNet](WordNet) that adds the information about domain
+- WordNet Domains - extension of WordNet that adds the information about domain
 
 
 Characterizing texts
@@ -121,13 +121,13 @@ practical points of view: Semantic Domains are lists of related terms that descr
 - domain relations: two words are domain-related if they belong to the same domain
 - domain set is used to describe semantic classes of texts 
 - semantic classes of strongly related lexical concepts are domain concepts
-- so a domain set should relate each word to one or more domain sets
+- so a domain set should relate each word to one or more domain [sets](Sets)
 
 
 Requirements of an "ideal" domain set:
 - completeness: all possible texts should be assigned to at least one domain
 - balancement: number of texts belonging to each domain should be uniform
-- separability: the same text/concept can't be assigned to more than one domain
+- [separability](Separability): the same text/concept can't be assigned to more than one domain
 
 
 Usually not achievable: 
@@ -152,7 +152,7 @@ Domain model is a computational model for Semantic Domains to represent domain i
 
 
 Domain Model:
-- is a matrix that describes the degree of association between terms in the vocabulary and Semantic Domains
+- is a [matrix](Matrix) that describes the degree of association between terms in the vocabulary and Semantic Domains
 - rows are indexed by words
 - columns are the corresponding domains 
 
@@ -191,7 +191,7 @@ A domain Model defines a Domain Space
 Obtaining Domain Models
 - Domain Models can be obtained from unsupervised learning or manual annotation
 - can use WordNet Domain 
-- or by performing [Term Clustering](Term_Clustering)
+- or by performing Term Clustering
 
 
 domain relations among terms can be detected by analyzing co-occurrence in the corpus
@@ -200,7 +200,7 @@ domain relations among terms can be detected by analyzing co-occurrence in the c
 
 
 ### WordNet Based Domain Model
-WordNet Domains is an extension of [WordNet](WordNet): 
+WordNet Domains is an extension of WordNet: 
 - each synset here is annotated with one or more domain labels
 - it has ~ 200 domain labels
 
@@ -217,7 +217,7 @@ Using WordNet Domain for building a domain model:
 \end{cases}$
 - Factotum = generic concept for all non-domain words
 - $k$ - cardinality of $\mathcal D$
-- $R_s(D, c) \approx$ estimated prior probability of the domain given the concept 
+- $R_s(D, c) \approx$ estimated prior [probability](Probability) of the domain given the concept 
 
 
 This is for synsets, not words
@@ -249,7 +249,7 @@ We want automatically extract domain models from corpus:
 - to find more flexible models 
 
 
-[Term Clustering](Term_Clustering) techniques are usually used for this
+Term Clustering techniques are usually used for this
 - usually need soft clustering techniques for this: want one term to be in several clusters 
 - there are several ways: 
 - [Fuzzy C-Means](Fuzzy_C-Means), Information bottleneck method, etc
@@ -263,7 +263,7 @@ LSA is done by projecting TermVSM and TextVSM to a common LSA space using some l
 
 DO [SVD](SVD):
 - $T = W \Sigma P^T$ 
-- $W$ (for *W*ords) are orthogonal eigenvectors of $T T^T$: word vectors
+- $W$ (for *W*ords) are orthogonal [eigenvectors](Eigenvalues_and_Eigenvectors) of $T T^T$: word vectors
 - $P$ (for *P*assages) are orthogonal eigenvectors of $T^T T$: document vectors
 - Truncated SVD: use $\Sigma_k$: first $k$ singular values and the rest set to 0
 - $T_k = W \Sigma_k P^T \approx T$ the best approximation 
@@ -281,7 +281,7 @@ Domain Models define the Domain Space
 
 Once a DM is determined, we can define a Domain Space 
 - it's a geometric space where terms and documents can be represented as vectors 
-- it's a [Vector Space Model](Vector_Space_Models)
+- it's a Vector Space Model
 
 
 There are some problems of VSMs:
@@ -303,14 +303,14 @@ Domain Spaces ftw
 
 
 so a *Domain Space* is a cluster-based representation for estimating term and text meaning 
-- it's a vector space where both terms and texts can be compared 
+- it's a [vector space](Vector_Spaces) where both terms and texts can be compared 
 - once a domain space is defined by a matrix $D$, can represent both terms and texts by domain vectors
 - domain vectors - vectors that represent relevance among linguistic objects and each domain
 
 
 Domain space is 
 - it's an instance of Generalized Vector Space Model
-- for text $t_i$ in the [Text VSM](Vector_Space_Models)
+- for text $t_i$ in the Text VSM
 - $t_i' = t_i (I^{\text{idf}} D)$ (<!-- TODO: why left multiplication? -->)
 - where $I^{\text{idf}}$ is a diagonal matrix s.t. $I^{\text{idf}}_{ii} = \text{idf}(w_i)$ - it's inverse document frequency of word $w_i$ (see [TF-IDF](TF-IDF))
 - so we define a mapping function and thus have a generalized VSM
@@ -354,7 +354,7 @@ $K$ is defined as
 Can compute the similarity using cosine 
 
 $K$ is defined for any term and text
-- $K$ is a mercer kernel by construction: it's a dot product, but unlike many other kernels, it reduces the dimensionality instead of increasing it
+- $K$ is a mercer kernel by construction: it's a [dot product](Dot_Product), but unlike many other kernels, it reduces the dimensionality instead of increasing it
 
 
 
@@ -365,8 +365,8 @@ $K$ is defined for any term and text
 
 Domain Kernels can be used for any instance-based algorithm in many NLP applications:
 - [Document Classification](Document_Classification)
-- [Document Clustering](Document_Clustering)
-- [Term Clustering](Term_Clustering)
+- Document Clustering
+- Term Clustering
 - can use any [Machine Learning](Machine_Learning) algorithm with this kernel, e.g. [SVM](SVM)
 
 
@@ -378,4 +378,4 @@ Domain Kernels can be used for any instance-based algorithm in many NLP applicat
 
 ## Sources
 - http://www.semdom.org/description
-- [Semantic Domains in Computational Linguistics (book)](Semantic_Domains_in_Computational_Linguistics_%28book%29)
+- Semantic Domains in Computational Linguistics (book)

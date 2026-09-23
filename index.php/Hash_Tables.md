@@ -26,7 +26,7 @@ $O(1)$ operations:
 
 Solution:
 - pick $n$ - number of buckets
-- choose a [Hash Function](Hash_Function) $h: U \mapsto \{0, 1, ..., n-1\}$
+- choose a Hash Function $h: U \mapsto \{0, 1, ..., n-1\}$
 - use array $A$ of length $n$ to store $x$ in $A[h(x)]$
 
 

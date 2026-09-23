@@ -23,7 +23,7 @@ Two ranked vectors
 we can represent two rankings as a [Bipartite Graph](Bipartite_Graph) $G = \langle N, S, E \rangle$ 
 - $N = r_1(X)$ and $E = r_2(X)$ being two disjoint set of nodes
 - $X$ is some variable, and $r_1$ and $r_2$ are different rankings of this variable
-- $E$ is set of edges $E = \Big\{ \big(r_1(x), r_2(x) \big) \Big\} $ i.e. corresponding elements of $X$ are connected in this graph
+- $E$ is set of edges $E = \Big\{ \big(r_1(x), r_2(x) \big) \Big\} $ i.e. corresponding elements of $X$ are connected in this [graph](Graph)
 
 Counting:
 - *bilayer drawing* of $G$ is when there are two parallel lines, edges of $N$ are drawn on one, and edges of $S$ are drawn on another
@@ -41,7 +41,7 @@ Example:
 
 ### Algorithms
 A modification of [Merge Sort](Merge_Sort) can compute the # of inversions in $O(| N| \log |N|)$
-- see [Merge Sort#Counting Inversions](Merge_Sort#Counting_Inversions)
+- see Merge Sort#Counting Inversions
 
 
 ## See Also

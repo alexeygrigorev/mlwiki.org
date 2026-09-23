@@ -14,7 +14,7 @@ Vectors $\mathbf q_1, \ ... \ , \mathbf q_n$ are *orthonormal* if they are [orth
 
 
 ### Orthogonal Matrix
-What about a matrix form?
+What about a [matrix](Matrix) form?
 - The second part of the definition: $\mathbf q_i^T \mathbf q_j = 
 \begin{cases} 
 1 & \text{if } i \ne j \\
@@ -115,7 +115,7 @@ Not orthogonal:
 ### Projection
 Why is it good to have orthogonal matrices? 
 - projections are easy:
-- suppose we want to project onto the column space of $Q$
+- suppose we want to project onto the [column space](Column_Space) of $Q$
 - so we have $P = Q (Q^T Q)^{-1} Q^T = Q I Q^T = Q Q^T$
 - $Q Q^T$ is symmetric
 - see [Projection onto Subspaces#Projection onto Orthogonal Basis](Projection_onto_Subspaces#Projection_onto_Orthogonal_Basis)
@@ -140,8 +140,8 @@ How do we make matrices orthogonal?
 - this preserves the column space $C(A)$
 
 Also,
-- [Eigendecomposition](Eigendecomposition) $A = Q \Lambda Q^T$ decomposes symmetric $A$ onto orthogonal $Q$ and diagonal $\Lambda$
-- [SVD](SVD) $A = U \Sigma V^T$ decomposes $A$ onto orthogonal $U$ and $V$ and diagonal $\Sigma$
+- Eigendecomposition $A = Q \Lambda Q^T$ decomposes symmetric $A$ onto orthogonal $Q$ and diagonal $\Lambda$
+- SVD $A = U \Sigma V^T$ decomposes $A$ onto orthogonal $U$ and $V$ and diagonal $\Sigma$
 
 
 

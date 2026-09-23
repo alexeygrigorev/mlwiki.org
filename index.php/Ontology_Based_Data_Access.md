@@ -6,7 +6,7 @@ tags:
 title: Ontology Based Data Access
 ---
 ## Ontology Based Data Access
-For querying ontologies 
+For querying [ontologies](Ontologies) 
 - typically using [SPARQL](SPARQL) 
 - keep data in a db (or a [triple store](Semantic_Web_Application_Architecture)), but access it via ontologies 
 - as a bonus, have inference capabilities during query answering, since it's based on [Logic](First_Order_Logic)
@@ -19,7 +19,7 @@ Difference: Ontologies and traditional [Database](Database)s
 - Constraints: can't violate in RDBMs, additional facts are inferred in SW to satisfy the constraints 
 
 
-Use [SPARQL](SPARQL) for querying ontologies
+Use SPARQL for querying ontologies
 - it can be translated to First Order Logic expression and [Conjunctive Queries](Conjunctive_Query)
 
 Example:
@@ -32,8 +32,8 @@ SELECT ?x WHERE {
 ```
 
 Translation:
-- [FOL](First_Order_Logic): $Q(x) \equiv \forall x \ \exists \ y, z \ : \ \text{EnrolledIn}(x, y) \land \text{Leads}(z, y) \land \text{Professor}(z)$
-- [CQ](Conjunctive_Query): $Q(x) \leftarrow \text{EnrolledIn}(x, y), \text{Leads}(z, y), \text{Professor}(z)$
+- FOL: $Q(x) \equiv \forall x \ \exists \ y, z \ : \ \text{EnrolledIn}(x, y) \land \text{Leads}(z, y) \land \text{Professor}(z)$
+- CQ: $Q(x) \leftarrow \text{EnrolledIn}(x, y), \text{Leads}(z, y), \text{Professor}(z)$
 
 
 ### Inference Approaches
@@ -62,7 +62,7 @@ Compromise
 ### Just-In-Time Inference
 Query
 - (for ABox and TBox, see [Descriptive Logic](Descriptive_Logic)) 
-- using both ABox (facts - RDF graph) and TBox (rules - Ontology) 
+- using both ABox (facts - RDF [graph](Graph)) and TBox (rules - Ontology) 
 - a triple is in an answer set either
   - because it's in the ABox
   - or it's a consequence of some fact from ABox inferred by the TBox
@@ -134,7 +134,7 @@ And the result is
 
 #### Algorithm
 Evaluating a query
-- given a (Union of) CQs q and [DL](Descriptive_Logic) ontology $O = \langle T, A \rangle$
+- given a (Union of) CQs q and DL ontology $O = \langle T, A \rangle$
 - compute the perfect rewriting of $q$ over $T$
 - evaluate over $A$ 
 
@@ -157,18 +157,18 @@ Reference:
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/sw/semantic-web-data-access.png" alt="Image">
 
 There are 3 main components
-- [Ontology](Ontologies) - unified conceptual view of managed information
-- Data Sources - external, possible heterogeneous
+- Ontology - unified conceptual view of managed information
+- [Data Sources](Data_Sources) - external, possible heterogeneous
 - Mappings - map data from DS to ontology
 
 
 ### Formalization
 A OBDA is $O = \langle T, S, M \rangle$ where
-- $T$ - is a [DL](Descriptive_Logic) Tbox
+- $T$ - is a DL Tbox
 - $S$ - (federated) database that represents the sources
 - $M$ - mapping assertions 
   - each of the form $\Phi(\vec{x}) \mapsto \Psi(\vec{x})$
-  - $\Phi(\vec{x})$ - [FOL](First_Order_Logic) query over $S$, returns facts - values for $\vec{x}$
+  - $\Phi(\vec{x})$ - FOL query over $S$, returns facts - values for $\vec{x}$
   - $\Psi(\vec{x})$ - FOL over $T$
   - so mappings from $M$ translates queries over $S$ to queries over $T$
 
@@ -180,7 +180,7 @@ Mappings set $M$
 
 Mappings:
 - each mapping $m \in M$ of the form $m: \Phi(\vec{x}) \mapsto \Psi(\vec{x})$
-- $\Phi(\vec{x})$ - [FOL](First_Order_Logic) query over $S$, returns facts - values for $\vec{x}$
+- $\Phi(\vec{x})$ - FOL query over $S$, returns facts - values for $\vec{x}$
 - $\Psi(\vec{x})$ - FOL over $T$
 - so mappings from $M$ translates queries over $S$ to queries over $T$
 
@@ -202,7 +202,7 @@ ONTOP: http://ontop.inf.unibz.it
 - Download: http://ontop.inf.unibz.it/?page_id=179
 
 ONTOP:
-- Translates [SPARQL](SPARQL) to [SQL](SQL)
+- Translates SPARQL to SQL
 - Can work as a SPARQL endpoint
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/sw/ontop.png" alt="Image">
 - Quest [link](http://ontop.inf.unibz.it/?page_id=7) is a component that does the translation

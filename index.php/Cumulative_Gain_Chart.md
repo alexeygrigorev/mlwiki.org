@@ -18,13 +18,13 @@ Gain Charts are used for [Evaluation of Binary Classifiers](Evaluation_of_Binary
 Suppose we have a direct marketing campaign
 - population is very big 
 - we want to select only a fraction of the population for marketing - those that are likely to respond
-- we build a model that scores receivers - assigns probability that he will reply 
+- we build a model that scores receivers - assigns [probability](Probability) that he will reply 
 - want to evaluate the performance of this model
 
 
 ### Cumulative Gain
 Performance evaluation
-- recall values that can be calculated for [Evaluation of Binary Classifiers](Evaluation_of_Binary_Classifiers) 
+- recall values that can be calculated for Evaluation of Binary Classifiers 
 - accuracy - but it's not enough here
 - $\text{tpr}$ - True Positive Rate or Sensitivity
   - $\text{tpr} = \cfrac{\text{TP}}{\text{TP} + \text{FN}}$  
@@ -177,7 +177,7 @@ Lift charts show basically the same information as Gain charts
 
 
 ## See Also
-- [Evaluation of Binary Classifiers](Evaluation_of_Binary_Classifiers)
+- Evaluation of Binary Classifiers
 - [ROC Analysis](ROC_Analysis)
 
 ## Sources

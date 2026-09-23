@@ -19,7 +19,7 @@ Why *energy*?
 ## Positive Semi-Definite Matrices
 - A matrix is semi-positive definite if 
 - $\mathbf v^T A \mathbf v \geqslant 0$ for all $\mathbf v \ne \mathbf 0 \in \mathbb R^n$ 
-- so some eigenvectors can be 0
+- so some [eigenvectors](Eigenvalues_and_Eigenvectors) can be 0
 
 
 ## Motivating Example
@@ -162,4 +162,4 @@ They are always semi-positive definite
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
-- Jauregui, Jeff. "Principal component analysis with linear algebra." (2012). [link](http://www.math.union.edu/~jaureguj/PCA.pdf)
+- Jauregui, Jeff. "[Principal component analysis](Principal_Component_Analysis) with linear algebra." (2012). [link](http://www.math.union.edu/~jaureguj/PCA.pdf)

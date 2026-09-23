@@ -24,14 +24,14 @@ Serializer
 
 ### RDF Converters
 Sometimes the data source is not in RDF form
-- e.g. relational databases, spreadsheets 
+- e.g. [relational databases](Relational_Databases), spreadsheets 
 - but also can be microformats - special attributes in HTML tags  (business cards or events)
 - or RDFa - same idea, embed RDF into HTML attributes
   - to have machine-processable HTML data
 
 
 ### RDF Store
-This is a database
+This is a [database](Database)
 - tuned for storing and retrieving triples 
 - also should have an ability to merge information from multiple [data sources](Data_Sources) (unlike Relational Databases)
 

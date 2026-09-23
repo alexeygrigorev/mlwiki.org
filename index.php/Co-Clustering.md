@@ -8,7 +8,7 @@ title: Co-Clustering
 
 ## Co-Clustering
 Co-clustering is a set of techniques in [Cluster Analysis](Cluster_Analysis)
-- given some matrix $A$ we want to cluster rows of $A$ and columns of $A$ simultaneously 
+- given some [matrix](Matrix) $A$ we want to cluster rows of $A$ and columns of $A$ simultaneously 
 - this is a common task for *dyadic* data matrices such as [term-document matrices](Vector_Space_Models) or [user-item matrices](Collaborative_Filtering)
 
 
@@ -26,7 +26,7 @@ Co-clustering is defined as two map functions:
 
 
 ### [Subspace Clustering](Subspace_Clustering)
-Can use subspace clustering for co-clustering
+Can use [subspace clustering](Subspace_Clustering) for co-clustering
 - subspace clustering $\approx$ local feature selection
 
 
@@ -39,9 +39,9 @@ One way of doing Co-Clustering is via NMF:
 
 
 ## References
-- Dhillon, Inderjit S. "Co-clustering documents and words using bipartite spectral graph partitioning." 2001. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.20.9634&rep=rep1&type=pdf)
+- Dhillon, Inderjit S. "Co-clustering documents and words using bipartite spectral [graph](Graph) partitioning." 2001. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.20.9634&rep=rep1&type=pdf)
 - Dhillon, Inderjit S., Subramanyam Mallela, and Dharmendra S. Modha. "Information-theoretic co-clustering." 2003. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.6173&rep=rep1&type=pdf)
-- Li, Tao, Sheng Ma, and Mitsunori Ogihara. "Document clustering via adaptive subspace iteration."  2004. [link](http://users.cs.fiu.edu/~taoli/pub/sigir04-p218-li.pdf)
+- Li, Tao, Sheng Ma, and Mitsunori Ogihara. "[Document clustering](Document_Clustering) via adaptive subspace iteration."  2004. [link](http://users.cs.fiu.edu/~taoli/pub/sigir04-p218-li.pdf)
 
 ## Sources
 - http://en.wikipedia.org/wiki/Biclustering

@@ -15,13 +15,13 @@ Many of [LSH families](Locality_Sensitive_Hashing) are structured quantizers: th
 
 
 ### Learning Density with K-Means
-Unstructured [VQ](Vector_Quantizer): 
+Unstructured VQ: 
 - let $\mathcal R \to [ \, 1, 2, \ ... \ , k \, ]$
 - and $\mathbf x \to g(\mathbf x) = \mathop{arg min}\limits_{i = 1..k} L_2(\mathbf x, \boldsymbol \mu_i)$ 
 - it maps each vector to a cell indexed by $g(\mathbf x)$
 - $k$ is # of possible values of $g(\cdot)$
 - $\boldsymbol \mu_i$ are centroids - they define the quantizer 
-- often learned with [K-Means](K-Means)
+- often learned with K-Means
 
 
 
@@ -37,7 +37,7 @@ Illustration:
 ### Preprocessing
 How to use K-Means to build a LSH?
 - generate $L$ different clusterings on the same data by using different seeds
-- after this we have $L$ codebooks (sets of centroids) $\{\mathbf c_{j1}, \ ... \ , \mathbf c_{jk}\}$, where $\mathbf c_{ji}$ is $i$th centroid of $j$'s clustering
+- after this we have $L$ codebooks ([sets](Sets) of centroids) $\{\mathbf c_{j1}, \ ... \ , \mathbf c_{jk}\}$, where $\mathbf c_{ji}$ is $i$th centroid of $j$'s clustering
 - each centroid is an $h$ and codebooks is an $g$ in LSH
 
 Indexing:
@@ -63,7 +63,7 @@ query($\mathbf q$)
 ### Multi-Probing
 [Multi-Probing](Multi-Probe_LSH) for K-Means LSH:
 - fix $m_p$ the number of buckets we want to retrieve 
-- for each $L$ hash functions 
+- for each $L$ [hash functions](Hash_Function) 
   - select $m_p$ closets centroids 
   - then return all vectors from these $m_p$ centroids 
 
@@ -78,7 +78,7 @@ Idea:
 Usual Query-Adaptive LSH:
 - define a pool of $L$ hash functions (with $L$ larger than in usual LSHs)
 - compute relevance criteria $\lambda_j$ for each $g_j$: this criteria identifies the hash functions that are more likely to return the NNs 
-- relevance could be: distance between the query and the center of the cell 
+- relevance could be: [distance](Distance_Functions) between the query and the center of the cell 
 
 
 Query-Adaptive K-Means LSH:

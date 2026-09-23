@@ -22,7 +22,7 @@ Blocks (and Records) can be in
   - and the *address* is: device id, cylinder number, etc. 
   - A record can be identified by an offset within a block
 
-There are several ways to represent an address in the [secondary memory](Secondary_Storage)
+There are several ways to represent an address in the secondary memory
 
 
 ### Physical Address
@@ -162,7 +162,7 @@ Advantages
 - allows records to be moved easier
 
 Disadvantaged
-- storing record on another block increases the number of I/O operations (see [I/O Model of Computation](I_O_Model_of_Computation))
+- storing record on another block increases the number of I/O operations (see I/O Model of Computation)
 
 #### Records Spanning Several Blocks
 How to store records that are larger than a block? 
@@ -257,7 +257,7 @@ If we cannot move records,
 
 #### Tombstones
 Dangling Pointers
-- there might be pointers to occupied records (e.g. see [Point Swizzling](Point_Swizzling))
+- there might be pointers to occupied records (e.g. see Point Swizzling)
 - we don't want these pointers to dangle or point to wrong records
 
 Usual technique in this case 
@@ -294,5 +294,5 @@ If the new version is shorter, we may want to reclaim the freed space for later 
 
 
 ## Sources
-- Database Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
+- [Database](Database) Systems: The Complete Book (2nd edition) by H. Garcia-Molina, J. D. Ullman, and J. Widom
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

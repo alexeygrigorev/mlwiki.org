@@ -20,7 +20,7 @@ The monotonicity is a [Voting Theory](Voting_Theory) criterion/principle that ch
 
 
 ## Theorems
-This principle is used in two important [Voting Theory](Voting_Theory) theorems:
+This principle is used in two important Voting Theory theorems:
 - [May's Theorem](May's_Theorem)
 - [Arrow's Impossibility Theorem](Arrow's_Impossibility_Theorem)
 

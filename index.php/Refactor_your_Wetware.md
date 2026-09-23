@@ -262,7 +262,7 @@ Think outside the box
   - does it always happen? are there exceptions?
   - what would happen if I did (didn't) ...?
   - what stops you from ... ?
-- get statistics
+- get [statistics](Statistics)
 - expect better
 - "it's by logic we prove, it's by intuition we discover"
 
@@ -358,7 +358,7 @@ Think outside the box
 - types of perception
   - Visual
     - need to see material
-    - picture, graphs
+    - picture, [graphs](Graphs)
   - Auditory
     - have to hear
     - lectures, seminars, podcasts

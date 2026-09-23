@@ -88,7 +88,7 @@ We have the following input:
 
 We find $\theta$ by calculating $\theta = (X^T X + \lambda E^*)^{-1} \cdot X^T \cdot y$
 - where $E^* \in \mathbb{R}^{(n + 1) \times (n + 1)}$
-  - and $E$ is almost identity matrix (1s on the main diagonal, the rest is 0s), except that the very first element is 0
+  - and $E$ is almost identity [matrix](Matrix) (1s on the main diagonal, the rest is 0s), except that the very first element is 0
   - i.e. for $n = 2$ : $\left[\begin{matrix} 0 & 0 & 0 \\ 0 & 1 & 0  \\ 0 & 0 & 1 \\  \end{matrix} \right]$
 - $(X^T X + \lambda E^*)$ is always invertible
 
@@ -100,17 +100,17 @@ We find $\theta$ by calculating $\theta = (X^T X + \lambda E^*)^{-1} \cdot X^T \
   $J(\theta) = J_{\text{old}}(\theta) + \cfrac{\lambda}{2m} \sum_{j = 1}^{n} \theta_j^2$
 
 
-Similarly, for [Gradient Descent](Gradient_Descent) we have
+Similarly, for Gradient Descent we have
 - repeat 
   - $\theta_0 = \theta_0 - \cfrac{\alpha}{m} \sum (h_{\theta}(x^{(i)}) - y^{(i)}) x_0^{(i)}$ // no change for $\theta_0$
   - $\theta_j = \theta_j - \alpha \left[ \cfrac{1}{m} \sum (h_{\theta}(x^{(i)}) - y^{(i)}) x_0^{(i)}  + \cfrac{\lambda}{m} \theta_j \right]$
 
 
 ## See also
-- [Overfitting](Overfitting)
-- [Gradient Descent](Gradient_Descent)
+- Overfitting
+- Gradient Descent
 - [Multivariate Linear Regression](Multivariate_Linear_Regression)
-- [Logistic Regression](Logistic_Regression)
+- Logistic Regression
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_%28coursera%29)

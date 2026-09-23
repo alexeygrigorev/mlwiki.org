@@ -60,7 +60,7 @@ There are several ways to integrate different application
 
 The differences between it and central ERP:
 - in the central ERP there's one single DB
-- here each application has it's own database 
+- here each application has it's own [database](Database) 
 
 
 ### Workflow Management Systems

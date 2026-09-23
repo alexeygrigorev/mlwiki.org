@@ -18,7 +18,7 @@ Translating SQL to RA expression is the first step in [Query Processing](Query_P
 
 ## Cost-Based Plan Selection
 We need to select the optimal plan based on 
-- Cost of [Physical Operators](Physical_Operators_%28databases%29) and 
+- Cost of Physical Operators and 
 - on [estimated cost of subqueries](Query_Result_Size_Estimation)
 
 This is an [Optimization Problem](Optimization_Problem)
@@ -52,10 +52,10 @@ Consider this example:
 <!-- Main: Query Plan Selection Exercises -->
 
 ## See also
-- [Query Plan](Query_Plan)
-- [Physical Operators (databases)](Physical_Operators_%28databases%29)
-- [Query Result Size Estimation](Query_Result_Size_Estimation)
-- [Join Ordering](Join_Ordering)
+- Query Plan
+- Physical Operators (databases)
+- Query Result Size Estimation
+- Join Ordering
 - [Pipelining](Pipelining)
 
 ## Sources

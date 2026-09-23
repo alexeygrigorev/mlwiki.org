@@ -16,7 +16,7 @@ Suppose that
 
 ### Examples
 Example 1:
-- to speed up a query we send it to two databases 
+- to speed up a query we send it to two [databases](Database) 
 - once the first answer arrives we proceed 
 - and just ignore the second answer 
 

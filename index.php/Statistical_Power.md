@@ -8,7 +8,7 @@ title: Statistical Power
 ---
 ## Statistical Power
 How to detect a false $H_0$? 
-- *The power of a test* is the probability of making a correct decision (by rejecting the $H_0$) when the $H_0$ is false. 
+- *The power of a test* is the [probability](Probability) of making a correct decision (by rejecting the $H_0$) when the $H_0$ is false. 
 - The higher the power, the more sensitive the test in detecting the false hypothesis.
 
 How to have higher power? 
@@ -35,17 +35,17 @@ Suppose that $H_A$ is actually true
 
 Suppose that the actual average is 132: i.e. $\mu = 132$
 we sample 100 individuals 
-then the true sampling distribution of $\bar{x}$ is $N(132, 2.5)$
+then the true [sampling distribution](Sampling_Distribution) of $\bar{x}$ is $N(132, 2.5)$
 since $\text{SE} = \cfrac{25}{\sqrt{100}}$
 what is the probability of successfully rejecting $H_0$?
 
 We can divide it onto two probability questions:
 
 - what are possible values of $\bar{x}$ sufficient to reject $H_0$? (under $H_0$|  )
-- use this hypothetical [Sampling Distribution](Sampling_Distribution) to find the probability of observing such values of $\bar{x}$ (from the 1st step)
+- use this hypothetical Sampling Distribution to find the probability of observing such values of $\bar{x}$ (from the 1st step)
 
 Step 1
-The null distribution is $N(130, 2.5)$
+The null [distribution](Distributions) is $N(130, 2.5)$
 the 2.5% tails are those with $Z = \pm 1.96$
 
 $-1.96 = z_1 = \cfrac{x_1 - 130}{2.5}

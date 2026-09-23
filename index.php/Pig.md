@@ -9,10 +9,10 @@ title: Pig
 Pig Latin is a SQL-like declarative query language that runs on top of [Hadoop](Hadoop)
 
 Pig Latin
-- needs data model in form of UDF (user defined function)
-- first it generated a query plan
+- needs [data model](Data_Model) in form of UDF (user defined function)
+- first it generated a [query plan](Query_Plan)
 - then compiles it into a set of MR jobs
-- some optimizations are applied
+- some [optimizations](Optimization) are applied
 
 
 ## Example
@@ -45,7 +45,7 @@ in Pig FOREACH $\approx$ [Map](MapReduce#Map_Function)
 
 
 ## See also
-- [Hadoop](Hadoop)
+- Hadoop
 - [Hive](Hive)
 
 ## Links

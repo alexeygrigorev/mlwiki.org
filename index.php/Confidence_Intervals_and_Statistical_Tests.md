@@ -9,7 +9,7 @@ title: Confidence Intervals and Statistical Tests
 How to connect [Hypothesis Testing](Statistical_Tests_of_Significance) and [Confidence Intervals](Confidence_Intervals)? 
 
 ## Example
-- Remember [the beer cap flipping experiment](Confidence_Intervals#Beer_Cap_Flipping)? 
+- Remember the beer cap flipping experiment? 
 - We test: $H_0: p = 0.5, H_A: p \neq 0.5$ (2-sided)
 Observations:
 - $n = 1000$
@@ -41,7 +41,7 @@ This will only happen if
 - where $T_{\alpha/2, n-1}$ is *critical value* s.t.
   $P(\mid t_{n-1}\mid \geqslant T_{\alpha/2, n-1} ) = \alpha$
 
-And $(1 - \alpha)$ [Confidence Intervals](Confidence_Intervals) for $\mu$ is
+And $(1 - \alpha)$ Confidence Intervals for $\mu$ is
 - $\bar{X} \pm T_{\alpha/2, n-1} \cdot \sqrt{s^2 / n}$
 - This misses $\mu_0$ when 
   $| \bar{X} - \mu_0 | \geqslant T_{\alpha/2, n-1} \cdot \sqrt{s^2 / n}$
@@ -50,8 +50,8 @@ So these are equivalent:
   Reject $H_0$ when C.I. misses $\mu_0$
 
 ## See also
-- [Confidence Intervals](Confidence_Intervals)
-- [Statistical Tests of Significance](Statistical_Tests_of_Significance)
+- Confidence Intervals
+- Statistical Tests of Significance
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)

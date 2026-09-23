@@ -27,7 +27,7 @@ Applications:
 - Organizing documents intro hierarhical clusters  Cutting1992
 - see Anick1997, Cutting1993 ([Scatter/Gather](Scatter_Gather))
 - Corpus Summarization 
-- Improving [Document Classification](Document_Classification) - see Baker1998 and Bekkerman2001
+- Improving Document Classification - see Baker1998 and Bekkerman2001
 
 
 
@@ -46,7 +46,7 @@ Alternative representation:
 
 
 ### [Feature Selection](Feature_Selection)
-Concept of distance and similarity may be not meaningful in high-dimensional space 
+Concept of [distance](Distance_Functions) and similarity may be not meaningful in high-dimensional space 
 - so may need to reduce dimensionality
 
 In text mining usually referred as "Term Selection":
@@ -56,7 +56,7 @@ In text mining usually referred as "Term Selection":
 
 
 ### [Dimensionality Reduction](Dimensionality_Reduction)
-- [Term Clustering](Term_Clustering): find clusters of terms and replace the terms by their centroids
+- Term Clustering: find clusters of terms and replace the terms by their centroids
 - [PCA](PCA) gives the basis for [Latent Semantic Analysis](Latent_Semantic_Analysis)
 - [Non-Negative Matrix Factorization](Non-Negative_Matrix_Factorization)
 
@@ -66,7 +66,7 @@ In text mining usually referred as "Term Selection":
 - [Hierarchical Clustering](Hierarchical_Clustering): good for Document clustering because it creates a [tree](Tree) structure
 - Partitioning Clustering Algorithms
   - [K-Means](K-Means)
-  - [Scatter/Gather](Scatter_Gather)
+  - Scatter/Gather
 - Parametric Modeling Methods like [Expectation Maximization](Expectation_Maximization)
 
 
@@ -79,7 +79,7 @@ Popular choice:
 
 
 If not [Vector Space Models](Vector_Space_Models):
-- [Language Models](Language_Models): symmetric variant [KL Divergence](KL_Divergence)
+- Language Models: symmetric variant KL Divergence
 - Keep documents as strings: [Edit Distance](Edit_Distance) (but it'll most likely be extremely slow)
 
 
@@ -102,7 +102,7 @@ Direct similarity measures are not always reliable for high-dimensional clusteri
 A variation of K-Means: 
 - Bisecting K-Means: gives good performance for document clusters
 - [K-Medoids](K-Medoids) for non-Euclidean distances, using medoid ($\approx$ median) instead of mean for selecting a centroid
-- [Scatter/Gather](Scatter_Gather): 
+- Scatter/Gather: 
   - smart seed selection
   - centroid = concatenation of all docs in the cluster
   - Split and Join refinement operations
@@ -118,17 +118,17 @@ Main idea:
 Clustering terms and documents at the same time 
 - clustering of terms and clustering of documents are dual problems
 - take advantage of that
-- also can use [Non-Negative Matrix Factorization](Non-Negative_Matrix_Factorization) $A \approx UV^T$ where $U$ are clusters of docs and $V$ are clusters of terms 
+- also can use Non-Negative Matrix Factorization $A \approx UV^T$ where $U$ are clusters of docs and $V$ are clusters of terms 
 
 
 ### [Latent Semantic Analysis](Latent_Semantic_Analysis)
-Using [PCA](PCA) define new features from terms 
+Using PCA define new features from terms 
 - it creates a new semantic space where problems like symomymy or polysemy are solved 
 - term-document [matrix](Matrix) is decomposed using [SVD](SVD)
 
 
 Not only SVD is good:
-- can also use [Non-Negative Matrix Factorization](Non-Negative_Matrix_Factorization) techniques 
+- can also use Non-Negative Matrix Factorization techniques 
 - this way it's easy to interpret and [clusters can be fuzzy](Fuzzy_Clustering)
 
 
@@ -140,7 +140,7 @@ Not only SVD is good:
 
 ### [Semi-Supervised Clustering](Semi-Supervised_Clustering)
 Use prior knowledge to help clustering 
-- e.g. if you know some of the labels, do better seed selection for [K-Means](K-Means)
+- e.g. if you know some of the labels, do better seed selection for K-Means
 
 
 
@@ -155,7 +155,7 @@ Idea:
 - usually a document contains only a small portion of terms 
 - so document vectors are very sparse
 - typical distance is cosine similarity - it ignores zeros. for cosine to be non-zero, two docs need to share at least one term
-- $D^T$ is the inverted index of the term-document matrix $D$
+- $D^T$ is the [inverted index](Inverted_Index) of the term-document matrix $D$
 
 
 this, to find docs similar to $d$:

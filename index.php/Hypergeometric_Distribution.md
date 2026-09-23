@@ -10,10 +10,10 @@ title: Hypergeometric Distribution
 
 Suppose a batch of $N$ items contains $M$ standard items ($M < N$). From the batch, $n$ items are selected without replacement.
 
-$X$ is a random variable representing the number $m$ of standard items among the $n$ selected. Possible values of $X: 0, 1, ..., \min(M, n)$
+$X$ is a [random variable](Random_Variable) representing the number $m$ of standard items among the $n$ selected. Possible values of $X: 0, 1, ..., \min(M, n)$
 
 
-The probability that $X = m$:
+The [probability](Probability) that $X = m$:
 - The total number of outcomes is $C_N^n$
 - The number of outcomes favorable to $X = m$:
 
@@ -39,4 +39,4 @@ Among 50 items, 20 are painted. Find the probability that out of 5 drawn items, 
 - [Geometric Distribution](Geometric_Distribution)
 
 ## Sources
-- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vyssh. shk., 2003.
+- Gmurman V.E., Probability Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vyssh. shk., 2003.

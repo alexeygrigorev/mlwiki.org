@@ -6,7 +6,7 @@ tags:
 title: Correlation
 ---
 ## Independent Random Variables
-If $X$ and $Y$ are independent, then the distribution of one does not affect the value of the other. Otherwise, the random variables are called dependent.
+If $X$ and $Y$ are independent, then the [distribution](Distributions) of one does not affect the value of the other. Otherwise, the [random variables](Random_Variable) are called dependent.
 
 
 ## Covariance
@@ -38,7 +38,7 @@ $| \text{cov}(X, Y)| \leqslant \sigma(X) \sigma(Y)$
 Similarly, $\text{Var}(Z_2) = 2\sigma^2(X)\sigma^2(Y) + 2\sigma(X)\sigma(Y) \text{cov}(X, Y)$
 
 
-Since any variance is non-negative, we obtain:
+Since any [variance](Variance) is non-negative, we obtain:
 - $\text{Var}(Z_1) \geqslant 0$
 - $2\sigma^2(X)\sigma^2(Y) - 2\sigma(X)\sigma(Y) \text{cov}(X, Y) \geqslant 0$
 - $2\sigma^2(X)\sigma^2(Y) \geqslant 2\sigma(X)\sigma(Y) \text{cov}(X, Y)$
@@ -78,6 +78,6 @@ $r(X, Y) = r = \cfrac{\text{cov}(X, Y)}{\sigma(X) \sigma(Y)}$
 Since $| \text{cov}(X, Y)| \leqslant \sigma(X)\sigma(Y)$, it follows that $-1 \leqslant r \leqslant 1$
 
 ## Sources
-- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vyssh. shk., 2003.
+- Gmurman V.E., [Probability](Probability) Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vyssh. shk., 2003.
 - http://ru.wikipedia.org/wiki/Covariance
 - http://ru.wikipedia.org/wiki/Correlation
