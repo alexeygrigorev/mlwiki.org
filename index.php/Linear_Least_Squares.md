@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Linear_Least_Squares
-title: Linear Least Squares
+redirect_to: /index.php/OLS_Regression
+title: OLS Regression
 ---

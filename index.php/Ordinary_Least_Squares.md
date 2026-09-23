@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Ordinary_Least_Squares
-title: Ordinary Least Squares
+redirect_to: /index.php/OLS_Regression
+title: OLS Regression
 ---
-1. REDIRECT [OLS Regression](OLS_Regression)

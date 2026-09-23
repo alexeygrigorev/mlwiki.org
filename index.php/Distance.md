@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Distance
-title: Distance
+redirect_to: /index.php/Distance_Functions
+title: Distance Functions
 ---

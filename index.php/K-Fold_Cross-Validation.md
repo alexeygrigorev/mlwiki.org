@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/K-Fold_Cross-Validation
-title: K-Fold Cross-Validation
+redirect_to: /index.php/Cross-Validation#K-Fold_Cross-Validation
+title: Cross-Validation#K-Fold Cross-Validation
 ---
-1. REDIRECT [Cross-Validation#K-Fold Cross-Validation](Cross-Validation#K-Fold_Cross-Validation)

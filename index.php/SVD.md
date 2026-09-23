@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/SVD
-title: SVD
+redirect_to: /index.php/Singular_Value_Decomposition
+title: Singular Value Decomposition
 ---
-1. REDIRECT [Singular Value Decomposition](Singular_Value_Decomposition)

@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/LU_Factorization
-title: LU Factorization
+redirect_to: /index.php/LU_Decomposition
+title: LU Decomposition
 ---
-1. REDIRECT [LU Decomposition](LU_Decomposition)

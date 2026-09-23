@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Orthogonal_Matrix
-title: Orthogonal Matrix
+redirect_to: /index.php/Orthogonal_Matrices
+title: Orthogonal Matrices
 ---
-1. REDIRECT [Orthogonal Matrices](Orthogonal_Matrices)

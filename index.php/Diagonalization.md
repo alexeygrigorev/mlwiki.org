@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Diagonalization
-title: Diagonalization
+redirect_to: /index.php/Eigendecomposition
+title: Eigendecomposition
 ---
-1. REDIRECT [Eigendecomposition](Eigendecomposition)

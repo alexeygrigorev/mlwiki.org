@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Chi-Squared_Test
-title: Chi-Squared Test
+redirect_to: /index.php/Chi-Squared_Tests
+title: Chi-Squared Tests
 ---
-1. REDIRECT [Chi-Squared Tests](Chi-Squared_Tests)

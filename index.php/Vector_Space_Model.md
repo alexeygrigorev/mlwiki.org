@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Vector_Space_Model
-title: Vector Space Model
+redirect_to: /index.php/Vector_Space_Models
+title: Vector Space Models
 ---
-1. REDIRECT [Vector Space Models](Vector_Space_Models)

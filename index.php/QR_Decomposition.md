@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/QR_Decomposition
-title: QR Decomposition
+redirect_to: /index.php/Gram-Schmidt_Process#QR_Factorization
+title: Gram-Schmidt Process#QR Factorization
 ---
-1. REDIRECT [Gram-Schmidt Process#QR Factorization](Gram-Schmidt_Process#QR_Factorization)

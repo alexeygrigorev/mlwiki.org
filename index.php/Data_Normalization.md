@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Data_Normalization
-title: Data Normalization
+redirect_to: /index.php/Feature_Normalization
+title: Feature Normalization
 ---
-1. REDIRECT [Feature Normalization](Feature_Normalization)

@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Statistical_Tests_of_Significance
-title: Statistical Tests of Significance
+redirect_to: /index.php/Hypothesis_Testing
+title: Hypothesis Testing
 ---

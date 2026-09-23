@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Vector_Space
-title: Vector Space
+redirect_to: /index.php/Vector_Spaces
+title: Vector Spaces
 ---
-1. REDIRECT [Vector Spaces](Vector_Spaces)

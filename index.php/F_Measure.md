@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/F_Measure
-title: F Measure
+redirect_to: /index.php/Precision_and_Recall#F_Measure
+title: Precision and Recall#F Measure
 ---
-1. REDIRECT [Precision and Recall#F Measure](Precision_and_Recall#F_Measure)

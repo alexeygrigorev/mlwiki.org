@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Functions
-title: Functions
+redirect_to: /index.php/Function
+title: Function
 ---
-1. REDIRECT [Function](Function)

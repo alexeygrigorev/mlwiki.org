@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Taylor_Expansion
-title: Taylor Expansion
+redirect_to: /index.php/Taylor_Series
+title: Taylor Series
 ---
-1. REDIRECT [Taylor Series](Taylor_Series)

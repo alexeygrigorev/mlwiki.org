@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Gram_Matrix
-title: Gram Matrix
+redirect_to: /index.php/Gram_Matrices
+title: Gram Matrices
 ---
-1. REDIRECT [Gram Matrices](Gram_Matrices)

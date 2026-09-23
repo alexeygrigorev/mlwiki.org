@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Frequent_Pattern_Mining
-title: Frequent Pattern Mining
+redirect_to: /index.php/Frequent_Patterns_Mining
+title: Frequent Patterns Mining
 ---
-1. REDIRECT [Frequent Patterns Mining](Frequent_Patterns_Mining)

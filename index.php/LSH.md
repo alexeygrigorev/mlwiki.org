@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/LSH
-title: LSH
+redirect_to: /index.php/Locality_Sensitive_Hashing
+title: Locality Sensitive Hashing
 ---
-1. REDIRECT [Locality Sensitive Hashing](Locality_Sensitive_Hashing)

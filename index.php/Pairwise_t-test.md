@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Pairwise_t-test
-title: Pairwise t-test
+redirect_to: /index.php/t-tests#Pairwise_t-test
+title: t-tests#Pairwise t-test
 ---
-1. REDIRECT [t-tests#Pairwise t-test](t-tests#Pairwise_t-test)

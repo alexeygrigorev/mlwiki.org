@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Statistical_Test
-title: Statistical Test
+redirect_to: /index.php/Hypothesis_Testing
+title: Hypothesis Testing
 ---
-1. REDIRECT [Hypothesis Testing](Hypothesis_Testing)

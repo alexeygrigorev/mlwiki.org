@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Inner_Product
-title: Inner Product
+redirect_to: /index.php/Dot_Product
+title: Dot Product
 ---

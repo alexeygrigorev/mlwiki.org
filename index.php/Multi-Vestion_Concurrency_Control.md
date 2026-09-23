@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Multi-Vestion_Concurrency_Control
-title: Multi-Vestion Concurrency Control
+redirect_to: /index.php/Multi-Version_Concurrency_Control
+title: Multi-Version Concurrency Control
 ---

@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Limit
-title: Limit
+redirect_to: /index.php/Limits
+title: Limits
 ---
-1. REDIRECT [Limits](Limits)

@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Feature_Scaling
-title: Feature Scaling
+redirect_to: /index.php/Feature_Normalization
+title: Normalization
 ---

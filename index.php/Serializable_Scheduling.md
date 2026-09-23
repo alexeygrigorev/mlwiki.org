@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Serializable_Scheduling
-title: Serializable Scheduling
+redirect_to: /index.php/Serializable_Schedule
+title: Serializable Schedule
 ---
-1. REDIRECT [Serializable Schedule](Serializable_Schedule)

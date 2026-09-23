@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Cofactors
-title: Cofactors
+redirect_to: /index.php/Determinants#Cofactors
+title: Determinants#Cofactors
 ---
-1. REDIRECT [Determinants#Cofactors](Determinants#Cofactors)

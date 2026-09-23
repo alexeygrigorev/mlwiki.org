@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Cumulative_Distribution_Function
-title: Cumulative Distribution Function
+redirect_to: /index.php/Distribution_Function
+title: Distribution Function
 ---
-1. REDIRECT [Distribution Function](Distribution_Function)

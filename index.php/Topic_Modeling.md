@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Topic_Modeling
-title: Topic Modeling
+redirect_to: /index.php/Topic_Models
+title: Topic Models
 ---
-1. REDIRECT [Topic Models](Topic_Models)

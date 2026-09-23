@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Data_Warehousing
-title: Data Warehousing
+redirect_to: /index.php/Data_Warehouse
+title: Data Warehouse
 ---
-1. REDIRECT [Data Warehouse](Data_Warehouse)

@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/OBDA
-title: OBDA
+redirect_to: /index.php/Ontology_Based_Data_Access
+title: Ontology Based Data Access
 ---
-1. REDIRECT [Ontology Based Data Access](Ontology_Based_Data_Access)

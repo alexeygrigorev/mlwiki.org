@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/SVM
-title: SVM
+redirect_to: /index.php/Support_Vector_Machines
+title: Support Vector Machines
 ---
-1. REDIRECT [Support Vector Machines](Support_Vector_Machines)

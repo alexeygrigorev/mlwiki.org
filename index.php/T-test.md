@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/T-test
-title: T-test
+redirect_to: /index.php/T-tests
+title: T-tests
 ---
-1. REDIRECT [T-tests](T-tests)

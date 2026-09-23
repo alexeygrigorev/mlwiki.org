@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Distribution
-title: Distribution
+redirect_to: /index.php/Distributions
+title: Distributions
 ---
-1. REDIRECT [Distributions](Distributions)

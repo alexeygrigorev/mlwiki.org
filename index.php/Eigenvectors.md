@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Eigenvectors
-title: Eigenvectors
+redirect_to: /index.php/Eigenvalues_and_Eigenvectors
+title: Eigenvalues and Eigenvectors
 ---
-1. REDIRECT [Eigenvalues and Eigenvectors](Eigenvalues_and_Eigenvectors)

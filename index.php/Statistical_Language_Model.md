@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Statistical_Language_Model
-title: Statistical Language Model
+redirect_to: /index.php/Statistical_Language_Models
+title: Statistical Language Models
 ---
-1. REDIRECT [Statistical Language Models](Statistical_Language_Models)

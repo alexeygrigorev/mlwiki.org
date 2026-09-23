@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Determinant
-title: Determinant
+redirect_to: /index.php/Determinants
+title: Determinants
 ---
-1. REDIRECT [Determinants](Determinants)

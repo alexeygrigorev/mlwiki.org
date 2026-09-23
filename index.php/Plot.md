@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Plot
-title: Plot
+redirect_to: /index.php/Plots
+title: Plots
 ---
-1. REDIRECT [Plots](Plots)

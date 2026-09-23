@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: redirect
 permalink: /index.php/Pattern_Mining
-title: Pattern Mining
+redirect_to: /index.php/Rule_Mining
+title: Rule Mining
 ---
