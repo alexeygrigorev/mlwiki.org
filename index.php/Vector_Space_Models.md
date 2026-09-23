@@ -228,7 +228,7 @@ Solutions:
 - Distributed Clusters (Bekkerman et al. Distributional word clusters vs. words for text categorization. 2002)
 - Concept-Based Representation (Gonzalo et al. Indexing with WordNet synsets can improve text retrieval. 1998)
 - [Latent Semantic Analysis](Latent_Semantic_Analysis)
-- [Domain Spaces](Semantic_Domains#Domain_Spaces)
+- [Domain Spaces](Semantic_Domains#domain-space)
 
 
 

@@ -20,7 +20,7 @@ This statistics in DBMS is a *system catalog*
 ## Statistics
 For base relations we typically have some [Histogram](Histogram)s that show how values are distributed
 
-### [Equal-Width Histogram](Data_Discretization#Equal-Width_Partitioning)
+### [Equal-Width Histogram](Data_Discretization#equal-width-partitioning)
 - In this type of histograms the values are grouped in equal-width buckets
 - We assume that the values are distributed uniformly within there buckets 
 

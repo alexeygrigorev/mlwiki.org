@@ -227,7 +227,7 @@ What if we need to exchange rows?
 
 
 ## See Also
-- [Inverse Matrices#Gauss-Jordan Elimination](Inverse_Matrices#Gauss-Jordan_Elimination)
+- [Inverse Matrices#Gauss-Jordan Elimination](Inverse_Matrices#gauss-jordan-elimination)
 - LU Factorization
 
 ## Sources

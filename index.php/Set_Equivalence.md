@@ -79,7 +79,7 @@ $\square$
 ## [Conjunctive Query](Conjunctive_Query)
 There also is a notion of containment for database queries 
 - this is used for checking for equivalence of two queries 
-- See [Conjunctive Query#Containment And Equivalence](Conjunctive_Query#Containment_And_Equivalence)
+- See [Conjunctive Query#Containment And Equivalence](Conjunctive_Query#containment-and-equivalence)
 
 ## Sources
 - [Automata (coursera)](Automata_%28coursera%29)

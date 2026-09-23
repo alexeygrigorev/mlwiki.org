@@ -22,7 +22,7 @@ Suppose we have an $m \times n$ matrix of rank $r$
 ### [Orthogonality](Orthogonality)
 - Nullspace of $A$ is orthogonal to the row space: $N(A) \; \bot \; C(A^T)$
 - Left nullspace of $A$ is orthogonal to the column space:  $N(A^T) \; \bot \; C(A)$
-- see the proof in [Space Orthogonality#Row space and Nullspace](Space_Orthogonality#Row_space_and_Nullspace)
+- see the proof in [Space Orthogonality#Row space and Nullspace](Space_Orthogonality#row-space-and-nullspace)
 
 
 ### [Column Space](Column_Space)
@@ -41,7 +41,7 @@ Suppose we have an $m \times n$ matrix of rank $r$
 - basis: special solutions for [$A\mathbf x = \mathbf 0$](Homogeneous_Systems_of_Linear_Equations)
 
 
-### [Left Nullspace](Nullspace#Left_Nullspace)
+### [Left Nullspace](Nullspace#left-nullspace)
 - This is the nullspace of $A^T$ ($A^T$ is $n \times m$ matrix of rank $r$)
 - $\text{dim } N(A^T) = m - r$ - there are $m$ columns, $m$ variables, and $m - r$ free variables
 

@@ -47,7 +47,7 @@ This method satisfies:
 
 This method does not satisfy:
 - [Independence to Third Alternatives](Independence_to_Third_Alternatives)
-- [Condorcet Fairness](Condorcet's_Rule#Fairness)
+- [Condorcet Fairness](Condorcet's_Rule#fairness)
 
 
 ### [Monotonicity](Monotonicity)
@@ -126,7 +126,7 @@ Scores are:
 So we see that by carefully choosing new candidates it's possible to manipulate the results. 
 
 
-### [Condorcet Fairness](Condorcet's_Rule#Fairness)
+### [Condorcet Fairness](Condorcet's_Rule#fairness)
 Consider these individual rankings for $A = \{a, b, c\}, N = 5$
 - 3: $a > b > c$
 - 2: $b > c > a$

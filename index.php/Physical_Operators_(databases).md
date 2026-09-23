@@ -21,15 +21,15 @@ And also we use
 - $M$ - number of available main memory buffers 
 
 To simplify we suppose that the situation is ideal
-- all buffers of [Buffer Manager](Database#Buffer_Manager) are available 
+- all buffers of [Buffer Manager](Database#buffer-manager) are available 
 - there are no other operations that concurrently claim the space
 
 
 ## Operators Overview
 
-|   Type $\downarrow$  |   [Bag Union](#Bag_Union)  |   [Set Union](#Set_Union)  |   [Set Intersection](#Set_Intersection)  |   [Bag Intersection](#Bag_Intersection)  |   [Set Difference](#Set_Difference)   |   [Bag Difference](#Bag_Difference)  |   [Join](#Join)  |   One-Pass  |  [Yes](#Bag_Union) ||  [Yes](#One-Pass_Set_Union) ||  [Yes](#One-Pass_Set_Intersection) ||  [Yes](#One-Pass_Bag_Intersection) ||  [Yes](#One-Pass_Set_Difference) ||  [Yes](#One-Pass_Bag_Difference) ||  [Yes](#One-Pass_Join) ||   Sort-Based   |  No ||  [Yes](#Sort-Based_Set_Union) ||  [Yes](#Sort-Based_Set_Intersection) ||  [Yes](#Sort-Based_Bag_Intersection) ||  [Yes](#Sort-Based_Set_Difference) ||  [Yes](#Sort-Based_Bag_Difference) ||  [Yes](#Sort-Based_Join) ||   Hash-Based  |  No ||  [Yes](#Hash-Based_Set_Union) ||  not here ||  not here ||  not here ||  not here ||  [Yes](#(Partition)_Hash_Join) |
+|   Type $\downarrow$  |   [Bag Union](#bag-union)  |   [Set Union](#set-union)  |   [Set Intersection](#set-intersection)  |   [Bag Intersection](#bag-intersection)  |   [Set Difference](#set-difference)   |   [Bag Difference](#bag-difference)  |   [Join](#join)  |   One-Pass  |  [Yes](#bag-union) ||  [Yes](#one-pass-set-union) ||  [Yes](#one-pass-set-intersection) ||  [Yes](#one-pass-bag-intersection) ||  [Yes](#one-pass-set-difference) ||  [Yes](#one-pass-bag-difference) ||  [Yes](#one-pass-join) ||   Sort-Based   |  No ||  [Yes](#sort-based-set-union) ||  [Yes](#sort-based-set-intersection) ||  [Yes](#sort-based-bag-intersection) ||  [Yes](#sort-based-set-difference) ||  [Yes](#sort-based-bag-difference) ||  [Yes](#sort-based-join) ||   Hash-Based  |  No ||  [Yes](#hash-based-set-union) ||  not here ||  not here ||  not here ||  not here ||  [Yes](#partition-hash-join) |
 Also:
-- For Joins: [#Nested Loop Join](#Nested_Loop_Join)
+- For Joins: [#Nested Loop Join](#nested-loop-join)
 
 
 ## Bag Union
@@ -166,7 +166,7 @@ Suppose $M = 15, B(R) = 100, B(S) = 120$
 Main idea: we want to partition both $R$ and $S$ in such a way that
 - if a tuple appears in some bucket from $R$ it should appear in the corresponding bucket from $S$
 - each bucket contains no more that $M - 1$ blocks 
-- so it is possible to apply [One-Pass Set Union](#One-Pass_Set_Union) to each bucket
+- so it is possible to apply [One-Pass Set Union](#one-pass-set-union) to each bucket
 
 #### Record distribution
 - $B(R) < B(S)$ - $R$ is smaller than $S$
@@ -229,7 +229,7 @@ $R \cap_S S$
 - assume $R$ is smaller than $S$
 
 ### One-Pass Set Intersection
-Essentially same as [#One-Pass Set Union ](#One-Pass_Set_Union_) 
+Essentially same as [#One-Pass Set Union ](#one-pass-set-union) 
 - if $R$ is small enough to fit into $M - 1$ buffers 
 
 Algorithm 
@@ -240,7 +240,7 @@ Algorithm
     - if $t_S \in K_R$, output $t_S$
 
 ### Sort-Based Set Intersection
-- same as [#Sort-Based Set Union](#Sort-Based_Set_Union)
+- same as [#Sort-Based Set Union](#sort-based-set-union)
 - output $t$ if it appears in both $R$ and $S$
 
 
@@ -249,7 +249,7 @@ $R \cap_B S$
 - assume $R$ is smaller than $S$
 
 ### One-Pass Bag Intersection
-Essentially same as [#One-Pass Set Union](#One-Pass_Set_Union) 
+Essentially same as [#One-Pass Set Union](#one-pass-set-union) 
 - if $R$ is small enough to fit into $M - 1$ buffers 
 - but for each distinct value we associate a *count* - number of times this tuple occurred
   - generally, this structure can take more that $M - 1$ memory buffer if there are few duplicates
@@ -268,7 +268,7 @@ Algorithm
 
 
 ### Sort-Based Bag Intersection
-- same as [#Sort-Based Set Union](#Sort-Based_Set_Union)
+- same as [#Sort-Based Set Union](#sort-based-set-union)
 - output $t$ the number of times it appears both in $R$ and $S$
 
 
@@ -298,12 +298,12 @@ $R -_S S$ case
 - for each tuple $t_R$ that is still in $K_R$ output $t_R$
 
 ### Sort-Based Set Difference
-- same as [#Sort-Based Set Union](#Sort-Based_Set_Union)
+- same as [#Sort-Based Set Union](#sort-based-set-union)
 - output $t$ if it appears in $R$ but not in $S$
 
 
 ## Bag Difference
-- same as in [#Bag Intersection](#Bag_Intersection): we *count* the number of occurrences
+- same as in [#Bag Intersection](#bag-intersection): we *count* the number of occurrences
 - also two cases: $S -_B R$ and $R -_B S$
 
 ### One-Pass Bag Difference
@@ -330,7 +330,7 @@ $R -_B S$ case
   - output $t_R$ *count* times
 
 ### Sort-Based Bag Difference
-- same as [#Sort-Based Set Union](#Sort-Based_Set_Union)
+- same as [#Sort-Based Set Union](#sort-based-set-union)
 - for each tuple $t$
   - let $c_R$ = number of times $t$ appears in $R$
   - let $c_S$ = number of times $t$ appears in $S$
@@ -386,7 +386,7 @@ Algo
     - for each matching tuple $t_S \in N_0$: output $t_R \Join t_S$
 
 ### Sort-Based Join
-Essentially the same as [#Sort-Based Set Union](#Sort-Based_Set_Union)
+Essentially the same as [#Sort-Based Set Union](#sort-based-set-union)
 - but in this case we need to take care about duplicates that may be in both $R$ and $S$
 
 Algo
@@ -409,7 +409,7 @@ Cost
   - i.e. tuples in $R$ have distinct values for $Y$ 
   - and for each tuple $t_R$ we have several (maybe 0) tuples $t_S$ - one-to-many relationship
   - so we don't need to rewind the pointer for $t_S$
-  - in this case the cost analysis is similar to the [#Sort-Based Set Union](#Sort-Based_Set_Union)
+  - in this case the cost analysis is similar to the [#Sort-Based Set Union](#sort-based-set-union)
     - sorting cost + $B(R) + B(S)$
   - it's also possible to optimize and save additional $B(R) + B(S)$ I/Os
     - sorting cost - $B(R) - B(S)$
@@ -417,7 +417,7 @@ Cost
 
 
 ### (Partition) Hash Join
-- Essentially the same as [#Hash-Based Set Union](#Hash-Based_Set_Union)
+- Essentially the same as [#Hash-Based Set Union](#hash-based-set-union)
 - the only difference is that we hash the join attribute and not the whole tuple
 
 Algo
@@ -426,7 +426,7 @@ Algo
 - partition $S$ by hashing $Y$ into $k$ buckets
 - let $R_i$ and $S_i$ be blocks of bucket #$i$ that ended up there because their $Y$ values have the same hash
   - a tuple $t_S \in S$ matches $t_R \in S$ $\iff$ there $\exists$ a bucket $i$ s.t. $t_R \in R_i$ and $t_S \in S_i$
-- we compute join by calculating $R_i \Join S_i$ for all $i$ using [#One-Pass Join](#One-Pass_Join) algorithm
+- we compute join by calculating $R_i \Join S_i$ for all $i$ using [#One-Pass Join](#one-pass-join) algorithm
 
 Cost
 - same as for Hash-Based Set Union

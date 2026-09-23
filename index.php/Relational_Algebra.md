@@ -155,7 +155,7 @@ $\begin{array}{ c |  c } |  A & B \\
 $
 
 
-Can be expressed via [Union](#Set-Based_Union) and [Difference](#Set-Based_Difference)
+Can be expressed via [Union](#set-based-union) and [Difference](#set-based-difference)
 - $R_1 \cap R_2 = R_1 - (R_1 - R_2)$
 - $R_1 \cap R_2 = R_1 \Join R_2$
 
@@ -276,7 +276,7 @@ Or "Equi-Join"
 $R \Join S$
 - no requirements for schema for $R$ and $S$
 - if they have one or more attributes in common, in the output tuples with same values will be matched
-- if they don't have attributes in common - the result is the same as $R \times S$ ([Cartesian Product](#Cartesian_Product))
+- if they don't have attributes in common - the result is the same as $R \times S$ ([Cartesian Product](#cartesian-product))
 
 Example:
 - $\begin{array}{ c |  c} |  A & B \\
@@ -327,7 +327,7 @@ $R_1 \Join_{\theta} R_2$
 
 - A join that involves some predicate $\theta$ 
 - For all combinations of tuples from $R_1 \Join_{\theta} R_2$, a tuple is output if $\theta$ holds for the combination
-- essentially is the same as [Cartesian Product](#Cartesian_Product) plus [Selection](#Selection)
+- essentially is the same as [Cartesian Product](#cartesian-product) plus [Selection](#selection)
 
 Examples
 - $R_1 \Join_{\theta} R_2 = \sigma_{\Theta}{R_1 \times R_2}$ 
@@ -359,7 +359,7 @@ $R \AntiJoin S$
 - The result is only tuples from $R$ (the resulting schema is also the same as in $R$)
 
 
-Difference between $R \AntiJoin S$ and $R - S$ ([Difference](#Set-Based_Difference)):
+Difference between $R \AntiJoin S$ and $R - S$ ([Difference](#set-based-difference)):
 - for Difference $R - S$ both $R$ and $S$ need to have the same schema
 - for $R \AntiJoin S$ - any schema
 - if $R$ and $S$ have the same schema, then $R \AntiJoin S \equiv R - S$
@@ -494,7 +494,7 @@ $
 
 
 ### Projection
-- same as [Set-Based Projection](#Set-Based_Projection), but we don't need to eliminate duplicates
+- same as [Set-Based Projection](#set-based-projection), but we don't need to eliminate duplicates
 - hence it's more efficient 
 
 

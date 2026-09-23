@@ -93,7 +93,7 @@ Example 2:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/pred-graph-2.png" alt="Image">
 
 
-*Thm* If the precedence graph $G$ of a schedule $S$ is a [DAG](Graphs#Directed_Acyclic_Graph) then
+*Thm* If the precedence graph $G$ of a schedule $S$ is a [DAG](Graphs#directed-acyclic-graph) then
 - $S$ is conflict-serializable 
 - otherwise it's not
 

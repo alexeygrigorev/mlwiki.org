@@ -3,4 +3,4 @@ layout: default
 permalink: /Coordination_Game
 title: Coordination Game
 ---
-1. redirect [Cooperation Game#Coordination Game](Cooperation_Game#Coordination_Game)
+1. redirect [Cooperation Game#Coordination Game](Cooperation_Game#coordination-game)

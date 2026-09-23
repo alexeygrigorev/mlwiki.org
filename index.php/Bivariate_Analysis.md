@@ -29,17 +29,17 @@ If two variables are numeric:
 - plot a [Scatter Plot](Scatter_Plot)
 - try to fit a [regression line](Linear_Regression) 
 - and find [Correlation](Correlation) between them 
-- or [Discretize](Data_Discretization) one of them and do [#Quantitative vs Categorical](#Quantitative_vs_Categorical) analysis
+- or [Discretize](Data_Discretization) one of them and do [#Quantitative vs Categorical](#quantitative-vs-categorical) analysis
 
 
 ## Quantitative vs Categorical
 If one is numeric, and another is categorical:
 - Visualize one variable w.r.t. another
   - typically group values of numerical variable by the values of categorical
-  - [Box Plot#Bivariate Analysis](Box_Plot#Bivariate_Analysis)
-  - [Bar Chart#Bivariate Analysis](Bar_Chart#Bivariate_Analysis)
-  - [Histogram#Bivariate Analysis](Histogram#Bivariate_Analysis)
-  - [Density Plot#Bivariate Analysis](Density_Plot#Bivariate_Analysis)
+  - [Box Plot#Bivariate Analysis](Box_Plot#bivariate-analysis)
+  - [Bar Chart#Bivariate Analysis](Bar_Chart)
+  - [Histogram#Bivariate Analysis](Histogram#bivariate-analysis)
+  - [Density Plot#Bivariate Analysis](Density_Plot)
 - Can do [One-Way ANOVA F-Test](One-Way_ANOVA_F-Test) to see if there is any dependence between the variables
 
 

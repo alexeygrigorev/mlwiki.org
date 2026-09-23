@@ -11,8 +11,8 @@ title: Algorithms Design and Analysis Part 1 (coursera)
 - [Big O](Big_O)
 
 ## [Divide and Conquer](Divide_and_Conquer)
-- [Gauss Multiplication Algorithm](Divide_and_Conquer#Multiplication)
-- [Master Method](Divide_and_Conquer#The_Master_Method)
+- [Gauss Multiplication Algorithm](Divide_and_Conquer#multiplication)
+- [Master Method](Divide_and_Conquer#the-master-method)
 - [Merge Sort](Merge_Sort)
 - [Quick Sort](Quick_Sort)
 

@@ -15,7 +15,7 @@ Choosing a [physical operator](Physical_Operators_%28databases%29) for a [Relati
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/plan-selection-int-res.png" alt="Image">
 - note that these measures depend only on
   - statistics 
-  - and [Logical Query Plan](Query_Plan#Logical_Query_Plan) and not on Physical Query Plan (no matter what physical algorithm we apply we will end with exactly same result)
+  - and [Logical Query Plan](Query_Plan#logical-query-plan) and not on Physical Query Plan (no matter what physical algorithm we apply we will end with exactly same result)
 
 So the goal:
 - for every internal node $n$ estimate parameters 

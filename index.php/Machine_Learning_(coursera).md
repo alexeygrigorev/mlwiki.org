@@ -28,7 +28,7 @@ title: Machine Learning (coursera)
 
 
 ### [Neural Networks](Neural_Networks)
-- [Representation](Neural_Networks#Model_Representation)
+- [Representation](Neural_Networks#model-representation)
 - Forward Propagation
 - Back Propagation
 
@@ -55,7 +55,7 @@ title: Machine Learning (coursera)
 
 
 ### [Error Metrics](Error_Metrics)
-- [Precision](Error_Metrics#Precision)
+- [Precision](Error_Metrics)
 - Recall
 - $F_1$-score
 

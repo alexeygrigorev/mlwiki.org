@@ -142,7 +142,7 @@ Example
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/var-len-fixed-len.png" alt="Image">
 
 #### Alternative Approach
-Alternatively to [#Put Fixed-Length Fields Ahead](#Put_Fixed-Length_Fields_Ahead)
+Alternatively to [#Put Fixed-Length Fields Ahead](#put-fixed-length-fields-ahead)
 - we keep records of fixed length in the block, but 
 - the variable-length portion of a record - in a separate block 
 - good for variable-length fields and repeating fields
@@ -245,7 +245,7 @@ We can create *an overflow block*
 ### Deletion
 When we delete a record, we may want to reclaim the freed space
 
-If we use an [offset table](#Offset_Table), and can move records around the block, 
+If we use an [offset table](#offset-table), and can move records around the block, 
 - then we can compact the space 
   <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/offset-table.png" alt="Image">
 - note the unused space: we can just shift all the remaining records a bit 
@@ -265,8 +265,8 @@ Usual technique in this case
 - the tombstone is permanent: it must exist until the DB is reconstructed 
 
 Where to put a tombstone depends on the nature of record pointers 
-- for [offset table](#Offset_Table): could be a NULL-pointer in the offset table
-- for map table (see [#Logical (Structured) Address](#Logical_(Structured)_Address)): a tombstone could be a NULL-pointer returned from the map table 
+- for [offset table](#offset-table): could be a NULL-pointer in the offset table
+- for map table (see [#Logical (Structured) Address](#logical-structured-address)): a tombstone could be a NULL-pointer returned from the map table 
 
 
 If we need to replace records by tombstones, 
@@ -286,11 +286,11 @@ But it's not the case for variable-length records
 
 If the updated version is longer that the old one
 - we'll need to find more space on the block 
-- it may involve [sliding records](#Approach_1__Nearby_Blocks) or [creating overflow blocks](#Approach_2__Overflow_Blocks) 
+- it may involve [sliding records](#approach-1-nearby-blocks) or [creating overflow blocks](#approach-2-overflow-blocks) 
 - if portions are stored on another block, we may need to move elements around that block or create a new one
 
 If the new version is shorter, we may want to reclaim the freed space for later use
-- same as with [#Deletion](#Deletion)
+- same as with [#Deletion](#deletion)
 
 
 ## Sources

@@ -60,7 +60,7 @@ Say we want to fit $h_{\theta}(x) = \theta_0 + \theta_1 x + ... + \theta_4 x^4$
 - (b) if $\lambda$ is intermediate, we fit well
 - (c) if $\lambda$ is small (close to 0) we fit too well, i.e. we overfit
 
-To find the best value for this parameter, [Model Selection](Model_Selection) techniques can be used. For example, [Cross-Validation](Cross-Validation#Cross-Validation_for_Regularization)
+To find the best value for this parameter, [Model Selection](Model_Selection) techniques can be used. For example, [Cross-Validation](Cross-Validation)
 
 
 ## Usage

@@ -34,7 +34,7 @@ This method satisfies:
 This method does not satisfy:
 - [Monotonicity](Monotonicity)
 - [Separability](Separability)
-- [Condorcet Fairness](Condorcet's_Rule#Fairness)
+- [Condorcet Fairness](Condorcet's_Rule#fairness)
 
 
 ### [Monotonicity](Monotonicity)
@@ -85,9 +85,9 @@ But if we consider the global region, we'll have different results:
 So the separability principle is not satisfied in this example. 
 
 
-### [Condorcet Fairness Criterion](Condorcet's_Rule#Fairness)
+### [Condorcet Fairness Criterion](Condorcet's_Rule#fairness)
 Is not satisfied
-- see an example in [Voting Theory Examples#Example 1: Two-Round Voting](Voting_Theory_Examples#Example_1__Two-Round_Voting)
+- see an example in [Voting Theory Examples#Example 1: Two-Round Voting](Voting_Theory_Examples#example-1-two-round-voting)
 
 
 

@@ -147,7 +147,7 @@ These relations are transitive and complete
 - the netflow score $\Phi(a_i)$ is a centered score $s_i$ ($\forall i$) that minimizes the following $Q$:
 - $Q = \sum_{i=1}^n \sum_{j=1}^n \big[ (s_i - s_j) - (\pi_{ij} - \pi_{ji}) \big]^2 $
 - i.e. $Q$ is the sum of squared deviation and we want to minimize it
-- proof: [PROMETHEE/Properties#The PROMETHEE Property](PROMETHEE_Properties#The_PROMETHEE_Property)
+- proof: [PROMETHEE/Properties#The PROMETHEE Property](PROMETHEE_Properties#the-promethee-property)
 
 
 ### Property 1

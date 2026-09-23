@@ -35,7 +35,7 @@ title: Kd-Trees
 
 
 ## Queries
-Good for See [Multi-Dimensional Indexes#Typical Queries](Multi-Dimensional_Indexes#Typical_Queries)
+Good for See [Multi-Dimensional Indexes#Typical Queries](Multi-Dimensional_Indexes#typical-queries)
 - Point Queries (just lookup)
 - Partial Match
   - suppose we specified only $Y$

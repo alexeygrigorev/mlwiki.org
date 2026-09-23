@@ -37,7 +37,7 @@ This is a [database](Database)
 
 
 ### RDF Query Engine
-Closely related to [#RDF Store](#RDF_Store)
+Closely related to [#RDF Store](#rdf-store)
 - [SPARQL](SPARQL): runs structured queries on the store to retrieve data
 - SPARQL is not only a query language, but also a protocol
 - so a query engine can be a web service 

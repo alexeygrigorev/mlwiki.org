@@ -5,7 +5,7 @@ tags:
 - relational-databases
 title: Logical Query Plan Optimization
 ---
-## [Logical Query Plan](Query_Plan#Logical_Query_Plan) Optimization
+## [Logical Query Plan](Query_Plan#logical-query-plan) Optimization
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/query-processing-1st.png" alt="Image">
 
 Translating SQL to RA expression is the first step in [Query Processing](Query_Processing) Pipeline

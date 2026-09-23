@@ -10,7 +10,7 @@ title: Binomial Proportion Tests
 ## Binomial Proportion Tests
 This is a family of [statistical tests](Hypothesis_Testing)  
 - they are typically used for assessing the true proportions of the populations
-- the [Sampling Distribution](Sampling_Distribution) underneath is [Binomial Distribution](Binomial_Distribution), but the tests  use $Z$-statistics and rely on [Normal Distribution](Normal_Distribution) and [Normal Approximation](Binomial_Distribution#Normal_Approximation)
+- the [Sampling Distribution](Sampling_Distribution) underneath is [Binomial Distribution](Binomial_Distribution), but the tests  use $Z$-statistics and rely on [Normal Distribution](Normal_Distribution) and [Normal Approximation](Binomial_Distribution#normal-approximation)
 
 
 ### Exact Binomial Model

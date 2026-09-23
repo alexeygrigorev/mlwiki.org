@@ -28,7 +28,7 @@ This formula is known as the *Binomial Theorem*
 For $(x_1 + ... + x_m)^n$ the coefficient of $x_1^{k_1} \cdot x_2^{k_2} \cdot ... \cdot x_m^{k_m}$ is $P(k_1, k_2, ..., k_m)$.
 
 
-## Proof of the [Properties of Combinations](Combinations#Properties_of_Combinations)
+## Proof of the [Properties of Combinations](Combinations#properties-of-combinations)
 Call a function of the form $(1 + x)^n$ a *generating function*
 
 $(1 + x)^n = C_n^0 + C_n^1 x + ... + C_n^k x^k + ... + C_n^n x^n$.

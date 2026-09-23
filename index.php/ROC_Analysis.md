@@ -286,7 +286,7 @@ mean(p)
 
 ### Examples
 Examples:
-- have a look at the examples in [#Other ROC Curve Examples](#Other_ROC_Curve_Examples)
+- have a look at the examples in [#Other ROC Curve Examples](#other-roc-curve-examples)
 - we see that the better classifier is, the bigger the area under its ROC curve
 - and for the random one it's apparent that it's 0.5
 

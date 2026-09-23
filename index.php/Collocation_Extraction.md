@@ -138,7 +138,7 @@ PMI is the amount of information we get when
 PMI can generalize to any $n$-grams
 - suppose $\mathbf x$ and $\mathbf y$ are vectors (not necessarily of the same dimensions)
 - then $\text{PMI}(\mathbf x, \mathbf y) = \log \cfrac{P(\mathbf x, \mathbf y)}{P(\mathbf x)\, P(\mathbf y)}$
-- also see the [#$n$-Gram Collocations](#$n$-Gram_Collocations) section
+- also see the [#$n$-Gram Collocations](#n-gram-collocations) section
 
 
 ## Estimates

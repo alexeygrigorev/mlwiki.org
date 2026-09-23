@@ -42,7 +42,7 @@ title: Linear Hashing
 ## Increasing Parameters
 ### Increasing $n$
 - when we increase $n$ we start using a new block
-- and we need to re-organize data so the [#Lookup Rule](#Lookup_Rule) invariant is maintained
+- and we need to re-organize data so the [#Lookup Rule](#lookup-rule) invariant is maintained
   - if there's an overflow block, we will reduce it
 
 Reorganization
@@ -59,7 +59,7 @@ If we increase $i$
 
 ### When
 When it's better to increment $n$?
-- Similar to ideas from [Open Hashing Index](Open_Hashing_Index#Reorganization)
+- Similar to ideas from [Open Hashing Index](Open_Hashing_Index#reorganization)
 - $u = \cfrac{\text{# records}}{\text{# buckets}}$ where $u$ is *space utilization*
 - and we set some threshold - once we exceed it, we increment $n$
 - $i$ is incremented when $n$ becomes high enough so it no longer fits in $i$ bites

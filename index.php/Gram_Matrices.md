@@ -58,7 +58,7 @@ $\square$
 
 
 ### Row Space and Column Space
-- we know that $C(A^T A) \subseteq C(A^T) = R(A)$ (see [Matrix Multiplication#Properties](Matrix_Multiplication#Properties))
+- we know that $C(A^T A) \subseteq C(A^T) = R(A)$ (see [Matrix Multiplication#Properties](Matrix_Multiplication))
 - and $R(A^T A) \subseteq R(A)$
 - $\text{rank}(A^T A) = \text{rank}(A)$ (see below)
 - so $C(A^T A) = R(A^T A) = R(A)$
@@ -91,7 +91,7 @@ Check: Let $R$ be an $n \times m$ matrix
 - $A$ is PDM:
 - $\mathbf v^T A \mathbf v = \mathbf v^T R^T R \, \mathbf v = (R \, \mathbf v)^T R \, \mathbf v = \|  R \, \mathbf v \|^2 > 0$
 - if $\mathbf v \ne \mathbf 0$ - and it's the case when columns of $R$ are linearly independent 
-- see the theorem in [Projection onto Subspaces](Projection_onto_Subspaces#Theorem__.24A.5ET_A.24_is_Invertible)
+- see the theorem in [Projection onto Subspaces](Projection_onto_Subspaces#theorem-at-a-is-invertible)
 - If some columns of $R$ are linearly dependent, then still $R^T R$ is semi-positive, with some [eigenvalues](Eigenvalues_and_Eigenvectors) equal to 0
 
 

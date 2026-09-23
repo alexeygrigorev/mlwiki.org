@@ -40,9 +40,9 @@ These are notes of an introductory course to [Statistics](Statistics)
 - [Sample Size Estimation](Sample_Size_Estimation)
 
 ### [Statistical Tests](Hypothesis_Testing) (Week 5)
-- [Structure of Statistical Test](Hypothesis_Testing#Structure_of_Statistical_Test)
-- [Tests For Proportions](Binomial_Proportion_Tests#One-Sample_Binomial_Proportion_Test)
-- [Tests For Means](t-tests#One-Sample_t-test)
+- [Structure of Statistical Test](Hypothesis_Testing#structure-of-statistical-test)
+- [Tests For Proportions](Binomial_Proportion_Tests#one-sample-binomial-test)
+- [Tests For Means](T-tests#one-sample-t-test)
 - [The Power of a Test](Statistical_Power)
 
 ### Two Samples (Week 6)
@@ -53,7 +53,7 @@ These are notes of an introductory course to [Statistics](Statistics)
 ### [Simple Linear Regression](Linear_Regression) (Week 7)
 - [Method of Least Squares](Method_of_Least_Squares)
 - [Residual Analysis](Residual_Analysis)
-- [Limitations](Linear_Regression#Limitations)
+- [Limitations](Linear_Regression#limitations)
 
 ### Statistical Inquiry (Week 8)
 - Capstone case study

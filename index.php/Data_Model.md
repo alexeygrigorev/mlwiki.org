@@ -53,7 +53,7 @@ For example
 
 
 ## Examples
-- [Relational Data Model](Relational_Databases#Relational_Data_Model)
+- [Relational Data Model](Relational_Databases#relational-data-model)
 - [Semi-Structured Data Model](Semi-Structured_Data_Model)s: [XML](XML) or JSON data models
 - etc
 

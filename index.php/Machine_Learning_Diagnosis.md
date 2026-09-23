@@ -21,7 +21,7 @@ What should you try?
 
 
 ### Evaluating a Hypothesis
-To test if we overfit, we can perform [Cross-Validation](Cross-Validation#Evaluating_a_Hypothesis): 
+To test if we overfit, we can perform [Cross-Validation](Cross-Validation): 
 - train the model on the training set 
 - check the model on the test set 
 
@@ -67,8 +67,8 @@ When we try to find the best Regularization parameter for a hypothesis we get si
 [Learning Curves](Learning_Curves) is a technique that is used to
 - sanity-check our algorithm or
 - improve performance 
-- [diagnose high bias](Learning_Curves#Diagnose_High_Bias_(Underfitting)) (underfit)
-- [diagnose high variance](Learning_Curves#Diagnose_High_Variance_(Overfitting)) (overfit)
+- [diagnose high bias](Learning_Curves#diagnose-high-bias-underfitting) (underfit)
+- [diagnose high variance](Learning_Curves#diagnose-high-variance-overfitting) (overfit)
 
 
 ## What To Do Next?

@@ -146,7 +146,7 @@ Obtain candidates
 
 Validation Algo:
 - for a rewriting $R$ find $\text{Exp} \big[ R(...) \big]$
-- check for containment: $\text{Exp} \big[ R(...) \big] \subseteq Q(...)$ where $Q$ is the global query (see [CQ Containment](Conjunctive_Query#Containement))
+- check for containment: $\text{Exp} \big[ R(...) \big] \subseteq Q(...)$ where $Q$ is the global query (see [CQ Containment](Conjunctive_Query#containment))
 - if $\text{Exp} \big[ R(...) \big] \subseteq Q(...)$, then $R$ is a valid rewriting
 
 

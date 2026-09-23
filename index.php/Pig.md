@@ -41,7 +41,7 @@ grp = GROUP join BY City
 res = FOREACH grp GENERATE SUM(Sale)
 ```
 
-in Pig FOREACH $\approx$ [Map](MapReduce#Map_Function)
+in Pig FOREACH $\approx$ [Map](MapReduce#map-function)
 
 
 ## See also

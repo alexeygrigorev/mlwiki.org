@@ -15,7 +15,7 @@ title: Pragmatic Investment Plan
 
 
 ## Have a concrete plan
-- be [SMART](Refactor_your_Wetware#SMART)
+- be [SMART](Refactor_your_Wetware#smart)
 - different goals over time
   - now
     - buy a book

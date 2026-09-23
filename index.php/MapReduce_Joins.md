@@ -21,7 +21,7 @@ There are several types of joins:
 
 
 ### [Hadoop MapReduce](Hadoop_MapReduce) Implementation
-- use [Distributed Cache](Hadoop_MapReduce#Distributed_Cache) for sending the same data to all the nodes
+- use [Distributed Cache](Hadoop_MapReduce#distributed-cache) for sending the same data to all the nodes
 - [BookAndAuthorBroadcastJoin.java](http://github.com/alexeygrigorev/aim3/blob/master/src/main/java/de/tuberlin/dima/aim3/assignment1/BookAndAuthorBroadcastJoin.java) 
 
 

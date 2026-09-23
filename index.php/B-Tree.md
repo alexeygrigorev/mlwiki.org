@@ -49,7 +49,7 @@ How to estimate height?
   - $\left\lceil \cfrac{128 \times 10^6}{255^h} \right\rceil$ blocks at level $h$
   - so it's logarithm 
 - $h = \lceil \log_{255} (128 \cdot 10^6) \rceil = 4$
-- so [#Lookup](#Lookup) is 4 + 1 I/Os
+- so [#Lookup](#lookup) is 4 + 1 I/Os
 
 What if blocks are half-full?
 - since leaves are half-full, they keep 128 records
@@ -73,7 +73,7 @@ What if blocks are half-full?
 
 ## Balancing
 Reasons
-- I/O cost of [looking up](#Lookup) is the longest path from the root to a leaf
+- I/O cost of [looking up](#lookup) is the longest path from the root to a leaf
 - so we want our tree be balanced: 
 - to have paths as short as possible - with all the leaves at the same depth 
 
@@ -103,7 +103,7 @@ suppose we are looking for $k = 35$
 
 Algorithm
 - start at the root
-- follow the suitable pointer (as described in [#Leaf Node](#Leaf_Node)) - this is the left root pointer
+- follow the suitable pointer (as described in [#Leaf Node](#leaf-node)) - this is the left root pointer
 - for the next, take the last ($k \geqslant 35$)
 - and finally read the block 
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/btree-ex-lookup.png" alt="Image">
@@ -190,7 +190,7 @@ Again 4 cases
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/btree-delete-case2.png" alt="Image">
 - we delete $k = 50$ ($n = 4$)
 - we locate the block with 50 and remove this record from it
-- now the block becomes too empty (recall [#Size Invariants](#Size_Invariants))
+- now the block becomes too empty (recall [#Size Invariants](#size-invariants))
 - so we coalesce it with $\fbox{10, 20, 30}$
 - now we have a new block, and the old one is not needed anymore - we remove it 
 - additional bookkeeping: need to make sure the next pointer point to the record the old block pointed to
@@ -217,7 +217,7 @@ Again 4 cases
 Cost 
 - search: depth of the tree
 - remove and regroup: 2 I/Os at each level
-- no need to follow the pointer (i.e. don't do +1 as with [#Insertion](#Insertion))
+- no need to follow the pointer (i.e. don't do +1 as with [#Insertion](#insert))
 - total: $\text{depth} + 2 \times \text{depth} = 3 \times \text{depth}$
 
 

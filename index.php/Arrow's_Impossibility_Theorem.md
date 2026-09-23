@@ -122,7 +122,7 @@ $H$ must satisfy the following conditions:
 ### Condition 1: Universality
 $H$ is defined for every pair $R_1$ and $R_2$
 - i.e. for each pair there should exist a solution
-- we want to avoid the [Condorcet Problem](Condorcet's_Rule#Condorcet's_Paradox) - a cycle
+- we want to avoid the [Condorcet Problem](Condorcet's_Rule#condorcet-paradox) - a cycle
 
 This condition is also called *Unrestricted Domain*
 

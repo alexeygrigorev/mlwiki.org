@@ -123,7 +123,7 @@ Now we're solving $\mathbf p = A \mathbf{\hat x}$
   - or $A^T \mathbf e = \mathbf 0$
 
 
-- thus $\mathbf e \in N(A^T)$ - the projection error belongs to the [left nullspace](Nullspace#Left_Nullspace)
+- thus $\mathbf e \in N(A^T)$ - the projection error belongs to the [left nullspace](Nullspace#left-nullspace)
 - and we know that $C(A) \; \bot \; N(A^T)$ (see [Space Orthogonality](Space_Orthogonality))
 - <img src="http://habrastorage.org/files/f3a/ab5/ebc/f3aab5ebc51540579f18f34bff5d4476.png" alt="Image">
 

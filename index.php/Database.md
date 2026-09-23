@@ -53,7 +53,7 @@ deals with [Crash Recovery](Crash_Recovery)
 Responsible for [Query Processing](Query_Processing)
 - Transforms SQL to [Relational Algebra](Relational_Algebra) (see [Translating SQL to Relational Algebra](Translating_SQL_to_Relational_Algebra))
 - [Optimizes RA expressions](Logical_Query_Plan_Optimization)
-- Creates [Physical Query Plan](Query_Plan#Physical_Query_Plan) from Logical Query Plan using [physical operators](Physical_Operators_%28databases%29)
+- Creates [Physical Query Plan](Query_Plan#physical-query-plan) from Logical Query Plan using [physical operators](Physical_Operators_%28databases%29)
 - [Physical Query Plan Optimization](Physical_Query_Plan_Optimization) is used for finding the cheapest physical query plan
 
 

@@ -51,7 +51,7 @@ Main values of this matrix:
 - *True Negative* - we predicted "-" and the true class is "-"
 - *False Positive* - we predicted "+" and the true class is "-" (Type I error)
 - *False Negative* - we predicted "-" and the true class is "+" (Type II error)
-- (see also [Statistical Tests of Significance#Type I and Type II Errors](Statistical_Tests_of_Significance#Type_I_and_Type_II_Errors))
+- (see also [Statistical Tests of Significance#Type I and Type II Errors](Statistical_Tests_of_Significance))
 
 
 The following measures can be calculated:

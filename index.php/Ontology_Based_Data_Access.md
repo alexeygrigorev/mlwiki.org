@@ -77,7 +77,7 @@ So, Answer set evaluation:
 - query reformulation (rewriting)
   - translate the original query $q$ into a set of queries $Q$
   - reasoning happens here: Only TBox is accessed 
-  - algorithm for rewriting: [#Perfect Rewriting](#Perfect_Rewriting)
+  - algorithm for rewriting: #Perfect Rewriting
 - query execution 
   - for each $q_i \in \{ q \} \cap Q$
   - execute $q_i$ against the ABox

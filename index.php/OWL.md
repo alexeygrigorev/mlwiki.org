@@ -167,7 +167,7 @@ q:CandidateQuestions owl:equivalentClass [
 
 
 ### Set Enumeration: Closing the World
-Recall the Open World Assumption (see [Semantic Web#Main Assumptions](Semantic_Web#Main_Assumptions))
+Recall the Open World Assumption (see [Semantic Web#Main Assumptions](Semantic_Web#main-assumptions))
 - we can't be sure that if we don't have a record about some fact then it doesn't exist: 
 - it can exist, but maybe we just don't know about it
 - sometimes we need to "close the world": assume we know everything

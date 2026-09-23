@@ -13,7 +13,7 @@ title: Database Systems Architecture (ULB)
 
 ## Content
 ### [Query Processing](Query_Processing)
-[Logical Query Plan](Query_Plan#Logical_Query_Plan)
+[Logical Query Plan](Query_Plan#logical-query-plan)
 - [Relational Algebra](Relational_Algebra)
 - [Translating SQL to Relational Algebra](Translating_SQL_to_Relational_Algebra)
 - [Logical Query Plan Optimization](Logical_Query_Plan_Optimization): Heuristics and [optimization](Optimization) of [Conjunctive Queries](Conjunctive_Query)
@@ -55,7 +55,7 @@ Hash-Based Indexes
 
 ### Different Stuff
 - [Physical Data Organization (databases)](Physical_Data_Organization_%28databases%29)
-- [Typical DB Architecture](Database#Classical_DBMS_Architecture)
+- [Typical DB Architecture](Database#classical-dbms-architecture)
 
 ### Ensuring [ACID](ACID)
 ; [A](Atomicity_%28databases%29), [C](Consistency_%28databases%29) and [D](Durability_%28databases%29)

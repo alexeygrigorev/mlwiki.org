@@ -33,7 +33,7 @@ The global ranking is
 
 Therefore $t$ gets elected 
 - But 17 voters (the majority|  ) prefer $x$ to $t$
-- [Condorcet Fairness](Condorcet's_Rule#Fairness) criterion is not satisfied
+- [Condorcet Fairness](Condorcet's_Rule#fairness) criterion is not satisfied
 
 ### Example 1: [Two-Round Voting](Two-Round_Voting)
 Round 1:

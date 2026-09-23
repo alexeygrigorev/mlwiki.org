@@ -52,7 +52,7 @@ Proof:
 1. $\text{Var}(C \cdot X) = C^2 \cdot \text{Var}(X)$
 1. $\text{Var}(X + Y) = \text{Var}(X) + \text{Var}(Y) + 2[E(XY) - E(X)E(Y)]$
 1. : If $X$ and $Y$ are independent, then $E(XY) = E(X)E(Y)$ and $\text{Var}(X + Y) = \text{Var}(X) + \text{Var}(Y)$
-1. : $E(XY) - E(X)E(Y)$ is also called [covariance](Correlation#Covariance)
+1. : $E(XY) - E(X)E(Y)$ is also called [covariance](Correlation#covariance)
 1. for independent $X$ and $Y$ $\text{Var}(X - Y) = \text{Var}(X) + \text{Var}(Y)$ ($\text{Var}(X - Y) = \text{Var}(X + (-1) Y) = \text{Var}(X) + (-1)^2 \text{Var}(Y)$)
 
 

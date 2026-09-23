@@ -216,7 +216,7 @@ From the second part of the proof we may get a way of checking for containment: 
 
 ### The Golden Method
 To decide whether $Q_1 \subseteq Q_2$
-- evaluate $Q_2$ on a canonical database $D_{Q_1}$ (which is a body of $Q_1$, see [#Containment Theorem](#Containment_Theorem))
+- evaluate $Q_2$ on a canonical database $D_{Q_1}$ (which is a body of $Q_1$, see [#Containment Theorem](#containment-theorem))
 - check if the head of $Q_1$ is in the results 
 
 

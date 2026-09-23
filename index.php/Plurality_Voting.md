@@ -30,7 +30,7 @@ Satisfies:
 
 Does not satisfy:
 - [Independence to Third Alternatives](Independence_to_Third_Alternatives)
-- [Condorcet Fairness Criterion](Condorcet's_Rule#Fairness)
+- [Condorcet Fairness Criterion](Condorcet's_Rule#fairness)
 
 
 ### [Monotonicity](Monotonicity)
@@ -103,9 +103,9 @@ Now assume $c$ withdraws:
 - therefore this method suffers from Manipulation
 
 
-### [Condorcet Fairness Criterion](Condorcet's_Rule#Fairness)
+### [Condorcet Fairness Criterion](Condorcet's_Rule#fairness)
 This property is not satisfied
-- see example in [Voting Theory Examples#Example 1: Plurality Voting](Voting_Theory_Examples#Example_1__Plurality_Voting)
+- see example in [Voting Theory Examples#Example 1: Plurality Voting](Voting_Theory_Examples#example-1-plurality-voting)
 
 
 ## Links

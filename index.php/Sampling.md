@@ -29,8 +29,8 @@ For [ML](Machine_Learning) models there are other goals
 
 ## Types of Sampling
 We need a *representative* sample to be able to generalize from the statistics calculated on a sample to the population parameters
-- For that we need to use randomization - and have [#Random Sampling](#Random_Sampling)
-- otherwise can have [#Non-Random Sampling](#Non-Random_Sampling)
+- For that we need to use randomization - and have [#Random Sampling](#random-sampling)
+- otherwise can have [#Non-Random Sampling](#non-random-sampling)
 
 
 ## Random Sampling
@@ -45,7 +45,7 @@ Random sampling (especially SRS - simple random sampling) is very important
 - sampling *with replacement* 
   - an item can be sampled several times
   - used in the Bootstrap method - for resampling
-- also see [Simulation Basics in R#Sampling](Simulation_Basics_in_R#Sampling)
+- also see [Simulation Basics in R#Sampling](Simulation_Basics_in_R#sampling)
 
 
 ### Simple Random Sampling

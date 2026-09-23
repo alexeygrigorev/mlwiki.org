@@ -14,7 +14,7 @@ These are [Confidence Intervals](Confidence_Intervals) for estimating a proporti
 
 
 ## Normal Approximation
-This type of CI makes use of [Central Limit Theorem](Central_Limit_Theorem) and [Normal Approximation](Binomial_Distribution#Normal_Approximation) of [Binomial Distribution](Binomial_Distribution)
+This type of CI makes use of [Central Limit Theorem](Central_Limit_Theorem) and [Normal Approximation](Binomial_Distribution#normal-approximation) of [Binomial Distribution](Binomial_Distribution)
 
 So, for any experiment, let 
 - $p$ be the true probability 
@@ -41,7 +41,7 @@ Parameters of the [Sampling Distribution](Sampling_Distribution)
 - $\text{var}[\hat{p}] = \cfrac{p(1-p)}{n}$
   - $\text{var}[\hat{p}] = \text{var} \left[ \cfrac{1}{n} \sum_{i=1}^n X_i \right] = \cfrac{1}{n^2} \sum_{i=1}^n \text{var}[X_i] = \cfrac{npq}{n^2} = \cfrac{pq}{n} = \cfrac{p(1-p)}{n}$
   - $\text{sd}[ \hat{p} ] = \sqrt{ \cfrac{p \cdot (1 - p)}{n} }$
-- Now we use the [Normal Approximation](Binomial_Distribution#Normal_Approximation) (i.e. apply the [C.L.T.](Central_Limit_Theorem) and calculate that the SD follows [Normal Distribution](Normal_Distribution) $N \left( \mu=p, \sigma = \sqrt{ \cfrac{p(1-p)}{n} } \right)$)
+- Now we use the [Normal Approximation](Binomial_Distribution#normal-approximation) (i.e. apply the [C.L.T.](Central_Limit_Theorem) and calculate that the SD follows [Normal Distribution](Normal_Distribution) $N \left( \mu=p, \sigma = \sqrt{ \cfrac{p(1-p)}{n} } \right)$)
 
 
 We want to build CI at level of $\alpha$

@@ -61,7 +61,7 @@ Main Components
 Hive Query Language is a SQL-like declarative query language for ad-hoc queries 
 
 Main Features
-- it compiles into a [DAG](Graphs#Directed_Acyclic_Graph) of MapReduce jobs that are executed in Hadoop
+- it compiles into a [DAG](Graphs#directed-acyclic-graph) of MapReduce jobs that are executed in Hadoop
 - also can plug custom MapReduce scripts 
 
 

@@ -8,7 +8,7 @@ tags:
 - relational-databases
 title: Physical Query Plan Optimization
 ---
-## [Physical Query Plan](Query_Plan#Physical_Query_Plan) Optimization
+## [Physical Query Plan](Query_Plan#physical-query-plan) Optimization
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/query-processing-3rd.png" alt="Image">
 
 Translating SQL to RA expression is the first step in [Query Processing](Query_Processing) Pipeline
@@ -34,7 +34,7 @@ Bottom-up approach:
 - then to their parents 
 - and so on
 - at each step choose an operator that gives the lowest cost
-- for join operators use a [gredy algorithm for join ordering](Join_Ordering#Greedy_Algorithm)
+- for join operators use a [gredy algorithm for join ordering](Join_Ordering#greedy-algorithm)
 
 ### Limitations
 Doesn't take into account the properties of the output of an operator

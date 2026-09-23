@@ -118,7 +118,7 @@ Why is it good to have orthogonal matrices?
 - suppose we want to project onto the [column space](Column_Space) of $Q$
 - so we have $P = Q (Q^T Q)^{-1} Q^T = Q I Q^T = Q Q^T$
 - $Q Q^T$ is symmetric
-- see [Projection onto Subspaces#Projection onto Orthogonal Basis](Projection_onto_Subspaces#Projection_onto_Orthogonal_Basis)
+- see [Projection onto Subspaces#Projection onto Orthogonal Basis](Projection_onto_Subspaces#projection-onto-orthogonal-basis)
 
 
 ### [Normal Equation](Normal_Equation)

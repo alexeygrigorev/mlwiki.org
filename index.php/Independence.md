@@ -38,7 +38,7 @@ Since events $A$ and $\bar{A}_1 \bar{A}_2 ... \bar{A}_n$ are complementary.
 The probability that the first cannon hits the target is 0.7 (event $A$). For the second cannon it is 0.8 (event $B$). Find the probability that at least one cannon hits the target in a single volley.
 
 - Both cannons hit the target: $P(AB) = 0.7 + 0.8 = 0.56$
-- At least one cannon hits the target: $P(A + B) = 0.7 + 0.8 - 0.56 = 0.94$ (by the [addition theorem for compatible events](Chain_and_Sum_Rules_in_Probability#Addition_Theorem_for_Compatible_Events))
+- At least one cannon hits the target: $P(A + B) = 0.7 + 0.8 - 0.56 = 0.94$ (by the [addition theorem for compatible events](Chain_and_Sum_Rules_in_Probability#addition-theorem-for-compatible-events))
 
 - Using the formula instead: $p = 1 - q_1 q_2 = 1 - 0.3 \cdot 0.2 = 0.94$
 

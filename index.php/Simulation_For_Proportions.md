@@ -13,7 +13,7 @@ Sometimes Statistical Inference can be done without applying theoretical models,
 
 
 Consider Proportions test 
-- there are a set of assumptions that have to be met to use the [Normal Approximation](Binomial_Distribution#Normal_Approximation)
+- there are a set of assumptions that have to be met to use the [Normal Approximation](Binomial_Distribution#normal-approximation)
 - what if one of them is not met, e.g. Success-Failure condition?
 - use [Exact Binomial Proportion Tests](Exact_Binomial_Proportion_Tests) - apply the Binomial Model directly
 - or simulate draws from the binomial model and obtain the [Sampling Distribution](Sampling_Distribution) (or the null [distribution](Distributions))

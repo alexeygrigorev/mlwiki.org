@@ -75,7 +75,7 @@ So the rule is:
 
 
 ### Deletion
-Just the opposite of [#Insertion](#Insertion)
+Just the opposite of [#Insertion](#insert)
 
 
 ## Summary

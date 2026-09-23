@@ -198,7 +198,7 @@ here we also don't regularize bias inputs
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/nn-propagation-ex.png" alt="Image">
 
 suppose we have a training example $(x, y)$
-  To compute cost $J(\theta)$ we use [Forward Propagation](#Forward_Propagation) (vectorized)
+  To compute cost $J(\theta)$ we use [Forward Propagation](#forward-propagation) (vectorized)
 - $a^{(1)} = x$
 - $z^{(2)} = \theta^{(1)} \cdot a^{(1)}$
 - $a^{(2)} = g(z^{(2)})$ (plus adding $a_0^{(2)} = 1$)
@@ -326,11 +326,11 @@ We can break the symmetry with random initialization
 
 ## Implementation
 ### Algorithm
-- [Randomly initialize weights](#Random_Initialization) $\theta$
-- Implement [forward propagation](#Forward_Propagation) to get $h_{\theta}(x^{(i)})$ for any $x^{(i)}$
-- Implement code to compute [cost function](#Cost_Function) $J(\theta)$
-- Implement [back propagation](#Back_Propagation) to compute partial derivatives $\cfrac{\partial}{\partial \theta_{ij}^{(l)}} J(\theta)$
-- Use [gradient checking](#Numerical_Gradient_Checking) to compare numerical estimations of partial derivatives vs values from back propagation
+- [Randomly initialize weights](#random-initialization) $\theta$
+- Implement [forward propagation](#forward-propagation) to get $h_{\theta}(x^{(i)})$ for any $x^{(i)}$
+- Implement code to compute [cost function](#cost-function) $J(\theta)$
+- Implement [back propagation](#back-propagation) to compute partial derivatives $\cfrac{\partial}{\partial \theta_{ij}^{(l)}} J(\theta)$
+- Use [gradient checking](#numerical-gradient-checking) to compare numerical estimations of partial derivatives vs values from back propagation
 - Use Gradient Descent or another optimization technique to minimize $J(\theta)$
 
 *NB*: $J(\theta)$ in non-convex and can get stuck in local minimum - but usually it's not a problem 

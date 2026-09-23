@@ -24,7 +24,7 @@ $P(\mid X - \mathbb{E}[X]\mid < \epsilon) \geqslant 1 - \frac{\text{Var}(X)}{\ep
   - both sides of the inequality are positive, so $| x_j - \mathbb{E}[X]|^2 \geqslant \epsilon^2$
 - Using this, replace each factor with $\epsilon^2$, which only strengthens the inequality. We get
   $\text{Var}(X) \geqslant \epsilon^2 \cdot (p_{k+1} + ... + p_n) = \epsilon^2 \sum_{j = k + 1}^n p_j$
-- By the [addition theorem of probabilities](Chain_and_Sum_Rules_in_Probability#Addition_Theorem_of_Probabilities), the sum $\sum_{j = k + 1}^n p_j$ is the probability that $X$ takes one of the values ${x_j}, j = k+1, ..., n$
+- By the [addition theorem of probabilities](Chain_and_Sum_Rules_in_Probability#addition-theorem-of-probabilities), the sum $\sum_{j = k + 1}^n p_j$ is the probability that $X$ takes one of the values ${x_j}, j = k+1, ..., n$
   For any such $x_j$ the condition $| x_j - \mathbb{E}[X]| \geqslant \epsilon$ is satisfied
   - i.e. $\sum_{j = k + 1}^n p_j$ represents the probability $P(\mid X - \mathbb{E}[X]\mid \geqslant \epsilon)$
 - Therefore we have

@@ -22,7 +22,7 @@ It's a service:
 
 
 ### Workflow
-A *workflow* is a [DAG](Graphs#Directed_Acyclic_Graph)  of *action nodes*
+A *workflow* is a [DAG](Graphs#directed-acyclic-graph)  of *action nodes*
 and *control-flow nodes*
 
 Action Nodes 

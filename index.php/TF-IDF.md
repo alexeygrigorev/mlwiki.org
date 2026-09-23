@@ -143,7 +143,7 @@ for example,
 Smoothing and TF-IDF are connected
 - also see probabilistic justification for TF-IDF in 
 - Hiemstra, Djoerd. "A probabilistic justification for using tf×idf term weighting in information retrieval." 2000. [link](http://doc.utwente.nl/66959/1/ijodl.pdf)
-- see [Smoothing for Language Models#Smoothing vs TF-IDF](Smoothing_for_Language_Models#Smoothing_vs_TF-IDF)
+- see [Smoothing for Language Models#Smoothing vs TF-IDF](Smoothing_for_Language_Models#smoothing-vs-tf-idf)
 
 
 
