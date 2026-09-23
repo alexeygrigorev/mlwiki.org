@@ -8,7 +8,7 @@ title: Optimization
 ## Optimization
 
 Problems
-- [Knapsack Problem](Knapsack_Problem)
-- [Graph Coloring](Graph_Coloring)
-- [Traveling Salesman Problem](Traveling_Salesman_Problem)
-- [Vehicle Routing Problem](Vehicle_Routing_Problem)
+- Knapsack Problem
+- Graph Coloring
+- Traveling Salesman Problem
+- Vehicle Routing Problem

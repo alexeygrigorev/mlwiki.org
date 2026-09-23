@@ -64,7 +64,7 @@ String functions:
 ### Bitmaps
 - you can store byte arrays in redis and set/get their specific bits
 - commands: <code>setbit</code> and <code>getbit</code>
-- this can be used for implementing [Sketching Algorithms](Sketching_Algorithms), e.g. [Bloom Filters](Bloom_Filters)
+- this can be used for implementing Sketching Algorithms, e.g. [Bloom Filters](Bloom_Filters)
 
 
 ### Hashes
@@ -115,9 +115,9 @@ Ordered sets
 
 
 ### Publish/Subscribe
-- it's easy to implement the [Publish-Subscribe Model](Publish-Subscribe_Model) in redis - which makes it a lightweight message queue
+- it's easy to implement the Publish-Subscribe Model in redis - which makes it a lightweight message queue
 - <code>blpop</code> and <code>brpop</code> - return and remove first (last) element of a list - or blocks until something is avialable 
-- can use it to implement a [Queue](Queue)
+- can use it to implement a Queue
 - also can use <code>subscribe q_id</code> and <code>publish q_it message</code>
 
 

@@ -14,7 +14,7 @@ Main Tasks
 
 
 ## [Data Warehousing](Data_Warehousing)
-Data Transformation is the first part of [ETL](ETL)
+Data Transformation is the first part of ETL
 - also you typically [integrate data](Data_Integration) from different sources
 - so also need to apply some transformations
 

@@ -10,7 +10,7 @@ title: Covariance Matrix
 ## Covariance Matrix
 Let $\mathbf X = (\mathbf a_1, \ ... \ , \mathbf a_n)$
 
-The covariance matrix $C$ represents pair-vise [Covariance](Covariance)s between each $\mathbf a_i$ and $\mathbf a_j$:
+The covariance matrix $C$ represents pair-vise Covariances between each $\mathbf a_i$ and $\mathbf a_j$:
 - $C_{ij} = \text{cov}(\mathbf a_i, \mathbf a_j)$
 
 Usual way to compute is

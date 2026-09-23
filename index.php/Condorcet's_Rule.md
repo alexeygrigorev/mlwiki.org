@@ -88,7 +88,7 @@ This rule satisfies:
 
 Does not satisfy:
 - [Monotonicity](Monotonicity)
-- Solution Existence (see [Condorcet Paradox](Condorcet_Paradox))
+- Solution Existence (see Condorcet Paradox)
 
 
 ### [Monotonicity](Monotonicity)

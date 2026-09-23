@@ -11,7 +11,7 @@ Goal of Data Integration - provide uniform access to heterogeneous [data sources
 
 ## Main approaches
 ### [Data Warehousing](Data_Warehousing)
-- data from all data sources are federated into one main warehouse (using [ETL](ETL)s)
+- data from all data sources are federated into one main warehouse (using ETLs)
 - the queries are issued to this federated storage
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/sw/architecture-dwh.png" alt="Image">
 

@@ -8,13 +8,13 @@ title: Meta Learning
 ## Meta Learning
 In [Machine Learning](Machine_Learning) there are so-called *meta*-tasks: 
 - [Model Selection](Model_Selection)
-- [Parameter Tuning](Parameter_Tuning)
+- Parameter Tuning
 - Estimating model's ability to generalize to new data
 
 
 Meta Learning is a set of Machine Learning techniques for addressing these tasks. The most popular are
 - [Cross-Validation](Cross-Validation) for estimating the prediction quality of models 
-- [Ensemble Learning](Ensemble_Learning) for creating stronger models by combining several weaker ones
+- Ensemble Learning for creating stronger models by combining several weaker ones
 
 These techniques generate samples from the data and then train and evaluate models based on these samples
 

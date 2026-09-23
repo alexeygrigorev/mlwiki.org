@@ -37,7 +37,7 @@ x_2 \\
 \end{bmatrix} = 2 \, x_1^2 + 12 \, x_1 x_2 + 18 \, x_2^2$
 - note that this is not a linear anymore: 
 - we have an equation $a x_1^2 + 2b \, x_1 x_2 + c \, x_2^2$
-- this is a [Quadratic Form](Quadratic_Form) 
+- this is a Quadratic Form 
 - we want to know if this quantity is always positive or not 
 - are there such $x_1, x_2$ that $a x_1^2 + 2b \, x_1 x_2 + c \, x_2^2 < 0$?
 
@@ -51,7 +51,7 @@ Another example
 \end{bmatrix}$
 - then $f(\mathbf x) = \mathbf x^T A_1 \, \mathbf x = 2 x_1^2 + 12 x_1 x_2 + 7 x_2^2$
 - there exists $\mathbf x$ such that $f(\mathbf x) < 0$, e.g. $(1, -1)$
-- in this system, there's a [Saddle Point](Saddle_Point) - a max for one direction and min for another
+- in this system, there's a Saddle Point - a max for one direction and min for another
 - <img src="http://habrastorage.org/files/806/5cd/ad5/8065cdad5e2c4642bc8a9b74feb907d9.png" alt="Image">
 
 
@@ -74,8 +74,8 @@ Source: [link](http://brickisland.net/cs177fa12/?p=302)
 
 
 ### Finding Minima
-Recall from [Calculus](Calculus):
-- 1st [Derivative](Derivative) is needed for finding extremum, but you don't know if it's min or max
+Recall from Calculus:
+- 1st Derivative is needed for finding extremum, but you don't know if it's min or max
 - so you have to look for the 2nd derivative to learn if it's positive or negative
 - you want to find $\cfrac{du}{dx} = 0$ and $\cfrac{d^2 \, u}{d \, x^2} > 0$
 
@@ -109,7 +109,7 @@ Let's have a look again at $A_2$:
 
 
 ### Derivative Matrix
-So a matrix of second derivatives ([Hessian Matrix](Hessian_Matrix)) is
+So a matrix of second derivatives (Hessian Matrix) is
 - $\begin{bmatrix} 
 \cfrac{\partial x_1^2}{\partial^2 x_1} & \cfrac{\partial x_1 \partial x_2}{\partial x_1 \partial x_2} \\
 \cfrac{\partial x_2 \partial x_1}{\partial x_2 \partial x_1} & \cfrac{\partial x_2^2}{\partial^2 x_2} \\

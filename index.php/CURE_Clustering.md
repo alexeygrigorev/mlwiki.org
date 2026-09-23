@@ -11,7 +11,7 @@ title: CURE Clustering
 Use a set of representative points to find non-global clusters 
 - these points capture the geometry and shape of clusters 
 
-<!-- TODO: see [Scalable Data Analytics and Data Mining AIM3 (TUB)](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB)) lectures -->
+<!-- TODO: see Scalable Data Analytics and Data Mining AIM3 (TUB) lectures -->
 
 Choose points
 - 2 farthest away points

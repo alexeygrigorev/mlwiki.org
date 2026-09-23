@@ -12,7 +12,7 @@ title: Kernel Methods
 
 
 
-[Kernel](Kernel) is a generalized [dot product](Dot_Product) 
+Kernel is a generalized [dot product](Dot_Product) 
 - [Latent Semantic Analysis](Latent_Semantic_Analysis) captures semantic relations between terms 
 - drawback: computationally expensive
 
@@ -22,16 +22,16 @@ title: Kernel Methods
 - by defining (often implicitly) a mapping function that transform the input space to some (possibly very high dimensional) feature space
 
 Just dot product is enough for many algorithms:
-- [Perceptron](Perceptron)
-- [Principal Component Analysis](Principal_Component_Analysis) -> [Kernel PCA](Kernel_PCA)
-- [Ridge Regression](Ridge_Regression) -> [Kernel Ridge Regression](Kernel_Ridge_Regression)
+- Perceptron
+- [Principal Component Analysis](Principal_Component_Analysis) -> Kernel PCA
+- [Ridge Regression](Ridge_Regression) -> Kernel Ridge Regression
 
 
 
 
 
 ## Use of Kernels
-### [Classification](Classification)
+### Classification
 Support Vector Machines
 
 ### [Text Mining](Text_Mining)
@@ -40,16 +40,16 @@ Support Vector Machines
 ### [Clustering Analysis](Cluster_Analysis)
 
 
-### [Regression](Regression)
+### Regression
 Support Vector Regression
 - Smola, Alex J., and Bernhard Schölkopf. "A tutorial on support vector regression." 2004. [link](http://lasa.epfl.ch/teaching/lectures/ML_Phd/Notes/nu-SVM-SVR.pdf)
 
 
 ### [Anomaly Detection](Anomaly_Detection)
 
-### [Gaussian Processes](Gaussian_Processes)
+### Gaussian Processes
 
-### [Kernel Density Estimation](Kernel_Density_Estimation)
+### Kernel Density Estimation
 
 
 ## Kernels

@@ -11,7 +11,7 @@ title: Document Classification
 ---
 ## Document Classification
 Document/Text Classification/Categorization is an [NLP](NLP)/[Text Mining](Text_Mining) task of labeling unseen documents with categories from some predefined set
-- not to be confused with [Document Clustering](Document_Clustering) - an [Unsupervised Learning](Unsupervised_Learning) technique
+- not to be confused with [Document Clustering](Document_Clustering) - an Unsupervised Learning technique
 - typically use [Machine Learning](Machine_Learning) for classification
 
 
@@ -79,7 +79,7 @@ There are two (very different) types of dimensionality reduction
 
 Usual IR and indexing techniques for reducing dimensionality are 
 - [Stop Words](Stop_Words) Removal
-- [Stemming](Stemming) or [Lemmatization](Lemmatization)
+- [Stemming](Stemming) or Lemmatization
 
 
 Stop Words Removal
@@ -116,7 +116,7 @@ Term Extraction techniques:
 
 
 
-## [Classification](Classification)
+## Classification
 Good classifiers for text:
 - [Naive Bayes Classifier](Naive_Bayes_Classifier)
 - [Decision Tree (Data Mining)](Decision_Tree_%28Data_Mining%29)
@@ -124,7 +124,7 @@ Good classifiers for text:
 
 
 ## Evaluation
-[Precision and Recall](Precision_and_Recall) metrics can be extended to [Evaluation of Multiclass Classifiers](Multi-Class_Problems)
+[Precision and Recall](Precision_and_Recall) metrics can be extended to Evaluation of Multiclass Classifiers
 - similar to the [One-vs-All Classification](One-vs-All_Classification) technique
 - ways of averaging the results: 
   - micro: first calculate TP, FP, FN, FN for each category separately, and then use usual formulas for precision and recall

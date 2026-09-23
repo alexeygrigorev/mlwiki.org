@@ -50,7 +50,7 @@ Empty Language
 Ways to define languages 
 - verbal description: "sequences containing equal number of 1s and 0s"
 - set notation $ \{ w | \text{zeros}(w) = \text{ones}(w) \} $
-- [Finite State Automata](Finite_State_Automata)
+- Finite State Automata
 - [Regular Expressions](Regular_Expressions)
 
 ### Typical Conventions

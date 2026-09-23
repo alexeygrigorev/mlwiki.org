@@ -29,7 +29,7 @@ Examples:
 
 
 Object-oriented model of these trees:
-- DOM  or [Document Object Model](Document_Object_Model)
+- DOM  or Document Object Model
 
 
 ### Serialized Form
@@ -129,7 +129,7 @@ For applications
 
 Parsers 
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/xml-apps-2.png" alt="Image">
-- a parser takes a serialized form an produces a tree form (for example, [DOM](DOM))
+- a parser takes a serialized form an produces a tree form (for example, DOM)
 - validation
   - first of all it checks if the document is well-formed
   - using schemas, the parser checks if the document is valid
@@ -148,7 +148,7 @@ There are 3 ways of doing it:
 - XML Schema
 - Relax NG
 
-Schemas are build on top of [Tree Automata](Tree_Automata) and [Regular Expressions](Regular_Expressions) theory
+Schemas are build on top of Tree Automata and [Regular Expressions](Regular_Expressions) theory
 - Validation of a document = a run of a tree automaton
 
 

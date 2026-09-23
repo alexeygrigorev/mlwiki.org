@@ -389,7 +389,7 @@ WHERE
 ```
 
 
-- First, we translate the condition into [Disjunctive Normal Form](Disjunctive_Normal_Form)
+- First, we translate the condition into Disjunctive Normal Form
 ```sql
 SELECT ... FROM ...
 WHERE

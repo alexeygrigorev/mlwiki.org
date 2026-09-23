@@ -126,7 +126,7 @@ Features:
 
 Classifiers: 
 - [SVM](SVM) (linear kernel) (Kristianto14, Yokoi11)
-- [Conditional Random Fields](Conditional_Random_Fields) (Kristianto12)
+- Conditional Random Fields (Kristianto12)
 
 
 Papers 

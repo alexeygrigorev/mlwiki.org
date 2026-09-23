@@ -9,7 +9,7 @@ title: Association Rule Based Classification
 ---
 
 ## Association Rule Based Classification
-It is possible to use [Association Rules](Association_Rules) for Classification. 
+It is possible to use Association Rules for Classification. 
 
 Usually this procedure involves two steps: 
 - ass-rule-classification.png

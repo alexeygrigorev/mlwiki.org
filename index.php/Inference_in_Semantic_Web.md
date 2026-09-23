@@ -7,7 +7,7 @@ title: Inference in Semantic Web
 ---
 ## Inferencing in [Semantic Web](Semantic_Web)
 In [Semantic Web](Semantic_Web), using [RDFS](RDFS) and [OWL](OWL) many things can be inferred based on facts that are stored in the [RDF](RDF) triple store
-- This is used for [Knowledge Discovery](Knowledge_Discovery) in Semantic Web
+- This is used for Knowledge Discovery in Semantic Web
 - All RDF statements or RDFS and OWL can be translated to [First Order Logic](First_Order_Logic) and [Descriptive Logic](Descriptive_Logic) to facilitate inferencing
   - see [Semantic Web Logics](Semantic_Web_Logics)
 

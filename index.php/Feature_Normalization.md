@@ -31,7 +31,7 @@ Example
 
 ## $Z$-score Normalization
 $v'= \cfrac{v - \mu_A}{\sigma_A}$
-- $\mu_A$ is [Mean](Mean) of $A$ and $\sigma_A$ is [Standard Deviation](Standard_Deviation)
+- $\mu_A$ is [Mean](Mean) of $A$ and $\sigma_A$ is Standard Deviation
 - less susceptible to outliers 
 
 Example 

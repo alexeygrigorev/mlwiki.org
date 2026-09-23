@@ -31,7 +31,7 @@ We have the following hierarchy of growth:
 - [Factorial](Factorial)
 - [Exponential Function](Exponential_Function)
 - [Polynomial Functions](Polynomial_Functions) (also, $x^{n+1} > x^n$)
-- [Logarithm](Logarithm)
+- Logarithm
 - Constant 
 
 

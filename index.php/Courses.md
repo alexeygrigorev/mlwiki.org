@@ -7,7 +7,7 @@ tags:
 - notes
 title: Courses
 ---
-## [:Category:IT4BI](_Category_IT4BI)
+## :Category:IT4BI
 ### ULB
 - [Advanced Databases (ULB)](Advanced_Databases_%28ULB%29)
 - [Business Process Management (ULB)](Business_Process_Management_%28ULB%29)
@@ -16,22 +16,22 @@ title: Courses
 - [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)
 
 ### UFRT
-- [Advanced Data Warehousing (UFRT)](Advanced_Data_Warehousing_(UFRT))
+- Advanced Data Warehousing (UFRT)
 - [Data Mining (UFRT)](Data_Mining_%28UFRT%29)
 - [XML and Web Technologies (UFRT)](XML_and_Web_Technologies_%28UFRT%29)
 - [Information Retrieval (UFRT)](Information_Retrieval_%28UFRT%29)
-- [Business Intelligence Seminar (UFRT)](Business_Intelligence_Seminar_(UFRT))
+- Business Intelligence Seminar (UFRT)
 
 ### TUB
-- [Scalable Data Analytics and Data Mining AIM3 (TUB)](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB))
+- Scalable Data Analytics and Data Mining AIM3 (TUB)
 - [Python for Machine Learning (TUB)](Python_for_Machine_Learning_%28TUB%29)
-- [Machine Learning 1 (TUB)](Machine_Learning_1_(TUB))
-- [Machine Learning 2 (TUB)](Machine_Learning_2_(TUB))
-- [Seminar Hot Topics in Information Management IMSEM (TUB)](Seminar_Hot_Topics_in_Information_Management_IMSEM_(TUB))
+- Machine Learning 1 (TUB)
+- Machine Learning 2 (TUB)
+- Seminar Hot Topics in Information Management IMSEM (TUB)
 
 
 ## Online Courses
-### [:Category:Coursera](_Category_Coursera)
+### :Category:Coursera
 - [Computing for Data Analysis (coursera)](Computing_for_Data_Analysis_%28coursera%29)
 - [Game Theory (coursera)](Game_Theory_%28coursera%29)
 - [Data Analysis (coursera)](Data_Analysis_%28coursera%29)
@@ -41,21 +41,21 @@ title: Courses
 - [Web Intelligence and Big Data (coursera)](Web_Intelligence_and_Big_Data_%28coursera%29)
 - [Machine Learning (coursera)](Machine_Learning_%28coursera%29)
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
-- [Cryptography I (coursera)](Cryptography_I_(coursera))
-- [Discrete Optimization (coursera)](Discrete_Optimization_(coursera))
+- Cryptography I (coursera)
+- Discrete Optimization (coursera)
 - [Automata (coursera)](Automata_%28coursera%29)
-- [Mining Massive Datasets (coursera)](Mining_Massive_Datasets_(coursera))
-- [Coding the Matrix (coursera)](Coding_the_Matrix_(coursera))
+- Mining Massive Datasets (coursera)
+- Coding the Matrix (coursera)
 - [Calculus Single Variable (coursera)](Calculus_Single_Variable_%28coursera%29)
-- [Information Theory (coursera)](Information_Theory_(coursera))
+- Information Theory (coursera)
 
-### [:Category:edX](_Category_edX)
-- [Introduction to Probability - The Science of Uncertainty 6.041x (edX)](Introduction_to_Probability_-_The_Science_of_Uncertainty_6.041x_(edX))
-- [Learning From Data CS1156x (edX)](Learning_From_Data_CS1156x_(edX))
-- [Introduction to Linear Models and Matrix Algebra (edX)](Introduction_to_Linear_Models_and_Matrix_Algebra_(edX)) 
-- [Linear Algebra Foundations to Frontiers (edX)](Linear_Algebra_Foundations_to_Frontiers_(edX))
-- [The Analytics Edge (edX)](The_Analytics_Edge_(edX)) 
+### :Category:edX
+- Introduction to Probability - The Science of Uncertainty 6.041x (edX)
+- Learning From Data CS1156x (edX)
+- Introduction to Linear Models and Matrix Algebra (edX) 
+- Linear Algebra Foundations to Frontiers (edX)
+- The Analytics Edge (edX) 
 
 ### Misc
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
-- [Statistical Learning (Stanford Lagunita)](Statistical_Learning_(Stanford_Lagunita))
+- Statistical Learning (Stanford Lagunita)

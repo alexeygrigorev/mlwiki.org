@@ -8,7 +8,7 @@ title: Semi-Supervised Clustering
 ---
 
 ## Semi-Supervised Clustering
-Semi-supervised clustering is a bridge between [Supervised Learning](Supervised_Learning) and [Cluster Analysis](Cluster_Analysis)
+Semi-supervised clustering is a bridge between Supervised Learning and [Cluster Analysis](Cluster_Analysis)
 - it's about learning with both labeled and unlabeled data:
 - sometimes we have some prior knowledge about clusters, e.g. we could have some label information 
 - such knowledge can be useful in creating clusters - especially when the number of examples is very big

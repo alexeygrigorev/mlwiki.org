@@ -72,7 +72,7 @@ So our problem is
 - $X^T X \mathbf w = X^T \mathbf y$ or
 - the solution:
 - $\mathbf w = (X^T X)^{-1} X^T \mathbf y = X^+ \mathbf y$ 
-- where $X^+ = (X^T X)^{-1} X^T$ is the [Pseudoinverse](General_Inverse) of $X$
+- where $X^+ = (X^T X)^{-1} X^T$ is the Pseudoinverse of $X$
 
 
 

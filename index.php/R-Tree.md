@@ -82,7 +82,7 @@ Also
 - B-Tree and Binary Search Trees
 - Multi-Dimensional Indexes
 - [kd-Trees](kd-Trees) and [Quad Trees](Quad_Trees)
-- [Spatial Databases](Spatial_Databases)
+- Spatial Databases
 
 ## Sources
 - [Database Systems Architecture (ULB)](Database_Systems_Architecture_%28ULB%29)

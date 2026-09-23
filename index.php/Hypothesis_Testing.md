@@ -129,7 +129,7 @@ The final step:
 - [Binomial Proportion Test](Binomial_Proportion_Test)s - for comparing proportions, typically approximated by $z$ statistics as well
 - [$t$-tests](t-tests) - like $z$, but more relaxed (uses [$t$-distribution](t_Distribution), for comparing means
 - [$\chi^2$-tests](Chi-Squared_Tests) - for normality, [variance](Variance) and goodness of fit 
-- [$F$-tests](F-tests) ([ANOVA](ANOVA)) - for checking more than 2 samples for equality of means
+- $F$-tests ([ANOVA](ANOVA)) - for checking more than 2 samples for equality of means
 
 
 ## Terms
@@ -153,9 +153,9 @@ The final step:
 
 Choosing $\alpha$ 
 - traditionally, $\alpha=0.05$
-- if making [Type I Errors](Type_I_Errors) is dangerous, or especially costly, choose small $\alpha$
+- if making Type I Errors is dangerous, or especially costly, choose small $\alpha$
   - in this case we want very strong evidence to support $H_A$ before rejecting $H_0$
-- if [Type II Errors](Type_II_Errors) are more costly, then take higher $\alpha$, e.g. $\alpha=0.1$
+- if Type II Errors are more costly, then take higher $\alpha$, e.g. $\alpha=0.1$
   - here we're careful about failing to reject $H_0$ when it's false 
 
 
@@ -170,7 +170,7 @@ Alternative hypotheses $H_A$ could be one-sided or two-sided
 - otherwise we look at both tails
 
 
-Consider the following one-sample [$z$-test](z-test) for means: 
+Consider the following one-sample $z$-test for means: 
 
 ### One-Sided
 - $H_0: \mu = \mu_0, H_A: \mu > \mu_0$
@@ -219,7 +219,7 @@ Always try to use 2-sided tests
 
 One-sided hypotheses are allowed only <u>before</u> seeing the data
 - it's never good to change 2-sided to 1-sided after observing the data
-- it can cause twice more [Type I error](Type_I_error)s (False positives - i.e. rejecting $H_0$ when it's true)
+- it can cause twice more Type I errors (False positives - i.e. rejecting $H_0$ when it's true)
 
 
 ### Practical Significance

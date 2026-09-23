@@ -8,7 +8,7 @@ title: Computational Linguistics
 ---
 ## Computational Linguistics
 Computational linguistics (CL) is a discipline between linguistics and computer science which is concerned with the computational aspects of the human language faculty. 
-- It belongs to the cognitive sciences and overlaps with the field of [Artificial intelligence](Artificial_intelligence)
+- It belongs to the cognitive sciences and overlaps with the field of Artificial intelligence
 - Computational linguistics has applied and theoretical components.
 
 

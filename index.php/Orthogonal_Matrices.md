@@ -73,8 +73,8 @@ Identity matrices are orthogonal:
 - also note that $Q^T$ is also orthogonal 
 
 
-### [Rotation Matrices](Rotation_Matrices)
-[Rotation Matrices](Rotation_Matrices) are also orthogonal
+### Rotation Matrices
+Rotation Matrices are also orthogonal
 - let $Q = \begin{bmatrix}
 \cos \theta & -\sin \theta \\
 \sin \theta & \cos \theta \\

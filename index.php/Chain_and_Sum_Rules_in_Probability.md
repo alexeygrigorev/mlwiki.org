@@ -61,7 +61,7 @@ For [independent events](Independence) the multiplication theorem becomes
 $P(A \cdot B) = P(A) \cdot P(B)$
 
 ## See also
-- [Sum and Product Rules](Sum_and_Product_Rules) (Combinatorics)
+- Sum and Product Rules (Combinatorics)
 
 ## Sources
 - Gmurman V.E., Probability Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vysshaya Shkola, 2003.

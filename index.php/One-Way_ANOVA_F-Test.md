@@ -7,7 +7,7 @@ tags:
 - statistics
 title: One-Way ANOVA F-Test
 ---
-## One-Way [ANOVA](ANOVA) [F-Test](F-Test)
+## One-Way [ANOVA](ANOVA) F-Test
 Simplest [ANOVA](ANOVA)
 - are the means of several groups equal?
 - it's a [Statistical Test](Statistical_Test)
@@ -16,7 +16,7 @@ Simplest [ANOVA](ANOVA)
 
 It's an $F$-Test
 - We assume that we have [Normal Distribution](Normal_Distribution)
-- and the resulting value follows the [$F$-Distribution](F-Distribution)
+- and the resulting value follows the $F$-Distribution
 
 It's a parametric test of [Variance](Variance):
 - it's parametric because it's based on Normality hypothesis 
@@ -46,8 +46,8 @@ One-Way ANOVA can be used to analyze the relationships between two variables
 suppose we reject $H_0$
 - we may wonder, which groups are different? 
 - to find out, can use the following tests:
-- [Pairwise $t$-test](Pairwise_t-test) note that in this case we need to reduce [Family-Wise Error Rate](Family-Wise_Error_Rate) e.g. with [Bonferroni Correction](Bonferroni_Correction)
-- [Tukey HSD Test](Tukey_HSD_Test)
+- [Pairwise $t$-test](Pairwise_t-test) note that in this case we need to reduce Family-Wise Error Rate e.g. with Bonferroni Correction
+- Tukey HSD Test
 
 
 
@@ -144,7 +144,7 @@ Define:
 Test
 - to evaluate the [correlation](Correlation) between $X$ and $Y$ calculate $F = \cfrac{\text{Inter}}{\text{Intra}}$
 - the null hypothesis $H_0$: all means $\mu_k$ are equal (i.e. assume [independence](Independence)), 
-- under $H_0$ $F$-ratio follows $F_{K-1,N-K}$: [$F$-distribution](F-distribution) with $K-1,N-K$ degrees of freedom
+- under $H_0$ $F$-ratio follows $F_{K-1,N-K}$: $F$-distribution with $K-1,N-K$ degrees of freedom
 - if independent, all the means should be the same for all classes and $F$ should be 0
 
 
@@ -179,7 +179,7 @@ We see that DH and C look really different. Why don't we just check if $\mu_\tex
 - the primary issue: we're inspecting the data before doing the check 
 - this is called [Data Snooping](Data_Snooping) (or Data Fishing)
 - naturally we'd pick up the groups with largest differences and run the formal test
-- but it would lead to [Type I Errors](Type_I_Errors)
+- but it would lead to Type I Errors
 - it's also called Prosecutor's Fallacy
 
 

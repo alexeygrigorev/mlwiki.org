@@ -18,7 +18,7 @@ ANOVA is ANalysis Of VAriance
 ### [One-Way ANOVA F-Test](One-Way_ANOVA_F-Test)
 Goal: compare many means in a single hypothesis 
 - instead of doing pairwise [$t$-test](t-tests), do ANOVA
-- but you can still perform [$t$-test](t-tests) or [Tukey HSD Test](Tukey_HSD_Test) as post-ANOVA analysis
+- but you can still perform [$t$-test](t-tests) or Tukey HSD Test as post-ANOVA analysis
 - also, a good way of checking independence between two variables: numerical and categorical 
 
 Some authors argue that the ANOVA step is in fact unnecessary and we could perform the Tukey HSD test alone. Nevertheless, the ANOVA + Tukey approach is considered standard is most books.
@@ -26,8 +26,8 @@ Some authors argue that the ANOVA step is in fact unnecessary and we could perfo
 
 ### Not Normal?
 If not Normal, use these non-parametric tests
-- [Wilcoxon-Mann-Whiney Test](Wilcoxon-Mann-Whiney_Test) if the class variable is binary 
-- [Kruskal-Wallis Test](Kruskal-Wallis_Test) for any nominal variable 
+- Wilcoxon-Mann-Whiney Test if the class variable is binary 
+- Kruskal-Wallis Test for any nominal variable 
 
 
 ## Links

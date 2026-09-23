@@ -252,7 +252,7 @@ We want automatically extract domain models from corpus:
 Term Clustering techniques are usually used for this
 - usually need soft clustering techniques for this: want one term to be in several clusters 
 - there are several ways: 
-- [Fuzzy C-Means](Fuzzy_C-Means), Information bottleneck method, etc
+- Fuzzy C-Means, Information bottleneck method, etc
 - we'll use [Latent Semantic Analysis](Latent_Semantic_Analysis)
 
 
@@ -337,7 +337,7 @@ So advantages of DS:
 
 
 ### Domain Kernel
-Domain Kernel is a similarity function for terms and documents in the domain space. Domain Kernel is a Mercer [Kernel](Kernel), so it can be used in any kernel-based algorithm.
+Domain Kernel is a similarity function for terms and documents in the domain space. Domain Kernel is a Mercer Kernel, so it can be used in any kernel-based algorithm.
 
 This kernel is represented by a DOmain Model matrix $D$ 
 - $K : \mathbb R^n \cup V \to \mathbb R^k$ 

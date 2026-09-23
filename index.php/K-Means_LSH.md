@@ -11,7 +11,7 @@ title: K-Means LSH
 Many of [LSH families](Locality_Sensitive_Hashing) are structured quantizers: they don't take into account underlying [statistics](Statistics)
 - for example, [E2LSH](Euclidean_LSH) is structured:
 - we choose only quantization step $w$ and offset $b$ and have little influence on the density of individual cells
-- but can address this issue by learning a [Vector Quantizer](Vector_Quantizer) - such as [K-Means](K-Means): this way we can adapt the cell size to the density of the space in the cell
+- but can address this issue by learning a Vector Quantizer - such as [K-Means](K-Means): this way we can adapt the cell size to the density of the space in the cell
 
 
 ### Learning Density with K-Means
@@ -61,7 +61,7 @@ query($\mathbf q$)
 
 ## Improvements
 ### Multi-Probing
-[Multi-Probing](Multi-Probe_LSH) for K-Means LSH:
+Multi-Probing for K-Means LSH:
 - fix $m_p$ the number of buckets we want to retrieve 
 - for each $L$ [hash functions](Hash_Function) 
   - select $m_p$ closets centroids 
@@ -70,7 +70,7 @@ query($\mathbf q$)
 
 ### Query-Adaptive K-Means LSH
 Idea: 
-- a variation of [Query-Adaptive LSH](Query-Adaptive_LSH) for K-Means LSH
+- a variation of Query-Adaptive LSH for K-Means LSH
 - instead of a single k-means per hash maintain a pool of independent clustering results 
 - at the query time select the best one from the pool
 
@@ -93,7 +93,7 @@ Notes:
 
 
 ### Speeding K-Means Up
-Can use [Approximate K-Means](Approximate_K-Means) or [Mini-Batch K-Means](Mini-Batch_K-Means)
+Can use Approximate K-Means or [Mini-Batch K-Means](Mini-Batch_K-Means)
 
 
 ## Sources

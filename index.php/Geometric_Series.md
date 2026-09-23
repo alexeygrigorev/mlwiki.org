@@ -9,7 +9,7 @@ title: Geometric Series
 ## Geometric Series
 
 $1 + \cfrac{1}{2} + \left( \cfrac{1}{2} \right)^2 + \left( \cfrac{1}{2} \right)^3 + \ ... \ = \sum\limits_{k=0}^\infty \left( \cfrac{1}{2} \right)^k$
-It [converges](Series_Convergence) to 2 
+It converges to 2 
 
 $1 + x + x^2 + x^3 + \ ... \ = \sum\limits_{k=0}^\infty x^k = \cfrac{1}{1 - x}$
 

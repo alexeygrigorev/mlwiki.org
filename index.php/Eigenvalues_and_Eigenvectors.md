@@ -28,7 +28,7 @@ What if $\lambda = 0$?
 
 ### Example: Projection Matrices
 Sometimes we can find the eigenvalues by thinking geometrically
-- suppose we have a [Projection Matrix](Projection_Matrices) $P$ 
+- suppose we have a Projection Matrix $P$ 
 - <img src="http://habrastorage.org/files/7d3/f88/ed9/7d3f88ed987c48e7bebacc5a3f336e21.png" alt="Image">
 - for a vector $\mathbf b$ that's not on the place formed by $C(P)$, $\mathbf b$ is not an eigenvector - $P \mathbf b$ is a projection, so they point to different directions
 - suppose there's a vector $\mathbf x_1$ on the plane. $P \mathbf x_1 = \mathbf x_1$, so all such $\mathbf x_1$ on the plane are eigenvectors with eigenvalues $\lambda = 1$
@@ -77,7 +77,7 @@ Now can find eigenvectors
 - $(A - \lambda_2 I) \mathbf x_2 = (A - 2 I) \mathbf x_2 = 0$, so $x_2 = \begin{bmatrix} -1 \\ 1 \end{bmatrix} \in N(A - 2 I)$
 
 
-### Example 2: [Rotation Matrix](Rotation_Matrices)
+### Example 2: Rotation Matrix
 Let $Q = \begin{bmatrix}
 0 & -1 \\
 1 & 0 \\
@@ -183,7 +183,7 @@ This matrix is used for Matrix Diagonalization
 - Matrix decomposition: Eigendecomposition ([Spectral Theorem](Spectral_Theorem)) and [SVD](SVD)
   - Eigenvectors give a good basis, especially for Symmetric Matrices: they are orthogonal 
 - [Principal Component Analysis](Principal_Component_Analysis)
-- [Markov Chains](Markov_Chains) and [PageRank](PageRank) 
+- Markov Chains and PageRank 
 - many many others
 
 

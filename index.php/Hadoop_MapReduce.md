@@ -117,7 +117,7 @@ Hadoop in one picture:
 For tuning MapReduce jobs, it may be useful to know how the shuffling is performed
 - Each mapper has ~100 mb buffer (buffer size is configured in <code>mapreduce.task.io.sort.mb</code>)
 - when it's 80% full (set in <code>mapreduce.map.sort.spill.percent</code>), a background thread starts to *spill* the content on disk (while the buffers are still being populated)
-- it's written to disk in the [Round Robin](Round_Robin) fashion to <code>mapreduce.cluster.local.dir</code> directory into a job-specific subdirectory 
+- it's written to disk in the Round Robin fashion to <code>mapreduce.cluster.local.dir</code> directory into a job-specific subdirectory 
 - before writing to disk, the output is subdivided into partitions, and within each partition records are sorted by key
 - if there's a combiner function, it's applied 
 - then all spills are merged 
@@ -202,7 +202,7 @@ Results:
 - <code>part-r-0001</code> (or <code>part-m-0001</code> if job is map only)
 - you can merge the result 
 - just merge - see snippets 
-- order - see [MapReduce Patters](MapReduce_Patters)
+- order - see MapReduce Patters
 
 
 ### Problem Decomposition
@@ -222,7 +222,7 @@ Hadoop solution: <code>JobControl</code> class
 
 Other tools for running worflows
 - [Apache Oozie](Oozie) - for running workflows 
-- [Luigi](Luigi)
+- Luigi
 
 
 
@@ -230,7 +230,7 @@ Other tools for running worflows
 ### Compression
 Output of reducers (and mappers) can be compressed 
 
-For example, to use [GZip](GZip) compression, use
+For example, to use GZip compression, use
 
  TextOutputFormat.setCompressOutput(job, true);
  TextOutputFormat.setOutputCompressorClass(job, GzipCodec.class);
@@ -329,7 +329,7 @@ In Java API you'd use this:
 - Schemas
 - [Indexing](Indexing_%28databases%29) 
 - [Logical Query Plan Optimization](Logical_Query_Plan_Optimization) 
-- [Caching](Caching)
+- Caching
 - [View Materialization](View_Materialization) 
 - [ACID](ACID) and transactions 
 
@@ -362,7 +362,7 @@ No high-level declarative language as SQL
 - for [Data Warehousing](Data_Warehousing): [OLAP](OLAP) is not that good in MapReduce
 
 Possible solutions: 
-- [Pig](Pig), [Hive](Hive), [Tez](Tez), [Impala](Impala), [Spark](Spark), [Flink](Flink)
+- [Pig](Pig), [Hive](Hive), Tez, Impala, Spark, Flink
 
 
 ### Performance
@@ -370,7 +370,7 @@ Performance issues:
 - no schema, no index, need to parse each input
   - may cause performance degradation
 - not tuned for multidimensional queries
-- possible solutions: [HBase](HBase), Hive
+- possible solutions: HBase, Hive
 - because of fault-tolerance and scalability - it's not always optimized for I/O cost
   - all intermediate results are materialized (no [Pipelining](Pipelining))
   - triple [replication](Replication)

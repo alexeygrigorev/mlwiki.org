@@ -14,7 +14,7 @@ Analysis (mostly [exploratory](Exploratory_Data_Analysis)) of one variable
 
 In order to analyze one variable 
 - Calculate [Summary Statistics](Summary_Statistics)
-- Also can calculate [Mean](Mean) and [Standard Deviation](Standard_Deviation)
+- Also can calculate [Mean](Mean) and Standard Deviation
 - Use [Histogram](Histogram)s to learn about data [Distribution](Distribution)
 
 

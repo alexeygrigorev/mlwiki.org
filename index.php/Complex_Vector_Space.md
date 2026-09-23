@@ -8,7 +8,7 @@ title: Complex Vector Space
 ---
 ## Complex Vector Space
 A $\mathbf z$ is a complex vector (denoted by $\mathbf z \in \mathbb C^n$)
-- when it's components $z_i$ are [Complex Numbers](Complex_Numbers)
+- when it's components $z_i$ are Complex Numbers
 - complex vectors also form a [Vector Space](Vector_Space)
 
 
@@ -19,7 +19,7 @@ How do we define the length of a complex vector?
   - consider, for example, vector $(1, i)$
   - $\|  (1, i) \|^2$ would be $1^2 + i^2 = 0$
 - what we really want is $\langle \mathbf z, \mathbf z \rangle = \overline {\mathbf z}^T \mathbf z$
-  - where $\overline {\mathbf z}$ is a [Complex Conjugate](Complex_Conjugate), i.e. $\overline {\mathbf z} = (\overline z_1, \ ... \ , \overline z_n)$
+  - where $\overline {\mathbf z}$ is a Complex Conjugate, i.e. $\overline {\mathbf z} = (\overline z_1, \ ... \ , \overline z_n)$
   - this way each component of $\langle \mathbf z, \mathbf z \rangle$ contributes a strictly positive number to the overall [dot product](Dot_Product)
   - so $\|  (1, i) \|^2$ is $1 - i^2 = 2$
 - thus, $\|  (1, i) \| = \sqrt{2}$

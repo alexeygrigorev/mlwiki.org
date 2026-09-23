@@ -39,7 +39,7 @@ Like a histogram, but smoothed
 
 ## Types
 There are many distributions:
-- [Uniform Distribution](Uniform_Distribution) - equally spread without any mode
+- Uniform Distribution - equally spread without any mode
 - symmetric
   - the mean, median, and mode are all approximately the same.
   - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/legacy/dist-symmetric.png" alt="Image">
@@ -57,7 +57,7 @@ There are many distributions:
 
 
 ## See Also
-- [:Category:Distributions](_Category_Distributions)
+- :Category:Distributions
 
 ## Sources
 - [Statistics: Making Sense of Data (coursera)](Statistics__Making_Sense_of_Data_%28coursera%29)

@@ -9,7 +9,7 @@ title: Matrix-Matrix Multiplication
 Suppose we want to multiply $m \times n$ [matrix](Matrix) $A$ on $n \times p$ matrix $B$, we get an $m \times p$ matrix $C$
 
 
-## [Linear Transformation](Linear_Transformation)
+## Linear Transformation
 What is matrix-matrix multiplication in terms of Linear Transformations?
 - Let $A$ be an $m \times n$ matrix, 
 - then there's a linear transformation $T_A \ : \ \mathbb R^n \to \mathbb R^m$: $T_A(\mathbf x) = A \mathbf x$ where $A \mathbf x$ is [Matrix-Vector Multiplication](Matrix-Vector_Multiplication)
@@ -150,4 +150,4 @@ Full code of Matrix Multiplication in Flink: [link](https://github.com/alexeygri
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - Kurosh A.G., A Course in Higher Algebra (in Russian)
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
-- [Scalable Data Analytics and Data Mining AIM3 (TUB)](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB))
+- Scalable Data Analytics and Data Mining AIM3 (TUB)

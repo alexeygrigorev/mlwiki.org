@@ -51,7 +51,7 @@ Inverse Document Frequency (IDF)
 - they tend to be domain specific and are usually more relevant for retrieving this document
 - so we should give them more weight than to high-frequency words 
 - thus, $\text{idf}(w, \mathcal D) = \log \cfrac{ | \mathcal D| + 1 }{\text{df}(w, \mathcal D)}$
-- also can be some [Entropy](Entropy)-based measure
+- also can be some Entropy-based measure
 
 
 ### Good Weighting System

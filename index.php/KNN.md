@@ -16,11 +16,11 @@ used in
 Simple and popular method for many areas of [machine learning](Machine_Learning), [statistics](Statistics) and beyond
 
 
-### [Regression Problem](Regression_Problem)
+### Regression Problem
 
 
 
-### [Classification Problem](Classification_Problem)
+### Classification Problem
 
 
 
@@ -30,7 +30,7 @@ KNN approach is used in [SNN Clustering](SNN_Clustering)
 
 
 
-### [Probability Density Estimation](Probability_Density_Estimation)
+### Probability Density Estimation
 - If $k$th nearest neighbor is close, then the region is most likely of high density
 - so the [distance](Distance_Functions) to $k$th neighbor gives a measure of density of a point
 - can use it with [Euclidean Distance](Euclidean_Distance), [Cosine Similarity](Cosine_Similarity) or SNN Similarity (see SNN Clustering)
@@ -52,7 +52,7 @@ Brute force search for $k$NN takes $O(N)$ where $N$ is the size of the [database
 
 Trees
 - [Metric Trees](Metric_Trees)
-- [Spill-Trees](Spill-Trees) gives approximate answer to KNN
+- Spill-Trees gives approximate answer to KNN
 - both don't work well in high dimensions, but can apply [Random Projections](Random_Projections) to make them work
 
 
@@ -78,5 +78,5 @@ Pre-aggregating data:
 - Ertöz, Levent, Michael Steinbach, and Vipin Kumar. "Finding clusters of different sizes, shapes, and densities in noisy, high dimensional data." 2003. [link](http://static.msi.umn.edu/rreports/2003/73.pdf)
 
 
-[Categories:Machine Learning](Categories_Machine_Learning)
-[Categories:Statistics](Categories_Statistics)
+Categories:Machine Learning
+Categories:Statistics

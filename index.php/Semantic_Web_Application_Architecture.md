@@ -15,7 +15,7 @@ Main tools:
 
 ### Parsers & Serializers
 Parser
-- RDF can be in [XML/RDF](XML_RDF) or [Turtle](Turtle) format
+- RDF can be in XML/RDF or [Turtle](Turtle) format
 - Parser converts in into an RDF [graph](Graph)
 
 Serializer

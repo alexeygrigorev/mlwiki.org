@@ -117,7 +117,7 @@ For log $L = [abcd, acbd, acd]$ we have:
 ### Only Last Event Matters
 Another abstraction: 
 - we keep only one most recently seen event 
-- so it's a [Markov Chain](Markov_Chain) with memory of 1
+- so it's a Markov Chain with memory of 1
 - and what you can do next depends only on what you've just seen 
 
 For log $L = [abcd, acbd, acd]$ we have:

@@ -70,9 +70,9 @@ The same reasoning can be applied to $A A^T$:
 
 
 ## Other Properties
-### [Rank](Rank_(Matrix))
+### Rank
 Consequence: 
-- by the [Rank-Nullity Theorem](Rank-Nullity_Theorem), we know that for $m \times n$ matrix $A$, $\text{rank }A + \text{dim } N(A) = n$
+- by the Rank-Nullity Theorem, we know that for $m \times n$ matrix $A$, $\text{rank }A + \text{dim } N(A) = n$
 - $A^T A$ is an $n \times n$ matrix, so $\text{rank } A^T A + \text{dim } N(A^T A) = \text{rank } A^T A + \text{dim } N(A) = n$
 - so $\text{rank }A = \text{rank }A^T A = n - \text{dim } N(A)$
 

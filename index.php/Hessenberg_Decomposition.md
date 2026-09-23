@@ -10,11 +10,11 @@ title: Hessenberg Decomposition
 ## Hessenberg Decomposition
 Also called "Hessenberg Reduction" or "Hessenberg Transformation"
 
-Hassenberg Decomposition is a [Matrix Decomposition](Matrix_Decomposition):
+Hassenberg Decomposition is a Matrix Decomposition:
 - let $A$ be a matrix, then 
 - the decomposition $A = U H U^T$ is Hessenberg Decomposition if
   - $U$ - orthogonal, $U^T U = I$ and
-  - $H$ - [Hessenberg Matrix](Hessenberg_Matrices)
+  - $H$ - Hessenberg Matrix
   - Hessenberg matrix is almost triangular matrix - but it has some non-zero elements right below (above) the main diagonal. The rest are zeros
 - this reduction is typically performed with [Householder Transformation](Householder_Transformation)
   - in principle, it's also possible to get it with [Givens Transformation](Givens_Transformation)
@@ -71,7 +71,7 @@ And so on. At the end we have:
 - so we have: $H = U A U^T$
 
 ### Symmetric Matrices
-When we apply the decomposition to a symmetric matrix, we get a [tridiagonal matrix](Tridiagonal_Matrices)
+When we apply the decomposition to a symmetric matrix, we get a tridiagonal matrix
 
 ### Properties
 Hessenberg Decomposition is quite useful in a number of applications

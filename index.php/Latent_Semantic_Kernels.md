@@ -9,7 +9,7 @@ $\require{cancel}$
 
 ## Latent Semantic Kernels
 In [Information Retrieval](Information_Retrieval) via [Vector Space Model](Vector_Space_Model), retrieval is based on [inner product](Dot_Product) as well
-- so can also use [Kernels](Kernels)
+- so can also use Kernels
 - You can already use [SVM](SVM) for text data and get very good performance 
 - but also can incorporate additional information by using a kernel
 - In traditional Vector Space Model semantic relationships are not taken into account 
@@ -28,7 +28,7 @@ Building the Kernel:
 Suppose we have a term-document [matrix](Matrix) $D$
 - then $G = D^T D$ is a doc-by-doc matrix and $T = D D^T$ matrix
 - can define a base kernel as $k(\mathbf d_1, \mathbf d_2) = \mathbf d_1^T \mathbf d_2$
-- suppose we apply some [Linear Transformation](Linear_Transformation) $\phi$: to documents: $\phi(\mathbf d) = P \, \mathbf d$
+- suppose we apply some Linear Transformation $\phi$: to documents: $\phi(\mathbf d) = P \, \mathbf d$
 - (usual VSM: $P = I$)
 - then kernel becomes $k(\mathbf d_1, \mathbf d_2) = \mathbf d_1^T P^T P \mathbf d_2$ and the kernel matrix $K = D^T P^T \, P \, D$
 - now can build a new kernel $k'$ using the base kernel $k$ (e.g. polynomial or gaussian) - to increase the expressive power of the VSM model

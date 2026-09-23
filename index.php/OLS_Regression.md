@@ -63,7 +63,7 @@ There's no solution to the system, so we try to fit the data as good as possible
 
 The solution:
 - $\mathbf w = (X^T X)^{-1} X^T \mathbf y = X^+ \mathbf y$ 
-- where $X^+ = (X^T X)^{-1} X^T$ is the [Pseudoinverse](General_Inverse) of $X$
+- where $X^+ = (X^T X)^{-1} X^T$ is the Pseudoinverse of $X$
 
 
 From the [Linear Algebra](Linear_Algebra) point of view:
@@ -139,5 +139,5 @@ Normal Equation:
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - [Machine Learning (coursera)](Machine_Learning_%28coursera%29)
-- [Seminar Hot Topics in Information Management IMSEM (TUB)](Seminar_Hot_Topics_in_Information_Management_IMSEM_(TUB))
+- Seminar Hot Topics in Information Management IMSEM (TUB)
 - http://en.wikipedia.org/wiki/Linear_least_squares_%28mathematics%29

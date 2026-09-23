@@ -56,7 +56,7 @@ Mixed strategy
 
 [Nash Equilibrium](Nash_Equilibrium)
 - in this case the best response notion is the same as for Normal Form Games
-- we want to maximize the [Expected Utility](Expected_Utility)
+- we want to maximize the Expected Utility
 - so the Best Response is a mixed strategy that maximized the utility
 - a strategy profile where each agent best-responds to every other agent is called a Nash Equilibrium
 

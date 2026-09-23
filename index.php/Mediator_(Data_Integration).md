@@ -10,7 +10,7 @@ This is an approach to [Data Integration](Data_Integration) (opposite to [Data W
 - data remains in the [data sources](Data_Sources) (so it's sometimes called "virtual data integration")
 - also better if you want to access "fresh" data
 - but way harder to implement - need to transform data during the query time 
-  - need to use [Ontologies](Ontologies) for that, no [ETL](ETL)s
+  - need to use [Ontologies](Ontologies) for that, no ETLs
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/sw/architecture-mediator.png" alt="Image">
 
 

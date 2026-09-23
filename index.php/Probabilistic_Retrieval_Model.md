@@ -34,18 +34,18 @@ We need estimate the probability of relevance of a document $D$ w.r.t a query $Q
 
 
 
-### [Descriptive Model](Descriptive_Models) Approach
+### Descriptive Model Approach
 Sometimes referred as a "[Machine Learning](Machine_Learning)" approach
 
 It then becomes a Classification Problem:
-- can learn $P(R \mid D, Q)$ with a [Descriptive Model](Descriptive_Models)
+- can learn $P(R \mid D, Q)$ with a Descriptive Model
 - $R$ depends on features that characterize the relationships between $D$ and $Q$ 
 - for example, # of matched terms
 
 Suppose 
 - we have $k$ features $F_i(Q, D)$
 - $f$ is a function with parameter $\Lambda$ s.t. $f(F_1, \ ... \ , F_k, \Lambda) = P(R \mid D, Q)$ 
-- then can fit $f$ with some ML algorithm e.g. [OLS Regression](OLS_Regression), [Logistic Regression](Logistic_Regression) or [Kernel Ridge Regression](Kernel_Ridge_Regression)
+- then can fit $f$ with some ML algorithm e.g. [OLS Regression](OLS_Regression), [Logistic Regression](Logistic_Regression) or Kernel Ridge Regression
 
 
 Comments:
@@ -61,7 +61,7 @@ Literature:
 
 
 
-### [Generative Models](Generative_Models) Approach
+### Generative Models Approach
 Can use the [Bayes Rule](Bayes_Rule) to infer the probabilities
 - $P(R = r \mid D, Q) = \cfrac{P(D, Q \mid R = r) \, P(R = r)}{P(D, Q)}$
 - $P(R = \lnot r \mid D, Q) = \cfrac{P(D, Q \mid R = \lnot r) \, P(R = \lnot r)}{P(D, Q)}$
@@ -73,7 +73,7 @@ Interpretation:
 - $P(D, Q)$ probability of retrieving $D$ and issuing $Q$
 
 
-Log [Odds Ratio](Odds_Ratio):
+Log Odds Ratio:
 - it's the same as using Odds ratio:
 - if $\cfrac{P(R = r \mid D, Q)}{P(R = \lnot  \mid D, Q)} > 1$ or $\log \cfrac{P(R = r \mid D, Q)}{P(R = \lnot \mid D, Q)} > 0$ then $D$ is relevant w.r.t $Q$ 
 - so again the formulated the problem as two-category [Document Classification](Document_Classification)
@@ -135,7 +135,7 @@ Then:
 - $p_i = \cfrac{r_i + \lambda}{R + 2 \lambda}$ 
 - $q_i = \cfrac{n_i - r_i + \lambda}{N - R + 2 \lambda}$
 - here we add some distortion value $\lambda$ (can be e.g. $\lambda = 0.5$) to avoid getting logs with 0
-- It's [Laplace Smoothing](Laplace_Smoothing)
+- It's Laplace Smoothing
 
 
 
@@ -159,7 +159,7 @@ See
 
 ## Other Probabilistic Models
 - [Statistical Language Models](Statistical_Language_Models)
-- [Bayesian Networks](Bayesian_Networks)
+- Bayesian Networks
 
 
 ## Sources

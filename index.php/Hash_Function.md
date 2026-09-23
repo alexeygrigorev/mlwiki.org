@@ -37,7 +37,7 @@ A *collision* is
 - distinct $x, y \in U$
 - such that $h(x) = h(y)$
 
-Well-known issue: [Birthday paradox](Birthday_paradox)
+Well-known issue: Birthday paradox
 
 
 ## See also

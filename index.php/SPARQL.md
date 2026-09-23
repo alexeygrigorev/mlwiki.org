@@ -14,7 +14,7 @@ In [Semantic Web](Semantic_Web), SPARQL is a query language for getting informat
 - variables denoted by <code>?</code>
 
 Formal foundation
-- e.g. [SQL](SQL) is based on [Relational Algebra](Relational_Algebra)
+- e.g. SQL is based on [Relational Algebra](Relational_Algebra)
 - SPARQL is based on Predicate Calculus
   - [First Order Logic](First_Order_Logic)
   - in most cases can be expressed as [Conjunctive Queries](Conjunctive_Query)
@@ -454,7 +454,7 @@ WHERE {
 
 Can use these queries for 
 - insert it back into this RDF store / another RDF store
-- serialize to [XML/RDF](XML_RDF)
+- serialize to XML/RDF
 
 
 #### Rules

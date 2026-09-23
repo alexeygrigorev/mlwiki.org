@@ -11,7 +11,7 @@ title: Dimensionality Reduction
 This is a technique to reduce the dimensionality of our data [sets](Sets) 
 - we have a data set of $\{ \mathbf x_i \}$ of $\mathbf x_i \in \mathbb R^D$ with very large $D$
 - the goal is to find a mapping $f: \mathbb R^D \mapsto \mathbb R^d$ s.t. $d \ll D$
-- for [Visualization](Visualization) the target dimension is usually small, e.g. $d = 2$ or $d =3$
+- for Visualization the target dimension is usually small, e.g. $d = 2$ or $d =3$
 
 
 ### Overfitting
@@ -33,7 +33,7 @@ In IR these techniques are usually called "Term Selection" rather than "Feature 
 
 Usual IR and indexing techniques for reducing dimensionality are
 - [Stop Words](Stop_Words) Removal
-- [Stemming](Stemming) or [Lemmatization](Lemmatization)  
+- [Stemming](Stemming) or Lemmatization  
 - less common techniques are [Term Strength](Term_Strength) and [Term Contribution](Term_Contribution)
 
 [Term Clustering](Term_Clustering)
@@ -46,23 +46,23 @@ Usual IR and indexing techniques for reducing dimensionality are
   - [Entropy-Based Ranking](Entropy-Based_Ranking)
   - [Information Gain](Information_Gain)
   - [Mutual Information](Mutual_Information)
-  - [Odds Ratio](Odds_Ratio)
+  - Odds Ratio
   - [Chi-Squared Ranking](Chi-Squared_Ranking)
 
 
 ## Feature Extraction
-[Factor Analysis](Factor_Analysis)
+Factor Analysis
 
 Generate new features based on the original ones  
 
 
 Linear 
 - [Principal Component Analysis](Principal_Component_Analysis) (often done via [Eigendecomposition](Eigendecomposition) or [SVD](SVD))
-- [Fisher Discriminant Analysis](Fisher_Discriminant_Analysis) (sometimes Linear Discriminant Analysis) - supervised technique for Dimensionality Reduction
+- Fisher Discriminant Analysis (sometimes Linear Discriminant Analysis) - supervised technique for Dimensionality Reduction
 
 
 Non-Linear
-- [Locally Linear Embedding](Locally_Linear_Embedding)
+- Locally Linear Embedding
 
 
 ## Links
@@ -72,6 +72,6 @@ Non-Linear
 
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_%28coursera%29)
-- [Machine Learning 1 (TUB)](Machine_Learning_1_(TUB))
-- [Machine Learning 2 (TUB)](Machine_Learning_2_(TUB))
+- Machine Learning 1 (TUB)
+- Machine Learning 2 (TUB)
 - Sebastiani, Fabrizio. "[Machine learning](Machine_Learning) in automated text categorization." (2002). [link](http://arxiv.org/pdf/cs/0110053.pdf)

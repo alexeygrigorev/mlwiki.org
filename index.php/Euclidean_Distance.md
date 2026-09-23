@@ -43,7 +43,7 @@ When the data is sparse it's better to use different measure of distance/similar
 - we need to ignore records where both vectors have 0 
 - for example:
 - [Dot Product](Dot_Product) and [Cosine Similarity](Cosine_Similarity)
-- [Jaccard Coefficient](Jaccard_Coefficient)
+- Jaccard Coefficient
 
 
 

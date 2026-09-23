@@ -12,7 +12,7 @@ title: Math-Aware POS Tagging
 
 
 ### Classification
-[Penn Treebank POS Scheme](Penn_Treebank_POS_Scheme) doesn't have special classes for mathematics.
+Penn Treebank POS Scheme doesn't have special classes for mathematics.
 What we can do is to add other math-related classes:
 
 - *ID* for identifiers (e.g. "... where $E$ stands for energy", $E$ should be tagged as ID)

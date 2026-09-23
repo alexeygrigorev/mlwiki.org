@@ -12,7 +12,7 @@ Descriptive [statistics](Statistics) - how to summarize data with numbers or plo
 
 ### Summaries
 - Simple summaries - [Summary Statistics](Summary_Statistics) 
-- [Exploratory Analysis](Exploratory_Analysis) - mostly visual analysis - simple-to-understand [graphs](Graphs).
+- Exploratory Analysis - mostly visual analysis - simple-to-understand [graphs](Graphs).
 
 
 ## [Univariate Analysis](Univariate_Analysis)

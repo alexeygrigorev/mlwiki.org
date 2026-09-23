@@ -20,7 +20,7 @@ Two ranked vectors
 
 
 ### Graphical Counting
-we can represent two rankings as a [Bipartite Graph](Bipartite_Graph) $G = \langle N, S, E \rangle$ 
+we can represent two rankings as a Bipartite Graph $G = \langle N, S, E \rangle$ 
 - $N = r_1(X)$ and $E = r_2(X)$ being two disjoint set of nodes
 - $X$ is some variable, and $r_1$ and $r_2$ are different rankings of this variable
 - $E$ is set of edges $E = \Big\{ \big(r_1(x), r_2(x) \big) \Big\} $ i.e. corresponding elements of $X$ are connected in this [graph](Graph)
@@ -45,7 +45,7 @@ A modification of [Merge Sort](Merge_Sort) can compute the # of inversions in $O
 
 
 ## See Also
-- [Kendal's Tau](Kendal's_Tau)
+- Kendal's Tau
 
 ## Sources
 - Simple and efficient bilayer cross counting [link](http://www.emis.de/journals/JGAA/accepted/2004/BarthMutzelJuenger2004.8.2.pdf)

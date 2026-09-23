@@ -33,7 +33,7 @@ noise - modification of an original value
 - very hard to detect - because noisy data looks like real data
 
 
-### [Duplicate Detection](Duplicate_Detection)
+### Duplicate Detection
 Duplicate Data: major issue when you merge data from different sources
 
 

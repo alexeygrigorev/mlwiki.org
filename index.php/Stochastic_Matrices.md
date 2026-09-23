@@ -7,7 +7,7 @@ tags:
 title: Stochastic Matrices
 ---
 ## Stochastic Matrices
-Stochastic matrices (or Markov matrices) - matrices used to describe transitions in [Markov Chains](Markov_Chains)
+Stochastic matrices (or Markov matrices) - matrices used to describe transitions in Markov Chains
 
 A stochastic [matrix](Matrix) is a matrix $A$ which
 - is square $n \times n$

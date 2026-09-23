@@ -22,8 +22,8 @@ A data warehouse is a storage with the following four characteristics: it's subj
 #### Time-Variant
 - It keeps historical data.
 - We can retrieve 3-month-old data, 6-month, one year and even older data from a data warehouse. 
-- In contrast to a [transactional system](OLTP), where typically only the most recent data is kept.
-- For example, in OLTP system we have the most recent address of a customer, while in a data warehouse we keep all the history (see [Slowly Changing Dimensions](Slowly_Changing_Dimensions))
+- In contrast to a transactional system, where typically only the most recent data is kept.
+- For example, in OLTP system we have the most recent address of a customer, while in a data warehouse we keep all the history (see Slowly Changing Dimensions)
 
 #### Non-volatile
 - Once we put data into a data warehouse, we never change it. 
@@ -42,7 +42,7 @@ The main role of data warehouses is to support decision making process.
 Best for most BI deliverables
 - reports
 - performance management metrics
-- operational [Business Intelligence](Business_Intelligence) data
+- operational Business Intelligence data
 - [OLAP](OLAP) cubes
 
 Other systems, like [Hadoop](Hadoop), are not good at this.

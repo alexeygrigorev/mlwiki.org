@@ -9,7 +9,7 @@ title: BPMN
 BPMN - Business Process Modeling Notation 
 - This is a graphical language for describing business processes for [BPM](BPM)
 - BPMN 2.0 is de-facto the industrial standard for [BPM](BPM)
-- executable via [BPeL](BPeL) or there are tools that natively support execution of BPM
+- executable via BPeL or there are tools that natively support execution of BPM
 
 
 ## Control Flow Syntax

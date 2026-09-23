@@ -52,7 +52,7 @@ Let's do it:
 - <img src="http://habrastorage.org/files/fff/873/751/fff8737512334debaf8ae3f1878cd8b3.png" alt="Image">
 
 
-[*rank*](Rank) $r$ of a matrix is the number of Pivot variables in the echelon form
+*rank* $r$ of a matrix is the number of Pivot variables in the echelon form
 
 
 During the elimination the nullspace $N(A)$ of $A$ doesn't change

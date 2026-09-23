@@ -12,7 +12,7 @@ title: Machine Learning (coursera)
 - [Octave tutorial @ Coursera crowd wiki](http://share.coursera.org/wiki/index.php/ML:Octave_Tutorial)
 
 
-## Prediction: [Supervised Learning](Supervised_Learning)
+## Prediction: Supervised Learning
 ### [Linear Regression](Linear_Regression)
 - Univariate [Linear Regression](Linear_Regression)
   - [Gradient Descent](Gradient_Descent)
@@ -37,12 +37,12 @@ title: Machine Learning (coursera)
 - Intuition behind SVM
 
 
-## [Unsupervised Learning](Unsupervised_Learning)
+## Unsupervised Learning
 - [Clustering](Cluster_Analysis)
   - [K-Means](K-Means)
 - [Dimensionality Reduction](Dimensionality_Reduction)
 - [Anomaly Detection](Anomaly_Detection)
-- [Recommender Systems](Recommender_Systems)
+- Recommender Systems
 
 
 ## Other
@@ -61,5 +61,5 @@ title: Machine Learning (coursera)
 
 
 ### Practical Advice
-- [Large-Scale Machine Learning](Large-Scale_Machine_Learning)
-- [Photo OCR Application Example (Machine Learning)](Photo_OCR_Application_Example_(Machine_Learning))
+- Large-Scale Machine Learning
+- Photo OCR Application Example (Machine Learning)

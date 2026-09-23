@@ -17,7 +17,7 @@ Assume there are $n$ independent experiments
 - such experiments are called "Bernoulli Trials"
 
 
-Using [Bernoulli Formula](Bernoulli_Formula), can calculate that
+Using Bernoulli Formula, can calculate that
 - the probability of $A$ happening $k$ times out of $n$ trials is
 - $P_n(k) = C_n^k \ p^k q^{n-k}$, $0 \leqslant k \leqslant n$
 

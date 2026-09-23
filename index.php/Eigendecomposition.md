@@ -104,7 +104,7 @@ same for diagonalizable matrices:
 - and $A^k = S \Lambda^k S^{-1}$
 - so this factorization is better for powers than [LU Factorization](LU_Factorization)
 
-This is useful for calculating the steady state probabilities of [Markov Chains](Markov_Chains) - by calculating the powers of [Stochastic Matrices](Stochastic_Matrices) - matrix representation of a Markov Chain
+This is useful for calculating the steady state probabilities of Markov Chains - by calculating the powers of [Stochastic Matrices](Stochastic_Matrices) - matrix representation of a Markov Chain
 
 
 ### [Recurrence Equation](Recurrence_Equation)
@@ -122,7 +122,7 @@ Suppose you are given a vector $\mathbf u_0$ and a recurrent formula $\mathbf u_
 - then $\mathbf u_{100} = c_1 \lambda_1^{100} \mathbf v_1 + \ ... \ + c_n \lambda_n^{100} \mathbf v_n = \Lambda^{100} S \mathbf c$
 
 
-### [Fibonacci Numbers](Fibonacci_Numbers)
+### Fibonacci Numbers
 - Fibonacci numbers is a sequence 0, 1, 1, 2, 3, 5, 8, 13... 
 - $F_{k + 2} = F_{k+ 1} + F_{k}$
 - it's a second order [Recurrence Equation](Recurrence_Equation)

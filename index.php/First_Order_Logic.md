@@ -9,13 +9,13 @@ title: First Order Logic
 
 ## First Order Logic
 First Order Logic (FOL)
-- Logic is the foundation of [Knowledge Representation](Knowledge_Representation)
-- inferences expressed in logical statements are basis for [Knowledge Discovery](Knowledge_Discovery)
+- Logic is the foundation of Knowledge Representation
+- inferences expressed in logical statements are basis for Knowledge Discovery
 - languages like [OWL](OWL) - can be viewed as a specialization of FOL
 
 
 ### Inference
-In FOL, inference is generally [undecidable](Decidability)
+In FOL, inference is generally undecidable
 - there is a subset of FOL, called [Descriptive Logic](Descriptive_Logic), where it becomes tractable
 
 - [FOL](First_Order_Logic) give formal definitions of [RDFS](RDFS) and OWL statements 

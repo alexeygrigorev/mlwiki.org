@@ -44,7 +44,7 @@ That's the simplest type of functions: they have one input and one output
 - [Polynomial Functions](Polynomial_Functions): $P(x) = C_0 + C_1 x + \ ... \ + C_n x^n = \sum_{k=0}^n C_k x^k$, $n$ is degree of $P(\cdot)$
 - Rational Functions: $\cfrac{P(x)}{Q(x)}$, s.t. $Q(x) \ne 0$. e.g. $\cfrac{3x - 1}{x^2 - x - 6}$
 - [Trigonometric Functions](Trigonometric_Functions): $\sin x$, $\cos x$, $\tan x$, etc
-- [Exponential Function](Exponential_Function) and [Logarithm](Logarithm)
+- [Exponential Function](Exponential_Function) and Logarithm
 
 ### [Continuous Functions](Continuous_Functions)
 - Functions are [continuous](Continuous_Functions) is their [Limits](Limits) always exist
@@ -58,7 +58,7 @@ These functions are more complex:
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/function-multi.png" alt="Image">
 
 ## [Function Spaces](Function_Spaces)
-Functions, like [Vectors](Vectors), can form [Vector Spaces](Vector_Spaces)
+Functions, like Vectors, can form [Vector Spaces](Vector_Spaces)
 - they are called [Function Spaces](Function_Spaces) for functions
 
 

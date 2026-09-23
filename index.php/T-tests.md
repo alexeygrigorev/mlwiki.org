@@ -297,11 +297,11 @@ t.test(male, female, mu=0, conf.level=0.95, alternative='two.sided')
 - e.g. in post-[ANOVA](ANOVA) analysis
 
 
-### Controlling [Family-Wise Error Rate](Family-Wise_Error_Rate)
-It's important to modify $\alpha$ to avoid [Type I Errors](Type_I_Errors)
+### Controlling Family-Wise Error Rate
+It's important to modify $\alpha$ to avoid Type I Errors
 - when we run many tests, it's inevitable that we make them just by chance
 
-E.g. use [Bonferroni Correction](Bonferroni_Correction)
+E.g. use Bonferroni Correction
 - use modified confidence level $\alpha^* = \alpha \cdot \cfrac{1}{K}$
 - where for $k$ groups $K= \cfrac{k \cdot (k - 1)}{2}$ 
 

@@ -32,7 +32,7 @@ title: Business Process Management (ULB)
 - [Milestone Pattern](Milestone_Pattern)
 
 ### [BPMN](BPMN)
-- [BPeL](BPeL)
+- BPeL
 
 ### [Process Mining](Process_Mining)
 - [Alpha Algorithm](Alpha_Algorithm) and [BPM project: The $\alpha^+$ algorithm](http://docs.google.com/document/d/1JtuECbGZ3DusNpmBZhXeq8R_UPCRU5V7NG8GL17h1aA/pub)

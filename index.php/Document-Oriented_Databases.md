@@ -36,7 +36,7 @@ Categorizing
 ### [CouchDB](CouchDB)
 - JSON for storing documents
 - Eventual Consistency
-- [REST](REST) Api
+- REST Api
 
 ### OrientDB
 - 

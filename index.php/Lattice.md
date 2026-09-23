@@ -21,7 +21,7 @@ Layer approach
 - page 33 - onwards [link](http://phoenix.inf.upol.cz/~outrata/download/texts/LatDrawing-slides.pdf) - software for drawing 
 
 
-### Drawing Powerset with [Dot](Dot)
+### Drawing Powerset with Dot
 Generating it in python:
 ```python
 from itertools import chain,combinations,product

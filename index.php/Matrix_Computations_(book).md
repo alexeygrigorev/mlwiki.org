@@ -24,7 +24,7 @@ Basics
 - [Similar Matrices](Similar_Matrices)
 - [Diagonalization](Diagonalization)
 
-[Orthogonalization](Orthogonalization) and [Least Squares](Ordinary_Least_Squares)
+Orthogonalization and [Least Squares](Ordinary_Least_Squares)
 - Orthogonalization and [QR Decomposition](QR_Decomposition)
 - [Householder Transformation](Householder_Transformation)
 - [Givens Transformation](Givens_Transformation)
@@ -33,6 +33,6 @@ Basics
 
 [Eigenvalue Problems](Eigenvalues_and_Eigenvectors)
 - [Power Iteration](Power_Iteration)
-- [Hessenberg Transformation](Hessenberg_Transformation)
+- Hessenberg Transformation
 - [QR Algorithm](QR_Algorithm)
-- [Tridiagonalization](Tridiagonalization) and [Tridiagonal Matrices](Tridiagonal_Matrices)
+- Tridiagonalization and Tridiagonal Matrices

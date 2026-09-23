@@ -32,7 +32,7 @@ Constructing
 1. order the observations 
 1. determine the percentile for each
 1. identify the $z$-score for each percentile 
-1. create a [Scatterplot](Scatterplot)
+1. create a Scatterplot
   - observation (vertical) vs
   - $z$-score (horizontal)
 

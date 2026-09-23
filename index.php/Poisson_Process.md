@@ -63,7 +63,7 @@ During one minute, on average 2 calls arrive at a telephone exchange. Find the p
 
 ## See also
 - Poisson Limit Theorem
-- [Poisson Distribution](Poisson_Distribution)
+- Poisson Distribution
 
 ## Sources
 - Gmurman V.E., Probability Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vysshaya Shkola, 2003.

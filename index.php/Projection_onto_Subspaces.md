@@ -152,7 +152,7 @@ How do we use a nice matrix representation for projecting onto subspaces?
 It's $\mathbb R^n \to \mathbb R^1$ case
 
 Let $P$ be the projection matrix, i.e. 
-- $P$ s.t. $\mathbf p = P \mathbf b$ - a matrix $P$ with which we can express the [Linear Transformation](Linear_Transformation) that brings $\mathbf b$ to $\mathbf p$
+- $P$ s.t. $\mathbf p = P \mathbf b$ - a matrix $P$ with which we can express the Linear Transformation that brings $\mathbf b$ to $\mathbf p$
 - we know that $\mathbf p = \mathbf a \cdot \cfrac{\mathbf a^T \mathbf b}{\mathbf a^T \mathbf a}$
 - so $\mathbf p = P \mathbf b$ or $P = \cfrac{\mathbf a \mathbf a^T}{\mathbf a^T \mathbf a}$
 - in the numerator we have an [Outer Product](Outer_Product), and we have an [Inner Product](Inner_Product) in the denominator - it's $\|  \mathbf a \|^2$

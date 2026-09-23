@@ -11,12 +11,12 @@ title: XML and Web Technologies (UFRT)
 ### [XML](XML)
 - XML as a [Semi-Structured Data Model](Semi-Structured_Data_Model)
 - [XML schemas](XML_Schema): [DTD](DTD) and XML Schema
-- [XPath](XPath) for Querying XML
-- [XSLT](XSLT) for Transforming XML
+- XPath for Querying XML
+- XSLT for Transforming XML
 
 
-### [Automata Theory](Automata_Theory)
-- [Tree Automata](Tree_Automata)
+### Automata Theory
+- Tree Automata
 
 
 ### [Semantic Web](Semantic_Web) and [Ontologies](Ontologies)

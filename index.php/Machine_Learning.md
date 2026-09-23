@@ -76,7 +76,7 @@ applications
 - clustering 
 - market segregation
 
-### [Clustering](Clustering)
+### Clustering
 The goal is to automatically group the data into coherent subsets (or *clusters*)
 - [K-Means](K-Means)
 

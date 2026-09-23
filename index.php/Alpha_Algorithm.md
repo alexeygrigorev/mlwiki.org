@@ -336,7 +336,7 @@ There have been made some assumptions:
 - absence of noise in the logs 
 
 usually it's not the case in real life and different mining algorithms should be used
-- such as [Genetic Miner](Genetic_Miner)
+- such as Genetic Miner
 
 
 ## Examples

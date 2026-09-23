@@ -15,7 +15,7 @@ Basic structures:
 - Tables
   - like tables in RDBs
   - each table has a corresponding [HDFS](HDFS) directory
-- [Partitions](Database_Partitioning)
+- Partitions
   - each table has one or more partitions
 - Buckets
   - data in each partition is divided into buckets

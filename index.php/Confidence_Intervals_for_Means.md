@@ -45,7 +45,7 @@ Suppose we take 10k samples
 - and for each sample we calculate the mean
 - and then draw the [histogram](Histogram) of this data - thus we'll get the sampling distribution
 - <img src="http://habrastorage.org/files/8fd/562/12b/8fd56212b94641918e49649673a26113.png" alt="Image">
-- we see that it's normal, but can also try to draw the [Normal Probability Plot](Normal_Probability_Plot) to see that it's indeed the case
+- we see that it's normal, but can also try to draw the Normal Probability Plot to see that it's indeed the case
 - <img src="http://habrastorage.org/files/8a1/8f9/d42/8a18f9d42fb74957acb26f859b51c289.png" alt="Image">
 
 
@@ -146,7 +146,7 @@ To use normal approximation we need a sufficiently large sample
 
 ### [$t$-distribution](t_Distribution)
 $t$-distribution
-- We say that value follows [$t$-distribution](t-distribution) with $n - 1$ degrees of freedom
+- We say that value follows $t$-distribution with $n - 1$ degrees of freedom
 - This distribution is similar to normal, but not quite: it's little wider and allows for more uncertainty 
 
 

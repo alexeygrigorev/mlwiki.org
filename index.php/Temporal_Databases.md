@@ -19,7 +19,7 @@ Valid time of a fact:
 - when the fact is (was, will be) true in the modeled reality
 - independent of the transaction time 
 - can be past, present, future
-- (link to [Slowly Changing Dimensions](Slowly_Changing_Dimensions))?
+- (link to Slowly Changing Dimensions)?
 
 Transaction time of a fact:
 - when the fact was recorded in a [database](Database)

@@ -269,7 +269,7 @@ Note the usage of <code>xs:NCName</code>
 ## See Also
 - XML
 - DTD
-- [Tree Automata](Tree_Automata)
+- Tree Automata
 
 
 ## Sources

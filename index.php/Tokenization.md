@@ -45,7 +45,7 @@ Main challenge: distinguish between full stop dot and dot in abbreviations
 - Tokenization is usually the very first step in NLP and IR applications 
 - Then it can be followed by 
 - [Stop Word Removal](Stop_Words)
-- [Lemmatization](Lemmatization)
+- Lemmatization
 - building a [Vector Space Model](Vector_Space_Model) or [Inverted Index](Inverted_Index)
 - etc
 

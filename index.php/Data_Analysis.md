@@ -12,7 +12,7 @@ Data - values of qualitative or quantitative variables belonging to a set of ite
 - variables - measurements 
 
 
-### [Data Preparation](Data_Preparation)
+### Data Preparation
 Raw Data
 - hard to use 
 - complex format
@@ -48,7 +48,7 @@ Want to have Pre-Processed Data
 - use small data sample to say something about the bigger population
 
 
-[Predictive Analysis](Predictive_Analysis)
+Predictive Analysis
 - use data on some object to predict values for another object 
 
 
@@ -75,7 +75,7 @@ Steps:
 1. [Clean the data](Data_Cleaning) - so you can analyze it
   - Is the data you found good enough? 
   - Most often - not, so you'll have to change the data
-  - may have to use [ETL](ETL)s for that and load the data into a [Data Warehouse](Data_Warehouse)
+  - may have to use ETLs for that and load the data into a [Data Warehouse](Data_Warehouse)
 1. [Exploratory Data Analysis](Exploratory_Data_Analysis)
   - Playing with data in R
   - try different things: [Plots](Plots), [Histograms](Histogram), etc

@@ -12,7 +12,7 @@ An estimate is a point estimate when we use only one certain value to describe w
 ### Examples
 - $\bar{x}$ - sample mean, $\mu$ - population mean, $\bar{x}$ estimates $\mu$
 - $\hat{p}$ - estimate of proportion, $p$ - true proportion
-- $s$ - sample [Standard Deviation](Standard_Deviation), $\sigma$ - std of population
+- $s$ - sample Standard Deviation, $\sigma$ - std of population
 - etc
 
 Point estimates are not necessarily good, but they tend to become better as we collect more data

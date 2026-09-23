@@ -135,7 +135,7 @@ For example, the following is not possible to validate with DTD
 - http://en.wikipedia.org/wiki/Document_type_definition
 
 ## See Also
-- [Tree Automata](Tree_Automata)
+- Tree Automata
 - XML
 - [XML Schema](XML_Schema)
 

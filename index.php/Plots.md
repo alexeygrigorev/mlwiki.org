@@ -22,7 +22,7 @@ Types
 - [Bar Chart](Bar_Chart)s
 - [Mosaic Plot](Mosaic_Plot)s
 - [Box Plot](Box_Plot)s
-- [Pie Chart](Pie_Chart)s
+- Pie Charts
 - [Histogram](Histogram)s
 - [Density Plot](Density_Plot)s
 - [Scatter Plot](Scatter_Plot)s

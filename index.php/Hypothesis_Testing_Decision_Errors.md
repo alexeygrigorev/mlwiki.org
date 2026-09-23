@@ -32,8 +32,8 @@ Significance Level $\alpha$ controls Type I errors
 - e.g. want to compare pair-wise 10 samples
 - thus we need to make about $\sum_{i=1}^{10} i = 45$ comparisons
 - the chances hight that among the 45 tests a couple of them will incorrectly reject $H_0$ - i.e. they will make Type 1 Error 
-- the solution is to modify the significance level, e.g. using the [Bonferroni Correction](Bonferroni_Correction)
-- see [Family-Wise Error Rate](Family-Wise_Error_Rate)
+- the solution is to modify the significance level, e.g. using the Bonferroni Correction
+- see Family-Wise Error Rate
 
 
 

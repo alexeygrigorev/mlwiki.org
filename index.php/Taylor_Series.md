@@ -14,7 +14,7 @@ The idea behind Taylor Series is that any well-behaving [Function](Function) (e.
 ### Taylor and Maclaurin Series
 A Taylor Series of $f(x)$ at $x=0$ is 
 - $f(x) = \sum\limits_{k=0}^\infty \cfrac{f^{(k)}(0)}{k!}\, x^k$
-- where $f^{(k)}(0)$ is $k$th [Derivative](Derivative) of $f$ evaluated at $x=0$
+- where $f^{(k)}(0)$ is $k$th Derivative of $f$ evaluated at $x=0$
 - this kind of Taylor Series about $x = 0$ is sometimes called *Maclaurin Series*
 
 
@@ -59,7 +59,7 @@ Approximation near the expansion point 0:
 How to compute Taylor Series? 
 There are several ways of doing it
 
-### [Derivatives](Derivatives)
+### Derivatives
 - This is the straightforward way:
 - use the definitions and compute all the Derivatives
 - if a function is complex, it may be hard 
@@ -98,18 +98,18 @@ To show what behavior HOTs have, we use [Orders of Growth](Orders_of_Growth): th
   - $... \ = (1 + x)^2 + 2\, (1 + x)\, O(x) + \big( O(x^2)\big)^2 = 1 + 2x + O(x^2) + O(x^3) + O(x^4) = 1 + 2x + O(x^2)$
 
 
-## [Convergence](Series_Convergence)
-[Series](Series) = adding an infinite number of terms 
+## Convergence
+Series = adding an infinite number of terms 
 - it can be dangerous 
 - Problem: not all functions can be expressed as sum of Polynomial Functions, i.e. as $f(x) = \sum c_k x^k$ 
 
-for example, natural [Logarithm](Logarithm):
+for example, natural Logarithm:
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/log.png" alt="Image">
 - $\ln x$ is not even defined at $x=0$
 - polynomials are too simple to capture all the complexity of $\ln x$ 
 
 
-### [Convergence Domain](Convergence_Domain)
+### Convergence Domain
 Taylor Series has a *convergence domain* on which the series is well behaved 
 - for many functions, e.g. $e^x$, $\sin x$, $\cos x$, $\sinh x$, etc, the domain is $\mathbb R = (-\infty, \infty)$
 

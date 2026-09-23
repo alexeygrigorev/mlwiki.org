@@ -67,7 +67,7 @@ Goal:
 
 ### Orthogonalization
 Finding orthogonal basis for the rowspace $C(A^T)$ 
-- let $r$ be the [rank](Rank_(Matrix)) of $A$ 
+- let $r$ be the rank of $A$ 
 - select orthonormal basis $\mathbf v_1, \ ... \ , \mathbf v_r$ in $\mathbb R^n$ s.t. it spans the Row Space of $A$
 - e.g. using the [Gram-Schmidt Process](Gram-Schmidt_Process) on the rows of $A^T$
 - continue the process to find $\mathbf v_{r+1}, \ ... \ , \mathbf v_n$ in $\mathbb R^n$ s.t it spans the [Nullspace](Nullspace) of $A$

@@ -16,7 +16,7 @@ Topic models is a probabilistic approach to [Document Clustering](Document_Clust
 Notation and problem:
 - $D_1, \ ... \ , D_n$ are documents
 - $T_1, \ ... \ , T_k$ are topics (sort of "clusters")
-- each document may belong to several topics - so these "clusters" are [Fuzzy](Fuzzy_Clustering)
+- each document may belong to several topics - so these "clusters" are Fuzzy
 - [probability](Probability) of $D_i$ belonging to $T_j$ is $P(T_j \mid D_i)$
 - but cluster membership is secondary in this problem
 - the main problem is to find latent topics that generated documents - which is why it's called Topic Modeling 
@@ -26,12 +26,12 @@ Notation and problem:
 
 Thus, we need to estimate the following probabilities:
 - $P(T_j \mid D_i)$ and $P(t_l \mid T_j)$
-- usually parameters are learned via maximum likelihood methods like [Expectation Maximization](Expectation_Maximization)
+- usually parameters are learned via maximum likelihood methods like Expectation Maximization
 
 
 There are two types of Topic Modeling techniques:
 - [Probabilistic LSA](Probabilistic_LSA)
-- [Latent Dirichlet Allocation](Latent_Dirichlet_Allocation)
+- Latent Dirichlet Allocation
 
 
 ## Sources

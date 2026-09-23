@@ -23,7 +23,7 @@ x_1 \\ x_2 \\ x_3
 0 \\ 0 \\ 0 \\ 0
 \end{bmatrix}$
 - There are 3 columns and they are 4-dim vectors 
-- the [Column Space](Column_Space) $C(A)$ is a subspace of $\mathbb R^4$, but $\text{dim } C(A) = 2$ (because the [rank](Rank_(Matrix)) of this matrix is 2)
+- the [Column Space](Column_Space) $C(A)$ is a subspace of $\mathbb R^4$, but $\text{dim } C(A) = 2$ (because the rank of this matrix is 2)
 - since there are only 3 columns, the number of unknowns is 3 - so $N(A)$ is a subspace of $\mathbb R^3$
 
 

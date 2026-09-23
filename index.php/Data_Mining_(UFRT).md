@@ -60,7 +60,7 @@ Sequence Mining:
 - [Sequential Pattern Mining](Sequential_Pattern_Mining)
 
 ### Others
-- [Graph Mining](Graph_Mining) and Social Network Mining
+- Graph Mining and Social Network Mining
 - [Cluster Analysis](Cluster_Analysis)
 
 

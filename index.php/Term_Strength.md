@@ -17,12 +17,12 @@ Term Strength is a technique for [Feature Selection](Feature_Selection) in [Text
 - measures how informative a word is for identifying two related documents
 - $s(t) = P(t \in y \mid t \in x)$
 - for two related documents $x, y$ what's the [probability](Probability) that $t$ belongs to $y$ given it belongs to $x$?
-- estimate $s(t)$ on training data using [Maximum Likelihood Estimation](Maximum_Likelihood_Estimation)
+- estimate $s(t)$ on training data using Maximum Likelihood Estimation
 
 
 What does it mean "related"?
 - if we know the labels of these documents, then related are those that belong to the same category
-- what about [Unsupervised Learning](Unsupervised_Learning)?
+- what about Unsupervised Learning?
 
 
 

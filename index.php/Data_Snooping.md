@@ -27,6 +27,6 @@ We see that DH and C look really different. Why don't we just check if $\mu_\tex
 the primary issue: we're inspecting the data before doing the check 
 this is called [Data Snooping](Data_Snooping) (or Data Fishing)
 naturally we'd pick up the groups with largest differences and run the formal test
-but it would lead to [Type I Errors](Type_I_Errors)
+but it would lead to Type I Errors
 
 it's also called Prosecutor's Fallacy

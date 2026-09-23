@@ -10,7 +10,7 @@ title: Regular Languages
 ## Regular Languages
 This is a class of [Formal Languages](Formal_Languages) that can be defined by
 - Final State Automata
-- [Regular Expression](Regular_Expression)
+- Regular Expression
 
 A language $L$ is called *regular* if
 - it's accepted by some DFA

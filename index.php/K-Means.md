@@ -156,7 +156,7 @@ It's a smart way of doing seed selection
 
 
 ## Variants
-### [Weighted K-Means](Weighted_K-Means)
+### Weighted K-Means
 Objective:
 - $$J(\boldsymbol \mu_1, \dots, \boldsymbol \mu_K) = \cfrac{\sum_{i} w_i \min_k \|  \mathbf x_i- \boldsymbol \mu_k\|^2}{\sum_{i} w_i},$$
 - $\boldsymbol \mu_i$ is $i$ centroid 
@@ -203,8 +203,8 @@ Algorithm:
 
 ### Mini-Batch K-Means
 Lloyd's classical algorithm is slow for large datasets (Sculley2010)
-- Use [Mini-Batch Gradient Descent](Mini-Batch_Gradient_Descent) for optimizing K-Means
-- reduces complexity while achieving better solution than [Stochastic Gradient Descent](Stochastic_Gradient_Descent)
+- Use Mini-Batch Gradient Descent for optimizing K-Means
+- reduces complexity while achieving better solution than Stochastic Gradient Descent
 
 Notation:
 - $f(C, \mathbf x)$ returns the nearest centroid for $\mathbf x$
@@ -231,7 +231,7 @@ Implementation:
 - [MiniBatchKMeans](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.MiniBatchKMeans.html) in scikit-learn
 
 
-### [Fuzzy C-Means](Fuzzy_C-Means)
+### Fuzzy C-Means
 Modify the membership function s.t. it outputs the degree of association between item and cluster
 - degree of membership to the cluster depends on the [distance](Distance_Functions) from the document to the cluster centroid
 
@@ -339,7 +339,7 @@ See ipython notebook for complete code:
 ## Sources
 - [Machine Learning (coursera)](Machine_Learning_%28coursera%29)
 - [Python for Machine Learning (TUB)](Python_for_Machine_Learning_%28TUB%29)
-- [Machine Learning 1 (TUB)](Machine_Learning_1_(TUB))
+- Machine Learning 1 (TUB)
 - Steinbach, Michael, George Karypis, and Vipin Kumar. "A comparison of document clustering techniques." 2000.
 - Aggarwal, Charu C., and ChengXiang Zhai. "A survey of text clustering algorithms." Mining Text Data. Springer US, 2012. [link](http://ir.nmu.org.ua/bitstream/handle/123456789/144935/d1784ebed3eab2708026b202b2b65309.pdf?sequence=1#page=90)
 - Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." 2010. [link](https://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5)

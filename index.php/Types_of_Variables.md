@@ -47,7 +47,7 @@ The relationships between the explanatory variable and the outcome
 ### Multivariate Analysis
 To analyze relationships between variables there are following methods:
 - [Bivariate Analysis](Bivariate_Analysis)
-- e.g. [Correlation](Correlation), [Regression Analysis](Regression_Analysis), [ANOVA](ANOVA), [Statistical Test of Independence](Statistical_Test_of_Independence)
+- e.g. [Correlation](Correlation), Regression Analysis, [ANOVA](ANOVA), Statistical Test of Independence
 - and many others 
 
 

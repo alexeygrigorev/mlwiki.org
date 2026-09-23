@@ -43,7 +43,7 @@ $A = \begin{bmatrix}
 \mathop{a_1}\limits_| ^| \ \mathop{a_2}\limits_|^| \ \cdots \  \mathop{a_n}\limits_|^
 \end{bmatrix}$
 
-When we multiply $A$ on a vector $\mathbf b$, it produces a [Linear Combination](Linear_Combination) of these column vectors: 
+When we multiply $A$ on a vector $\mathbf b$, it produces a Linear Combination of these column vectors: 
 
 $A \mathbf b = \begin{bmatrix}
 \mathop{a_1}\limits_| ^| \ \mathop{a_2}\limits_|^| \ \cdots \ \mathop{a_n}\limits_|^

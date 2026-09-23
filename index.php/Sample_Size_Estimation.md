@@ -9,7 +9,7 @@ title: Sample Size Estimation
 ## Sample Size
 When we need to estimate the size of a sample?
 - For [Confidence Intervals](Confidence_Intervals) we want to know how much we need to sample to get some Margin of Error
-- For [Hypothesis Testing](Hypothesis_Testing) we want to control [Type II Errors](Type_II_Errors)
+- For [Hypothesis Testing](Hypothesis_Testing) we want to control Type II Errors
 
 
 ## [Confidence Intervals](Confidence_Intervals)

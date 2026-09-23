@@ -43,7 +43,7 @@ Basic idea
 Notation:
 - $\|  \mathbf x \|_p = \left( \sum_i |x_i|^p \right)^{1/p}$
 - let $d_p(\mathbf p, \mathbf q) = \|  \mathbf p - \mathbf q \|_p$
-- and let $d_H(\mathbf p, \mathbf q)$ be the [Hamming Distance](Hamming_Distance): # of bits in which $\mathbf p$ and $\mathbf q$ are different
+- and let $d_H(\mathbf p, \mathbf q)$ be the Hamming Distance: # of bits in which $\mathbf p$ and $\mathbf q$ are different
 
 
 NN Search problem: 
@@ -79,7 +79,7 @@ Brute force solution:
 - a well-designed hash function should separate two close symbols into different buckets of a hash table
 - so hashes are good for <u>exact</u> matches, but we need to get NN match 
 
-Cryptographic hashes like [MD5](MD5) or [SHA1](SHA1):
+Cryptographic hashes like MD5 or SHA1:
 - change one bit - get a completely different hash 
 - but we want to same same hash for close objects
 - Solution: Use LSH
@@ -146,7 +146,7 @@ $k$ and $L$ are parameters chosen s.t.:
 
 
 A hash function family is *locality-sensitive* if 
-- "similar" $\mathbf v_1, \mathbf v_2$ - e.g. big $\text{sim}(\mathbf v_1, \mathbf v_2)$ for some [Similarity Measure](Similarity_Measure) or small $d(\mathbf v_1, \mathbf v_2)$ for some distance measure 
+- "similar" $\mathbf v_1, \mathbf v_2$ - e.g. big $\text{sim}(\mathbf v_1, \mathbf v_2)$ for some Similarity Measure or small $d(\mathbf v_1, \mathbf v_2)$ for some distance measure 
 - they should collide: have same hash value with high probability
 
 
@@ -161,14 +161,14 @@ A hash function family is *locality-sensitive* if
 - [Euclidean LSH](Euclidean_LSH) often called E2LSH in the literature
 - Approximated Distance: [Euclidean Distance](Euclidean_Distance) 
 
-### [MinHash](MinHash)
+### MinHash
 - aka Min-Wise independent [permutations](Permutations)
 - Approximated similarity: Jaccard
 
-### [SimHash](SimHash)
+### SimHash
 - http://matpalm.com/resemblance/simhash/
 
-### [Random Binary Projection](Random_Binary_Projection)
+### Random Binary Projection
 - Approximated similarity: Cosine
 - Approximated Distance: Cosine Distance (1 - cosine)
 - http://stackoverflow.com/questions/12952729/how-to-understand-locality-sensitive-hashing

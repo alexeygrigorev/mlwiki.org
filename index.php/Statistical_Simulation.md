@@ -15,7 +15,7 @@ but the know the truth about the word and can control it though computerized sti
 
 When (Nearly) Normal models don't work
 
-Sometimes [Statistical Inference](Statistical_Inference) can be done without applying theoretical models, but instead with using brute force: generating the data ourselves.
+Sometimes Statistical Inference can be done without applying theoretical models, but instead with using brute force: generating the data ourselves.
 
 
 

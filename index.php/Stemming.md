@@ -55,7 +55,7 @@ stem = snowball_stemmer.stem(unigram)
 ## Downsides
 - often does wrong replacement and bad reduction
 - e.g. universe -> univers, university -> univers: different words, same stem
-- in applications where it's important to distinguish between these words, use [Lemmatization](Lemmatization) instead (although it's more computationally expensive)
+- in applications where it's important to distinguish between these words, use Lemmatization instead (although it's more computationally expensive)
 
 
 ## Sources

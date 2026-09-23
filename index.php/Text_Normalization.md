@@ -26,7 +26,7 @@ Forms can have many inclinations, but more often they are not important and we n
 Can be done by
 - [Stemming](Stemming): keeping only the root of the word (usually just deleting suffixes)
   - economy, economic, economical, economically, economics, economize => econom
-- [Lemmatization](Lemmatization): keeping only the lemma
+- Lemmatization: keeping only the lemma
 - produce, produces, product, production => produce
 
 
@@ -60,7 +60,7 @@ In many cases capital letter aren't needed
 
 
 Careful: sometimes capitalization is needed
-- e.g. for [Named Entity Recognition](Named_Entity_Recognition), some features that models use are capital letters
+- e.g. for Named Entity Recognition, some features that models use are capital letters
 - 
 
 

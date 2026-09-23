@@ -50,10 +50,10 @@ We evaluate all feasible solutions against $z_1$ and $z_2$
 
 
 How to select the best one?
-- [Weighed Sum](Multi-Objective_Optimization_Weighed_Sum)
+- Weighed Sum
   - will select only 4 solutions, the rest is ignored
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/moo/waste-utilization-solutions-weighted-sum.png" alt="Image">
-- [Ideal Point](Ideal_Point)
+- Ideal Point
   - we find the closest point to the ideal
   - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/moo/ideal-point.png" alt="Image">
 

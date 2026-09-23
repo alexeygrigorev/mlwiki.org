@@ -30,7 +30,7 @@ Consider this test:
   - $H_A: \mu \ne 130$
 
 Suppose that $H_A$ is actually true
-- what is our chance to make [Type II Errors](Type_II_Errors)? - i.e. fail to reject $H_0$ when we should reject it 
+- what is our chance to make Type II Errors? - i.e. fail to reject $H_0$ when we should reject it 
 
 
 Suppose that the actual average is 132: i.e. $\mu = 132$

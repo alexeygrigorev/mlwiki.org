@@ -51,7 +51,7 @@ Estimation:
 ### $K$-Fold CV Paired [$t$-Test](T-test)
 Let's conduct a [Statistical Tests of Significance](Statistical_Tests_of_Significance):
 - assume (under the null hypothesis) that $A_1$ and $A_2$ have equal expected accuracy
-- $t = \cfrac{\delta^*}{\sigma}$ follows the [Student distribution](Student_distribution) with $K-1$ degrees of freedom
+- $t = \cfrac{\delta^*}{\sigma}$ follows the Student distribution with $K-1$ degrees of freedom
   - $\delta^* = \cfrac{1}{K} \sum_{k = 1}^K \delta_k$ - the estimate of the expected error
   - $\sigma = \sqrt{ \cfrac{1}{K \cdot (K - 1)} \sum_{k = 1}^K (\delta_k - \delta^*)^2 }$ 
 

@@ -9,7 +9,7 @@ title: Eclat
 ## Eclat
 This is an algorithm for [Frequent Pattern Mining](Frequent_Pattern_Mining) based on [Depth-First Search](Depth-First_Search) traversal of the itemset [Lattice](Lattice)
 - but it's rather a DFS traversal of the prefix [tree](Tree) than lattice
-- and the [Branch and Bound](Branch_and_Bound) method is used for stopping
+- and the Branch and Bound method is used for stopping
 
 
 ### Downward Closure

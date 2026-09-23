@@ -78,14 +78,14 @@ Source: [link](http://code.google.com/p/stolzen/source/browse/trunk/courses/cour
 
 
 ### Hadoop MapReduce Implementation
-From [AIM3](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB)):
+From AIM3:
 - [BookAndAuthorReduceSideJoin.java](http://github.com/alexeygrigorev/aim3/blob/master/src/main/java/de/tuberlin/dima/aim3/assignment1/BookAndAuthorReduceSideJoin.java)
 
 
 ## High Level APIs
-- High level APIs such as [Pig](Pig)/[Hive](Hive) or [Flink](Flink)/[Spark](Spark) already provide join abstractions
+- High level APIs such as [Pig](Pig)/[Hive](Hive) or Flink/Spark already provide join abstractions
 - so there's no need to implement them 
 
 ## Sources
 - [Introduction to Data Science (coursera)](Introduction_to_Data_Science_%28coursera%29)
-- [Scalable Data Analytics and Data Mining AIM3 (TUB)](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB))
+- Scalable Data Analytics and Data Mining AIM3 (TUB)

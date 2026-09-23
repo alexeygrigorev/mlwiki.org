@@ -32,7 +32,7 @@ Suppose we have an $m \times n$ matrix of rank $r$
 
 ### [Row Space](Row_Space)
 - $\text{dim } C(A^T) = r = \text{dim } C(A)$, there are $r$ pivot rows - the same dim as for Column Space
-- Let $R$ be [Row Reduced Echelon Form](Row_Reduced_Echelon_Form) of $A$, then $C(A^T) = C(R^T)$
+- Let $R$ be Row Reduced Echelon Form of $A$, then $C(A^T) = C(R^T)$
 - basis: first $r$ rows of $R$
 
 
@@ -49,7 +49,7 @@ Suppose we have an $m \times n$ matrix of rank $r$
 ## [Singular Value Decomposition](Singular_Value_Decomposition)
 We know how to find the basis for all the subspaces
 - e.g. from using [Gaussian Elimination](Gaussian_Elimination) transform the matrix to the echelon form and find them
-- but these bases are not "perfect". We want to use [Orthogonal Vectors](Orthogonal_Vectors) instead
+- but these bases are not "perfect". We want to use Orthogonal Vectors instead
 
 
 SVD finds these bases:
@@ -69,4 +69,4 @@ SVD finds these bases:
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
 - The fundamental theorem of linear algebra, G. Strang [link](http://www.engineering.iastate.edu/~julied/classes/CE570/Notes/strangpaper.pdf)
 - The Four Fundamental Subspaces: 4 Lines, G. Strang, [link](http://web.mit.edu/18.06/www/Essays/newpaper_ver3.pdf)
-- [Seminar Hot Topics in Information Management IMSEM (TUB)](Seminar_Hot_Topics_in_Information_Management_IMSEM_(TUB))
+- Seminar Hot Topics in Information Management IMSEM (TUB)

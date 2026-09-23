@@ -8,7 +8,7 @@ title: Automata (coursera)
 ---
 ## Automata (coursera)
 ### Course Content
-[Automata Theory](Automata_Theory)
+Automata Theory
 - discipline that studies formal systems 
 
 

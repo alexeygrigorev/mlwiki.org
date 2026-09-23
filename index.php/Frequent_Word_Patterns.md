@@ -20,7 +20,7 @@ Frequent word patters is a technique of [Local Pattern Discovery](Local_Pattern_
 We can use [FPM](Frequent_Pattern_Mining) for [Term Clustering](Term_Clustering)
 - cluster = all documents that contain a certain frequent term set 
 - so frequent term [sets](Sets) describe clusters 
-- note that here clustering is not strict (it's [Fuzzy Clustering](Fuzzy_Clustering)): it allows some overlap between clusters
+- note that here clustering is not strict (it's Fuzzy Clustering): it allows some overlap between clusters
 - which is sometimes natural in text documents
 
 

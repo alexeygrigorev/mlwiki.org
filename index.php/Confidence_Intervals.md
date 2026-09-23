@@ -134,7 +134,7 @@ Main types:
 ### [Statistical Simulation](Statistical_Simulation)
 Not always it's possible to calculate everything with traditional methods 
 - but when we know the truth and can control it, we can simulate and build the Sampling Distribution, this way getting the CIs
-- also, [Bootstrapping](Bootstrapping) (a [Resampling](Resampling) method) is a powerful strategy for calculating CIs 
+- also, Bootstrapping (a Resampling method) is a powerful strategy for calculating CIs 
 
 
 
@@ -144,7 +144,7 @@ A method  for constructing CIs is *robust* if
 - the resulting CIs include the theoretical parameter approximately the percentage claimed by the confidence level
 - even if not all necessary conditions for the CIs are satisfied
 
-[$t$-distribution](t-distribution) is very robust and works well for the Normal Distribution as well as for skewed [distributions](Distributions)
+$t$-distribution is very robust and works well for the Normal Distribution as well as for skewed [distributions](Distributions)
 
 
 ### Relationship with [Hypothesis Testing](Statistical_Tests_of_Significance)

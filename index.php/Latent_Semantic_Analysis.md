@@ -35,7 +35,7 @@ WEIRD (Koll1979) is the first IR system that dealt with these problems automatic
 - the goal of WIERD: to go from term matching to concept matching
 - can use statistical analysis to empirically find relations among terms 
 - so it analyzed term-to-term co-occurrence [matrix](Matrix) 
-- can use [Factor Analysis](Factor_Analysis) to identify the right basis for terms s.t. there's little or no loss of information
+- can use Factor Analysis to identify the right basis for terms s.t. there's little or no loss of information
 - in WEIRD only 7 dimensions were used - based on 7 completely non-overlapping documents found in the collection
 
 
@@ -72,7 +72,7 @@ Latent Semantic Analysis (LSA) $\approx$ Latent Semantic Indexing (LSI)
 
 ### Document preparation
 - [Term selection](Feature_Selection): exclude [Stop Words](Stop_Words) and low and high frequency terms
-- [Stem](Stemming) or [Lemmatize](Lemmatization) could also be helpful
+- [Stem](Stemming) or Lemmatize could also be helpful
 - see [NLP Pipeline](NLP_Pipeline)
 
 
@@ -351,7 +351,7 @@ LSA and [Principal Component Analysis](Principal_Component_Analysis) are related
 
 ## Extensions of LSA
 - add [probability](Probability) over documents: [Probabilistic LSA](Probabilistic_LSA)
-- and a similar technique: [Latent Dirichlet Allocation](Latent_Dirichlet_Allocation)
+- and a similar technique: Latent Dirichlet Allocation
 - can also use [Non-Negative Matrix Factorization](Non-Negative_Matrix_Factorization) to discover latent structure of data
 
 

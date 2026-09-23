@@ -30,7 +30,7 @@ Properties:
 
 
 ## ROC Space
-When evaluating a binary classifier, we often use a [Confusion Matrix](Confusion_Matrix)
+When evaluating a binary classifier, we often use a Confusion Matrix
 - however here we need only TPR and FPR
 - $\text{tpr} = \cfrac{\text{TP}}{\text{TP} + \text{FN}}$
   - Fraction of positive examples correctly classified 

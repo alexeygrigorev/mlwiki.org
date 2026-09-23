@@ -60,7 +60,7 @@ An *index* is any [secondary memory](Secondary_Storage) data structure that
 - [kd-Trees](kd-Trees)
 - [Quad Trees](Quad_Trees)
 - [R-Tree](R-Tree)
-- [Metric Trees](Metric_Trees) and [Spill-Trees](Spill-Trees) 
+- [Metric Trees](Metric_Trees) and Spill-Trees 
 
 ### Hash-Based Indexes
 - [Grid File Index](Grid_File_Index)

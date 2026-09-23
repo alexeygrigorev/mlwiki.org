@@ -55,8 +55,6 @@ To get $\mathbf q_1, \mathbf q_2, \mathbf q_3$, we just normalize:
 
 
 ### 3D Case Animation
-[File:Gram-Schmidt_orthonormalization_process.gif](File_Gram-Schmidt_orthonormalization_process.gif)
-
 Source: <img src="http://en.wikipedia.org/wiki/File:Gram-Schmidt_orthonormalization_process.gif" alt="Image">
 
 

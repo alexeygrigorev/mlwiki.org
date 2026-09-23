@@ -65,7 +65,7 @@ and get Mean Average Precision: MAP
 
 
 
-## Precision and Recall for [Classification](Classification)
+## Precision and Recall for Classification
 The precision and recall metrics can also be applied to Machine Learning: to binary classifiers
 
 

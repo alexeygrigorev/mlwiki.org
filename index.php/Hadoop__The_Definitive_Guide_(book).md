@@ -39,18 +39,18 @@ This is a book by T. White published by O'Reilly Media, Inc.
 - Administering Hadoop
 
 ### Related Projects
-- [Avro](Avro)
-- [Parquet](Parquet)
-- [Flume](Flume)
-- [Sqoop](Sqoop)
+- Avro
+- Parquet
+- Flume
+- Sqoop
 - [Pig](Pig)
 - [Hive](Hive)
-- [Crunch](Crunch)
-- [Spark](Spark)
-- [HBase](HBase)
-- [ZooKeeper](ZooKeeper)
+- Crunch
+- Spark
+- HBase
+- ZooKeeper
 
 ### Case Studies
 - Composable Data at Cerner
 - Biological Data Science: Saving Lives with Software
-- [Cascading](Cascading)
+- Cascading

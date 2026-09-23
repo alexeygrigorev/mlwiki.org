@@ -10,7 +10,7 @@ This is a part of [Cluster Analysis](Cluster_Analysis): we want to build a hiera
 
 Two major approaches:
 - [Agglomerative Clustering](Agglomerative_Clustering): This is a "bottom up" approach: each observation starts in its own cluster, and pairs of clusters are merged as one moves up the hierarchy.
-- [Divisive Clustering](Divisive_Clustering): This is a "top down" approach: all observations start in one cluster, and splits are performed recursively as one moves down the hierarchy.
+- Divisive Clustering: This is a "top down" approach: all observations start in one cluster, and splits are performed recursively as one moves down the hierarchy.
 
 
 ## Links

@@ -25,7 +25,7 @@ Application of Clustering
 
 [Similarity measures](Similarity_Functions) and Distances:
 - [Euclidean Distance](Euclidean_Distance)
-- [Jaccard Coefficient](Jaccard_Coefficient)
+- Jaccard Coefficient
 - [Dot Product](Dot_Product)
 - [Cosine Similarity](Cosine_Similarity)
 
@@ -51,7 +51,7 @@ Main approaches:
 - [Agglomerative Clustering](Agglomerative_Clustering)
   - at the beginning everything is a cluster on its own
   - merge till have one big cluster
-- [Divisive Clustering](Divisive_Clustering)
+- Divisive Clustering
   - at the beginning everything belongs to one big cluster
   - split clusters until everything is a cluster on its own
 
@@ -73,10 +73,10 @@ Partition space into finite number of cells and perform clustering there
 
 ## Other Types
 ### Graph-Based Clustering
-apply [Graph Partitioning](Graph_Partitioning) Algorithms: 
+apply Graph Partitioning Algorithms: 
 - identify clusters by cutting edges from the [graph](Graph) 
 - s.t. the sum of cuts is minimal 
-- for example, [Minimal Cut Algorithm](Minimal_Cut_Algorithm)
+- for example, Minimal Cut Algorithm
 
 Algorithms:
 - Chameleon Clustering
@@ -93,12 +93,12 @@ Algorithms:
 
 Link-Based Clustering
 - can use Web-graph techniques 
-- [PageRang](PageRang) and [HITS](HITS) are used for Ranking
+- PageRang and HITS are used for Ranking
 - see Oikonomakou2010
 
 
 ### [Neural Networks](Neural_Networks) Based
-Called [Self-Organized Maps](Self-Organized_Maps)
+Called Self-Organized Maps
 
 Build a Neural Network with 2 layers:
 - input layers: $n$ input nodes 
@@ -114,7 +114,7 @@ References:
 
 
 
-### [Fuzzy Clustering](Fuzzy_Clustering)
+### Fuzzy Clustering
 sometimes also called "Soft Clustering"
 - Usually clustering is "exclusive": the clustering algorithms assigns each object strictly to cluster
 - but we can remove this restriction and modify the membership function s.t. an object can belong to several clusters
@@ -123,7 +123,7 @@ sometimes also called "Soft Clustering"
 
 Membership function
 - computes for each object and for each cluster returns the degree of membership
-- modification of K-Means: [Fuzzy C-Means](Fuzzy_C-Means)
+- modification of K-Means: Fuzzy C-Means
 - degree of membership to the cluster in C-Means depends on the distance from the document to the cluster centroid
 
 
@@ -133,13 +133,13 @@ Others:
 
 
 
-### [Probabilistic Clustering](Probabilistic_Clustering)
+### Probabilistic Clustering
 Membership function outputs probabilities of an item belonging to a cluster
 
 
 Algorithms:
-- [Finite Mixture Modeling](Finite_Mixture_Modeling)
-- [Expectation Maximization](Expectation_Maximization) (with [Gaussian Mixture Models](Gaussian_Mixture_Models))
+- Finite Mixture Modeling
+- Expectation Maximization (with Gaussian Mixture Models)
 
 
 

@@ -11,7 +11,7 @@ title: Petri Nets
 Petri nets is a technique for description and analysis of concurrent systems
 - very expressive graphical notation
 - mathematically formal
-- this is an extension of [Automata Theory](Automata_Theory) to concurrency
+- this is an extension of Automata Theory to concurrency
 - it's a basis and inspiration of many workflow systems in [BPM](BPM)
 
 

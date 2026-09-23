@@ -10,7 +10,7 @@ title: Spectral Clustering
 ## Spectral Clustering
 
 [Spectral Clustering](Spectral_Clustering)
-- apply [Graph Partitioning](Graph_Partitioning) but in some high-dimensional space
+- apply Graph Partitioning but in some high-dimensional space
 - usually involves computing [Singular Values and Vectors](SVD) / [Eigenvalues and Eigenvectors](Eigenvalues_and_Eigenvectors) of the graph affinity matrix
 - usually has global optimum
 

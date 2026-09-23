@@ -68,7 +68,7 @@ Query
   - or it's a consequence of some fact from ABox inferred by the TBox
 
 Note:
-- FOL $\equiv$ [SQL](SQL) - undecidable for some things we want to have
+- FOL $\equiv$ SQL - undecidable for some things we want to have
 - so need to have a trade off: CQs ([Select-Project-Join Expressions](Select-Project-Join_Expressions) in [Relational Algebra](Relational_Algebra))
 
 

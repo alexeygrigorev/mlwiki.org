@@ -125,7 +125,7 @@ There are two ways to cluster the results:
 
 
 Pre-retrieval 
-- Lingo: use [Matrix Decomposition](Matrix_Decomposition) techniques to produce low-dimensional basis for the document space
+- Lingo: use Matrix Decomposition techniques to produce low-dimensional basis for the document space
 - these base vectors can be interpreted as semantic vectors of the space 
 - find clustering using [SVD](SVD) or [Non-Negative Matrix Factorization](Non-Negative_Matrix_Factorization)
 

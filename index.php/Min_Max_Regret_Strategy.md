@@ -75,7 +75,7 @@ But what if we add a third alternative?
 |  |     |   $c$  |  $e_1$  |  $e_2$ |      |  $a_1$ |   | 8  |  0 |      |   $a_2$ |   | 2  |  4 |      |   $a_3$ |   | 1  |  7 |  |  |     |   $R$  |  $e_1$  |  $e_2$  |  max |      |  $a_1$ |   | 0  |  7  |  7 |      |   $a_2$ |   | 6  |  3  |  <font color="blue">6</font> |      |   $a_3$ |   | 7  |  0  |  7 |  
 But now $a_2$ wins
  |
-## [Expected Opportunity Lost](Expected_Opportunity_Lost)
+## Expected Opportunity Lost
 Similar idea:
 - we calculate the [expected value](Expected_Value) on the regret table
 

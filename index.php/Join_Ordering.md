@@ -93,11 +93,11 @@ a typical query optimizer usually looks only at left-deep join orderings
 - (like being able to [pipeline](Pipelining) some results, etc)
 - still, there are $n!$ possible orderings (and it's still exponential) 
 
-This is an [Optimization Problem](Optimization_Problem). Solutions:
+This is an Optimization Problem. Solutions:
 - some heuristics
-- [Branch and Bound](Branch_and_Bound)
-- [Dynamic Programming](Dynamic_Programming)
-- [Greedy Algorithms](Greedy_Algorithms)
+- Branch and Bound
+- Dynamic Programming
+- Greedy Algorithms
 
 
 ## Greedy Algorithm
@@ -112,7 +112,7 @@ That generates a left-deep join ordering
 
 
 ### Not Always Optimal
-Of course since it uses some kind of [Local Search](Local_Search), it may stuck in local optima
+Of course since it uses some kind of Local Search, it may stuck in local optima
 
 Suppose:
 - join on $R(A, B), S(B, C), T(C, D), U(A, D)$

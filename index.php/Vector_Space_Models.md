@@ -19,7 +19,7 @@ How do we represent a free text in terms of queries?
 - the pipeline may include the following:
 - [Tokenization](Tokenization) - most important step, extracts individual words - "tokens"
 - [Stop Words Removal](Stop_Words) - removes functional words
-- [Stemming](Stemming) or [Lemmatization](Lemmatization) - reduces words to some common form
+- [Stemming](Stemming) or Lemmatization - reduces words to some common form
 - or other [Text Normalization](Text_Normalization) techniques
 - building a VSM model is usually one of the lasts steps of the pipeline
 - for IR we also usually build an [Inverted Index](Inverted_Index) to speed up querying
@@ -140,7 +140,7 @@ A geometrical way to express BoW features is the Vector Space Model
 
 
 TextVSM and TermVSM appear to be very similar, but in reality they are a bit different
-- e.g. Words in the vocabulary of a corpus follow the [Zip's Law](Zip's_Law): the size of the vocabulary becomes stable when corpus size increases 
+- e.g. Words in the vocabulary of a corpus follow the Zip's Law: the size of the vocabulary becomes stable when corpus size increases 
 - it means that the dimensionality of Text VSM is bounded to the number of terms in the language
 - not true for the Term VSM: the number of documents can grow forever
 - also, the [Curse of Dimensionality](Curse_of_Dimensionality): paradox: the larger the corpus size is, the worse the similarity estimation in this space becomes 
@@ -160,8 +160,8 @@ finally these spaces are disjoint: they don't hare any common dimensions
 Suppose we have two document vectors $d_1, d_2$. Then we can define the following measures of similarity:
 - Inner Product: $d_1^T d_2$
 - Cosine Similarity: $\cfrac{d_1^T d_2}{\| d_1 \| \cdot \| d_2 \|}$
-- [Dice Coefficient](Dice_Coefficient): $\cfrac{d_1^T d_2}{\|d_1\|^2 + \| d_2\|^2}$
-- [Jaccard Coefficient](Jaccard_Coefficient): $\cfrac{d_1^T d_2}{\| d_1\|^2 + \| d_2\|^2 - d_1^T d_2}$
+- Dice Coefficient: $\cfrac{d_1^T d_2}{\|d_1\|^2 + \| d_2\|^2}$
+- Jaccard Coefficient: $\cfrac{d_1^T d_2}{\| d_1\|^2 + \| d_2\|^2 - d_1^T d_2}$
 - most efficient: normalize $d_1$ and $d_2$ and compute the [dot product](Dot_Product) to get cosine
 
 

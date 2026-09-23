@@ -9,7 +9,7 @@ title: Exponential Function
 
 ## Exponential Functions
 - $e^x$, or $\exp x$ is the exponential function
-- [Logarithm](Logarithm) is inverse of exponent
+- Logarithm is inverse of exponent
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/exp-log.png" alt="Image">
 
 
@@ -25,7 +25,7 @@ Algebraic Properties
 - $\int e^x\, dx = e^x + C$
 
 
-[Euler's Formula](Euler's_Formula):
+Euler's Formula:
 - relates Exponential Function and [Trigonometric Functions](Trigonometric_Functions)
 - $e^{ix} = \cos x + i \sin x$ where $i = \sqrt {-1}$
 

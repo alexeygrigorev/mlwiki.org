@@ -29,11 +29,11 @@ No smoothing
 
 
 
-[Smoothing](Smoothing)
+Smoothing
 - MLE may [overfit](Overfitting) the data: it will assign 0 probabilities to words it hasn't seen 
 - What to do with it? 
-- [Bayesian Parameter Estimation](Bayesian_Parameter_Estimation) can both maximize the data likelihood and incorporate the prior belief to "smooth" the estimate
-- use MAP: [Maximum A Posteriori Estimation](Maximum_A_Posteriori_Estimation):
+- Bayesian Parameter Estimation can both maximize the data likelihood and incorporate the prior belief to "smooth" the estimate
+- use MAP: Maximum A Posteriori Estimation:
 - $\hat \theta = \operatorname{arg max}_{\theta} P(\theta \mid D) = \operatorname{arg max}_{\theta} P(D \mid \theta) \, P(\theta)$
 - so we can define some prior $P(\theta)$, and depending on the choice of prior, we'd have different estimators
 - if the prior prefers models that don't assign 0 [probability](Probability) to any $w$, then at the end we won't have 0 entries 
@@ -48,7 +48,7 @@ Discount some probability mass of seen words
 
 
 ### Additive Smoothing
-[Laplace Smoothing](Laplace_Smoothing) (or Additive Smoothing):
+Laplace Smoothing (or Additive Smoothing):
 - $\hat p_\lambda (w \mid \theta) = \cfrac{c(w, D) + \lambda}{\sum_{w \in V} c(w, D) + \lambda |V|} = \cfrac{c(w, D) + \lambda}{|D| + \lambda |V|}$
 - so it gives the same probability mass $\cfrac{\lambda}{|D| + \lambda |V|}$ to each unseen word
 If $\lambda = 1$ then we have "+1 Smoothing"
@@ -106,13 +106,13 @@ Interpolate MLE with the collection LM
 - $P_\beta(w \mid \hat \theta) = (1 - \beta) \, \cfrac{c(w, D)}{|D|} + \beta \, P(w \mid C)$
 
 ### Dirichlet Prior Smoothing
-It's a Bayesian Smoothing with special prior: [Dirichlet Distribution](Dirichlet_Distribution)
+It's a Bayesian Smoothing with special prior: Dirichlet Distribution
 - $\text{Dir}(\theta \mid \boldsymbol \alpha) = \cfrac{\Gamma \left( \sum_{i} \alpha_i \right)}{\prod_i  \Gamma(\alpha_1)} \cdot \prod_i \theta_{i}^{\alpha_i - 1}$
 - params: $\boldsymbol \alpha = (\alpha_1, \ ... \ , \alpha_M)$
 - let $\alpha_i = \mu \cdot P(w_i \mid C)$, $\mu$ - param, $P(w_i \mid C)$
 
 
-Dirichlet is a [Conjugate Prior](Conjugate_Prior) for Multinomial Distribution
+Dirichlet is a Conjugate Prior for Multinomial Distribution
 - it means that the prior has the same functional form as the likelihood
 
 
@@ -149,7 +149,7 @@ Interpolation:
 Alternative Strategy: *Back Off*
 - trust MLE for high count words
 - but discount and redistribute probability mass for less common terms
-- popular in [Speech Recognition](Speech_Recognition), but less popular in [Information Retrieval](Information_Retrieval)
+- popular in Speech Recognition, but less popular in [Information Retrieval](Information_Retrieval)
 
 
 ## Other Smoothing Methods

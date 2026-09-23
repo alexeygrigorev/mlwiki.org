@@ -13,7 +13,7 @@ The goal of text clustering is
 - to assign documents to different topics or topic hierarchies
 - i.e. when the topics/hierarchies are not known in advance
 - as opposed to [Document Classification](Document_Classification) when labels are known
-- It's a [Cluster Analysis](Cluster_Analysis) task: [Unsupervised Learning](Unsupervised_Learning) applied to textual data
+- It's a [Cluster Analysis](Cluster_Analysis) task: Unsupervised Learning applied to textual data
 
 
 Objects to be clustered are 
@@ -32,7 +32,7 @@ Applications:
 
 
 ## Preprocessing
-Usual [NLP](Natural_Language_Processing)/IR
+Usual NLP/IR
 
 
 ### Document Representation
@@ -41,8 +41,8 @@ The most commonly used document representation is [Vector Space Model](Vector_Sp
 - weighted with TF or [TF-IDF](TF-IDF)
 
 Alternative representation:
-- terms as a [Probability Distribution](Probability_Distribution): [Language Models](Language_Models)
-- then we can measure (dis)similarity with a symmetric variation of [KL Divergence](KL_Divergence) 
+- terms as a Probability Distribution: [Language Models](Language_Models)
+- then we can measure (dis)similarity with a symmetric variation of KL Divergence 
 
 
 ### [Feature Selection](Feature_Selection)
@@ -67,7 +67,7 @@ In text mining usually referred as "Term Selection":
 - Partitioning Clustering Algorithms
   - [K-Means](K-Means)
   - Scatter/Gather
-- Parametric Modeling Methods like [Expectation Maximization](Expectation_Maximization)
+- Parametric Modeling Methods like Expectation Maximization
 
 
 
@@ -75,12 +75,12 @@ In text mining usually referred as "Term Selection":
 ### Distances and Similarity
 Popular choice: 
 - [Euclidean Distance](Euclidean_Distance) is not very good for high-dimensional data
-- [Jaccard Coefficient](Jaccard_Coefficient) or [Cosine Similarity](Cosine_Similarity) are better
+- Jaccard Coefficient or [Cosine Similarity](Cosine_Similarity) are better
 
 
 If not [Vector Space Models](Vector_Space_Models):
 - Language Models: symmetric variant KL Divergence
-- Keep documents as strings: [Edit Distance](Edit_Distance) (but it'll most likely be extremely slow)
+- Keep documents as strings: Edit Distance (but it'll most likely be extremely slow)
 
 
 Papers:
@@ -129,13 +129,13 @@ Using PCA define new features from terms
 
 Not only SVD is good:
 - can also use Non-Negative Matrix Factorization techniques 
-- this way it's easy to interpret and [clusters can be fuzzy](Fuzzy_Clustering)
+- this way it's easy to interpret and clusters can be fuzzy
 
 
 ### [Topic Models](Topic_Models)
 - define some probabilistic generative models for text documents
 - in some way it's similar to LSA, but it's probabilistic
-- see [Probabilistic LSA](Probabilistic_LSA) or [Latent Dirichlet Allocation](Latent_Dirichlet_Allocation)
+- see [Probabilistic LSA](Probabilistic_LSA) or Latent Dirichlet Allocation
 
 
 ### [Semi-Supervised Clustering](Semi-Supervised_Clustering)

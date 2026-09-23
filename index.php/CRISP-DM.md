@@ -16,7 +16,7 @@ CRISP-DM: four levels of abstraction
   - Example: Data Preparation 
 - Generic Tasks 
   - A stable, general and complete set of tasks 
-  - Example: [Data Cleaning ](Data_Cleaning_)
+  - Example: Data Cleaning 
 - Specialized Task
   - A specific task that belongs to a generic task 
   - Example: Missing Value Handling 
@@ -47,7 +47,7 @@ Main Objectives
 
 ### Data Preparation
 Need to prepare data so it can be processed by Models
-- [Data Cleaning](Data_Cleaning) - [Handling Noise](Handling_Noise), [Anomaly Detection](Anomaly_Detection), [Duplicate Detection](Duplicate_Detection), etc
+- [Data Cleaning](Data_Cleaning) - Handling Noise, [Anomaly Detection](Anomaly_Detection), Duplicate Detection, etc
 - [Data Transformation](Data_Transformation) - [Data Normalization](Data_Normalization), [Data Discretization](Data_Discretization)
 - [Data Reduction](Data_Reduction)
 
@@ -74,7 +74,7 @@ Objective Measures:
 - Conference of associative rules 
 
 Subjective Measures:
-- [Visualization](Visualization)
+- Visualization
 
 
 ## Sources

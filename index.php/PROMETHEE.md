@@ -115,7 +115,7 @@ The flow score is computed as difference between the positive flow and negative 
 
 ## Ranking
 ### PROMETHEE I
-[Partial Order](Partial_Order) Ranking:
+Partial Order Ranking:
 - ranking based only on $\Phi^+(a_i)$ and $\Phi^-(a_i)$ (not on the aggregated flow score)
 - let $P^+$ denote the preference of $\Phi^+$
   - $a_i \ P^+ \ a_j \iff \Phi^+(a_i) > \Phi^+(a_j)$  (want to maximize $\Phi^+$)

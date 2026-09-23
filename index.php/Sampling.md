@@ -44,7 +44,7 @@ Random sampling (especially SRS - simple random sampling) is very important
   - when item is selected for a sampling, it's taken out of the population
 - sampling *with replacement* 
   - an item can be sampled several times
-  - used in the [Bootstrap](Bootstrap) method - for resampling
+  - used in the Bootstrap method - for resampling
 - also see [Simulation Basics in R#Sampling](Simulation_Basics_in_R#Sampling)
 
 

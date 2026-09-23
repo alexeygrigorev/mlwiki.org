@@ -11,7 +11,7 @@ title: YARN
 ## YARN
 YARN stands for "Yet another resource negotiator"
 - it's a [Hadoop](Hadoop) cluster resource manager system 
-- it's not restricted to [Hadoop MapReduce](Hadoop_MapReduce) and can run any systems, e.g. [Flink](Flink)
+- it's not restricted to [Hadoop MapReduce](Hadoop_MapReduce) and can run any systems, e.g. Flink
 - it's an alternative to Hadoop TaskTracker - which is referred as "Hadoop1"
 - YARN is "Hadoop2"
 

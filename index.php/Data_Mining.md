@@ -22,7 +22,7 @@ Goal: to find patterns in data that are
 What is NOT Data Mining:
 - look up a phone number in a dictionary
 - compute the number of customers who bought iPad in August
-- can use [SQL](SQL) for that
+- can use SQL for that
 
 What is Data Mining:
 - What is the profile of the customers who bought iPad?
@@ -32,7 +32,7 @@ What is Data Mining:
 
 ### Origins
 DM is a discipline with roots from
-- [Artificial Intelligence](Artificial_Intelligence)
+- Artificial Intelligence
 - [Statistics](Statistics)
 - [Machine Learning](Machine_Learning)
 - Pattern Recognition
@@ -65,15 +65,15 @@ Sequence Mining:
 - [Sequential Pattern Mining](Sequential_Pattern_Mining)
 
 
-### [Graph Mining](Graph_Mining)
+### Graph Mining
 - Social Network Mining
 
 
 ### Others
 - [Cluster Analysis](Cluster_Analysis)
 - Web Mining
-- [Text Mining](Text_Mining) - part of [Natural Language Processing](Natural_Language_Processing) and [Information Retrieval](Information_Retrieval)
-- [Stream Mining](Stream_Mining)
+- [Text Mining](Text_Mining) - part of Natural Language Processing and [Information Retrieval](Information_Retrieval)
+- Stream Mining
 - [Tree](Tree) Mining
 - Preference Mining
 

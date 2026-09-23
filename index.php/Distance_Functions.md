@@ -13,17 +13,17 @@ A metric function (or distance) is a generalization of geometric distance (i.e. 
 
 Direct similarity measures are not always reliable for high-dimensional clustering (see Guha1999)
 - Euclidean Distance
-- [Edit Distance](Edit_Distance)
+- Edit Distance
 
 
 Similarity is the opposite of distance
 - usually can be turned to distance 
 - [Cosine Similarity](Cosine_Similarity) and [Dot Product](Dot_Product)
-- [Jaccard Coefficient](Jaccard_Coefficient)
+- Jaccard Coefficient
 
 
 Non-metric
-- [KL Divergence](KL_Divergence)
+- KL Divergence
 
 
 ## Resources

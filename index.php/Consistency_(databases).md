@@ -16,7 +16,7 @@ Some of the integrity constraints are:
 
 Examples of predicates that must hold:
 - $x$ is a key of relation $R$ 
-- [Functional Dependency](Functional_Dependency) $x \to y$ holds in $R$ 
+- Functional Dependency $x \to y$ holds in $R$ 
 - domain($x$) = {Red, Green, Blue} - the only allowed values
 - no employee should make more than twice average salary (achieved with triggers in [Active Databases](Active_Databases))
 

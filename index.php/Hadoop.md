@@ -13,7 +13,7 @@ So it's usually a set of products:
 - parallel storage ([HDFS](Hadoop_Distributed_File_System))
 - processing framework ([MapReduce](MapReduce) implementation)
 - [Pig](Pig)/[Hive](Hive) for declarative high-level language support
-- [HBase](HBase) as non-relational [NoSQL](NoSQL) [database](Database) that runs on HDFS
+- HBase as non-relational [NoSQL](NoSQL) [database](Database) that runs on HDFS
 - Mahout - [Data Mining](Data_Mining) and [Machine Learning](Machine_Learning) tool that works on top of Hadoop
 
 

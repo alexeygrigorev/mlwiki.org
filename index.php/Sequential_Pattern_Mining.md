@@ -30,7 +30,7 @@ Web:
 - items: remote hosts, user names, date, URLs, etc
 
 [NLP](NLP):
-- text - sequence with [Part of Speech Tagging](Part_of_Speech_Tagging)
+- text - sequence with Part of Speech Tagging
 - sentence - itemset
 - words with POS-tags - items
 

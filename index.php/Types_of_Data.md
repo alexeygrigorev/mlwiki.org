@@ -18,7 +18,7 @@ There are two types of data:
 
 
 ### Semi-structured
-- [XML](XML), HTML, [JSON](JSON)
+- [XML](XML), HTML, JSON
 - Also have some Data Model: [Semi-Structured Data Model](Semi-Structured_Data_Model)
 - Data Model can be expressed via constrains with schemas: [DTD](DTD) or [XML Schema](XML_Schema)
 
@@ -32,4 +32,4 @@ There are two types of data:
 
 ### Machine-generated data
 - Sensors, 
-- [Internet of Things](Internet_of_Things)
+- Internet of Things

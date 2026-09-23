@@ -6,7 +6,7 @@ tags:
 title: Canopy Clustering
 ---
 <!-- stub -->
-<!-- TODO: see [Scalable Data Analytics and Data Mining AIM3 (TUB)](Scalable_Data_Analytics_and_Data_Mining_AIM3_(TUB)) lectures -->
+<!-- TODO: see Scalable Data Analytics and Data Mining AIM3 (TUB) lectures -->
 
 ## Canopy Clustering
 

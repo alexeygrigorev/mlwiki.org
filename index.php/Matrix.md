@@ -25,7 +25,7 @@ $(a_{11}, a_{22}, ..., a_{nn})$ are diagonal elements
 
 ## Operations
 - [Matrix Multiplication](Matrix_Multiplication): Can multiply a matrix by a scalar, by a vector or by another matrix
-- [Matrix Transposition](Matrix_Transposition)
+- Matrix Transposition
 - [Inversion](Inverse_Matrices) 
 - ...
 
@@ -37,7 +37,7 @@ Matrices can be:
 - Identity matrices 
 - [Symmetric Matrices](Symmetric_Matrices)
 - [Orthogonal Matrices](Orthogonal_Matrices)
-- [Rotation Matrices](Rotation_Matrices)
+- Rotation Matrices
 - [Similar Matrices](Similar_Matrices)
 - [Positive-Definite Matrices](Positive-Definite_Matrices)
 

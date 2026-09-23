@@ -87,8 +87,6 @@ The solution is $[x, y]^T = [1, 2]^T$
 
 For 3 and more dimensions, we have (hyper)planes instead of lines. 
 - But it's the same: we want to find a point where they cross
-- [File:Secretsharing_3-point.svg](File_Secretsharing_3-point.svg)
-
 
 ### Column Picture
 We have two vectors: 
@@ -115,7 +113,7 @@ We need to combine first two vectors $v = \begin{bmatrix}
 \end{bmatrix}$ 
 
 
-I.e. we want to find a [Linear Combination](Linear_Combination) of these columns.
+I.e. we want to find a Linear Combination of these columns.
 - From the vector picture we know that the solution is $[1, 2]^T$, so let's take 
 - <img src="http://habrastorage.org/files/b17/368/e5e/b17368e5e7774f8ca58e054c7b98183e.png" alt="Image">
 - so we take 1 of vector $\mathbf u$ and 2 of vector $\mathbf v$ and end up at exactly $\mathbf b$
@@ -195,7 +193,7 @@ Let $A$ be $n \times m$ matrix of rank $r$
 
 
 Steps:
-- reduce $A$ to [Row Reduced Echelon Form](Row_Reduced_Echelon_Form)
+- reduce $A$ to Row Reduced Echelon Form
 - set all free variables to 0 and solve - get $\textbf x_p = \textbf x_\text{particular}$ 
 - then solve $A \mathbf x_n = \mathbf 0$ - get all $\mathbf x_n$ - all $\mathbf x$ that solve the homogeneous system
 - Then find all other solutions: they are $\mathbf x = \textbf x_p + \mathbf x_n$

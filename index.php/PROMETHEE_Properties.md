@@ -28,7 +28,7 @@ We expect that the following constraint is satisfied:
 - i.e. $Q$ is the sum of squared deviation and we want to minimize it
 
 
-Proof ([La Grange Optimization](La_Grange_Optimization))
+Proof (La Grange Optimization)
 - let $L(s_1, ..., s_n, \lambda)$ be the function we want to minimize
   - $L(s_1, ..., s_n, \lambda) = \sum_{i=1}^n \sum_{j=1}^n \big[ (s_i - s_j) - (\pi_{ij} - \pi_{ji}) \big]^2 - \lambda \cdot \sum_{i=1}^n s_i$
   - note that due to symmetry when we fix all variables expect a certain $s_i$ we can rewrite the double sum as twice the single sum:

@@ -9,7 +9,7 @@ title: Chi-Squared Goodness of Fit Test
 ---
 ## Chi-Squared Goodness of Fit Test
 This is one of [$\chi^2$ tests](Chi-Squared_Tests)
-- one-way table tests - for testing [Frequency Tables](Frequency_Tables), this one
+- one-way table tests - for testing Frequency Tables, this one
 - two-way table tests - for testing [Contingency Tables](Contingency_Tables), [Chi-Squared Test of Independence](Chi-Squared_Test_of_Independence)
 
 

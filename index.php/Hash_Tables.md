@@ -31,7 +31,7 @@ Solution:
 
 
 ## Collisions
-This approach leads to collisions ([Birthday paradox](Birthday_paradox))
+This approach leads to collisions (Birthday paradox)
 
 There are two ways to address collisions:
 - Separate Chaining 

@@ -9,7 +9,7 @@ title: Poisson Limit Theorem
 
 Suppose $n$ independent trials are performed, in each of which the [probability](Probability) of event $A$ occurring is $p$.
 
-To determine the probability of $k$ occurrences of the event in these trials, one uses the [Bernoulli formula](Bernoulli_Formula). If $p$ is large, one can use the [Laplace asymptotic formula](Laplace_Asymptotic_Formula). However, that formula is also inapplicable when $p \leqslant 0.1$.
+To determine the probability of $k$ occurrences of the event in these trials, one uses the Bernoulli formula. If $p$ is large, one can use the Laplace asymptotic formula. However, that formula is also inapplicable when $p \leqslant 0.1$.
 
 If $n$ is large, one can use the Poisson formula.
 
@@ -38,7 +38,7 @@ A factory shipped 5000 items. The probability that an item gets damaged is 0.000
 ## See also
 - Bernoulli Formula
 - [Poisson Process](Poisson_Process)
-- [Poisson Distribution](Poisson_Distribution)
+- Poisson Distribution
 
 ## Sources
 - Gmurman V.E., Probability Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vysshaya Shkola, 2003.

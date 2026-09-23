@@ -129,7 +129,7 @@ When we have multi-class classifiers we can use:
   - we define the cost for each misclassification 
   - and calculate the total cost
 - some measures can be extended to multiclass classifiers: 
-  - see [Evaluation of Multiclass Classifiers](Evaluation_of_Multiclass_Classifiers)
+  - see Evaluation of Multiclass Classifiers
 
 
 ## See Also

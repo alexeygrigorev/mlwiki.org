@@ -68,7 +68,7 @@ In this example all the power in equally distributed withing the 3 first distric
 - http://en.wikipedia.org/wiki/Banzhaf_power_index
 
 ## See also
-- [Shapley Value](Shapley_Value)
+- Shapley Value
 
 ## Sources
 - [Decision Engineering (ULB)](Decision_Engineering_%28ULB%29)

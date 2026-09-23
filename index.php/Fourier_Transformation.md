@@ -46,7 +46,7 @@ Let $F_n$ be a Fourier [matrix](Matrix):
 1 & w^{n-1} & w^{2(n-1)} & \cdots & w^{(n-1)^2} \\
 \end{bmatrix}$
 - each element is $(F_n)_{ij} = w^{ij}$ for all $i,j$ (indexes of $F_n$)
-- matrix $F_n$ is a [symmetric](Symmetric_Matrix)
+- matrix $F_n$ is a symmetric
 
 where $w \in \mathbb C$:
 - $w^n = 1$, so $w = \sqrt[n]{1}$

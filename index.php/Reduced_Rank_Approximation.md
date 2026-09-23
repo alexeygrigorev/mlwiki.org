@@ -13,7 +13,7 @@ Given an $m \times n$ [matrix](Matrix) $A$, the goal is to describe $A$ using fe
 
 
 ### Redundancy of Matrix
-- [rank](Rank_(Matrix)) of $A$ specifies the number of linearly independent columns/rows
+- rank of $A$ specifies the number of linearly independent columns/rows
 - so it's a good measure of redundancy
 - if the rank is low, $A$ has a lot of redundancy
 - such matrices can be expressed more efficiently than just a table of entries 
@@ -69,7 +69,7 @@ Proof
 - recall that in SVD $\sigma_1$ the biggest singular value
 - let $\mathbf x^* = (| x_1|, \ ... \ , |x_r|)$ and $\mathbf y^* = (|y_1|, \ ... \ , |y_r|)$
 - so $\sum_{i=1}^r  |  x_i | \, | y_i | = \langle \mathbf x^*, \mathbf y^* \rangle$
-- by [Cauchy-Schwartz Inequality](Cauchy-Schwartz_Inequality) we have $\langle \mathbf x^*, \mathbf y^* \rangle \leqslant \|  \mathbf x^* \| \,  \| \mathbf y^* \| \leqslant \| \mathbf x \| \,  \| \mathbf y \|= 1$
+- by Cauchy-Schwartz Inequality we have $\langle \mathbf x^*, \mathbf y^* \rangle \leqslant \|  \mathbf x^* \| \,  \| \mathbf y^* \| \leqslant \| \mathbf x \| \,  \| \mathbf y \|= 1$
 - so $\sigma_1 \langle \mathbf x^*, \mathbf y^* \rangle \leqslant \sigma_1$
 - and $\Sigma \mathbf x \mathbf y^T \leqslant \sigma_1$
 - $\|  \Sigma - U^T A_1 V \|^2_F = \| \Sigma \|^2_F - 2 \alpha \Sigma \mathbf x \mathbf y^T + \alpha^2 \| \mathbf x \mathbf y^T \|^2_F \geqslant \| \Sigma \|^2_F - 2 \alpha\sigma_1$

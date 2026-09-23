@@ -22,7 +22,7 @@ The goal of the work is to discuss in what ways Hadoop, as a Map-Reduce framewor
 
 ### Motivation
 - Proven useful in Big Data challenges
-- Interesting in [Business Intelligence](Business_Intelligence)
+- Interesting in Business Intelligence
 - Many companies want to integrate Hadoop into existent Data Warehousing solutions
 
 
@@ -70,7 +70,7 @@ Virtual views
   - i.e. store all data in fact tables
 
 Denormalization works well
-- all dimensions are either insertion only or [Slowly Changing Dimensions](Slowly_Changing_Dimensions)
+- all dimensions are either insertion only or Slowly Changing Dimensions
 
 
 ### Queries
@@ -89,10 +89,10 @@ Hadoop as a Part of Data Warehouse
 - and it can help to make the costs lower
 
 It can be
-- Transitory Platform for [ETL](ETL)
+- Transitory Platform for ETL
 - Active Storage
 
-### Transitory platform for [ETL](ETL)
+### Transitory platform for ETL
 Hadoop as an ETL process
 - this was the initial use case of Hadoop
 - goal: extract value from terabytes of information

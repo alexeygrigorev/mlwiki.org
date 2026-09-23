@@ -257,8 +257,8 @@ x[2, 1] => 2
 - x[1] => sublist
 $foo
 [1] 1 2 3 4
-- x[1](1) => (element) 1 2 3 4
-- x$bar <=> x["bar"]("bar") => 0.6
+- x1 => (element) 1 2 3 4
+- x$bar <=> x"bar" => 0.6
 - x["bar"] => sublist
 $bar
 [1] 0.6
@@ -267,13 +267,13 @@ $bar
 x[name] => smth
 x$name => NULL
   - ("name" doesn't exist)
-- x[c(1, 3)](c(1,_3)) => 1st list, 3th el
-  - the same: x1[3](3)
+- xc(1, 3) => 1st list, 3th el
+  - the same: x13
 - partial matching
   - x <- list(longname=1:5)
 x$lo => returns $longname
-x["lo"]("lo") => NULL
-x["lo", exact=F]("lo",_exact=F) => $longname
+x"lo" => NULL
+x"lo", exact=F => $longname
 #### removing NAs
 - bad <- is.na(x)
 x[|  bad] #note the inversion!

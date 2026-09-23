@@ -20,7 +20,7 @@ Goal: use imperfect information to infer facts, make predictions, and make decis
 [Data Analysis](Data_Analysis): Process of statistical investigation: 
 1. pose a question
 1. [collect relevant data](Data_Collection)
-1. [analyze](Descriptive_Statistics)
+1. analyze
 1. [form a conclusion](Inferential_Statistics) (how?) 
 
 Questions 2-4 - answered by Statistics 

@@ -7,7 +7,7 @@ title: Outer Product
 ---
 ## Rank One Matrices
 Suppose we have two vectors $\mathbf u \in \mathbb R^m$ and $\mathbf v \in \mathbb R^n$. Then multiplication $\mathbf u \times \mathbf v^T$ gives us a [matrix](Matrix) $A = \mathbf u \cdot \mathbf v^T$, $A \in \mathbb R^{m \times n}$
-- This multiplication produces [rank](Rank_(Matrix))-1 matrices
+- This multiplication produces rank-1 matrices
 
 
 ### Rank 1 Matrices
@@ -30,7 +30,7 @@ This matrix $A$ is a special matrix:
 - [Column Space](Column_Space): all combinations of  $\mathbf u$
 
 
-== [Projection Matrices](Projection_Matrices) == 
+== Projection Matrices == 
 Suppose we want to project to a line $\mathbf u$ 
 - then the Projection Matrix $P$ is $P = \cfrac{\mathbf u \mathbf u^T}{\|  \mathbf u\|^2} = \mathbf u \mathbf u^T$
 - if $\mathbf u$ is a unit vector, e.g. $\|  \mathbf u \|^2 = 1$

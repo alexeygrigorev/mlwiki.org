@@ -27,8 +27,8 @@ Data Analysis notes by [Felix Y.H. Fan](http://rpubs.com/Felix)
 - [Part 3](http://rpubs.com/Felix/6706): [Method of Least Squares](Method_of_Least_Squares) and [Linear Regression](Linear_Regression)
 - [Part 4](http://rpubs.com/Felix/6708): [Statistical Tests of Significance](Statistical_Tests_of_Significance), $P$-values
 - [Part 5](http://rpubs.com/Felix/6709): [Multivariate Linear Regression](Multivariate_Linear_Regression), regression with categorical variables
-- [Part 6](http://rpubs.com/Felix/7449): [ANOVA](ANOVA), [Logistic Regression](Logistic_Regression), [Poisson Regression](Poisson_Regression), [Model Checking](Model_Checking), [Model Selection](Model_Selection)
+- [Part 6](http://rpubs.com/Felix/7449): [ANOVA](ANOVA), [Logistic Regression](Logistic_Regression), Poisson Regression, Model Checking, [Model Selection](Model_Selection)
 - [Part 7](http://rpubs.com/Felix/7592): [Cross-Validation](Cross-Validation), [Error Metrics](Error_Metrics), predicting with linear regression and [trees](Tree) ([decision trees](Decision_Tree))
-- [Part 8](http://rpubs.com/Felix/7645): [Smoothing](Smoothing), (Lowess (loess) ), regression with splines 
-- [Part 9](http://rpubs.com/Felix/7624): [Bootstrap](Bootstrap), [Bagging](Bagging) (Bootstrap Aggregating), [Ensemble Models](Ensemble_Learning) (combining predictors), [SVM](SVM)
+- [Part 8](http://rpubs.com/Felix/7645): Smoothing, (Lowess (loess) ), regression with splines 
+- [Part 9](http://rpubs.com/Felix/7624): Bootstrap, Bagging (Bootstrap Aggregating), Ensemble Models (combining predictors), [SVM](SVM)
 - [Part 10](http://rpubs.com/Felix/7646): Multiple testing, family-wise error rate (FWER), false discovery rate (FDR),  Simulation for model checking

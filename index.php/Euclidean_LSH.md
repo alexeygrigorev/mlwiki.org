@@ -10,7 +10,7 @@ title: Euclidean LSH
 ## Euclidean LSH
 Euclidean LSH - [LSH](LSH) for the [Euclidean Space](Euclidean_Distance)
 - Also called E2LSH or $p$-stable LSH
-- Unlike [Bit Sampling LSH](Bit_Sampling_LSH) this LSH Family words directly on $L_p$ without embedding it into [Hamming Space](Hamming_Distance)
+- Unlike [Bit Sampling LSH](Bit_Sampling_LSH) this LSH Family words directly on $L_p$ without embedding it into Hamming Space
 
 
 ## $p$-Stable Distributions
@@ -22,16 +22,16 @@ A family of [hash functions](Hash_Function) $\mathcal H$ is $(r_1, r_2, p_1, p_2
 Here: choose $r_1 = R$ and $r_2 = c \cdot R$
 
 
-A [Probability Distribution](Probability_Distribution) $D$ over $\mathbb R$ is $p$-stable 
+A Probability Distribution $D$ over $\mathbb R$ is $p$-stable 
 - if there exists $p \geqslant 0$ s.t. for any $n$ real numbers $v_1, ..., v_n$
 - and iid samples from [distribution](Distributions) $D$: $\ X_1, X_2, \ ... \ , X_n \sim D$
 - the [Random Variable](Random_Variable) $\sum v_i \, X_i$ follows the same distribution as $\left( \sum | v_i|^p \right)^{1/p} \cdot X = \| \mathbf v \| \cdot X$ where $X \sim D$
 
 Known $p$-stable Distribution:
-- [Cauchy Distribution](Cauchy_Distribution) for $p = 1$
-- [Gaussian Distribution](Gaussian_Distribution) for $p = 2$ 
+- Cauchy Distribution for $p = 1$
+- Gaussian Distribution for $p = 2$ 
 
-In CS $p$-stable distributions are useful for [Sketching](Sketching)
+In CS $p$-stable distributions are useful for Sketching
 - can be used to estimate $\|  \mathbf v \|_p$
 
 Papers:
@@ -61,7 +61,7 @@ Quantization:
 - i.e. we get the following hash function:
 - $h_{\mathbf x, b}(\mathbf v) = \left\lfloor \cfrac{\mathbf v \cdot \mathbf x + b}{w} \right\rfloor$
 - where $w$ is the length of each quantization bucket
-- and $b$ is a Random Variable sampled from the [Uniform Distribution](Uniform_Distribution): $b \sim \text{unif}[0, w]$
+- and $b$ is a Random Variable sampled from the Uniform Distribution: $b \sim \text{unif}[0, w]$
 - $w$ - quantization step
 
 

@@ -16,7 +16,7 @@ title: Histogram
 
 [Probability Density Function](Probability_Density_Function)
 - with histogram you estimate the Probability Density Function of the underlying variable 
-- Alternative - [Density Plot](Density_Plot) that use [Kernel](Kernel)s to smooth the plots 
+- Alternative - [Density Plot](Density_Plot) that use Kernels to smooth the plots 
 
 
 ```

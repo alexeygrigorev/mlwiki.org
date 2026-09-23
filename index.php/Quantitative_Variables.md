@@ -17,7 +17,7 @@ The following are applicable for them
 - (all from [Summary Statistics](Summary_Statistics))
 
 And we could create
-- [Boxplot](Boxplot)s, [Piechart](Piechart)s, tables
+- Boxplots, Piecharts, tables
 
 Scatterplot
 Dotplot 

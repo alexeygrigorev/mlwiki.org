@@ -8,7 +8,7 @@ title: Inferential Statistics
 ---
 ## Inferential Statistics
 It's a part of [Statistics](Statistics) that, based on a small [sample](Sampling) infers predictions about the population
-- [Descriptive Statistics](Descriptive_Statistics) is another part that just describes samples and doesn't infer anything about the general population
+- Descriptive Statistics is another part that just describes samples and doesn't infer anything about the general population
 
 
 "Statistical Inference" is concerned mainly with assessing the quality of parameter estimates 

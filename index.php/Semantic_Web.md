@@ -123,7 +123,7 @@ Semantic Web provides a number of modeling languages with different degree of ex
 
 Formal foundation for RDFS and OWL:
 - [First Order Logic](First_Order_Logic)
-- [Description Logic](Description_Logic)
+- Description Logic
 
 
 ### Logical Inference

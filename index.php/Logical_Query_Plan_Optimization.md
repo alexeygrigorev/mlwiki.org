@@ -48,7 +48,7 @@ The Optimization Problem
 - output: the optimal expression $e'$ s.t. $e \equiv e'$
 
 Undecidability 
-- This problem in [undecidable](Decidability): on some expressions it may run forever.
+- This problem in undecidable: on some expressions it may run forever.
 - However we can optimize plans of a particular form
 
 
@@ -142,7 +142,7 @@ $\pi_A \big( \sigma_{A = 5}(R) \Join_{B < D} \pi_D (S) \big)$
 
 
 ## Integrated Exercises
-See [LQP Optimization Exercises (DBSA)](LQP_Optimization_Exercises_(DBSA))
+See LQP Optimization Exercises (DBSA)
 
 
 

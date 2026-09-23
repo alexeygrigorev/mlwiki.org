@@ -21,8 +21,8 @@ We need to select the optimal plan based on
 - Cost of Physical Operators and 
 - on [estimated cost of subqueries](Query_Result_Size_Estimation)
 
-This is an [Optimization Problem](Optimization_Problem)
-- One of the possible approaches is [Greedy Algorithms](Greedy_Algorithms)
+This is an Optimization Problem
+- One of the possible approaches is Greedy Algorithms
 
 
 ## Greedy Algorithm

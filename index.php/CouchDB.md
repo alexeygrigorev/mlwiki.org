@@ -13,7 +13,7 @@ This is a part of the report made for [Advanced Databases (ULB)](Advanced_Databa
 
 ## Couch DB
 Key features
-- HTTP-based [REST](REST) Api
+- HTTP-based REST Api
 - [Distributed](Distributed_Databases), scalable and fault-tolerant
 - [Document-oriented storage](Document-Oriented_Databases): the data is self-contained 
   - i.e. it contains everything it needs - like real-world document

@@ -32,7 +32,7 @@ Compositional Collocation
 ### Applications
 There are following applications for Collocation Extraction 
 - [Indexing](Inverted_Index), [Information Retrieval](Information_Retrieval)
-- [Language Generation](Language_Generation)
+- Language Generation
 - [Word Sense Disambiguation](Word_Sense_Disambiguation)
 - [Document Classification](Document_Classification)
 - and many others 
@@ -76,10 +76,10 @@ Ranking candidates
 Ways to test/rank:
 - [$T$-test](T-test)
 - Odds Ratio
-- [Point-Wise Mutual Information](Point-Wise_Mutual_Information)
+- Point-Wise Mutual Information
 - [Chi-Squared Test](Chi-Squared_Test)
-- The [Dice Coefficient](Dice_Coefficient) $\text{DICE}(w_1, w_2) = \cfrac{2 \, c(w_1, w_2)}{c(w_1)\, c(w_2)}$
-- [Log Likelihood Ratio](Log_Likelihood_Ratio) ([Entropy](Entropy) version): $G^2 = \sum_{ij} O_{ij} \log \cfrac{O_{ij}}{E_{ij}}$
+- The Dice Coefficient $\text{DICE}(w_1, w_2) = \cfrac{2 \, c(w_1, w_2)}{c(w_1)\, c(w_2)}$
+- Log Likelihood Ratio (Entropy version): $G^2 = \sum_{ij} O_{ij} \log \cfrac{O_{ij}}{E_{ij}}$
 - and others 
 - these measures are usually based on frequencies obtained from some corpus
 
@@ -90,7 +90,7 @@ $t$-test can also be used for collocation discovery
 - can use $t$-test for proportions: $t = \cfrac{\bar x - \mu}{\sqrt{s^2 / N}}$
 
 The idea:
-- The probability of generating a bigram $(w_1, w_2)$ is a [Bernoulli Random Variable](Bernoulli_Random_Variable) with $p= P(w_1, w_2)$ 
+- The probability of generating a bigram $(w_1, w_2)$ is a Bernoulli Random Variable with $p= P(w_1, w_2)$ 
 - for Bernoulli, $\mu = p$ and $\sigma^2 = p\, (1-p)$
 - because $p$ is typically quite small, $\sigma^2 \approx p$ for most bigrams
 - then we can calculate the $t$-value and the corresponding critical value ($N$ = number of unigrams)
@@ -110,21 +110,21 @@ it's applied to 2-by-2 table
 - $X^2$ is distributed as $\chi^2$
 
 
-### [Odds Ratio Test](Odds_Ratio_Test)
+### Odds Ratio Test
 To compare $P(w_1, w_2)$ with $P(w_1) \, P(w_2)$ we can use the Odds Ratio:
-- [Odds Ratio](Odds_Ratio) is $\cfrac{P(w_1, w_2)}{P(w_1) \, P(w_2)}$
+- Odds Ratio is $\cfrac{P(w_1, w_2)}{P(w_1) \, P(w_2)}$
 - collocations should have scores higher than 1
 - the higher the ratio, the more likely a bigram is a collocation
 
 
-### [Point-Wise Mutual Information](Point-Wise_Mutual_Information)
+### Point-Wise Mutual Information
 [Mutual Information](Mutual_Information):
 - it's a measure on how much one word tells about the other 
-- In [Information Theory](Information_Theory), Mutual Information is defined between [Random Variables](Random_Variable), not words (values of RVs)
+- In Information Theory, Mutual Information is defined between [Random Variables](Random_Variable), not words (values of RVs)
 - which is why we use PMI
 
 Point-Wise Mutual Information (PMI):
-- instead of Odds Ratio, can use [Log Odds](Log_Odds):
+- instead of Odds Ratio, can use Log Odds:
 - $\log \cfrac{P(w_1, w_2)}{P(w_1) \, P(w_2)}$
 - then it becomes Point-Wise Mutual Information
 - $\text{PMI}(w_1, w_2) = \log \cfrac{P(w_1, w_2)}{P(w_1)\, P(w_2)} = \log \cfrac{P(w_1) \, P(w_2 \mid w_1)}{P(w_1)\, P(w_2)} = \log \cfrac{P(w_2 \mid w_1)}{P(w_2)}$
@@ -143,14 +143,14 @@ PMI can generalize to any $n$-grams
 
 ## Estimates
 
-### [Maximum Likelihood Estimator](Maximum_Likelihood_Estimator)
+### Maximum Likelihood Estimator
 Estimation of $P(w_1)$, $P(w_2)$ and $P(w_1, w_2)$:
 - these probabilities are estimated from a corpus 
-- typically using [Maximum Likelihood Estimator](Maximum_Likelihood_Estimator)
+- typically using Maximum Likelihood Estimator
 - No [Smoothing](Smoothing_for_Language_Models) is typically needed because we don't need to generalize to unseen words
 - We want to extract collocations from a given corpus, not to build a [Statistical Language Model](Statistical_Language_Model)
 
-[MLE](MLE) of $P(w_1)$ and $P(w_2)$: 
+MLE of $P(w_1)$ and $P(w_2)$: 
 - $\hat P(w) = \cfrac{c(w)}{N}$, where 
 - $c(w)$ is the number of times $w_1$ appeared in the corpus, and 
 - $N$ is the total number of tokens

@@ -16,7 +16,7 @@ The Trigonometric [Functions](Functions) are functions of angles
 
 - $\sin \theta$ = length of edge, opposite to $\theta$
 - $\cos \theta$ = length of edge, adjacent to $\theta$
-- when the hypotenuse is 1, by [Pythagoras Theorem](Pythagoras_Theorem), we get $\cos^2 \alpha + \sin^2 \alpha = 1$
+- when the hypotenuse is 1, by Pythagoras Theorem, we get $\cos^2 \alpha + \sin^2 \alpha = 1$
 
 Unit circle:
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/trig-circle.png" alt="Image">
@@ -47,7 +47,7 @@ Inverse Trigonometric functions:
 - $\cos x = \sum\limits_{k=0}^\infty (-1)^k \cfrac{x^{2k}}{(2k)!}$
 - $\sin x = \sum\limits_{k=0}^\infty (-1)^k \cfrac{x^{2k + 1}}{(2k + 1)!}$ 
 
-[Euler's Formula](Euler's_Formula):
+Euler's Formula:
 - relates [Exponential Function](Exponential_Function) and [Trigonometric Functions](Trigonometric_Functions)
 - $e^{ix} = \cos x + i \sin x$ where $i = \sqrt {-1}$
 
@@ -114,7 +114,7 @@ With [Taylor Expansions](Taylor_Series), we can pretend that $\sin x$, $\cos x$ 
 
 
 ## Derivatives and Integrals
-### [Derivatives](Derivatives)
+### Derivatives
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/crs/calc/trigs-derivs.png" alt="Image">
 
 - $\sin' x =  \cos x$
@@ -128,7 +128,7 @@ With [Taylor Expansions](Taylor_Series), we can pretend that $\sin x$, $\cos x$ 
 - $\cot' x = -\csc^2 x$
 
 
-### [Integrals](Integrals)
+### Integrals
 Basic Integrals:
 - $\int \sin x\, dx = -\cos x + C$
 - $\int \cos x\, dx = \sin x + C$

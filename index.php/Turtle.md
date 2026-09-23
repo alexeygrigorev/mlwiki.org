@@ -7,7 +7,7 @@ title: Turtle
 ---
 ## Turtle
 - a way of representing [RDF](RDF) 
-- more compact than [RDF/XML](RDF_XML)
+- more compact than RDF/XML
 - used in [SPARQL](SPARQL)
 
 

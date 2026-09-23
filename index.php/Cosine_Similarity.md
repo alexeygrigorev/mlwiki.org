@@ -7,7 +7,7 @@ tags:
 title: Cosine Similarity
 ---
 ## Cosine Similarity
-Cosine similarity is a [Similarity Function](Similarity_Function) that is often used in [Information Retrieval](Information_Retrieval)
+Cosine similarity is a Similarity Function that is often used in [Information Retrieval](Information_Retrieval)
 - it measures the angle between two vectors,  and in case of IR - the angle between two documents
 
 
@@ -58,7 +58,7 @@ There's a connection between Cosine Distance end Euclidean Distance
 
 It can also make some sense visually: 
 - <img src="https://habrastorage.org/files/f73/289/979/f732899792f246358649e89765cd88da.png" alt="Image">
-- recall the [Cosine Theorem](Cosine_Theorem): $a^2 = b^2 + c^2 - 2 bc \cos \theta$
+- recall the Cosine Theorem: $a^2 = b^2 + c^2 - 2 bc \cos \theta$
 - $b = c = 1$, so we have $a^2 = 2 \, (1 - \cos \theta)$
 
 

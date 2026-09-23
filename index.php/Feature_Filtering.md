@@ -19,11 +19,11 @@ Important?
 
 
 Criteria of usefulness :
-- [Information Theory](Information_Theory) measures ([Shannon's Information Measures](Shannon's_Information_Measures)))
+- Information Theory measures (Shannon's Information Measures))
 - [Entropy-Based Ranking](Entropy-Based_Ranking)
 - [Information Gain](Information_Gain)
 - [Mutual Information](Mutual_Information)
-- [Odds Ratio](Odds_Ratio)
+- Odds Ratio
 - [Chi-Squared Ranking](Chi-Squared_Ranking)
 
 

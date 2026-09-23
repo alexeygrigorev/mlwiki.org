@@ -14,7 +14,7 @@ In contrast to [Decision Under Uncertainty](Decision_Under_Uncertainty) models, 
 These lotteries are compared by the decision maker and he chooses the best option:
 - [Expected Values for Lotteries](Expected_Values_for_Lotteries) - limited approach
   - susceptible to paradoxes such as [Saint Petersburg Paradox](Saint_Petersburg_Paradox)
-- [Expected Utility Approach](Expected_Utility_Approach) - more preferred 
+- Expected Utility Approach - more preferred 
 
 
 ## Sources

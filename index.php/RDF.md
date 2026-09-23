@@ -143,7 +143,7 @@ Default is triplets - not very compact and user friendly
 - need different representation
 
 There are several:
-- [RDF/XML](RDF_XML)
+- RDF/XML
 - Turtle
 
 

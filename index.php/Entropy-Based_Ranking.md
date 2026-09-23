@@ -21,7 +21,7 @@ When the data has well-formed clusters, the uncertainty is low so is the entropy
 - Similarity $S_{ij}$ between two instances $X_i$ and $X_j$ is high if the 2 instance are very close and $S_{ij}$ is low if the 2 are far away. Entropy $H_{ij}$ will be low if $S_{ij}$ is either high or low, and $H_{ij}$ will be low otherwise.
 
 
-We can measure the quality of a term $t$ by amount of [Entropy](Entropy) it removes when we prune $t$ 
+We can measure the quality of a term $t$ by amount of Entropy it removes when we prune $t$ 
 
 $$H(t) = \sum_{i = 1}^n \sum_{j = 1}^n \Big[  S_{ij} \log S_{ij} + (1 - S_{ij}) \log (1 - S_{ij}) \Big] $$
 

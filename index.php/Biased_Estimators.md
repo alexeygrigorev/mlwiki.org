@@ -36,7 +36,7 @@ For the entire experiment:
 ## Biased Estimation
 
 
-### [Standard Deviation](Standard_Deviation)
+### Standard Deviation
 Standard Deviation is biased estimate of the true standard deviation of the proportion
 - so we typically use the sample standard deviation, which is 
   - $s = \cfrac{1}{n-1} \sum_{i=1}^n x_i $

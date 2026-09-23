@@ -8,7 +8,7 @@ title: Density Plot
 ---
 ## Density Plot
 It's like a [Histogram](Histogram), but smoothed out
-- The smooting is done with [Kernel](Kernel)s 
+- The smooting is done with Kernels 
 - So it's an estimation of the [Probability Density Function](Probability_Density_Function) of the underlying variable
 
 

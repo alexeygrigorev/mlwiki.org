@@ -24,13 +24,13 @@ title: Advanced Databases (ULB)
 - [Sequenced Queries](Sequenced_Queries)
 
 
-### [Object Databases](Object_Databases)
+### Object Databases
 - Object-oriented model. 
 - Object Persistance
 - ODMG standard: Object Definition Language and Object Query Language.
 
 
-### [Spatial Databases](Spatial_Databases)
+### Spatial Databases
 - Spatial data and applications. 
 - Space ontology. 
 - Conceptual modeling of spatial aspects. 

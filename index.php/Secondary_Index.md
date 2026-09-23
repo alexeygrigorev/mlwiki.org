@@ -11,7 +11,7 @@ What if we want to support efficient search by some other attribute (not one tha
 - then the file is not sequentially sorted by this other attribute (it's sorted on the pk)
 - we can make a copy of the entire table - but it's too expensive
 
-Index structures to do that are Secondary [Indexes](Indexes_(databases))
+Index structures to do that are Secondary Indexes
 
 ### [Sparse Index](Sparse_Index)?
 Doesn't make sense

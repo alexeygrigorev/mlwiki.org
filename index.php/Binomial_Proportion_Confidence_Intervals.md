@@ -45,7 +45,7 @@ Parameters of the [Sampling Distribution](Sampling_Distribution)
 
 
 We want to build CI at level of $\alpha$
-- calculate the [$z$-score](Z-score) - $1 - 0.5 \cdot \alpha$ percentile of the Standard [Normal Distribution](Normal_Distribution)
+- calculate the $z$-score - $1 - 0.5 \cdot \alpha$ percentile of the Standard [Normal Distribution](Normal_Distribution)
 
 
 E.g. 95% CI

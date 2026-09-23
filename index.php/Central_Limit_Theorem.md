@@ -24,8 +24,8 @@ C.L.T. allows us to assume that [Sampling Distribution](Sampling_Distribution)s 
 
 Assume we want to sample from 3 distributions:
 - <img src="http://habrastorage.org/files/e99/d4c/a20/e99d4ca2047b4969a9bc366507a63f8a.png" alt="Image">
-- [Uniform Distribution](Uniform_Distribution) (blue line)
-- [Lognormal Distribution](Lognormal_Distribution) (orange line)
+- Uniform Distribution (blue line)
+- Lognormal Distribution (orange line)
 - [Exponential Distribution](Exponential_Distribution) (red line)
 
 

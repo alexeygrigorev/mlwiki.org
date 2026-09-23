@@ -9,7 +9,7 @@ title: Chi-Squared Test of Independence
 ---
 ## Chi-Squared Test of Independence
 This is one of [$\chi^2$ tests](Chi-Squared_Tests)
-- one-way table tests - for testing [Frequency Tables](Frequency_Tables), [Chi-Squared Goodness of Fit Test](Chi-Squared_Goodness_of_Fit_Test)
+- one-way table tests - for testing Frequency Tables, [Chi-Squared Goodness of Fit Test](Chi-Squared_Goodness_of_Fit_Test)
 - two-way table tests - for testing [Contingency Tables](Contingency_Tables), this one
 
 

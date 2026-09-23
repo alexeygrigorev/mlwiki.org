@@ -12,7 +12,7 @@ A *Normal Form Game* (also *[Matrix](Matrix) Form Game* or *Strategic Game*) if 
 
 
 In these games:
-- There is a finite number $n$ of [rational](Rational_Behavior) players: $N = \{ 1, 2, ..., n \}$
+- There is a finite number $n$ of rational players: $N = \{ 1, 2, ..., n \}$
 - Each player $i$ has a finite set of actions $A_i$
 - Also each player $i$ has a set of possible consequences $C$, in this case it's $C \equiv \mathbb{R}$
 - The chosen alternatives form an *action profile* (or *strategy profile*) $A: A_1 \times ... \times A_n$

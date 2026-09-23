@@ -25,7 +25,7 @@ Main plots used at this stage
 - [Bar Chart](Bar_Chart)s
 - [Box Plot](Box_Plot)s
 - [Histogram](Histogram)s
-- [Piechart](Piechart)s
+- Piecharts
 - [Density Plot](Density_Plot)s
 - [Scatter Plot](Scatter_Plot)s
 

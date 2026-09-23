@@ -50,7 +50,7 @@ $\square$
 
 ### Real Eigenvalues
 - $A \mathbf x = \lambda \mathbf x$
-- let's take a [Complex Conjugate](Complex_Conjugate): for $c = a + ib$ a conjugate is $\overline {c} = \overline{a + ib} = a - ib$
+- let's take a Complex Conjugate: for $c = a + ib$ a conjugate is $\overline {c} = \overline{a + ib} = a - ib$
 - $A$ is real, so $\overline A = A$
 - thus, we have $A \overline {\mathbf x} = \overline {\lambda \mathbf x}$
 - so if $A$ has eigenvalue $\lambda$ and eigenvector $\mathbf x$, then $\overline \lambda$ and $\overline {\mathbf x}$ are also eigenvalue and eigenvector - for real matrices $A$
@@ -105,7 +105,7 @@ E.g. the identity matrix $I$: all eigenvalues $\lambda_i = 1$ and every vector i
 ## [Spectral Theorem](Spectral_Theorem)
 We can apply Eigendecomposition to $A$ and get
 - $A = Q \Lambda Q^T = \sum \lambda_i \mathbf q_i  \mathbf q_i^T$ - sum of [Outer Product](Outer_Product)s
-- each of these outer products can be seen as a [Projection Matrix](Projection_Matrices)
+- each of these outer products can be seen as a Projection Matrix
 - so symmetric matrix can be represented as a combination of mutually orthogonal projection matrices
 
 
@@ -115,7 +115,7 @@ We can apply Eigendecomposition to $A$ and get
 $A A^T$ and $A^T A$ Symmetric
 - moreover, every symmetric matrix $B$ can be represented as $A A^T$ or $A^T A$:
 - Eigendecomposition of $B = Q \Lambda Q^T = Q \sqrt{\Lambda} \sqrt{\Lambda^T} Q^T = (Q \sqrt{\Lambda}) (Q \sqrt{\Lambda})^T = A A^T$ where $A = Q \sqrt{\Lambda}$
-- also [Cholesky Decomposition](Cholesky_Decomposition) would show the same
+- also Cholesky Decomposition would show the same
 - if $B$ is positive-definite, then such $A$ is non-singular
 
 

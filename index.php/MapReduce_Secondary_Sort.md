@@ -18,7 +18,7 @@ Suppose you want to count on how many domains a particular word appeared
 
  SELECT COUNT(DISTINCT domain) FROM word_domain GROUP BY word; 
 
-Instead of keeping the entire domain, we may keep only it's hash (e.g. 64 bites of [Murmur Hash](Murmur_Hash))
+Instead of keeping the entire domain, we may keep only it's hash (e.g. 64 bites of Murmur Hash)
 
 Input is a set of tuples (url, words)
 

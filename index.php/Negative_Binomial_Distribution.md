@@ -15,7 +15,7 @@ The negative binomial distribution is a Discrete [Distribution](Distribution) of
 
 A [distribution](Distributions) is NBD if:
 - trials are independent 
-- each trial is a [Bernoulli Trial](Bernoulli_Trial) - i.e. has only two outcomes - success and failure
+- each trial is a Bernoulli Trial - i.e. has only two outcomes - success and failure
 - $p$ is the same for all the trials
 - the last trial must be success 
 
@@ -23,7 +23,7 @@ A [distribution](Distributions) is NBD if:
 NBD:
 - $k$ - number of successes, $n$ - total number of trials
 - $p$ - probability of success, $q = 1 - p$ - probability of failure
-- [pmf](Probability_Mass_Function): $Pr(X = x) = C^{k-1}_{n-1} q^{n-k} p^{k}$
+- pmf: $Pr(X = x) = C^{k-1}_{n-1} q^{n-k} p^{k}$
 
 
 

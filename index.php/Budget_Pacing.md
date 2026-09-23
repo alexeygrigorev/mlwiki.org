@@ -144,9 +144,9 @@ Why estimate AR?
 - to set the bid price: e.g. AR * CPA goal 
 
 Ways to do it:
-- [Hierarchical Bandits](Hierarchical_Bandits)
+- Hierarchical Bandits
 - [Logistic Regression](Logistic_Regression)
-- [Factorization Machines](Factorization_Machines)
+- Factorization Machines
 
 
 ## Problems

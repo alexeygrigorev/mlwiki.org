@@ -8,15 +8,15 @@ tags:
 title: Bit Sampling LSH
 ---
 ## Bit Sampling LSH
-- LSH for the [Hamming Distance](Hamming_Distance)
-- can convert [$L_1$](Manhattan_Distance) to Hamming distance
+- LSH for the Hamming Distance
+- can convert $L_1$ to Hamming distance
 - NNs are usually the same for $L_1$ and [$L_2$](Euclidean_Distance) 
   - see Figiel et al. "The dimension of almost spherical sections of convex bodies." 1977. [link](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.308.2113)
 - so it can be ("sort of") used for Euclidean spaces
 
 
 ### Hamming LSH
-Suppose we have $P = \{ \mathbf p_i \}$ where $\mathbf p_i \in H^{d} = \{0, 1\}^{d}$ - i.t. points are in the (binary) [Hamming Space](Hamming_Space) of dimensionality $d$ (or $Cd$, in $C$ chunks of size $d$)
+Suppose we have $P = \{ \mathbf p_i \}$ where $\mathbf p_i \in H^{d} = \{0, 1\}^{d}$ - i.t. points are in the (binary) Hamming Space of dimensionality $d$ (or $Cd$, in $C$ chunks of size $d$)
 
 
 Hash Functions

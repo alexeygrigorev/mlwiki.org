@@ -36,7 +36,7 @@ How we compare these two lotteries?
 - based on [expected value](Expected_Value) we decide to launch
 
 
-### [Perfect Information](Perfect_Information)
+### Perfect Information
 Suppose we hired an Oracle - someone who knows for sure what is going to happen
 - how much we want to pay for such an Oracle?
 
@@ -168,7 +168,7 @@ We want to maximize it, so
 - we take $M$ 
 
 
-#### [Expected Opportunity Lost](Expected_Opportunity_Lost)
+#### Expected Opportunity Lost
 This is the same, but we calculate Expected Value on the Regret Table:
 - in this case we want to minimize the regret
 
@@ -181,7 +181,7 @@ We want to minimize it, so
 - we take $M$
 
 
-### [Perfect Information](Perfect_Information)
+### Perfect Information
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/ru/ex2-decision-tree1.png" alt="Image">
 
 Suppose we have the perfect information

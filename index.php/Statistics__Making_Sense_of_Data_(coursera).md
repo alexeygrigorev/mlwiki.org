@@ -45,7 +45,7 @@ These are notes of an introductory course to [Statistics](Statistics)
 - [Tests For Means](t-tests#One-Sample_t-test)
 - [The Power of a Test](Statistical_Power)
 
-### [Two Samples](Comparing_Two_Samples) (Week 6)
+### Two Samples (Week 6)
 - Comparing Two Proportions
 - Matched Pairs
 - Comparing Two Means

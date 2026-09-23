@@ -42,7 +42,7 @@ A distribution of an RV can be specified by
 Most important parameters for an RV $X$ are:
 - $E[X]$ or sometimes $M[X]$ - [Expected Value](Expected_Value), the mean value 
 - $\text{Var}[X]$ - [Variance](Variance), how the variable is "spread out", measured in (units of $X$)${}^2$
-- $\text{sd}[X] = \sqrt{\text{Var}[X]}$ - [Standard Deviation](Standard_Deviation), also a measure of variance, but in the same units as $X$
+- $\text{sd}[X] = \sqrt{\text{Var}[X]}$ - Standard Deviation, also a measure of variance, but in the same units as $X$
 
 
 

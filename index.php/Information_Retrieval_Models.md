@@ -41,10 +41,10 @@ It's a framework that defines:
 
 
 ### Set-Based
-- [Boolean Model](Boolean_Model): only exact match
+- Boolean Model: only exact match
 - satisfies all the conditions of the query 
 - hard to rank
-- [Extended Boolean Model](Extended_Boolean_Model): more flexible
+- Extended Boolean Model: more flexible
 
 
 
@@ -58,8 +58,8 @@ It's a framework that defines:
 
 
 ## Probabilistic Inference Models
-### [Decision-Theoretic](Decision_Theory) Retrieval Framework
-- from [Bayesian Decision Theory](Bayesian_Decision_Theory)
+### Decision-Theoretic Retrieval Framework
+- from Bayesian Decision Theory
 - general risk miminization framework for IR
 
 

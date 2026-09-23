@@ -16,7 +16,7 @@ The fundamental problem of Linear Algebra is solving a [System of Linear Equatio
   - There are [Four Fundamental Subspaces](Four_Fundamental_Subspaces)
   - [Column Space](Column_Space), [Row Space](Row_Space), [Nullspace](Nullspace) and left Nullspace
   - each (sub)space have a [basis](Basis_%28Linear_Algebra%29)
-- by knowing the [Rank](Rank_%28Matrix%29) we can know the dimensionality of these subspaces
+- by knowing the Rank we can know the dimensionality of these subspaces
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)

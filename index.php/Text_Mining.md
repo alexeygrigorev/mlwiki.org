@@ -11,7 +11,7 @@ title: Text Mining
 
 Document Representation:
 - [Vector Space Models](Vector_Space_Models) bag of words
-- [Language Models](Language_Models) - as a [Probability Distribution](Probability_Distribution) over words
+- [Language Models](Language_Models) - as a Probability Distribution over words
 
 ### Textual Data
 Properties of textual data

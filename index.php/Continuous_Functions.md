@@ -17,9 +17,9 @@ otherwise the function is discontinuous
 
 Many functions are continuous, for example: 
 - [Polynomial Functions](Polynomial_Functions)
-- [Rational Functions](Rational_Functions)
+- Rational Functions
 - [Trigonometric Functions](Trigonometric_Functions)
-- [Exponential Functions](Exponential_Function) and [Logarithms](Logarithms)
+- [Exponential Functions](Exponential_Function) and Logarithms
 
 
 Careful
