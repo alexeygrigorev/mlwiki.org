@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Normal_Form_Game
+permalink: /Normal_Form_Game
 tags:
 - game-theory
 title: Normal Form Game

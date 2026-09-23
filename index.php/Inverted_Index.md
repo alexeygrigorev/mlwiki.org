@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Inverted_Index
+permalink: /Inverted_Index
 tags:
 - database-indexes
 - information-retrieval

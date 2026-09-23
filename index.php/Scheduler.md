@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Scheduler
+permalink: /Scheduler
 tags:
 - concurrency
 - database-systems-architecture

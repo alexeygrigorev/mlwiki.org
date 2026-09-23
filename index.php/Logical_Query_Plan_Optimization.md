@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Logical_Query_Plan_Optimization
+permalink: /Logical_Query_Plan_Optimization
 tags:
 - relational-databases
 title: Logical Query Plan Optimization

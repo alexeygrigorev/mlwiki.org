@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Temporal_Databases
+permalink: /Temporal_Databases
 tags:
 - databases
 title: Temporal Databases

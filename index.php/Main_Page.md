@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Main_Page
+permalink: /Main_Page
 title: Main Page
 ---
 <strong>MediaWiki has been successfully installed.</strong>

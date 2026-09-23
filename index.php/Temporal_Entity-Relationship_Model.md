@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Temporal_Entity-Relationship_Model
+permalink: /Temporal_Entity-Relationship_Model
 tags:
 - databases
 - relational-databases

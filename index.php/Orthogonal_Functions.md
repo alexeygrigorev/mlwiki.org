@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Orthogonal_Functions
+permalink: /Orthogonal_Functions
 tags:
 - calculus
 - linear-algebra

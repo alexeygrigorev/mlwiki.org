@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Formal_Languages
+permalink: /Formal_Languages
 tags:
 - algorithms
 - coursera

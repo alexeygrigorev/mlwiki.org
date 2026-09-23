@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Projection_onto_Subspaces
+permalink: /Projection_onto_Subspaces
 tags:
 - linear-algebra
 title: Projection onto Subspaces

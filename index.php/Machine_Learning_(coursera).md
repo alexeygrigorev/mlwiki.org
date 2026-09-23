@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Machine_Learning_(coursera)
+permalink: /Machine_Learning_(coursera)
 tags:
 - coursera
 - machine-learning

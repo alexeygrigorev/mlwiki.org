@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Decision_Under_Uncertainty
+permalink: /Decision_Under_Uncertainty
 tags:
 - decision-under-uncertainty
 title: Decision Under Uncertainty

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Design_interview_questions
+permalink: /Design_interview_questions
 tags:
 - interviews
 - software-design

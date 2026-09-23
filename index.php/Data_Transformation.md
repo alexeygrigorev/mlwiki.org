@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Transformation
+permalink: /Data_Transformation
 tags:
 - data-transformation
 title: Data Transformation

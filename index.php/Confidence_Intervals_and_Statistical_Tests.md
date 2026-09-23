@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Confidence_Intervals_and_Statistical_Tests
+permalink: /Confidence_Intervals_and_Statistical_Tests
 tags:
 - statistics
 title: Confidence Intervals and Statistical Tests

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Non-Deterministic_Finite_Automata
+permalink: /Non-Deterministic_Finite_Automata
 tags:
 - automata
 title: Non-Deterministic Finite Automata

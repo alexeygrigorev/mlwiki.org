@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Descriptive_Analysis
+permalink: /Descriptive_Analysis
 tags:
 - data-analysis
 - data-mining

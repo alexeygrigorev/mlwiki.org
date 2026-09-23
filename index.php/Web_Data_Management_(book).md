@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Web_Data_Management_(book)
+permalink: /Web_Data_Management_(book)
 tags:
 - books
 - data-integration

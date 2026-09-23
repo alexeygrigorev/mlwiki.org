@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Variables_in_Observations
+permalink: /Variables_in_Observations
 tags:
 - statistics
 title: Variables in Observations

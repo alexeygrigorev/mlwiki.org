@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Trigonometric_Functions
+permalink: /Trigonometric_Functions
 tags:
 - calculus
 - cheat-sheets

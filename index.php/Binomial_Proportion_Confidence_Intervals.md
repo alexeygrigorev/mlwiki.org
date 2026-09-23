@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Binomial_Proportion_Confidence_Intervals
+permalink: /Binomial_Proportion_Confidence_Intervals
 tags:
 - r
 - statistics

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/PROMETHEE
+permalink: /PROMETHEE
 tags:
 - multi-criteria-decision-aid
 title: PROMETHEE

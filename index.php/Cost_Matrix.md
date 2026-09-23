@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Cost_Matrix
+permalink: /Cost_Matrix
 tags:
 - classifiers
 - machine-learning

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Consistency_(databases)
+permalink: /Consistency_(databases)
 tags:
 - databases
 - distributed-systems

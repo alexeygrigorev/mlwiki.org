@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Personal_Knowledge_Management
+permalink: /Personal_Knowledge_Management
 tags:
 - productivity
 title: Personal Knowledge Management

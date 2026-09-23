@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Breadth-First_Search
+permalink: /Breadth-First_Search
 tags:
 - algorithms
 - graphs

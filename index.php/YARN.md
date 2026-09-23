@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/YARN
+permalink: /YARN
 tags:
 - distributed-systems
 - hadoop

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Ontology_Based_Data_Access
+permalink: /Ontology_Based_Data_Access
 tags:
 - semantic-web
 title: Ontology Based Data Access

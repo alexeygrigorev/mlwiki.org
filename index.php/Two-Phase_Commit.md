@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Two-Phase_Commit
+permalink: /Two-Phase_Commit
 tags:
 - database-systems-architecture
 - distributed-systems

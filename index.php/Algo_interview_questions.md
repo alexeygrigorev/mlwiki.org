@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Algo_interview_questions
+permalink: /Algo_interview_questions
 tags:
 - algorithms
 - interviews

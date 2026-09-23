@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Science_Interview_Questions
+permalink: /Data_Science_Interview_Questions
 tags:
 - interview-questions
 - interviews

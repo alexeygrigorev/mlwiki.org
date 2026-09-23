@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Borda's_Rule
+permalink: /Borda's_Rule
 tags:
 - voting-theory
 title: Borda's Rule

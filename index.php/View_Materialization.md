@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/View_Materialization
+permalink: /View_Materialization
 tags:
 - databases
 title: View Materialization

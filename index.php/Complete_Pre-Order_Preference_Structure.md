@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Complete_Pre-Order_Preference_Structure
+permalink: /Complete_Pre-Order_Preference_Structure
 tags:
 - multi-criteria-decision-aid
 title: Complete Pre-Order Preference Structure

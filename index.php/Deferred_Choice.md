@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Deferred_Choice
+permalink: /Deferred_Choice
 tags:
 - business-process-management
 title: Deferred Choice

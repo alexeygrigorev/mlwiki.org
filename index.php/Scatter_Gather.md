@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Scatter_Gather
+permalink: /Scatter_Gather
 tags:
 - cluster-analysis
 - document-clustering

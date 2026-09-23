@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Separability
+permalink: /Separability
 tags:
 - voting-theory
 title: Separability

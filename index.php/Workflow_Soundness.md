@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Workflow_Soundness
+permalink: /Workflow_Soundness
 tags:
 - business-process-management
 title: Workflow Soundness

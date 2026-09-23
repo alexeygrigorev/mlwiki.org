@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Entropy-Based_Ranking
+permalink: /Entropy-Based_Ranking
 tags:
 - dimensionality-reduction
 - document-clustering

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Prisoner's_Dilemma
+permalink: /Prisoner's_Dilemma
 tags:
 - game-theory
 title: Prisoner's Dilemma

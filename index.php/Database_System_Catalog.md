@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Database_System_Catalog
+permalink: /Database_System_Catalog
 tags:
 - database-systems-architecture
 title: Database System Catalog

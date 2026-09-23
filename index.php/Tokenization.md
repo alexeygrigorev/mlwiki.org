@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Tokenization
+permalink: /Tokenization
 tags:
 - information-retrieval
 - nlp

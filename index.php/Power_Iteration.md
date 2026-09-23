@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Power_Iteration
+permalink: /Power_Iteration
 tags:
 - linear-algebra
 - machine-learning

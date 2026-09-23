@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/First_Order_Logic
+permalink: /First_Order_Logic
 tags:
 - knowledge-representation
 - logic

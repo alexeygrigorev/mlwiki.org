@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Lateral_Thinking
+permalink: /Lateral_Thinking
 tags:
 - productivity
 title: Lateral Thinking

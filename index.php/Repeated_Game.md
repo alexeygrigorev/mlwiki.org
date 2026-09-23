@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Repeated_Game
+permalink: /Repeated_Game
 tags:
 - game-theory
 title: Repeated Game

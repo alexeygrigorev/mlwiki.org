@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Monotonicity
+permalink: /Monotonicity
 tags:
 - voting-theory
 title: Monotonicity

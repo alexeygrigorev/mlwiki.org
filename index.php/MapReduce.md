@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/MapReduce
+permalink: /MapReduce
 tags:
 - algorithms
 - distributed-systems

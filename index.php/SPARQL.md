@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/SPARQL
+permalink: /SPARQL
 tags:
 - query-languages
 - semantic-web

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Dot_Graph_Examples
+permalink: /Dot_Graph_Examples
 tags:
 - dot
 - snippets

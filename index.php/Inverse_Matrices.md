@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Inverse_Matrices
+permalink: /Inverse_Matrices
 tags:
 - linear-algebra
 title: Inverse Matrices

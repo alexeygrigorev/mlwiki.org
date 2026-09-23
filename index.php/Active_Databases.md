@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Active_Databases
+permalink: /Active_Databases
 tags:
 - databases
 title: Active Databases

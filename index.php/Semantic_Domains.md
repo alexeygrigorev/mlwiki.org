@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Semantic_Domains
+permalink: /Semantic_Domains
 tags:
 - natural-language-processing
 - thesis

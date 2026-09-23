@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/MapReduce_Joins
+permalink: /MapReduce_Joins
 tags:
 - hadoop
 - mapreduce

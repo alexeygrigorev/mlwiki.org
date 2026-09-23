@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Partial_Permutations
+permalink: /Partial_Permutations
 tags:
 - combinatorics
 title: Partial Permutations

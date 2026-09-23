@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Cosine_Similarity
+permalink: /Cosine_Similarity
 tags:
 - distances
 - similarity-functions

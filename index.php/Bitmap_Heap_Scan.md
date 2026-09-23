@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Bitmap_Heap_Scan
+permalink: /Bitmap_Heap_Scan
 tags:
 - database-indexes
 - database-systems-architecture

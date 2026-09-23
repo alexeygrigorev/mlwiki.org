@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Conjunctive_Query_Containment_Exercise
+permalink: /Conjunctive_Query_Containment_Exercise
 tags:
 - exercises
 - relational-databases

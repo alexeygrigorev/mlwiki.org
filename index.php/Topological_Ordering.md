@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Topological_Ordering
+permalink: /Topological_Ordering
 tags:
 - algorithms
 - graphs

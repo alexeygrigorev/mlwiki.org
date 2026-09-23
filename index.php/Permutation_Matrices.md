@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Permutation_Matrices
+permalink: /Permutation_Matrices
 tags:
 - linear-algebra
 title: Permutation Matrices

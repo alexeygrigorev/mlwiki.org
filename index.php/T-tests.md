@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/T-tests
+permalink: /T-tests
 tags:
 - r
 - statistical-tests

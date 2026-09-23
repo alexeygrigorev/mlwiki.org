@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Summarizing_Data
+permalink: /Summarizing_Data
 tags:
 - data-analysis
 - r

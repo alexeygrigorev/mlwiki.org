@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Optimization
+permalink: /Optimization
 tags:
 - optimization
 title: Optimization

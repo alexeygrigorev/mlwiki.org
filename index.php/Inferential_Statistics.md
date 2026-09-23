@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Inferential_Statistics
+permalink: /Inferential_Statistics
 tags:
 - statistical-tests
 - statistics

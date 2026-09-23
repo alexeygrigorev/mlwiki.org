@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Cancellation_Regions
+permalink: /Cancellation_Regions
 tags:
 - business-process-management
 title: Cancellation Regions

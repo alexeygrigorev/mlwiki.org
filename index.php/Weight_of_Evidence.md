@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Weight_of_Evidence
+permalink: /Weight_of_Evidence
 tags:
 - statistics
 - machine-learning

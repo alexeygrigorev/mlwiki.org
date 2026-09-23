@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Statistical_Simulation
+permalink: /Statistical_Simulation
 tags:
 - simulations
 - statistics

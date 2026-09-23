@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Exponential_Function
+permalink: /Exponential_Function
 tags:
 - calculus
 - functions

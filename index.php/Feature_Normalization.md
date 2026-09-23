@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Feature_Normalization
+permalink: /Feature_Normalization
 tags:
 - data-transformation
 - statistics

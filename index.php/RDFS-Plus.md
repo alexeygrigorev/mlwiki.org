@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/RDFS-Plus
+permalink: /RDFS-Plus
 tags:
 - semantic-web
 title: RDFS-Plus

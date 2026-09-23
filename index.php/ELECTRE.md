@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/ELECTRE
+permalink: /ELECTRE
 tags:
 - multi-criteria-decision-aid
 title: ELECTRE

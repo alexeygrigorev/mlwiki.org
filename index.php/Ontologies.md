@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Ontologies
+permalink: /Ontologies
 tags:
 - knowledge-representation
 - semantic-web

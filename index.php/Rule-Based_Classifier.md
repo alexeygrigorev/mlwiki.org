@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Rule-Based_Classifier
+permalink: /Rule-Based_Classifier
 tags:
 - classifiers
 - machine-learning

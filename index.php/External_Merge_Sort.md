@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/External_Merge_Sort
+permalink: /External_Merge_Sort
 tags:
 - algorithms
 - database-systems-architecture

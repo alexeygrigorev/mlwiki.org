@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Chi-Squared_Goodness_of_Fit_Test
+permalink: /Chi-Squared_Goodness_of_Fit_Test
 tags:
 - r
 - statistical-tests

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Business_Process_Management
+permalink: /Business_Process_Management
 tags:
 - business-process-management
 title: Business Process Management

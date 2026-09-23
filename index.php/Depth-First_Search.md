@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Depth-First_Search
+permalink: /Depth-First_Search
 tags:
 - algorithms
 - graphs

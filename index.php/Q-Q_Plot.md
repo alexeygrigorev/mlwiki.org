@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Q-Q_Plot
+permalink: /Q-Q_Plot
 tags:
 - data-analysis
 - plots

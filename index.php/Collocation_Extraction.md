@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Collocation_Extraction
+permalink: /Collocation_Extraction
 tags:
 - nlp
 - text-mining

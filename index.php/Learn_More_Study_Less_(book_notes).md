@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Learn_More_Study_Less_(book_notes)
+permalink: /Learn_More_Study_Less_(book_notes)
 tags:
 - books
 - notes

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Distance_Functions
+permalink: /Distance_Functions
 tags:
 - distances
 - norms

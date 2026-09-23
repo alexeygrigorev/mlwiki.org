@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Vector_Clock
+permalink: /Vector_Clock
 tags:
 - algorithms
 - database-systems-architecture

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Business_Process_Management_(ULB)
+permalink: /Business_Process_Management_(ULB)
 tags:
 - business-process-management
 - it4bi

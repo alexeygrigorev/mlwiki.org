@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Lock-Based_Scheduler
+permalink: /Lock-Based_Scheduler
 tags:
 - concurrency
 - database-systems-architecture

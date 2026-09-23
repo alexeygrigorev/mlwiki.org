@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Database
+permalink: /Database
 tags:
 - databases
 title: Database

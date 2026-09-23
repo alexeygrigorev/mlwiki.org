@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/ANTLR4_Maven
+permalink: /ANTLR4_Maven
 tags:
 - java
 - maven

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/XML
+permalink: /XML
 tags:
 - xml
 title: XML

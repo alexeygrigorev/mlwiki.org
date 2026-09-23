@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Cumulative_Gain_Chart
+permalink: /Cumulative_Gain_Chart
 tags:
 - classifiers
 - machine-learning

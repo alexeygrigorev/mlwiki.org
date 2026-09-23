@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Calculus__Single_Variable_(coursera)
+permalink: /Calculus__Single_Variable_(coursera)
 tags:
 - calculus
 - coursera

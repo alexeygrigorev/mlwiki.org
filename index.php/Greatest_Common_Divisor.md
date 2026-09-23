@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Greatest_Common_Divisor
+permalink: /Greatest_Common_Divisor
 tags:
 - algorithms
 - discrete-mathematics

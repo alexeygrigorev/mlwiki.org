@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Regular_Expressions
+permalink: /Regular_Expressions
 tags:
 - algorithms
 - coursera

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Oozie
+permalink: /Oozie
 tags:
 - etl
 - hadoop

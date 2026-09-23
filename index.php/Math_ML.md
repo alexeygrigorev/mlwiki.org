@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Math_ML
+permalink: /Math_ML
 tags:
 - mathematics
 - thesis

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Bloom_Filters
+permalink: /Bloom_Filters
 tags:
 - algorithms
 - data-structures

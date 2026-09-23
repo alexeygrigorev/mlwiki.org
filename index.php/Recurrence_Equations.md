@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Recurrence_Equations
+permalink: /Recurrence_Equations
 tags:
 - linear-algebra
 title: Recurrence Equations

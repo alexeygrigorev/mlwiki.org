@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/One-Way_ANOVA_F-Test
+permalink: /One-Way_ANOVA_F-Test
 tags:
 - r
 - statistical-tests

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Pigeonhole_Principle
+permalink: /Pigeonhole_Principle
 tags:
 - combinatorics
 title: Pigeonhole Principle

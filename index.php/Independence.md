@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Independence
+permalink: /Independence
 tags:
 - probability
 title: Independence

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Machine_Learning
+permalink: /Machine_Learning
 tags:
 - machine-learning
 title: Machine Learning

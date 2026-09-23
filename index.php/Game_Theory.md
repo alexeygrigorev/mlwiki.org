@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Game_Theory
+permalink: /Game_Theory
 tags:
 - game-theory
 title: Game Theory

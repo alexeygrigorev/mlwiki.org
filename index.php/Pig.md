@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Pig
+permalink: /Pig
 tags:
 - hadoop
 title: Pig

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Database_Transaction_Log_Exercises
+permalink: /Database_Transaction_Log_Exercises
 tags:
 - database-systems-architecture
 title: Database Transaction Log Exercises

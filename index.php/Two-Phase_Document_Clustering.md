@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Two-Phase_Document_Clustering
+permalink: /Two-Phase_Document_Clustering
 tags:
 - document-clustering
 - information-theory

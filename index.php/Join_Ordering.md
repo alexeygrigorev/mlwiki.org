@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Join_Ordering
+permalink: /Join_Ordering
 tags:
 - database-systems-architecture
 - greedy-algorithms

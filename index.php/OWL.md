@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/OWL
+permalink: /OWL
 tags:
 - knowledge-representation
 - semantic-web

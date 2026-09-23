@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Snooping
+permalink: /Data_Snooping
 tags:
 - statistics
 - machine-learning

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/LU_Decomposition
+permalink: /LU_Decomposition
 tags:
 - linear-algebra
 - matrix-decomposition

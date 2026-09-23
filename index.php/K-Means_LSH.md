@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/K-Means_LSH
+permalink: /K-Means_LSH
 tags:
 - cluster-analysis
 - database-indexes

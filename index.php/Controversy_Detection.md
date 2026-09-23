@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Controversy_Detection
+permalink: /Controversy_Detection
 tags:
 - nlp
 - data-mining

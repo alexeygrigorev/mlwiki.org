@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Jefferson's_Method
+permalink: /Jefferson's_Method
 tags:
 - voting-theory
 title: Jefferson's Method

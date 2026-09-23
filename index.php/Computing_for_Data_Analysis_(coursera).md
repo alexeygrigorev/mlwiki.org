@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Computing_for_Data_Analysis_(coursera)
+permalink: /Computing_for_Data_Analysis_(coursera)
 tags:
 - coursera
 - notes

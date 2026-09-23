@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Arrow's_Impossibility_Theorem
+permalink: /Arrow's_Impossibility_Theorem
 tags:
 - voting-theory
 title: Arrow's Impossibility Theorem

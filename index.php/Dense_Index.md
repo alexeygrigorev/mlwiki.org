@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Dense_Index
+permalink: /Dense_Index
 tags:
 - database-indexes
 - database-systems-architecture

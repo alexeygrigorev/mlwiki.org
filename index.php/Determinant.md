@@ -1,6 +1,6 @@
 ---
 layout: redirect
-permalink: /index.php/Determinant
-redirect_to: /index.php/Determinants
+permalink: /Determinant
+redirect_to: /Determinants
 title: Determinants
 ---

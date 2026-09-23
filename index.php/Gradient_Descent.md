@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Gradient_Descent
+permalink: /Gradient_Descent
 tags:
 - machine-learning
 title: Gradient Descent

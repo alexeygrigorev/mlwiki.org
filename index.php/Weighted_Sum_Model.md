@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Weighted_Sum_Model
+permalink: /Weighted_Sum_Model
 tags:
 - multi-criteria-decision-aid
 - multi-objective-optimization

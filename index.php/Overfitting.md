@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Overfitting
+permalink: /Overfitting
 tags:
 - machine-learning
 - model-performance-evaluation

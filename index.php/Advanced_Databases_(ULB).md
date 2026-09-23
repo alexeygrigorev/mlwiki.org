@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Advanced_Databases_(ULB)
+permalink: /Advanced_Databases_(ULB)
 tags:
 - databases
 - it4bi

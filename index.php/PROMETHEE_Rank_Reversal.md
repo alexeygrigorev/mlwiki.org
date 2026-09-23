@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/PROMETHEE_Rank_Reversal
+permalink: /PROMETHEE_Rank_Reversal
 tags:
 - multi-criteria-decision-aid
 title: PROMETHEE/Rank Reversal

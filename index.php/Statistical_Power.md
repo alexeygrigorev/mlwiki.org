@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Statistical_Power
+permalink: /Statistical_Power
 tags:
 - statistical-tests
 - statistics

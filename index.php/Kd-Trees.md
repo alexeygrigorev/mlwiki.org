@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Kd-Trees
+permalink: /Kd-Trees
 tags:
 - data-structures
 - database-indexes

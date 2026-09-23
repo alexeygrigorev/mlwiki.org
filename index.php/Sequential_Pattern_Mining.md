@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Sequential_Pattern_Mining
+permalink: /Sequential_Pattern_Mining
 tags:
 - rule-mining
 title: Sequential Pattern Mining

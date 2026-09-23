@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Handling_Missing_Values
+permalink: /Handling_Missing_Values
 tags:
 - data-analysis
 - data-cleaning

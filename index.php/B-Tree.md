@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/B-Tree
+permalink: /B-Tree
 tags:
 - data-structures
 - database-indexes

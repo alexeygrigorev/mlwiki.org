@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Indexing_(databases)
+permalink: /Indexing_(databases)
 tags:
 - database-indexes
 - database-systems-architecture

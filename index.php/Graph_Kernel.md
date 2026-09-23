@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Graph_Kernel
+permalink: /Graph_Kernel
 tags:
 - graphs
 title: Graph Kernel

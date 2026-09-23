@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Linguistic_Models
+permalink: /Linguistic_Models
 tags:
 - computational-linguistics
 title: Linguistic Models

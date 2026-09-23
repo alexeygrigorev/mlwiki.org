@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hadoop_Distributed_File_System
+permalink: /Hadoop_Distributed_File_System
 tags:
 - distributed-systems
 - hadoop

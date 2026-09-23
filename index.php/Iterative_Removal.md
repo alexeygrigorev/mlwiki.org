@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Iterative_Removal
+permalink: /Iterative_Removal
 tags:
 - game-theory
 title: Iterative Removal

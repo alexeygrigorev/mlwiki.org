@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Sparse_Index
+permalink: /Sparse_Index
 tags:
 - database-indexes
 - database-systems-architecture

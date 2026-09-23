@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Matrix-Matrix_Multiplication
+permalink: /Matrix-Matrix_Multiplication
 tags:
 - linear-algebra
 title: Matrix-Matrix Multiplication

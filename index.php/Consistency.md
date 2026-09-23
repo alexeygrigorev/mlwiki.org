@@ -1,6 +1,6 @@
 ---
 layout: redirect
-permalink: /index.php/Consistency
-redirect_to: /index.php/Consistency_%28databases%29
+permalink: /Consistency
+redirect_to: /Consistency_(databases)
 title: Consistency (databases)
 ---

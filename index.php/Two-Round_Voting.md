@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Two-Round_Voting
+permalink: /Two-Round_Voting
 tags:
 - voting-theory
 title: Two-Round Voting

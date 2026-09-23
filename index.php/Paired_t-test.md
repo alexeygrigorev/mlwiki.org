@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Paired_t-test
+permalink: /Paired_t-test
 tags:
 - r
 - statistical-tests

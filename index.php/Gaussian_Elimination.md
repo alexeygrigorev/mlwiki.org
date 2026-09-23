@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Gaussian_Elimination
+permalink: /Gaussian_Elimination
 tags:
 - linear-algebra
 title: Gaussian Elimination

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Continuous_Functions
+permalink: /Continuous_Functions
 tags:
 - functions
 title: Continuous Functions

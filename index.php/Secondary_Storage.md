@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Secondary_Storage
+permalink: /Secondary_Storage
 tags:
 - computer-architecture
 - database-systems-architecture

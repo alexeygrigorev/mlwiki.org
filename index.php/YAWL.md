@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/YAWL
+permalink: /YAWL
 tags:
 - business-process-management
 title: YAWL

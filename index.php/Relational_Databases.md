@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Relational_Databases
+permalink: /Relational_Databases
 tags:
 - data-models
 - databases

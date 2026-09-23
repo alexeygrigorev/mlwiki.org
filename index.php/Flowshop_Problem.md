@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Flowshop_Problem
+permalink: /Flowshop_Problem
 tags:
 - multi-objective-optimization
 title: Flowshop Problem

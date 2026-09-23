@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Housing_Agency_Workflow
+permalink: /Housing_Agency_Workflow
 tags:
 - business-process-management
 title: Housing Agency Workflow

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Euclidean_LSH
+permalink: /Euclidean_LSH
 tags:
 - database-indexes
 - hashing

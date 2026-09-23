@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Pragmatic_Investment_Plan
+permalink: /Pragmatic_Investment_Plan
 tags:
 - productivity
 title: Pragmatic Investment Plan

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Point_Swizzling
+permalink: /Point_Swizzling
 tags:
 - database-systems-architecture
 title: Point Swizzling

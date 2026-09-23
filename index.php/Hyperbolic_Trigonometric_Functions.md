@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hyperbolic_Trigonometric_Functions
+permalink: /Hyperbolic_Trigonometric_Functions
 tags:
 - calculus
 - functions

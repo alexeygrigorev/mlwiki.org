@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Refactor_your_Wetware
+permalink: /Refactor_your_Wetware
 title: Refactor your Wetware
 ---
 Pragmatic Thinking and Learning: Refactor Your Wetware, Andy Hunt

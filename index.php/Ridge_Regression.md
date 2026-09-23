@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Ridge_Regression
+permalink: /Ridge_Regression
 tags:
 - machine-learning
 - statistics

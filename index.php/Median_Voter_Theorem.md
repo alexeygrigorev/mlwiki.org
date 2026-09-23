@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Median_Voter_Theorem
+permalink: /Median_Voter_Theorem
 tags:
 - game-theory
 title: Median Voter Theorem

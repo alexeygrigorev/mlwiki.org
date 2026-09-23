@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Quad_Trees
+permalink: /Quad_Trees
 tags:
 - database-indexes
 - database-systems-architecture

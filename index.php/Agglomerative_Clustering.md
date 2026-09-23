@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Agglomerative_Clustering
+permalink: /Agglomerative_Clustering
 tags:
 - cluster-analysis
 title: Agglomerative Clustering

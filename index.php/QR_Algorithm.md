@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/QR_Algorithm
+permalink: /QR_Algorithm
 tags:
 - linear-algebra
 - matrix-decomposition

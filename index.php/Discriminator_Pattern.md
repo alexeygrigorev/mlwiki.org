@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Discriminator_Pattern
+permalink: /Discriminator_Pattern
 tags:
 - business-process-management
 title: Discriminator Pattern

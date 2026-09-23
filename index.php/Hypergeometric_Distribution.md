@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hypergeometric_Distribution
+permalink: /Hypergeometric_Distribution
 tags:
 - probability
 - probability-distributions

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Concurrency_Control
+permalink: /Concurrency_Control
 tags:
 - concurrency
 - database-systems-architecture

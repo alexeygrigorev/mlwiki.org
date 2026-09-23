@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Undo_Redo_Logging
+permalink: /Undo_Redo_Logging
 tags:
 - database-systems-architecture
 title: Undo/Redo Logging

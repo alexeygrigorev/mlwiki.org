@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Cramer's_Rule
+permalink: /Cramer's_Rule
 tags:
 - linear-algebra
 title: Cramer's Rule

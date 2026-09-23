@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Skolem_Function
+permalink: /Skolem_Function
 tags:
 - logic
 title: Skolem Function

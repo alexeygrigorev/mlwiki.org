@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Descriptive_Logic
+permalink: /Descriptive_Logic
 tags:
 - knowledge-representation
 - logic

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Univariate_Analysis
+permalink: /Univariate_Analysis
 tags:
 - data-analysis
 title: Univariate Analysis

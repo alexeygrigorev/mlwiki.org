@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Durability_(databases)
+permalink: /Durability_(databases)
 tags:
 - databases
 title: Durability (databases)

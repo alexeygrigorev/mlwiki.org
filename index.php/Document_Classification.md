@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Document_Classification
+permalink: /Document_Classification
 tags:
 - classification
 - machine-learning

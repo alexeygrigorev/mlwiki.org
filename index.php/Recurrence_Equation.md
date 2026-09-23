@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Recurrence_Equation
+permalink: /Recurrence_Equation
 title: Recurrence Equation
 ---
 

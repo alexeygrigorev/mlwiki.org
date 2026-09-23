@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Groovy_Java_in_Maven
+permalink: /Groovy_Java_in_Maven
 tags:
 - groovy
 - java

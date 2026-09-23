@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Discretization
+permalink: /Data_Discretization
 tags:
 - data-transformation
 title: Data Discretization

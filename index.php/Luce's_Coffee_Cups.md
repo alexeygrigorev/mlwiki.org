@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Luce's_Coffee_Cups
+permalink: /Luce's_Coffee_Cups
 tags:
 - multi-criteria-decision-aid
 title: Luce's Coffee Cups

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Gram-Schmidt_Process
+permalink: /Gram-Schmidt_Process
 tags:
 - linear-algebra
 title: Gram-Schmidt Process

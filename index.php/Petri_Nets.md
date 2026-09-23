@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Petri_Nets
+permalink: /Petri_Nets
 tags:
 - business-process-management
 - concurrency

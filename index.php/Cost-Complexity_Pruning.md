@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Cost-Complexity_Pruning
+permalink: /Cost-Complexity_Pruning
 tags:
 - machine-learning
 title: Cost-Complexity Pruning

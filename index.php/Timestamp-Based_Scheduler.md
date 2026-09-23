@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Timestamp-Based_Scheduler
+permalink: /Timestamp-Based_Scheduler
 tags:
 - concurrency
 - database-systems-architecture

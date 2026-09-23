@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/True_Error_of_Model
+permalink: /True_Error_of_Model
 tags:
 - machine-learning
 - model-performance-evaluation

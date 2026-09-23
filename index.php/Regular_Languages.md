@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Regular_Languages
+permalink: /Regular_Languages
 tags:
 - algorithms
 - coursera

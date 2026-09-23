@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Text_Normalization
+permalink: /Text_Normalization
 tags:
 - dimensionality-reduction
 - information-retrieval

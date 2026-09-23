@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Meta_Learning
+permalink: /Meta_Learning
 tags:
 - machine-learning
 title: Meta Learning

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Query_Plan
+permalink: /Query_Plan
 tags:
 - database-systems-architecture
 - relational-databases

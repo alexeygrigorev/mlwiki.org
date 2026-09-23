@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Singular_Value_Decomposition
+permalink: /Singular_Value_Decomposition
 tags:
 - linear-algebra
 - matrix-decomposition

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Graph_Search
+permalink: /Graph_Search
 tags:
 - algorithms
 - graphs

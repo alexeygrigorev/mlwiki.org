@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Decision_Analysis
+permalink: /Decision_Analysis
 tags:
 - decision-engineering
 title: Decision Analysis

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Query_Result_Size_Estimation
+permalink: /Query_Result_Size_Estimation
 tags:
 - database-systems-architecture
 - relational-databases

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Regularization
+permalink: /Regularization
 tags:
 - machine-learning
 title: Regularization

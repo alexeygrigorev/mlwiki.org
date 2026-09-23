@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Excel_Macro
+permalink: /Excel_Macro
 tags:
 - scripts
 - snippets

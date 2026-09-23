@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Spectral_Theorem
+permalink: /Spectral_Theorem
 tags:
 - linear-algebra
 title: Spectral Theorem

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Mean
+permalink: /Mean
 tags:
 - statistics
 title: Mean

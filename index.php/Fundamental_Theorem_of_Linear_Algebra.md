@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Fundamental_Theorem_of_Linear_Algebra
+permalink: /Fundamental_Theorem_of_Linear_Algebra
 tags:
 - linear-algebra
 title: Fundamental Theorem of Linear Algebra

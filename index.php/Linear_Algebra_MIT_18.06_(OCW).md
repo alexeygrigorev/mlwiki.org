@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Linear_Algebra_MIT_18.06_(OCW)
+permalink: /Linear_Algebra_MIT_18.06_(OCW)
 tags:
 - linear-algebra
 - mathematics

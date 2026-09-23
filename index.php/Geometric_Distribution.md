@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Geometric_Distribution
+permalink: /Geometric_Distribution
 tags:
 - distributions
 - probability

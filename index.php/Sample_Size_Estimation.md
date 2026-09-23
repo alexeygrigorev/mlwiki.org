@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Sample_Size_Estimation
+permalink: /Sample_Size_Estimation
 tags:
 - statistical-tests
 - statistics

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/DB_interview_questions
+permalink: /DB_interview_questions
 tags:
 - databases
 - interviews

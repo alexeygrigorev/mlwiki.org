@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Automata_(coursera)
+permalink: /Automata_(coursera)
 tags:
 - coursera
 - notes

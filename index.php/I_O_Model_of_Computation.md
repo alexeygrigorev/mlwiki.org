@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/I_O_Model_of_Computation
+permalink: /I_O_Model_of_Computation
 tags:
 - database-systems-architecture
 title: I/O Model of Computation

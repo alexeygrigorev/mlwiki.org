@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Probabilistic_Retrieval_Model
+permalink: /Probabilistic_Retrieval_Model
 tags:
 - information-retrieval
 - probabilistic-models

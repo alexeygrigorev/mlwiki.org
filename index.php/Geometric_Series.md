@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Geometric_Series
+permalink: /Geometric_Series
 tags:
 - calculus
 title: Geometric Series

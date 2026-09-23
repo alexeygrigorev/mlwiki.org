@@ -1,6 +1,6 @@
 ---
 layout: redirect
-permalink: /index.php/Pairwise_t-test
-redirect_to: /index.php/t-tests#Pairwise_t-test
+permalink: /Pairwise_t-test
+redirect_to: /t-tests#Pairwise_t-test
 title: t-tests#Pairwise t-test
 ---

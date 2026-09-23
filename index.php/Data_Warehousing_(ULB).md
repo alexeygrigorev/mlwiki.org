@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Warehousing_(ULB)
+permalink: /Data_Warehousing_(ULB)
 tags:
 - data-warehousing
 - it4bi

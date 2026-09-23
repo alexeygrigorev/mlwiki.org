@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Co-Clustering
+permalink: /Co-Clustering
 tags:
 - document-clustering
 title: Co-Clustering

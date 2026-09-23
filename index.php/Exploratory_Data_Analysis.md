@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Exploratory_Data_Analysis
+permalink: /Exploratory_Data_Analysis
 tags:
 - data-analysis
 title: Exploratory Data Analysis

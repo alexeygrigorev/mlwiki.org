@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Conjunctive_Query
+permalink: /Conjunctive_Query
 tags:
 - relational-databases
 title: Conjunctive Query

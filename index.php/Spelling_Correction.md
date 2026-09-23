@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Spelling_Correction
+permalink: /Spelling_Correction
 tags:
 - nlp
 - information-retrieval

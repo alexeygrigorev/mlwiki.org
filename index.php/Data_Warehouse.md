@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Warehouse
+permalink: /Data_Warehouse
 tags:
 - data-warehousing
 title: Data Warehouse

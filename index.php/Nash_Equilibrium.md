@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Nash_Equilibrium
+permalink: /Nash_Equilibrium
 tags:
 - game-theory
 title: Nash Equilibrium

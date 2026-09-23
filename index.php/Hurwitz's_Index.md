@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hurwitz's_Index
+permalink: /Hurwitz's_Index
 tags:
 - decision-under-uncertainty
 title: Hurwitz's Index

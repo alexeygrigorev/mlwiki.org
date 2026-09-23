@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Summary_Statistics
+permalink: /Summary_Statistics
 tags:
 - r
 - statistics

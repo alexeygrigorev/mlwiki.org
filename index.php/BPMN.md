@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/BPMN
+permalink: /BPMN
 tags:
 - business-process-management
 title: BPMN

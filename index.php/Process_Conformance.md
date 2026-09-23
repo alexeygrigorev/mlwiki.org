@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Process_Conformance
+permalink: /Process_Conformance
 tags:
 - business-process-management
 title: Process Conformance

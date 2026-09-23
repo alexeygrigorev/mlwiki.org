@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Binomial_Proportion_Tests
+permalink: /Binomial_Proportion_Tests
 tags:
 - r
 - statistical-tests

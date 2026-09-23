@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Random_Projections
+permalink: /Random_Projections
 tags:
 - dimensionality-reduction
 - machine-learning

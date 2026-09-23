@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hadoop_MapReduce
+permalink: /Hadoop_MapReduce
 tags:
 - distributed-systems
 - hadoop

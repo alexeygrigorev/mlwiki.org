@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Vector_Subspaces
+permalink: /Vector_Subspaces
 tags:
 - linear-algebra
 title: Vector Subspaces

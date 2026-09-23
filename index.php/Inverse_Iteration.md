@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Inverse_Iteration
+permalink: /Inverse_Iteration
 tags:
 - linear-algebra
 title: Inverse Iteration

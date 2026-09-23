@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Mixed-Strategy_Game
+permalink: /Mixed-Strategy_Game
 tags:
 - game-theory
 title: Mixed-Strategy Game

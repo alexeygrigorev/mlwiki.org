@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Scala_interview_questions
+permalink: /Scala_interview_questions
 tags:
 - interviews
 - scala

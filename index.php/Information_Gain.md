@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Information_Gain
+permalink: /Information_Gain
 tags:
 - machine-learning
 title: Information Gain

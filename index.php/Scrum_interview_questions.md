@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Scrum_interview_questions
+permalink: /Scrum_interview_questions
 tags:
 - interviews
 title: Scrum interview questions

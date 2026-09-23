@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Naive_Bayes_on_Apache_Flink
+permalink: /Naive_Bayes_on_Apache_Flink
 tags:
 - machine-learning
 - hadoop

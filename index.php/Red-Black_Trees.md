@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Red-Black_Trees
+permalink: /Red-Black_Trees
 tags:
 - algorithms
 - data-structures

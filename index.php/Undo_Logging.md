@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Undo_Logging
+permalink: /Undo_Logging
 tags:
 - database-systems-architecture
 title: Undo Logging

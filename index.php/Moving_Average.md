@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Moving_Average
+permalink: /Moving_Average
 tags:
 - statistics
 title: Moving Average

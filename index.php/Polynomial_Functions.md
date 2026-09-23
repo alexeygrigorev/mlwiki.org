@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Polynomial_Functions
+permalink: /Polynomial_Functions
 title: Polynomial Functions
 ---
 

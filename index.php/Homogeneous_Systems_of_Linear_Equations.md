@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Homogeneous_Systems_of_Linear_Equations
+permalink: /Homogeneous_Systems_of_Linear_Equations
 tags:
 - linear-algebra
 title: Homogeneous Systems of Linear Equations

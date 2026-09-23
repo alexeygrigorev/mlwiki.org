@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Frequent_Patterns_Mining
+permalink: /Frequent_Patterns_Mining
 tags:
 - python
 - rule-mining

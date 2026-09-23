@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Coverability_Graph
+permalink: /Coverability_Graph
 tags:
 - business-process-management
 - graphs

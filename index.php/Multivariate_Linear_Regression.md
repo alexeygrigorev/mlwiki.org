@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Multivariate_Linear_Regression
+permalink: /Multivariate_Linear_Regression
 tags:
 - machine-learning
 - regression

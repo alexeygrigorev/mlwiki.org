@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Dijkstra's_Shortest_Path
+permalink: /Dijkstra's_Shortest_Path
 tags:
 - algorithms
 - graphs

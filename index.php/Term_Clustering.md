@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Term_Clustering
+permalink: /Term_Clustering
 tags:
 - cluster-analysis
 - document-clustering

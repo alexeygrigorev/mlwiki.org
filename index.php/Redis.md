@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Redis
+permalink: /Redis
 tags:
 - databases
 title: Redis

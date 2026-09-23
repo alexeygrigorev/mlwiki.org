@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Enterprise_System_Architecture
+permalink: /Enterprise_System_Architecture
 tags:
 - business-process-management
 - software-design

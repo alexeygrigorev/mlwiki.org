@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/CRISP-DM
+permalink: /CRISP-DM
 tags:
 - data-mining
 title: CRISP-DM

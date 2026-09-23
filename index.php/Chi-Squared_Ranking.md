@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Chi-Squared_Ranking
+permalink: /Chi-Squared_Ranking
 tags:
 - dimensionality-reduction
 - feature-filtering

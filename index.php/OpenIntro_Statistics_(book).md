@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/OpenIntro_Statistics_(book)
+permalink: /OpenIntro_Statistics_(book)
 tags:
 - books
 - notes

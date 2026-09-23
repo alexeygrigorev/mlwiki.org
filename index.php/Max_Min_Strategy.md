@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Max_Min_Strategy
+permalink: /Max_Min_Strategy
 tags:
 - decision-under-uncertainty
 - game-theory

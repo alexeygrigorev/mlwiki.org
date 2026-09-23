@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Milestone_Pattern
+permalink: /Milestone_Pattern
 tags:
 - business-process-management
 title: Milestone Pattern

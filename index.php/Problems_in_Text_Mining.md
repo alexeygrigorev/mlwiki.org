@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Problems_in_Text_Mining
+permalink: /Problems_in_Text_Mining
 tags:
 - nlp
 - data-mining

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Minimal_Cut_Problem
+permalink: /Minimal_Cut_Problem
 tags:
 - algorithms
 - graphs

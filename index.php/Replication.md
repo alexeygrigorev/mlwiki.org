@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Replication
+permalink: /Replication
 tags:
 - databases
 - distributed-systems

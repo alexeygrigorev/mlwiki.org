@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/MathML
+permalink: /MathML
 tags:
 - xml
 - nlp

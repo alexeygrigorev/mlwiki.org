@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Budget_Pacing
+permalink: /Budget_Pacing
 tags:
 - adtech
 - machine-learning

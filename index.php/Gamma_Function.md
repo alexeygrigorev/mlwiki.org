@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Gamma_Function
+permalink: /Gamma_Function
 tags:
 - calculus
 - statistics

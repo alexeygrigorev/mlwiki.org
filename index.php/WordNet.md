@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/WordNet
+permalink: /WordNet
 tags:
 - nlp
 title: WordNet

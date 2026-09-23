@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Chi-Squared_Distribution
+permalink: /Chi-Squared_Distribution
 tags:
 - distributions
 - statistics

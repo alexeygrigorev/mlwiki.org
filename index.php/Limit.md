@@ -1,6 +1,6 @@
 ---
 layout: redirect
-permalink: /index.php/Limit
-redirect_to: /index.php/Limits
+permalink: /Limit
+redirect_to: /Limits
 title: Limits
 ---

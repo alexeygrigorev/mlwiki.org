@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Local_Pattern_Discovery
+permalink: /Local_Pattern_Discovery
 tags:
 - data-mining
 - rule-mining

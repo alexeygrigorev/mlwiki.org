@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Cluster_Analysis
+permalink: /Cluster_Analysis
 tags:
 - cluster-analysis
 - machine-learning

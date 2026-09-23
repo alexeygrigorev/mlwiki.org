@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Big_O
+permalink: /Big_O
 tags:
 - algorithms
 title: Big O

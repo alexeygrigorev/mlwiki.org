@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Semi-Structured_Data_Model
+permalink: /Semi-Structured_Data_Model
 tags:
 - data-models
 - xml

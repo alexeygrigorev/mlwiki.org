@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Inference_in_Semantic_Web
+permalink: /Inference_in_Semantic_Web
 tags:
 - semantic-web
 title: Inference in Semantic Web

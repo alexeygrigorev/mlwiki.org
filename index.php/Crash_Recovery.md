@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Crash_Recovery
+permalink: /Crash_Recovery
 tags:
 - database-systems-architecture
 title: Crash Recovery

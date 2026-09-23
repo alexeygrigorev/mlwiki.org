@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Eigenvalues_and_Eigenvectors
+permalink: /Eigenvalues_and_Eigenvectors
 tags:
 - linear-algebra
 title: Eigenvalues and Eigenvectors

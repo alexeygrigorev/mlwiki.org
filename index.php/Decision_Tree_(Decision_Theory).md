@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Decision_Tree_(Decision_Theory)
+permalink: /Decision_Tree_(Decision_Theory)
 tags:
 - decision-under-risk
 title: Decision Tree (Decision Theory)

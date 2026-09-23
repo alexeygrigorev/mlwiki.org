@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Density_Plot
+permalink: /Density_Plot
 tags:
 - plots
 - r

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/NLP
+permalink: /NLP
 tags:
 - nlp
 - natural-language-processing

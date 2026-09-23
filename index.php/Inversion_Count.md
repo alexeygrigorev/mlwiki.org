@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Inversion_Count
+permalink: /Inversion_Count
 tags:
 - combinatorics
 - graphs

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Statistical_Language_Models
+permalink: /Statistical_Language_Models
 tags:
 - information-retrieval
 - nlp

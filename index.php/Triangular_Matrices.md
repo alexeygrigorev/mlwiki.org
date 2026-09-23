@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Triangular_Matrices
+permalink: /Triangular_Matrices
 tags:
 - linear-algebra
 title: Triangular Matrices

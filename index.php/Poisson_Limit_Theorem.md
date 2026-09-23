@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Poisson_Limit_Theorem
+permalink: /Poisson_Limit_Theorem
 tags:
 - probability
 title: Poisson Limit Theorem

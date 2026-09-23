@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Spring_interview_questions
+permalink: /Spring_interview_questions
 tags:
 - interviews
 - java

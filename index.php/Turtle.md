@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Turtle
+permalink: /Turtle
 tags:
 - semantic-web
 title: Turtle

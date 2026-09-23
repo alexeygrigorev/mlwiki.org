@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Point_Estimate
+permalink: /Point_Estimate
 tags:
 - statistics
 title: Point Estimate

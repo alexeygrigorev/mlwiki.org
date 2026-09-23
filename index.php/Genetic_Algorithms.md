@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Genetic_Algorithms
+permalink: /Genetic_Algorithms
 tags:
 - optimization
 title: Genetic Algorithms

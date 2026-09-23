@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/RDFS_and_OWL_Summary
+permalink: /RDFS_and_OWL_Summary
 tags:
 - semantic-web
 title: RDFS and OWL Summary

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Rank_Correlation
+permalink: /Rank_Correlation
 tags:
 - statistics
 title: Rank Correlation

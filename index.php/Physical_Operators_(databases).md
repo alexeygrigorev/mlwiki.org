@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Physical_Operators_(databases)
+permalink: /Physical_Operators_(databases)
 tags:
 - database-systems-architecture
 title: Physical Operators (databases)

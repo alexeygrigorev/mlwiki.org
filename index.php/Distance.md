@@ -1,6 +1,6 @@
 ---
 layout: redirect
-permalink: /index.php/Distance
-redirect_to: /index.php/Distance_Functions
+permalink: /Distance
+redirect_to: /Distance_Functions
 title: Distance Functions
 ---

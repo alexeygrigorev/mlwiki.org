@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Confidence_Intervals_for_Means
+permalink: /Confidence_Intervals_for_Means
 tags:
 - r
 - statistics

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Eclat
+permalink: /Eclat
 tags:
 - python
 - rule-mining

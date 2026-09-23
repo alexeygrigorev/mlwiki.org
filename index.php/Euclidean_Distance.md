@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Euclidean_Distance
+permalink: /Euclidean_Distance
 tags:
 - distances
 - norms

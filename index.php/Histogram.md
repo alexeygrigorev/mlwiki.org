@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Histogram
+permalink: /Histogram
 tags:
 - plots
 - r

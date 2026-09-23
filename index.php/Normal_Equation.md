@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Normal_Equation
+permalink: /Normal_Equation
 tags:
 - linear-algebra
 - machine-learning

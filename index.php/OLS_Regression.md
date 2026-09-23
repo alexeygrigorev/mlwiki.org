@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/OLS_Regression
+permalink: /OLS_Regression
 tags:
 - linear-algebra
 - machine-learning

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Region-Based_Process_Miner
+permalink: /Region-Based_Process_Miner
 tags:
 - business-process-management
 - process-mining

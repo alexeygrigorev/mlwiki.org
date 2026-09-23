@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Simulation_Basics_in_R
+permalink: /Simulation_Basics_in_R
 tags:
 - distributions
 - r

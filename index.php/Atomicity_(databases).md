@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Atomicity_(databases)
+permalink: /Atomicity_(databases)
 tags:
 - databases
 title: Atomicity (databases)

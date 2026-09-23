@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Voting_Theory_Exercises
+permalink: /Voting_Theory_Exercises
 tags:
 - voting-theory
 title: Voting Theory Exercises

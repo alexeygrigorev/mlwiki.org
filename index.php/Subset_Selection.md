@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Subset_Selection
+permalink: /Subset_Selection
 tags:
 - statistics
 - machine-learning

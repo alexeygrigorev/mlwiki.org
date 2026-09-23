@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Lift_(Data_Mining)
+permalink: /Lift_(Data_Mining)
 tags:
 - rule-mining
 title: Lift (Data Mining)

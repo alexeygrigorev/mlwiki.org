@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Independent_and_Identically_Distributed
+permalink: /Independent_and_Identically_Distributed
 tags:
 - statistics
 - probability

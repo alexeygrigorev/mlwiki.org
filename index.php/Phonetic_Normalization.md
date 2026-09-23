@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Phonetic_Normalization
+permalink: /Phonetic_Normalization
 tags:
 - information-retrieval
 title: Phonetic Normalization

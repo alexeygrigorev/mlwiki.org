@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Lattice
+permalink: /Lattice
 tags:
 - dot
 - python

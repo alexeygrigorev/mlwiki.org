@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Frobenius_Norm
+permalink: /Frobenius_Norm
 tags:
 - linear-algebra
 - norms

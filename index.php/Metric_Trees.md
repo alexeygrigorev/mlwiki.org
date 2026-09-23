@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Metric_Trees
+permalink: /Metric_Trees
 tags:
 - database-indexing
 - information-retrieval

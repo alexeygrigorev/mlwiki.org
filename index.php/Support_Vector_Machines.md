@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Support_Vector_Machines
+permalink: /Support_Vector_Machines
 tags:
 - kernel-methods
 - machine-learning

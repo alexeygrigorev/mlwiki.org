@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Text_Mining
+permalink: /Text_Mining
 tags:
 - nlp
 - data-mining

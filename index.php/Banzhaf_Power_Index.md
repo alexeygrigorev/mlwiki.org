@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Banzhaf_Power_Index
+permalink: /Banzhaf_Power_Index
 tags:
 - voting-theory
 title: Banzhaf Power Index

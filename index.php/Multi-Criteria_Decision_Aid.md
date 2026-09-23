@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Multi-Criteria_Decision_Aid
+permalink: /Multi-Criteria_Decision_Aid
 tags:
 - multi-criteria-decision-aid
 title: Multi-Criteria Decision Aid

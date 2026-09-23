@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Playground
+permalink: /Playground
 title: Playground
 ---
 Conjunctie query

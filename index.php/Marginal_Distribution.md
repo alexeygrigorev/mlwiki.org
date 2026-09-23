@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Marginal_Distribution
+permalink: /Marginal_Distribution
 tags:
 - statistics
 - probability

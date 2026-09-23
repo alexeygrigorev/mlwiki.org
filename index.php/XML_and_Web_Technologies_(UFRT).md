@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/XML_and_Web_Technologies_(UFRT)
+permalink: /XML_and_Web_Technologies_(UFRT)
 tags:
 - it4bi
 - semantic-web

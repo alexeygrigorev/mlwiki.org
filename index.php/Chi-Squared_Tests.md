@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Chi-Squared_Tests
+permalink: /Chi-Squared_Tests
 tags:
 - statistical-tests
 - statistics

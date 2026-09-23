@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Exponential_Distribution
+permalink: /Exponential_Distribution
 tags:
 - probability
 - probability-distributions

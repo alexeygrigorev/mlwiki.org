@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Introduction_to_Data_Science_(coursera)
+permalink: /Introduction_to_Data_Science_(coursera)
 tags:
 - coursera
 title: Introduction to Data Science (coursera)

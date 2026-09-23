@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Portfolio_Management
+permalink: /Portfolio_Management
 tags:
 - multi-objective-optimization
 title: Portfolio Management

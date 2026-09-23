@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Orders_of_Growth
+permalink: /Orders_of_Growth
 tags:
 - calculus
 - limits

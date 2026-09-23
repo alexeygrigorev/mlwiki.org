@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Z-tests
+permalink: /Z-tests
 tags:
 - r
 - statistical-tests

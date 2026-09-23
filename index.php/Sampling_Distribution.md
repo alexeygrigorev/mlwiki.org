@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Sampling_Distribution
+permalink: /Sampling_Distribution
 tags:
 - probability
 - statistics

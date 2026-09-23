@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Consistent_Family_of_Criteria
+permalink: /Consistent_Family_of_Criteria
 tags:
 - multi-criteria-decision-aid
 - multi-objective-optimization

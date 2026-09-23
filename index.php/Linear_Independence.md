@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Linear_Independence
+permalink: /Linear_Independence
 tags:
 - linear-algebra
 title: Linear Independence

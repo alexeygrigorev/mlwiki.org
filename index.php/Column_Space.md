@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Column_Space
+permalink: /Column_Space
 tags:
 - linear-algebra
 title: Column Space

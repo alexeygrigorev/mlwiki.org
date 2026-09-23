@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Python_for_Machine_Learning_(TUB)
+permalink: /Python_for_Machine_Learning_(TUB)
 tags:
 - it4bi
 - machine-learning

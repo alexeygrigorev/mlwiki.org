@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Independence_to_Third_Alternatives
+permalink: /Independence_to_Third_Alternatives
 tags:
 - voting-theory
 title: Independence to Third Alternatives

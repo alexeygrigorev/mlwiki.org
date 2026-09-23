@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Taylor_Series
+permalink: /Taylor_Series
 tags:
 - calculus
 - functions

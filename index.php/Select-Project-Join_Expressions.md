@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Select-Project-Join_Expressions
+permalink: /Select-Project-Join_Expressions
 tags:
 - relational-databases
 title: Select-Project-Join Expressions

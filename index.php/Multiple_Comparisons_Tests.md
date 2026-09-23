@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Multiple_Comparisons_Tests
+permalink: /Multiple_Comparisons_Tests
 tags:
 - statistical-tests
 - statistics

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Reachability_Graph
+permalink: /Reachability_Graph
 tags:
 - business-process-management
 - graphs

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Evaluation_of_Binary_Classifiers
+permalink: /Evaluation_of_Binary_Classifiers
 tags:
 - classifiers
 - machine-learning

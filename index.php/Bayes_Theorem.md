@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Bayes_Theorem
+permalink: /Bayes_Theorem
 tags:
 - probability
 title: Bayes Theorem

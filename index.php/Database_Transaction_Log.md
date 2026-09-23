@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Database_Transaction_Log
+permalink: /Database_Transaction_Log
 tags:
 - database-systems-architecture
 title: Database Transaction Log

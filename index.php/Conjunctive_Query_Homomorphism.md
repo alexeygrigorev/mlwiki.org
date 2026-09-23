@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Conjunctive_Query_Homomorphism
+permalink: /Conjunctive_Query_Homomorphism
 tags:
 - relational-databases
 title: Conjunctive Query/Homomorphism

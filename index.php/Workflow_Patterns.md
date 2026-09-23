@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Workflow_Patterns
+permalink: /Workflow_Patterns
 tags:
 - business-process-management
 title: Workflow Patterns

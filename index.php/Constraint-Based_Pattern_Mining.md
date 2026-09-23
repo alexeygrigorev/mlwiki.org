@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Constraint-Based_Pattern_Mining
+permalink: /Constraint-Based_Pattern_Mining
 tags:
 - rule-mining
 title: Constraint-Based Pattern Mining

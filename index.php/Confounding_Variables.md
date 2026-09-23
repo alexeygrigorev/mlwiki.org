@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Confounding_Variables
+permalink: /Confounding_Variables
 tags:
 - statistics
 title: Confounding Variables

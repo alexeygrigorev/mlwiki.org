@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Lexical_Semantics
+permalink: /Lexical_Semantics
 tags:
 - nlp
 title: Lexical Semantics

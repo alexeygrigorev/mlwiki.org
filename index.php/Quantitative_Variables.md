@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Quantitative_Variables
+permalink: /Quantitative_Variables
 tags:
 - statistics
 - data-analysis

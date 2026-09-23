@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Decision_Engineering_(ULB)
+permalink: /Decision_Engineering_(ULB)
 tags:
 - decision-engineering
 - it4bi

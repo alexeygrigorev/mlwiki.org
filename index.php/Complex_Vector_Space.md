@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Complex_Vector_Space
+permalink: /Complex_Vector_Space
 tags:
 - linear-algebra
 - vector-spaces

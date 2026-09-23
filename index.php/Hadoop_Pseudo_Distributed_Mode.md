@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hadoop_Pseudo_Distributed_Mode
+permalink: /Hadoop_Pseudo_Distributed_Mode
 tags:
 - hadoop
 - mapreduce

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Outliers
+permalink: /Outliers
 tags:
 - statistics
 title: Outliers

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/De_Moivre's_Formula
+permalink: /De_Moivre's_Formula
 tags:
 - calculus
 title: De Moivre's Formula

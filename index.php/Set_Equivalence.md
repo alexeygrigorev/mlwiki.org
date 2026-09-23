@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Set_Equivalence
+permalink: /Set_Equivalence
 tags:
 - algorithms
 - coursera

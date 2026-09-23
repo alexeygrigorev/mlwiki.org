@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Observational_Studies
+permalink: /Observational_Studies
 tags:
 - statistics
 title: Observational Studies

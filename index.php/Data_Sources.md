@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Sources
+permalink: /Data_Sources
 tags:
 - links
 title: Data Sources

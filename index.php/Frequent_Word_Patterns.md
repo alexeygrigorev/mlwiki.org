@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Frequent_Word_Patterns
+permalink: /Frequent_Word_Patterns
 tags:
 - cluster-analysis
 - document-clustering

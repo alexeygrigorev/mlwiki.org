@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Extensive_Form_Game
+permalink: /Extensive_Form_Game
 tags:
 - game-theory
 title: Extensive Form Game

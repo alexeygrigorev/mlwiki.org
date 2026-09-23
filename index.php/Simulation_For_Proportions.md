@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Simulation_For_Proportions
+permalink: /Simulation_For_Proportions
 tags:
 - r
 - simulations

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/YADS_Admission_Program
+permalink: /YADS_Admission_Program
 tags:
 - yandex
 - shad

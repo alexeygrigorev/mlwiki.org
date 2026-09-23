@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Valued_Preference
+permalink: /Valued_Preference
 tags:
 - multi-criteria-decision-aid
 - voting-theory

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Feature_Filtering
+permalink: /Feature_Filtering
 tags:
 - dimensionality-reduction
 - feature-filtering

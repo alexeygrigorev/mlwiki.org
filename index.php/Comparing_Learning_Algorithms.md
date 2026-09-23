@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Comparing_Learning_Algorithms
+permalink: /Comparing_Learning_Algorithms
 tags:
 - machine-learning
 - model-performance-evaluation

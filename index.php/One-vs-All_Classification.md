@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/One-vs-All_Classification
+permalink: /One-vs-All_Classification
 tags:
 - classification
 - machine-learning

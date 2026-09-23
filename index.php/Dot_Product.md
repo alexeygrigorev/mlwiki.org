@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Dot_Product
+permalink: /Dot_Product
 tags:
 - geometry
 - linear-algebra

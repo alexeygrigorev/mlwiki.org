@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Topic_Models
+permalink: /Topic_Models
 tags:
 - document-clustering
 - topic-models

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Functional_Programming
+permalink: /Functional_Programming
 tags:
 - functional-programming
 - programming

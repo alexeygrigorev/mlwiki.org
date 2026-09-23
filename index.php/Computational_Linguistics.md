@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Computational_Linguistics
+permalink: /Computational_Linguistics
 tags:
 - computational-linguistics
 - nlp

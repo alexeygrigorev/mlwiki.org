@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Chameleon_Clustering
+permalink: /Chameleon_Clustering
 tags:
 - cluster-analysis
 title: Chameleon Clustering

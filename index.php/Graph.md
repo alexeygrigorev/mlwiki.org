@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Graph
+permalink: /Graph
 title: Graph
 ---
 1. redirect [Graphs](Graphs)

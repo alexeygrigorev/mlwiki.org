@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Decision_Tree_(Data_Mining)
+permalink: /Decision_Tree_(Data_Mining)
 tags:
 - classifiers
 - machine-learning

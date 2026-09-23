@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Mediator_(Data_Integration)
+permalink: /Mediator_(Data_Integration)
 tags:
 - data-integration
 title: Mediator (Data Integration)

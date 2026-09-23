@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Functional_Programming_Principles_in_Scala_(coursera)
+permalink: /Functional_Programming_Principles_in_Scala_(coursera)
 tags:
 - coursera
 - functional-programming

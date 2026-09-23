@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Distribution_Function
+permalink: /Distribution_Function
 tags:
 - distributions
 - probability

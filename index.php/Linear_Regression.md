@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Linear_Regression
+permalink: /Linear_Regression
 tags:
 - machine-learning
 - r

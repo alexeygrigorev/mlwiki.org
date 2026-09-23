@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Query_Plan_Selection_Exercises
+permalink: /Query_Plan_Selection_Exercises
 tags:
 - database-systems-architecture
 - relational-databases

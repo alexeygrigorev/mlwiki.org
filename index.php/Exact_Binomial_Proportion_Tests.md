@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Exact_Binomial_Proportion_Tests
+permalink: /Exact_Binomial_Proportion_Tests
 tags:
 - statistical-tests
 - statistics

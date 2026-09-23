@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Query_Processing
+permalink: /Query_Processing
 tags:
 - database-systems-architecture
 - relational-databases

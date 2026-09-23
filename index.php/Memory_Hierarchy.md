@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Memory_Hierarchy
+permalink: /Memory_Hierarchy
 tags:
 - computer-architecture
 title: Memory Hierarchy

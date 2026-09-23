@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Schur_Decomposition
+permalink: /Schur_Decomposition
 tags:
 - linear-algebra
 - matrix-decomposition

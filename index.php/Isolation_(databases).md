@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Isolation_(databases)
+permalink: /Isolation_(databases)
 tags:
 - databases
 title: Isolation (databases)

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Secondary_Index
+permalink: /Secondary_Index
 tags:
 - database-indexes
 - database-systems-architecture

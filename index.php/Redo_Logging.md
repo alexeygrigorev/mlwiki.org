@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Redo_Logging
+permalink: /Redo_Logging
 tags:
 - database-systems-architecture
 title: Redo Logging

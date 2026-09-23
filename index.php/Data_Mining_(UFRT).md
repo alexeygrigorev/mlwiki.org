@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Mining_(UFRT)
+permalink: /Data_Mining_(UFRT)
 tags:
 - data-mining
 - it4bi

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Random_Variable
+permalink: /Random_Variable
 tags:
 - probability
 title: Random Variable

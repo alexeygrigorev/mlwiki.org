@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Matrix_Vector_Spaces
+permalink: /Matrix_Vector_Spaces
 tags:
 - linear-algebra
 - vector-spaces

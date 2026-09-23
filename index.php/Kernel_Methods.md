@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Kernel_Methods
+permalink: /Kernel_Methods
 tags:
 - kernels
 title: Kernel Methods

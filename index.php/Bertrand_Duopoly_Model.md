@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Bertrand_Duopoly_Model
+permalink: /Bertrand_Duopoly_Model
 tags:
 - game-theory
 title: Bertrand Duopoly Model

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Binomial_Series
+permalink: /Binomial_Series
 tags:
 - calculus
 title: Binomial Series

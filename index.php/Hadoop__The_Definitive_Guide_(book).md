@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hadoop__The_Definitive_Guide_(book)
+permalink: /Hadoop__The_Definitive_Guide_(book)
 tags:
 - books
 - distributed-systems

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Multi-Dimensional_Indexes
+permalink: /Multi-Dimensional_Indexes
 tags:
 - database-indexes
 - database-systems-architecture

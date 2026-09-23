@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Pure_Competition_Game
+permalink: /Pure_Competition_Game
 tags:
 - game-theory
 title: Pure Competition Game

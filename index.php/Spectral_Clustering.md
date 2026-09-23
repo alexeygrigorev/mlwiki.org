@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Spectral_Clustering
+permalink: /Spectral_Clustering
 tags:
 - cluster-analysis
 - machine-learning

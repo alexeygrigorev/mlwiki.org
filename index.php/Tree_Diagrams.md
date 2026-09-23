@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Tree_Diagrams
+permalink: /Tree_Diagrams
 tags:
 - probability
 - statistics

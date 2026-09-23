@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Automata
+permalink: /Automata
 tags:
 - algorithms
 - coursera

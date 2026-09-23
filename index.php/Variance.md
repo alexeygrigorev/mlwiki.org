@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Variance
+permalink: /Variance
 tags:
 - probability
 title: Variance

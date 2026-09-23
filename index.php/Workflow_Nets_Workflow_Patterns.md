@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Workflow_Nets_Workflow_Patterns
+permalink: /Workflow_Nets_Workflow_Patterns
 tags:
 - business-process-management
 - petri-nets

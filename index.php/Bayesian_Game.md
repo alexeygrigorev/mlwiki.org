@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Bayesian_Game
+permalink: /Bayesian_Game
 tags:
 - game-theory
 title: Bayesian Game

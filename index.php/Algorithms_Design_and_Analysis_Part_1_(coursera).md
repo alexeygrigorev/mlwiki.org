@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Algorithms_Design_and_Analysis_Part_1_(coursera)
+permalink: /Algorithms_Design_and_Analysis_Part_1_(coursera)
 tags:
 - algorithms
 - coursera

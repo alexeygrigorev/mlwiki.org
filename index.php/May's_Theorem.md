@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/May's_Theorem
+permalink: /May's_Theorem
 tags:
 - voting-theory
 title: May's Theorem

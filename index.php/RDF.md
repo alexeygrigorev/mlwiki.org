@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/RDF
+permalink: /RDF
 tags:
 - data-models
 - semantic-web

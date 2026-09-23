@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Latent_Semantic_Kernels
+permalink: /Latent_Semantic_Kernels
 tags:
 - kernels
 title: Latent Semantic Kernels

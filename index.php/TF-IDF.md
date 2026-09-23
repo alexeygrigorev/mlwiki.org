@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/TF-IDF
+permalink: /TF-IDF
 tags:
 - information-retrieval
 - nlp

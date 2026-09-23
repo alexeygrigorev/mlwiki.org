@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Model_Selection
+permalink: /Model_Selection
 tags:
 - machine-learning
 title: Model Selection

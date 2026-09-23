@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Bivariate_Analysis
+permalink: /Bivariate_Analysis
 tags:
 - data-analysis
 title: Bivariate Analysis

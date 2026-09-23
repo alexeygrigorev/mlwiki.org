@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Bernoulli_Distribution
+permalink: /Bernoulli_Distribution
 tags:
 - statistics
 - probability

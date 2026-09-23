@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Conditional_Distribution
+permalink: /Conditional_Distribution
 tags:
 - statistics
 - probability

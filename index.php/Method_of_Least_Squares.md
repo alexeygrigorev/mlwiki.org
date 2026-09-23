@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Method_of_Least_Squares
+permalink: /Method_of_Least_Squares
 tags:
 - regression
 - statistics

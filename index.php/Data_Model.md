@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Model
+permalink: /Data_Model
 tags:
 - data-models
 - databases

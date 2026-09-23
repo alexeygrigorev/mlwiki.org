@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Game_Theory_(coursera)
+permalink: /Game_Theory_(coursera)
 tags:
 - coursera
 - game-theory

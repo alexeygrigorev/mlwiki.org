@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Nullspace
+permalink: /Nullspace
 tags:
 - linear-algebra
 title: Nullspace

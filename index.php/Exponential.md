@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Exponential
+permalink: /Exponential
 tags:
 - calculus
 title: Exponential

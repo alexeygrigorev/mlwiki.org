@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/L'Hopital's_Rule
+permalink: /L'Hopital's_Rule
 tags:
 - calculus
 - limits

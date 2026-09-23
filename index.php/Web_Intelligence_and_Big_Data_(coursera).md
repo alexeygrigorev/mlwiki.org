@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Web_Intelligence_and_Big_Data_(coursera)
+permalink: /Web_Intelligence_and_Big_Data_(coursera)
 tags:
 - coursera
 title: Web Intelligence and Big Data (coursera)

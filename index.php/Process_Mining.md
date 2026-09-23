@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Process_Mining
+permalink: /Process_Mining
 tags:
 - business-process-management
 - process-mining

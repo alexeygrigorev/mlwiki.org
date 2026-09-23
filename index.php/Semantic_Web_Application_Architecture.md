@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Semantic_Web_Application_Architecture
+permalink: /Semantic_Web_Application_Architecture
 tags:
 - semantic-web
 title: Semantic Web Application Architecture

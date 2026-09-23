@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Interview_questions
+permalink: /Interview_questions
 tags:
 - interview-questions
 - interviews

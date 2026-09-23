@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Poisson_Process
+permalink: /Poisson_Process
 tags:
 - probability
 title: Poisson Process

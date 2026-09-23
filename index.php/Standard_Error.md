@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Standard_Error
+permalink: /Standard_Error
 tags:
 - statistics
 title: Standard Error

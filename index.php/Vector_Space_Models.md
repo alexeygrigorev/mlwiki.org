@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Vector_Space_Models
+permalink: /Vector_Space_Models
 tags:
 - information-retrieval
 - nlp

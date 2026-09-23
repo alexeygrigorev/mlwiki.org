@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Plurality_Voting
+permalink: /Plurality_Voting
 tags:
 - voting-theory
 title: Plurality Voting

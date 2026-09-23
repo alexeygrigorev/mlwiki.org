@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Gram_Matrices
+permalink: /Gram_Matrices
 tags:
 - linear-algebra
 title: Gram Matrices

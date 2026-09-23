@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Principal_Component_Analysis
+permalink: /Principal_Component_Analysis
 tags:
 - algebra
 - machine-learning

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/NDCG
+permalink: /NDCG
 tags:
 - information-retrieval
 - model-performance-evaluation

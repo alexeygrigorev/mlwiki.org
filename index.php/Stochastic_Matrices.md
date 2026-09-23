@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Stochastic_Matrices
+permalink: /Stochastic_Matrices
 tags:
 - linear-algebra
 - probability

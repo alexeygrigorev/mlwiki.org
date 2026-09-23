@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Scatter_Plot
+permalink: /Scatter_Plot
 tags:
 - plots
 - r

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Linear_Hashing
+permalink: /Linear_Hashing
 tags:
 - database-indexes
 - database-systems-architecture

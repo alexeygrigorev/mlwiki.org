@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/BASE
+permalink: /BASE
 tags:
 - databases
 - distributed-systems

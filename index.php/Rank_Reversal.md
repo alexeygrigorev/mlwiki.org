@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Rank_Reversal
+permalink: /Rank_Reversal
 tags:
 - multi-criteria-decision-aid
 title: Rank Reversal

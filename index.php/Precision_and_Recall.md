@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Precision_and_Recall
+permalink: /Precision_and_Recall
 tags:
 - classifiers
 - information-retrieval

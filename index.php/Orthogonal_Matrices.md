@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Orthogonal_Matrices
+permalink: /Orthogonal_Matrices
 tags:
 - linear-algebra
 title: Orthogonal Matrices

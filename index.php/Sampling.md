@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Sampling
+permalink: /Sampling
 tags:
 - statistics
 title: Sampling

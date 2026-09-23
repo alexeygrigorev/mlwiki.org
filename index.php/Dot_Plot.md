@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Dot_Plot
+permalink: /Dot_Plot
 tags:
 - plots
 - r

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Genetic_Process_Miner
+permalink: /Genetic_Process_Miner
 tags:
 - business-process-management
 - process-mining

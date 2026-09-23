@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Condorcet's_Rule
+permalink: /Condorcet's_Rule
 tags:
 - voting-theory
 title: Condorcet's Rule

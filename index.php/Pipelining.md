@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Pipelining
+permalink: /Pipelining
 tags:
 - database-systems-architecture
 title: Pipelining

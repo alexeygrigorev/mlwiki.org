@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Expected_Value
+permalink: /Expected_Value
 tags:
 - probability
 title: Expected Value

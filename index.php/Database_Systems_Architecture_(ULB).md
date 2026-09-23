@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Database_Systems_Architecture_(ULB)
+permalink: /Database_Systems_Architecture_(ULB)
 tags:
 - database-systems-architecture
 - databases

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Decision_Under_Risk
+permalink: /Decision_Under_Risk
 tags:
 - decision-under-risk
 title: Decision Under Risk

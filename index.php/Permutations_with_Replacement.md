@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Permutations_with_Replacement
+permalink: /Permutations_with_Replacement
 tags:
 - probability
 - combinatorics

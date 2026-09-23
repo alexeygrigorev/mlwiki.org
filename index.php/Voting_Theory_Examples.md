@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Voting_Theory_Examples
+permalink: /Voting_Theory_Examples
 tags:
 - voting-theory
 title: Voting Theory Examples

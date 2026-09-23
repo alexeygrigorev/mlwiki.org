@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Probability
+permalink: /Probability
 tags:
 - probability
 title: Probability

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/The_Four_Fundamental_Subspaces
+permalink: /The_Four_Fundamental_Subspaces
 tags:
 - linear-algebra
 title: The Four Fundamental Subspaces

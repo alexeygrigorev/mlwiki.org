@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Deterministic_Finite_Automata
+permalink: /Deterministic_Finite_Automata
 tags:
 - automata
 title: Deterministic Finite Automata

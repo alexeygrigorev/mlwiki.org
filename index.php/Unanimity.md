@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Unanimity
+permalink: /Unanimity
 tags:
 - voting-theory
 title: Unanimity

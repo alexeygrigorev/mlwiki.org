@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Kernel_Linear_Regression
+permalink: /Kernel_Linear_Regression
 tags:
 - machine-learning
 - statistics

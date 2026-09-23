@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Divide_and_Conquer
+permalink: /Divide_and_Conquer
 tags:
 - algorithms
 title: Divide and Conquer

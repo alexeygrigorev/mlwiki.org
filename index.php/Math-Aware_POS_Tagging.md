@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Math-Aware_POS_Tagging
+permalink: /Math-Aware_POS_Tagging
 tags:
 - nlp
 - thesis

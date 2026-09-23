@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/XML_Schema
+permalink: /XML_Schema
 tags:
 - xml
 title: XML Schema

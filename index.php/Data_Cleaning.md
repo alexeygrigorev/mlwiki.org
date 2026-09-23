@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Cleaning
+permalink: /Data_Cleaning
 tags:
 - data-cleaning
 title: Data Cleaning

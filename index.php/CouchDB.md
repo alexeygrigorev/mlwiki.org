@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/CouchDB
+permalink: /CouchDB
 tags:
 - databases
 - distributed-systems

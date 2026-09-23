@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Sequenced_Queries
+permalink: /Sequenced_Queries
 tags:
 - databases
 - relational-databases

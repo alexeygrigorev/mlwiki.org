@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Noise_Handling_(Data_Mining)
+permalink: /Noise_Handling_(Data_Mining)
 tags:
 - data-analysis
 - data-mining

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Decision_Tree
+permalink: /Decision_Tree
 title: Decision Tree
 ---
 There are two types of Decision Trees:

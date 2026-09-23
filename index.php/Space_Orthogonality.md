@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Space_Orthogonality
+permalink: /Space_Orthogonality
 tags:
 - linear-algebra
 title: Space Orthogonality

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/NoSQL
+permalink: /NoSQL
 tags:
 - databases
 - nosql

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Analysis
+permalink: /Data_Analysis
 tags:
 - data-analysis
 title: Data Analysis

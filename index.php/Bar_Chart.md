@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Bar_Chart
+permalink: /Bar_Chart
 tags:
 - plots
 - r

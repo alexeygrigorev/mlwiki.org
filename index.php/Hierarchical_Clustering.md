@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hierarchical_Clustering
+permalink: /Hierarchical_Clustering
 tags:
 - cluster-analysis
 title: Hierarchical Clustering

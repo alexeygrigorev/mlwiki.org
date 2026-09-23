@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Binomial_Theorem
+permalink: /Binomial_Theorem
 tags:
 - combinatorics
 - shad

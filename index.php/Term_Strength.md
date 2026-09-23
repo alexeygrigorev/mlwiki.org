@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Term_Strength
+permalink: /Term_Strength
 tags:
 - feature-selection
 - information-retrieval

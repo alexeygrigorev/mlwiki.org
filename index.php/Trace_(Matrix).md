@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Trace_(Matrix)
+permalink: /Trace_(Matrix)
 tags:
 - linear-algebra
 title: Trace (Matrix)

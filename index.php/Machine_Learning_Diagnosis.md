@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Machine_Learning_Diagnosis
+permalink: /Machine_Learning_Diagnosis
 tags:
 - machine-learning
 title: Machine Learning Diagnosis

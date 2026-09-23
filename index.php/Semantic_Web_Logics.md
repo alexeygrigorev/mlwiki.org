@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Semantic_Web_Logics
+permalink: /Semantic_Web_Logics
 tags:
 - logic
 - semantic-web

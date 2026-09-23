@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/JMS_interview_questions
+permalink: /JMS_interview_questions
 tags:
 - interviews
 - java

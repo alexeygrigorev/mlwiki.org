@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Householder_Transformation
+permalink: /Householder_Transformation
 tags:
 - linear-algebra
 - matrix-decomposition

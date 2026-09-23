@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Multinomial_Distribution
+permalink: /Multinomial_Distribution
 tags:
 - distributions
 title: Multinomial Distribution

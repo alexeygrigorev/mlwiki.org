@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Graphs
+permalink: /Graphs
 tags:
 - algorithms
 - graphs

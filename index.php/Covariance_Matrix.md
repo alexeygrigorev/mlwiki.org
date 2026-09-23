@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Covariance_Matrix
+permalink: /Covariance_Matrix
 tags:
 - statistics
 - linear-algebra

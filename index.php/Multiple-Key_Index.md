@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Multiple-Key_Index
+permalink: /Multiple-Key_Index
 tags:
 - database-indexes
 - database-systems-architecture

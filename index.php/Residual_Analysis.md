@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Residual_Analysis
+permalink: /Residual_Analysis
 tags:
 - statistics
 title: Residual Analysis

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Translating_SQL_to_Relational_Algebra
+permalink: /Translating_SQL_to_Relational_Algebra
 tags:
 - relational-databases
 title: Translating SQL to Relational Algebra

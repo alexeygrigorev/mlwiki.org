@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Entity-Relationship_Model
+permalink: /Entity-Relationship_Model
 tags:
 - databases
 - relational-databases

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/NLP_Pipeline
+permalink: /NLP_Pipeline
 tags:
 - information-retrieval
 - nlp

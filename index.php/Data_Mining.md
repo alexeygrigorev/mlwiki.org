@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Mining
+permalink: /Data_Mining
 tags:
 - data-mining
 - machine-learning

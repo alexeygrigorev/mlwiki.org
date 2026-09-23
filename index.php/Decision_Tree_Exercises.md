@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Decision_Tree_Exercises
+permalink: /Decision_Tree_Exercises
 tags:
 - decision-under-risk
 - decision-under-uncertainty

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/T_Distribution
+permalink: /T_Distribution
 tags:
 - distributions
 - probability

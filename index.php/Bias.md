@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Bias
+permalink: /Bias
 tags:
 - statistics
 title: Bias

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Neural_Networks
+permalink: /Neural_Networks
 tags:
 - machine-learning
 title: Neural Networks

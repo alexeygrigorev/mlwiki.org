@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/MapReduce_Secondary_Sort
+permalink: /MapReduce_Secondary_Sort
 tags:
 - hadoop
 title: MapReduce Secondary Sort

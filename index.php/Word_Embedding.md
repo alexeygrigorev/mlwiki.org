@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Word_Embedding
+permalink: /Word_Embedding
 tags:
 - nlp
 - machine-learning

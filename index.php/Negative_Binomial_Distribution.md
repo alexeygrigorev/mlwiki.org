@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Negative_Binomial_Distribution
+permalink: /Negative_Binomial_Distribution
 tags:
 - distributions
 - probability

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Expected_Values_for_Lotteries
+permalink: /Expected_Values_for_Lotteries
 tags:
 - decision-under-risk
 title: Expected Values for Lotteries

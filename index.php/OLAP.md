@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/OLAP
+permalink: /OLAP
 tags:
 - data-warehousing
 - databases

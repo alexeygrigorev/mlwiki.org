@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Types_of_Variables
+permalink: /Types_of_Variables
 tags:
 - data-analysis
 - statistics

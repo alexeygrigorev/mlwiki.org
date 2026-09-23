@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Information_Retrieval_Models
+permalink: /Information_Retrieval_Models
 tags:
 - information-retrieval
 - nlp

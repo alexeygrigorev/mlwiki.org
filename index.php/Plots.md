@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Plots
+permalink: /Plots
 tags:
 - data-analysis
 - plots

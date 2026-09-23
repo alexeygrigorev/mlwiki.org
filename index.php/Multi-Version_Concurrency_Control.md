@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Multi-Version_Concurrency_Control
+permalink: /Multi-Version_Concurrency_Control
 tags:
 - concurrency
 - database-systems-architecture

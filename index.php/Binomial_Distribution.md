@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Binomial_Distribution
+permalink: /Binomial_Distribution
 tags:
 - distributions
 - probability

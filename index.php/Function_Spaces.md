@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Function_Spaces
+permalink: /Function_Spaces
 tags:
 - calculus
 - linear-algebra

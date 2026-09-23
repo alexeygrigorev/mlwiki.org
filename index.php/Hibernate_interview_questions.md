@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hibernate_interview_questions
+permalink: /Hibernate_interview_questions
 tags:
 - interviews
 - java

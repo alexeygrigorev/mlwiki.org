@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Relational_Algebra
+permalink: /Relational_Algebra
 tags:
 - relational-databases
 title: Relational Algebra

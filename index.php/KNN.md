@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/KNN
+permalink: /KNN
 title: KNN
 ---
 

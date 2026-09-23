@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Information_Retrieval_(UFRT)
+permalink: /Information_Retrieval_(UFRT)
 tags:
 - information-retrieval
 - it4bi

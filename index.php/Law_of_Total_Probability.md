@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Law_of_Total_Probability
+permalink: /Law_of_Total_Probability
 tags:
 - probability
 title: Law of Total Probability

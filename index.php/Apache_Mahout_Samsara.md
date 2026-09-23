@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Apache_Mahout_Samsara
+permalink: /Apache_Mahout_Samsara
 tags:
 - machine-learning
 - hadoop

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Modeling_Preferences
+permalink: /Modeling_Preferences
 tags:
 - multi-criteria-decision-aid
 title: Modeling Preferences

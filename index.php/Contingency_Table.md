@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Contingency_Table
+permalink: /Contingency_Table
 tags:
 - statistics
 title: Contingency Table

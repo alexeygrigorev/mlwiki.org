@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Physical_Data_Organization_(databases)
+permalink: /Physical_Data_Organization_(databases)
 tags:
 - database-systems-architecture
 title: Physical Data Organization (databases)

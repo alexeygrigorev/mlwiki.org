@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Types_of_Data
+permalink: /Types_of_Data
 tags:
 - data-models
 title: Types of Data

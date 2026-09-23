@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Downloading_coursera_previews
+permalink: /Downloading_coursera_previews
 tags:
 - coursera
 - python

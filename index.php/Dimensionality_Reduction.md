@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Dimensionality_Reduction
+permalink: /Dimensionality_Reduction
 tags:
 - dimensionality-reduction
 - feature-selection

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Determinants
+permalink: /Determinants
 tags:
 - linear-algebra
 title: Determinants

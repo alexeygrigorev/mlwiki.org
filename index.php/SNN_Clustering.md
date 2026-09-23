@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/SNN_Clustering
+permalink: /SNN_Clustering
 tags:
 - cluster-analysis
 - distances

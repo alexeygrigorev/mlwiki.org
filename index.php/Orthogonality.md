@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Orthogonality
+permalink: /Orthogonality
 tags:
 - mathematics
 title: Orthogonality

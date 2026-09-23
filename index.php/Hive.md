@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hive
+permalink: /Hive
 tags:
 - hadoop
 title: Hive

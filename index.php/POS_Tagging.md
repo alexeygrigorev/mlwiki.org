@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/POS_Tagging
+permalink: /POS_Tagging
 tags:
 - nlp
 title: POS Tagging

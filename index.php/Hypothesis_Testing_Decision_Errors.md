@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hypothesis_Testing_Decision_Errors
+permalink: /Hypothesis_Testing_Decision_Errors
 tags:
 - statistical-tests
 - statistics

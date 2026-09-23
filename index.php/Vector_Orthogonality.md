@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Vector_Orthogonality
+permalink: /Vector_Orthogonality
 tags:
 - linear-algebra
 title: Vector Orthogonality

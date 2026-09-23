@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Extensible_Hashing
+permalink: /Extensible_Hashing
 tags:
 - database-indexes
 - database-systems-architecture

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Similarity_Functions
+permalink: /Similarity_Functions
 tags:
 - distances
 - nlp

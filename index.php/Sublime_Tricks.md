@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Sublime_Tricks
+permalink: /Sublime_Tricks
 title: Sublime Tricks
 ---
 ## New keyboard shortcuts

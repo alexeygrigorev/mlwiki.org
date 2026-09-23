@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Conditional_Probability
+permalink: /Conditional_Probability
 tags:
 - probability
 title: Conditional Probability

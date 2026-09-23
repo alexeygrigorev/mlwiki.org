@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Matrix_Computations_(book)
+permalink: /Matrix_Computations_(book)
 title: Matrix Computations (book)
 ---
 ## Matrix Computations

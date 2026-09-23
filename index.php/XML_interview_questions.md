@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/XML_interview_questions
+permalink: /XML_interview_questions
 tags:
 - interviews
 - xml

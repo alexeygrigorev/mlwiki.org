@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Conjunctive_Query_Translation
+permalink: /Conjunctive_Query_Translation
 tags:
 - relational-databases
 title: Conjunctive Query/Translation

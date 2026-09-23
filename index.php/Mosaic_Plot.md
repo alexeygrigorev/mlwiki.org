@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Mosaic_Plot
+permalink: /Mosaic_Plot
 tags:
 - plots
 - r

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Positive-Definite_Matrices
+permalink: /Positive-Definite_Matrices
 tags:
 - linear-algebra
 title: Positive-Definite Matrices

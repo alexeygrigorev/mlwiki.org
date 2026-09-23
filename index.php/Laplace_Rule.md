@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Laplace_Rule
+permalink: /Laplace_Rule
 tags:
 - decision-under-uncertainty
 title: Laplace Rule

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Error_Analysis
+permalink: /Error_Analysis
 tags:
 - machine-learning
 title: Error Analysis

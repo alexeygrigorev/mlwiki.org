@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Reduction
+permalink: /Data_Reduction
 tags:
 - data-mining
 title: Data Reduction

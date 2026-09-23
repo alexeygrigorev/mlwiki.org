@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Chebyshev's_Inequality
+permalink: /Chebyshev's_Inequality
 tags:
 - probability
 title: Chebyshev's Inequality

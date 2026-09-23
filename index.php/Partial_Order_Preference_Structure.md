@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Partial_Order_Preference_Structure
+permalink: /Partial_Order_Preference_Structure
 tags:
 - multi-criteria-decision-aid
 title: Partial Order Preference Structure

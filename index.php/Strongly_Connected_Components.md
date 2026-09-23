@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Strongly_Connected_Components
+permalink: /Strongly_Connected_Components
 tags:
 - algorithms
 - graphs

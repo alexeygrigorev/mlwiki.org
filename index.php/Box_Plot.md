@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Box_Plot
+permalink: /Box_Plot
 tags:
 - plots
 - r

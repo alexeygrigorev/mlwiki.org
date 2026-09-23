@@ -1,6 +1,6 @@
 ---
 layout: redirect
-permalink: /index.php/Data_Warehousing
-redirect_to: /index.php/Data_Warehouse
+permalink: /Data_Warehousing
+redirect_to: /Data_Warehouse
 title: Data Warehouse
 ---

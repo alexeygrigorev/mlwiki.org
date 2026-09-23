@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Consistent_Hashing
+permalink: /Consistent_Hashing
 tags:
 - algorithms
 - database-systems-architecture

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Point-wise_Mutual_Information
+permalink: /Point-wise_Mutual_Information
 tags:
 - nlp
 - statistics

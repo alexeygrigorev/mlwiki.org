@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Alpha_Algorithm
+permalink: /Alpha_Algorithm
 tags:
 - business-process-management
 - process-mining

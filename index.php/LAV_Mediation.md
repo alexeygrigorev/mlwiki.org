@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/LAV_Mediation
+permalink: /LAV_Mediation
 tags:
 - data-integration
 title: LAV Mediation

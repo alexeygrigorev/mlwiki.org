@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Integration
+permalink: /Data_Integration
 tags:
 - data-integration
 title: Data Integration

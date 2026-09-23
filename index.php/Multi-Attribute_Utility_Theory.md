@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Multi-Attribute_Utility_Theory
+permalink: /Multi-Attribute_Utility_Theory
 tags:
 - multi-criteria-decision-aid
 title: Multi-Attribute Utility Theory

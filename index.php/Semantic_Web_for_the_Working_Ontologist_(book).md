@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Semantic_Web_for_the_Working_Ontologist_(book)
+permalink: /Semantic_Web_for_the_Working_Ontologist_(book)
 tags:
 - books
 - notes

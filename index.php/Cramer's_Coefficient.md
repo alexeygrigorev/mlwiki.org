@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Cramer's_Coefficient
+permalink: /Cramer's_Coefficient
 tags:
 - correlation
 - data-analysis

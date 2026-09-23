@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Courses
+permalink: /Courses
 tags:
 - coursera
 - it4bi

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/MapReduce_MRUnit
+permalink: /MapReduce_MRUnit
 tags:
 - hadoop
 - java

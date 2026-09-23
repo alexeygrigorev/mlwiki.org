@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Symmetric_Matrices
+permalink: /Symmetric_Matrices
 tags:
 - linear-algebra
 title: Symmetric Matrices

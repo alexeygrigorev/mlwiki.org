@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/DBSCAN
+permalink: /DBSCAN
 tags:
 - cluster-analysis
 title: DBSCAN

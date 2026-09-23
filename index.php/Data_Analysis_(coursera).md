@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Analysis_(coursera)
+permalink: /Data_Analysis_(coursera)
 tags:
 - coursera
 - data-analysis

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/CURE_Clustering
+permalink: /CURE_Clustering
 tags:
 - cluster-analysis
 title: CURE Clustering

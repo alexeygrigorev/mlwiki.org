@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hypothesis_Testing
+permalink: /Hypothesis_Testing
 tags:
 - statistical-tests
 - statistics

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Document-Oriented_Databases
+permalink: /Document-Oriented_Databases
 tags:
 - databases
 - distributed-systems

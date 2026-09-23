@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Rule_Mining
+permalink: /Rule_Mining
 tags:
 - rule-mining
 title: Rule Mining

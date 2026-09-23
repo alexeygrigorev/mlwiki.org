@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Permutations
+permalink: /Permutations
 tags:
 - combinatorics
 title: Permutations

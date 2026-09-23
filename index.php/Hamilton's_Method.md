@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hamilton's_Method
+permalink: /Hamilton's_Method
 tags:
 - voting-theory
 title: Hamilton's Method

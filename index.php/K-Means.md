@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/K-Means
+permalink: /K-Means
 tags:
 - cluster-analysis
 - machine-learning

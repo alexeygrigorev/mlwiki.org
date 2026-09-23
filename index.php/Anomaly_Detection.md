@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Anomaly_Detection
+permalink: /Anomaly_Detection
 tags:
 - machine-learning
 - statistics

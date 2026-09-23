@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Quick_Sort
+permalink: /Quick_Sort
 tags:
 - algorithms
 - sorting

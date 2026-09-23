@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Binary_Search_Trees
+permalink: /Binary_Search_Trees
 tags:
 - algorithms
 - data-structures

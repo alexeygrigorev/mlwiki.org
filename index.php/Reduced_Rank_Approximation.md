@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Reduced_Rank_Approximation
+permalink: /Reduced_Rank_Approximation
 tags:
 - linear-algebra
 title: Reduced Rank Approximation

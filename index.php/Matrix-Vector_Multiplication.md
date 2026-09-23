@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Matrix-Vector_Multiplication
+permalink: /Matrix-Vector_Multiplication
 tags:
 - linear-algebra
 title: Matrix-Vector Multiplication

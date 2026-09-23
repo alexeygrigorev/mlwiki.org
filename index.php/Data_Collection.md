@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Data_Collection
+permalink: /Data_Collection
 tags:
 - statistics
 title: Data Collection

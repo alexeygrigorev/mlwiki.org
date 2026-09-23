@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Stemming
+permalink: /Stemming
 tags:
 - information-retrieval
 - nlp

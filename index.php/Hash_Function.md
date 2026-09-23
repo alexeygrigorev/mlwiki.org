@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hash_Function
+permalink: /Hash_Function
 tags:
 - algorithms
 title: Hash Function

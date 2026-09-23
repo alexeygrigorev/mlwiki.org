@@ -1,6 +1,6 @@
 ---
 layout: redirect
-permalink: /index.php/t-tests
-redirect_to: /index.php/T-tests
+permalink: /t-tests
+redirect_to: /T-tests
 title: t-tests
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Partitioned_Hash_Function_Index
+permalink: /Partitioned_Hash_Function_Index
 tags:
 - database-indexes
 - database-systems-architecture

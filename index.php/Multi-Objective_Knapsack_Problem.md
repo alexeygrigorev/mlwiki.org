@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Multi-Objective_Knapsack_Problem
+permalink: /Multi-Objective_Knapsack_Problem
 tags:
 - multi-objective-optimization
 title: Multi-Objective Knapsack Problem

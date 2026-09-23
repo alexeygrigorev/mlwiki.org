@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Voting_Theory
+permalink: /Voting_Theory
 tags:
 - voting-theory
 title: Voting Theory

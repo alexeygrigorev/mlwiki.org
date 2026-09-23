@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/R
+permalink: /R
 tags:
 - r
 - statistics

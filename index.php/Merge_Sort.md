@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Merge_Sort
+permalink: /Merge_Sort
 tags:
 - algorithms
 - sorting

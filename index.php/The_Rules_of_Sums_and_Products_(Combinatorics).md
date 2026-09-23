@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/The_Rules_of_Sums_and_Products_(Combinatorics)
+permalink: /The_Rules_of_Sums_and_Products_(Combinatorics)
 tags:
 - combinatorics
 title: The Rules of Sums and Products (Combinatorics)

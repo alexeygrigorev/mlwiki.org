@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Java_interview_questions
+permalink: /Java_interview_questions
 tags:
 - interviews
 - java

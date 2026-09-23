@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Non-Discriminating_Criteria
+permalink: /Non-Discriminating_Criteria
 tags:
 - multi-criteria-decision-aid
 title: Non-Discriminating Criteria

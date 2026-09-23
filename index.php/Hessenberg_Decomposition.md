@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hessenberg_Decomposition
+permalink: /Hessenberg_Decomposition
 tags:
 - linear-algebra
 - matrix-decomposition

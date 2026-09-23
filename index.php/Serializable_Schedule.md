@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Serializable_Schedule
+permalink: /Serializable_Schedule
 tags:
 - concurrency
 - database-systems-architecture

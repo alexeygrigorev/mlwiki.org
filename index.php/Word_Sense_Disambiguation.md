@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Word_Sense_Disambiguation
+permalink: /Word_Sense_Disambiguation
 tags:
 - nlp
 title: Word Sense Disambiguation

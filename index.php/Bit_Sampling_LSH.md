@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Bit_Sampling_LSH
+permalink: /Bit_Sampling_LSH
 tags:
 - database-indexes
 - hashing

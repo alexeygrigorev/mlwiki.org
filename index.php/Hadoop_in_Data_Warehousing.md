@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hadoop_in_Data_Warehousing
+permalink: /Hadoop_in_Data_Warehousing
 tags:
 - data-warehousing
 - hadoop

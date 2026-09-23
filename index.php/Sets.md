@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Sets
+permalink: /Sets
 tags:
 - combinatorics
 title: Sets

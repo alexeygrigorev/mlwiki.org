@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Sources_Index
+permalink: /Sources_Index
 tags:
 - notes
 - papers

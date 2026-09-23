@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Eigendecomposition
+permalink: /Eigendecomposition
 tags:
 - linear-algebra
 - matrix-decomposition

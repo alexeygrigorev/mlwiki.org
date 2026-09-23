@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Validation-Based_Scheduler
+permalink: /Validation-Based_Scheduler
 tags:
 - concurrency
 - database-systems-architecture

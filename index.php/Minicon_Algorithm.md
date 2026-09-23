@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Minicon_Algorithm
+permalink: /Minicon_Algorithm
 tags:
 - data-integration
 title: Minicon Algorithm

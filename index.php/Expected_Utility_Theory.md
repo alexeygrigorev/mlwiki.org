@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Expected_Utility_Theory
+permalink: /Expected_Utility_Theory
 tags:
 - decision-under-risk
 title: Expected Utility Theory

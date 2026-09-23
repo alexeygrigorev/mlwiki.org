@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Probabilistic_LSA
+permalink: /Probabilistic_LSA
 tags:
 - topic-models
 title: Probabilistic LSA

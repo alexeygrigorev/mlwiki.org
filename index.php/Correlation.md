@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Correlation
+permalink: /Correlation
 tags:
 - probability
 title: Correlation

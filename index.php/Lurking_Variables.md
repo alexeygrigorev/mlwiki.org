@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Lurking_Variables
+permalink: /Lurking_Variables
 tags:
 - statistics
 title: Lurking Variables

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Cooperation_Game
+permalink: /Cooperation_Game
 tags:
 - game-theory
 title: Cooperation Game

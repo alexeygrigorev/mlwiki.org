@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Chi-Squared_Test_of_Independence
+permalink: /Chi-Squared_Test_of_Independence
 tags:
 - r
 - statistical-tests

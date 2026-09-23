@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/My_bat_file
+permalink: /My_bat_file
 tags:
 - scripts
 - snippets

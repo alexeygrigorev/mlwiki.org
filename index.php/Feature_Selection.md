@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Feature_Selection
+permalink: /Feature_Selection
 tags:
 - feature-selection
 - machine-learning

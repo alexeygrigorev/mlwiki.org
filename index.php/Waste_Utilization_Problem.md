@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Waste_Utilization_Problem
+permalink: /Waste_Utilization_Problem
 tags:
 - multi-objective-optimization
 title: Waste Utilization Problem

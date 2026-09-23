@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Subspace_Clustering
+permalink: /Subspace_Clustering
 tags:
 - cluster-analysis
 title: Subspace Clustering

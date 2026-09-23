@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Column-Oriented_Databases
+permalink: /Column-Oriented_Databases
 tags:
 - databases
 - nosql

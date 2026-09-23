@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Open_Hashing_Index
+permalink: /Open_Hashing_Index
 tags:
 - data-structures
 - database-indexes

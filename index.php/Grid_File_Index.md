@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Grid_File_Index
+permalink: /Grid_File_Index
 tags:
 - database-indexes
 - database-systems-architecture

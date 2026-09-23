@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Mini-Batch_K-Means
+permalink: /Mini-Batch_K-Means
 tags:
 - cluster-analysis
 - machine-learning

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Curse_of_Dimensionality
+permalink: /Curse_of_Dimensionality
 tags:
 - distances
 title: Curse of Dimensionality

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Laws_of_Large_Numbers
+permalink: /Laws_of_Large_Numbers
 tags:
 - probability
 title: Laws of Large Numbers

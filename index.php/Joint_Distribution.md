@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Joint_Distribution
+permalink: /Joint_Distribution
 tags:
 - statistics
 - probability

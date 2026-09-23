@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Inventory_Management
+permalink: /Inventory_Management
 tags:
 - decision-engineering
 title: Inventory Management

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Categorical_Variables
+permalink: /Categorical_Variables
 tags:
 - statistics
 - data-analysis

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Non-Negative_Matrix_Factorization
+permalink: /Non-Negative_Matrix_Factorization
 tags:
 - linear-algebra
 - matrix-decomposition

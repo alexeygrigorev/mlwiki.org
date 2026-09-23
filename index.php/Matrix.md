@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Matrix
+permalink: /Matrix
 tags:
 - linear-algebra
 title: Matrix

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Learning_Curves
+permalink: /Learning_Curves
 tags:
 - machine-learning
 title: Learning Curves

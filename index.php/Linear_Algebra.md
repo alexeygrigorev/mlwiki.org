@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Linear_Algebra
+permalink: /Linear_Algebra
 tags:
 - linear-algebra
 title: Linear Algebra

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Heap
+permalink: /Heap
 tags:
 - algorithms
 - data-structures

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Hash_Tables
+permalink: /Hash_Tables
 tags:
 - algorithms
 - data-structures

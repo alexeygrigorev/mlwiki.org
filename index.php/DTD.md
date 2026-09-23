@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/DTD
+permalink: /DTD
 tags:
 - xml
 title: DTD

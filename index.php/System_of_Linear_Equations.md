@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/System_of_Linear_Equations
+permalink: /System_of_Linear_Equations
 tags:
 - linear-algebra
 title: System of Linear Equations

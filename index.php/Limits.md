@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Limits
+permalink: /Limits
 tags:
 - calculus
 - functions

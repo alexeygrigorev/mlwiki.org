@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Central_Limit_Theorem
+permalink: /Central_Limit_Theorem
 tags:
 - probability
 - r

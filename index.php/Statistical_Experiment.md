@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Statistical_Experiment
+permalink: /Statistical_Experiment
 tags:
 - statistics
 title: Statistical Experiment

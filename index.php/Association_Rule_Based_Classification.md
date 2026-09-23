@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Association_Rule_Based_Classification
+permalink: /Association_Rule_Based_Classification
 tags:
 - data-mining
 - machine-learning

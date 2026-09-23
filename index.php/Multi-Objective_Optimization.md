@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Multi-Objective_Optimization
+permalink: /Multi-Objective_Optimization
 tags:
 - multi-objective-optimization
 - optimization

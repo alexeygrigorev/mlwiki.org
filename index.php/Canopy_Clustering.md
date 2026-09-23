@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Canopy_Clustering
+permalink: /Canopy_Clustering
 tags:
 - cluster-analysis
 title: Canopy Clustering

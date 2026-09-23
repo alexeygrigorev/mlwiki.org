@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Weak_Law_of_Large_Numbers
+permalink: /Weak_Law_of_Large_Numbers
 tags:
 - probability
 title: Weak Law of Large Numbers

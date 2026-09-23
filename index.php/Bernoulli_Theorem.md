@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Bernoulli_Theorem
+permalink: /Bernoulli_Theorem
 tags:
 - probability
 title: Bernoulli Theorem

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/R-Tree
+permalink: /R-Tree
 tags:
 - data-structures
 - database-indexes

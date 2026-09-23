@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Dominance
+permalink: /Dominance
 tags:
 - decision-under-uncertainty
 - game-theory

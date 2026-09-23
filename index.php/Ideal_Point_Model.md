@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Ideal_Point_Model
+permalink: /Ideal_Point_Model
 tags:
 - multi-objective-optimization
 title: Ideal Point Model

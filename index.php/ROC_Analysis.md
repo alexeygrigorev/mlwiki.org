@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/ROC_Analysis
+permalink: /ROC_Analysis
 tags:
 - classifiers
 - machine-learning

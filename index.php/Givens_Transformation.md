@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Givens_Transformation
+permalink: /Givens_Transformation
 tags:
 - linear-algebra
 - matrix-decomposition

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Java_Fork_Join
+permalink: /Java_Fork_Join
 tags:
 - concurrency
 - java

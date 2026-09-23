@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Function
+permalink: /Function
 tags:
 - calculus
 - linear-algebra

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/CAP_Theorem
+permalink: /CAP_Theorem
 tags:
 - databases
 - distributed-systems

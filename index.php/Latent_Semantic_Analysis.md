@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Latent_Semantic_Analysis
+permalink: /Latent_Semantic_Analysis
 tags:
 - document-clustering
 - information-retrieval

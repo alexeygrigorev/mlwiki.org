@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Eclipse_settings
+permalink: /Eclipse_settings
 tags:
 - eclipse
 - java

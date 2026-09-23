@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Inverse-Rules_Algorithm
+permalink: /Inverse-Rules_Algorithm
 tags:
 - data-integration
 title: Inverse-Rules Algorithm

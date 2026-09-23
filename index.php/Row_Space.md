@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Row_Space
+permalink: /Row_Space
 tags:
 - linear-algebra
 title: Row Space

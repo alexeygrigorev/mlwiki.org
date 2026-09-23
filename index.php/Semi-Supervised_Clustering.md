@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Semi-Supervised_Clustering
+permalink: /Semi-Supervised_Clustering
 tags:
 - cluster-analysis
 - machine-learning

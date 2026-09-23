@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Tree
+permalink: /Tree
 tags:
 - graphs
 title: Tree

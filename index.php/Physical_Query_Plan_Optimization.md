@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Physical_Query_Plan_Optimization
+permalink: /Physical_Query_Plan_Optimization
 tags:
 - database-systems-architecture
 - greedy-algorithms

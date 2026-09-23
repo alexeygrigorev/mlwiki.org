@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Preferential_Independence
+permalink: /Preferential_Independence
 tags:
 - multi-criteria-decision-aid
 title: Preferential Independence

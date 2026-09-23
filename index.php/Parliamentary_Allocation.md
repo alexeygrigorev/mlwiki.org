@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Parliamentary_Allocation
+permalink: /Parliamentary_Allocation
 tags:
 - voting-theory
 title: Parliamentary Allocation

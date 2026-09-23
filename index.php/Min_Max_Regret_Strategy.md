@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Min_Max_Regret_Strategy
+permalink: /Min_Max_Regret_Strategy
 tags:
 - decision-under-uncertainty
 - game-theory

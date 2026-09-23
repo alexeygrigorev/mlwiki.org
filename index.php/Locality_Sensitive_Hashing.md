@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Locality_Sensitive_Hashing
+permalink: /Locality_Sensitive_Hashing
 tags:
 - database-indexes
 - hashing

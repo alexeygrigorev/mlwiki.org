@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Mathematical_Definition_Extraction
+permalink: /Mathematical_Definition_Extraction
 tags:
 - nlp
 - thesis

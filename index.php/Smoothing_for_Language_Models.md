@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Smoothing_for_Language_Models
+permalink: /Smoothing_for_Language_Models
 tags:
 - information-retrieval
 - nlp

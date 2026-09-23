@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Fourier_Transformation
+permalink: /Fourier_Transformation
 tags:
 - calculus
 - linear-algebra

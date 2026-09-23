@@ -1,6 +1,6 @@
 ---
 layout: redirect
-permalink: /index.php/OBDA
-redirect_to: /index.php/Ontology_Based_Data_Access
+permalink: /OBDA
+redirect_to: /Ontology_Based_Data_Access
 title: Ontology Based Data Access
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Similar_Matrices
+permalink: /Similar_Matrices
 tags:
 - linear-algebra
 title: Similar Matrices

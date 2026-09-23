@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Apriori
+permalink: /Apriori
 tags:
 - python
 - rule-mining

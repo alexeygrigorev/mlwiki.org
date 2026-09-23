@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Learning_to_Rank
+permalink: /Learning_to_Rank
 tags:
 - information-retrieval
 - machine-learning

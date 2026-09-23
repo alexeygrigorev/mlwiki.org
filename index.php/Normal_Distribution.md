@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Normal_Distribution
+permalink: /Normal_Distribution
 tags:
 - distributions
 - probability

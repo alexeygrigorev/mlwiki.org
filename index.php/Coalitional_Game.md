@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Coalitional_Game
+permalink: /Coalitional_Game
 tags:
 - game-theory
 title: Coalitional Game

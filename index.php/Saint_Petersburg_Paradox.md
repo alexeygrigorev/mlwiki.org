@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Saint_Petersburg_Paradox
+permalink: /Saint_Petersburg_Paradox
 tags:
 - decision-under-risk
 - probability

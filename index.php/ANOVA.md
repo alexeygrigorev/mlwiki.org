@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/ANOVA
+permalink: /ANOVA
 tags:
 - statistical-tests
 - statistics

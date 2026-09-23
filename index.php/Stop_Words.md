@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Stop_Words
+permalink: /Stop_Words
 tags:
 - feature-selection
 - information-retrieval

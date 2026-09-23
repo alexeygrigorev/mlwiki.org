@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Outer_Product
+permalink: /Outer_Product
 tags:
 - linear-algebra
 title: Outer Product

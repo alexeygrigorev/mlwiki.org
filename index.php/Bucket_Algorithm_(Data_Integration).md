@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Bucket_Algorithm_(Data_Integration)
+permalink: /Bucket_Algorithm_(Data_Integration)
 tags:
 - data-integration
 title: Bucket Algorithm (Data Integration)

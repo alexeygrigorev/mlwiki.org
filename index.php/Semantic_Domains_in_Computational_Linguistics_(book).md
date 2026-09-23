@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Semantic_Domains_in_Computational_Linguistics_(book)
+permalink: /Semantic_Domains_in_Computational_Linguistics_(book)
 tags:
 - books
 - nlp

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Distributed_Databases
+permalink: /Distributed_Databases
 tags:
 - databases
 - distributed-systems

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Factorial
+permalink: /Factorial
 tags:
 - calculus
 - combinatorics

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/One-Sample_t-test
+permalink: /One-Sample_t-test
 tags:
 - r
 - statistical-tests

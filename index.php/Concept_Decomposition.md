@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Concept_Decomposition
+permalink: /Concept_Decomposition
 tags:
 - cluster-analysis
 - dimensionality-reduction

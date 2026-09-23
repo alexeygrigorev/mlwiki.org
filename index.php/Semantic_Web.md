@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Semantic_Web
+permalink: /Semantic_Web
 tags:
 - semantic-web
 title: Semantic Web

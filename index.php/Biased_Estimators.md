@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Biased_Estimators
+permalink: /Biased_Estimators
 tags:
 - r
 - statistics

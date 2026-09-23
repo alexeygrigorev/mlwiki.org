@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/ACID
+permalink: /ACID
 tags:
 - databases
 title: ACID

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Term_Contribution
+permalink: /Term_Contribution
 tags:
 - feature-selection
 title: Term Contribution

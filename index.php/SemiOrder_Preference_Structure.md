@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/SemiOrder_Preference_Structure
+permalink: /SemiOrder_Preference_Structure
 tags:
 - multi-criteria-decision-aid
 title: SemiOrder Preference Structure

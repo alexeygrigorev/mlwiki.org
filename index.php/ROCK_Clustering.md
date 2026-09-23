@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/ROCK_Clustering
+permalink: /ROCK_Clustering
 tags:
 - cluster-analysis
 title: ROCK Clustering

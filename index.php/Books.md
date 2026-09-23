@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Books
+permalink: /Books
 tags:
 - books
 - notes

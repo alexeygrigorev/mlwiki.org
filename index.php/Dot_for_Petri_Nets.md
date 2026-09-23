@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Dot_for_Petri_Nets
+permalink: /Dot_for_Petri_Nets
 tags:
 - business-process-management
 - dot

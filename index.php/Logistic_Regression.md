@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Logistic_Regression
+permalink: /Logistic_Regression
 tags:
 - classification
 - machine-learning

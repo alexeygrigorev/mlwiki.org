@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Cournot_Duopoly_Model
+permalink: /Cournot_Duopoly_Model
 tags:
 - game-theory
 title: Cournot Duopoly Model

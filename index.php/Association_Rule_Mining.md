@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Association_Rule_Mining
+permalink: /Association_Rule_Mining
 tags:
 - rule-mining
 title: Association Rule Mining

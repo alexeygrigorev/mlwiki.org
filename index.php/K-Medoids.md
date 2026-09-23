@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/K-Medoids
+permalink: /K-Medoids
 tags:
 - cluster-analysis
 title: K-Medoids

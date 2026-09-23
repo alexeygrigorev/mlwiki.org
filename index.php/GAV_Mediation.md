@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/GAV_Mediation
+permalink: /GAV_Mediation
 tags:
 - data-integration
 title: GAV Mediation

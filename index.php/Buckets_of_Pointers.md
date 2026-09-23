@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/Buckets_of_Pointers
+permalink: /Buckets_of_Pointers
 tags:
 - database-indexes
 - database-systems-architecture

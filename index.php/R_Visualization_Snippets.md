@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index.php/R_Visualization_Snippets
+permalink: /R_Visualization_Snippets
 tags:
 - r
 - snippets
