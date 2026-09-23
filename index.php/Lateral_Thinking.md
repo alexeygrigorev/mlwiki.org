@@ -52,6 +52,6 @@ solving problems through an indirect and creative approach
 - De Bono Edward, "Po: Beyond Yes and No"
 - De Bono Edward, "Serious creativity: using the power of lateral thinking to create new ideas", http://books.google.com/books?id=NbB9AAAAMAAJ
 
-## Ссылки
+## Links
 
 - http://en.wikipedia.org/wiki/Lateral_thinking

@@ -6,7 +6,7 @@ tags:
 - snippets
 title: My bat file
 ---
-## Командная строка с PATH
+## Command line with PATH
 
 command_line.bat:
 ```bash
@@ -33,9 +33,9 @@ cmd
 cls
 ```
 
-## Передаём параметры
+## Passing parameters
 ```
 python C:\UBS\dev\portablepython\App\Scripts\uncompyle2 %*
 ```
 
-%* передаёт все переданные параметры 
+%* passes all the parameters 

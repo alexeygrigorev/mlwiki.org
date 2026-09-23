@@ -47,5 +47,5 @@ Most important parameters for an RV $X$ are:
 
 
 ## Sources
-- Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
+- Gmurman V.E., Probability Theory and Mathematical Statistics -- 9th edition. Moscow: Vysshaya Shkola, 2003. (in Russian)
 - http://en.wikipedia.org/wiki/Probability_distribution

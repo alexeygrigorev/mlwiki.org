@@ -58,5 +58,5 @@ title: Pragmatic Investment Plan
 
 
 
-## Ссылки
+## Links
 [Refactor your Wetware#Pragmatic Investment Plan](Refactor_your_Wetware#Pragmatic_Investment_Plan)

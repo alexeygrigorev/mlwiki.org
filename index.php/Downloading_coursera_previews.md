@@ -7,7 +7,7 @@ tags:
 - scripts
 title: Downloading coursera previews
 ---
-Скрипт выдёргивает все ссылки на видео из превью для курсеры и складывает их в файл
+The script extracts all video links from Coursera course previews and saves them to a file
 
 ```python
 import urllib
@@ -48,4 +48,4 @@ for vid_each in allvideos:
 outputhtml.close()
 ```
 
-Оригинал: [link](http://crossplatform.net/download-coursera-videos-with-your-favorite-download-manager/)
+Original: [link](http://crossplatform.net/download-coursera-videos-with-your-favorite-download-manager/)

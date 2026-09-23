@@ -1,8 +1,9 @@
 ---
 layout: default
-permalink: /index.php/Программа_поступления_в_ШАД
+permalink: /index.php/YADS_Admission_Program
 tags:
 - yandex
+- shad
 title: YADS Admission Program
 ---
 Program for admission to the Yandex School of Data Analysis (YADS)

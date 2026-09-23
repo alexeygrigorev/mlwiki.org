@@ -9,8 +9,8 @@ title: Learn More Study Less (book notes)
 ---
 Learn More, Study Less [link](http://www.scotthyoung.com/learnmorestudyless/)
 
-- Ссылка на mindmap: [link](http://yadi.sk/d/ql-NYWYr2DuDw)
-- Ссылка на конспект: [link](http://yadi.sk/d/bjnCnPtW2DuGk)
+- Mind map: [link](http://yadi.sk/d/ql-NYWYr2DuDw)
+- Notes: [link](http://yadi.sk/d/bjnCnPtW2DuGk)
 
 ## Main concepts
 

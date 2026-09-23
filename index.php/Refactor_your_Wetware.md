@@ -6,8 +6,8 @@ title: Refactor your Wetware
 Pragmatic Thinking and Learning: Refactor Your Wetware, Andy Hunt
 [link](http://www.amazon.com/Pragmatic-Thinking-Learning-Refactor-Programmers/dp/1934356050)
 
-- Ссылка на mind map: [link](http://yadi.sk/d/aJp8iwsM2Dt3O)
-- Ссылка на конспект: [link](http://yadi.sk/d/SR1KDu7N2Dt5k)
+- Mind map: [link](http://yadi.sk/d/aJp8iwsM2Dt3O)
+- Notes: [link](http://yadi.sk/d/SR1KDu7N2Dt5k)
 
 
 ## Dreufus model
@@ -161,7 +161,7 @@ Think outside the box
 - write as much as possible
 - blog posts/letters/everything
 
-### [The morning pages technique](Утренние_страницы)
+### The morning pages technique
 
 - first thing in the morning
 - while L is still sleeping
@@ -588,7 +588,7 @@ you have to learn by doing
   - how can you describe your current project?
 - See connections between unconnected things
   - 100 oblique strategies
-- Do morning pages (at least for 2 weeks) [Утренние страницы](Утренние_страницы)
+- Do morning pages (at least for 2 weeks)
 - Write down concrete goals, long-term and short-term
 - Add 2 new areas into your portfolio, diversify
 - Experiment with different learning models

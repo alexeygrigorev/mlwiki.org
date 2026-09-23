@@ -6,7 +6,7 @@ tags:
 title: Expected Value
 ---
 ## Expected Value
-*Expected Value* (*Математическое ожидание*) of a [Random Variable](Random_Variable) X
+*Expected Value* of a [Random Variable](Random_Variable) X
 - is a sum of all possible values from $x_i \in \text{Dom}(X)$ multiplied by their probabilities $p_i$
 - denoted $E[X]$ or $M[X]$
 - it's often called the center of a [Distribution](Distribution)
@@ -34,4 +34,4 @@ $\bar{X} = x_1 \cfrac{m_1}{n} + x_2 \cfrac{m_2}{n} + ... + x_k \cfrac{m_k}{n}$ w
 - [Variance](Variance)
 
 ## Sources
-- Гмурман В.Е., Теория вероятностей и математическая статистика -- 9-е издание. М.: Высш. шк., 2003.
+- Gmurman V.E., [Probability](Probability) Theory and Mathematical [Statistics](Statistics) -- 9th edition. Moscow: Vysshaya Shkola, 2003. (in Russian)

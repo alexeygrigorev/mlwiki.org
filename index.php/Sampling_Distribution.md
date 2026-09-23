@@ -68,7 +68,7 @@ In the [Normal Distribution](Normal_Distribution) we have  $N(\mu, \sigma^2)$, a
 - Estimator of $\mu$ is $\bar{X} = \cfrac{X_1 + ... + X_n}{n}$
 - So $E(\bar{X}) = \mu$, and $\bar{X}$ - unbiased estimator of $\mu$
 - Variance of $\bar{X}$ is $\text{Var}(\bar{X}) = \cfrac{\sigma^2}{n}$ and $\text{sd}(\bar{X}) = \cfrac{\sigma}{\sqrt{n}}$
-- And by the [Central Limit Theorem](Центральная_предельная_теорема) we have $\bar{X} \sim N(\mu, \cfrac{\sigma^2}{n})$
+- And by the Central Limit Theorem we have $\bar{X} \sim N(\mu, \cfrac{\sigma^2}{n})$
 
 
 So, 

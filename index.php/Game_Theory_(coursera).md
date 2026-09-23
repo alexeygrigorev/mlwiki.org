@@ -8,7 +8,7 @@ tags:
 title: Game Theory (coursera)
 ---
 
-Курс [Game Theory](http://www.coursera.org/course/gametheory) об основах теории игр
+The [Game Theory](http://www.coursera.org/course/gametheory) course covers the basics of [game theory](Game_Theory)
 
 
 == [Game Theory](Game_Theory) == 
@@ -26,6 +26,6 @@ title: Game Theory (coursera)
 
 
 ## Info
-- Ссылка на svn директорию [link](http://stolzen.googlecode.com/svn/trunk/courses/coursera/Game%20Theory/)
-- Отсканированный конспект [link](https://www.dropbox.com/s/vo6nbmhdvzs2947/Game%20Theory%20coursera.pdf)
+- svn directory [link](http://stolzen.googlecode.com/svn/trunk/courses/coursera/Game%20Theory/)
+- Scanned notes [link](https://www.dropbox.com/s/vo6nbmhdvzs2947/Game%20Theory%20coursera.pdf)
 - mindmap [link](http://stolzen.googlecode.com/svn/trunk/courses/coursera/Game%20Theory/Game%20Theory.xmind)

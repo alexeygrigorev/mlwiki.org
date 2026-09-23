@@ -7,7 +7,7 @@ tags:
 title: Design interview questions
 ---
 ## Design patterns
-- [Шпаргалка по шаблонам проектирования](http://habrahabr.ru/post/210288/)
+- [Design patterns cheat sheet (in Russian)](http://habrahabr.ru/post/210288/)
 - What major patterns do the Java APIs utilize? 
 - Pattern used in Java 
 - Which patterns do you use in a daily basis. Explain their principles. 

@@ -80,7 +80,7 @@ public class Graph {
 
 ## See also
 - [Minimal Cut Problem](Minimal_Cut_Problem)
-- [Graph Search](Graph_Search) ([Breadth-First Search](Breadth-First_Search) и [Depth-First Search](Depth-First_Search))
+- [Graph Search](Graph_Search) ([Breadth-First Search](Breadth-First_Search) and [Depth-First Search](Depth-First_Search))
 - [Dijkstra's Shortest Path](Dijkstra's_Shortest_Path)
 - [Topological Ordering](Topological_Ordering)
 

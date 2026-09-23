@@ -8,7 +8,7 @@ tags:
 - snippets
 title: Java Fork/Join
 ---
-## Использование Fork/Join для поиска файлов
+## Using Fork/Join to search for files
 
 ```java
 public class ForkJoinTest {
@@ -94,4 +94,4 @@ public class ForkJoinTest {
 }
 ```
 
-В этом коде два теста: один использует Fork/Join, второй обычный рекурсивный обход.
+This code has two tests: one uses Fork/Join, the other does a plain recursive traversal.

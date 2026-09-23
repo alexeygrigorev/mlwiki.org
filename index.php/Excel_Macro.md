@@ -7,7 +7,7 @@ tags:
 - vba
 title: Excel Macro
 ---
-## Удаляет все пустые строки на всех листах
+## Deletes all empty rows on all sheets
 
 ```
 Sub DeleteBlanks()
@@ -28,7 +28,7 @@ Sub DeleteBlanks()
 End Sub
 ```
 
-## Удалить все строки, содержащие выражение
+## Delete all rows containing an expression
 
 ```maple
 Sub RemoveRowsWithSymbol()

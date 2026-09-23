@@ -92,7 +92,7 @@ Finding the next rule [link](http://www.evernote.com/shard/s344/sh/d82d9776-7319
 - FindNextRule($C, D$) subroutine
 - uses [Depth-First Search](Depth-First_Search) to construct the next rule for class $C$ 
 - we know the consequent for this rule: it's $C$
-- so we need to construct only *antecedent* (предыдущий член отношения)
+- so we need to construct only *antecedent*
   - start with an empty antecedent,
   - iteratively add most promising "attribute=value" constraints 
   - use error rate to get the best one 

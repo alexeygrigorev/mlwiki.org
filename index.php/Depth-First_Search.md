@@ -27,7 +27,7 @@ running time $O(n + m)$
 
 ## See also
 - [Graphs](Graphs)
-- [Graph Search](Graph_Search) и [Breadth-First Search](Breadth-First_Search)
+- Graph Search and Breadth-First Search
 - [Dijkstra's Shortest Path](Dijkstra's_Shortest_Path)
 
 

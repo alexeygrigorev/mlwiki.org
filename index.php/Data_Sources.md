@@ -2,7 +2,7 @@
 layout: default
 permalink: /index.php/Data_Sources
 tags:
-- ссылки
+- links
 title: Data Sources
 ---
 ## Data Sources

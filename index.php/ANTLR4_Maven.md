@@ -89,7 +89,7 @@ title: ANTLR4 Maven
 ```
 
 
-## Ссылки
+## Links
 - https://gist.github.com/sharwell/4979017
 
 - https://github.com/miho/antlr-4-playground/blob/master/experiments/expr/src/eu/mihosoft/antlr/experiments

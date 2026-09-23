@@ -27,7 +27,7 @@ Typical questions:
 
 
 ## [Cumulative Distribution Function](Cumulative_Distribution_Function)
-Suppose the event did not occur in the $(k-1)$-th trial, but occurred in the $k$-th trial. Then by the [multiplication theorem for independent events](Chain_and_Sum_Rules_in_Probability#Теорема_произведения_вероятностей) we have the following distribution function:
+Suppose the event did not occur in the $(k-1)$-th trial, but occurred in the $k$-th trial. Then by the [multiplication theorem for independent events](Chain_and_Sum_Rules_in_Probability#Multiplication_Theorem_of_Probabilities) we have the following [distribution function](Distribution_Function):
 
 $P(X = k) = q^{k - 1} p$
 

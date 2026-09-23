@@ -58,4 +58,4 @@ We can see matrices as vectors, and they also can form [Vector Spaces](Vector_Sp
 
 ## Sources
 - [Linear Algebra MIT 18.06 (OCW)](Linear_Algebra_MIT_18.06_%28OCW%29)
-- Курош А.Г. Курс Высшей Алгебры
+- Kurosh A.G., A Course in Higher Algebra (in Russian)

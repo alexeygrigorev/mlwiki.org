@@ -3,11 +3,11 @@ layout: default
 permalink: /index.php/Sublime_Tricks
 title: Sublime Tricks
 ---
-## Новые горячии клавиши
+## New keyboard shortcuts
 
-Например, 
+For example,
 
-### оборачивание тегом math
+### Wrapping in a math tag
 
 preferences - key binding (user)
 

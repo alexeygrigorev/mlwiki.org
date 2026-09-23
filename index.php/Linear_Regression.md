@@ -78,7 +78,7 @@ So we get
 where
 - $s_x = \sqrt{\cfrac{1}{n - 1} \sum (x_i - \bar{x}) }$ and
 - $s_y = \sqrt{\cfrac{1}{n - 1} \sum (y_i - \bar{y}) }$
-- $R = \cfrac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2 }}$ is the [*correlation coefficient*](Корреляция)
+- $R = \cfrac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2 }}$ is the [*correlation coefficient*](Correlation)
 
 
 ## Residuals

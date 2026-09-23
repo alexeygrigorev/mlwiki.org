@@ -7,7 +7,7 @@ tags:
 - maven
 title: Groovy Java in Maven
 ---
-Смешанный проект с groovy и java используя maven и Groovy-Eclipse compiler
+A mixed Groovy + Java project using Maven and the Groovy-Eclipse compiler
 
 ## Groovy-eclipse Compiler
 
@@ -175,7 +175,7 @@ title: Groovy Java in Maven
 </project>
 ```
 
-Для того, чтобы тесты, написанные на Groovy, можно было запускать из Maven, в Surefire нужно добавить следующее
+To be able to run the Groovy tests from Maven, add the following to the Surefire plugin
 
 ```genshi
 <plugin>
@@ -194,7 +194,7 @@ title: Groovy Java in Maven
 </plugin>
 ```
 
-Таким образом Surefire будет запускать не только тесты на Java, а все классы, оканчивающиеся на Test
+This way Surefire will run not only the Java tests, but all classes that end with Test
 
 ## GMaven
 
