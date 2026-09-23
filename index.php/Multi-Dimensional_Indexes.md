@@ -8,7 +8,7 @@ title: Multi-Dimensional Indexes
 ---
 ## Multi-Dimensional Indexes
 ### Typical Applications
-- Searching [Data Cube](OLAP) for [Data Warehousing](Data_Warehousing)
+- Searching [OLAP](OLAP) data cubes for [Data Warehousing](Data_Warehousing)
 - [Spatial Databases](Spatial_Databases)
 
 
