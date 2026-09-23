@@ -30,7 +30,7 @@ Taylor Expansion is the process of turning a function to a Taylor Series
 
 ### Examples
 Famous expansions: 
-- [Exponential Function](Exponential_Function): $e^x = \sum\limits_{k=0}^{\infty} \frac{1}{k!} x^k$ of [Exponential Function](Exponential_Function)
+- [Exponential Function](Exponential_Function): $e^x = \sum\limits_{k=0}^{\infty} \frac{1}{k!} x^k$ of Exponential Function
 - [Trigonometric Functions](Trigonometric_Functions):
 - $\cos x = \sum\limits_{k=0}^\infty (-1)^k \cfrac{x^{2k}}{(2k)!}$ of Cosine
 - $\sin x = \sum\limits_{k=0}^\infty (-1)^k \cfrac{x^{2k + 1}}{(2k + 1)!}$ of Sine

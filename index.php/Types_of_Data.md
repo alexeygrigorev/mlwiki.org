@@ -19,7 +19,7 @@ There are two types of data:
 
 ### Semi-structured
 - [XML](XML), HTML, [JSON](JSON)
-- Also have some [Data Model](Data_Model): [Semi-Structured Data Model](Semi-Structured_Data_Model)
+- Also have some Data Model: [Semi-Structured Data Model](Semi-Structured_Data_Model)
 - Data Model can be expressed via constrains with schemas: [DTD](DTD) or [XML Schema](XML_Schema)
 
 

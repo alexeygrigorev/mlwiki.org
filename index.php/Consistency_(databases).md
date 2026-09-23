@@ -82,5 +82,5 @@ in this case later updates may be overwritten by earlier ones because they arriv
 - [Consistency and availability in Amazon's Dynamo](http://the-paper-trail.org/blog/consistency-and-availability-in-amazons-dynamo/)
 
 ## See also
-- [BASE](BASE) - weaker alternative to [ACID](ACID)
+- [BASE](BASE) - weaker alternative to ACID
 - the [CAP Theorem](CAP_Theorem)

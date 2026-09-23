@@ -42,7 +42,7 @@ Main Components
 - [System Catalog](Database_System_Catalog)
   - called Metastore
   - contains schemas
-  - keeps statistics - like in [DBMS](Databases)
+  - keeps [statistics](Statistics) - like in [DBMS](Databases)
   - enables optimization techniques (but only naive rule-based optimizations)
 - Driver that manages HiveQL queries, contains 
   - optimizer
@@ -61,7 +61,7 @@ Main Components
 Hive Query Language is a SQL-like declarative query language for ad-hoc queries 
 
 Main Features
-- it compiles into a [DAG](Graphs#Directed_Acyclic_Graph) of [MapReduce](MapReduce) jobs that are executed in [Hadoop](Hadoop)
+- it compiles into a [DAG](Graphs#Directed_Acyclic_Graph) of MapReduce jobs that are executed in Hadoop
 - also can plug custom MapReduce scripts 
 
 

@@ -35,7 +35,7 @@ We need a *representative* sample to be able to generalize from the statistics c
 
 ## Random Sampling
 Random sampling (especially SRS - simple random sampling) is very important 
-- in [Inferential Statistics](Inferential_Statistics) - when making the independence assumption about the observations
+- in [Inferential Statistics](Inferential_Statistics) - when making the [independence](Independence) assumption about the observations
 - doesn't introduce bias
 
 
@@ -50,7 +50,7 @@ Random sampling (especially SRS - simple random sampling) is very important
 
 ### Simple Random Sampling
 Randomly pick up items from the population
-- the original [distribution](distribution) of data is not always kept
+- the original [distribution](Distribution) of data is not always kept
 
 
 ### Stratified Sampling

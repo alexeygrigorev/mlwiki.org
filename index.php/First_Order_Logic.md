@@ -18,7 +18,7 @@ First Order Logic (FOL)
 In FOL, inference is generally [undecidable](Decidability)
 - there is a subset of FOL, called [Descriptive Logic](Descriptive_Logic), where it becomes tractable
 
-- [FOL](First_Order_Logic) give formal definitions of RDFS and OWL statements 
+- [FOL](First_Order_Logic) give formal definitions of [RDFS](RDFS) and OWL statements 
   - Classes - unary predicates
   - Properties - binary predicates
 - [DL](Descriptive_Logic) is a subset of FOL where many interesting properties are decidable 

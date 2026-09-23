@@ -12,7 +12,7 @@ title: Kernel Methods
 
 
 
-[Kernel](Kernel) is a generalized dot product 
+[Kernel](Kernel) is a generalized [dot product](Dot_Product) 
 - [Latent Semantic Analysis](Latent_Semantic_Analysis) captures semantic relations between terms 
 - drawback: computationally expensive
 
@@ -35,9 +35,9 @@ Just dot product is enough for many algorithms:
 [Support Vector Machines](Support_Vector_Machines)
 
 ### [Text Mining](Text_Mining)
-[Latent Semantic Kernels](Latent_Semantic_Kernels): Use [Latent Semantic Analysis](Latent_Semantic_Analysis)
+[Latent Semantic Kernels](Latent_Semantic_Kernels): Use Latent Semantic Analysis
 
-### [Clustering Analysis](Clustering_Analysis)
+### [Clustering Analysis](Cluster_Analysis)
 
 
 ### [Regression](Regression)
@@ -56,7 +56,7 @@ Support Vector Regression
 ### Data Span Solution
 Choosing a kernel $\equiv$ choosing a feature space 
 - $k(\mathbf x, \mathbf z) = \langle \varphi(\mathbf x), \varphi(\mathbf z) \rangle$
-- given a dataset, apply $k$ to each pair and get a Kernel Matrix (also called [Gram Matrix](Gram_Matrix))
+- given a dataset, apply $k$ to each pair and get a Kernel [Matrix](Matrix) (also called [Gram Matrix](Gram_Matrix))
 
 $$K = \begin{bmatrix}
 k(\mathbf x_1, \mathbf x_1) & k(\mathbf x_1, \mathbf x_2) & \cdots & k(\mathbf x_1, \mathbf x_n) \\ 

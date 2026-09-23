@@ -124,7 +124,7 @@ Problems of outranking methods:
 
 
 ## [Multi-Objective Optimization](Multi-Objective_Optimization)
-Once we found the [Pareto-optimal](Dominance) set of solutions in a  problem, we need to find the best solution, and MCDA can help with it
+Once we found the Pareto-optimal set of solutions in a  problem, we need to find the best solution, and [MCDA](MCDA) can help with it
 
 
 ## Links

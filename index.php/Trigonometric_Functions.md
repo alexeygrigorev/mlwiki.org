@@ -48,10 +48,10 @@ Inverse Trigonometric functions:
 - $\sin x = \sum\limits_{k=0}^\infty (-1)^k \cfrac{x^{2k + 1}}{(2k + 1)!}$ 
 
 [Euler's Formula](Euler's_Formula):
-- relates Exponential Function and [Trigonometric Functions](Trigonometric_Functions)
+- relates [Exponential Function](Exponential_Function) and [Trigonometric Functions](Trigonometric_Functions)
 - $e^{ix} = \cos x + i \sin x$ where $i = \sqrt {-1}$
 
-With Taylor Expansions, we can pretend that $\sin x$, $\cos x$ and [Exponential](Exponential) are long [Polynomial Functions](Polynomial_Functions)
+With [Taylor Expansions](Taylor_Series), we can pretend that $\sin x$, $\cos x$ and [Exponential](Exponential) are long [Polynomial Functions](Polynomial_Functions)
 
 
 

@@ -171,7 +171,7 @@ For example,
 - $S_1 = 3, S_2 = 4, K = S_3 = 3$
 
 
-For [Logistic Regression](Logistic_Regression) with [Regularization](Regularization) we have the following cost function:
+For Logistic Regression with [Regularization](Regularization) we have the following cost function:
 
 $$J(\theta) = -\cfrac{1}{m} \sum \Big[ y^{(i)} \log h_{\theta}(x^{(i)}) + (1 - y^{(i)}) \log (1 - h_{\theta}(x^{(i)})) \Big] + \cfrac{\lambda}{2m} \sum_{j = 1}^{n} \theta_j^2$$
 
@@ -189,7 +189,7 @@ here we also don't regularize bias inputs
 
 ## Back Propagation
 - we need to find such $\theta$ that $J(\theta)$ is minimal
-- for that we can use [Gradient Descent](Gradient_Descent) or other advanced optimization techniques 
+- for that we can use [Gradient Descent](Gradient_Descent) or other advanced [optimization](Optimization) techniques 
 - for GD we need to compute partial derivative $\cfrac{\partial}{\partial \theta_{ij}^{(l)}} J(\theta)$ with respect to each $\theta_{ij}^{(l)}$
 
 *Back Propagation* is a technique for calculating partial derivatives in neural networks

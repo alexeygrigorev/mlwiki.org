@@ -93,7 +93,7 @@ A matrix space is also a vector space, where elements are matrices of the same d
 
 ### [Function Spaces](Function_Spaces)
 In a function space, the "vectors" are functions:
-- we can define an [Inner Product](Inner_Product) as $\langle f, g \rangle = \int\limits_{-\infty}^{\infty} f(x) \, g(x) \, dx$ with [Integral](Integral) instead of sum
+- we can define an Inner Product as $\langle f, g \rangle = \int\limits_{-\infty}^{\infty} f(x) \, g(x) \, dx$ with [Integral](Integral) instead of sum
 - and we define [orthogonality](Orthogonal_Functions) as $\langle f, g \rangle = 0$ 
 
 

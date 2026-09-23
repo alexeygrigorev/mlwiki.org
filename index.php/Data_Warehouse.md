@@ -55,7 +55,7 @@ Usually DWs are built on RBDs
   - very mature here
 
 RDBMSs are likely to remain standard in Data Warehousing worlds
-- it's unlikely that they will be replaced by [MapReduce](MapReduce) or [Hadoop](Hadoop) 
+- it's unlikely that they will be replaced by [MapReduce](MapReduce) or Hadoop 
 
 
 ### Language
@@ -78,7 +78,7 @@ There are a lot of techniques for speeding up query executions
 ### Disadvantages
 Nowadays there are lots of not structured data 
 - RDBs not flexible enough to manage and analyze that
-- possible solutions: [Column-Oriented Databases](Column-Oriented_Databases) or [MapReduce](MapReduce) (with [Hadoop](Hadoop) as implementation)
+- possible solutions: [Column-Oriented Databases](Column-Oriented_Databases) or MapReduce (with Hadoop as implementation)
 
 Difficult to integrate [Data Mining](Data_Mining) Algorithms
 - Data Mining typically happens outside of [RDBs](Relational_Databases)

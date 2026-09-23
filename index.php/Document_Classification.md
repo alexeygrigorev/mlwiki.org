@@ -112,7 +112,7 @@ Term Extraction techniques:
 - so we want to find better representation that doesn't suffer from these issues
 - methods: 
 - [Term Clustering](Term_Clustering) cluster terms and use centroids instead of words
-- [Latent Semantic Analysis](Latent_Semantic_Analysis) apply [SVD](SVD) to Term-Document matrix 
+- [Latent Semantic Analysis](Latent_Semantic_Analysis) apply [SVD](SVD) to Term-Document [matrix](Matrix) 
 
 
 

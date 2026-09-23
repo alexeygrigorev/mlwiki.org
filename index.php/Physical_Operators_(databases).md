@@ -11,7 +11,7 @@ Each node in a Logical [Query Plan](Query_Plan) may be executed in several ways
 - so we need to compare alternatives based on their costs (in [I/O Model of Computation](I_O_Model_of_Computation) it's # of I/O operations)
 
 ### Statistics
-To estimate a cost we use the following statistics from [Database System Catalog](Database_System_Catalog):
+To estimate a cost we use the following [statistics](Statistics) from [Database System Catalog](Database_System_Catalog):
 - $B(R)$ - # of blocks that relation $R$ holds
 - $T(R)$ - # of tuples in $R$
   - typically can be used to calculate $B(R)$ when we know how many bytes we have per block

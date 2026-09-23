@@ -8,7 +8,7 @@ tags:
 title: Document-Oriented Databases
 ---
 ## Document-Oriented Databases
-A document-oriented database is a database designed for storing document-oriented information. Instead of records, as in traditional [Relational Databases](Relational_Databases), these databases use structured and semi-structured documents. It may be XML, JSON or any other structured format. 
+A document-oriented [database](Database) is a database designed for storing document-oriented information. Instead of records, as in traditional [Relational Databases](Relational_Databases), these databases use structured and semi-structured documents. It may be XML, JSON or any other structured format. 
 
 
 ### Documents

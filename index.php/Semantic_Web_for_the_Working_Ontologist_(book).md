@@ -19,7 +19,7 @@ title: Semantic Web for the Working Ontologist (book)
 - [SPARQL](SPARQL) for querying RDF
 - [RDFS](RDFS): Schema for RDF
 - [RDFS-Plus](RDFS-Plus): Extension to have more inference capabilities
-- [OWL](OWL): powerful language for modeling [Ontologies](Ontologies)
+- [OWL](OWL): powerful language for modeling Ontologies
 
 
 ### Summary

@@ -67,7 +67,7 @@ Methods:
 
 ### [Game Theory](Game_Theory)
 - [Normal Form Game](Normal_Form_Game)s
-- [Nash Equilibrium](Nash_Equilibrium), [Dominance](Dominance), [Iterative Removal](Iterative_Removal)
+- [Nash Equilibrium](Nash_Equilibrium), Dominance, [Iterative Removal](Iterative_Removal)
 - [Prisoner's Dilemma](Prisoner's_Dilemma), [Battle of the Sexes](Battle_of_the_Sexes)
 - [Cournot Duopoly Model](Cournot_Duopoly_Model) and [Bertrand Duopoly Model](Bertrand_Duopoly_Model)
 - the [Median Voter Theorem](Median_Voter_Theorem)

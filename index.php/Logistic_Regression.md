@@ -132,7 +132,7 @@ Because $y \in \{0, 1\}$, we can rewrite the cost function as
 
 
 ### Fitting $\theta$
-- To fit $\theta$ we use [Gradient Descent](Gradient_Descent) or other optimization technique 
+- To fit $\theta$ we use Gradient Descent or other [optimization](Optimization) technique 
 - The algorithm is identical to finding $\theta$ for [Linear Regression](Gradient_Descent#Multivariate_Linear_Regression)
 
 

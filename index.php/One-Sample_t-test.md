@@ -9,7 +9,7 @@ tags:
 title: One-Sample t-test
 ---
 ## [One-Sample $t$-test](One-Sample_t-test)
-This is a [t-test](t-test) for one variable
+This is a [t-test](T-test) for one variable
 - it can be used to calculate a [Confidence Interval](Confidence_Intervals) for the true mean $\mu$ 
 - the null value for $H_0$ might come from other research or from your knowledge 
 

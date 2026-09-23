@@ -8,7 +8,7 @@ title: Negative Binomial Distribution
 ---
 ## Negative Binomial Distribution
 The negative binomial distribution is a Discrete [Distribution](Distribution) of [Random Variable](Random_Variable)s
-- [Geometric Distribution](Geometric_Distribution): probability of observing first success on $n$th trial 
+- [Geometric Distribution](Geometric_Distribution): [probability](Probability) of observing first success on $n$th trial 
 - NBD: probability of observing $k$th success on $n$th trial 
 - so NBD is a generic case of Geometric Distribution
 

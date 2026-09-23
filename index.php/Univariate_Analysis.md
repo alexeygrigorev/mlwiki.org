@@ -27,8 +27,8 @@ Results can be used for
 ## Visualization
 [Plots](Plots) that can be useful:
 - [Bar Chart](Bar_Chart)s
-- [Box Plot](Box_Plot)s for visualizing [Summary Statistics](Summary_Statistics)
-- [Histogram](Histogram)s and [Density Plot](Density_Plot)s
+- [Box Plot](Box_Plot)s for visualizing Summary Statistics
+- Histograms and [Density Plot](Density_Plot)s
 
 
 ## Sources

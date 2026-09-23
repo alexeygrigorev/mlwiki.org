@@ -50,7 +50,7 @@ There are four conflicting criteria
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/pm-criteria.png" alt="Image">
 - The main challenge of [Process Mining](Process_Mining) is that all these criteria are conflicting:
 - It's really hard to simultaneously satisfy all of them
-- this makes [Process Mining](Process_Mining) to be a [Multi-Objective Optimization](Multi-Objective_Optimization) problem
+- this makes Process Mining to be a [Multi-Objective Optimization](Multi-Objective_Optimization) problem
 
 
 ### Fitness

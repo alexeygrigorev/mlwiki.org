@@ -7,13 +7,13 @@ title: RDFS
 ---
 ## RDFS
 Is a schema language for [RDF](RDF)
-- roughly, [RDF](RDF) is for defining graphs, RDFS - for defining sets 
+- roughly, RDF is for defining [graphs](Graphs), RDFS - for defining [sets](Sets) 
 - RDFS tells how to use the graph structure - gives some semantics to the used vocabulary
   - how items and their properties are related
 - also provides some basic [inferencing capabilities](Inference_in_Semantic_Web) (for Knowledge Discovery)
-  - [Inference](Inference_in_Semantic_Web) rules are nice to show with [SPARQL](SPARQL) CONSTRUCT queries
+  - Inference rules are nice to show with [SPARQL](SPARQL) CONSTRUCT queries
   - RDFS statements can be interpreted as [FOL](First_Order_Logic) statements 
-  - for logical semantics behind there expressions see [Semantic Web Logic](Semantic_Web_Logic)
+  - for logical semantics behind there expressions see [Semantic Web Logic](Semantic_Web_Logics)
 - RDFS is expressed using [RDF](RDF) triples 
 
 
@@ -173,7 +173,7 @@ There are properties that aren't used for inference, but just for description
 
 
 ## See Also
-- [RDFS and OWL summary](RDFS_and_OWL_summary)
+- [RDFS and OWL summary](RDFS_and_OWL_Summary)
 - [Semantic Web](Semantic_Web)
 - [Inference in Semantic Web](Inference_in_Semantic_Web)
 - [RDFS-Plus](RDFS-Plus) - a subset of [OWL](OWL) and an extension of [RDFS](RDFS) with more inferencing capabilities

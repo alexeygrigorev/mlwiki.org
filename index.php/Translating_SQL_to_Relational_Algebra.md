@@ -12,7 +12,7 @@ title: Translating SQL to Relational Algebra
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/query-processing-1st.png" alt="Image">
 
 Translating SQL to RA expression is the second step in [Query Processing](Query_Processing) Pipeline
-- Input: Logical Query Plan - expression in Extended [Relational Algebra](Relational_Algebra)
+- Input: Logical [Query Plan](Query_Plan) - expression in Extended [Relational Algebra](Relational_Algebra)
 - Output: Optimized Logical Query Plan - also in Relational Algebra
 
 

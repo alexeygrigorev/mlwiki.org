@@ -234,7 +234,7 @@ Solutions:
 
 ## Decomposition of Term-Document Matrix
 We can decompose the matrix $D$ 
-- using [SVD](SVD) and we'll get [Latent Semantic Analysis](Latent_Semantic_Analysis)
+- using [SVD](SVD) and we'll get Latent Semantic Analysis
 - LSA can also be done with [Non-Negative Matrix Factorization](Non-Negative_Matrix_Factorization)
 
 

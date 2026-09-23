@@ -63,7 +63,7 @@ Responsible for [Query Processing](Query_Processing)
 
 
 ### Buffer Manager
-*Buffer Manager* is mediator between [external storage](Secondary_Storage) and main memory (see [Memory Hierarchy](Memory_Hierarchy))
+*Buffer Manager* is mediator between external storage and main memory (see [Memory Hierarchy](Memory_Hierarchy))
 
 Main Responsibility: Partitioning main memory into buffers
 - it maintains a *buffer pool*
@@ -104,7 +104,7 @@ sometimes also *Storage Manager*
 - data - content of the DS
 - metadata - DB schema that describes the DB
 - [log records](Database_Transaction_Log) - information about recent changes to the database 
-- Statistics - sizes, values, relation to other components of DB, stored in [Database System Catalog](Database_System_Catalog)
+- [Statistics](Statistics) - sizes, values, relation to other components of DB, stored in [Database System Catalog](Database_System_Catalog)
 - [Indexes](Indexing_%28databases%29) to support efficient access to data
 
 

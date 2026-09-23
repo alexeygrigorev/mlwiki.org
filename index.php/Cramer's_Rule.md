@@ -12,7 +12,7 @@ This is a method for finding a [Matrix Inverse](Inverse_Matrices) and for solvin
 ## Finding Inverse
 The formula is $A^{-1} = \cfrac{1}{|A|} C^T$
 - $|A|$ is the [Determinant](Determinant) of $A$
-- $C$ is the [Cofactors](Cofactors) matrix of $A$
+- $C$ is the [Cofactors](Cofactors) [matrix](Matrix) of $A$
 
 
 ### $2 \times 2$ case: Motivation

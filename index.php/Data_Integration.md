@@ -23,7 +23,7 @@ Goal of Data Integration - provide uniform access to heterogeneous data sources 
   - so it can be a preferred approach for [Ontology Based Data Access](OBDA)
 - also better if you want to access "fresh" data
 - but way harder to implement - need to transform data during the query time 
-  - need to use [Ontologies](Ontologies) for that, no [ETL](ETL)s
+  - need to use [Ontologies](Ontologies) for that, no ETLs
 - <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/ufrt/xml/sw/architecture-mediator.png" alt="Image">
 
 

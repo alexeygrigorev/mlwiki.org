@@ -67,10 +67,10 @@ n = z^2 * p * (1 - p) / ME^2
 ## Controlling False Negatives
 Sample Size controls [Type II Errors](Type_II_Errors) - False Negatives
 - What sample size is good for a certain margin of error?
-- recall that a margin of error the "radius" of the [Confidence Interval](Confidence_Intervals) - boundaries of the [Point Estimate](Point_Estimate)
+- recall that a margin of error the "radius" of the Confidence Interval - boundaries of the [Point Estimate](Point_Estimate)
 
 
-### [$Z$ Statistics](z-tests) for Means
+### [$Z$ Statistics](Z-tests) for Means
 Suppose we want to have a 95% confidence interval
 - $Z = 1.96$
 - $\text{ME}_{0.95} = Z \cdot \text{SE} = 1.96 \cfrac{\sigma}{\sqrt{n}}$

@@ -18,7 +18,7 @@ A *language* $L$ is a subset of all possible words $\Sigma^*$ formed by symbols 
 
 ### Informal Introduction
 A *finite automata* is a formal system 
-- it can be viewed as a [graph](graph) or table
+- it can be viewed as a [graph](Graph) or table
 - it remembers only <u>finite</u> amount of information
 - it has only <u>finite</u> number of states
 - states chance in response to some input: characters or events 

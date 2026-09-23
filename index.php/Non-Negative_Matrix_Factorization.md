@@ -35,7 +35,7 @@ to do this, we want to find matrices $U$ and $V$ s.t.
 
 
 This can be solved analytically
-- for any matrix $Q$, $\|  Q \|_F = \text{tr}(QQ^T)$, where $\text{tr}(QQ^T)$ is the [Trace](Trace_(Matrix)) of $QQ^T$ (see properties of [Frobenius Norm](Frobenius_Norm))
+- for any matrix $Q$, $\|  Q \|_F = \text{tr}(QQ^T)$, where $\text{tr}(QQ^T)$ is the [Trace](Trace_(Matrix)) of $QQ^T$ (see properties of Frobenius Norm)
 - so $J = 0.5 \text{tr}\Big( (A - UV^T)^T \, (A - UV^T) \Big) = \text{tr}\Big( AA^T - 2 A U V^T + U V^T V U^T \Big) = \frac{1}{2} \, \text{tr} (AA^T) - \text{tr}(A U V^T) + 0.5 \text{tr}(U V^T V U^T)$
 - additionally, we have constraints $u_{ij} \geqslant 0$, $v_{ij} \geqslant 0$: use [Lagrange Multipliers](Lagrange_Multipliers) for this
 - let $\boldsymbol \alpha$ be a matrix of $\alpha_{ij}$ of the same dimension as $U$ and $\boldsymbol \beta$ be a batrix of $\beta_{ij}$ of the same dimension as $V$ 
@@ -71,7 +71,7 @@ So we have the following update rule:
 ## Applications
 ### [Latent Semantic Analysis](Latent_Semantic_Analysis)
 Why SVD is bad for LSA?
-- if want to apply [Cluster Analysis](Cluster_Analysis) to cluster documents in the semantic space produced by SVD, need to use an external algorithm, e.g. [K-Means](K-Means)
+- if want to apply Cluster Analysis to cluster documents in the semantic space produced by SVD, need to use an external algorithm, e.g. [K-Means](K-Means)
 - negative values are hard to interpret
 - objective of SVD is to find the orthogonal basis, which doesn't always result in a good basis for the Semantic Space:
 - <img src="http://i.stack.imgur.com/PMhBY.png" alt="Image"> (source: Xu2003)

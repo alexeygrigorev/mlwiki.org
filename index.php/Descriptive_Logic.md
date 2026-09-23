@@ -9,7 +9,7 @@ title: Descriptive Logic
 ## Descriptive Logic
 Descriptive Logic (DL)
 - Formal basis for [OWL](OWL)
-- [FOL](First_Order_Logic) give formal definitions of RDFS and OWL statements 
+- [FOL](First_Order_Logic) give formal definitions of [RDFS](RDFS) and OWL statements 
   - Classes - unary predicates
   - Properties - binary predicates
 - but inference in FOL is not decidable
@@ -19,7 +19,7 @@ Descriptive Logic (DL)
 
 
 Mapping between [OWL](OWL), FOL and DL: 
-- see [Semantic Web Logic](Semantic_Web_Logic)
+- see [Semantic Web Logic](Semantic_Web_Logics)
 
 
 ## DL Knowledge Base
@@ -31,7 +31,7 @@ A DL knowledge base consists of:
 
 In [Semantic Web](Semantic_Web) knowledge base is
 - TBox: [Ontologies](Ontologies) in [RDFS](RDFS) and [OWL](OWL)
-- ABox: Data in [RDF](RDF)-graphs
+- ABox: Data in [RDF](RDF)-[graphs](Graphs)
 
 
 ### TBox

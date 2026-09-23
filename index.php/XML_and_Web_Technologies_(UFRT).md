@@ -10,7 +10,7 @@ title: XML and Web Technologies (UFRT)
 ## Content
 ### [XML](XML)
 - XML as a [Semi-Structured Data Model](Semi-Structured_Data_Model)
-- XML schemas: [DTD](DTD) and [XML Schema](XML_Schema)
+- [XML schemas](XML_Schema): [DTD](DTD) and XML Schema
 - [XPath](XPath) for Querying XML
 - [XSLT](XSLT) for Transforming XML
 

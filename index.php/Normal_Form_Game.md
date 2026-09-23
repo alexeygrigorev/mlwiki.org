@@ -6,7 +6,7 @@ tags:
 title: Normal Form Game
 ---
 ## Normal Form Game
-A *Normal Form Game* (also *Matrix Form Game* or *Strategic Game*) if a type of games from the [Game Theory](Game_Theory)
+A *Normal Form Game* (also *[Matrix](Matrix) Form Game* or *Strategic Game*) if a type of games from the [Game Theory](Game_Theory)
 - main idea: the players move simultaneously
 - compare to [Extensive Form Game](Extensive_Form_Game)s where players move sequentially 
 

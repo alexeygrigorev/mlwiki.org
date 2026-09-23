@@ -6,7 +6,7 @@ tags:
 title: Separability
 ---
 ## Separability
-The monotonicity is a [Voting Theory](Voting_Theory) principle that characterizes voting methods for choosing the winner. 
+The [monotonicity](Monotonicity) is a [Voting Theory](Voting_Theory) principle that characterizes voting methods for choosing the winner. 
 
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/vt/separability.png" alt="Image">
 

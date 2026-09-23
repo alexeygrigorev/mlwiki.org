@@ -7,10 +7,10 @@ tags:
 title: Metric Trees
 ---
 ## Metric Trees
-Metric tree in an [indexing](Indexing_%28databases%29) structure that allows for efficient [KNN](KNN) search
+Metric [tree](Tree) in an [indexing](Indexing_%28databases%29) structure that allows for efficient [KNN](KNN) search
 
 Metric tree organizes a set of points hierarchically
-- It's a [binary tree](Binary_Search_Trees): nodes = sets of points, root = all points
+- It's a [binary tree](Binary_Search_Trees): nodes = [sets](Sets) of points, root = all points
 - sets across siblings (nodes on the same level) are all disjoint
 - at each internal node all points are partitioned into 2 disjoint sets
 

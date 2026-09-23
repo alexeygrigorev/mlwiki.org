@@ -27,7 +27,7 @@ and *control-flow nodes*
 
 Action Nodes 
 - perform workflow tasks 
-- e.g. running [Hadoop MapReduce](Hadoop_MapReduce), [Pig](Pig) or [Hive](Hive) jobs
+- e.g. running Hadoop MapReduce, [Pig](Pig) or Hive jobs
 - can also be an arbitrary shell script or a Java program
 
 

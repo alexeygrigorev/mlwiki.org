@@ -60,7 +60,7 @@ Proof
 - $S_1 = \sigma_1 \mathbf u_1 \mathbf v_1^T$ and $E_1 = \sigma_2^2 + \ ... \ + \sigma_r^2$
 - show that $E_1$ is the best achievable error
 - let $A_1$ be any rank-1 approximation, so it's error is $\|  A - A_1 \|^2$
-- this norm is preserved under multiplication by orthogonal matrices (see [Froubenius Norm](Froubenius_Norm))
+- this norm is preserved under multiplication by [orthogonal matrices](Orthogonal_Matrices) (see Froubenius Norm)
 - so $\|  A - A_1 \|^2 = \| U \Sigma V^T - A_1 \|^2 = \| \Sigma V^T - U^T A_1 \|^2 = \| \Sigma - U^T A_1 V \|^2$
 - let's write $U^T A_1 V$ as $\alpha \mathbf x \mathbf y^T$ with $\alpha > 0$ and unit vectors $\mathbf x \in \mathbb R^m$ and $\mathbf y \in \mathbb R^n$ 
 - so, $\|  \Sigma - U^T A_1 V \|^2_F = \| \Sigma \|^2_F - 2 \alpha \Sigma \mathbf x \mathbf y^T + \alpha^2 \| \mathbf x \mathbf y^T \|^2_F$

@@ -7,7 +7,7 @@ title: Observational Studies
 ---
 ## Observation Studies
 There are two types of [Data Collection](Data_Collection)
-- Observation Studies and [Statistical Experiment](Statistical_Experiment)s
+- [Observation Studies](Observation_Studies) and [Statistical Experiment](Statistical_Experiment)s
 
 In *Observation Studies* we observe existing characteristics of a subset of individuals in a population
 - typically done via surveys, by following smb, etc

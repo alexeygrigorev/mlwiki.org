@@ -15,7 +15,7 @@ This is a [Plot](Plot) that is used to show only one variable
 <img src="https://raw.githubusercontent.com/alexeygrigorev/wiki-figures/master/b/openintrostat/dotplot-1.png" alt="Image">
 
 It also shows
-- the [mean](Expected_Value) of the distribution (as the "balanced point" of this distribution)
+- the [mean](Expected_Value) of the [distribution](Distributions) (as the "balanced point" of this distribution)
 
 
 ### Stacked Dot Plot

@@ -7,7 +7,7 @@ title: Positive-Definite Matrices
 ---
 ## Positive-Definite Matrices
 ### Energy-Based Definition
-In [Linear Algebra](Linear_Algebra), a matrix an $n \times n$ matrix is Positive-definite matrix (PDM) if 
+In [Linear Algebra](Linear_Algebra), a [matrix](Matrix) an $n \times n$ matrix is Positive-definite matrix (PDM) if 
 - $\mathbf v^T A \mathbf v > 0$ for all $\mathbf v \in \mathbb R^n$
 - This is the energy based definition
 

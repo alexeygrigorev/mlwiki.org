@@ -124,7 +124,7 @@ So this way we try all values of our database table and return only matching one
 
 ### Properties
 CQs have an interesting property
-- The query containment problem is undecidable for SQL and [Relational Algebra](Relational_Algebra) (see [Logical Query Plan Optimization](Logical_Query_Plan_Optimization)), but it is decidable for Conjunctive Queries 
+- The query containment problem is undecidable for SQL and Relational Algebra (see [Logical Query Plan Optimization](Logical_Query_Plan_Optimization)), but it is decidable for Conjunctive Queries 
 - The decidability of containment is NP-complete problem, but usually CQs are not big, so it is acceptable 
 
 This makes CQs very suitable for [Logical Query Plan Optimization](Logical_Query_Plan_Optimization), namely, for [removing redundant joins](Logical_Query_Plan_Optimization#Removing_Redundant_Joins)

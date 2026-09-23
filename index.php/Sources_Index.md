@@ -17,12 +17,12 @@ Only papers I read and used as sources (or small books that don't deserve a sepa
 
 ### B
 ### C
-- Cristianini, Nello, John Shawe-Taylor, and Huma Lodhi. "Latent semantic kernels." 2002. [[Kernel Methods](http://eprints.soton.ac.uk/259781/1/LatentSemanticKernals_JIIS_18.pdf])(Kernel_Methods) [Latent Semantic Kernels](Latent_Semantic_Kernels)
+- Cristianini, Nello, John Shawe-Taylor, and Huma Lodhi. "[Latent semantic kernels](Latent_Semantic_Kernels)." 2002. [[Kernel Methods](http://eprints.soton.ac.uk/259781/1/LatentSemanticKernals_JIIS_18.pdf])(Kernel_Methods) Latent Semantic Kernels
 - Cutting, et al. "Scatter/gather: A cluster-based approach to browsing large document collections." 1992. [[Scatter/Gather](http://courses.washington.edu/info320/au11/readings/Week4.Cutting.et.al.1992.Scatter-Gather.pdf])(Scatter_Gather)
 
 ### D
-- Datar, Mayur, et al. "Locality-sensitive hashing scheme based on p-stable distributions." 2004. [[Locality Sensitive Hashing](http://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf])(Locality_Sensitive_Hashing), [Euclidean LSH](Euclidean_LSH)
-- De Smet, Yves. "An introduction to multicriteria decision aid: The PROMETHEE and GAIA methods." [PROMETHEE](PROMETHEE)
+- Datar, Mayur, et al. "Locality-sensitive hashing scheme based on p-stable [distributions](Distributions)." 2004. [[Locality Sensitive Hashing](http://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf])(Locality_Sensitive_Hashing), [Euclidean LSH](Euclidean_LSH)
+- De Smet, Yves. "An introduction to multicriteria decision aid: The [PROMETHEE](PROMETHEE) and GAIA methods." PROMETHEE
 - Deerwester, Scott C., et al. "Indexing by latent semantic analysis." 1990. [[Latent Semantic Analysis](http://www.cob.unt.edu/itds/faculty/evangelopoulos/dsci5910/LSA_Deerwester1990.pdf])(Latent_Semantic_Analysis)
 - Domingos, Pedro. "A few useful things to know about machine learning." 2012. [[Overfitting](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf])(Overfitting)
 
@@ -39,14 +39,14 @@ Only papers I read and used as sources (or small books that don't deserve a sepa
 
 ### I
 ### J
-- Jauregui, Jeff. "Principal component analysis with linear algebra." 2012. [[SVD](http://www.math.union.edu/~jaureguj/PCA.pdf])(SVD), [Principal Component Analysis](Principal_Component_Analysis)
-- Jing, Liping. "Survey of text clustering." 2008. [[Vector Space Model](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf])(Vector_Space_Model), [Document Clustering](Document_Clustering), [Cluster Analysis](Cluster_Analysis), [Subspace Clustering](Subspace_Clustering), [Semi-Supervised Clustering](Semi-Supervised_Clustering)
+- Jauregui, Jeff. "[Principal component analysis](Principal_Component_Analysis) with linear algebra." 2012. [[SVD](http://www.math.union.edu/~jaureguj/PCA.pdf])(SVD), Principal Component Analysis
+- Jing, Liping. "Survey of text clustering." 2008. [[Vector Space Model](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.3476&rep=rep1&type=pdf])(Vector_Space_Model), Document Clustering, [Cluster Analysis](Cluster_Analysis), [Subspace Clustering](Subspace_Clustering), Semi-Supervised Clustering
 
 
 ### K
 - Kalman, Dan. "A singularly valuable decomposition: the SVD of a matrix." 1996. [[SVD](http://www.math.washington.edu/~morrow/498_13/svd.pdf])(SVD)
-- Koll, Matthew B. "WEIRD: An approach to concept-based information retrieval." 1979. [Latent Semantic Analysis](Latent_Semantic_Analysis)
-- Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On principal component analysis, cosine and Euclidean measures in information retrieval." 2007. [[Principal Component Analysis](http://www.sciencedirect.com/science/article/pii/S0020025507002630])(Principal_Component_Analysis), [Latent Semantic Analysis](Latent_Semantic_Analysis), [Distance Functions](Distance_Functions), [Cosine Similarity](Cosine_Similarity), [Euclidean Distance](Euclidean_Distance)
+- Koll, Matthew B. "WEIRD: An approach to concept-based [information retrieval](Information_Retrieval)." 1979. Latent Semantic Analysis
+- Korenius, Tuomo, Jorma Laurikkala, and Martti Juhola. "On principal component analysis, cosine and Euclidean measures in information retrieval." 2007. [[Principal Component Analysis](http://www.sciencedirect.com/science/article/pii/S0020025507002630])(Principal_Component_Analysis), Latent Semantic Analysis, [Distance Functions](Distance_Functions), [Cosine Similarity](Cosine_Similarity), Euclidean Distance
 - Kristianto, et al. "Extracting definitions of mathematical expressions in scientific papers." 2012. [[Mathematical Definition Extraction](http://kaigi.org/jsai/webprogram/2012/pdf/719.pdf])(Mathematical_Definition_Extraction), [Math-Aware POS Tagging](Math-Aware_POS_Tagging)
 - Kristianto, et al. "Extracting Textual Descriptions of Mathematical Expressions in Scientific Papers." 2014. [[Mathematical Definition Extraction](http://www.dlib.org/dlib/november14/kristianto/11kristianto.html])(Mathematical_Definition_Extraction)
 
@@ -60,12 +60,12 @@ Only papers I read and used as sources (or small books that don't deserve a sepa
 ### M
 ### N
 ### O
-- Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." Data mining and knowledge discovery handbook. 2010. [[Cluster Analysis](http://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5])(Cluster_Analysis) [Agglomerative Clustering](Agglomerative_Clustering) [K-Means](K-Means)
+- Oikonomakou, Nora, and Michalis Vazirgiannis. "A review of web document clustering approaches." [Data mining](Data_Mining) and knowledge discovery handbook. 2010. [[Cluster Analysis](http://scholar.google.com/scholar?cluster=1261203777431390097&hl=ru&as_sdt=0,5])(Cluster_Analysis) [Agglomerative Clustering](Agglomerative_Clustering) K-Means
 - Osinski, Stanislaw. "Improving quality of search results clustering with approximate matrix factorisations." 2006. [[Non-Negative Matrix Factorization](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.74&rep=rep1&type=pdf])(Non-Negative_Matrix_Factorization)
 
 ### P
 - Pagael, Rober, and Moritz Schubotz. "Mathematical Language Processing Project." 2014. [[Mathematical Definition Extraction](http://arxiv.org/abs/1407.0167])(Mathematical_Definition_Extraction) [Math-Aware POS Tagging](Math-Aware_POS_Tagging)
-- Paulevé, Loïc, et al. "Locality sensitive hashing: A comparison of hash function types and querying mechanisms." 2010. [[Locality Sensitive Hashing](http://hal.inria.fr/inria-00567191/document])(Locality_Sensitive_Hashing), [K-Means LSH](K-Means_LSH)
+- Paulevé, Loïc, et al. "[Locality sensitive hashing](Locality_Sensitive_Hashing): A comparison of [hash function](Hash_Function) types and querying mechanisms." 2010. [[Locality Sensitive Hashing](http://hal.inria.fr/inria-00567191/document])(Locality_Sensitive_Hashing), [K-Means LSH](K-Means_LSH)
 
 
 ### Q
@@ -94,5 +94,5 @@ Only papers I read and used as sources (or small books that don't deserve a sepa
 ### Y
 
 ### Z
-- Zhai, ChengXiang. "Statistical language models for information retrieval." (Book) 2008. [Information Retrieval](Information_Retrieval), [Statistical Language Models](Statistical_Language_Models), [Multinomial Distribution](Multinomial_Distribution), [Smoothing for Language Models](Smoothing_for_Language_Models), [TF-IDF](TF-IDF), [Probabilistic Retrieval Model](Probabilistic_Retrieval_Model)
+- Zhai, ChengXiang. "[Statistical language models](Statistical_Language_Models) for information retrieval." (Book) 2008. Information Retrieval, Statistical Language Models, [Multinomial Distribution](Multinomial_Distribution), [Smoothing for Language Models](Smoothing_for_Language_Models), TF-IDF, [Probabilistic Retrieval Model](Probabilistic_Retrieval_Model)
 - Zhukov, Leonid, and David Gleich. "Topic identification in soft clustering using PCA and ICA". 2004. [[Latent Semantic Analysis](http://leonidzhukov.ru/papers/soft-clustering-pca-ica.pdf])(Latent_Semantic_Analysis)

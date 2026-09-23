@@ -7,7 +7,7 @@ tags:
 title: Chi-Squared Tests
 ---
 ## Chi-Squared Tests
-This is a family of [Statistical Tests](Hypothesis_Testing) that use [Chi-Squared Distribution](Chi-Squared_Distribution) to calculate values of the statistics 
+This is a family of [Statistical Tests](Hypothesis_Testing) that use [Chi-Squared Distribution](Chi-Squared_Distribution) to calculate values of the [statistics](Statistics) 
 
 
 ### One-Way and Two-Way Tables

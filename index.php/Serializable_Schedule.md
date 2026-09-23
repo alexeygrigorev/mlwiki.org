@@ -127,7 +127,7 @@ If there are 2 or more nodes with no incoming edges, just pick one of them
 $\square$
 
 ## Schedulers
-A [Scheduler](Scheduler) is a component of [Transaction Manager](Database) that schedules read/write requests.
+A [Scheduler](Scheduler) is a component of Transaction Manager that schedules read/write requests.
 
 The following schedulers produce Conflict-Serializable Schedules:
 - [Lock-Based Scheduler](Lock-Based_Scheduler)

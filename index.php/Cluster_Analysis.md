@@ -23,7 +23,7 @@ Application of Clustering
 
 
 
-[Similarity measures](Similarity_Functions) and [Distances](Distance_Functions):
+[Similarity measures](Similarity_Functions) and Distances:
 - [Euclidean Distance](Euclidean_Distance)
 - [Jaccard Coefficient](Jaccard_Coefficient)
 - [Dot Product](Dot_Product)
@@ -84,7 +84,7 @@ Algorithms:
 
 [Spectral Clustering](Spectral_Clustering)
 - apply [Graph Partitioning](Graph_Partitioning) but in some high-dimensional space
-- usually involves computing [Singular Values and Vectors](SVD) / [Eigenvalues and Eigenvectors](Eigenvalues_and_Eigenvectors) of the graph affinity matrix
+- usually involves computing [Singular Values and Vectors](SVD) / [Eigenvalues and Eigenvectors](Eigenvalues_and_Eigenvectors) of the graph affinity [matrix](Matrix)
 - usually has global optimum
 - criteria: Average Cut, Average Association, Normalized Cut, Min-Max Cut
 - when applied to [documents](Document_Clustering), under certain conditions resulting eigenspaces are equivalent to semantic spaces found by [Latent Semantic Analysis](Latent_Semantic_Analysis) 

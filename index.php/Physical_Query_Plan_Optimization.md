@@ -12,7 +12,7 @@ title: Physical Query Plan Optimization
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/query-processing-3rd.png" alt="Image">
 
 Translating SQL to RA expression is the first step in [Query Processing](Query_Processing) Pipeline
-- Input: Optimized Logical Query plan - expression in Extended [Relational Algebra](Relational_Algebra)
+- Input: Optimized Logical [Query plan](Query_Plan) - expression in Extended [Relational Algebra](Relational_Algebra)
 - Output: Optimized Physical Query Plan - expression in Relational algebra with each node assigned some [physical algorithm](Physical_Operators_%28databases%29)
 
 

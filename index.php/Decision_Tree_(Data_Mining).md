@@ -8,7 +8,7 @@ title: Decision Tree (Data Mining)
 ---
 ## Decision Tree
 This is a classification method used in [Machine Learning](Machine_Learning) and [Data Mining](Data_Mining) that is based on [Tree](Tree)s
-- not to confuse with Decision trees in [Decision Analysis](Decision_Analysis): [Decision Tree (Decision Theory)](Decision_Tree_%28Decision_Theory%29)
+- not to confuse with [Decision trees](Decision_Tree) in [Decision Analysis](Decision_Analysis): [Decision Tree (Decision Theory)](Decision_Tree_%28Decision_Theory%29)
 
 
 ### [Rule-Based Classifier](Rule-Based_Classifier)s

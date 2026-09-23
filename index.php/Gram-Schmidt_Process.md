@@ -9,7 +9,7 @@ $\require{cancel}$
 
 ## Gram-Schmidt Process
 In Linear Algebra, Gram-Schmidt process is a method for orthogonalization: 
-- given a matrix $A$ it produces an [Orthogonal Matrix](Orthogonal_Matrix) $Q$ from it
+- given a [matrix](Matrix) $A$ it produces an [Orthogonal Matrix](Orthogonal_Matrix) $Q$ from it
 - $A$ must have [linearly independent](Linear_Independence) columns
 
 

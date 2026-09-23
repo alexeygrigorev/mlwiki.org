@@ -6,7 +6,7 @@ tags:
 title: Chebyshev's Inequality
 ---
 ## Chebyshev's Inequality
-The probability that the deviation of a [random variable](Random_Variable) $X$ from its [expected value](Expected_Value) is less than a positive number $\epsilon$ in absolute value is at least $1 - \frac{\text{Var}(X)}{\epsilon^2}$:
+The [probability](Probability) that the deviation of a [random variable](Random_Variable) $X$ from its [expected value](Expected_Value) is less than a positive number $\epsilon$ in absolute value is at least $1 - \frac{\text{Var}(X)}{\epsilon^2}$:
 
 $P(\mid X - \mathbb{E}[X]\mid < \epsilon) \geqslant 1 - \frac{\text{Var}(X)}{\epsilon^2}$
 ## Proof

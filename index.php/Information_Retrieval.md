@@ -54,7 +54,7 @@ e.g. they contain the answer to the query
 [Information Retrieval Models](Information_Retrieval_Models):
 - the model should be able to represent both objects in the collection and the queries 
 - for documents the most popular one is [Vector Space Model](Vector_Space_Model)
-- but there are other [Information Retrieval Models](Information_Retrieval_Models): e.g. [Probabilistic Retrieval Model](Probabilistic_Retrieval_Model)
+- but there are other Information Retrieval Models: e.g. [Probabilistic Retrieval Model](Probabilistic_Retrieval_Model)
 
 
 

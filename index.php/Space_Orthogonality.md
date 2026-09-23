@@ -29,7 +29,7 @@ Two subspaces that meet in $\mathbf 0$ can be orthogonal
 <img src="http://habrastorage.org/files/a8f/5a6/c88/a8f5a6c88d5641afb9845c57911c0b15.png" alt="Image">
 
 
-### [Row space](Row_space) and [Nullspace](Nullspace)
+### [Row space](Row_Space) and [Nullspace](Nullspace)
 Row space $C(A^T)$ and nullspace $N(A)$ are orthogonal.
 - <img src="http://habrastorage.org/files/c67/a41/cc5/c67a41cc5bfb4bcaa634b1135f5d97ad.png" alt="Image">
 

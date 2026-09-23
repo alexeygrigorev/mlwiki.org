@@ -53,7 +53,7 @@ Matrices can be:
 ## Matrices as Vectors
 We can see matrices as vectors, and they also can form [Vector Spaces](Vector_Spaces)
 - see [Matrix Vector Spaces](Matrix_Vector_Spaces)
-- they have inner product (element-wise) and norm ([Frobenius Norm](Frobenius_Norm))
+- they have [inner product](Dot_Product) (element-wise) and norm ([Frobenius Norm](Frobenius_Norm))
 
 
 ## Sources

@@ -21,7 +21,7 @@ DFS(graph $G$, start vertex $s$):
 running time $O(n + m)$
 
 ## DFS applications
-- [Connected components](Breadth-First_Search#Connected_Components) like with [Breadth-First Search](Breadth-First_Search)
+- [Connected components](Breadth-First_Search#Connected_Components) like with Breadth-First Search
 - [Topological Ordering](Topological_Ordering)
 - [Strongly Connected Components](Strongly_Connected_Components)
 

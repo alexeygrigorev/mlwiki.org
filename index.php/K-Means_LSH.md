@@ -8,7 +8,7 @@ tags:
 title: K-Means LSH
 ---
 ## K-Means LSH
-Many of [LSH families](Locality_Sensitive_Hashing) are structured quantizers: they don't take into account underlying statistics
+Many of [LSH families](Locality_Sensitive_Hashing) are structured quantizers: they don't take into account underlying [statistics](Statistics)
 - for example, [E2LSH](Euclidean_LSH) is structured:
 - we choose only quantization step $w$ and offset $b$ and have little influence on the density of individual cells
 - but can address this issue by learning a [Vector Quantizer](Vector_Quantizer) - such as [K-Means](K-Means): this way we can adapt the cell size to the density of the space in the cell

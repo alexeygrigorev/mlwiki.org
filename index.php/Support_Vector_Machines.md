@@ -260,7 +260,7 @@ Given $x$,
 ### SVM parameters
 SVM has two parameters
 - $C$ (which is equivalent to $\cfrac{1}{\lambda}$  where $\lambda$ is a [Regularization](Regularization) term)
-  - large $C$: lower bias, higher variance (same as small $\lambda$): prone to [overfitting](Overfitting)
+  - large $C$: lower bias, higher [variance](Variance) (same as small $\lambda$): prone to [overfitting](Overfitting)
   - small $C$: higher bias, lower variance (same as big $\lambda$): prone to underfitting
 - $\sigma^2$ for Gaussian Kernels 
   - large $\sigma^2$: features $f_i$ vary more smoothly, results in higher bias, lower variance

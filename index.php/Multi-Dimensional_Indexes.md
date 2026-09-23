@@ -39,7 +39,7 @@ Need to impose [lexicographical order](B-Tree#Lexicographical_Order) on keys in 
 - don't answer all our queries - see [B-Tree#Multiple Keys](B-Tree#Multiple_Keys)
 
 ### Hash Tables
-For [Hash-Based Indexes](Indexing_%28databases%29)#Hash-Based_Indexes) we need to compute [Hash Function](Hash_Function) for tuples
+For Hash-Based Indexes#Hash-Based_Indexes) we need to compute [Hash Function](Hash_Function) for tuples
 - extend hash function: $h(x, y, z) = h_1(x) + h_2(y) + h_3(z)$
 
 Problem 

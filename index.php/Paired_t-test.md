@@ -9,7 +9,7 @@ tags:
 title: Paired t-test
 ---
 ## Paired t-test
-This variation of [t-test](t-test) is used for Paired Data
+This variation of [t-test](T-test) is used for Paired Data
 
 ### Paired Data
 Two set of observations are *paired* if each observation in one set has exactly one corresponding observation is another set. 

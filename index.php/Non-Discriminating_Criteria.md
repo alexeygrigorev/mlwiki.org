@@ -15,7 +15,7 @@ For example,
 $f_k$ is non-discriminating criterion because for all alternatives it evaluates to $\alpha$
 - this criteria is meaningless 
 - we want to delete it
-- but we must be careful: because it may lead to [Rank Reversal](Rank_Reversal) for some [MCDA](MCDA) methods
+- but we must be careful: because it may lead to [Rank Reversal](Rank_Reversal) for some MCDA methods
 - for [PROMETHEE](PROMETHEE) it will not: we can safely remove such criteria 
 
 

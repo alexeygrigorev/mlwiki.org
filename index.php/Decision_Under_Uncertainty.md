@@ -6,7 +6,7 @@ tags:
 title: Decision Under Uncertainty
 ---
 ## Decision Under Uncertainty
-This is a tool to model [Decision Analysis](Decision_Analysis) problems. Unlike [Decision Under Risk](Decision_Under_Risk), here we cannot obtain the probability distribution of possible consequences, can only list the scenarios. 
+This is a tool to model [Decision Analysis](Decision_Analysis) problems. Unlike [Decision Under Risk](Decision_Under_Risk), here we cannot obtain the [probability](Probability) [distribution](Distributions) of possible consequences, can only list the scenarios. 
 
 
 ; Decision Under Uncertainty

@@ -13,9 +13,9 @@ title: Hadoop in Data Warehousing
 
 
 ## Introduction
-Today the amounts of data stored in [Data Warehouse](Data_Warehouse)s are becoming more and more enormous. While traditional ways of Data Warehousing design on top of [Relational Databases](Relational_Databases) are still popular, they fail to curb terabytes of data efficiently, which is mostly attributed to complexity of scaling relational databases. There are new emerging approaches that try to address this problem. 
+Today the amounts of data stored in Data Warehouses are becoming more and more enormous. While traditional ways of Data Warehousing design on top of [Relational Databases](Relational_Databases) are still popular, they fail to curb terabytes of data efficiently, which is mostly attributed to complexity of scaling relational databases. There are new emerging approaches that try to address this problem. 
 
-One of such approaches is to use the [MapReduce](MapReduce) paradigm and [Hadoop](Hadoop) as the implementation for building large Data Warehouses over distributed network of servers that can handle huge volumes of data. Hadoop has already become a proven tool for BigData analytics and now there is a rising interest in this technology for Data Warehousing purposes .
+One of such approaches is to use the [MapReduce](MapReduce) paradigm and Hadoop as the implementation for building large Data Warehouses over distributed network of servers that can handle huge volumes of data. Hadoop has already become a proven tool for BigData analytics and now there is a rising interest in this technology for Data Warehousing purposes .
 
 The goal of the work is to discuss in what ways Hadoop, as a Map-Reduce framework, can be used in Data Warehouses then compare it with traditional approaches and see in which situations it should be beneficial to use Hadoop in a Data Warehousing project. Additionally we plan to see what are cases where traditional approaches should still be preferred over Hadoop. 
 
@@ -65,7 +65,7 @@ Virtual views
 - Filtering, Grouping and Aggregations
   - easily supported by hadoop
 - joins
-  - recall that [Reduce-Side Joins](MapReduce#Reduce-Side_Join) are expensive - it may lead to data re-distribution
+  - recall that Reduce-Side Joins are expensive - it may lead to data re-[distribution](Distributions)
   - it's better to denormalize dimension tables as much as possible
   - i.e. store all data in fact tables
 
@@ -75,7 +75,7 @@ Denormalization works well
 
 ### Queries
 Special-purpose QL for querying it
-- Like [Pig](Pig) and [Hive](Hive) they are compiled to [MapReduce](MapReduce) jobs
+- Like [Pig](Pig) and Hive they are compiled to MapReduce jobs
 - With some optimizations
 
 Unfortunately Chetach is proprietary - wasn't able to play with it

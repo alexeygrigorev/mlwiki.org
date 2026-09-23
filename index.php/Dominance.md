@@ -9,7 +9,7 @@ tags:
 title: Dominance
 ---
 ## [Unanimity](Unanimity)
-Unanimity is principle from [Voting Theory](Voting_Theory) that is the same as Dominance: 
+[Unanimity](Unanimity) is principle from [Voting Theory](Voting_Theory) that is the same as Dominance: 
 
 If a candidate $a$ is always preferred by the majority to $b$, then we can say that $b$ is dominated by $a$ and never consider $b$ again
 
@@ -94,7 +94,7 @@ Pareto-Dominance
 Pareto-Optimality 
 - outcome $O^*$ is *pareto-optimal* if there is no other outcome that pareto-dominates it
 - a game can have more than one pareto-optimal outcome
-- for [Zero-Sum Game](Zero-Sum_Game)s every outcome is pareto-optimal
+- for [Zero-Sum Game](Zero_Sum_Game)s every outcome is pareto-optimal
 
 
 

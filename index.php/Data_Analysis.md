@@ -78,7 +78,7 @@ Steps:
   - may have to use [ETL](ETL)s for that and load the data into a [Data Warehouse](Data_Warehouse)
 1. [Exploratory Data Analysis](Exploratory_Data_Analysis)
   - Playing with data in R
-  - try different things: [Plots](Plots), [Histograms](Histograms), etc
+  - try different things: [Plots](Plots), [Histograms](Histogram), etc
   - learn the main characteristics: distribution, mean, medium, outliers, etc
   - [Univariate Analysis](Univariate_Analysis), [Bivariate Analysis](Bivariate_Analysis)
   - Summarizing the DAta

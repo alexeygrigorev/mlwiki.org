@@ -19,7 +19,7 @@ Many functions are continuous, for example:
 - [Polynomial Functions](Polynomial_Functions)
 - [Rational Functions](Rational_Functions)
 - [Trigonometric Functions](Trigonometric_Functions)
-- [Exponential Functions](Exponential_Functions) and [Logarithms](Logarithms)
+- [Exponential Functions](Exponential_Function) and [Logarithms](Logarithms)
 
 
 Careful

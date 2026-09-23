@@ -116,7 +116,7 @@ plot_ci(sampl.m - me, sampl.m + me, mean(population))
 
 
 ### Margin Of Error
-If the [Sampling Distribution](Sampling_Distribution) is symmetric (e.g. [Normal Distribution](Normal_Distribution) or [t-Distribution](t-Distribution)) we can calculate the CI bounds by adding and subtracting the *margin of error* 
+If the Sampling Distribution is symmetric (e.g. [Normal Distribution](Normal_Distribution) or [t-Distribution](t_Distribution)) we can calculate the CI bounds by adding and subtracting the *margin of error* 
 - *margin of error* is typically percentile ($z$ or $t$ score) multiplied by [Standard Error](Standard_Error)
 
 
@@ -144,7 +144,7 @@ A method  for constructing CIs is *robust* if
 - the resulting CIs include the theoretical parameter approximately the percentage claimed by the confidence level
 - even if not all necessary conditions for the CIs are satisfied
 
-[$t$-distribution](t-distribution) is very robust and works well for the [Normal Distribution](Normal_Distribution) as well as for skewed distributions
+[$t$-distribution](t-distribution) is very robust and works well for the Normal Distribution as well as for skewed [distributions](Distributions)
 
 
 ### Relationship with [Hypothesis Testing](Statistical_Tests_of_Significance)

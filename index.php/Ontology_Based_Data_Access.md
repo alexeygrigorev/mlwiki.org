@@ -20,7 +20,7 @@ Difference: Ontologies and traditional [Database](Database)s
 
 
 Use [SPARQL](SPARQL) for querying ontologies
-- it can be translated to [First Order Logic](First_Order_Logic) expression and [Conjunctive Queries](Conjunctive_Query)
+- it can be translated to First Order Logic expression and [Conjunctive Queries](Conjunctive_Query)
 
 Example:
 ```carbon

@@ -9,7 +9,7 @@ title: Exploratory Data Analysis
 This is a stage in [Data Analysis](Data_Analysis)/[Data Mining](Data_Mining)
 - to get initial understating of the data source
 - e.g. understand the [Distribution](Distribution) of the values in this data
-- typically using visual tools: [Plots](Plots) and graph
+- typically using visual tools: [Plots](Plots) and [graph](Graph)
 
 
 However other things can also be done at this stage
@@ -17,7 +17,7 @@ However other things can also be done at this stage
 - [Univariate Analysis](Univariate_Analysis) - to analyze how variable values behave in isolation
 - [Bivariate Analysis](Bivariate_Analysis) - to analyze how two variables interact
   - [Correlation](Correlation)
-  - [Chi-Square Test of Independence](Chi-Square_Test_of_Independence) to see if two variables are dependent
+  - [Chi-Square Test of Independence](Chi-square_Test_of_Independence) to see if two variables are dependent
 - also simple forms of [Cluster Analysis](Cluster_Analysis) to spot patterns at earlier stages
 
 ## [Plots](Plots)

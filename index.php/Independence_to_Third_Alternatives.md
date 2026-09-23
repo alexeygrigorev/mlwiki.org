@@ -6,7 +6,7 @@ tags:
 title: Independence to Third Alternatives
 ---
 ## Independence to Third Alternatives
-Independence to Third Alternatives, or Independence to Irrelevant alternatives is a principle of [Voting Theory](Voting_Theory).
+Independence to Third Alternatives, or [Independence](Independence) to Irrelevant alternatives is a principle of [Voting Theory](Voting_Theory).
 - it says that if another alternative is added or removed, the position of a candidate should remain at least as good as it was
 - this is an important principle in [Arrow's Impossibility Theorem](Arrow's_Impossibility_Theorem)
 - also in [MCDA](MCDA) methods violation of this principle leads to [Rank Reversal](Rank_Reversal)

@@ -8,7 +8,7 @@ tags:
 title: Z-tests
 ---
 ## $Z$ Tests
-This is a family of [statistical tests](Hypothesis_Testing) that use [Normal Model](Normal_Distribution) to compute test statistics 
+This is a family of [statistical tests](Hypothesis_Testing) that use [Normal Model](Normal_Distribution) to compute test [statistics](Statistics) 
 - most of the time $Z$ tests are restricted versions of [$t$-tests](t-tests), so it's more advisable to use $t$ tests, especially because for larger degrees of freedom [$t$-distribution](t_Distribution) is very close to Normal
 
 

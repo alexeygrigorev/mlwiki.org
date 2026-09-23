@@ -8,7 +8,7 @@ There are two types of Decision Trees:
 - [Decision Tree (Data Mining)](Decision_Tree_%28Data_Mining%29)
 
 
-In [Decision Analysis](Decision_Analysis), [decision trees](Decision_Tree_%28Decision_Theory%29) are used 
+In [Decision Analysis](Decision_Analysis), decision trees are used 
 - to visually and explicitly represent decisions and decision making. 
 
 

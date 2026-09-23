@@ -12,7 +12,7 @@ Combinations of size $k$ from $n$ elements are all possible selections of length
 
 $C_n^k$ is the number of combinations of size $k$ that can be formed from $n$ elements.
 
-First, we form all combinations of size $k$ from $n$ elements, and then permute the elements in each of them in all possible ways - this gives us all possible partial permutations of size $k$ from $n$ elements. From each combination, $k!$ [permutations](Permutations) can be made, hence
+First, we form all combinations of size $k$ from $n$ elements, and then permute the elements in each of them in all possible ways - this gives us all possible [partial permutations](Partial_Permutations) of size $k$ from $n$ elements. From each combination, $k!$ [permutations](Permutations) can be made, hence
 $k!\cdot C_n^k = A_n^k, C_n^k = \frac{A_n^k}{k!} = \frac{n!}{(n - k)! \cdot k!}$
 This function coincides with the formula for the number of permutations of $k$ elements of one type and $(n-k)$ elements of a second type
 

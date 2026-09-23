@@ -22,7 +22,7 @@ Objects to be clustered are
 
 
 Applications:
-- [Cluster Analysis](Cluster_Analysis) is also useful in [Text Mining](Text_Mining) 
+- Cluster Analysis is also useful in [Text Mining](Text_Mining) 
 - E.g. organizing documents for better [Information Retrieval](Information_Retrieval)
 - Organizing documents intro hierarhical clusters  Cutting1992
 - see Anick1997, Cutting1993 ([Scatter/Gather](Scatter_Gather))
@@ -32,7 +32,7 @@ Applications:
 
 
 ## Preprocessing
-Usual [NLP](Natural_Language_Processing)/[IR](Information_Retrieval)
+Usual [NLP](Natural_Language_Processing)/IR
 
 
 ### Document Representation
@@ -63,7 +63,7 @@ In text mining usually referred as "Term Selection":
 
 
 ## Clustering
-- [Hierarchical Clustering](Hierarchical_Clustering): good for Document clustering because it creates a tree structure
+- [Hierarchical Clustering](Hierarchical_Clustering): good for Document clustering because it creates a [tree](Tree) structure
 - Partitioning Clustering Algorithms
   - [K-Means](K-Means)
   - [Scatter/Gather](Scatter_Gather)
@@ -124,7 +124,7 @@ Clustering terms and documents at the same time
 ### [Latent Semantic Analysis](Latent_Semantic_Analysis)
 Using [PCA](PCA) define new features from terms 
 - it creates a new semantic space where problems like symomymy or polysemy are solved 
-- term-document matrix is decomposed using [SVD](SVD)
+- term-document [matrix](Matrix) is decomposed using [SVD](SVD)
 
 
 Not only SVD is good:

@@ -16,7 +16,7 @@ title: Database Systems Architecture (ULB)
 [Logical Query Plan](Query_Plan#Logical_Query_Plan)
 - [Relational Algebra](Relational_Algebra)
 - [Translating SQL to Relational Algebra](Translating_SQL_to_Relational_Algebra)
-- [Logical Query Plan Optimization](Logical_Query_Plan_Optimization): Heuristics and optimization of [Conjunctive Queries](Conjunctive_Query)
+- [Logical Query Plan Optimization](Logical_Query_Plan_Optimization): Heuristics and [optimization](Optimization) of [Conjunctive Queries](Conjunctive_Query)
 
 [Physical Query Plan](Query_Plan#Physical_Query_Plan)
 - [Physical Operators (databases)](Physical_Operators_%28databases%29)

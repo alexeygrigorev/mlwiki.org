@@ -75,7 +75,7 @@ Index can be clustered or unclustered
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/ind/hash-ways-to-store.png" alt="Image">
 - Usually there is only one clustered index per relation (otherwise the data will be duplicated)
 
-If an index (say, [B-Tree](B-Tree)) is not clustered, then instead of following each pointer other techniques can be used, such as [Bitmap Heap Scan](Bitmap_Heap_Scan)
+If an index (say, B-Tree) is not clustered, then instead of following each pointer other techniques can be used, such as [Bitmap Heap Scan](Bitmap_Heap_Scan)
 
 
 ## [Information Retrieval](Information_Retrieval) Indexing

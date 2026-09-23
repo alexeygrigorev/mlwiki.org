@@ -9,7 +9,7 @@ title: Text Normalization
 ---
 ## Text Normalization
 It's a part of [NLP Pipeline](NLP_Pipeline) for preprocessing text data 
-- normalization = applying some linguistic models to [tokens](Tokenization) of text
+- [normalization](Feature_Normalization) = applying some [linguistic models](Linguistic_Models) to [tokens](Tokenization) of text
 - text tokens often have some minor difference in spelling, but refer to same thing
 - need to recognize such tokens and reduce them to the same common form
 

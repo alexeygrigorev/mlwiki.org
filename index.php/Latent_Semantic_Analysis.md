@@ -337,7 +337,7 @@ human.dot(user) / (la.norm(human) * la.norm(user))
 
 
 ### Mean Centering
-LSA and [Principal Component Analysis](Principal_Component_Analysis) are related via [SVD](SVD)
+LSA and [Principal Component Analysis](Principal_Component_Analysis) are related via SVD
 - but for PCA we often do mean centering. Why not here? 
 - Angle (and cosine) is not preserved when doing mean-correction, so it may affect pair-wise similarities 
 - <img src="https://habrastorage.org/files/60e/825/3b3/60e8253b34ba496da20ed47df2e21bf2.png" alt="Image">
@@ -350,7 +350,7 @@ LSA and [Principal Component Analysis](Principal_Component_Analysis) are related
 
 
 ## Extensions of LSA
-- add probability over documents: [Probabilistic LSA](Probabilistic_LSA)
+- add [probability](Probability) over documents: [Probabilistic LSA](Probabilistic_LSA)
 - and a similar technique: [Latent Dirichlet Allocation](Latent_Dirichlet_Allocation)
 - can also use [Non-Negative Matrix Factorization](Non-Negative_Matrix_Factorization) to discover latent structure of data
 

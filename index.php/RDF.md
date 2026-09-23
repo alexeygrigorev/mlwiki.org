@@ -128,13 +128,13 @@ In Turtle it's
 ## [Semantic Web](Semantic_Web)
 RDF is a basis for the Semantic Web 
 - [RDFS](RDFS) is schema for RDF that allows some basic inference
-- [RDFS-Plus](RDFS-Plus) extension of RDFS, and subset of [OWL](OWL)
-- [OWL](OWL) - Web Ontologies Language 
+- [RDFS-Plus](RDFS-Plus) extension of RDFS, and subset of OWL
+- OWL - Web [Ontologies](Ontologies) Language 
 
 All of them use RDF to express the language constructs
 
 ### Querying
-- [SPARQL](SPARQL) is used for querying RDF graphs
+- [SPARQL](SPARQL) is used for querying RDF [graphs](Graphs)
 
 
 ## RDF Serialization

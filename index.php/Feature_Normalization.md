@@ -21,7 +21,7 @@ Min-max normalization
 - normalize to scale $[\text{new_min}_A, \text{new_max}_A]$
 - for each new value, calculate $v'= \cfrac{v - \text{min}_A}{\text{max}_A - \text{min}_A} \cdot (\text{new_max}_A - \text{new_min}_A) + \text{new_min}_A$
 - the easiest model
-- not always good - if there are [outliers](outliers) 
+- not always good - if there are [outliers](Outliers) 
 
 Example
 - income range between 12K to 98K

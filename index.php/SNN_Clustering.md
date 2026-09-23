@@ -26,7 +26,7 @@ Distance:
 
 
 Step 1: SNN sparsification:
-- construct an SSN [Graph](Graph) from data matrix as follows
+- construct an SSN [Graph](Graph) from data [matrix](Matrix) as follows
 - if $p$ and $q$ have each others in the KNN list
 - then create a link between them 
 
@@ -64,7 +64,7 @@ Need different intuition of density
 - can use a related concept from 
 - if $k$th nearest neighbor is close, then the region is most likely of high density
 - so the distance to $k$th neighbor gives a measure of density of a point
-- because of the [Curse of Dimensionality](Curse_of_Dimensionality), the approach is not good for [Euclidean Distance](Euclidean_Distance), [Cosine Similarity](Cosine_Similarity) or others
+- because of the [Curse of Dimensionality](Curse_of_Dimensionality), the approach is not good for Euclidean Distance, [Cosine Similarity](Cosine_Similarity) or others
 - but we can use the SNN-Similarity to define density
 
 

@@ -7,7 +7,7 @@ tags:
 title: Exact Binomial Proportion Tests
 ---
 ## Exact Binomial Test
-This is a [Statistical Test](Statistical_Test) for proportions that uses the [Binomial Distribution](Binomial_Distribution) as the null (sampling) distribution. 
+This is a [Statistical Test](Statistical_Test) for proportions that uses the [Binomial Distribution](Binomial_Distribution) as the null ([sampling](Sampling)) [distribution](Distributions). 
 
 It doesn't use the [Normal Approximation](Binomial_Distribution#Normal_Approximation)
 - because sometimes it's possible to use the Binomial model directly 
@@ -49,7 +49,7 @@ Observed data:
 Normal Model
 - the Success-Failure condition is not met: $p_A \cdot 62 = 0.10 \approx 6.2 < 10$
   - under $H_0$ we'd expect to see only 6.2 complications 
-- thus cannot use [Normal Approximation](Binomial_Distribution#Normal_Approximation) and perform a [Binomial Proportion Test](Binomial_Proportion_Tests)
+- thus cannot use Normal Approximation and perform a [Binomial Proportion Test](Binomial_Proportion_Tests)
 
 
 Apply the Binomial Model:

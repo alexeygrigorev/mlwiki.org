@@ -89,7 +89,7 @@ In Linear algebra we typically use different notation
 ### Projection onto $C(A)$
 Suppose we have a matrix $A$ with out observations
 - the system $A \mathbf x = \mathbf b$ has no solution
-- We [project](Projection_onto_Subspaces) $\mathbf b$ on the [Column Space](Column_Space) $C(A)$
+- We [project](Projection_onto_Subspaces) $\mathbf b$ on the Column Space $C(A)$
 - how do we do it? $C(A)$ is all the combinations of columns in $A$, so they form a hyperplane in $\mathbb R^m$ 
 - $\mathbf b$ is not on this hyperplane - otherwise we would not need to project on it
 

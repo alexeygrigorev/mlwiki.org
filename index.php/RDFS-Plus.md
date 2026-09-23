@@ -9,7 +9,7 @@ title: RDFS-Plus
 In [Semantic Web](Semantic_Web) [RDFS-Plus](RDFS-Plus) is an extension of [RDFS](RDFS), and a subset of [OWL](OWL)
 - even though the namespace is [OWL](OWL), it's considered as a subset 
 - [Inference](Inference_in_Semantic_Web) rules are shown with [SPARQL](SPARQL) CONSTRUCT queries
-- for logical semantics behind there expressions see [Semantic Web Logic](Semantic_Web_Logic)
+- for logical semantics behind there expressions see [Semantic Web Logic](Semantic_Web_Logics)
 - DL-Lite something
 
 

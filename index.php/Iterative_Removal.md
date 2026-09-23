@@ -27,7 +27,7 @@ Note:
 
 
 ### Property 1
-If a matrix game ([Normal Form Game](Normal_Form_Game)) can be solved by using iterative removal of strictly dominated strategies
+If a [matrix](Matrix) game ([Normal Form Game](Normal_Form_Game)) can be solved by using iterative removal of strictly dominated strategies
 - (1) then the found solution is a [Nash Equilibrium](Nash_Equilibrium)
 - (2) this equilibrium is unique
 

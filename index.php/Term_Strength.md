@@ -38,7 +38,7 @@ Yes (Wilbur1992):
 - use [Cosine Similarity](Cosine_Similarity) to find most related documents 
 - set some threshold $t$ and let all pairs with cosine $> t$ be related 
 
-Then we can estimate $s(t)$ using [Maximum Likelihood Estimation](Maximum_Likelihood_Estimation) for [Multinomial Distribution](Multinomial_Distribution)
+Then we can estimate $s(t)$ using Maximum Likelihood Estimation for [Multinomial Distribution](Multinomial_Distribution)
 $$\hat s(t) = \cfrac{\text{# of pairs where $t$ occurs both in $x$ and $y$}}{\text{# of pairs where $t$ occurs in $x$}}$$
 
 

@@ -9,7 +9,7 @@ tags:
 title: Two-Sample t-test
 ---
 ## Two-Sample t-test
-This type of [$t$-test](t-test) is used when we want to compare the means of two different samples
+This type of [$t$-test](T-test) is used when we want to compare the means of two different samples
 - suppose that we have two samples $a$ and $b$ of sizes $n_a$ and $n_b$ resp.
 - we're interested in inferring something about $\mu_a - \mu_b$ 
 - [Point Estimate](Point_Estimate) in this case is $\bar{X}_a - \bar{X}_b$

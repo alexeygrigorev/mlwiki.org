@@ -32,7 +32,7 @@ Example 2
 
 
 ### Matrices
-Columns of a matrix $A$ are independent if the [Nullspace](Nullspace) $N(A)$ contains only $\mathbf 0$
+Columns of a [matrix](Matrix) $A$ are independent if the [Nullspace](Nullspace) $N(A)$ contains only $\mathbf 0$
 - otherwise the columns are dependents
 - Why? recall that $N(A)$ contains the solutions to the [system $A\mathbf x = \mathbf 0$](Homogeneous_Systems_of_Linear_Equations) 
   - so there's a combination of columns with coefficients $\mathbf x$ that is equal to $\mathbf 0$ 

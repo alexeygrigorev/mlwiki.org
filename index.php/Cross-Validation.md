@@ -18,7 +18,7 @@ We can split all the data into 2 subsets
 it's better to choose examples for training/testing sets randomly 
 
 
-| + Error Metrics ||    |  Prediction  |  Classification   |   Example Model   |  [Linear Regression](Multivariate_Linear_Regression)  |  [Logistic Regression](Logistic_Regression) ||   Test Error  | colspan="2" | $J_{\text{test}}(\theta) = \cfrac{1}{m_{\text{test}}} \sum \text{error} \big(h_{\theta}(x_{\text{test}}^{(i)}), y_{\text{test}}^{(i)} \big)$ ||   $\text{error}(h_{\theta}(x), y)$  |  Average Square Error <br> $\text{error}(h_{\theta}(x), y) = \cfrac{1}{2} (h_{\theta}(x) - y)^2$ ||  Misclassification Error <br> $\text{error}(h_{\theta}(x), y) = \left\{\begin{array}{l} 0 \text { if classification is correct} \\ 1 \text{ otherwise} \end{array}\right.$ |
+| + [Error Metrics](Evaluation_of_Binary_Classifiers) ||    |  Prediction  |  Classification   |   Example Model   |  [Linear Regression](Multivariate_Linear_Regression)  |  [Logistic Regression](Logistic_Regression) ||   Test Error  | colspan="2" | $J_{\text{test}}(\theta) = \cfrac{1}{m_{\text{test}}} \sum \text{error} \big(h_{\theta}(x_{\text{test}}^{(i)}), y_{\text{test}}^{(i)} \big)$ ||   $\text{error}(h_{\theta}(x), y)$  |  Average Square Error <br> $\text{error}(h_{\theta}(x), y) = \cfrac{1}{2} (h_{\theta}(x) - y)^2$ ||  Misclassification Error <br> $\text{error}(h_{\theta}(x), y) = \left\{\begin{array}{l} 0 \text { if classification is correct} \\ 1 \text{ otherwise} \end{array}\right.$ |
 
 
 ## Cross-Validation

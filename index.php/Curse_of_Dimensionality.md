@@ -6,7 +6,7 @@ tags:
 title: Curse of Dimensionality
 ---
 ## Curse of Dimensionality
-In high dimensional space distances (esp. [Euclidean Distance](Euclidean_Distance)) become less meaningful
+In high dimensional space [distances](Distance_Functions) (esp. [Euclidean Distance](Euclidean_Distance)) become less meaningful
 - distance between each pair of point is almost the same 
 - for many data distributions and distances  
 

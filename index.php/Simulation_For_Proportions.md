@@ -16,7 +16,7 @@ Consider Proportions test
 - there are a set of assumptions that have to be met to use the [Normal Approximation](Binomial_Distribution#Normal_Approximation)
 - what if one of them is not met, e.g. Success-Failure condition?
 - use [Exact Binomial Proportion Tests](Exact_Binomial_Proportion_Tests) - apply the Binomial Model directly
-- or simulate draws from the binomial model and obtain the [Sampling Distribution](Sampling_Distribution) (or the null distribution)
+- or simulate draws from the binomial model and obtain the [Sampling Distribution](Sampling_Distribution) (or the null [distribution](Distributions))
 
 
 
@@ -59,7 +59,7 @@ Observed data:
 Normal Model
 - the Success-Failure condition is not met: $p_A \cdot 62 = 0.10 \approx 6.2 < 10$
   - under $H_0$ we'd expect to see only 6.2 complications 
-- thus cannot use [Normal Approximation](Binomial_Distribution#Normal_Approximation) and perform a [Binomial Proportion Test](Binomial_Proportion_Tests)
+- thus cannot use Normal Approximation and perform a [Binomial Proportion Test](Binomial_Proportion_Tests)
 
 
 What we can do? 

@@ -212,7 +212,7 @@ In this case:
 
 
 ## Undo/Redo Logging
-[Undo/Redo Logging](Undo_Redo_Logging) is the combination of Undo Logging and [Redo Logging](Redo_Logging)
+[Undo/Redo Logging](Undo_Redo_Logging) is the combination of Undo Logging and Redo Logging
 
 
 ## Exercises

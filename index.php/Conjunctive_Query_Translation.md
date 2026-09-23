@@ -10,7 +10,7 @@ This describes translation algorithms from [Relational Algebra](Relational_Algeb
 
 
 ## Translation to [Conjunctive Queries](Conjunctive_Query)
-We can translate a [Relational Algebra](Relational_Algebra) expression that is in [Select-Project-Join](Select-Project-Join_Expressions) form into CQ. Note that it is not possible to translate any other form to it
+We can translate a Relational Algebra expression that is in [Select-Project-Join](Select-Project-Join_Expressions) form into CQ. Note that it is not possible to translate any other form to it
 - for SQL, first [translate SQL to TA](Translating_SQL_to_Relational_Algebra)
 - then find the minimal possible [SPJ Expression](Select-Project-Join_Expressions)
 - translate it as suggested below 

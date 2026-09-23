@@ -85,7 +85,7 @@ Survey
 These principles are recommendation - best practices 
 - use URIs to talk about things 
 - HTTP URIs are better so people can access them 
-- when somebody uses this URI, make use of standards ([RDF](RDF), [SPARQL](SPARQL)) to describe things
+- when somebody uses this URI, make use of standards (RDF, [SPARQL](SPARQL)) to describe things
 - include links to other resources 
 
 Links

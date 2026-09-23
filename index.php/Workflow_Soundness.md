@@ -7,7 +7,7 @@ title: Workflow Soundness
 ---
 ## Workflow Soundness
 Soundness is a notion of correctness of workflow nets
-- for [Petri Nets](Petri_Nets) and [Workflow Nets](Workflow_Nets)
+- for [Petri Nets](Petri_Nets) and Workflow Nets
 - for [YAWL](YAWL)
 
 These properties are usually checked with [Reachability Graph](Reachability_Graph)s

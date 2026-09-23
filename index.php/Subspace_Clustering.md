@@ -12,7 +12,7 @@ Textual data (esp in [Vector Space Models](Vector_Space_Models)) suffers from th
 
 
 But often we can use the following idea:
-- correlation in high-dimensional data is usually local (esp. in [text data](Text_Mining))
+- [correlation](Correlation) in high-dimensional data is usually local (esp. in [text data](Text_Mining))
 - for some data items features are correlated, but for some the same features are not
 
 

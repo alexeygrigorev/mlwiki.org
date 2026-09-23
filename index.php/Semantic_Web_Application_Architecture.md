@@ -16,7 +16,7 @@ Main tools:
 ### Parsers & Serializers
 Parser
 - RDF can be in [XML/RDF](XML_RDF) or [Turtle](Turtle) format
-- Parser converts in into an [RDF](RDF) graph
+- Parser converts in into an RDF [graph](Graph)
 
 Serializer
 - does the opposite: from a graph it creates a serialized version of it
@@ -33,7 +33,7 @@ Sometimes the data source is not in RDF form
 ### RDF Store
 This is a database
 - tuned for storing and retrieving triples 
-- also should have an ability to merge information from multiple data sources (unlike [Relational Databases](Relational_Databases))
+- also should have an ability to merge information from multiple [data sources](Data_Sources) (unlike Relational Databases)
 
 
 ### RDF Query Engine

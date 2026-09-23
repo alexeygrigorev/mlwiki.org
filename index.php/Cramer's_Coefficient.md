@@ -27,7 +27,7 @@ The Cramer's coefficient $v$
 
 
 ## Example
-Consider the same example as for [$\chi^2$ Test](chi-square_Test_of_Independence)
+Consider the same example as for [$\chi^2$ Test](Chi-square_Test_of_Independence)
 
 <table>
 <tr>

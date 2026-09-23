@@ -17,7 +17,7 @@ This is a [Hadoop](Hadoop) data processing tool on top of [HDFS](HDFS)
 
 ## [MapReduce](MapReduce) Jobs
 ### Jobs
-*Job* is a specification that should be run on the cluster by [Hadoop](Hadoop)/[YARN](YARN)
+*Job* is a specification that should be run on the cluster by Hadoop/[YARN](YARN)
 - it's a unit of work
 - contains: paths to input data, the MapReduce program (Map and Reduce UDFs) and configuration
 - a job can have several input paths, and one output path
@@ -370,7 +370,7 @@ Performance issues:
 - no schema, no index, need to parse each input
   - may cause performance degradation
 - not tuned for multidimensional queries
-- possible solutions: [HBase](HBase), [Hive](Hive)
+- possible solutions: [HBase](HBase), Hive
 - because of fault-tolerance and scalability - it's not always optimized for I/O cost
   - all intermediate results are materialized (no [Pipelining](Pipelining))
   - triple replication

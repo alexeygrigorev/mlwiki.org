@@ -46,7 +46,7 @@ Example:
 - is this case, $\sqrt{x}$ dominates $\ln x$: it grows much faster
 - so the limit is 0
 
-To say that one function grows faster than other, we can use the [Big-O notation](Order_of_Growth)
+To say that one function grows faster than other, we can use the [Big-O notation](Orders_of_Growth)
 
 
 ### Other Cases

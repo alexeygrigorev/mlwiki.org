@@ -6,7 +6,7 @@ tags:
 title: Preferential Independence
 ---
 ## Preferential Independence
-The preference independence principle is an important principle from [MCDA](MCDA) for choosing criteria: they should be preferential independent.
+The preference [independence](Independence) principle is an important principle from [MCDA](MCDA) for choosing criteria: they should be preferential independent.
 
 Suppose we have 4 alternatives $a,b,c,d$ and a subset of criteria $J \subset G$ such that
 - $g_i(a) = g_i(b), \forall i \not \in J$

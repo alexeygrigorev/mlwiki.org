@@ -70,7 +70,7 @@ During reads
 
 
 
-In many systems (Dynamo, MongoDB, [CouchDB](CouchDB)) conflicts are allowed and it is usually up to the application to resolve them, and then put the reconciled version back to the database. 
+In many systems (Dynamo, MongoDB, [CouchDB](CouchDB)) conflicts are allowed and it is usually up to the application to resolve them, and then put the reconciled version back to the [database](Database). 
 
 
 ## Configurable Consistency

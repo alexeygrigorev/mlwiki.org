@@ -18,7 +18,7 @@ title: Interview questions
 - [Data Science Interview Questions](Data_Science_Interview_Questions)
 - [Algo interview questions](Algo_interview_questions): Algorithms and data structures
 - [Design interview questions](Design_interview_questions): design principles, patterns, etc
-- [DB interview questions](DB_interview_questions): Databases and SQL
+- [DB interview questions](DB_interview_questions): [Databases](Database) and SQL
 - [XML interview questions](XML_interview_questions)
 
 

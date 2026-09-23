@@ -8,7 +8,7 @@ tags:
 title: T-tests
 ---
 ## $t$ Tests
-$t$-tests is a family of [Statistical tests](Hypothesis_Testing) that use $t$-statistics (those values come from the [$t$-distribution](t_Distribution)) to calculate $p$-values
+$t$-tests is a family of [Statistical tests](Hypothesis_Testing) that use $t$-[statistics](Statistics) (those values come from the [$t$-distribution](t_Distribution)) to calculate $p$-values
 
 
 The following tests are $t$-tests:
@@ -20,13 +20,13 @@ The following tests are $t$-tests:
 
 ## When To Use
 ### Assumptions
-Assumptions for $t$ tests are similar to the assumptions of the [$z$-tests](z-tests)
+Assumptions for $t$ tests are similar to the assumptions of the [$z$-tests](Z-tests)
 - Observations are independent (if less than 10% of population is sampled, then we can make sure it's satisfied)
 - Sample size is sufficiently large so [C.L.T.](Central_Limit_Theorem) holds
 - Moderate skew, few outliers (not too extreme)
 
 
-### vs [$z$-tests](z-tests)
+### vs [$z$-tests](Z-tests)
 Sample Size
 - the sample size can be smaller than for $z$-tests 
 - so it can be smaller than 30 - after 30 we can safely use $z$-tests with almost the same outcomes 

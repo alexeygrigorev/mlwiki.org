@@ -20,7 +20,7 @@ It's a part of [Statistics](Statistics) that, based on a small [sample](Sampling
 - We estimate the parameters based on sampled data 
 - So with different samples (from the same population) we get different estimates of the same parameter
 - A one-number estimate of some population parameter is called [Point Estimate](Point_Estimate)
-- The distribution of this parameter estimate is called [Sampling Distribution](Sampling_Distribution) 
+- The [distribution](Distributions) of this parameter estimate is called [Sampling Distribution](Sampling_Distribution) 
 - and the measure of variability is called [Standard Error](Standard_Error)
 
 Main tools

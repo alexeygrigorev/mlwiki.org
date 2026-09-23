@@ -26,7 +26,7 @@ This matrix $A$ is a special matrix:
 - all these columns are same directions 
 
 [Subspaces](Four_Fundamental_Subspaces):
-- [Row Space](Row_Space): all combinations of $\mathbf v$ 
+- [Row Space](Row_Space): all [combinations](Combinations) of $\mathbf v$ 
 - [Column Space](Column_Space): all combinations of  $\mathbf u$
 
 

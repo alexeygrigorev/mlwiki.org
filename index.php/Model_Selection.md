@@ -8,7 +8,7 @@ title: Model Selection
 ## Model Selection
 Model Selection is a way to fit parameters such as 
 - learning rate $\alpha$ for [Gradient Descent](Gradient_Descent)
-- regularization term $\lambda$ for [Regularization](Regularization)
+- [regularization](Regularization) term $\lambda$ for Regularization
 - what degree of polynomial to use (see [Cross-Validation#Cross-Validation](Cross-Validation#Cross-Validation))
 - and so on 
 

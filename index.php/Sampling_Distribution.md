@@ -10,7 +10,7 @@ title: Sampling Distribution
 Our goal is to be able to estimate theoretical parameters with a data sample. 
 
 Example:
-- we want to estimate the probability of getting heads in coin flipping [experiment](Experiments)
+- we want to estimate the [probability](Probability) of getting heads in coin flipping [experiment](Experiments)
 - flip a coin 10 times, 
 - count number of heads 
 

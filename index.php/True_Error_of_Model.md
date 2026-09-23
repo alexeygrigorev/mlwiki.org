@@ -28,7 +28,7 @@ the *sample error* of $C$ calculated on sample $S$ is
 - the proportion of examples in $S$ that $C$ misclassified
 - $\text{error}(C, S) = \cfrac{1}- $\text{acc}(C, S)  = \cfrac{1}
 
-But usually we have training and testing sets (see [Cross-Validation](Cross-Validation))
+But usually we have training and testing [sets](Sets) (see [Cross-Validation](Cross-Validation))
 - i.e. we have some data set $S$ (drawn from the population with distribution $P$) 
 - learning set $R \subset S$,
 - training set $T \subset S$,

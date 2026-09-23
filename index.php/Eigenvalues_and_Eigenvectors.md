@@ -180,7 +180,7 @@ This matrix is used for [Matrix Diagonalization](Eigendecompostion)
 
 
 ## Usage
-- Matrix decomposition: [Eigendecomposition](Eigendecomposition) ([Spectral Theorem](Spectral_Theorem)) and [SVD](SVD)
+- Matrix decomposition: Eigendecomposition ([Spectral Theorem](Spectral_Theorem)) and [SVD](SVD)
   - Eigenvectors give a good basis, especially for [Symmetric Matrices](Symmetric_Matrices): they are orthogonal 
 - [Principal Component Analysis](Principal_Component_Analysis)
 - [Markov Chains](Markov_Chains) and [PageRank](PageRank) 

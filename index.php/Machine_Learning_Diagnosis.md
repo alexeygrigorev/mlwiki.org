@@ -30,7 +30,7 @@ To test if we overfit, we can perform [Cross-Validation](Cross-Validation#Evalua
 ## Diagnosing Bias vs Variance
 the main sources of problems are 
 - high bias (underfit)
-- high variance ([Overfitting](Overfitting))
+- high [variance](Variance) (Overfitting)
 
 
 ### Fitting Polynomial

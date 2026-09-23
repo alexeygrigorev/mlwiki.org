@@ -48,7 +48,7 @@ Estimation:
   - this is the estimate of the expected error $E \Big[ \text{error} \big(A_1(R), D \big) - \text{error} \big(A_2(R), D \big) \Big]$
 
 
-### $K$-Fold CV Paired [$t$-Test](t-Test)
+### $K$-Fold CV Paired [$t$-Test](T-test)
 Let's conduct a [Statistical Tests of Significance](Statistical_Tests_of_Significance):
 - assume (under the null hypothesis) that $A_1$ and $A_2$ have equal expected accuracy
 - $t = \cfrac{\delta^*}{\sigma}$ follows the [Student distribution](Student_distribution) with $K-1$ degrees of freedom

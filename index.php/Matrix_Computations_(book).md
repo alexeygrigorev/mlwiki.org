@@ -25,7 +25,7 @@ Basics
 - [Diagonalization](Diagonalization)
 
 [Orthogonalization](Orthogonalization) and [Least Squares](Ordinary_Least_Squares)
-- [Orthogonalization](Orthogonalization) and [QR Decomposition](QR_Decomposition)
+- Orthogonalization and [QR Decomposition](QR_Decomposition)
 - [Householder Transformation](Householder_Transformation)
 - [Givens Transformation](Givens_Transformation)
 - [Gram-Schmidt Process](Gram-Schmidt_Process)

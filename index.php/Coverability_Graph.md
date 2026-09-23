@@ -14,7 +14,7 @@ This is a way of representing states of workflows, similar to [Reachability Grap
 ### Motivation
 Consider the following [YAWL](YAWL) flow:
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/yawl/yawl-cr-unboundness.png" alt="Image">.
-- because of the [Cancellation Regions](Cancellation_Regions) the [Reachability Graph](Reachability_Graph) of this workflow becomes infinitely large
+- because of the [Cancellation Regions](Cancellation_Regions) the Reachability Graph of this workflow becomes infinitely large
 - it is possible to know when we need to stop expanding it?
   - if there was no Cancellation Region, it would be enough just to repeat it 2 times to see that there's no proper termination
   - but in this case we don't know when to stop 

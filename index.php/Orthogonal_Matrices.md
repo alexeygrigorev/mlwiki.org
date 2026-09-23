@@ -136,7 +136,7 @@ Orthogonal matrices are very nice because it's very easy to invert them
 
 ## Orthogonalization
 How do we make matrices orthogonal? 
-- [Gram-Schmidt Process](Gram-Schmidt_Process) and [QR Factorization](QR_Factorization)
+- [Gram-Schmidt Process](Gram-Schmidt_Process) and QR Factorization
 - this preserves the column space $C(A)$
 
 Also,

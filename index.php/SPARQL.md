@@ -7,7 +7,7 @@ tags:
 title: SPARQL
 ---
 ## SPARQL
-In [Semantic Web](Semantic_Web), SPARQL is a query language for getting information from [RDF](RDF) graphs
+In [Semantic Web](Semantic_Web), SPARQL is a query language for getting information from [RDF](RDF) [graphs](Graphs)
 - SPARQL = SPARQL Protocol and RDF Query Language
 - matches graph patterns - so also a graph matching language 
 - it's a variant of [Turtle](Turtle) adapted for querying

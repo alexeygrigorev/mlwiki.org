@@ -192,7 +192,7 @@ or:
 t.test(d, conf.int=0.95)$confint
 ```
 
-The last chuck actually uses [$t$-test](t-test) and returns its confidence interval
+The last chuck actually uses [$t$-test](T-test) and returns its confidence interval
 
 
 ### Examples

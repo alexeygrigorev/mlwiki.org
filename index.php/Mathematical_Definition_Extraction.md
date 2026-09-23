@@ -47,7 +47,7 @@ We have an identifier and want to find what it stands for.
 ## Preprocessing
 The typical pipeline is the following:
 - Latex documents / Wiki Documents
-- => [MathML](MathML) 
+- => [MathML](Math_ML) 
 - => Extract identifiers from MathML
 - => Replace formulas with tags
 - => Annotate ([Math-Aware POS Tagging](Math-Aware_POS_Tagging))

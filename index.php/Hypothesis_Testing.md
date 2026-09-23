@@ -125,10 +125,10 @@ The final step:
 - *make a conclusion based on the $p$-value* and on the context of the problem (important|  ) 
 
 ## Common Test Statistics
-- [$z$-tests](z-tests) - [normal](Normal_Distribution), for comparing means
+- [$z$-tests](Z-tests) - [normal](Normal_Distribution), for comparing means
 - [Binomial Proportion Test](Binomial_Proportion_Test)s - for comparing proportions, typically approximated by $z$ statistics as well
 - [$t$-tests](t-tests) - like $z$, but more relaxed (uses [$t$-distribution](t_Distribution), for comparing means
-- [$\chi^2$-tests](Chi-Squared_Tests) - for normality, variance and goodness of fit 
+- [$\chi^2$-tests](Chi-Squared_Tests) - for normality, [variance](Variance) and goodness of fit 
 - [$F$-tests](F-tests) ([ANOVA](ANOVA)) - for checking more than 2 samples for equality of means
 
 
@@ -247,7 +247,7 @@ So
 
 
 ### General Advice
-- Start with [Explanatory Data Analysis](Explanatory_Data_Analysis) e.g. using [Plots](Plots) and [Summary Statistics](Summary_Statistics) 
+- Start with [Explanatory Data Analysis](Exploratory_Data_Analysis) e.g. using [Plots](Plots) and [Summary Statistics](Summary_Statistics) 
 - watch for [skewed distributions](Distributions), [Outliers](Outliers), etc 
   - before using some test statistics, make sure the corresponding assumptions about the data hold
 

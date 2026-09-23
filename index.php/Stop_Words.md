@@ -18,7 +18,7 @@ Stop words are *function words*:
 
 ## Stop Words Removal
 In many cases stop words are not needed:
-- for example, in [Information Retrieval](Information_Retrieval) or [NLP](NLP)
+- for example, in Information Retrieval or [NLP](NLP)
 - they don't have enough descriptive power to distinguish between relevant and not relevant documents: all documents have them
 - so, before [indexing](Inverted_Index) they are often removed
 - it also makes the index much smaller

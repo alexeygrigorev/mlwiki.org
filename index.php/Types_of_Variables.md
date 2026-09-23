@@ -8,7 +8,7 @@ title: Types of Variables
 ---
 ## Types of Variables
 When we have a table with data, rows correspond to *observation units* (subjects, etc.) and columns are *variables*. 
-- NB: Don't confuse with [Random Variable](Random_Variable)s from Probability Theory
+- NB: Don't confuse with [Random Variable](Random_Variable)s from [Probability](Probability) Theory
 
 
 There are several types of variables: 

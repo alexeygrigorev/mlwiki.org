@@ -6,7 +6,7 @@ tags:
 title: Vector Subspaces
 ---
 ## Subspaces
-A subspace of a [Vector Space](Vector_Space) is a vector space on its own 
+A subspace of a [Vector Space](Vector_Space) is a [vector space](Vector_Spaces) on its own 
 
 
 ## Illustration by example

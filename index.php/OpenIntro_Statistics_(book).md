@@ -57,9 +57,9 @@ Examining Numerical Data
 
 [Hypothesis Testing](Hypothesis_Testing)
 - [Confidence Intervals and Statistical Tests](Confidence_Intervals_and_Statistical_Tests)
-- [z-tests](z-tests) and [t-tests](t-tests) for means (one-sample and two-sample)
+- [z-tests](Z-tests) and [t-tests](t-tests) for means (one-sample and two-sample)
 - [Binomial Proportion Tests](Binomial_Proportion_Tests) for testing (one-sample and two-sample) for using Normal Approximation
-  - [Exact Binomial Proportion Tests](Exact_Binomial_Proportion_Tests) for using [Binomial Distribution](Binomial_Distribution)
+  - [Exact Binomial Proportion Tests](Exact_Binomial_Proportion_Tests) for using Binomial Distribution
 - [ANOVA](ANOVA) and [One-Way ANOVA F-Test](One-Way_ANOVA_F-Test) for testing relationships between Numerical and Categorical variables
 - [Chi-Squared Tests](Chi-Squared_Tests) for testing relationships between two Categorical variables
 

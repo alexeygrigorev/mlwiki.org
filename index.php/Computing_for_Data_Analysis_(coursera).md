@@ -268,7 +268,7 @@ x[name] => smth
 x$name => NULL
   - ("name" doesn't exist)
 - x[c(1, 3)](c(1,_3)) => 1st list, 3th el
-  - the same: x[1](1)[3](3)
+  - the same: x1[3](3)
 - partial matching
   - x <- list(longname=1:5)
 x$lo => returns $longname

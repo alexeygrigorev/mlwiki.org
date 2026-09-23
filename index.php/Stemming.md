@@ -21,7 +21,7 @@ Usage:
 ## Algorithms
 Need to reduce words to a stem (root) form
 - use language-dependent rules
-- usually they are in a form of [Automaton](Deterministic_Finite_Automate) that gradually reduces a token to its stem
+- usually they are in a form of [Automaton](Deterministic_Finite_Automata) that gradually reduces a token to its stem
 - for example, there's a Porter Algorithm and Snowball Stemmer
  
 

@@ -33,7 +33,7 @@ KNN approach is used in [SNN Clustering](SNN_Clustering)
 ### [Probability Density Estimation](Probability_Density_Estimation)
 - If $k$th nearest neighbor is close, then the region is most likely of high density
 - so the distance to $k$th neighbor gives a measure of density of a point
-- can use it with [Euclidean Distance](Euclidean_Distance), [Cosine Similarity](Cosine_Similarity) or SNN Similarity (see [SNN Clustering](SNN_Clustering))
+- can use it with [Euclidean Distance](Euclidean_Distance), [Cosine Similarity](Cosine_Similarity) or SNN Similarity (see SNN Clustering)
 
 
 
@@ -45,7 +45,7 @@ Also note that for high dimensional data many distance/similarity measures becom
 
 ## Indexing for KNN Queries
 Brute force search for $k$NN takes $O(N)$ where $N$ is the size of the database
-- need to use [Multi-Dimensional Indexes](Multi-Dimensional_Indexes), for example, trees: [Kd-Trees](Kd-Trees) or [R-Tree](R-Tree)s
+- need to use [Multi-Dimensional Indexes](Multi-Dimensional_Indexes), for example, [trees](Tree): [Kd-Trees](Kd-Trees) or [R-Tree](R-Tree)s
 - however for high dimensional data tree performance degrades from $O(\log N)$ to $O(N)$
 - see Weber98: all indexing techniques degrade to linear search for large dimensionality
 - also can't use classical hash-based indexes (like [Linear Hashing](Linear_Hashing) or [Extensible Hashing](Extensible_Hashing)): they aim at exact match and don't handle KNN queries

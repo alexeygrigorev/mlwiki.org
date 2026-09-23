@@ -8,7 +8,7 @@ title: Latent Semantic Kernels
 $\require{cancel}$
 
 ## Latent Semantic Kernels
-In [Information Retrieval](Information_Retrieval) via [Vector Space Model](Vector_Space_Model), retrieval is based on inner product as well
+In [Information Retrieval](Information_Retrieval) via [Vector Space Model](Vector_Space_Model), retrieval is based on [inner product](Dot_Product) as well
 - so can also use [Kernels](Kernels)
 - You can already use [SVM](SVM) for text data and get very good performance 
 - but also can incorporate additional information by using a kernel

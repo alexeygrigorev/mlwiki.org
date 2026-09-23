@@ -61,7 +61,7 @@ Quantization:
 - i.e. we get the following hash function:
 - $h_{\mathbf x, b}(\mathbf v) = \left\lfloor \cfrac{\mathbf v \cdot \mathbf x + b}{w} \right\rfloor$
 - where $w$ is the length of each quantization bucket
-- and $b$ is a [Random Variable](Random_Variable) sampled from the [Uniform Distribution](Uniform_Distribution): $b \sim \text{unif}[0, w]$
+- and $b$ is a Random Variable sampled from the [Uniform Distribution](Uniform_Distribution): $b \sim \text{unif}[0, w]$
 - $w$ - quantization step
 
 

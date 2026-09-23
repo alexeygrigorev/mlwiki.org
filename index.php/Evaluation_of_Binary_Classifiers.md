@@ -40,7 +40,7 @@ So for evaluating a classifier we need to set some baseline
 
 
 ## Confusion Matrix
-Confusion matrix is a $2 \times 2$ [Contingency Table](Contingency_Table)
+Confusion [matrix](Matrix) is a $2 \times 2$ [Contingency Table](Contingency_Table)
 - We divide our predictions and mis-predictions into this matrix
 
 

@@ -25,7 +25,7 @@ Problem here:
 - [Concurrency Control](Concurrency_Control) techniques are used for that
 
 ### Transaction Manager
-- Transaction Manager is a component of a [DBMS](Database) that has a scheduler
+- Transaction Manager is a component of a DBMS that has a [scheduler](Scheduler)
 - The *scheduler* is responsible for creating an impressions that all transactions are run in isolation
 
 

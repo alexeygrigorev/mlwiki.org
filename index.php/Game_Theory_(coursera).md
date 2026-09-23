@@ -11,7 +11,7 @@ title: Game Theory (coursera)
 The [Game Theory](http://www.coursera.org/course/gametheory) course covers the basics of [game theory](Game_Theory)
 
 
-== [Game Theory](Game_Theory) == 
+## [Game Theory](Game_Theory)
 ### Games by Form
 - [Normal Form Game](Normal_Form_Game)
 - [Extensive Form Game](Extensive_Form_Game)

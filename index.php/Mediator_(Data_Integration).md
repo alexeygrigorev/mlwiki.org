@@ -24,7 +24,7 @@ Querying:
 - user queries the global schema
 - based on the mappings, queries are converted to local queries for the data sources 
 - all queries are executed
-- then the results are combined (e.g. using some [Ontologies](Ontologies) - which is why this approach is useful for [OBDA](OBDA))
+- then the results are combined (e.g. using some Ontologies - which is why this approach is useful for [OBDA](OBDA))
 
 
 ## Semantic Mapping

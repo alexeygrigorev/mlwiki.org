@@ -54,7 +54,7 @@ So it's performed in two steps
 - reduce phase
 
 Implementation on top of [Distributed File System](Hadoop_Distributed_File_System) is little bit more complex and needs some additional logic for replicating and so on. 
-- For Hadoop implementation refer to [Hadoop#Map-Reduce Job Execution](Hadoop#Map-Reduce_Job_Execution)
+- For [Hadoop](Hadoop) implementation refer to Hadoop#Map-Reduce Job Execution
 
 
 ### Example

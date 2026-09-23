@@ -9,7 +9,7 @@ title: External Merge Sort
 ---
 ## External Merge Sort
 Full name: *External Memory Multi-Way Merge Sort*
-- same idea as in in-memory [Merge Sort](Merge_Sort), but extended to [Secondary Storage](Secondary_Storage)
+- same idea as in in-memory Merge Sort, but extended to [Secondary Storage](Secondary_Storage)
 
 
 ## Algorithm
@@ -24,7 +24,7 @@ Notation:
 ### First Pass
 1-st pass:
 - read $M$ blocks
-- sort all elements in memory with any sorting algorithm (say, [Merge Sort](Merge_Sort) or [Quick Sort](Quick_Sort))
+- sort all elements in memory with any sorting algorithm (say, Merge Sort or [Quick Sort](Quick_Sort))
 - write sorted results back to disk 
 - repeat for remaining blocks of $R$ until all are processed
 

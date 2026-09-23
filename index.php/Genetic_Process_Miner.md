@@ -39,7 +39,7 @@ How to create a petri net from two other petri nets?
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/bpm/pm/gm-crossover-p.png" alt="Image">
 - we may find some *minimal cut*, cut the parents and make children from then 
   - minimal cut is the minimal number of transitions to remove s.t. the net becomes completely disconnected 
-  - the same as in the [Graph](Graph) Theory: [Minimal Cut](Minimal_Cut)
+  - the same as in the [Graph](Graph) Theory: Minimal Cut
 - in this example: 
   - can cut in $(e, f)$ because in both cases 
   - from $e$ it goes to $g,h$  and on the left you have $a,b,c,d$ 

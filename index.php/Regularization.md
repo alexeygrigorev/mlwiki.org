@@ -66,7 +66,7 @@ To find the best value for this parameter, [Model Selection](Model_Selection) te
 ## Usage
 ### Regularized [Linear Regression](Multivariate_Linear_Regression)
 #### [Gradient Descent](Gradient_Descent)
-When we use [Gradient Descent](Gradient_Descent) (or other optimization technique), we have the following algorithm:
+When we use [Gradient Descent](Gradient_Descent) (or other [optimization](Optimization) technique), we have the following algorithm:
 - repeat:
   - for all $j$
   - $\theta_j = \theta_j - \cfrac{\partial}{\partial \theta_j} J(\theta)$

@@ -7,7 +7,7 @@ title: PROMETHEE/Properties
 ---
 ## [PROMETHEE](PROMETHEE)/Properties
 ### The PROMETHEE Property
-Note that this pair-wise gives us [Valued Preference](Valued_Preference) Graph
+Note that this pair-wise gives us [Valued Preference](Valued_Preference) [Graph](Graph)
 - <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/de/mcda/promethee-valued-pref.png" alt="Image">
 - this is local information, but we want to get the global final rankings
 

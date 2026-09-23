@@ -112,7 +112,7 @@ It's a Bayesian Smoothing with special prior: [Dirichlet Distribution](Dirichlet
 - let $\alpha_i = \mu \cdot P(w_i \mid C)$, $\mu$ - param, $P(w_i \mid C)$
 
 
-Dirichlet is a [Conjugate Prior](Conjugate_Prior) for [Multinomial Distribution](Multinomial_Distribution)
+Dirichlet is a [Conjugate Prior](Conjugate_Prior) for Multinomial Distribution
 - it means that the prior has the same functional form as the likelihood
 
 

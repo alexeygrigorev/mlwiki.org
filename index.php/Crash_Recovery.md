@@ -19,7 +19,7 @@ Undesired events can be:
 Recall that 
 - we may be operating on things in memory that have not been flushed to disk yet
 - suppose the power is cut - this means these changes are lost  
-- if only a part of transaction was written to disk - the database is left in in[consistent](Consistency_(Databases)) state
+- if only a part of transaction was written to disk - the [database](Database) is left in in[consistent](Consistency_%28databases%29) state
 
 ### Operations
 Under this model we define the following operations:
@@ -59,7 +59,7 @@ Usually deal with it with [Database Transaction Log](Database_Transaction_Log) (
 
 
 ## See also
-- [ACID](ACID): [Consistency (databases)](Consistency_%28databases%29) and [Durability (databases)](Durability_%28databases%29)
+- [ACID](ACID): Consistency (databases) and [Durability (databases)](Durability_%28databases%29)
 - [Database Transaction Log](Database_Transaction_Log)
 - [Undo/Redo Logging](Undo_Redo_Logging)
 

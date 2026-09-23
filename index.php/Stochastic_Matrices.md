@@ -38,7 +38,7 @@ If $\lambda_1 < 0$, then $A^k$ for large $k$ will converge to $\mathbf O$ - a ma
 - $\text{det } (A - \lambda I)^T = \text{det } (A^T - \lambda I) = 0$
 
 
-### [Recurrent Equation](Recurrent_Equation)
+### [Recurrent Equation](Recurrence_Equation)
 - $\mathbf u_k = A^k \mathbf u_0$
 - Let's use the eigenvectors $\mathbf v_1 , \ ... \ , \mathbf v_n$ of $A$ as basis 
 - then $\mathbf u_k = A^k \mathbf u_0 = c_1 \lambda_1^k \mathbf v_1 + c_2 \lambda_2^k \mathbf v_2 + \ ... \ c_n \lambda_n^k \mathbf v_n$

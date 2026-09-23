@@ -169,7 +169,7 @@ Test:
 we approximate each $\mu$ by $\bar{x}$
 
 
-|    |  OF  |  IF  |  DH  |  C  | + Summary statistics (source: table 5.27, [OpenIntro](OpenIntro_Statistics_%28book%29)) ||   Sample size ($n_i$)   |  120  |  154  |  14  |  39 ||   Sample mean ($\bar{x}_i$)   |  0.334  |  0.332  |  0.348  |  0.323 ||   Sample SD ($s_i$)   |  0.029  |  0.037  |  0.036  |  0.045 |
+|    |  OF  |  IF  |  DH  |  C  | + [Summary statistics](Summary_Statistics) (source: table 5.27, [OpenIntro](OpenIntro_Statistics_%28book%29)) ||   Sample size ($n_i$)   |  120  |  154  |  14  |  39 ||   Sample mean ($\bar{x}_i$)   |  0.334  |  0.332  |  0.348  |  0.323 ||   Sample SD ($s_i$)   |  0.029  |  0.037  |  0.036  |  0.045 |
 
 <img src="http://habrastorage.org/files/05a/241/ce5/05a241ce52204838a53ad13554c3372d.png" alt="Image">
 (source: fig 5.28, [OpenIntro](OpenIntro_Statistics_%28book%29))

@@ -14,7 +14,7 @@ Using [Voting Theory Relations](Voting_Theory_Relations) for $N = 2$ we define U
 
 It follows from two principles
 - Non-Imposition and [Monotonicity](Monotonicity)
-- shown in [Arrow's Impossibility Theorem](Arrow's_Impossibility_Theorem) ([Unanimity consequence](Arrow's_Impossibility_Theorem#Consequence_1__Unanimity))
+- shown in [Arrow's Impossibility Theorem](Arrow's_Impossibility_Theorem) (Unanimity consequence)
 
 If a candidate $a$ is always preferred by the majority to $b$, then we can say that $b$ is dominated by $a$ and never consider $b$ again
 

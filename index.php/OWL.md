@@ -13,7 +13,7 @@ Several languages
 - OWL-Full - No limits, but some things can be undecidable
 - OWL-DL - [Descriptive Logic](Descriptive_Logic)
 - OWL-Lite - [RDFS-Plus](RDFS-Plus), DL-Lite
-- for logical semantics behind there expressions see [Semantic Web Logic](Semantic_Web_Logic)
+- for logical semantics behind there expressions see [Semantic Web Logic](Semantic_Web_Logics)
 
 
 

@@ -6,7 +6,7 @@ tags:
 title: Database System Catalog
 ---
 ## Database System Catalog
-To estimate a cost of [Physical operators](Physical_Operators_%28databases%29) in a DBMS we use the following statistics:
+To estimate a cost of [Physical operators](Physical_Operators_%28databases%29) in a DBMS we use the following [statistics](Statistics):
 - $B(R)$ - # of blocks that relation $R$ holds
 - $T(R)$ - # of tuples in $R$
   - typically can be used to calculate $B(R)$ when we know how many bytes we have per block

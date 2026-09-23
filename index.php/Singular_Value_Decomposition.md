@@ -9,7 +9,7 @@ title: Singular Value Decomposition
 ## Singular Value Decomposition
 SVD is a decomposition of rectangular $m \times n$ matrix $A$ as
 - $A = U \Sigma V^T$ where
-- $U$ is an $m \times m$ orthogonal matrix with [Eigenvectors](Eigenvectors) of $A A^T$
+- $U$ is an $m \times m$ [orthogonal matrix](Orthogonal_Matrices) with [Eigenvectors](Eigenvectors) of $A A^T$
 - $\Sigma$ is an diagonal $m \times n$  matrix with [Eigenvalues](Eigenvalues) of both $A^T A$ and $A A^T$
 - $V$ is an $n \times n$ orthogonal matrix with [Eigenvalues](Eigenvalues) of $A^T A$
 

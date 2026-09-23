@@ -16,9 +16,9 @@ title: NoSQL
 
 ### Downsides
 - many services don't require complex ad-hoc querying
-- typically choose consistency over availability (see the [CAP Theorem](CAP_Theorem))
+- typically choose [consistency](Consistency_(databases)) over availability (see the [CAP Theorem](CAP_Theorem))
 - replication solutions are limited
-  - use traditional replication algorithms to give strong consistency (like [Two-Phase Commit](Two-Phase_Commit))
+  - use traditional replication algorithms to give strong [consistency](Consistency_(databases)) (like [Two-Phase Commit](Two-Phase_Commit))
   - but data is not made available until the commit finishes (and the database is back to the consistent state)
   - not an option for systems where network failures are possible
 - as the volume of data grows, queries become inefficient - not easily scalable
@@ -45,7 +45,7 @@ Main unit of data is a document - a self-contained (typically) record with all i
 - Not for big data
 
 ### NoSQL features
-- No [ACID](ACID) transactions, usually use weaker concurrency model ([BASE](BASE))
+- No ACID transactions, usually use weaker concurrency model ([BASE](BASE))
 - Simpler API - usually no query language
 - restricted joins (for better efficiency)
 - Ability to horizontally scale "simple operations" throughput over many servers 
@@ -70,7 +70,7 @@ Pioneered the idea of eventual consistency as a new way to achieve higher availa
 - updates are guaranteed to be propagated to all nodes (eventually)
 - DHT (Distributed Hash Table) with replication 
   - for $N$ replicas stores values at servers $k$, $k + 1$, ..., $k + N - 1$ 
-  - [eventually consistent](Eventual_Consistency) via [vector clock](Vector_Clock) to capture causality
+  - eventually consistent via [vector clock](Vector_Clock) to capture causality
 - Reconciliation at read time:
   - writes never fail
   - conflict resolution: last write wins or application specific

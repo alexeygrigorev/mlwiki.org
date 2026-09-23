@@ -8,7 +8,7 @@ title: Inverse-Rules Algorithm
 ## Inverse-Rules Algorithm
 This is an approach for query rewriting used in [LAV Mediation](LAV_Mediation)
 - radically different from [Bucket](Bucket_Algorithm_%28Data_Integration%29) and [Minicon](Minicon_Algorithm)
-- idea: transform [LAV mappings](LAV_Mediation) to [GAV mappings](GAV_Mediation) (called *inverse rules*)
+- idea: transform LAV mappings to [GAV mappings](GAV_Mediation) (called *inverse rules*)
 - to do that, use query unfolding instead of query rewriting
 
 

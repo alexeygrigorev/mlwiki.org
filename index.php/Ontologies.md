@@ -15,7 +15,7 @@ Ontologies are semantic models in [Semantic Web](Semantic_Web)
 Ontologies for Semantic Web:
 - should be understandable by machines
 - should allow [reasoning](Inference_in_Semantic_Web)
-- [RDFS](RDFS) + [OWL](OWL) for describing ontologies on top of RDF graphs
+- [RDFS](RDFS) + [OWL](OWL) for describing ontologies on top of RDF [graphs](Graphs)
 - Tbox in [Descriptive Logic](Descriptive_Logic) as the formal foundation for inferencing
 - in [OWL](OWL) there's a special property: <code>SOME_URI a owl:Ontology</code>
 

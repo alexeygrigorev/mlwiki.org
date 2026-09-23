@@ -12,7 +12,7 @@ Program for admission to the Yandex School of Data Analysis (YADS)
 
 1. [Substitutions](Substitutions). Definition of a substitution, parity of substitutions. Product of substitutions, decomposition of substitutions into a product of transpositions and independent cycles.
 1. [Complex Numbers](Complex_Numbers). Geometric representation, algebraic and trigonometric forms, extraction of roots, roots of unity.
-1. [Systems of Linear Equations](Systems_of_Linear_Equations). Rectangular matrices. Reduction of matrices and systems of linear equations to row echelon form. Gaussian elimination.
+1. [Systems of Linear Equations](System_of_Linear_Equations). Rectangular matrices. Reduction of matrices and systems of linear equations to row echelon form. [Gaussian elimination](Gaussian_Elimination).
 1. Linear dependence and rank. Linear dependence of rows (columns). The fundamental lemma on linear dependence, basis and rank of a system of rows (columns). Rank of a matrix. Criterion for the consistency and determinacy of a system of linear equations in terms of matrix ranks. The fundamental system of solutions of a homogeneous system of linear equations.
 1. [Determinant](Determinants). Determinant of a square matrix, its basic properties. Criterion for the determinant being zero. Formula for expanding the determinant of a matrix along a row (column).
 1. Operations on matrices. Operations on matrices and their properties. Theorem on the rank of a product of two matrices. Determinant of a product of square matrices. Inverse matrix, its explicit form (formula), method of expression using elementary row transformations.
@@ -24,7 +24,7 @@ Program for admission to the Yandex School of Data Analysis (YADS)
 
 
 ## Mathematical Analysis
-1. [Limits and Continuity](Limits_and_Continuity). Limits of sequences and functions. Continuous functions.
+1. [Limits and Continuity](Limits_and_Continuity). [Limits](Limits) of sequences and functions. [Continuous functions](Continuous_Functions).
 1. [Series](Series). Numerical and functional series. Convergence tests (d'Alembert, Cauchy, integral, Leibniz). Absolutely and conditionally convergent series.
 1. [Differentiation](Differentiation). Differentiation of functions. Application of derivatives for finding extrema of functions. Taylor's formula.
 1. [Integration](Integration). Definite and indefinite integrals. Methods of integration. Antiderivatives of various elementary functions.
@@ -34,10 +34,10 @@ Program for admission to the Yandex School of Data Analysis (YADS)
 ## Combinatorics
 1. Basic rules of combinatorics. [Rule for counting combinatorial objects](The_Rules_of_Sums_and_Products_%28Combinatorics%29). [Pigeonhole Principle](Pigeonhole_Principle). Examples.
 1. [Sets](Sets). Euler diagrams, set operations. Inclusion-exclusion principle. Examples.
-1. [Combinations](Combinations). [Partial Permutations](Partial_Permutations), [permutations](Permutations) and [combinations](Combinations). [Binomial Theorem](Binomial_Theorem). [Pascal's Triangle](Combinations#Pascal's_Triangle). [Combinations with repetition](Combinations#Combinations_with_Repetition).
+1. [Combinations](Combinations). [Partial Permutations](Partial_Permutations), [permutations](Permutations) and combinations. [Binomial Theorem](Binomial_Theorem). Pascal's Triangle. Combinations with repetition.
 
 ## Probability Theory
-1. [Basic concepts of probability theory](Probability). Definition of a probability space, simplest discrete cases (ordered and unordered samples), [classical probability model](Probability#Classical_Definition_of_Probability). [Random variable](Random_Variable), [distribution function](Random_Variable#Distribution_Function).
+1. [Basic concepts of probability theory](Probability). Definition of a probability space, simplest discrete cases (ordered and unordered samples), classical probability model. [Random variable](Random_Variable), distribution function.
 1. [Conditional probabilities](Conditional_Probability). Definition of conditional probability, [Law of Total Probability](Law_of_Total_Probability), [Bayes' theorem](Bayes_Theorem).
 1. [Expected value](Expected_Value), [variance](Variance), [correlation](Correlation). Definition of expected value, variance, covariance and correlation, their properties.
 1. [Independence](Independence). Pairwise independence and mutual independence. ([Chain and Sum Rules in Probability](Chain_and_Sum_Rules_in_Probability).)

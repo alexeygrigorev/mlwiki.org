@@ -370,7 +370,7 @@ The big formula:
 - we consider all $n!$ possible permutation matrices $P$
 - why $n!$? we can choose an element from the row 1 in $n$ ways, an element from the row 2 in $n - 1$ ways, ..., the last - in one way
 - $\text{det } A = \sum\limits_{\text{$n!$ permutations $P$}}  \text{det } P \cdot a_{1\alpha_1} a_{2\alpha_2} ... a_{n\alpha_n}$
-- where $\boldsymbol \alpha = (\alpha_1, \ ... \ , \alpha_n)$ is a [Permutation](Permutation) of $(1, \ ... \ , n)$
+- where $\boldsymbol \alpha = (\alpha_1, \ ... \ , \alpha_n)$ is a [Permutation](Permutations) of $(1, \ ... \ , n)$
 
 
 ## The Pivot Formula
@@ -457,7 +457,7 @@ What can we do with determinants?
 
 ### [Cramer's Rule](Cramer's_Rule)
 through the [Cramer's Rule](Cramer's_Rule): 
-- Find the [inverse](Inverse_Matrices) and solve a [System of Linear Equations](System_of_Linear_Equations)
+- Find the inverse and solve a [System of Linear Equations](System_of_Linear_Equations)
 
 ### Volume
 $\text{det } A$ = volume of a parallelepiped formed by vector-rows of $A$ 

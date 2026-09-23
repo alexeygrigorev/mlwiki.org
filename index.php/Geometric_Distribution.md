@@ -10,7 +10,7 @@ title: Geometric Distribution
 A geometric distribution is a Discrete [Distribution](Distribution) of [Random Variable](Random_Variable)s
 
 
-Assume we run a series of [Bernoulli Trial](Bernoulli_Trial)s where the probability of seing the event $A$ is $p$, and, therefore, the probability of not seing $A$ is $q = 1 - p$
+Assume we run a series of [Bernoulli Trial](Bernoulli_Trial)s where the [probability](Probability) of seing the event $A$ is $p$, and, therefore, the probability of not seing $A$ is $q = 1 - p$
 
 The trials stop once $A$ occures, i.e. if $A$ occures at $k$-th trial, it didn't occur in previous $k -1$ trials
 

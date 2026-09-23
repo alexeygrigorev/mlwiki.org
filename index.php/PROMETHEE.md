@@ -171,7 +171,7 @@ PROMETHEE respects the [Preferential Independence](Preferential_Independence) hy
 Recall that according to the theorem all 5 conditions cannot be satisfied at the same time. 
 - [Independence to Third Alternatives](Independence_to_Third_Alternatives), due to pair-wise comparisons is not respected (shown below in [PROMETHEE/Rank Reversal](PROMETHEE_Rank_Reversal))
 - but it satisfies all the rest
-- The [Monotonicity](Monotonicity) property is satisfied [PROMETHEE/Properties#Monotonicity](PROMETHEE_Properties#Monotonicity)
+- The [Monotonicity](Monotonicity) property is satisfied PROMETHEE/Properties#Monotonicity
 
 
 ### [Rank Reversal](Rank_Reversal)

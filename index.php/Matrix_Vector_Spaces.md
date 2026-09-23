@@ -7,7 +7,7 @@ tags:
 title: Matrix Vector Spaces
 ---
 ## Matrix Spaces
-A Matrix space is a [Vector Space](Vector_Space) where elements are matrices
+A [Matrix](Matrix) space is a [Vector Space](Vector_Space) where elements are matrices
 
 
 E.g. Space $M$ - $3 \times 3$ matrices 

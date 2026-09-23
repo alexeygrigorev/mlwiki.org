@@ -90,7 +90,7 @@ $i$th residual is:
 ### Residual Analysis
 <!-- Main: Residual Analysis -->
 [Residual Analysis](Residual_Analysis) - is a powerful mechanism for estimating how good a regression is
-- It gives us $R^2$, called [Coefficient of Determination](Residual_Analysis#Coefficient_of_Determination), which is a measure of how much variance in the data was explained by our regression model
+- It gives us $R^2$, called Coefficient of Determination, which is a measure of how much [variance](Variance) in the data was explained by our regression model
 
 
 ## Regression Inference

@@ -110,7 +110,7 @@ Simplification
   - it may require revising all the mappings 
 - for Web, servers may come and go 
 - so another approach is needed
-- thus, for [Semantic Web](Semantic_Web), [LAV Mediation](LAV_Mediation) is more preferred
+- thus, for [Semantic Web](Semantic_Web), LAV Mediation is more preferred
 
 
 ## See Also

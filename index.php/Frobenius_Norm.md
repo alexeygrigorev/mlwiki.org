@@ -8,7 +8,7 @@ tags:
 title: Frobenius Norm
 ---
 ## Frobenius Norm
-Is a norm for [Matrix Vector Spaces](Matrix_Vector_Spaces): a vector space of matrices
+Is a norm for [Matrix Vector Spaces](Matrix_Vector_Spaces): a [vector space](Vector_Spaces) of matrices
 - Define [Inner Product](Inner_Product) element-wise: $\langle A, B \rangle = \sum_{ij} a_{ij} b_{ij}$
 - then the norm based on this product is $\|  A \|_F = \langle A, A \rangle$
 - this norm is *Frobenius Norm*
@@ -100,7 +100,7 @@ Can also apply SVD to show that:
 
 
 ## Application
-This is used for [Reduced Rank Approximation](Reduced_Rank_Approximation) to show that [SVD](SVD) gives the best approximation in terms of Total Least Squares
+This is used for [Reduced Rank Approximation](Reduced_Rank_Approximation) to show that SVD gives the best approximation in terms of Total Least Squares
 
 
 ## Sources

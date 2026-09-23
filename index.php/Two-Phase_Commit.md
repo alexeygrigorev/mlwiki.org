@@ -7,7 +7,7 @@ tags:
 title: Two-Phase Commit
 ---
 ## Two-Phase Commit
-A way to ensure consistency in a [distributed system](Distributed_Databases)
+A way to ensure [consistency](Consistency_(databases)) in a [distributed system](Distributed_Databases)
 
 
 ## Two Phases

@@ -8,7 +8,7 @@ title: Inference in Semantic Web
 ## Inferencing in [Semantic Web](Semantic_Web)
 In [Semantic Web](Semantic_Web), using [RDFS](RDFS) and [OWL](OWL) many things can be inferred based on facts that are stored in the [RDF](RDF) triple store
 - This is used for [Knowledge Discovery](Knowledge_Discovery) in Semantic Web
-- All [RDF](RDF) statements or RDFS and OWL can be translated to [First Order Logic](First_Order_Logic) and [Descriptive Logic](Descriptive_Logic) to facilitate inferencing
+- All RDF statements or RDFS and OWL can be translated to [First Order Logic](First_Order_Logic) and [Descriptive Logic](Descriptive_Logic) to facilitate inferencing
   - see [Semantic Web Logics](Semantic_Web_Logics)
 
 
@@ -20,7 +20,7 @@ Inferencing - a systematic process of adding new tuples to an RDF graph based on
 
 
 ### Motivating Example
-Suppose you have a [SPARQL](SPARQL) query on your [RDF](RDF) graph 
+Suppose you have a [SPARQL](SPARQL) query on your RDF graph 
 - you look for <code>:RedDelicious</code> apples
 - you are doing it in the <code>:Fruit</code> section 
 - but the result is empty, because <code>:RedDelicious</code> is an <code>:Apple</code>, not a <code>:Fruit</code>

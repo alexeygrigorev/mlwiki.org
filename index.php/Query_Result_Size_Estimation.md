@@ -8,14 +8,14 @@ title: Query Result Size Estimation
 ---
 ## Query Result Size Estimation
 Choosing a [physical operator](Physical_Operators_%28databases%29) for a [Relational Algebra](Relational_Algebra) operator depends on
-- a particular case and statistics kept in [Database System Catalog](Database_System_Catalog)
+- a particular case and [statistics](Statistics) kept in [Database System Catalog](Database_System_Catalog)
 - note that this data is kept only for base relations, not for sub-results
   - but we need to be able to estimate them for sub-results as well
  |
 <img src="https://raw.github.com/alexeygrigorev/wiki-figures/master/ulb/dbsa/plan-selection-int-res.png" alt="Image">
 - note that these measures depend only on
   - statistics 
-  - and [Logical Query Plan](Query_Plan#Logical_Query_Plan) and not on [Physical Query Plan](Query_Plan#Physical_Query_Plan) (no matter what [physical algorithm](Physical_Operators_%28databases%29) we apply we will end with exactly same result)
+  - and [Logical Query Plan](Query_Plan#Logical_Query_Plan) and not on Physical Query Plan (no matter what physical algorithm we apply we will end with exactly same result)
 
 So the goal:
 - for every internal node $n$ estimate parameters 
@@ -65,7 +65,7 @@ Example
 - Given: $R(A, B, C)$, $T(R) = 10000$, $V(R, A) = 50$
 - $T(\sigma_{A = 10}(R)) = \cfrac{T(R)}{V(R, A)} = \cfrac{10000}{50} = 200$
 
-But typically [Databases](Databases) collect some statistics in the [Database System Catalog](Database_System_Catalog)
+But typically [Databases](Databases) collect some statistics in the Database System Catalog
 
 |   range   |  [1, 10)   |  [11, 20)  |  [21, 30)  |  [31, 40)  |  [41, 50)  ||   # of tuples   |  50  |  2000  |  2000  |  3000  |  2950  |
 - suppose we have [equal-width histogram](Database_System_Catalog#Equal-Width_Histogram) on $A$:

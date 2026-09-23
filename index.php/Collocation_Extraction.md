@@ -100,7 +100,7 @@ The idea:
 
 ### Other Tests
 Other tests can also be used 
-- e.g. [Chi-Squared Test](Chi-Squared_Test) (see [Chi-Squared Test of Independence](Chi-Squared_Test_of_Independence))
+- e.g. Chi-Squared Test (see [Chi-Squared Test of Independence](Chi-Squared_Test_of_Independence))
 - it's a good alternative for t-test
 
 it's applied to 2-by-2 table 
@@ -120,7 +120,7 @@ To compare $P(w_1, w_2)$ with $P(w_1) \, P(w_2)$ we can use the Odds Ratio:
 ### [Point-Wise Mutual Information](Point-Wise_Mutual_Information)
 [Mutual Information](Mutual_Information):
 - it's a measure on how much one word tells about the other 
-- In [Information Theory](Information_Theory), Mutual Information is defined between Random Variables, not words (values of RVs)
+- In [Information Theory](Information_Theory), Mutual Information is defined between [Random Variables](Random_Variable), not words (values of RVs)
 - which is why we use PMI
 
 Point-Wise Mutual Information (PMI):
