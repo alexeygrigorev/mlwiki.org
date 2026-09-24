@@ -26,7 +26,7 @@ Edit any article and submit a pull request. Articles are Markdown files in `inde
 ```yaml
 ---
 layout: default
-permalink: /index.php/Article_Name
+permalink: /Article_Name
 tags:
 - machine-learning
 title: Article Name
